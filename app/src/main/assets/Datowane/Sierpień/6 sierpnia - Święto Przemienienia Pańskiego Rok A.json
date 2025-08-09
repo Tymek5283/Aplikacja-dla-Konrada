@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432649.6-sierpnia-swieto-Przemienienia-Panskiego-Rok-A",
+  "tytul_dnia": "6 sierpnia - Święto Przemienienia Pańskiego Rok A",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 7,9-10.13-14",
+      "opis": "Wieczne panowanie Syna Człowieczego",
+      "tekst": "Patrzałem, aż postawiono trony, a Przedwieczny zajął miejsce. Szata Jego była biała jak śnieg, a włosy Jego głowy jakby z czystej wełny. Tron Jego był z ognistych płomieni, jego koła - płonący ogień. Strumień ognia się rozlewał i wypływał od Niego. Tysiąc tysięcy służyło Mu, a dziesięć tysięcy po dziesięć tysięcy stało przed Nim. Sąd zasiadł i otwarto księgi.\nPatrzałem w nocnych widzeniach: a oto na obłokach nieba przybywa jakby Syn Człowieczy. Podchodzi do Przedwiecznego i wprowadzają Go przed Niego. Powierzono Mu panowanie, chwałę i władzę królewską, a służyły Mu wszystkie narody, ludy i języki. Panowanie Jego jest wiecznym panowaniem, które nie przeminie, a Jego królestwo nie ulegnie zagładzie.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97,1-2.5-6.9",
+      "opis": "Refren:",
+      "tekst": "Pan wywyższony króluje nad ziemią\nPan króluje, wesel się, ziemio,\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego,\nprawo i sprawiedliwość podstawą Jego tronu.\nGóry jak wosk topnieją przed obliczem Pana,\nprzed obliczem władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa,\na wszystkie ludy widzą Jego chwałę.\nPonad całą ziemię\nTyś bowiem wywyższony\ni nieskończenie wyższy\nponad wszystkich bogów."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 P 1,16-19",
+      "opis": "Naoczni świadkowie wielkości Jezusa",
+      "tekst": "Najmilsi:\nNie za wymyślonymi bowiem mitami postępowaliśmy wtedy, gdy daliśmy wam poznać moc i przyjście Pana naszego Jezusa Chrystusa, ale nauczaliśmy jako naoczni świadkowie Jego wielkości.\nOtrzymał bowiem od Boga Ojca cześć i chwałę, gdy taki oto głos Go doszedł od wspaniałego Majestatu: „To jest mój Syn umiłowany, w którym mam upodobanie”. I słyszeliśmy, jak ten głos doszedł z nieba, kiedy z Nim razem byliśmy na górze świętej.\nMamy jednak mocniejszą, prorocką mowę, a dobrze zrobicie, jeżeli będziecie przy niej trwali jak przy lampie, która świeci w ciemnym miejscu, aż dzień zaświta, a gwiazda poranna wzejdzie w waszych sercach.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 17,5c",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "To jest mój Syn umiłowany,\nw którym mam upodobanie,\nJego sluchajcie!"
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17,1-9",
+      "opis": "Przemienienie Pańskie",
+      "tekst": "Jezus wziął z sobą Piotra, Jakuba i brata jego, Jana, zaprowadził ich na górę wysoką, osobno. Tam przemienił się wobec nich: Twarz Jego zajaśniała jak słońce, odzienie zaś stało się białe jak światło.\nA oto im się ukazali Mojżesz i Eliasz, którzy rozmawiali z Nim. Wtedy Piotr rzekł do Jezusa: „Panie, dobrze, że tu jesteśmy; jeśli chcesz, postawię tu trzy namioty: jeden dla Ciebie, jeden dla Mojżesza i jeden dla Eliasza”.\nGdy on jeszcze mówił, oto obłok świetlany osłonił ich, a z obłoku odezwał się głos: „To jest mój Syn umiłowany, w którym mam upodobanie, Jego słuchajcie”\nUczniowie, słysząc to, upadli na twarz i bardzo się zlękli.\nA Jezus zbliżył się do nich, dotknął ich i rzekł: „Wstańcie, nie lękajcie się”. Gdy podnieśli oczy, nikogo nie widzieli, tylko samego Jezusa.\nA gdy schodzili z góry, Jezus przykazał im mówiąc: „Nie opowiadajcie nikomu o tym widzeniu, aż Syn Człowieczy zmartwychwstanie”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Pieśń bezpośrednio opisuje scenę Przemienienia, nawiązując do światłości Taboru i przygotowania na mękę, co jest istotą święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Treść pieśni wprost odnosi się do Przemienienia, w którym szaty Jezusa stały się białe jak śnieg, a On sam objawił rąbek swego Bóstwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "306",
+      "piesn": "Najsłodszy Jezu",
+      "opis": "Refren 'Cudowny Boże, przez Twe przemienienie, strapienia nasze obróć w pocieszenie' idealnie oddaje sens tego święta i prośbę wiernych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń o królewskiej chwale Pana, która doskonale koresponduje z wizją Syna Człowieczego z pierwszego czytania i psalmem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "230",
+      "piesn": "Światłości wieczna",
+      "opis": "Nawiązuje do Jezusa jako Światłości, co jest kluczowym obrazem Ewangelii, gdzie twarz Chrystusa zajaśniała jak słońce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to radosna pieśń chwały na cześć Pana jako Króla, co odpowiada treści psalmu responsoryjnego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia, która wyraża radość z Bożej obecności i Jego chwały, objawionej na górze Tabor.",
+      "moment": "ogolne"
+    }
+  ]
+}

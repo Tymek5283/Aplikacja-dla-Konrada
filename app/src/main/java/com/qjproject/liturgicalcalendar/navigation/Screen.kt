@@ -18,4 +18,5 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
     object DayDetails : Screen("day_details/{dayId}", "Szczegóły Dnia", Icons.Default.Info) {
         fun createRoute(dayId: String) = "day_details/$dayId"
     }
+
 }

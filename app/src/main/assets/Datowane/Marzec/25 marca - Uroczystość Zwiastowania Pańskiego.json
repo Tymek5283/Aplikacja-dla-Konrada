@@ -1,0 +1,87 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432995.25-marca-uroczystosc-Zwiastowania-Panskiego",
+  "tytul_dnia": "25 marca - Uroczystość Zwiastowania Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 7,10-14",
+      "opis": "Panna pocznie i porodzi Syna",
+      "tekst": "Pan przemówił do Achaza tymi słowami: „Proś dla siebie o znak od Pana, Boga twego, czy to głęboko w Otchłani, czy to wysoko w górze”.\nLecz Achaz odpowiedział: „Nie będę prosił i nie będę wystawiał Pana na próbę”.\nWtedy rzekł Izajasz: „Słuchajcie więc, domu Dawidowy: Czyż mało wam naprzykrzać się ludziom, iż naprzykrzacie się także mojemu Bogu? Dlatego Pan sam da wam znak: Oto Panna pocznie i porodzi syna, i nazwie go imieniem Emmanuel, albowiem Bóg z nami”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 40,7-8a.8b-10.11",
+      "opis": "Refren:",
+      "tekst": "Przychodzę, Boże, pełnić Twoją wolę.\nNie chciałeś ofiary krwawej ani płodów ziemi,\nlecz otwarłeś mi uszy:\nnie żądałeś całopalenia i ofiary za grzechy.\nWtedy powiedziałem: „Oto przychodzę.\nW zwoju księgi jest o mnie napisane:\nRadością jest dla mnie pełnić Twoją wolę, mój Boże,\na Twoje prawo mieszka w moim sercu”.\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu\ni nie powściągałem warg moich, o czym Ty wiesz, Panie.\nSprawiedliwości Twojej nie kryłem w głębi serca,\ngłosiłem Twoją wierność i pomoc.\nNie taiłem Twojej łaski ani Twej wierności\nprzed wielkim zgromadzeniem."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 10,4-10",
+      "opis": "Chrystus przychodzi pełnić wolę Ojca",
+      "tekst": "Bracia:\nNiemożliwe jest to, aby krew cielców i kozłów usuwała grzechy. Przeto Chrystus przychodząc na świat, mówi: „Ofiary ani daru nie chciałeś, aleś Mi utworzył ciało; całopalenia i ofiary za grzech nie podobały się Tobie. Wtedy rzekłem: «Oto idę, w zwoju księgi napisano o Mnie, abym spełniał wolę Twoją, Boże»”.\nWyżej powiedział: „Ofiar, darów, całopaleń i ofiar za grzechy nie chciałeś, i nie podobały się Tobie”, choć składa się je na podstawie Prawa. Następnie powiedział: „Oto idę, abym spełniał wolę Twoją”. Usuwa jedną ofiarę, aby ustanowić inną. Na mocy tej woli uświęceni jesteśmy przez ofiarę ciała Jezusa Chrystusa raz na zawsze.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 1,14ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo stało się ciałem i zamieszkało między nami,\ni widzieliśmy Jego chwałę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1,26-38",
+      "opis": "Maryja pocznie i porodzi Syna",
+      "tekst": "Bóg posłał anioła Gabriela do miasta w Galilei, zwanego Nazaret, do Dziewicy poślubionej mężowi, imieniem Józef, z rodu Dawida; a Dziewicy było na imię Maryja.\nAnioł wszedł do Niej i rzekł: „Bądź pozdrowiona, pełna łaski, Pan z Tobą, błogosławiona jesteś między niewiastami”.\nOna zmieszała się na te słowa i rozważała, co miałoby znaczyć to pozdrowienie.\nLecz anioł rzekł do Niej: „Nie bój się, Maryjo, znalazłaś bowiem łaskę u Boga. Oto poczniesz i porodzisz Syna, któremu nadasz imię Jezus. Będzie On wielki i będzie nazwany Synem Najwyższego, a Pan Bóg da Mu tron Jego praojca, Dawida. Będzie panował nad domem Jakuba na wieki, a Jego panowaniu nie będzie końca”.\nNa to Maryja rzekła do anioła: „Jakże się to stanie, skoro nie znam męża?”\nAnioł jej odpowiedział: „Duch święty zstąpi na Ciebie i moc Najwyższego osłoni Cię. Dlatego też Święte, które się narodzi, będzie nazwane Synem Bożym. A oto również krewna Twoja, Elżbieta, poczęła w swej starości syna, i jest już w szóstym miesiącu ta, która uchodzi za niepłodną. Dla Boga bowiem nie ma nic niemożliwego”.\nNa to rzekła Maryja: „Oto ja służebnica Pańska, niech mi się stanie według twego słowa”. Wtedy odszedł od Niej anioł.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń jest bezpośrednim opisem sceny Zwiastowania, co czyni ją idealnym wyborem na rozpoczęcie liturgii tej uroczystości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń ta łączy upadek Adama z poselstwem anielskim do Maryi, ukazując Zwiastowanie jako początek dzieła odkupienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń oparta na słowach Pozdrowienia Anielskiego, które są centralnym punktem Ewangelii tego dnia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "407",
+      "piesn": "Zdrowaś Maryjo, łaski pełna",
+      "opis": "Jest to modlitwa 'Zdrowaś Maryjo' w formie śpiewanej, doskonała na moment uwielbienia po Komunii Świętej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń ta jest bezpośrednim nawiązaniem do proroctwa Izajasza z pierwszego czytania, które spełnia się w Zwiastowaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna, która w uroczysty sposób oddaje cześć Matce Bożej, co jest stosowne w dniu Zwiastowania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "Jest to parafraza antyfony 'Salve Regina', która wielbi Maryję jako Matkę i Królową, co podkreśla Jej godność objawioną w Zwiastowaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "395",
+      "piesn": "Witaj, Gwiazdo morza",
+      "opis": "Pieśń ta, oparta na hymnie 'Ave Maris Stella', odnosi się do imienia Ewy i roli Maryi jako nowej Ewy, co jest teologicznie powiązane ze Zwiastowaniem.",
+      "moment": "ogolne"
+    }
+  ]
+}

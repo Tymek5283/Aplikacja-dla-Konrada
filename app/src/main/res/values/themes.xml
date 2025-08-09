@@ -8,5 +8,7 @@
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
     </style>
 
-    <style name="Theme.LiturgicalCalendar" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.LiturgicalCalendar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background_color</item>
+    </style>
 </resources>

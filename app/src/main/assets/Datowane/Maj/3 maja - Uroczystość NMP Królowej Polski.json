@@ -1,0 +1,87 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432987.3-maja-uroczystosc-NMP-Krolowej-Polski-glownej-patronki-Polski",
+  "tytul_dnia": "3 maja - Uroczystość NMP Królowej Polski",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 11,19a;12,1.3-6a.10ab",
+      "opis": "Wielki znak ukazał się na niebie",
+      "tekst": "Świątynia Boga w niebie się otwarła, i Arka Jego Przymierza ukazała się w Jego świątyni. Potem ukazał się wielki znak na niebie: Niewiasta obleczona w słońce i księżyc pod jej stopami, a na jej głowie wieniec z gwiazd dwunastu.\nUkazał się też inny znak na niebie: Oto wielki Smok ognisty; ma siedem głów i dziesięć rogów, a na głowach siedem diademów. Ogon jego zmiata trzecią część gwiazd z nieba i rzucił je na ziemię. Smok stanął przed mającą urodzić Niewiastą, ażeby skoro tylko porodzi, pożreć jej Dziecko. I porodziła Syna - mężczyznę, który będzie pasł wszystkie narody rózgą żelazną. Dziecko jej zostało porwane do Boga i do Jego tronu. Niewiasta zaś zbiegła na pustynię, gdzie ma miejsce przygotowane przez Boga.\nI usłyszałem donośny głos mówiący w niebie: „Teraz nastało zbawienie, potęga i królowanie Boga naszego i władza Jego Pomazańca”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Jdt 13,18bcda.19-20",
+      "opis": "Refren:",
+      "tekst": "Tyś wielką chlubą naszego narodu.\nBłogosławiona jesteś, córko, przez Boga Najwyższego\nspomiędzy wszystkich niewiast na ziemi,\ni niech będzie błogosławiony Pan Bóg,\nStwórca nieba i ziemi.\nTwoja ufność nie zatrze się aż na wieki\nw sercach ludzkich wspominających moc Boga.\nNiech Bóg to sprawi,\nabyś była wywyższona na wieki."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Kol 1,12-16",
+      "opis": "Bóg nas przeniósł do królestwa swojego Syna",
+      "tekst": "Bracia:\nZ radością dziękujcie Ojcu, który was uzdolnił do uczestnictwa w dziale świętych w światłości. On uwolnił nas spod władzy ciemności i przeniósł do królestwa swego umiłowanego Syna, w którym mamy odkupienie, odpuszczenie grzechów.\nOn jest obrazem Boga niewidzialnego, Pierworodnym wobec każdego stworzenia, bo w Nim zostało wszystko stworzone: i to, co w niebiosach, i to, co na ziemi, byty widzialne i niewidzialne, czy Trony, czy Panowania, czy Zwierzchności, czy Władze. Wszystko przez Niego i dla Niego zostało stworzone.\nOn jest przed wszystkim i wszystko w Nim ma istnienie.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 19,27",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Jezus powiedział do ucznia: „Oto Matka twoja”,\ni od tej godziny uczeń wziął Ją do siebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 19,25-27",
+      "opis": "Oto Matka twoja",
+      "tekst": "Obok krzyża Jezusa stały: Matka Jego i siostra Matki Jego, Maria, żona Kleofasa, i Maria Magdalena.\nKiedy więc Jezus ujrzał Matkę i stojącego obok Niej ucznia, którego miłował, rzekł do Matki: „Niewiasto, oto syn Twój”. Następnie rzekł do ucznia: „Oto Matka twoja”.\nI od tej godziny uczeń wziął Ją do siebie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Jest to pieśń, która idealnie wpisuje się w charakter uroczystości, oddając cześć Maryi jako Królowej Polski.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "340",
+      "piesn": "Jak szczęśliwa Polska cała",
+      "opis": "Pieśń o charakterze maryjnym i patriotycznym, podkreśla szczególną opiekę Matki Bożej nad Polską, co pasuje do momentu ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Hymn ten jest wyrazem głębokiej czci i oddania Matce Bożej, co współgra z Ewangelią, gdzie Jezus oddaje nas pod Jej opiekę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Majestatyczna pieśń podkreślająca królewską godność Maryi, nawiązując do wizji Niewiasty obleczonej w słońce z Apokalipsy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Pieśń ta, będąca modlitwą za Ojczyznę, stanowi doskonałe zwieńczenie uroczystości o charakterze narodowym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna, historyczny hymn Polaków, jest nieodzownym elementem tej uroczystości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "345",
+      "piesn": "Królowo ziem polskich",
+      "opis": "Pieśń bezpośrednio zwraca się do Maryi jako Królowej Polski, co jest sercem dzisiejszej celebracji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Manifest wiary o silnym wydźwięku patriotycznym, doskonale pasujący do charakteru uroczystości 3 Maja.",
+      "moment": "ogolne"
+    }
+  ]
+}

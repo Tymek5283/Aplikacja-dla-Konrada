@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432984.6-maja-sw-Apostolow-Filipa-i-Jakuba",
+  "tytul_dnia": "6 maja - św. Apostołów Filipa i Jakuba",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 15,1-8",
+      "opis": "Zmartwychwstały Chrystus ukazał się Jakubowi",
+      "tekst": "Przypominam, bracia, Ewangelię, którą wam głosiłem, którąście przyjęli i w której też trwacie. Przez nią również będziecie zbawieni, jeżeli ją zachowacie tak, jak wam rozkazałem. Chyba żebyście uwierzyli na próżno.\nPrzekazałem wam na początku to, co przejąłem; że Chrystus umarł za nasze grzechy, zgodnie z Pismem, że został pogrzebany, że zmartwychwstał trzeciego dnia, zgodnie z Pismem: i że ukazał się Kefasowi, a potem Dwunastu, później zjawił się więcej niż pięciuset braciom równocześnie; większość z nich żyje dotąd, niektórzy zaś pomarli. Potem ukazał się Jakubowi, później wszystkim Apostołom. W końcu, już po wszystkich, ukazał się także i mnie jako poronionemu płodowi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19,2-3.4-5",
+      "opis": "Refren:",
+      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14,6b i 9c",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ja jestem drogą, prawdą i życiem;\nFilipie, kto mnie widzi, widzi i Ojca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 14,6-14",
+      "opis": "Ja jestem w Ojcu, a Ojciec we Mnie",
+      "tekst": "Jezus powiedział do Tomasza:\n„Ja jestem drogą, prawdą, i życiem. Nikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie. Gdybyście Mnie poznali, znalibyście i mojego Ojca. Ale teraz już Go znacie i zobaczyliście”.\nRzekł do Niego Filip: „Panie, pokaż nam Ojca, a to nam wystarczy”.\nOdpowiedział mu Jezus: «Filipie, tak długo jestem z wami, a jeszcze Mnie nie poznałeś? Kto Mnie zobaczył, zobaczył także i Ojca. Dlaczego więc mówisz: «Pokaż nam Ojca»? Czy nie wierzysz, że Ja jestem w Ojcu, a Ojciec we Mnie? Słów tych, które wam mówię, nie wypowiadam od siebie. Ojciec, który trwa we Mnie, On sam dokonuje tych dzieł. Wierzcie Mi, że Ja jestem w Ojcu, a Ojciec we Mnie. Jeżeli zaś nie, wierzcie przynajmniej ze względu na same dzieła.\nZaprawdę, zaprawdę, powiadam wam: Kto we Mnie wierzy, będzie także dokonywał tych dzieł, których Ja dokonuję, owszem, i większe od tych uczyni, bo Ja idę do Ojca. A o cokolwiek prosić będziecie w imię moje, to uczynię, aby Ojciec był otoczony chwałą w Synu. O cokolwiek prosić Mnie będziecie w imię moje, Ja to spełnię”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń ta jest hołdem dla Apostołów, na których fundamencie zbudowany jest Kościół, co idealnie pasuje na rozpoczęcie ich święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "447",
+      "piesn": "Filipie, jakże jaśniejesz",
+      "opis": "Pieśń dedykowana dzisiejszym patronom, bezpośrednio odnosi się do ich postaci i roli w Kościele, dlatego pasuje do przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Nawiązuje wprost do słów Jezusa z Ewangelii: 'Ja jestem drogą, prawdą i życiem', co stanowi głęboką refleksję na Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Ta pieśń uwielbienia odzwierciedla treść psalmu, który mówi o głosie apostołów rozchodzącym się po całej ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostolskie posłanie do głoszenia Ewangelii, o którym mowa w psalmie, jest głównym tematem tej pieśni na rozesłanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest centralna w święto Apostołów, którzy tę wiarę głosili i za nią oddali życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że Chrystus jest głową Kościoła, co jest prawdą, którą głosili i której świadkami byli Apostołowie.",
+      "moment": "ogolne"
+    }
+  ]
+}

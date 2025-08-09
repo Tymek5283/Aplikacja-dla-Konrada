@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432644.14-sierpnia-sw-Maksymiliana-Marii-Kolbego",
+  "tytul_dnia": "14 sierpnia - św. Maksymiliana Marii Kolbego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 3,1-9 lub 1 J 3,13-16",
+      "opis": "Bóg przyjął ich jak całopalną ofiarę / Oddać życie za braci",
+      "tekst": "Dusze sprawiedliwych są w ręku Boga i nie dosięgnie ich męka. Zdało się oczom głupich, że pomarli, zejście ich poczytano za nieszczęście i odejście od nas za unicestwienie, a oni trwają w pokoju. Choć nawet w ludzkim rozumieniu doznali kaźni, nadzieja ich pełna jest nieśmiertelności.\nPo nieznacznym skarceniu dostąpią dóbr wielkich, Bóg ich bowiem doświadczył i znalazł ich godnymi siebie. Doświadczył ich jak złoto w tyglu i przyjął ich jak całopalną ofiarę.\nW dzień nawiedzenia swego zajaśnieją i rozbiegną się jak iskry po ściernisku. Będą sądzić ludy, zapanują nad narodami, a Pan królować będzie nad nimi na wieki.\nCi, którzy Mu zaufali, zrozumieją prawdę, wierni w miłości będą przy Nim trwali: łaska bowiem i miłosierdzie dla Jego wybranych.\nOto słowo Boże\nalbo\nNie dziwcie się, bracia, jeśli świat was nienawidzi. My wiemy, że przeszliśmy ze śmierci do życia, bo miłujemy braci, kto zaś nie miłuje, trwa w śmierci. Każdy, kto nienawidzi swego brata, jest zabójcą, a wiecie, że żaden zabójca nie nosi w sobie życia wiecznego.\nPo tym poznaliśmy miłość, że On oddał za nas życie swoje. My także winniśmy oddać życie za braci.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116 B,10-11.12-13.16-17",
+      "opis": "Refren:",
+      "tekst": "Cenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nO Panie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy.\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 12,25",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Kto nienawidzi swego życia na tym świecie,\nzachowa je na życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15,12-16",
+      "opis": "Dowód największej miłości",
+      "tekst": "Jezus powiedział do swoich uczniów: „To jest moje przykazanie, abyście się wzajemnie miłowali, tak jak Ja was umiłowałem. Nikt nie ma większej miłości od tej, gdy kto życie swoje oddaje za przyjaciół swoich. Wy jesteście przyjaciółmi moimi, jeżeli czynicie to, co wam przykazuję. Już was nie nazywam sługami, bo sługa nie wie, co czyni pan jego, ale nazwałem was przyjaciółmi, albowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego. Nie wyście Mnie wybrali, ale Ja was wybrałem i przeznaczyłem was na to, abyście szli i owoc przynosili i by owoc wasz trwał, aby wszystko dał wam Ojciec, o cokolwiek Go poprosicie w imię moje”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "503",
+      "piesn": "Ojcze Kolbe, tyś na ziemi",
+      "opis": "Pieśń wprost przywołuje postać Świętego, ukazując go jako siewcę miłości i wzór świętości, co stanowi idealne wprowadzenie w liturgię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "502",
+      "piesn": "Ojcze Kolbe, któryś chwałą",
+      "opis": "Ta pieśń jest modlitwą za Ojczyznę przez wstawiennictwo św. Maksymiliana, męczennika miłości, którego życie było ofiarą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do Ewangelii o przykazaniu miłości, której najdoskonalszym przykładem jest ofiara z życia za przyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn na cześć męczenników jest wyrazem wdzięczności Bogu za dar świętości i świadectwa św. Maksymiliana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta, oddając cześć męczennikowi, jest jednocześnie prośbą o wytrwanie przy Chrystusie, co jest doskonałym przesłaniem na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "321",
+      "piesn": "Błękitne rozwińmy sztandary",
+      "opis": "Jako Rycerz Niepokalanej, św. Maksymilian był Jej oddany bezgranicznie, dlatego pieśń ta, pełna ducha walki o dobro, dobrze oddaje jego zapał.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że miłość i ofiara Chrystusa są źródłem nadziei i pokoju, co było fundamentem życia i śmierci św. Maksymiliana.",
+      "moment": "ogolne"
+    }
+  ]
+}

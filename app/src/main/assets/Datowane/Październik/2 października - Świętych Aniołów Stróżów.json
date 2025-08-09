@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432569.2-pazdziernika-Swietych-Aniolow-Strozow",
+  "tytul_dnia": "2 października - Świętych Aniołów Stróżów",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 23,20-23",
+      "opis": "Anioł strzeże w czasie drogi",
+      "tekst": "Tak mówi Pan:\n„Oto Ja posyłam anioła przed tobą, aby cię strzegł w czasie twojej drogi i doprowadził cię do miejsca, które ci wyznaczyłem. Szanuj go i bądź uważny na jego słowa. Nie sprzeciwiaj się mu w niczym, gdyż nie przebaczy waszych przewinień, bo imię moje jest w nim. Jeśli będziesz wiernie słuchał jego głosu i wykonywał to wszystko, co ci polecam, będę nieprzyjacielem twoich nieprzyjaciół i będę odnosił się wrogo do odnoszących się tak do ciebie. Mój anioł poprzedzi cię i zaprowadzi do Amoryty, Chetyty, Peryzzyty, Kananejczyka, Chiwwity, Jebuzyty, i Ja ich wygładzę”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 91,1-2.3-4.5-6.10-11",
+      "opis": "Refren:",
+      "tekst": "Aniołom kazał, aby strzegli ciebie.\nKto się w opiekę oddał Najwyższemu\ni mieszka w cieniu Wszechmocnego,\nmówi do Pana: „Tyś moją ucieczką i twierdzą,\nBoże mój, któremu ufam».\nBo On sam cię wyzwoli z sideł myśliwego\ni od słowa niosącego zgubę. Okryje cię swoimi piórami,\npod Jego skrzydła się schronisz.\nWierność Jego jest puklerzem i tarczą;\nnie ulękniesz się strachu nocnego.\nAni strzały za dnia lecącej,\nani zarazy, co skrada się w mroku,\nani moru niszczącego w południe.\nNie przystąpi do ciebie niedola,\na cios nie dosięgnie twego namiotu.\nBo rozkazał swoim aniołom,\naby cię strzegli na wszystkich twych drogach."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 103,21",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławcie Pana, wszyscy Jego aniołowie,\nwszyscy słudzy, pełniący Jego wolę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18,1-5.10",
+      "opis": "Aniołowie ich w niebie wpatrują się zawsze w oblicze Ojca mojego",
+      "tekst": "W tym czasie uczniowie przystąpili do Jezusa z zapytaniem: „Kto właściwie jest największy w królestwie niebieskim?”\nOn przywołał dziecko, postawił je przed nimi i rzekł: „Zaprawdę, powiadam wam: Jeśli się nie odmienicie i nie staniecie jak dzieci, nie wejdziecie do królestwa niebieskiego. Kto się więc uniży jak to dziecko, ten jest największy w królestwie niebieskim. I kto by przyjął jedno takie dziecko w imię moje, Mnie przyjmuje.\nStrzeżcie się, żebyście nie gardzili żadnym z tych małych; albowiem powiadam wam: Aniołowie ich w niebie wpatrują się zawsze w oblicze Ojca mojego, który jest w niebie”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "421",
+      "piesn": "Aniele, duchu wspaniały",
+      "opis": "Pieśń ta w uroczysty sposób wprowadza w tajemnicę obecności i opieki aniołów, co doskonale pasuje na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "425",
+      "piesn": "Poślij, o Panie, swego anioła",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do pierwszego czytania z Księgi Wyjścia, gdzie Bóg obiecuje posłać anioła, by strzegł ludu w drodze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "422",
+      "piesn": "Aniele, stróżu duszy",
+      "opis": "Modlitewny charakter pieśni i prośba o wsparcie w pokusach czynią ją odpowiednią na moment komunii świętej i osobistej refleksji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to muzyczna parafraza Psalmu 91, który jest psalmem responsoryjnym tego dnia, mówiącym o anielskiej opiece.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "420",
+      "piesn": "Aniele Boży",
+      "opis": "Najbardziej znana modlitwa do Anioła Stróża, idealna na zakończenie mszy, by powierzyć się jego opiece na dalszą część dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "423",
+      "piesn": "Mój aniele ukochany",
+      "opis": "Pieśń wyraża pragnienie naśladowania anioła w miłości do Boga, co wpisuje się w ewangeliczną zachętę do stawania się jak dzieci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "424",
+      "piesn": "O mój ty aniele",
+      "opis": "Prosta i ufna pieśń, która podkreśla rolę anioła jako przewodnika do nieba, co jest głównym tematem wspomnienia.",
+      "moment": "ogolne"
+    }
+  ]
+}

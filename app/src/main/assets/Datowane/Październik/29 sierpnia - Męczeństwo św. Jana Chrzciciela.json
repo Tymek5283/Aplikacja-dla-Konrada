@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432633.29-sierpnia-Meczenstwo-sw-Jana-Chrzciciela",
+  "tytul_dnia": "29 sierpnia - Męczeństwo św. Jana Chrzciciela",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 1,17-19",
+      "opis": "Mów wszystko, co ci rozkażę",
+      "tekst": "Pan skierował do mnie następujące słowa: „Przepasz swoje biodra, wstań i mów wszystko, co ci rozkażę. Nie lękaj się ich, bym cię czasem nie napełnił lękiem przed nimi. A oto Ja czynię cię dzisiaj twierdzą warowną, kolumną ze stali i murem spiżowym przeciw całej ziemi, przeciw królom judzkim i ich przywódcom, ich kapłanom i ludowi tej ziemi. Będą walczyć przeciw tobie, ale nie zdołają cię zwyciężyć, gdyż Ja jestem z tobą, mówi Pan, by cię ochraniać”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 71, 1-6.15ab i 17",
+      "opis": "Refren: Usta me głoszą Twoją sprawiedliwość.",
+      "tekst": "W Tobie, Panie, ucieczka moja,\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości,\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nBądź dla mnie skałą schronienia\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą.\nBoże mój, wyrwij mnie z rąk niegodziwca.\nBo Ty, mój Boże, jesteś moją nadzieją,\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin,\nod łona matki moim opiekunem,\nCiebie zawsze wysławiałem.\nMoje usta będą głosiły Twoją sprawiedliwość\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości\ni do tej chwili głoszę Twoje cuda."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5,10",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości,\nalbowiem oni będą nazwani Synami Bożymi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6,17-29",
+      "opis": "Ścięcie Jana Chrzciciela",
+      "tekst": "Herod kazał pochwycić Jana i związanego trzymał w więzieniu, z powodu Herodiady, żony brata swego Filipa, którą wziął za żonę. Jan bowiem wypominał Herodowi: „Nie wolno ci mieć żony twego brata”. A Herodiada zawzięła się na niego i rada byłaby go zgładzić, lecz nie mogła. Herod bowiem czuł lęk przed Janem, znając go jako męża prawego i świętego, i brał go w obronę. Ilekroć go posłyszał, odczuwał duży niepokój, a przecież chętnie go słuchał.\nOtóż chwila sposobna nadeszła, kiedy Herod w dzień swoich urodzin wyprawił ucztę swym dostojnikom, dowódcom wojskowym i osobom znakomitym w Galilei. Gdy córka Herodiady weszła i tańczyła, spodobała się Herodowi i współbiesiadnikom. Król rzekł do dziewczęcia: „Proś mnie, o co chcesz, a dam ci”. Nawet jej przysiągł: „Dam ci, o co tylko poprosisz, nawet połowę mojego królestwa”. Ona wyszła i zapytała swą matkę: „O co mam prosić?” Ta odpowiedziała: „O głowę Jana Chrzciciela”. Natychmiast weszła z pośpiechem do króla i prosiła: „Chcę, żebyś mi zaraz dał na misie głowę Jana Chrzciciela”. A król bardzo się zasmucił, ale przez wzgląd na przysięgę i na biesiadników nie chciał jej odmówić. Zaraz też król posłał kata i polecił przynieść głowę jego. Ten poszedł, ściął go w więzieniu i przyniósł głowę jego na misie; dał ją dziewczęciu, a dziewczę dało swej matce.\nUczniowie Jana, dowiedziawszy się o tym, przyszli, zabrali jego ciało i złożyli je w grobie.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "510",
+      "piesn": "Zamilkły usta proroka",
+      "opis": "Pieśń ta bezpośrednio opowiada o męczeńskiej śmierci Jana Chrzciciela, co czyni ją idealnym wprowadzeniem w liturgię tego wspomnienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn na cześć męczenników, który podkreśla, że ich krew użyźnia ziemię pod zasiew wiary, co doskonale odnosi się do ofiary Jana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń nawiązuje do błogosławieństwa dla cierpiących prześladowanie dla sprawiedliwości, co jest istotą męczeństwa Jana Chrzciciela.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Jest to modlitwa do św. Jana Chrzciciela, prosząca o jego wstawiennictwo i naśladowanie jego odwagi w obronie prawa Bożego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Ogólna pieśń do męczennika, która prosi o wierność Chrystusowi i wytrwanie w trudach, co jest głównym przesłaniem tego dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Chociaż jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do postaci Jana Chrzciciela, który przygotowywał drogę Mesjaszowi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie wierności Bogu aż do końca, co było cechą charakterystyczną życia i śmierci Jana Chrzciciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

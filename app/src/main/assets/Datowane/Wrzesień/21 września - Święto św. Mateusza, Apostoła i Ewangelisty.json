@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432615.21-wrzesnia-sw-Mateusza-Apostola",
+  "tytul_dnia": "21 września - Święto św. Mateusza, Apostoła i Ewangelisty",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 4,1-7.11-13",
+      "opis": "Chrystus ustanowił Apostołów",
+      "tekst": "Bracia:\nZachęcam was ja, więzień w Panu, abyście postępowali w sposób godny powołania, jakim zostaliście wezwani, z całą pokorą i cichością, z cierpliwością, znosząc siebie nawzajem w miłości. Usiłujcie zachować jedność Ducha dzięki więzi, jaką jest pokój. Jedno jest Ciało i jeden Duch, bo też zostaliście wezwani w jednej nadziei, jaką daje wasze powołanie. Jeden jest Pan, jedna wiara, jeden chrzest. Jeden jest Bóg i Ojciec wszystkich, który jest i działa ponad wszystkimi, przez wszystkich i we wszystkich.\nKażdemu zaś z nas została dana łaska według miary daru Chrystusowego. I On ustanowił jednych apostołami, innych prorokami, innych ewangelistami, innych pasterzami i nauczycielami dla przysposobienia świętych do wykonywania posługi, celem budowania Ciała Chrystusowego, aż dojdziemy wszyscy razem do jedności wiary i pełnego poznania Syna Bożego, do człowieka doskonałego, do miary wielkości według Pełni Chrystusa.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19,2-3.4-5",
+      "opis": "Refren:",
+      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ciebie, Boże, chwalimy, Ciebie, Panie, wysławiamy,\nCiebie wychwala przesławny chór Apostołów."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9,9-13",
+      "opis": "Powołanie Mateusza",
+      "tekst": "Gdy Jezus wychodził z Kafarnaum, ujrzał człowieka siedzącego w komorze celnej, imieniem Mateusz, i rzekł do niego: „Pójdź za Mną”. On wstał i poszedł za Nim. Gdy Jezus siedział w domu za stołem, przyszło wielu celników i grzeszników i siedzieli wraz z Jezusem i Jego uczniami.Widząc to, faryzeusze mówili do Jego uczniów: „Dlaczego wasz Nauczyciel jada wspólnie z celnikami i grzesznikami?” On, usłyszawszy to, rzekł: „Nie potrzebują lekarza zdrowi, lecz ci, którzy się źle mają. Idźcie i starajcie się zrozumieć, co znaczy: «Chcę raczej miłosierdzia niż ofiary». Bo nie przyszedłem powołać sprawiedliwych, ale grzeszników”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "522",
+      "piesn": "Mateuszu Apostole",
+      "opis": "Pieśń ta bezpośrednio zwraca się do patrona dnia, co jest idealnym rozpoczęciem liturgii ku jego czci.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i powrocie do Ojca oddaje istotę powołania Mateusza, który wstał i poszedł za Jezusem, zostawiając grzeszne życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który w Ewangelii powołuje grzeszników i zasiada z nimi do stołu, co symbolizuje Ucztę Eucharystyczną.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Dziękczynienie za Boże miłosierdzie, które Jezus podkreśla w Ewangelii, mówiąc 'Chcę raczej miłosierdzia niż ofiary'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ta pieśń misyjna przypomina o posłaniu Apostołów, w tym Mateusza, by głosić Ewangelię, co jest dobrym akcentem na zakończenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń oddaje cześć wszystkim apostołom, co jest stosowne w dniu święta jednego z nich.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta podkreśla miłosierdzie Boże, które jest centralnym tematem Ewangelii o powołaniu Mateusza.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432618.18-wrzesnia-sw-Stanislawa-Kostki-zakonnika",
+  "tytul_dnia": "18 września - św. Stanisława Kostki, zakonnika, patrona Polski",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 4,7-15 lub 1 J 2,12-17",
+      "opis": "Miarą starości jest życie nieskalane / Kto wypełnia wolę Bożą, trwa na wieki",
+      "tekst": "Sprawiedliwy, choćby umarł przedwcześnie, znajdzie odpoczynek. Starość jest czcigodna nie przez długowieczność i liczbą lat się jej nie mierzy: sędziwością u ludzi jest mądrość, a miarą starości życie nieskalane. Ponieważ spodobał się Bogu, znalazł Jego miłość, i żyjąc wśród grzeszników, został przeniesiony. Zabrany został, by złość nie odmieniła jego myśli albo ułuda nie uwiodła duszy: bo urok marności przesłania dobro, a burza namiętności mąci prawy umysł. Wcześnie osiągnąwszy doskonałość, przeżył czasów wiele. Dusza jego podobała się Bogu, dlatego pospiesznie wyszedł spośród nieprawości. A ludzie patrzyli i nie pojmowali ani sobie tego nie wzięli do serca, że łaska i miłosierdzie nad Jego wybranymi i nad świętymi Jego opatrzność.\nOto słowo Boże\nalbo\nPiszę do was, dzieci, że dostępujecie odpuszczenia grzechów ze względu na Jego imię. Piszę do was, ojcowie, że poznaliście Tego, który jest od początku. Piszę do was, młodzi, że zwyciężyliście Złego. Napisałem do was, dzieci, że znacie Ojca; napisałem do was, ojcowie, że poznaliście Tego, który jest od początku; napisałem do was, młodzi, że jesteście mocni i że nauka Boża trwa w was, i zwyciężyliście Złego. Nie miłujcie świata ani tego, co jest na świecie. Jeśli kto miłuje świat, nie ma w miłości Ojca. Wszystko bowiem, co jest na świecie, a więc: pożądliwość ciała, pożądliwość oczu i pycha tego życia, nie pochodzi od Ojca, lecz od świata. Świat zaś przemija, a z nim jego pożądliwość; kto zaś wypełnia wolę Bożą, ten trwa na wieki.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 148,1-2.11-13a.13c-14",
+      "opis": "Refren:",
+      "tekst": "Chłopcy i dziewczęta, chwalcie imię Pana.\nChwalcie Pana z niebios,\nchwalcie Go na wysokościach.\nChwalcie Go, wszyscy Jego aniołowie,\nchwalcie Go, wszystkie Jego zastępy.\nKrólowie ziemscy i wszystkie narody,\nwładcy i wszyscy sędziowie tej ziemi,\nMłodzieńcy i dziewczęta,\nstarcy i dzieci\nniech imię Pana wychwalają.\nMajestat Jego ponad ziemią i niebem\ni On pomnaża potęgę swego ludu.\nOto pieśń pochwalna wszystkich Jego świętych,\nsynów Izraela, ludu, który jest Mu bliski."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5,8",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławieni czystego serca,\nalbowiem oni Boga oglądać będą."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 2,41-52",
+      "opis": "Powinienem być w tym, co należy do mego Ojca",
+      "tekst": "Rodzice Jezusa chodzili co roku do Jerozolimy na Święto Paschy. Gdy miał On lat dwanaście, udali się tam zwyczajem świątecznym. Kiedy wracali po skończonych uroczystościach, został Jezus w Jerozolimie, a tego nie zauważyli Jego rodzice. Przypuszczając, że jest w towarzystwie pątników, uszli dzień drogi i szukali Go wśród krewnych i znajomych. Gdy Go nie znaleźli, wrócili do Jerozolimy szukając Go. Dopiero po trzech dniach odnaleźli Go w świątyni, gdzie siedział między nauczycielami, przysłuchiwał się im i zadawał pytania. Wszyscy zaś, którzy Go słuchali, byli zdumieni bystrością Jego umysłu i odpowiedziami. Na ten widok zdziwili się bardzo, a Jego Matka rzekła do Niego: „Synu, czemuś nam to uczynił? Oto ojciec Twój i ja z bólem serca szukaliśmy Ciebie”. Lecz On im odpowiedział: „Czemuście Mnie szukali? Czy nie wiedzieliście, że powinienem być w tym, co należy do mego Ojca?” Oni jednak nie zrozumieli tego, co im powiedział. Potem poszedł z nimi i wrócili do Nazaretu; i był im poddany. A Matka Jego chowała wiernie wszystkie te wspomnienia w swym sercu. Jezus zaś czynił postępy w mądrości, w latach i w łasce u Boga i u ludzi.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "521",
+      "piesn": "Witaj, Kostko Stanisławie",
+      "opis": "Pieśń jest bezpośrednim zwrotem do patrona dnia, co czyni ją idealnym wyborem na rozpoczęcie liturgii w jego święto.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "519",
+      "piesn": "Aniele ziemski bez winy",
+      "opis": "Podkreśla czystość i niewinność św. Stanisława, o której mówi aklamacja 'Błogosławieni czystego serca', co dobrze pasuje na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "520",
+      "piesn": "Jasna Jutrzenko",
+      "opis": "Wspomina o niezwykłej pobożności eucharystycznej Świętego, który przyjmował Komunię z rąk aniołów, co jest piękną medytacją na ten moment.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża młodzieńczy zapał i pragnienie oddania się Bogu, co doskonale charakteryzuje postawę Stanisława Kostki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "347",
+      "piesn": "Maryjo, coś jest w niebie",
+      "opis": "Św. Stanisław był wielkim czcicielem Maryi, dlatego maryjna pieśń o charakterze ślubowania i prośby o czystość jest odpowiednia na rozesłanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "473",
+      "piesn": "Serc tysiąc wita cię",
+      "opis": "Chociaż pieśń jest do św. Alojzego, to jako patrona młodzieży, jej treść o czystości i niewinności pasuje również do św. Stanisława.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń mówi o pójściu za głosem powołania, co św. Stanisław uczynił z wielką determinacją, wbrew woli rodziców.",
+      "moment": "ogolne"
+    }
+  ]
+}

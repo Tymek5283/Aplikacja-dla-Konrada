@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432865.23-lipca-sw-Brygidy-Patronki-Europy",
+  "tytul_dnia": "23 lipca - Święto św. Brygidy, patronki Europy",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 2,19-20",
+      "opis": "Już nie ja żyję, lecz żyje we mnie Chrystus",
+      "tekst": "Bracia:\nJa dla Prawa umarłem przez Prawo, aby żyć dla Boga: razem z Chrystusem zostałem przybity do krzyża.\nTeraz zaś już nie ja żyję, lecz żyje we mnie Chrystus.\nChoć nadal prowadzę życie w ciele, jednak obecne życie moje jest życiem wiary w Syna Bożego, który umiłował mnie i samego siebie wydał za mnie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16,1-2a i 5.7-8.11",
+      "opis": "Refren:",
+      "tekst": "Pan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie Boże, bo chronię się do Ciebie,\nmówię do Pana: „Ty jesteś Panem moim”.\nPan moim dziedzictwem i przeznaczeniem,\nto On mój los zabezpiecza.\nBłogosławię Pana, który dał mi rozsądek,\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy,\nOn jest po mojej prawicy, nic mną nie zachwieje.\nTy ścieżkę życia mi ukażesz,\npełnię Twojej radości\ni wieczną rozkosz\npo Twojej prawicy."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15,9b.5b",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Wytrwajcie w mojej miłości;\nkto trwa we Mnie, a Ja w nim,\nten przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15,1-8",
+      "opis": "Kto trwa w Chrystusie, przynosi owoc obfity",
+      "tekst": "Jezus powiedział do swoich uczniów:\n„Ja jestem prawdziwym krzewem winnym, a Ojciec mój jest tym, który uprawia. Każdą latorośl, która we Mnie nie przynosi owocu, odcina, a każdą, która przynosi owoc, oczyszcza, aby przynosiła owoc obfitszy. Wy już jesteście czyści dzięki słowu, które wypowiedziałem do was.\nTrwajcie we Mnie, a Ja w was trwać będę. Podobnie jak latorośl nie może przynosić owocu sama z siebie, o ile nie trwa w winnym krzewie, tak samo i wy, jeżeli we Mnie trwać nie będziecie.\nJa jestem krzewem winnym, wy - latoroślami. Kto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity, ponieważ beze Mnie nic nie możecie uczynić. Ten, kto we Mnie nie trwa, zostanie wyrzucony jak winna latorośl i uschnie. I zbiera się ją, i wrzuca do ognia, i płonie.\nJeżeli we Mnie trwać będziecie, a słowa moje w was, poprosicie, o cokolwiek chcecie, a to wam się spełni.\nOjciec mój przez to dozna chwały, że owoc obfity przyniesiecie i staniecie się moimi uczniami”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "486",
+      "piesn": "Święta Brygido przesławna",
+      "opis": "Pieśń ta jest bezpośrednim wezwaniem do patronki dnia, co stanowi doskonałe wprowadzenie w liturgię jej poświęconą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o całkowitym oddaniu się Bogu doskonale koresponduje z pierwszym czytaniem mówiącym 'żyje we mnie Chrystus'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, co jest istotą Komunii Świętej i tematem Ewangelii o krzewie winnym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Prosta pieśń o miłości, która jest z Boga, stanowi dziękczynienie za dar trwania w miłości Chrystusa, o którym mówi aklamacja i Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń ta prosi o siłę do naśladowania Chrystusa, co jest dobrym zwieńczeniem Mszy i posłaniem do życia wiarą na wzór świętej patronki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń wyraża ufne powierzenie się Bogu, co jest echem psalmu responsoryjnego 'Pan mym dziedzictwem'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreślająca osobistą relację i wiarę w obecność Chrystusa, co jest kluczowe w 'trwaniu w Nim'.",
+      "moment": "ogolne"
+    }
+  ]
+}

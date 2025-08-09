@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432866.22-lipca-sw-Marii-Magdaleny",
+  "tytul_dnia": "22 lipca - Święto św. Marii Magdaleny",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pnp 8,6-7",
+      "opis": "Jak śmierć potężna jest miłość",
+      "tekst": "Połóż mnie jak pieczęć na twoim sercu, jak pieczęć na twoim ramieniu, bo jak śmierć potężna jest miłość, a zazdrość jej nieprzejednana jak otchłań; żar jej to żar ognia, płomień Pana.\nWody wielkie nie zdołają ugasić miłości, nie zatopią jej rzeki. Jeśliby kto oddał za miłość całe bogactwo swego domu, pogardzą nim tylko.\nOto słowo Boże.\nalbo:\n2 Kor 5,14-17\nMiłość Chrystusa przynagla nas\nBracia:\nMiłość Chrystusa przynagla nas, pomnych na to, że skoro Jeden umarł za wszystkich, to wszyscy pomarli. A właśnie za wszystkich umarł Chrystus, aby ci, co żyją, już nie żyli dla siebie, lecz dla Tego, który za nich umarł i zmartwychwstał.\nTak więc i my odtąd już nikogo nie znamy według ciała; a jeśli nawet według ciała poznaliśmy Chrystusa, to już więcej nie znamy Go w ten sposób. Jeżeli więc kto pozostaje w Chrystusie, jest nowym stworzeniem. To, co dawne, minęło, a oto wszystko stało się nowe.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 63,2.3-4.5-6.8-9",
+      "opis": "Refren:",
+      "tekst": "Ciebie, mój Boże, pragnie moja dusza.\nBoże mój, Boże, szukam Ciebie\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą,\njak ziemia zeschła i łaknąca wody.\nOto wpatruję się w Ciebie w świątyni,\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia,\nwięc sławić Cię będą moje wargi.\nBędę Cię wielbił przez całe me życie\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie,\na usta Cię wielbią radosnymi wargami.\nBo stałeś się dla mnie pomocą\ni w cieniu Twych skrzydeł wołam radośnie:\nDo Ciebie lgnie moja dusza,\nprawica Twoja mnie wspiera."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Maryjo, ty powiedz, coś w drodze widziała\nJam zmartwychwstałego blask chwały ujrzała.\nŻywego już Pana widziałam grób pusty\nI świadków anielskich, i odzież, i chusty."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 20,1.11-18",
+      "opis": "Zmartwychwstały Chrystus ukazuje się Magdalenie",
+      "tekst": "Pierwszego dnia po szabacie, wczesnym rankiem, gdy jeszcze było ciemno, Maria Magdalena udała się do grobu i zobaczyła kamień od niego odsunięty.\nMaria stała przed grobem płacząc. A kiedy tak płakała, nachyliła się do grobu i ujrzała dwóch aniołów w bieli, siedzących tam, gdzie leżało ciało Jezusa: jednego w miejscu głowy, a drugiego w miejscu nóg. I rzekli do niej: „Niewiasto, czemu płaczesz?” Odpowiedziała im: „Zabrano Pana mego i nie wiem, gdzie Go położono”.\nGdy to powiedziała, odwróciła się i ujrzała stojącego Jezusa, ale nie wiedziała, że to Jezus. Rzekł do niej Jezus: „Niewiasto, czemu płaczesz? Kogo szukasz?” Ona zaś sądząc, że to jest ogrodnik, powiedziała do Niego: „Panie, jeśli ty Go przeniosłeś, powiedz mi, gdzie Go położyłeś, a ja Go wezmę”.\nJezus rzekł do niej: „Mario!” A ona obróciwszy się powiedziała do Niego po hebrajsku: „Rabbuni”, to znaczy: „Nauczycielu”. Rzekł do niej Jezus: „Nie zatrzymuj Mnie, jeszcze bowiem nie wstąpiłem do Ojca. Natomiast udaj się do moich braci i powiedz im: «Wstępuję do Ojca mego i Ojca waszego oraz do Boga mego i Boga waszego»”.\nPoszła Maria Magdalena oznajmiając uczniom: „Widziałam Pana i to mi po wiedział”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Maria Magdalena jest pierwszą, która spotyka Zmartwychwstałego Pana, stąd pieśń o nadziei płynącej ze zmartwychwstania idealnie rozpoczyna liturgię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Słowa psalmu responsoryjnego 'Ciebie, mój Boże, pragnie moja dusza' idealnie oddają postawę Marii Magdaleny szukającej Pana przy grobie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "485",
+      "piesn": "Gwiazdo Magdali",
+      "opis": "Pieśń poświęcona bezpośrednio św. Marii Magdalenie, która opisuje jej miłość do Mistrza, jest najodpowiedniejsza na Komunię Świętą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "185",
+      "piesn": "Niech w radosne święto",
+      "opis": "Sekwencja wielkanocna zawiera dialog z Marią Magdaleną ('Powiedz nam Maryjo, coś w drodze widziała?'), co czyni ją idealną pieśnią dziękczynną.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosne Alleluja na zakończenie podkreśla misję Marii Magdaleny, apostołki apostołów, która ogłosiła im 'Widziałam Pana!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża nawrócenie i tęsknotę za Bogiem, co charakteryzowało życie Marii Magdaleny po spotkaniu z Jezusem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta głosi prawdę o Zmartwychwstaniu, której pierwszym świadkiem i głosicielką była właśnie Maria Magdalena.",
+      "moment": "ogolne"
+    }
+  ]
+}

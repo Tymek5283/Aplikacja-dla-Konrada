@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432566.18-pazdziernika-sw-Lukasza-Ewangelisty",
+  "tytul_dnia": "18 października - św. Łukasza Ewangelisty",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 4,9-17a",
+      "opis": "Łukasz towarzyszy Pawłowi",
+      "tekst": "Najmilszy:\nPospiesz się, by przybyć do mnie szybko. Demas bowiem mnie opuścił umiłowawszy ten świat i podążył do Tesaloniki, Krescens do Galacji, Tytus do Dalmacji. Łukasz sam jest ze mną. Weź Marka i przyprowadź ze sobą; jest mi bowiem przydatny do posługiwania. Tychika zaś posłałem do Efezu. Opończę, którą pozostawiłem w Troadzie u Karpa, przynieś idąc po drodze, a także księgi, zwłaszcza pergaminy.\nAleksander, brązownik, wyrządził mi wiele zła: odda mu Pan według jego uczynków. I ty się go strzeż, albowiem sprzeciwiał się bardzo naszym słowom.\nW pierwszej mojej obronie nikt przy mnie nie stanął, ale mnie wszyscy opuścili: niech im to nie będzie policzone. Natomiast Pan stanął przy mnie i wzmocnił mnie, żeby się przeze mnie dopełniło głoszenie Ewangelii i żeby wszystkie narody posłyszały.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145,10-11.12-13ab.17-18",
+      "opis": "Refren:",
+      "tekst": "Królestwo Pana głoszą Jego święci.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15,16",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Nie wyście mnie wybrali, ale Ja was wybrałem,\nabyście szli i owoc przynosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10,1-9",
+      "opis": "Żniwo jest wielkie, ale robotników mało",
+      "tekst": "Jezus wyznaczył jeszcze innych, siedemdziesięciu dwóch, i wysłał ich po dwóch przed sobą do każdego miasta i miejscowości, dokąd sam przyjść zamierzał.\nPowiedział też do nich: „Żniwo wprawdzie wielkie, ale robotników mało; proście więc Pana żniwa, żeby wyprawił robotników na swoje żniwo.\nIdźcie, oto was posyłam jak owce między wilki. Nie noście z sobą trzosa ani torby, ani sandałów; i nikogo w drodze nie pozdrawiajcie.\nGdy do jakiego domu wejdziecie, najpierw mówcie: «Pokój temu domowi!» Jeśli tam mieszka człowiek godny pokoju, wasz pokoj spocznie na nim; jeśli nie, powróci do was. W tym samym domu zostańcie, jedząc i pijąc, co mają: bo zasługuje robotnik na swoją zapłatę. Nie przechodźcie z domu do domu. Jeśli do jakiego miasta wejdziecie i przyjmą was, jedzcie, co wam podadzą; uzdrawiajcie chorych, którzy tam są, i mówcie im: «Przybliżyło się do was królestwo Boże»”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Choć Łukasz nie należał do Dwunastu, jest czczony jako Ewangelista, dlatego pieśń ta oddaje cześć jego apostolskiej pracy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "543",
+      "piesn": "Sławimy pieśnią twój triumf",
+      "opis": "Pieśń dedykowana św. Łukaszowi, która wspomina jego dzieło spisania Ewangelii i Dziejów Apostolskich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Św. Łukasz opisał narodziny Kościoła, a ta pieśń wzywa cały lud Boży do głoszenia chwały Pana, co jest istotą jego misji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta jest echem Ewangelii o rozesłaniu uczniów, by głosili Dobrą Nowinę wszystkim narodom, co czynił św. Łukasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Bezpośrednio nawiązuje do Ewangelii i misyjnego charakteru życia św. Łukasza, towarzysza św. Pawła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, którego dzieje opisał św. Łukasz, jest odpowiednia na każdy moment liturgii w jego święto.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o wiarę, która jest odpowiedzią na głoszoną Ewangelię, jest kluczowa w święto tego, który ją spisał.",
+      "moment": "ogolne"
+    }
+  ]
+}

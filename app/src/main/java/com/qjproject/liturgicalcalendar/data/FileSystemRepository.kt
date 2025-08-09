@@ -9,13 +9,13 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 import java.text.SimpleDateFormat
+import java.time.Month
 import java.util.*
 
 class FileSystemRepository(private val context: Context) {
 
     private val json = Json { ignoreUnknownKeys = true }
 
-    // Funkcje getItems i getDayData pozostają bez zmian
     fun getItems(path: String): List<FileSystemItem> {
         return try {
             context.assets.list(path)?.map { itemName ->
@@ -42,31 +42,46 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    // --- POCZĄTEK POPRAWKI: W pełni przepisana logika eksportu ---
+    fun getDatedFilesForMonth(month: Month): List<String> {
+        // Poprawna nazwa folderu miesiąca z dużej litery, zgodna z Twoją strukturą
+        val monthName = month.getDisplayName(java.time.format.TextStyle.FULL, Locale("pl"))
+            .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale("pl")) else it.toString() }
+
+        return try {
+            val path = "Datowane/$monthName"
+            context.assets.list(path)?.toList() ?: emptyList()
+        } catch (e: IOException) {
+            emptyList()
+        }
+    }
+
     fun exportAssetsToZip(assetRootPath: String): Result<File> {
         return try {
-            // 1. Stwórz tymczasowy folder w pamięci podręcznej aplikacji
             val tempDir = File(context.cacheDir, "export_temp")
             if (tempDir.exists()) tempDir.deleteRecursively()
             tempDir.mkdirs()
 
-            // 2. Rekursywnie skopiuj całą zawartość folderu 'assets/data' do folderu tymczasowego
-            copyAssetsRecursively(assetRootPath, tempDir)
+            // --- POCZĄTEK ZMIANY: Poprawna iteracja po głównym folderze 'assets' ---
+            // Pobieramy listę wszystkich plików i folderów z podanej ścieżki (teraz to będzie "")
+            val rootAssets = context.assets.list(assetRootPath) ?: arrayOf()
 
-            // 3. Przygotuj plik docelowy w folderze Pobrane
+            // Dla każdego elementu na najwyższym poziomie (np. "data", "Datowane") uruchamiamy kopiowanie.
+            for (assetName in rootAssets) {
+                // Budujemy pełną ścieżkę dla funkcji rekursywnej
+                val fullPath = if (assetRootPath.isEmpty()) assetName else "$assetRootPath/$assetName"
+                copyAssetsRecursively(fullPath, tempDir)
+            }
+            // --- KONIEC ZMIANY ---
+
             val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
             if (!downloadsDir.exists()) downloadsDir.mkdirs()
 
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
             val zipFile = File(downloadsDir, "LiturgicalCalendar_Export_$timestamp.zip")
 
-            // 4. Spakuj zawartość folderu tymczasowego do pliku ZIP
             ZipFile(zipFile).addFolder(tempDir)
-
-            // 5. Posprzątaj po sobie, usuwając folder tymczasowy
             tempDir.deleteRecursively()
 
-            // 6. Zwróć sukces z informacją o utworzonym pliku
             Result.success(zipFile)
         } catch (e: Exception) {
             e.printStackTrace()
@@ -74,17 +89,12 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    /**
-     * Rekursywnie kopiuje folder z zasobów 'assets' do podanej lokalizacji.
-     */
     private fun copyAssetsRecursively(path: String, destDir: File) {
         try {
             val assets = context.assets.list(path)
             if (assets.isNullOrEmpty()) {
-                // To jest plik
                 copyAssetFile(path, destDir)
             } else {
-                // To jest folder
                 val dir = File(destDir, path.substringAfterLast('/'))
                 if (!dir.exists()) {
                     dir.mkdirs()
@@ -94,14 +104,10 @@ class FileSystemRepository(private val context: Context) {
                 }
             }
         } catch (e: IOException) {
-            // Jeśli list() rzuci wyjątek, to znaczy, że 'path' jest plikiem.
             copyAssetFile(path, destDir.parentFile ?: destDir)
         }
     }
 
-    /**
-     * Kopiuje pojedynczy plik z 'assets' do podanej lokalizacji.
-     */
     private fun copyAssetFile(assetPath: String, destDir: File) {
         val destFile = File(destDir, assetPath.substringAfterLast('/'))
         context.assets.open(assetPath).use { inputStream ->
@@ -110,5 +116,4 @@ class FileSystemRepository(private val context: Context) {
             }
         }
     }
-    // --- KONIEC POPRAWKI ---
 }

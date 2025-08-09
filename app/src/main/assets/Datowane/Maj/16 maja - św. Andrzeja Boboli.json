@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432976.16-maja-sw-Andrzeja-Boboli",
+  "tytul_dnia": "16 maja - św. Andrzeja Boboli",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 12,10-12a",
+      "opis": "Zwyciężyli dzięki krwi Baranka",
+      "tekst": "Ja, Jan, usłyszałem donośny głos mówiący w niebie:\n„Teraz nastało zbawienie, potęga i królowanie Boga naszego i władza Jego Pomazańca, bo strącony został oskarżyciel naszych braci, który dniem i nocą oskarża ich przed naszym Bogiem. A oni zwyciężyli dzięki krwi Baranka i dzięki słowu swojego świadectwa i nie umiłowali życia aż do śmierci.\nDlatego radujcie się, niebiosa oraz ich mieszkańcy”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34,2-3.4-5.6-7.8-9",
+      "opis": "Refren:",
+      "tekst": "Od wszelkiej trwogi Pan Bóg mnie wyzwolił.\nBędę błogosławił Pana po wieczne czasy,\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem,\nniech słyszą to pokorni i niech się weselą.\nWysławiajcie ze mną Pana,\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał\ni wyzwolił od wszelkiej trwogi.\nSpójrzcie na Niego, a rozpromienicie się radością,\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał,\ni uwolnił od wszelkiego ucisku.\nAnioł Pański otacza szańcem bogobojnych,\naby ich ocalić.\nSkosztujcie i zobaczcie, jak Pan jest dobry,\nszczęśliwy człowiek, który znajduje w Nim ucieczkę."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 1,10-13.17-18",
+      "opis": "Abyście byli jednego ducha",
+      "tekst": "Upominam was, bracia, w imię Pana naszego Jezusa Chrystusa, abyście byli zgodni i by nie było wśród was rozłamów; byście byli jednego ducha i jednej myśli.\nDoniesiono mi bowiem o was, bracia moi, przez ludzi Chloe, że zdarzają się między wami spory. Myślę o tym, co każdy z was mówi: „Ja jestem Pawła, a ja Apollosa; ja jestem Kefasa, a ja Chrystusa”. Czyż Chrystus jest podzielony? Czyż Paweł został za was ukrzyżowany? Czyż w imię Pawła zostaliście ochrzczeni?\nNie posłał mnie Chrystus, abym chrzcił, lecz abym głosił Ewangelię, i to nie w mądrości słowa, by nie zniweczyć Chrystusowego krzyża. Nauka bowiem krzyża głupstwem jest dla tych, co idą na zatracenie, mocą Bożą zaś dla nas, którzy dostępujemy zbawienia.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 17,19",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Za nich Ja poświęcam w ofierze samego siebie,\naby i oni byli uświęceni w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 17,20-26",
+      "opis": "Aby stanowili jedno",
+      "tekst": "W czasie ostatniej wieczerzy Jezus, podniósłszy oczy ku niebu, modlił się tymi słowami:\n„Ojcze Święty, proszę nie tylko za nimi, ale i za tymi, którzy dzięki ich słowu będą wierzyć we Mnie, aby wszyscy stanowili jedno, jak Ty, Ojcze, we Mnie, a Ja w Tobie, aby i oni stanowili jedno w Nas, aby świat uwierzył, żeś Ty Mnie posłał.\nI także chwałę, którą Mi dałeś, przekazałem im, aby stanowili jedno, tak jak My jedno stanowimy. Ja w nich, a Ty we Mnie. Oby się tak zespolili w jedno, aby świat poznał, żeś Ty Mnie posłał i żeś Ty ich umiłował tak, jak Mnie umiłowałeś.\nOjcze, chcę, aby także ci, których Mi dałeś, byli ze Mną tam, gdzie Ja jestem, aby widzieli chwałę moją, którą Mi dałeś, bo umiłowałeś Mnie przed założeniem świata.\nOjcze sprawiedliwy! Świat Ciebie nie poznał, lecz Ja Ciebie poznałem i oni poznali, żeś Ty Mnie posłał. Objawiłem im Twoje imię i nadal będę objawiał, aby miłość, którą Ty Mnie umiłowałeś, w nich była i Ja w nich”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "458",
+      "piesn": "Wyznawco wielki",
+      "opis": "Pieśń bezpośrednio zwraca się do św. Andrzeja Boboli, patrona Polski, prosząc o jego wstawiennictwo, co idealnie pasuje na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "457",
+      "piesn": "Święty Andrzeju Bobolo",
+      "opis": "Treść pieśni nawiązuje do męczeńskiej śmierci Świętego za jedność Kościoła, co łączy się z modlitwą Jezusa o jedność z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to modlitwa o jedność, która była celem apostolskiej pracy i męczeństwa św. Andrzeja Boboli, o czym przypomina Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn na cześć męczenników jest odpowiednim dziękczynieniem za świadectwo wiary i miłości, jakie złożył patron dnia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Prośba o jedność i pokój dla Kościoła jest doskonałym zwieńczeniem liturgii ku czci męczennika, który oddał życie za jedność wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń ta, będąca wyznaniem wierności Chrystusowi i Kościołowi, doskonale oddaje ducha męczeństwa św. Andrzeja Boboli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "Modlitwa za wstawiennictwem męczenników, prosząca o ich pomoc w drodze do nieba, jest dobrym wyborem na ten dzień.",
+      "moment": "ogolne"
+    }
+  ]
+}

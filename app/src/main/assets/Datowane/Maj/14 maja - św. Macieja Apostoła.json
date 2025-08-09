@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432979.14-maja-sw-Macieja-Apostola",
+  "tytul_dnia": "14 maja - św. Macieja Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 1,15-17.20-26",
+      "opis": "Wybór Macieja na Apostoła",
+      "tekst": "Piotr w obecności braci, a zebrało się razem około stu dwudziestu osób, tak przemówił: „Bracia, musiało się wypełnić słowo Pisma, które Duch Święty zapowiedział przez usta Dawida o Judaszu. On to wskazał drogę tym, którzy pojmali Jezusa, bo on zaliczał się do nas i miał udział w naszym posługiwaniu.\nNapisano bowiem w Księdze Psalmów: «Niech opustoszeje dom jego i niech nikt w nim nie mieszka. A urząd jego niech inny obejmie».\nTrzeba więc, aby jeden z tych którzy towarzyszyli nam przez cały czas, kiedy Pan Jezus przebywał z nami, począwszy od chrztu Janowego aż do dnia, w którym został wzięty od nas do nieba, stał się razem z nami świadkiem Jego zmartwychwstania”.\nPostawiono dwóch: Józefa, zwanego Barsabą, z przydomkiem Justus, i Macieja.\nI tak się pomodlili: „Ty, Panie, znasz serca wszystkich, wskaż z tych dwóch jednego, którego wybrałeś, by zajął miejsce w tym posługiwaniu i w apostolstwie, któremu sprzeniewierzył się Judasz, aby pójść swoją drogą”.\nI dali im losy, a los padł na Macieja. I został dołączony do jedenastu apostołów.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 113,1-2.3-4.5-6.7-8",
+      "opis": "Refren:",
+      "tekst": "Wśród książąt ludu Pan Bóg go posadził.\nChwalcie, słudzy Pańscy,\nchwalcie imię Pana.\nNiech imię Pana będzie błogosławione\nteraz i na wieki.\nOd wschodu aż do zachodu słońca\nniech będzie pochwalone imię Pana.\nPan jest wywyższony nad wszystkie ludy,\nponad niebiosa sięga Jego chwała.\nKto jest jak nasz Pan Bóg,\nco ma siedzibę w górze,\nco w dół spogląda\nna niebo i na ziemię?\nPodnosi z prochu nędzarza\ni dźwiga z gnoju ubogiego,\nby go posadzić wśród książąt,\nwśród książąt swojego ludu."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15,16",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Nie wyście Mnie wybrali, ale Ja was wybrałem,\nabyście szli i owoc przynosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15,9-17",
+      "opis": "Nie wyście Mnie wybrali, ale Ja was wybrałem",
+      "tekst": "Jezus powiedział do swoich uczniów:\n„Jak Mnie umiłował Ojciec, tak i Ja was umiłowałem. Trwajcie w miłości mojej. Jeśli będziecie zachowywać moje przykazania, będziecie trwać w miłości mojej, tak jak Ja zachowałem przykazania Ojca mego i trwam w Jego miłości. To wam powiedziałem, aby radość moja w was była i aby radość wasza była pełna.\nTo jest moje przykazanie, abyście się wzajemnie miłowali, tak jak Ja was umiłowałem. Nikt nie ma większej miłości od tej, gdy kto życie swoje oddaje za przyjaciół swoich. Wy jesteście przyjaciółmi moimi, jeżeli czynicie to, co wam przykazuję.\nJuż was nie nazywam sługami, bo sługa nie wie, co czyni pan jego, ale nazwałem was przyjaciółmi, albowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego. Nie wyście Mnie wybrali, ale Ja was wybrałem i przeznaczyłem was na to, abyście szli i owoc przynosili i by owoc wasz trwał, aby wszystko dał wam Ojciec, o cokolwiek Go poprosicie w imię moje. To wam przykazuję, abyście się wzajemnie miłowali”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń ta oddaje cześć wszystkim apostołom, w tym św. Maciejowi, wybranemu do ich grona, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "453",
+      "piesn": "Macieju, jakże cudowne",
+      "opis": "Jest to pieśń bezpośrednio skierowana do patrona dnia, która rozważa tajemnicę jego Bożego wybrania na miejsce Judasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Ewangelia z dzisiejszego święta zawiera przykazanie miłości, a ta pieśń jest jego muzycznym rozwinięciem, idealnym na Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn dziękczynny jest odpowiedni na uwielbienie, aby podziękować Bogu za dar apostołów i świadków Zmartwychwstania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń o posłannictwie apostolskim, które stało się udziałem św. Macieja, przypomina o misji każdego chrześcijanina.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, którego fundamentem są apostołowie, jest zawsze stosowna, a szczególnie w ich święto.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla powołanie całego Kościoła do głoszenia chwały Pana, co jest realizacją misji apostolskiej.",
+      "moment": "ogolne"
+    }
+  ]
+}

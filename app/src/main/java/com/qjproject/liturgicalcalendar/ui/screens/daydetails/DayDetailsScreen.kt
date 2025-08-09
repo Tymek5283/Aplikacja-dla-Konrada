@@ -57,7 +57,10 @@ fun DayDetailsScreen(
                         titleContentColor = MaterialTheme.colorScheme.primary,
                         navigationIconContentColor = MaterialTheme.colorScheme.primary
                     ),
-                    windowInsets = WindowInsets(top = 0.dp, bottom = 0.dp)
+                    // --- POCZĄTEK POPRAWKI ---
+                    // Używamy domyślnych, inteligentnych marginesów, które respektują pasek statusu.
+                    windowInsets = TopAppBarDefaults.windowInsets
+                    // --- KONIEC POPRAWKI ---
                 )
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
             }

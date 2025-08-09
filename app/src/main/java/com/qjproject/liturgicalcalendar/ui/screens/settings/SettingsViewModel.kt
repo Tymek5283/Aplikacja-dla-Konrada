@@ -19,12 +19,12 @@ class SettingsViewModel(private val repository: FileSystemRepository) : ViewMode
 
     fun exportData() {
         _uiState.update { it.copy(isExporting = true, exportMessage = null) }
-        val result = repository.exportAssetsToZip("data")
+        // --- POCZĄTEK ZMIANY: Eksportujemy od korzenia 'assets' ---
+        val result = repository.exportAssetsToZip("")
+        // --- KONIEC ZMIANY ---
         result.fold(
             onSuccess = { file ->
-                // --- POCZĄTEK ZMIANY: Lepszy komunikat ---
                 _uiState.update { it.copy(isExporting = false, exportMessage = "Eksport udany! Zapisano jako ${file.name} w folderze Pobrane.") }
-                // --- KONIEC ZMIANY ---
             },
             onFailure = { error ->
                 _uiState.update { it.copy(isExporting = false, exportMessage = "Błąd eksportu: ${error.localizedMessage}") }

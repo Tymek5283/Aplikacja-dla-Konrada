@@ -1,0 +1,87 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432563.1-listopada-uroczystosc-Wszystkich-Swietych",
+  "tytul_dnia": "1 listopada - Uroczystość Wszystkich Świętych",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 7,2-4.9-14",
+      "opis": "Wielki tłum zbawionych",
+      "tekst": "Ja, Jan, ujrzałem innego anioła, wstępującego od wschodu słońca, mającego pieczęć Boga żywego. Zawołał on donośnym głosem do czterech aniołów, którym dano moc wyrządzić szkodę ziemi i morzu: „Nie wyrządzajcie szkody ziemi ani morzu, ani drzewom, aż opieczętujemy na czołach sługi Boga naszego”. I usłyszałem liczbę opieczętowanych: sto czterdzieści cztery tysiące opieczętowanych ze wszystkich pokoleń synów Izraela.\nPotem ujrzałem wielki tłum, którego nikt nie mógł policzyć, z każdego narodu i wszystkich pokoleń, ludów i języków, stojący przed tronem i przed Barankiem. Odziani są w białe szaty, a w ręku ich palmy. I głosem donośnym tak wołają: „Zbawienie Bogu naszemu, Zasiadającemu na tronie, i Barankowi”.\nA wszyscy aniołowie stanęli wokół tronu i Starców, i czworga Zwierząt, i na oblicze swe padli przed tronem, i pokłon oddali Bogu, mówiąc: „Amen. Błogosławieństwo i chwała, i mądrość, i dziękczynienie, i cześć, i moc, i potęga Bogu naszemu na wieki wieków. Amen!”\nA jeden ze Starców odezwał się do mnie tymi słowami: „Ci przyodziani w białe szaty kim są i skąd przybyli?” I powiedziałem do niego: „Panie, ty wiesz”. I rzekł do mnie: „To ci, którzy przychodzą z wielkiego ucisku, i opłukali swe szaty, i wybielili je we krwi Baranka”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24,1-6",
+      "opis": "Refren:",
+      "tekst": "Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia,\nświat i jego mieszkańcy.\nAlbowiem On go na morzach osadził\ni utwierdził ponad rzekami.\nKto wstąpi na górę Pana,\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca,\nktóry nie skłonił swej duszy ku marnościom.\nOn otrzyma błogosławieństwo od Pana\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, co Go szukają,\nktórzy szukają oblicza Boga Jakuba."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 3,1-3",
+      "opis": "Ujrzymy Boga takim, jaki jest",
+      "tekst": "Najmilsi:\nPopatrzcie, jaką miłością obdarzył nas Ojciec: zostaliśmy nazwani dziećmi Bożymi i rzeczywiście nimi jesteśmy. Świat zaś dlatego nas nie zna, że nie poznał Jego.\nUmiłowani, obecnie jesteśmy dziećmi Bożymi, ale jeszcze się nie ujawniło, czym będziemy. Wiemy, że gdy się to objawi, będziemy do Niego podobni, bo ujrzymy Go takim, jaki jest.\nKażdy zaś, kto pokłada w Nim nadzieję, uświęca się, podobnie jak On jest święty.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11,28",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Przyjdźcie do Mnie wszyscy,\nktórzy jesteście utrudzeni i obciążeni, a Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5,1-12a",
+      "opis": "Osiem błogosławieństw",
+      "tekst": "Jezus, widząc tłumy, wyszedł na górę. A gdy usiadł, przystąpili do Niego Jego uczniowie. Wtedy otworzył swoje usta i nauczał ich tymi słowami:\n„Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie.\nBłogosławieni, którzy się smucą, albowiem oni będą pocieszeni.\nBłogosławieni cisi, albowiem oni na własność posiądą ziemię.\nBłogosławieni, którzy łakną i pragną sprawiedliwości, albowiem oni będą nasyceni.\nBłogosławieni miłosierni, albowiem oni miłosierdzie dostąpią.\nBłogosławieni czystego serca, albowiem oni Boga oglądać będą.\nBłogosławieni, którzy wprowadzają pokój, albowiem oni będą nazwani synami Bożymi.\nBłogosławieni, którzy cierpią prześladowanie dla sprawiedliwości, albowiem do nich należy królestwo niebieskie.\nBłogosławieni jesteście, gdy ludzie wam urągają i prześladują was, i gdy mówią kłamliwie wszystko złe na was z mego powodu. Cieszcie się i radujcie, albowiem wielka jest wasza nagroda w niebie”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "Pieśń ta jest modlitwą do Chrystusa za wstawiennictwem wszystkich stanów Kościoła w niebie - aniołów, apostołów, męczenników i dziewic, co idealnie pasuje na rozpoczęcie uroczystości Wszystkich Świętych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "555",
+      "piesn": "Wszechmocny Boże, bądź błogosławiony",
+      "opis": "Pieśń ta wyraża wdzięczność Bogu za dar świętych i prośbę o naśladowanie ich przykładu, co doskonale koresponduje z momentem składania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Tekst pieśni jest bezpośrednim nawiązaniem do Ewangelii o Ośmiu Błogosławieństwach, która jest odczytywana w tę uroczystość.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń jest hymnem uwielbienia Boga w Jego świętych, łącząc głosy Kościoła pielgrzymującego z chórem zbawionych w niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Uroczysty hymn Te Deum jest doskonałym wyborem na zakończenie tak wielkiej uroczystości, oddając chwałę Bogu wraz z całym Kościołem triumfującym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń o męczennikach, która może być użyta w kontekście Wszystkich Świętych, aby uczcić tych, którzy oddali życie za wiarę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Pieśń ta, skierowana do polskich świętych, poszerza perspektywę o modlitwę za wstawiennictwem naszych rodaków w niebie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni i wezwanie do chwalenia Pana przez całą ziemię dobrze oddaje triumfalny nastrój Uroczystości Wszystkich Świętych.",
+      "moment": "ogolne"
+    }
+  ]
+}

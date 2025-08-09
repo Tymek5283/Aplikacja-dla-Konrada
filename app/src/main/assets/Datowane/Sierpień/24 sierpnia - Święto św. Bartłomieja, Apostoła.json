@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432639.24-sierpnia-swieto-sw-Bartlomieja-Apostola",
+  "tytul_dnia": "24 sierpnia - Święto św. Bartłomieja, Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 21,9b-14",
+      "opis": "Kościół zbudowany na fundamencie Apostołów",
+      "tekst": "Anioł tak się do mnie odezwał: „Chodź, ukażę ci Oblubienicę, Małżonkę Baranka”.\nI uniósł mnie w zachwyceniu na górę wielką i wyniosłą, i ukazał mi Miasto Święte, Jeruzalem, zstępujące z nieba od Boga, mające chwałę Boga. Źródło jego światła podobne do kamienia drogocennego, jakby do jaspisu o przejrzystości kryształu.\nMiało ono mur wielki a wysoki, miało dwanaście bram, a na bramach dwunastu aniołów i wypisane imiona, które są imionami dwunastu pokoleń synów Izraela.\nOd wschodu trzy bramy i od północy trzy bramy, i od południa trzy bramy, i od zachodu trzy bramy. A mur Miasta ma dwanaście warstw fundamentu, a na nich dwanaście imion dwunastu apostołów Baranka.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145,10-11.12-13ab.17-18",
+      "opis": "Refren:",
+      "tekst": "Niech wierni Twoi sławią Twe królestwo.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 1,49b",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Nauczycielu, Ty jesteś Synem Bożym,\nTy jesteś Królem Izraela."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1,45-51",
+      "opis": "Prawdziwy Izraelita, w którym nie ma podstępu",
+      "tekst": "Filip spotkał Natanaela i powiedział do niego: „Znaleźliśmy Tego, o którym pisał Mojżesz w Prawie i Prorocy, Jezusa, syna Józefa, z Nazaretu”. Rzekł do niego Natanael: „Czyż może być co dobrego z Nazaretu?” Odpowiedział mu Filip: „Chodź i zobacz”.\nJezus ujrzał, jak Natanael zbliżał się do Niego, i powiedział o nim: „Patrz, to prawdziwy Izraelita, w którym nie ma podstępu”. Powiedział do Niego Natanael: „Skąd mnie znasz?” Odrzekł mu Jezus: „Widziałem cię, zanim cię zawołał Filip, gdy byłeś pod drzewem figowym”. Odpowiedział Mu Natanael: „Rabbi, Ty jesteś Synem Bożym, Ty jesteś królem Izraela!” Odparł mu Jezus: „Czy dlatego wierzysz, że powiedziałem ci: «Widziałem cię pod drzewem figowym»? Zobaczysz jeszcze więcej niż to”.\nPotem powiedział do niego: „Zaprawdę, zaprawdę, powiadam wam: Ujrzycie niebiosa otwarte i aniołów Bożych wstępujących i zstępujących na Syna Człowieczego”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń sławi Apostołów, na których fundamencie zbudowany jest Kościół, co nawiązuje do pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, co odzwierciedla drogę św. Bartłomieja od sceptycyzmu do wyznania wiary w Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Tekst pieśni jest osobistym wyznaniem wiary, podobnym do tego, które złożył św. Bartłomiej w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest hymnem pochwalnym, nawiązującym do psalmu responsoryjnego, wzywającego do wielbienia dzieł Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "507",
+      "piesn": "O Bartłomieju, w niebiosach",
+      "opis": "Pieśń jest bezpośrednim zwrotem do patrona dnia, prosząc go o wstawiennictwo, co jest odpowiednie na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń podkreśla królewską godność Chrystusa, którą w Ewangelii wyznał św. Bartłomiej, mówiąc 'Ty jesteś królem Izraela'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń przypomina o misyjnym powołaniu Apostołów, do których należał św. Bartłomiej.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,14 +1,13 @@
 package com.qjproject.liturgicalcalendar.ui.screens.browse
 
 import androidx.activity.compose.BackHandler
-import androidx.compose.animation.core.tween // WAŻNY IMPORT
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.outlined.Article
 import androidx.compose.material.icons.outlined.Folder
 import androidx.compose.material3.*
@@ -17,13 +16,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun BrowseScreen(
     viewModel: BrowseViewModel,
@@ -34,64 +32,32 @@ fun BrowseScreen(
     BackHandler(enabled = uiState.isBackArrowVisible) {
         viewModel.onBackPress()
     }
-
-    Scaffold(
-        topBar = {
-            Column {
-                CenterAlignedTopAppBar(
-                    title = {
-                        AutoResizingText(
-                            text = uiState.screenTitle,
-                            style = MaterialTheme.typography.titleLarge,
-                            textAlign = TextAlign.Center
-                        )
-                    },
-                    navigationIcon = {
-                        if (uiState.isBackArrowVisible) {
-                            IconButton(onClick = { viewModel.onBackPress() }) {
-                                Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
-                            }
+    
+    // Usunięto Scaffold, ponieważ nagłówek jest teraz w MainTabsScreen
+    Column {
+        // Logika zagnieżdżonego nagłówka jest teraz w MainTabsScreen
+        // i jest kontrolowana przez ViewModel, więc nie jest tu potrzebna
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 8.dp),
+            contentPadding = PaddingValues(vertical = 8.dp)
+        ) {
+            items(uiState.items, key = { it.name }) { item ->
+                BrowseItem(
+                    item = item,
+                    onClick = {
+                        if (item.isDirectory) {
+                            viewModel.onDirectoryClick(item.name)
                         } else {
-                            Spacer(Modifier.width(68.dp))
+                            val fullPath = (uiState.currentPath + item.name).joinToString("/")
+                            onNavigateToDay(fullPath)
                         }
                     },
-                    actions = {
-                        Spacer(Modifier.width(68.dp))
-                    },
-                    colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-                        containerColor = MaterialTheme.colorScheme.background,
-                        titleContentColor = MaterialTheme.colorScheme.primary,
-                        navigationIconContentColor = MaterialTheme.colorScheme.primary
-                    ),
-                    windowInsets = WindowInsets(top = 0.dp, bottom = 0.dp)
-                )
-                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-            }
-        }
-    ) { innerPadding ->
-        Column(modifier = Modifier.padding(innerPadding)) {
-            LazyColumn(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(horizontal = 8.dp),
-                contentPadding = PaddingValues(vertical = 8.dp)
-            ) {
-                items(uiState.items, key = { it.name }) { item ->
-                    BrowseItem(
-                        item = item,
-                        onClick = {
-                            if (item.isDirectory) {
-                                viewModel.onDirectoryClick(item.name)
-                            } else {
-                                val fullPath = (uiState.currentPath + item.name).joinToString("/")
-                                onNavigateToDay(fullPath)
-                            }
-                        },
-                        modifier = Modifier.animateItemPlacement(
-                            animationSpec = tween(durationMillis = 250)
-                        )
+                    modifier = Modifier.animateItemPlacement(
+                        animationSpec = tween(durationMillis = 250)
                     )
-                }
+                )
             }
         }
     }

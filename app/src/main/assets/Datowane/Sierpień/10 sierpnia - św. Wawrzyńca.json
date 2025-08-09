@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432647.10-sierpnia-sw-Wawrzynca",
+  "tytul_dnia": "10 sierpnia - św. Wawrzyńca",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 9,6-10",
+      "opis": "Kto hojnie sieje, ten hojnie zbierać będzie",
+      "tekst": "Bracia:\nKto skąpo sieje, ten skąpo i zbiera, kto zaś hojnie sieje, ten hojnie też zbierać będzie. Każdy niech przeto postąpi tak, jak mu nakazuje jego własne serce, nie żałując i nie czując się przymuszonym, albowiem radosnego dawcę miłuje Bóg. A Bóg może zlać na was całą obfitość łaski, tak byście mając wszystkiego i zawsze pod dostatkiem, bogaci byli we wszystkie dobre uczynki według tego, co jest napisane: „Rozproszył, dał ubogim, sprawiedliwość Jego trwa na wieki”.\nTen zaś, który daje nasienie siewcy, i chleba dostarczy ku pokrzepieniu, i ziarno rozmnoży, i zwiększy plon waszej sprawiedliwości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112,1-2.5-6.7-8.9",
+      "opis": "Refren:",
+      "tekst": "Mąż sprawiedliwy obdarza ubogich.\nBłogosławiony człowiek, który boi się Pana\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi,\ndostąpi błogosławieństwa pokolenie prawych.\nDobrze się wiedzie człowiekowi, który z litości pożycza\ni swymi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje\ni pozostanie w wiecznej pamięci.\nNie przelęknie się złej nowiny,\njego mocne serce zaufało Panu.\nJego wierne serce lękać się nie będzie\ni spojrzy z wysoka na swych przeciwników.\nRozdaje i obdarza ubogich,\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą\nbędzie jego potęga."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 12,26",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Kto by chciał Mi służyć, niech idzie za Mną,\na gdzie Ja jestem, tam będzie i mój sługa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 12,24-26",
+      "opis": "Ziarno, które obumrze, przynosi plon obfity",
+      "tekst": "Jezus powiedział do swoich uczniów:\n„Zaprawdę, zaprawdę, powiadam wam: Jeżeli ziarno pszenicy wpadłszy w ziemię nie obumrze, zostanie tylko samo, ale jeżeli obumrze, przynosi plon obfity. Ten, kto kocha swoje życie, traci je, a kto nienawidzi swego życia na tym świecie, zachowa je na życie wieczne.\nA kto by chciał mi służyć, niech idzie za Mną, a gdzie Ja jestem, tam będzie i mój sługa. A jeśli kto Mi służy, uczci go mój Ojciec”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "500",
+      "piesn": "Nie bez ran ten bój się toczył",
+      "opis": "Pieśń ta, dedykowana św. Wawrzyńcowi, opisuje jego męczeństwo jako zwycięską walkę, co idealnie pasuje na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn ku czci męczenników, który podkreśla wartość ich ofiary, jest doskonały na przygotowanie darów, ofiarowując Bogu ich przykład.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach dobrze oddaje postawę św. Wawrzyńca, który służąc ubogim i oddając życie, osiągnął wieczną nagrodę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Uroczysty hymn 'Te Deum' jest odpowiednim dziękczynieniem za świadectwo męczennika, którego 'orszszak biały' wielbi Boga w niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta jest hołdem dla męczennika, który wiernie stał przy Chrystusie, co jest przesłaniem dzisiejszego święta na rozesłanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "Modlitwa za wstawiennictwem męczenników, która prosi o ich pomoc w drodze do nieba, jest dobrym wyborem na ten dzień.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Pieśń ta zwraca się do wszystkich świętych, w tym męczenników, z prośbą o wstawiennictwo i opiekę.",
+      "moment": "ogolne"
+    }
+  ]
+}

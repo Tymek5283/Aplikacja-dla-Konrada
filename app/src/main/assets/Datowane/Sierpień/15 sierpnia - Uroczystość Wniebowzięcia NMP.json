@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432643.15-sierpnia-Wniebowziecie-NMP/2",
+  "tytul_dnia": "15 sierpnia - Uroczystość Wniebowzięcia NMP",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krn 15,3-4.15-16; 16,1-2",
+      "opis": "Wprowadzenie Arki do Miasta Świętego",
+      "tekst": "Dawid zgromadził wszystkich Izraelitów w Jerozolimie celem przeniesienia Arki Pańskiej na jej miejsce, które dla niej przygotował. Zebrał Dawid synów Aarona i lewitów; Lewici nieśli Arkę Bożą na drążkach na swoich ramionach, jak przykazał Mojżesz zgodnie ze słowem Pana.\nI rzekł Dawid naczelnikom lewitów, aby ustanowili swoich braci śpiewakami przy instrumentach muzycznych: cytrach, harfach, cymbałach, aby rozbrzmiewał głos donośny i radosny.\nPrzyniesiono więc Arkę Bożą i ustawiono ją w środku namiotu, jaki rozpiął dla niej Dawid, po czym złożono całopalenia i ofiary pojednania. Gdy zaś Dawid skończył składanie całopaleń i ofiar pojednania, pobłogosławił lud w imieniu Pana.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 132,6-7.9-10.13-14",
+      "opis": "",
+      "tekst": "Refren: Wyrusza z Panem Arka Jego chwały\nSłyszeliśmy o Arce w Efrata,\nznaleźliśmy ją na polach Jaaru.\nWejdźmy do Jego mieszkania,\npadnijmy przed podnóżkiem stóp Jego.\nNiech Twoi kapłani odzieją się w sprawiedliwość,\na Twoi wierni niech śpiewają z radości.\nPrzez wzgląd na sługę Twego, Dawida,\nnie odtrącaj oblicza Twojego pomazańca.\nPan bowiem wybrał Syjon,\ntej siedziby zapragnął dla siebie.\nOto miejsce mego odpoczynku na wieki,\ntu będę mieszkał, bo wybrałem go sobie?"
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 15,54-57",
+      "opis": "Zwycięstwo nad śmiercią",
+      "tekst": "Kiedy już to, co zniszczalne, przyodzieje się w niezniszczalność, a to, co śmiertelne, przyodzieje się w nieśmiertelność, wtedy sprawdzą się słowa, które zostały napisane: Zwycięstwo pochłonęło śmierć. Gdzież jest, o śmierci twoje zwycięstwo? Gdzież jest, o śmierci, twój oścień? Ościeniem zaś śmierci jest grzech, a siłą grzechu Prawo. Bogu niech będą dzięki za to, że dał nam odnieść zwycięstwo przez Pana naszego Jezusa Chrystusa.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 11, 28",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11,27-28",
+      "opis": "Błogosławione łono, które Cię nosiło",
+      "tekst": "Gdy Jezus przemawiał, jakaś kobieta z tłumu głośno zawołała do Niego: „Błogosławione łono, które Cię nosiło”, i piersi, które ssałeś. Lecz On rzekł: Owszem, ale przecież błogosławieni ci, którzy słuchają słowa Bożego i zachowują je.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "370",
+      "piesn": "O Maryjo, w niebo uniesiona",
+      "opis": "Pieśń wprost celebruje tajemnicę Wniebowzięcia, idealnie wprowadzając w uroczysty charakter dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Ta majestatyczna pieśń podkreśla królewską godność Maryi, która została z ciałem i duszą wzięta do nieba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "344",
+      "piesn": "Królowej Anielskiej śpiewajmy",
+      "opis": "Wniebowzięcie jest ukoronowaniem życia Maryi, dlatego pieśń sławiąca Ją jako Królową Anielską jest doskonała na Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Hymn ten jest wyrazem czci dla Maryi, która wzięta do nieba, odbiera chwałę od aniołów i świętych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "191",
+      "piesn": "Wesel się, Królowo miła",
+      "opis": "Ta wielkanocna antyfona maryjna przypomina, że Wniebowzięcie jest udziałem w Zmartwychwstaniu Jej Syna, co stanowi radosne zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "328",
+      "piesn": "Cześć Ci i chwała",
+      "opis": "Pieśń ta, mówiąc o Maryi 'w słońce odzianej', nawiązuje do Jej chwały w niebie, co łączy się z Jej Wniebowzięciem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Jest to pieśń-modlitwa, w której wzywamy opieki naszej Królowej, która w niebie oręduje za nami.",
+      "moment": "ogolne"
+    }
+  ]
+}

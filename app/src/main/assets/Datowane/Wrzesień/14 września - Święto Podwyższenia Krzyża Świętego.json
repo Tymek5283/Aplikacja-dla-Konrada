@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432626.14-wrzesnia-swieto-Podwyzszenia-Krzyza-Swietego",
+  "tytul_dnia": "14 września - Święto Podwyższenia Krzyża Świętego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Lb 21,4b-9",
+      "opis": "Wąż z brązu znakiem ocalenia",
+      "tekst": "W owych dniach podczas drogi lud stracił cierpliwość. I zaczęli mówić przeciw Bogu i Mojżeszowi: „Czemu wyprowadziliście nas z Egiptu, byśmy tu na pustyni pomarli? Nie ma chleba ani wody, a uprzykrzył się nam już ten pokarm mizerny”. Zesłał więc Pan na lud węże o jadzie palącym, które kąsały ludzi, tak że wielka liczba Izraelitów zmarła. Przybyli zatem ludzie do Mojżesza, mówiąc: „Zgrzeszyliśmy, szemrząc przeciw Panu i przeciwko tobie. Wstaw się za nami do Pana, aby oddalił od nas węże”. I wstawił się Mojżesz za ludem. Wtedy rzekł Pan do Mojżesza: „Sporządź węża i umieść go na wysokim palu; wtedy każdy ukąszony, jeśli tylko spojrzy na niego, zostanie przy życiu”. Sporządził więc Mojżesz węża z brązu i umieścił go na wysokim palu. I rzeczywiście, jeśli kogo wąż ukąsił, a ukąszony spojrzał na węża z brązu, zostawał przy życiu.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 78,1-2.34-35.36-37.38",
+      "opis": "Refren:",
+      "tekst": "Wielkich dzieł Boga nie zapominajmy.\nSłuchaj, mój ludu, nauki mojej,\nnakłońcie wasze uszy na słowa ust moich,\nDo przypowieści otworzę me usta,\nwyjawię tajemnice zamierzchłego czasu.\nGdy ich zabijał, wtedy Go szukali,\nnawróceni garnęli się do Boga.\nPrzypominali sobie, że Bóg jest ich opoką,\nże Bóg najwyższy jest ich Zbawicielem.\nLecz oszukiwali Go swymi ustami\ni kłamali Mu swoim językiem.\nIch serce nie było Mu wierne,\nw przymierzu z Nim nie byli stali.\nOn jednak będąc miłosierny\nodpuszczał im winę i nie zatracał,\ngniew swój często powściągał\ni powstrzymywał swoje wzburzenie."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Flp 2,6-11",
+      "opis": "Chrystus uniżył samego siebie, dlatego Bóg Go wywyższył",
+      "tekst": "Chrystus Jezus, istniejąc w postaci Bożej, nie skorzystał ze sposobności, aby na równi być z Bogiem, lecz ogołocił samego siebie, przyjąwszy postać sługi, stawszy się podobnym do ludzi. A w zewnętrznym przejawie uznany za człowieka, uniżył samego siebie, stawszy się posłusznym aż do śmierci, i to śmierci krzyżowej. Dlatego też Bóg Go nad wszystko wywyższył i darował Mu imię ponad wszelkie imię, aby na imię Jezusa zgięło się każde kolano istot niebieskich i ziemskich, i podziemnych, i aby wszelki język wyznał, że Jezus Chrystus jest Panem ku chwale Boga Ojca.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Uwielbiamy Cię, Chryste, i błogosławimy Ciebie,\nbo przez Krzyż Twój święty świat odkupiłeś."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3,13-17",
+      "opis": "Krzyż narzędziem zbawienia",
+      "tekst": "Jezus powiedział do Nikodema: „Nikt nie wstąpił do nieba, oprócz Tego, który z nieba zstąpił, Syna Człowieczego. A jak Mojżesz wywyższył węża na pustyni, tak potrzeba, by wywyższono Syna Człowieczego, aby każdy, kto w Niego wierzy, miał życie wieczne. Tak bowiem Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń ta wprost mówi o zbawczej mocy Krzyża, na którym Jezus zgładził nasze grzechy, co jest istotą dzisiejszego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "763",
+      "piesn": "Crucem tuam",
+      "opis": "Krótka, medytacyjna pieśń 'Krzyż Twój wielbimy, Panie' jest doskonałą modlitwą na przygotowanie darów, skupiając myśli na tajemnicy Krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta łączy tajemnicę Eucharystii z ofiarą krzyżową, przypominając, że Bóstwo Chrystusa było na krzyżu ukryte.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "758",
+      "piesn": "Adoramus te Christe",
+      "opis": "Jest to śpiewana wersja aklamacji przed Ewangelią: 'Wielbimy Cię, Chryste, i błogosławimy Tobie, bo przez Krzyż Twój święty świat odkupiłeś'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Chrystus przez Krzyż odniósł zwycięstwo; śpiewanie o Nim jako o Królu i Wodzu na zakończenie liturgii podkreśla Jego triumf.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń pasyjna rozważająca rany Chrystusa i miłość płynącą z Jego Serca, otwartego na krzyżu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "300",
+      "piesn": "Serce Twe, Jezu",
+      "opis": "Ta pieśń o miłości Serca Jezusowego, zranionego na krzyżu, jest głęboką medytacją nad tajemnicą zbawienia.",
+      "moment": "ogolne"
+    }
+  ]
+}

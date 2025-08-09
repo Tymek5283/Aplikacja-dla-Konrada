@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432556.30-listopada-sw-Andrzeja-Apostola",
+  "tytul_dnia": "30 listopada - św. Andrzeja Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 10,9-18",
+      "opis": "Wiara rodzi się ze słowa Chrystusa",
+      "tekst": "Jeżeli ustami swoimi wyznasz, że Jezus jest Panem, i w sercu swoim uwierzysz, że Bóg Go wskrzesił z martwych, osiągniesz zbawienie. Bo sercem przyjęta wiara prowadzi do usprawiedliwienia, a wyznawanie jej ustami -do zbawienia. Wszak mówi Pismo: „Żaden, kto wierzy w Niego, nie będzie zawstydzony”.\nNie ma już różnicy między Żydem a Grekiem. Jeden jest bowiem Pan wszystkich. On to rozdziela swe bogactwa wszystkim, którzy Go wzywają. „Albowiem każdy, kto wezwie imienia Pańskiego, będzie zbawiony”.\nJakże więc mieli wzywać Tego, w którego nie uwierzyli? Jakże mieli uwierzyć w Tego, którego nie słyszeli? Jakże mieli usłyszeć, gdy im nikt nie głosił? Jakże mogliby im głosić, jeśliby nie zostali posłani? Jak to jest napisane: „Jak piękne stopy tych, którzy zwiastują dobrą nowinę”.\nAle nie wszyscy dali posłuch Ewangelii. Izajasz bowiem mówi: „Panie, któż uwierzył temu, co od nas posłyszał?” Przeto wiara rodzi się z tego, co się słyszy, tym zaś, co się słyszy, jest słowo Chrystusa.\nPytam więc: Czy może nie słyszeli? Ależ tak: „Po całej ziemi rozszedł się ich głos, aż na krańce świata ich słowa”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 49,1-6",
+      "opis": "Ustanowię Cię światłością dla pogan",
+      "tekst": "Wyspy, posłuchajcie Mnie! Ludy najdalsze, uważajcie! Powołał Mnie Pan już z łona mej matki, od jej wnętrzności wspomniał moje imię. Ostrym mieczem uczynił me usta, w cieniu swej ręki Mnie ukrył. Uczynił ze mnie strzałę zaostrzoną, utaił mnie w swoim kołczanie. I rzekł mi: \"Tyś Sługą moim, Izraelu, w tobie się rozsławię\". Ja zaś mówiłem: Próżno się trudziłem, na darmo i na nic zużyłem me siły. Lecz moje prawo jest u Pana i moja nagroda u Boga mego. Wsławiłem się w oczach Pana, Bóg mój stał się moją siłą. teraz przemówił Pan, który mnie ukształtował od urodzenia na swego Sługę, bym nawrócił do Niego Jakuba i zgromadził Mu Izraela. A mówił: \"To zbyt mało, iż jesteś Mi Sługą dla podźwignięcia pokoleń Jakuba i sprowadzenia ocalałych z Izraela! Ustanowię cię światłością dla pogan, aby moje zbawienie dotarło aż do krańców ziemi\"."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19,2-3.4-5ab",
+      "opis": "Refren:",
+      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4,19",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Pójdźcie za Mną,\na uczynię was rybakami ludzi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 4,18-22",
+      "opis": "Powołanie Apostołów",
+      "tekst": "Gdy Jezus przechodził obok Jeziora Galilejskiego, ujrzał dwóch braci, Szymona, zwanego Piotrem, i brata jego Andrzeja, jak zarzucali sieć w jezioro; byli bowiem rybakami. I rzekł do nich: „Pójdźcie za Mną, a uczynię was rybakami ludzi”. Oni natychmiast zostawili sieci i poszli za Nim.\nA gdy poszedł stamtąd dalej, ujrzał innych dwóch braci, Jakuba, syna Zebedeusza, i brata jego Jana, jak z ojcem swym Zebedeuszem naprawiali w łodzi swe sieci. Ich też powołał. A oni natychmiast zostawili łódź i ojca i poszli za Nim.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "565",
+      "piesn": "Ten, co pierwszy z uczniów Jana",
+      "opis": "Pieśń bezpośrednio opowiada o powołaniu św. Andrzeja, co czyni ją idealnym wyborem na rozpoczęcie liturgii jego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć apostołów, który podkreśla ich rolę jako fundamentów Kościoła, doskonale pasuje do momentu składania darów w święto jednego z nich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, za którym św. Andrzej poszedł bez wahania, co jest inspiracją dla przyjmujących Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Uroczysty hymn Te Deum, wspominający 'Apostołów Tobie rzesza', jest wspaniałym aktem uwielbienia w święto apostoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta przypomina o misyjnym posłaniu, które Andrzej i inni apostołowie otrzymali od Jezusa, co jest dobrym posłaniem na koniec liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o wiarę, która rodzi się ze słuchania Słowa Bożego, tak jak podkreśla to pierwsze czytanie z Listu do Rzymian.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach może być przypomnieniem, że droga apostolska, choć trudna, prowadzi do wiecznej nagrody w niebie.",
+      "moment": "ogolne"
+    }
+  ]
+}

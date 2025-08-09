@@ -1,0 +1,87 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432553.8-grudnia-Uroczystosc-Niepokalanego-Poczecia-NMP",
+  "tytul_dnia": "8 grudnia - Uroczystość Niepokalanego Poczęcia NMP",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 3,9-15",
+      "opis": "Wprowadzam nieprzyjaźń pomiędzy potomstwo twoje i potomstwo niewiasty",
+      "tekst": "Gdy Adam zjadł owoc z drzewa zakazanego, Pan Bóg zawołał na niego i zapytał go: „Gdzie jesteś?”\nOn odpowiedział: „Usłyszałem Twój głos w ogrodzie, przestraszyłem się, bo jestem nagi, i ukryłem się”.\nRzekł Bóg: „Któż ci powiedział, że jesteś nagi? Czy może zjadłeś z drzewa, z którego ci zakazałem jeść?”\nMężczyzna odpowiedział: „Niewiasta, którą postawiłeś przy mnie, dała mi owoc z tego drzewa i zjadłem”.\nWtedy Pan Bóg rzekł do niewiasty: „Dlaczego to uczyniłaś?”\nNiewiasta odpowiedziała: „Wąż mnie zwiódł i zjadłam”.\nWtedy Pan Bóg rzekł do węża: „Ponieważ to uczyniłeś, bądź przeklęty wśród wszystkich zwierząt domowych i polnych; na brzuchu będziesz się czołgał i proch będziesz jadł po wszystkie dni twego istnienia. Wprowadzam nieprzyjaźń między ciebie a niewiastę, pomiędzy potomstwo twoje a potomstwo jej: ono zmiażdży ci głowę, a ty zmiażdżysz mu piętę”.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98,1-4",
+      "opis": "Refren:",
+      "tekst": "Śpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 1,3-6.11-12",
+      "opis": "Bóg wybrał nas w Chrystusie przed założeniem świata",
+      "tekst": "Niech będzie błogosławiony Bóg i Ojciec Pana naszego Jezusa Chrystusa; który napełnił nas wszelkim błogosławieństwem duchowym na wyżynach niebieskich - w Chrystusie. W Nim bowiem wybrał nas przez założeniem świata, abyśmy byli święci i nieskalani przed Jego obliczem. Z miłości przeznaczył nas dla siebie jako przybranych synów przez Jezusa Chrystusa, według postanowienia swej woli, ku chwale majestatu swej łaski, którą obdarzył nas w Umiłowanym. W Nim dostąpiliśmy udziału my również, z góry przeznaczeni zamiarem Tego, który dokonuje wszystkiego zgodnie z zamysłem swej woli po to, byśmy istnieli ku chwale Jego majestatu - my, którzyśmy już przedtem nadzieję złożyli w Chrystusie.\nOto słowo Boże"
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 1,28",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą,\nbłogosławionaś Ty między niewiastami."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1,26-38",
+      "opis": "Bądź pozdrowiona, pełna łaski, Pan z Tobą",
+      "tekst": "Bóg posłał anioła Gabriela do miasta w Galilei, zwanego Nazaret, do Dziewicy poślubionej mężowi, imieniem Józef, z rodu Dawida; a Dziewicy było na imię Maryja.\nAnioł wszedł do Niej i rzekł: „Bądź pozdrowiona, pełna łaski, Pan z Tobą, błogosławiona jesteś między niewiastami”.\nOna zmieszała się na te słowa i rozważała, co miałoby znaczyć to pozdrowienie.\nLecz anioł rzekł do Niej: „Nie bój się, Maryjo, znalazłaś bowiem łaskę u Boga. Oto poczniesz i porodzisz Syna, któremu nadasz imię Jezus. Będzie On wielki i będzie nazwany Synem Najwyższego, a Pan Bóg da Mu tron Jego praojca, Dawida. Będzie panował nad domem Jakuba na wieki, a Jego panowaniu nie będzie końca”.\nNa to Maryja rzekła do anioła: „Jakże się to stanie, skoro nie znam męża?”\nAnioł Jej odpowiedział: „Duch Święty zstąpi na Ciebie i moc Najwyższego osłoni Cię. Dlatego też Święte, które się narodzi, będzie nazwane Synem Bożym. A oto również krewna Twoja, Elżbieta, poczęła w swej starości syna i jest już w szóstym miesiącu ta, która uchodzi za niepłodną. Dla Boga bowiem nie ma nic niemożliwego”.\nNa to rzekła Maryja: „Oto Ja służebnica Pańska, niech Mi się stanie według twego słowa!” Wtedy odszedł od Niej anioł.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "400",
+      "piesn": "Witaj, Święta i Poczęta",
+      "opis": "Pieśń ta wprost wychwala dogmat o Niepokalanym Poczęciu, co czyni ją idealną na rozpoczęcie uroczystości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Podkreśla wyjątkowość i czystość Maryi, która została wybrana przez Boga, o czym mówi drugie czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "346",
+      "piesn": "Maryjo, bez grzechu poczęta",
+      "opis": "Wielokrotne powtórzenie wezwania 'Maryjo, bez grzechu poczęta' stanowi doskonałą medytację podczas Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "338",
+      "piesn": "Gwiazdo zaranna",
+      "opis": "Pieśń uwielbia Maryję jako Jutrzenkę zapowiadającą przyjście Chrystusa, co łączy się z Jej rolą w historii zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń ta opisuje scenę Zwiastowania z Ewangelii, przypominając o posłuszeństwie Maryi i początku dzieła odkupienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Jest to hymn sławiący Niepokalanie Poczętą, który może być wykorzystany w różnych momentach liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "399",
+      "piesn": "Witaj, Święta i Niepokalana",
+      "opis": "Kolejna pieśń bezpośrednio związana z tajemnicą dnia, podkreślająca świętość i wyjątkowe wybranie Maryi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Parafraza modlitwy 'Zdrowaś Maryjo', której słowa pochodzą ze sceny Zwiastowania, stanowi piękne uzupełnienie śpiewów.",
+      "moment": "ogolne"
+    }
+  ]
+}

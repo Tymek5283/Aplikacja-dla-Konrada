@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432992.25-kwietnia-sw-Marka-Ewangelisty",
+  "tytul_dnia": "25 kwietnia - św. Marka Ewangelisty",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 5,5b-14",
+      "opis": "Marek, uczeń Piotra Apostoła",
+      "tekst": "Najmilsi:\nWszyscy wobec siebie wzajemnie przyobleczcie się w pokorę, Bóg bowiem pysznym się sprzeciwia, pokornym zaś daje łaskę. Upokorzcie się więc pod mocną ręką Boga, aby was wywyższył w stosownej chwili. Wszystkie troski wasze przerzućcie na Niego, gdyż Jemu zależy na was.\nBądźcie trzeźwi! Czuwajcie! Przeciwnik wasz, diabeł, jak lew ryczący krąży szukając kogo pożreć. Mocni w wierze przeciwstawiajcie się jemu. Wiecie, że te same cierpienia ponoszą wasi bracia na świecie. A Bóg wszelkiej łaski, Ten, który was powołał do wiecznej swojej chwały w Chrystusie, gdy trochę pocierpicie, sam was udoskonali, utwierdzi, umocni i ugruntuje. Jemu chwała i moc na wieki wieków. Amen.\nKrótko, jak mi się wydaje, wam napisałem przy pomocy Sylwana, wiernego brata, upominając i stwierdzając, że taka jest prawdziwa łaska Boża, w której trwajcie.\nPozdrawia was ta, która jest w Babilonie razem z wami wybrana, oraz Marek, mój syn. Pozdrówcie się wzajemnym pocałunkiem miłości.\nPokój wam wszystkim, którzy trwacie w Chrystusie.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89,2-3.6-7.16-17",
+      "opis": "Refren:",
+      "tekst": "Będę na wieki sławił łaski Pana.\nBędę na wieki śpiewał o łasce Pana,\nmoimi ustami Twą wierność będę głosił\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś:\n„Na wieki ugruntowana jest łaska”,\nutrwaliłeś swą wierność w niebiosach.\nNiebiosa wysławiają cuda Twoje, Panie,\ni Twoją wierność w zgromadzeniu świętych.\nBo któż na obłokach będzie równy Panu,\nkto z synów Bożych będzie doń podobny?\nBłogosławiony lud, który umie się cieszyć\ni chodzi, Panie, w blasku Twojej obecności.\nCieszą się zawsze Twym imieniem,\nwywyższa ich Twoja sprawiedliwość."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 Kor 1,23-24",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "My głosimy Chrystusa ukrzyżowanego,\nktóry jest mocą i mądrością Bożą"
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 16,15-20",
+      "opis": "Głoście Ewangelię wszelkiemu stworzeniu",
+      "tekst": "Jezus ukazawszy się Jedenastu rzekł do nich: „Idźcie na cały świat i głoście Ewangelię wszelkiemu stworzeniu. Kto uwierzy i przyjmie chrzest, będzie zbawiony; a kto nie uwierzy, będzie potępiony. Tym zaś, którzy uwierzą, te znaki towarzyszyć będą: W imię moje złe duchy będą wyrzucać, nowymi językami mówić będą; węże brać będą do rąk, i jeśliby co zatrutego wypili, nie będzie im szkodzić. Na chorych ręce kłaść będą, i ci odzyskają zdrowie”.\nPo rozmowie z nimi Pan Jezus został wzięty do nieba i zasiadł po prawicy Boga. Oni zaś poszli i głosili Ewangelię wszędzie, a Pan współdziałał z nimi i potwierdzał naukę znakami, które jej towarzyszyły.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń jest hymnem na cześć apostołów, co doskonale wprowadza w tematykę święta Ewangelisty, który był uczniem apostoła Piotra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "442",
+      "piesn": "Z weselem ducha",
+      "opis": "Pieśń ta bezpośrednio zwraca się do św. Marka, sławiąc go za spisanie Ewangelii, co czyni ją idealną na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Nawiązuje do ewangelicznego nakazu misyjnego 'Idźcie na cały świat', który jest centralnym punktem czytań tego dnia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn uwielbienia, który wzywa całe stworzenie do chwalenia Pana, co rezonuje z nakazem głoszenia Ewangelii 'wszelkiemu stworzeniu'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Tekst tej pieśni jest niemal dosłownym cytatem z Ewangelii na ten dzień, co czyni ją idealnym podsumowaniem i posłaniem na koniec liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest uniwersalnym hymnem chwały, który wpisuje się w misyjny charakter święta, wzywając wszystkie narody do chwalenia Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Hymn 'Te Deum' jest odpowiedni na każdą uroczystość, a jego treść o chórze apostołów i proroków szczególnie pasuje do święta Ewangelisty.",
+      "moment": "ogolne"
+    }
+  ]
+}

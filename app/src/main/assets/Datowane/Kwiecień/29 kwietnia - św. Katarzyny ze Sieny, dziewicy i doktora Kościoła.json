@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432990.29-kwietnia-sw-Katarzyny-dziewicy-i-doktora-Kosciola",
+  "tytul_dnia": "29 kwietnia - św. Katarzyny ze Sieny, dziewicy i doktora Kościoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 1,5-2,2",
+      "opis": "Krew Chrystusa oczyszcza nas z grzechu",
+      "tekst": "Najmilsi:\nNowina, którą usłyszeliśmy od Jezusa Chrystusa i którą wam głosimy, jest taka: Bóg jest światłością, a nie ma w Nim żadnej ciemności. Jeżeli mówimy, że mamy z Nim współuczestnictwo, a chodzimy w ciemności, kłamiemy i nie postępujemy zgodnie z prawdą. Jeżeli zaś chodzimy w światłości, tak jak On sam trwa w światłości, wtedy mamy jedni z drugimi współuczestnictwo, a krew Jezusa, Syna Jego, oczyszcza nas z wszelkiego grzechu.\nJeżeli mówimy, że nie mamy grzechu, to samych siebie oszukujemy i nie ma w nas prawdy. Jeżeli wyznajemy nasze grzechy, Bóg jako wierny i sprawiedliwy odpuści je nam i oczyści nas z wszelkiej nieprawości. Jeżeli mówimy, że nie zgrzeszyliśmy, czynimy Go kłamcą i nie ma w nas Jego nauki.\nDzieci moje, piszę wam to dlatego, żebyście nie grzeszyli. Jeśliby nawet ktoś zgrzeszył, mamy Rzecznika wobec Ojca, Jezusa Chrystusa sprawiedliwego. On bowiem jest ofiarą przebłagalną za nasze grzechy, i nie tylko za nasze, lecz również za grzechy całego świata.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103,1-2.3-4.8-9.13-14.17-18",
+      "opis": "Refren:",
+      "tekst": "Chwal i błogosław, duszo moja, Pana.\nBłogosław, duszo moja, Pana,\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nOn odpuszcza wszystkie twoje winy\ni leczy wszystkie choroby,\nOn twoje życie ratuje od zguby,\nobdarza cię łaską i zmiłowaniem.\nMiłosierny jest Pan i łaskawy,\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze,\nnie płonie gniewem na wieki.\nJak ojciec lituje się nad dziećmi,\ntak Pan się lituje nad tymi, którzy się Go boją.\nWie On, z czegośmy powstali,\npamięta, że jesteśmy prochem.\nŁaska zaś Boga jest wieczna dla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem,\nnad wszystkimi, którzy strzegą Jego przymierza\ni pamiętają, by spełniać Jego przykazania."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11,25",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11,25-30",
+      "opis": "Tajemnice królestwa objawione prostaczkom",
+      "tekst": "W owym czasie Jezus przemówił tymi słowami: „Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nWszystko przekazał Mi Ojciec mój. Nikt też nie zna Syna, tylko Ojciec, ani Ojca nikt nie zna, tylko Syn, i ten, komu Syn zechce objawić.\nPrzyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię.\nWeźcie moje jarzmo na siebie i uczcie się ode Mnie, bo jestem cichy i pokorny sercem, a znajdziecie ukojenie dla dusz waszych. Albowiem jarzmo moje jest słodkie, a moje brzemię lekkie”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "578",
+      "piesn": "Dziś radośnie wysławiamy",
+      "opis": "Pieśń ta jest hymnem na cześć świętych dziewic, co doskonale wprowadza w atmosferę święta św. Katarzyny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "443",
+      "piesn": "Ozdobo Sieny",
+      "opis": "Pieśń bezpośrednio zwraca się do św. Katarzyny, prosząc o jej wstawiennictwo, co jest bardzo odpowiednie na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń ta jest muzyczną interpretacją słów Jezusa z Ewangelii dnia, które wzywają utrudzonych do znalezienia w Nim pokrzepienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "577",
+      "piesn": "Boże, przedwieczna mądrości",
+      "opis": "Hymn na cześć doktorów Kościoła, który podkreśla rolę świętych w przekazywaniu Bożej mądrości, co idealnie pasuje do postaci św. Katarzyny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które było motywem przewodnim życia św. Katarzyny, co stanowi dobre posłanie na koniec mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "579",
+      "piesn": "O patronko święta w niebie",
+      "opis": "Jest to ogólna pieśń do świętej patronki, która podkreśla jej rolę jako wzoru czystości i miłości do Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o całkowitym oddaniu się Jezusowi, co odzwierciedla duchowość św. Katarzyny ze Sieny.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432884.11-czerwca-sw-Barnaby-Apostola",
+  "tytul_dnia": "11 czerwca - św. Barnaby Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 11,21b-26;13,1-3",
+      "opis": "Barnaba, człowiek dobry i pełen Ducha Świętego",
+      "tekst": "W Antiochii wielka liczba ludzi uwierzyła i nawróciła się do Pana. Wieść o tym doszła do uszu Kościoła w Jerozolimie. Wysłano do Antiochii Barnabę. Gdy on przybył i zobaczył działania łaski Bożej, ucieszył się i zachęcał, aby całym sercem wytrwali przy Panu; był bowiem człowiekiem dobrym i pełnym Ducha Świętego i wiary. Pozyskano wtedy wielką rzeszę dla Pana.\nUdał się też do Tarsu, aby odszukać Szawła. A kiedy go znalazł, przyprowadził do Antiochii i przez cały rok pracowali razem w Kościele, nauczając wielką rzeszę ludzi. W Antiochii też po raz pierwszy nazwano uczniów chrześcijanami.\nW Antiochii, w tamtejszym Kościele, byli prorokami i nauczycielami: Barnaba i Szymon zwany Niger, Lucjusz Cyrenejczyk i Manaen, który wychowywał się razem z Herodem tetrarchą, i Szaweł.\nGdy odprawiali publiczne nabożeństwo i pościli, rzekł Duch Święty: „Wyznaczcie mi już Barnabę i Szawła do dzieła, do którego ich powołałem”. Wtedy po poście i modlitwie oraz po włożeniu na nich rąk, wyprawili ich.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98,1.2-3ab.3c-4.5-6",
+      "opis": "Refren:",
+      "tekst": "Pan Bóg objawił swoją sprawiedliwość.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie.\nŚpiewajcie Panu przy wtórze cytry,\nprzy wtórze cytry i przy dźwięku harfy,\nprzy trąbach i przy dźwięku rogu\nna oczach Pana, Króla, się radujcie."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 28,19a.20b",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Idźcie i nauczajcie wszystkie narody,\nJa jestem z wami przez wszystkie dni aż do skończenia świata."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10,7-13",
+      "opis": "Wskazania na pracę apostolską",
+      "tekst": "Jezus powiedział do swoich Apostołów:\n„Idźcie i głoście: Bliskie już jest królestwo niebieskie. Uzdrawiajcie chorych, wskrzeszajcie umarłych, oczyszczajcie trędowatych, wypędzajcie złe duchy. Darmo otrzymaliście, darmo dawajcie. Nie zdobywajcie złota ani srebra, ani miedzi do swych trzosów. Nie bierzcie na drogę torby ani dwóch sukien, ani sandałów, ani laski. Wart jest bowiem robotnik swej strawy.\nA gdy przyjdziecie do jakiegoś miasta albo wsi, wywiedzcie się, kto tam jest godny, i u niego zatrzymajcie się, dopóki nie wyjdziecie.\nWchodząc do domu, przywitajcie go pozdrowieniem. Jeśli dom na to zasługuje, niech zstąpi na niego pokój wasz; jeśli nie zasługuje, niech pokój wasz powróci do was”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń jest hołdem dla apostołów, głosicieli Ewangelii, co doskonale pasuje do wspomnienia św. Barnaby, nazwanego apostołem w Dziejach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "468",
+      "piesn": "Sławimy dzisiaj zwycięstwo Barnaby",
+      "opis": "Pieśń dedykowana patronowi dnia, która wspomina jego zapał misyjny i wierność Chrystusowi, idealnie pasuje na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter Kościoła, do którego budowania przyczynił się św. Barnaba, 'człowiek dobry i pełen Ducha Świętego'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn uwielbienia, który współbrzmi z psalmem wzywającym do głoszenia zbawienia i cudów Pana wszystkim narodom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Treść pieśni jest bezpośrednim echem Ewangelii i aklamacji, w których Jezus posyła uczniów, by głosili Dobrą Nowinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Modlitwa o umocnienie wiary jest zawsze aktualna, a szczególnie w dniu wspomnienia tego, który 'pozyskał wielką rzeszę dla Pana'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, do którego budowania i wzrostu w Antiochii przyczynił się św. Barnaba, co opisuje pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

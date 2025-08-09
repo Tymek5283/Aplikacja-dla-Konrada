@@ -20,28 +20,23 @@ fun SettingsScreen() {
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
 
-    // Efekt do wyświetlania komunikatu, gdy tylko pojawi się w stanie
     LaunchedEffect(uiState.exportMessage) {
         uiState.exportMessage?.let {
             snackbarHostState.showSnackbar(it)
-            viewModel.clearMessage() // Czyścimy wiadomość po wyświetleniu
+            viewModel.clearMessage()
         }
     }
 
-    // --- POCZĄTEK ZMIANY: Niestandardowy, elegancki Snackbar ---
-    Scaffold(
-        snackbarHost = {
-            SnackbarHost(hostState = snackbarHostState) { data ->
-                // Używamy kolorów z motywu, aby Snackbar pasował do reszty aplikacji
-                Snackbar(
-                    snackbarData = data,
-                    containerColor = MaterialTheme.colorScheme.inverseSurface,
-                    contentColor = MaterialTheme.colorScheme.inverseOnSurface
-                )
-            }
+    // Scaffold jest potrzebny tylko dla SnackbarHost, nie ma topBar
+    Scaffold(snackbarHost = {
+        SnackbarHost(hostState = snackbarHostState) { data ->
+            Snackbar(
+                snackbarData = data,
+                containerColor = MaterialTheme.colorScheme.inverseSurface,
+                contentColor = MaterialTheme.colorScheme.inverseOnSurface
+            )
         }
-    ) { padding ->
-        // --- KONIEC ZMIANY ---
+    }) { padding ->
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -55,7 +50,7 @@ fun SettingsScreen() {
                 if (uiState.isExporting) {
                     CircularProgressIndicator(
                         modifier = Modifier.size(24.dp),
-                        color = MaterialTheme.colorScheme.onPrimary // Dopasowanie koloru
+                        color = MaterialTheme.colorScheme.onPrimary
                     )
                 } else {
                     Text(text = "Eksportuj dane")

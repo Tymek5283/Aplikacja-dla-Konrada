@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/433004.22-lutego-Katedry-sw-Piotra",
+  "tytul_dnia": "22 lutego - Święto Katedry św. Piotra, Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 5,1-4",
+      "opis": "Starszy, a przy tym świadek cierpień Chrystusa",
+      "tekst": "Najmilsi:\nStarszych, którzy są wśród was, proszę ja, również starszy, a przy tym świadek Chrystusowych cierpień oraz uczestnik tej chwały, która ma się objawić: paście stado Boże, które jest przy was, strzegąc go nie pod przymusem, ale z własnej woli, jak Bóg chce; nie ze względu na niegodziwe zyski, ale z oddaniem; i nie jak ci, którzy ciemiężą gminy, ale jako żywe przykłady dla stada. Kiedy zaś objawi się Najwyższy Pasterz, otrzymacie niewiędnący wieniec chwały.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23, 1-2a.2b-3.4.5.6",
+      "opis": "Refren:",
+      "tekst": "Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem,\nniczego mi nie braknie.\nPozwala mi leżeć\nna zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć,\norzeźwia moją duszę.\nWiedzie mnie po właściwych ścieżkach\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę,\nzła się nie ulęknę, bo Ty jesteś ze mną.\nKij Twój i laska pasterska\nsą moją pociechą.\nStół dla mnie zastawiasz\nna oczach mych wrogów. Namaszczasz mi głowę olejkiem,\na kielich mój pełny po brzegi.\nDobroć i łaska pójdą w ślad za mną\nprzez wszystkie dni mego życia\ni zamieszkam w domu Pana\npo najdłuższe czasy."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 16,18",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ty jesteś Piotr - Opoka,\ni na tej opoce zbuduję mój Kościół,\na bramy piekielne go nie przemogą."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16,13-19",
+      "opis": "Tobie dam klucze królestwa niebieskiego",
+      "tekst": "Gdy Jezus przyszedł w okolice Cezarei Filipowej, pytał swych uczniów: „Za kogo ludzie uważają Syna Człowieczego?”\nA oni odpowiedzieli: „Jedni za Jana Chrzciciela, inni za Eliasza, jeszcze inni za Jeremiasza albo za jednego z proroków”.\nJezus zapytał ich: „A wy za kogo Mnie uważacie?”\nOdpowiedział Szymon Piotr: „Tyjesteś Mesjasz, Syn Boga żywego”.\nNa to Jezus mu rzekł: „Błogosławiony jesteś, Szymonie, synu Jony. Albowiem ciało i krew nie objawiły ci tego, lecz Ojciec mój, który jest w niebie. Otóż i Ja tobie powiadam: Ty jesteś Piotr – Opoka, i na tej opoce zbuduję mój Kościół, a bramy piekielne go nie przemogą. I tobie dam klucze królestwa niebieskiego; cokolwiek zwiążesz na ziemi, będzie związane w niebie, a co rozwiążesz na ziemi, będzie rozwiązane w niebie”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "433",
+      "piesn": "Na Boży rozkaz",
+      "opis": "Pieśń ta bezpośrednio odnosi się do misji i autorytetu św. Piotra jako opoki Kościoła, co jest głównym tematem dzisiejszego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Święto Katedry św. Piotra jest modlitwą za jedność Kościoła, a ta pieśń jest właśnie taką prośbą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Psalm responsoryjny i pierwsze czytanie ukazują Chrystusa jako Dobrego Pasterza, a Piotra jako tego, który ma paść Jego owce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla kapłański wymiar Ludu Bożego, zgromadzonego wokół następcy Piotra, co stanowi dziękczynienie za dar Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "478",
+      "piesn": "Jeśli chcesz szukać patrona",
+      "opis": "Pieśń wychwala św. Piotra jako opokę Kościoła i odźwiernego niebios, co bezpośrednio nawiązuje do Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Tekst nawiązujący do Psalmu 23, psalmu responsoryjnego tego dnia, podkreśla ufność w Bożą opiekę nad Jego ludem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń ogólna o Apostołach, na czele których stoi św. Piotr, pasuje do charakteru dnia.",
+      "moment": "ogolne"
+    }
+  ]
+}

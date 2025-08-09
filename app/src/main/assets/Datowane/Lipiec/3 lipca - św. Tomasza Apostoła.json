@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432868.3-lipca-sw-Tomasza-Apostola",
+  "tytul_dnia": "3 lipca - św. Tomasza Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 2,19-22",
+      "opis": "Kościół zbudowany na fundamencie Apostołów",
+      "tekst": "Bracia:\nNie jesteście już obcymi i przychodniami, ale jesteście współobywatelami świętych i domownikami Boga, zbudowani na fundamencie apostołów i proroków, gdzie kamieniem węgielnym jest sam Chrystus Jezus. W Nim zespalana cała budowla rośnie na świętą w Panu świątynię, w Nim i wy także wznosicie się we wspólnym budowaniu, by stanowić mieszkanie Boga przez Ducha.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117,1-2",
+      "opis": "Refren:",
+      "tekst": "Idźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 20,29",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Uwierzyłeś Tomaszu, bo Mnie ujrzałeś.\nBłogosławieni, którzy nie widzieli, a uwierzyli."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 20,24-29",
+      "opis": "Pan mój i Bóg mój",
+      "tekst": "Tomasz, jeden z Dwunastu, zwany Didymos, nie był razem z nimi, kiedy przyszedł Jezus. Inni więc uczniowie mówili do niego: „Widzieliśmy Pana”. Ale on rzekł do nich: „Jeżeli na rękach Jego nie zobaczę śladu gwoździ i nie włożę palca mego w miejsce gwoździ, i nie włożę ręki mojej do boku Jego, nie uwierzę”.\nA po ośmiu dniach, kiedy uczniowie Jego byli znowu wewnątrz domu i Tomasz z nimi, Jezus przyszedł mimo drzwi zamkniętych, stanął pośrodku i rzekł: „Pokój wam!” Następnie rzekł do Tomasza: „Podnieś tutaj swój palec i zobacz moje ręce. Podnieś rękę i włóż ją do mego boku, i nie bądź niedowiarkiem, lecz wierzącym”. Tomasz Mu odpowiedział: „Pan mój i Bóg mój!”\nPowiedział mu Jezus: „Uwierzyłeś dlatego, ponieważ Mnie ujrzałeś. Błogosławieni, którzy nie widzieli, a uwierzyli”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń ta idealnie pasuje na wejście, gdyż oddaje cześć fundamentowi Kościoła, jakim są Apostołowie, o czym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Tekst tej pieśni doskonale oddaje istotę wyznania wiary św. Tomasza, stąd jest to świetna propozycja na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Zawiera bezpośrednie odwołanie do postawy św. Tomasza: 'Jak niewierny Tomasz Twych nie szukam ran, lecz wyznaję z wiarą, żeś mój Bóg i Pan'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Uroczysty hymn Te Deum jest odpowiednim dziękczynieniem za dar wiary, która jest głównym tematem dzisiejszego święta.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta realizuje misyjne wezwanie z psalmu responsoryjnego, podkreślając apostolski wymiar święta i posłanie do głoszenia Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ta pieśń jest modlitwą o wiarę, co doskonale rezonuje z postawą i przemianą Tomasza Apostoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do słów Jezusa z Ewangelii i aklamacji: 'Błogosławieni, którzy nie widzieli, a uwierzyli', podkreślając wartość wiary.",
+      "moment": "ogolne"
+    }
+  ]
+}

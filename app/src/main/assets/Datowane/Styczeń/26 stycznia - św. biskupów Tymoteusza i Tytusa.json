@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/433021.26-stycznia-sw-biskupow-Tymoteusza-i-Tytusa",
+  "tytul_dnia": "26 stycznia - św. biskupów Tymoteusza i Tytusa",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 1,1-8",
+      "opis": "Żywa wiara Tymoteusza",
+      "tekst": "Paweł, z woli Boga apostoł Chrystusa Jezusa, posłany dla głoszenia życia obiecanego w Chrystusie Jezusie, do Tymoteusza, swego umiłowanego dziecka. Łaska, miłosierdzie, pokój od Boga Ojca i Chrystusa Jezusa, naszego Pana.\nDziękuję Bogu, któremu służę jak moi przodkowie z czystym sumieniem, gdy zachowuję nieprzerwaną pamięć o tobie w moich modlitwach. W nocy i we dnie pragnę cię zobaczyć, pomny na twoje łzy, by napełniła mnie radość na wspomnienie wiary bez obłudy, jaka jest w tobie; ona to zamieszkała pierwej w twej babce Lois i w twej matce Eunice, a pewien jestem, że mieszka i w tobie.\nZ tej właśnie przyczyny przypominam ci, abyś rozpalił na nowo charyzmat Boży, który jest w tobie przez włożenie moich rąk. Albowiem nie dał nam Bóg ducha bojaźni, ale mocy i miłości, i trzeźwego myślenia. Nie wstydź się zatem świadectwa naszego Pana ani mnie, Jego więźnia, lecz weź udział w trudach i przeciwnościach znoszonych dla Ewangelii według danej mocy Boga.\nOto słowo Boże"
+    },
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tt 1,1-5",
+      "opis": "Tytus synem Pawła w wierze",
+      "tekst": "Paweł, sługa Boga i apostoł Jezusa Chrystusa, posłany do szerzenia wśród wybranych Bożych wiary i poznania prawdy wiodącej do życia w pobożności, w nadziei życia wiecznego, jakie przyobiecał przed wiekami prawdomówny Bóg, a we właściwym czasie objawił swe słowo przez nauczanie powierzone mi z rozkazu Boga, Zbawiciela naszego, do Tytusa, dziecka mego prawdziwego we wspólnej nam wierze. Łaska i pokój od Boga Ojca i Chrystusa Jezusa, Zbawiciela naszego.\nW tym celu zostawiłem cię na Krecie, byś należycie załatwił zaległe sprawy i ustanowił w każdym mieście prezbiterów, jak ci poleciłem.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96,1-2.3.7-8a i 10",
+      "opis": "Refren:",
+      "tekst": "Głoście cześć Pana wśród wszystkich narodów.\nŚpiewajcie Panu pieśń nową\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię,\nkażdego dnia głoście Jego zbawienie.\nGłoście Jego chwałę\nwśród wszystkich narodów,\nrozgłaszajcie Jego cuda\npośród wszystkich ludów.\nOddajcie Panu, rodziny narodów,\noddajcie Panu chwałę i uznajcie Jego potęgę.\nOddajcie Panu chwałę należną Jego imieniu.\nGłoście wśród ludów, że Pan jest królem.\nutwierdził świat. tak, że się nie zachwieje,\nbędzie sprawiedliwie sądził ludy."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 4,18",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Pan posłał Mnie, abym ubogim głosił dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10,1-9",
+      "opis": "Rozesłanie uczniów",
+      "tekst": "Spośród swoich uczniów wyznaczył Pan jeszcze innych, siedemdziesięciu dwóch, i wysłał ich po dwóch przed sobą do każdego miasta i miejscowości, dokąd sam przyjść zamierzał.\nPowiedział też do nich: „Żniwo wprawdzie wielkie, ale robotników mało; proście więc Pana żniwa, żeby wyprawił robotników na swoje żniwo. Idźcie, oto was posyłam jak owce między wilki. Nie noście ze sobą trzosa ani torby, ani sandałów; i nikogo w drodze nie pozdrawiajcie.\nGdy do jakiego domu wejdziecie, najpierw mówcie: «Pokój temu domowi!» Jeśli tam mieszka człowiek godny pokoju, wasz pokój spocznie na nim; jeśli nie, powróci do was.\nW tym samym domu zostańcie, jedząc i pijąc, co mają: bo zasługuje robotnik na swą zapłatę.\nNie przechodźcie z domu do domu. Jeśli do jakiego miasta wejdziecie i przyjmą was, jedzcie, co wam podadzą; uzdrawiajcie chorych, którzy tam są, i mówcie im: «Przybliżyło się do was królestwo Boże»”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "576",
+      "piesn": "Błogosławione serca",
+      "opis": "Pieśń ta wychwala tych, którzy głoszą słowo Boże, co doskonale pasuje do wspomnienia Tymoteusza i Tytusa, uczniów i współpracowników św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Treść pieśni mówi o powołaniu kapłańskim i misyjnym, co odzwierciedla życie i posługę świętych biskupów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Jest to hymn o powszechnym kapłaństwie wiernych, ale jego treść o głoszeniu Ewangelii dobrze pasuje do wspomnienia pasterzy Kościoła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta jest wezwaniem do głoszenia chwały Pana, co było głównym zadaniem Tymoteusza i Tytusa w ich posłudze biskupiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta przypomina o misyjnym nakazie Chrystusa, który realizowali święci patroni dnia, co stanowi dobre posłanie na koniec liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Chociaż Tymoteusz i Tytus nie należeli do grona Dwunastu, jako ich następcy i współpracownicy zasługują na tę samą cześć.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn uwielbienia, który dobrze oddaje ducha dziękczynienia za dar świętych pasterzy w Kościele.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/433007.14-lutego-sw-Cyryla-i-Metodego-patronow-Europy",
+  "tytul_dnia": "14 lutego - św. Cyryla i Metodego, patronów Europy",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 13,46-49",
+      "opis": "Apostołowie zwracają się do pogan",
+      "tekst": "Paweł i Barnaba powiedzieli do Żydów: „Należało głosić słowo Boże najpierw wam. Skoro jednak odrzucacie je i sami uznajecie się za niegodnych życia wiecznego, zwracamy się do pogan. Tak bowiem nakazał nam Pan: «Ustanowiłem Cię światłością dla pogan, abyś był zbawieniem aż po krańce ziemi»”.\nPoganie słysząc to radowali się i wielbili słowo Pańskie, a wszyscy, przeznaczeni do życia wiecznego, uwierzyli. Słowo Pańskie rozszerzało się po całym kraju.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117,1-2",
+      "opis": "Refren:",
+      "tekst": "Idźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 4,18",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Pan posłał Mnie, abym ubogim głosił dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10,1-9",
+      "opis": "Rozesłanie uczniów",
+      "tekst": "Spośród swoich uczniów wyznaczył Pan jeszcze innych, siedemdziesięciu dwóch, i wysłał ich po dwóch przed sobą do każdego miasta i miejscowości, dokąd sam przyjść zamierzał.\nPowiedział też do nich: «Żniwo wprawdzie wielkie, ale robotników mało; proście więc Pana żniwa, żeby wyprawił robotników na swoje żniwo. Idźcie, oto was posyłam jak owce między wilki. Nie noście ze sobą trzosa ani torby, ani sandałów; i nikogo w drodze nie pozdrawiajcie.\nGdy do jakiego domu wejdziecie, najpierw mówcie: «Pokój temu domowi!» Jeśli tam mieszka człowiek godny pokoju, wasz pokój spocznie na nim; jeśli nie, powróci do was.\nW tym samym domu zostańcie, jedząc i pijąc, co mają: bo zasługuje robotnik na swą zapłatę.\nNie przechodźcie z domu do domu. Jeśli do jakiego miasta wejdziecie i przyjmą was, jedzcie, co wam podadzą; uzdrawiajcie chorych, którzy tam są, i mówcie im: «Przybliżyło się do was królestwo Boże»”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "432",
+      "piesn": "Bracia wybrani przez Boga",
+      "opis": "Pieśń ta wprost odnosi się do misji świętych braci, którzy głosili wiarę narodom słowiańskim, co idealnie pasuje na wejście.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Treść pieśni jest echem Ewangelii o rozesłaniu uczniów i psalmu 'Idźcie i głoście', co oddaje misyjny charakter patronów Europy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Modlitwa o zjednoczenie wszystkich w jednym Kościele jest szczególnie aktualna w święto patronów, którzy pracowali na rzecz jedności chrześcijan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Jest to pieśń uwielbienia, która wzywa wszystkie narody do chwalenia Pana, co jest celem działalności misyjnej Cyryla i Metodego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój w Kościele jest odpowiednim zwieńczeniem liturgii w dniu patronów, którzy budowali jedność Europy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Chociaż nie należeli do grona Dwunastu, to ich misyjna praca jest porównywalna z dziełem apostołów, co uzasadnia wybór tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta, będąca prośbą o jedność, doskonale wpisuje się w dzieło świętych braci, którzy łączyli różne narody w jednej wierze.",
+      "moment": "ogolne"
+    }
+  ]
+}

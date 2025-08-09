@@ -10,5 +10,7 @@
         <item name="postSplashScreenTheme">@style/Theme.LiturgicalCalendar</item>
     </style>
 
-    <style name="Theme.LiturgicalCalendar" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.LiturgicalCalendar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background_color</item>
+    </style>
 </resources>

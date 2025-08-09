@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432862.25-lipca-sw-Jakuba-Apostola",
+  "tytul_dnia": "25 lipca - św. Jakuba Apostoła",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 4,7-15",
+      "opis": "Nosimy w naszym ciele konanie Jezusa",
+      "tekst": "Bracia:\nPrzechowujemy skarb w naczyniach glinianych, aby z Boga była owa przeogromna moc, a nie z nas. Zewsząd znosimy cierpienia, lecz nie poddajemy się zwątpieniu; żyjemy w niedostatku, lecz nie rozpaczamy; znosimy prześladowania, lecz nie czujemy się osamotnieni, obalają nas na ziemię, lecz nie giniemy. Nosimy nieustannie w ciele naszym konanie Jezusa, aby życie Jezusa objawiało się w naszym ciele. Ciągle bowiem jesteśmy wydawani na śmierć z powodu Jezusa, aby życie Jezusa objawiło się w naszym śmiertelnym ciele. Tak więc działa w nas śmierć, podczas gdy w was - życie.\nCieszę się przeto owym duchem wiary, według którego napisano: „Uwierzyłem, dlatego przemówiłem”; my także wierzymy i dlatego mówimy, przekonani, że Ten, który wskrzesił Jezusa, z Jezusem przywróci życie także nam i stawi nas przed sobą razem z wami. Wszystko to bowiem dla was, ażeby w pełni obfitująca łaska zwiększyła chwałę Bożą przez dziękczynienie wielu.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B,10-11.12-13.15-16.17-18",
+      "opis": "Refren:",
+      "tekst": "Cenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nCenna jest w oczach Pana\nśmierć jego wyznawców.\nPanie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy,\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana\nprzed Jego ludem."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15,16",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Nie wyście Mnie wybrali, ale Ja was wybrałem,\nabyście szli i owoc przyniosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 20,20-28",
+      "opis": "Kielich mój pić będziecie",
+      "tekst": "Matka synów Zebedeusza podeszła do Jezusa ze swoimi synami i oddając Mu pokłon, o coś Go prosiła. On ją zapytał: „Czego pragniesz?” Rzekła Mu: „Powiedz, żeby ci dwaj moi synowie zasiedli w Twoim królestwie, jeden po prawej, a drugi po lewej Twej stronie”. Odpowiadając Jezus rzekł: „Nie wiecie, o co prosicie. Czy możecie pić kielich, który Ja mam pić?” Odpowiedzieli Mu: „Możemy”. On rzekł do nich: „Kielich mój pić będziecie. Nie do Mnie jednak należy dać miejsce po mojej stronie prawej i lewej, ale dostanie się ono tym, dla których mój Ojciec je przygotował”.\nGdy dziesięciu pozostałych to usłyszało, oburzyli się na tych dwóch braci. A Jezus przywołał ich do siebie i rzekł: „Wiecie, że władcy narodów uciskają je, a wielcy dają im odczuć swą władzę. Nie tak będzie u was. Lecz kto by między wami chciał się stać wielkim, niech będzie waszym sługą. A kto by chciał być pierwszym między wami, niech będzie niewolnikiem waszym. Na wzór Syna Człowieczego, który nie przyszedł, aby Mu służono, lecz aby służyć i dać swoje życie na okup za wielu”.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Jest to hymn pochwalny na cześć wszystkich apostołów, idealny na rozpoczęcie święta jednego z nich, Jakuba.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "489",
+      "piesn": "Ciebie, Jakubie, sławimy",
+      "opis": "Pieśń bezpośrednio dedykowana św. Jakubowi, która opowiada o jego powołaniu i misji, doskonale pasuje na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń ta, nawiązując do postawy służby opisanej w Ewangelii, zachęca do przyjęcia Chrystusa, który sam stał się sługą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża dziękczynienie za Boże łaski i powołanie, co jest echem wdzięczności za dar życia i misji apostoła Jakuba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń przypomina o misyjnym posłaniu apostołów, które św. Jakub wypełnił, głosząc Ewangelię i oddając życie za Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta podkreśla, że pójście za Chrystusem, tak jak uczynił to św. Jakub, jest drogą, prawdą i życiem dla każdego wierzącego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o wierności Chrystusowi, która odzwierciedla postawę św. Jakuba gotowego 'pić kielich' męki Pańskiej.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/6280922.1-maja-sw-Jozefa-rzemieslnika",
+  "tytul_dnia": "1 maja - św. Józefa rzemieślnika",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 1, 26 – 2, 3",
+      "opis": "Czyńcie ziemię sobie poddaną",
+      "tekst": "Bóg rzekł: \"Uczyńmy człowieka na nasz obraz, podobnego Nam. Niech panuje nad rybami morskimi, nad ptactwem powietrznym, nad bydłem, nad całą ziemią i nad wszelkim gadem i płazem!\"\nStworzył więc Bóg człowieka na swój obraz, na obraz Boży go stworzył: stworzył mężczyznę i niewiastę. Po czym Bóg im błogosławił, mówiąc do nich: \"Bądźcie płodni i rozmnażajcie się, abyście zaludnili ziemię i uczynili ją sobie poddaną; abyście panowali nad rybami morskimi, nad ptactwem powietrznym i nad wszelkim gadem i płazem\".\nI rzekł Bóg: \"Oto wam daję wszelką roślinę przynoszącą ziarno po całej ziemi i wszelkie drzewo, którego owoc ma w sobie nasienie: dla was będą one pokarmem. A dla wszelkiego zwierzęcia polnego i dla wszelkiego ptactwa w powietrzu, i dla wszystkiego, co się rusza po ziemi i ma w sobie pierwiastek życia, będzie pokarmem wszelka trawa zielona\".\nI stało się tak. A Bóg widział, że wszystko, co uczynił, było bardzo dobre. I tak upłynął wieczór i poranek, dzień szósty.\nW ten sposób zostały ukończone niebo i ziemia oraz wszystkie zastępy stworzeń. A gdy Bóg ukończył w dniu szóstym swe dzieło, nad którym pracował, odpoczął dnia siódmego po całym swym trudzie, jaki podjął. Wtedy pobłogosławił ów siódmy dzień i uczynił go świętym; w tym bowiem dniu odpoczął po całej swej pracy, którą wykonał stwarzając.\nOto Słowo Boże"
+    },
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 3, 14-15. 17. 23-24",
+      "opis": "Cokolwiek czynicie, z serca wykonujcie, jak dla Pana, a nie dla ludzi",
+      "tekst": "Bracia:\nNade wszystko przywdziejcie miłość, która jest spoiwem doskonałości. A w sercach waszych niech panuje pokój Chrystusowy, do którego też zostaliście wezwani w jednym Ciele. I bądźcie wdzięczni. A cokolwiek mówicie lub czynicie, wszystko niech będzie w imię Pana Jezusa, dziękując Bogu Ojcu przez Niego. Cokolwiek czynicie, z serca wykonujcie, jak dla Pana, a nie dla ludzi, świadomi, że od Pana otrzymacie dziedzictwo wiekuiste jako zapłatę. Służcie Chrystusowi jako Panu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 2 i 4. 12-13. 14 i 16",
+      "opis": "Refren: Pracę rąk naszych wspieraj, Panie Boże.",
+      "tekst": "Zanim narodziły się góry,\nnim powstał świat i ziemia,\nod wieku po wiek Ty jesteś Bogiem.\nBo tysiąc lat w Twoich oczach\njest jak wczorajszy dzień, który minął,\nalbo straż nocna.\nNaucz nas liczyć dni nasze,\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał?\nBądź litościwy dla sług Twoich!\nNasyć nas o świcie swoją łaską,\nabyśmy przez wszystkie dni nasze mogli się radować i cieszyć.\nNiech sługom Twoim ukaże się Twe dzieło,\na Twoja chwała nad ich synami."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 68 (67), 20",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Pan przez wszystkie dni niech będzie błogosławiony,\nBóg, który nas dźwiga co dzień, Zbawienie nasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 54-58",
+      "opis": "Jezus jest synem cieśli",
+      "tekst": "Jezus, przyszedłszy do swego miasta rodzinnego, nauczał ich w synagodze, tak że byli zdumieni i pytali: «Skąd u Niego ta mądrość i cuda? Czyż nie jest On synem cieśli? Czy Jego Matce nie jest na imię Mariam, a Jego braciom Jakub, Józef, Szymon i Juda? Także Jego siostry czy nie żyją wszystkie u nas? Skądże więc u Niego to wszystko?» I powątpiewali o Nim.\nA Jezus rzekł do nich: «Tylko w swojej ojczyźnie i w swoim domu może być prorok lekceważony». I niewiele zdziałał tam cudów z powodu ich niedowiarstwa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "409",
+      "piesn": "Duszo moja",
+      "opis": "Pieśń jest hymnem na cześć św. Józefa, który doskonale wprowadza w atmosferę święta poświęconego jego osobie jako patronowi pracy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "412",
+      "piesn": "O Józefie ukochany!",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do roli Józefa jako opiekuna Jezusa i wzoru pracowitości, co jest głównym tematem dnia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń łączy motyw pracy ludzkiej (chleb i wino) z Eucharystią, co idealnie pasuje do wspomnienia patrona rzemieślników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "414",
+      "piesn": "Szczęśliwy, kto sobie patrona",
+      "opis": "Wyraża ufność w opiekę św. Józefa, co stanowi formę dziękczynienia za jego przykład i wstawiennictwo.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Pieśń jest prośbą o opiekę i wstawiennictwo św. Józefa, co stanowi dobre zakończenie liturgii i powierzenie mu codziennych trudów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "410",
+      "piesn": "Józefie, niebian ozdobo",
+      "opis": "Uroczysty hymn podkreślający godność św. Józefa jako Oblubieńca Maryi i Opiekuna Zbawiciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń o poświęceniu pracy Bogu, co jest centralnym motywem wspomnienia św. Józefa Rzemieślnika.",
+      "moment": "ogolne"
+    }
+  ]
+}

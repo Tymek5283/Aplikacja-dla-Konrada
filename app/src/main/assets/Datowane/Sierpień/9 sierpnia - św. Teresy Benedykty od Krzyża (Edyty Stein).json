@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432648.9-sierpnia-sw-Teresy-Benedykty-od-Krzyza-Edyty-Stein",
+  "tytul_dnia": "9 sierpnia - św. Teresy Benedykty od Krzyża (Edyty Stein)",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 2,16b.17b.21-22",
+      "opis": "Na pustynię ją wyprowadzę",
+      "tekst": "Na pustynię chcę ją wyprowadzić i mówić jej do serca. I będzie Mi tam uległa jak za dni swej młodości, gdy wychodziła z egipskiego kraju. I poślubię cię sobie na wieki, poślubię przez sprawiedliwość i prawo, przez miłość i miłosierdzie. Poślubię cię sobie przez wierność, a poznasz Pana.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 45, 11-12. 14-17",
+      "opis": "Refren:",
+      "tekst": "Posłuchaj, córko, spójrz i nakłoń ucha\nPosłuchaj, córko, spójrz i nakłoń ucha,\nzapomnij o swym ludzie, o domu twego ojca.\nKról pragnie twego piękna,\non twoim panem, oddaj mu pokłon.\nCóra królewska wchodzi pełna chwały,\nodziana w złotogłów.\nW szacie wzorzystej prowadzą ją do króla,\nza nią przywodzą do ciebie dziewice, jej druhny.\nZ weselem je wiodą i w uniesieniu,\nwkraczają do królewskiego pałacu.\nSynowie twoi zajmą miejsce twoich ojców,\nustanowisz ich książętami na całej ziemi."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Przyjdź, oblubienico Chrystusa, przyjmij wieniec,\nktóry Pan przygotował dla ciebie na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 25, 1-13 lub Mt 16,24-27",
+      "opis": "Przypowieść o dziesięciu pannach",
+      "tekst": "Jezus opowiedział swoim uczniom tę przypowieść: \"Podobne jest królestwo niebieskie do dziesięciu panien, które wzięły swoje lampy i wyszły na spotkanie oblubieńca. Pięć z nich było nierozsądnych, a pięć roztropnych. Nierozsądne wzięły lampy, ale nie wzięły ze sobą oliwy. Roztropne zaś razem z lampami zabrały również oliwę w naczyniach. Gdy się oblubieniec opóźniał, zmorzone snem wszystkie zasnęły.\nLecz o północy rozległo się wołanie: «Oblubieniec idzie, wyjdźcie mu na spotkanie!» Wtedy powstały wszystkie owe panny i opatrzyły swe lampy. A nierozsądne rzekły do roztropnych: «Użyczcie nam swej oliwy, bo nasze lampy gasną». Odpowiedziały roztropne: «Mogłoby i nam, i wam nie wystarczyć. Idźcie raczej do sprzedających i kupcie sobie». Gdy one szły kupić, nadszedł oblubieniec: te, które były gotowe, weszły z nim na ucztę weselną i drzwi zamknięto. W końcu nadchodzą i pozostałe panny, prosząc: «Panie, panie, otwórz nam». Lecz on odpowiedział: «Zaprawdę powiadam wam, nie znam was».\nCzuwajcie więc, bo nie znacie dnia ani godziny\".\nOto słowo Pańskie\nlub\nJezus powiedział do swoich uczniów: \"Jeśli kto chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z mego powodu, znajdzie je.\nCóż bowiem za korzyść odniesie człowiek, choćby cały świat zyskał, a na swej duszy szkodę poniósł? Albo co da człowiek w zamian za swoją duszę?\nAlbowiem Syn Człowieczy przyjdzie w chwale Ojca swego razem z aniołami swoimi, i wtedy odda każdemu według jego postępowania\".\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "499",
+      "piesn": "Święta Edyto",
+      "opis": "Pieśń bezpośrednio poświęcona patronce dnia, podkreślająca jej drogę przez krzyż do świętości, co jest głównym tematem wspomnienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń mówi o naśladowaniu Chrystusa i pójściu za Nim, co idealnie oddaje duchowość Edyty Stein, która oddała życie za wiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża pragnienie bliskości z Bogiem i poddania się Jego prowadzeniu, co odzwierciedla postawę św. Teresy Benedykty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn na cześć męczenników, który jest stosowny dla uczczenia ofiary życia złożonej przez św. Teresę Benedyktę od Krzyża.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń pasyjna nawiązuje do tajemnicy krzyża, która była w centrum duchowości i imienia zakonnego Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "578",
+      "piesn": "Dziś radośnie wysławiamy",
+      "opis": "Jest to pieśń ku czci świętych dziewic, co odpowiada powołaniu zakonnemu Edyty Stein jako karmelitanki bosej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta oddaje ducha poszukiwania prawdy, które charakteryzowało życie Edyty Stein – od filozofii do pełni wiary w Chrystusie.",
+      "moment": "ogolne"
+    }
+  ]
+}

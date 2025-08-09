@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432620.15-wrzesnia-NMP-Bolesnej",
+  "tytul_dnia": "15 września - NMP Bolesnej",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 5,7-9",
+      "opis": "Chrystus stał się przyczyną wiecznego zbawienia",
+      "tekst": "Chrystus podczas swojego życia doczesnego z głośnym wołaniem i płaczem zanosił gorące prośby i błagania do Tego, który mógł Go wybawić od śmierci, i został wysłuchany dzięki swej uległości. A chociaż był Synem, nauczył się posłuszeństwa przez to, co wycierpiał. A gdy wszystko wykonał, stał się sprawcą zbawienia wiecznego dla wszystkich, którzy Go słuchają.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 31, 2-3b.3c-4.5-6.15-16.20",
+      "opis": "Refren:",
+      "tekst": "Wybaw mnie, Panie, w miłosierdziu swoim.\nPanie, do Ciebie się uciekam,\nniech nigdy nie doznam zawodu,\nwybaw mnie w sprawiedliwości Twojej.\nNakłoń ku mnie Twe ucho,\npospiesz, aby mnie ocalić.\nBądź dla mnie skałą schronienia,\nwarownią, która ocala.\nTy bowiem jesteś moją skałą i twierdzą,\nkieruj mną i prowadź przez wzgląd na swe imię.\nWydobądź z sieci zastawionej na mnie,\nbo Ty jesteś moją ucieczką.\nW ręce Twoje powierzam ducha mego.\nTy mnie odkupisz, Panie, wierny Boże.\nJa zaś pokładam ufność w Tobie, Panie,\ni mówię: „Ty jesteś moim Bogiem”.\nW Twoim ręku są moje losy,\nwyrwij mnie z rąk wrogów i prześladowców.\nJakże jest wielka dobroć Twoja, Panie,\nktórą zachowałeś dla bogobojnych.\nOkazujesz ją tym, którzy uciekają się do Ciebie\nna oczach ludzi."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławiona jesteś, Panno Maryjo,\nktóra bez śmierci wysłużyłaś palmę męczeństwa\npod krzyżem Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 19,25-27 lub Łk 2,33-35",
+      "opis": "Maryja pod krzyżem Jezusa / Twoją duszę przeniknie miecz",
+      "tekst": "Obok krzyża Jezusa stały: Matka Jego i siostra Matki Jego, Maria, żona Kleofasa, i Maria Magdalena. Kiedy więc Jezus ujrzał Matkę i stojącego obok Niej ucznia, którego miłował, rzekł do Matki: „Niewiasto, oto syn Twój”. Następnie rzekł do ucznia: „Oto Matka twoja”. I od tej godziny uczeń wziął Ją do siebie.\nOto słowo Pańskie\nalbo:\nPo przedstawieniu Jezusa w świątyni Jego ojciec i Matka dziwili się temu, co o Nim mówiono. Symeon zaś błogosławił ich i rzekł do Maryi, Matki Jego: „Oto Ten przeznaczony jest na upadek i na powstanie wielu w Izraelu i na znak, któremu sprzeciwiać się będą. A Twoją duszę miecz przeniknie, aby na jaw wyszły zamysły serc wielu”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "355",
+      "piesn": "Matko Najświętsza!",
+      "opis": "Pieśń ta jest bezpośrednim zwrotem do Matki Bolesnej, której Serce zostało przeszyte mieczem boleści, co jest istotą dzisiejszego wspomnienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "Ta pieśń, wspominając boleść Serca Maryi pod krzyżem, jest doskonałą medytacją na przygotowanie darów ofiarnych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "304",
+      "piesn": "Witaj, krynico",
+      "opis": "Chociaż jest to pieśń do Serca Jezusa, jej odniesienia do Rany boku i przelanej Krwi głęboko łączą się z cierpieniem Matki stojącej pod krzyżem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "361",
+      "piesn": "Nie opuszczaj nas… Matko",
+      "opis": "Słowa 'Tak pod krzyżem będziem stali, z Tobą krwawą łzą płakali' czynią tę pieśń idealną na dziękczynienie po Komunii Świętej.",
+      "moment": "uwielibienie"
+    },
+    {
+      "numer": "375",
+      "piesn": "Panie, w ofierze Tobie",
+      "opis": "Pieśń o cierpieniu i nadziei odnajdywanej w macierzyństwie Maryi jest odpowiednim zwieńczeniem liturgii ku czci Matki Bolesnej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "372",
+      "piesn": "O Matko miłościwa",
+      "opis": "Jest to modlitwa o wstawiennictwo Matki Bożej, która w swoim cierpieniu jest dla nas szczególną ucieczką i nadzieją.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "332",
+      "piesn": "Do Serca Twego, Pani świata",
+      "opis": "W tej pieśni wierni garną się do Serca Maryi, zwłaszcza w chwilach cierpienia, co doskonale koresponduje z tematem wspomnienia.",
+      "moment": "ogolne"
+    }
+  ]
+}

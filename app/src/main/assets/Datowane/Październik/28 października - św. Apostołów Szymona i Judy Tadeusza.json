@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432564.28-pazdziernika-sw-Apostolow-Szymona-i-Judy-Tadeusza",
+  "tytul_dnia": "28 października - św. Apostołów Szymona i Judy Tadeusza",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 2,19-22",
+      "opis": "Kościół jest zbudowany na fundamencie Apostołów",
+      "tekst": "Bracia:\nNie jesteście już obcymi i przychodniami, ale jesteście współobywatelami świętych i domownikami Boga, zbudowani na fundamencie apostołów i proroków, gdzie kamieniem węgielnym jest sam Chrystus Jezus.\nW Nim zespalana cała budowla rośnie na świętą w Panu świątynię, w Nim i wy także wznosicie się we wspólnym budowaniu, by stanowić mieszkanie Boga przez Ducha.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19,2-5",
+      "opis": "Refren:",
+      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ciebie, Boże, chwalimy, Ciebie, Panie, wysławiamy,\nCiebie wychwala przesławny chór Apostołów."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6,12-19",
+      "opis": "Wybór Apostołów",
+      "tekst": "W tym czasie Jezus wyszedł na górę, aby się modlić, i całą noc spędził na modlitwie do Boga.\nZ nastaniem dnia przywołał swoich uczniów i wybrał spośród nich dwunastu, których też nazwał apostołami: Szymona, którego nazwał Piotrem; i brata jego, Andrzeja; Jakuba i Jana; Filipa i Bartłomieja; Mateusza i Tomasza; Jakuba, syna Alfeusza, i Szymona z przydomkiem Gorliwy; Judę, syna Jakuba, i Judasza Iskariotę, który stał się zdrajcą.\nZeszedł z nimi na dół i zatrzymał się na równinie. Był tam duży poczet Jego uczniów i wielkie mnóstwo ludu z całej Judei i z Jerozolimy oraz z wybrzeża Tyru i Sydonu; przyszli oni, aby Go słuchać i znaleźć uzdrowienie ze swych chorób. Także i ci, których dręczyły duchy nieczyste, doznawali uzdrowienia.\nA cały tłum starał się Go dotknąć, ponieważ moc wychodziła od Niego i uzdrawiała wszystkich.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "551",
+      "piesn": "Obu was, apostołowie",
+      "opis": "Pieśń ta w uroczysty sposób zwraca się do obu apostołów, Szymona i Judy, co czyni ją idealnym wyborem na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn ten podkreśla rolę wszystkich apostołów jako fundamentu Kościoła, co jest zgodne z pierwszym czytaniem z Listu do Efezjan.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "552",
+      "piesn": "Tadeuszu, nasz patronie",
+      "opis": "Pieśń jest modlitwą do św. Judy Tadeusza, patrona spraw trudnych, co może być pociechą dla wiernych przyjmujących Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Uroczysty hymn Te Deum, który wspomina 'przesławny chór Apostołów', jest doskonałym aktem uwielbienia w ich święto.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta przypomina o misyjnym posłaniu, które otrzymali apostołowie, i stanowi zachętę dla wiernych na zakończenie Mszy Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyznaje wiarę w Chrystusa, którą głosili apostołowie, i podkreśla znaczenie trwania przy Nim.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który został zbudowany na fundamencie apostołów.",
+      "moment": "ogolne"
+    }
+  ]
+}
