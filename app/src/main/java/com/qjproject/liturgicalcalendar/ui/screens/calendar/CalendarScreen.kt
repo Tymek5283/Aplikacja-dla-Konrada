@@ -32,21 +32,22 @@ fun CalendarScreen(
     val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
     val uiState by viewModel.uiState.collectAsState()
 
+    // --- POCZĄTEK POPRAWKI: Powrót do prostego centrowania z modyfikatorem offset ---
     Box(
         modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
+        contentAlignment = Alignment.Center // Najpierw centrujemy cały blok
     ) {
         Column(
-            modifier = Modifier.wrapContentHeight(),
+            modifier = Modifier
+                .wrapContentHeight()
+                .offset(y = (-50).dp), // Następnie przesuwamy go w górę o 50dp
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             MonthYearSelector(
                 yearMonth = uiState.selectedMonth,
                 yearList = uiState.yearList,
-                // --- POCZĄTEK ZMIANY: Przekazanie stanu przycisków ---
                 isPreviousMonthEnabled = uiState.isPreviousMonthEnabled,
                 isNextMonthEnabled = uiState.isNextMonthEnabled,
-                // --- KONIEC ZMIANY ---
                 onYearSelected = { viewModel.setYear(it) },
                 onMonthSelected = { viewModel.setMonth(it) },
                 onPreviousMonth = { viewModel.changeMonth(-1) },
@@ -61,16 +62,15 @@ fun CalendarScreen(
             )
         }
     }
+    // --- KONIEC POPRAWKI ---
 }
 
 @Composable
 private fun MonthYearSelector(
     yearMonth: YearMonth,
     yearList: List<Int>,
-    // --- POCZĄTEK ZMIANY: Dodanie nowych parametrów ---
     isPreviousMonthEnabled: Boolean,
     isNextMonthEnabled: Boolean,
-    // --- KONIEC ZMIANY ---
     onYearSelected: (Int) -> Unit,
     onMonthSelected: (Int) -> Unit,
     onPreviousMonth: () -> Unit,
@@ -86,11 +86,9 @@ private fun MonthYearSelector(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
     ) {
-        // --- POCZĄTEK ZMIANY: Użycie flagi do włączania/wyłączania przycisku ---
         IconButton(onClick = onPreviousMonth, enabled = isPreviousMonthEnabled) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Poprzedni miesiąc")
         }
-        // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.weight(1f))
         Box {
             Text(
@@ -137,11 +135,9 @@ private fun MonthYearSelector(
             }
         }
         Spacer(modifier = Modifier.weight(1f))
-        // --- POCZĄTEK ZMIANY: Użycie flagi do włączania/wyłączania przycisku ---
         IconButton(onClick = onNextMonth, enabled = isNextMonthEnabled) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Następny miesiąc")
         }
-        // --- KONIEC ZMIANY ---
     }
 }
 
@@ -164,7 +160,8 @@ private fun DaysOfWeekHeader() {
 private fun CalendarGrid(days: List<CalendarDay?>, onDayClick: (CalendarDay) -> Unit) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(7),
-        modifier = Modifier.padding(horizontal = 16.dp)
+        modifier = Modifier.padding(horizontal = 16.dp),
+        userScrollEnabled = false
     ) {
         items(days) { day ->
             if (day != null) {
