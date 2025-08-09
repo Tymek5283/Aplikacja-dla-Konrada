@@ -13,6 +13,7 @@ import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
@@ -157,18 +158,13 @@ fun MainTabsScreen(navController: NavController) {
 
     Scaffold(
         topBar = {
-            // --- POCZĄTEK POPRAWKI: Zmieniono 'when' aby operował na obiekcie 'Screen' ---
-            val title = when (bottomNavItems[pagerState.currentPage]) {
+            val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
                 Screen.Search -> "Wyszukaj frazę"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
-                // Gałąź 'else' jest wymagana, ponieważ 'when' operuje na klasie zapieczętowanej (Screen),
-                // a kompilator musi mieć pewność, że wszystkie przypadki są obsłużone.
-                // W praktyce ta gałąź nigdy nie zostanie wykonana dla tego Pager'a.
                 else -> ""
             }
-            // --- KONIEC POPRAWKI ---
             MainTopAppBar(
                 title = title,
                 showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
@@ -216,9 +212,7 @@ fun MainTabsScreen(navController: NavController) {
                 is Screen.Calendar -> CalendarScreen(
                     onDayClick = { day ->
                         when {
-                            day.files.isEmpty() -> {
-                                // Nie rób nic
-                            }
+                            day.files.isEmpty() -> {}
                             day.files.size == 1 -> {
                                 val path = day.files.first()
                                 navController.navigate(Screen.DayDetails.createRoute(path))

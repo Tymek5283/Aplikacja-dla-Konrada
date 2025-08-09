@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.Uri
 import android.os.Environment
 import android.util.Log
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import net.lingala.zip4j.ZipFile
 import java.io.File
@@ -17,7 +18,11 @@ import java.util.*
 
 class FileSystemRepository(private val context: Context) {
 
-    private val json = Json { ignoreUnknownKeys = true }
+    private val json = Json {
+        ignoreUnknownKeys = true
+        prettyPrint = true // Formatowanie JSON dla czytelności
+        encodeDefaults = true
+    }
     private val internalStorageRoot = context.filesDir
 
     fun getItems(path: String): List<FileSystemItem> {
@@ -43,13 +48,23 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
+    // --- POCZĄTEK ZMIANY: Dodanie funkcji do zapisywania danych ---
+    fun saveDayData(path: String, dayData: DayData): Result<Unit> {
+        return try {
+            val file = File(internalStorageRoot, "$path.json")
+            val jsonString = json.encodeToString(dayData)
+            file.writeText(jsonString)
+            Result.success(Unit)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            Result.failure(e)
+        }
+    }
+    // --- KONIEC ZMIANY ---
+
     fun getMonthlyFileMap(month: Month): Map<Int, List<String>> {
-        // --- POCZĄTEK OSTATECZNEJ POPRAWKI: Użycie poprawnego formatu nazwy miesiąca ---
-        // TextStyle.FULL_STANDALONE zwraca nazwę w mianowniku (np. "Styczeń"),
-        // a nie w dopełniaczu ("stycznia"), co jest zgodne z nazwami folderów.
         val monthName = month.getDisplayName(TextStyle.FULL_STANDALONE, Locale("pl"))
             .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale("pl")) else it.toString() }
-        // --- KONIEC OSTATECZNEJ POPRAWKI ---
         val monthDir = File(internalStorageRoot, "Datowane/$monthName")
 
         if (!monthDir.exists() || !monthDir.isDirectory) {
