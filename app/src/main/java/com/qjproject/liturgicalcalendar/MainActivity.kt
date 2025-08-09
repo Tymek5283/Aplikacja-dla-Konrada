@@ -1,6 +1,8 @@
 package com.qjproject.liturgicalcalendar
 
 import android.Manifest
+import android.app.Activity
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -11,10 +13,15 @@ import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -38,13 +45,16 @@ import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
 import kotlinx.coroutines.launch
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import kotlin.system.exitProcess
 
 
 class MainActivity : ComponentActivity() {
@@ -52,6 +62,7 @@ class MainActivity : ComponentActivity() {
     private val requestPermissionLauncher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
             if (!isGranted) {
+                // Na starszych wersjach API pozwolenie jest krytyczne
                 finish()
             }
         }
@@ -70,6 +81,14 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+fun restartApp(activity: Activity) {
+    val intent = Intent(activity, MainActivity::class.java)
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+    activity.startActivity(intent)
+    activity.finish()
+    exitProcess(0)
 }
 
 @OptIn(ExperimentalAnimationApi::class)
@@ -102,21 +121,36 @@ fun MainAppHost() {
 @Composable
 fun MainTabsScreen(navController: NavController) {
     val context = LocalContext.current
+    val activity = (LocalContext.current as? Activity)
     val browseViewModel: BrowseViewModel = viewModel(factory = BrowseViewModelFactory(context))
     val calendarViewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
+    val settingsViewModel: SettingsViewModel = viewModel(factory = SettingsViewModelFactory(context))
+
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
     val pagerState = rememberPagerState(initialPage = 1)
     val coroutineScope = rememberCoroutineScope()
 
+    // --- POCZĄTEK ZMIANY: Pobieramy stan UI z BrowseViewModel ---
+    val browseUiState by browseViewModel.uiState.collectAsState()
+    val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
+    // --- KONIEC ZMIANY ---
+
     Scaffold(
         topBar = {
+            // --- POCZĄTEK ZMIANY: Logika wyboru tytułu i widoczności przycisku ---
             val title = when (pagerState.currentPage) {
-                0 -> "Wyszukaj frazę"
-                1 -> "Czego szukasz?"
-                2 -> "Szukaj po dacie"
-                else -> "Ustawienia"
+                bottomNavItems.indexOf(Screen.Search) -> "Wyszukaj frazę"
+                bottomNavItems.indexOf(Screen.Browse) -> browseUiState.screenTitle // Tytuł dynamiczny
+                bottomNavItems.indexOf(Screen.Calendar) -> "Szukaj po dacie"
+                bottomNavItems.indexOf(Screen.Settings) -> "Ustawienia"
+                else -> ""
             }
-            MainTopAppBar(title = title)
+            MainTopAppBar(
+                title = title,
+                showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
+                onBackClick = { browseViewModel.onBackPress() }
+            )
+            // --- KONIEC ZMIANY ---
         },
         bottomBar = {
             NavigationBar {
@@ -158,13 +192,18 @@ fun MainTabsScreen(navController: NavController) {
                     }
                 )
                 is Screen.Calendar -> CalendarScreen(
-                    // --- POPRAWKA: Dodajemy brakujący parametr i logikę ---
                     onDayClick = { day ->
                         Log.d("CalendarClick", "Clicked on day: ${day.dayOfMonth}")
-                        // W przyszłości tutaj będzie nawigacja
                     }
                 )
-                is Screen.Settings -> SettingsScreen()
+                is Screen.Settings -> SettingsScreen(
+                    viewModel = settingsViewModel,
+                    onRestartApp = {
+                        if (activity != null) {
+                            restartApp(activity)
+                        }
+                    }
+                )
                 else -> {}
             }
         }
@@ -173,7 +212,13 @@ fun MainTabsScreen(navController: NavController) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainTopAppBar(title: String) {
+fun MainTopAppBar(
+    title: String,
+    // --- POCZĄTEK ZMIANY: Dodane parametry do obsługi przycisku wstecz ---
+    showBackButton: Boolean = false,
+    onBackClick: () -> Unit = {}
+    // --- KONIEC ZMIANY ---
+) {
     Column {
         CenterAlignedTopAppBar(
             title = {
@@ -183,9 +228,33 @@ fun MainTopAppBar(title: String) {
                     textAlign = TextAlign.Center
                 )
             },
+            // --- POCZĄTEK ZMIANY: Warunkowe dodawanie ikony nawigacji ---
+            navigationIcon = {
+                if (showBackButton) {
+                    IconButton(onClick = onBackClick) {
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = "Wróć"
+                        )
+                    }
+                }
+            },
+            // --- KONIEC ZMIANY ---
+            // --- POCZĄTEK ZMIANY: Dodanie Spacera dla zachowania centrowania tytułu ---
+            actions = {
+                // Ten Spacer jest "niewidzialnym" elementem, który równoważy
+                // przycisk nawigacji, dzięki czemu tytuł jest idealnie wycentrowany.
+                if (showBackButton) {
+                    Spacer(Modifier.width(68.dp)) // Standardowy rozmiar IconButton z paddingiem
+                }
+            },
+            // --- KONIEC ZMIANY ---
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                 containerColor = MaterialTheme.colorScheme.background,
                 titleContentColor = MaterialTheme.colorScheme.primary,
+                // --- POCZĄTEK ZMIANY: Ustawienie koloru ikony nawigacji ---
+                navigationIconContentColor = MaterialTheme.colorScheme.primary
+                // --- KONIEC ZMIANY ---
             ),
             windowInsets = TopAppBarDefaults.windowInsets
         )

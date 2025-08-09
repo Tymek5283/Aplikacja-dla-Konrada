@@ -1,7 +1,9 @@
 package com.qjproject.liturgicalcalendar.data
 
 import android.content.Context
+import android.net.Uri
 import android.os.Environment
+import android.util.Log
 import kotlinx.serialization.json.Json
 import net.lingala.zip4j.ZipFile
 import java.io.File
@@ -9,32 +11,29 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 import java.text.SimpleDateFormat
-import java.time.Month
 import java.util.*
 
 class FileSystemRepository(private val context: Context) {
 
     private val json = Json { ignoreUnknownKeys = true }
+    private val internalStorageRoot = context.filesDir
 
     fun getItems(path: String): List<FileSystemItem> {
         return try {
-            context.assets.list(path)?.map { itemName ->
-                val isDirectory = try {
-                    !itemName.contains(".") && (context.assets.list("$path/$itemName")?.isNotEmpty() == true)
-                } catch (e: IOException) {
-                    false
-                }
-                FileSystemItem(name = itemName.removeSuffix(".json"), isDirectory = isDirectory)
-            } ?: emptyList()
-        } catch (e: IOException) {
+            val file = File(internalStorageRoot, path)
+            file.listFiles()?.map { item ->
+                FileSystemItem(name = item.name.removeSuffix(".json"), isDirectory = item.isDirectory)
+            }?.sortedWith(compareBy({ !it.isDirectory }, { it.name })) ?: emptyList()
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas pobierania elementów z $path", e)
             emptyList()
         }
     }
 
     fun getDayData(path: String): DayData? {
         return try {
-            val inputStream: InputStream = context.assets.open("$path.json")
-            val jsonString = inputStream.bufferedReader().use { it.readText() }
+            val file = File(internalStorageRoot, "$path.json")
+            val jsonString = file.bufferedReader().use { it.readText() }
             json.decodeFromString<DayData>(jsonString)
         } catch (e: Exception) {
             e.printStackTrace()
@@ -42,45 +41,33 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    fun getDatedFilesForMonth(month: Month): List<String> {
-        // Poprawna nazwa folderu miesiąca z dużej litery, zgodna z Twoją strukturą
+    fun getDatedFilesForMonth(month: java.time.Month): List<String> {
         val monthName = month.getDisplayName(java.time.format.TextStyle.FULL, Locale("pl"))
             .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale("pl")) else it.toString() }
 
         return try {
             val path = "Datowane/$monthName"
-            context.assets.list(path)?.toList() ?: emptyList()
+            val dir = File(internalStorageRoot, path)
+            dir.list()?.toList() ?: emptyList()
         } catch (e: IOException) {
             emptyList()
         }
     }
 
-    fun exportAssetsToZip(assetRootPath: String): Result<File> {
+    fun exportDataToZip(): Result<File> {
         return try {
-            val tempDir = File(context.cacheDir, "export_temp")
-            if (tempDir.exists()) tempDir.deleteRecursively()
-            tempDir.mkdirs()
-
-            // --- POCZĄTEK ZMIANY: Poprawna iteracja po głównym folderze 'assets' ---
-            // Pobieramy listę wszystkich plików i folderów z podanej ścieżki (teraz to będzie "")
-            val rootAssets = context.assets.list(assetRootPath) ?: arrayOf()
-
-            // Dla każdego elementu na najwyższym poziomie (np. "data", "Datowane") uruchamiamy kopiowanie.
-            for (assetName in rootAssets) {
-                // Budujemy pełną ścieżkę dla funkcji rekursywnej
-                val fullPath = if (assetRootPath.isEmpty()) assetName else "$assetRootPath/$assetName"
-                copyAssetsRecursively(fullPath, tempDir)
-            }
-            // --- KONIEC ZMIANY ---
-
             val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
             if (!downloadsDir.exists()) downloadsDir.mkdirs()
 
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
             val zipFile = File(downloadsDir, "LiturgicalCalendar_Export_$timestamp.zip")
+            val zip = ZipFile(zipFile)
 
-            ZipFile(zipFile).addFolder(tempDir)
-            tempDir.deleteRecursively()
+            val dataDir = File(internalStorageRoot, "data")
+            if (dataDir.exists()) zip.addFolder(dataDir)
+
+            val datowaneDir = File(internalStorageRoot, "Datowane")
+            if (datowaneDir.exists()) zip.addFolder(datowaneDir)
 
             Result.success(zipFile)
         } catch (e: Exception) {
@@ -89,31 +76,68 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    private fun copyAssetsRecursively(path: String, destDir: File) {
+    fun importDataFromZip(uri: Uri): Result<Unit> {
+        val tempUnzipDir = File(context.cacheDir, "import_unzip_temp")
+        val tempZipFile = File(context.cacheDir, "import.zip")
+
         try {
-            val assets = context.assets.list(path)
-            if (assets.isNullOrEmpty()) {
-                copyAssetFile(path, destDir)
-            } else {
-                val dir = File(destDir, path.substringAfterLast('/'))
-                if (!dir.exists()) {
-                    dir.mkdirs()
+            // Krok 1: Kopiowanie strumienia do pliku tymczasowego
+            context.contentResolver.openInputStream(uri)?.use { inputStream ->
+                FileOutputStream(tempZipFile).use { outputStream ->
+                    inputStream.copyTo(outputStream)
                 }
-                assets.forEach { assetName ->
-                    copyAssetsRecursively("$path/$assetName", dir)
-                }
+            } ?: return Result.failure(IOException("Nie można otworzyć strumienia z URI."))
+
+            // Krok 2: Rozpakowanie do folderu tymczasowego
+            if (tempUnzipDir.exists()) tempUnzipDir.deleteRecursively()
+            tempUnzipDir.mkdirs()
+            ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
+
+            // Krok 3: Walidacja zawartości
+            val (dataDir, datowaneDir) = findRequiredFolders(tempUnzipDir)
+                ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych folderów 'data' i 'Datowane' na tym samym poziomie."))
+
+            if (dataDir.listFiles().isNullOrEmpty()) {
+                return Result.failure(IllegalStateException("Folder 'data' w pliku ZIP jest pusty."))
             }
-        } catch (e: IOException) {
-            copyAssetFile(path, destDir.parentFile ?: destDir)
+            if (datowaneDir.listFiles().isNullOrEmpty()) {
+                return Result.failure(IllegalStateException("Folder 'Datowane' w pliku ZIP jest pusty."))
+            }
+
+            // Krok 4: Usunięcie starych danych
+            File(internalStorageRoot, "data").deleteRecursively()
+            File(internalStorageRoot, "Datowane").deleteRecursively()
+
+            // Krok 5: Skopiowanie nowych danych
+            dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
+            datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
+
+            return Result.success(Unit)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return Result.failure(e)
+        } finally {
+            // Krok 6: Sprzątanie
+            if (tempUnzipDir.exists()) tempUnzipDir.deleteRecursively()
+            if (tempZipFile.exists()) tempZipFile.delete()
         }
     }
 
-    private fun copyAssetFile(assetPath: String, destDir: File) {
-        val destFile = File(destDir, assetPath.substringAfterLast('/'))
-        context.assets.open(assetPath).use { inputStream ->
-            FileOutputStream(destFile).use { outputStream ->
-                inputStream.copyTo(outputStream)
+    private fun findRequiredFolders(startDir: File): Pair<File, File>? {
+        val queue: Queue<File> = LinkedList()
+        queue.add(startDir)
+
+        while (queue.isNotEmpty()) {
+            val currentDir = queue.poll()
+            val dataDir = File(currentDir, "data")
+            val datowaneDir = File(currentDir, "Datowane")
+
+            if (dataDir.exists() && dataDir.isDirectory && datowaneDir.exists() && datowaneDir.isDirectory) {
+                return Pair(dataDir, datowaneDir)
             }
+
+            currentDir.listFiles { file -> file.isDirectory }?.forEach { queue.add(it) }
         }
+        return null
     }
 }
