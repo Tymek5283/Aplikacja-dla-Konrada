@@ -9,21 +9,25 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import java.time.DayOfWeek
 import java.time.LocalDate
+import java.time.Month
 import java.time.YearMonth
-import java.time.format.TextStyle
-import java.util.Locale
 
 data class CalendarDay(
     val dayOfMonth: Int,
+    val month: YearMonth,
     val isToday: Boolean,
-    val hasData: Boolean,
     val files: List<String>
-)
+) {
+    val hasData: Boolean
+        get() = files.isNotEmpty()
+}
 
 data class CalendarUiState(
     val selectedMonth: YearMonth = YearMonth.now(),
     val daysInMonth: List<CalendarDay?> = emptyList(),
-    val yearList: List<Int> = emptyList()
+    val yearList: List<Int> = emptyList(),
+    val isPreviousMonthEnabled: Boolean = true,
+    val isNextMonthEnabled: Boolean = true
 )
 
 class CalendarViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -33,8 +37,8 @@ class CalendarViewModel(private val repository: FileSystemRepository) : ViewMode
 
     init {
         val currentYear = YearMonth.now().year
-        // --- POPRAWKA: Poprawna składnia konwersji zakresu na listę ---
-        _uiState.update { it.copy(yearList = (currentYear - 2..currentYear + 2).toList()) }
+        val yearRange = currentYear..(currentYear + 5)
+        _uiState.update { it.copy(yearList = yearRange.toList()) }
         loadDataForMonth(YearMonth.now())
     }
 
@@ -59,6 +63,7 @@ class CalendarViewModel(private val repository: FileSystemRepository) : ViewMode
 
     private fun loadDataForMonth(yearMonth: YearMonth) {
         val today = LocalDate.now()
+        val monthlyFileMap = repository.getMonthlyFileMap(yearMonth.month)
 
         val firstDayOfMonth = yearMonth.atDay(1).dayOfWeek
         val firstDayOfMonthOffset = (firstDayOfMonth.value - DayOfWeek.MONDAY.value + 7) % 7
@@ -68,20 +73,34 @@ class CalendarViewModel(private val repository: FileSystemRepository) : ViewMode
         repeat(firstDayOfMonthOffset) { calendarDays.add(null) }
 
         for (day in 1..daysInMonthCount) {
+            val filesForDay = monthlyFileMap[day] ?: emptyList()
             calendarDays.add(
                 CalendarDay(
                     dayOfMonth = day,
+                    month = yearMonth,
                     isToday = yearMonth.month == today.month && yearMonth.year == today.year && day == today.dayOfMonth,
-                    hasData = true,
-                    files = emptyList()
+                    files = filesForDay
                 )
             )
         }
+
+        val yearList = _uiState.value.yearList
+        val isPrevEnabled = if (yearList.isNotEmpty()) {
+            val firstYear = yearList.first()
+            !(yearMonth.year == firstYear && yearMonth.month == Month.JANUARY)
+        } else true
+
+        val isNextEnabled = if (yearList.isNotEmpty()) {
+            val lastYear = yearList.last()
+            !(yearMonth.year == lastYear && yearMonth.month == Month.DECEMBER)
+        } else true
 
         _uiState.update {
             it.copy(
                 selectedMonth = yearMonth,
                 daysInMonth = calendarDays,
+                isPreviousMonthEnabled = isPrevEnabled,
+                isNextMonthEnabled = isNextEnabled
             )
         }
     }

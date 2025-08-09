@@ -11,6 +11,8 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 import java.text.SimpleDateFormat
+import java.time.Month
+import java.time.format.TextStyle
 import java.util.*
 
 class FileSystemRepository(private val context: Context) {
@@ -41,17 +43,37 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    fun getDatedFilesForMonth(month: java.time.Month): List<String> {
-        val monthName = month.getDisplayName(java.time.format.TextStyle.FULL, Locale("pl"))
+    fun getMonthlyFileMap(month: Month): Map<Int, List<String>> {
+        // --- POCZĄTEK OSTATECZNEJ POPRAWKI: Użycie poprawnego formatu nazwy miesiąca ---
+        // TextStyle.FULL_STANDALONE zwraca nazwę w mianowniku (np. "Styczeń"),
+        // a nie w dopełniaczu ("stycznia"), co jest zgodne z nazwami folderów.
+        val monthName = month.getDisplayName(TextStyle.FULL_STANDALONE, Locale("pl"))
             .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale("pl")) else it.toString() }
+        // --- KONIEC OSTATECZNEJ POPRAWKI ---
+        val monthDir = File(internalStorageRoot, "Datowane/$monthName")
 
-        return try {
-            val path = "Datowane/$monthName"
-            val dir = File(internalStorageRoot, path)
-            dir.list()?.toList() ?: emptyList()
-        } catch (e: IOException) {
-            emptyList()
+        if (!monthDir.exists() || !monthDir.isDirectory) {
+            Log.w("FileSystemRepo", "Folder dla miesiąca nie istnieje: ${monthDir.path}")
+            return emptyMap()
         }
+
+        val fileMap = mutableMapOf<Int, MutableList<String>>()
+
+        monthDir.listFiles()?.forEach { file ->
+            try {
+                val nameWithoutExtension = file.nameWithoutExtension
+                val dayString = nameWithoutExtension.substringBefore(" ")
+                val dayNumber = dayString.toIntOrNull()
+
+                if (dayNumber != null) {
+                    val relativePath = "Datowane/$monthName/${file.name}".removeSuffix(".json")
+                    fileMap.getOrPut(dayNumber) { mutableListOf() }.add(relativePath)
+                }
+            } catch (e: Exception) {
+                Log.w("FileSystemRepo", "Pominięto plik o nieprawidłowej nazwie: ${file.name}", e)
+            }
+        }
+        return fileMap
     }
 
     fun exportDataToZip(): Result<File> {
@@ -81,19 +103,16 @@ class FileSystemRepository(private val context: Context) {
         val tempZipFile = File(context.cacheDir, "import.zip")
 
         try {
-            // Krok 1: Kopiowanie strumienia do pliku tymczasowego
             context.contentResolver.openInputStream(uri)?.use { inputStream ->
                 FileOutputStream(tempZipFile).use { outputStream ->
                     inputStream.copyTo(outputStream)
                 }
             } ?: return Result.failure(IOException("Nie można otworzyć strumienia z URI."))
 
-            // Krok 2: Rozpakowanie do folderu tymczasowego
             if (tempUnzipDir.exists()) tempUnzipDir.deleteRecursively()
             tempUnzipDir.mkdirs()
             ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
 
-            // Krok 3: Walidacja zawartości
             val (dataDir, datowaneDir) = findRequiredFolders(tempUnzipDir)
                 ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych folderów 'data' i 'Datowane' na tym samym poziomie."))
 
@@ -104,11 +123,9 @@ class FileSystemRepository(private val context: Context) {
                 return Result.failure(IllegalStateException("Folder 'Datowane' w pliku ZIP jest pusty."))
             }
 
-            // Krok 4: Usunięcie starych danych
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
 
-            // Krok 5: Skopiowanie nowych danych
             dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
             datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
 
@@ -117,7 +134,6 @@ class FileSystemRepository(private val context: Context) {
             e.printStackTrace()
             return Result.failure(e)
         } finally {
-            // Krok 6: Sprzątanie
             if (tempUnzipDir.exists()) tempUnzipDir.deleteRecursively()
             if (tempZipFile.exists()) tempZipFile.delete()
         }

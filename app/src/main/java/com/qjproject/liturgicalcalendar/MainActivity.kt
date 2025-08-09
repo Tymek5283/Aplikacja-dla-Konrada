@@ -5,7 +5,6 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
@@ -54,15 +53,17 @@ import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
 import kotlinx.coroutines.launch
+import java.net.URLDecoder
 import kotlin.system.exitProcess
-
+import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
+import java.time.format.TextStyle
+import java.util.Locale
 
 class MainActivity : ComponentActivity() {
 
     private val requestPermissionLauncher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
             if (!isGranted) {
-                // Na starszych wersjach API pozwolenie jest krytyczne
                 finish()
             }
         }
@@ -107,15 +108,36 @@ fun MainAppHost() {
             popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
         ) { backStackEntry ->
             val encodedPath = backStackEntry.arguments?.getString("dayId")
-            val decodedPath = encodedPath?.let { java.net.URLDecoder.decode(it, "UTF-8") }
+            val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
             DayDetailsScreen(
                 dayId = decodedPath,
                 onNavigateBack = { navController.popBackStack() }
             )
         }
+        composable(
+            route = Screen.DateEvents.route,
+            arguments = listOf(
+                navArgument("dateTitle") { type = NavType.StringType },
+                navArgument("filePaths") { type = NavType.StringType }
+            ),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val dateTitle = backStackEntry.arguments?.getString("dateTitle")?.let { URLDecoder.decode(it, "UTF-8") } ?: ""
+            val filePathsString = backStackEntry.arguments?.getString("filePaths") ?: ""
+            val filePaths = Screen.DateEvents.decodePaths(filePathsString)
+
+            DateEventsScreen(
+                dateTitle = dateTitle,
+                filePaths = filePaths,
+                onNavigateToDay = { dayPath ->
+                    navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                },
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
     }
 }
-
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
 @Composable
@@ -130,27 +152,28 @@ fun MainTabsScreen(navController: NavController) {
     val pagerState = rememberPagerState(initialPage = 1)
     val coroutineScope = rememberCoroutineScope()
 
-    // --- POCZĄTEK ZMIANY: Pobieramy stan UI z BrowseViewModel ---
     val browseUiState by browseViewModel.uiState.collectAsState()
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
-            // --- POCZĄTEK ZMIANY: Logika wyboru tytułu i widoczności przycisku ---
-            val title = when (pagerState.currentPage) {
-                bottomNavItems.indexOf(Screen.Search) -> "Wyszukaj frazę"
-                bottomNavItems.indexOf(Screen.Browse) -> browseUiState.screenTitle // Tytuł dynamiczny
-                bottomNavItems.indexOf(Screen.Calendar) -> "Szukaj po dacie"
-                bottomNavItems.indexOf(Screen.Settings) -> "Ustawienia"
+            // --- POCZĄTEK POPRAWKI: Zmieniono 'when' aby operował na obiekcie 'Screen' ---
+            val title = when (bottomNavItems[pagerState.currentPage]) {
+                Screen.Search -> "Wyszukaj frazę"
+                Screen.Browse -> browseUiState.screenTitle
+                Screen.Calendar -> "Szukaj po dacie"
+                Screen.Settings -> "Ustawienia"
+                // Gałąź 'else' jest wymagana, ponieważ 'when' operuje na klasie zapieczętowanej (Screen),
+                // a kompilator musi mieć pewność, że wszystkie przypadki są obsłużone.
+                // W praktyce ta gałąź nigdy nie zostanie wykonana dla tego Pager'a.
                 else -> ""
             }
+            // --- KONIEC POPRAWKI ---
             MainTopAppBar(
                 title = title,
                 showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
                 onBackClick = { browseViewModel.onBackPress() }
             )
-            // --- KONIEC ZMIANY ---
         },
         bottomBar = {
             NavigationBar {
@@ -187,13 +210,25 @@ fun MainTabsScreen(navController: NavController) {
                 is Screen.Browse -> BrowseScreen(
                     viewModel = browseViewModel,
                     onNavigateToDay = { dayPath ->
-                        val encodedPath = java.net.URLEncoder.encode(dayPath, "UTF-8")
-                        navController.navigate(Screen.DayDetails.createRoute(encodedPath))
+                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
                     }
                 )
                 is Screen.Calendar -> CalendarScreen(
                     onDayClick = { day ->
-                        Log.d("CalendarClick", "Clicked on day: ${day.dayOfMonth}")
+                        when {
+                            day.files.isEmpty() -> {
+                                // Nie rób nic
+                            }
+                            day.files.size == 1 -> {
+                                val path = day.files.first()
+                                navController.navigate(Screen.DayDetails.createRoute(path))
+                            }
+                            else -> {
+                                val monthName = day.month.month.getDisplayName(TextStyle.FULL, Locale("pl"))
+                                val dateTitle = "${day.dayOfMonth} $monthName"
+                                navController.navigate(Screen.DateEvents.createRoute(dateTitle, day.files))
+                            }
+                        }
                     }
                 )
                 is Screen.Settings -> SettingsScreen(
@@ -214,10 +249,8 @@ fun MainTabsScreen(navController: NavController) {
 @Composable
 fun MainTopAppBar(
     title: String,
-    // --- POCZĄTEK ZMIANY: Dodane parametry do obsługi przycisku wstecz ---
     showBackButton: Boolean = false,
     onBackClick: () -> Unit = {}
-    // --- KONIEC ZMIANY ---
 ) {
     Column {
         CenterAlignedTopAppBar(
@@ -228,7 +261,6 @@ fun MainTopAppBar(
                     textAlign = TextAlign.Center
                 )
             },
-            // --- POCZĄTEK ZMIANY: Warunkowe dodawanie ikony nawigacji ---
             navigationIcon = {
                 if (showBackButton) {
                     IconButton(onClick = onBackClick) {
@@ -239,22 +271,15 @@ fun MainTopAppBar(
                     }
                 }
             },
-            // --- KONIEC ZMIANY ---
-            // --- POCZĄTEK ZMIANY: Dodanie Spacera dla zachowania centrowania tytułu ---
             actions = {
-                // Ten Spacer jest "niewidzialnym" elementem, który równoważy
-                // przycisk nawigacji, dzięki czemu tytuł jest idealnie wycentrowany.
                 if (showBackButton) {
-                    Spacer(Modifier.width(68.dp)) // Standardowy rozmiar IconButton z paddingiem
+                    Spacer(Modifier.width(68.dp))
                 }
             },
-            // --- KONIEC ZMIANY ---
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                 containerColor = MaterialTheme.colorScheme.background,
                 titleContentColor = MaterialTheme.colorScheme.primary,
-                // --- POCZĄTEK ZMIANY: Ustawienie koloru ikony nawigacji ---
                 navigationIconContentColor = MaterialTheme.colorScheme.primary
-                // --- KONIEC ZMIANY ---
             ),
             windowInsets = TopAppBarDefaults.windowInsets
         )

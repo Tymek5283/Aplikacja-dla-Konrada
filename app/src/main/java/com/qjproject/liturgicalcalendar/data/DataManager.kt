@@ -11,7 +11,6 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    // Zwiększ tę wersję, jeśli zaktualizujesz pliki w assets, aby wymusić ponowne kopiowanie
     private val currentDataVersion = 1
 
     fun copyAssetsToInternalStorageIfNeeded() {
@@ -23,7 +22,6 @@ class DataManager(private val context: Context) {
 
         Log.d("DataManager", "Wykryto nową wersję danych (lub pierwszy raz). Rozpoczynanie kopiowania...")
         try {
-            // Wyczyść stare dane przed kopiowaniem nowych
             val internalRoot = context.filesDir
             internalRoot.listFiles()?.forEach { file ->
                 if (file.isDirectory && (file.name == "data" || file.name == "Datowane")) {
@@ -31,31 +29,27 @@ class DataManager(private val context: Context) {
                 }
             }
 
-            // Kopiuj nowe dane
             val rootAssets = context.assets.list("")?.filter { it == "data" || it == "Datowane" } ?: emptyList()
             rootAssets.forEach { assetDir ->
                 copyAssetDir(assetDir, internalRoot)
             }
 
-            // Zaktualizuj wersję danych w SharedPreferences
             prefs.edit().putInt(dataVersionKey, currentDataVersion).apply()
             Log.d("DataManager", "Kopiowanie danych zakończone sukcesem. Ustawiono wersję na $currentDataVersion.")
         } catch (e: IOException) {
             Log.e("DataManager", "Błąd podczas kopiowania danych z assets.", e)
-            // W przypadku błędu, nie aktualizujemy wersji, aby spróbować ponownie przy następnym uruchomieniu
         }
     }
 
     private fun copyAssetDir(path: String, destDir: File) {
         val assets = context.assets.list(path) ?: return
-        val newDir = File(destDir, path)
+        val newDir = File(destDir, path.substringAfterLast('/'))
         if (!newDir.exists()) {
             newDir.mkdirs()
         }
 
         assets.forEach { assetName ->
             val assetPath = "$path/$assetName"
-            // Sprawdzamy, czy element jest katalogiem przez próbę wylistowania jego zawartości
             val isDirectory = try {
                 context.assets.list(assetPath)?.isNotEmpty() ?: false
             } catch (e: IOException) {
@@ -63,21 +57,15 @@ class DataManager(private val context: Context) {
             }
 
             if (isDirectory) {
-                copyAssetDir(assetPath, destDir)
+                copyAssetDir(assetPath, newDir)
             } else {
-                copyAssetFile(assetPath, destDir)
+                copyAssetFile(assetPath, newDir)
             }
         }
     }
 
     private fun copyAssetFile(assetPath: String, destDir: File) {
-        val relativePath = File(assetPath).parent
-        val targetDir = if (relativePath != null) File(destDir, relativePath) else destDir
-        if (!targetDir.exists()) {
-            targetDir.mkdirs()
-        }
-
-        val destFile = File(targetDir, File(assetPath).name)
+        val destFile = File(destDir, File(assetPath).name)
         try {
             context.assets.open(assetPath).use { inputStream ->
                 FileOutputStream(destFile).use { outputStream ->

@@ -1,6 +1,5 @@
 package com.qjproject.liturgicalcalendar.ui.screens.calendar
 
-import android.util.Log
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -33,20 +32,21 @@ fun CalendarScreen(
     val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
     val uiState by viewModel.uiState.collectAsState()
 
-    // --- POCZĄTEK POPRAWKI: Kontener centrujący w pionie ---
     Box(
         modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center // To wycentruje Column w pionie
+        contentAlignment = Alignment.Center
     ) {
-        // --- KONIEC POPRAWKI ---
         Column(
-            // Usunięto fillMaxSize(), aby Column zajął tylko tyle miejsca, ile potrzebuje
             modifier = Modifier.wrapContentHeight(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             MonthYearSelector(
                 yearMonth = uiState.selectedMonth,
                 yearList = uiState.yearList,
+                // --- POCZĄTEK ZMIANY: Przekazanie stanu przycisków ---
+                isPreviousMonthEnabled = uiState.isPreviousMonthEnabled,
+                isNextMonthEnabled = uiState.isNextMonthEnabled,
+                // --- KONIEC ZMIANY ---
                 onYearSelected = { viewModel.setYear(it) },
                 onMonthSelected = { viewModel.setMonth(it) },
                 onPreviousMonth = { viewModel.changeMonth(-1) },
@@ -63,11 +63,14 @@ fun CalendarScreen(
     }
 }
 
-// Reszta pliku pozostaje bez zmian
 @Composable
 private fun MonthYearSelector(
     yearMonth: YearMonth,
     yearList: List<Int>,
+    // --- POCZĄTEK ZMIANY: Dodanie nowych parametrów ---
+    isPreviousMonthEnabled: Boolean,
+    isNextMonthEnabled: Boolean,
+    // --- KONIEC ZMIANY ---
     onYearSelected: (Int) -> Unit,
     onMonthSelected: (Int) -> Unit,
     onPreviousMonth: () -> Unit,
@@ -83,9 +86,11 @@ private fun MonthYearSelector(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
     ) {
-        IconButton(onClick = onPreviousMonth) {
+        // --- POCZĄTEK ZMIANY: Użycie flagi do włączania/wyłączania przycisku ---
+        IconButton(onClick = onPreviousMonth, enabled = isPreviousMonthEnabled) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Poprzedni miesiąc")
         }
+        // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.weight(1f))
         Box {
             Text(
@@ -132,9 +137,11 @@ private fun MonthYearSelector(
             }
         }
         Spacer(modifier = Modifier.weight(1f))
-        IconButton(onClick = onNextMonth) {
+        // --- POCZĄTEK ZMIANY: Użycie flagi do włączania/wyłączania przycisku ---
+        IconButton(onClick = onNextMonth, enabled = isNextMonthEnabled) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Następny miesiąc")
         }
+        // --- KONIEC ZMIANY ---
     }
 }
 
@@ -171,10 +178,11 @@ private fun CalendarGrid(days: List<CalendarDay?>, onDayClick: (CalendarDay) -> 
 
 @Composable
 private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
-    val textColor = if (day.hasData) MaterialTheme.colorScheme.onSurface else Color.Gray
+    val textColor = if (day.hasData) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
     var cellModifier = Modifier
         .aspectRatio(1f)
         .padding(4.dp)
+
     if (day.isToday) {
         cellModifier = cellModifier.border(1.dp, MaterialTheme.colorScheme.primary, CircleShape)
     }
