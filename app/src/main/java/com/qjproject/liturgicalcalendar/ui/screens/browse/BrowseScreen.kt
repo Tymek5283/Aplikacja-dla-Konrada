@@ -1,6 +1,8 @@
 package com.qjproject.liturgicalcalendar.ui.screens.browse
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.animation.core.tween // WAŻNY IMPORT
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -19,9 +21,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
-import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText // WAŻNY IMPORT
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun BrowseScreen(
     viewModel: BrowseViewModel,
@@ -38,7 +40,6 @@ fun BrowseScreen(
             Column {
                 CenterAlignedTopAppBar(
                     title = {
-                        // --- ZMIANA: Używamy naszego nowego komponentu ---
                         AutoResizingText(
                             text = uiState.screenTitle,
                             style = MaterialTheme.typography.titleLarge,
@@ -68,38 +69,42 @@ fun BrowseScreen(
             }
         }
     ) { innerPadding ->
-        LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding)
-                .padding(horizontal = 8.dp),
-            contentPadding = PaddingValues(vertical = 8.dp)
-        ) {
-            items(uiState.items) { item ->
-                BrowseItem(
-                    item = item,
-                    onClick = {
-                        if (item.isDirectory) {
-                            viewModel.onDirectoryClick(item.name)
-                        } else {
-                            val fullPath = (uiState.currentPath + item.name).joinToString("/")
-                            onNavigateToDay(fullPath)
-                        }
-                    }
-                )
+        Column(modifier = Modifier.padding(innerPadding)) {
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 8.dp),
+                contentPadding = PaddingValues(vertical = 8.dp)
+            ) {
+                items(uiState.items, key = { it.name }) { item ->
+                    BrowseItem(
+                        item = item,
+                        onClick = {
+                            if (item.isDirectory) {
+                                viewModel.onDirectoryClick(item.name)
+                            } else {
+                                val fullPath = (uiState.currentPath + item.name).joinToString("/")
+                                onNavigateToDay(fullPath)
+                            }
+                        },
+                        modifier = Modifier.animateItemPlacement(
+                            animationSpec = tween(durationMillis = 250)
+                        )
+                    )
+                }
             }
         }
     }
 }
 
-// Komponent BrowseItem pozostaje bez zmian
 @Composable
 fun BrowseItem(
     item: FileSystemItem,
-    onClick: () -> Unit
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp)
             .clickable(onClick = onClick),

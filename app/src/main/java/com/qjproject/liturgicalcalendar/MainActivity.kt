@@ -3,27 +3,28 @@ package com.qjproject.liturgicalcalendar
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Icon
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen // POPRAWIONY IMPORT
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.google.accompanist.navigation.animation.AnimatedNavHost
+import com.google.accompanist.navigation.animation.composable
+import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.qjproject.liturgicalcalendar.navigation.Screen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
@@ -46,52 +47,86 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun MainScreen() {
-    val navController = rememberNavController()
+    val navController = rememberAnimatedNavController()
     val context = LocalContext.current
     val browseViewModel: BrowseViewModel = viewModel(factory = BrowseViewModelFactory(context))
 
-    // --- POCZĄTEK ZMIANY: Logika widoczności BottomBar ---
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
-
     val bottomBarVisible = currentRoute != Screen.DayDetails.route
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         bottomBar = {
             if (bottomBarVisible) {
-                BottomNavigationBar(navController = navController, browseViewModel = browseViewModel)
+                BottomNavigationBar(
+                    navController = navController,
+                    browseViewModel = browseViewModel
+                )
             }
         }
     ) { innerPadding ->
-        NavHost(
+        AnimatedNavHost(
             navController = navController,
             startDestination = Screen.Browse.route,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable(Screen.Search.route) { SearchScreen() }
-            composable(Screen.Browse.route) {
-                BrowseScreen(
-                    viewModel = browseViewModel,
-                    onNavigateToDay = { dayPath ->
-                        val encodedPath = java.net.URLEncoder.encode(dayPath, "UTF-8")
-                        navController.navigate(Screen.DayDetails.createRoute(encodedPath))
+            val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
+
+            bottomNavItems.forEach { screen ->
+                composable(
+                    route = screen.route,
+                    enterTransition = {
+                        val startIndex = bottomNavItems.indexOfFirst { it.route == initialState.destination.route }
+                        val targetIndex = bottomNavItems.indexOfFirst { it.route == targetState.destination.route }
+                        if (startIndex == -1 || targetIndex == -1) {
+                            fadeIn(animationSpec = tween(300))
+                        } else if (targetIndex > startIndex) {
+                            slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, tween(300))
+                        } else {
+                            slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(300))
+                        }
+                    },
+                    exitTransition = {
+                        val startIndex = bottomNavItems.indexOfFirst { it.route == initialState.destination.route }
+                        val targetIndex = bottomNavItems.indexOfFirst { it.route == targetState.destination.route }
+                        if (startIndex == -1 || targetIndex == -1) {
+                            fadeOut(animationSpec = tween(300))
+                        } else if (targetIndex > startIndex) {
+                            slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Left, tween(300))
+                        } else {
+                            slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, tween(300))
+                        }
                     }
-                )
+                ) {
+                    when (screen) {
+                        is Screen.Search -> SearchScreen()
+                        is Screen.Browse -> BrowseScreen(
+                            viewModel = browseViewModel,
+                            onNavigateToDay = { dayPath ->
+                                val encodedPath = java.net.URLEncoder.encode(dayPath, "UTF-8")
+                                navController.navigate(Screen.DayDetails.createRoute(encodedPath))
+                            }
+                        )
+                        is Screen.Calendar -> CalendarScreen()
+                        is Screen.Settings -> SettingsScreen()
+                        else -> {}
+                    }
+                }
             }
-            composable(Screen.Calendar.route) { CalendarScreen() }
-            composable(Screen.Settings.route) { SettingsScreen() }
+
             composable(
                 route = Screen.DayDetails.route,
-                arguments = listOf(navArgument("dayId") { type = NavType.StringType })
+                arguments = listOf(navArgument("dayId") { type = NavType.StringType }),
+                enterTransition = { fadeIn(animationSpec = tween(350)) },
+                exitTransition = { fadeOut(animationSpec = tween(350)) }
             ) { backStackEntry ->
                 val encodedPath = backStackEntry.arguments?.getString("dayId")
                 val decodedPath = encodedPath?.let { java.net.URLDecoder.decode(it, "UTF-8") }
                 DayDetailsScreen(
                     dayId = decodedPath,
-                    // Przekazujemy funkcję do nawigacji wstecz
                     onNavigateBack = { navController.popBackStack() }
                 )
             }
@@ -100,23 +135,24 @@ fun MainScreen() {
 }
 
 @Composable
-fun BottomNavigationBar(navController: NavController, browseViewModel: BrowseViewModel) {
-    val bottomNavItems = listOf(
-        Screen.Search,
-        Screen.Browse,
-        Screen.Calendar,
-        Screen.Settings
-    )
+fun BottomNavigationBar(
+    navController: NavController,
+    browseViewModel: BrowseViewModel
+) {
+    val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
+
     NavigationBar {
         val navBackStackEntry by navController.currentBackStackEntryAsState()
         val currentDestination = navBackStackEntry?.destination
-        bottomNavItems.forEach { screen ->
+        bottomNavItems.forEachIndexed { index, screen ->
             val isSelected = currentDestination?.hierarchy?.any { it.route == screen.route } == true
             NavigationBarItem(
                 selected = isSelected,
                 onClick = {
-                    if (screen.route == Screen.Browse.route && isSelected) {
-                        browseViewModel.onResetToRoot()
+                    if (isSelected) {
+                        if (screen.route == Screen.Browse.route) {
+                            browseViewModel.onResetToRoot()
+                        }
                     } else {
                         navController.navigate(screen.route) {
                             popUpTo(navController.graph.findStartDestination().id) {

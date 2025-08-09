@@ -1,11 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    // --- POCZĄTEK ZMIANY 1 ---
-    // Dodajemy wymagany plugin dla Kompilatora Compose
     id("org.jetbrains.kotlin.plugin.compose")
     id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23"
-    // --- KONIEC ZMIANY 1 ---
 }
 
 android {
@@ -44,16 +41,6 @@ android {
     buildFeatures {
         compose = true
     }
-    // --- POCZĄTEK ZMIANY 2 ---
-    // Ten blok nie jest już potrzebny. Wersja kompilatora jest teraz
-    // zarządzana przez plugin i `compose-bom`. Jego pozostawienie
-    // może powodować konflikty.
-    /*
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
-    */
-    // --- KONIEC ZMIANY 2 ---
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -62,7 +49,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.1")
     implementation("androidx.activity:activity-compose:1.9.0")
@@ -75,6 +61,9 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("androidx.compose.material:material-icons-extended:1.6.7")
+
+    // Zależność dla animacji nawigacji
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
