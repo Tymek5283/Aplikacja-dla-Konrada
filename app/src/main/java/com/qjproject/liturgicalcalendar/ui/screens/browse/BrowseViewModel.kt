@@ -57,9 +57,9 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
             // Logika do ustawiania tytułu: jeśli jesteśmy w folderze głównym,
             // użyj hardkodowanej nazwy. W przeciwnym razie, użyj nazwy ostatniego folderu.
             val title = if (it.currentPath.size == 1) {
-                "Przeglądaj" // Hardkodowany tytuł dla widoku głównego
+                "Czego szukasz?" // Hardkodowany tytuł dla widoku głównego
             } else {
-                it.currentPath.lastOrNull()?.replace("_", " ") ?: "Przeglądaj"
+                it.currentPath.lastOrNull()?.replace("_", " ") ?: "Czego szukasz?"
             }
             it.copy(
                 items = items,
