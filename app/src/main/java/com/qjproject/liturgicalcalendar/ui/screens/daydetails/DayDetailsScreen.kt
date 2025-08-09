@@ -4,12 +4,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -17,7 +12,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.DayData
 import com.qjproject.liturgicalcalendar.data.FileSystemRepository
-import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText // WAŻNY IMPORT
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -43,7 +38,6 @@ fun DayDetailsScreen(
             Column {
                 CenterAlignedTopAppBar(
                     title = {
-                        // --- ZMIANA: Używamy naszego nowego komponentu ---
                         AutoResizingText(
                             text = dayData?.tytulDnia ?: "Ładowanie...",
                             style = MaterialTheme.typography.titleLarge,

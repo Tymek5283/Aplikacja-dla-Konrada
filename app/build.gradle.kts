@@ -61,6 +61,8 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("androidx.compose.material:material-icons-extended:1.6.7")
+    implementation("com.google.accompanist:accompanist-pager:0.28.0")
+    implementation("net.lingala.zip4j:zip4j:2.11.5")
 
     // Zależność dla animacji nawigacji
     implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
