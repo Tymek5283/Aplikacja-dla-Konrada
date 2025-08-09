@@ -4,6 +4,7 @@ plugins {
     // --- POCZĄTEK ZMIANY 1 ---
     // Dodajemy wymagany plugin dla Kompilatora Compose
     id("org.jetbrains.kotlin.plugin.compose")
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23"
     // --- KONIEC ZMIANY 1 ---
 }
 
@@ -72,6 +73,8 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+    implementation("androidx.compose.material:material-icons-extended:1.6.7")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
