@@ -65,9 +65,7 @@ dependencies {
     implementation("net.lingala.zip4j:zip4j:2.11.5")
     implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
 
-    // --- POCZĄTEK ZMIANY: Dodanie biblioteki do zmiany kolejności (drag-and-drop) ---
     implementation("org.burnoutcrew.composereorderable:reorderable:0.9.6")
-    // --- KONIEC ZMIANY ---
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

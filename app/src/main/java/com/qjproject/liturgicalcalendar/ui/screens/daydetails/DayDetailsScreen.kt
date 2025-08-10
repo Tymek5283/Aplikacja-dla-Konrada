@@ -74,8 +74,7 @@ fun DayDetailsScreen(
     if (uiState.showConfirmExitDialog) {
         ConfirmExitDialog(
             onDismiss = { viewModel.dismissConfirmExitDialog() },
-            onDiscard = { viewModel.onExitEditMode(save = false) },
-            onSave = { viewModel.onExitEditMode(save = true) }
+            onDiscard = { viewModel.onExitEditMode(save = false) }
         )
     }
 
@@ -128,7 +127,6 @@ fun DayDetailsScreen(
 @Composable
 private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: DayDetailsViewModel) {
     val uiState by viewModel.uiState.collectAsState()
-    val groupedSongs by viewModel.groupedSongs.collectAsState()
     var showSongModal by remember { mutableStateOf(false) }
     var selectedSong by remember { mutableStateOf<SuggestedSong?>(null) }
 
@@ -174,6 +172,9 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
             isExpanded = uiState.isSongsSectionExpanded,
             onToggle = { viewModel.toggleSongsSection() }
         ) {
+            // --- POCZĄTEK ZMIANY: Poprawka odwołania do `groupedSongs` ---
+            val groupedSongs by viewModel.groupedSongs.collectAsState()
+            // --- KONIEC ZMIANY ---
             songMomentOrderMap.forEach { (momentKey, momentName) ->
                 SongGroupView(
                     momentName = momentName,
@@ -197,7 +198,7 @@ private fun handleReadingCollapse(
     interactionSources: Map<Int, MutableInteractionSource>
 ) {
     val layoutCoordinates = readingLayouts[index] ?: return
-    val isHeaderVisible = layoutCoordinates.positionInRoot().y >= topBarHeight
+    val isHeaderVisible = layoutCoordinates.positionInRoot().y >= 0
 
     viewModel.collapseReading(index)
 
@@ -211,10 +212,9 @@ private fun handleReadingCollapse(
             }
         }
         if (!isHeaderVisible) {
-            val currentScroll = scrollState.value
-            val elementYPosInRoot = layoutCoordinates.positionInRoot().y
-            val targetScrollPosition = currentScroll + elementYPosInRoot.toInt() - topBarHeight
+            val targetScrollPosition = scrollState.value + layoutCoordinates.positionInRoot().y.toInt()
             scrollState.animateScrollTo(targetScrollPosition)
+            delay(50)
             triggerRipple()
         } else {
             triggerRipple()
@@ -228,13 +228,10 @@ private fun handleReadingCollapse(
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: DayDetailsViewModel) {
+    val uiState by viewModel.uiState.collectAsState()
     val editableData by viewModel.editableDayData
     var readingToEdit by remember { mutableStateOf<Pair<Reading, Int>?>(null) }
     var showAddReadingDialog by remember { mutableStateOf(false) }
-
-    val reorderableState = rememberReorderableLazyListState(onMove = { from, to ->
-        viewModel.reorderReadings(from.index, to.index)
-    })
 
     if (showAddReadingDialog) {
         AddEditReadingDialog(
@@ -251,50 +248,65 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
     }
 
     LazyColumn(
-        state = reorderableState.listState,
         modifier = modifier
             .fillMaxSize()
-            .padding(horizontal = 16.dp)
-            .reorderable(reorderableState),
+            .padding(horizontal = 16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
         contentPadding = PaddingValues(vertical = 16.dp)
     ) {
-        item { SectionHeaderEditable("Czytania") }
-
-        itemsIndexed(editableData?.czytania ?: emptyList(), key = { _, item -> item.hashCode() }) { index, reading ->
-            ReorderableItem(reorderableState, key = reading.hashCode()) { isDragging ->
-                EditableReadingItem(
-                    reading = reading,
-                    isDragging = isDragging,
-                    onEditClick = { readingToEdit = reading to index },
-                    onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
-                    modifier = Modifier.detectReorderAfterLongPress(reorderableState)
+        item {
+            HierarchicalCollapsibleSection(
+                title = "Czytania",
+                isExpanded = uiState.isReadingsSectionExpanded,
+                onToggle = { viewModel.toggleReadingsSection() }
+            ) {
+                val reorderState = rememberReorderableLazyListState(
+                    onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
                 )
+                LazyColumn(
+                    state = reorderState.listState,
+                    modifier = Modifier.reorderable(reorderState).heightIn(max = 500.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    itemsIndexed(editableData?.czytania ?: emptyList(), key = { _, item -> item.hashCode() }) { index, reading ->
+                        ReorderableItem(reorderState, key = reading.hashCode()) { isDragging ->
+                            EditableReadingItem(
+                                reading = reading,
+                                isDragging = isDragging,
+                                onEditClick = { readingToEdit = reading to index },
+                                onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
+                                modifier = Modifier.detectReorderAfterLongPress(reorderState)
+                            )
+                        }
+                    }
+                }
+                AddItemButton(text = "Dodaj czytanie", onClick = { showAddReadingDialog = true })
             }
         }
-        item { AddItemButton(text = "Dodaj czytanie", onClick = { showAddReadingDialog = true }) }
-        item { Spacer(Modifier.height(16.dp)); SectionHeaderEditable("Sugerowane pieśni") }
 
-        val songsByMoment = editableData?.piesniSugerowane.orEmpty().filterNotNull().groupBy { it.moment }
-        songMomentOrderMap.forEach { (momentKey, momentName) ->
-            item { EditableSongCategoryHeader(categoryName = momentName) }
-
-            val songs = songsByMoment[momentKey].orEmpty()
-            itemsIndexed(songs, key = { _, item -> item.hashCode() }) { index, song ->
-                EditableSongItem(
-                    song = song,
-                    onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
-                    onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) }
-                )
-            }
-            item {
-                AddItemButton(
-                    text = "Dodaj pieśń do '${momentName}'",
-                    onClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey)) }
-                )
-            }
-            if (momentKey != songMomentOrderMap.keys.last()) {
-                item { Divider(Modifier.padding(vertical = 8.dp)) }
+        item {
+            HierarchicalCollapsibleSection(
+                title = "Sugerowane pieśni",
+                isExpanded = uiState.isSongsSectionExpanded,
+                onToggle = { viewModel.toggleSongsSection() }
+            ) {
+                val songsByMoment = editableData?.piesniSugerowane.orEmpty().filterNotNull().groupBy { it.moment }
+                songMomentOrderMap.forEach { (momentKey, momentName) ->
+                    EditableSongCategoryHeader(categoryName = momentName)
+                    val songs = songsByMoment[momentKey].orEmpty()
+                    songs.forEachIndexed { index, song ->
+                        EditableSongItem(
+                            song = song,
+                            onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
+                            onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) }
+                        )
+                        Spacer(Modifier.height(8.dp))
+                    }
+                    AddItemButton(text = "Dodaj pieśń do '$momentName'", onClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey)) })
+                    if (momentKey != songMomentOrderMap.keys.last()) {
+                        Divider(Modifier.padding(vertical = 8.dp))
+                    }
+                }
             }
         }
     }
@@ -333,7 +345,7 @@ private fun HierarchicalCollapsibleSection(
                 contentDescription = if (isExpanded) "Zwiń" else "Rozwiń"
             )
         }
-        if (level == 0) Divider(color = DividerColor)
+        if (level == 0 && isExpanded) Divider(color = DividerColor)
         AnimatedVisibility(visible = isExpanded, enter = expandVertically(tween(300)), exit = shrinkVertically(tween(300))) {
             Column(
                 modifier = Modifier.fillMaxWidth().padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp).padding(top = 8.dp),
@@ -374,18 +386,17 @@ private fun SongGroupView(momentName: String, songs: List<SuggestedSong>, isExpa
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
-    // --- POCZĄTEK ZMIANY: Poprawka wywołania Card ---
     Card(
         onClick = onClick,
         modifier = Modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.small,
         colors = CardDefaults.cardColors(containerColor = SongItemBackground)
     ) {
-        // --- KONIEC ZMIANY ---
         Row(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(song.piesn, Modifier.weight(1f), style = MaterialTheme.typography.headlineSmall)
+            Text(song.piesn, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic))
         }
     }
 }
@@ -428,7 +439,21 @@ fun EditableSongItem(song: SuggestedSong, onEditClick: () -> Unit, onDeleteClick
 // =================================================================================
 // Okna Dialogowe
 // =================================================================================
-@Composable private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit, onSave: () -> Unit) { AlertDialog(onDismissRequest = onDismiss, title = { Text("Niezapisane zmiany") }, text = { Text("Czy chcesz zapisać zmiany przed wyjściem?") }, dismissButton = { TextButton(onClick = onDiscard) { Text("Odrzuć") } }, confirmButton = { Button(onClick = onSave) { Text("Zapisz") } }) }
+@Composable
+private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Odrzucić zmiany?") },
+        text = { Text("Czy na pewno chcesz wyjść bez zapisywania zmian?") },
+        dismissButton = {
+            Button(onClick = onDismiss) { Text("Nie") }
+        },
+        confirmButton = {
+            TextButton(onClick = onDiscard) { Text("Tak") }
+        }
+    )
+}
+
 @Composable private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onConfirm: () -> Unit) { AlertDialog(onDismissRequest = onDismiss, title = { Text("Potwierdź usunięcie") }, text = { Text("Czy na pewno chcesz usunąć $description?") }, dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } }, confirmButton = { Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)) { Text("Usuń") } }) }
 
 @Composable
@@ -506,7 +531,6 @@ private fun SongDetailsModal(song: SuggestedSong, onDismiss: () -> Unit) {
         }
     }}}
 }
-
 
 // =================================================================================
 // Paski nawigacyjne (Top App Bars)

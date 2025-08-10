@@ -11,8 +11,8 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val DividerColor = Color.Gray.copy(alpha = 0.3f)
-val SubtleGrayBackground = Color.Gray.copy(alpha = 0.06f)
-val SongItemBackground = Color.Gray.copy(alpha = 0.09f)
+val SubtleGrayBackground = Color.Gray.copy(alpha = 0.12f)
+val SongItemBackground = Color.Gray.copy(alpha = 0.1f)
 
 val NavyDark = Color(0xFF16182D)
 val NavyLight = Color(0xFF4E5079)

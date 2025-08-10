@@ -1,7 +1,6 @@
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 
 import android.content.Context
-import android.util.Log
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -16,13 +15,11 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-// --- POCZĄTEK ZMIANY: Typy do obsługi generycznych dialogów ---
 sealed class DialogState {
     object None : DialogState()
     data class ConfirmDelete(val item: Any, val description: String) : DialogState()
     data class AddEditSong(val moment: String, val existingSong: SuggestedSong? = null) : DialogState()
 }
-// --- KONIEC ZMIANY ---
 
 data class DayDetailsUiState(
     val isLoading: Boolean = true,
@@ -35,9 +32,7 @@ data class DayDetailsUiState(
     val isEditMode: Boolean = false,
     val showConfirmExitDialog: Boolean = false,
     val hasChanges: Boolean = false,
-    // --- POCZĄTEK ZMIANY: Nowy stan do zarządzania dialogami ---
     val activeDialog: DialogState = DialogState.None
-    // --- KONIEC ZMIANY ---
 )
 
 val songMomentOrderMap = mapOf(
@@ -57,15 +52,16 @@ class DayDetailsViewModel(
     private val _uiState = MutableStateFlow(DayDetailsUiState())
     val uiState = _uiState.asStateFlow()
 
-    val groupedSongs = MutableStateFlow<Map<String, List<SuggestedSong>>>(emptyMap())
+    // --- POCZĄTEK ZMIANY: Przywrócenie groupedSongs jako publicznego StateFlow ---
+    private val _groupedSongs = MutableStateFlow<Map<String, List<SuggestedSong>>>(emptyMap())
+    val groupedSongs = _groupedSongs.asStateFlow()
+    // --- KONIEC ZMIANY ---
+
     var editableDayData = mutableStateOf<DayData?>(null)
         private set
 
-    // --- POCZĄTEK ZMIANY: Wyszukiwanie pieśni ---
     private val allSongs: List<Song> by lazy { repository.getSongList() }
     val songSearchResults = MutableStateFlow<List<Song>>(emptyList())
-    // --- KONIEC ZMIANY ---
-
 
     init {
         loadData()
@@ -90,7 +86,9 @@ class DayDetailsViewModel(
         val fullGroupedMap = songMomentOrderMap.keys.associateWith { momentKey ->
             songsByMoment[momentKey] ?: emptyList()
         }
-        groupedSongs.value = fullGroupedMap
+        // --- POCZĄTEK ZMIANY: Aktualizacja wartości StateFlow ---
+        _groupedSongs.value = fullGroupedMap
+        // --- KONIEC ZMIANY ---
     }
 
     fun onEnterEditMode() {
@@ -140,15 +138,8 @@ class DayDetailsViewModel(
         }
     }
 
-    // --- POCZĄTEK ZMIANY: Ulepszone zarządzanie dialogami ---
-    fun showDialog(dialog: DialogState) {
-        _uiState.update { it.copy(activeDialog = dialog) }
-    }
-
-    fun dismissDialog() {
-        _uiState.update { it.copy(activeDialog = DialogState.None) }
-    }
-    // --- KONIEC ZMIANY ---
+    fun showDialog(dialog: DialogState) { _uiState.update { it.copy(activeDialog = dialog) } }
+    fun dismissDialog() { _uiState.update { it.copy(activeDialog = DialogState.None) } }
 
     fun addOrUpdateReading(reading: Reading, index: Int?) {
         editableDayData.value?.let {
@@ -181,11 +172,13 @@ class DayDetailsViewModel(
 
     fun reorderReadings(from: Int, to: Int) {
         editableDayData.value?.let {
-            val newList = it.czytania.toMutableList().apply {
-                add(to, removeAt(from))
+            val currentList = it.czytania.toMutableList()
+            if (from in currentList.indices && to in currentList.indices) {
+                val item = currentList.removeAt(from)
+                currentList.add(to, item)
+                editableDayData.value = it.copy(czytania = currentList)
+                markAsChanged()
             }
-            editableDayData.value = it.copy(czytania = newList)
-            markAsChanged()
         }
     }
 
@@ -219,14 +212,14 @@ class DayDetailsViewModel(
             val otherSongs = allSongs.filter { it.moment != moment }
 
             if (fromIndexInMoment in songsInMoment.indices && toIndexInMoment in songsInMoment.indices) {
-                songsInMoment.add(toIndexInMoment, songsInMoment.removeAt(fromIndexInMoment))
+                val movedSong = songsInMoment.removeAt(fromIndexInMoment)
+                songsInMoment.add(toIndexInMoment, movedSong)
                 editableDayData.value = data.copy(piesniSugerowane = otherSongs + songsInMoment)
                 markAsChanged()
             }
         }
     }
 
-    // --- POCZĄTEK ZMIANY: Wyszukiwanie pieśni ---
     fun searchSongs(query: String) {
         if (query.isBlank()) {
             songSearchResults.value = emptyList()
@@ -235,11 +228,12 @@ class DayDetailsViewModel(
         val cleanedQuery = query.lowercase().replace(",", "")
         viewModelScope.launch {
             songSearchResults.value = allSongs.filter {
-                it.tytul.lowercase().replace(",", "").contains(cleanedQuery)
+                val titleMatch = it.tytul.lowercase().replace(",", "").contains(cleanedQuery)
+                val numberMatch = it.numer == cleanedQuery
+                titleMatch || numberMatch
             }
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
     fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
