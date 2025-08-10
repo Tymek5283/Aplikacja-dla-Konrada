@@ -53,11 +53,10 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY: Nowa funkcja do wczytywania listy wszystkich pieśni ---
     fun getSongList(): List<Song> {
         songListCache?.let { return it }
         return try {
-            val inputStream = context.assets.open("piesni.json")
+            val inputStream = context.assets.open("data/piesni.json")
             val jsonString = inputStream.bufferedReader().use { it.readText() }
             val songs = json.decodeFromString<List<Song>>(jsonString)
             songListCache = songs
@@ -67,7 +66,6 @@ class FileSystemRepository(private val context: Context) {
             emptyList()
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
         return try {

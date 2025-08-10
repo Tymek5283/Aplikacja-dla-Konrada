@@ -10,10 +10,13 @@ import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import java.util.Locale
 
 sealed class DialogState {
     object None : DialogState()
@@ -59,7 +62,15 @@ class DayDetailsViewModel(
         private set
 
     private val allSongs: List<Song> by lazy { repository.getSongList() }
-    val songSearchResults = MutableStateFlow<List<Song>>(emptyList())
+
+    private var titleSearchJob: Job? = null
+    private var numberSearchJob: Job? = null
+
+    private val _songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    val songTitleSearchResults = _songTitleSearchResults.asStateFlow()
+
+    private val _songNumberSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    val songNumberSearchResults = _songNumberSearchResults.asStateFlow()
 
     init {
         loadData()
@@ -216,19 +227,54 @@ class DayDetailsViewModel(
         }
     }
 
-    fun searchSongs(query: String) {
+    private fun cleanForSearch(input: String): String {
+        val regex = Regex("[^\\p{L}\\p{N}\\s]")
+        return input.lowercase(Locale.getDefault()).replace(regex, " ").trim().replace(Regex("\\s+"), " ")
+    }
+
+    fun searchSongsByTitle(query: String) {
+        titleSearchJob?.cancel()
+        _songNumberSearchResults.value = emptyList()
+
         if (query.isBlank()) {
-            songSearchResults.value = emptyList()
+            _songTitleSearchResults.value = emptyList()
             return
         }
-        val cleanedQuery = query.lowercase().replace(",", "")
-        viewModelScope.launch {
-            songSearchResults.value = allSongs.filter {
-                val titleMatch = it.tytul.lowercase().replace(",", "").contains(cleanedQuery)
-                val numberMatch = it.numer == cleanedQuery
-                titleMatch || numberMatch
+        titleSearchJob = viewModelScope.launch {
+            delay(500)
+            val cleanedQuery = cleanForSearch(query)
+            if (cleanedQuery.isNotEmpty()) {
+                _songTitleSearchResults.value = allSongs.filter { song ->
+                    cleanForSearch(song.tytul).contains(cleanedQuery)
+                }.sortedBy { it.tytul }
+            } else {
+                _songTitleSearchResults.value = emptyList()
             }
         }
+    }
+
+    fun searchSongsByNumber(query: String) {
+        numberSearchJob?.cancel()
+        _songTitleSearchResults.value = emptyList()
+
+        if (query.isBlank()) {
+            _songNumberSearchResults.value = emptyList()
+            return
+        }
+        numberSearchJob = viewModelScope.launch {
+            delay(500)
+            val trimmedQuery = query.trim()
+            _songNumberSearchResults.value = allSongs.filter { song ->
+                song.numer == trimmedQuery
+            }
+        }
+    }
+
+    fun clearAllSearchResults() {
+        titleSearchJob?.cancel()
+        numberSearchJob?.cancel()
+        _songTitleSearchResults.value = emptyList()
+        _songNumberSearchResults.value = emptyList()
     }
 
     fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }

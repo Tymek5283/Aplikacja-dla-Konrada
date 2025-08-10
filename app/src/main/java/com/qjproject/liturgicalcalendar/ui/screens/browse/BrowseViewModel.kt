@@ -51,13 +51,10 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private fun loadContentForCurrentPath() {
         val pathString = _uiState.value.currentPath.joinToString("/")
-        val items = repository.getItems(pathString)
+        val items = repository.getItems(pathString).filter { it.name != "piesni" }
         _uiState.update {
-            // --- POCZĄTEK ZMIANY ---
-            // Logika do ustawiania tytułu: jeśli jesteśmy w folderze głównym,
-            // użyj hardkodowanej nazwy. W przeciwnym razie, użyj nazwy ostatniego folderu.
             val title = if (it.currentPath.size == 1) {
-                "Czego szukasz?" // Hardkodowany tytuł dla widoku głównego
+                "Czego szukasz?"
             } else {
                 it.currentPath.lastOrNull()?.replace("_", " ") ?: "Czego szukasz?"
             }
@@ -66,7 +63,6 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
                 screenTitle = title,
                 isBackArrowVisible = it.currentPath.size > 1
             )
-            // --- KONIEC ZMIANY ---
         }
     }
 }

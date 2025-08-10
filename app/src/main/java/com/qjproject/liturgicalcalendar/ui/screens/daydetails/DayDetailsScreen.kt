@@ -135,9 +135,7 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
 
     val scrollState = rememberScrollState()
     val coroutineScope = rememberCoroutineScope()
-    // --- POCZĄTEK ZMIANY: Nowy, kluczowy stan do przechowywania bezwzględnych offsetów ---
     val readingOffsetsY = remember { mutableStateMapOf<Int, Int>() }
-    // --- KONIEC ZMIANY ---
     val interactionSources = remember { mutableStateMapOf<Int, MutableInteractionSource>() }
     var contentStartY by remember { mutableStateOf(0f) }
     var scrollAnchorCoordinates by remember { mutableStateOf<LayoutCoordinates?>(null) }
@@ -174,12 +172,10 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
                         handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState, interactionSources)
                     },
                     onGloballyPositioned = { itemCoordinates ->
-                        // --- POCZĄTEK ZMIANY: Mierzenie i zapisywanie bezwzględnej pozycji ---
                         scrollAnchorCoordinates?.let { anchor ->
                             val offsetY = (itemCoordinates.positionInRoot().y - anchor.positionInRoot().y).toInt()
                             readingOffsetsY[index] = offsetY
                         }
-                        // --- KONIEC ZMIANY ---
                     },
                     interactionSource = interactionSources.getOrPut(index) { MutableInteractionSource() }
                 )
@@ -211,15 +207,12 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
 
 private fun handleReadingCollapse(
     index: Int,
-    // --- POCZĄTEK ZMIANY: Przyjmowanie mapy offsetów zamiast LayoutCoordinates ---
     readingOffsets: Map<Int, Int>,
-    // --- KONIEC ZMIANY ---
     viewModel: DayDetailsViewModel,
     coroutineScope: CoroutineScope,
     scrollState: ScrollState,
     interactionSources: Map<Int, MutableInteractionSource>
 ) {
-    // --- POCZĄTEK ZMIANY: Całkowicie nowa, uproszczona logika ---
     val targetScrollPosition = readingOffsets[index] ?: return
 
     viewModel.collapseReading(index)
@@ -227,7 +220,6 @@ private fun handleReadingCollapse(
     coroutineScope.launch {
         scrollState.animateScrollTo(targetScrollPosition)
 
-        // Efekt "mignięcia" dla lepszego UX
         delay(50)
         interactionSources[index]?.let { source ->
             val press = PressInteraction.Press(Offset.Zero)
@@ -236,7 +228,6 @@ private fun handleReadingCollapse(
             source.emit(PressInteraction.Release(press))
         }
     }
-    // --- KONIEC ZMIANY ---
 }
 
 // =================================================================================
@@ -285,8 +276,11 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                     modifier = Modifier.reorderable(reorderState).heightIn(max = 500.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    itemsIndexed(editableData?.czytania ?: emptyList(), key = { _, item -> item.hashCode() }) { index, reading ->
-                        ReorderableItem(reorderState, key = reading.hashCode()) { isDragging ->
+                    itemsIndexed(
+                        items = editableData?.czytania ?: emptyList(),
+                        key = { index, item -> "${item.hashCode()}-$index" }
+                    ) { index, reading ->
+                        ReorderableItem(reorderState, key = "${reading.hashCode()}-$index") { isDragging ->
                             EditableReadingItem(
                                 reading = reading,
                                 isDragging = isDragging,
@@ -323,8 +317,11 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                             .heightIn(max = 500.dp),
                         verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        itemsIndexed(songsInMoment, key = { _, song -> song.hashCode() }) { index, song ->
-                            ReorderableItem(songReorderState, key = song.hashCode()) { isDragging ->
+                        itemsIndexed(
+                            items = songsInMoment,
+                            key = { index, song -> "${song.hashCode()}-$index" }
+                        ) { index, song ->
+                            ReorderableItem(songReorderState, key = "${song.hashCode()}-$index") { isDragging ->
                                 EditableSongItem(
                                     song = song,
                                     isDragging = isDragging,
@@ -536,43 +533,136 @@ private fun AddEditReadingDialog(existingReading: Reading? = null, onDismiss: ()
 
 @Composable
 private fun AddEditSongDialog(
-    moment: String, existingSong: SuggestedSong? = null, viewModel: DayDetailsViewModel, onDismiss: () -> Unit,
+    moment: String,
+    existingSong: SuggestedSong? = null,
+    viewModel: DayDetailsViewModel,
+    onDismiss: () -> Unit,
     onConfirm: (SuggestedSong, String, SuggestedSong?) -> Unit
 ) {
     var piesn by remember { mutableStateOf(existingSong?.piesn ?: "") }
     var numer by remember { mutableStateOf(existingSong?.numer ?: "") }
     var opis by remember { mutableStateOf(existingSong?.opis ?: "") }
     val isPiesnValid by remember { derivedStateOf { piesn.isNotBlank() } }
-    val searchResults by viewModel.songSearchResults.collectAsState()
+
+    val titleSearchResults by viewModel.songTitleSearchResults.collectAsState()
+    val numberSearchResults by viewModel.songNumberSearchResults.collectAsState()
     val focusRequester = remember { FocusRequester() }
 
-    LaunchedEffect(Unit) { focusRequester.requestFocus() }
+    LaunchedEffect(Unit) {
+        viewModel.clearAllSearchResults()
+        focusRequester.requestFocus()
+    }
 
     Dialog(onDismissRequest = onDismiss) {
         Card(Modifier.fillMaxWidth()) {
-            Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState())) {
-                Text(if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 16.dp))
-                OutlinedTextField(piesn, { piesn = it; viewModel.searchSongs(it) }, label = { Text("Tytuł pieśni*") }, isError = !isPiesnValid, modifier = Modifier.fillMaxWidth().focusRequester(focusRequester))
-                if (searchResults.isNotEmpty()) {
-                    LazyColumn(modifier = Modifier.heightIn(max = 150.dp).border(1.dp, Color.Gray).fillMaxWidth()) {
-                        items(searchResults) { song ->
-                            Text(song.tytul, Modifier.fillMaxWidth().clickable { piesn = song.tytul; numer = song.numer; viewModel.searchSongs("") }.padding(8.dp))
+            Column(Modifier.padding(16.dp)) {
+                Text(
+                    if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń",
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 16.dp)
+                )
+
+                Column {
+                    OutlinedTextField(
+                        value = piesn,
+                        onValueChange = {
+                            piesn = it
+                            viewModel.searchSongsByTitle(it)
+                        },
+                        label = { Text("Tytuł pieśni*") },
+                        isError = !isPiesnValid,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .focusRequester(focusRequester)
+                    )
+                    AnimatedVisibility(visible = titleSearchResults.isNotEmpty()) {
+                        LazyColumn(
+                            modifier = Modifier
+                                .heightIn(max = 240.dp)
+                                .fillMaxWidth()
+                                .border(1.dp, MaterialTheme.colorScheme.outline)
+                        ) {
+                            items(
+                                items = titleSearchResults,
+                                key = { song -> "${song.tytul}-${song.numer}" }
+                            ) { song ->
+                                Text(
+                                    text = "${song.tytul} (${song.numer})",
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .clickable {
+                                            piesn = song.tytul
+                                            numer = song.numer
+                                            viewModel.clearAllSearchResults()
+                                        }
+                                        .padding(12.dp)
+                                )
+                            }
                         }
                     }
                 }
+
                 Spacer(Modifier.height(8.dp))
-                OutlinedTextField(numer, { numer = it }, label = { Text("Numer") }, modifier = Modifier.fillMaxWidth())
+
+                Column {
+                    OutlinedTextField(
+                        value = numer,
+                        onValueChange = {
+                            numer = it
+                            viewModel.searchSongsByNumber(it)
+                        },
+                        label = { Text("Numer") },
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    AnimatedVisibility(visible = numberSearchResults.isNotEmpty()) {
+                        LazyColumn(
+                            modifier = Modifier
+                                .heightIn(max = 240.dp)
+                                .fillMaxWidth()
+                                .border(1.dp, MaterialTheme.colorScheme.outline)
+                        ) {
+                            items(
+                                items = numberSearchResults,
+                                key = { song -> "${song.tytul}-${song.numer}" }
+                            ) { song ->
+                                Text(
+                                    text = "${song.tytul} (${song.numer})",
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .clickable {
+                                            piesn = song.tytul
+                                            numer = song.numer
+                                            viewModel.clearAllSearchResults()
+                                        }
+                                        .padding(12.dp)
+                                )
+                            }
+                        }
+                    }
+                }
+
                 Spacer(Modifier.height(8.dp))
                 OutlinedTextField(opis, { opis = it }, label = { Text("Opis") }, modifier = Modifier.fillMaxWidth())
                 Spacer(Modifier.height(16.dp))
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
-                    Button(onClick = { onConfirm(SuggestedSong(numer, piesn, opis, moment), moment, existingSong); onDismiss() }, enabled = isPiesnValid) { Text("Zapisz") }
+                    TextButton(onClick = {
+                        viewModel.clearAllSearchResults()
+                        onDismiss()
+                    }) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = {
+                            onConfirm(SuggestedSong(numer, piesn, opis, moment), moment, existingSong)
+                            onDismiss()
+                        },
+                        enabled = isPiesnValid
+                    ) { Text("Zapisz") }
                 }
             }
         }
     }
 }
+
 
 @Composable
 private fun SongDetailsModal(song: SuggestedSong, onDismiss: () -> Unit) {
