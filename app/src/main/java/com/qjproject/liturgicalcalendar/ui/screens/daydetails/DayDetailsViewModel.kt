@@ -52,10 +52,8 @@ class DayDetailsViewModel(
     private val _uiState = MutableStateFlow(DayDetailsUiState())
     val uiState = _uiState.asStateFlow()
 
-    // --- POCZĄTEK ZMIANY: Przywrócenie groupedSongs jako publicznego StateFlow ---
     private val _groupedSongs = MutableStateFlow<Map<String, List<SuggestedSong>>>(emptyMap())
     val groupedSongs = _groupedSongs.asStateFlow()
-    // --- KONIEC ZMIANY ---
 
     var editableDayData = mutableStateOf<DayData?>(null)
         private set
@@ -86,9 +84,7 @@ class DayDetailsViewModel(
         val fullGroupedMap = songMomentOrderMap.keys.associateWith { momentKey ->
             songsByMoment[momentKey] ?: emptyList()
         }
-        // --- POCZĄTEK ZMIANY: Aktualizacja wartości StateFlow ---
         _groupedSongs.value = fullGroupedMap
-        // --- KONIEC ZMIANY ---
     }
 
     fun onEnterEditMode() {
@@ -207,7 +203,7 @@ class DayDetailsViewModel(
 
     fun reorderSongs(moment: String, fromIndexInMoment: Int, toIndexInMoment: Int) {
         editableDayData.value?.let { data ->
-            val allSongs = data.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
+            val allSongs = data.piesniSugerowane.orEmpty().filterNotNull()
             val songsInMoment = allSongs.filter { it.moment == moment }.toMutableList()
             val otherSongs = allSongs.filter { it.moment != moment }
 

@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
@@ -40,6 +42,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -172,9 +175,7 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
             isExpanded = uiState.isSongsSectionExpanded,
             onToggle = { viewModel.toggleSongsSection() }
         ) {
-            // --- POCZĄTEK ZMIANY: Poprawka odwołania do `groupedSongs` ---
             val groupedSongs by viewModel.groupedSongs.collectAsState()
-            // --- KONIEC ZMIANY ---
             songMomentOrderMap.forEach { (momentKey, momentName) ->
                 SongGroupView(
                     momentName = momentName,
@@ -275,7 +276,7 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                                 isDragging = isDragging,
                                 onEditClick = { readingToEdit = reading to index },
                                 onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
-                                modifier = Modifier.detectReorderAfterLongPress(reorderState)
+                                reorderModifier = Modifier.detectReorder(reorderState)
                             )
                         }
                     }
@@ -293,14 +294,31 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                 val songsByMoment = editableData?.piesniSugerowane.orEmpty().filterNotNull().groupBy { it.moment }
                 songMomentOrderMap.forEach { (momentKey, momentName) ->
                     EditableSongCategoryHeader(categoryName = momentName)
-                    val songs = songsByMoment[momentKey].orEmpty()
-                    songs.forEachIndexed { index, song ->
-                        EditableSongItem(
-                            song = song,
-                            onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
-                            onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) }
-                        )
-                        Spacer(Modifier.height(8.dp))
+                    val songsInMoment = songsByMoment[momentKey].orEmpty()
+                    val isReorderEnabled = songsInMoment.size > 1
+
+                    val songReorderState = rememberReorderableLazyListState(
+                        onMove = { from, to -> viewModel.reorderSongs(momentKey, from.index, to.index) }
+                    )
+                    LazyColumn(
+                        state = songReorderState.listState,
+                        modifier = Modifier
+                            .then(if (isReorderEnabled) Modifier.reorderable(songReorderState) else Modifier)
+                            .heightIn(max = 500.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        itemsIndexed(songsInMoment, key = { _, song -> song.hashCode() }) { index, song ->
+                            ReorderableItem(songReorderState, key = song.hashCode()) { isDragging ->
+                                EditableSongItem(
+                                    song = song,
+                                    isDragging = isDragging,
+                                    onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
+                                    onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) },
+                                    reorderModifier = if (isReorderEnabled) Modifier.detectReorder(songReorderState) else Modifier,
+                                    isReorderEnabled = isReorderEnabled
+                                )
+                            }
+                        }
                     }
                     AddItemButton(text = "Dodaj pieśń do '$momentName'", onClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey)) })
                     if (momentKey != songMomentOrderMap.keys.last()) {
@@ -408,10 +426,11 @@ private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
 @Composable fun EditableSongCategoryHeader(categoryName: String) { Row(Modifier.fillMaxWidth().padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) { Text(categoryName, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold) } }
 
 @Composable
-fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, modifier: Modifier = Modifier) {
-    Card(modifier = modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), elevation = CardDefaults.cardElevation(2.dp)) {
+fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier) {
+    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), elevation = CardDefaults.cardElevation(2.dp)) {
         Row(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-            Icon(Icons.Default.DragHandle, "Zmień kolejność"); Spacer(Modifier.width(8.dp))
+            Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
+            Spacer(Modifier.width(8.dp))
             Column(Modifier.weight(1f)) {
                 Text(reading.typ, fontWeight = FontWeight.Bold)
                 Text(reading.sigla ?: "", style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic)
@@ -423,10 +442,15 @@ fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -
 }
 
 @Composable
-fun EditableSongItem(song: SuggestedSong, onEditClick: () -> Unit, onDeleteClick: () -> Unit) {
-    Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier, isReorderEnabled: Boolean) {
+    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
         Row(Modifier.padding(start = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-            Icon(Icons.Default.DragHandle, "Zmień kolejność"); Spacer(Modifier.width(8.dp))
+            if (isReorderEnabled) {
+                Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
+                Spacer(Modifier.width(8.dp))
+            } else {
+                Spacer(Modifier.width(32.dp)) // Placeholder to keep alignment
+            }
             Text(song.piesn, modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
             IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj") }
             IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń") }
@@ -443,18 +467,27 @@ fun EditableSongItem(song: SuggestedSong, onEditClick: () -> Unit, onDeleteClick
 private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Odrzucić zmiany?") },
+        title = { Text("Odrzucić zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
         text = { Text("Czy na pewno chcesz wyjść bez zapisywania zmian?") },
         dismissButton = {
-            Button(onClick = onDismiss) { Text("Nie") }
+            Button(onClick = onDismiss) { Text("Anuluj") }
         },
         confirmButton = {
-            TextButton(onClick = onDiscard) { Text("Tak") }
+            TextButton(onClick = onDiscard) { Text("Odrzuć") }
         }
     )
 }
 
-@Composable private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onConfirm: () -> Unit) { AlertDialog(onDismissRequest = onDismiss, title = { Text("Potwierdź usunięcie") }, text = { Text("Czy na pewno chcesz usunąć $description?") }, dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } }, confirmButton = { Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)) { Text("Usuń") } }) }
+@Composable
+private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onConfirm: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
+        text = { Text("Czy na pewno chcesz usunąć $description?") },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } },
+        confirmButton = { Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)) { Text("Usuń") } }
+    )
+}
 
 @Composable
 private fun AddEditReadingDialog(existingReading: Reading? = null, onDismiss: () -> Unit, onConfirm: (Reading) -> Unit) {
@@ -464,17 +497,25 @@ private fun AddEditReadingDialog(existingReading: Reading? = null, onDismiss: ()
     var tekst by remember { mutableStateOf(existingReading?.tekst ?: "") }
     val isTypValid by remember { derivedStateOf { typ.isNotBlank() } }
 
-    Dialog(onDismissRequest = onDismiss) { Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) {
-        Text(if (existingReading == null) "Dodaj nowe czytanie" else "Edytuj czytanie", style = MaterialTheme.typography.titleLarge); Spacer(Modifier.height(16.dp))
-        OutlinedTextField(typ, { typ = it }, label = { Text("Typ*") }, isError = !isTypValid)
-        OutlinedTextField(sigla, { sigla = it }, label = { Text("Sigla") })
-        OutlinedTextField(opis, { opis = it }, label = { Text("Opis") })
-        OutlinedTextField(tekst, { tekst = it }, label = { Text("Tekst") }, modifier = Modifier.height(200.dp)); Spacer(Modifier.height(16.dp))
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
-            Button(onClick = { onConfirm(existingReading?.copy(typ = typ, sigla = sigla, opis = opis, tekst = tekst) ?: Reading(typ, sigla, opis, tekst)); onDismiss() }, enabled = isTypValid) { Text("Zapisz") }
+    Dialog(onDismissRequest = onDismiss) {
+        Card(Modifier.fillMaxWidth()) {
+            Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState())) {
+                Text(if (existingReading == null) "Dodaj nowe czytanie" else "Edytuj czytanie", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 16.dp))
+                OutlinedTextField(typ, { typ = it }, label = { Text("Typ*") }, isError = !isTypValid, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(sigla, { sigla = it }, label = { Text("Sigla") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(opis, { opis = it }, label = { Text("Opis") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(tekst, { tekst = it }, label = { Text("Tekst") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(16.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
+                    Button(onClick = { onConfirm(existingReading?.copy(typ = typ, sigla = sigla, opis = opis, tekst = tekst) ?: Reading(typ, sigla, opis, tekst)); onDismiss() }, enabled = isTypValid) { Text("Zapisz") }
+                }
+            }
         }
-    }}}
+    }
 }
 
 @Composable
@@ -491,23 +532,30 @@ private fun AddEditSongDialog(
 
     LaunchedEffect(Unit) { focusRequester.requestFocus() }
 
-    Dialog(onDismissRequest = onDismiss) { Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) {
-        Text(if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń", style = MaterialTheme.typography.titleLarge); Spacer(Modifier.height(16.dp))
-        OutlinedTextField(piesn, { piesn = it; viewModel.searchSongs(it) }, label = { Text("Tytuł pieśni*") }, isError = !isPiesnValid, modifier = Modifier.focusRequester(focusRequester))
-        if (searchResults.isNotEmpty()) {
-            LazyColumn(modifier = Modifier.heightIn(max = 150.dp).border(1.dp, Color.Gray)) {
-                items(searchResults) { song ->
-                    Text(song.tytul, Modifier.fillMaxWidth().clickable { piesn = song.tytul; numer = song.numer; viewModel.searchSongs("") }.padding(8.dp))
+    Dialog(onDismissRequest = onDismiss) {
+        Card(Modifier.fillMaxWidth()) {
+            Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState())) {
+                Text(if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 16.dp))
+                OutlinedTextField(piesn, { piesn = it; viewModel.searchSongs(it) }, label = { Text("Tytuł pieśni*") }, isError = !isPiesnValid, modifier = Modifier.fillMaxWidth().focusRequester(focusRequester))
+                if (searchResults.isNotEmpty()) {
+                    LazyColumn(modifier = Modifier.heightIn(max = 150.dp).border(1.dp, Color.Gray).fillMaxWidth()) {
+                        items(searchResults) { song ->
+                            Text(song.tytul, Modifier.fillMaxWidth().clickable { piesn = song.tytul; numer = song.numer; viewModel.searchSongs("") }.padding(8.dp))
+                        }
+                    }
+                }
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(numer, { numer = it }, label = { Text("Numer") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(opis, { opis = it }, label = { Text("Opis") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(16.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
+                    Button(onClick = { onConfirm(SuggestedSong(numer, piesn, opis, moment), moment, existingSong); onDismiss() }, enabled = isPiesnValid) { Text("Zapisz") }
                 }
             }
         }
-        OutlinedTextField(numer, { numer = it }, label = { Text("Numer") })
-        OutlinedTextField(opis, { opis = it }, label = { Text("Opis") }, modifier = Modifier.height(150.dp)); Spacer(Modifier.height(16.dp))
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
-            Button(onClick = { onConfirm(SuggestedSong(numer, piesn, opis, moment), moment, existingSong); onDismiss() }, enabled = isPiesnValid) { Text("Zapisz") }
-        }
-    }}}
+    }
 }
 
 @Composable
