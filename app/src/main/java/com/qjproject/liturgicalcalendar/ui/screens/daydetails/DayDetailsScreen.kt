@@ -61,7 +61,8 @@ import org.burnoutcrew.reorderable.*
 @Composable
 fun DayDetailsScreen(
     dayId: String?,
-    onNavigateBack: () -> Unit
+    onNavigateBack: () -> Unit,
+    onNavigateToSongContent: (songNumber: String) -> Unit
 ) {
     if (dayId.isNullOrBlank()) {
         Scaffold { padding -> Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) { Text("Błąd krytyczny: Brak identyfikatora dnia.") } }
@@ -119,7 +120,11 @@ fun DayDetailsScreen(
             uiState.isLoading -> Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
             uiState.error != null -> Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) { Text("Błąd: ${uiState.error}") }
             uiState.isEditMode -> DayDetailsEditModeContent(modifier = Modifier.padding(innerPadding), viewModel = viewModel)
-            else -> DayDetailsViewModeContent(modifier = Modifier.padding(innerPadding), viewModel = viewModel)
+            else -> DayDetailsViewModeContent(
+                modifier = Modifier.padding(innerPadding),
+                viewModel = viewModel,
+                onNavigateToSongContent = onNavigateToSongContent
+            )
         }
     }
 }
@@ -128,7 +133,11 @@ fun DayDetailsScreen(
 // WIDOK STANDARDOWY (VIEW MODE)
 // =================================================================================
 @Composable
-private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: DayDetailsViewModel) {
+private fun DayDetailsViewModeContent(
+    modifier: Modifier = Modifier,
+    viewModel: DayDetailsViewModel,
+    onNavigateToSongContent: (String) -> Unit
+) {
     val uiState by viewModel.uiState.collectAsState()
     var showSongModal by remember { mutableStateOf(false) }
     var selectedSong by remember { mutableStateOf<SuggestedSong?>(null) }
@@ -141,7 +150,11 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
     var scrollAnchorCoordinates by remember { mutableStateOf<LayoutCoordinates?>(null) }
 
     if (showSongModal && selectedSong != null) {
-        SongDetailsModal(song = selectedSong!!, onDismiss = { showSongModal = false })
+        SongDetailsModal(
+            song = selectedSong!!,
+            onDismiss = { showSongModal = false },
+            onShowContent = onNavigateToSongContent
+        )
     }
 
     Column(
@@ -379,7 +392,7 @@ private fun HierarchicalCollapsibleSection(
         if (level == 0 && isExpanded) Divider(color = DividerColor)
         AnimatedVisibility(visible = isExpanded, enter = expandVertically(tween(300)), exit = shrinkVertically(tween(300))) {
             Column(
-                modifier = Modifier.fillMaxWidth().padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp).padding(top = 8.dp),
+                modifier = Modifier.fillMaxWidth().padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp).padding(top = 4.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) { content() }
         }
@@ -665,25 +678,47 @@ private fun AddEditSongDialog(
 
 
 @Composable
-private fun SongDetailsModal(song: SuggestedSong, onDismiss: () -> Unit) {
-    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) { Card(Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 48.dp)) { Column(Modifier.padding(24.dp)) {
-        Row(Modifier.fillMaxWidth(), Arrangement.SpaceBetween, Alignment.CenterVertically) {
-            Text(song.piesn, style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
-            IconButton(onClick = onDismiss, Modifier.size(24.dp)) { Icon(Icons.Default.Close, "Zamknij") }
-        }
-        Spacer(Modifier.height(16.dp)); Divider(); Spacer(Modifier.height(16.dp))
-        Column(Modifier.verticalScroll(rememberScrollState())) {
-            if (song.numer.isNotBlank()) {
-                Text(buildAnnotatedString {
-                    append(AnnotatedString("Numer w Siedlecki: ", spanStyle = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
-                    append(AnnotatedString(song.numer, spanStyle = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
-                }); Spacer(Modifier.height(16.dp))
+private fun SongDetailsModal(
+    song: SuggestedSong,
+    onDismiss: () -> Unit,
+    onShowContent: (String) -> Unit
+) {
+    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Card(Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 48.dp)) {
+            Column(Modifier.padding(24.dp)) {
+                Row(Modifier.fillMaxWidth(), Arrangement.SpaceBetween, Alignment.CenterVertically) {
+                    Text(song.piesn, style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+                    IconButton(onClick = onDismiss, Modifier.size(24.dp)) { Icon(Icons.Default.Close, "Zamknij") }
+                }
+                Spacer(Modifier.height(16.dp)); Divider(); Spacer(Modifier.height(16.dp))
+                Column(
+                    Modifier
+                        .verticalScroll(rememberScrollState())
+                        .weight(1f, fill = false)
+                ) {
+                    if (song.numer.isNotBlank()) {
+                        Text(buildAnnotatedString {
+                            append(AnnotatedString("Numer w Siedlecki: ", spanStyle = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
+                            append(AnnotatedString(song.numer, spanStyle = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
+                        }); Spacer(Modifier.height(16.dp))
+                    }
+                    if (song.opis.isNotBlank()) {
+                        Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis:\n") }; append(song.opis) }, style = MaterialTheme.typography.bodyMedium)
+                    }
+                }
+                Spacer(Modifier.height(24.dp))
+                Button(
+                    onClick = {
+                        onShowContent(song.numer)
+                        onDismiss()
+                    },
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                ) {
+                    Text("Treść")
+                }
             }
-            if (song.opis.isNotBlank()) {
-                Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis:\n") }; append(song.opis) }, style = MaterialTheme.typography.bodyMedium)
-            }
         }
-    }}}
+    }
 }
 
 // =================================================================================

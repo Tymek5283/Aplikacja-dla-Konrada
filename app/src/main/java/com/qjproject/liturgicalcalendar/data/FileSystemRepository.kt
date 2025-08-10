@@ -23,12 +23,11 @@ class FileSystemRepository(private val context: Context) {
         ignoreUnknownKeys = true
         prettyPrint = true
         encodeDefaults = true
+        coerceInputValues = true
     }
     private val internalStorageRoot = context.filesDir
 
-    // --- POCZĄTEK ZMIANY: Buforowanie listy pieśni ---
     private var songListCache: List<Song>? = null
-    // --- KONIEC ZMIANY ---
 
     fun getItems(path: String): List<FileSystemItem> {
         return try {
@@ -56,15 +55,35 @@ class FileSystemRepository(private val context: Context) {
     fun getSongList(): List<Song> {
         songListCache?.let { return it }
         return try {
-            val inputStream = context.assets.open("data/piesni.json")
-            val jsonString = inputStream.bufferedReader().use { it.readText() }
+            val file = File(internalStorageRoot, "data/piesni.json")
+            val jsonString = file.bufferedReader().use { it.readText() }
             val songs = json.decodeFromString<List<Song>>(jsonString)
             songListCache = songs
             songs
         } catch (e: Exception) {
-            Log.e("FileSystemRepository", "Błąd podczas wczytywania piesni.json", e)
+            Log.e("FileSystemRepository", "Błąd podczas wczytywania piesni.json z pamięci wewnętrznej", e)
             emptyList()
         }
+    }
+
+    fun saveSongList(songs: List<Song>): Result<Unit> {
+        return try {
+            val file = File(internalStorageRoot, "data/piesni.json")
+            file.parentFile?.mkdirs() // Upewnij się, że katalog istnieje
+            val jsonString = json.encodeToString(songs)
+            file.writeText(jsonString)
+            songListCache = songs // Zaktualizuj bufor
+            Log.d("FileSystemRepository", "Zapisano pomyślnie listę pieśni do: ${file.absolutePath}")
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas zapisywania listy pieśni", e)
+            Result.failure(e)
+        }
+    }
+
+
+    fun getSongByNumber(number: String): Song? {
+        return getSongList().find { it.numer.equals(number, ignoreCase = true) }
     }
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
@@ -80,6 +99,53 @@ class FileSystemRepository(private val context: Context) {
             Result.failure(e)
         }
     }
+
+    fun createFolder(path: String, folderName: String): Result<Unit> {
+        return try {
+            val fullPath = File(internalStorageRoot, path)
+            val newFolder = File(fullPath, folderName)
+            if (newFolder.exists()) {
+                return Result.failure(IOException("Folder o tej nazwie już istnieje."))
+            }
+            if (newFolder.mkdirs()) {
+                Log.d("FileSystemRepository", "Utworzono folder: ${newFolder.absolutePath}")
+                Result.success(Unit)
+            } else {
+                Result.failure(IOException("Nie udało się utworzyć folderu."))
+            }
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd tworzenia folderu '$folderName' w '$path'", e)
+            Result.failure(e)
+        }
+    }
+
+    fun createDayFile(path: String, fileName: String, url: String?): Result<Unit> {
+        return try {
+            val fullPath = File(internalStorageRoot, path)
+            val newFile = File(fullPath, "$fileName.json")
+
+            if (newFile.exists()) {
+                return Result.failure(IOException("Plik o tej nazwie już istnieje."))
+            }
+
+            val dayData = DayData(
+                urlCzytania = url?.ifBlank { null },
+                tytulDnia = fileName,
+                czyDatowany = false,
+                czytania = emptyList(),
+                piesniSugerowane = emptyList()
+            )
+
+            val jsonString = json.encodeToString(dayData)
+            newFile.writeText(jsonString)
+            Log.d("FileSystemRepository", "Utworzono plik dnia: ${newFile.absolutePath}")
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd tworzenia pliku '$fileName' w '$path'", e)
+            Result.failure(e)
+        }
+    }
+
 
     fun getMonthlyFileMap(month: Month): Map<Int, List<String>> {
         val monthName = month.getDisplayName(TextStyle.FULL_STANDALONE, Locale("pl"))
@@ -116,7 +182,7 @@ class FileSystemRepository(private val context: Context) {
             if (!downloadsDir.exists()) downloadsDir.mkdirs()
 
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
-            val zipFile = File(downloadsDir, "LiturgicalCalendar_Export_$timestamp.zip")
+            val zipFile = File(downloadsDir, "Laudate_Export_$timestamp.zip")
             val zip = ZipFile(zipFile)
 
             val dataDir = File(internalStorageRoot, "data")

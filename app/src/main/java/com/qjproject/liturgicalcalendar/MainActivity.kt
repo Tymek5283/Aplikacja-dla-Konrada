@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -57,6 +58,7 @@ import kotlinx.coroutines.launch
 import java.net.URLDecoder
 import kotlin.system.exitProcess
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
 import java.time.format.TextStyle
 import java.util.Locale
 
@@ -112,7 +114,10 @@ fun MainAppHost() {
             val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
             DayDetailsScreen(
                 dayId = decodedPath,
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = { navController.popBackStack() },
+                onNavigateToSongContent = { songNumber ->
+                    navController.navigate(Screen.SongContent.createRoute(songNumber))
+                }
             )
         }
         composable(
@@ -134,6 +139,18 @@ fun MainAppHost() {
                 onNavigateToDay = { dayPath ->
                     navController.navigate(Screen.DayDetails.createRoute(dayPath))
                 },
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+        composable(
+            route = Screen.SongContent.route,
+            arguments = listOf(navArgument("songNumber") { type = NavType.StringType }),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
+            SongContentScreen(
+                songNumber = songNumber,
                 onNavigateBack = { navController.popBackStack() }
             )
         }
@@ -168,7 +185,9 @@ fun MainTabsScreen(navController: NavController) {
             MainTopAppBar(
                 title = title,
                 showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
-                onBackClick = { browseViewModel.onBackPress() }
+                onBackClick = { browseViewModel.onBackPress() },
+                showAddButton = isBrowseScreenActive,
+                onAddClick = { browseViewModel.onAddClick() }
             )
         },
         bottomBar = {
@@ -244,7 +263,9 @@ fun MainTabsScreen(navController: NavController) {
 fun MainTopAppBar(
     title: String,
     showBackButton: Boolean = false,
-    onBackClick: () -> Unit = {}
+    onBackClick: () -> Unit = {},
+    showAddButton: Boolean = false,
+    onAddClick: () -> Unit = {}
 ) {
     Column {
         CenterAlignedTopAppBar(
@@ -266,8 +287,18 @@ fun MainTopAppBar(
                 }
             },
             actions = {
-                if (showBackButton) {
-                    Spacer(Modifier.width(68.dp))
+                if (showAddButton) {
+                    IconButton(onClick = onAddClick) {
+                        Icon(
+                            imageVector = Icons.Default.Add,
+                            contentDescription = "Dodaj"
+                        )
+                    }
+                } else {
+                    // Spacer, aby utrzymać tytuł na środku, gdy jest przycisk wstecz
+                    if (showBackButton) {
+                        Spacer(Modifier.width(68.dp))
+                    }
                 }
             },
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
