@@ -135,9 +135,12 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
 
     val scrollState = rememberScrollState()
     val coroutineScope = rememberCoroutineScope()
-    val readingLayouts = remember { mutableStateMapOf<Int, LayoutCoordinates>() }
+    // --- POCZĄTEK ZMIANY: Nowy, kluczowy stan do przechowywania bezwzględnych offsetów ---
+    val readingOffsetsY = remember { mutableStateMapOf<Int, Int>() }
+    // --- KONIEC ZMIANY ---
     val interactionSources = remember { mutableStateMapOf<Int, MutableInteractionSource>() }
-    var topBarHeight by remember { mutableStateOf(0) }
+    var contentStartY by remember { mutableStateOf(0f) }
+    var scrollAnchorCoordinates by remember { mutableStateOf<LayoutCoordinates?>(null) }
 
     if (showSongModal && selectedSong != null) {
         SongDetailsModal(song = selectedSong!!, onDismiss = { showSongModal = false })
@@ -148,8 +151,14 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
             .fillMaxSize()
             .padding(horizontal = 16.dp)
             .verticalScroll(scrollState)
-            .onGloballyPositioned { topBarHeight = it.positionInRoot().y.toInt() }
+            .onGloballyPositioned { contentStartY = it.positionInRoot().y }
     ) {
+        Spacer(
+            modifier = Modifier
+                .height(0.dp)
+                .onGloballyPositioned { scrollAnchorCoordinates = it }
+        )
+
         Spacer(modifier = Modifier.height(16.dp))
         HierarchicalCollapsibleSection(
             title = "Czytania",
@@ -162,9 +171,16 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
                     isExpanded = uiState.expandedReadings.contains(index),
                     onToggle = { viewModel.toggleReading(index) },
                     onContentDoubleTap = {
-                        handleReadingCollapse(index, readingLayouts, viewModel, coroutineScope, scrollState, topBarHeight, interactionSources)
+                        handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState, interactionSources)
                     },
-                    onGloballyPositioned = { coordinates -> readingLayouts[index] = coordinates },
+                    onGloballyPositioned = { itemCoordinates ->
+                        // --- POCZĄTEK ZMIANY: Mierzenie i zapisywanie bezwzględnej pozycji ---
+                        scrollAnchorCoordinates?.let { anchor ->
+                            val offsetY = (itemCoordinates.positionInRoot().y - anchor.positionInRoot().y).toInt()
+                            readingOffsetsY[index] = offsetY
+                        }
+                        // --- KONIEC ZMIANY ---
+                    },
                     interactionSource = interactionSources.getOrPut(index) { MutableInteractionSource() }
                 )
             }
@@ -194,33 +210,33 @@ private fun DayDetailsViewModeContent(modifier: Modifier = Modifier, viewModel: 
 }
 
 private fun handleReadingCollapse(
-    index: Int, readingLayouts: Map<Int, LayoutCoordinates>, viewModel: DayDetailsViewModel,
-    coroutineScope: CoroutineScope, scrollState: ScrollState, topBarHeight: Int,
+    index: Int,
+    // --- POCZĄTEK ZMIANY: Przyjmowanie mapy offsetów zamiast LayoutCoordinates ---
+    readingOffsets: Map<Int, Int>,
+    // --- KONIEC ZMIANY ---
+    viewModel: DayDetailsViewModel,
+    coroutineScope: CoroutineScope,
+    scrollState: ScrollState,
     interactionSources: Map<Int, MutableInteractionSource>
 ) {
-    val layoutCoordinates = readingLayouts[index] ?: return
-    val isHeaderVisible = layoutCoordinates.positionInRoot().y >= 0
+    // --- POCZĄTEK ZMIANY: Całkowicie nowa, uproszczona logika ---
+    val targetScrollPosition = readingOffsets[index] ?: return
 
     viewModel.collapseReading(index)
 
     coroutineScope.launch {
-        val triggerRipple = suspend {
-            interactionSources[index]?.let { source ->
-                val press = PressInteraction.Press(Offset.Zero)
-                source.emit(press)
-                delay(150)
-                source.emit(PressInteraction.Release(press))
-            }
-        }
-        if (!isHeaderVisible) {
-            val targetScrollPosition = scrollState.value + layoutCoordinates.positionInRoot().y.toInt()
-            scrollState.animateScrollTo(targetScrollPosition)
-            delay(50)
-            triggerRipple()
-        } else {
-            triggerRipple()
+        scrollState.animateScrollTo(targetScrollPosition)
+
+        // Efekt "mignięcia" dla lepszego UX
+        delay(50)
+        interactionSources[index]?.let { source ->
+            val press = PressInteraction.Press(Offset.Zero)
+            source.emit(press)
+            delay(150)
+            source.emit(PressInteraction.Release(press))
         }
     }
+    // --- KONIEC ZMIANY ---
 }
 
 // =================================================================================
