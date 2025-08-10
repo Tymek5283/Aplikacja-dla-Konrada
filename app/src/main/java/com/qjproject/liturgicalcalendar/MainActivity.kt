@@ -62,8 +62,6 @@ import kotlin.system.exitProcess
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
-import java.time.format.TextStyle
-import java.util.Locale
 
 class MainActivity : ComponentActivity() {
 
@@ -189,12 +187,8 @@ fun MainTabsScreen(navController: NavController) {
     val browseUiState by browseViewModel.uiState.collectAsState()
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
 
-    // --- POCZĄTEK ZMIANY ---
-    // Przechwycenie przycisku "wstecz" na głównym ekranie, aby zapobiec wyjściu z aplikacji.
     BackHandler(enabled = true) {
-        // Pusta lambda oznacza, że zdarzenie jest obsłużone, ale nie jest wykonywana żadna akcja.
     }
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
@@ -210,7 +204,7 @@ fun MainTabsScreen(navController: NavController) {
                 showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
                 onBackClick = { browseViewModel.onBackPress() },
                 isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
-                showEditButton = isBrowseScreenActive, // Zawsze pokazuj, jeśli to ekran przeglądania
+                showEditButton = isBrowseScreenActive,
                 onEditClick = { browseViewModel.onEnterEditMode() },
                 onSaveClick = { browseViewModel.onSaveEditMode() },
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
@@ -227,7 +221,9 @@ fun MainTabsScreen(navController: NavController) {
                             if (isSelected) {
                                 when (screen) {
                                     is Screen.Browse -> browseViewModel.onResetToRoot()
+                                    // --- POCZĄTEK ZMIANY: Poprawka wywołania ---
                                     is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
+                                    // --- KONIEC ZMIANY ---
                                     else -> {}
                                 }
                             } else {
@@ -245,7 +241,7 @@ fun MainTabsScreen(navController: NavController) {
             count = bottomNavItems.size,
             state = pagerState,
             modifier = Modifier.padding(innerPadding),
-            userScrollEnabled = !browseUiState.isEditMode // Blokada przesuwania w trybie edycji
+            userScrollEnabled = !browseUiState.isEditMode
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen(
@@ -262,22 +258,13 @@ fun MainTabsScreen(navController: NavController) {
                         navController.navigate(Screen.DayDetails.createRoute(dayPath))
                     }
                 )
+                // --- POCZĄTEK ZMIANY: Poprawka wywołania ---
                 is Screen.Calendar -> CalendarScreen(
-                    onDayClick = { day ->
-                        when {
-                            day.files.isEmpty() -> {}
-                            day.files.size == 1 -> {
-                                val path = day.files.first()
-                                navController.navigate(Screen.DayDetails.createRoute(path))
-                            }
-                            else -> {
-                                val monthName = day.month.month.getDisplayName(TextStyle.FULL, Locale("pl"))
-                                val dateTitle = "${day.dayOfMonth} $monthName"
-                                navController.navigate(Screen.DateEvents.createRoute(dateTitle, day.files))
-                            }
-                        }
+                    onNavigateToDay = { dayPath ->
+                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
                     }
                 )
+                // --- KONIEC ZMIANY ---
                 is Screen.Settings -> SettingsScreen(
                     viewModel = settingsViewModel,
                     onRestartApp = {
@@ -324,7 +311,7 @@ fun MainTopAppBar(
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
                     }
                 } else {
-                    Spacer(Modifier.width(48.dp)) // Placeholder, aby tytuł był na środku
+                    Spacer(Modifier.width(48.dp))
                 }
             },
             actions = {
@@ -337,7 +324,7 @@ fun MainTopAppBar(
                         Icon(Icons.Default.Edit, "Edytuj")
                     }
                 } else {
-                    Spacer(Modifier.width(48.dp)) // Placeholder, aby tytuł był na środku
+                    Spacer(Modifier.width(48.dp))
                 }
             },
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(

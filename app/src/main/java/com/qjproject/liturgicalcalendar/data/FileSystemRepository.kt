@@ -24,14 +24,11 @@ private const val ORDER_FILE_NAME = ".directory_order.json"
 @Serializable
 private data class DirectoryOrder(val order: List<String>)
 
-// --- POCZĄTEK ZMIANY ---
-// Klasa pomocnicza do przechowywania znalezionych plików podczas importu
 private data class FoundImportFiles(
     val dataDir: File,
     val datowaneDir: File,
     val songFile: File
 )
-// --- KONIEC ZMIANY ---
 
 
 class FileSystemRepository(private val context: Context) {
@@ -221,6 +218,10 @@ class FileSystemRepository(private val context: Context) {
     fun createDayFile(path: String, fileName: String, url: String?): Result<String> {
         return try {
             val fullPath = File(internalStorageRoot, path)
+            // --- POCZĄTEK ZMIANY ---
+            // Upewniamy się, że katalog docelowy istnieje przed próbą zapisu.
+            fullPath.mkdirs()
+            // --- KONIEC ZMIANY ---
             val newFile = File(fullPath, "$fileName.json")
 
             if (newFile.exists()) {
@@ -339,11 +340,8 @@ class FileSystemRepository(private val context: Context) {
             val datowaneDir = File(internalStorageRoot, "Datowane")
             if (datowaneDir.exists()) zip.addFolder(datowaneDir)
 
-            // --- POCZĄTEK ZMIANY ---
-            // Dodano eksport pliku piesni.json
             val songFile = File(internalStorageRoot, "piesni.json")
             if (songFile.exists()) zip.addFile(songFile)
-            // --- KONIEC ZMIANY ---
 
             Result.success(zipFile)
         } catch (e: Exception) {
@@ -367,8 +365,6 @@ class FileSystemRepository(private val context: Context) {
             tempUnzipDir.mkdirs()
             ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
 
-            // --- POCZĄTEK ZMIANY ---
-            // Zmodyfikowano logikę, aby szukać wszystkich trzech wymaganych elementów
             val foundFiles = findRequiredFiles(tempUnzipDir)
                 ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych plików/folderów: 'data', 'Datowane' i 'piesni.json'."))
 
@@ -379,16 +375,13 @@ class FileSystemRepository(private val context: Context) {
                 return Result.failure(IllegalStateException("Folder 'Datowane' w pliku ZIP jest pusty."))
             }
 
-            // Czyszczenie starych danych
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
             File(internalStorageRoot, "piesni.json").delete()
 
-            // Kopiowanie nowych danych
             foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
             foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
             foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
-            // --- KONIEC ZMIANY ---
 
             return Result.success(Unit)
         } catch (e: Exception) {
@@ -400,8 +393,6 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
-    // Zmieniono nazwę i logikę funkcji, aby szukała wszystkich trzech elementów
     private fun findRequiredFiles(startDir: File): FoundImportFiles? {
         val queue: Queue<File> = LinkedList()
         queue.add(startDir)
@@ -423,5 +414,4 @@ class FileSystemRepository(private val context: Context) {
         }
         return null
     }
-    // --- KONIEC ZMIANY ---
 }
