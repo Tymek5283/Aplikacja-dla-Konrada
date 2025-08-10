@@ -3,17 +3,26 @@ package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -28,25 +37,27 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
-import com.qjproject.liturgicalcalendar.ui.components.CollapsibleSection
+import com.qjproject.liturgicalcalendar.ui.theme.DividerColor
+import com.qjproject.liturgicalcalendar.ui.theme.SubtleGrayBackground
+// --- POCZĄTEK ZMIANY: Dodanie brakującego importu ---
+import com.qjproject.liturgicalcalendar.ui.theme.SongItemBackground
+// --- KONIEC ZMIANY ---
 
-// --- POCZĄTEK POPRAWKI: Zmieniono strukturę funkcji, aby najpierw walidować dayId ---
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DayDetailsScreen(
     dayId: String?,
     onNavigateBack: () -> Unit
 ) {
     if (dayId.isNullOrBlank()) {
-        // Jeśli dayId jest pusty lub null, od razu wyświetl błąd i zakończ.
         Scaffold { padding ->
             Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) {
                 Text("Błąd krytyczny: Brak identyfikatora dnia do załadowania.")
             }
         }
-    } else {
-        // Dopiero gdy mamy pewność, że dayId istnieje, tworzymy ViewModel i resztę ekranu.
-        DayDetailsScreenContent(dayId = dayId, onNavigateBack = onNavigateBack)
+        return
     }
+    DayDetailsScreenContent(dayId = dayId, onNavigateBack = onNavigateBack)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -55,7 +66,6 @@ private fun DayDetailsScreenContent(
     dayId: String,
     onNavigateBack: () -> Unit
 ) {
-    // --- KONIEC POPRAWKI ---
     val context = LocalContext.current
     val viewModel: DayDetailsViewModel = viewModel(factory = DayDetailsViewModelFactory(context, dayId))
     val uiState by viewModel.uiState.collectAsState()
@@ -80,22 +90,8 @@ private fun DayDetailsScreenContent(
         }
 
         when {
-            uiState.isLoading -> {
-                Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator()
-                }
-            }
-            uiState.error != null -> {
-                Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) {
-                    // --- POCZĄTEK POPRAWKI: Wyświetlanie konkretnego błędu z ViewModelu ---
-                    Text(
-                        text = "Nie udało się załadować danych.\nBłąd: ${uiState.error}",
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.padding(16.dp)
-                    )
-                    // --- KONIEC POPRAWKI ---
-                }
-            }
+            uiState.isLoading -> Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
+            uiState.error != null -> Box(Modifier.fillMaxSize().padding(innerPadding), contentAlignment = Alignment.Center) { Text("Błąd: ${uiState.error}") }
             uiState.dayData != null -> {
                 Column(
                     modifier = Modifier
@@ -106,10 +102,11 @@ private fun DayDetailsScreenContent(
                 ) {
                     Spacer(modifier = Modifier.height(16.dp))
 
-                    CollapsibleSection(
+                    HierarchicalCollapsibleSection(
                         title = "Czytania",
                         isExpanded = uiState.isReadingsSectionExpanded,
-                        onToggle = { viewModel.toggleReadingsSection() }
+                        onToggle = { viewModel.toggleReadingsSection() },
+                        level = 0
                     ) {
                         uiState.dayData?.czytania?.forEachIndexed { index, reading ->
                             ReadingItemView(
@@ -117,16 +114,16 @@ private fun DayDetailsScreenContent(
                                 isExpanded = uiState.expandedReadings.contains(index),
                                 onToggle = { viewModel.toggleReading(index) }
                             )
-                            Spacer(modifier = Modifier.height(8.dp))
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(16.dp))
+                    Spacer(modifier = Modifier.height(24.dp))
 
-                    CollapsibleSection(
+                    HierarchicalCollapsibleSection(
                         title = "Pieśni Sugerowane",
                         isExpanded = uiState.isSongsSectionExpanded,
-                        onToggle = { viewModel.toggleSongsSection() }
+                        onToggle = { viewModel.toggleSongsSection() },
+                        level = 0
                     ) {
                         songMomentOrderMap.forEach { (momentKey, momentName) ->
                             SongGroupView(
@@ -135,7 +132,6 @@ private fun DayDetailsScreenContent(
                                 isExpanded = uiState.expandedSongMoments.contains(momentKey),
                                 onToggle = { viewModel.toggleSongMoment(momentKey) }
                             )
-                            Spacer(modifier = Modifier.height(8.dp))
                         }
                     }
 
@@ -147,14 +143,80 @@ private fun DayDetailsScreenContent(
 }
 
 @Composable
+private fun HierarchicalCollapsibleSection(
+    title: String,
+    isExpanded: Boolean,
+    onToggle: () -> Unit,
+    level: Int,
+    content: @Composable ColumnScope.() -> Unit
+) {
+    val sectionModifier = if (level > 0) {
+        Modifier
+            .clip(MaterialTheme.shapes.medium)
+            .background(SubtleGrayBackground)
+    } else {
+        Modifier
+    }
+
+    Column(modifier = sectionModifier) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClick = onToggle)
+                .padding(
+                    horizontal = if (level > 0) 12.dp else 0.dp,
+                    vertical = 8.dp
+                ),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Text(
+                text = title,
+                style = if (level == 0) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.weight(1f)
+            )
+            Icon(
+                imageVector = if (isExpanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                contentDescription = if (isExpanded) "Zwiń" else "Rozwiń"
+            )
+        }
+
+        if (level == 0) {
+            Divider(color = DividerColor)
+        }
+
+        AnimatedVisibility(
+            visible = isExpanded,
+            enter = expandVertically(animationSpec = tween(300)),
+            exit = shrinkVertically(animationSpec = tween(300))
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        start = if (level > 0) 12.dp else 0.dp,
+                        end = if (level > 0) 12.dp else 0.dp,
+                        bottom = if (level > 0) 8.dp else 0.dp
+                    )
+                    .padding(top = 8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                content()
+            }
+        }
+    }
+}
+
+@Composable
 private fun ReadingItemView(reading: Reading, isExpanded: Boolean, onToggle: () -> Unit) {
-    CollapsibleSection(
+    HierarchicalCollapsibleSection(
         title = reading.typ,
         isExpanded = isExpanded,
-        onToggle = onToggle
+        onToggle = onToggle,
+        level = 1
     ) {
         Column(
-            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+            modifier = Modifier.padding(vertical = 8.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             if (!reading.sigla.isNullOrBlank()) {
@@ -181,11 +243,11 @@ private fun ReadingItemView(reading: Reading, isExpanded: Boolean, onToggle: () 
 
 @Composable
 private fun SongGroupView(momentName: String, songs: List<SuggestedSong>, isExpanded: Boolean, onToggle: () -> Unit) {
-    CollapsibleSection(title = momentName, isExpanded = isExpanded, onToggle = onToggle) {
+    HierarchicalCollapsibleSection(title = momentName, isExpanded = isExpanded, onToggle = onToggle, level = 1) {
         if (songs.isEmpty()) {
             Text(
                 "Brak sugerowanych pieśni.",
-                modifier = Modifier.padding(16.dp),
+                modifier = Modifier.padding(vertical = 8.dp),
                 style = MaterialTheme.typography.bodyMedium,
                 fontStyle = FontStyle.Italic
             )
@@ -200,14 +262,19 @@ private fun SongGroupView(momentName: String, songs: List<SuggestedSong>, isExpa
 @Composable
 private fun SongItemView(song: SuggestedSong) {
     Card(
-        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        modifier = Modifier.fillMaxWidth(),
+        shape = MaterialTheme.shapes.small,
+        colors = CardDefaults.cardColors(containerColor = SongItemBackground)
     ) {
         Row(
-            modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = song.piesn, modifier = Modifier.weight(1f))
+            Text(
+                text = song.piesn,
+                modifier = Modifier.weight(1f),
+                style = MaterialTheme.typography.headlineSmall
+            )
         }
     }
 }
@@ -215,26 +282,12 @@ private fun SongItemView(song: SuggestedSong) {
 @Composable
 private fun UrlModal(url: String, onDismiss: () -> Unit) {
     val context = LocalContext.current
-    Dialog(
-        onDismissRequest = onDismiss,
-        properties = DialogProperties(usePlatformDefaultWidth = false)
-    ) {
-        Card(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(32.dp),
-            shape = MaterialTheme.shapes.large
-        ) {
+    Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+        Card(modifier = Modifier.fillMaxWidth().padding(32.dp), shape = MaterialTheme.shapes.large) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
                     Text("Dodatkowe informacje", style = MaterialTheme.typography.titleLarge)
-                    IconButton(onClick = onDismiss) {
-                        Icon(Icons.Default.Close, contentDescription = "Zamknij")
-                    }
+                    IconButton(onClick = onDismiss) { Icon(Icons.Default.Close, contentDescription = "Zamknij") }
                 }
                 Spacer(Modifier.height(16.dp))
                 Text("Link do strony z czytaniami:", style = MaterialTheme.typography.titleSmall)
@@ -265,23 +318,9 @@ private fun DayDetailsTopAppBar(
 ) {
     Column {
         CenterAlignedTopAppBar(
-            title = {
-                AutoResizingText(
-                    text = title,
-                    style = MaterialTheme.typography.titleLarge,
-                    textAlign = TextAlign.Center
-                )
-            },
-            navigationIcon = {
-                IconButton(onClick = onNavigateBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
-                }
-            },
-            actions = {
-                IconButton(onClick = onMoreClick) {
-                    Icon(Icons.Default.MoreVert, "Więcej opcji")
-                }
-            },
+            title = { AutoResizingText(text = title, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center) },
+            navigationIcon = { IconButton(onClick = onNavigateBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć") } },
+            actions = { IconButton(onClick = onMoreClick) { Icon(Icons.Default.MoreVert, "Więcej opcji") } },
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                 containerColor = MaterialTheme.colorScheme.background,
                 titleContentColor = MaterialTheme.colorScheme.primary,
