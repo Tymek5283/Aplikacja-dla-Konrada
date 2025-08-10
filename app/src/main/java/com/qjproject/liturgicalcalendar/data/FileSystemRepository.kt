@@ -69,7 +69,7 @@ class FileSystemRepository(private val context: Context) {
     fun saveSongList(songs: List<Song>): Result<Unit> {
         return try {
             val file = File(internalStorageRoot, "data/piesni.json")
-            file.parentFile?.mkdirs() // Upewnij się, że katalog istnieje
+            file.parentFile?.mkdirs()
             val jsonString = json.encodeToString(songs)
             file.writeText(jsonString)
             songListCache = songs // Zaktualizuj bufor
@@ -80,7 +80,6 @@ class FileSystemRepository(private val context: Context) {
             Result.failure(e)
         }
     }
-
 
     fun getSongByNumber(number: String): Song? {
         return getSongList().find { it.numer.equals(number, ignoreCase = true) }

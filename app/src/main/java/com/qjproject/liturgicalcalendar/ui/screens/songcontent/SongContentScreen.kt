@@ -67,6 +67,7 @@ fun SongContentScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
+                .imePadding() // Pozwala uniknąć zasłaniania pola tekstowego przez klawiaturę
         ) {
             when {
                 uiState.isLoading -> {

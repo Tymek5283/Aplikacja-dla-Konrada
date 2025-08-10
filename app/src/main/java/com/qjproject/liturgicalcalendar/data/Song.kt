@@ -6,5 +6,6 @@ import kotlinx.serialization.Serializable
 data class Song(
     val tytul: String,
     val numer: String,
-    val tekst: String? = null // Tekst jest opcjonalny
+    val tekst: String? = null,
+    val opis: String? = null // Zapewnia, że opis nie zostanie utracony podczas zapisu
 )
