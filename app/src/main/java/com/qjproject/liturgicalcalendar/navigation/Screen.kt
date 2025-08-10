@@ -40,6 +40,10 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
         }
     }
 
+    object SongDetails : Screen("song_details/{songNumber}", "Szczegóły pieśni", Icons.Default.MenuBook) {
+        fun createRoute(songNumber: String) = "song_details/${UrlEncoder.encode(songNumber)}"
+    }
+
     object SongContent : Screen("song_content/{songNumber}", "Treść pieśni", Icons.Default.MenuBook) {
         fun createRoute(songNumber: String) = "song_content/${UrlEncoder.encode(songNumber)}"
     }

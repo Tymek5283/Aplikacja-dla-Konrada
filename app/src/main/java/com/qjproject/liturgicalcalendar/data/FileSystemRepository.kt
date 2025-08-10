@@ -35,6 +35,34 @@ class FileSystemRepository(private val context: Context) {
     private val internalStorageRoot = context.filesDir
 
     private var songListCache: List<Song>? = null
+    private var dayFilePathsCache: List<String>? = null
+
+    fun getAllDayFilePaths(): List<String> {
+        dayFilePathsCache?.let { return it }
+
+        val paths = mutableListOf<String>()
+        val dataDir = File(internalStorageRoot, "data")
+        val datowaneDir = File(internalStorageRoot, "Datowane")
+
+        fun findJsonFiles(directory: File) {
+            directory.walkTopDown().forEach { file ->
+                if (file.isFile && file.extension == "json" && file.name != "piesni.json") {
+                    paths.add(file.absolutePath.removePrefix(internalStorageRoot.absolutePath + "/"))
+                }
+            }
+        }
+
+        if (dataDir.exists() && dataDir.isDirectory) {
+            findJsonFiles(dataDir)
+        }
+        if (datowaneDir.exists() && datowaneDir.isDirectory) {
+            findJsonFiles(datowaneDir)
+        }
+
+        dayFilePathsCache = paths
+        return paths
+    }
+
 
     fun getItems(path: String): List<FileSystemItem> {
         return try {

@@ -60,6 +60,7 @@ import java.net.URLDecoder
 import kotlin.system.exitProcess
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
 import java.time.format.TextStyle
 import java.util.Locale
 
@@ -141,6 +142,19 @@ fun MainAppHost() {
                     navController.navigate(Screen.DayDetails.createRoute(dayPath))
                 },
                 onNavigateBack = { navController.popBackStack() }
+            )
+        }
+        composable(
+            route = Screen.SongDetails.route,
+            arguments = listOf(navArgument("songNumber") { type = NavType.StringType }),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
+            SongDetailsScreen(
+                songNumber = songNumber,
+                onNavigateBack = { navController.popBackStack() },
+                onNavigateToContent = { num -> navController.navigate(Screen.SongContent.createRoute(num)) }
             )
         }
         composable(
@@ -226,7 +240,14 @@ fun MainTabsScreen(navController: NavController) {
             userScrollEnabled = !browseUiState.isEditMode // Blokada przesuwania w trybie edycji
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
-                is Screen.Search -> SearchScreen()
+                is Screen.Search -> SearchScreen(
+                    onNavigateToDay = { dayPath ->
+                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                    },
+                    onNavigateToSong = { songNumber ->
+                        navController.navigate(Screen.SongDetails.createRoute(songNumber))
+                    }
+                )
                 is Screen.Browse -> BrowseScreen(
                     viewModel = browseViewModel,
                     onNavigateToDay = { dayPath ->
