@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413312.I-Niedziela-Adwentu-rok-A",
+  "tytul_dnia": "1 Niedziela Adwentu rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 2, 1-5",
+      "opis": "Pokój królestwa Bożego",
+      "tekst": "Widzenie Izajasza, syna Amosa, dotyczące Judy i Jerozolimy:\nStanie się na końcu czasów, że góra świątyni Pańskiej stać będzie mocno na szczycie gór i wystrzeli ponad pagórki. Wszystkie narody do niej popłyną, mnogie ludy pójdą i rzekną: «Chodźcie, wstąpmy na górę Pańską, do świątyni Boga Jakuba! Niech nas nauczy dróg swoich, byśmy kroczyli Jego ścieżkami. Bo Prawo pochodzi z Syjonu i słowo Pańskie - z Jeruzalem».\nOn będzie rozjemcą pomiędzy ludami i sędzią dla licznych narodów. Wtedy swe miecze przekują na lemiesze, a swoje włócznie na sierpy. Naród przeciw narodowi nie podniesie miecza, nie będą się więcej zaprawiać do wojny. Chodźcie, domu Jakuba, postępujmy w światłości Pańskiej!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 122 (121), 1b-2. 4-5. 6-7. 8-9 (R.: por. 1bc)",
+      "opis": "",
+      "tekst": "Refren: Idźmy z radością na spotkanie Pana.\nUcieszyłem się, gdy mi powiedziano: *\n«Pójdziemy do domu Pana».\nJuż stoją nasze stopy *\nw twoich bramach, Jeruzalem.\nRefren.\nDo niego wstępują pokolenia Pańskie, *\naby zgodnie z prawem izraela wielbić imię Pana.\nTam ustawiono trony sędziowskie, *\ntrony domu Dawida.\nRefren.\nProście o pokój dla Jeruzalem: *\nNiech żyją w pokoju, którzy cię miłują.\nNiech pokój panuje w twych murach, *\na pomyślność w twoich pałacach.\nRefren.\nZe względu na moich braci i przyjaciół *\nbędę wołał: «Pokój z tobą!»\nZe względu na dom Pana, Boga naszego, *\nmodlę się o dobro dla ciebie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 13, 11-14",
+      "opis": "Zbliża się nasze zbawienie",
+      "tekst": "Bracia:\nRozumiejcie chwilę obecną: teraz nadeszła dla was godzina powstania ze snu. Teraz bowiem zbawienie jest bliżej nas niż wtedy, gdy uwierzyliśmy.\nNoc się posunęła, a przybliżył się dzień. Odrzućmy więc uczynki ciemności, a przyobleczmy się w zbroję światła! Żyjmy przyzwoicie jak w jasny dzień: nie w hulankach i pijatykach, nie w rozpuście i wyuzdaniu, nie w kłótni i zazdrości. Ale przyobleczcie się w Pana Jezusa Chrystusa i nie troszczcie się zbytnio o ciało, dogadzając żądzom.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 85 (84), 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Okaż nam, Panie, łaskę swoją\ni daj nam swoje zbawienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 24, 37-44",
+      "opis": "Potrzeba czujności w oczekiwaniu na przyjście Chrystusa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak było za dni Noego, tak będzie z przyjściem Syna Człowieczego. Albowiem jak w czasie przed potopem jedli i pili, żenili się i za mąż wydawali aż do dnia, kiedy Noe wszedł do arki, i nie spostrzegli się, aż przyszedł potop i pochłonął wszystkich, tak również będzie z przyjściem Syna Człowieczego. Wtedy dwóch będzie w polu: jeden będzie wzięty, drugi zostawiony. Dwie będą mleć na żarnach: jedna będzie wzięta, druga zostawiona.\nCzuwajcie więc, bo nie wiecie, w którym dniu Pan wasz przyjdzie. A to rozumiejcie: gdyby gospodarz wiedział, o jakiej porze nocy nadejdzie złodziej, na pewno by czuwał i nie pozwoliłby włamać się do swego domu. Dlatego i wy bądźcie gotowi, bo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń ta wzywa do czuwania i gotowości ('Ze snu powstać już pora!'), co jest głównym przesłaniem Ewangelii i drugiego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "W kontekście ofiarowania ta pieśń przypomina, że nasze przygotowanie polega na prostowaniu dróg życia w oczekiwaniu na Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania i gotowości na przyjście Pana, który umacnia nas w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Po przyjęciu Komunii, ta pieśń jest radosnym dziękczynieniem, które odzwierciedla radość psalmisty idącego do domu Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest modlitwą o przyjście Pana, co stanowi doskonałe podsumowanie adwentowego wezwania do czuwania i gotowości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do wizji powszechnego pokoju z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Krótka, medytacyjna pieśń, która streszcza istotę Adwentu - radosne i pełne nadziei oczekiwanie na bliskiego już Pana.",
+      "moment": "ogolne"
+    }
+  ]
+}

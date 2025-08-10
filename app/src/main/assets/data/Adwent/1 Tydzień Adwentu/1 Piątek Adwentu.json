@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413305.Piatek-I-tygodnia-Adwentu",
+  "tytul_dnia": "1 Piątek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 29, 17-24",
+      "opis": "W owym dniu oczy niewidomych będą widziały",
+      "tekst": "Tak mówi Pan Bóg:\n«Czyż nie w krótkim już czasie Liban zamieni się w ogród, a ogród za bór zostanie uznany? W ów dzień głusi usłyszą słowa księgi, a oczy niewidomych, wolne od mroku i od ciemności, będą widziały. Pokorni wzmogą swą radość w Panu, i najubożsi rozweselą się w Świętym Izraela, bo nie stanie ciemięzcy, z szydercą koniec będzie, i wytępieni zostaną wszyscy, co za złem gonią: którzy słowem przywodzą drugiego do grzechu, którzy w bramie stawiają sidła na sędziów i odprawiają sprawiedliwego z niczym».\nDlatego tak mówi Pan, Bóg domu Jakuba, który odkupił Abrahama: «Odtąd Jakub nie będzie się rumienił ani oblicze jego już nie przyblednie, bo gdy ujrzy swe dzieci, dzieło mych rąk, wśród siebie, ogłosi imię moje jako święte. Wtedy czcić będą Świętego Jakubowego i z bojaźnią szanować Boga Izraela. Dusze zbłąkane poznają mądrość, a szemrzący otrzymają pouczenie».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 1bcde. 4. 13-14 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan moim światłem i zbawieniem moim.\nPan moim światłem i zbawieniem moim, *\nkogo miałbym się lękać?\nPan obrońcą mego życia, *\nprzed kim miałbym czuć trwogę?\nRefren.\nO jedno tylko Pana proszę i o to zabiegam, †\nżebym mógł zawsze przebywać w Jego domu *\npo wszystkie dni mego życia,\nabym kosztował słodyczy Pana, *\nstale się radował Jego świątynią.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto nasz Pan przyjdzie z mocą\ni oświeci oczy sług swoich."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 27-31",
+      "opis": "Uzdrowienie niewidomych, którzy uwierzyli w Jezusa",
+      "tekst": "Gdy Jezus przechodził, ruszyli za Nim dwaj niewidomi, którzy wołali głośno: «Ulituj się nad nami, Synu Dawida!» Gdy wszedł do domu, niewidomi przystąpili do Niego, a Jezus ich zapytał: «Wierzycie, że mogę to uczynić?» Oni odpowiedzieli Mu: «Tak, Panie!»\nWtedy dotknął ich oczu, mówiąc: «Według wiary waszej niech wam się stanie». I otworzyły się ich oczy, a Jezus surowo im przykazał: «Uważajcie, niech się nikt o tym nie dowie!» Oni jednak, skoro tylko wyszli, roznieśli wieść o Nim po całej tamtejszej okolicy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada przyjście Pana i 'wielką światłość', co jest wypełnieniem proroctwa z pierwszego czytania o przejrzeniu oczu niewidomych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest prośbą o przyjście Jezusa, który w Ewangelii objawia się jako Ten, co przywraca wzrok i przynosi uzdrowienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "W Komunii przyjmujemy Chrystusa - Światłość świata, a ta pieśń jest modlitwą, by rozproszył On ciemności naszego serca, tak jak uzdrowił niewidomych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "9",
+      "piesn": "Stwórco gwiaździstych przestworzy",
+      "opis": "Hymn ten sławi Chrystusa jako wieczne światło wierzących, co jest dziękczynieniem za dar wiary, dzięki której niewidomi z Ewangelii odzyskali wzrok.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "775",
+      "piesn": "W naszych ciemnościach",
+      "opis": "Pieśń jest modlitwą o światło w ciemnościach grzechu i niewiary, nawiązując do uzdrowienia niewidomych i proroctwa Izajasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń wyraża adwentową pewność, że Pan przychodzi, by nas zbawić i oświecić, co jest głównym tematem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc i światło, podobnym do wołania niewidomych z Ewangelii: 'Ulituj się nad nami'.",
+      "moment": "ogolne"
+    }
+  ]
+}

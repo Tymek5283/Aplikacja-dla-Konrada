@@ -71,7 +71,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onSearchModeChange(newMode: SearchMode) {
-        _uiState.update { it.copy(searchMode = newMode) }
+        _uiState.update { it.copy(searchMode = newMode, results = emptyList(), searchPerformed = false) }
         triggerSearch()
     }
 

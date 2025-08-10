@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413337.Poniedzialek-II-tygodnia-Adwentu",
+  "tytul_dnia": "2 Poniedziałek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 35, 1-10",
+      "opis": "Sam Bóg przyjdzie, aby nas zbawić",
+      "tekst": "Niech się rozweselą pustynia i spieczona ziemia, niech się raduje step i niech rozkwitnie! Niech wyda kwiaty jak lilie polne, niech się rozraduje, skacząc i wykrzykując z uciechy. Chwałą Libanu ją obdarzono, ozdobą Karmelu i Szaronu. Oni zobaczą chwałę Pana, wspaniałość naszego Boga. Pokrzepcie ręce osłabłe, wzmocnijcie kolana omdlałe! Powiedzcie małodusznym: «Odwagi! Nie bójcie się! Oto wasz Bóg, oto pomsta; przychodzi Boża odpłata; On sam przychodzi, by was zbawić».\nWtedy przejrzą oczy niewidomych i uszy głuchych się otworzą. Wtedy chromy wyskoczy jak jeleń i język niemych wesoło wykrzyknie. Bo trysną zdroje wód na pustyni i strumienie na stepie; spieczona ziemia zmieni się w pojezierze, spragniony kraj w krynice wód; a badyle w kryjówkach, gdzie legały szakale - w trzcinę i sitowie.\nBędzie tam droga czysta, którą nazwą drogą świętą. Nie przejdzie nią nieczysty, gdy odbywa podróż, i głupi nie będą się tam wałęsać. Nie będzie tam lwa, ni zwierz najdzikszy nie wstąpi na nią ani się tam nie znajdzie, ale tamtędy pójdą wyzwoleni. Odkupieni przez Pana powrócą, przybędą na Syjon z radosnym śpiewem, ze szczęściem wiecznym na czołach; osiągną radość i szczęście, ustąpi smutek i wzdychanie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. Iz 35, 4d)",
+      "opis": "",
+      "tekst": "Refren: Oto Bóg przyjdzie, ażeby nas zbawić.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto przyjdzie Król, Pan ziemi,\ni zdejmie z nas jarzmo niewoli."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 5, 17-26",
+      "opis": "Chrystus uzdrawia duszę i ciało",
+      "tekst": "Pewnego dnia, gdy Jezus nauczał, siedzieli tam też faryzeusze i uczeni w Prawie, którzy przyszli ze wszystkich miejscowości Galilei, Judei i z Jeruzalem. A była w Nim moc Pańska, tak że mógł uzdrawiać.\nWtem jacyś mężczyźni, niosąc na łożu człowieka, który był sparaliżowany, starali się go wnieść i położyć przed Nim. Nie mogąc w żaden sposób go przenieść z powodu tłumu, weszli na płaski dach i przez powałę spuścili go wraz z łożem na sam środek, przed Jezusa.\nOn, widząc ich wiarę, rzekł: «Człowieku, odpuszczone są ci twoje grzechy». Na to uczeni w Piśmie i faryzeusze poczęli się zastanawiać i mówić: «Kimże on jest, że wypowiada bluźnierstwa? Któż może odpuścić grzechy prócz samego Boga?»\nLecz Jezus przejrzał ich myśli i w odpowiedzi na nie rzekł do nich: «Co za myśli nurtują w sercach waszych? Cóż jest łatwiej powiedzieć: „Odpuszczone są ci twoje grzechy”, czy powiedzieć: „Wstań i chodź”?\nOtóż żebyście wiedzieli, że Syn Człowieczy ma na ziemi władzę odpuszczania grzechów» - rzekł do sparaliżowanego: «Mówię ci, wstań, weź swoje łoże i idź do domu!» I natychmiast wstał wobec nich, wziął łoże, na którym leżał, i poszedł do swego domu, wielbiąc Boga.\nWtedy zdumienie ogarnęło wszystkich; wielbili Boga i pełni bojaźni mówili: «Przedziwne rzeczy widzieliśmy dzisiaj».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pierwsze czytanie jest radosnym proroctwem o zbawieniu i odnowie, a ta pieśń wzywa całe stworzenie do radości z przyjścia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta wzywa do przygotowania serc, by Pan mógł w nich zamieszkać i dokonać cudu uzdrowienia, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Ewangelia pokazuje Jezusa, który uzdrawia duszę i ciało, a ta pieśń jest zaproszeniem do Niego, by doznać Jego uzdrawiającej mocy w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta wyraża dziękczynienie za zbawienie, które objawia się w cudach Jezusa opisanych w Ewangelii, zapowiedzianych przez Izajasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest prośbą o przyjście Pana, który jako jedyny może nas ocalić, co jest głównym przesłaniem liturgii dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Adwentowe wezwanie do nawrócenia i czuwania jest odpowiedzią na objawioną w czytaniach moc zbawczą Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń przypomina o konieczności przygotowania serc na przyjście Pana, który przynosi uzdrowienie i odpuszczenie grzechów.",
+      "moment": "ogolne"
+    }
+  ]
+}

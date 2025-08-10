@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413386.21-grudnia",
+  "tytul_dnia": "21 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "PnP 2, 8-14",
+      "opis": "Nadchodzi umiłowany",
+      "tekst": "Głos mojego ukochanego! Oto on! Oto nadchodzi! Biegnie przez góry, skacze po pagórkach. Umiłowany mój podobny do gazeli, do młodego jelenia. Oto stoi za naszym murem, patrzy przez okno, zagląda przez kraty.\nMiły mój odzywa się i mówi do mnie: «Powstań, przyjaciółko ma, piękna ma, i pójdź! Bo oto minęła już zima, deszcz ustał i przeszedł. Na ziemi widać już kwiaty, nadszedł czas przycinania drzew, i głos synogarlicy już słychać w naszej krainie. Figowiec wydał zawiązki owoców i winne krzewy kwitnące już pachną.\nPowstań, przyjaciółko ma, piękna ma, i pójdź! Gołąbko ma, ukryta w rozpadlinach skały, w szczelinach przepaści, ukaż mi swą twarz, daj mi usłyszeć swój głos! Bo słodki jest głos twój i twarz pełna wdzięku».\nOto słowo Boże.\nalbo:\nSo 3, 14-17\nBóg jest wśród swojego ludu\nWyśpiewuj, Córo Syjońska! Podnieś radosny okrzyk, Izraelu! Ciesz się i wesel z całego serca, Córo Jeruzalem! Oddalił Pan wyroki na ciebie, usunął twego nieprzyjaciela; Król Izraela, Pan, jest pośród ciebie, nie będziesz już bała się złego.\nOwego dnia powiedzą Jerozolimie: «Nie bój się, Syjonie! Niech nie słabną twe ręce!» Pan, twój Bóg, jest pośród ciebie, Mocarz, który zbawia, uniesie się weselem nad tobą, odnowi cię swoją miłością, wzniesie okrzyk radości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 2-3. 11-12. 20-21 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pieśń nową Panu radośnie śpiewajmy.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nŚpiewajcie Mu pieśń nową, *\npełnym głosem śpiewajcie Mu wdzięcznie.\nRefren.\nZamiary Pana trwają na wieki, *\nzamysły Jego serca przez pokolenia.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który on wybrał na dziedzictwo dla siebie.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nRaduje się w Nim nasze serce, *\nufamy Jego świętemu imieniu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Emmanuelu, nasz Królu i Prawodawco,\nprzyjdź nas zbawić, nasz Panie i Boże."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 39-45",
+      "opis": "Maryja jest Matką oczekiwanego Mesjasza",
+      "tekst": "W tym czasie Maryja wybrała się i poszła z pośpiechem w góry do pewnego miasta w ziemi Judy. Weszła do domu Zachariasza i pozdrowiła Elżbietę.\nGdy Elżbieta usłyszała pozdrowienie Maryi, poruszyło się dzieciątko w jej łonie, a duch Święty napełnił Elżbietę. Wydała ona głośny okrzyk i powiedziała: «Błogosławiona jesteś między niewiastami i błogosławiony jest owoc Twojego łona. A skądże mi to, że Matka mojego Pana przychodzi do mnie? Oto bowiem, skoro głos Twego pozdrowienia zabrzmiał w moich uszach, poruszyło się z radości dzieciątko w moim łonie. Błogosławiona jest, która uwierzyła, że spełnią się słowa powiedziane Jej od Pana».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń jest echem słów Elżbiety z Ewangelii, która nazywa Maryję błogosławioną z powodu Jej wiary i macierzyństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń jest rozwinięciem pozdrowienia anielskiego i pozdrowienia Elżbiety, które słyszymy w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Ewangelia o Nawiedzeniu podkreśla godność Maryi jako Matki Pana, a ta pieśń jest aktem czci i zawierzenia Jej opiece.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Czytania i Ewangelia przepełnione są radością ze zbliżającego się przyjścia Pana, co doskonale wyraża ta pieśń.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Piąta zwrotka tej pieśni to Wielka Antyfona 'O Wschodzie ranny', tradycyjnie przypisana do 21 grudnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń przypomina o Zwiastowaniu, które poprzedzało i umożliwiło scenę Nawiedzenia opisaną w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia jako Tej, która zrodziła światu Zbawiciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

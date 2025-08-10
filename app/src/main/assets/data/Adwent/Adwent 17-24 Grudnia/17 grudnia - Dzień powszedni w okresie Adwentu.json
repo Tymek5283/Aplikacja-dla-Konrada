@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413390.17-grudnia",
+  "tytul_dnia": "17 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 49, 1a. 2. 8-10",
+      "opis": "Chrystus będzie pochodził z pokolenia Judy",
+      "tekst": "Jakub przywołał swoich synów i powiedział do nich: «Zbierzcie się i słuchajcie, synowie Jakuba, słuchajcie Izraela, ojca waszego!\nJudo, ciebie sławić będą bracia twoi, twoja bowiem ręka na karku twych wrogów! Synowie twego ojca będą ci oddawać pokłon! Judo, młody lwie, na zdobyczy róść będziesz, mój synu: jak lew się czai, gotuje do skoku, do lwicy podobny, któż się ośmieli go drażnić? Nie zostanie odjęte berło od Judy ani laska pasterska zabrana spośród jego kolan, aż przyjdzie Ten, do którego ono należy, i zdobędzie posłuch u narodów!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 72 (71), 1b-2. 3-4b. 7-8. 17 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Pokój zakwitnie, kiedy Pan przybędzie.\nBoże, przekaż Twój sąd królowi, *\na Twoją sprawiedliwość synowi królewskiemu.\naby Twoim ludem rządził sprawiedliwie *\ni ubogimi według prawa.\nRefren.\nNiech góry przyniosą pokój ludowi, *\na wzgórza sprawiedliwość.\nOtoczy opieką ubogich z ludu, *\nbędzie ratował dzieci biedaków.\nRefren.\nZa dni jego zakwitnie sprawiedliwość *\ni wielki pokój, zanim księżyc zgaśnie.\nBędzie panował od morza do morza, *\nod Rzeki aż po krańce ziemi.\nRefren.\nNiech jego imię trwa na wieki, *\njak długo świeci słońce, niech trwa jego imię.\nNiech jego imieniem wzajemnie się błogosławią, *\nniech wszystkie narody życzą mu szczęścia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Mądrości Najwyższego, która zarządzasz wszystkim mocno i łagodnie,\nprzyjdź i naucz nas drogi roztropności."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 1, 1-17",
+      "opis": "Rodowód Jezusa Chrystusa, syna Dawida",
+      "tekst": "Rodowód Jezusa Chrystusa, syna Dawida, syna Abrahama.\nAbraham był ojcem Izaaka; Izaak ojcem Jakuba; Jakub ojcem Judy i jego braci; Juda zaś był ojcem Faresa i Zary, których matką była Tamar. Fares był ojcem Esroma; Esrom ojcem Arama; Aram ojcem Aminadaba; Aminadab ojcem Naassona; Naasson ojcem Salmona; Salmon ojcem Booza, a matką była Rachab. Booz był ojcem Obeda, a matką była Rut. Obed był ojcem Jessego, a Jesse ojcem króla Dawida.\nDawid był ojcem Salomona, a matką była dawna żona Uriasza. Salomon był ojcem Roboama; Roboam ojcem Abiasza; Abiasz ojcem Asy; Asa ojcem Jozafata; Jozafat ojcem Jorama; Joram ojcem Ozjasza; Ozjasz ojcem Joatama; Joatam ojcem Achaza; Achaz ojcem Ezechiasza; Ezechiasz ojcem Manassesa; Manasses ojcem Amosa; Amos ojcem Jozjasza; Jozjasz ojcem Jechoniasza i jego braci w czasie przesiedlenia babilońskiego.\nPo przesiedleniu babilońskim Jechoniasz był ojcem Salatiela; Salatiel ojcem Zorobabela; Zorobabel ojcem Abiuda; Abiud ojcem Eliakima; Eliakim ojcem Azora; Azor ojcem Sadoka; Sadok ojcem Achima; Achim ojcem Eliuda; Eliud ojcem Eleazara; Eleazar ojcem Mattana; Mattan ojcem Jakuba; Jakub ojcem Józefa, męża Maryi, z której narodził się Jezus, zwany Chrystusem.\nTak więc od Abrahama do Dawida jest w sumie czternaście pokoleń; od Dawida do przesiedlenia babilońskiego czternaście pokoleń; od przesiedlenia babilońskiego do Chrystusa czternaście pokoleń.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Antyfona 'O Mądrości' jest tradycyjną pieśnią na 17 grudnia, rozpoczynającą drugą, bezpośrednią fazę przygotowań do Bożego Narodzenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta opowiada o historii zbawienia, od grzechu Adama do przyjścia Zbawiciela, co koresponduje z rodowodem Jezusa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, którego rodowód i królewskie pochodzenie od Judy i Dawida przedstawiają czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Psalm zapowiada królowanie Mesjasza, a ta pieśń jest radosnym hymnem na cześć Pana, który przychodzi, by królować.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń ta, wołająca o przyjście Zbawiciela, stanowi dobre podsumowanie dnia, który ukazuje wypełnienie się starotestamentowych obietnic.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla chwały, co nawiązuje do proroctwa Jakuba o berle Judy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń opowiada o spełnieniu proroctw i zapowiedzi dotyczących przyjścia Syna z rodu Dawida.",
+      "moment": "ogolne"
+    }
+  ]
+}

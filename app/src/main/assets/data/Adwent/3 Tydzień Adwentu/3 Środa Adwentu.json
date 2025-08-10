@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413344.Sroda-III-tygodnia-Adwentu",
+  "tytul_dnia": "3 Środa Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 45, 6b-8. 18. 21b-25",
+      "opis": "Niebiosa, spuśćcie Sprawiedliwego",
+      "tekst": "«Ja jestem Pan i nikt poza Mną. Ja czynię światło i stwarzam ciemności, sprawiam pomyślność i stwarzam niedolę. Ja, Pan, czynię to wszystko.\nNiebiosa, wysączcie z góry sprawiedliwość i niech obłoki z deszczem ją wyleją! Niechaj ziemia się otworzy, niech zbawienie wyda owoc i razem wzejdzie sprawiedliwość!\nJa, Pan, jestem tego Stwórcą». Albowiem tak mówi Pan, Stworzyciel nieba, on Bogiem, który ukształtował i wykonał ziemię, który ją mocno osadził, który nie stworzył jej bezładną, lecz przysposobił na mieszkanie: «Ja jestem Pan, i nie ma innego. Czyż nie Ja jestem Pan, a nie ma innego Boga oprócz Mnie? Bóg sprawiedliwy i zbawiający nie istnieje poza Mną. Nawróćcie się do Mnie, by się zbawić, wszystkie krańce świata, bo Ja jestem Bogiem, i nikt inny!\nPrzysięgam na siebie samego, z moich ust wychodzi sprawiedliwość, słowo nieodwołalne. Tak, przede Mną się zegnie wszelkie kolano, wszelki język na Mnie przysięgać będzie, mówiąc: „Jedynie u Pana jest sprawiedliwość i moc”. do Niego przyjdą zawstydzeni wszyscy, którzy się na Niego zżymali. W Panu uzyska swe prawo i chwały dostąpi całe plemię Izraela».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. Iz 45, 8)",
+      "opis": "",
+      "tekst": "Refren: Sprawiedliwego spuśćcie nam, niebiosa.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Iz 40, 9-10",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Podnieś mocno twój głos, zwiastunko dobrej nowiny,\noto Pan Bóg przyjdzie z mocą."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 18b-23",
+      "opis": "Na Chrystusie spełniają się proroctwa",
+      "tekst": "Jan przywołał do siebie dwóch spośród swoich uczniów i posłał ich do Jezusa z zapytaniem: «Czy Ty jesteś Tym, który ma przyjść, czy też innego mamy oczekiwać?»\nGdy ludzie ci zjawili się u Jezusa, rzekli: «Jan Chrzciciel przysyła nas do Ciebie z zapytaniem: Czy Ty jesteś Tym, który ma przyjść, czy też innego mamy oczekiwać?»\nW tym właśnie czasie Jezus wielu uzdrowił z chorób, dolegliwości i uwolnił od złych duchów; także wielu niewidomych obdarzył wzrokiem. Odpowiedział im więc: «Idźcie i donieście Janowi to, co widzieliście i słyszeliście: Niewidomi wzrok odzyskują, chromi chodzą, trędowaci zostają oczyszczeni i głusi słyszą; umarli zmartwychwstają, ubogim głosi się Ewangelię. a błogosławiony jest ten, kto nie zwątpi we Mnie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Pieśń ta jest muzycznym opracowaniem modlitwy 'Rorate caeli', która jest echem wołania z pierwszego czytania i refrenu psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń jest prośbą o przyjście Zbawiciela, co odpowiada pytaniu uczniów Jana z Ewangelii: 'Czy Ty jesteś Tym, który ma przyjść?'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Jezusa, który w Ewangelii przez swoje czyny objawia się jako oczekiwany Mesjasz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń opowiada o spełnieniu się obietnic i przyjściu Zbawiciela, co jest odpowiedzią na adwentowe oczekiwanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Pieśń błagalna, w której lud woła o przyjście Zbawiciela, stanowi dobre podsumowanie dnia i posłanie na dalsze oczekiwanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "23",
+      "piesn": "Niebiosa, rosę ślijcie",
+      "opis": "Inna wersja 'Rorate caeli', która podkreśla tęsknotę za Mesjaszem, Sprawiedliwym, o którym mówi Izajasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta, wzywając do prostowania dróg, nawiązuje do misji Jana Chrzciciela, który przygotowywał lud na spotkanie z Panem.",
+      "moment": "ogolne"
+    }
+  ]
+}

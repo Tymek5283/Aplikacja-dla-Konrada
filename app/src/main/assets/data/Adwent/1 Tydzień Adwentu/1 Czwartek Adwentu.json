@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413306.Czwartek-I-tygodnia-Adwentu",
+  "tytul_dnia": "1 Czwartek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 26, 1-6",
+      "opis": "Naród sprawiedliwy, dochowujący wierności wejdzie do królestwa Bożego",
+      "tekst": "W ów dzień śpiewać będą tę pieśń w ziemi judzkiej: «Miasto mamy potężne; On jako środek ocalenia umieścił mur i przedmurze. Otwórzcie bramy! Niech wejdzie naród sprawiedliwy, dochowujący wierności; jego charakter stateczny Ty kształtujesz w pokoju, w pokoju, bo Tobie zaufał.\nZłóżcie nadzieję w Panu na zawsze, bo Pan jest wiekuistą skałą! Bo On poniżył przebywających na szczytach, upokorzył miasto niedostępne, upokorzył je aż do ziemi, sprawił, że w proch runęło; podepczą je nogi, nogi biednych i stopy ubogich».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 118 (117), 1bc i 8-9. 19-20. 21 i 25. 26-27a (R.: por. 26a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Błogosławiony, idący od Pana.\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nLepiej się uciekać do Pana, †\nniż pokładać ufność w człowieku. *\nLepiej się uciekać do Pana,\nniż pokładać ufność w książętach.\nRefren.\nOtwórzcie mi bramy sprawiedliwości, *\nwejdę przez nie i podziękuję Panu.\nOto jest brama Pana, *\nprzez nią wejdą sprawiedliwi.\nRefren.\nDziękuję Tobie, że mnie wysłuchałeś *\ni stałeś się moim zbawcą.\nO Panie, Ty nas wybaw, *\npomyślność daj nam, o Panie!\nRefren.\nBłogosławiony, który przybywa w imię Pańskie, *\nbłogosławimy wam z Pańskiego domu.\nPan jest Bogiem *\ni daje nam światło.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Iz 55, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Szukajcie Pana, gdy można Go znaleźć,\nwzywajcie Go, gdy jest blisko."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 7, 21. 24-27",
+      "opis": "Kto spełnia wolę Bożą, wejdzie do królestwa niebieskiego",
+      "tekst": "Jezus powiedział do swoich uczniów: «Nie każdy, kto mówi Mi: „Panie, Panie!”, wejdzie do królestwa niebieskiego, lecz ten, kto spełnia wolę mojego Ojca, który jest w niebie.\nKażdego więc, kto tych słów moich słucha i wypełnia je, można porównać z człowiekiem roztropnym, który dom swój zbudował na skale. Spadł deszcz, wezbrały rzeki, zerwały się wichry i uderzyły w ten dom. On jednak nie runął, bo na skale był utwierdzony.\nKażdego zaś, kto tych słów moich słucha, a nie wypełnia ich, można porównać z człowiekiem nierozsądnym, który dom swój zbudował na piasku. Spadł deszcz, wezbrały rzeki, zerwały się wichry i rzuciły się na ten dom. I runął, a upadek jego był wielki».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla, co jest echem słów z pierwszego czytania 'Otwórzcie bramy! Niech wejdzie naród sprawiedliwy'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń nawołuje do przygotowania serc i prostowania ścieżek, co jest synonimem budowania domu na skale, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń jest zaproszeniem Pana, który jest 'wiekuistą skałą' z pierwszego czytania, na której chcemy budować nasze życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Po przyjęciu Pana w Komunii, ta pieśń jest wyrazem dziękczynienia i przypomnieniem o Jego stałej, umacniającej obecności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń stanowi posłanie, by w życiu codziennym budować na fundamencie, jakim jest Chrystus, i przygotować się na Jego ostateczne przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest prośbą o przyjście Pana, który jako jedyny może być pewnym fundamentem naszego życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach nawiązuje do psalmu 'Błogosławiony, który przybywa w imię Pańskie' i mówi o budowaniu na wartościach Królestwa Bożego.",
+      "moment": "ogolne"
+    }
+  ]
+}

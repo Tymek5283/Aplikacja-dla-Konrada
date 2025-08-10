@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413342.Piatek-III-tygodnia-Adwentu",
+  "tytul_dnia": "3 Piątek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 56, 1-3a. 6-8",
+      "opis": "Zbawienie jest przeznaczone dla wszystkich narodów",
+      "tekst": "Tak mówi Pan: «zachowujcie prawo i przestrzegajcie sprawiedliwości, bo moje zbawienie już wnet nadejdzie i moja sprawiedliwość ma się objawić. Błogosławiony człowiek, który tak czyni, i syn człowieczy, który się stosuje do tego, czuwając, by nie pogwałcić szabatu, i pilnując swej ręki, by się nie dopuściła żadnego zła.\nNiech cudzoziemiec, który się przyłączył do Pana, nie mówi tak: „Z pewnością Pan wykluczy mnie ze swego ludu”.\nCudzoziemców zaś, którzy się przyłączyli do Pana, ażeby Mu służyć i aby miłować imię Pana i zostać Jego sługami - wszystkich zachowujących szabat bez pogwałcenia go i trzymających się mocno mojego przymierza, przyprowadzę na moją świętą górę i rozweselę w moim domu modlitwy. Całopalenia ich oraz ofiary będą przyjęte na moim ołtarzu, bo dom mój będzie nazwany domem modlitwy dla wszystkich narodów». Tak mówi Pan Bóg, który gromadzi wygnańców Izraela: «Jeszcze mu innych zgromadzę oprócz tych, którzy już zostali zgromadzeni».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 67 (66), 2-3. 4-5. 7-8 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Niech wszystkie ludy sławią Ciebie, Boże.\nNiech Bóg się zmiłuje nad nami i nam błogosławi; *\nniech nam ukaże pogodne oblicze.\nAby na ziemi znano Jego drogę, *\nJego zbawienie wśród wszystkich narodów.\nRefren.\nNiech Ciebie, Boże, wysławiają ludy, *\nniech wszystkie narody oddają Ci chwałę.\nNiech się narody cieszą i weselą, †\nbo rządzisz ludami sprawiedliwie *\ni kierujesz narodami na ziemi.\nRefren.\nZiemia wydała swój owoc; *\nBóg, nasz Bóg, nam pobłogosławił.\nNiech nam Bóg błogosławi *\ni niech cześć Mu oddają wszystkie krańce ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdź, Panie, i nawiedź nas w pokoju,\nabyśmy się cieszyli wobec Ciebie z czystym sercem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 5, 33-36",
+      "opis": "Jan był lampą, co płonie i świeci",
+      "tekst": "Jezus powiedział do Żydów:\n«Wysłaliście poselstwo do Jana, i on dał świadectwo prawdzie. Ja nie zważam na świadectwo człowieka, ale mówię to, abyście byli zbawieni. On był lampą, co płonie i świeci, wy zaś chcieliście radować się krótki czas jego światłem.\nJa mam świadectwo większe od Janowego. Są to dzieła, które ojciec dał Mi do wypełnienia; dzieła, które czynię, świadczą o Mnie, że ojciec Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona na 17 grudnia 'O Mądrości' jest tradycyjną pieśnią rozpoczynającą drugą część Adwentu, idealnie wprowadzając w liturgię dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta jest echem zarówno pierwszego czytania o zbawieniu dla wszystkich narodów, jak i psalmu 'Niech wszystkie ludy sławią Ciebie, Boże'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Ewangelia mówi o Janie Chrzcicielu jako o 'lampie, co płonie i świeci', ale to Jezus jest prawdziwą Światłością, co wyraża ta pieśń.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń poświęcona Janowi Chrzcicielowi, który dał świadectwo prawdzie, stanowi piękne dziękczynienie za jego misję.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta, zapowiadająca przyjście Pana i wielką światłość, dobrze podsumowuje adwentowe oczekiwanie na zbawienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń ta, a zwłaszcza jej refren 'Gotujmy drogę Panu', nawiązuje do misji Jana Chrzciciela, świadka Prawdy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń ta podkreśla bliskość przyjścia Pana, co jest głównym tematem drugiej części Adwentu.",
+      "moment": "ogolne"
+    }
+  ]
+}

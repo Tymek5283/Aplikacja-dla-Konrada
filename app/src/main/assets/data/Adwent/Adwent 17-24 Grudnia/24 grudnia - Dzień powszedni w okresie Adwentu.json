@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413383.24-grudnia",
+  "tytul_dnia": "24 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 7, 1-5. 8b-12. 14a. 16",
+      "opis": "Królestwo Dawida będzie trwało wiecznie",
+      "tekst": "Gdy król Dawid zamieszkał w swoim domu, a Pan poskromił dokoła wszystkich jego wrogów, rzekł król do proroka Natana: «Spójrz, ja mieszkam w pałacu cedrowym, a arka Boża mieszka w namiocie». Natan powiedział do króla: «Uczyń wszystko, co zamierzasz w sercu, gdyż Pan jest z tobą».\nLecz tej samej nocy Pan skierował do Natana następujące słowa: «Idź i powiedz mojemu słudze, Dawidowi: To mówi Pan: „Czy ty zbudujesz Mi dom na mieszkanie? Zabrałem cię z pastwiska spośród owiec, abyś był władcą nad ludem moim, nad Izraelem. I byłem z tobą wszędzie, dokąd się udałeś, wytraciłem przed tobą wszystkich twoich nieprzyjaciół.\nDam ci sławę największych ludzi na ziemi. Wyznaczę miejsce mojemu ludowi, Izraelowi, i osadzę go tam, i będzie mieszkał na swoim miejscu, a nie poruszy się więcej i ludzie nikczemni nie będą go już uciskać jak dawniej. Od czasu, kiedy ustanowiłem sędziów nad ludem moim izraelskim, obdarzyłem cię pokojem ze wszystkimi wrogami. Tobie też Pan zapowiedział, że sam Pan dom ci zbuduje.\nKiedy wypełnią się twoje dni i spoczniesz obok swych przodków, wtedy wzbudzę po tobie potomka twojego, który wyjdzie z twoich wnętrzności, i utwierdzę jego królestwo. Ja będę mu ojcem, a on będzie Mi synem. Przede Mną dom twój i twoje królestwo będzie trwać na wieki. Twój tron będzie utwierdzony na wieki”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 2-3. 4-5. 27 i 29 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Na wieki będę sławił łaski Pana.\nO łaskach Pana będę śpiewał na wieki, †\nTwą wierność będę głosił moimi ustami *\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś: †\n«Na wieki ugruntowana jest łaska», *\nutrwaliłeś swą wierność w niebiosach.\nRefren.\n«Zawarłem przymierze z moim wybrańcem, *\nprzysiągłem mojemu słudze, Dawidowi:\nTwoje potomstwo utrwalę na wieki *\ni tron twój umocnię na wszystkie pokolenia».\nRefren.\n«On będzie wołał do Mnie: †\n„Ty jesteś moim ojcem, *\nmoim Bogiem, opoką mojego zbawienia”.\nNa wieki zachowam dla niego łaskę *\ni trwałe z nim będzie moje przymierze».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wschodzie, Blasku światła wiecznego i Słońce sprawiedliwości,\nprzyjdź i oświeć siedzących w ciemnościach i mroku śmierci."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 67-79",
+      "opis": "Nawiedzi nas z wysoka Wschodzące Słońce",
+      "tekst": "Zachariasz, ojciec Jana, został napełniony Duchem Świętym i zaczął prorokować, mówiąc:\n«Błogosławiony Pan, Bóg Izraela,\nbo lud swój nawiedził i wyzwolił,\ni wzbudził dla nas moc zbawczą\nw domu swego sługi, Dawida:\nJak zapowiedział od dawna\nprzez usta swych świętych proroków,\nże nas wybawi od naszych nieprzyjaciół\ni z ręki wszystkich, którzy nas nienawidzą;\nŻe naszym ojcom okaże miłosierdzie\ni wspomni na swe święte przymierze -\nna przysięgę, którą złożył\nojcu naszemu, Abrahamowi.\nDa nam, że z mocy nieprzyjaciół wyrwani,\nsłużyć Mu będziemy bez trwogi,\nw pobożności i sprawiedliwości przed Nim\npo wszystkie dni nasze.\nA ty, dziecię, zwać się będziesz\nprorokiem Najwyższego,\ngdyż pójdziesz przed Panem przygotować Mu drogi;\nJego ludowi dasz poznać zbawienie\nprzez odpuszczenie grzechów,\nDzięki serdecznej litości naszego Boga,\nz jaką nas nawiedzi z wysoka Wschodzące Słońce,\nby oświecić tych,\nco w mroku i cieniu śmierci mieszkają,\naby nasze kroki skierować na drogę pokoju».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "W ostatnim dniu Adwentu ta antyfona wprost zapowiada przyjście Pana i wielką światłość, o której prorokuje Zachariasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, a refren 'Gotujmy drogę Panu' przypomina o misji Jana, syna Zachariasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń mówi o spełnieniu obietnic i przyjściu Zbawiciela, co jest treścią proroctwa Zachariasza i obietnicy danej Dawidowi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Hymn Zachariasza jest pieśnią uwielbienia, a ta pieśń wzywa całe stworzenie do radości z powodu nadchodzącego królowania Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń ta, jako ostatnie wołanie Adwentu, wyraża tęsknotę za Zbawicielem, który jest 'Wschodzącym Słońcem' z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "W Wigilię Bożego Narodzenia ta pieśń jest ostatecznym wezwaniem do przygotowania serc na przyjęcie Gościa tak wielkiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą Wigilii.",
+      "moment": "ogolne"
+    }
+  ]
+}

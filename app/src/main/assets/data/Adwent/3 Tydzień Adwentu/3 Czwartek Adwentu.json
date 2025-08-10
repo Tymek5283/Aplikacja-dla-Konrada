@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413343.Czwartek-III-tygodnia-Adwentu",
+  "tytul_dnia": "3 Czwartek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 54, 1-10",
+      "opis": "Pan Bóg dotrzyma Przymierza",
+      "tekst": "Śpiewaj z radości, niepłodna, która nie rodziłaś, wybuchnij weselem i wykrzykuj, która nie doznałaś bólów porodu! Bo liczniejsi są synowie porzuconej niż synowie mającej męża, mówi Pan. Poszerz przestrzeń twego namiotu, rozciągnij płótna twego mieszkania, nie krępuj się, wydłuż twe sznury, wbij mocno twe paliki! Bo się rozprzestrzenisz na prawo i lewo, twoje potomstwo posiądzie narody oraz zaludni opuszczone miasta.\nNie lękaj się, bo już się nie zawstydzisz, nie wstydź się, bo już nie doznasz pohańbienia. Raczej zapomnisz o wstydzie twej młodości. i nie wspomnisz już hańby twego wdowieństwa. Bo małżonkiem twoim jest twój Stworzyciel, któremu na imię - Pan zastępów; odkupicielem twoim - Święty Izraela, nazywają Go Bogiem całej ziemi.\nZaiste, jak niewiastę porzuconą i zgnębioną na duchu wezwał cię Pan. i jakby do porzuconej żony młodości mówi twój Bóg: «Na krótką chwilę porzuciłem ciebie, ale z ogromną miłością cię przygarnę. W przystępie gniewu ukryłem przed tobą na krótko swe oblicze, ale w miłości wieczystej nad tobą się ulitowałem, mówi Pan, twój odkupiciel.\nDzieje się ze Mną tak, jak za dni Noego, kiedy przysiągłem, że wody Noego nie spadną już nigdy na ziemię; tak teraz przysięgam, że się nie rozjątrzę na ciebie ani cię gromić nie będę. Bo góry mogą się poruszyć i pagórki się zachwiać, ale miłość moja nie odstąpi ciebie i nie zachwieje się moje przymierze pokoju», mówi Pan, który ma litość nad tobą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 30 (29), 2 i 4. 5-6. 11-12a i 13b (R.: 2a)",
+      "opis": "",
+      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie mój, Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\nRefren.\nŚpiewajcie psalm, wszyscy miłujący Pana, *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\nRefren.\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 3, 4c. 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przygotujcie drogę Panu, prostujcie ścieżki dla Niego;\nwszyscy ludzie ujrzą zbawienie Boże."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 24-30",
+      "opis": "Jan przygotowuje drogę Chrystusowi",
+      "tekst": "Gdy wysłannicy Jana odeszli, Jezus zaczął mówić do tłumów o Janie: «Co wyszliście zobaczyć na pustyni? Trzcinę kołyszącą się na wietrze? ale co wyszliście zobaczyć? Człowieka w miękkie szaty ubranego? Oto w pałacach królewskich przebywają ci, którzy noszą okazałe stroje i żyją w zbytkach. Ale co wyszliście zobaczyć? Proroka? Tak, mówię wam, nawet więcej niż proroka. On jest tym, o którym napisano: „Oto posyłam mego wysłańca przed Tobą, aby przygotował Ci drogę”. Powiadam wam bowiem: Między narodzonymi z niewiast nie ma większego od Jana. Lecz najmniejszy w królestwie Bożym większy jest niż on».\nI cały lud, który Go słuchał, a nawet celnicy przyznawali słuszność Bogu, przyjmując chrzest Janowy. Faryzeusze zaś i uczeni w Prawie udaremnili zamiar Boży względem siebie, nie przyjmując chrztu od niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest bezpośrednim nawiązaniem do misji Jana Chrzciciela, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wzywa do przygotowania na przyjście Pana, co jest głównym tematem adwentu i nauczania Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Wobec świadectwa Jana o nadchodzącym Mesjaszu, ta pieśń jest naszym osobistym wołaniem o Jego przyjście do naszych serc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pierwsze czytanie wzywa do radości i wesela, a ta pieśń jest radosnym hymnem na cześć przychodzącego Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń poświęcona Janowi Chrzcicielowi, którego wielkość podkreśla Jezus w Ewangelii, jest doskonałym podsumowaniem dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta wzywa do prostowania dróg życia, co jest echem nauczania Jana Chrzciciela i przygotowaniem na bliskie przyjście Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń adwentowa, która w kontekście Ewangelii przypomina o potrzebie przygotowania serc na spotkanie z Chrystusem.",
+      "moment": "ogolne"
+    }
+  ]
+}

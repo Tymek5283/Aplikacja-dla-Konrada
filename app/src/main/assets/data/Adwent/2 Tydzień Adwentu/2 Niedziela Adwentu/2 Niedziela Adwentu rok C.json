@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413338.II-Niedziela-Adwentu-rok-C",
+  "tytul_dnia": "2 Niedziela Adwentu rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ba 5, 1-9",
+      "opis": "W drodze do nowego Jeruzalem",
+      "tekst": "Odłóż, Jeruzalem, szatę smutku i utrapienia swego, a przywdziej wspaniałe szaty chwały, dane ci na zawsze przez Pana. Przyoblecz się w płaszcz sprawiedliwości pochodzącej od Boga, włóż na głowę swą koronę chwały Przedwiecznego! albowiem Bóg chce pokazać wspaniałość twoją wszystkiemu, co jest pod niebem. imię twe u Boga na wieki będzie nazwane: «Pokój sprawiedliwości i chwała pobożności».\nPodnieś się, Jeruzalem! Stań na miejscu wysokim, spojrzyj na wschód, zobacz twe dzieci, zgromadzone na słowo Świętego od wschodu słońca aż do zachodu, rozradowane, że Bóg o nich pamiętał. Wyszli od ciebie pieszo, pędzeni przez wrogów, a Bóg przyprowadzi ich niesionych z chwałą, jakby na tronie królewskim. Albowiem postanowił Bóg zniżyć każdą górę wysoką, pagórki odwieczne, doły zasypać do zrównania z ziemią, aby bezpiecznie mógł kroczyć Izrael w chwale Pana.\nNa rozkaz Pana lasy i drzewa pachnące ocieniać będą Izraela. Z radością bowiem poprowadzi Bóg Izraela do światła swej chwały z właściwą sobie sprawiedliwością i miłosierdziem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 126 (125), 1b-2b. 2c-3. 4-5. 6 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg uczynił wielkie rzeczy dla nas.\nGdy Pan odmienił los Syjonu, *\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu, *\na język śpiewał z radości.\nRefren.\nMówiono wtedy między narodami: *\n«Wielkie rzeczy im Pan uczynił».\nPan uczynił nam wielkie rzeczy *\ni radość nas ogarnęła.\nRefren.\nOdmień znowu nasz los, o Panie, *\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją, *\nżąć będą w radości.\nRefren.\nIdą i płaczą, *\nniosąc ziarno na zasiew,\nlecz powrócą z radością, *\nniosąc swoje snopy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Flp 1, 4-6. 8-11",
+      "opis": "Bądźcie czyści i bez zarzutu na dzień Chrystusa",
+      "tekst": "Bracia:\nZawsze, w każdej modlitwie, z radością zanoszę prośbę za was wszystkich - z powodu waszego udziału w szerzeniu Ewangelii od pierwszego dnia aż do chwili obecnej. Mam właśnie ufność, że Ten, który zapoczątkował w was dobre dzieło, dokończy go do dnia Chrystusa Jezusa. Albowiem Bóg jest mi świadkiem, jak gorąco tęsknię za wami wszystkimi ożywiony miłością Chrystusa Jezusa.\nA modlę się o to, by miłość wasza doskonaliła się coraz bardziej i bardziej w głębszym poznaniu i wszelkim wyczuciu dla oceny tego, co lepsze, abyście byli czyści i bez zarzutu na dzień Chrystusa, napełnieni plonem sprawiedliwości, który przynosimy przez Jezusa Chrystusa, na chwałę i cześć Boga.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 3, 4c. 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przygotujcie drogę Panu, prostujcie ścieżki dla Niego;\nwszyscy ludzie ujrzą zbawienie Boże."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 3, 1-6",
+      "opis": "Wszyscy ludzie ujrzą zbawienie Boże",
+      "tekst": "Było to w piętnastym roku rządów Tyberiusza Cezara. Gdy Poncjusz Piłat był namiestnikiem Judei, Herod tetrarchą Galilei, brat jego Filip tetrarchą Iturei i Trachonitydy, Lizaniasz tetrarchą Abileny; za najwyższych kapłanów Annasza i Kajfasza skierowane zostało słowo Boże do Jana, syna Zachariasza, na pustyni.\nObchodził więc całą okolicę nad Jordanem i głosił chrzest nawrócenia dla odpuszczenia grzechów, jak jest napisane w księdze mów proroka Izajasza: «Głos wołającego na pustyni: Przygotujcie drogę Panu, prostujcie ścieżki dla Niego! Każda dolina zostanie wypełniona, każda góra i pagórek zrównane, drogi kręte staną się prostymi, a wyboiste drogami gładkimi! i wszyscy ludzie ujrzą zbawienie Boże».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest bezpośrednim nawiązaniem do Ewangelii i aklamacji, wzywając do aktywnego przygotowania na przyjście Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Tekst pieśni 'Góry się zniżą, niech staną się równiną' idealnie odzwierciedla przesłanie o przygotowaniu drogi Panu z pierwszego czytania i Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, którego drogę przygotowuje Jan Chrzciciel i którego zbawienie, jak mówi Ewangelia, ujrzą wszyscy ludzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pierwsze czytanie i psalm mówią o wielkiej radości z powrotu i Bożych dzieł, a ta pieśń jest radosnym hymnem na cześć przychodzącego Króla.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta, wzywając do prostowania dróg, stanowi dobre podsumowanie dnia i posłanie do dalszego adwentowego czuwania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Tekst pieśni mówi o równaniu ścieżek i obniżaniu szczytów, co jest bezpośrednim nawiązaniem do słów proroka Izajasza z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla cichych i pokornych, wpisuje się w adwentowy klimat oczekiwania na Króla Pokoju, o którym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

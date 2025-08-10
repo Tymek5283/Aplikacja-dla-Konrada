@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413310.I-Niedziela-Adwentu-rok-C",
+  "tytul_dnia": "1 Niedziela Adwentu rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 33, 14-16",
+      "opis": "Potomek Dawida będzie wymierzał sprawiedliwość",
+      "tekst": "Tak mówi Pan:\n«Oto nadchodzą dni, kiedy wypełnię pomyślną zapowiedź, jaką obwieściłem domowi izraelskiemu i domowi judzkiemu.\nW owych dniach i w owym czasie wzbudzę Dawidowi potomstwo sprawiedliwe; będzie wymierzać prawo i sprawiedliwość na ziemi.\nW owych dniach Juda dostąpi zbawienia, a Jerozolima będzie trwać bezpiecznie. To zaś jest imię, którym ją będą nazywać: Pan naszą sprawiedliwością».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 8-9. 10 i 14 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Do Ciebie, Panie, wznoszę moją duszę.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i zbawco, w Tobie mam nadzieję.\nRefren.\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren.\nWszystkie ścieżki Pana są pewne i pełne łaski *\ndla strzegących Jego praw i przymierza.\nBóg powierza swe zamiary swoim czcicielom *\ni objawia im swoje przymierze.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Tes 3, 12 - 4, 2",
+      "opis": "Utwierdzenie w świętości na przyjście Chrystusa",
+      "tekst": "Bracia:\nPan niech pomnoży was liczebnie i niech spotęguje miłość waszą nawzajem do siebie i do wszystkich, jaką i my mamy dla was; aby serca wasze utwierdzone zostały w nienagannej świętości wobec Boga, Ojca naszego, na przyjście Pana naszego, Jezusa, wraz ze wszystkimi Jego świętymi.\nNa koniec, bracia, prosimy was i napominamy w Panu Jezusie: zgodnie z tym, co od nas przejęliście o sposobie postępowania i podobania się Bogu - jak już zresztą postępujecie - stawajcie się coraz doskonalszymi! Wiecie przecież, jakie nakazy daliśmy wam w imię Pana Jezusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 85 (84), 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Okaż nam, Panie, łaskę swoją\ni daj nam swoje zbawienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 25-28. 34-36",
+      "opis": "Oczekiwanie na powtórne przyjście Chrystusa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Będą znaki na słońcu, księżycu i gwiazdach, a na ziemi trwoga narodów bezradnych wobec huku morza i jego nawałnicy. Ludzie mdleć będą ze strachu w oczekiwaniu wydarzeń zagrażających ziemi. Albowiem moce niebios zostaną wstrząśnięte. Wtedy ujrzą Syna Człowieczego, nadchodzącego w obłoku z mocą i wielką chwałą. A gdy się to dziać zacznie, nabierzcie ducha i podnieście głowy, ponieważ zbliża się wasze odkupienie.\nUważajcie na siebie, aby wasze serca nie były ociężałe wskutek obżarstwa, pijaństwa i trosk doczesnych, żeby ten dzień nie spadł na was znienacka jak potrzask. Przyjdzie on bowiem na wszystkich, którzy mieszkają na całej ziemi.\nCzuwajcie więc i módlcie się w każdym czasie, abyście mogli uniknąć tego wszystkiego, co ma nastąpić, i stanąć przed Synem Człowieczym».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń ta w prosty sposób wyraża istotę Adwentu - czuwanie i oczekiwanie na Pana, co jest głównym tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Tytuł i refren pieśni są echem psalmu responsoryjnego 'Do Ciebie, Panie, wznoszę moją duszę', wyrażając postawę adwentowego zawierzenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest żarliwą prośbą o przyjście Pana, który w Ewangelii zapowiada swoje nadejście w chwale i wzywa do czuwania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Ewangelia wzywa, by na znaki przyjścia Pana 'podnieść głowy', a ta pieśń jest wyrazem radości z nadchodzącego królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń wzywa do czuwania i nawrócenia, co jest konkretną odpowiedzią na eschatologiczne wezwanie Jezusa w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada przyjście Pana i 'wielką światłość', nawiązując do nadziei na zbawienie, o której mówią czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta podkreśla konieczność przygotowania na przyjście Pana w dniu ostatecznym, o czym przypomina Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

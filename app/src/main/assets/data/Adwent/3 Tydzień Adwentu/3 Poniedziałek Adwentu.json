@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413346.Poniedzialek-III-tygodnia-Adwentu",
+  "tytul_dnia": "3 Poniedziałek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Lb 24, 2-7. 15-17a",
+      "opis": "Wschodzi Gwiazda z Jakuba",
+      "tekst": "Gdy Balaam podniósł oczy i zobaczył Izraela rozłożonego obozem według swoich pokoleń, ogarnął go duch Boży i zaczął głosić swoje pouczenie, mówiąc:\n«Wyrocznia Balaama, syna Beora; wyrocznia męża, który wzrok ma przenikliwy; wyrocznia tego, który słyszy słowa Boże, który ogląda widzenie Wszechmocnego, który pada, a oczy mu się otwierają.\nJakubie, jakże piękne są twoje namioty, mieszkania twoje, Izraelu: Niby szerokie doliny potoków, niby ogrody nad brzegami strumieni lub niby aloes, który Pan sadził, niby cedry nad wodami. Płynie woda z jego wiader, a zasiew jego ma wilgoć obfitą; król jego wiele mocniejszy niż Agag, królestwo jego w górę wyniesione».\nI wygłosił swoje pouczenie, mówiąc: «Wyrocznia Balaama, syna Beora; wyrocznia męża, który wzrok ma przenikliwy; wyrocznia tego, który słyszy słowa Boże, a w wiedzy Najwyższego ma udział, który ogląda widzenie Wszechmocnego, który pada, a oczy mu się otwierają.\nWidzę go, lecz jeszcze nie teraz, dostrzegam go, ale nie z bliska: wschodzi Gwiazda z Jakuba, a z Izraela podnosi się berło».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 6 i 7bc. 8-9 (R.: 4b)",
+      "opis": "",
+      "tekst": "Refren: Naucz mnie chodzić Twoimi ścieżkami.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i zbawco, w Tobie mam nadzieję.\nRefren.\nWspomnij na swoje miłosierdzie, Panie, *\nna swoją miłość, która trwa od wieków.\nTylko o mnie pamiętaj w swoim miłosierdziu, *\nze względu na dobroć Twą, Panie.\nRefren.\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 85 (84), 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Okaż nam, Panie, łaskę swoją\ni daj nam swoje zbawienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 21, 23-27",
+      "opis": "Skąd pochodził chrzest Janowy?",
+      "tekst": "Gdy Jezus przyszedł do świątyni i nauczał, przystąpili do Niego arcykapłani i starsi ludu, pytając: «Jakim prawem to czynisz? i kto Ci dał tę władzę?»\nJezus im odpowiedział: «Ja też zadam wam jedno pytanie: jeśli odpowiecie Mi na nie, i Ja powiem wam, jakim prawem to czynię. Skąd pochodził chrzest Janowy: z nieba czy od ludzi?»\nOni zastanawiali się między sobą: «Jeśli powiemy: „z nieba”, to nam zarzuci: „Dlaczego więc nie uwierzyliście mu?” A jeśli powiemy: „od ludzi”, to boimy się tłumu, bo wszyscy uważają Jana za proroka».\nOdpowiedzieli więc Jezusowi: «Nie wiemy». On również im odpowiedział: «Zatem i Ja wam nie powiem, jakim prawem to czynię».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń ta wzywa do otwarcia bram dla nadchodzącego Króla, co nawiązuje do proroctwa Balaama o wschodzącej Gwieździe i berle Izraela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń nawołuje do przygotowania serc, co jest echem misji Jana Chrzciciela, o którego autorytecie jest mowa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń wyraża tęsknotę za przyjściem Jezusa, którego autorytet i władzę kwestionują arcykapłani w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń jest modlitwą o dobre przygotowanie na przyjście Pana, co łączy się z psalmem proszącym Boga o naukę Jego ścieżek.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Wezwanie 'prostujcie drogi swego życia' odnosi się do potrzeby nawrócenia, do którego wzywał Jan Chrzciciel, a którego świadectwo jest tematem Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu' jest kwintesencją nauczania Jana Chrzciciela, postaci centralnej w dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o zbliżającym się przyjściu Pana, o którym prorokował Balaam w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

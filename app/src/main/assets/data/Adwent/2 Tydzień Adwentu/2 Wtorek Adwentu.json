@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413336.Wtorek-II-tygodnia-Adwentu",
+  "tytul_dnia": "2 Wtorek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 40, 1-11",
+      "opis": "Pan pocieszy swój lud",
+      "tekst": "«Pocieszajcie, pocieszajcie mój lud!» - mówi wasz Bóg.\n«Przemawiajcie do serca Jeruzalem i wołajcie do niego, że czas jego służby się skończył, że nieprawość jego odpokutowana, bo odebrało z ręki Pana karę w dwójnasób za wszystkie swe grzechy».\nGłos się rozlega: «Drogę Panu przygotujcie na pustyni, wyrównajcie na pustkowiu gościniec dla naszego Boga! Niech się podniosą wszystkie doliny, a wszystkie góry i pagórki obniżą; równiną niechaj się staną urwiska, a strome zbocza niziną. Wtedy się chwała Pańska objawi, razem ją każdy człowiek zobaczy, bo usta Pańskie to powiedziały».\nWstąp na wysoką górę, zwiastunko dobrej nowiny na Syjonie! Podnieś mocno twój głos, zwiastunko dobrej nowiny w Jeruzalem! Podnieś głos, nie bój się! Powiedz miastom judzkim: «Oto wasz Bóg! Oto Pan Bóg przychodzi z mocą i ramię Jego dzierży władzę. Oto Jego nagroda z Nim idzie i przed Nim Jego zapłata. Podobnie jak pasterz pasie on swą trzodę, gromadzi ją swoim ramieniem, jagnięta nosi na swej piersi, owce karmiące prowadzi łagodnie».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1-2. 3 i 10ac. 11-12. 13 (R.: por. Iz 40, 10a)",
+      "opis": "",
+      "tekst": "Refren: Oto nasz Pan Bóg przyjdzie z wielką mocą.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię, *\nkażdego dnia głoście Jego zbawienie.\nRefren.\nGłoście Jego chwałę wśród wszystkich narodów, *\nrozgłaszajcie Jego cuda pośród wszystkich ludów.\nGłoście wśród ludów, że Pan jest królem, *\nbędzie sprawiedliwie sądził ludy.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nniech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Blisko jest dzień Pana,\noto przyjdzie, aby nas zbawić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18, 12-14",
+      "opis": "Bóg nie chce zguby zbłąkanych",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak wam się zdaje? Jeśli ktoś posiada sto owiec i zabłąka się jedna z nich, to czy nie zostawi dziewięćdziesięciu dziewięciu na górach i nie pójdzie szukać tej, która się błąka? A jeśli mu się uda ją odnaleźć, zaprawdę, powiadam wam: cieszy się nią bardziej niż dziewięćdziesięciu dziewięciu tymi, które się nie zabłąkały.\nTak też nie jest wolą ojca waszego, który jest w niebie, żeby zginęło nawet jedno z tych małych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń jest adwentowym wezwaniem do przygotowania dróg dla Pana, o czym mówi pierwsze czytanie z Księgi Izajasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta, mówiąc o obniżaniu się szczytów i podnoszeniu dolin, jest echem proroctwa Izajasza z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta doskonale oddaje treść Ewangelii o Pasterzu szukającym zagubionej owcy, a także obraz pasterza z pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny hymn na cześć przychodzącego Pana, który jako Dobry Pasterz przynosi pocieszenie swojemu ludowi, co jest główną myślą czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest kwintesencją adwentowego wezwania, które słyszymy w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która wyraża ufność w prowadzenie Boże, co jest głównym tematem Ewangelii o zagubionej owcy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "568",
+      "piesn": "Krzyknijmy wszyscy",
+      "opis": "Wspomnienie św. Mikołaja przypomina o dobroci Boga, Dobrego Pasterza, który nie chce, by zginęło nawet jedno z Jego dzieci.",
+      "moment": "ogolne"
+    }
+  ]
+}

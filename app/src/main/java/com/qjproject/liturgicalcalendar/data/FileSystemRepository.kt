@@ -24,6 +24,16 @@ private const val ORDER_FILE_NAME = ".directory_order.json"
 @Serializable
 private data class DirectoryOrder(val order: List<String>)
 
+// --- POCZĄTEK ZMIANY ---
+// Klasa pomocnicza do przechowywania znalezionych plików podczas importu
+private data class FoundImportFiles(
+    val dataDir: File,
+    val datowaneDir: File,
+    val songFile: File
+)
+// --- KONIEC ZMIANY ---
+
+
 class FileSystemRepository(private val context: Context) {
 
     private val json = Json {
@@ -35,11 +45,8 @@ class FileSystemRepository(private val context: Context) {
     private val internalStorageRoot = context.filesDir
 
     private var songListCache: List<Song>? = null
-    private var dayFilePathsCache: List<String>? = null
 
     fun getAllDayFilePaths(): List<String> {
-        dayFilePathsCache?.let { return it }
-
         val paths = mutableListOf<String>()
         val dataDir = File(internalStorageRoot, "data")
         val datowaneDir = File(internalStorageRoot, "Datowane")
@@ -59,7 +66,6 @@ class FileSystemRepository(private val context: Context) {
             findJsonFiles(datowaneDir)
         }
 
-        dayFilePathsCache = paths
         return paths
     }
 
@@ -109,24 +115,32 @@ class FileSystemRepository(private val context: Context) {
     }
 
     fun getDayData(path: String): DayData? {
-        return try {
-            val file = File(internalStorageRoot, path) // Ścieżka powinna już zawierać .json
+        try {
+            val file = File(internalStorageRoot, path)
             if (!file.exists()) {
                 Log.e("FileSystemRepository", "Plik nie istnieje: ${file.absolutePath}")
                 return null
             }
             val jsonString = file.bufferedReader().use { it.readText() }
-            json.decodeFromString<DayData>(jsonString)
+            if (jsonString.isBlank()) {
+                Log.w("FileSystemRepository", "Pusty plik JSON, pomijanie: $path")
+                return null
+            }
+            return json.decodeFromString<DayData>(jsonString)
         } catch (e: Exception) {
-            e.printStackTrace()
-            null
+            Log.w("FileSystemRepository", "Błąd podczas odczytu lub parsowania pliku: $path. Powód: ${e.message}")
+            return null
         }
     }
 
     fun getSongList(): List<Song> {
         songListCache?.let { return it }
         return try {
-            val file = File(internalStorageRoot, "data/piesni.json")
+            val file = File(internalStorageRoot, "piesni.json")
+            if (!file.exists()) {
+                Log.e("FileSystemRepository", "Krytyczny błąd: Plik 'piesni.json' nie istnieje w pamięci wewnętrznej.")
+                return emptyList()
+            }
             val jsonString = file.bufferedReader().use { it.readText() }
             val songs = json.decodeFromString<List<Song>>(jsonString)
             songListCache = songs
@@ -139,7 +153,7 @@ class FileSystemRepository(private val context: Context) {
 
     fun saveSongList(songs: List<Song>): Result<Unit> {
         return try {
-            val file = File(internalStorageRoot, "data/piesni.json")
+            val file = File(internalStorageRoot, "piesni.json")
             file.parentFile?.mkdirs()
             val jsonString = json.encodeToString(songs)
             file.writeText(jsonString)
@@ -325,6 +339,12 @@ class FileSystemRepository(private val context: Context) {
             val datowaneDir = File(internalStorageRoot, "Datowane")
             if (datowaneDir.exists()) zip.addFolder(datowaneDir)
 
+            // --- POCZĄTEK ZMIANY ---
+            // Dodano eksport pliku piesni.json
+            val songFile = File(internalStorageRoot, "piesni.json")
+            if (songFile.exists()) zip.addFile(songFile)
+            // --- KONIEC ZMIANY ---
+
             Result.success(zipFile)
         } catch (e: Exception) {
             e.printStackTrace()
@@ -347,21 +367,28 @@ class FileSystemRepository(private val context: Context) {
             tempUnzipDir.mkdirs()
             ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
 
-            val (dataDir, datowaneDir) = findRequiredFolders(tempUnzipDir)
-                ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych folderów 'data' i 'Datowane' na tym samym poziomie."))
+            // --- POCZĄTEK ZMIANY ---
+            // Zmodyfikowano logikę, aby szukać wszystkich trzech wymaganych elementów
+            val foundFiles = findRequiredFiles(tempUnzipDir)
+                ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych plików/folderów: 'data', 'Datowane' i 'piesni.json'."))
 
-            if (dataDir.listFiles().isNullOrEmpty()) {
+            if (foundFiles.dataDir.listFiles().isNullOrEmpty()) {
                 return Result.failure(IllegalStateException("Folder 'data' w pliku ZIP jest pusty."))
             }
-            if (datowaneDir.listFiles().isNullOrEmpty()) {
+            if (foundFiles.datowaneDir.listFiles().isNullOrEmpty()) {
                 return Result.failure(IllegalStateException("Folder 'Datowane' w pliku ZIP jest pusty."))
             }
 
+            // Czyszczenie starych danych
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
+            File(internalStorageRoot, "piesni.json").delete()
 
-            dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
-            datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
+            // Kopiowanie nowych danych
+            foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
+            foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
+            foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
+            // --- KONIEC ZMIANY ---
 
             return Result.success(Unit)
         } catch (e: Exception) {
@@ -373,7 +400,9 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    private fun findRequiredFolders(startDir: File): Pair<File, File>? {
+    // --- POCZĄTEK ZMIANY ---
+    // Zmieniono nazwę i logikę funkcji, aby szukała wszystkich trzech elementów
+    private fun findRequiredFiles(startDir: File): FoundImportFiles? {
         val queue: Queue<File> = LinkedList()
         queue.add(startDir)
 
@@ -381,13 +410,18 @@ class FileSystemRepository(private val context: Context) {
             val currentDir = queue.poll()
             val dataDir = File(currentDir, "data")
             val datowaneDir = File(currentDir, "Datowane")
+            val songFile = File(currentDir, "piesni.json")
 
-            if (dataDir.exists() && dataDir.isDirectory && datowaneDir.exists() && datowaneDir.isDirectory) {
-                return Pair(dataDir, datowaneDir)
+            if (dataDir.exists() && dataDir.isDirectory &&
+                datowaneDir.exists() && datowaneDir.isDirectory &&
+                songFile.exists() && songFile.isFile
+            ) {
+                return FoundImportFiles(dataDir, datowaneDir, songFile)
             }
 
             currentDir.listFiles { file -> file.isDirectory }?.forEach { queue.add(it) }
         }
         return null
     }
+    // --- KONIEC ZMIANY ---
 }

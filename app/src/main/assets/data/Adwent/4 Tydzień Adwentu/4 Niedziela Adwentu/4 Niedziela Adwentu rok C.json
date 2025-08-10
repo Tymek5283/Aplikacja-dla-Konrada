@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413378.IV-Niedziela-Adwentu-rok-C",
+  "tytul_dnia": "4 Niedziela Adwentu rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mi 5, 1-4a",
+      "opis": "Mesjasz będzie pochodził z Betlejem",
+      "tekst": "Tak mówi Pan:\nA ty, Betlejem Efrata, najmniejsze jesteś wśród plemion judzkich! Z ciebie wyjdzie dla mnie Ten, który będzie władał w Izraelu, a pochodzenie Jego od początku, od dni wieczności. Przeto Pan porzuci ich aż do czasu, kiedy porodzi mająca porodzić. Wtedy reszta braci Jego powróci do synów Izraela.\nPowstanie On i paść będzie mocą Pańską, w majestacie imienia Pana, Boga swego. Osiądą wtedy, bo odtąd rozciągnie swą potęgę aż po krańce ziemi. A On będzie pokojem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 80 (79), 2ac i 3b. 15-16. 18-19 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Odnów nas, Boże, i daj nam zbawienie.\nUsłysz, Pasterzu Izraela, *\nTy, który zasiadasz nad cherubami!\nWzbudź swą potęgę *\ni przyjdź nam z pomocą.\nRefren.\nPowróć, Boże zastępów, *\nwejrzyj z nieba, spójrz i nawiedź tę winorośl.\nChroń to, co zasadziła Twoja prawica, *\nlatorośl, którą umocniłeś dla siebie.\nRefren.\nWyciągnij rękę nad mężem Twej prawicy, †\nnad synem człowieczym, *\nktórego umocniłeś w swej służbie.\nJuż więcej nie odwrócimy się od Ciebie, *\ndaj nam nowe życie, a będziemy Cię chwalili.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 10, 5-10",
+      "opis": "Chrystus przychodzi spełnić wolę Ojca",
+      "tekst": "Bracia:\nChrystus, przychodząc na świat, mówi: «Ofiary ani daru nie chciałeś, ale Mi utworzyłeś ciało; całopalenia i ofiary za grzech nie podobały się Tobie. Wtedy rzekłem: Oto idę - w zwoju księgi napisano o Mnie - aby spełnić wolę Twoją, Boże».\nWyżej powiedział: «Ofiar, darów, całopaleń i ofiar za grzech nie chciałeś i nie podobały się Tobie», choć składane są zgodnie z Prawem. Następnie powiedział: «Oto idę, aby spełnić wolę Twoją». Usuwa jedną ofiarę, aby ustanowić inną. Na mocy tej woli uświęceni jesteśmy przez ofiarę ciała Jezusa Chrystusa raz na zawsze.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 1, 38",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto ja służebnica Pańska,\nniech mi się stanie według słowa twego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 39-45",
+      "opis": "Maryja jest Matką oczekiwanego Mesjasza",
+      "tekst": "W tym czasie Maryja wybrała się i poszła z pośpiechem w góry do pewnego miasta w ziemi Judy. Weszła do domu Zachariasza i pozdrowiła Elżbietę.\nGdy Elżbieta usłyszała pozdrowienie Maryi, poruszyło się dzieciątko w jej łonie, a Duch Święty napełnił Elżbietę. Wydała ona głośny okrzyk i powiedziała: «Błogosławiona jesteś między niewiastami i błogosławiony jest owoc Twojego łona. a skądże mi to, że Matka mojego Pana przychodzi do mnie? Oto bowiem, skoro głos Twego pozdrowienia zabrzmiał w moich uszach, poruszyło się z radości dzieciątko w moim łonie. Błogosławiona jest, która uwierzyła, że spełnią się słowa powiedziane Jej od Pana».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń ta jest echem słów Elżbiety z Ewangelii, która nazywa Maryję błogosławioną, co stanowi doskonałe wprowadzenie w liturgię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Drugie czytanie mówi o ofierze Ciała Chrystusa, a my w geście ofiarowania składamy dary, które się w nie przemienią.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Ewangelia o Nawiedzeniu podkreśla godność Maryi jako Matki Pana, a pieśń ta jest aktem czci i zawierzenia Tej, która przynosi nam Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń jest hymnem uwielbienia Maryi, która uwierzyła i przez którą spełniły się obietnice, co jest głównym tematem Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "Pieśń ta, będąca parafrazą 'Salve Regina', jest modlitwą o wstawiennictwo Tej, która jest Matką naszego Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń jest rozwinięciem pozdrowienia anielskiego i pozdrowienia Elżbiety, które słyszymy w dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża adwentowe oczekiwanie na przyjście Pana, którego Maryja nosi w swoim łonie, spiesząc do Elżbiety.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413385.22-grudnia",
+  "tytul_dnia": "22 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 1, 24-28",
+      "opis": "Anna dziękuje za narodzenie Samuela",
+      "tekst": "Gdy Anna odstawiła Samuela od piersi, wzięła go z sobą w drogę, zabierając również trzyletniego cielca, jedną efę mąki i bukłak wina. Przyprowadziła go do domu Pana, do Szilo. Chłopiec był jeszcze mały.\nZabili cielca i poprowadzili chłopca przed Helego. Powiedziała ona wówczas: «Pozwól, panie mój! Na twoje życie! To ja jestem ową kobietą, która stała tu przed tobą i modliła się do Pana. O tego chłopca się modliłam, i spełnił Pan prośbę, którą do Niego zanosiłam. Oto ja oddaję go Panu. Po wszystkie dni, jak długo będzie żył, zostaje oddany Panu».\nI oddali tam pokłon Panu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "1 Sm 2, 1bcde. 4-5. 6-7. 8abcd (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Całym swym sercem raduję się w Panu.\nMoje serce raduje się w Panu, *\ndzięki Niemu moc moja wzrasta.\nSzeroko otwarłam usta przeciw moim wrogom, *\nbo cieszyć się mogę Twoją pomocą.\nRefren.\nŁuk potężnych się łamie, *\na mocą przepasują się słabi.\nSyci za chleb się najmują, głodni zaś odpoczywają, *\nniepłodna rodzi siedmioro, a matka wielu dzieci usycha.\nRefren.\nPan daje śmierć i życie, *\nwtrąca do otchłani i z niej wyprowadza.\nPan czyni ubogim lub bogatym, *\nponiża i wywyższa.\nRefren.\nBiedaka z prochu podnosi, *\nz błota dźwiga nędzarza,\nby go wśród książąt posadzić *\ni dać mu tron chwały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Królu narodów, Kamieniu węgielny Kościoła,\nprzyjdź i zbaw człowieka, którego z mułu utworzyłeś."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 46-56",
+      "opis": "Maryja dziękuje za wcielenie Syna Bożego",
+      "tekst": "W owym czasie Maryja rzekła:\n«Wielbi dusza moja Pana\ni raduje się duch mój w Bogu, zbawicielu moim.\nBo wejrzał na uniżenie swojej Służebnicy.\nOto bowiem odtąd błogosławić mnie będą\nwszystkie pokolenia,\ngdyż wielkie rzeczy uczynił mi Wszechmocny,\na Jego imię jest święte.\nJego miłosierdzie z pokolenia na pokolenie\nnad tymi, którzy się Go boją.\nOkazał moc swego ramienia,\nrozproszył pyszniących się zamysłami serc swoich.\nStrącił władców z tronu,\na wywyższył pokornych.\nGłodnych nasycił dobrami,\na bogatych z niczym odprawił.\nUjął się za swoim sługą, Izraelem,\npomny na swe miłosierdzie.\nJak obiecał naszym ojcom,\nAbrahamowi i jego potomstwu na wieki».\nMaryja pozostała u Elżbiety około trzech miesięcy; potem wróciła do domu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń ta jest parafrazą hymnu 'Magnificat' z dzisiejszej Ewangelii, co czyni ją idealną na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "Na wzór Anny, która ofiarowała Bogu syna, i Maryi, która oddała się Bogu, my również składamy Mu w darze nasze serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta jest modlitwą do Matki Zbawiciela, której hymn uwielbienia rozważamy w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki, której hymn 'Magnificat' jest czytany w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona na 22 grudnia 'O Królu narodów' jest wołaniem o przyjście Zbawiciela, którego wielkość wysławia Maryja.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń ta rozwija treść pozdrowienia anielskiego i sławi Maryję, która w 'Magnificat' dziękuje Bogu za Jego wielkie dzieła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i uwielbienia podziwiamy w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

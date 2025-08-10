@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413384.23-grudnia",
+  "tytul_dnia": "23 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ml 3, 1-4. 23-24",
+      "opis": "Eliasz poprzedzi przyjście Pana",
+      "tekst": "Tak mówi Pan Bóg:\n«Oto Ja wyślę anioła mego, aby przygotował drogę przede Mną, a potem nagle przybędzie do swej świątyni Pan, którego wy oczekujecie, i anioł Przymierza, którego pragniecie. Oto nadejdzie, mówi Pan zastępów. Ale kto przetrwa dzień Jego nadejścia i kto się ostoi, gdy On się ukaże? Albowiem On jest jak ogień złotnika i jak ług farbiarzy. Usiądzie więc, jakby miał przetapiać i oczyszczać srebro, i oczyści synów Lewiego, i przecedzi ich jak złoto i srebro, a wtedy będą składać Panu ofiary sprawiedliwe. Wtedy będzie miła Panu ofiara Judy i Jeruzalem jak za minionych dni i pradawnych lat.\nOto Ja poślę wam proroka Eliasza przed nadejściem dnia Pańskiego, dnia wielkiego i strasznego. I skłoni on serca ojców ku synom, a serca synów ku ich ojcom, abym nie przyszedł i nie poraził ziemi klątwą».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 8-9. 10 i 14 (R.: por. Łk 21, 28)",
+      "opis": "",
+      "tekst": "Refren: Podnieście głowy, bo Zbawca nadchodzi.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i zbawco, w Tobie mam nadzieję.\nRefren.\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren.\nWszystkie ścieżki Pana są pewne i pełne łaski *\ndla strzegących Jego praw i przymierza.\nBóg powierza swe zamiary swoim czcicielom *\ni objawia im swoje przymierze.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Królu narodów, Kamieniu węgielny Kościoła,\nprzyjdź i zbaw człowieka, którego z mułu utworzyłeś."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 57-66",
+      "opis": "Narodzenie Jana Chrzciciela",
+      "tekst": "Dla Elżbiety nadszedł czas rozwiązania i urodziła syna.\nGdy jej sąsiedzi i krewni usłyszeli, że Pan okazał jej tak wielkie miłosierdzie, cieszyli się z nią razem. Ósmego dnia przyszli, aby obrzezać dziecię, i chcieli mu dać imię ojca jego, Zachariasza. Ale matka jego odpowiedziała: «Nie, natomiast ma otrzymać imię Jan». Odrzekli jej: «Nie ma nikogo w twoim rodzie, kto by nosił to imię».\nPytali więc na migi jego ojca, jak by chciał go nazwać. On zażądał tabliczki i napisał: «Jan będzie mu na imię». I zdumieli się wszyscy.\nA natychmiast otworzyły się jego usta i rozwiązał się jego język, i mówił, błogosławiącą Boga. Wtedy strach padł na wszystkich ich sąsiadów. W całej górskiej krainie Judei rozpowiadano o tym wszystkim, co się zdarzyło. A wszyscy, którzy o tym słyszeli, brali to sobie do serca i pytali: «Kimże będzie to dziecię?» Bo istotnie ręka Pańska była z nim.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' to istota misji Jana Chrzciciela, którego narodziny opisuje Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, którego poprzednikiem jest Jan, zapowiedziany przez Malachiasza jako nowy Eliasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Narodziny Jana Chrzciciela są bezpośrednią zapowiedzią narodzin Jezusa, a ta pieśń jest wołaniem o Jego przyjście do naszych serc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Ewangelia mówi o radości sąsiadów i krewnych z narodzin Jana, a ta pieśń jest wyrazem radości całego stworzenia z bliskości zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona na 23 grudnia 'O Emmanuelu' wzywa Króla i Prawodawcę, którego narodziny przygotowuje Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Pieśń bezpośrednio zwraca się do Jana Chrzciciela, prosząc o wstawiennictwo Tego, który przygotował drogę Panu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażając pragnienie poznania dróg Pańskich i nadzieję w Zbawcy.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413308.Wtorek-I-tygodnia-Adwentu",
+  "tytul_dnia": "1 Wtorek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 11, 1-10",
+      "opis": "Na Chrystusie spocznie Duch Pański",
+      "tekst": "Wyrośnie różdżka z pnia Jessego, wypuści odrośl z jego korzeni. I spocznie na niej duch Pański, duch mądrości i rozumu, duch rady i męstwa, duch wiedzy i bojaźni Pańskiej.\nUpodoba sobie w bojaźni Pańskiej. Nie będzie sądził z pozorów ani wyrokował według pogłosek; raczej rozsądzi biednych sprawiedliwie i pokornym w kraju wyda słuszny wyrok. Rózgą swoich ust uderzy gwałtownika, tchnieniem swoich warg uśmierci bezbożnego. Sprawiedliwość będzie mu pasem na biodrach, a wierność przepasaniem lędźwi.\nWtedy wilk zamieszka wraz z barankiem, pantera z koźlęciem razem leżeć będą, cielę i lew paść się będą pospołu i mały chłopiec będzie je poganiał. Krowa i niedźwiedzica przestawać będą z sobą przyjaźnie, młode ich razem będą legały. Lew też jak wół będzie jadał słomę. Niemowlę igrać będzie na gnieździe kobry, dziecko włoży swą rękę do kryjówki żmii. Zła czynić nie będą ani działać na zgubę po całej świętej mej górze, bo kraj się napełni znajomością Pana, na kształt wód, które przepełniają morze.\nOwego dnia to się stanie: Korzeń Jessego stać będzie na znak dla narodów. do niego ludy przyjdą po radę, i sławne będzie miejsce jego spoczynku.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 72 (71), 1b-2. 7-8. 12-13. 17 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Pokój zakwitnie, kiedy Pan przybędzie.\nBoże, przekaż Twój sąd królowi, *\na Twoją sprawiedliwość synowi królewskiemu.\naby Twoim ludem rządził sprawiedliwie *\ni ubogimi według prawa.\nRefren.\nZa dni jego zakwitnie sprawiedliwość *\ni wielki pokój, zanim księżyc zgaśnie.\nBędzie panował od morza do morza, *\nod Rzeki aż po krańce ziemi.\nRefren.\nWyzwoli bowiem biedaka, który go wzywa, *\ni ubogiego, który nie ma opieki.\nZmiłuje się nad biednym i ubogim, *\nnędzarza ocali od śmierci.\nRefren.\nNiech jego imię trwa na wieki, *\njak długo świeci słońce, niech trwa jego imię.\nNiech jego imieniem wzajemnie się błogosławią, *\nniech wszystkie narody życzą mu szczęścia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto nasz Pan przyjdzie z mocą\ni oświeci oczy sług swoich."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 21-24",
+      "opis": "Jezus rozradował się w Duchu Świętym",
+      "tekst": "Jezus rozradował się w duchu Świętym i rzekł: «Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nOjciec mój przekazał Mi wszystko. Nikt też nie wie, kim jest Syn, tylko Ojciec; ani kim jest Ojciec, tylko Syn i ten, komu Syn zechce objawić».\nPotem zwrócił się do samych uczniów i rzekł: «Szczęśliwe oczy, które widzą to, co wy widzicie. Bo powiadam wam: Wielu proroków i królów pragnęło ujrzeć to, co wy widzieli, a nie ujrzeli, i usłyszeć, co słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć przychodzącego Króla, którego sprawiedliwe i pełne pokoju rządy zapowiada prorok Izajasz i Psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Pierwsze czytanie mówi o Duchu Pańskim, który spocznie na Mesjaszu, a ta pieśń jest prośbą o dary tego samego Ducha.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o objawieniu tajemnic prostaczkom, a pieśń o błogosławieństwach podkreśla wartość ubóstwa i cichości w oczach Bożych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jezus w Ewangelii wysławia Ojca, a ta pieśń jest majestatycznym hymnem na cześć Króla, którego sprawiedliwe rządy zapowiadają czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, który objawia tajemnice królestwa prostaczkom i posyła nas, byśmy byli Jego świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "W kontekście adwentowego oczekiwania, pieśń ta wzywa do przygotowania serca na przyjęcie Tego, na którym spocznie Duch Pański.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla chwały, co nawiązuje do zapowiedzi przyjścia Mesjasza z pierwszego czytania.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413334.Czwartek-II-tygodnia-Adwentu",
+  "tytul_dnia": "2 Czwartek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 41, 13-20",
+      "opis": "Bóg jest odkupicielem",
+      "tekst": "Ja, Pan, twój Bóg, ująłem twą prawicę, mówiąc ci: «Nie lękaj się, przychodzę ci z pomocą».\nNie bój się, robaczku Jakubie, nieboraku Izraelu! Ja cię wspomagam - mówi Pan - odkupicielem twoim - Święty Izraela. Oto Ja przemieniam cię w młockarskie sanie, nowe, o podwójnym rzędzie zębów: ty zmłócisz i pokruszysz góry, zamienisz pagórki w drobną sieczkę; ty je przewiejesz, a wicher je porwie i trąba powietrzna rozmiecie. Ty natomiast rozradujesz się w Panie, chlubić się będziesz w Świętym Izraela.\nNędzni i biedni szukają wody, a jej nie ma! Ich język wysechł już z pragnienia. Ja, Pan, wysłucham ich, nie opuszczę ich Ja, Bóg Izraela. Każę wytrysnąć strumieniom na nagich wzgórzach i źródłom wód pośrodku nizin. zamienię pustynię w pojezierze, a wyschniętą ziemię w wodotryski. Na pustyni zasadzę cedry, akacje, mirty i oliwki; rozkrzewię na pustkowiu cyprysy, wiązy i bukszpan obok siebie, ażeby zobaczyli i poznali, rozważyli i pojęli wszyscy, że ręka Pańska to uczyniła, że Święty Izraela tego dokonał.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 1bc i 9. 10-11. 12-13 (R.: por. 8)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łagodny i bardzo łaskawy.\nBędę Cię wielbił, Boże mój i Królu, *\ni sławił Twoje imię przez wszystkie wieki.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nAby synom ludzkim oznajmić Twoją potęgę *\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków, *\nprzez wszystkie pokolenia Twoje panowanie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Iz 45, 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niebiosa, spuśćcie Sprawiedliwego jak rosę, niech jak deszcz spłynie z obłoków,\nniech się otworzy ziemia i zrodzi Zbawiciela."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 11-15",
+      "opis": "Nie ma większego człowieka od Jana Chrzciciela",
+      "tekst": "Jezus powiedział do tłumów:\n«Zaprawdę, powiadam wam: Między narodzonymi z niewiast nie powstał większy od Jana Chrzciciela. Lecz najmniejszy w królestwie niebieskim większy jest niż on. A od czasu Jana Chrzciciela aż dotąd królestwo niebieskie doznaje gwałtu, a zdobywają je ludzie gwałtowni. Wszyscy bowiem Prorocy i Prawo prorokowali aż do Jana. A jeśli chcecie uznać, to on jest Eliaszem, który ma przyjść. Kto ma uszy, niechaj słucha!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "W kontekście Ewangelii o Janie Chrzcicielu, który przygotował drogę Panu, ta pieśń jest wołaniem o przyjście Zbawiciela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, co jest głównym przesłaniem postaci Jana Chrzciciela, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Ewangelia mówi o królestwie niebieskim, które zdobywają gwałtownicy; ta pieśń jest wyrazem gorącego pragnienia i wołania o przyjście Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pierwsze czytanie zapowiada wielką radość w Panu, a ta pieśń jest radosnym hymnem na cześć przychodzącego Króla.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń poświęcona Janowi Chrzcicielowi, którego wielkość podkreśla Jezus w Ewangelii, jest doskonałym podsumowaniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pierwsze czytanie zawiera obietnicę 'Nie lękaj się, przychodzę ci z pomocą', a ta pieśń jest wyrazem ufności w tę Bożą opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta wzywa do przygotowania na przyjście Zbawiciela, którego poprzedzał Jan Chrzciciel, największy 'między narodzonymi z niewiast'.",
+      "moment": "ogolne"
+    }
+  ]
+}

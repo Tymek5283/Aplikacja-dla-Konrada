@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413304.Sobota-I-tygodnia-Adwentu",
+  "tytul_dnia": "1 Sobota Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 30, 19-21. 23-26",
+      "opis": "Bóg zlituje się nad swoim ludem",
+      "tekst": "Tak mówi Pan Bóg, Święty Izraela:\nZaiste, o ludu, który zamieszkujesz Syjon w Jerozolimie, nie będziesz gorzko płakał. Rychło okaże ci on łaskę na głos twojej prośby. Ledwie usłyszy, odpowie ci.\nChoćby ci Pan dał chleb ucisku i wodę utrapienia, twój Nauczyciel już nie odstąpi, a oczy twoje patrzeć będą na twego Mistrza. Twoje uszy usłyszą słowa rozlegające się za tobą: «To jest droga, idźcie nią!», jeśli chciałbyś iść na prawo lub na lewo.\nOn ześle deszcz na zboże, którym obsiejesz rolę, a pokarm z plonów ziemi będzie soczysty i pożywny. Twoje trzody będą się pasły w owym dniu na rozległych łąkach. Woły i osły obrabiające rolę żreć będą paszę dobrze przyprawioną, która została starannie przewiana.\nDojdzie do tego, że na każdej wysokiej górze i na każdym wyniosłym pagórku będą strumienie płynących wód na czas wielkiej rzezi, gdy padną warownie. Wówczas światło księżyca będzie jak światło słoneczne, a światło słońca będzie siedmiokrotne, jakby światło siedmiu dni, w dniu, gdy Pan opatrzy rany swego ludu i uleczy jego sińce po razach.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147A (146), 1b-2. 3-4. 5-6 (R.: por. Iz 30, 18)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Szczęśliwi wszyscy, co ufają Panu.\nChwalcie Pana, bo dobrze jest śpiewać psalmy Bogu, *\nsłodko jest Go wysławiać.\nPan buduje Jeruzalem, *\ngromadzi rozproszonych z Izraela.\nRefren.\nOn leczy złamanych na duchu *\ni przewiązuje ich rany.\nOn liczy wszystkie gwiazdy *\ni każdej imię nadaje.\nRefren.\nNasz Pan jest wielki i potężny, *\na Jego mądrość niewypowiedziana.\nPan dźwiga pokornych, *\nkarki grzeszników zgina do ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Iz 33, 22",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan jest naszym sędzią, Pan naszym prawodawcą,\nPan naszym królem, on nas zbawi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 35 - 10, 1. 5a. 6-8",
+      "opis": "Jezus lituje się nad znękanymi",
+      "tekst": "Jezus obchodził wszystkie miasta i wioski. Nauczał w tamtejszych synagogach, głosił Ewangelię o królestwie i leczył wszystkie choroby i wszystkie słabości.\nA widząc tłumy, litował się nad nimi, bo byli znękani i porzuceni, jak owce niemające pasterza. Wtedy rzekł do swych uczniów: «Żniwo wprawdzie wielkie, ale robotników mało. Proście Pana żniwa, żeby wyprawił robotników na swoje żniwo».\nWtedy przywołał do siebie dwunastu swoich uczniów i udzielił im władzy nad duchami nieczystymi, aby je wypędzali i leczyli wszystkie choroby i wszelkie słabości. Tych to dwunastu wysłał Jezus i dał im takie wskazania: «Idźcie do owiec, które poginęły z domu Izraela. Idźcie i głoście: Bliskie już jest królestwo niebieskie. Uzdrawiajcie chorych, wskrzeszajcie umarłych, oczyszczajcie trędowatych, wypędzajcie złe duchy. Darmo otrzymaliście, darmo dawajcie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, przygotowując się na przyjście Pana, który w Ewangelii lituje się nad tłumem i posyła uczniów z misją uzdrowienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "W Ewangelii Jezus posyła uczniów, by darmo dawali, co otrzymali; my w ofiarowaniu składamy dary, przygotowując się na przyjęcie największego Daru.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, który lituje się nad tłumem jak nad owcami bez pasterza i który karmi nas swoim Ciałem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i ocalenie, co jest odpowiedzią na obietnicę uzdrowienia z pierwszego czytania i cuda Jezusa w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim echem misyjnego nakazu Jezusa z Ewangelii, posyłającego uczniów do głoszenia i uzdrawiania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Ewangelia ukazuje Jezusa jako pasterza litującego się nad owcami bez pasterza, a ta pieśń wyraża naszą ufność w Jego opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń adwentowa, która w kontekście Ewangelii przypomina, że oczekiwanie na Pana wiąże się z misją głoszenia Jego bliskości.",
+      "moment": "ogolne"
+    }
+  ]
+}

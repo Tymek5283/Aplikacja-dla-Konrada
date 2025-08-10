@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413335.Sroda-II-tygodnia-Adwentu",
+  "tytul_dnia": "2 Środa Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 40, 25-31",
+      "opis": "Bóg dodaje mocy zmęczonemu",
+      "tekst": "«Z kim moglibyście Mnie porównać, tak żeby Mi dorównał?» - mówi Święty. Podnieście oczy w górę i patrzcie: Kto stworzył te gwiazdy? - Ten, który w szykach prowadzi ich wojsko, wszystkie je woła po imieniu. Spod takiej potęgi i olbrzymiej siły nikt się nie wymknie.\nCzemu mówisz, Jakubie, i ty, Izraelu, powtarzasz: «Zakryta jest moja droga przed Panem i prawo moje przez Boga pominięte?» Czy nie wiesz tego? Czy nie słyszałeś?\nPan - to Bóg wieczny, Stwórca krańców ziemi. On się nie męczy ani nie nuży, Jego mądrość jest niezgłębiona.\nOn daje siłę zmęczonemu i pomnaża moc bezsilnego. Chłopcy się męczą i nużą, chwieją się, słabnąc, młodzieńcy, lecz ci, co zaufali Panu, odzyskują siły, otrzymują skrzydła jak orły; biegną bez zmęczenia, bez znużenia idą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 8 i 10 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Chwal i błogosław, duszo moja, Pana.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie postępuje z nami według naszych grzechów *\nani według win naszych nam nie odpłaca.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto Pan przyjdzie, aby lud swój zbawić,\nbłogosławieni, którzy są gotowi wyjść Mu na spotkanie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 28-30",
+      "opis": "Chrystus pokrzepia utrudzonych",
+      "tekst": "Jezus przemówił tymi słowami:\n«Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię. Weźcie na siebie moje jarzmo i uczcie się ode Mnie, bo jestem cichy i pokornego serca, a znajdziecie ukojenie dla dusz waszych. Albowiem słodkie jest moje jarzmo, a moje brzemię lekkie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Ewangelia jest zaproszeniem Jezusa: 'Przyjdźcie do Mnie wszyscy, którzy utrudzeni jesteście', a ta pieśń jest naszą odpowiedzią.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o Boże prowadzenie i pokrzepienie, które obiecuje Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "W Komunii przychodzi do nas cichy i pokorny Jezus, a ta pieśń prosi, by On sam zamieszkał w naszej duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń jest wyrazem dziękczynienia i zaufania Panu, który, jak mówi Izajasz, 'daje siłę zmęczonemu i pomnaża moc bezsilnego'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest adwentowym wołaniem o przyjście Pana, który jest ukojeniem dla naszych dusz, co obiecuje Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pierwsze czytanie zachęca: 'ci, co zaufali Panu, odzyskują siły', a ta pieśń jest aktem zawierzenia Jego słowu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża szczęście płynące z Bożej opieki, o której zapewnia nas zarówno prorok Izajasz, jak i sam Jezus w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

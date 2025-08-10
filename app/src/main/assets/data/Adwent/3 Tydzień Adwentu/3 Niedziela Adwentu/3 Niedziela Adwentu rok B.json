@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413348.III-Niedziela-Adwentu-rok-B",
+  "tytul_dnia": "3 Niedziela Adwentu rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 61, 1-2a. 10-11",
+      "opis": "Ogromnie się weselę w Panu",
+      "tekst": "Duch Pana Boga nade mną, bo Pan mnie namaścił. Posłał mnie, abym głosił dobrą nowinę ubogim, bym opatrywał rany serc złamanych, żebym zapowiadał wyzwolenie jeńcom i więźniom swobodę; abym obwieszczał rok łaski Pańskiej.\n«Ogromnie się weselę w Panu, dusza moja raduje się w Bogu moim, bo mnie przyodział w szaty zbawienia, okrył mnie płaszczem sprawiedliwości, jak oblubieńca, który wkłada zawój, jak oblubienicę strojną w swe klejnoty. Zaiste, jak ziemia wydaje swe plony, jak ogród rozplenia swe zasiewy, tak Pan Bóg sprawi, że się rozpleni sprawiedliwość i chwała wobec wszystkich narodów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Łk 1, 46b-48. 49-50. 53-54 (R.: por. Iz 61, 10b)",
+      "opis": "",
+      "tekst": "Refren: Raduj się, duszo, w Bogu, Zbawcy moim.\nWielbi dusza moja Pana *\ni raduje się duch mój w Bogu, zbawicielu moim.\nBo wejrzał na uniżenie swojej Służebnicy. *\nOto bowiem odtąd błogosławić mnie będą\nwszystkie pokolenia.\nRefren.\nGdyż wielkie rzeczy uczynił mi Wszechmocny, *\na Jego imię jest święte.\nJego miłosierdzie z pokolenia na pokolenie *\nnad tymi, którzy się Go boją.\nRefren.\nGłodnych nasycił dobrami, *\na bogatych z niczym odprawił.\nUjął się za swoim sługą, Izraelem, *\npomny na swe miłosierdzie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Tes 5, 16-24",
+      "opis": "Przygotujcie duszę i ciało na przyjście Pana",
+      "tekst": "Bracia:\nZawsze się radujcie, nieustannie się módlcie. W każdym położeniu dziękujcie, taka jest bowiem wola Boża w Jezusie Chrystusie względem was. Ducha nie gaście, proroctwa nie lekceważcie. Wszystko badajcie, a co szlachetne - zachowujcie. Unikajcie wszelkiego rodzaju zła.\nSam zaś Bóg pokoju niech uświęca was całych, aby nietknięty duch wasz, dusza i ciało bez zarzutu zachowały się na przyjście Pana naszego, Jezusa Chrystusa. Wierny jest Ten, który was wzywa: On też tego dokona.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Iz 61, 1",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Pański nade mną,\nposłał mnie, abym głosił dobrą nowinę ubogim."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 6-8. 19-28",
+      "opis": "Świadectwo Jana Chrzciciela o Chrystusie",
+      "tekst": "Pojawił się człowiek posłany przez Boga - Jan mu było na imię. Przyszedł on na świadectwo, aby zaświadczyć o światłości, by wszyscy uwierzyli przez niego. Nie był on światłością, lecz został posłany, aby zaświadczyć o światłości.\nTakie jest świadectwo Jana. Gdy Żydzi wysłali do niego z Jerozolimy kapłanów i lewitów z zapytaniem: «Kto ty jesteś? », on wyznał, a nie zaprzeczył, oświadczając: «Ja nie jestem Mesjaszem».\nZapytali go: «Cóż zatem? Czy jesteś Eliaszem?» Odrzekł: «Nie jestem». «Czy ty jesteś prorokiem?» Odparł: «Nie». Powiedzieli mu więc: «Kim jesteś, abyśmy mogli dać odpowiedź tym, którzy nas wysłali? Co mówisz sam o sobie?»\nPowiedział: «Jam głos wołającego na pustyni: Prostujcie drogę Pańską, jak rzekł prorok Izajasz». A wysłannicy byli spośród faryzeuszy. i zaczęli go pytać, mówiąc do niego: «Czemu zatem chrzcisz, skoro nie jesteś ani Mesjaszem, ani Eliaszem, ani prorokiem?» Jan im tak odpowiedział: «Ja chrzczę wodą. Pośród was stoi Ten, którego wy nie znacie, który po mnie idzie, a któremu ja nie jestem godzien odwiązać rzemyka u Jego sandała».\nDziało się to w Betanii, po drugiej stronie Jordanu, gdzie Jan udzielał chrztu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' idealnie oddaje misję Jana Chrzciciela, który jest centralną postacią Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Drugie czytanie wzywa do czuwania i zachowania duszy bez zarzutu, a ta pieśń jest modlitwą o dobre przygotowanie na przyjście Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń wyraża tęsknotę za przyjściem Jezusa, którego zapowiada Jan Chrzciciel, i jest wołaniem o Jego obecność w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Psalm responsoryjny to hymn Magnificat, a ta pieśń, oparta na jego tekście, jest wyrazem radości w Bogu, podobnie jak Maryja i Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który wskazuje na Chrystusa - Światłość, stanowi doskonałe podsumowanie i posłanie na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Cała liturgia Niedzieli Gaudete przepełniona jest radością, a ta pieśń wzywa całe stworzenie do radości z powodu przyjścia Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta, wzywając do prostowania dróg, nawiązuje do nauczania Jana Chrzciciela i przygotowuje na bliskie spotkanie z Panem.",
+      "moment": "ogolne"
+    }
+  ]
+}

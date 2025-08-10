@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413380.IV-Niedziela-Adwentu-rok-A",
+  "tytul_dnia": "4 Niedziela Adwentu rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 7, 10-14",
+      "opis": "Panna pocznie i porodzi Syna",
+      "tekst": "Pan przemówił do Achaza tymi słowami: «Proś dla siebie o znak od Pana, Boga twego, czy to głęboko w Szeolu, czy to wysoko w górze!»\nLecz Achaz odpowiedział: «Nie będę prosił i nie będę wystawiał Pana na próbę».\nWtedy rzekł Izajasz: «Słuchajcie więc, domu Dawidowy: Czyż mało wam uprzykrzać się ludziom, iż uprzykrzacie się także mojemu Bogu? Dlatego Pan sam da wam znak: Oto Panna pocznie i porodzi Syna, i nazwie Go imieniem Emmanuel».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 7c i 10b)",
+      "opis": "",
+      "tekst": "Refren: Przybądź, o Panie, Tyś jest Królem chwały.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem on go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 1, 1-7",
+      "opis": "Chrystus jest potomkiem Dawida i Synem Bożym",
+      "tekst": "Paweł, sługa Chrystusa Jezusa, z powołania apostoł, przeznaczony do głoszenia Ewangelii Bożej, którą Bóg przedtem zapowiedział przez swoich proroków w Pismach świętych. Jest to Ewangelia o Jego Synu - pochodzącym według ciała z rodu Dawida, a ustanowionym według Ducha Świętości pełnym mocy Synem Bożym przez powstanie z martwych - o Jezusie Chrystusie, Panu naszym.\nPrzez Niego otrzymaliśmy łaskę i urząd apostolski, aby ku chwale Jego imienia pozyskiwać wszystkich pogan dla posłuszeństwa wierze. Wśród nich jesteście i wy, powołani przez Jezusa Chrystusa.\nDo wszystkich przez Boga umiłowanych, powołanych świętych, którzy mieszkają w Rzymie: łaska wam i pokój od Boga, ojca naszego, i Pana Jezusa Chrystusa!\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 1, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto dziewica pocznie i porodzi Syna,\nktóremu nadadzą imię Emmanuel,\nto znaczy Bóg z nami."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 1, 18-24",
+      "opis": "Jezus urodzi się z Maryi zaślubionej Józefowi, potomkowi Dawida",
+      "tekst": "Z narodzeniem Jezusa Chrystusa było tak. Po zaślubinach Matki Jego, Maryi, z Józefem, wpierw nim zamieszkali razem, znalazła się brzemienną za sprawą Ducha Świętego. Mąż Jej, Józef, który był człowiekiem sprawiedliwym i nie chciał narazić Jej na zniesławienie, zamierzał oddalić Ją potajemnie.\nGdy powziął tę myśl, oto Anioł Pański ukazał mu się we śnie i rzekł: «Józefie, synu Dawida, nie bój się wziąć do siebie Maryi, twej Małżonki; albowiem z Ducha Świętego jest to, co się w Niej poczęło. Porodzi Syna, któremu nadasz imię Jezus, on bowiem zbawi swój lud od jego grzechów». A stało się to wszystko, aby się wypełniło słowo Pańskie powiedziane przez Proroka: «Oto dziewica pocznie i porodzi Syna, któremu nadadzą imię Emmanuel», to znaczy Bóg z nami.\nZbudziwszy się ze snu, Józef uczynił tak, jak mu polecił Anioł Pański: wziął swoją Małżonkę do siebie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z pierwszego czytania i proroctwa, które wypełnia się w Ewangelii, co czyni ją idealną na wejście.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Ewangelia ukazuje postać św. Józefa i jego posłuszeństwo woli Bożej, a w tej pieśni prosimy go o wstawiennictwo i opiekę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Antyfona 'O Emmanuelu' jest wołaniem o przyjście 'Boga z nami', co jest centralnym przesłaniem dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Chociaż Ewangelia skupia się na Józefie, ta pieśń przypomina o Zwiastowaniu Maryi, które poprzedziło wydarzenia opisane w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "W ostatnią niedzielę Adwentu ta pieśń jest wyrazem ostatecznego przygotowania na bliskie już przyjście Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Klasyczna pieśń adwentowa, która w kontekście dzisiejszych czytań ukazuje spełnienie się odwiecznych próśb o Zbawiciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

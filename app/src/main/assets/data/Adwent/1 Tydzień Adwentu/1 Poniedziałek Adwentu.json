@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413309.Poniedzialek-I-Tygodnia-Adwentu",
+  "tytul_dnia": "1 Poniedziałek Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 2, 1-5",
+      "opis": "Pokój królestwa Bożego",
+      "tekst": "Widzenie Izajasza, syna Amosa, dotyczące Judy i Jerozolimy:\nStanie się na końcu czasów, że góra świątyni Pańskiej stać będzie mocno na szczycie gór i wystrzeli ponad pagórki. Wszystkie narody do niej popłyną, mnogie ludy pójdą i rzekną: «Chodźcie, wstąpmy na górę Pańską, do świątyni Boga Jakuba! Niech nas nauczy dróg swoich, byśmy kroczyli Jego ścieżkami. Bo Prawo pochodzi z Syjonu i słowo Pańskie - z Jeruzalem».\nOn będzie rozjemcą pomiędzy ludami i sędzią dla licznych narodów. Wtedy swe miecze przekują na lemiesze, a swoje włócznie na sierpy. Naród przeciw narodowi nie podniesie miecza, nie będą się więcej zaprawiać do wojny.\nChodźcie, domu Jakuba, postępujmy w światłości Pańskiej!\nOto słowo Boże.\nW roku A, gdy powyższe czytanie  zostało wykorzystane w 1 Niedzielę Adwentu, można odczytać następującą perykopę:\nIz 4, 2-6\nRadość zbawionych\nW owym dniu odrośl Pana stanie się ozdobą i chwałą, a owoc ziemi przepychem i krasą dla ocalałych z Izraela. I będzie tak: Ktokolwiek pozostał żywy na Syjonie i kto się ostał w Jeruzalem, każdy będzie nazwany świętym i wpisany do Księgi Życia w Jeruzalem.\nGdy Pan obmyje brud Córy Syjońskiej i krew rozlaną w Jeruzalem oczyści powiewem sądu i podmuchem pożogi, wtedy Pan przyjdzie spocząć na całej przestrzeni góry Syjon i na tych, którzy się tam zgromadzą, we dnie jako obłok z dymu, w nocy jako olśniewający płomień ognia. Albowiem nad wszystkim chwała Pańska będzie osłoną i namiotem, by za dnia dać cień przed skwarem, ucieczkę zaś i schronienie przed nawałnicą i ulewą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 122 (121), 1b-2. 4-5. 6-7. 8-9 (R.: por. 1bc)",
+      "opis": "",
+      "tekst": "Refren: Idźmy z radością na spotkanie Pana.\nUcieszyłem się, gdy mi powiedziano: *\n«Pójdziemy do domu Pana».\nJuż stoją nasze stopy *\nw twoich bramach, Jeruzalem.\nRefren.\nDo niego wstępują pokolenia Pańskie, *\naby zgodnie z prawem Izraela wielbić imię Pana.\nTam ustawiono trony sędziowskie, *\ntrony domu Dawida.\nRefren.\nProście o pokój dla Jeruzalem: *\nNiech żyją w pokoju, którzy cię miłują.\nNiech pokój panuje w twych murach, *\na pomyślność w twoich pałacach.\nRefren.\nZe względu na moich braci i przyjaciół *\nbędę wołał: «Pokój z tobą!»\nZe względu na dom Pana, Boga naszego, *\nmodlę się o dobro dla ciebie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 80 (79), 4",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Panie, Boże nasz, przyjdź, aby nas uwolnić,\nokaż swoje oblicze, a będziemy zbawieni."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 5-11",
+      "opis": "Wielu ze Wschodu i Zachodu przyjdzie do królestwa niebieskiego",
+      "tekst": "Gdy Jezus wszedł do Kafarnaum, zwrócił się do Niego setnik i prosił Go, mówiąc: «Panie, sługa mój leży w domu sparaliżowany i bardzo cierpi». Rzekł mu Jezus: «Przyjdę i uzdrowię go».\nLecz setnik odpowiedział: «Panie, nie jestem godzien, abyś wszedł pod dach mój, ale powiedz tylko słowo, a mój sługa odzyska zdrowie. Bo i ja, choć podlegam władzy, mam pod sobą żołnierzy. Mówię temu: „idź!” - a idzie; drugiemu: „Przyjdź!” - a przychodzi; a słudze: „zrób to!” - a robi».\nGdy Jezus to usłyszał, zadziwił się i rzekł do tych, którzy szli za Nim: «Zaprawdę, powiadam wam: u nikogo w Izraelu nie znalazłem tak wielkiej wiary. Lecz powiadam wam: Wielu przyjdzie ze Wschodu i z Zachodu i zasiądą do stołu z Abrahamem, Izaakiem i Jakubem w królestwie niebieskim».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym wezwaniem, które koresponduje z refrenem psalmu 'Idźmy z radością na spotkanie Pana' i proroctwem Izajasza o pielgrzymce narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Słowa setnika z Ewangelii 'Panie, nie jestem godzien' znajdują swoje rozwinięcie w tej eucharystycznej pieśni, wyrażającej pokorę przed przyjściem Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Wobec wielkiej wiary setnika, który prosi o uzdrowienie, my z wiarą przyjmujemy Chleb Życia, który daje uzdrowienie duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Dziękczynienie za dar wiary, tak wielkiej jak u setnika, i za obietnicę wejścia do królestwa niebieskiego dla wszystkich narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Proroctwo Izajasza o wszystkich narodach i słowa Jezusa o przychodzących ze wschodu i zachodu posyłają nas, by głosić Ewangelię całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wzywa do przygotowania na przyjście Zbawiciela, do którego z tak wielką wiarą zwrócił się setnik z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Krótka, medytacyjna pieśń, która przypomina o bliskości Pana i potrzebie czuwania, co jest istotą Adwentu.",
+      "moment": "ogolne"
+    }
+  ]
+}

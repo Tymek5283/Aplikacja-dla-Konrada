@@ -26,10 +26,11 @@ class SongDetailsViewModel(
     val uiState = _uiState.asStateFlow()
 
     init {
-        loadSongDetails()
+        reloadData()
     }
 
-    private fun loadSongDetails() {
+    // Funkcja do ponownego załadowania danych, wywoływana z UI, gdy ekran staje się aktywny.
+    fun reloadData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
             if (songNumber.isNullOrBlank()) {

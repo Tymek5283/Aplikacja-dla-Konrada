@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413307.Sroda-I-tygodnia-Adwentu",
+  "tytul_dnia": "1 Środa Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 25, 6-10a",
+      "opis": "Pan Bóg zaprasza na ucztę mesjańską i otrze łzy z każdego oblicza",
+      "tekst": "Pan zastępów przygotuje dla wszystkich ludów na tej górze ucztę z tłustego mięsa, ucztę z wybornych win, z najpożywniejszego mięsa, z najwyborniejszych win. Zedrze on na tej górze zasłonę, zapuszczoną na twarz wszystkich ludów, i całun, który okrywał wszystkie narody; raz na zawsze zniszczy śmierć. Wtedy Pan Bóg otrze łzy z każdego oblicza, zdejmie hańbę ze swego ludu na całej ziemi, bo Pan przyrzekł.\nI powiedzą w owym dniu: oto nasz Bóg, Ten, któremu zaufaliśmy, że nas wybawi; oto Pan, w którym złożyliśmy naszą ufność; cieszmy się i radujmy z Jego zbawienia! Albowiem ręka Pana spocznie na tej górze.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23 (22), 1b-3a. 3b-4. 5. 6 (R.: por. 6cd)",
+      "opis": "",
+      "tekst": "Refren: Po wieczne czasy zamieszkam u Pana.\nPan jest moim pasterzem, †\nniczego mi nie braknie, *\npozwala mi leżeć na zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć, *\norzeźwia moją duszę.\nRefren.\nWiedzie mnie po właściwych ścieżkach *\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę, †\nzła się nie ulęknę, bo Ty jesteś ze mną. *\nKij Twój i laska pasterska są moją pociechą.\nRefren.\nStół dla mnie zastawiasz *\nna oczach mych wrogów.\nNamaszczasz mi głowę olejkiem, *\nkielich mój pełny po brzegi.\nRefren.\nDobroć i łaska pójdą w ślad za mną *\nprzez wszystkie dni życia\ni zamieszkam w domu Pana *\npo najdłuższe czasy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto Pan przyjdzie, aby lud swój zbawić,\nbłogosławieni, którzy są gotowi wyjść Mu na spotkanie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 15, 29-37",
+      "opis": "Jezus ociera łzy i daje cudowny pokarm",
+      "tekst": "Jezus przyszedł nad Jezioro Galilejskie. Wszedł na górę i tam siedział. i przyszły do Niego wielkie tłumy, mając z sobą chromych, ułomnych, niewidomych, niemych i wielu innych, i położyli ich u Jego stóp, a on ich uzdrowił. Tłumy zdumiewały się, widząc, że niemi mówią, ułomni są zdrowi, chromi chodzą, niewidomi widzą. i wielbiły Boga Izraela.\nLecz Jezus przywołał swoich uczniów i rzekł: «Żal Mi tego tłumu! Już trzy dni trwają przy Mnie, a nie mają, co jeść. Nie chcę ich puścić zgłodniałych, żeby ktoś nie zasłabł w drodze». Na to rzekli Mu uczniowie: «Skąd tu na pustkowiu weźmiemy tyle chleba, żeby nakarmić tak wielki tłum?» Jezus zapytał ich: «ile macie chlebów?» Odpowiedzieli: «Siedem i parę rybek».\nA gdy polecił tłumowi usiąść na ziemi, wziął siedem chlebów i ryby i odmówiwszy dziękczynienie, połamał, dawał uczniom, uczniowie zaś tłumom. Jedli wszyscy do syta, a pozostałych ułomków zebrano jeszcze siedem pełnych koszów.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pierwsze czytanie zapowiada radosną ucztę mesjańską, a ta pieśń wzywa całe stworzenie do radości z powodu zbawienia, które przynosi Pan.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia o rozmnożeniu chleba jest zapowiedzią Eucharystii - uczty, na którą zaprasza nas Pan, o czym mówi ta pieśń.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, a obraz Pasterza, który zastawia stół, doskonale pasuje do Komunii Świętej i cudu rozmnożenia chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest wyrazem radości z przyjścia Pana i Jego zbawczych dzieł, opisanych w pierwszym czytaniu i Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest prośbą o przyjście Pana, który jako jedyny może nasycić głód ludzkich serc, co symbolizuje cud rozmnożenia chleba.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do cudu rozmnożenia chleba z Ewangelii, który jest obrazem Eucharystii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "W kontekście adwentowym, ta pieśń przypomina, że Pan przychodzi, by nas zbawić i nakarmić, jak to uczynił nad Jeziorem Galilejskim.",
+      "moment": "ogolne"
+    }
+  ]
+}

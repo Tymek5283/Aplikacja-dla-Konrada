@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413389.18-grudnia",
+  "tytul_dnia": "18 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 23, 5-8",
+      "opis": "Mesjasz będzie potomkiem Dawida",
+      "tekst": "«Oto nadchodzą dni - mówi Pan - kiedy wzbudzę Dawidowi odrośl sprawiedliwą. Będzie panował jako król, postępując roztropnie, i będzie wykonywał prawo i sprawiedliwość na ziemi. W jego dniach Juda dostąpi zbawienia, a Izrael będzie mieszkał bezpiecznie. To zaś będzie imię, którym go będą nazywać: „Pan naszą sprawiedliwością”.\nDlatego właśnie nadchodzą dni - mówi Pan - kiedy nie będą już mówić: Na życie Pana, który wyprowadził synów Izraela z ziemi egipskiej, lecz raczej: Na życie Pana, który wyprowadził i przywrócił pokolenie domu Izraela z ziemi północnej i ze wszystkich ziem, po których ich rozproszył; tak że będą mogli mieszkać na swej ziemi».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 72 (71), 1b-2. 12-13. 18-19ab (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Pokój zakwitnie, kiedy Pan przybędzie.\nBoże, przekaż Twój sąd królowi, *\na Twoją sprawiedliwość synowi królewskiemu.\naby Twoim ludem rządził sprawiedliwie *\ni ubogimi według prawa.\nRefren.\nWyzwoli bowiem biedaka, który go wzywa, *\ni ubogiego, który nie ma opieki.\nZmiłuje się nad biednym i ubogim, *\nnędzarza ocali od śmierci.\nRefren.\nBłogosławiony niech będzie Pan, Bóg Izraela, *\nktóry sam czyni cuda.\nNa wieki niech będzie błogosławione Jego imię, *\na Jego chwała niech wypełni ziemię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wodzu domu Izraela, który na Synaju dałeś Prawo Mojżeszowi,\nprzyjdź nas odkupić mocą Twojego ramienia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 1, 18-24",
+      "opis": "Jezus urodzi się z Maryi zaślubionej Józefowi, potomkowi Dawida",
+      "tekst": "Z narodzeniem Jezusa Chrystusa było tak. Po zaślubinach Matki Jego, Maryi, z Józefem, wpierw nim zamieszkali razem, znalazła się brzemienną za sprawą Ducha Świętego. Mąż Jej, Józef, który był człowiekiem sprawiedliwym i nie chciał narazić Jej na zniesławienie, zamierzał oddalić Ją potajemnie.\nGdy powziął tę myśl, oto Anioł Pański ukazał mu się we śnie i rzekł: «Józefie, synu Dawida, nie bój się wziąć do siebie Maryi, twej Małżonki; albowiem z Ducha Świętego jest to, co się w Niej poczęło. Porodzi Syna, któremu nadasz imię Jezus, on bowiem zbawi swój lud od jego grzechów».\nA stało się to wszystko, aby się wypełniło słowo Pańskie powiedziane przez Proroka: «Oto dziewica pocznie i porodzi Syna, któremu nadadzą imię Emmanuel», to znaczy Bóg z nami.\nZbudziwszy się ze snu, Józef uczynił tak, jak mu polecił Anioł Pański: wziął swoją Małżonkę do siebie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń ta wprost nawiązuje do proroctwa, które wypełnia się w Ewangelii, co czyni ją idealną na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Ewangelia ukazuje postać św. Józefa i jego posłuszeństwo woli Bożej, a w tej pieśni prosimy go o wstawiennictwo i opiekę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Antyfona 'O Adonai' wzywa Wodza domu Izraela, co koresponduje z proroctwem o potomku Dawida i królewskiej godności Mesjasza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń opowiada o zwiastowaniu Maryi, które poprzedziło wydarzenia opisane w Ewangelii, a które razem tworzą tajemnicę Wcielenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "414",
+      "piesn": "Szczęśliwy, kto sobie patrona",
+      "opis": "W kontekście Ewangelii o św. Józefie, ta pieśń jest wyrazem ufności w jego potężną opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Klasyczna pieśń adwentowa, która w kontekście dzisiejszych czytań ukazuje spełnienie się odwiecznych próśb o Zbawiciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

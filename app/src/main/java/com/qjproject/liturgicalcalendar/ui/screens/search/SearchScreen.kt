@@ -41,20 +41,28 @@ fun SearchScreen(
             query = uiState.query,
             onQueryChange = viewModel::onQueryChange
         )
-        SearchModeTabs(
-            selectedMode = uiState.searchMode,
-            onModeSelected = viewModel::onSearchModeChange
-        )
-        AnimatedVisibility(visible = uiState.searchMode == SearchMode.Pieśni) {
-            SongOptions(
-                searchInTitle = uiState.searchInTitle,
-                searchInContent = uiState.searchInContent,
-                sortMode = uiState.sortMode,
-                onSearchInTitleChange = viewModel::onSearchInTitleChange,
-                onSearchInContentChange = viewModel::onSearchInContentChange,
-                onSortModeChange = viewModel::onSortModeChange,
-                showSortOption = uiState.results.isNotEmpty()
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            SearchModeTabs(
+                selectedMode = uiState.searchMode,
+                onModeSelected = viewModel::onSearchModeChange,
+                modifier = Modifier.weight(1f)
             )
+
+            AnimatedVisibility(visible = uiState.searchMode == SearchMode.Pieśni) {
+                SongOptions(
+                    searchInTitle = uiState.searchInTitle,
+                    searchInContent = uiState.searchInContent,
+                    sortMode = uiState.sortMode,
+                    onSearchInTitleChange = viewModel::onSearchInTitleChange,
+                    onSearchInContentChange = viewModel::onSearchInContentChange,
+                    onSortModeChange = viewModel::onSortModeChange,
+                    showSortOption = uiState.results.isNotEmpty()
+                )
+            }
         }
         Divider()
 
@@ -85,8 +93,8 @@ fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
         onValueChange = onQueryChange,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp),
-        placeholder = { Text("Poszukaj...") },
+            .padding(horizontal = 16.dp, vertical = 4.dp),
+        placeholder = { Text("Wyszukaj...") },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
         trailingIcon = {
             if (query.isNotEmpty()) {
@@ -96,13 +104,18 @@ fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
             }
         },
         singleLine = true,
-        shape = MaterialTheme.shapes.extraLarge
+        shape = MaterialTheme.shapes.extraLarge,
+        textStyle = MaterialTheme.typography.bodyLarge
     )
 }
 
+
 @Composable
-fun SearchModeTabs(selectedMode: SearchMode, onModeSelected: (SearchMode) -> Unit) {
-    TabRow(selectedTabIndex = selectedMode.ordinal) {
+fun SearchModeTabs(selectedMode: SearchMode, onModeSelected: (SearchMode) -> Unit, modifier: Modifier = Modifier) {
+    TabRow(
+        selectedTabIndex = selectedMode.ordinal,
+        modifier = modifier
+    ) {
         SearchMode.values().forEach { mode ->
             Tab(
                 selected = selectedMode == mode,
@@ -125,9 +138,7 @@ fun SongOptions(
 ) {
     var showMenu by remember { mutableStateOf(false) }
 
-    Box(modifier = Modifier
-        .fillMaxWidth()
-        .padding(horizontal = 16.dp, vertical = 8.dp), contentAlignment = Alignment.CenterEnd) {
+    Box(contentAlignment = Alignment.Center) {
         IconButton(onClick = { showMenu = true }) {
             Icon(Icons.Default.MoreVert, contentDescription = "Więcej opcji")
         }
@@ -206,10 +217,10 @@ fun ResultsList(
         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(results, key = {
-            when (it) {
-                is SearchResult.DayResult -> "day_${it.path}"
-                is SearchResult.SongResult -> "song_${it.song.numer}"
+        items(results, key = { result ->
+            when (result) {
+                is SearchResult.DayResult -> "day_${result.path}"
+                is SearchResult.SongResult -> "song_${result.song.numer}_${result.song.tytul.hashCode()}"
             }
         }) { result ->
             when (result) {
@@ -226,7 +237,8 @@ fun DayResultItem(result: SearchResult.DayResult, onClick: () -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .clickable(onClick = onClick),
-        elevation = CardDefaults.cardElevation(2.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
@@ -245,7 +257,8 @@ fun SongResultItem(result: SearchResult.SongResult, onClick: () -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .clickable(onClick = onClick),
-        elevation = CardDefaults.cardElevation(2.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),

@@ -1,0 +1,81 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413311.I-Niedziela-Adwentu-rok-B",
+  "tytul_dnia": "1 Niedziela Adwentu rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 63, 16b-17. 19b; 64, 2b-7",
+      "opis": "Obyś rozdarł niebiosa i zstąpił",
+      "tekst": "Ty, Panie, jesteś naszym ojcem, odkupiciel nasz - to Twoje imię odwieczne. Czemu, o Panie, dozwalasz nam błądzić z dala od Twoich dróg, tak iż serca nasze stają się nieczułe na bojaźń przed Tobą? Odmień się przez wzgląd na Twoje sługi i na pokolenia Twojego dziedzictwa. Obyś rozdarł niebiosa i zstąpił! - przed Tobą zatrzęsłyby się góry.\nZstąpiłeś: przed Tobą zatrzęsły się góry. Ani ucho nie słyszało, ani oko nie widziało, żeby jakiś bóg poza Tobą czynił tyle dla tego, co w nim pokłada ufność. Obyś wychodził naprzeciw tym, co radośnie pełnią sprawiedliwość i pamiętają o Twych drogach.\nOto Ty zawrzałeś gniewem, bo grzeszyliśmy przeciw Tobie od dawna i byliśmy zbuntowani. My wszyscy byliśmy skalani, a wszystkie nasze dobre czyny jak skrwawiona szmata. My wszyscy opadliśmy zwiędli jak liście, a nasze winy poniosły nas jak wicher.\nNikt nie wzywał Twojego imienia, nikt się nie zbudził, by się chwycić Ciebie. Bo skryłeś Twoje oblicze przed nami i oddałeś nas w moc naszej winy. a jednak, Panie, Ty jesteś naszym ojcem. My jesteśmy gliną, a Ty naszym Twórcą. Wszyscy jesteśmy dziełem rąk Twoich.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 80 (79), 2ac i 3b. 15-16. 18-19 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Odnów nas, Boże, i daj nam zbawienie.\nUsłysz, Pasterzu Izraela, *\nTy, który zasiadasz nad cherubami!\nWzbudź swą potęgę *\ni przyjdź nam z pomocą.\nRefren.\nPowróć, Boże zastępów, *\nwejrzyj z nieba, spójrz i nawiedź tę winorośl.\nChroń to, co zasadziła Twoja prawica, *\nlatorośl, którą umocniłeś dla siebie.\nRefren.\nWyciągnij rękę nad mężem Twej prawicy, †\nnad synem człowieczym, *\nktórego umocniłeś w swej służbie.\nJuż więcej nie odwrócimy się od Ciebie, *\ndaj nam nowe życie, a będziemy Cię chwalili.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 1, 3-9",
+      "opis": "Oczekujemy objawienia się Jezusa Chrystusa",
+      "tekst": "Bracia:\nŁaska wam i pokój od Boga ojca naszego i Pana Jezusa Chrystusa! Bogu mojemu Dziękuję wciąż za was, za łaskę daną wam w Chrystusie Jezusie. W Nim to bowiem zostaliście wzbogaceni we wszystko: we wszelkie słowo i wszelkie poznanie, bo świadectwo Chrystusowe utrwaliło się w was. Nie doznajecie tedy braku żadnej łaski, oczekując objawienia się Pana naszego, Jezusa Chrystusa. On też będzie umacniał was aż do końca, abyście byli bez zarzutu w dzień Pana naszego, Jezusa Chrystusa.\nWierny jest Bóg, który powołał was do współuczestnictwa z Synem swoim, Jezusem Chrystusem, Panem naszym.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 85 (84), 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Okaż nam, Panie, łaskę swoją\ni daj nam swoje zbawienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 13, 33-37",
+      "opis": "Czuwajcie, bo nie wiecie, kiedy pan domu przyjdzie",
+      "tekst": "Jezus powiedział do swoich uczniów: «Uważajcie, czuwajcie, bo nie wiecie, kiedy czas ten nadejdzie. Bo rzecz ma się podobnie jak z człowiekiem, który udał się w podróż. Zostawił swój dom, powierzył swym sługom staranie o wszystko, każdemu wyznaczył zajęcie, a odźwiernemu przykazał, żeby czuwał.\nCzuwajcie więc, bo nie wiecie, kiedy pan domu przyjdzie: z wieczora czy o północy, czy o pianiu kogutów, czy rankiem. By niespodzianie przyszedłszy, nie zastał was śpiących. Lecz co wam mówię, do wszystkich mówię: Czuwajcie!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, co jest głównym tematem Adwentu i doskonale koresponduje z wezwaniem Ewangelii do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Tekst pieśni wzywa do przygotowania na przyjście Pana, co jest odpowiedzią na lament proroka Izajasza z pierwszego czytania o ludzkiej grzeszności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest żarliwym wołaniem o przyjście Zbawiciela, którego objawienia oczekujemy, jak mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Dziękczynienie po komunii za bliskość Pana, który umacnia nas do czuwania, o którym przypomina Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wezwanie 'Ze snu powstać już pora!' jest echem słów Jezusa 'Czuwajcie!' i stanowi posłanie do życia w gotowości na Jego przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Pieśń jest modlitwą błagalną, która doskonale oddaje wołanie z pierwszego czytania: 'Obyś rozdarł niebiosa i zstąpił'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Bogiem, podobną do tej, którą wyraża Psalmista wołający: 'Odnów nas, Boże, i daj nam zbawienie'.",
+      "moment": "ogolne"
+    }
+  ]
+}

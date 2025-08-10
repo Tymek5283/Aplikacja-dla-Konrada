@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413387.20-grudnia",
+  "tytul_dnia": "20 grudnia - Dzień powszedni w okresie Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 7, 10-14",
+      "opis": "Panna pocznie i porodzi Syna",
+      "tekst": "Pan przemówił do Achaza tymi słowami: «Proś dla siebie o znak od Pana, Boga twego, czy to głęboko w Szeolu, czy to wysoko w górze!» Lecz Achaz odpowiedział: «Nie będę prosił i nie będę wystawiał Pana na próbę».\nWtedy rzekł Izajasz: «Słuchajcie więc, domu Dawidowy: Czyż mało wam uprzykrzać się ludziom, iż uprzykrzacie się także mojemu Bogu? Dlatego Pan sam da wam znak: Oto Panna pocznie i porodzi Syna, i nazwie Go imieniem Emmanuel».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 7c i 10b)",
+      "opis": "",
+      "tekst": "Refren: Przybądź, o Panie, Tyś jest Królem chwały.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kluczu Dawida, który otwierasz bramy wiecznego królestwa,\nprzyjdź i wyprowadź z więzienia jeńca siedzącego w ciemnościach."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 1, 26-38",
+      "opis": "Maryja pocznie i porodzi Syna",
+      "tekst": "Bóg posłał anioła Gabriela do miasta w Galilei, zwanego Nazaret, do dziewicy poślubionej mężowi imieniem Józef, z rodu Dawida; a dziewicy było na imię Maryja.\nWszedłszy do Niej, Anioł rzekł: «Bądź pozdrowiona, łaski pełna, Pan z Tobą, błogosławiona jesteś między niewiastami ». Ona zmieszała się na te słowa i rozważała, co by miało znaczyć to pozdrowienie.\nLecz anioł rzekł do Niej: «Nie bój się, Maryjo, znalazłaś bowiem łaskę u Boga. oto poczniesz i porodzisz Syna, któremu nadasz imię Jezus. Będzie on wielki i zostanie nazwany Synem Najwyższego, a Pan Bóg da Mu tron Jego praojca, Dawida. Będzie panował nad domem Jakuba na wieki, a Jego panowaniu nie będzie końca».\nNa to Maryja rzekła do anioła: «Jakże się to stanie, skoro nie znam męża?»\nAnioł Jej odpowiedział: «Duch Święty zstąpi na Ciebie i moc Najwyższego okryje Cię cieniem. dlatego też Święte, które się narodzi, będzie nazwane Synem Bożym. a oto również krewna Twoja, Elżbieta, poczęła w swej starości syna i jest już w szóstym miesiącu ta, którą miano za niepłodną. Dla Boga bowiem nie ma nic niemożliwego».\nNa to rzekła Maryja: «Oto ja służebnica Pańska, niech mi się stanie według słowa twego».\nWtedy odszedł od Niej Anioł.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń jest muzycznym opisem sceny Zwiastowania z Ewangelii, co czyni ją idealną na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń jest odpowiedzią na anielskie pozdrowienie i wyrazem naszego oddania się Bogu na wzór Maryi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia, która poprzez swoje 'tak' stała się Matką Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa Izajasza z pierwszego czytania, które w Ewangelii znajduje swoje wypełnienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona na 20 grudnia 'O Kluczu Dawida' wzywa Tego, który ma odziedziczyć tron Dawida, co zapowiada anioł w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "ogolne"
+    }
+  ]
+}

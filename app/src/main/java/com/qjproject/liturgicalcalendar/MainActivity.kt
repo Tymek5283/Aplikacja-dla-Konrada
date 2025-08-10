@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -187,6 +188,13 @@ fun MainTabsScreen(navController: NavController) {
 
     val browseUiState by browseViewModel.uiState.collectAsState()
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
+
+    // --- POCZĄTEK ZMIANY ---
+    // Przechwycenie przycisku "wstecz" na głównym ekranie, aby zapobiec wyjściu z aplikacji.
+    BackHandler(enabled = true) {
+        // Pusta lambda oznacza, że zdarzenie jest obsłużone, ale nie jest wykonywana żadna akcja.
+    }
+    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {

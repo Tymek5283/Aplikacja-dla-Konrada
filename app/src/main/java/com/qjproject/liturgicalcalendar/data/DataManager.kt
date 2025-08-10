@@ -11,7 +11,10 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    private val currentDataVersion = 2 // Zwiększono wersję, aby wymusić ponowne skopiowanie danych
+    // --- POCZĄTEK ZMIANY ---
+    // Zwiększono wersję, aby wymusić ponowne skopiowanie danych, w tym brakującego pliku piesni.json
+    private val currentDataVersion = 3
+    // --- KONIEC ZMIANY ---
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -31,16 +34,36 @@ class DataManager(private val context: Context) {
                     Log.d("DataManager", "Usuwanie starego katalogu: ${file.name}")
                     file.deleteRecursively()
                 }
+                // --- POCZĄTEK ZMIANY ---
+                // Usuń także stary plik pieśni, jeśli istnieje
+                if (file.isFile && file.name == "piesni.json") {
+                    Log.d("DataManager", "Usuwanie starego pliku: ${file.name}")
+                    file.delete()
+                }
+                // --- KONIEC ZMIANY ---
             }
 
-            // Kopiowanie głównych folderów
-            val rootAssets = context.assets.list("")?.filter { it == "data" || it == "Datowane" } ?: emptyList()
-            rootAssets.forEach { assetDirName ->
-                val destDir = File(internalRoot, assetDirName)
-                if (!destDir.exists()) destDir.mkdirs()
-                Log.d("DataManager", "Tworzenie katalogu głównego: ${destDir.absolutePath}")
-                copyAssetDir(assetDirName, destDir)
+            // --- POCZĄTEK ZMIANY ---
+            // Zaktualizowano logikę, aby kopiować zarówno katalogi, jak i pojedyncze pliki z roota (np. piesni.json)
+            val assetsToCopy = context.assets.list("")?.filter { it == "data" || it == "Datowane" || it == "piesni.json" } ?: emptyList()
+            assetsToCopy.forEach { assetName ->
+                val isDirectory = try {
+                    context.assets.list(assetName)?.isNotEmpty() == true
+                } catch (e: IOException) {
+                    false
+                }
+
+                if (isDirectory) {
+                    val destDir = File(internalRoot, assetName)
+                    if (!destDir.exists()) destDir.mkdirs()
+                    Log.d("DataManager", "Tworzenie katalogu głównego: ${destDir.absolutePath}")
+                    copyAssetDir(assetName, destDir)
+                } else {
+                    // Kopiuje pliki takie jak piesni.json do katalogu głównego (internalRoot)
+                    copyAssetFile(assetName, internalRoot)
+                }
             }
+            // --- KONIEC ZMIANY ---
 
             prefs.edit().putInt(dataVersionKey, currentDataVersion).apply()
             Log.d("DataManager", "Kopiowanie danych zakończone sukcesem. Ustawiono wersję na $currentDataVersion.")

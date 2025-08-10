@@ -1,0 +1,75 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413332.Sobota-II-tygodnia-Adwentu",
+  "tytul_dnia": "2 Sobota Adwentu",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 48, 1-4. 9-11",
+      "opis": "Eliasz przyjdzie powtórnie",
+      "tekst": "Powstał Eliasz, prorok jak ogień, a słowo jego płonęło jak pochodnia. On głód na nich sprowadził, a swoją gorliwością zmniejszył ich liczbę. Słowem Pańskim zamknął niebo, z niego również trzy razy sprowadził ogień.\nJakże wsławiony jesteś, Eliaszu, przez swoje cuda i któż się może pochwalić, że do ciebie jest podobny? Ty, który zostałeś wzięty w wirze ognia, na wozie zaprzężonym w ogniste rumaki. O tobie napisano w karceniach dotyczących przyszłości, że masz uśmierzyć gniew, zanim zapłonie, by zwrócić serce ojca do syna i pokolenia Jakuba odnowić.\nSzczęśliwi, którzy cię widzieli, i ci, którzy w miłości posnęli, albowiem i my na pewno żyć będziemy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 80 (79), 2ac i 3b. 15-16. 18-19 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Odnów nas, Boże, i daj nam zbawienie.\nUsłysz, Pasterzu Izraela, *\nTy, który zasiadasz nad cherubami!\nWzbudź swą potęgę *\ni przyjdź nam z pomocą.\nRefren.\nPowróć, Boże zastępów, *\nwejrzyj z nieba, spójrz i nawiedź tę winorośl.\nChroń to, co zasadziła Twoja prawica, *\nlatorośl, którą umocniłeś dla siebie.\nRefren.\nWyciągnij rękę nad mężem Twej prawicy, †\nnad synem człowieczym, *\nktórego umocniłeś w swej służbie.\nJuż więcej nie odwrócimy się od Ciebie, *\ndaj nam nowe życie, a będziemy Cię chwalili.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 3, 4c. 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przygotujcie drogę Panu, prostujcie ścieżki dla Niego;\nwszyscy ludzie ujrzą zbawienie Boże."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17, 10-13",
+      "opis": "Eliasz już przyszedł, a nie poznali go",
+      "tekst": "Kiedy schodzili z góry, uczniowie zapytali Jezusa:\n«Czemu uczeni w Piśmie twierdzą, że najpierw musi przyjść Eliasz?» On odparł: «Eliasz istotnie przyjdzie i wszystko naprawi. Lecz powiadam wam: Eliasz już przyszedł, i postąpili z nim tak, jak chcieli. Tak i Syn Człowieczy ma od nich cierpieć». Wtedy uczniowie zrozumieli, że mówił im o Janie Chrzcicielu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' to istota misji Eliasza i Jana Chrzciciela, o których mówią czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, którego drogę przygotował Jan Chrzciciel, utożsamiony w Ewangelii z Eliaszem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Jest to modlitwa o przyjście Tego, którego poprzedził Eliasz w osobie Jana Chrzciciela, i który przychodzi do nas w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Błagalna pieśń adwentowa, która jest prośbą o zbawienie, o które woła również psalm responsoryjny: 'Odnów nas, Boże, i daj nam zbawienie'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który jest kluczową postacią dzisiejszej Ewangelii, stanowi doskonałe podsumowanie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o postawie, do której przygotowuje nas Adwent, a której wzorem był Jan Chrzciciel.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń ta, wzywając do prostowania dróg życia, jest echem aklamacji i nauczania Jana Chrzciciela.",
+      "moment": "ogolne"
+    }
+  ]
+}
