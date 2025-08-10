@@ -20,7 +20,7 @@ class FileSystemRepository(private val context: Context) {
 
     private val json = Json {
         ignoreUnknownKeys = true
-        prettyPrint = true // Formatowanie JSON dla czytelności
+        prettyPrint = true
         encodeDefaults = true
     }
     private val internalStorageRoot = context.filesDir
@@ -48,19 +48,19 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY: Dodanie funkcji do zapisywania danych ---
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
         return try {
             val file = File(internalStorageRoot, "$path.json")
+            file.parentFile?.mkdirs()
             val jsonString = json.encodeToString(dayData)
             file.writeText(jsonString)
+            Log.d("FileSystemRepository", "Zapisano pomyślnie dane do: ${file.absolutePath}")
             Result.success(Unit)
         } catch (e: Exception) {
-            e.printStackTrace()
+            Log.e("FileSystemRepository", "Błąd podczas zapisywania danych do $path.json", e)
             Result.failure(e)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun getMonthlyFileMap(month: Month): Map<Int, List<String>> {
         val monthName = month.getDisplayName(TextStyle.FULL_STANDALONE, Locale("pl"))

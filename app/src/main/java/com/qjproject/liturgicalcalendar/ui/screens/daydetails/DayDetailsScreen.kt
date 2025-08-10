@@ -3,6 +3,7 @@ package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.expandVertically
@@ -11,6 +12,8 @@ import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.PressInteraction
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -20,16 +23,19 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -47,6 +53,7 @@ import com.qjproject.liturgicalcalendar.ui.theme.DividerColor
 import com.qjproject.liturgicalcalendar.ui.theme.SongItemBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SubtleGrayBackground
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -78,11 +85,18 @@ private fun DayDetailsScreenContent(
     val groupedSongs by viewModel.groupedSongs.collectAsState()
 
     var showUrlModal by remember { mutableStateOf(false) }
+    var showSongModal by remember { mutableStateOf(false) }
+    var selectedSong by remember { mutableStateOf<SuggestedSong?>(null) }
 
     val scrollState = rememberScrollState()
     val coroutineScope = rememberCoroutineScope()
     val readingLayouts = remember { mutableStateMapOf<Int, LayoutCoordinates>() }
+    val interactionSources = remember { mutableStateMapOf<Int, MutableInteractionSource>() }
     var topBarHeight by remember { mutableStateOf(0) }
+
+    BackHandler(enabled = showSongModal) {
+        showSongModal = false
+    }
 
     Scaffold(
         topBar = {
@@ -100,6 +114,13 @@ private fun DayDetailsScreenContent(
             UrlModal(
                 url = uiState.dayData!!.urlCzytania!!,
                 onDismiss = { showUrlModal = false }
+            )
+        }
+
+        if (showSongModal && selectedSong != null) {
+            SongDetailsModal(
+                song = selectedSong!!,
+                onDismiss = { showSongModal = false }
             )
         }
 
@@ -134,12 +155,14 @@ private fun DayDetailsScreenContent(
                                         viewModel = viewModel,
                                         coroutineScope = coroutineScope,
                                         scrollState = scrollState,
-                                        topBarHeight = topBarHeight
+                                        topBarHeight = topBarHeight,
+                                        interactionSources = interactionSources
                                     )
                                 },
                                 onGloballyPositioned = { coordinates ->
                                     readingLayouts[index] = coordinates
-                                }
+                                },
+                                interactionSource = interactionSources.getOrPut(index) { MutableInteractionSource() }
                             )
                         }
                     }
@@ -157,7 +180,11 @@ private fun DayDetailsScreenContent(
                                 momentName = momentName,
                                 songs = groupedSongs[momentKey].orEmpty(),
                                 isExpanded = uiState.expandedSongMoments.contains(momentKey),
-                                onToggle = { viewModel.toggleSongMoment(momentKey) }
+                                onToggle = { viewModel.toggleSongMoment(momentKey) },
+                                onSongClick = { song ->
+                                    selectedSong = song
+                                    showSongModal = true
+                                }
                             )
                         }
                     }
@@ -175,19 +202,32 @@ private fun handleReadingCollapse(
     viewModel: DayDetailsViewModel,
     coroutineScope: CoroutineScope,
     scrollState: ScrollState,
-    topBarHeight: Int
+    topBarHeight: Int,
+    interactionSources: Map<Int, MutableInteractionSource>
 ) {
     val layoutCoordinates = readingLayouts[index] ?: return
     val isHeaderVisible = layoutCoordinates.positionInRoot().y >= topBarHeight
 
     viewModel.collapseReading(index)
 
-    if (!isHeaderVisible) {
-        coroutineScope.launch {
+    coroutineScope.launch {
+        val triggerRipple = suspend {
+            interactionSources[index]?.let { source ->
+                val press = PressInteraction.Press(Offset.Zero)
+                source.emit(press)
+                delay(150)
+                source.emit(PressInteraction.Release(press))
+            }
+        }
+
+        if (!isHeaderVisible) {
             val currentScroll = scrollState.value
             val elementYPosInRoot = layoutCoordinates.positionInRoot().y
             val targetScrollPosition = currentScroll + elementYPosInRoot.toInt() - topBarHeight
             scrollState.animateScrollTo(targetScrollPosition)
+            triggerRipple()
+        } else {
+            triggerRipple()
         }
     }
 }
@@ -200,6 +240,7 @@ private fun HierarchicalCollapsibleSection(
     onToggle: () -> Unit,
     level: Int,
     modifier: Modifier = Modifier,
+    interactionSource: MutableInteractionSource = remember { MutableInteractionSource() },
     content: @Composable ColumnScope.() -> Unit
 ) {
     val sectionModifier = if (level > 0) {
@@ -214,7 +255,11 @@ private fun HierarchicalCollapsibleSection(
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable(onClick = onToggle)
+                .clickable(
+                    interactionSource = interactionSource,
+                    indication = rememberRipple(),
+                    onClick = onToggle
+                )
                 .padding(
                     horizontal = if (level > 0) 12.dp else 0.dp,
                     vertical = 8.dp
@@ -265,7 +310,8 @@ private fun ReadingItemView(
     isExpanded: Boolean,
     onToggle: () -> Unit,
     onContentDoubleTap: () -> Unit,
-    onGloballyPositioned: (LayoutCoordinates) -> Unit
+    onGloballyPositioned: (LayoutCoordinates) -> Unit,
+    interactionSource: MutableInteractionSource
 ) {
     HierarchicalCollapsibleSection(
         title = reading.typ,
@@ -274,7 +320,8 @@ private fun ReadingItemView(
         level = 1,
         modifier = Modifier.onGloballyPositioned { coordinates ->
             onGloballyPositioned(coordinates)
-        }
+        },
+        interactionSource = interactionSource
     ) {
         Column(
             modifier = Modifier
@@ -309,27 +356,33 @@ private fun ReadingItemView(
 }
 
 @Composable
-private fun SongGroupView(momentName: String, songs: List<SuggestedSong>, isExpanded: Boolean, onToggle: () -> Unit) {
+private fun SongGroupView(
+    momentName: String,
+    songs: List<SuggestedSong>,
+    isExpanded: Boolean,
+    onToggle: () -> Unit,
+    onSongClick: (SuggestedSong) -> Unit
+) {
     HierarchicalCollapsibleSection(title = momentName, isExpanded = isExpanded, onToggle = onToggle, level = 1) {
         if (songs.isEmpty()) {
             Text(
                 "Brak sugerowanych pieśni.",
-                modifier = Modifier.padding(vertical = 8.dp),
+                modifier = Modifier.padding(vertical = 8.dp, horizontal = 12.dp),
                 style = MaterialTheme.typography.bodyMedium,
                 fontStyle = FontStyle.Italic
             )
         } else {
             songs.forEach { song ->
-                SongItemView(song = song)
+                SongItemView(song = song, onClick = { onSongClick(song) })
             }
         }
     }
 }
 
 @Composable
-private fun SongItemView(song: SuggestedSong) {
+private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
         shape = MaterialTheme.shapes.small,
         colors = CardDefaults.cardColors(containerColor = SongItemBackground)
     ) {
@@ -370,6 +423,76 @@ private fun UrlModal(url: String, onDismiss: () -> Unit) {
                     modifier = Modifier.align(Alignment.End)
                 ) {
                     Text("Kopiuj link")
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SongDetailsModal(song: SuggestedSong, onDismiss: () -> Unit) {
+    Dialog(
+        onDismissRequest = onDismiss,
+        properties = DialogProperties(usePlatformDefaultWidth = false)
+    ) {
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 24.dp, vertical = 48.dp),
+            shape = MaterialTheme.shapes.large
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = song.piesn,
+                        style = MaterialTheme.typography.titleLarge,
+                        modifier = Modifier.weight(1f)
+                    )
+                    IconButton(onClick = onDismiss, modifier = Modifier.size(24.dp)) {
+                        Icon(Icons.Default.Close, contentDescription = "Zamknij")
+                    }
+                }
+                Spacer(Modifier.height(16.dp))
+                Divider()
+                Spacer(Modifier.height(16.dp))
+
+                Column(
+                    modifier = Modifier.verticalScroll(rememberScrollState())
+                ) {
+                    // --- POCZĄTEK ZMIANY: Poprawiona logika budowania AnnotatedString ---
+                    if (song.numer.isNotBlank()) {
+                        Text(
+                            buildAnnotatedString {
+                                append(
+                                    AnnotatedString(
+                                        "Numer w Siedlecki: ",
+                                        spanStyle = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold).toSpanStyle()
+                                    )
+                                )
+                                append(
+                                    AnnotatedString(
+                                        song.numer,
+                                        spanStyle = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold).toSpanStyle()
+                                    )
+                                )
+                            }
+                        )
+                        Spacer(Modifier.height(16.dp))
+                    }
+
+                    if (song.opis.isNotBlank()) {
+                        Text(buildAnnotatedString {
+                            withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
+                                append("Opis:\n")
+                            }
+                            append(song.opis)
+                        }, style = MaterialTheme.typography.bodyMedium)
+                    }
+                    // --- KONIEC ZMIANY ---
                 }
             }
         }

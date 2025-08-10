@@ -63,8 +63,14 @@ class DayDetailsViewModel(
     }
 
     private fun groupSongs(songs: List<SuggestedSong?>?) {
-        val grouped = songs.orEmpty().filterNotNull().groupBy { it.moment }
-        groupedSongs.value = grouped
+        val songsByMoment = songs.orEmpty().filterNotNull().groupBy { it.moment }
+
+        // --- POCZĄTEK ZMIANY: Zapewnienie, że wszystkie kategorie istnieją w mapie, nawet jeśli są puste ---
+        val fullGroupedMap = songMomentOrderMap.keys.associateWith { momentKey ->
+            songsByMoment[momentKey] ?: emptyList()
+        }
+        groupedSongs.value = fullGroupedMap
+        // --- KONIEC ZMIANY ---
     }
 
     fun toggleReadingsSection() {
