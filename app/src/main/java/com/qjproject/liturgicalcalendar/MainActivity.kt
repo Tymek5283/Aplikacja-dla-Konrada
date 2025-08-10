@@ -13,18 +13,20 @@ import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -32,7 +34,6 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavType
-import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
@@ -186,8 +187,12 @@ fun MainTabsScreen(navController: NavController) {
                 title = title,
                 showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
                 onBackClick = { browseViewModel.onBackPress() },
-                showAddButton = isBrowseScreenActive,
-                onAddClick = { browseViewModel.onAddClick() }
+                isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
+                showEditButton = isBrowseScreenActive, // Zawsze pokazuj, jeśli to ekran przeglądania
+                onEditClick = { browseViewModel.onEnterEditMode() },
+                onSaveClick = { browseViewModel.onSaveEditMode() },
+                onCancelClick = { browseViewModel.onTryExitEditMode {} },
+                isSaveEnabled = browseUiState.hasChanges
             )
         },
         bottomBar = {
@@ -218,7 +223,7 @@ fun MainTabsScreen(navController: NavController) {
             count = bottomNavItems.size,
             state = pagerState,
             modifier = Modifier.padding(innerPadding),
-            userScrollEnabled = true
+            userScrollEnabled = !browseUiState.isEditMode // Blokada przesuwania w trybie edycji
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen()
@@ -264,8 +269,12 @@ fun MainTopAppBar(
     title: String,
     showBackButton: Boolean = false,
     onBackClick: () -> Unit = {},
-    showAddButton: Boolean = false,
-    onAddClick: () -> Unit = {}
+    isBrowseScreenInEditMode: Boolean = false,
+    showEditButton: Boolean = false,
+    onEditClick: () -> Unit = {},
+    onSaveClick: () -> Unit = {},
+    onCancelClick: () -> Unit = {},
+    isSaveEnabled: Boolean = false
 ) {
     Column {
         CenterAlignedTopAppBar(
@@ -277,28 +286,29 @@ fun MainTopAppBar(
                 )
             },
             navigationIcon = {
-                if (showBackButton) {
-                    IconButton(onClick = onBackClick) {
-                        Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = "Wróć"
-                        )
+                if (isBrowseScreenInEditMode) {
+                    IconButton(onClick = onCancelClick) {
+                        Icon(Icons.Default.Close, "Anuluj edycję")
                     }
+                } else if (showBackButton) {
+                    IconButton(onClick = onBackClick) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
+                    }
+                } else {
+                    Spacer(Modifier.width(48.dp)) // Placeholder, aby tytuł był na środku
                 }
             },
             actions = {
-                if (showAddButton) {
-                    IconButton(onClick = onAddClick) {
-                        Icon(
-                            imageVector = Icons.Default.Add,
-                            contentDescription = "Dodaj"
-                        )
+                if (isBrowseScreenInEditMode) {
+                    IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
+                        Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
+                    }
+                } else if (showEditButton) {
+                    IconButton(onClick = onEditClick) {
+                        Icon(Icons.Default.Edit, "Edytuj")
                     }
                 } else {
-                    // Spacer, aby utrzymać tytuł na środku, gdy jest przycisk wstecz
-                    if (showBackButton) {
-                        Spacer(Modifier.width(68.dp))
-                    }
+                    Spacer(Modifier.width(48.dp)) // Placeholder, aby tytuł był na środku
                 }
             },
             colors = TopAppBarDefaults.centerAlignedTopAppBarColors(

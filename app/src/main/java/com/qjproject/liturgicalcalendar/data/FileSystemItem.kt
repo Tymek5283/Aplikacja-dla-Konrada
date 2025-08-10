@@ -1,7 +1,7 @@
 package com.qjproject.liturgicalcalendar.data
 
-// Prosta klasa do reprezentowania pliku lub folderu
 data class FileSystemItem(
     val name: String,
-    val isDirectory: Boolean
+    val isDirectory: Boolean,
+    val path: String // Względna ścieżka od katalogu głównego aplikacji (filesDir)
 )

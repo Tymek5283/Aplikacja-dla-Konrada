@@ -4,10 +4,12 @@ import android.content.Context
 import android.net.Uri
 import android.os.Environment
 import android.util.Log
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import net.lingala.zip4j.ZipFile
 import java.io.File
+import java.io.FileNotFoundException
 import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
@@ -16,6 +18,11 @@ import java.time.Month
 import java.time.format.TextStyle
 import java.util.*
 import kotlin.Result
+
+private const val ORDER_FILE_NAME = ".directory_order.json"
+
+@Serializable
+private data class DirectoryOrder(val order: List<String>)
 
 class FileSystemRepository(private val context: Context) {
 
@@ -31,10 +38,42 @@ class FileSystemRepository(private val context: Context) {
 
     fun getItems(path: String): List<FileSystemItem> {
         return try {
-            val file = File(internalStorageRoot, path)
-            file.listFiles()?.map { item ->
-                FileSystemItem(name = item.name.removeSuffix(".json"), isDirectory = item.isDirectory)
-            }?.sortedWith(compareBy({ !it.isDirectory }, { it.name })) ?: emptyList()
+            val directory = File(internalStorageRoot, path)
+            val allFiles = directory.listFiles() ?: return emptyList()
+
+            val itemsOnDisk = allFiles
+                .filter { it.name != ORDER_FILE_NAME }
+                .map { item ->
+                    val itemName = if (item.isDirectory) item.name else item.nameWithoutExtension
+                    val itemPath = item.absolutePath.removePrefix(internalStorageRoot.absolutePath + "/")
+                    FileSystemItem(name = itemName, isDirectory = item.isDirectory, path = itemPath)
+                }.toMutableList()
+
+            val orderFile = File(directory, ORDER_FILE_NAME)
+            if (orderFile.exists()) {
+                try {
+                    val jsonString = orderFile.readText()
+                    val storedOrder = json.decodeFromString<DirectoryOrder>(jsonString).order
+
+                    val orderedItems = mutableListOf<FileSystemItem>()
+                    val itemsOnDiskMap = itemsOnDisk.associateBy { it.name }
+                    val remainingItems = itemsOnDisk.toMutableSet()
+
+                    storedOrder.forEach { name ->
+                        itemsOnDiskMap[name]?.let {
+                            orderedItems.add(it)
+                            remainingItems.remove(it)
+                        }
+                    }
+                    orderedItems.addAll(remainingItems.sortedWith(compareBy({ !it.isDirectory }, { it.name })))
+                    orderedItems
+                } catch (e: Exception) {
+                    Log.e("FileSystemRepository", "Błąd odczytu pliku kolejności dla $path. Sortowanie alfabetyczne.", e)
+                    itemsOnDisk.sortedWith(compareBy({ !it.isDirectory }, { it.name }))
+                }
+            } else {
+                itemsOnDisk.sortedWith(compareBy({ !it.isDirectory }, { it.name }))
+            }
         } catch (e: Exception) {
             Log.e("FileSystemRepository", "Błąd podczas pobierania elementów z $path", e)
             emptyList()
@@ -43,7 +82,11 @@ class FileSystemRepository(private val context: Context) {
 
     fun getDayData(path: String): DayData? {
         return try {
-            val file = File(internalStorageRoot, "$path.json")
+            val file = File(internalStorageRoot, path) // Ścieżka powinna już zawierać .json
+            if (!file.exists()) {
+                Log.e("FileSystemRepository", "Plik nie istnieje: ${file.absolutePath}")
+                return null
+            }
             val jsonString = file.bufferedReader().use { it.readText() }
             json.decodeFromString<DayData>(jsonString)
         } catch (e: Exception) {
@@ -87,14 +130,29 @@ class FileSystemRepository(private val context: Context) {
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
         return try {
-            val file = File(internalStorageRoot, "$path.json")
+            val file = File(internalStorageRoot, path) // Ścieżka powinna już zawierać .json
             file.parentFile?.mkdirs()
             val jsonString = json.encodeToString(dayData)
             file.writeText(jsonString)
             Log.d("FileSystemRepository", "Zapisano pomyślnie dane do: ${file.absolutePath}")
             Result.success(Unit)
         } catch (e: Exception) {
-            Log.e("FileSystemRepository", "Błąd podczas zapisywania danych do $path.json", e)
+            Log.e("FileSystemRepository", "Błąd podczas zapisywania danych do $path", e)
+            Result.failure(e)
+        }
+    }
+
+    fun saveOrder(path: String, orderedNames: List<String>): Result<Unit> {
+        return try {
+            val directory = File(internalStorageRoot, path)
+            if (!directory.exists()) directory.mkdirs()
+            val orderFile = File(directory, ORDER_FILE_NAME)
+            val directoryOrder = DirectoryOrder(order = orderedNames)
+            val jsonString = json.encodeToString(directoryOrder)
+            orderFile.writeText(jsonString)
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd zapisu kolejności w $path", e)
             Result.failure(e)
         }
     }
@@ -118,7 +176,7 @@ class FileSystemRepository(private val context: Context) {
         }
     }
 
-    fun createDayFile(path: String, fileName: String, url: String?): Result<Unit> {
+    fun createDayFile(path: String, fileName: String, url: String?): Result<String> {
         return try {
             val fullPath = File(internalStorageRoot, path)
             val newFile = File(fullPath, "$fileName.json")
@@ -138,9 +196,58 @@ class FileSystemRepository(private val context: Context) {
             val jsonString = json.encodeToString(dayData)
             newFile.writeText(jsonString)
             Log.d("FileSystemRepository", "Utworzono plik dnia: ${newFile.absolutePath}")
-            Result.success(Unit)
+            Result.success(newFile.name)
         } catch (e: Exception) {
             Log.e("FileSystemRepository", "Błąd tworzenia pliku '$fileName' w '$path'", e)
+            Result.failure(e)
+        }
+    }
+
+    fun deleteItem(itemPath: String): Result<Unit> {
+        return try {
+            val fileToDelete = File(internalStorageRoot, itemPath)
+            if (!fileToDelete.exists()) return Result.failure(FileNotFoundException("Element nie istnieje: $itemPath"))
+
+            if (fileToDelete.deleteRecursively()) {
+                Result.success(Unit)
+            } else {
+                Result.failure(IOException("Nie udało się usunąć elementu: $itemPath"))
+            }
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas usuwania $itemPath", e)
+            Result.failure(e)
+        }
+    }
+
+    fun renameItem(itemPath: String, newName: String): Result<String> {
+        return try {
+            val oldFile = File(internalStorageRoot, itemPath)
+            if (!oldFile.exists()) return Result.failure(FileNotFoundException("Element nie istnieje: $itemPath"))
+
+            val parentDir = oldFile.parentFile ?: return Result.failure(IOException("Brak folderu nadrzędnego."))
+            val newFileNameWithExt = if (oldFile.isDirectory) newName else "$newName.json"
+            val newFile = File(parentDir, newFileNameWithExt)
+
+            if (newFile.exists()) return Result.failure(IOException("Element o nazwie '$newName' już istnieje."))
+
+            if (oldFile.renameTo(newFile)) {
+                // Jeśli to plik JSON, zaktualizuj jego wewnętrzny tytuł
+                if (!newFile.isDirectory && newFile.extension == "json") {
+                    try {
+                        val dayData = json.decodeFromString<DayData>(newFile.readText())
+                        val updatedDayData = dayData.copy(tytulDnia = newName)
+                        newFile.writeText(json.encodeToString(updatedDayData))
+                    } catch (e: Exception) {
+                        Log.w("FileSystemRepo", "Nie udało się zaktualizować tytułu w pliku ${newFile.name}", e)
+                        // Kontynuuj, bo zmiana nazwy pliku się udała
+                    }
+                }
+                Result.success(newFile.absolutePath.removePrefix(internalStorageRoot.absolutePath + "/"))
+            } else {
+                Result.failure(IOException("Nie udało się zmienić nazwy."))
+            }
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd zmiany nazwy dla $itemPath", e)
             Result.failure(e)
         }
     }
@@ -165,7 +272,7 @@ class FileSystemRepository(private val context: Context) {
                 val dayNumber = dayString.toIntOrNull()
 
                 if (dayNumber != null) {
-                    val relativePath = "Datowane/$monthName/${file.name}".removeSuffix(".json")
+                    val relativePath = "Datowane/$monthName/${file.name}"
                     fileMap.getOrPut(dayNumber) { mutableListOf() }.add(relativePath)
                 }
             } catch (e: Exception) {
