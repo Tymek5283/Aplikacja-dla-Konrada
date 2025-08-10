@@ -15,6 +15,7 @@ import java.text.SimpleDateFormat
 import java.time.Month
 import java.time.format.TextStyle
 import java.util.*
+import kotlin.Result
 
 class FileSystemRepository(private val context: Context) {
 
@@ -24,6 +25,10 @@ class FileSystemRepository(private val context: Context) {
         encodeDefaults = true
     }
     private val internalStorageRoot = context.filesDir
+
+    // --- POCZĄTEK ZMIANY: Buforowanie listy pieśni ---
+    private var songListCache: List<Song>? = null
+    // --- KONIEC ZMIANY ---
 
     fun getItems(path: String): List<FileSystemItem> {
         return try {
@@ -47,6 +52,22 @@ class FileSystemRepository(private val context: Context) {
             null
         }
     }
+
+    // --- POCZĄTEK ZMIANY: Nowa funkcja do wczytywania listy wszystkich pieśni ---
+    fun getSongList(): List<Song> {
+        songListCache?.let { return it }
+        return try {
+            val inputStream = context.assets.open("piesni.json")
+            val jsonString = inputStream.bufferedReader().use { it.readText() }
+            val songs = json.decodeFromString<List<Song>>(jsonString)
+            songListCache = songs
+            songs
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas wczytywania piesni.json", e)
+            emptyList()
+        }
+    }
+    // --- KONIEC ZMIANY ---
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
         return try {
