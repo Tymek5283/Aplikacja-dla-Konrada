@@ -53,9 +53,7 @@ class DayDetailsViewModel(
             if (data != null) {
                 Log.d("DayDetailsViewModel", "Dane załadowane pomyślnie dla: ${data.tytulDnia}")
                 _uiState.update { it.copy(isLoading = false, dayData = data) }
-                // --- POCZĄTEK POPRAWKI: Odwołanie do poprawionej, płaskiej struktury danych ---
                 groupSongs(data.piesniSugerowane)
-                // --- KONIEC POPRAWKI ---
             } else {
                 val errorMessage = "Nie udało się odnaleźć lub odczytać pliku. Próbowano załadować: '$dayId.json'"
                 Log.e("DayDetailsViewModel", errorMessage)
@@ -81,6 +79,14 @@ class DayDetailsViewModel(
         _uiState.update {
             val newSet = it.expandedReadings.toMutableSet()
             if (index in newSet) newSet.remove(index) else newSet.add(index)
+            it.copy(expandedReadings = newSet)
+        }
+    }
+
+    fun collapseReading(index: Int) {
+        _uiState.update {
+            val newSet = it.expandedReadings.toMutableSet()
+            newSet.remove(index)
             it.copy(expandedReadings = newSet)
         }
     }

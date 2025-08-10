@@ -7,8 +7,10 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -23,6 +25,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -38,10 +44,10 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 import com.qjproject.liturgicalcalendar.ui.theme.DividerColor
-import com.qjproject.liturgicalcalendar.ui.theme.SubtleGrayBackground
-// --- POCZĄTEK ZMIANY: Dodanie brakującego importu ---
 import com.qjproject.liturgicalcalendar.ui.theme.SongItemBackground
-// --- KONIEC ZMIANY ---
+import com.qjproject.liturgicalcalendar.ui.theme.SubtleGrayBackground
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -73,12 +79,20 @@ private fun DayDetailsScreenContent(
 
     var showUrlModal by remember { mutableStateOf(false) }
 
+    val scrollState = rememberScrollState()
+    val coroutineScope = rememberCoroutineScope()
+    val readingLayouts = remember { mutableStateMapOf<Int, LayoutCoordinates>() }
+    var topBarHeight by remember { mutableStateOf(0) }
+
     Scaffold(
         topBar = {
             DayDetailsTopAppBar(
                 title = uiState.dayData?.tytulDnia ?: "Ładowanie...",
                 onNavigateBack = onNavigateBack,
-                onMoreClick = { showUrlModal = true }
+                onMoreClick = { showUrlModal = true },
+                modifier = Modifier.onGloballyPositioned { layoutCoordinates ->
+                    topBarHeight = layoutCoordinates.size.height
+                }
             )
         }
     ) { innerPadding ->
@@ -98,7 +112,7 @@ private fun DayDetailsScreenContent(
                         .fillMaxSize()
                         .padding(innerPadding)
                         .padding(horizontal = 16.dp)
-                        .verticalScroll(rememberScrollState())
+                        .verticalScroll(scrollState)
                 ) {
                     Spacer(modifier = Modifier.height(16.dp))
 
@@ -112,7 +126,20 @@ private fun DayDetailsScreenContent(
                             ReadingItemView(
                                 reading = reading,
                                 isExpanded = uiState.expandedReadings.contains(index),
-                                onToggle = { viewModel.toggleReading(index) }
+                                onToggle = { viewModel.toggleReading(index) },
+                                onContentDoubleTap = {
+                                    handleReadingCollapse(
+                                        index = index,
+                                        readingLayouts = readingLayouts,
+                                        viewModel = viewModel,
+                                        coroutineScope = coroutineScope,
+                                        scrollState = scrollState,
+                                        topBarHeight = topBarHeight
+                                    )
+                                },
+                                onGloballyPositioned = { coordinates ->
+                                    readingLayouts[index] = coordinates
+                                }
                             )
                         }
                     }
@@ -120,7 +147,7 @@ private fun DayDetailsScreenContent(
                     Spacer(modifier = Modifier.height(24.dp))
 
                     HierarchicalCollapsibleSection(
-                        title = "Pieśni Sugerowane",
+                        title = "Sugerowane pieśni",
                         isExpanded = uiState.isSongsSectionExpanded,
                         onToggle = { viewModel.toggleSongsSection() },
                         level = 0
@@ -142,20 +169,45 @@ private fun DayDetailsScreenContent(
     }
 }
 
+private fun handleReadingCollapse(
+    index: Int,
+    readingLayouts: Map<Int, LayoutCoordinates>,
+    viewModel: DayDetailsViewModel,
+    coroutineScope: CoroutineScope,
+    scrollState: ScrollState,
+    topBarHeight: Int
+) {
+    val layoutCoordinates = readingLayouts[index] ?: return
+    val isHeaderVisible = layoutCoordinates.positionInRoot().y >= topBarHeight
+
+    viewModel.collapseReading(index)
+
+    if (!isHeaderVisible) {
+        coroutineScope.launch {
+            val currentScroll = scrollState.value
+            val elementYPosInRoot = layoutCoordinates.positionInRoot().y
+            val targetScrollPosition = currentScroll + elementYPosInRoot.toInt() - topBarHeight
+            scrollState.animateScrollTo(targetScrollPosition)
+        }
+    }
+}
+
+
 @Composable
 private fun HierarchicalCollapsibleSection(
     title: String,
     isExpanded: Boolean,
     onToggle: () -> Unit,
     level: Int,
+    modifier: Modifier = Modifier,
     content: @Composable ColumnScope.() -> Unit
 ) {
     val sectionModifier = if (level > 0) {
-        Modifier
+        modifier
             .clip(MaterialTheme.shapes.medium)
             .background(SubtleGrayBackground)
     } else {
-        Modifier
+        modifier
     }
 
     Column(modifier = sectionModifier) {
@@ -208,15 +260,30 @@ private fun HierarchicalCollapsibleSection(
 }
 
 @Composable
-private fun ReadingItemView(reading: Reading, isExpanded: Boolean, onToggle: () -> Unit) {
+private fun ReadingItemView(
+    reading: Reading,
+    isExpanded: Boolean,
+    onToggle: () -> Unit,
+    onContentDoubleTap: () -> Unit,
+    onGloballyPositioned: (LayoutCoordinates) -> Unit
+) {
     HierarchicalCollapsibleSection(
         title = reading.typ,
         isExpanded = isExpanded,
         onToggle = onToggle,
-        level = 1
+        level = 1,
+        modifier = Modifier.onGloballyPositioned { coordinates ->
+            onGloballyPositioned(coordinates)
+        }
     ) {
         Column(
-            modifier = Modifier.padding(vertical = 8.dp),
+            modifier = Modifier
+                .padding(vertical = 8.dp)
+                .pointerInput(Unit) {
+                    detectTapGestures(
+                        onDoubleTap = { onContentDoubleTap() }
+                    )
+                },
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             if (!reading.sigla.isNullOrBlank()) {
@@ -314,9 +381,10 @@ private fun UrlModal(url: String, onDismiss: () -> Unit) {
 private fun DayDetailsTopAppBar(
     title: String,
     onNavigateBack: () -> Unit,
-    onMoreClick: () -> Unit
+    onMoreClick: () -> Unit,
+    modifier: Modifier = Modifier
 ) {
-    Column {
+    Column(modifier = modifier) {
         CenterAlignedTopAppBar(
             title = { AutoResizingText(text = title, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center) },
             navigationIcon = { IconButton(onClick = onNavigateBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć") } },
