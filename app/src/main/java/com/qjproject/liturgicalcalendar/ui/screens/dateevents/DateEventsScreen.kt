@@ -1,5 +1,6 @@
 package com.qjproject.liturgicalcalendar.ui.screens.dateevents
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -34,6 +35,8 @@ fun DateEventsScreen(
         val displayName = File(path).nameWithoutExtension
         EventItem(fullPath = path, displayName = displayName)
     }
+
+    BackHandler(onBack = onNavigateBack)
 
     Scaffold(
         topBar = {

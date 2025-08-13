@@ -1,5 +1,6 @@
 package com.qjproject.liturgicalcalendar.ui.screens.songdetails
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -35,6 +36,8 @@ fun SongDetailsScreen(
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
     val lifecycleOwner = LocalLifecycleOwner.current
+
+    BackHandler(onBack = onNavigateBack)
 
     // Ten efekt obserwuje cykl życia ekranu.
     // Za każdym razem, gdy ekran wraca na pierwszy plan (np. po powrocie z edycji),

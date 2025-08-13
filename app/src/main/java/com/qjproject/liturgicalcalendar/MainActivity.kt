@@ -101,6 +101,17 @@ fun restartApp(activity: Activity) {
 fun MainAppHost() {
     val navController = rememberAnimatedNavController()
 
+    // --- POCZĄTEK ZMIANY ---
+    val safePopBackStack: () -> Unit = {
+        // Stos nawigacji zawiera na dnie sam graf. Nasz startowy ekran 'main_tabs' jest drugi.
+        // Zatem jakikolwiek ekran szczegółów będzie trzeci lub dalszy.
+        // Ten warunek zapobiega cofnięciu się z ekranu 'main_tabs', co powodowało błąd.
+        if (navController.currentBackStack.value.size > 2) {
+            navController.popBackStack()
+        }
+    }
+    // --- KONIEC ZMIANY ---
+
     AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
         composable("main_tabs") {
             MainTabsScreen(navController = navController)
@@ -115,7 +126,7 @@ fun MainAppHost() {
             val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
             DayDetailsScreen(
                 dayId = decodedPath,
-                onNavigateBack = { navController.popBackStack() },
+                onNavigateBack = safePopBackStack, // Użycie bezpiecznej akcji
                 onNavigateToSongContent = { songNumber ->
                     navController.navigate(Screen.SongContent.createRoute(songNumber))
                 }
@@ -140,7 +151,7 @@ fun MainAppHost() {
                 onNavigateToDay = { dayPath ->
                     navController.navigate(Screen.DayDetails.createRoute(dayPath))
                 },
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = safePopBackStack // Użycie bezpiecznej akcji
             )
         }
         composable(
@@ -152,7 +163,7 @@ fun MainAppHost() {
             val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
             SongDetailsScreen(
                 songNumber = songNumber,
-                onNavigateBack = { navController.popBackStack() },
+                onNavigateBack = safePopBackStack, // Użycie bezpiecznej akcji
                 onNavigateToContent = { num -> navController.navigate(Screen.SongContent.createRoute(num)) }
             )
         }
@@ -165,7 +176,7 @@ fun MainAppHost() {
             val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
             SongContentScreen(
                 songNumber = songNumber,
-                onNavigateBack = { navController.popBackStack() }
+                onNavigateBack = safePopBackStack // Użycie bezpiecznej akcji
             )
         }
     }

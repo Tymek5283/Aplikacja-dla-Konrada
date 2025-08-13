@@ -37,6 +37,7 @@ fun SongContentScreen(
     BackHandler(enabled = uiState.isEditMode) {
         viewModel.onTryExitEditMode()
     }
+    BackHandler(enabled = !uiState.isEditMode, onBack = onNavigateBack)
 
     if (uiState.showConfirmExitDialog) {
         ConfirmExitDialog(
