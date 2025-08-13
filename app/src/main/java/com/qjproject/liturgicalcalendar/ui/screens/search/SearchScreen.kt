@@ -1,9 +1,9 @@
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.expandVertically
-import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -29,6 +29,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.models.SearchResult
 
 @Composable
@@ -52,6 +53,27 @@ fun SearchScreen(
             }
         )
     }
+
+    // --- POCZĄTEK ZMIANY ---
+    when(val dialogState = uiState.deleteDialogState) {
+        is DeleteDialogState.ConfirmInitial -> {
+            ConfirmDeleteDialog(
+                song = dialogState.song,
+                onConfirm = { viewModel.onConfirmInitialDelete() },
+                onDismiss = { viewModel.onDismissDeleteDialog() }
+            )
+        }
+        is DeleteDialogState.ConfirmOccurrences -> {
+            ConfirmDeleteOccurrencesDialog(
+                song = dialogState.song,
+                onConfirmDeleteAll = { viewModel.onFinalDelete(true) },
+                onConfirmDeleteOne = { viewModel.onFinalDelete(false) },
+                onDismiss = { viewModel.onDismissDeleteDialog() }
+            )
+        }
+        is DeleteDialogState.None -> {}
+    }
+    // --- KONIEC ZMIANY ---
 
     Scaffold(
         floatingActionButton = {
@@ -111,7 +133,10 @@ fun SearchScreen(
                     ResultsList(
                         results = uiState.results,
                         onNavigateToDay = onNavigateToDay,
-                        onNavigateToSong = onNavigateToSong
+                        onNavigateToSong = onNavigateToSong,
+                        // --- POCZĄTEK ZMIANY ---
+                        onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                        // --- KONIEC ZMIANY ---
                     )
                 }
             }
@@ -237,7 +262,8 @@ fun NoResults() {
 fun ResultsList(
     results: List<SearchResult>,
     onNavigateToDay: (String) -> Unit,
-    onNavigateToSong: (String) -> Unit
+    onNavigateToSong: (String) -> Unit,
+    onSongLongClick: (Song) -> Unit
 ) {
     LazyColumn(
         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp),
@@ -251,7 +277,11 @@ fun ResultsList(
         }) { result ->
             when (result) {
                 is SearchResult.DayResult -> DayResultItem(result = result, onClick = { onNavigateToDay(result.path) })
-                is SearchResult.SongResult -> SongResultItem(result = result, onClick = { onNavigateToSong(result.song.numer) })
+                is SearchResult.SongResult -> SongResultItem(
+                    result = result,
+                    onClick = { onNavigateToSong(result.song.numer) },
+                    onLongClick = { onSongLongClick(result.song) }
+                )
             }
         }
     }
@@ -277,12 +307,20 @@ fun DayResultItem(result: SearchResult.DayResult, onClick: () -> Unit) {
     }
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun SongResultItem(result: SearchResult.SongResult, onClick: () -> Unit) {
+fun SongResultItem(
+    result: SearchResult.SongResult,
+    onClick: () -> Unit,
+    onLongClick: () -> Unit
+) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onClick),
+            .combinedClickable(
+                onClick = onClick,
+                onLongClick = onLongClick
+            ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
@@ -372,3 +410,61 @@ private fun AddSongDialog(
         }
     )
 }
+
+// --- POCZĄTEK ZMIANY ---
+@Composable
+private fun ConfirmDeleteDialog(
+    song: Song,
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Usunąć pieśń?") },
+        text = { Text("Czy na pewno chcesz usunąć pieśń '${song.tytul}'?") },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text("Anuluj")
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = onConfirm,
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+            ) {
+                Text("Usuń")
+            }
+        }
+    )
+}
+
+@Composable
+private fun ConfirmDeleteOccurrencesDialog(
+    song: Song,
+    onConfirmDeleteAll: () -> Unit,
+    onConfirmDeleteOne: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Usunąć powiązania?") },
+        text = { Text("Czy chcesz również usunąć pieśń '${song.tytul}' ze wszystkich list sugerowanych pieśni w dniach liturgicznych?") },
+        dismissButton = {
+            Button(
+                onClick = onConfirmDeleteOne,
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
+            ) {
+                Text("Nie, dziękuję")
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = onConfirmDeleteAll,
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+            ) {
+                Text("Tak, usuń")
+            }
+        }
+    )
+}
+// --- KONIEC ZMIANY ---

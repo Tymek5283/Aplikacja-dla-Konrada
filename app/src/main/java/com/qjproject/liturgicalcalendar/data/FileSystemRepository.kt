@@ -259,6 +259,37 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
+    // --- POCZĄTEK ZMIANY ---
+    fun deleteSong(songToDelete: Song, deleteOccurrences: Boolean): Result<Unit> {
+        return try {
+            // 1. Usunięcie pieśni z głównego pliku `piesni.json`
+            val currentSongs = getSongList().toMutableList()
+            val removed = currentSongs.removeAll { it.numer == songToDelete.numer }
+            if (!removed) {
+                return Result.failure(FileNotFoundException("Nie znaleziono pieśni w głównym spisie."))
+            }
+            saveSongList(currentSongs).getOrThrow() // Rzuci wyjątek w razie błędu zapisu
+
+            // 2. Opcjonalne usunięcie wystąpień w dniach liturgicznych
+            if (deleteOccurrences) {
+                val allDayPaths = getAllDayFilePaths()
+                for (path in allDayPaths) {
+                    val dayData = getDayData(path)
+                    if (dayData?.piesniSugerowane?.any { it?.numer == songToDelete.numer } == true) {
+                        val updatedSongs = dayData.piesniSugerowane.filter { it?.numer != songToDelete.numer }
+                        val updatedDayData = dayData.copy(piesniSugerowane = updatedSongs)
+                        saveDayData(path, updatedDayData).getOrThrow()
+                    }
+                }
+            }
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas usuwania pieśni: ${songToDelete.tytul}", e)
+            Result.failure(e)
+        }
+    }
+    // --- KONIEC ZMIANY ---
+
     fun renameItem(itemPath: String, newName: String): Result<String> {
         return try {
             val oldFile = File(internalStorageRoot, itemPath)

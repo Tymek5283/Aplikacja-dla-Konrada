@@ -25,6 +25,14 @@ import kotlinx.serialization.json.jsonPrimitive
 enum class SearchMode { Dni, Pieśni }
 enum class SongSortMode { Alfabetycznie, Numerycznie }
 
+// --- POCZĄTEK ZMIANY ---
+sealed class DeleteDialogState {
+    object None : DeleteDialogState()
+    data class ConfirmInitial(val song: Song) : DeleteDialogState()
+    data class ConfirmOccurrences(val song: Song) : DeleteDialogState()
+}
+// --- KONIEC ZMIANY ---
+
 data class SearchUiState(
     val query: String = "",
     val searchMode: SearchMode = SearchMode.Dni,
@@ -36,7 +44,10 @@ data class SearchUiState(
     val searchInContent: Boolean = false,
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
     val showAddSongDialog: Boolean = false,
-    val addSongError: String? = null
+    val addSongError: String? = null,
+    // --- POCZĄTEK ZMIANY ---
+    val deleteDialogState: DeleteDialogState = DeleteDialogState.None
+    // --- KONIEC ZMIANY ---
 )
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -60,7 +71,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    private fun triggerSearch() {
+    fun triggerSearch() {
         val query = _uiState.value.query
         val mode = _uiState.value.searchMode
 
@@ -268,6 +279,36 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             )
         }
     }
+
+    // --- POCZĄTEK ZMIANY ---
+    fun onSongLongPress(song: Song) {
+        _uiState.update { it.copy(deleteDialogState = DeleteDialogState.ConfirmInitial(song)) }
+    }
+
+    fun onDismissDeleteDialog() {
+        _uiState.update { it.copy(deleteDialogState = DeleteDialogState.None) }
+    }
+
+    fun onConfirmInitialDelete() {
+        val currentState = _uiState.value.deleteDialogState
+        if (currentState is DeleteDialogState.ConfirmInitial) {
+            _uiState.update { it.copy(deleteDialogState = DeleteDialogState.ConfirmOccurrences(currentState.song)) }
+        }
+    }
+
+    fun onFinalDelete(deleteOccurrences: Boolean) {
+        val currentState = _uiState.value.deleteDialogState
+        if (currentState is DeleteDialogState.ConfirmOccurrences) {
+            viewModelScope.launch {
+                repository.deleteSong(currentState.song, deleteOccurrences).onSuccess {
+                    triggerSearch() // Refresh list on success
+                }
+                // Dismiss dialog regardless of success or failure
+                onDismissDeleteDialog()
+            }
+        }
+    }
+    // --- KONIEC ZMIANY ---
 }
 
 class SearchViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
