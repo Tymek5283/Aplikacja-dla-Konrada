@@ -109,7 +109,6 @@ class CalendarRepository(private val context: Context) {
 
     fun isYearAvailable(year: Int): Boolean = File(calendarDir, "$year.json").exists()
 
-    // --- POCZĄTEK ZMIANY: Przeniesienie operacji sieciowej na wątek I/O ---
     suspend fun downloadAndSaveYearIfNeeded(year: Int): Result<Unit> = withContext(Dispatchers.IO) {
         if (isYearAvailable(year)) return@withContext Result.success(Unit)
         if (!isNetworkAvailable()) return@withContext Result.failure(IOException("Brak połączenia z internetem."))
@@ -143,7 +142,6 @@ class CalendarRepository(private val context: Context) {
             connection?.disconnect()
         }
     }
-    // --- KONIEC ZMIANY ---
 
     private fun isNetworkAvailable(): Boolean {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
@@ -194,6 +192,14 @@ class CalendarRepository(private val context: Context) {
         return LiturgicalYearInfo(mainInfo, transitionInfo)
     }
 
+    // --- POCZĄTEK ZMIANY ---
+    fun deleteAllCalendarFiles() {
+        if (calendarDir.exists()) {
+            calendarDir.listFiles()?.forEach { it.delete() }
+        }
+        cache.clear()
+    }
+    // --- KONIEC ZMIANY ---
 
 
     // Zgodnie z prośbą, zawartość tej mapy została pominięta.
@@ -578,7 +584,7 @@ class CalendarRepository(private val context: Context) {
         "Czwartek I tygodnia Wielkiego Postu" to "1 Czwartek Wielkiego Postu",
         "Piątek I tygodnia Wielkiego Postu" to "1 Piątek Wielkiego Postu",
         "Poniedziałek I tygodnia Wielkiego Postu" to "1 Poniedziałek Wielkiego Postu",
-        "Sobota I tygodnia Wielkiego Postu" to "1 Sobota Okresu Wielkanocnego",
+        "Sobota I tygodnia Wielkiego Postu" to "1 Sobota Wielkiego Postu",
         "Wtorek I tygodnia Wielkiego Postu" to "1 Wtorek Wielkiego Postu",
         "Środa I tygodnia Wielkiego Postu" to "1 Środa Wielkiego Postu",
         "I Niedziela Wielkiego Postu" to "1 Niedziela Wielkiego Postu",
@@ -598,13 +604,13 @@ class CalendarRepository(private val context: Context) {
         "III Niedziela Wielkiego Postu" to "3 Niedziela Wielkiego Postu",
         "Środa IV tygodnia Wielkiego Postu" to "4 Środa Wielkiego Postu",
         "Piątek IV tygodnia Wielkiego Postu" to "4 Piątek Wielkiego Postu",
-        "Poniedziałek IV tygodnia Wielkiego Postu" to "4 Poniedziałek Wielkiego Postu",
+        "Poniedziałek IV tygodnia Wielkiego Postu" to "4 Poniedziałek Okresu Zwykłego",
         "Sobota IV tygodnia Wielkiego Postu" to "4 Sobota Wielkiego Postu",
         "Wtorek IV tygodnia Wielkiego Postu" to "4 Wtorek Wielkiego Postu",
         "IV Niedziela Wielkiego Postu „Laetare”" to "4 Niedziela Wielkiego Postu",
         "Czwartek V tygodnia Wielkiego Postu" to "5 Czwartek Wielkiego Postu",
         "Piątek V tygodnia Wielkiego Postu" to "5 Piątek Wielkiego Postu",
-        "Poniedziałek V tygodnia Wielkiego Postu" to "5 Poniedziałek Wielkiego Postu",
+        "Poniedziałek V tygodnia Wielkiego Postu" to "5 Poniedziałek Okresu Zwykłego",
         "Sobota V tygodnia Wielkiego Postu" to "5 Sobota Wielkiego Postu",
         "Wtorek V tygodnia Wielkiego Postu" to "5 Wtorek Wielkiego Postu",
         "Środa V tygodnia Wielkiego Postu" to "5 Środa Wielkiego Postu",
@@ -715,7 +721,10 @@ class CalendarRepository(private val context: Context) {
 
     private fun parseName(summary: String): String {
         return summary.replace(Regex("\\[.*?\\]\\s*"), "")
-            .replace(Regex("[⚪🔴🟢🟣💗🩷?]"), "").trim()
+            .replace(Regex("[⚪🔴🟢🟣💗🩷?]"), "")
+            .replace("\\", "")
+            .replace("/", "")
+            .trim()
             .replace(Regex("\\s+"), " ")
     }
 }

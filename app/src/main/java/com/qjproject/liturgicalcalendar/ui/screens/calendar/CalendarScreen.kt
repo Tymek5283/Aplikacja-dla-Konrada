@@ -64,7 +64,7 @@ fun CalendarScreen(
         when {
             uiState.isLoading && uiState.isDataMissing -> CircularProgressIndicator()
             uiState.isDataMissing -> MissingDataScreen(
-                onDownloadClick = { viewModel.downloadCalendarFiles() },
+                onDownloadClick = { viewModel.forceRefreshData() },
                 error = uiState.downloadError,
                 isLoading = uiState.isLoading
             )
@@ -81,7 +81,7 @@ fun CalendarScreen(
                     onMonthSelected = { viewModel.setMonth(it) },
                     onPreviousMonth = { viewModel.changeMonth(-1) },
                     onNextMonth = { viewModel.changeMonth(1) },
-                    onRefresh = { viewModel.downloadCalendarFiles() }
+                    onRefresh = { viewModel.forceRefreshData() }
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 DaysOfWeekHeader()

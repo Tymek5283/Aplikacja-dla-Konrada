@@ -29,7 +29,6 @@ class CalendarViewModel(
     val calendarRepo: CalendarRepository,
     private val fileSystemRepo: FileSystemRepository
 ) : ViewModel() {
-
     private val _uiState = MutableStateFlow(CalendarUiState())
     val uiState = _uiState.asStateFlow()
 
@@ -45,7 +44,7 @@ class CalendarViewModel(
 
             if (!isCurrentYearAvailable) {
                 _uiState.update { it.copy(isDataMissing = true, isLoading = true) }
-                downloadCalendarFiles() // Usunięto 'silent', ponieważ teraz UI zawsze reaguje
+                forceRefreshData()
             } else {
                 val availableYears = calendarRepo.getAvailableYears()
                 _uiState.update { it.copy(isDataMissing = false, availableYears = availableYears, isLoading = false) }
@@ -56,13 +55,16 @@ class CalendarViewModel(
         }
     }
 
-    fun downloadCalendarFiles() {
+    fun forceRefreshData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, downloadError = null) }
 
+            // Krok 1: Usuń stare pliki
+            calendarRepo.deleteAllCalendarFiles()
+
+            // Krok 2: Pobierz nowe dane
             val currentYear = YearMonth.now().year
             val nextYear = currentYear + 1
-
             var firstError: Throwable? = null
 
             calendarRepo.downloadAndSaveYearIfNeeded(currentYear).onFailure { error ->
@@ -72,6 +74,7 @@ class CalendarViewModel(
                 if (firstError == null) firstError = error
             }
 
+            // Krok 3: Zaktualizuj UI
             val availableYears = calendarRepo.getAvailableYears()
             val isCurrentYearNowAvailable = availableYears.contains(currentYear)
 
@@ -89,7 +92,6 @@ class CalendarViewModel(
             }
         }
     }
-
 
     private suspend fun loadDataForMonth(yearMonth: YearMonth) {
         val liturgicalYearData = calendarRepo.getLiturgicalYear(yearMonth.year)
@@ -232,7 +234,6 @@ class CalendarViewModel(
         return _uiState.value.availableYears.contains(year)
     }
 }
-
 class CalendarViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(CalendarViewModel::class.java)) {
