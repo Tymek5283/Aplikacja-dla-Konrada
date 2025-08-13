@@ -108,9 +108,9 @@ fun CalendarScreen(
 private fun mapColor(colorName: String?): Color? {
     return when (colorName) {
         "Biały" -> Color.White.copy(alpha = 0.5f)
-        "Czerwony" -> Color.Red.copy(alpha = 0.3f)
+        "Czerwony" -> Color(0xFFb00024).copy(alpha = 0.8f)
         "Zielony" -> Color.Green.copy(alpha = 0.3f)
-        "Fioletowy" -> Color(0xFFE0B0FF).copy(alpha = 0.4f)
+        "Fioletowy" -> Color(0xFF8711cf).copy(alpha = 0.7f)
         "Różowy" -> Color(0xFFF48FB1).copy(alpha = 0.4f)
         else -> null
     }
@@ -319,7 +319,7 @@ private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
     }
 
     if (day.isToday) {
-        cellModifier = cellModifier.border(1.dp, MaterialTheme.colorScheme.primary, CircleShape)
+        cellModifier = cellModifier.border(2.dp, MaterialTheme.colorScheme.primary, CircleShape)
     }
     if (day.hasEvents) {
         cellModifier = cellModifier.clickable(onClick = onClick)
