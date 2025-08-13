@@ -1,6 +1,5 @@
 package com.qjproject.liturgicalcalendar.ui.screens.browse
 
-import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -37,10 +36,6 @@ fun BrowseScreen(
     onNavigateToDay: (String) -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
-
-    BackHandler(enabled = uiState.isEditMode) {
-        viewModel.onTryExitEditMode {}
-    }
 
     HandleDialogs(viewModel, uiState)
 

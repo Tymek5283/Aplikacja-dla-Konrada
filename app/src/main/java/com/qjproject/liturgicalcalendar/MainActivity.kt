@@ -188,6 +188,18 @@ fun MainTabsScreen(navController: NavController) {
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
 
     BackHandler(enabled = true) {
+        if (isBrowseScreenActive) {
+            if (browseUiState.isEditMode) {
+                // W trybie edycji, przycisk Wstecz anuluje edycję, tak jak przycisk 'X'
+                browseViewModel.onTryExitEditMode {}
+            } else {
+                // W trybie przeglądania, cofa o jeden poziom w hierarchii folderów.
+                // Metoda onBackPress() sama obsługuje przypadek, gdy jesteśmy w folderze głównym.
+                browseViewModel.onBackPress()
+            }
+        }
+        // Dla pozostałych zakładek, BackHandler jest aktywny, ale nic nie robi,
+        // co zapobiega zamknięciu aplikacji przyciskiem Wstecz.
     }
 
     Scaffold(
