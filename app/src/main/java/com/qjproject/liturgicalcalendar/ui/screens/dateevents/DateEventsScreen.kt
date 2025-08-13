@@ -31,7 +31,7 @@ fun DateEventsScreen(
     onNavigateBack: () -> Unit
 ) {
     val eventItems = filePaths.map { path ->
-        val displayName = File(path).name.substringAfter(" - ", "Brak nazwy")
+        val displayName = File(path).nameWithoutExtension
         EventItem(fullPath = path, displayName = displayName)
     }
 
@@ -43,9 +43,7 @@ fun DateEventsScreen(
                         AutoResizingText(
                             text = dateTitle,
                             style = MaterialTheme.typography.titleLarge,
-                            // --- POCZĄTEK POPRAWKI: Dodanie brakującego parametru textAlign ---
                             textAlign = TextAlign.Center
-                            // --- KONIEC POPRAWKI ---
                         )
                     },
                     navigationIcon = {

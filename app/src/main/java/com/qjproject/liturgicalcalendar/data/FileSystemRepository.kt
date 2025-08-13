@@ -31,7 +31,7 @@ private data class FoundImportFiles(
 )
 
 
-class FileSystemRepository(private val context: Context) {
+class FileSystemRepository(val context: Context) {
 
     private val json = Json {
         ignoreUnknownKeys = true
@@ -218,10 +218,7 @@ class FileSystemRepository(private val context: Context) {
     fun createDayFile(path: String, fileName: String, url: String?): Result<String> {
         return try {
             val fullPath = File(internalStorageRoot, path)
-            // --- POCZĄTEK ZMIANY ---
-            // Upewniamy się, że katalog docelowy istnieje przed próbą zapisu.
             fullPath.mkdirs()
-            // --- KONIEC ZMIANY ---
             val newFile = File(fullPath, "$fileName.json")
 
             if (newFile.exists()) {
@@ -274,7 +271,6 @@ class FileSystemRepository(private val context: Context) {
             if (newFile.exists()) return Result.failure(IOException("Element o nazwie '$newName' już istnieje."))
 
             if (oldFile.renameTo(newFile)) {
-                // Jeśli to plik JSON, zaktualizuj jego wewnętrzny tytuł
                 if (!newFile.isDirectory && newFile.extension == "json") {
                     try {
                         val dayData = json.decodeFromString<DayData>(newFile.readText())
@@ -282,7 +278,6 @@ class FileSystemRepository(private val context: Context) {
                         newFile.writeText(json.encodeToString(updatedDayData))
                     } catch (e: Exception) {
                         Log.w("FileSystemRepo", "Nie udało się zaktualizować tytułu w pliku ${newFile.name}", e)
-                        // Kontynuuj, bo zmiana nazwy pliku się udała
                     }
                 }
                 Result.success(newFile.absolutePath.removePrefix(internalStorageRoot.absolutePath + "/"))

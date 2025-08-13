@@ -221,9 +221,7 @@ fun MainTabsScreen(navController: NavController) {
                             if (isSelected) {
                                 when (screen) {
                                     is Screen.Browse -> browseViewModel.onResetToRoot()
-                                    // --- POCZĄTEK ZMIANY: Poprawka wywołania ---
                                     is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
-                                    // --- KONIEC ZMIANY ---
                                     else -> {}
                                 }
                             } else {
@@ -258,13 +256,14 @@ fun MainTabsScreen(navController: NavController) {
                         navController.navigate(Screen.DayDetails.createRoute(dayPath))
                     }
                 )
-                // --- POCZĄTEK ZMIANY: Poprawka wywołania ---
                 is Screen.Calendar -> CalendarScreen(
                     onNavigateToDay = { dayPath ->
                         navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                    },
+                    onNavigateToDateEvents = { title, paths ->
+                        navController.navigate(Screen.DateEvents.createRoute(title, paths))
                     }
                 )
-                // --- KONIEC ZMIANY ---
                 is Screen.Settings -> SettingsScreen(
                     viewModel = settingsViewModel,
                     onRestartApp = {
