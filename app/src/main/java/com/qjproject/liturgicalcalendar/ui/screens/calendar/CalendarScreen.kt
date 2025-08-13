@@ -90,16 +90,8 @@ fun CalendarScreen(
                 CalendarGrid(
                     days = uiState.daysInMonth,
                     onDayClick = { day ->
-                        when {
-                            day.events.isEmpty() -> {}
-                            day.events.size == 1 -> {
-                                viewModel.handleEventSelection(day.events.first()) { navigationAction ->
-                                    if (navigationAction is NavigationAction.NavigateToDay) {
-                                        onNavigateToDay(navigationAction.path)
-                                    }
-                                }
-                            }
-                            else -> showEventSelectionDialog = day.events
+                        if (day.events.isNotEmpty()) {
+                            showEventSelectionDialog = day.events
                         }
                     }
                 )
