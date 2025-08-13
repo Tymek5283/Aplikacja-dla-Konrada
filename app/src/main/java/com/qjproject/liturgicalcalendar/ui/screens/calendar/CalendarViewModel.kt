@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import java.io.File
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.YearMonth
@@ -135,35 +136,72 @@ class CalendarViewModel(
 
     fun handleEventSelection(event: LiturgicalEventDetails, onResult: (NavigationAction) -> Unit) {
         viewModelScope.launch {
-            val foundItem = findItemRecursively("data", event.name)
-                ?: findItemRecursively("Datowane", event.name)
+            val foundPaths = findFilePathsForEvent(event.name)
 
-            if (foundItem != null) {
-                val (foundPath, isFolder) = foundItem
-                val action = if (isFolder) NavigationAction.ShowFolderSelection(foundPath) else NavigationAction.NavigateToDay(foundPath)
-                onResult(action)
-            } else {
-                val result = fileSystemRepo.createDayFile("Datowane/nieznane", event.name, null)
-                result.onSuccess { newFileName ->
-                    val newPath = "Datowane/nieznane/$newFileName"
-                    onResult(NavigationAction.NavigateToDay(newPath))
+            when {
+                foundPaths.isEmpty() -> {
+                    // Nie znaleziono nic, utwórz nowy plik
+                    val result = fileSystemRepo.createDayFile("Datowane/nieznane", event.name, null)
+                    result.onSuccess { newFileName ->
+                        val newPath = "Datowane/nieznane/$newFileName"
+                        onResult(NavigationAction.NavigateToDay(newPath))
+                    }
+                }
+                foundPaths.size == 1 -> {
+                    // Znaleziono dokładnie jeden plik, nawiguj bezpośrednio
+                    onResult(NavigationAction.NavigateToDay(foundPaths.first()))
+                }
+                else -> {
+                    // Znaleziono wiele plików (w folderze), pokaż ekran wyboru
+                    onResult(NavigationAction.ShowDateEvents(event.name, foundPaths))
                 }
             }
         }
     }
 
-    private fun findItemRecursively(basePath: String, name: String): Pair<String, Boolean>? {
-        val items = fileSystemRepo.getItems(basePath)
+    private fun findFilePathsForEvent(name: String): List<String> {
+        val results = mutableListOf<String>()
+        // Przeszukaj oba główne katalogi
+        findPathsRecursiveHelper(File(fileSystemRepo.context.filesDir, "data"), name, results)
+        if (results.isNotEmpty()) return results.sorted()
+
+        findPathsRecursiveHelper(File(fileSystemRepo.context.filesDir, "Datowane"), name, results)
+        return results.sorted()
+    }
+
+    private fun findPathsRecursiveHelper(directory: File, name: String, results: MutableList<String>) {
+        if (!directory.exists() || !directory.isDirectory) return
+
+        val items = directory.listFiles() ?: return
+
         for (item in items) {
-            if (item.name.equals(name, ignoreCase = true)) {
-                return item.path to item.isDirectory
-            }
-            if (item.isDirectory) {
-                findItemRecursively(item.path, name)?.let { return it }
+            val itemNameWithoutExt = if (item.isDirectory) item.name else item.nameWithoutExtension
+            if (itemNameWithoutExt.equals(name, ignoreCase = true)) {
+                if (item.isDirectory) {
+                    // Jeśli znaleziono pasujący folder, dodaj wszystkie pliki .json z jego wnętrza
+                    item.walk()
+                        .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
+                        .forEach { file ->
+                            results.add(file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
+                        }
+                    return // Zakończ, gdy znaleziono pasujący folder
+                } else if (item.isFile && item.extension.equals("json", ignoreCase = true)) {
+                    // Jeśli znaleziono pasujący plik
+                    results.add(item.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
+                    return // Zakończ, gdy znaleziono pasujący plik
+                }
             }
         }
-        return null
+
+        // Jeśli nie znaleziono bezpośredniego dopasowania, kontynuuj rekurencyjnie
+        for (item in items) {
+            if (item.isDirectory) {
+                findPathsRecursiveHelper(item, name, results)
+                if (results.isNotEmpty()) return // Jeśli coś znaleziono w podfolderze, zakończ
+            }
+        }
     }
+
 
     fun changeMonth(amount: Long) {
         val newMonth = _uiState.value.selectedMonth.plusMonths(amount)

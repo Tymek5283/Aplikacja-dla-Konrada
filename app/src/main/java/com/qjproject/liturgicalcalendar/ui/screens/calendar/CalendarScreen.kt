@@ -33,7 +33,8 @@ import java.util.Locale
 
 @Composable
 fun CalendarScreen(
-    onNavigateToDay: (String) -> Unit
+    onNavigateToDay: (String) -> Unit,
+    onNavigateToDateEvents: (String, List<String>) -> Unit
 ) {
     val context = LocalContext.current
     val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
@@ -50,8 +51,8 @@ fun CalendarScreen(
                     showEventSelectionDialog = null
                     when (navigationAction) {
                         is NavigationAction.NavigateToDay -> onNavigateToDay(navigationAction.path)
-                        is NavigationAction.ShowFolderSelection -> {
-                            // W przyszłości można zaimplementować nawigację do ekranu wyboru z folderu
+                        is NavigationAction.ShowDateEvents -> {
+                            onNavigateToDateEvents(navigationAction.title, navigationAction.paths)
                         }
                     }
                 }
@@ -61,14 +62,12 @@ fun CalendarScreen(
 
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         when {
-            // --- POCZĄTEK ZMIANY: Poprawiona logika wyświetlania ---
             uiState.isLoading && uiState.isDataMissing -> CircularProgressIndicator()
             uiState.isDataMissing -> MissingDataScreen(
                 onDownloadClick = { viewModel.downloadCalendarFiles() },
                 error = uiState.downloadError,
                 isLoading = uiState.isLoading
             )
-            // --- KONIEC ZMIANY ---
             else -> Column(
                 modifier = Modifier
                     .fillMaxSize()

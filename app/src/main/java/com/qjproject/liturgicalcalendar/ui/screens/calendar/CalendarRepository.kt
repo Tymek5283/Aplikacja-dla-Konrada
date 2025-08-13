@@ -26,7 +26,7 @@ import java.util.Locale
 
 sealed class NavigationAction {
     data class NavigateToDay(val path: String) : NavigationAction()
-    data class ShowFolderSelection(val path: String) : NavigationAction()
+    data class ShowDateEvents(val title: String, val paths: List<String>) : NavigationAction()
 }
 
 @Serializable
@@ -578,7 +578,7 @@ class CalendarRepository(private val context: Context) {
         "Czwartek I tygodnia Wielkiego Postu" to "1 Czwartek Wielkiego Postu",
         "Piątek I tygodnia Wielkiego Postu" to "1 Piątek Wielkiego Postu",
         "Poniedziałek I tygodnia Wielkiego Postu" to "1 Poniedziałek Wielkiego Postu",
-        "Sobota I tygodnia Wielkiego Postu" to "1 Sobota Wielkiego Postu",
+        "Sobota I tygodnia Wielkiego Postu" to "1 Sobota Okresu Wielkanocnego",
         "Wtorek I tygodnia Wielkiego Postu" to "1 Wtorek Wielkiego Postu",
         "Środa I tygodnia Wielkiego Postu" to "1 Środa Wielkiego Postu",
         "I Niedziela Wielkiego Postu" to "1 Niedziela Wielkiego Postu",
@@ -586,7 +586,7 @@ class CalendarRepository(private val context: Context) {
         "Piątek II tygodnia Wielkiego Postu" to "2 Piątek Wielkiego Postu",
         "Poniedziałek II tygodnia Wielkiego Postu" to "2 Poniedziałek Wielkiego Postu",
         "Sobota II tygodnia Wielkiego Postu" to "2 Sobota Wielkiego Postu",
-        "Wtorek II tygodnia Wielkiego Postu" to "2 Wtorek Okresu Wielkanocnego",
+        "Wtorek II tygodnia Wielkiego Postu" to "2 Wtorek Wielkiego Postu",
         "Środa II tygodnia Wielkiego Postu" to "2 Środa Wielkiego Postu",
         "II Niedziela Wielkiego Postu" to "2 Niedziela Wielkiego Postu",
         "Czwartek III tygodnia Wielkiego Postu" to "3 Czwartek Wielkiego Postu",
