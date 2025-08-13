@@ -12,7 +12,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -80,8 +79,7 @@ fun CalendarScreen(
                     onYearSelected = { viewModel.setYear(it) },
                     onMonthSelected = { viewModel.setMonth(it) },
                     onPreviousMonth = { viewModel.changeMonth(-1) },
-                    onNextMonth = { viewModel.changeMonth(1) },
-                    onRefresh = { viewModel.forceRefreshData() }
+                    onNextMonth = { viewModel.changeMonth(1) }
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 DaysOfWeekHeader()
@@ -196,12 +194,10 @@ private fun MonthYearSelector(
     onYearSelected: (Int) -> Unit,
     onMonthSelected: (Int) -> Unit,
     onPreviousMonth: () -> Unit,
-    onNextMonth: () -> Unit,
-    onRefresh: () -> Unit
+    onNextMonth: () -> Unit
 ) {
     var isYearMenuExpanded by remember { mutableStateOf(false) }
     var isMonthMenuExpanded by remember { mutableStateOf(false) }
-    var isOptionsMenuExpanded by remember { mutableStateOf(false) }
 
     Row(
         modifier = Modifier
@@ -212,8 +208,11 @@ private fun MonthYearSelector(
         IconButton(onClick = onPreviousMonth) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Poprzedni miesiąc")
         }
-        Spacer(modifier = Modifier.weight(1f))
-        Row(horizontalArrangement = Arrangement.Center) {
+        Row(
+            modifier = Modifier.weight(1f),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Box {
                 Text(
                     text = yearMonth.year.toString(),
@@ -267,27 +266,8 @@ private fun MonthYearSelector(
                 }
             }
         }
-        Spacer(modifier = Modifier.weight(1f))
         IconButton(onClick = onNextMonth) {
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Następny miesiąc")
-        }
-
-        Box {
-            IconButton(onClick = { isOptionsMenuExpanded = true }) {
-                Icon(Icons.Default.MoreVert, contentDescription = "Opcje")
-            }
-            DropdownMenu(
-                expanded = isOptionsMenuExpanded,
-                onDismissRequest = { isOptionsMenuExpanded = false }
-            ) {
-                DropdownMenuItem(
-                    text = { Text("Pobierz aktualne dane") },
-                    onClick = {
-                        onRefresh()
-                        isOptionsMenuExpanded = false
-                    }
-                )
-            }
         }
     }
 }

@@ -12,7 +12,9 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -21,11 +23,9 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
@@ -186,6 +186,9 @@ fun MainTabsScreen(navController: NavController) {
 
     val browseUiState by browseViewModel.uiState.collectAsState()
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
+    val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
+    var isCalendarMenuExpanded by remember { mutableStateOf(false) }
+
 
     BackHandler(enabled = true) {
         if (isBrowseScreenActive) {
@@ -220,7 +223,27 @@ fun MainTabsScreen(navController: NavController) {
                 onEditClick = { browseViewModel.onEnterEditMode() },
                 onSaveClick = { browseViewModel.onSaveEditMode() },
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
-                isSaveEnabled = browseUiState.hasChanges
+                isSaveEnabled = browseUiState.hasChanges,
+                isCalendarScreenActive = isCalendarScreenActive,
+                calendarActions = {
+                    Box {
+                        IconButton(onClick = { isCalendarMenuExpanded = true }) {
+                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje")
+                        }
+                        DropdownMenu(
+                            expanded = isCalendarMenuExpanded,
+                            onDismissRequest = { isCalendarMenuExpanded = false }
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("Pobierz aktualne dane") },
+                                onClick = {
+                                    calendarViewModel.forceRefreshData()
+                                    isCalendarMenuExpanded = false
+                                }
+                            )
+                        }
+                    }
+                }
             )
         },
         bottomBar = {
@@ -301,7 +324,9 @@ fun MainTopAppBar(
     onEditClick: () -> Unit = {},
     onSaveClick: () -> Unit = {},
     onCancelClick: () -> Unit = {},
-    isSaveEnabled: Boolean = false
+    isSaveEnabled: Boolean = false,
+    isCalendarScreenActive: Boolean = false,
+    calendarActions: @Composable RowScope.() -> Unit = {}
 ) {
     Column {
         CenterAlignedTopAppBar(
@@ -334,6 +359,8 @@ fun MainTopAppBar(
                     IconButton(onClick = onEditClick) {
                         Icon(Icons.Default.Edit, "Edytuj")
                     }
+                } else if (isCalendarScreenActive) {
+                    calendarActions()
                 } else {
                     Spacer(Modifier.width(48.dp))
                 }
