@@ -2,7 +2,6 @@ package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -31,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.models.SearchResult
+import androidx.compose.foundation.clickable
 
 @Composable
 fun SearchScreen(
@@ -54,7 +54,6 @@ fun SearchScreen(
         )
     }
 
-    // --- POCZĄTEK ZMIANY ---
     when(val dialogState = uiState.deleteDialogState) {
         is DeleteDialogState.ConfirmInitial -> {
             ConfirmDeleteDialog(
@@ -73,7 +72,6 @@ fun SearchScreen(
         }
         is DeleteDialogState.None -> {}
     }
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         floatingActionButton = {
@@ -134,9 +132,7 @@ fun SearchScreen(
                         results = uiState.results,
                         onNavigateToDay = onNavigateToDay,
                         onNavigateToSong = onNavigateToSong,
-                        // --- POCZĄTEK ZMIANY ---
                         onSongLongClick = { song -> viewModel.onSongLongPress(song) }
-                        // --- KONIEC ZMIANY ---
                     )
                 }
             }
@@ -372,7 +368,7 @@ private fun AddSongDialog(
                 OutlinedTextField(
                     value = number,
                     onValueChange = { number = it },
-                    label = { Text("Numer") },
+                    label = { Text("Numer*") },
                     isError = error != null,
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
@@ -398,7 +394,7 @@ private fun AddSongDialog(
         confirmButton = {
             Button(
                 onClick = { onConfirm(title, number, text) },
-                enabled = title.isNotBlank() && error == null
+                enabled = title.isNotBlank() && number.isNotBlank() && error == null
             ) {
                 Text("Zapisz")
             }
@@ -411,7 +407,6 @@ private fun AddSongDialog(
     )
 }
 
-// --- POCZĄTEK ZMIANY ---
 @Composable
 private fun ConfirmDeleteDialog(
     song: Song,
@@ -467,4 +462,3 @@ private fun ConfirmDeleteOccurrencesDialog(
         }
     )
 }
-// --- KONIEC ZMIANY ---

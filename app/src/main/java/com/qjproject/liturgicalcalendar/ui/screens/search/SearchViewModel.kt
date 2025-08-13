@@ -25,13 +25,11 @@ import kotlinx.serialization.json.jsonPrimitive
 enum class SearchMode { Dni, Pieśni }
 enum class SongSortMode { Alfabetycznie, Numerycznie }
 
-// --- POCZĄTEK ZMIANY ---
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
     data class ConfirmInitial(val song: Song) : DeleteDialogState()
     data class ConfirmOccurrences(val song: Song) : DeleteDialogState()
 }
-// --- KONIEC ZMIANY ---
 
 data class SearchUiState(
     val query: String = "",
@@ -45,9 +43,7 @@ data class SearchUiState(
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
     val showAddSongDialog: Boolean = false,
     val addSongError: String? = null,
-    // --- POCZĄTEK ZMIANY ---
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None
-    // --- KONIEC ZMIANY ---
 )
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -245,6 +241,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
 
+        // --- POCZĄTEK ZMIANY ---
+        if (trimmedNumber.isBlank()) {
+            _uiState.update { it.copy(addSongError = "Numer jest wymagany.") }
+            return
+        }
+        // --- KONIEC ZMIANY ---
+
         // Final validation before save
         validateSongInput(trimmedTitle, trimmedNumber)
         if (_uiState.value.addSongError != null) {
@@ -280,7 +283,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun onSongLongPress(song: Song) {
         _uiState.update { it.copy(deleteDialogState = DeleteDialogState.ConfirmInitial(song)) }
     }
@@ -308,7 +310,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             }
         }
     }
-    // --- KONIEC ZMIANY ---
 }
 
 class SearchViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
