@@ -7,9 +7,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
@@ -37,51 +40,80 @@ fun SearchScreen(
     val viewModel: SearchViewModel = viewModel(factory = SearchViewModelFactory(context))
     val uiState by viewModel.uiState.collectAsState()
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        SearchBar(
-            query = uiState.query,
-            onQueryChange = viewModel::onQueryChange
-        )
-
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            SearchModeTabs(
-                selectedMode = uiState.searchMode,
-                onModeSelected = viewModel::onSearchModeChange,
-                modifier = Modifier.weight(1f)
-            )
-
-            AnimatedVisibility(visible = uiState.searchMode == SearchMode.Pieśni) {
-                SongOptions(
-                    searchInTitle = uiState.searchInTitle,
-                    searchInContent = uiState.searchInContent,
-                    sortMode = uiState.sortMode,
-                    onSearchInTitleChange = viewModel::onSearchInTitleChange,
-                    onSearchInContentChange = viewModel::onSearchInContentChange,
-                    onSortModeChange = viewModel::onSortModeChange,
-                    showSortOption = uiState.results.isNotEmpty()
-                )
+    if (uiState.showAddSongDialog) {
+        AddSongDialog(
+            error = uiState.addSongError,
+            onDismiss = { viewModel.onDismissAddSongDialog() },
+            onConfirm = { title, number, text ->
+                viewModel.saveNewSong(title, number, text)
+            },
+            onValidate = { title, number ->
+                viewModel.validateSongInput(title, number)
             }
-        }
-        Divider()
+        )
+    }
 
-        when {
-            uiState.isLoading -> {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator()
+    Scaffold(
+        floatingActionButton = {
+            if (uiState.searchMode == SearchMode.Pieśni) {
+                FloatingActionButton(onClick = { viewModel.onAddSongClicked() }) {
+                    Icon(Icons.Default.Add, contentDescription = "Dodaj pieśń")
                 }
             }
-            uiState.searchPerformed && uiState.results.isEmpty() -> {
-                NoResults()
-            }
-            else -> {
-                ResultsList(
-                    results = uiState.results,
-                    onNavigateToDay = onNavigateToDay,
-                    onNavigateToSong = onNavigateToSong
+        }
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+        ) {
+            SearchBar(
+                query = uiState.query,
+                onQueryChange = viewModel::onQueryChange
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                SearchModeTabs(
+                    selectedMode = uiState.searchMode,
+                    onModeSelected = viewModel::onSearchModeChange,
+                    modifier = Modifier.weight(1f)
                 )
+
+                AnimatedVisibility(visible = uiState.searchMode == SearchMode.Pieśni) {
+                    SongOptions(
+                        searchInTitle = uiState.searchInTitle,
+                        searchInContent = uiState.searchInContent,
+                        sortMode = uiState.sortMode,
+                        onSearchInTitleChange = viewModel::onSearchInTitleChange,
+                        onSearchInContentChange = viewModel::onSearchInContentChange,
+                        onSortModeChange = viewModel::onSortModeChange,
+                        showSortOption = uiState.results.isNotEmpty()
+                    )
+                }
+            }
+            Divider()
+
+            when {
+                uiState.isLoading -> {
+                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        CircularProgressIndicator()
+                    }
+                }
+
+                uiState.searchPerformed && uiState.results.isEmpty() -> {
+                    NoResults()
+                }
+
+                else -> {
+                    ResultsList(
+                        results = uiState.results,
+                        onNavigateToDay = onNavigateToDay,
+                        onNavigateToSong = onNavigateToSong
+                    )
+                }
             }
         }
     }
@@ -265,4 +297,78 @@ fun SongResultItem(result: SearchResult.SongResult, onClick: () -> Unit) {
             Text(result.song.numer, fontWeight = FontWeight.Bold)
         }
     }
+}
+
+@Composable
+private fun AddSongDialog(
+    error: String?,
+    onDismiss: () -> Unit,
+    onConfirm: (title: String, number: String, text: String) -> Unit,
+    onValidate: (title: String, number: String) -> Unit
+) {
+    var title by remember { mutableStateOf("") }
+    var number by remember { mutableStateOf("") }
+    var text by remember { mutableStateOf("") }
+
+    // Validate input whenever title or number changes
+    LaunchedEffect(title, number) {
+        onValidate(title, number)
+    }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Dodaj nową pieśń") },
+        text = {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                OutlinedTextField(
+                    value = title,
+                    onValueChange = { title = it },
+                    label = { Text("Tytuł*") },
+                    isError = error != null,
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = number,
+                    onValueChange = { number = it },
+                    label = { Text("Numer") },
+                    isError = error != null,
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = text,
+                    onValueChange = { text = it },
+                    label = { Text("Tekst") },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(150.dp)
+                )
+                if (error != null) {
+                    Text(
+                        text = error,
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
+                }
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = { onConfirm(title, number, text) },
+                enabled = title.isNotBlank() && error == null
+            ) {
+                Text("Zapisz")
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text("Anuluj")
+            }
+        }
+    )
 }

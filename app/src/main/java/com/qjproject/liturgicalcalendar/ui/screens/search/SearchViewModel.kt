@@ -34,7 +34,9 @@ data class SearchUiState(
     // Song-specific options
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
-    val sortMode: SongSortMode = SongSortMode.Alfabetycznie
+    val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
+    val showAddSongDialog: Boolean = false,
+    val addSongError: String? = null
 )
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -46,6 +48,9 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private var searchJob: Job? = null
 
     private val json = Json { ignoreUnknownKeys = true }
+
+    // Cache for song list to avoid reading from disk on every validation
+    private var allSongsCache: List<Song>? = null
 
     init {
         _queryFlow
@@ -176,6 +181,82 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             isNumAInt -> -1 // Numbers first
             isNumBInt -> 1  // Then strings
             else -> numA.compareTo(numB) // Both are strings
+        }
+    }
+
+    fun onAddSongClicked() {
+        viewModelScope.launch {
+            allSongsCache = repository.getSongList() // Load song list when dialog is about to be shown
+            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null) }
+        }
+    }
+
+    fun onDismissAddSongDialog() {
+        _uiState.update { it.copy(showAddSongDialog = false, addSongError = null) }
+        allSongsCache = null // Clear cache
+    }
+
+    fun validateSongInput(title: String, number: String) {
+        val songs = allSongsCache ?: return
+
+        if (title.isNotBlank() && songs.any { it.tytul.equals(title.trim(), ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym tytule już istnieje.") }
+            return
+        }
+
+        if (number.isNotBlank() && songs.any { it.numer.equals(number.trim(), ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze już istnieje.") }
+            return
+        }
+
+        _uiState.update { it.copy(addSongError = null) }
+    }
+
+    fun saveNewSong(title: String, number: String, text: String) {
+        val trimmedTitle = title.trim()
+        val trimmedNumber = number.trim()
+        val trimmedText = text.trim()
+
+        if (trimmedTitle.isBlank()) {
+            _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
+            return
+        }
+
+        // Final validation before save
+        validateSongInput(trimmedTitle, trimmedNumber)
+        if (_uiState.value.addSongError != null) {
+            return
+        }
+
+        viewModelScope.launch {
+            val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
+            val newSong = Song(
+                tytul = trimmedTitle,
+                numer = trimmedNumber,
+                tekst = trimmedText.ifBlank { null },
+                opis = null // New songs don't have descriptions from liturgical days
+            )
+            songs.add(newSong)
+
+            repository.saveSongList(songs).fold(
+                onSuccess = {
+                    _uiState.update {
+                        it.copy(showAddSongDialog = false)
+                    }
+                    allSongsCache = null // Invalidate cache
+                    // After adding, re-run the search if the query isn't blank
+                    if (_uiState.value.query.isNotBlank()) {
+                        performSearch(_uiState.value.query)
+                    }
+                },
+                onFailure = { error ->
+                    _uiState.update {
+                        it.copy(
+                            addSongError = "Błąd zapisu: ${error.localizedMessage}"
+                        )
+                    }
+                }
+            )
         }
     }
 }
