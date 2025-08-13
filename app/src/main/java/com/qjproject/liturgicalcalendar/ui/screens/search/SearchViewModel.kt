@@ -56,23 +56,29 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _queryFlow
             .debounce(500)
             .distinctUntilChanged()
-            .onEach { query ->
-                if (query.isNotBlank()) {
-                    performSearch(query)
-                } else {
-                    _uiState.update { it.copy(results = emptyList(), searchPerformed = false, isLoading = false) }
-                }
-            }
+            .onEach { triggerSearch() }
             .launchIn(viewModelScope)
     }
 
-    fun onQueryChange(newQuery: String) {
-        _queryFlow.value = newQuery
-        _uiState.update { it.copy(query = newQuery) }
-        if (newQuery.isBlank()) {
-            searchJob?.cancel()
-            _uiState.update { it.copy(results = emptyList(), searchPerformed = false, isLoading = false) }
+    private fun triggerSearch() {
+        val query = _uiState.value.query
+        val mode = _uiState.value.searchMode
+
+        searchJob?.cancel()
+        if (query.isNotBlank()) {
+            performSearch(query)
+        } else {
+            if (mode == SearchMode.Pieśni) {
+                loadAllSongs()
+            } else {
+                _uiState.update { it.copy(results = emptyList(), searchPerformed = false, isLoading = false) }
+            }
         }
+    }
+
+    fun onQueryChange(newQuery: String) {
+        _uiState.update { it.copy(query = newQuery) }
+        _queryFlow.value = newQuery
     }
 
     fun onSearchModeChange(newMode: SearchMode) {
@@ -81,27 +87,24 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onSearchInTitleChange(isChecked: Boolean) {
+        if (_uiState.value.searchInTitle == isChecked) return
         _uiState.update { it.copy(searchInTitle = isChecked) }
         triggerSearch()
     }
 
     fun onSearchInContentChange(isChecked: Boolean) {
+        if (_uiState.value.searchInContent == isChecked) return
         _uiState.update { it.copy(searchInContent = isChecked) }
         triggerSearch()
     }
 
     fun onSortModeChange(newSortMode: SongSortMode) {
+        if (_uiState.value.sortMode == newSortMode) return
         _uiState.update { it.copy(sortMode = newSortMode) }
-        // Re-sort existing results without a new search
         val sortedResults = sortSongs(_uiState.value.results.filterIsInstance<SearchResult.SongResult>())
         _uiState.update { it.copy(results = sortedResults) }
     }
 
-    private fun triggerSearch() {
-        if (_uiState.value.query.isNotBlank()) {
-            performSearch(_uiState.value.query)
-        }
-    }
 
     private fun normalize(text: String?): String {
         if (text == null) return ""
@@ -110,7 +113,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     private fun performSearch(query: String) {
-        searchJob?.cancel()
         searchJob = viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val results = when (_uiState.value.searchMode) {
@@ -160,6 +162,16 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         }.map { SearchResult.SongResult(it) }
 
         return sortSongs(filteredSongs)
+    }
+
+    private fun loadAllSongs() {
+        searchJob = viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            val allSongs = repository.getSongList()
+            val results = allSongs.map { SearchResult.SongResult(it) }
+            val sortedResults = sortSongs(results)
+            _uiState.update { it.copy(results = sortedResults, searchPerformed = true, isLoading = false) }
+        }
     }
 
     private fun sortSongs(songs: List<SearchResult.SongResult>): List<SearchResult> {
@@ -244,10 +256,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                         it.copy(showAddSongDialog = false)
                     }
                     allSongsCache = null // Invalidate cache
-                    // After adding, re-run the search if the query isn't blank
-                    if (_uiState.value.query.isNotBlank()) {
-                        performSearch(_uiState.value.query)
-                    }
+                    triggerSearch() // Refresh the list
                 },
                 onFailure = { error ->
                     _uiState.update {
