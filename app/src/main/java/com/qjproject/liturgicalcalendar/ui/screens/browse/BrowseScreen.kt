@@ -246,37 +246,47 @@ fun AddItemTile(onClick: () -> Unit) {
 
 @Composable
 private fun ConfirmExitEditModeDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Anulować zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = { Text("Masz niezapisane zmiany. Czy na pewno chcesz wyjść i je odrzucić?") },
-        dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text("Zostań", fontWeight = FontWeight.Bold)
-            }
-        },
-        confirmButton = {
-            TextButton(onClick = onDiscard) {
-                Text("Odrzuć", color = MaterialTheme.colorScheme.error)
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Anulować zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Masz niezapisane zmiany. Czy na pewno chcesz wyjść i je odrzucić?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) {
+                        Text("Zostań", fontWeight = FontWeight.Bold)
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    TextButton(onClick = onDiscard) {
+                        Text("Odrzuć", color = MaterialTheme.colorScheme.error)
+                    }
+                }
             }
         }
-    )
+    }
 }
 
 @Composable
 private fun ConfirmDeleteDialog(item: FileSystemItem, onDismiss: () -> Unit, onConfirm: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = { Text("Czy na pewno chcesz usunąć '${item.name}'? Ta operacja jest nieodwracalna.") },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } },
-        confirmButton = {
-            Button(
-                onClick = onConfirm,
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-            ) { Text("Usuń") }
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz usunąć '${item.name}'? Ta operacja jest nieodwracalna.")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirm,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) { Text("Usuń") }
+                }
+            }
         }
-    )
+    }
 }
 
 @Composable
@@ -301,7 +311,7 @@ private fun RenameItemDialog(
 @Composable
 private fun AddOptionsDialog(onDismiss: () -> Unit, onCreateFolder: () -> Unit, onCreateDay: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card {
+        Card(shape = MaterialTheme.shapes.large) {
             Column(Modifier.padding(24.dp)) {
                 Text("Co chcesz utworzyć?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
                 Spacer(Modifier.height(24.dp))
@@ -334,36 +344,48 @@ private fun CreateItemDialog(
     var name by remember { mutableStateOf(initialValue) }
     LaunchedEffect(Unit) { onValueChange(initialValue) }
 
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text(title, style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = {
-            Column {
-                OutlinedTextField(
-                    value = name,
-                    onValueChange = {
-                        name = it
-                        onValueChange(it)
-                    },
-                    label = { Text(label) },
-                    singleLine = true,
-                    isError = error != null,
-                    keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
-                    keyboardActions = KeyboardActions(onDone = {
-                        if (name.isNotBlank() && error == null) onConfirm(name)
-                    })
-                )
-                if (error != null) {
-                    Text(error, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 4.dp))
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(title, style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Column {
+                    OutlinedTextField(
+                        value = name,
+                        onValueChange = {
+                            name = it
+                            onValueChange(it)
+                        },
+                        label = { Text(label) },
+                        singleLine = true,
+                        isError = error != null,
+                        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+                        keyboardActions = KeyboardActions(onDone = {
+                            if (name.isNotBlank() && error == null) onConfirm(name)
+                        })
+                    )
+                    if (error != null) {
+                        Text(
+                            error,
+                            color = MaterialTheme.colorScheme.error,
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    }
+                }
+                Spacer(Modifier.height(24.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(name) },
+                        enabled = name.isNotBlank() && error == null
+                    ) { Text("Zatwierdź") }
                 }
             }
-        },
-        confirmButton = {
-            Button(
-                onClick = { onConfirm(name) },
-                enabled = name.isNotBlank() && error == null
-            ) { Text("Zatwierdź") }
-        },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } }
-    )
+        }
+    }
 }

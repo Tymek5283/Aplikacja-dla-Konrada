@@ -12,6 +12,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 
 @Composable
 fun SettingsScreen(
@@ -38,21 +40,25 @@ fun SettingsScreen(
 
     // Efekt do pokazywania dialogu restartu
     if (uiState.showRestartPrompt) {
-        AlertDialog(
-            onDismissRequest = { viewModel.dismissRestartPrompt() },
-            title = { Text("Import zakończony") },
-            text = { Text("Dane zostały pomyślnie zaimportowane. Aby zmiany były widoczne, aplikacja musi zostać uruchomiona ponownie.") },
-            confirmButton = {
-                TextButton(onClick = onRestartApp) {
-                    Text("Uruchom ponownie")
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { viewModel.dismissRestartPrompt() }) {
-                    Text("Później")
+        Dialog(onDismissRequest = { viewModel.dismissRestartPrompt() }) {
+            Card(shape = MaterialTheme.shapes.large) {
+                Column(Modifier.padding(24.dp)) {
+                    Text("Import zakończony", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                    Spacer(Modifier.height(16.dp))
+                    Text("Dane zostały pomyślnie zaimportowane. Aby zmiany były widoczne, aplikacja musi zostać uruchomiona ponownie.")
+                    Spacer(Modifier.height(24.dp))
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                        TextButton(onClick = { viewModel.dismissRestartPrompt() }) {
+                            Text("Później")
+                        }
+                        Spacer(Modifier.width(8.dp))
+                        Button(onClick = onRestartApp) {
+                            Text("Uruchom ponownie")
+                        }
+                    }
                 }
             }
-        )
+        }
     }
 
     Scaffold(

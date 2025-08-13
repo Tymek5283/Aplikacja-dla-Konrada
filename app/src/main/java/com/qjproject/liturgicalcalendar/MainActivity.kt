@@ -101,16 +101,9 @@ fun restartApp(activity: Activity) {
 fun MainAppHost() {
     val navController = rememberAnimatedNavController()
 
-    // --- POCZĄTEK ZMIANY ---
     val safePopBackStack: () -> Unit = {
-        // Stos nawigacji zawiera na dnie sam graf. Nasz startowy ekran 'main_tabs' jest drugi.
-        // Zatem jakikolwiek ekran szczegółów będzie trzeci lub dalszy.
-        // Ten warunek zapobiega cofnięciu się z ekranu 'main_tabs', co powodowało błąd.
-        if (navController.currentBackStack.value.size > 2) {
-            navController.popBackStack()
-        }
+        navController.navigateUp()
     }
-    // --- KONIEC ZMIANY ---
 
     AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
         composable("main_tabs") {
@@ -126,7 +119,7 @@ fun MainAppHost() {
             val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
             DayDetailsScreen(
                 dayId = decodedPath,
-                onNavigateBack = safePopBackStack, // Użycie bezpiecznej akcji
+                onNavigateBack = safePopBackStack,
                 onNavigateToSongContent = { songNumber ->
                     navController.navigate(Screen.SongContent.createRoute(songNumber))
                 }
@@ -151,7 +144,7 @@ fun MainAppHost() {
                 onNavigateToDay = { dayPath ->
                     navController.navigate(Screen.DayDetails.createRoute(dayPath))
                 },
-                onNavigateBack = safePopBackStack // Użycie bezpiecznej akcji
+                onNavigateBack = safePopBackStack
             )
         }
         composable(
@@ -163,7 +156,7 @@ fun MainAppHost() {
             val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
             SongDetailsScreen(
                 songNumber = songNumber,
-                onNavigateBack = safePopBackStack, // Użycie bezpiecznej akcji
+                onNavigateBack = safePopBackStack,
                 onNavigateToContent = { num -> navController.navigate(Screen.SongContent.createRoute(num)) }
             )
         }
@@ -176,7 +169,7 @@ fun MainAppHost() {
             val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
             SongContentScreen(
                 songNumber = songNumber,
-                onNavigateBack = safePopBackStack // Użycie bezpiecznej akcji
+                onNavigateBack = safePopBackStack
             )
         }
     }
@@ -196,24 +189,32 @@ fun MainTabsScreen(navController: NavController) {
     val coroutineScope = rememberCoroutineScope()
 
     val browseUiState by browseViewModel.uiState.collectAsState()
+
+    val isSearchScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Search)
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
     val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
+
+    var showSearchOptions by remember { mutableStateOf(false) }
     var isCalendarMenuExpanded by remember { mutableStateOf(false) }
 
-
     BackHandler(enabled = true) {
-        if (isBrowseScreenActive) {
-            if (browseUiState.isEditMode) {
-                // W trybie edycji, przycisk Wstecz anuluje edycję, tak jak przycisk 'X'
-                browseViewModel.onTryExitEditMode {}
-            } else {
-                // W trybie przeglądania, cofa o jeden poziom w hierarchii folderów.
-                // Metoda onBackPress() sama obsługuje przypadek, gdy jesteśmy w folderze głównym.
-                browseViewModel.onBackPress()
+        when {
+            // Priorytet: jeśli menu opcji wyszukiwania jest otwarte, zamknij je
+            isSearchScreenActive && showSearchOptions -> {
+                showSearchOptions = false
             }
+            // Logika dla ekranu przeglądania
+            isBrowseScreenActive -> {
+                if (browseUiState.isEditMode) {
+                    browseViewModel.onTryExitEditMode {}
+                } else {
+                    browseViewModel.onBackPress()
+                }
+            }
+            // Dla pozostałych przypadków (inne ekrany bez otwartych menu), nie rób nic,
+            // aby zapobiec zamknięciu aplikacji
+            else -> {}
         }
-        // Dla pozostałych zakładek, BackHandler jest aktywny, ale nic nie robi,
-        // co zapobiega zamknięciu aplikacji przyciskiem Wstecz.
     }
 
     Scaffold(
@@ -294,7 +295,9 @@ fun MainTabsScreen(navController: NavController) {
                     },
                     onNavigateToSong = { songNumber ->
                         navController.navigate(Screen.SongDetails.createRoute(songNumber))
-                    }
+                    },
+                    showMenu = showSearchOptions,
+                    onShowMenuChange = { showSearchOptions = it }
                 )
                 is Screen.Browse -> BrowseScreen(
                     viewModel = browseViewModel,

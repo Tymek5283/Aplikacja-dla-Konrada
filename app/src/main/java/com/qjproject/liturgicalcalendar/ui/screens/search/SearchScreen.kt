@@ -2,6 +2,7 @@ package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -27,15 +28,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.models.SearchResult
-import androidx.compose.foundation.clickable
 
 @Composable
 fun SearchScreen(
     onNavigateToDay: (String) -> Unit,
-    onNavigateToSong: (String) -> Unit
+    onNavigateToSong: (String) -> Unit,
+    showMenu: Boolean,
+    onShowMenuChange: (Boolean) -> Unit
 ) {
     val context = LocalContext.current
     val viewModel: SearchViewModel = viewModel(factory = SearchViewModelFactory(context))
@@ -104,6 +108,8 @@ fun SearchScreen(
 
                 AnimatedVisibility(visible = uiState.searchMode == SearchMode.Pieśni) {
                     SongOptions(
+                        showMenu = showMenu,
+                        onShowMenuChange = onShowMenuChange,
                         searchInTitle = uiState.searchInTitle,
                         searchInContent = uiState.searchInContent,
                         sortMode = uiState.sortMode,
@@ -182,6 +188,8 @@ fun SearchModeTabs(selectedMode: SearchMode, onModeSelected: (SearchMode) -> Uni
 
 @Composable
 fun SongOptions(
+    showMenu: Boolean,
+    onShowMenuChange: (Boolean) -> Unit,
     searchInTitle: Boolean,
     searchInContent: Boolean,
     sortMode: SongSortMode,
@@ -190,15 +198,13 @@ fun SongOptions(
     onSortModeChange: (SongSortMode) -> Unit,
     showSortOption: Boolean
 ) {
-    var showMenu by remember { mutableStateOf(false) }
-
     Box(contentAlignment = Alignment.Center) {
-        IconButton(onClick = { showMenu = true }) {
+        IconButton(onClick = { onShowMenuChange(true) }) {
             Icon(Icons.Default.MoreVert, contentDescription = "Więcej opcji")
         }
         DropdownMenu(
             expanded = showMenu,
-            onDismissRequest = { showMenu = false }
+            onDismissRequest = { onShowMenuChange(false) }
         ) {
             Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
             DropdownMenuItem(
@@ -344,67 +350,71 @@ private fun AddSongDialog(
     var number by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
 
-    // Validate input whenever title or number changes
     LaunchedEffect(title, number) {
         onValidate(title, number)
     }
 
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Dodaj nową pieśń") },
-        text = {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
             Column(
-                modifier = Modifier.verticalScroll(rememberScrollState()),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
+                modifier = Modifier
+                    .padding(24.dp)
+                    .verticalScroll(rememberScrollState())
             ) {
-                OutlinedTextField(
-                    value = title,
-                    onValueChange = { title = it },
-                    label = { Text("Tytuł*") },
-                    isError = error != null,
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                OutlinedTextField(
-                    value = number,
-                    onValueChange = { number = it },
-                    label = { Text("Numer*") },
-                    isError = error != null,
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                OutlinedTextField(
-                    value = text,
-                    onValueChange = { text = it },
-                    label = { Text("Tekst") },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(150.dp)
-                )
-                if (error != null) {
-                    Text(
-                        text = error,
-                        color = MaterialTheme.colorScheme.error,
-                        style = MaterialTheme.typography.bodySmall,
-                        modifier = Modifier.padding(top = 4.dp)
+                Text("Dodaj nową pieśń", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OutlinedTextField(
+                        value = title,
+                        onValueChange = { title = it },
+                        label = { Text("Tytuł*") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
                     )
+                    OutlinedTextField(
+                        value = number,
+                        onValueChange = { number = it },
+                        label = { Text("Numer*") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = text,
+                        onValueChange = { text = it },
+                        label = { Text("Tekst") },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(150.dp)
+                    )
+                    if (error != null) {
+                        Text(
+                            text = error,
+                            color = MaterialTheme.colorScheme.error,
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    }
+                }
+
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) {
+                        Text("Anuluj")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(title, number, text) },
+                        enabled = title.isNotBlank() && number.isNotBlank() && error == null
+                    ) {
+                        Text("Zapisz")
+                    }
                 }
             }
-        },
-        confirmButton = {
-            Button(
-                onClick = { onConfirm(title, number, text) },
-                enabled = title.isNotBlank() && number.isNotBlank() && error == null
-            ) {
-                Text("Zapisz")
-            }
-        },
-        dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text("Anuluj")
-            }
         }
-    )
+    }
 }
 
 @Composable
@@ -413,24 +423,26 @@ private fun ConfirmDeleteDialog(
     onConfirm: () -> Unit,
     onDismiss: () -> Unit
 ) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Usunąć pieśń?") },
-        text = { Text("Czy na pewno chcesz usunąć pieśń '${song.tytul}'?") },
-        dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text("Anuluj")
-            }
-        },
-        confirmButton = {
-            Button(
-                onClick = onConfirm,
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-            ) {
-                Text("Usuń")
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Usunąć pieśń?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz usunąć pieśń '${song.tytul}'?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirm,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) {
+                        Text("Usuń")
+                    }
+                }
             }
         }
-    )
+    }
 }
 
 @Composable
@@ -440,25 +452,28 @@ private fun ConfirmDeleteOccurrencesDialog(
     onConfirmDeleteOne: () -> Unit,
     onDismiss: () -> Unit
 ) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Usunąć powiązania?") },
-        text = { Text("Czy chcesz również usunąć pieśń '${song.tytul}' ze wszystkich list sugerowanych pieśni w dniach liturgicznych?") },
-        dismissButton = {
-            Button(
-                onClick = onConfirmDeleteOne,
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
-            ) {
-                Text("Nie, dziękuję")
-            }
-        },
-        confirmButton = {
-            Button(
-                onClick = onConfirmDeleteAll,
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-            ) {
-                Text("Tak, usuń")
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Usunąć powiązania?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy chcesz również usunąć pieśń '${song.tytul}' ze wszystkich list sugerowanych pieśni w dniach liturgicznych?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(
+                        onClick = onConfirmDeleteOne,
+                    ) {
+                        Text("Nie, dziękuję")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirmDeleteAll,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) {
+                        Text("Tak, usuń")
+                    }
+                }
             }
         }
-    )
+    }
 }

@@ -492,28 +492,45 @@ fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -
 // =================================================================================
 @Composable
 private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Odrzucić zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = { Text("Czy na pewno chcesz wyjść bez zapisywania zmian?") },
-        dismissButton = {
-            Button(onClick = onDismiss) { Text("Anuluj") }
-        },
-        confirmButton = {
-            TextButton(onClick = onDiscard) { Text("Odrzuć") }
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Odrzucić zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDiscard) {
+                        Text("Odrzuć", color = MaterialTheme.colorScheme.error)
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(onClick = onDismiss) { Text("Anuluj") }
+                }
+            }
         }
-    )
+    }
 }
 
 @Composable
 private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onConfirm: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = { Text("Czy na pewno chcesz usunąć $description?") },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Anuluj") } },
-        confirmButton = { Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)) { Text("Usuń") } }
-    )
+    Dialog(onDismissRequest = onDismiss) {
+        Card(shape = MaterialTheme.shapes.large) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz usunąć $description?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirm,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) { Text("Usuń") }
+                }
+            }
+        }
+    }
 }
 
 @Composable
