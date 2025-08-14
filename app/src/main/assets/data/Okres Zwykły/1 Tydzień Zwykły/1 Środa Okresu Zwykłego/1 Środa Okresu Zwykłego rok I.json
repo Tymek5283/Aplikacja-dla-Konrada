@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410455.Sroda-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 2, 14-18",
+      "opis": "Jezus jest we wszystkim podobny do ludzi",
+      "tekst": "Ponieważ dzieci mają udział we krwi i w ciele, dlatego i Jezus także bez żadnej różnicy otrzymał w nich udział, aby przez śmierć pokonać tego, który dzierżył władzę nad śmiercią, to jest diabła, i aby uwolnić tych wszystkich, którzy całe życie przez bojaźń śmierci podlegli byli niewoli. Zaiste bowiem nie aniołów przygarnia, ale przygarnia potomstwo Abrahamowe. Dlatego musiał się upodobnić pod każdym względem do braci, aby stał się miłosiernym i wiernym arcykapłanem w tym, co się odnosi do Boga - dla przebłagania za grzechy ludu. Przez to bowiem, co sam wycierpiał poddany próbie, może przyjść z pomocą tym, którzy jej podlegają. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 1-2. 3-4. 6-7. 8-9 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\n\nalbo: Alleluja.\nSławcie Pana, wzywajcie Jego imienia, *\n\ngłoście Jego dzieła wśród narodów.\n\nŚpiewajcie i grajcie Mu psalmy, *\n\nrozgłaszajcie wszystkie Jego cuda.\nRefren.\nSzczyćcie się Jego świętym imieniem, *\n\nniech się weseli serce szukających Pana.\n\nRozmyślajcie o Panu i Jego potędze, *\n\nzawsze szukajcie Jego oblicza.\nRefren.\nPotomkowie Abrahama, słudzy Jego, *\n\nsynowie Jakuba, Jego wybrańcy.\n\nOn, Pan, jest naszym Bogiem, *\n\nJego wyroki obejmują świat cały.\nRefren.\nNa wieki pamięta o swoim przymierzu, *\n\nobietnicy danej tysiącu pokoleń,\n\no przymierzu, które zawarł z Abrahamem, *\n\nprzysiędze danej Izaakowi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\n\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 29-39",
+      "opis": "Jezus uzdrawia chorych",
+      "tekst": "Po wyjściu z synagogi Jezus przyszedł z Jakubem i Janem do domu Szymona i Andrzeja. Teściowa zaś Szymona leżała w gorączce. Zaraz powiedzieli Mu o niej. On podszedł i podniósł ją, ująwszy za rękę, a opuściła ją gorączka. I usługiwała im. Z nastaniem wieczora, gdy słońce zaszło, przynosili do Niego wszystkich chorych i opętanych; i całe miasto zebrało się u drzwi. Uzdrowił wielu dotkniętych rozmaitymi chorobami i wiele złych duchów wyrzucił, lecz nie pozwalał złym duchom mówić, ponieważ Go znały. Nad ranem, kiedy jeszcze było ciemno, wstał, wyszedł i udał się na miejsce pustynne, i tam się modlił. Pośpieszył za Nim Szymon z towarzyszami, a gdy Go znaleźli, powiedzieli Mu: «Wszyscy Cię szukają». Lecz On rzekł do nich: «Pójdźmy gdzie indziej, do sąsiednich miejscowości, abym i tam mógł nauczać, bo po to wyszedłem». I chodził po całej Galilei, nauczając w ich synagogach i wyrzucając złe duchy. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta wzywa do szukania pomocy u Jezusa, podobnie jak ludzie z Kafarnaum, którzy przynosili do Niego swoich chorych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, który objawia swoją moc w Jezusie, miłosiernym arcykapłanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni dobrze współbrzmi z postawą ludzi, którzy z wiarą przynosili chorych do Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych codziennych spraw i trudów, które Jezus uświęca swoją obecnością i działaniem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ta jest aktem ofiarowania, który jest odpowiedzią na miłosierdzie Boga objawione w Chrystusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń ofiarna, która wyraża pragnienie oddania się Bogu, który w Jezusie stał się naszym bratem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który jest miłosiernym arcykapłanem, jak opisuje Go List do Hebrajczyków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża oczekiwanie na przyjście Pana w Komunii, który jest Lekarzem dusz i ciał.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Wyraża postawę człowieka, który z wiarą i pokorą prosi o uzdrowienie i bliskość z Chrystusem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i ratunek, która może być śpiewem teściowej Szymona i innych uzdrowionych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to prosta pieśń dziękczynna za dar uzdrowienia i za miłosierdzie Boże objawione w Jezusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za Boże dzieła, zarówno za dar Wcielenia, jak i za uzdrowienia dokonane przez Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Słowa Jezusa 'Pójdźmy gdzie indziej, abym i tam mógł nauczać' są zapowiedzią misji głoszenia Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o uzdrawiającej mocy Boga, którą widzieli mieszkańcy Kafarnaum.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest to modlitwa o stałą obecność Pana w misji głoszenia Jego królestwa, którą Jezus kontynuuje w całej Galilei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie jest odpowiedzią na objawienie się mocy i miłosierdzia Boga w osobie Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń odzwierciedla postawę Jezusa, który nad ranem szukał miejsca pustynnego, aby być blisko Ojca na modlitwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o wiarę jest kluczowa, aby dostrzec w Jezusie miłosiernego Arcykapłana i doświadczyć Jego uzdrawiającej mocy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że Chrystus jest przewodnikiem naszego życia, co jest odpowiedzią na Jego nauczanie i cuda.",
+      "moment": "ogolne"
+    }
+  ]
+}

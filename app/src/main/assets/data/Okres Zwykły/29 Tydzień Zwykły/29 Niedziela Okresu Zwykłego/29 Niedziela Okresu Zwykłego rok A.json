@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415679.29-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "29 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 45, 1. 4-6",
+      "opis": "Król Cyrus narzędziem Boga",
+      "tekst": "Tak mówi Pan o swym pomazańcu, Cyrusie: «Ja mocno ująłem go za prawicę, aby ujarzmić przed nim narody i królom odpiąć broń od pasa, aby otworzyć przed nim podwoje, żeby się bramy nie zatrzasnęły.\nPrzez wzgląd na mego sługę, Jakuba, Izraela, mojego wybrańca, nadałem ci twój tytuł, bardzo zaszczytny, chociaż Mnie nie znałeś. Ja jestem Pan, i nie ma innego. Poza Mną nie ma boga. Przypaszę ci broń, chociaż Mnie nie znałeś, aby wiedziano od wschodu słońca aż do zachodu, że poza Mną nie ma nic. Ja jestem Pan i nikt poza Mną».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1 i 3. 4-5. 7-8. 9 i 10ac (R.: por. 3)",
+      "opis": "",
+      "tekst": "Refren: Pośród narodów głoście chwałę Pana.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nGłoście Jego chwałę wśród wszystkich narodów, *\nrozgłaszajcie Jego cuda pośród wszystkich ludów.\nRefren.\nWielki jest Pan, godzien wszelkiej chwały, *\nbudzi trwogę najwyższą, większą niż inni bogowie.\nBo wszyscy bogowie pogan są tylko ułudą, *\nPan zaś stworzył niebiosa.\nRefren: Pośród narodów głoście chwałę Pana.\nOddajcie Panu, rodziny narodów, *\noddajcie Panu chwałę i uznajcie Jego potęgę.\nOddajcie Panu chwałę należną Jego imieniu, *\nprzynieście dary i wejdźcie na Jego dziedzińce.\nRefren.\nUwielbiajcie Pana w świętym przybytku, *\nzadrżyj, ziemio cała, przed Jego obliczem.\nGłoście wśród ludów, że Pan jest królem, *\nbędzie sprawiedliwie sądził ludy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Tes 1, 1-5b",
+      "opis": "Paweł dziękuje Bogu za wiarę, nadzieję i miłość Tesaloniczan",
+      "tekst": "Paweł, Sylwan i Tymoteusz do Kościoła Tesaloniczan w Bogu Ojcu i Panu Jezusie Chrystusie. Łaska wam i pokój!\nZawsze dziękujemy Bogu za was wszystkich, wspominając o was nieustannie w naszych modlitwach, pomni przed Bogiem i Ojcem naszym na wasze dzieło wiary, na trud miłości i na wytrwałą nadzieję w Panu naszym, Jezusie Chrystusie.\nWiemy, bracia przez Boga umiłowani, o wybraniu waszym, bo nasze głoszenie Ewangelii wśród was nie dokonało się samym tylko słowem, lecz mocą i działaniem Ducha Świętego oraz wielką siłą przekonania.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Flp 2, 15d. 16a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jawicie się jako źródło światła w świecie,\ntrzymając się mocno Słowa Życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 22, 15-21",
+      "opis": "Oddajcie cezarowi to, co należy do cezara, a Bogu to, co należy do Boga",
+      "tekst": "Faryzeusze odeszli i naradzali się, jak by podchwycić Jezusa w mowie.\nPosłali więc do Niego swych uczniów razem ze zwolennikami Heroda, aby mu powiedzieli: «Nauczycielu, wiemy, że jesteś prawdomówny i drogi Bożej w prawdzie nauczasz. Na nikim Ci też nie zależy, bo nie oglądasz się na osobę ludzką. Powiedz nam więc, jak ci się zdaje? Czy wolno płacić podatek cezarowi, czy nie?»\nJezus przejrzał ich przewrotność i rzekł: «Czemu wystawiacie Mnie na próbę, obłudnicy? Pokażcie Mi monetę podatkową!» Przynieśli Mu denara. On ich zapytał: «Czyj jest ten obraz i napis?» Odpowiedzieli: «Cezara». Wówczas rzekł do nich: «Oddajcie więc cezarowi to, co należy do cezara, a Bogu to, co należy do Boga».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa cały świat do służenia Panu, co jest echem psalmu responsoryjnego, wzywającego do głoszenia chwały Pana wśród narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest hymnem na cześć Króla wszechmocy, jedynego Boga, o którym mówi prorok Izajasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana nad całą ziemią jest odpowiedzią na wezwanie psalmu do głoszenia Jego chwały.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na słowa Jezusa 'Oddajcie Bogu to, co należy do Boga', ta pieśń jest aktem ofiarowania Bogu całego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie Bogu owoców naszej pracy jest konkretnym sposobem oddawania Mu tego, co do Niego należy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Pieśń jest prostym aktem ofiarowania serca Bogu, co jest najcenniejszym darem, jaki możemy Mu złożyć.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w jedynego Boga, któremu należy się cześć, co jest głównym przesłaniem pierwszego czytania i Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę pokory i wiary wobec Boga, któremu oddajemy cześć, w przeciwieństwie do obłudy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem adoracji i wiary w Boga, któremu należy się najwyższa cześć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Dziękczynienie za dar wiary, o której z radością pisze św. Paweł w drugim czytaniu, a która pozwala nam oddawać Bogu należną chwałę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar wiary, nadziei i miłości, o których wspomina św. Paweł w Liście do Tesaloniczan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar Bożych łask jest odpowiedzią na Jego wybranie, o którym czytamy w drugim czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Psalm i pierwsze czytanie mówią o poznaniu Boga przez narody. Ta pieśń misyjna jest posłaniem do głoszenia Ewangelii wszystkim ludziom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud oddawania Bogu tego, co boskie, w codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszym życiu, abyśmy potrafili oddawać cześć jedynemu Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec przewrotności faryzeuszy, ta pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka - prawdą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń proklamuje królowanie Chrystusa, któremu należy się najwyższa cześć, ponad wszelką władzą ziemską.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której umocnienie prosimy, jest kluczem do zrozumienia, co należy oddać Bogu, a co cezarowi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, aby wiernie oddawał chwałę Bogu i głosił ją pośród narodów.",
+      "moment": "ogolne"
+    }
+  ]
+}

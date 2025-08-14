@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415517.Piatek-IV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "4 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 13, 1-8",
+      "opis": "Wezwanie do życia chrześcijańskiego",
+      "tekst": "Bracia:\nNiech trwa w was braterska miłość. Nie zapominajcie też o gościnności, gdyż przez nią niektórzy, nie wiedząc, aniołom dali gościnę. Pamiętajcie o uwięzionych, jakbyście byli sami uwięzieni, i o tych, co cierpią, bo i sami żyjecie w ciele.\nWe czci niech będzie małżeństwo pod każdym względem i łoże nieskalane, gdyż rozpustników i cudzołożników osądzi Bóg.\nPostępowanie wasze niech będzie wolne od zachłanności na pieniądze: zadowalajcie się tym, co macie. Sam Bóg bowiem powiedział: «Nie opuszczę cię ani nie pozostawię». Śmiało więc możemy mówić: «Pan jest wspomożycielem moim, nie ulęknę się, bo cóż może mi uczynić człowiek?»\nPamiętajcie o swych przełożonych, którzy głosili wam słowo Boże, i rozpamiętując koniec ich życia, naśladujcie ich wiarę. Jezus Chrystus - wczoraj i dziś, ten sam także na wieki.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 1bcde. 3. 5. 8b-9c (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan moim światłem i zbawieniem moim.\nPan moim światłem i zbawieniem moim, *\nkogo miałbym się lękać?\nPan obrońcą mego życia, *\nprzed kim miałbym czuć trwogę?\nRefren.\nNawet gdy wrogowie staną przeciw mnie obozem, *\nmoje serce nie poczuje strachu.\nChoćby napadnięto mnie zbrojnie, *\nnawet wtedy ufność swą zachowam.\nRefren.\nW namiocie swoim mnie ukryje *\nw chwili nieszczęścia,\nschowa w głębi przybytku, *\nna skałę mnie wydźwignie.\nRefren.\nBędę szukał oblicza Twego, Panie. *\nNie zakrywaj przede mną swojej twarzy,\nnie odtrącaj w gniewie Twego sługi. *\nTy jesteś moją pomocą, więc mnie nie odrzucaj.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 14-29",
+      "opis": "Śmierć Jana Chrzciciela",
+      "tekst": "Król Herod posłyszał o Jezusie, gdyż Jego imię nabrało rozgłosu, i mówił: «Jan Chrzciciel powstał z martwych i dlatego moce cudotwórcze działają w nim». Inni zaś mówili: «To jest Eliasz»; jeszcze inni utrzymywali, że to prorok, jak jeden z dawnych proroków. Herod, słysząc to, mawiał: «To Jan, którego ściąć kazałem, zmartwychwstał».\nTen bowiem Herod kazał pochwycić Jana i związanego trzymał w więzieniu z powodu Herodiady, żony brata swego, Filipa, którą wziął za żonę. Jan bowiem napominał Heroda: «Nie wolno ci mieć żony twego brata». A Herodiada zawzięła się na niego i chciała go zgładzić, lecz nie mogła. Herod bowiem czuł lęk przed Janem, widząc, że jest mężem prawym i świętym, i brał go w obronę. Ilekroć go posłyszał, odczuwał duży niepokój, a jednak chętnie go słuchał.\nOtóż chwila sposobna nadeszła, kiedy Herod w dzień swoich urodzin wyprawił ucztę swym dostojnikom, dowódcom wojskowym i osobistościom w Galilei. Gdy córka tej Herodiady weszła i tańczyła, spodobała się Herodowi i współbiesiadnikom. Król rzekł do dziewczyny: «Proś mnie, o co chcesz, a dam ci». Nawet jej przysiągł: «Dam ci, o co tylko poprosisz, nawet połowę mojego królestwa». Ona wyszła i zapytała swą matkę: «O co mam prosić?» Ta odpowiedziała: «O głowę Jana Chrzciciela». Natychmiast podeszła z pośpiechem do króla i poprosiła: «Chcę, żebyś mi zaraz dał na misie głowę Jana Chrzciciela». A król bardzo się zasmucił, ale przez wzgląd na przysięgę i na biesiadników nie chciał jej odmówić. Zaraz też król posłał kata i polecił przynieść głowę Jana. Ten poszedł, ściął go w więzieniu i przyniósł głowę jego na misie; dał ją dziewczynie, a dziewczyna dała swej matce.\nUczniowie Jana, dowiedziawszy się o tym, przyszli, zabrali jego ciało i złożyli je w grobie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Bogu, który jest wspomożycielem i obrońcą, co jest główną myślą psalmu i pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest jedyną nadzieją w obliczu ludzkiej niegodziwości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to wołanie o Bożą pomoc i obronę, aktualne zarówno w kontekście męczeństwa Jana, jak i wezwań z Listu do Hebrajczyków.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do wezwania z Listu do Hebrajczyków: 'Niech trwa w was braterska miłość'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość braterska jest ofiarą miłą Bogu, do której zachęca pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, naśladując wierność Jana Chrzciciela aż do śmierci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która daje siłę do wytrwania w prześladowaniach, jakich doświadczył Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który jest ten sam wczoraj, dziś i na wieki.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Adoracja Chrystusa w Eucharystii jest źródłem siły do naśladowania wiary naszych przełożonych i świętych, jak Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "510",
+      "piesn": "Zamilkły usta proroka",
+      "opis": "Pieśń ta bezpośrednio opowiada o męczeńskiej śmierci św. Jana Chrzciciela, opisanej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Jest to hymn na cześć Jana Chrzciciela, który swoim życiem i śmiercią dał świadectwo Prawdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę, o której mówi psalmista, i za dar świadectwa męczenników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Go szukają, nawet w obliczu śmierci, jak Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą wierności, na wzór Jana Chrzciciela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Chrystusa, naśladując wiarę tych, którzy nas poprzedzili.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest źródłem siły i pociechy w cierpieniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest jedyną nadzieją w obliczu ludzkiej niegodziwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu, które jest niezbędne w obliczu prześladowań i niesprawiedliwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje odwagi w obliczu trudności, przypominając, że Pan jest naszą mocą i tarczą.",
+      "moment": "ogolne"
+    }
+  ]
+}

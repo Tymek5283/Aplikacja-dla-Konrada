@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415675.Wtorek-29-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "29 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 5, 12. 15b. 17-19. 20b-21",
+      "opis": "Posłuszeństwo Chrystusa wynagradza grzech Adama",
+      "tekst": "Bracia:\nPrzez jednego człowieka grzech wszedł do świata, a przez grzech śmierć, i w ten sposób śmierć przeszła na wszystkich ludzi, ponieważ wszyscy zgrzeszyli.\nJeżeli przestępstwo jednego sprowadziło na wszystkich śmierć, to o ileż obficiej spłynęła na nich wszystkich łaska i dar Boży, łaskawie udzielony przez jednego Człowieka, Jezusa Chrystusa.\nJeżeli bowiem przez przestępstwo jednego śmierć zakrólowała z powodu jego jednego, to o ileż bardziej ci, którzy otrzymują obfitość łaski i daru sprawiedliwości, królować będą w życiu z powodu Jednego - Jezusa Chrystusa.\nA zatem, jak przestępstwo jednego sprowadziło na wszystkich ludzi wyrok potępiający, tak czyn sprawiedliwy Jednego sprowadza na wszystkich ludzi usprawiedliwienie dające życie. Albowiem jak przez nieposłuszeństwo jednego człowieka wszyscy stali się grzesznikami, tak przez posłuszeństwo Jednego wszyscy staną się sprawiedliwymi.\nGdzie jednak wzmógł się grzech, tam jeszcze obficiej rozlała się łaska, aby jak grzech zaznaczył swoje królowanie śmiercią, tak łaska przejawiła swe królowanie poprzez sprawiedliwość, wiodącą do życia wiecznego przez Jezusa Chrystusa, Pana naszego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 40 (39), 7-8a. 8b-10. 17 (R.: por. 8a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Przychodzę, Boże, pełnić Twoją wolę.\nNie chciałeś ofiary krwawej ani z płodów ziemi, *\nlecz otwarłeś mi uszy;\nnie żądałeś całopalenia i ofiary za grzechy. *\nWtedy powiedziałem: «Oto przychodzę.\nRefren.\nW zwoju księgi jest o mnie napisane: †\nRadością jest dla mnie pełnić Twoją wolę, mój Boże, *\na Twoje Prawo mieszka w moim sercu».\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu †\ni nie powściągałem warg moich, *\no czym Ty wiesz, Panie.\nRefren.\nNiech się radują i weselą w Tobie *\nwszyscy, którzy Ciebie szukają,\na ci, którzy pragną Twojej pomocy, *\nniech zawsze mówią: «Pan jest wielki».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 35-38",
+      "opis": "Oczekiwanie powrotu Pana",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Niech będą przepasane biodra wasze i zapalone pochodnie. A wy bądźcie podobni do ludzi oczekujących swego pana, kiedy z uczty weselnej powróci, aby mu zaraz otworzyć, gdy nadejdzie i zakołacze. Szczęśliwi owi słudzy, których pan zastanie czuwających, gdy nadejdzie. Zaprawdę, powiadam wam: Przepasze się i każe im zasiąść do stołu, a obchodząc, będzie im usługiwał. Czy o drugiej, czy o trzeciej straży przyjdzie, szczęśliwi oni, gdy ich tak zastanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, co jest postawą sług czuwających na powrót pana z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' doskonale pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna, która wyraża gotowość i czuwanie na przyjście Pana od samego początku dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec wezwania do czuwania, ta pieśń jest aktem ofiarowania Bogu całego siebie, by być gotowym na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud czuwania i wiernej służby, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono nieustannym, czujnym oczekiwaniem na Niego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary i zaufania Panu, co jest postawą wiernego sługi, czuwającego na przyjście Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Pana w Komunii, co jest zapowiedzią Jego ostatecznego przyjścia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem dla tych, którzy wiernie na Niego oczekują.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za obfitość łaski, która przez posłuszeństwo Chrystusa przyniosła nam życie wieczne, o czym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar zbawienia i obietnicę życia wiecznego, które są owocem posłuszeństwa Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, która umacnia nas w czuwaniu i oczekiwaniu na przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna, wzywająca do czuwania, jest doskonałym posłaniem na zakończenie Mszy, w której słyszymy 'Szczęśliwi owi słudzy, których pan zastanie czuwających'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wierność Jemu jest najlepszym przygotowaniem na Jego przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Czuwanie na przyjście Pana wiąże się z misją głoszenia Ewangelii, do której wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Pierwsze czytanie mówi o tym, jak przez nieposłuszeństwo Adama wszyscy stali się grzesznikami. Ta litania jest wołaniem o miłosierdzie i przebaczenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń, która jest odpowiedzią na wezwanie Jezusa do czuwania i modlitwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i gotowości, co jest istotą ewangelicznego wezwania do czuwania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Czuwanie na przyjście Pana to nie bezczynność, ale wydawanie owoców godnych nawrócenia.",
+      "moment": "ogolne"
+    }
+  ]
+}

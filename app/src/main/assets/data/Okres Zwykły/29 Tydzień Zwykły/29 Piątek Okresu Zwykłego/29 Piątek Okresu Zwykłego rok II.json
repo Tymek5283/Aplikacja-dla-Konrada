@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415666.Piatek-29-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "29 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 4, 1-6",
+      "opis": "Jeden jest Pan, jedna wiara, jeden chrzest",
+      "tekst": "Bracia:\nZachęcam was ja, więzień w Panu, abyście postępowali w sposób godny powołania, do jakiego zostaliście wezwani, z całą pokorą i cichością, z cierpliwością, znosząc siebie nawzajem w miłości. Usiłujcie zachować jedność Ducha dzięki więzi, jaką jest pokój.\nJedno jest ciało i jeden Duch, bo też zostaliście wezwani do jednej nadziei, jaką daje wasze powołanie. Jeden jest Pan, jedna wiara, jeden chrzest. Jeden jest Bóg i Ojciec wszystkich, który jest i działa ponad wszystkimi, przez wszystkich i we wszystkich.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 54-59",
+      "opis": "Poznać znaki czasu",
+      "tekst": "Jezus mówił do tłumów: «Gdy ujrzycie chmurę podnoszącą się na zachodzie, zaraz mówicie: „Deszcz idzie”. I tak się dzieje. A gdy wiatr wieje z południa, powiadacie:\n„Będzie upał”. I bywa. Obłudnicy, umiecie rozpoznawać wygląd ziemi i nieba, a jakże chwili obecnej nie rozpoznajecie? I dlaczego sami z siebie nie rozróżniacie tego, co jest słuszne?\nGdy idziesz do sprawującego władzę ze swym przeciwnikiem, staraj się w drodze dojść z nim do zgody, by cię nie zaciągnął do sędziego; a sędzia przekazałby cię dozorcy, dozorca zaś wtrąciłby cię do więzienia. Powiadam ci, nie wyjdziesz stamtąd, aż zwrócisz ostatni pieniążek».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o jedność i pokój w Kościele, co jest głównym tematem pierwszego czytania z Listu do Efezjan.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o jedność, która jest darem Ducha Świętego i owocem życia w pokoju, do czego wzywa św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości i jedności, które są fundamentem Kościoła opisanego w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "W odpowiedzi na wezwanie do jedności Ducha, ta pieśń jest aktem ofiarowania Bogu pragnienia jedności wszystkich wierzących.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze eucharystycznej prosimy o jedność, która jest darem Boga i celem naszego chrześcijańskiego powołania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń ta podkreśla, że w ofierze Mszy Świętej składamy dar, który ma nas zjednoczyć w jedno Ciało Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii tworzymy jedno Ciało, co jest realizacją jedności, o której pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą jedności, na której Chrystus gromadzi swój lud, budując jedno Ciało.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń podkreśla, że Komunia Święta jednoczy nas z Chrystusem i między sobą, budując wspólnotę Kościoła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar wiary i Kościoła, w którym, jak mówi pierwsze czytanie, jesteśmy wezwani do jednej nadziei.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń jest dziękczynieniem za dar jedności, który otrzymujemy w Eucharystii i o który prosimy dla całego Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest wyrazem wdzięczności za dar powołania do jedności w Ciele Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest odpowiedzią na wezwanie Jezusa, by rozpoznawać znaki czasu i rozróżniać, co jest słuszne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do jedności i pokoju, o które apeluje św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo w trudzie budowania jedności i pokoju w naszych wspólnotach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Psalm pyta 'Kto wstąpi na górę Pana?'. Ta pieśń jest odpowiedzią, wzywającą lud wierny do oddania czci Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem wezwania do jedności i miłości z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem wejścia do Królestwa i życia w jedności, o której mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do wezwania św. Pawła do zachowania jedności Ducha.",
+      "moment": "ogolne"
+    }
+  ]
+}

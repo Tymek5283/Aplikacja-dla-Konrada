@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414673.Sroda-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tt 3, 1-7",
+      "opis": "Chrześcijanie powinni naśladować Chrystusa w łagodności",
+      "tekst": "Umiłowany:\nPrzypominaj wszystkim, że powinni podporządkować się zwierzchnim władzom, słuchać ich i okazywać gotowość do wszelkiego dobrego czynu: nikogo nie lżyć, unikać sporów, odznaczać się uprzejmością, okazywać każdemu człowiekowi wszelką łagodność. Niegdyś bowiem i my byliśmy nierozumni, oporni, błądzący, służyliśmy różnym żądzom i rozkoszom, żyjąc w złości i zawiści, godni obrzydzenia, pełni nienawiści jedni ku drugim.\nGdy zaś ukazała się dobroć i miłość Zbawiciela naszego, Boga, do ludzi, nie ze względu na sprawiedliwe uczynki, jakie spełniliśmy, lecz z miłosierdzia swego zbawił nas przez obmycie odradzające i odnawiające w Duchu Świętym, którego wylał na nas obficie przez Jezusa Chrystusa, Zbawiciela naszego, abyśmy usprawiedliwieni Jego łaską stali się w nadziei dziedzicami życia wiecznego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23 (22), 1b-3a. 3b-4. 5. 6 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem, †\nniczego mi nie braknie, *\npozwala mi leżeć na zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć, *\norzeźwia moją duszę.\nRefren.\nWiedzie mnie po właściwych ścieżkach *\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę, †\nzła się nie ulęknę, bo Ty jesteś ze mną. *\nKij Twój i laska pasterska są moją pociechą.\nRefren.\nStół dla mnie zastawiasz *\nna oczach mych wrogów.\nNamaszczasz mi głowę olejkiem, *\nkielich mój pełny po brzegi.\nRefren.\nDobroć i łaska pójdą w ślad za mną *\nprzez wszystkie dni życia\ni zamieszkam w domu Pana *\npo najdłuższe czasy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 Tes 5, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Za wszystko dziękujcie Bogu,\ntaka jest bowiem wola Boża względem was w Jezusie Chrystusie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 11-19",
+      "opis": "Niewdzięczność uzdrowionych z trądu",
+      "tekst": "Zdarzyło się, że Jezus, zmierzając do Jeruzalem, przechodził przez pogranicze Samarii i Galilei. Gdy wchodzili do pewnej wsi, wyszło naprzeciw Niego dziesięciu trędowatych. Zatrzymali się z daleka i głośno zawołali: «Jezusie, Mistrzu, ulituj się nad nami!»\nNa ten widok rzekł do nich: «Idźcie, pokażcie się kapłanom!» A gdy szli, zostali oczyszczeni.\nWtedy jeden z nich, widząc, że jest uzdrowiony, wrócił, chwaląc Boga donośnym głosem, padł na twarz u Jego nóg i dziękował Mu. A był to Samarytanin.\nJezus zaś rzekł: «Czyż nie dziesięciu zostało oczyszczonych? Gdzie jest dziewięciu? Czy się nie znalazł nikt, kto by wrócił i oddał chwałę Bogu, tylko ten cudzoziemiec?» Do niego zaś rzekł: «Wstań, idź, twoja wiara cię uzdrowiła».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą psalmu responsoryjnego, wyrażającą ufność w Bożą opiekę, która uzdrawia i prowadzi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która podkreśla ufność w Bożą opiekę, o której mówi psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do przyjścia przed oblicze Pana z pokłonem, naśladując postawę uzdrowionego Samarytanina.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu dziękczynienie za dar uzdrowienia i zbawienia, na wzór Samarytanina z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Prosimy Boga o przyjęcie naszej ofiary i wzmocnienie wiary, która, jak w przypadku Samarytanina, prowadzi do zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń eucharystyczna, która jest dziękczynieniem za pokarm umacniający nas w drodze i będący źródłem uzdrowienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Ewangelia pokazuje, że Jezus lituje się nad chorymi, a ta pieśń jest zaproszeniem do Niego po pociechę i uzdrowienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "W Komunii przyjmujemy Chrystusa, który uzdrawia nas z trądu grzechu, a ta pieśń jest wyrazem naszej wdzięczności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, której w cudowny sposób doświadczyło dziesięciu trędowatych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Na wzór uzdrowionego Samarytanina, który wrócił, by wielbić Boga, ta pieśń jest wyrazem naszej wdzięczności za otrzymane łaski.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za Boże dary i łaski, których przykładem jest uzdrowienie z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny jest najlepszą formą uwielbienia za cud uzdrowienia i dar zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna, która jest odpowiedzią na pytanie Jezusa: 'Czy się nie znalazł nikt, kto by wrócił i oddał chwałę Bogu?'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Po doświadczeniu Bożej mocy i miłosierdzia, jesteśmy posłani, by głosić chwałę Pana, tak jak czynił to uzdrowiony Samarytanin.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy w codziennym życiu potrafili, na wzór Samarytanina, wracać do Boga z dziękczynieniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która podkreśla ufność w Bożą opiekę, o której mówi psalm responsoryjny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń pyta, jak możemy odwdzięczyć się Bogu za Jego dary, a postawa wdzięczności uzdrowionego Samarytanina jest na to odpowiedzią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały jest doskonałym sposobem na wyrażenie wdzięczności za dar uzdrowienia i zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za niezliczone łaski, której wzorem jest postawa uzdrowionego cudzoziemca.",
+      "moment": "ogolne"
+    }
+  ]
+}

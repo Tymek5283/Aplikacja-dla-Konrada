@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414040.Poniedzialek-34-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "34 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 14, 1-3. 4b-5",
+      "opis": "Pieśń odkupionych przez Baranka",
+      "tekst": "Ja, Jan, ujrzałem: A oto Baranek stojący na górze Syjon, a z Nim sto czterdzieści cztery tysiące, mające imię Jego i imię Jego Ojca wypisane na czołach. I usłyszałem głos z nieba, jakby głos mnogich wód i jakby głos wielkiego gromu. A głos, który usłyszałem, brzmiał tak, jak gdyby harfiarze uderzali w swe harfy. I śpiewają jakby pieśń nową przed tronem i przed czterema Istotami żyjącymi, i przed Starcami: a nikt tej pieśni nie mógł się nauczyć prócz stu czterdziestu czterech tysięcy - wykupionych z ziemi. Ci Barankowi towarzyszą, dokądkolwiek idzie; ci spośród ludzi zostali wykupieni na pierwociny dla Boga i dla Baranka, a w ustach ich kłamstwa nie znaleziono: są bez zarzutu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 24, 42a. 44",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i bądźcie gotowi,\nbo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 1-4",
+      "opis": "Wdowi grosz",
+      "tekst": "Gdy Jezus podniósł oczy, zobaczył, jak bogaci wrzucali swe ofiary do skarbony. Zobaczył też, jak pewna uboga wdowa wrzuciła tam dwa pieniążki, i rzekł:\n«Prawdziwie, powiadam wam: Ta uboga wdowa wrzuciła więcej niż wszyscy inni. Wszyscy bowiem wrzucali na ofiarę Bogu z tego, co im zbywało; ta zaś z niedostatku swego wrzuciła wszystko, co miała na utrzymanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, a psalm pyta 'Kto wstąpi na górę Pana?', którą jest Syjon, gdzie stoi Baranek z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń chwali Boga w Jego świętych, co nawiązuje do wizji stu czterdziestu czterech tysięcy stojących z Barankiem na górze Syjon.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm i pierwsze czytanie mówią o ludziach czystego serca i bez zarzutu, a pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń doskonale oddaje postawę ubogiej wdowy z Ewangelii, która ofiarowała wszystko, co miała na utrzymanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze czyste serce, na wzór ubogiej wdowy i zbawionych z Apokalipsy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, prosząc, by przyjął je jako dar miły sobie, podobnie jak dar wdowy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "W Komunii przyjmujemy Baranka Bożego, a ta pieśń jest hołdem złożonym Mu, na wzór nowej pieśni śpiewanej przez zbawionych w Apokalipsie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń nazywa Jezusa w Eucharystii 'Bożym Barankiem', co bezpośrednio nawiązuje do wizji z pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości Jezusa w Eucharystii, który jako Baranek został zabity i swoją Krwią nas odkupił.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Dziękczynienie za dar zbawienia i wezwanie całego świata do radości w Bogu, co jest echem wizji z Apokalipsy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest echem 'nowej pieśni' śpiewanej Barankowi przez wszystkie narody w Apokalipsie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą dobroć i łaskę, która pozwala nam składać dary miłe Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, aby nasze życie było ofiarą miłą Bogu, jak dar ubogiej wdowy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść za Barankiem, dokądkolwiek idzie, naśladując Jego ofiarną miłość.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po spotkaniu z Panem jesteśmy posłani, by głosić Ewangelię i żyć nią, dając świadectwo hojności na wzór ubogiej wdowy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń chwali Boga w Jego świętych, co nawiązuje do wizji stu czterdziestu czterech tysięcy stojących z Barankiem na górze Syjon.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm i pierwsze czytanie mówią o ludziach czystego serca i bez zarzutu, a pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń wyraża wdzięczność za Boże dary i pyta, co możemy oddać w zamian. Postawa wdowy z Ewangelii jest na to odpowiedzią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Wizja z Apokalipsy ukazuje lud wykupiony dla Boga, który towarzyszy Barankowi. Ta pieśń podkreśla godność całego ludu Bożego.",
+      "moment": "ogolne"
+    }
+  ]
+}

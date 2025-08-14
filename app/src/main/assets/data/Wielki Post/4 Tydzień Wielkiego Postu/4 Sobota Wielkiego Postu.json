@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412918.Sobota-IV-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "4 Sobota Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 11, 18-20",
+      "opis": "Jak baranek, którego prowadzą na zabicie",
+      "tekst": "Pan mnie pouczył i zrozumiałem; wtedy przejrzałem ich postępki.\nJa zaś jak potulny baranek, którego prowadzą na zabicie, nie wiedziałem, że powzięli przeciw mnie zgubne plany: «Zniszczmy drzewo w pełni jego sił, zgładźmy go z ziemi żyjących, a jego imienia niech już nikt nie wspomina!»\nLecz Pan Zastępów jest sprawiedliwym sędzią, bada nerki i serce. Chciałbym zobaczyć Twoją pomstę na nich, albowiem Tobie powierzam moją sprawę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 7, 2-3. 9b-10. 11-12 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Panie, mój Boże, Tobie zaufałem.\nPanie, Boże mój, do Ciebie się uciekam, *\nwybaw mnie i uwolnij od wszystkich prześladowców,\nzanim, jak lew, ktoś nie porwie i nie rozszarpie mej duszy, *\ngdy zabraknie wybawcy.\nRefren.\nPanie, przyznaj mi słuszność według mej sprawiedliwości *\ni niewinności, która jest we mnie.\nNiech ustanie nieprawość występnych, †\na sprawiedliwego umocnij, *\nBoże sprawiedliwy, który przenikasz serca i sumienia.\nRefren.\nBóg jest dla mnie tarczą, *\nOn zbawia ludzi prostego serca.\nBóg, sędzia sprawiedliwy, *\nBóg co dzień pałający gniewem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 7, 40-53",
+      "opis": "Spory około osoby Jezusa",
+      "tekst": "Wśród tłumów słuchających Jezusa odezwały się głosy: «Ten prawdziwie jest prorokiem». Inni mówili: «To jest Mesjasz». «Ale - mówili drudzy - czyż Mesjasz przyjdzie z Galilei? Czyż Pismo nie mówi, że Mesjasz będzie pochodził z potomstwa Dawidowego i z miasteczka Betlejem, skąd był Dawid?» I powstał w tłumie rozłam z Jego powodu. Niektórzy chcieli Go nawet pojmać, lecz nikt nie podniósł na Niego ręki.\nWrócili więc strażnicy do arcykapłanów i faryzeuszy, a ci rzekli do nich: «Czemu go nie pojmaliście?» Strażnicy odpowiedzieli: «Nigdy jeszcze nikt tak nie przemawiał jak ten człowiek».\nOdpowiedzieli im faryzeusze: «Czyż i wy daliście się zwieść? Czy ktoś ze zwierzchników lub faryzeuszy uwierzył w Niego? A ten tłum, który nie zna Prawa, jest przeklęty».\nOdezwał się do nich jeden spośród nich, Nikodem, ten, który przedtem przyszedł do Niego: «Czy Prawo nasze potępia człowieka, zanim go wpierw nie przesłucha i nie zbada, co on czyni?»\nOdpowiedzieli mu: «Czy i ty jesteś z Galilei? Zbadaj i zobacz, że żaden prorok nie powstaje z Galilei». I rozeszli się - każdy do swego domu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń ta wyraża skruchę z powodu grzechu, który prowadzi do odrzucenia i prześladowania proroków i samego Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą człowieka prześladowanego, który szuka ucieczki w Bogu, podobnie jak prorok Jeremiasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o Bożą obronę przed niesprawiedliwością.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Utwór mówi o ofierze Chrystusa, który jak potulny baranek z pierwszego czytania, został poprowadzony na zabicie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który jest sędzią sprawiedliwym i obrońcą uciśnionych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że w ofierze Chrystusa odnajdujemy ratunek i nadzieję wbrew ludzkiej złości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń ta jest adoracją Serca Jezusa, odrzuconego przez ludzi, ale będącego źródłem zbawienia dla wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, który cierpiał niesprawiedliwie dla naszego zbawienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który pomimo odrzucenia przez świat, pozostaje z nami w Eucharystii jako Zbawiciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu w prześladowaniach, o którym mówi psalmista i którego przykład daje prorok Jeremiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i ratunek wbrew knowaniom złych ludzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o ufności w Bożą Opatrzność, która chroni sprawiedliwego przed wszelkim złem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to modlitwa o Bożą pomoc w obliczu zła i niesprawiedliwości, które dotykają wysłanników Bożych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Jezusa, którego odrzucenie jest sądem nad światem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu dróg złości, aby szukać ratunku w Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest odpowiedzią na grzech odrzucenia Boga i Jego proroków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalny charakter pieśni koresponduje z modlitwą Jeremiasza i psalmisty, którzy wołają do Boga w utrapieniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne przyjąć prawdę o Jezusie, a nie odrzucić Go jak faryzeusze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę nawrócenia i odwrócenia się od złych uczynków.",
+      "moment": "ogolne"
+    }
+  ]
+}

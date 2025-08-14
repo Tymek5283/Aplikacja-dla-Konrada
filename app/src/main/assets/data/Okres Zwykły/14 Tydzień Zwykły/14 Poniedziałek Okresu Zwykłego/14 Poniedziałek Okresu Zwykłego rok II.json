@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426648.Poniedzialek-XIV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "14 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 2, 16. 17b-18. 21-22",
+      "opis": "Naród wybrany jest oblubienicą Boga",
+      "tekst": "Tak mówi Pan:\n«Zwabię oblubienicę i wyprowadzę ją na pustynię, i przemówię do jej serca. I tam odpowie Mi jak w dniu, w którym wychodziła z ziemi egipskiej.\nI stanie się w owym dniu - mówi Pan - że nazwie Mnie: Mąż mój, a już nie powie: Mój Baal.\nI poślubię cię sobie na wieki, poślubię przez sprawiedliwość i prawo, przez miłość i miłosierdzie. Poślubię cię sobie przez wierność, a poznasz Pana».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 2-3. 4-5. 6-7. 8-9 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nWielki jest Pan i godzien wielkiej chwały, *\na wielkość Jego niezgłębiona.\nRefren.\nPokolenie pokoleniu głosi Twoje dzieła *\ni zwiastuje Twe potężne czyny.\nGłoszą wspaniałą chwałę Twego majestatu *\ni rozpowiadają Twoje cuda.\nRefren.\nMówią o potędze Twoich dzieł straszliwych *\ni głoszą wielkość Twoją.\nPrzekazują pamięć o wielkiej Twej dobroci *\ni cieszą się Twą sprawiedliwością.\nRefren.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 18-26",
+      "opis": "Uzdrowienie kobiety i wskrzeszenie córki Jaira",
+      "tekst": "Gdy Jezus mówił do uczniów, oto przyszedł do Niego pewien zwierzchnik synagogi i oddając Mu pokłon, prosił:\n«Panie, moja córka dopiero co skonała, lecz przyjdź i połóż na nią rękę, a żyć będzie». Jezus wstał i wraz z uczniami poszedł za nim.\nWtem jakaś kobieta, która dwanaście lat cierpiała na krwotok, podeszła z tyłu i dotknęła się frędzli Jego płaszcza. Mówiła bowiem sobie: «Żebym choć dotknęła Jego płaszcza, a będę zdrowa».\nJezus obrócił się i widząc ją, rzekł: «Ufaj, córko! Twoja wiara cię ocaliła». I od tej chwili kobieta była zdrowa.\nGdy Jezus przyszedł do domu zwierzchnika i zobaczył fletnistów oraz tłum zgiełkliwy, rzekł: «Odsuńcie się, bo dziewczynka nie umarła, tylko śpi». A oni wyśmiewali Go.\nSkoro jednak usunięto tłum, wszedł i ujął ją za rękę, a dziewczynka wstała. Wieść o tym rozeszła się po całej tamtejszej okolicy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń chwali niezmierzoną dobroć i miłosierdzie Boga, co jest głównym tematem psalmu responsoryjnego oraz pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za miłość Boga, opisaną w pierwszym czytaniu jako miłość oblubieńcza i ojcowska.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń sławi miłość Jezusa, która jest odzwierciedleniem miłości Ojca, opisywanej przez proroka Ozeasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o charakterze eucharystycznym nawiązuje do oblubieńczej miłości Boga z pierwszego czytania, ukazując ją w kontekście ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W odpowiedzi na miłość Boga ofiarujemy Mu owoce naszej pracy i całe nasze życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania się Bogu, który pierwszy nas umiłował i pociągnął 'więzami miłości'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Ta pieśń eucharystyczna jest modlitwą o miłosierdzie, które objawia się w cudach uzdrowienia i wskrzeszenia opisanych w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta podkreśla miłość Chrystusa, który do końca nas umiłował, co rezonuje z obrazem Boga-Oblubieńca z Księgi Ozeasza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wiara w uzdrawiającą moc Jezusa, obecnego w Eucharystii, jest odpowiedzią na cuda opisane w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar życia i wiary, które Jezus przywraca i umacnia w dzisiejszej Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za uzdrowienie i ocalenie, co jest echem cudów Jezusa z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za niezliczone łaski Boga, którego miłosierdzie opiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń na rozesłanie jest modlitwą o jedność w miłości, będącą odpowiedzią na oblubieńczą miłość Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po doświadczeniu mocy Chrystusa, który zwycięża chorobę i śmierć, wychodzimy w świat, by głosić Jego panowanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na dalsze życie w wierności Bogu, który jest naszym Oblubieńcem i Ojcem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosta i bezpośrednia odpowiedź na miłość Boga, którą objawia pierwsze czytanie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do zaufania Jezusowi, podobnie jak uczynili to zwierzchnik synagogi i kobieta cierpiąca na krwotok.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wiara i ufność, które okazały postacie z Ewangelii, są wzorem dla naszej postawy wobec Jezusa.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Wezwanie do odwzajemnienia miłości Boga, który pierwszy nas umiłował, jak opisuje to prorok Ozeasz.",
+      "moment": "ogólne"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418112.Piatek-24-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "24 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 15, 12-20",
+      "opis": "Zmartwychwstanie Chrystusa i nasze",
+      "tekst": "Bracia:\nJeżeli głosi się, że Chrystus zmartwychwstał, to dlaczego twierdzą niektórzy spośród was, że nie ma zmartwychwstania? Jeśli nie ma zmartwychwstania, to i Chrystus nie zmartwychwstał. A jeżeli Chrystus nie zmartwychwstał, daremne jest nasze nauczanie, próżna jest także wasza wiara. Okazuje się bowiem, że byliśmy fałszywymi świadkami Boga, skoro umarli nie zmartwychwstaną, przeciwko Bogu świadczyliśmy, że z martwych wskrzesił Chrystusa.\nJeśli umarli nie zmartwychwstają, to i Chrystus nie zmartwychwstał. A jeżeli Chrystus nie zmartwychwstał, daremna jest wasza wiara i aż dotąd pozostajecie w waszych grzechach. Tak więc i ci, co pomarli w Chrystusie, poszli na zatracenie. Jeżeli tylko w tym życiu w Chrystusie nadzieję pokładamy, jesteśmy bardziej od wszystkich ludzi godni politowania.\nTymczasem jednak Chrystus zmartwychwstał jako pierwociny spośród tych, co pomarli.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 17 (16), 1bcd. 6-7. 8 i 15 (R.: por. 15b)",
+      "opis": "",
+      "tekst": "Refren: Gdy zmartwychwstanę, będę widział Boga.\nRozważ, Panie, moją słuszną sprawę, *\nusłysz me wołanie,\nwysłuchaj modlitwy *\nmoich warg nieobłudnych.\nRefren.\nWołam do Ciebie, bo Ty mnie, Boże, wysłuchasz, *\nnakłoń ku mnie swe ucho, usłysz moje słowo.\nOkaż przedziwne miłosierdzie Twoje, †\nZbawco tych, którzy się chronią przed wrogiem *\npod Twoją prawicę.\nRefren.\nStrzeż mnie jak źrenicy oka, *\nukryj mnie w cieniu Twych skrzydeł.\nA ja w sprawiedliwości ujrzę Twe oblicze, *\nze snu powstając, nasycę się Twoim widokiem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 1-3",
+      "opis": "Niewiasty wspierają Jezusa ze swojego mienia",
+      "tekst": "Jezus wędrował przez miasta i wsie, nauczając i głosząc Ewangelię o królestwie Bożym. A było z Nim Dwunastu oraz kilka kobiet, które zostały uwolnione od złych duchów i od chorób, Maria, zwana Magdaleną, którą opuściło siedem złych duchów; Joanna, żona Chuzy, rządcy Heroda; Zuzanna i wiele innych, które im usługiwały, udzielając ze swego mienia.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń jest prostym i radosnym wyznaniem wiary w zmartwychwstanie Chrystusa, co jest centralnym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wprost wyraża myśl św. Pawła, że nasza nadzieja jest zakorzeniona w zmartwychwstaniu Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wysławia Chrystusa jako Zwycięzcę śmierci, co jest fundamentem wiary, o którym naucza św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "186",
+      "piesn": "Niech w święto radosne",
+      "opis": "Sekwencja wielkanocna przypomina o zwycięstwie życia nad śmiercią, co jest fundamentem naszej nadziei, o której mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "190",
+      "piesn": "Przez Twoje święte",
+      "opis": "Krótka aklamacja jest prośbą, by owocem zmartwychwstania było dla nas odpuszczenie grzechów, o którym mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń o zmartwychwstaniu jest doskonałym tłem dla nauki św. Pawła o przyszłym losie naszych ciał.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "485",
+      "piesn": "Gwiazdo Magdali",
+      "opis": "Maria Magdalena, pierwsza świadek Zmartwychwstania, jest wymieniona w Ewangelii jako jedna z kobiet, które usługiwały Jezusowi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Przyjęcie Komunii jest spotkaniem ze Zmartwychwstałym, który daje nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii spotykamy Zmartwychwstałego Pana, który jest naszą nadzieją.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary Kościoła w prawdę, której broni św. Paweł w Liście do Koryntian.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń jest radosnym ogłoszeniem prawdy o zmartwychwstaniu, która jest fundamentem naszej wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń jest uroczystym potwierdzeniem wiary w zmartwychwstanie, bez którego, jak pisze św. Paweł, próżna jest nasza wiara.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii, której sercem jest prawda o zmartwychwstaniu Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud świadczenia o Zmartwychwstałym, na wzór pobożnych niewiast z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem Zmartwychwstałym, który jest naszym życiem i nadzieją.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń wyraża osobistą wiarę w zmartwychwstanie, która jest echem nauczania św. Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta wprost mówi, że Chrystus jest nadzieją, ponieważ zwyciężył śmierć, co jest główną myślą pierwszego czytania.",
+      "moment": "ogolne"
+    }
+  ]
+}

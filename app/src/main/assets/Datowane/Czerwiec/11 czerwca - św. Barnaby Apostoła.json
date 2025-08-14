@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 98,1.2-3ab.3c-4.5-6",
-      "opis": "Refren:",
-      "tekst": "Pan Bóg objawił swoją sprawiedliwość.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie.\nŚpiewajcie Panu przy wtórze cytry,\nprzy wtórze cytry i przy dźwięku harfy,\nprzy trąbach i przy dźwięku rogu\nna oczach Pana, Króla, się radujcie."
+      "opis": "",
+      "tekst": "Refren:\nPan Bóg objawił swoją sprawiedliwość.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie.\nŚpiewajcie Panu przy wtórze cytry,\nprzy wtórze cytry i przy dźwięku harfy,\nprzy trąbach i przy dźwięku rogu\nna oczach Pana, Króla, się radujcie."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,15 +36,51 @@
       "moment": "wejscie"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter Kościoła, do którego budowania przyczynił się św. Barnaba, 'człowiek dobry i pełen Ducha Świętego'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, do którego budowania i wzrostu w Antiochii przyczynił się św. Barnaba, co opisuje pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "468",
       "piesn": "Sławimy dzisiaj zwycięstwo Barnaby",
       "opis": "Pieśń dedykowana patronowi dnia, która wspomina jego zapał misyjny i wierność Chrystusowi, idealnie pasuje na przygotowanie darów.",
       "moment": "ofiarowanie"
     },
     {
-      "numer": "224",
-      "piesn": "Ludu kapłański",
-      "opis": "Pieśń podkreśla misyjny charakter Kościoła, do którego budowania przyczynił się św. Barnaba, 'człowiek dobry i pełen Ducha Świętego'.",
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o łaskę wierności w głoszeniu Ewangelii na wzór św. Barnaby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo w pracy głoszenia Ewangelii, do której powołany był św. Barnaba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia buduje jedność Kościoła, do którego wzrastania przyczynili się Barnaba i Szaweł, nauczając w Antiochii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Modlitwa o umocnienie wiary jest zawsze aktualna, a szczególnie w dniu wspomnienia tego, który 'pozyskał wielką rzeszę dla Pana'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Jako Dobry Pasterz, Jezus zaspokaja głód naszych serc, karmiąc nas swoim Ciałem, byśmy mieli siłę do głoszenia Ewangelii.",
       "moment": "komunia"
     },
     {
@@ -54,21 +90,57 @@
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do głoszenia chwały Pana, a ta pieśń jest majestatycznym hymnem uwielbienia za Jego zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, który objawił swoje zbawienie na oczach pogan, co było misją św. Barnaby.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Treść pieśni jest bezpośrednim echem Ewangelii i aklamacji, w których Jezus posyła uczniów, by głosili Dobrą Nowinę.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "614",
-      "piesn": "Panie, umocnij wiarę naszą",
-      "opis": "Modlitwa o umocnienie wiary jest zawsze aktualna, a szczególnie w dniu wspomnienia tego, który 'pozyskał wielką rzeszę dla Pana'.",
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i wierze, której świadkiem i głosicielem był św. Barnaba.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi królowanie Chrystusa, którego Ewangelię zaniósł poganom św. Barnaba.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
       "moment": "ogolne"
     },
     {
-      "numer": "591",
-      "piesn": "Boże, obdarz Kościół Twój",
-      "opis": "Jest to modlitwa za Kościół, do którego budowania i wzrostu w Antiochii przyczynił się św. Barnaba, co opisuje pierwsze czytanie.",
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń o szukaniu Boga i Jego prawa, co było istotą życia i misji św. Barnaby.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Modlitwa do Ducha Świętego, który powołał Barnabę i Szawła do dzieła, jest prośbą o Jego dary i prowadzenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Psalm responsoryjny wzywa do radości i śpiewu na cześć Pana, a ta pieśń jest tego radosnym wykonaniem.",
       "moment": "ogolne"
     }
   ]

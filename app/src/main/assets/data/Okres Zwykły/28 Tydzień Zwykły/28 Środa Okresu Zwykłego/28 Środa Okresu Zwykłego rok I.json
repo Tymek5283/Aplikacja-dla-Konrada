@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416409.Sroda-28-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "28 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 2, 1-11",
+      "opis": "Sam Bóg jest sędzią ludzkich czynów",
+      "tekst": "Nie możesz wymówić się od winy, człowiecze, kimkolwiek jesteś, gdy zabierasz się do sądzenia. W jakiej bowiem sprawie sądzisz drugiego, w tej sam na siebie wydajesz wyrok, bo ty czynisz to samo, co osądzasz. Wiemy zaś, że sąd Boży według prawdy dosięga tych, którzy się dopuszczają takich czynów.\nCzy myślisz, człowiecze, co osądzasz tych, którzy się dopuszczają takich czynów, a sam czynisz to samo, że ty unikniesz potępienia Bożego? A może gardzisz bogactwem dobroci, cierpliwości i wielkoduszności Jego, nie chcąc wiedzieć, że dobroć Boża chce cię przywieść do nawrócenia?\nOto przez swoją zatwardziałość i serce nieskłonne do nawrócenia zaskarbiasz sobie gniew na dzień gniewu i objawienia się sprawiedliwego sądu Boga, który «odda każdemu według uczynków jego»: tym, którzy przez wytrwałość w dobrych uczynkach szukają chwały, czci i nieśmiertelności - życie wieczne; tym zaś, którzy są przekorni, za prawdą pójść nie chcą, a oddają się nieprawości - gniew i oburzenie. Ucisk i utrapienie spadną na każdego człowieka, który dopuszcza się zła, najpierw na Żyda, a potem na Greka.\nChwała zaś, cześć i pokój spotkają każdego, kto czyni dobrze - najpierw Żyda, a potem Greka. Albowiem u Boga nie ma względu na osobę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 62 (61), 2-3. 6-7. 9 (R.: 13b)",
+      "opis": "",
+      "tekst": "Refren: Każdemu oddasz według jego czynów.\nJedynie w Bogu spokój znajduje ma dusza, *\nod Niego przychodzi moje zbawienie.\nTylko On jest opoką i zbawieniem moim, *\nOn moją twierdzą, więc się nie zachwieję.\nRefren.\nJedynie w Bogu szukaj spokoju, duszo moja, *\nbo od Niego pochodzi moja nadzieja.\nTylko On jest opoką i zbawieniem moim, *\nOn moją twierdzą, więc się nie zachwieję.\nRefren.\nW każdym czasie *\nJemu ufaj, narodzie.\nPrzed Nim wylejcie wasze serca, *\nBóg jest naszą ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 42-46",
+      "opis": "Jezus piętnuje obłudę faryzeuszów",
+      "tekst": "Jezus powiedział:\n«Biada wam, faryzeuszom, bo dajecie dziesięcinę z mięty i ruty, i z wszelkiej jarzyny, a pomijacie sprawiedliwość i miłość Bożą. Tymczasem to należało czynić, i tamtego nie pomijać. Biada wam, faryzeuszom, bo lubicie pierwsze miejsce w synagogach i pozdrowienia na rynku. Biada wam, bo jesteście jak groby niewidoczne, po których ludzie bezwiednie przechodzą».\nWtedy odezwał się do Niego jeden z uczonych w Prawie: «Nauczycielu, słowami tymi także nam ubliżasz». On odparł: «I wam, uczonym w Prawie, biada! Bo nakładacie na ludzi ciężary nie do uniesienia, a sami nawet jednym palcem ciężarów tych nie dotykacie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu w postawie pokory, w przeciwieństwie do obłudnych faryzeuszy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm responsoryjny mówi o Bogu jako o ucieczce i opoce. Ta pieśń jest wyrazem ufności w Jego opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest motywacją do życia w prawdzie, a nie w obłudzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pierwsze czytanie mówi o dobroci Bożej, która prowadzi do nawrócenia. Ta pieśń jest aktem skruchy i decyzją o powrocie do Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i ufność w Bożą dobroć, która jest dla nas szansą na nawrócenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec przestrogi przed sądem Bożym, pieśń wzywa do pokory i błagania o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec przestrogi przed sądem Bożym, ta pieśń jest pokorną prośbą o miłosierdzie i czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jezus w Ewangelii piętnuje obłudę i wzywa do czystości wewnętrznej. Ta pieśń jest prośbą o obmycie z win i czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę grzesznika proszącego o miłosierdzie i uzdrowienie duszy, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Dziękczynienie za dobroć i cierpliwość Boga, o których pisze św. Paweł, a które są dla nas szansą na nawrócenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże miłosierdzie, które wzywa nas do nawrócenia, a nie potępia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Bożą dobroć, która jest motywem do porzucenia obłudy i życia w prawdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, które jest odpowiedzią na Bożą dobroć, o której mówi pierwsze czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, w tym miłosierdzia i sprawiedliwości, których brakowało faryzeuszom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię jest kluczowe w kontekście obu czytań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i zmiłowanie w obliczu sądu, o którym przypomina św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o miłosierdzie i czyste serce, w przeciwieństwie do zewnętrznej czystości faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę i żal, które są potrzebne, by przyjąć Boże miłosierdzie i uniknąć sądu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę zaufania Bogu, który jest naszą ucieczką i nadzieją, jak mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

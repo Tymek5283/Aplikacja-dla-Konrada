@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430471.Poniedzialek-XVII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "17 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 13, 1-11",
+      "opis": "Bóg zapowiada karę",
+      "tekst": "Tak powiedział mi Pan: «Idź i kup sobie lniany pas, i włóż go sobie na biodra, ale nie kładź go do wody!» I kupiłem pas zgodnie z rozkazem Pańskim, i włożyłem go sobie na biodra.\nPo raz drugi otrzymałem polecenie Pańskie: «Weź pas, który kupiłeś, a który nosisz na biodrach, wstań i idź nad Eufrat, i schowaj go tam w rozpadlinie skały!» Poszedłem i ukryłem go nad Eufratem, jak mi rozkazał Pan.\nPo upływie wielu dni rzekł do mnie Pan: «Wstań i idź nad Eufrat, i zabierz stamtąd pas, który ci kazałem ukryć».I poszedłem nad Eufrat, odszukałem i wyciągnąłem pas z miejsca, w którym go ukryłem, a oto pas zbutwiał i nie nadawał się do niczego.\nI skierował Pan do mnie następujące słowo: «Tak mówi Pan: Tak oto zniszczę pychę Judy i bezgraniczną pychę Jerozolimy. Przewrotny ten naród odmawia posłuszeństwa moim słowom, postępując według swego zatwardziałego serca; ugania się za cudzymi bogami, by im służyć i oddawać cześć - niech więc się stanie jak ten pas, który nie nadaje się do niczego. Albowiem jak przylega pas do bioder mężczyzny, tak przygarnąłem do siebie cały dom Izraela i cały dom Judy - mówi Pan - by były moim narodem, moją sławą, moim zaszczytem i moją dumą. Ale oni Mnie nie słuchali».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Pwt 32, 18-19. 20. 21 (R.: por. 18b)",
+      "opis": "",
+      "tekst": "Refren: Wspomnij na Boga, który stworzył ciebie.\nGardzisz Skałą, co ciebie zrodziła, *\nzapominasz o Bogu, który dał ci życie.\nZobaczył to Pan i wzgardził, *\noburzony na własnych synów i córki.\nRefren.\nI rzekł: «Odwrócę od nich oblicze, *\nzobaczę ich koniec.\nGdyż są narodem niestałym, *\ndziećmi, w których nie ma wierności.\nRefren.\nMnie do zazdrości pobudzili tym, co wcale nie jest bogiem, *\nrozjątrzyli Mnie swymi czczymi bożkami;\ni Ja ich do zazdrości pobudzę nie-ludem, *\nrozjątrzę ich narodem pozbawionym rozsądku».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ze swej woli zrodził nas Ojciec przez słowo prawdy,\nbyśmy byli jakby pierwocinami Jego stworzeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 31-35",
+      "opis": "Przypowieść o ziarnku gorczycy i o kwasie",
+      "tekst": "Jezus opowiedział tłumom tę przypowieść:\n«Królestwo niebieskie podobne jest do ziarnka gorczycy, które ktoś wziął i posiał na swej roli. Jest ono najmniejsze ze wszystkich nasion, lecz gdy wyrośnie, większe jest od innych jarzyn i staje się drzewem, tak że ptaki podniebne przylatują i gnieżdżą się na jego gałęziach».\nPowiedział im inną przypowieść: «Królestwo niebieskie podobne jest do zaczynu, który pewna kobieta wzięła i włożyła w trzy miary mąki, aż się wszystko zakwasiło».\nTo wszystko mówił Jezus tłumom w przypowieściach, a bez przypowieści nic im nie mówił. Tak miało się spełnić słowo Proroka: «Otworzę usta w przypowieściach, wypowiem rzeczy ukryte od założenia świata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec surowych słów proroka o karze za niewierność, pieśń ta jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń błagalna, która oddaje ducha pierwszego czytania, gdzie naród niewierny zostaje przyrównany do zbutwiałego pasa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia, do której wzywa Bóg, obiecując odnowę tym, którzy porzucą drogi kłamstwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń mówi o wierności Bogu, której zabrakło Izraelowi, a która jest fundamentem wzrostu Królestwa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń pokutna, w której wierni zobowiązują się do poprawy, jest odpowiedzią na Boże wezwanie do nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Jest to prosta i bezpośrednia prośba o przebaczenie za niewierność, o której z bólem mówi prorok Jeremiasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest zaczynem jedności, który przemienia nas i całą wspólnotę Kościoła, o czym mówi przypowieść Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Królestwo Boże, które wzrasta jak ciasto od zaczynu, znajduje swoje centrum w Uczcie Eucharystycznej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "267",
+      "piesn": "Pomiędzy lud swój idzie",
+      "opis": "Chrystus przychodzi w Komunii, aby być zaczynem przemiany naszych serc i wzrostu Jego Królestwa w nas.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Mimo niewierności ludu, Bóg pozostaje wierny; ta pieśń jest uwielbieniem za Jego stałą miłość i miłosierdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o miłosierdzie i błogosławieństwo, które są jedyną nadzieją dla ludu, który zapomniał o Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar Królestwa Bożego, które rośnie w świecie mimo ludzkiej słabości i niewierności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Królestwo Boże, które wzrasta z małego ziarnka, ma swojego Króla - Chrystusa, którego panowanie głosi ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jesteśmy posłani, by świadczyć o wzrastającym Królestwie Chrystusa i poddawać Mu nasze życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, byśmy mogli być narzędziami wzrostu Królestwa Bożego w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "W odpowiedzi na oskarżenie o uganianie się za cudzymi bogami, pieśń ta jest mocną deklaracją wyboru jedynego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm mówi o odwróceniu oblicza przez Boga, a ta pieśń wyraża ufność w Jego opiekę i wierność pomimo naszych słabości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec konsekwencji grzechu, pieśń wyraża nadzieję i zaufanie w Boże miłosierdzie i przebaczenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna, która jest prośbą o oczyszczenie i odnowienie w obliczu Bożej sprawiedliwości.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417020.10-Niedziela-zwykla-rok-A",
+  "tytul_dnia": "10 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 6, 3-6",
+      "opis": "Bóg pragnie miłości",
+      "tekst": "Poznajmy, dążmy do poznania Pana; Jego przyjście jest pewne jak poranek, jak wczesny deszcz przychodzi On do nas, i jak deszcz późny, co nasyca ziemię.\n«Cóż ci mogę uczynić, Efraimie, co pocznę z tobą, Judo? Miłość wasza podobna do chmur o świtaniu albo do rosy, która prędko znika. Dlatego ciosałem cię przez proroków, słowami ust mych pouczałem, a Prawo moje zabłysło jak światło. Miłości pragnę, nie krwawej ofiary, poznania Boga bardziej niż całopaleń».\nOto słowo Boże."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 4, 18-25",
+      "opis": "Wiara Abrahama",
+      "tekst": "Bracia:\nAbraham wbrew nadziei uwierzył nadziei, że stanie się ojcem wielu narodów, zgodnie z tym, co było powiedziane: «Takie będzie twoje potomstwo».\nI nie zachwiał się w wierze, choć stwierdził, że ciało jego jest już obumarłe - miał już prawie sto lat - i że obumarłe jest łono Sary. I nie okazał wahania ani niedowierzania co do obietnicy Bożej, ale się umocnił w wierze. Oddał przez to chwałę Bogu i był przekonany, że mocen jest On również wypełnić, co obiecał. Dlatego też policzono mu to za sprawiedliwość.\nA to, że policzono mu, zostało napisane nie ze względu na niego samego, ale i ze względu na nas, jako że będzie policzone i nam, którzy wierzymy w Tego, co wskrzesił z martwych Jezusa, Pana naszego. On to został wydany za nasze grzechy i wskrzeszony z martwych dla naszego usprawiedliwienia.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 1b-2. 8 i 13. 14-15",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\nPrzemówił Pan, Bóg nad bogami, *\ni wezwał ziemię od wschodu do zachodu słońca.\n«Nie oskarżam cię za twoje ofiary, *\nbo twe całopalenia zawsze są przede Mną».\nRefren.\n«Gdybym był głodny, nie mówiłbym ci o tym, *\nbo do Mnie świat należy i wszystko, co go napełnia.\nCzy będę jadł mięso cielców *\nalbo pił krew kozłów?\nRefren.\nSkładaj Bogu dziękczynną ofiarę, *\nspełnij swoje śluby wobec Najwyższego.\nI wzywaj Mnie w dniu utrapienia, *\nwyzwolę ciebie, a ty Mnie uwielbisz».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 9-13",
+      "opis": "Powołanie Mateusza na apostoła",
+      "tekst": "Jezus, wychodząc z Kafarnaum, ujrzał człowieka imieniem Mateusz, siedzącego na komorze celnej, i rzekł do niego: «Pójdź za Mną!» A on wstał i poszedł za Nim.\nGdy Jezus siedział w domu za stołem, przyszło wielu celników i grzeszników i zasiadło wraz z Jezusem i Jego uczniami. Widząc to, faryzeusze mówili do Jego uczniów: «Dlaczego wasz Nauczyciel jada wspólnie z celnikami i grzesznikami?»\nOn, usłyszawszy to, rzekł: «Nie potrzebują lekarza zdrowi, lecz ci, którzy się źle mają. Idźcie i starajcie się zrozumieć, co znaczy: Chcę raczej miłosierdzia niż ofiary. Bo nie przyszedłem, aby powołać sprawiedliwych, ale grzeszników».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który w Ewangelii powołuje grzeszników i jest dla nich lekarzem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na historię grzechu pierworodnego i wołaniem o miłosierdzie, o którym mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania błagalna, w której jako grzesznicy prosimy o miłosierdzie Boga, który pragnie go bardziej niż ofiary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i ofiarowania Bogu serca, które pragnie Jego miłosierdzia, a nie samej ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Powołanie Mateusza jest wezwaniem do nawrócenia, a ta pieśń wzywa do wydawania owoców godnych tego nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Bóg pragnie miłosierdzia, a nie ofiary; ta pieśń podkreśla, że miłość i dobroć są miejscem spotkania z Bogiem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Jezus, przyjaciel grzeszników, zaprasza do siebie wszystkich utrudzonych, a Komunia jest odpowiedzią na to wezwanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Pieśń jest bezpośrednią prośbą o miłosierdzie do Jezusa, który przyszedł powołać grzeszników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę grzesznika, który z pokorą i skruchą przyjmuje Pana przychodzącego w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar miłosierdzia i powołania, którego doświadczył Mateusz i każdy z nas.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Boże miłosierdzie, które ratuje nas z grzechu i choroby, jak ukazuje to Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń jest wyrazem wdzięczności za niezliczone łaski, a zwłaszcza za dar przebaczenia i powołania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jako grzesznicy powołani przez Pana, prosimy Go, aby nas prowadził drogą wiary i nawrócenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłosierdzia tym, którzy, jak celnicy i grzesznicy, potrzebują Lekarza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy, na wzór Mateusza, potrafili odpowiedzieć na wezwanie i pójść za Chrystusem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która doskonale oddaje postawę grzesznika powracającego do miłosiernego Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Jest to opracowanie psalmu pokutnego, wyrażające nadzieję w Bożym przebaczeniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania, które Jezus kieruje do grzeszników.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Kolejna pieśń wzywająca do nawrócenia, które jest warunkiem przyjęcia Bożego miłosierdzia.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426087.12-Niedziela-Zwykla-rok-C",
+  "tytul_dnia": "12 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 12, 10-11; 13, 1",
+      "opis": "Będą patrzeć na tego, którego przebili",
+      "tekst": "Tak mówi Pan:\n«Na dom Dawida i na mieszkańców Jeruzalem wyleję ducha łaski przebłagania. Będą patrzeć na tego, którego przebili, i boleć będą nad nim, jak się boleje nad jedynakiem, i płakać będą nad nim, jak się płacze nad pierworodnym.\nW owym dniu będzie wielki płacz w Jeruzalem, podobny do płaczu w Hadad-Rimmon na równinie Megiddo.\nW owym dniu wytryśnie źródło, dostępne dla domu Dawida i dla mieszkańców Jeruzalem, na obmycie grzechu i zmazy».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 63 (62), 2. 3-4. 5-6. 8-9 (R.: por. 2ab)",
+      "opis": "",
+      "tekst": "Refren: Ciebie, mój Boże, pragnie moja dusza.\nBoże, mój Boże, szukam Ciebie *\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą *\njak zeschła ziemia łaknąca wody.\nRefren.\nOto wpatruję się w Ciebie w świątyni, *\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia, *\nwięc sławić Cię będą moje wargi.\nRefren.\nBędę Cię wielbił przez całe me życie *\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie, *\na usta Cię wielbią radosnymi wargami.\nRefren.\nBo stałeś się dla mnie pomocą *\ni w cieniu Twych skrzydeł wołam radośnie:\nDo Ciebie lgnie moja dusza, *\nprawica Twoja mnie wspiera.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ga 3, 26-29",
+      "opis": "Wiara w Chrystusa znosi podziały między ludźmi",
+      "tekst": "Bracia:\nWszyscy przez wiarę jesteście synami Bożymi - w Chrystusie Jezusie. Bo wy wszyscy, którzy zostaliście ochrzczeni w Chrystusie, przyoblekliście się w Chrystusa. Nie ma już Żyda ani poganina, nie ma już niewolnika ani człowieka wolnego, nie ma już mężczyzny ani kobiety, wszyscy bowiem jesteście kimś jednym w Chrystusie Jezusie.\nJeżeli zaś należycie do Chrystusa, to jesteście też potomstwem Abrahama, dziedzicami zgodnie z obietnicą.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 18-24",
+      "opis": "Wyznanie wiary w Chrystusa i zapowiedź męki",
+      "tekst": "Gdy Jezus modlił się na osobności, a byli z Nim uczniowie, zwrócił się do nich z zapytaniem: «Za kogo uważają Mnie tłumy?»\nOni odpowiedzieli: «Za Jana Chrzciciela; inni za Eliasza; jeszcze inni mówią, że któryś z dawnych proroków zmartwychwstał».\nZapytał ich: «A wy za kogo Mnie uważacie?»\nPiotr odpowiedział: «Za Mesjasza Bożego».\nWtedy surowo im przykazał i napominał ich, żeby nikomu o tym nie mówili. I dodał: «Syn Człowieczy musi wiele wycierpieć: będzie odrzucony przez starszyznę, arcykapłanów i uczonych w Piśmie; zostanie zabity, a trzeciego dnia zmartwychwstanie».\nPotem mówił do wszystkich: «Jeśli ktoś chce iść za Mną, niech się zaprze samego siebie, niech co dnia bierze krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je, a kto straci swe życie z mego powodu, ten je zachowa».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Pieśń jest bezpośrednią odpowiedzią na wezwanie Jezusa: 'niech co dnia bierze krzyż swój i niech Mnie naśladuje'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest odpowiedzią na pytanie Jezusa 'A wy za kogo Mnie uważacie?', wyznając wiarę w Chrystusa jako Drogę, Prawdę i Życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie naśladowania Chrystusa i bycia blisko Niego na drodze krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy nasze trudy i wyrzeczenia, łącząc je z ofiarą Chrystusa, co jest istotą naśladowania Go z krzyżem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pójście za Chrystusem wymaga ofiary i oddania Mu całego życia, co wyraża ta pieśń.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiara Chrystusa na krzyżu, o której On sam zapowiada, jest centralnym punktem naszej wiary i Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń ta doskonale koresponduje z psalmem responsoryjnym, który jest modlitwą duszy tęskniącej za Bogiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "W Komunii Świętej umacniamy nasze wyznanie wiary w Chrystusa, Mesjasza Bożego, tak jak uczynił to Piotr.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjmując Eucharystię, zbliżamy się do Tego, którego pragniemy naśladować na drodze krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń ta jest adoracją przebitego Serca Jezusa, nawiązując do proroctwa Zachariasza: 'Będą patrzeć na Tego, którego przebili'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "285",
+      "piesn": "Bądź pozdrowione, Serce",
+      "opis": "Adoracja Serca Jezusa, przebitego za nasze grzechy, jest odpowiedzią na proroctwo z pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "300",
+      "piesn": "Serce Twe, Jezu",
+      "opis": "Pieśń uwielbienia dla Serca Zbawiciela, które zostało zranione z miłości do nas.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o Boże prowadzenie na drodze krzyża, do której naśladowania wzywa Chrystus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Chrystusa Ukrzyżowanego i Zmartwychwstałego, którego wyznaliśmy jako Mesjasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Na rozesłanie śpiewamy o Chrystusie, który idzie przez wieki drogą krzyża, wzywając nas do pójścia za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Drugie czytanie mówi o jedności w Chrystusie, a ta pieśń podkreśla, że Eucharystia buduje tę jedność ponad wszelkimi podziałami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Psalm responsoryjny jest pieśnią tęsknoty za Bogiem, a ta pieśń jest wyrazem zaufania, że On jest naszym Pasterzem i Opiekunem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o naśladowaniu Chrystusa i pójściu za Nim drogą krzyża dobrze koresponduje z postawą wymaganą w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta podkreśla, że Chrystus jest naszą nadzieją, a pójście za Nim, nawet drogą krzyża, prowadzi do życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

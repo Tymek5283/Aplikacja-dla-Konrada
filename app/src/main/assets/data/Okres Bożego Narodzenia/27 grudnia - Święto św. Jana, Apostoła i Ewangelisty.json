@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410530.27-grudnia-swietego-Jana-Apostola-i-Ewangelisty",
+  "tytul_dnia": "27 grudnia - Święto św. Jana, Apostoła i Ewangelisty",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 1,1-4",
+      "opis": "Oznajmiamy wam, cośmy ujrzeli i słyszeli",
+      "tekst": "Początek z Pierwszego listu świętego Jana Apostoła\nUmiłowani:\nTo wam oznajmiamy, co było od początku, cośmy usłyszeli o Słowie życia, co ujrzeliśmy własnymi oczami, na co patrzyliśmy i czego dotykały nasze ręce, bo życie objawiło się. Myśmy je widzieli, o nim świadczymy i głosimy wam życie wieczne, które było w Ojcu, a nam zostało objawione, oznajmiamy wam, cośmy ujrzeli i słyszeli, abyście i wy mieli łączność z nami. A mieć z nami łączność znaczy: mieć ją z Ojcem i z Jego Synem Jezusem Chrystusem. Piszemy to w tym celu, aby nasza radość była pełna.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97,1-2.5-6.11-12",
+      "opis": "",
+      "tekst": "Refren:\nNiech sprawiedliwi weselą się w Panu.\nPan króluje, wesel się, ziemio,\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego,\nprawo i sprawiedliwość podstawą Jego tronu.\nGóry jak wosk topnieją przed obliczem Pana,\nprzed obliczem władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa,\na wszystkie ludy widzą Jego chwałę.\nŚwiatło wschodzi dla sprawiedliwego\ni radość dla ludzi prawego serca.\nRadujcie się w Panu, sprawiedliwi,\ni sławcie Jego święte imię."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ciebie, Boże, chwalimy, Ciebie, Panie, wysławiamy,\nCiebie wychwala przesławny chór Apostołów."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 20,2-8",
+      "opis": "Jan ujrzał i uwierzył",
+      "tekst": "Pierwszego dnia po szabacie Maria Magdalena pobiegła i przybyła do Szymona Piotra i do drugiego ucznia, którego Jezus kochał, i rzekła do nich: „Zabrano Pana z grobu i nie wiemy, gdzie Go położono”.\nWyszedł więc Piotr i ów drugi uczeń i szli do grobu. Biegli oni obydwaj razem, lecz ów drugi uczeń wyprzedził Piotra i przybył pierwszy do grobu. A kiedy się nachylił, zobaczył leżące płótna, jednakże nie wszedł do środka. Nadszedł potem także Szymon Piotr, idący za nim. Wszedł on do wnętrza grobu i ujrzał leżące płótna oraz chustę, która była na Jego głowie, leżącą nie razem z płótnami, ale oddzielnie zwiniętą na jednym miejscu.\nWtedy wszedł do wnętrza także i ów drugi uczeń, który przybył pierwszy do grobu. Ujrzał i uwierzył.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "572",
+      "piesn": "Chóry świętych serafinów",
+      "opis": "Pieśń ta jest w całości poświęcona św. Janowi, umiłowanemu uczniowi, co czyni ją idealnym utworem na rozpoczęcie liturgii jego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń ta przypomina o Słowie Życia, które stało się Ciałem, o czym z mocą świadczy św. Jan w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Treść o Słowie, które staje się Ciałem, by zbawić człowieka, doskonale pasuje do świadectwa św. Jana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "W dniu święta jednego z filarów Kościoła, ta pieśń oddaje hołd całemu kolegium apostolskiemu, na którego fundamencie jesteśmy zbudowani.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W darach chleba i wina ofiarujemy nasze życie, łącząc je ze świadectwem Apostołów o Słowie Życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszej pracy i świadectwa, na wzór św. Jana Ewangelisty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Ewangelia opisuje, jak Jan 'ujrzał i uwierzył' przy pustym grobie, a ta pieśń jest wyrazem wiary i nadziei płynącej ze Zmartwychwstania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest osobistym wyznaniem wiary, podobnym do tego, które zrodziło się w sercu Jana u pustego grobu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Święty Jan świadczy o Słowie, które stało się Ciałem; my w Komunii przyjmujemy to samo Ciało pod postacią Chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm responsoryjny wzywa do radości, a pierwsze czytanie mówi, że celem pisania listu jest 'aby nasza radość była pełna'. Ta pieśń jest wyrazem tej radości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, którego chwałę, jak mówi psalm, widzą wszystkie ludy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Utwór ten, podobnie jak psalm, wzywa całe stworzenie do radości z powodu królowania Pana, o którym świadczył św. Jan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń przypomina o Słowie, które stało się Ciałem, o czym świadczył św. Jan w swoim liście i Ewangelii, i posyła nas, byśmy byli Jego świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami, tak jak św. Jan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jesteśmy posłani, by głosić imię Pana, tak jak czynił to św. Jan, umiłowany uczeń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Św. Jan jest wzorem wiary, która rodzi się ze spotkania ze Zmartwychwstałym, a ta pieśń jest prośbą o dar takiej wiary.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, którego św. Jan poznał i umiłował w sposób szczególny.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar wiary i poznania Słowa Życia, co było udziałem św. Jana.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, którego św. Jan ogłasza jako życie wieczne, które było w Ojcu.",
+      "moment": "ogólne"
+    }
+  ]
+}

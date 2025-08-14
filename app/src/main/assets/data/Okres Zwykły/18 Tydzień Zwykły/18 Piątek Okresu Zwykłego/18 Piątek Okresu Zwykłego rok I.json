@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430571.Piatek-XVIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "18 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 4, 32-40",
+      "opis": "Wielkość Bożego wybrania",
+      "tekst": "Mojżesz tak powiedział do ludu:\n«Zapytaj dawnych czasów, które były przed tobą, zaczynając od dnia, w którym Bóg stworzył człowieka na ziemi, zapytaj od jednego krańca niebios do drugiego, czy nastąpiło tak wielkie wydarzenie jak to lub czy słyszano o czymś podobnym? Czy słyszał jakiś naród głos Boży z ognia, jak ty słyszałeś, i pozostał żywy? Czy usiłował Bóg przyjść i wybrać sobie jeden naród spośród innych narodów przez doświadczenia, znaki, cuda i wojny, ręką mocną i wyciągniętym ramieniem, dziełami przerażającymi, jak to wszystko, co tobie uczynił Pan, Bóg twój, w Egipcie na twoich oczach? Widziałeś to wszystko, byś poznał, że Pan jest Bogiem, a poza Nim nie ma innego.\nZ niebios pozwolił ci słyszeć swój głos, aby cię pouczyć. Na ziemi dał ci zobaczyć swój ogień ogromny i słyszeć swoje słowa spośród ognia. Ponieważ umiłował twych przodków, wybrał po nich ich potomstwo i wyprowadził cię z Egiptu sam ogromną swoją potęgą. Na twoich oczach, ze względu na ciebie wydziedziczył obce narody, większe i silniejsze od ciebie, by cię wprowadzić w posiadanie ich ziemi, jak to jest dzisiaj.\nPoznaj dzisiaj i rozważ w swym sercu, że Pan jest Bogiem, a na niebie wysoko i na ziemi nisko nie ma innego. Strzeż Jego praw i nakazów, które ja dziś polecam tobie wypełniać; by dobrze ci się wiodło i twym synom po tobie; byś przedłużył swe dni na ziemi, którą na zawsze daje ci Pan, Bóg twój».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 77 (76), 12-13. 14-15. 16 i 21 (R.: por. 12b)",
+      "opis": "",
+      "tekst": "Refren: Wspominam, Panie, dawne Twoje cuda.\nWspominam dzieła Pana, *\noto wspominam Twoje dawne cuda.\nRozmyślam o wszystkich Twych dziełach *\ni czyny Twoje wspominam.\nRefren.\nBoże, Twoja droga jest święta, *\nktóry z bogów dorówna wielkością naszemu Bogu?\nTy jesteś Bogiem działającym cuda, *\nludziom objawiłeś swą potęgę.\nRefren.\nRamieniem swoim Twój lud wybawiłeś, *\nsynów Jakuba i Józefa.\nWiodłeś Twój lud jak trzodę *\nręką Mojżesza i Aarona.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 10",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16, 24-28",
+      "opis": "Konieczność wyrzeczenia",
+      "tekst": "Jezus rzekł do swoich uczniów: «Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z mego powodu, znajdzie je. Cóż bowiem za korzyść odniesie człowiek, choćby cały świat zyskał, a na swej duszy szkodę poniósł? Albo co da człowiek w zamian za swoją duszę?\nAlbowiem Syn Człowieczy przyjdzie w chwale Ojca swego razem z aniołami swoimi i wtedy odda każdemu według jego postępowania. Zaprawdę, powiadam wam: Niektórzy z tych, co tu stoją, nie zaznają śmierci, aż ujrzą Syna Człowieczego przychodzącego w królestwie swoim».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o prowadzenie na drodze naśladowania Chrystusa z krzyżem, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża postawę ucznia, który w obliczu trudnego wezwania do zaparcia się siebie, szuka siły w Panu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń oddaje pragnienie naśladowania Chrystusa, nawet jeśli wiąże się to z utratą ziemskiego życia dla Niego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest dziękczynieniem za wielkie dzieła Boże, które wspomina pierwsze czytanie i psalm responsoryjny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarujemy Bogu nasze życie w zjednoczeniu z ofiarą Chrystusa na krzyżu, który jest wzorem zaparcia się siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jest to akt ofiarowania siebie w odpowiedzi na wezwanie Jezusa do utraty swego życia z Jego powodu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i uniżenia, która jest konieczna, by stracić swe życie dla Chrystusa i odnaleźć je na nowo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa o zjednoczenie z Chrystusem w Jego męce i życiu, co jest istotą naśladowania Go z krzyżem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "W Komunii Świętej jednoczymy się z Tym, dla którego warto stracić wszystko, by zyskać życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, którego wielkość i wyjątkowość podkreśla pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Psalm wzywa do wspominania dawnych cudów Pana, a ta pieśń jest majestatycznym hymnem na Jego cześć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Boże dzieła w historii zbawienia, które są fundamentem naszej wiary i naśladowania Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po usłyszeniu wezwania do naśladowania Chrystusa, jesteśmy posłani, aby świadczyć o Nim aż po krańce ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń ukazuje Chrystusa idącego drogą krzyża, wzywając nas, byśmy podążali za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to deklaracja wierności Chrystusowi i Jego krzyżowi, nawet w obliczu trudności i prześladowań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Jest to pieśń pasyjna, która pomaga rozważać tajemnicę krzyża w kontekście wezwania Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest odpowiedzią na pytanie z Ewangelii: 'Cóż za korzyść odniesie człowiek, choćby cały świat zyskał, a na swej duszy szkodę poniósł?'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "W obliczu konieczności wzięcia krzyża, pieśń wyraża zaufanie i nadzieję pokładaną w Panu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest dziękczynieniem za Boże wybranie i prowadzenie, o którym z mocą mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

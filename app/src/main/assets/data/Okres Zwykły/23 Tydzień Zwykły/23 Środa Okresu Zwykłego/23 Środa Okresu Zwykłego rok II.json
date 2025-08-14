@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424665.Sroda-23-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "23 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 7, 25-31",
+      "opis": "Celibat i małżeństwo",
+      "tekst": "Bracia:\nNie mam nakazu Pańskiego co do dziewic, lecz daję radę jako ten, który - wskutek doznanego od Pana miłosierdzia - godzien jest, aby mu wierzono. Uważam, iż przy obecnych utrapieniach dobrze jest tak zostać, dobrze to dla człowieka tak żyć.\nJesteś związany z żoną? Nie usiłuj odłączać się od niej! Jesteś wolny? Nie szukaj żony! Ale jeśli się ożenisz, nie grzeszysz. Podobnie i dziewica, jeśli wychodzi za mąż, nie grzeszy. Tacy jednak cierpieć będą udręki ciała, a ja chciałbym ich wam oszczędzić.\nMówię wam, bracia, czas jest krótki. Trzeba więc, by ci, którzy mają żony, tak żyli, jakby byli nieżonaci, a ci, którzy płaczą, tak jakby nie płakali, ci zaś, którzy się radują, tak jakby się nie radowali; ci zaś, którzy nabywają, jak gdyby nie posiadali; ci, którzy używają tego świata, tak jakby z niego nie korzystali. Przemija bowiem postać tego świata.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 45 (44), 11-12. 14-15. 16-17 (R.: 11a)",
+      "opis": "",
+      "tekst": "Refren: Posłuchaj, córko, spójrz i nakłoń ucha.\nPosłuchaj, córko, spójrz i nakłoń ucha, *\nzapomnij o swym ludzie, o domu swego ojca.\nKról pragnie twego piękna, *\non twoim panem, oddaj mu pokłon.\nRefren.\nCóra królewska wchodzi pełna chwały, *\nw złotogłów odziana.\nW szacie wzorzystej do króla ją prowadzą, *\nza nią przywodzą do ciebie dziewice, jej druhny.\nRefren.\nWiodą je z radością i w uniesieniu, *\nwkraczają do królewskiego pałacu.\nSynowie twoi zajmą miejsce twych ojców, *\nustanowisz ich książętami na całej ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 6, 23ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Cieszcie się i radujcie,\nbo wielka jest wasza nagroda w niebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 20-26",
+      "opis": "Błogosławieni ubodzy, biada bogaczom",
+      "tekst": "Jezus podniósł oczy na swoich uczniów i mówił:\n«Błogosławieni jesteście, ubodzy, albowiem do was należy królestwo Boże.\nBłogosławieni, którzy teraz głodujecie, albowiem będziecie nasyceni.\nBłogosławieni, którzy teraz płaczecie, albowiem śmiać się będziecie.\nBłogosławieni jesteście, gdy ludzie was znienawidzą i gdy was wyłączą spośród siebie, gdy zelżą was i z powodu Syna Człowieczego odrzucą z pogardą wasze imię jako niecne: cieszcie się i radujcie w owym dniu, bo wielka jest wasza nagroda w niebie. Tak samo bowiem przodkowie ich czynili prorokom.\nNatomiast biada wam, bogaczom, bo odebraliście już pociechę waszą.\nBiada wam, którzy teraz jesteście syci, albowiem głód cierpieć będziecie.\nBiada wam, którzy się teraz śmiejecie, albowiem smucić się i płakać będziecie.\nBiada wam, gdy wszyscy ludzie chwalić was będą. Tak samo bowiem przodkowie ich czynili fałszywym prorokom».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta stanowi doskonałe wprowadzenie do Ewangelii, która w całości jest poświęcona błogosławieństwom i przestrogom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem wejścia do Królestwa Bożego, obiecanego ubogim w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest motywacją do życia w duchu błogosławieństw.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń o pielgrzymim charakterze życia na ziemi dobrze oddaje myśl św. Pawła o przemijaniu postaci tego świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Postawa ubóstwa i oddania Bogu, o której mówi Ewangelia, znajduje swój wyraz w tej pieśni ofiarnej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń podkreśla, że dobra materialne należą do Boga, co jest zgodne z duchem ubóstwa ewangelicznego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wobec błogosławieństwa dla głodujących, Komunia Święta jest pokarmem, który nasyca nas na drodze do nieba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja głód i pragnienie Boga, obiecując nasycenie tym, którzy teraz głodują.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaproszenie do skosztowania dobroci Pana jest spełnieniem obietnicy dla tych, którzy są ubodzy i łaknący.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radość, o której mówi pieśń, jest owocem nadziei na 'wielką nagrodę w niebie', obiecaną przez Jezusa w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały jest odpowiedzią na obietnicę wiecznej radości dla tych, którzy teraz płaczą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest zapowiedzią wiecznego szczęścia obiecanego tym, którzy teraz płaczą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest motywacją do życia w duchu błogosławieństw, nawet pośród płaczu i udręk.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia jest wyrazem zaufania Bogu, który obiecuje nagrodę w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem ubóstwa i zależności od Niego, co jest drogą do Królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń o marności dóbr doczesnych jest komentarzem do Jezusowego 'biada wam, bogaczom'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "578",
+      "piesn": "Dziś radośnie wysławiamy",
+      "opis": "Pieśń o świętych dziewicach pasuje do psalmu, który jest pieśnią weselną, oraz do czytania, w którym św. Paweł daje rady dotyczące dziewictwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Ufność w Pana jest fundamentem życia w duchu błogosławieństw, wbrew przemijającej postaci tego świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o zaufaniu Bożemu miłosierdziu jest pocieszeniem dla tych, którzy płaczą i cierpią, a którym obiecana jest radość.",
+      "moment": "ogolne"
+    }
+  ]
+}

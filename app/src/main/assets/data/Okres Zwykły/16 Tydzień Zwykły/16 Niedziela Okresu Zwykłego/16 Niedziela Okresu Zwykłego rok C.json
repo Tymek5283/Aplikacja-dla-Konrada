@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430392.16-Niedziela-Zwykla-rok-C",
+  "tytul_dnia": "16 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 18, 1-10a",
+      "opis": "Abraham przyjmuje Boga",
+      "tekst": "Pan ukazał się Abrahamowi pod dębami Mamre, gdy ten siedział u wejścia do namiotu w najgorętszej porze dnia. Abraham, spojrzawszy, dostrzegł trzech ludzi naprzeciw siebie. Ujrzawszy ich, podążył od wejścia do namiotu na ich spotkanie.\nA oddawszy im pokłon do ziemi, rzekł: «O Panie, jeśli darzysz mnie życzliwością, racz nie omijać Twego sługi! Przyniosę trochę wody, wy zaś raczcie obmyć sobie nogi, a potem odpocznijcie pod drzewami. Ja zaś pójdę wziąć nieco chleba, abyście się pokrzepili, zanim pójdziecie dalej, skoro przechodzicie koło sługi waszego». A oni mu rzekli: «Uczyń tak, jak powiedziałeś».\nAbraham poszedł więc śpiesznie do namiotu Sary i rzekł: «Prędko zaczyń ciasto z trzech miar najczystszej mąki i zrób podpłomyki». Potem Abraham podążył do trzody i wybrawszy tłuste i piękne cielę, dał je słudze, aby ten szybko je przyrządził. Po czym, wziąwszy twaróg, mleko i przyrządzone cielę, postawił przed nimi, a gdy oni jedli, stał przed nimi pod drzewem.\nZapytali go: «Gdzie jest twoja żona, Sara?» - Odpowiedział im: «W tym oto namiocie». Rzekł mu jeden z nich: «O tej porze za rok znów wrócę do ciebie, twoja zaś żona, Sara, będzie miała wtedy syna».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 15 (14), 1b-2. 3 i 4b. 4c-5 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Prawy zamieszka w domu Twoim, Panie.\nKto będzie przebywał w Twym przybytku, Panie, *\nkto zamieszka na Twej górze świętej?\nTen, kto postępuje nienagannie, działa sprawiedliwie *\ni mówi prawdę w swym sercu.\nRefren.\nKto swym językiem oszczerstw nie głosi, *\nkto nie czyni bliźniemu nic złego\ni nie ubliża swoim sąsiadom, *\nale szanuje tego, który oddaje cześć Bogu.\nRefren.\nKto dotrzyma przysięgi niekorzystnej dla siebie, *\nkto nie daje swych pieniędzy na lichwę\ni nie da się przekupić przeciw niewinnemu. *\nKto tak postępuje, nigdy się nie zachwieje.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Kol 1, 24-28",
+      "opis": "Cierpiąc z Chrystusem, dopełniamy Jego dzieła",
+      "tekst": "Bracia:\nTeraz raduję się w cierpieniach za was i ze swej strony dopełniam niedostatki udręk Chrystusa w moim ciele dla dobra Jego Ciała, którym jest Kościół. Jego sługą stałem się z powodu zleconego mi wobec was Bożego włodarstwa: mam wypełnić posłannictwo głoszenia słowa Bożego.\nTajemnica ta, ukryta od wieków i pokoleń, została teraz objawiona Jego świętym, którym Bóg zechciał oznajmić, jakie jest bogactwo chwały tej tajemnicy pośród pogan. Jest nią Chrystus pośród was - nadzieja chwały. Jego to głosimy, upominając każdego człowieka i ucząc każdego człowieka z całą mądrością, aby każdego człowieka przedstawić jako doskonałego w Chrystusie.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 38-42",
+      "opis": "Marta i Maria przyjmują Chrystusa",
+      "tekst": "Jezus przyszedł do jednej wsi. Tam pewna niewiasta, imieniem Marta, przyjęła Go w swoim domu. Miała ona siostrę, imieniem Maria, która usiadłszy u nóg Pana, słuchała Jego słowa.\nMarta zaś uwijała się około rozmaitych posług. A stanąwszy przy Nim, rzekła: «Panie, czy Ci to obojętne, że moja siostra zostawiła mnie samą przy usługiwaniu? Powiedz jej, żeby mi pomogła».\nA Pan jej odpowiedział: «Marto, Marto, martwisz się i niepokoisz o wiele, a potrzeba mało albo tylko jednego. Maria obrała najlepszą cząstkę, której nie będzie pozbawiona».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do spotkania z Jezusem, na wzór gościnności Abrahama oraz prośby uczniów o naukę modlitwy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do wejścia do domu Pana, co nawiązuje do gościnności Abrahama i Marty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Wyraża radość z przebywania w domu Pańskim, co jest istotą postawy Marii i gościnności Marty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "W odpowiedzi na dar modlitwy 'Ojcze nasz', pieśń ta jest ofiarowaniem Bogu naszych serc i życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoce naszej pracy, na wzór Marty, ale z sercem zasłuchanym jak Maria.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania, który łączy w sobie służbę Marty i zasłuchanie Marii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Modlitwa Pańska zawiera prośbę o chleb powszedni, a ta pieśń eucharystyczna wskazuje na Chrystusa jako prawdziwy Chleb z nieba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Słuchanie Słowa Bożego, jak czyniła to Maria, rodzi w nas pragnienie zjednoczenia z Chrystusem w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń jest modlitwą o serce czyste i otwarte na przyjęcie Pana, na wzór Marii z Betanii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia, która doskonale pasuje do psalmu responsoryjnego, sławiącego Pana, który wysłuchuje wzywających Go.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Jest to pieśń dziękczynienia za dar modlitwy i pewność bycia wysłuchanym, o czym uczy Jezus w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia dla Boga, którego gościł Abraham i którego słuchała Maria.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wytrwała modlitwa Abrahama jest wzorem ufności, do której zachęca ta pieśń w kontekście obietnicy Jezusa: 'Proście, a będzie wam dane'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po spotkaniu z Panem w Słowie i Eucharystii, prosimy o błogosławieństwo na naszą codzienną pracę i służbę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność Kościoła, który jest domem otwartym dla Pana, jak dom Marty i Marii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta, mówiąc o opiece Bożej, jest wyrazem zaufania, które leży u podstaw każdej modlitwy wstawienniczej.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest istotą postawy Marii z Betanii.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prośba do Ducha Świętego, aby nauczył nas modlić się i słuchać Słowa, wybierając 'najlepszą cząstkę'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o miłości bliźniego jest praktycznym zastosowaniem zasłuchania w Słowo Boże, które wybrała Maria.",
+      "moment": "ogólne"
+    }
+  ]
+}

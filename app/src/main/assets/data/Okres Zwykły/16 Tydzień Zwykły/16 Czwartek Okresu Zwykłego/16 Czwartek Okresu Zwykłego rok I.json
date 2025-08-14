@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430388.Czwartek-XVI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "16 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 19, 1-2.9-11.16-20b",
+      "opis": "Bóg objawia się ludowi na górze Synaj",
+      "tekst": "Było to w trzecim miesiącu od wyjścia Izraelitów z Egiptu; w tym dniu przybyli na pustynię Synaj. Wyruszyli z Refidim, a po przybyciu na pustynię Synaj rozbili obóz na pustyni. Izrael obozował tam naprzeciw góry.\nPan rzekł do Mojżesza: «Oto Ja przyjdę do ciebie w gęstym obłoku, aby lud słyszał, gdy będę rozmawiał z tobą, i uwierzył tobie na zawsze». A Mojżesz oznajmił Panu słowa ludu.\nPan powiedział do Mojżesza: «Idź do ludu i każ im się przygotować na święto dziś i jutro. Niechaj wypiorą swoje szaty i niech będą gotowi na trzeci dzień, bo dnia trzeciego zstąpi Pan na oczach całego ludu na górę Synaj».\nTrzeciego dnia rano rozległy się grzmoty z błyskawicami, a gęsty obłok rozpostarł się nad górą i rozległ się głos potężnej trąby, tak że cały lud przebywający w obozie drżał ze strachu. Mojżesz wyprowadził lud z obozu naprzeciw Boga i ustawił u stóp góry. Góra zaś Synaj była cała spowita dymem, gdyż Pan zstąpił na nią w ogniu, i unosił się z niej dym jak z pieca, i cała góra bardzo się trzęsła. Głos trąby się przeciągał i stawał się coraz donośniejszy. Mojżesz mówił, a Bóg odpowiadał mu wśród gromów.\nPan zstąpił na górę Synaj, na jej szczyt. I wezwał Mojżesza na szczyt góry.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Dn 3, 52. 53-54. 55-56 (R.: por. 52b)",
+      "opis": "",
+      "tekst": "Refren: Chwalebny jesteś, wiekuisty Boże.\nBłogosławiony jesteś, Panie, Boże naszych ojców, *\npełen chwały i wywyższony na wieki.\nBłogosławione jest imię Twoje †\npełne chwały i świętości, *\nuwielbione i wywyższone na wieki.\nRefren.\nBłogosławiony jesteś w przybytku Twojej świętej chwały, *\nuwielbiony i przesławny na wieki.\nBłogosławiony jesteś na tronie swojego królestwa, *\nuwielbiony i przesławny na wieki.\nRefren.\nBłogosławiony jesteś Ty, co spoglądasz w otchłanie, †\nktóry zasiadasz na Cherubach, *\npełen chwały i wywyższony na wieki.\nBłogosławiony jesteś na sklepieniu nieba, *\npełen chwały i wywyższony na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 10-17",
+      "opis": "Dlaczego Jezus naucza w przypowieściach?",
+      "tekst": "Uczniowie przystąpili do Jezusa i zapytali: «Dlaczego mówisz do nich w przypowieściach?»\nOn im odpowiedział: «Wam dano poznać tajemnice królestwa niebieskiego, im zaś nie dano. Bo kto ma, temu będzie dodane, i w nadmiarze mieć będzie; kto zaś nie ma, temu zabiorą nawet to, co ma. Dlatego mówię do nich w przypowieściach, że patrząc, nie widzą, i słuchając, nie słyszą ani nie rozumieją. Tak spełnia się na nich przepowiednia Izajasza:\n„Słuchać będziecie, a nie zrozumiecie, patrzeć będziecie, a nie zobaczycie. Bo stwardniało serce tego ludu, ich uszy stępiały i oczy swe zamknęli, żeby oczami nie widzieli ani uszami nie słyszeli, ani swym sercem nie rozumieli, i nie nawrócili się, abym ich uzdrowił”. Lecz szczęśliwe oczy wasze, że widzą, i uszy wasze, że słyszą. Bo zaprawdę, powiadam wam: Wielu proroków i sprawiedliwych pragnęło ujrzeć to, na co wy patrzycie, a nie ujrzeli; i usłyszeć to, co wy słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Pieśń wyraża postawę bojaźni i czci wobec majestatu Boga objawiającego się na Synaju, o czym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Wezwanie do oddania czci Bogu, który objawia się w ogniu i obłoku, jest adekwatne do opisu teofanii na Synaju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, którego potęga objawiła się na górze Synaj wśród grzmotów i błyskawic.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze ofiarnym, w której prosimy Boga o przyjęcie darów, co jest naszą odpowiedzią na objawienie Jego majestatu i Prawa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu chleb i wino, prosząc, by przyjął naszą ofiarę, tak jak przyjął ofiarę Mojżesza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, którego chwałę i świętość wysławia psalm responsoryjny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Wobec tajemnicy Królestwa, o której mówi Ewangelia, ta pieśń wyraża postawę adoracji i wiary, która widzi więcej niż oczy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem przyjęcia tajemnic Bożych, które są zakryte przed mądrymi tego świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Jezusa, który objawia nam tajemnice Królestwa, niedostępne dla tych o zatwardziałych sercach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to radosna pieśń chwały, która dobrze koresponduje z hymnem z Księgi Daniela, wychwalającym Boga w Jego stworzeniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń wzywa do głoszenia chwały Króla, który zasiada na tronie i którego imię jest błogosławione na wieki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "229",
+      "piesn": "Jeden w naturze",
+      "opis": "Hymn z Księgi Daniela jest pieśnią chwały dla Trójcy Świętej, a ta pieśń jest jej polskim odpowiednikiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić tajemnice Królestwa, które zostały nam objawione, a były zakryte dla wielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, abyśmy mogli nie tylko słyszeć, ale i rozumieć Słowo Boże.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Prosimy Jezusa, by był światłością naszych dusz, abyśmy nie mieli zatwardziałych serc, o których mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pan, który zstąpił na Synaj, w Jezusie objawia się jako Król, którego tajemnice poznajemy dzięki wierze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Ewangelia mówi o zatwardziałości serca, a ta pieśń pokutna prosi o serce czyste i otwarte na słowo Boże.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba do Ducha Świętego o zrozumienie tajemnic Królestwa, które zostały objawione uczniom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieni są prostaczkowie, którym Ojciec objawił tajemnice Królestwa, co jest głównym tematem Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

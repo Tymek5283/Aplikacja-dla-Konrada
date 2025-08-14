@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413354.Poniedzialek-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Poniedziałek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 16, 11-15",
+      "opis": "Chrzest Lidii",
+      "tekst": "Odbiwszy od lądu w Troadzie, popłynęliśmy wprost do Samotraki, a następnego dnia do Neapolu, stamtąd zaś do Filippi, głównego miasta tej części Macedonii, które jest rzymską kolonią.\nW tym mieście spędziliśmy kilka dni. W szabat wyszliśmy za bramę nad rzekę, gdzie - jak sądziliśmy - było miejsce modlitwy. I usiadłszy, rozmawialiśmy z kobietami, które się zeszły.\nPrzysłuchiwała się nam też pewna „bojąca się Boga” kobieta z miasta Tiatyry, imieniem Lidia, która sprzedawała purpurę. Pan otworzył jej serce, tak że uważnie słuchała słów Pawła. Kiedy została ochrzczona razem ze swym domem, zwróciła się z prośbą: «Jeżeli uważacie mnie za wierną Panu, przyjdźcie do mego domu i zamieszkajcie w nim». I wymogła to na nas.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 149, 1b-2. 3-4. 5-6a i 9b (R.: por. 4a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan w swoim ludzie upodobał sobie.\nŚpiewajcie Panu pieśń nową, *\ngłoście Jego chwałę w zgromadzeniu świętych.\nNiech się Izrael cieszy swoim Stwórcą, *\na synowie Syjonu radują swym Królem.\nRefren.\nNiech imię Jego czczą tańcem, *\nniech grają Mu na bębnie i cytrze.\nBo Pan swój lud miłuje, *\npokornych wieńczy zwycięstwem.\nRefren.\nNiech święci cieszą się w chwale, *\nniech się weselą przy uczcie niebieskiej.\nChwała Boża niech będzie w ich ustach; *\nto jest chwałą wszystkich Jego świętych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 15, 26b. 27a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Świadectwo o Mnie da Duch Prawdy\ni wy także świadczyć będziecie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 26 - 16,4a",
+      "opis": "Duch Prawdy będzie świadczył o Jezusie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Gdy przyjdzie Paraklet, którego Ja wam poślę od Ojca, Duch Prawdy, który od Ojca pochodzi, On zaświadczy o Mnie. Ale wy też świadczycie, bo jesteście ze Mną od początku.\nTo wam powiedziałem, abyście się nie załamali w wierze. Wyłączą was z synagogi. Ale nadto nadchodzi godzina, w której każdy, kto was zabije, będzie sądził, że oddaje cześć Bogu. Będą tak czynić, bo nie poznali ani Ojca, ani Mnie. Ale powiedziałem wam o tych rzeczach, abyście, gdy nadejdzie ich godzina, pamiętali, że Ja wam o nich powiedziałem».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Jest to radosna pieśń wprowadzająca, która pasuje do atmosfery okresu wielkanocnego i radości z przyjęcia wiary przez Lidię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, co jest tematem psalmu i misji św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem przyjęcia wiary i chrztu, jak w przypadku Lidii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Pieśń bezpośrednio odnosi się do Ewangelii, w której Jezus zapowiada zesłanie Ducha Prawdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Kolejna pieśń do Ducha Świętego, podkreślająca Jego rolę w życiu Kościoła i każdego wierzącego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, prosząc o napełnienie Duchem Świętym, który daje świadectwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję płynącą ze Zmartwychwstania, która daje siłę do świadectwa, o którym mowa w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prosta modlitwa o dary Ducha Świętego, który uzdalnia do dawania świadectwa o Chrystusie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń ta jest prośbą do Ducha Świętego, aby rozpalił w nas miłość i uzdolnił do świadectwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, o którym świadczy Duch Prawdy i uczniowie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą miłość i wybranie, o których mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta posyła wiernych, aby byli świadkami Zmartwychwstania, tak jak apostołowie i Lidia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Duch Święty uzdalnia do misji głoszenia Ewangelii, co jest kontynuacją dzieła Pawła w Filippi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna, która dobrze komponuje się z tematem radości z wiary i chrztu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Wiara w zwycięstwo Chrystusa jest źródłem siły w prześladowaniach, o których Jezus mówi w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, które są niezbędne do dawania świadectwa i wytrwania w wierze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który wzrasta dzięki świadectwu wiernych, takich jak Lidia.",
+      "moment": "ogolne"
+    }
+  ]
+}

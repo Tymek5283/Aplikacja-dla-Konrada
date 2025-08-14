@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415423.30-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "30 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 35, 12-14. 16-18",
+      "opis": "Modlitwa pokornego przeniknie obłoki",
+      "tekst": "Pan jest sędzią, który nie ma względu na osoby. Nie będzie miał On względu na osobę przeciw biednemu, owszem, wysłucha prośby pokrzywdzonego. Nie zlekceważy błagania sieroty ani wdowy, kiedy się skarży.\nKto służy Bogu, z upodobaniem zostanie przyjęty, a błaganie jego dosięgnie obłoków. Modlitwa pokornego przeniknie obłoki i nie dozna pociechy, zanim nie osiągnie celu. Nie odstąpi, aż wejrzy Najwyższy i ujmie się za sprawiedliwymi, i wyda słuszny wyrok.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 17-18. 19 i 23 (R.: por. 7a)",
+      "opis": "",
+      "tekst": "Refren: Biedak zawołał i Pan go wysłuchał.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nPan zwraca swe oblicze przeciw zło czyniącym, *\nby pamięć o nich wymazać z ziemi.\nPan słyszy wołających o pomoc *\ni ratuje ich od wszelkiej udręki.\nRefren\nPan jest blisko ludzi skruszonych w sercu, *\nocala upadłych na duchu.\nPan odkupi dusze sług swoich, *\nnie zazna kary, kto się do Niego ucieka.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Tm 4, 6-9. 16-18",
+      "opis": "Ufność Pawła po życiu poświęconym Bogu",
+      "tekst": "Najdroższy:\nKrew moja już ma być wylana na ofiarę, a chwila mojej rozłąki nadeszła. W dobrych zawodach wystąpiłem, bieg ukończyłem, wiary ustrzegłem. Na ostatek odłożono dla mnie wieniec sprawiedliwości, który mi w owym dniu odda Pan, sprawiedliwy Sędzia, a nie tylko mnie, ale i wszystkim, którzy umiłowali pojawienie się Jego.\nPośpiesz się, by przybyć do mnie szybko. W pierwszej mojej obronie nikt przy mnie nie stanął, ale wszyscy mnie opuścili: niech im to nie będzie policzone! Natomiast Pan stanął przy mnie i wzmocnił mnie, aby się przeze mnie dopełniło głoszenie Ewangelii i aby wszystkie narody je posłyszały; wyrwany też zostałem z paszczy lwa.\nWybawi mnie Pan od wszelkiego złego czynu i ocali mnie, przyjmując do swego królestwa niebieskiego; Jemu chwała na wieki wieków. Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 18, 9-14",
+      "opis": "Wysłuchana modlitwa skruszonego grzesznika",
+      "tekst": "Jezus opowiedział niektórym, co dufni byli w siebie, że są sprawiedliwi, a innymi gardzili, tę przypowieść:\n«Dwóch ludzi przyszło do świątyni, żeby się modlić, jeden faryzeusz, a drugi celnik. Faryzeusz stanął i tak w duszy się modlił: „Boże, dziękuję Ci, że nie jestem jak inni ludzie: zdziercy, niesprawiedliwi, cudzołożnicy, albo jak i ten celnik. Zachowuję post dwa razy w tygodniu, daję dziesięcinę ze wszystkiego, co nabywam”.\nA celnik stał z daleka i nie śmiał nawet oczu wznieść ku niebu, lecz bił się w piersi, mówiąc: „Boże, miej litość dla mnie, grzesznika!”\nPowiadam wam: Ten odszedł do domu usprawiedliwiony, nie tamten. Każdy bowiem, kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża postawę pokory i skruchy, podobną do modlitwy celnika z Ewangelii, który nie śmiał oczu wznieść ku niebu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o wywyższeniu uniżonych. Ta pieśń o błogosławieństwach, zwłaszcza dla ubogich i cichych, idealnie pasuje do tej tematyki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do stanięcia przed Bogiem w postawie pokory, o której naucza Jezus w przypowieści.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest aktem ofiarowania skruszonego serca, które, jak mówi pierwsze czytanie, Bóg z upodobaniem przyjmuje.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest postawą miłą Bogu, w przeciwieństwie do pychy faryzeusza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze serca, prosząc, by były one pokorne i miłe Jemu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń, będąca parafrazą Psalmu 51, jest modlitwą grzesznika proszącego o miłosierdzie, tak jak celnik w świątyni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża świadomość własnej niegodności, podobną do postawy celnika, i jednocześnie pragnienie przyjęcia Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla konieczność pokory i wiary przy przyjmowaniu Ciała Pańskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Dziękczynienie za Boże miłosierdzie, które wysłuchuje modlitwy pokornych, o czym zapewniają wszystkie czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i wysłuchanie, o którym zapewnia psalmista: 'Biedak zawołał i Pan go wysłuchał'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które podnosi uniżonych i usprawiedliwia skruszonych grzeszników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy potrafili żyć w postawie pokory i wierności Bogu, jak św. Paweł z drugiego czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o pokorze jest ścieżką do usprawiedliwienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam, jak św. Paweł, ukończyć bieg i otrzymać wieniec sprawiedliwości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście świadectwa św. Pawła o Bożej pomocy w trudnościach, ta pieśń jest wyrazem ufności w opiekę Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże przebaczenie, które jest dostępne dla każdego, kto z pokorą, jak celnik, prosi o litość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Kolejna pieśń pokutna, która jest modlitwą o przebaczenie i oczyszczenie, na wzór modlitwy celnika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i błagania o miłosierdzie, która jest kluczem do usprawiedliwienia w oczach Bożych.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418114.Sroda-24-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "24 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 12, 31 - 13, 13",
+      "opis": "Hymn o miłości",
+      "tekst": "Bracia:\nStarajcie się o większe dary, a ja wam wskażę drogę jeszcze doskonalszą.\nGdybym mówił językami ludzi i aniołów, a miłości bym nie miał, stałbym się jak miedź brzęcząca albo cymbał brzmiący. Gdybym też miał dar prorokowania i znał wszystkie tajemnice, i posiadł wszelką wiedzę, i wiarę miał tak wielką, iżbym góry przenosił, a miłości bym nie miał - byłbym niczym. I gdybym rozdał na jałmużnę całą majętność moją, a ciało wystawił na spalenie, lecz miłości bym nie miał, nic mi nie pomoże.\nMiłość cierpliwa jest, łaskawa jest. Miłość nie zazdrości, nie szuka poklasku, nie unosi się pychą; nie jest bezwstydna, nie szuka swego, nie unosi się gniewem, nie pamięta złego; nie cieszy się z niesprawiedliwości, lecz współweseli się z prawdą. Wszystko znosi, wszystkiemu wierzy, we wszystkim pokłada nadzieję, wszystko przetrzyma.\nMiłość nigdy nie ustaje, nie jest jak proroctwa, które się skończą, albo jak dar języków, który zniknie, lub jak wiedza, której zabraknie. Po części bowiem tylko poznajemy i po części prorokujemy. Gdy zaś przyjdzie to, co jest doskonałe, zniknie to, co jest tylko częściowe.\nGdy byłem dzieckiem, mówiłem jak dziecko, czułem jak dziecko, myślałem jak dziecko. Kiedy zaś stałem się mężem, wyzbyłem się tego, co dziecinne. Teraz widzimy jakby w zwierciadle, niejasno; wtedy zaś ujrzymy twarzą w twarz. Teraz poznaję po części, wtedy zaś będę poznawał tak, jak sam zostałem poznany.\nTak więc trwają wiara, nadzieja, miłość - te trzy: największa z nich jednak jest miłość.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 2-3. 4-5. 12 i 22 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nŚpiewajcie Mu pieśń nową, *\npełnym głosem śpiewajcie Mu wdzięcznie.\nRefren.\nBo słowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 6, 63c. 68c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 31-35",
+      "opis": "Duch przekory przeszkodą w przyjęciu królestwa Bożego",
+      "tekst": "Jezus powiedział do tłumów:\n«Z kim mam porównać ludzi tego pokolenia? Do kogo są podobni? Podobni są do dzieci przesiadujących na rynku, które głośno przymawiają jedne drugim: „Przygrywaliśmy wam, a nie tańczyliście; biadaliśmy, a wy nie płakaliście”.\nPrzyszedł bowiem Jan Chrzciciel: nie jadł chleba i nie pił wina; a wy mówicie: „Zły duch go opętał”. Przyszedł Syn Człowieczy: je i pije; a wy mówicie: „Oto żarłok i pijak, przyjaciel celników i grzeszników”. A jednak wszystkie dzieci mądrości przyznały jej słuszność».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta, będąca parafrazą Hymnu o miłości, doskonale pasuje do pierwszego czytania i wprowadza w najdoskonalszą drogę, jaką jest miłość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń podkreśla, że Bóg jest obecny tam, gdzie jest miłość - droga doskonalsza, wskazana przez św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Prosta aklamacja miłości jest odpowiedzią na najgłębsze pragnienie Boga i człowieka, ukazane w Hymnie o miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Modlitwa o zjednoczenie w miłości jest konkretnym sposobem na przezwyciężenie ducha przekory i podziałów, o których mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój jest szczególnie ważna w kontekście pierwszego czytania, które mówi o miłości budującej Kościół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest sakramentem miłości, która jednoczy nas w jedno Ciało, przezwyciężając wszelkie podziały.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Przyjęcie Jezusa w Komunii jest najgłębszym doświadczeniem miłości, o której mówi Hymn z pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń jest wezwaniem do miłości Boga, która jest odpowiedzią na Jego miłość i łaskę, o których mówi psalm.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii w duchu miłości jest odpowiedzią na wezwanie św. Pawła do podążania 'drogą jeszcze doskonalszą'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, którego słowo jest prawe i który miłuje sprawiedliwość, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia jest odpowiedzią na wezwanie psalmu do sławienia Pana na cytrze i harfie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest owocem miłości, która, jak mówi św. Paweł, jest największym darem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w miłości, która jest cierpliwa i łaskawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, ucząc się od Niego miłości, która jest wypełnieniem Prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem pokory, która jest cechą prawdziwej miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta przypomina, że obok wiary i miłości, nadzieja jest jedną z trzech cnót teologalnych, które trwają na wieki.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń o ludzie wybranym przez Pana, o którym mówi psalm, jest wezwaniem do życia w miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem przyjęcia mądrości Bożej, odrzuconej przez 'ludzi tego pokolenia'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest konieczne, aby porzucić ducha przekory i otworzyć się na Bożą mądrość.",
+      "moment": "ogolne"
+    }
+  ]
+}

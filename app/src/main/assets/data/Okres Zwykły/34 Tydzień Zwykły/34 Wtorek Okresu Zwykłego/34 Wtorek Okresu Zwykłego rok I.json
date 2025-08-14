@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414018.Wtorek-34-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "34 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 2, 31-45",
+      "opis": "Bóg wzbudzi królestwo, które nigdy nie ulegnie zniszczeniu",
+      "tekst": "Daniel powiedział do Nabuchodonozora: «Ty, królu, przyglądałeś się: Oto posąg bardzo wielki, o nadzwyczajnym blasku, stał przed tobą, a widok jego był straszny. Głowa tego posągu była z czystego złota, pierś jego i ramiona ze srebra, brzuch i biodra z miedzi, golenie z żelaza, stopy zaś jego częściowo z żelaza, częściowo z gliny. Patrzyłeś, a oto odłączył się kamień, mimo że nie dotknęła go ręka ludzka, i ugodził posąg w stopy z żelaza i gliny, i połamał je. Wtedy natychmiast uległy skruszeniu żelazo i glina, miedź, srebro i złoto - i stały się jak plewy na klepisku w lecie; uniósł je wiatr, tak że nawet ślad nie pozostał po nich. Kamień zaś, który uderzył w posąg, rozrósł się w wielką górę i wypełnił całą ziemię. Taki jest sen, a jego znaczenie przedstawimy królowi.\nTy, królu, królu królów, któremu Bóg nieba oddał panowanie, siłę, moc i chwałę, w którego ręce oddał w całym zamieszkanym świecie ludzi, zwierzęta polne i ptaki podniebne i którego uczynił władcą nad nimi wszystkimi - ty jesteś głową ze złota. Po tobie jednak powstanie inne królestwo, mniejsze niż twoje, i nastąpi trzecie królestwo - miedziane, które będzie panowało nad całą ziemią. Czwarte zaś królestwo będzie trwałe jak żelazo. Tak jak żelazo wszystko kruszy i rozrywa, skruszy ono i w proch zetrze wszystko razem. To, że widziałeś stopy i palce częściowo z gliny, częściowo zaś z żelaza, oznacza, że królestwo ulegnie podziałowi; będzie miało coś z trwałości żelaza. To zaś, że widziałeś żelazo zmieszane z mulistą gliną, a palce u nóg częściowo z żelaza, częściowo zaś z gliny, oznacza, że królestwo będzie częściowo trwałe, częściowo zaś kruche. To, że widziałeś żelazo zmieszane z mulistą gliną, oznacza, że zmieszają się oni przez ludzkie nasienie, ale nie będą się odznaczać spoistością, podobnie jak żelazo nie da się pomieszać z gliną.\nW czasach tych królów Bóg nieba wzbudzi królestwo, które nigdy nie ulegnie zniszczeniu, a którego władza królewska nie będzie oddana żadnemu innemu narodowi. Zetrze i zniweczy ono wszystkie te królestwa, samo zaś będzie trwało na wieki, jak to widziałeś, gdy kamień oderwał się od góry, mimo że nie dotknęła go ludzka ręka, i starł w proch żelazo, miedź, glinę, srebro i złoto. Wielki Bóg wyjawił królowi, co nastąpi później; prawdziwy jest sen, a wyjaśnienie jego pewne».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Dn 3, 57-58a i 59a. 60a i 61 (R.: por. 57b)",
+      "opis": "",
+      "tekst": "Refren: Chwalcie na wieki najwyższego Pana.\nBłogosławcie Pana, wszystkie dzieła Pańskie, *\nchwalcie Go i wywyższajcie na wieki.\nBłogosławcie Pana, aniołowie Pańscy, *\nbłogosławcie Pana, niebiosa.\nRefren.\nBłogosławcie Pana, wszelkie wody podniebne,\nbłogosławcie Pana, wszystkie potęgi.\nBłogosławcie Pana, *\nchwalcie Go i wywyższajcie na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ap 2, 10c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bądź wierny aż do śmierci,\na dam ci wieniec życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 5-11",
+      "opis": "Zapowiedź zburzenia świątyni",
+      "tekst": "Gdy niektórzy mówili o świątyni, że jest przyozdobiona pięknymi kamieniami i darami, Jezus powiedział: «Przyjdzie czas, kiedy z tego, na co patrzycie, nie zostanie kamień na kamieniu, który by nie był zwalony».\nZapytali Go: «Nauczycielu, kiedy to nastąpi? I jaki będzie znak, gdy to się dziać zacznie?»\nJezus odpowiedział: «Strzeżcie się, żeby was nie zwiedziono. Wielu bowiem przyjdzie pod moim imieniem i będą mówić: „To ja jestem” oraz „Nadszedł czas”. Nie podążajcie za nimi! I nie trwóżcie się, gdy posłyszycie o wojnach i przewrotach. To najpierw musi się stać, ale nie zaraz nastąpi koniec».\nWtedy mówił do nich: «Powstanie naród przeciw narodowi i królestwo przeciw królestwu. Wystąpią silne trzęsienia ziemi, a miejscami głód i zaraza; ukażą się straszne zjawiska i wielkie znaki na niebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ogłasza królowanie Chrystusa, co jest odpowiedzią na wizję z pierwszego czytania o nietrwałości ziemskich królestw i wiecznym królestwie Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Pieśń ta jest aktem zawierzenia Chrystusowi Królowi i prośbą o prowadzenie do Jego królestwa, które nigdy nie ulegnie zniszczeniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń o charakterze programowym, w której wierni deklarują swoje poddanie się królowaniu Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Wobec zapowiedzi przemijania rzeczy doczesnych z Ewangelii, ta pieśń wyraża prawdę, że naszym trwałym domem jest niebo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W perspektywie przemijania ziemskich królestw, ta pieśń jest aktem ofiarowania całego życia jedynemu, wiecznemu Królowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc o udział w Jego wiecznym królestwie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu zapowiedzi wojen i kataklizmów, ta pieśń jest wyznaniem wiary, że naszą jedyną i trwałą nadzieją jest Chrystus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem naszej wiary w Tego, którego królestwo jest wieczne i nigdy nie ulegnie zniszczeniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do wytrwałości i jest pokarmem na drogę do Jego wiecznego królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego, wzywającego wszystkie dzieła Pańskie do chwalenia Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, którego królestwo jest wieczne i nigdy nie przeminie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Boga, Stwórcy wszechświata, którego królestwo trwa na wieki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Pieśń ta jest aktem zawierzenia Chrystusowi Królowi i prośbą o prowadzenie do Jego królestwa, które nigdy nie ulegnie zniszczeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Jesteśmy posłani, by świadczyć o Chrystusie Królu, którego panowanie jest wieczne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy w naszym życiu byli wiernymi poddanymi w wiecznym królestwie Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń wyraża nadzieję na odnowę i zwycięstwo miłości Chrystusa w świecie pełnym niepokoju, o którym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Hymn do Chrystusa Króla, w którym lud wierny prosi o Jego zmiłowanie i błogosławieństwo.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn ten jest wyrazem uwielbienia i dziękczynienia za królowanie Chrystusa, którego królestwo jest wieczne.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do gotowości na przyjście Pana.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412900.Sroda-III-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "3 Środa Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 4, 1. 5-9",
+      "opis": "Wezwanie do zachowania przykazań",
+      "tekst": "Mojżesz powiedział do ludu:\n«A teraz, Izraelu, słuchaj praw i nakazów, które uczę was wypełniać, abyście żyli i doszli do posiadania ziemi, którą wam daje Pan, Bóg waszych ojców.\nPatrzcie, nauczałem was praw i nakazów, jak mi rozkazał czynić Pan, Bóg mój, abyście je wypełniali w kraju, do którego idziecie, by objąć go w posiadanie. Strzeżcie ich i wypełniajcie je, bo one są waszą mądrością i umiejętnością w oczach narodów, które usłyszawszy o tych prawach, powiedzą: „Z pewnością ten wielki naród to lud mądry i rozumny”. Bo któryż wielki naród ma bogów tak bliskich, jak Pan, Bóg nasz, ilekroć Go wzywamy? Któryż wielki naród ma prawa i nakazy tak sprawiedliwe, jak całe to Prawo, które ja wam dziś daję?\nTylko się strzeż bardzo i pilnuj siebie, byś nie zapomniał o tych rzeczach, które widziały twe oczy, by z twego serca nie uszły po wszystkie dni twego życia, ale ucz ich swych synów i wnuków».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147B, 12-13. 15-16. 19-20 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Kościele święty, chwal swojego Pana.\nChwal, Jeruzalem, Pana, *\nwysławiaj twego Boga, Syjonie!\nUmacnia bowiem zawory bram twoich *\ni błogosławi synom twoim w tobie.\nRefren.\nZsyła na ziemię swoje polecenia, *\na szybko mknie Jego słowo.\nOn prószy śniegiem jak wełną *\ni szron jak popiół rozsypuje.\nRefren.\nOznajmił swoje słowo Jakubowi, *\nIzraelowi ustawy swe i wyroki.\nNie uczynił tego dla innych narodów, *\nnie oznajmił im swoich wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 6, 63c. 68c",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 17-19",
+      "opis": "Kto wypełnia przykazania, ten będzie wielki w królestwie niebieskim",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie sądźcie, że przyszedłem znieść Prawo albo Proroków. Nie przyszedłem znieść, ale wypełnić. Zaprawdę bowiem, powiadam wam: Dopóki niebo i ziemia nie przeminą, ani jedna jota, ani jedna kreska nie zmieni się w Prawie, aż się wszystko spełni.\nKtokolwiek więc zniósłby jedno z tych przykazań, choćby najmniejszych, i uczyłby tak ludzi, ten będzie najmniejszy w królestwie niebieskim. A kto je wypełnia i uczy wypełniać, ten będzie wielki w królestwie niebieskim».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń ta jest modlitwą o Boże prowadzenie drogami Prawa, o którym mówią wszystkie czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia i posłuszeństwa Bogu, co jest głównym tematem czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża pragnienie życia według Bożych przykazań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postanowienie trwania w przymierzu z Bogiem przez zachowywanie Jego przykazań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę pokory i czci wobec Prawa Bożego, które Jezus przyszedł wypełnić.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wierność Prawu prowadzi do zjednoczenia z Chrystusem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Nawiązuje do Ewangelii, która mówi o wielkości w królestwie niebieskim, zależnej od wypełniania przykazań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o czyste serce, które z miłością będzie wypełniać Boże Prawo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o obmycie z grzechów jest warunkiem przyjęcia Chrystusa i życia według Jego nauki.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń uwielbia Boga, który w swoim Prawie daje nam drogę do życia i mądrości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem dziękczynienia za dar Prawa, które jest naszą mądrością w oczach narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Boże Prawo, które jest źródłem życia i błogosławieństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia przez pełnienie dobrych czynów, które są wypełnieniem Prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa, który jest doskonałym wypełnieniem Prawa i Proroków.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o życiu w posłuszeństwie Bogu i Jego przykazaniom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o siłę do życia zgodnego z Bożymi przykazaniami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wzywa do postawy pokory i posłuszeństwa Prawu Bożemu, które Jezus przyszedł wypełnić.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne przyjąć i wypełnić Prawo Pańskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy nieposłuszeństwa wobec Bożego Prawa.",
+      "moment": "ogolne"
+    }
+  ]
+}

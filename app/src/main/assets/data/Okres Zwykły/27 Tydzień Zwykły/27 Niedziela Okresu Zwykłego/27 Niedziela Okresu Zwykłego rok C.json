@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416878.27-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "27 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ha 1, 2-3; 2, 2-4",
+      "opis": "Sprawiedliwy żyć będzie dzięki swej wierności",
+      "tekst": "Jak długo, Panie, mam wzywać pomocy - a Ty nie wysłuchujesz? Wołam do Ciebie: Na pomoc! - a Ty nie wysłuchujesz. Dlaczego ukazujesz mi niegodziwość i przyglądasz się nieszczęściu? Oto ucisk i przemoc przede mną, powstają spory, wybuchają waśnie.\nI odpowiedział Pan tymi słowami: «Zapisz widzenie, na tablicach wyryj, by można było łatwo je odczytać. Jest to widzenie na czas oznaczony, lecz wypełnienie jego niechybnie nastąpi; a jeśli się opóźnia, ty go oczekuj, bo w krótkim czasie przyjdzie niezawodnie. Oto zginie ten, co jest ducha nieprawego, a sprawiedliwy żyć będzie dzięki swej wierności».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 1-2. 6-7c. 7d-9 (R.: por. 7d-8a)",
+      "opis": "",
+      "tekst": "Refren: Słysząc głos Pana, serc nie zatwardzajcie.\nPrzyjdźcie, radośnie śpiewajmy Panu, *\nwznośmy okrzyki ku chwale Opoki naszego zbawienia.\nStańmy przed obliczem Jego z uwielbieniem, *\nz weselem śpiewajmy Mu pieśni.\nRefren.\nPrzyjdźcie, uwielbiajmy Go, padając na twarze, *\nklęknijmy przed Panem, który nas stworzył.\nAlbowiem On jest naszym Bogiem, *\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren.\nObyście dzisiaj usłyszeli głos Jego: †\n«Niech nie twardnieją wasze serca jak w Meriba, *\njak na pustyni w dniu Massa,\ngdzie Mnie kusili wasi ojcowie, *\ndoświadczali Mnie, choć widzieli moje dzieła».\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Tm 1, 6-8. 13-14",
+      "opis": "Nie dał nam Bóg ducha bojaźni",
+      "tekst": "Najdroższy:\nPrzypominam ci, abyś rozpalił na nowo charyzmat Boży, który jest w tobie od nałożenia moich rąk. Albowiem nie dał nam Bóg ducha bojaźni, ale mocy i miłości oraz trzeźwego myślenia. Nie wstydź się zatem świadectwa Pana naszego ani mnie, Jego więźnia, lecz weź udział w trudach i przeciwnościach znoszonych dla Ewangelii mocą Bożą!\nZdrowe zasady, które posłyszałeś ode mnie, zachowaj jako wzorzec w wierze i miłości w Chrystusie Jezusie. Dobrego depozytu strzeż z pomocą Ducha Świętego, który w nas mieszka.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 P 1, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Pana trwa na wieki.\nWłaśnie to słowo ogłoszono wam jako Dobrą Nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 5-10",
+      "opis": "Służyć z pokorą",
+      "tekst": "Apostołowie prosili Pana: «Dodaj nam wiary».\nPan rzekł: «Gdybyście mieli wiarę jak ziarnko gorczycy, powiedzielibyście tej morwie: „Wyrwij się z korzeniem i przesadź się w morze”, a byłaby wam posłuszna.\nKto z was, mając sługę, który orze lub pasie, powie mu, gdy on wróci z pola: „Pójdź zaraz i siądź do stołu”? Czy nie powie mu raczej: „Przygotuj mi wieczerzę, przepasz się i usługuj mi, aż zjem i napiję się, a potem ty będziesz jadł i pił”? Czy okazuje wdzięczność słudze za to, że wykonał to, co mu polecono?\nTak i wy, gdy uczynicie wszystko, co wam polecono, mówcie: „Słudzy nieużyteczni jesteśmy; wykonaliśmy to, co powinniśmy wykonać”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest bezpośrednią odpowiedzią na prośbę Apostołów z Ewangelii: 'Dodaj nam wiary'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń mówi o wierności i zaufaniu Bogu, co jest kluczem do życia sprawiedliwego, o którym wspomina prorok Habakuk.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do proszenia o wzrost wiary, aby móc Mu wiernie służyć.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę sługi, który wszystko oddaje Panu, zgodnie z nauką Jezusa z końca Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o błogosławieństwo na trud służby Bogu, o której mówi Jezus w przypowieści o sługach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest wyrazem postawy 'sługi nieużytecznego', który wie, że wszystko zawdzięcza Panu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary, której moc, nawet tak mała jak ziarnko gorczycy, jest w stanie czynić cuda.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę sługi, który z wiarą i pokorą prosi Pana o wejście do jego serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary i pokory, postaw, o które prosimy i do których jesteśmy wzywani w dzisiejszej liturgii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar wiary i miłości, o których mówią czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar wiary, która jest łaską, a nie naszą zasługą, co podkreśla postawa 'sług nieużytecznych'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą wierność, która jest odpowiedzią na wołanie proroka i prośbę apostołów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest posłaniem do służby, która opiera się na wierze i mocy Bożej, a nie na własnych siłach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego droga to droga wiary i pokornej służby.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie jest wyrazem naszej słabości i potrzeby Bożej mocy, o której mówi drugie czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń wyraża, że Bóg jest naszą siłą, co rezonuje z drugim czytaniem, które mówi o duchu mocy danym od Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Drugie czytanie mówi o Duchu Świętym, który w nas mieszka i pomaga strzec 'dobrego depozytu'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Postawa pokory i służby, do której wzywa Ewangelia, jest drogą do błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wierność, o której mówi prorok Habakuk, znajduje swoje źródło w nadziei, którą jest Chrystus.",
+      "moment": "ogolne"
+    }
+  ]
+}

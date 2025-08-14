@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415410.Sobota-30-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "30 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 1, 18b-26",
+      "opis": "Dla mnie żyć to Chrystus",
+      "tekst": "Bracia:\nNa wszelki sposób głosi się Chrystusa. A z tego ja się cieszę i będę się cieszył. Wiem bowiem, że mi to wyjdzie na zbawienie dzięki waszej modlitwie i pomocy, udzielanej przez Ducha Jezusa Chrystusa, zgodnie z gorącym oczekiwaniem i nadzieją moją, że w niczym nie doznam zawodu.\nLecz jak zawsze, tak i teraz, z całą swobodą i jawnością Chrystus będzie uwielbiony w moim ciele: czy to przez życie, czy przez śmierć. Dla mnie bowiem żyć - to Chrystus, a umrzeć - to zysk. Jeśli zaś żyć w ciele - to dla mnie owocna praca, cóż mam wybrać? Nie umiem powiedzieć. Z dwóch stron doznaję nalegania: pragnę odejść, a być z Chrystusem, bo to o wiele lepsze; pozostawać zaś w ciele - to bardziej konieczne ze względu na was.\nA ufny w to, wiem, że pozostanę, i to pozostanę nadal dla was wszystkich, dla waszego postępu i radości w wierze, aby rosła wasza duma w Chrystusie Jezusie przez moją ponowną obecność u was.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 42 (41), 2-3. 5 (R.: por. 3ab)",
+      "opis": "",
+      "tekst": "Refren: Boga żywego pragnie moja dusza.\nJak łania pragnie wody ze strumieni, *\ntak dusza moja pragnie Ciebie, Boże.\nDusza moja Boga pragnie, Boga żywego, *\nkiedyż więc przyjdę i ujrzę oblicze Boże?\nRefren.\nRozpływa się we mnie moja dusza, *\ngdy wspominam, jak z tłumem kroczyłem\ndo Bożego domu,\nw świątecznym orszaku, *\nwśród głosów radości i chwały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 29ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Weźcie na siebie moje jarzmo i uczcie się ode Mnie,\nbo jestem cichy i pokornego serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 1. 7-11",
+      "opis": "Przypowieść o zaproszonych na ucztę",
+      "tekst": "Gdy Jezus przyszedł do domu pewnego przywódcy faryzeuszów, aby w szabat spożyć posiłek, oni Go śledzili. \\Potem opowiedział zaproszonym przypowieść, gdy zauważył, jak sobie pierwsze miejsca wybierali. Tak mówił do nich:\n«Jeśli cię ktoś zaprosi na ucztę, nie zajmuj pierwszego miejsca, by przypadkiem ktoś znamienitszy od ciebie nie był zaproszony przez niego. Wówczas przyjdzie ten, kto was obu zaprosił, i powie ci: „Ustąp temu miejsca”, a wtedy musiałbyś ze wstydem zająć ostatnie miejsce. Lecz gdy będziesz zaproszony, idź i usiądź na ostatnim miejscu. A gdy przyjdzie ten, który cię zaprosił, powie ci: „Przyjacielu, przesiądź się wyżej”. I spotka cię zaszczyt wobec wszystkich współbiesiadników.\nKażdy bowiem, kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o wywyższeniu uniżonych. Ta pieśń o błogosławieństwach, zwłaszcza dla cichych i pokornych, idealnie wprowadza w tę tematykę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do stanięcia przed Bogiem w postawie pokory, o której naucza Jezus w przypowieści.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, które jest potrzebne każdemu, kto pragnie być wywyższony przez Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec słów św. Pawła 'Dla mnie żyć - to Chrystus', ta pieśń jest aktem ofiarowania siebie Bogu i wyboru Chrystusa jako jedynej wartości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy potrafili żyć w pokorze, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze pragnienie bycia pokornym, aby nasza ofiara była Mu miła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń jest parafrazą Psalmu 63, ale doskonale oddaje też treść psalmu responsoryjnego, mówiącego o tęsknocie duszy za Bogiem żywym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia mówi o uczcie. Komunia jest uczestnictwem w uczcie Pańskiej, na której ostatni stają się pierwszymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, której tytuł i treść idealnie oddają postawę, do której zachęca Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dar życia w Chrystusie, które, jak mówi św. Paweł, jest naszym największym zyskiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wiary i życia wiecznego, o którym z radością pisze św. Paweł do Filipian.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest dziękczynieniem za dar poznania Chrystusa, który jest najwyższą wartością, jak wyznaje św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a życie z Nim polega na naśladowaniu Jego pokory, o której naucza w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam, jak św. Paweł, trwać w Chrystusie i dążyć do niebieskiej ojczyzny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Życie dla Chrystusa, o którym mówi św. Paweł, to także misja głoszenia Ewangelii, do której wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie zjednoczenia z Chrystusem, które jest głównym motywem życia św. Pawła, opisanym w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszą nadzieją na życie wieczne, o którym z tęsknotą pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń ta doskonale oddaje myśl św. Pawła o tęsknocie za byciem z Chrystusem i o tym, że nasza prawdziwa ojczyzna jest w niebie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, dla którego warto, jak św. Paweł, wszystko inne uznać za stratę.",
+      "moment": "ogolne"
+    }
+  ]
+}

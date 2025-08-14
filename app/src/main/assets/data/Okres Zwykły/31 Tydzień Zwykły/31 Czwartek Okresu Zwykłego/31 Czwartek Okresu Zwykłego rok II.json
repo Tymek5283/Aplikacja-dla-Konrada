@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414871.Czwartek-31-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "31 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 3, 3-8a",
+      "opis": "Chrystus najwyższą wartością",
+      "tekst": "Bracia:\nMy jesteśmy prawdziwie ludem obrzezanym - my, którzy sprawujemy kult w Duchu Bożym i chlubimy się w Chrystusie Jezusie, a nie pokładamy ufności w ciele. Chociaż ja także i w ciele mogę pokładać ufność. Jeśli ktoś inny mniema, że może ufność złożyć w ciele, to ja tym bardziej: obrzezany ósmego dnia, z rodu Izraela, z pokolenia Beniamina, Hebrajczyk z Hebrajczyków, w stosunku do Prawa - faryzeusz, co do gorliwości - prześladowca Kościoła, co do sprawiedliwości legalnej - stałem się bez zarzutu.\nAle to wszystko, co było dla mnie zyskiem, ze względu na Chrystusa uznałem za stratę. I owszem, nawet wszystko uznaję za stratę ze względu na najwyższą wartość poznania Chrystusa Jezusa, mojego Pana.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 2-3. 4-5. 6-7 (R.: por. 3b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech się weselą szukający Pana.\nŚpiewajcie i grajcie Mu psalmy, *\nrozgłaszajcie wszystkie Jego cuda.\nSzczyćcie się Jego świętym imieniem, *\nniech się weseli serce szukających Pana.\nRefren.\nRozmyślajcie o Panu i Jego potędze, *\nzawsze szukajcie Jego oblicza.\nPamiętajcie o cudach, które On uczynił, *\no Jego znakach, o wyrokach ust Jego.\nRefren.\nPotomkowie Abrahama, słudzy Jego, *\nsynowie Jakuba, Jego wybrańcy.\nOn, Pan, jest naszym Bogiem, *\nJego wyroki obejmują świat cały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 15, 1-10",
+      "opis": "Przypowieści o zagubionej owcy i zagubionej drachmie",
+      "tekst": "W owym czasie przybliżali się do Jezusa wszyscy celnicy i grzesznicy, aby Go słuchać. Na to szemrali faryzeusze i uczeni w Piśmie, mówiąc: «Ten przyjmuje grzeszników i jada z nimi». Opowiedział im wtedy następującą przypowieść:\n«Któż z was, gdy ma sto owiec, a zgubi jedną z nich, nie zostawia dziewięćdziesięciu dziewięciu na pustyni i nie idzie za zgubioną, aż ją znajdzie? A gdy ją znajdzie, bierze z radością na ramiona i wraca do domu; sprasza przyjaciół i sąsiadów i mówi im: „Cieszcie się ze mną, bo znalazłem owcę, która mi zginęła”. Powiadam wam: Tak samo w niebie większa będzie radość z jednego grzesznika, który się nawraca, niż z dziewięćdziesięciu dziewięciu sprawiedliwych, którzy nie potrzebują nawrócenia.\nAlbo jeśli jakaś kobieta, mając dziesięć drachm, zgubi jedną drachmę, czyż nie zapala światła, nie wymiata domu i nie szuka starannie, aż ją znajdzie? A znalazłszy ją, sprasza przyjaciółki i sąsiadki i mówi: „Cieszcie się ze mną, bo znalazłam drachmę, którą zgubiłam”. Tak samo, powiadam wam, radość nastaje wśród aniołów Bożych z powodu jednego grzesznika, który się nawraca».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą Psalmu 23, a jej treść doskonale pasuje do Ewangelii o Dobrym Pasterzu szukającym zagubionej owcy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która wyraża ufność w prowadzenie Boże, co jest głównym tematem Ewangelii o zagubionej owcy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, które koresponduje z Jego postawą przyjmowania grzeszników i celników w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na miłość Boga, który w Ewangelii szuka grzeszników i cieszy się z ich powrotu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest postawą grzesznika, którego szuka Dobry Pasterz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by nas odnalazł i przyjął, jak zagubioną owcę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii karmi i umacnia tych, których odnalazł i przyprowadził do owczarni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która wyraża postawę pokory i wiary, z jaką grzesznik przystępuje do stołu Pańskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Przyjęcie Jezusa w Komunii jest przyjęciem miłości, która szuka i zbawia to, co zginęło.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Dziękczynienie za Boże miłosierdzie, które objawia się w radości nieba z nawróconego grzesznika.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Wobec świadectwa św. Pawła, który wszystko uznał za stratę dla Chrystusa, ta pieśń jest dziękczynieniem za dar wiary i życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, a zwłaszcza za dar przebaczenia i odnalezienia przez Dobrego Pasterza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest posłaniem na zakończenie Mszy, abyśmy i my dali Bogu radość naszego powrotu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a my, jako Jego owce, chcemy iść za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do szukania zagubionych, na wzór Dobrego Pasterza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, co jest istotą przypowieści o zagubionej owcy i drachmie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże miłosierdzie i odkupienie, które jest dostępne dla każdego grzesznika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem grzesznika o przebaczenie i miłosierdzie, które Bóg okazuje w przypowieściach z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest najwyższą wartością, dla której św. Paweł wszystko inne uznał za stratę.",
+      "moment": "ogolne"
+    }
+  ]
+}

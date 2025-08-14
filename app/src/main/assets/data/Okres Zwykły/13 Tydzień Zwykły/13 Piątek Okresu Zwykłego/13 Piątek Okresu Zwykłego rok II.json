@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426604.Piatek-XIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "13 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 8, 4-6. 9-12",
+      "opis": "Głód słowa Bożego",
+      "tekst": "Słuchajcie tego wy, którzy gnębicie ubogiego, a bezrolnego pozostawiacie bez pracy, którzy mówicie: «Kiedyż minie nów księżyca, byśmy mogli sprzedawać zboże, i kiedy szabat, byśmy mogli otworzyć spichlerz? A będziemy zmniejszać efę, powiększać sykl i wagę podstępnie fałszować. Będziemy kupować biednego za srebro, a ubogiego za parę sandałów, i plewy pszeniczne będziemy sprzedawać».\n«Owego dnia - mówi Pan Bóg - zajdzie słońce w południe i w jasny dzień zaciemnię ziemię. Zamienię święta wasze w żałobę, a wszystkie wasze pieśni w lamentacje; nałożę na wszystkie biodra wory, a wszystkie głowy ogolę i uczynię żałobę jak po jedynaku, a dni ostatnie jakby dniem goryczy.\nOto nadejdą dni - mówi Pan Bóg - gdy ześlę głód na ziemię, nie głód chleba ani pragnienie wody, lecz głód słuchania słów Pańskich. Wtedy błąkać się będą od morza do morza, z północy na wschód będą krążyli, by znaleźć słowo Pańskie, lecz go nie znajdą».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 2 i 10. 20 i 30. 40 i 131 (R.: por. Mt 4, 4)",
+      "opis": "",
+      "tekst": "Refren: Słowami Boga żyjemy jak chlebem.\nBłogosławieni, którzy zachowują Boże napomnienia *\ni szukają Go całym sercem.\nZ całego serca swego szukam Ciebie, *\nnie daj mi odejść od Twoich przykazań.\nRefren.\nSłabnie wciąż moja dusza *\nz tęsknoty do wyroków Twoich.\nWybrałem drogę prawdy, *\npragnąc Twych wyroków.\nRefren.\nOto pożądam Twoich postanowień, *\nwedług swej sprawiedliwości zapewnij mi życie.\nZaczerpnę powietrza otwartymi ustami, *\nbo pragnę Twoich przykazań.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy,\nktórzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 9-13",
+      "opis": "Powołanie Mateusza",
+      "tekst": "Jezus, wychodząc z Kafarnaum, ujrzał człowieka imieniem Mateusz, siedzącego na komorze celnej, i rzekł do niego: «Pójdź za Mną!» A on wstał i poszedł za Nim.\nGdy Jezus siedział w domu za stołem, przyszło wielu celników i grzeszników i zasiadło wraz z Jezusem i Jego uczniami. Widząc to, faryzeusze mówili do Jego uczniów: «Dlaczego wasz Nauczyciel jada wspólnie z celnikami i grzesznikami?»\nOn, usłyszawszy to, rzekł: «Nie potrzebują lekarza zdrowi, lecz ci, którzy się źle mają. Idźcie i starajcie się zrozumieć, co znaczy: „Chcę raczej miłosierdzia niż ofiary”. Bo nie przyszedłem, aby powołać sprawiedliwych, ale grzeszników».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest bezpośrednim zaproszeniem dla wszystkich grzeszników i utrudzonych, których Jezus przyszedł powołać, jak celnika Mateusza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa z aklamacji, zapraszającego do siebie wszystkich utrudzonych i obciążonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta, oparta na przypowieści o synu marnotrawnym, doskonale ilustruje powołanie grzeszników, o którym naucza Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń o charakterze eucharystycznym podkreśla miłość ofiarną Chrystusa, która jest najdoskonalszym wyrazem miłosierdzia, jakiego pragnie Bóg.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarujemy Bogu nasze skruszone serca, uznając, że potrzebujemy Jego miłosierdzia, a nie ofiar.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiarujemy Bogu nasze pragnienie życia w miłosierdziu, którego On pragnie bardziej niż ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń eucharystyczna jest bezpośrednim echem słów Jezusa z Ewangelii, zapraszającego do siebie celników i grzeszników, by dać im pokrzepienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża tęsknotę za Bogiem i Jego Słowem, której głód, jak zapowiada prorok Amos, jest największym pragnieniem człowieka.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "W Komunii Świętej spotykamy Lekarza dusz, który powołuje grzeszników i karmi ich swoim Ciałem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest aktem dziękczynienia za dar Bożego miłosierdzia i Jego obecności, która zaspokaja głód Słowa Pańskiego zapowiedziany przez Amosa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękujemy Bogu za Jego miłosierdzie, które powołuje grzeszników i daje im udział w swoim Królestwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Jest to pieśń dziękczynna za bezmiar łask, a zwłaszcza za dar powołania, którego doświadczył Mateusz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń na rozesłanie przypomina, że zadaniem powołanych jest świadczenie o miłosierdziu Boga, którego On pragnie bardziej niż ofiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy, jak Mateusz, potrafili odpowiedzieć na wezwanie Jezusa i pójść za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Na zakończenie Mszy wyznajemy, że Chrystus jest naszą drogą, którą chcemy podążać, odpowiadając na Jego powołanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Nawiązuje do postawy grzesznika, który z głębokości woła do Pana i ufa Jego miłosierdziu, o którym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywająca do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na powołanie, które Jezus skierował do Mateusza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litanijna prośba o miłosierdzie jest adekwatna do nauki Jezusa o powołaniu grzeszników.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie i uzdrowienie, która rezonuje z powołaniem celnika Mateusza.",
+      "moment": "ogolne"
+    }
+  ]
+}

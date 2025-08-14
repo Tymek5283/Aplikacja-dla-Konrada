@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413533.Sroda-VII-tygodnia-wielkanocnego",
+  "tytul_dnia": "7 Środa Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 20, 28-38",
+      "opis": "Polecam was Bogu, aby dał wam dziedzictwo ze wszystkimi świętymi",
+      "tekst": "Paweł powiedział do starszych Kościoła efeskiego:\n«Uważajcie na samych siebie i na całe stado, w którym Duch Święty ustanowił was biskupami, abyście kierowali Kościołem Boga, który On nabył własną krwią. Wiem, że po moim odejściu wejdą między was wilki drapieżne, nie oszczędzając stada. Także spośród was samych powstaną ludzie, którzy głosić będą przewrotne nauki, aby pociągnąć za sobą uczniów.\nDlatego czuwajcie, pamiętając, że przez trzy lata w dzień i w nocy nie przestawałem ze łzami upominać każdego z was. A teraz polecam was Bogu i słowu Jego łaski, władnemu zbudować i dać dziedzictwo ze wszystkimi świętymi.\nNie pożądałem srebra ani złota, ani szaty niczyjej. Sami wiecie, że te ręce zarabiały na potrzeby moje i moich towarzyszy. We wszystkim pokazałem wam, że tak pracując, trzeba wspierać słabych i pamiętać o słowach Pana Jezusa, które On sam wypowiedział: „Więcej szczęścia jest w dawaniu aniżeli w braniu”».\nPo tych słowach upadł na kolana i modlił się razem z nimi wszystkimi. Wtedy wszyscy wybuchnęli wielkim płaczem. Rzucali się Pawłowi na szyję i całowali go, smucąc się najbardziej z tego, co powiedział: że już nigdy go nie zobaczą.\nPotem odprowadzili go na okręt.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 68 (67), 29-30. 33-35a. 35bc i 36bc (R.: por. 33a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Śpiewajcie Bogu, wszystkie ludy ziemi.\nBoże, okaż swoją potęgę, *\npotęgę Bożą, której dla nas użyłeś.\nW Twej świątyni nad Jeruzalem *\nniech królowie złożą Tobie dary!\nRefren.\nŚpiewajcie Bogu, królestwa ziemi, †\nzagrajcie Panu, *\nOn przemierza odwieczne niebiosa.\nOto wydał głos swój, głos potężny: *\n«Uznajcie moc Bożą!»\nRefren.\nJego majestat jest nad Izraelem, *\na Jego potęga w obłokach.\nOn sam swojemu ludowi daje potęgę i siłę. *\nNiech będzie Bóg błogosławiony!\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 17, 11b-19",
+      "opis": "Uświęć ich w prawdzie",
+      "tekst": "W czasie Ostatniej Wieczerzy Jezus, podniósłszy oczy ku niebu, modlił się tymi słowami:\n«Ojcze Święty, zachowaj ich w Twoim imieniu, które Mi dałeś, aby tak jak My stanowili jedno. Dopóki z nimi byłem, zachowywałem ich w Twoim imieniu, które Mi dałeś, i ustrzegłem ich, a nikt z nich nie zginął z wyjątkiem syna zatracenia, aby się wypełniło Pismo.\nAle teraz idę do Ciebie i tak mówię, będąc jeszcze na świecie, aby moją radość mieli w sobie w całej pełni. Ja im przekazałem Twoje słowo, a świat ich znienawidził za to, że nie są ze świata, jak i Ja nie jestem ze świata. Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego. Oni nie są ze świata, jak i Ja nie jestem ze świata.\nUświęć ich w prawdzie. Słowo Twoje jest prawdą. Jak Ty Mnie posłałeś na świat, tak i Ja ich na świat posłałem. A za nich Ja poświęcam w ofierze samego siebie, aby i oni byli uświęceni w prawdzie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest modlitwą o jedność, o którą prosi Jezus w Ewangelii dla swoich uczniów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, który Jezus poleca opiece Ojca w swojej modlitwie arcykapłańskiej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, co jest tematem psalmu i misji św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do pierwszego czytania, w którym Paweł zwraca się do starszych Kościoła, ustanowionych przez Ducha Świętego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla, że miłość i jedność są znakiem obecności Boga, co jest centralnym przesłaniem modlitwy Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, jednoczącej wszystkich wierzących.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla Eucharystię jako źródło jedności, o którą Jezus modli się w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, która ma jednoczyć Jego uczniów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który modli się, abyśmy stanowili jedno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to pieśń chwały, która odpowiada na wezwanie psalmu: 'Śpiewajcie Bogu, wszystkie ludy ziemi'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który jest naszą nadzieją i obroną.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i obietnicę życia wiecznego w jedności z Bogiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń ta posyła wiernych, uświęconych w prawdzie, do głoszenia Ewangelii, tak jak czynił to św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Misja głoszenia Ewangelii, o której mówi Paweł, jest kontynuacją posłania uczniów przez Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki Jego wstawiennictwu u Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję na dziedzictwo ze świętymi, o którym mówi Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten przypomina, że miłość, która jest owocem jedności z Bogiem, jest miejscem Jego obecności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, która dobrze wpisuje się w kontekst pożegnalnej mowy Pawła do starszych Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Narracyjna pieśń wielkanocna, która przypomina fundament wiary, głoszonej przez Pawła aż do końca.",
+      "moment": "ogolne"
+    }
+  ]
+}

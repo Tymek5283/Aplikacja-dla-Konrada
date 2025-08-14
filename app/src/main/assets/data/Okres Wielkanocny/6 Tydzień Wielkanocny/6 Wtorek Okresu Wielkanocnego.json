@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413359.Wtorek-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Wtorek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 16, 22-34",
+      "opis": "Paweł i Sylas cudownie uwolnieni z więzienia",
+      "tekst": "Tłum Filipian zwrócił się przeciwko Pawłowi i Sylasowi, a pretorzy kazali zedrzeć z nich szaty i siec ich rózgami. Po wymierzeniu wielu razów wtrącili ich do więzienia, przykazując strażnikowi więzienia, aby ich dobrze pilnował. Ten, otrzymawszy taki rozkaz, wtrącił ich do wewnętrznego lochu i dla bezpieczeństwa zakuł im nogi w dyby.\nO północy Paweł i Sylas modlili się, śpiewając hymny Bogu. A więźniowie im się przysłuchiwali. Nagle powstało silne trzęsienie ziemi, tak że zachwiały się fundamenty więzienia. Natychmiast otwarły się wszystkie drzwi i ze wszystkich opadły kajdany. Gdy strażnik więzienia zerwał się ze snu i zobaczył drzwi więzienia otwarte, dobył miecza i chciał się zabić, sądząc, że więźniowie uciekli. «Nie czyń sobie nic złego, bo jesteśmy tu wszyscy!» - krzyknął Paweł na cały głos.\nWtedy tamten zażądał światła, wskoczył do lochu i przypadł drżący do stóp Pawła i Sylasa. A wyprowadziwszy ich na zewnątrz, rzekł: «Panowie, co mam czynić, aby się zbawić?» «Uwierz w Pana Jezusa - odpowiedzieli mu - a zbawisz siebie i swój dom».\nOpowiedzieli więc naukę Pana jemu i wszystkim jego domownikom. Tej samej godziny w nocy wziął ich z sobą, obmył rany i natychmiast przyjął chrzest wraz z całym swym domem. Wprowadził ich też do swego mieszkania, zastawił stół i razem z całym domem cieszył się bardzo, że uwierzył Bogu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 138 (137), 1b-2a. 2b-3. 7e-8 (R.: por. 7e)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Zbawia mnie, Panie, moc prawicy Twojej.\nBędę Cię sławił, Panie, z całego serca, *\nbo usłyszałeś słowa ust moich.\nBędę śpiewał Ci psalm wobec aniołów, *\npokłon Ci oddam w Twoim świętym przybytku.\nRefren.\nI będę sławił Twe imię za łaskę i wierność Twoją, *\nbo ponad wszystko wywyższyłeś Twe imię i obietnicę.\nWysłuchałeś mnie, kiedy Cię wzywałem, *\npomnożyłeś moc mojej duszy.\nRefren.\nWybawia mnie Twoja prawica. *\nPan za mnie wszystkiego dokona.\nPanie, Twa łaska trwa na wieki, *\nnie porzucaj dzieła rąk swoich.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 16, 7. 13",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Poślę wam Ducha Prawdy,\nOn doprowadzi was do całej prawdy."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 16, 5-11",
+      "opis": "Jeżeli nie odejdę, Paraklet nie przyjdzie do was",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Teraz idę do Tego, który Mnie posłał, a nikt z was nie pyta Mnie: „Dokąd idziesz?” Ale ponieważ to wam powiedziałem, smutek napełnił wam serce. Jednakże mówię wam prawdę: Pożyteczne jest dla was moje odejście. Bo jeżeli nie odejdę, Paraklet nie przyjdzie do was. A jeżeli odejdę, to poślę Go do was.\nOn zaś, gdy przyjdzie, przekona świat o grzechu, o sprawiedliwości i o sądzie. O grzechu - bo nie wierzą we Mnie; o sprawiedliwości zaś - bo idę do Ojca i już Mnie nie ujrzycie; wreszcie o sądzie - bo władca tego świata został osądzony».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Ta narracyjna pieśń wielkanocna dobrze oddaje atmosferę Bożego działania i mocy, ukazanej w cudownym uwolnieniu Pawła i Sylasa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wyraża chwałę Boga, objawioną w cudownym uwolnieniu apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która napełniła dom strażnika więzienia po przyjęciu chrztu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wyraża głębokie zaufanie Bogu, które było udziałem apostołów w więzieniu i które prowadzi do zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Jest to bezpośrednia modlitwa do Ducha Świętego, którego przyjście i działanie zapowiada Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, ufając w Jego moc wyzwalającą, jakiej doświadczyli apostołowie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Pieśń ta celebruje zwycięstwo Chrystusa nad śmiercią, co jest fundamentem wiary i zbawienia, o które pytał strażnik więzienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Chrystus w Eucharystii daje nam pokarm zbawienia, o które z wiarą prosił strażnik więzienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Chrystus jest naszym zbawieniem, co jest odpowiedzią na pytanie 'co mam czynić, aby się zbawić?'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to pieśń chwały za zwycięstwo Chrystusa, które daje apostołom siłę do śpiewania hymnów Bogu nawet w więzieniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący Zmartwychwstałego Pana, którego moc objawiła się w trzęsieniu ziemi i otwarciu więzienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i wierność, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Pieśń ta zapowiada Zesłanie Ducha Świętego, Parakleta, o którym Jezus mówi w dzisiejszej Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Duch Święty, obiecany przez Jezusa, uzdalnia do misji głoszenia Ewangelii, której owocem jest nawrócenie strażnika i jego domu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, który ma moc wyzwalać z kajdan grzechu i śmierci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Oddaje treść psalmu responsoryjnego i doświadczenie apostołów, dla których Pan był mocą i wybawieniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa, a która prowadzi do zbawienia, jak w przypadku strażnika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, którego przyjście i działanie zapowiada Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, Parakleta, którego Jezus obiecuje posłać, aby przekonał świat o grzechu, sprawiedliwości i sądzie.",
+      "moment": "ogolne"
+    }
+  ]
+}

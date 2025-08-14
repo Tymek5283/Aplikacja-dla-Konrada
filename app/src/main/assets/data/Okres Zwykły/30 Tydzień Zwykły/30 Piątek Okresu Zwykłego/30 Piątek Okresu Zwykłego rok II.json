@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415411.Piatek-30-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "30 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 1, 1-11",
+      "opis": "Bóg, który zapoczątkował dobre dzieło, dokończy go na dzień Chrystusa",
+      "tekst": "Paweł i Tymoteusz, słudzy Chrystusa Jezusa, do wszystkich świętych w Chrystusie Jezusie, którzy są w Filippi, wraz z biskupami i diakonami. Łaska wam i pokój od Boga, Ojca naszego, i Pana, Jezusa Chrystusa!\nDziękuję Bogu mojemu, ilekroć was wspominam - zawsze, w każdej modlitwie, zanosząc ją z radością za was wszystkich - z powodu waszego udziału w szerzeniu Ewangelii od pierwszego dnia aż do chwili obecnej. Mam właśnie ufność, że Ten, który zapoczątkował w was dobre dzieło, dokończy go do dnia Chrystusa Jezusa.\nSłusznie przecież mogę tak o was myśleć, bo noszę was wszystkich w sercu jako tych, którzy mają udział w mojej łasce: zarówno w moich kajdanach, jak i w obronie Ewangelii uzasadnionej dowodami. Albowiem Bóg jest mi świadkiem, jak gorąco tęsknię za wami wszystkimi ożywiony miłością Chrystusa Jezusa. A modlę się o to, by miłość wasza doskonaliła się coraz bardziej i bardziej w głębszym poznaniu i wszelkim wyczuciu dla oceny tego, co lepsze, abyście byli czyści i bez zarzutu na dzień Chrystusa, napełnieni plonem sprawiedliwości, który przynosimy przez Jezusa Chrystusa, na chwałę i cześć Boga.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 1-2. 3-4. 5-6",
+      "opis": "Wielkie są dzieła, które Pan uczynił",
+      "tekst": "Refren: Wielkie są dzieła, które Pan uczynił.\nZ całego serca będę chwalił Pana *\nw radzie sprawiedliwych i na zgromadzeniu.\nWielkie są dzieła Pana, *\nzgłębiać je mają wszyscy, którzy je miłują.\nRefren.\nJego dzieło jest wspaniałe i pełne majestatu, *\na Jego sprawiedliwość trwa na wieki.\nSprawił, że trwa pamięć Jego cudów, *\nPan jest miłosierny i łaskawy.\nRefren.\nDał pokarm bogobojnym, *\npamiętać będzie wiecznie o swoim przymierzu.\nLudowi swemu okazał potęgę dzieł swoich, *\noddając im posiadłości pogan.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 10, 27",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 1-6",
+      "opis": "Pan Jezus uzdrawia w szabat",
+      "tekst": "Gdy Jezus przyszedł do domu pewnego przywódcy faryzeuszów, aby w szabat spożyć posiłek, oni Go śledzili.\nA oto zjawił się przed Nim pewien człowiek chory na wodną puchlinę. Wtedy Jezus zapytał uczonych w Prawie i faryzeuszów: «Czy wolno w szabat uzdrawiać, czy też nie?» Lecz oni milczeli. On zaś dotknął go, uzdrowił i odprawił.\nA do nich rzekł: «Któż z was, jeśli jego syn albo wół wpadnie do studni, nie wyciągnie go zaraz, nawet w dzień szabatu?» I nie zdołali Mu na to odpowiedzieć.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który w Ewangelii objawia się jako uzdrowiciel, litujący się nad chorym człowiekiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który jest źródłem uzdrowienia i miłosierdzia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa, który zaprasza do siebie wszystkich utrudzonych, jak chory na wodną puchlinę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec miłości i troski św. Pawła o wiernych, ta pieśń jest aktem ofiarowania siebie Bogu, by On dokończył w nas dobrego dzieła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, aby nasza miłość doskonaliła się, o co modli się św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, byśmy byli czyści i bez zarzutu na dzień Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Jezus jest Dobrym Pasterzem, który troszczy się o swoje owce, uzdrawiając je nawet w szabat, jak pokazuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłosierdzia, które przekracza literę Prawa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która wyraża postawę pokory i wiary, niezbędną do przyjęcia uzdrawiającej mocy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego, w którym wierny chwali Pana za Jego wielkie i wspaniałe dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wiary i wspólnoty Kościoła, o której z miłością pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest dziękczynieniem za wielkie dzieła Pana, o których mówi psalm, i za dar uzdrowienia w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego miłosierdzie jest ważniejsze niż przepisy Prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam widzieć w Chrystusie Pana szabatu i źródło uzdrowienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Uzdrowienie w Ewangelii jest znakiem mocy Chrystusa, którą mamy głosić całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i ocalenie, co jest wyrazem miłosierdzia, którego domaga się Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych, nawiązuje do postawy Jezusa, który uzdrawia w szabat.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego sprawiedliwość i cuda wysławia psalmista.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości, o której wzrost modli się św. Paweł, i która jest istotą Prawa Bożego.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430381.Piatek-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 3, 14-17",
+      "opis": "Zapowiedź religii powszechnej",
+      "tekst": "Pan mówi:\n«Wróćcie, synowie wiarołomni, bo jestem Panem waszym i przyjmę was, po jednym z każdego miasta, po dwóch z każdego rodu, by zaprowadzić na Syjon. I dam wam pasterzy według mego serca, by was paśli rozsądnie i roztropnie.\nA gdy się rozmnożycie i wydacie liczne potomstwo na ziemi w owych dniach - mówi Pan - nikt nie będzie już mówił: Arka Przymierza Pańskiego! Nikt już nie będzie o niej myślał ani jej wspominał, ani odczuwał jej braku, ani też nie uczyni nowej.\nW tym to czasie Jerozolima będzie się nazywała Tronem Pana. Zgromadzą się w niej wszystkie narody w imię Pana i nie będą już postępowały według zatwardziałości swych przewrotnych serc».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Jr 31, 10. 11-12b. 13 (R.: por. 10d)",
+      "opis": "",
+      "tekst": "Refren: Pan nas obroni, tak jak pasterz owce.\nSłuchajcie, narody, słowa Pańskiego, *\ngłoście je na wyspach odległych i mówcie:\n«Ten, który rozproszył Izraela, znów go zgromadzi *\ni będzie nad nim czuwał jak pasterz nad swym stadem».\nRefren.\nPan bowiem uwolni Jakuba, *\nwybawi go z ręki silniejszego od niego.\nPrzyjdą z weselem na szczyt Syjonu *\ni rozradują się błogosławieństwem Pana.\nRefren.\nWtedy dziewica rozweseli się w tańcu *\ni młodzieńcy cieszyć się będą ze starcami.\nZamienię bowiem ich smutek w radość, *\npocieszę ich i rozweselę po ich troskach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 18-23",
+      "opis": "Wyjaśnienie przypowieści o siewcy",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Posłuchajcie przypowieści o siewcy. Do każdego, kto słucha słowa o królestwie, a nie rozumie go, przychodzi Zły i porywa to, co zasiane jest w jego sercu. Takiego człowieka oznacza ziarno posiane na drodze.\nPosiane na grunt skalisty oznacza tego, kto słucha słowa i natychmiast z radością je przyjmuje; ale nie ma w sobie korzenia i jest niestały. Gdy przyjdzie ucisk lub prześladowanie z powodu słowa, zaraz się załamuje.\nPosiane między ciernie oznacza tego, kto słucha słowa, lecz troski doczesne i ułuda bogactwa zagłuszają słowo, tak że zostaje bezowocne.\nPosiane wreszcie na ziemię żyzną oznacza tego, kto słucha słowa i rozumie je. On też wydaje plon: jeden stokrotny, drugi sześćdziesięciokrotny, inny trzydziestokrotny».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest echem zarówno pierwszego czytania, jak i psalmu, które mówią o Bogu jako pasterzu gromadzącym swój lud.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest bezpośrednią odpowiedzią na wezwanie proroka Jeremiasza: 'Wróćcie, synowie wiarołomni'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Pieśń ta, będąca inną wersją Psalmu 23, podkreśla Boże prowadzenie i opiekę, o której mówią pierwsze czytanie i psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń wyraża pragnienie bycia 'żyzną glebą', która przyjmuje Słowo Boże i wydaje owoc, co jest głównym tematem Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na wezwanie do nawrócenia, ofiarujemy Bogu nasze serca, prosząc, by stały się żyzną glebą dla Jego słowa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i ofiarowania serca, które pragnie porzucić niewierność opisaną w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "W odpowiedzi na wezwanie do nawrócenia 'synów wiarołomnych', pieśń ta jest prośbą o miłosierdzie i czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który umacnia nas, byśmy mogli przyjąć Słowo Boże i wydać owoc, o czym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń jest modlitwą o przygotowanie serca, aby było 'żyzną glebą' gotową na przyjęcie Chrystusa w Komunii i Jego Słowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Psalm mówi o radości i weselu na Syjonie, a ta pieśń jest radosnym uwielbieniem Boga za Jego dary i obietnice.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże miłosierdzie i obietnicę pocieszenia po troskach, o której mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego wierność i obietnicę zgromadzenia swojego ludu, opisaną w pierwszym czytaniu i psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Zapowiedź zgromadzenia wszystkich narodów w Jerozolimie (I czytanie) jest misyjnym wezwaniem dla Kościoła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy po usłyszeniu Słowa mogli wydawać owoc w naszym codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Na zakończenie liturgii prosimy o umocnienie wiary, aby 'troski doczesne' nie zagłuszyły w nas zasianego Słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Nawiązuje do obietnicy powrotu na Syjon i tęsknoty za niebieską Jerozolimą, która będzie 'Tronem Pana'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o czyste serce, które będzie mogło przyjąć Słowo Boże i nie ulec 'zatwardziałości przewrotnych serc'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża tęsknotę za Bogiem, Pasterzem, który sam zaspokaja pragnienia ludzkich serc i gromadzi swój lud.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec naszej niewierności, o której mówi prorok, pieśń ta jest wyrazem zaufania w Boże miłosierdzie i odkupienie.",
+      "moment": "ogólne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 71,1-2.3-4a.5-6ab.15ab i 17",
-      "opis": "Refren:",
-      "tekst": "Od łona matki Pan mym opiekunem.\nW Tobie, Panie, ucieczka moja,\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości,\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nBądź dla mnie skałą schronienia\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą.\nBoże mój, wyrwij mnie z rąk niegodziwca.\nBo Ty, mój Boże, jesteś moją nadzieją,\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin,\nod łona matki moim opiekunem.\nMoje usta będą głosiły Twoją sprawiedliwość\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości\ni do tej chwili głoszę Twoje cuda."
+      "opis": "",
+      "tekst": "Refren:\nOd łona matki Pan mym opiekunem.\nW Tobie, Panie, ucieczka moja,\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości,\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nBądź dla mnie skałą schronienia\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą.\nBoże mój, wyrwij mnie z rąk niegodziwca.\nBo Ty, mój Boże, jesteś moją nadzieją,\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin,\nod łona matki moim opiekunem.\nMoje usta będą głosiły Twoją sprawiedliwość\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości\ni do tej chwili głoszę Twoje cuda."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -38,19 +38,55 @@
     {
       "numer": "475",
       "piesn": "Zwiastun wschodzącego Słońca",
-      "opis": "Pieśń ta wprost nazywa św. Jana 'głosem wołającym na puszczy' i 'zwiastunem Słońca', co idealnie wprowadza w tajemnicę jego narodzin i misji.",
+      "opis": "Pieśń ta wprost odnosi się do postaci św. Jana Chrzciciela, nazywając go 'zwiastunem wschodzącego Słońca'.",
       "moment": "wejscie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, wzywający do nawrócenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest bezpośrednim cytatem z nauczania Jana Chrzciciela i Jezusa, podkreślając centralne orędzie jego misji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Jest to pieśń wprost dedykowana św. Janowi Chrzcicielowi, idealna na przygotowanie darów, w której prosimy go o wstawiennictwo.",
+      "moment": "ofiarowanie"
     },
     {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
-      "opis": "Mimo że jest to pieśń adwentowa, jej wezwanie do przygotowania drogi Panu bezpośrednio odnosi się do misji Jana Chrzciciela opisanej w Ewangelii.",
+      "opis": "Chociaż jest to pieśń adwentowa, jej wezwanie do przygotowania drogi Panu bezpośrednio odnosi się do misji Jana Chrzciciela opisanej w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta wzywa do nawrócenia, co było głównym tematem głoszenia Jana Chrzciciela, przygotowującego lud na spotkanie z Mesjaszem.",
       "moment": "ofiarowanie"
     },
     {
       "numer": "7",
       "piesn": "Przybądź, Panie",
-      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' to kwintesencja posłannictwa Jana Chrzciciela, przygotowującego serca na przyjście Zbawiciela.",
+      "opis": "Chociaż jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' idealnie oddaje misję Jana, poprzednika Pańskiego, którego przyjmujemy w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, którego drogę przygotował Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, którego poprzednikiem był Jan Chrzciciel.",
       "moment": "komunia"
     },
     {
@@ -60,21 +96,57 @@
       "moment": "uwielbienie"
     },
     {
-      "numer": "474",
-      "piesn": "Janie Chrzcicielu",
-      "opis": "Bezpośredni zwrot do patrona uroczystości, proszący go o wstawiennictwo, stanowi stosowne zakończenie liturgii.",
-      "moment": "rozeslanie"
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny mówi o głoszeniu cudów Boga od młodości; ta pieśń jest ogólnym wezwaniem do chwalenia Pana za Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "W uroczystość narodzin Poprzednika Pańskiego, ta radosna pieśń wzywa do chwalenia Boga za Jego wspaniałe dzieła zbawienia.",
+      "moment": "uwielbienie"
     },
     {
       "numer": "585",
       "piesn": "Będę Cię wielbił",
-      "opis": "Pieśń chwały, która pasuje do radosnego charakteru uroczystości narodzin poprzednika Pańskiego.",
+      "opis": "Pieśń o przygotowaniu serc na przyjście Pana jest posłaniem do naśladowania św. Jana Chrzciciela w prostowaniu ścieżek dla Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego świadkiem był Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Modlitwa o błogosławieństwo w pracy głoszenia Ewangelii, do której powołany był Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
       "moment": "ogolne"
     },
     {
-      "numer": "597",
-      "piesn": "Chwalcie Pana wszyscy",
-      "opis": "Psalm responsoryjny mówi o głoszeniu cudów Boga od młodości; ta pieśń jest ogólnym wezwaniem do chwalenia Pana za Jego dzieła, w tym za dar Jana Chrzciciela.",
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o postawie, do której przygotowywał nas Jan Chrzciciel.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "510",
+      "piesn": "Zamilkły usta proroka",
+      "opis": "Chociaż pieśń mówi o męczeństwie Jana, przypomina o jego prorockiej misji, której początkiem były jego narodziny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę zaufania i oddania Bogu, którą odznaczał się Jan Chrzciciel już od łona matki.",
       "moment": "ogolne"
     }
   ]

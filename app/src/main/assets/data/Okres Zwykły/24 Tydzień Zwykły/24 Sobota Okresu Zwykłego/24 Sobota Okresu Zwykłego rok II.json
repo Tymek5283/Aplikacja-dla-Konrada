@@ -1,0 +1,135 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418111.Sobota-24-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "24 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 15, 35-37. 42-49",
+      "opis": "Ciała zmartwychwstałe będą przemienione",
+      "tekst": "Bracia:\nPowie ktoś: A jak zmartwychwstają umarli? W jakim ukazują się ciele? O, niemądry! Przecież to, co siejesz, nie ożyje, jeżeli wprzód nie obumrze. To, co zasiewasz, nie jest od razu ciałem, którym ma się stać potem, lecz zwykłym ziarnem, na przykład pszenicznym lub jakimś innym.\nPodobnie rzecz się ma ze zmartwychwstaniem. Zasiewa się zniszczalne - powstaje zaś niezniszczalne; sieje się niechwalebne - powstaje chwalebne; sieje się słabe - powstaje mocne; zasiewa się ciało zmysłowe - powstaje ciało duchowe. Jeżeli jest ciało zmysłowe, jest też ciało duchowe. Tak też jest napisane: «Stał się pierwszy człowiek, Adam, duszą żyjącą», a ostatni Adam duchem ożywiającym.\nNie było jednak wpierw tego, co duchowe, ale to, co ziemskie; duchowe było potem. Pierwszy człowiek z ziemi - ziemski, Drugi Człowiek - z nieba. Jaki ów ziemski, tacy i ziemscy; jaki Ten niebieski, tacy i niebiescy.\nA jak nosiliśmy obraz ziemskiego człowieka, tak też nosić będziemy obraz Człowieka niebieskiego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 56 (55), 3 i 10. 11-12. 13-14 (R.: por. 14c)",
+      "opis": "",
+      "tekst": "Refren: W światłości wiecznej będę widział Boga.\nWrogowie moi wciąż mnie prześladują, *\nliczni są ci, którzy ze mną walczą.\nOdstąpią moi wrogowie w dniu, gdy Cię wezwę, *\npo tym poznam, że Bóg jest ze mną.\nRefren.\nW Bogu, którego słowo wielbię, *\nw Panu, którego słowo wychwalam,\nw Bogu pokładam nadzieję, nie będę się lękał, *\ncóż może uczynić mi człowiek?\nRefren.\nWiążą mnie, Boże, śluby, które Ci złożyłem, *\nTobie oddam ofiary pochwalne,\nbo od śmierci ocaliłeś me życie, †\na nogi moje od upadku, *\nabym w światłości życia chodził przed Bogiem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 4-15",
+      "opis": "Przypowieść o siewcy",
+      "tekst": "Gdy zebrał się wielki tłum i z poszczególnych miast przychodzili do Jezusa, opowiedział im przypowieść:\n«Siewca wyszedł siać swoje ziarno. A gdy siał, jedno padło na drogę i zostało podeptane, a ptaki podniebne wydziobały je. Inne padło na skałę i gdy wzeszło, uschło, bo nie miało wilgoci. Inne znowu padło między ciernie, a ciernie razem z nim wyrosły i zagłuszyły je. Inne w końcu padło na ziemię żyzną i gdy wzrosło, wydało plon stokrotny».\nTo mówiąc, wołał: «Kto ma uszy do słuchania, niechaj słucha!»\nPytali Go więc Jego uczniowie, co oznacza ta przypowieść. On rzekł: «Wam dano poznać wprost tajemnice królestwa Bożego, innym zaś w przypowieściach, „aby patrząc, nie widzieli, i słuchając, nie rozumieli”.\nTakie jest znaczenie przypowieści: Ziarnem jest słowo Boże. Tymi zaś na drodze są ci, którzy słuchają słowa; potem przychodzi diabeł i zabiera słowo z ich serca, żeby nie uwierzyli i nie byli zbawieni. Na skałę pada u tych, którzy gdy usłyszą, z radością przyjmują słowo, lecz nie mają korzenia: wierzą do czasu, a w chwili pokusy odstępują.\nTo, które padło między ciernie, oznacza tych, którzy słuchają słowa, lecz potem odchodzą, a zagłuszeni przez troski, bogactwa i rozkosze życia, nie wydają owocu.\nWreszcie ziarno w żyznej ziemi oznacza tych, którzy wysłuchawszy słowa sercem szlachetnym i dobrym, zatrzymują je i wydają owoc dzięki wytrwałości».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń zaprasza do zgromadzenia, by słuchać Słowa Bożego, które w Ewangelii jest przyrównane do ziarna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość Słowa Bożego, które jest ziarnem dającym życie wieczne.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest miejscem głoszenia i przyjmowania Słowa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń bezpośrednio nawiązuje do Ewangelii, wzywając do wydawania owocu dzięki przyjęciu Słowa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy nasze życie, prosząc, by stało się ono dobrym owocem, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę otwartego serca, które jest żyzną glebą dla Słowa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń ta wyraża nadzieję na zmartwychwstanie ciała, co jest głównym tematem nauczania św. Pawła w pierwszym czytaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń jest wyznaniem nadziei zakorzenionej w Zmartwychwstaniu, o którym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń o zmartwychwstaniu jest doskonałym tłem dla nauki św. Pawła o przyszłym losie naszych ciał.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wysławia Chrystusa jako Zwycięzcę śmierci, co jest fundamentem naszej wiary i nadziei na zmartwychwstanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Proste i radosne wyznanie wiary w zmartwychwstanie jest odpowiedzią na naukę św. Pawła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń jest radosnym ogłoszeniem prawdy o zmartwychwstaniu, która jest fundamentem naszej wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "W sobotę pieśń do Maryi, która jest wzorem słuchania i zachowywania Słowa, jest odpowiednia na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "349b",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Maryja, która zachowywała Słowo w sercu, jest wzorem dla nas, jak przyjmować ziarno Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę nad naszą wiarą, by wydawała dobre owoce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, by Słowo Boże mogło zapuścić w nas korzenie i wydać plon.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem, który pozwala Słowu Bożemu wzrastać w naszym sercu bez lęku.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia w oczekiwaniu na Pana, co jest istotą adwentowego przygotowania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wobec obietnicy przyjścia Pana, pieśń ta jest naszym wołaniem i wyrazem tęsknoty za Zbawicielem.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "214",
       "piesn": "Duchu mądrości",
       "opis": "Pierwsze czytanie mówi o Duchu Pańskim, który spocznie na Mesjaszu, a ta pieśń jest prośbą o dary tego samego Ducha.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze serca, prosząc, by Pan objawił nam swoje tajemnice, jak obiecuje w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania i pragnienie, by Pan zastał nas przygotowanych na swoje przyjście.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, który w Ewangelii objawia się jako jedyny pośrednik do Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosta i osobista prośba o przyjście Jezusa do serca, który objawia się prostaczkom.",
+      "moment": "komunia"
+    },
+    {
       "numer": "604",
       "piesn": "Głoś imię Pana",
       "opis": "Jezus w Ewangelii wysławia Ojca, a ta pieśń jest majestatycznym hymnem na cześć Króla, którego sprawiedliwe rządy zapowiadają czytania.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Boga za Jego dzieła i za Mesjasza, na którym spocznie Duch Pański.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wyraża tęsknotę za objawieniem się Boga i Jego zbawczą mocą.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "8",
       "piesn": "Przyjdź, Panie Jezu",
       "opis": "Pieśń jest wołaniem o przyjście Pana, który objawia tajemnice królestwa prostaczkom i posyła nas, byśmy byli Jego świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie czuwania, co jest głównym przesłaniem Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Izajasza.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "5",
       "piesn": "Otwórzcie się szeroko",
       "opis": "Pieśń wzywa do otwarcia bram dla Króla chwały, co nawiązuje do zapowiedzi przyjścia Mesjasza z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "9",
+      "piesn": "Stwórco gwiaździstych przestworzy",
+      "opis": "Hymn adwentowy, który sławi Chrystusa jako Odkupiciela i wieczne światło, którego przyjścia oczekujemy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Klasyczna pieśń adwentowa, która jest modlitwą o przyjście Sprawiedliwego, zapowiedzianego przez proroków.",
       "moment": "ogolne"
     }
   ]

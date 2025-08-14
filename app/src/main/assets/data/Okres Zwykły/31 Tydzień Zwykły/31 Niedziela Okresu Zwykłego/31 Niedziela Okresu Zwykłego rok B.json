@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414882.31-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "31 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 6, 2-6",
+      "opis": "Będziesz miłował Boga z całego serca",
+      "tekst": "Mojżesz powiedział do ludu:\n«Będziesz się bał Pana, Boga swego, zachowując wszystkie Jego nakazy i prawa, które ja tobie rozkazuję wypełniać, tobie, twym synom i wnukom, po wszystkie dni życia twego, byś długo mógł żyć.\nSłuchaj, Izraelu, i pilnie tego przestrzegaj, aby ci się dobrze powodziło i abyś się bardzo rozmnożył, jak ci przyrzekł Pan, Bóg ojców twoich, że ci da ziemię opływającą w mleko i miód.\nSłuchaj, Izraelu, Pan jest naszym Bogiem - Pan jedynie. Będziesz więc miłował Pana, Boga twojego, z całego swego serca, z całej duszy swojej, ze wszystkich swych sił. Pozostaną w twym sercu te słowa, które ja ci dziś nakazuję».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 18 (17), 2-3a. 3b-4. 47 i 51ab (R.: 2)",
+      "opis": "",
+      "tekst": "Refren: Miłuję Ciebie, Panie, Mocy moja.\nMiłuję Cię, Panie, *\nMocy moja,\nPanie, Opoko moja i Twierdzo, *\nmój Wybawicielu.\nRefren.\nBoże, Skało moja, na którą się chronię, *\nTarczo moja, Mocy zbawienia mego i moja Obrono.\nWzywam Pana, godnego chwały, *\ni wyzwolony będę od moich nieprzyjaciół.\nRefren\nNiech żyje Pan, niech będzie błogosławiona moja Opoka, *\nniech będzie wywyższony mój Bóg i Zbawca.\nTy dałeś wielkie zwycięstwo królowi *\ni łaską obdarzyłeś Dawida, Twego pomazańca.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 7, 23-28",
+      "opis": "Nieprzemijające kapłaństwo",
+      "tekst": "Bracia:\nWielu było kapłanów poprzedniego Przymierza, gdyż śmierć nie zezwalała im trwać przy życiu. Ten właśnie, ponieważ trwa na wieki, ma kapłaństwo nieprzemijające. Przeto i zbawiać na wieki może całkowicie tych, którzy przez Niego przystępują do Boga, bo wciąż żyje, aby się wstawiać za nimi.\nTakiego bowiem potrzeba nam było arcykapłana: świętego, niewinnego, nieskalanego, oddzielonego od grzeszników, wywyższonego ponad niebiosa, takiego, który nie jest zobowiązany, jak inni arcykapłani, do składania codziennej ofiary najpierw za swoje grzechy, a potem za grzechy ludu. To bowiem uczynił raz na zawsze, ofiarując samego siebie. Prawo bowiem ustanawiało arcykapłanami ludzi obciążonych słabością, słowo zaś przysięgi, złożonej po nadaniu Prawa, ustanawia arcykapłanem Syna doskonałego na wieki.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 28b-34",
+      "opis": "Największe przykazanie",
+      "tekst": "Jeden z uczonych w Piśmie podszedł do Jezusa i zapytał Go: «Które jest pierwsze ze wszystkich przykazań?»\nJezus odpowiedział: «Pierwsze jest: „Słuchaj, Izraelu, Pan Bóg nasz jest jedynym Panem. Będziesz miłował Pana, Boga swego, całym swoim sercem, całą swoją duszą, całym swoim umysłem i całą swoją mocą”. Drugie jest to: „Będziesz miłował swego bliźniego jak siebie samego”. Nie ma innego przykazania większego od tych».\nRzekł Mu uczony w Piśmie: «Bardzo dobrze, Nauczycielu, słusznie powiedziałeś, bo Jeden jest i nie ma innego prócz Niego. Miłować Go całym sercem, całym umysłem i całą mocą i miłować bliźniego jak siebie samego znaczy daleko więcej niż wszystkie całopalenia i ofiary».\nJezus, widząc, że rozumnie odpowiedział, rzekł do niego: «Niedaleko jesteś od królestwa Bożego». I nikt już nie odważył się Go więcej pytać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Pieśń jest prostym i żarliwym wyznaniem miłości do Boga, co stanowi istotę pierwszego przykazania, o którym mówią czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności i szukania woli Bożej, która streszcza się w przykazaniu miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, którego mamy miłować całym sercem, duszą i umysłem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "W odpowiedzi na Ewangelię o przykazaniu miłości Boga i bliźniego, ta pieśń jest aktem ofiarowania naszej woli, by żyć tymi przykazaniami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości, która jest najmilszą Bogu ofiarą, przewyższającą wszystkie całopalenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia w miłości, która jest fundamentem Prawa i Proroków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Drugie czytanie mówi o jedynej ofierze Chrystusa, Arcykapłana, a ta pieśń jest aktem zjednoczenia się z tą ofiarą i miłością.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłości do końca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę do życia przykazaniem miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Uroczysty hymn chwały na cześć jedynego Boga, którego mamy miłować całym sercem, jak przypomina Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, w której wyznajemy naszą miłość do Pana, naszej Mocy i Opoki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, która jest odpowiedzią serca miłującego Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem i posłaniem na zakończenie Mszy o przykazaniu miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest posłaniem do głoszenia Ewangelii miłości, która jest największym przykazaniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy potrafili w naszym życiu realizować wezwanie do miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który uczy nas miłości do Boga i bliźniego jako drogi do królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wiary i życia, które są owocami miłości Boga, o której mówią czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych i czyniących pokój, jest praktycznym wymiarem przykazania miłości bliźniego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która jest doskonałym podsumowaniem całej dzisiejszej liturgii słowa.",
+      "moment": "ogolne"
+    }
+  ]
+}

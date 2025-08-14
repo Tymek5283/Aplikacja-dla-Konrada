@@ -36,15 +36,51 @@
       "moment": "wejscie"
     },
     {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń przypomina o Zwiastowaniu, które poprzedzało i umożliwiło scenę Nawiedzenia opisaną w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, które jest tłem dla wydarzeń z Ewangelii o Nawiedzeniu.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "29",
       "piesn": "Zdrowaś bądź Maryja",
       "opis": "Pieśń jest rozwinięciem pozdrowienia anielskiego i pozdrowienia Elżbiety, które słyszymy w Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "Wraz z darami chleba i wina składamy nasze serca, naśladując fiat Maryi, która uwierzyła słowu Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
       "numer": "323",
       "piesn": "Boga Rodzico",
-      "opis": "Ewangelia o Nawiedzeniu podkreśla godność Maryi jako Matki Pana, a ta pieśń jest aktem czci i zawierzenia Jej opiece.",
+      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i posłuszeństwa podziwiamy w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest doskonałym dziękczynieniem po Komunii, w której przyjmujemy Tego, którego Maryja nosiła w łonie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia jako Tej, która zrodziła światu Zbawiciela.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Maryi niosącej Pana w swoim łonie.",
       "moment": "komunia"
     },
     {
@@ -54,21 +90,57 @@
       "moment": "uwielbienie"
     },
     {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki, którą Elżbieta nazywa 'Matką mojego Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "21",
       "piesn": "Mądrości, która",
       "opis": "Piąta zwrotka tej pieśni to Wielka Antyfona 'O Wschodzie ranny', tradycyjnie przypisana do 21 grudnia.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "12",
-      "piesn": "Archanioł Boży Gabryjel",
-      "opis": "Pieśń przypomina o Zwiastowaniu, które poprzedzało i umożliwiło scenę Nawiedzenia opisaną w Ewangelii.",
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą ostatnich dni Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, którego narodzenie jest już tak bliskie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
       "moment": "ogolne"
     },
     {
-      "numer": "20",
-      "piesn": "Matko Odkupiciela",
-      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia jako Tej, która zrodziła światu Zbawiciela.",
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście jest już bliskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wzywa Boga, aby pośpieszył ze swoim zbawieniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń opowiada o Zbawicielu, którego przyjście zwiastuje całe stworzenie i którego w swoim łonie nosi Maryja.",
       "moment": "ogolne"
     }
   ]

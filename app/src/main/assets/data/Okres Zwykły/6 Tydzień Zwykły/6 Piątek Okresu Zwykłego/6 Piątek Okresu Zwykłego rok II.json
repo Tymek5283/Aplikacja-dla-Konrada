@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416119.Piatek-VI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "6 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 2, 14-24. 26",
+      "opis": "Wiara bez uczynków jest martwa",
+      "tekst": "Jaki z tego pożytek, bracia moi, skoro ktoś będzie utrzymywał, że wierzy, a nie będzie spełniał uczynków? Czy sama wiara zdoła go zbawić?\nJeśli na przykład brat lub siostra nie mają odzienia lub brak im codziennego chleba, a ktoś z was powie im: «Idźcie w pokoju, ogrzejcie się i najedzcie do syta!» - a nie dacie im tego, czego koniecznie potrzebują dla ciała - to na co się to przyda? Tak też i wiara, jeśli nie byłaby połączona z uczynkami, martwa jest sama w sobie.\nAle może ktoś powiedzieć: Ty masz wiarę, a ja spełniam  uczynki. Pokaż mi wiarę swoją bez uczynków, to ja ci pokażę wiarę na podstawie moich uczynków. Wierzysz, że jest jeden Bóg? Słusznie czynisz - lecz także i złe duchy wierzą i drżą.\nChcesz zaś zrozumieć, nierozumny człowieku, że wiara bez uczynków jest bezowocna? Czy Abraham, ojciec nasz, nie z powodu uczynków został usprawiedliwiony, kiedy złożył syna Izaaka na ołtarzu ofiarnym? Widzisz, że wiara współdziałała z jego uczynkami i przez uczynki stała się doskonała. I tak wypełniło się Pismo, które mówi: «Uwierzył przeto Abraham Bogu i policzono mu to za sprawiedliwość », i został nazwany przyjacielem Boga.\nWidzicie, że człowiek dostępuje usprawiedliwienia na podstawie uczynków, a nie samej tylko wiary. Tak jak ciało bez ducha jest martwe, tak też jest martwa wiara bez uczynków.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 3-4. 5-6",
+      "opis": "",
+      "tekst": "Refren: Radość znajduję w Bożych przykazaniach.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren\nDobrobyt i bogactwo będą w jego domu, *\na jego sprawiedliwość będzie trwała zawsze.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nRefren.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje *\ni pozostanie w wiecznej pamięci.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nazwałem was przyjaciółmi,\nalbowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 34 - 9, 1",
+      "opis": "Prawdziwi uczniowie Jezusa",
+      "tekst": "Jezus przywołał do siebie tłum razem ze swoimi uczniami i rzekł im: «Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z powodu Mnie i Ewangelii, zachowa je.\nCóż bowiem za korzyść stanowi dla człowieka zyskać świat cały, a swoją duszę utracić? Bo cóż może dać człowiek w zamian za swoją duszę?\nKto się bowiem Mnie i słów moich zawstydzi przed tym pokoleniem wiarołomnym i grzesznym, tego Syn Człowieczy wstydzić się będzie, gdy przyjdzie w chwale Ojca swojego razem z aniołami świętymi».\nMówił im także: «Zaprawdę, powiadam wam: Niektórzy z tych, co tu stoją, nie zaznają śmierci, aż ujrzą królestwo Boże przychodzące w mocy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest manifestem wiary, która, zgodnie z pierwszym czytaniem, musi wyrażać się w konkretnych czynach i postawach życiowych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, którego naśladowanie wymaga zaparcia się siebie i wzięcia krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Wzywa do oddania czci Panu, którego przykazania są źródłem błogosławieństwa dla sprawiedliwych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla, że uczynki miłości są znakiem obecności Boga, co stanowi sedno nauczania św. Jakuba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest uczynkiem, który najpełniej wyraża naszą wiarę i jest odpowiedzią na wezwanie Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze uczynki, które mają być wyrazem naszej żywej wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do Ewangelii o konieczności niesienia krzyża, co jest najdoskonalszym uczynkiem wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która uzdalnia do naśladowania Chrystusa na drodze krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary, która, jak uczy św. Jakub, musi być potwierdzona uczynkami.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo dla pracy i trudu, które są wyrazem żywej wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dar wiary, która owocuje w dobrych uczynkach i prowadzi do zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga, którego chwałę głosimy przez nasze życie i uczynki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża prośbę o prowadzenie drogą naśladowania Chrystusa, która jest drogą wiary i uczynków.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię nie tylko słowem, ale i czynem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata przez miłość Chrystusa, co dokonuje się przez nasze uczynki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która będzie owocować dobrymi czynami, o czym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ucznia, który traci swoje życie dla Chrystusa, co jest najwyższym uczynkiem wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta opisuje postawy i uczynki, które są owocem żywej wiary i prowadzą do błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jest to bezpośrednie wezwanie do życia, które przynosi owoce godne nawrócenia, co jest echem nauki św. Jakuba.",
+      "moment": "ogolne"
+    }
+  ]
+}

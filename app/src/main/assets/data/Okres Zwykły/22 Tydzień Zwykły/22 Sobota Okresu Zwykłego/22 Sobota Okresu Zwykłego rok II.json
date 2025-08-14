@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425139.Sobota-22-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "22 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 4, 6-15",
+      "opis": "Trudy życia apostołów",
+      "tekst": "Miałem na myśli, bracia, mnie samego i Apollosa, ze względu na was, abyście mogli zrozumieć, że nie wolno wykraczać ponad to, co zostało napisane, i niech nikt w swej pysze nie wynosi się nad drugiego. Któż będzie cię wyróżniał? Cóż masz, czego byś nie otrzymał? A jeśli otrzymałeś, to czemu się chełpisz, tak jakbyś nie otrzymał?\nTak więc już jesteście nasyceni, już opływacie w bogactwa. Zaczęliście królować bez nas! Otóż tak! Nawet trzeba, żebyście królowali, byśmy mogli współkrólować z wami.\nWydaje mi się bowiem, że Bóg nas, apostołów, wyznaczył jako ostatnich, jakby na śmierć skazanych. Staliśmy się bowiem widowiskiem dla świata, aniołów i ludzi; my głupi dla Chrystusa, wy mądrzy w Chrystusie, my niemocni, wy mocni; wy doznajecie szacunku, a my wzgardy. Aż do tej chwili łakniemy i cierpimy pragnienie, brak nam odzieży, jesteśmy policzkowani i skazani na tułaczkę, i utrudzeni pracą rąk własnych. Błogosławimy, gdy nam złorzeczą, znosimy, gdy nas prześladują; dobrym słowem odpowiadamy, gdy nas spotwarzają. Staliśmy się jakby śmieciem tego świata i wzbudzamy odrazę we wszystkich aż do tej chwili.\nNie piszę tego, żeby was zawstydzić, lecz aby was napomnieć - jako moje najdroższe dzieci. Choć mielibyście bowiem dziesiątki tysięcy wychowawców w Chrystusie, nie macie wielu ojców; ja to właśnie przez Ewangelię zrodziłem was w Chrystusie Jezusie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 17-18. 19-20. 21 (R.: 18a)",
+      "opis": "",
+      "tekst": "Refren: Pan blisko wszystkich, którzy Go wzywają.\nPan jest sprawiedliwy na wszystkich swych drogach *\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają, *\nwszystkich wzywających Go szczerze.\nRefren.\nSpełnia wolę tych, którzy cześć Mu oddają, *\nusłyszy ich wołanie i przyjdzie im z pomocą.\nPan strzeże wszystkich, którzy Go miłują, *\nlecz zniszczy wszystkich występnych.\nRefren.\nNiech usta moje *\ngłoszą chwałę Pana,\na wszystko, co żyje, †\nniech wielbi Jego święte imię *\nna zawsze i na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 1-5",
+      "opis": "Chrystus jest Panem szabatu",
+      "tekst": "W pewien szabat Jezus przechodził wśród zbóż, a uczniowie zrywali kłosy i jedli, wykruszając ziarna rękami. Niektórzy zaś z faryzeuszów mówili: «Czemu czynicie to, czego nie wolno w szabat?»\nWtedy Jezus, odpowiadając im, rzekł: «Nawet tego nie czytaliście, co uczynił Dawid, gdy poczuł głód, on i jego ludzie? Jak wszedł do domu Bożego i wziąwszy chleby pokładne, sam jadł i dał swoim ludziom? Chociaż samym tylko kapłanom wolno je spożywać».\nI dodał: «Syn Człowieczy jest Panem także szabatu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta głosi królewską godność Chrystusa, który w Ewangelii objawia się jako Pan szabatu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Zaproszenie Chrystusa do królowania w naszych sercach jest odpowiedzią na Jego objawienie się jako Pana szabatu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Pieśń jest aktem hołdu dla Chrystusa, Władcy świata, który ma władzę nad Prawem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich i wzgardzonych koresponduje z losem apostołów opisanym przez św. Pawła, którzy stali się 'śmieciem tego świata'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Postawa oddania się Bogu jest przeciwieństwem pychy, którą gani św. Paweł, a która rodzi się z przypisywania sobie Bożych darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o krzyżu przypomina o ofierze Chrystusa, dla którego apostołowie znoszą wszelkie trudy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Akt adoracji dla Chrystusa, który jest Panem wszystkiego, łącznie z szabatem, i który jest obecny pośród nas w naszych słabościach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, Pana szabatu, który jest naszą mocą w słabości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory wyrażona w pieśni jest przeciwieństwem pychy Koryntian i właściwą postawą wobec Pana szabatu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmu, by głosić chwałę Pana, który jest blisko wzywających Go.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Pana, który jest sprawiedliwy i łaskawy, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest owocem serca, które ufa Bogu i wzywa Go szczerze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Jako w sobotę, pieśń maryjna jest wyrazem oddania się Matce Bożej, która uczy nas pokory, w przeciwieństwie do pychy, którą gani św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "349b",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Maryja jest wzorem pokornej służby, do której wzywa św. Paweł, przeciwstawiając ją pysze.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę i wstawiennictwo w trudach apostolskiego życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest pocieszeniem dla apostołów znoszących wzgardę i prześladowania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do znoszenia trudów apostolskiego życia, o których pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest odpowiedzią na aklamację, wyznając, że Chrystus jest naszą Drogą, Prawdą i Życiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest blisko wszystkich, którzy Go wzywają, jak zapewnia psalmista.",
+      "moment": "ogolne"
+    }
+  ]
+}

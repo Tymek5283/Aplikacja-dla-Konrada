@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413293.Piatek-III-tygodnia-wielkanocnego",
+  "tytul_dnia": "3 Piątek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 9, 1-20",
+      "opis": "Nawrócenie Świętego Pawła",
+      "tekst": "Szaweł ciągle jeszcze siał grozę i dyszał żądzą zabijania uczniów Pańskich. Udał się do arcykapłana i poprosił go o listy do synagog w Damaszku, aby mógł uwięzić i przyprowadzić do Jeruzalem mężczyzn i kobiety, zwolenników tej drogi, jeśliby jakichś znalazł. Gdy zbliżał się już w swojej podróży do Damaszku, olśniła go nagle światłość z nieba. A gdy upadł na ziemię, usłyszał głos, który mówił: «Szawle, Szawle, dlaczego Mnie prześladujesz?» «Kto jesteś, Panie?» - powiedział. A On: «Ja jestem Jezus, którego ty prześladujesz. Wstań i wejdź do miasta, tam ci powiedzą, co masz czynić». Ludzie, którzy mu towarzyszyli w drodze, oniemieli ze zdumienia, słyszeli bowiem głos, lecz nie widzieli nikogo. Szaweł podniósł się z ziemi, a kiedy otworzył oczy, nic nie widział. Zaprowadzili go więc do Damaszku, trzymając za ręce. Przez trzy dni nic nie widział i ani nie jadł, ani nie pił. W Damaszku znajdował się pewien uczeń, imieniem Ananiasz. «Ananiaszu!» - przemówił do niego Pan w widzeniu. A on odrzekł: «Jestem, Panie!» A Pan do niego: «Idź na ulicę Prostą i zapytaj w domu Judy o Szawła z Tarsu, bo właśnie się tam modli». (I ujrzał Szaweł w widzeniu, jak człowiek imieniem Ananiasz wszedł i położył na niego ręce, aby przejrzał). «Panie - odpowiedział Ananiasz - słyszałem z wielu stron, jak dużo złego wyrządził ten człowiek świętym Twoim w Jerozolimie. I ma on tutaj władzę od arcykapłanów, aby więzić wszystkich, którzy wzywają Twego imienia». «Idź - odpowiedział mu Pan - bo wybrałem sobie tego człowieka jako narzędzie. On zaniesie imię moje do pogan i królów, i do synów Izraela. I ukażę mu, jak wiele będzie musiał wycierpieć dla mego imienia». Wtedy Ananiasz poszedł. Wszedł do domu, położył na niego ręce i powiedział: «Szawle, bracie, Pan Jezus, Ten, co ukazał ci się na drodze, którą szedłeś, przysłał mnie, abyś przejrzał i został napełniony Duchem Świętym». Natychmiast jakby łuski spadły z jego oczu i odzyskał wzrok, i został ochrzczony. A gdy spożył posiłek, wzmocnił się. Jakiś czas spędził z uczniami w Damaszku i zaraz zaczął głosić w synagogach, że Jezus jest Synem Bożym. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117 (116), 1b-2 (R.: por. Mk 16, 15)",
+      "opis": "",
+      "tekst": "Refren: Całemu światu głoście Ewangelię.\n\nalbo: Alleluja.\nChwalcie Pana, wszystkie narody, *\n\nwysławiajcie Go, wszystkie ludy,\n\nbo potężna nad nami Jego łaska, *\n\na wierność Pana trwa na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 56",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto spożywa moje Ciało i Krew moją pije,\n\ntrwa we Mnie, a Ja w nim jestem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 52-59",
+      "opis": "Ciało moje jest prawdziwym pokarmem",
+      "tekst": "Żydzi sprzeczali się między sobą, mówiąc: «Jak On może nam dać swoje ciało do jedzenia?» Rzekł do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Jeżeli nie będziecie jedli Ciała Syna Człowieczego ani pili Krwi Jego, nie będziecie mieli życia w sobie. Kto spożywa moje Ciało i pije moją Krew, ma życie wieczne, a Ja go wskrzeszę w dniu ostatecznym. Ciało moje jest prawdziwym pokarmem, a Krew moja jest prawdziwym napojem. Kto spożywa moje Ciało i Krew moją pije, trwa we Mnie, a Ja w nim. Jak Mnie posłał żyjący Ojciec, a Ja żyję przez Ojca, tak i ten, kto Mnie spożywa, będzie żył przeze Mnie. To jest chleb, który z nieba zstąpił - nie jest on taki jak ten, który jedli wasi przodkowie, a poumierali. Kto spożywa ten chleb, będzie żył na wieki». To powiedział, nauczając w synagodze w Kafarnaum. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta jest radosnym świadectwem wiary w Zmartwychwstałego, którą z odwagą głosi Paweł w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo życia nad śmiercią, co jest fundamentem odwagi apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, który przychodzi do swoich uczniów i karmi ich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do posiłku Zmartwychwstałego z uczniami oraz do 'łamania chleba', przez które Go rozpoznano.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna sławiąca Zbawiciela, który karmi swój lud, tak jak nakarmił uczniów nad jeziorem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której Chrystus karmi nas swoim Ciałem, co jest nawiązaniem do posiłku z uczniami w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Nawiązuje do Ewangelii, podkreślając, że wiara w Syna, który daje siebie za pokarm, prowadzi do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest pokarmem na życie wieczne, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym wyrazem wiary w Syna, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Ta pieśń o charakterze triumfalnym oddaje moc świadectwa apostołów o zwycięstwie Chrystusa nad śmiercią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie głoszą z odwagą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar życia wiecznego, który otrzymujemy przez wiarę w Syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królewską chwałę Chrystusa, którego Bóg wywyższył po prawicy, jak świadczy Piotr w Dziejach Apostolskich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odwaga apostołów jest wzorem dla nas, posłanych by głosić Ewangelię o Jezusie Zbawicielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest centralnym punktem nauczania apostołów i źródłem ich odwagi.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to parafraza psalmu responsoryjnego, wzywająca do doświadczenia dobroci Pana, o której świadczą apostołowie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który daje Ducha Świętego tym, którzy Mu są posłuszni.",
+      "moment": "ogólne"
+    }
+  ]
+}

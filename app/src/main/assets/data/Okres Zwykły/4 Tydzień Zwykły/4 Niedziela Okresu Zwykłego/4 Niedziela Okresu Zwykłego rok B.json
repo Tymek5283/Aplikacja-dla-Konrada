@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415523.IV-Niedziela-Zwykla-rok-B",
+  "tytul_dnia": "4 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 18, 15-20",
+      "opis": "Bóg obiecuje zesłać proroka",
+      "tekst": "Mojżesz powiedział do ludu:\n«Pan, Bóg twój, wzbudzi dla ciebie proroka spośród twoich braci, podobnego do mnie. Jego będziesz słuchał. Właśnie o to prosiłeś Pana, Boga swego, na Horebie, w dniu zgromadzenia: Niech więcej nie słucham głosu Pana, Boga mojego, i niech już nie widzę tego wielkiego ognia, abym nie umarł».\nI odrzekł mi Pan: «Dobrze powiedzieli. Wzbudzę im proroka spośród ich braci, takiego jak ty, i włożę w jego usta moje słowa, będzie im mówił wszystko, co mu nakażę. Jeśli ktoś nie będzie słuchać moich słów, które on wypowie w moim imieniu, Ja od niego zażądam zdania sprawy. Lecz jeśli który prorok odważy się mówić w moim imieniu to, czego mu nie rozkazałem, albo wystąpi w imieniu bogów cudzych - taki prorok musi ponieść śmierć».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 1-2. 6-7c. 7d-9 (R.: por. 7d-8a)",
+      "opis": "",
+      "tekst": "Refren: Słysząc głos Pana, serc nie zatwardzajcie.\nPrzyjdźcie, radośnie śpiewajmy Panu, *\nwznośmy okrzyki ku chwale Opoki naszego zbawienia.\nStańmy przed obliczem Jego z uwielbieniem, *\nz weselem śpiewajmy Mu pieśni.\nRefren.\nPrzyjdźcie, uwielbiajmy Go, padając na twarze, *\nklęknijmy przed Panem, który nas stworzył.\nAlbowiem On jest naszym Bogiem, *\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren.\nObyście dzisiaj usłyszeli głos Jego: †\n«Niech nie twardnieją wasze serca jak w Meriba, *\njak na pustyni w dniu Massa,\ngdzie Mnie kusili wasi ojcowie, *\ndoświadczali Mnie, choć widzieli moje dzieła».\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 7, 32-35",
+      "opis": "Małżeństwo i celibat",
+      "tekst": "Bracia:\nChciałbym, żebyście byli wolni od utrapień. Człowiek bezżenny troszczy się o sprawy Pana, o to, jak by się przypodobać Panu. Ten zaś, kto wstąpił w związek małżeński, zabiega o sprawy świata, o to, jak by się przypodobać żonie. I doznaje rozterki.\nPodobnie i kobieta: niezamężna i dziewica troszczy się o sprawy Pana, o to, by była święta i ciałem, i duchem. Ta zaś, która wyszła za mąż, zabiega o sprawy świata, o to, jak by się przypodobać mężowi.\nMówię to dla waszego pożytku, nie zaś, by zastawiać na was pułapkę; ale po to, byście godnie i z upodobaniem trwali przy Panu.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Lud, który siedział w ciemności, ujrzał światło wielkie,\ni mieszkańcom cienistej krainy śmierci wzeszło światło."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 21-28",
+      "opis": "Jezus naucza jak ten, który ma władzę",
+      "tekst": "W Kafarnaum Jezus w szabat wszedł do synagogi i nauczał. Zdumiewali się Jego nauką: uczył ich bowiem jak ten, który ma władzę, a nie jak uczeni w Piśmie.\nBył właśnie w ich synagodze człowiek opętany przez ducha nieczystego. Zaczął on wołać: «Czego chcesz od nas, Jezusie Nazarejczyku? Przyszedłeś nas zgubić. Wiem, kto jesteś: Święty Boga». Lecz Jezus rozkazał mu surowo: «Milcz i wyjdź z niego!  » Wtedy duch nieczysty zaczął nim miotać i z głośnym krzykiem wyszedł z niego.\nA wszyscy się zdumieli, tak że jeden drugiego pytał: «Co to jest? Nowa jakaś nauka z mocą. Nawet duchom nieczystym rozkazuje i są Mu posłuszne». I wnet rozeszła się wieść o Nim wszędzie po całej okolicznej krainie galilejskiej.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do uwielbienia Pana i słuchania Jego głosu, co jest głównym tematem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to wezwanie do oddania chwały Bogu, którego prorok ma głosić, a którego moc objawia Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Nawiązuje do psalmu, wzywając do radosnego śpiewu na cześć Pana, naszego Stwórcy i Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża oddanie się Panu i troskę o Jego sprawy, o której mówi św. Paweł w drugim czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc, byśmy umieli słuchać Jego głosu, jak zapowiedzianego Proroka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "235",
+      "piesn": "Chwalmy niewysłowiony",
+      "opis": "Ofiarowujemy nasze serca Bogu, prosząc o łaskę życia w czystości, do której zachęca św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Proroka, który naucza z mocą i ma władzę nad duchami nieczystymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża wiarę w Jezusa, Świętego Boga, którego moc uwalnia od zła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Jest to akt wiary w realną obecność Pana, który przychodzi z mocą, by nas zbawić.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na zdumienie tłumów mocą nauki Jezusa w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego nowa nauka z mocą rozeszła się po całej Galilei.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud ludzie uznali naukę i egzorcyzmy Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego nowa nauka z mocą rozeszła się po całej Galilei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po usłyszeniu nauki z mocą, jesteśmy posłani, by głosić Ewangelię wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Proroka, którego mamy słuchać i za którym mamy podążać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "19",
+      "piesn": "Hejnał wszyscy zaśpiewajmy",
+      "opis": "Nawiązuje do aklamacji o świetle, które zabłysło mieszkańcom krainy mroków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud ludzie uznali naukę i egzorcyzmy Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta podkreśla moc Pana, która objawiła się w nauczaniu i egzorcyzmach Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest to prośba o obecność Pana i Jego Słowa, którego mamy słuchać, aby nie zatwardzać serc.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432962.Uroczystosc-Najswietszej-Trojcy-Rok-B",
+  "tytul_dnia": "Uroczystość Najświętszej Trójcy rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 4, 32-34. 39-40",
+      "opis": "Bóg jest jeden",
+      "tekst": "Mojżesz tak powiedział do ludu:\n«Zapytaj dawnych czasów, które były przed tobą, zaczynając od dnia, w którym Bóg stworzył człowieka na ziemi, zapytaj od jednego krańca niebios do drugiego, czy nastąpiło tak wielkie wydarzenie jak to lub czy słyszano o czymś podobnym? Czy słyszał jakiś naród głos Boży z ognia, jak ty słyszałeś, i pozostał żywy? Czy usiłował Bóg przyjść i wybrać sobie jeden naród spośród innych narodów przez doświadczenia, znaki, cuda i wojny, ręką mocną i wyciągniętym ramieniem, dziełami przerażającymi, jak to wszystko, co tobie uczynił Pan, Bóg twój, w Egipcie na twoich oczach?\nPoznaj dzisiaj i rozważ w swym sercu, że Pan jest Bogiem, a na niebie wysoko i na ziemi nisko nie ma innego. Strzeż Jego praw i nakazów, które ja dziś polecam tobie wypełniać; by dobrze ci się wiodło i twym synom po tobie; byś przedłużył swe dni na ziemi, którą na zawsze daje ci Pan, Bóg twój».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 4-5. 6 i 9. 18-19. 20 i 22 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nBo przemówił, i wszystko się stało, *\nsam rozkazał, i zaczęło istnieć.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\nna tych, którzy oczekują Jego łaski,\naby ocalił ich życie od śmierci *\ni żywił ich w czasie głodu.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 8, 14-17",
+      "opis": "Otrzymaliśmy Ducha przybrania za synów",
+      "tekst": "Bracia:\nWszyscy ci, których prowadzi Duch Boży, są synami Bożymi. Nie otrzymaliście przecież ducha niewoli, by się znowu pogrążyć w bojaźni, ale otrzymaliście Ducha przybrania za synów, w którym możemy wołać: «Abba, Ojcze!»\nSam Duch wspiera swym świadectwem naszego ducha, że jesteśmy dziećmi Bożymi. Jeżeli zaś jesteśmy dziećmi, to i dziedzicami: dziedzicami Boga, a współdziedzicami Chrystusa; skoro wspólnie z Nim cierpimy, to po to, by wspólnie mieć udział w chwale.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ap 1, 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Chwała Ojcu i Synowi, i Duchowi Świętemu,\nBogu, który jest i który był, i który przychodzi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 28, 16-20",
+      "opis": "Chrzest w imię Ojca i Syna, i Ducha Świętego",
+      "tekst": "Jedenastu uczniów udało się do Galilei, na górę, tam gdzie Jezus im polecił. A gdy Go ujrzeli, oddali Mu pokłon. Niektórzy jednak wątpili. Wtedy Jezus podszedł do nich i przemówił tymi słowami:\n«Dana Mi jest wszelka władza w niebie i na ziemi. Idźcie więc i nauczajcie wszystkie narody, udzielając im chrztu w imię Ojca i Syna, i Ducha Świętego. Uczcie je zachowywać wszystko, co wam przykazałem. A oto Ja jestem z wami przez wszystkie dni, aż do skończenia świata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "231",
+      "piesn": "Trójcy Najświętszej",
+      "opis": "Pieśń wprost oddaje cześć Trójcy Świętej, co doskonale wprowadza w atmosferę dzisiejszej uroczystości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta wysławia Boga w Trójcy jako źródło wszelkiej doskonałości i błogosławieństw.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały, który oddaje cześć Bogu w Trójcy, Królowi wszechmocy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "229",
+      "piesn": "Jeden w naturze",
+      "opis": "Pieśń ta w prosty sposób wyjaśnia tajemnicę Trójcy Świętej i ma charakter błagalny, co dobrze pasuje do ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "232",
+      "piesn": "Bądź pochwalon na wieki",
+      "opis": "Pieśń eucharystyczna, która oddaje cześć Bogu ukrytemu w Sakramencie, a więc całej Trójcy Świętej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ta jest modlitwą do Boga Ojca o przyjęcie darów, które staną się Ciałem i Krwią Jego Syna, co ukazuje działanie Osób Trójcy Świętej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "W Komunii jednoczymy się z Chrystusem, a pieśń ta jest modlitwą o jedność Kościoła, który chrzci w imię Trójcy, jak nakazuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Komunia jednoczy nas w jedno Ciało, co jest dziełem Trójcy Świętej, o której jedności mówi dzisiejsza uroczystość.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta wyraża wdzięczność za miłość Boga, objawioną w darze Eucharystii, która jest darem całej Trójcy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "228",
+      "piesn": "Ciebie wzywamy",
+      "opis": "Litania do Trójcy Świętej jest uroczystym dziękczynieniem, idealnym na uwielbienie po Komunii Świętej w tak wielką uroczystość.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosny hymn chwały, wzywający całe stworzenie do oddania czci Bogu, co jest doskonałym uwielbieniem Trójcy Świętej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i miłosierdzie, które są dziełem Ojca, Syna i Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest echem nakazu misyjnego z Ewangelii, w którym Jezus posyła uczniów, by nauczali i chrzcili w imię Ojca i Syna, i Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "227",
+      "piesn": "Chwała Ojcu i Synowi",
+      "opis": "Ta krótka doksologia jest najdoskonalszym wyznaniem wiary w Trójcę Świętą i uroczystym zakończeniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta podkreśla misję Chrystusa, który prowadzi nas do Ojca, co jest echem misyjnego posłania z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "230",
+      "piesn": "Światłości wieczna",
+      "opis": "Hymn do Trójcy Świętej, w którym jako przybrane dzieci Boże (jak mówi drugie czytanie) wołamy do Ojca, Syna i Ducha Świętego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten jest wyrazem wdzięczności Bogu Stwórcy, Ojcu, za dzieło stworzenia, co wpisuje się w tajemnicę Trójcy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń o charakterze misyjnym, prosząca, by wszystkie narody poznały Boga, co nawiązuje do nakazu misyjnego z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności w miłości jest posłaniem do świata, aby świadczyć o Bogu, który jest Miłością i Jednością.",
+      "moment": "ogolne"
+    }
+  ]
+}

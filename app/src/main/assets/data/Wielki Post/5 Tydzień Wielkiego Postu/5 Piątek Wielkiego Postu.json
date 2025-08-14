@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412418.Piatek-V-tydzien-Wielkiego-Postu",
+  "tytul_dnia": "5 Piątek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 20, 10-13",
+      "opis": "Pan czuwa nad sprawiedliwym",
+      "tekst": "Rzekł Jeremiasz:\n«Słyszałem oszczerstwo wielu: „Trwoga dokoła! Donieście, donieśmy na niego!” Wszyscy zaprzyjaźnieni ze mną wypatrują mojego upadku: „Może on da się zwieść, tak że go zwyciężymy i wywrzemy pomstę na nim!”\nAle Pan jest przy mnie jako potężny mocarz; dlatego moi prześladowcy ustaną i nie zwyciężą. Będą bardzo zawstydzeni swoją porażką, okryci wieczną i niezapomnianą hańbą. Panie Zastępów, Ty, który doświadczasz sprawiedliwego i który patrzysz na nerki i serce, dozwól, bym zobaczył Twoją pomstę na nich. Tobie bowiem powierzyłem swą sprawę.\nŚpiewajcie Panu, wysławiajcie Pana! Uratował bowiem życie ubogiego z ręki złoczyńców».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 18 (17), 2-3a. 3b-4. 5-6. 7 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Pana wzywałem i On mnie wysłuchał.\nMiłuję Cię, Panie, *\nMocy moja,\nPanie, Opoko moja i Twierdzo, *\nmój Wybawicielu.\nRefren.\nBoże, Skało moja, na którą się chronię, *\nTarczo moja, Mocy zbawienia mego i moja Obrono.\nWzywam Pana, godnego chwały, *\ni wyzwolony będę od moich nieprzyjaciół.\nRefren.\nOgarnęły mnie fale śmierci *\ni zatrwożyły odmęty niosące zagładę.\nOplątały mnie pęta otchłani, *\nschwyciły mnie sidła śmierci.\nRefren.\nWzywałem Pana w moim utrapieniu, *\nwołałem do mojego Boga\ni głos mój usłyszał ze swojej świątyni, *\ndotarł mój krzyk do Jego uszu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 6, 63c. 68c",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 10, 31-42",
+      "opis": "Jezus oskarżony o bluźnierstwo",
+      "tekst": "Żydzi porwali za kamienie, aby Jezusa ukamienować. Odpowiedział im Jezus: «Ukazałem wam wiele dobrych czynów, które pochodzą od Ojca. Za który z tych czynów chcecie Mnie kamienować?»\nOdpowiedzieli Mu Żydzi: «Nie kamienujemy Cię za dobry czyn, ale za bluźnierstwo, za to, że Ty, będąc człowiekiem, uważasz siebie za Boga».\nOdpowiedział im Jezus: «Czyż nie napisano w waszym Prawie: „Ja rzekłem: Bogami jesteście?” Jeżeli Pismo nazwało bogami tych, do których skierowano słowo Boże - a Pisma nie można odrzucić - to czemu wy o Tym, którego Ojciec poświęcił i posłał na świat, mówicie: „Bluźnisz”, dlatego że powiedziałem: „Jestem Synem Bożym?” Jeżeli nie dokonuję dzieł mojego Ojca, to Mi nie wierzcie! Jeżeli jednak dokonuję, to choć nie wierzylibyście Mi, wierzcie moim dziełom, abyście poznali i wiedzieli, że Ojciec jest we Mnie, a Ja w Ojcu».\nI znowu starali się Go pojmać, ale On uszedł z ich rąk. I powtórnie udał się za Jordan, na miejsce, gdzie Jan poprzednio udzielał chrztu, i tam przebywał.\nWielu przybyło do Niego, mówiąc, iż Jan wprawdzie nie uczynił żadnego znaku, ale wszystko, co Jan o Nim powiedział, było prawdą. I wielu tam w Niego uwierzyło.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń ta jest modlitwą człowieka prześladowanego, który szuka ucieczki w Bogu, podobnie jak prorok Jeremiasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę z powodu grzechu, który prowadzi do odrzucenia Chrystusa, oskarżonego o bluźnierstwo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża prośbę o Bożą obronę przed niesprawiedliwością i prześladowaniem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do odrzucenia Chrystusa, o którym mówi Ewangelia, i Jego zbawczej ofiary, która jest odpowiedzią na grzech.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który jest sędzią sprawiedliwym i obrońcą uciśnionych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wiara w bóstwo Chrystusa jest fundamentem naszego zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Jest to akt wiary w bóstwo Chrystusa, którego oskarżono o bluźnierstwo, a który w Eucharystii daje nam schronienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, Synem Bożym, który cierpiał niesprawiedliwie dla naszego zbawienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który jest Synem Bożym, a którego świat nie poznał i odrzucił.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń uwielbienia i zaufania Bogu, który ratuje ubogiego z rąk złoczyńców, jak wyznaje Jeremiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i ratunek wbrew knowaniom złych ludzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o ufności w Bożą Opatrzność, która chroni sprawiedliwego przed wszelkim złem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalny charakter pieśni koresponduje z wołaniem psalmisty i Jeremiasza w ich utrapieniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Jezusa, Syna Bożego, aby nie zostać odrzuconym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu dróg złości, aby szukać ratunku w Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest potężnym mocarzem i obrońcą sprawiedliwych, o czym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest prośbą o Bożą interwencję w obliczu niesprawiedliwych oskarżeń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne uwierzyć w bóstwo Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę nawrócenia i odwrócenia się od grzechu.",
+      "moment": "ogolne"
+    }
+  ]
+}

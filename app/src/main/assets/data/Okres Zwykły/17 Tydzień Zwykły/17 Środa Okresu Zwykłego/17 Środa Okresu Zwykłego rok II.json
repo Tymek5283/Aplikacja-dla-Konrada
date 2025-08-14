@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430469.Sroda-XVII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "17 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 15, 10. 16-21",
+      "opis": "Rozpacz i nawrócenie się proroka",
+      "tekst": "Biada mi, matko moja, że mnie urodziłaś, męża skargi i niezgody dla całego kraju. Nie pożyczam ani nie daję pożyczki, a wszyscy mi złorzeczą.\nIlekroć otrzymywałem Twoje słowa, chłonąłem je, a Twoje słowo stawało się dla mnie rozkoszą i radością serca mego. Bo imię Twoje zostało wezwane nade mną, Panie, Boże Zastępów!\nNigdy nie zasiadałem w wesołym gronie, by się bawić; pod Twoją ręką siadałem samotny, bo napełniłeś mnie gniewem. Dlaczego mój ból nie ma granic, a moja rana jest nieuleczalna, niemożliwa do uzdrowienia? Czy będziesz więc dla mnie jakby zwodniczym strumieniem, zwodniczą wodą?\nDlatego tak mówi Pan: «Jeśli się nawrócisz, dozwolę, byś znów stanął przede Mną. Jeśli zaś będziesz czynić to, co szlachetne, bez jakiejkolwiek podłości, będziesz jakby moimi ustami. Wtedy oni się zwrócą ku tobie, ty się jednak nie będziesz ku nim zwracał. Uczynię z ciebie dla tego narodu niezdobyty mur ze spiżu. Będą walczyć z tobą, lecz cię nie zwyciężą, bo Ja jestem z tobą, by cię wspomagać i uwolnić - mówi Pan. Wybawię cię z rąk złoczyńców i uwolnię cię z mocy gwałtowników».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 59 (58), 2-3. 4-5a. 10-11. 17 (R.: por. 17d)",
+      "opis": "",
+      "tekst": "Refren: Bóg jest ucieczką w dniu mego ucisku.\nOd nieprzyjaciół moich wyzwól mnie, mój Boże, *\nbroń mnie od tych, którzy przeciw mnie powstają.\nWybaw mnie od złoczyńców *\ni od mężów dyszących zemstą.\nRefren.\nBo oto czyhają na me życie, *\nspiskują przeciw mnie mocarze,\na we mnie nie ma zbrodni ani grzechu, Panie, *\nbez mojej winy tu biegną, by mnie napastować.\nRefren.\nNa Ciebie będę baczył, Mocy moja, *\nbo Ty, Boże, jesteś moją warownią.\nWychodzi mi naprzeciw Bóg w swojej łaskawości, *\nBóg sprawia, że mogę patrzeć na klęskę mych wrogów.\nRefren.\nOpiewać będę Twoją potęgę *\ni rankiem będę się weselić z Twojej łaskawości,\nbo stałeś się dla mnie warownią *\ni ucieczką w dniu mego ucisku.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nazwałem was przyjaciółmi,\nalbowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 44-46",
+      "opis": "Przypowieści o skarbie i perle",
+      "tekst": "Jezus opowiedział tłumom taką przypowieść:\n«Królestwo niebieskie podobne jest do skarbu ukrytego w roli. Znalazł go pewien człowiek i ukrył ponownie. Uradowany poszedł, sprzedał wszystko, co miał, i kupił tę rolę. Dalej, podobne jest królestwo niebieskie do kupca poszukującego pięknych pereł. Gdy znalazł jedną drogocenną perłę, poszedł, sprzedał wszystko, co miał, i kupił ją».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę i obronę, o której mówi psalm i obietnica dana Jeremiaszowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem człowieka w ucisku, podobnie jak lament Jeremiasza, który jednak znajduje oparcie w Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu pośród trudności, co jest postawą, do której Bóg wzywa Jeremiasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Postawa człowieka, który sprzedaje wszystko, by zdobyć skarb, jest aktem całkowitego ofiarowania, o którym mówi ta pieśń.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Wobec daru Królestwa Niebieskiego, ofiarujemy Bogu nasze serca, tak jak Jeremiasz ofiarował swoje życie służbie Słowu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża oddanie się Bogu, które jest odpowiedzią na odnalezienie skarbu wiary i powołania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta doskonale ilustruje przypowieści o skarbie i perle, wskazując, że Chrystus w Eucharystii jest najcenniejszym skarbem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest skarbem wartym wszelkiej ofiary, nawet cierpienia proroka.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus, Chleb Życia, jest najcenniejszą perłą, dla której warto poświęcić wszystko.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za Bożą łaskawość i opiekę, której doświadczył psalmista i prorok Jeremiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń jest odpowiedzią na obietnicę Boga daną Jeremiaszowi: 'Ja jestem z tobą, by cię wspomagać i uwolnić'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar Królestwa Bożego, które jest źródłem radości nawet pośród cierpień.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest deklaracją wyboru Boga jako najwyższej wartości, co jest istotą przypowieści z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po odnalezieniu skarbu, którym jest Królestwo, idziemy w świat, by głosić panowanie Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Radość z odnalezienia perły Królestwa Bożego przynagla do dzielenia się nią z innymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża poszukiwanie skarbu, którym jest Bóg, a który prorok odnajduje w słowie Pańskim, mimo cierpienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec cierpienia i niezrozumienia, jakiego doświadczał Jeremiasz, ta pieśń jest aktem zawierzenia i odnalezienia siły w Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń podkreśla wartość poszukiwania Boga, co jest głównym tematem przypowieści o kupcu i perle.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Miłość do Jezusa, ukrytego skarbu, jest źródłem siły w trudnościach, o których mówi prorok Jeremiasz.",
+      "moment": "ogolne"
+    }
+  ]
+}

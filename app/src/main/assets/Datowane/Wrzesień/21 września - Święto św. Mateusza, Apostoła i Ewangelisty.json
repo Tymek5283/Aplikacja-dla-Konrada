@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 19,2-3.4-5",
-      "opis": "Refren:",
-      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+      "opis": "",
+      "tekst": "Refren:\nPo całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć wszystkich apostołów, który podkreśla ich rolę jako fundamentu Kościoła, o czym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co w sposób natychmiastowy uczynił celnik Mateusz.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "113",
       "piesn": "Wstanę i pójdę",
       "opis": "Pieśń o nawróceniu i powrocie do Ojca oddaje istotę powołania Mateusza, który wstał i poszedł za Jezusem, zostawiając grzeszne życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia, które jest odpowiedzią na miłosierne wezwanie Chrystusa, skierowane także do Mateusza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy Bogu nasze życie, prosząc o przemianę, jakiej doświadczył św. Mateusz.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Jezus zaprasza do siebie celników i grzeszników, a ta pieśń jest odpowiedzią na to zaproszenie, szczególnie aktualną podczas Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie jest odpowiedzią na słowa Jezusa z Ewangelii, który przyszedł powołać grzeszników.",
+      "moment": "komunia"
+    },
+    {
       "numer": "199",
       "piesn": "Bądź uwielbiony, miłosierny Boże",
       "opis": "Dziękczynienie za Boże miłosierdzie, które Jezus podkreśla w Ewangelii, mówiąc 'Chcę raczej miłosierdzia niż ofiary'.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o ufności w Boże miłosierdzie, które okazało się w powołaniu celnika Mateusza na apostoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, w tym za dar powołania, który odmienił życie św. Mateusza.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Ta pieśń misyjna przypomina o posłaniu Apostołów, w tym Mateusza, by głosić Ewangelię, co jest dobrym akcentem na zakończenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana po krańce ziemi, co jest echem psalmu i misji, którą podjął św. Mateusz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta wzywa wszystkie narody do chwalenia Pana, co jest owocem apostolskiej pracy Ewangelistów.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "101",
       "piesn": "Boże, Ojcze Wszechmogący",
       "opis": "Litania ta podkreśla miłosierdzie Boże, które jest centralnym tematem Ewangelii o powołaniu Mateusza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywająca do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na powołanie, które Jezus skierował do Mateusza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców godnych nawrócenia jest aktualne w kontekście powołania grzesznika na apostoła.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413360.Sroda-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Środa Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 17, 15. 22 - 18, 1",
+      "opis": "Paweł w Atenach",
+      "tekst": "W owych dniach ci, którzy towarzyszyli Pawłowi, zaprowadzili go aż do Aten i odjechali, otrzymawszy polecenie dla Sylasa i Tymoteusza, aby czym prędzej przybyli do niego.\nStanąwszy w środku Areopagu Paweł przemówił: «Mężowie ateńscy, widzę, że jesteście pod każdym względem bardzo religijni. Przechodząc bowiem i oglądając wasze świętości jedną po drugiej, znalazłem też ołtarz z napisem: „Nieznanemu Bogu”. Ja wam głoszę to, co czcicie, nie znając. Bóg, który stworzył świat i wszystko, co w nim istnieje, On, który jest Panem nieba i ziemi, nie mieszka w świątyniach ręką zbudowanych i nie odbiera posługi z rąk ludzkich, jak gdyby czegoś potrzebował, bo sam daje wszystkim życie i tchnienie, i wszystko. On z jednego człowieka wywiódł cały rodzaj ludzki, aby zamieszkiwał całą powierzchnię ziemi. Określił im właściwe czasy i granice zamieszkania, aby szukali Boga; może dotkną Go i znajdą niejako po omacku. Bo w rzeczywistości jest On niedaleko od każdego z nas. W Nim bowiem żyjemy, poruszamy się i jesteśmy, jak to powiedzieli niektórzy z waszych poetów: „Jesteśmy bowiem z jego rodu”. Będąc więc z rodu Bożego, nie powinniśmy sądzić, że Bóstwo jest podobne do złota albo do srebra, albo do kamienia, wytworu rąk i myśli człowieka. Nie biorąc pod uwagę czasów nieświadomości, wzywa Bóg teraz wszędzie i wszystkich ludzi do nawrócenia, dlatego że wyznaczył dzień, kiedy to sprawiedliwie będzie sądzić świat przez Człowieka, którego na to przeznaczył, po uwierzytelnieniu Go wobec wszystkich przez wskrzeszenie Go z martwych».\nGdy usłyszeli o zmartwychwstaniu, jedni się wyśmiewali, a inni powiedzieli: «Posłuchamy cię o tym innym razem ». Tak Paweł ich opuścił. Niektórzy jednak przyłączyli się do niego i uwierzyli. Wśród nich Dionizy Areopagita i kobieta imieniem Damaris, a z nimi inni.\nPotem opuścił Ateny i przybył do Koryntu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 148, 1b-2. 11-12. 13-14c",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niebo i ziemia pełne chwały Twojej.\nChwalcie Pana z niebios, *\nchwalcie Go na wysokościach.\nChwalcie Go, wszyscy Jego aniołowie, *\nchwalcie Go, wszystkie Jego zastępy.\nRefren.\nKrólowie ziemscy i wszystkie narody, *\nwładcy i wszyscy sędziowie tej ziemi,\nmłodzieńcy i dziewczęta, *\nstarcy i dzieci.\nRefren.\nNiech imię Pana wychwalają, †\nbo tylko Jego imię jest wzniosłe. *\nMajestat Jego ponad ziemią i niebem.\nOn pomnaża potęgę swego ludu. †\nOto pieśń pochwalna wszystkich Jego świętych, *\nsynów Izraela, ludu, który jest Mu bliski.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja będę prosił Ojca, a da wam innego Parakleta,\naby z wami był na zawsze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 16, 12-15",
+      "opis": "Duch Prawdy doprowadzi was do całej prawdy",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeszcze wiele mam wam do powiedzenia, ale teraz znieść nie możecie. Gdy zaś przyjdzie On, Duch Prawdy, doprowadzi was do całej prawdy. Bo nie będzie mówił od siebie, ale powie wszystko, cokolwiek usłyszy, i oznajmi wam rzeczy przyszłe. On Mnie otoczy chwałą, ponieważ z mojego weźmie i wam objawi.\nWszystko, co ma Ojciec, jest moje. Dlatego powiedziałem, że z mojego weźmie i wam objawi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to wezwanie do chwalenia Chrystusa, którego św. Paweł głosił Ateńczykom jako zmartwychwstałego Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, co jest tematem psalmu i misji św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem wiary w zmartwychwstanie, głoszonej przez Pawła na Areopagu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "217",
+      "piesn": "O Stworzycielu, Duchu",
+      "opis": "Pieśń ta jest modlitwą do Ducha Świętego, obiecanego w Ewangelii jako Tego, który doprowadzi do całej prawdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, który napełnia serca wiernych i uzdalnia do przyjęcia całej prawdy objawionej przez Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, prosząc o napełnienie Duchem Prawdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń eucharystyczna, która podkreśla, że Chrystus jest Prawdą i Życiem, co jest istotą nauczania Ducha Świętego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prosta modlitwa o dary Ducha Świętego, który objawia nam to, co Chrystus wziął od Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń ta jest prośbą do Ducha Świętego, aby rozpalił w nas miłość i doprowadził do pełni prawdy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Sekwencja do Ducha Świętego, która w pełni oddaje treść Ewangelii o Jego przyjściu i działaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący zwycięstwo Zmartwychwstałego Pana, którego chwałę objawia Duch Święty.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i dar Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Wysyła wiernych, aby głosili światu Zmartwychwstałego Pana, tak jak czynił to św. Paweł na Areopagu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Duch Święty uzdalnia do misji głoszenia Ewangelii, co jest kontynuacją dzieła Pawła w Atenach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest echem psalmu, wzywającego całe stworzenie do chwalenia Boga, Stwórcy nieba i ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Jest to prosta i bezpośrednia modlitwa do Ducha Świętego, o którego przyjście i dary prosimy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa Zmartwychwstałego, o którym nauczał św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, które są niezbędne do zrozumienia całej prawdy, o której mówi Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

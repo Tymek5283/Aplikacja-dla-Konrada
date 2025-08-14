@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 40,7-8a.8b-10.11",
-      "opis": "Refren:",
-      "tekst": "Przychodzę, Boże, pełnić Twoją wolę.\nNie chciałeś ofiary krwawej ani płodów ziemi,\nlecz otwarłeś mi uszy:\nnie żądałeś całopalenia i ofiary za grzechy.\nWtedy powiedziałem: „Oto przychodzę.\nW zwoju księgi jest o mnie napisane:\nRadością jest dla mnie pełnić Twoją wolę, mój Boże,\na Twoje prawo mieszka w moim sercu”.\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu\ni nie powściągałem warg moich, o czym Ty wiesz, Panie.\nSprawiedliwości Twojej nie kryłem w głębi serca,\ngłosiłem Twoją wierność i pomoc.\nNie taiłem Twojej łaski ani Twej wierności\nprzed wielkim zgromadzeniem."
+      "opis": "",
+      "tekst": "Refren:\nPrzychodzę, Boże, pełnić Twoją wolę.\nNie chciałeś ofiary krwawej ani płodów ziemi,\nlecz otwarłeś mi uszy:\nnie żądałeś całopalenia i ofiary za grzechy.\nWtedy powiedziałem: „Oto przychodzę.\nW zwoju księgi jest o mnie napisane:\nRadością jest dla mnie pełnić Twoją wolę, mój Boże,\na Twoje prawo mieszka w moim sercu”.\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu\ni nie powściągałem warg moich, o czym Ty wiesz, Panie.\nSprawiedliwości Twojej nie kryłem w głębi serca,\ngłosiłem Twoją wierność i pomoc.\nNie taiłem Twojej łaski ani Twej wierności\nprzed wielkim zgromadzeniem."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,15 +42,51 @@
       "moment": "wejscie"
     },
     {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń oparta na słowach Pozdrowienia Anielskiego jest doskonałym wprowadzeniem w tajemnicę dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "W tej pieśni witamy Maryję słowami anioła, rozpoczynając świętowanie tajemnicy Wcielenia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "25",
       "piesn": "Po upadku człowieka grzesznego",
       "opis": "Pieśń ta łączy upadek Adama z poselstwem anielskim do Maryi, ukazując Zwiastowanie jako początek dzieła odkupienia.",
       "moment": "ofiarowanie"
     },
     {
-      "numer": "29",
-      "piesn": "Zdrowaś bądź Maryja",
-      "opis": "Pieśń oparta na słowach Pozdrowienia Anielskiego, które są centralnym punktem Ewangelii tego dnia.",
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Pieśń mszalna na święta maryjne, która w zwrotce na przygotowanie darów łączy ofiarę Maryi z ofiarą eucharystyczną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń ta, prosząc o pokój i światło, nawiązuje do roli Maryi, która przez swoje 'tak' przyniosła światu Zbawiciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Refren 'Witaj, Jezu, Synu Maryi' doskonale łączy przyjęcie Komunii Świętej z tajemnicą Wcielenia, którą dziś celebrujemy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat', który jest odpowiedzią Maryi na Zwiastowanie, stanowi głęboką medytację eucharystyczną.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "W Komunii przyjmujemy Tego, który stał się Ciałem w łonie Maryi, aby dać nam życie wieczne.",
       "moment": "komunia"
     },
     {
@@ -60,27 +96,57 @@
       "moment": "uwielbienie"
     },
     {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna jest wzniosłym hymnem uwielbienia dla Matki, przez którą Słowo stało się Ciałem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń wzywająca do codziennego wysławiania Maryi, której 'fiat' otworzyło niebo, jest pięknym aktem dziękczynienia.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "24",
       "piesn": "Oto Panna pocznie",
       "opis": "Pieśń ta jest bezpośrednim nawiązaniem do proroctwa Izajasza z pierwszego czytania, które spełnia się w Zwiastowaniu.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "324",
-      "piesn": "Bogurodzica",
-      "opis": "Najstarsza polska pieśń maryjna, która w uroczysty sposób oddaje cześć Matce Bożej, co jest stosowne w dniu Zwiastowania.",
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń adwentowa, która wyraża tęsknotę za Zbawicielem, a Zwiastowanie jest odpowiedzią na to wołanie ludzkości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona maryjna, która sławi Maryję jako bramę do nieba, otwartą przez Jej zgodę na Boży plan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta ukazuje Zwiastowanie jako moment, w którym Bóg odpowiada na wielowiekowe oczekiwanie ludzkości na Zbawiciela.",
       "moment": "ogolne"
     },
     {
-      "numer": "384",
-      "piesn": "Pozdrowiona bądź, Królowo",
-      "opis": "Jest to parafraza antyfony 'Salve Regina', która wielbi Maryję jako Matkę i Królową, co podkreśla Jej godność objawioną w Zwiastowaniu.",
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń ta podkreśla wiarę Maryi, dzięki której Słowo stało się Ciałem, co jest centralnym przesłaniem uroczystości.",
       "moment": "ogolne"
     },
     {
-      "numer": "395",
-      "piesn": "Witaj, Gwiazdo morza",
-      "opis": "Pieśń ta, oparta na hymnie 'Ave Maris Stella', odnosi się do imienia Ewy i roli Maryi jako nowej Ewy, co jest teologicznie powiązane ze Zwiastowaniem.",
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Chociaż jest to pieśń adwentowa, jej wołanie o Zbawiciela znajduje odpowiedź w tajemnicy Zwiastowania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, które stało się możliwe dzięki 'tak' Maryi.",
       "moment": "ogolne"
     }
   ]

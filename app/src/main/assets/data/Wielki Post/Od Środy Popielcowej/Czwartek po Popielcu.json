@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/412858.Czwartek-po-Popielcu",
+  "tytul_dnia": "Czwartek po Popielcu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 30, 15-20",
+      "opis": "Wierność i grzech, życie i śmierć",
+      "tekst": "Mojżesz powiedział do ludu:\n«Patrz! Kładę dziś przed tobą życie i szczęście, śmierć i nieszczęście. Ja dziś nakazuję ci miłować Pana, Boga twego, i chodzić Jego drogami, zachowywać Jego polecenia, prawa i nakazy, abyś żył i mnożył się, a Pan, Bóg twój, będzie ci błogosławił w kraju, który idziesz posiąść.\nAle jeśli swe serce odwrócisz, nie usłuchasz, zbłądzisz i będziesz oddawał pokłon cudzym bogom, służąc im - oświadczam wam dzisiaj, że na pewno zginiecie, niedługo zabawicie na ziemi, którą idziecie posiąść, po przejściu Jordanu.\nBiorę dziś przeciwko wam na świadków niebo i ziemię, kładę przed wami życie i śmierć, błogosławieństwo i przekleństwo. Wybierajcie więc życie, abyście żyli wy i wasze potomstwo, miłując Pana, Boga swego, słuchając Jego głosu, lgnąc do Niego; bo tu jest twoje życie i długie trwanie twego pobytu na ziemi, którą Pan poprzysiągł dać przodkom twoim: Abrahamowi, Izaakowi i Jakubowi».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40, 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 17",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Pan mówi: Nawracajcie się,\nbliskie jest królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 22-25",
+      "opis": "Kto straci swe życie z mego powodu, ten je zachowa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Syn Człowieczy musi wiele wycierpieć: będzie odrzucony przez starszyznę, arcykapłanów i uczonych w Piśmie; zostanie zabity, a trzeciego dnia zmartwychwstanie».\nPotem mówił do wszystkich: «Jeśli ktoś chce iść za Mną, niech się zaprze samego siebie, niech co dnia bierze krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je, a kto straci swe życie z mego powodu, ten je zachowa. Bo cóż za korzyść dla człowieka, jeśli cały świat zyska, a siebie zatraci lub szkodę poniesie?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Pieśń ta wprowadza w atmosferę Wielkiego Postu, przypominając o potrzebie umartwienia i naśladowania Chrystusa, o czym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia i wyboru życia, które Bóg stawia przed nami w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża pragnienie pójścia za Chrystusem drogą krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość do zaparcia się siebie i ofiarowania życia Bogu, co jest odpowiedzią na wezwanie Jezusa: 'niech się zaprze samego siebie'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę pokory i oddania Bogu, co jest warunkiem naśladowania Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i postanowieniem poprawy, co jest istotą wyboru życia, o którym mówi Mojżesz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która mówi o upamiętnieniu śmierci Pana, co łączy się z zapowiedzią męki w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do zapowiedzi męki, śmierci i zmartwychwstania Syna Człowieczego z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń adoruje miłość Jezusa, która objawiła się w Jego ofierze na krzyżu, zapowiedzianej w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest prośbą o zjednoczenie z męką Chrystusa, aby doznać mocy Jego zbawienia, co jest istotą naśladowania Go.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, które jest fundamentem wyboru życia i naśladowania Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to pieśń dziękczynna za Boże miłosierdzie, które pozwala nam podjąć krzyż i iść za Jezusem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń o charakterze pokutnym, wzywająca do błagania Boga ze skruchą, co jest istotą wezwania do wyboru życia z pierwszego czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem pójścia za Jezusem i wzięcia swojego krzyża.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, które są znakiem wyboru życia i naśladowania Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wybór życia, o którym mówi pierwsze czytanie, oznacza powstanie z grzechu i powrót do Ojca, co jest tematem tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem i niesienia z Nim krzyża, co jest głównym przesłaniem Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest prośbą o miłosierdzie, potrzebne do podjęcia codziennego krzyża.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny prosi o łaskę, by czas pokuty był czasem wyboru życia i naśladowania Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

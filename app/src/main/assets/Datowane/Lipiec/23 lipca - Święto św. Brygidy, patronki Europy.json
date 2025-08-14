@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 16,1-2a i 5.7-8.11",
-      "opis": "Refren:",
-      "tekst": "Pan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie Boże, bo chronię się do Ciebie,\nmówię do Pana: „Ty jesteś Panem moim”.\nPan moim dziedzictwem i przeznaczeniem,\nto On mój los zabezpiecza.\nBłogosławię Pana, który dał mi rozsądek,\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy,\nOn jest po mojej prawicy, nic mną nie zachwieje.\nTy ścieżkę życia mi ukażesz,\npełnię Twojej radości\ni wieczną rozkosz\npo Twojej prawicy."
+      "opis": "",
+      "tekst": "Refren:\nPan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie Boże, bo chronię się do Ciebie,\nmówię do Pana: „Ty jesteś Panem moim”.\nPan moim dziedzictwem i przeznaczeniem,\nto On mój los zabezpiecza.\nBłogosławię Pana, który dał mi rozsądek,\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy,\nOn jest po mojej prawicy, nic mną nie zachwieje.\nTy ścieżkę życia mi ukażesz,\npełnię Twojej radości\ni wieczną rozkosz\npo Twojej prawicy."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,21 +36,69 @@
       "moment": "wejscie"
     },
     {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, o którym mówi św. Paweł: 'żyje we mnie Chrystus'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem oddania się Bogu, który jest naszym dziedzictwem, jak wyznaje psalmista.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "632",
       "piesn": "Wszystko Tobie oddać pragnę",
       "opis": "Pieśń o całkowitym oddaniu się Bogu doskonale koresponduje z pierwszym czytaniem mówiącym 'żyje we mnie Chrystus'.",
       "moment": "ofiarowanie"
     },
     {
-      "numer": "594",
-      "piesn": "Być bliżej Ciebie chcę",
-      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, co jest istotą Komunii Świętej i tematem Ewangelii o krzewie winnym.",
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Jest to akt ofiarowania siebie Bogu, aby żyć dla Niego, na wzór św. Brygidy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "W odpowiedzi na dar życia w Chrystusie, ofiarujemy Mu nasze serca, aby w nich królował.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest źródłem trwania w Chrystusie, które pozwala przynosić owoc obfity.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "267",
+      "piesn": "Pomiędzy lud swój idzie",
+      "opis": "Chrystus przychodzi w Komunii, aby w nas trwać i uzdalniać nas do przynoszenia owoców miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreślająca osobistą relację i wiarę w obecność Chrystusa, co jest kluczowe w 'trwaniu w Nim'.",
       "moment": "komunia"
     },
     {
       "numer": "773",
       "piesn": "Ubi caritas et amor",
       "opis": "Prosta pieśń o miłości, która jest z Boga, stanowi dziękczynienie za dar trwania w miłości Chrystusa, o którym mówi aklamacja i Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar wiary i życia w Chrystusie, którego doświadczyła św. Brygida.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Pana, który jest naszym dziedzictwem i pełnią radości, jak mówi psalm.",
       "moment": "uwielbienie"
     },
     {
@@ -63,12 +111,36 @@
       "numer": "633",
       "piesn": "Za rękę weź mnie, Panie",
       "opis": "Pieśń wyraża ufne powierzenie się Bogu, co jest echem psalmu responsoryjnego 'Pan mym dziedzictwem'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy trwając w Chrystusie, mogli przynosić owoce na chwałę Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Trwanie w Chrystusie i przynoszenie owocu jest najgłębszym wyrazem przykazania miłości.",
       "moment": "ogolne"
     },
     {
-      "numer": "283",
-      "piesn": "Zbliżam się w pokorze",
-      "opis": "Pieśń eucharystyczna podkreślająca osobistą relację i wiarę w obecność Chrystusa, co jest kluczowe w 'trwaniu w Nim'.",
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Psalm responsoryjny mówi o Bogu jako naszym dziedzictwie, a ta pieśń rozwija ten motyw, ukazując Go jako troskliwego Pasterza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem trwania w Chrystusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "576",
+      "piesn": "Błogosławione serca",
+      "opis": "Pieśń sławi tych, którzy płoną miłością do Boga, co jest doskonałym opisem życia św. Brygidy.",
       "moment": "ogolne"
     }
   ]

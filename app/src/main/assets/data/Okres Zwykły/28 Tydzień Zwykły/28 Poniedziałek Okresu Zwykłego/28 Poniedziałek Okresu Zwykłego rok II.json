@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416405.Poniedzialek-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 4, 22-24. 26-27. 31 - 5, 1",
+      "opis": "Nie jesteśmy dziećmi niewolnicy, ale wolnej",
+      "tekst": "Bracia:\nNapisane jest, że Abraham miał dwóch synów, jednego z niewolnicy, a drugiego z wolnej. Lecz ten z niewolnicy urodził się tylko według ciała, ten zaś z wolnej - na skutek obietnicy.\nWydarzenia te mają jeszcze sens alegoryczny: niewiasty te wyobrażają dwa przymierza; jedno, zawarte pod górą Synaj, rodzi ku niewoli, a wyobraża je Hagar. Natomiast górne Jeruzalem cieszy się wolnością i ono jest naszą matką.\nWszak napisane jest: «Wesel się, niepłodna, która nie rodziłaś, wykrzykuj z radości, która nie znałaś bólów rodzenia, bo więcej dzieci ma samotna niż ta, która żyje z mężem».\nTak to, bracia, nie jesteśmy dziećmi niewolnicy, ale wolnej. Ku wolności wyswobodził nas Chrystus. A zatem trwajcie w niej i nie poddawajcie się na nowo pod jarzmo niewoli!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 113 (112), 1b-2. 3-4. 5a i 6-7 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech imię Pana będzie pochwalone.\nChwalcie, słudzy Pańscy, *\nchwalcie imię Pana.\nNiech imię Pana będzie błogosławione *\nteraz i na wieki.\nRefren.\nOd wschodu aż do zachodu słońca *\nniech będzie pochwalone imię Pana.\nPan jest wywyższony ponad wszystkie ludy, *\nponad niebiosa sięga Jego chwała.\nRefren.\nKto jest jak nasz Pan Bóg, *\nco w dół spogląda na niebo i na ziemię?\nPodnosi z prochu nędzarza *\ni dźwiga z gnoju ubogiego.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 29-32",
+      "opis": "Znak Jonasza",
+      "tekst": "Gdy tłumy się gromadziły, Jezus zaczął mówić: «To plemię jest plemieniem przewrotnym. Żąda znaku, ale żaden znak nie będzie mu dany, prócz znaku Jonasza. Jak bowiem Jonasz stał się znakiem dla mieszkańców Niniwy, tak będzie Syn Człowieczy dla tego plemienia.\nKrólowa z południa powstanie na sądzie przeciw ludziom tego plemienia i potępi ich; ponieważ ona z krańców ziemi przybyła słuchać mądrości Salomona, a oto tu jest coś więcej niż Salomon.\nLudzie z Niniwy powstaną na sądzie przeciw temu plemieniu i potępią je; ponieważ oni dzięki nawoływaniu Jonasza się nawrócili, a oto tu jest coś więcej niż Jonasz».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, co jest głównym tematem psalmu responsoryjnego 'Niech imię Pana będzie pochwalone'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta jest radosnym hymnem na cześć Boga, który podnosi z prochu nędzarza, jak śpiewa psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały dla Boga, który jest wywyższony ponad wszystkie ludy, jak głosi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec daru wolności, o którym mówi pierwsze czytanie, ta pieśń jest aktem ofiarowania Bogu całego siebie w postawie dziecka wolnego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest odpowiedzią na dar wolności, który otrzymaliśmy w Chrystusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu owoce naszej pracy jako dzieci wolnej, a nie niewolnicy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń łączy Komunię ze Zmartwychwstaniem, które jest 'znakiem Jonasza' zapowiedzianym w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Zmartwychwstanie Chrystusa jest centralnym 'znakiem Jonasza' dla wszystkich pokoleń, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń o Zmartwychwstaniu jest wyznaniem wiary w to, co jest 'znakiem Jonasza' i sercem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wolności w Chrystusie, który wyzwolił nas z niewoli, o czym pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar Bożych łask, w tym za dar bycia dziećmi wolnej, a nie niewolnicy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże dzieła, o których mówi psalm, a których szczytem jest dar wolności w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na wezwanie Jezusa, by nie być 'plemieniem przewrotnym', ale przyjąć Jego słowo i się nawrócić.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest echem postawy mieszkańców Niniwy, których Jezus stawia za wzór.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię, co jest istotą odpowiedzi na 'znak Jonasza', którym jest sam Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest 'górnym Jeruzalem' i naszą matką, o której pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest kluczem do przyjęcia 'znaku Jonasza' i do życia w wolności dzieci Bożych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus jest naszą nadzieją i źródłem wolności, o której mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest większy niż Jonasz i Salomon.",
+      "moment": "ogolne"
+    }
+  ]
+}

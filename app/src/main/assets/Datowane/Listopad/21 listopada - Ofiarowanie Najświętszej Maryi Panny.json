@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://www.paulus.org.pl/u111,ofiarowanie-najswietszej-maryi-panny-wspomnienie",
+  "tytul_dnia": "21 listopada - Ofiarowanie Najświętszej Maryi Panny",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 2, 14-17",
+      "opis": "Ciesz się i raduj, Córo Syjonu, bo już idę",
+      "tekst": "«Ciesz się i raduj, Córo Syjonu, bo już idę i zamieszkam pośród ciebie, mówi Pan. Wówczas liczne narody przyznają się do Pana i będą ludem Jego, i zamieszkają pośród ciebie, a ty poznasz, że Pan Zastępów mnie posłał do ciebie». Tak więc Pan zawładnie Juda jako swoim dziedzictwem w Ziemi Świętej i wybierze sobie znów Jeruzalem. Zamilknij, wszelkie ciało, przed obliczem Pana, bo już powstaje ze świętego miejsca swego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Łk 1, 46-48. 49-50. 51-53. 54-55",
+      "opis": "",
+      "tekst": "Refren: Bądź pochwalona, Boża Rodzicielko.\nWielbi dusza moja Pana, * i raduje się duch mój w Bogu, Zbawcy moim.\nBo wejrzał na uniżenie swojej służebnicy. * Oto bowiem odtąd błogosławić mnie będą wszystkie pokolenia.\nRefren.\nGdyż wielkie rzeczy uczynił mi Wszechmocny, * święte jest imię Jego.\nJego miłosierdzie z pokolenia na pokolenie * nad tymi, co się Go boją.\nRefren.\nOkazał moc swego ramienia, rozproszył pyszniących się zamysłami serc swoich.\nStrącił władców z tronu, a wywyższył pokornych.\nGłodnych nasycił dobrami, a bogatych z niczym odprawił.\nRefren.\nUjął się za swoim sługą, Izraelem, pomny na swe miłosierdzie.\nJak przyobiecał naszym ojcom, Abrahamowi i jego potomstwu na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego i zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 46-50",
+      "opis": "Prawdziwa rodzina Jezusa",
+      "tekst": "Gdy Jezus przemawiał do tłumów, oto Jego Matka i bracia stanęli na dworze i chcieli z Nim mówić. Ktoś rzekł do Niego: «Oto Twoja Matka i Twoi bracia stoją na dworze i chcą mówić z Tobą». Lecz On odpowiedział temu, który Mu to oznajmił: «Któż jest moją matką i którzy są moimi braćmi?» I wyciągnąwszy rękę ku swoim uczniom, rzekł: «Oto moja matka i moi bracia. Bo kto pełni wolę Ojca mojego, który jest w niebie, ten Mi jest bratem, siostrą i matką».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "326",
+      "piesn": "Chwalcie łąki umajone",
+      "opis": "Pieśń wzywająca całe stworzenie do chwalenia Maryi, co nawiązuje do Jej ofiarowania się Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "329",
+      "piesn": "Cześć Maryi",
+      "opis": "Radosna pieśń na cześć Maryi, która od najmłodszych lat była poświęcona Bogu, co stanowi istotę dzisiejszego wspomnienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "343",
+      "piesn": "Już od rana rozśpiewana",
+      "opis": "Pieśń ta wzywa do nieustannej chwały Maryi, której całe życie było hymnem na cześć Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Pieśń mszalna dedykowana świętom maryjnym, idealna na przygotowanie darów w dzień Ofiarowania NMP.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, na wzór ofiarowania Maryi w świątyni, składamy Jej w darze nasze serca i myśli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta wyraża pragnienie całkowitego oddania się Bogu, którego najdoskonalszym wzorem jest Maryja.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "400",
+      "piesn": "Witaj, Święta i Poczęta",
+      "opis": "Choć pieśń dotyczy Niepokalanego Poczęcia, jej treść o czystości i świętości Maryi pasuje do tajemnicy Jej ofiarowania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń ta, prosząc Maryję o opiekę, przypomina, że Jej ofiarowanie było początkiem drogi do Bożego Macierzyństwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń oparta na Pozdrowieniu Anielskim, które jest zapowiedzią pełnego łaski życia Maryi, poświęconego Bogu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń ta jest codziennym aktem wysławiania Maryi, co jest echem Jej całkowitego oddania się Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest najdoskonalszym uwielbieniem Boga za wielkie rzeczy, które uczynił w życiu Maryi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Uroczysty hymn chwały na cześć Maryi, której ofiarowanie w świątyni było początkiem Jej drogi do niebieskiej chwały.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna, która w uroczysty sposób oddaje cześć Matce Bożej, co pasuje do zakończenia liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "350",
+      "piesn": "Maryjo Matko",
+      "opis": "Pieśń o charakterze osobistego zawierzenia, inspirowana postawą całkowitego oddania się Maryi Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Pieśń ta, czcząc Maryję jako Królową Polski, przypomina, że Jej królowanie wynika z Jej postawy służebnicy Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "Pieśń podkreślająca macierzyńską opiekę Maryi, która jest owocem Jej całkowitego zawierzenia Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "347",
+      "piesn": "Maryjo, coś jest w niebie",
+      "opis": "W tej pieśni prosimy Maryję o pomoc w naśladowaniu Jej cnót, zwłaszcza Jej czystości i oddania Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "325",
+      "piesn": "Chcę, Maryjo, służyć Tobie",
+      "opis": "Pieśń jest odpowiedzią na przykład Maryi, wyrażając pragnienie służenia Jej i Jej Synowi przez całe życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Psalm responsoryjny jest kantykiem Maryi, a ta pieśń jest jego parafrazą, idealnie wpisującą się w liturgię.",
+      "moment": "ogolne"
+    }
+  ]
+}

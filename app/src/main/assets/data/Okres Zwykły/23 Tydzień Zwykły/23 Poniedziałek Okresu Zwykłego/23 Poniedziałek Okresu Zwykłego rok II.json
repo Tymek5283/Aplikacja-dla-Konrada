@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424667.Poniedzialek-23-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "23 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 5, 1-8",
+      "opis": "Zgorszenie należy usunąć z Kościoła",
+      "tekst": "Bracia:\nSłyszy się powszechnie o rozpuście między wami, i to o takiej rozpuście, jaka się nie zdarza nawet wśród pogan; mianowicie, że ktoś żyje z żoną swego ojca. A wy unieśliście się pychą, zamiast z ubolewaniem żądać, by usunięto spośród was tego, który się dopuścił wspomnianego czynu. Ja zaś, nieobecny wprawdzie ciałem, ale obecny duchem, już potępiłem, tak jakbym był wśród was, sprawcę owego przestępstwa. Przeto wy, zebrawszy się razem w imię Pana naszego, Jezusa, w łączności z duchem moim i z mocą Pana naszego, Jezusa, wydajcie takiego Szatanowi na zatracenie ciała, lecz ku ratunkowi jego ducha w dzień Pana Jezusa.\nWcale nie macie się czym szczycić! Czyż nie wiecie, że odrobina kwasu całe ciasto zakwasza? Wyrzućcie więc stary kwas, abyście się stali nowym ciastem, bo przecież przaśni jesteście. Chrystus bowiem został złożony w ofierze jako nasza Pascha. Tak przeto odprawiajmy święto nasze, nie przy użyciu starego kwasu złości i przewrotności, lecz na przaśnym chlebie czystości i prawdy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 5, 5-6a. 6b-7. 12 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, w swej sprawiedliwości.\nTy nie jesteś Bogiem, *\nktóremu miła nieprawość,\nzły nie może przebywać u Ciebie, *\nnie ostoją się przed Tobą nieprawi.\nRefren.\nNienawidzisz wszystkich, *\nktórzy zło czynią.\nZgubę zsyłasz na każdego, kto kłamie. *\nPan brzydzi się człowiekiem podstępnym i krwawym.\nRefren.\nAle wszyscy, którzy uciekają się do Ciebie, *\nniech się cieszą i radują na zawsze.\nOsłaniaj ich, niech się Tobą weselą *\nwszyscy, którzy miłują Twe imię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 6-11",
+      "opis": "Uzdrowienie w szabat",
+      "tekst": "W szabat Jezus wszedł do synagogi i nauczał. A był tam człowiek, który miał uschłą prawą rękę. Uczeni zaś w Piśmie i faryzeusze śledzili Go, czy w szabat uzdrawia, żeby znaleźć powód do oskarżenia Go.\nOn wszakże znał ich myśli i rzekł do człowieka, który miał uschłą rękę: «Podnieś się i stań na środku!» Podniósł się i stanął. Wtedy Jezus rzekł do nich: «Pytam was: Czy wolno w szabat czynić coś dobrego, czy coś złego, życie ocalić czy zniszczyć?» I spojrzawszy dokoła po wszystkich, rzekł do niego: «Wyciągnij rękę!» Uczynił to, i jego ręka stała się znów zdrowa.\nOni zaś wpadli w szał i naradzali się między sobą, jak mają postąpić wobec Jezusa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, co jest konieczne w obliczu grzechu i zgorszenia, o którym mówi św. Paweł w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do pokuty i odnowy życia jest adekwatne w kontekście grzechu we wspólnocie, opisanego w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia i powrotu do Ojca, co jest warunkiem życia w czystości, do której wzywa św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna wyraża prośbę o oczyszczenie i przebaczenie, co jest warunkiem godnego życia we wspólnocie Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem żalu za grzechy i postanowieniem poprawy, co jest odpowiedzią na wezwanie do usunięcia 'starego kwasu'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa o stworzenie serca czystego jest fundamentem życia 'na przaśnym chlebie czystości i prawdy'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o obmycie z win i ocalenie, co odnosi się do uzdrowienia człowieka w Ewangelii i potrzeby oczyszczenia wspólnoty w Koryncie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii w postawie pokory jest aktem wiary w Chrystusa, naszą Paschę, który uwalnia nas od grzechu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa o uświęcenie przez Ciało i Krew Chrystusa jest prośbą o siłę do życia w czystości i prawdzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest aktem dziękczynienia za Bożą opiekę, która chroni nas od zła, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Dziękczynienie Bogu za Jego dary jest wyrazem wdzięczności za ocalenie i uzdrowienie, którego doświadczył człowiek z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus, nasza Pascha, ofiaruje się za nas.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i czynienie dobra, o których mówi pieśń, są odpowiedzią na pytanie Jezusa: 'Czy wolno w szabat czynić coś dobrego, czy coś złego?'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie drogą sprawiedliwości jest echem refrenu psalmu i postawy człowieka, który zaufał Jezusowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo na trud codziennego życia w czystości i prawdzie, do czego wzywa św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców nawrócenia jest odpowiedzią na potrzebę usunięcia zła ze wspólnoty.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest pocieszeniem dla tych, którzy starają się żyć w sprawiedliwości, jakiej domaga się Bóg.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłość i jedność są lekarstwem na zgorszenie i podziały, przed którymi ostrzega św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest sprawiedliwy i brzydzi się nieprawością, jak głosi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

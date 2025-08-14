@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 24,7-8.9-10",
-      "opis": "Refren:",
-      "tekst": "Pan Bóg Zastępów, On jest Królem chwały.\nBramy, podnieście swe szczyty,\nunieście się odwieczne podwoje,\naby mógł wkroczyć Król chwały.\nKto jest tym Królem chwały?\nPan dzielny i potężny,\nPan potężny w boju.\nBramy, podnieście swe szczyty,\nunieście się odwieczne podwoje,\naby mógł wkroczyć Król chwały.\nKto jest tym Królem chwały?\nPan Zastępów: On jest Królem chwały."
+      "opis": "",
+      "tekst": "Refren:\nPan Bóg Zastępów, On jest Królem chwały.\nBramy, podnieście swe szczyty,\nunieście się odwieczne podwoje,\naby mógł wkroczyć Król chwały.\nKto jest tym Królem chwały?\nPan dzielny i potężny,\nPan potężny w boju.\nBramy, podnieście swe szczyty,\nunieście się odwieczne podwoje,\naby mógł wkroczyć Król chwały.\nKto jest tym Królem chwały?\nPan Zastępów: On jest Królem chwały."
     },
     {
       "typ": "DRUGIE CZYTANIE(Gdy święto jest obchodzone w niedzielę)",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Pieśń ta oddaje cześć Chrystusowi Królowi, który jako Dziecię wkracza do swojej świątyni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o przyjściu Pana, który przybywa, by królować, co zapowiada proroctwo Malachiasza.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "387",
       "piesn": "Przy obchodzie",
       "opis": "Pieśń mszalna o charakterze maryjnym, która bezpośrednio łączy ofiarę Maryi w świątyni z Ofiarą eucharystyczną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "W tej pieśni prosimy o przemianę darów, tak jak Symeon i Anna rozpoznali w Dzieciątku Zbawiciela świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "Pieśń ta jest ofiarowaniem naszych serc Maryi, która w świątyni ofiarowała Bogu swojego Syna.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jezus, ofiarowany w świątyni jako 'światło na oświecenie pogan', w Eucharystii staje się pokarmem dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoracyjna, która pomaga rozpoznać w Hostii tego samego Zbawiciela, którego Symeon wziął w objęcia.",
+      "moment": "komunia"
+    },
+    {
       "numer": "701",
       "piesn": "Chrystus Pan karmi nas",
       "opis": "Pieśń oparta na hymnie Magnificat, który wyraża dziękczynienie za wielkie dzieła Boże, podobnie jak czynili to Symeon i Anna w świątyni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń wzywająca do codziennego wysławiania Maryi, która przyniosła do świątyni Zbawiciela świata.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały, który jest odpowiedzią na objawienie się 'światła na oświecenie pogan' w osobie Dzieciątka Jezus.",
       "moment": "uwielbienie"
     },
     {
@@ -66,21 +114,39 @@
       "moment": "rozeslanie"
     },
     {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Bożej Rodzicielki, która uczy nas przyjmować i rozważać słowo Boże w sercu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "350",
+      "piesn": "Maryjo Matko",
+      "opis": "Pieśń o charakterze osobistego zawierzenia Maryi, która jest wzorem posłuszeństwa Prawu Bożemu.",
+      "moment": "rozeslanie"
+    },
+    {
       "numer": "326",
       "piesn": "Chwalcie łąki umajone",
       "opis": "Radosna pieśń maryjna, która podkreśla rolę Maryi jako Pani świata, co jest zgodne z duchem święta.",
       "moment": "ogolne"
     },
     {
-      "numer": "406",
-      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
-      "opis": "Klasyczna pieśń maryjna, która może być wykorzystana w dowolnym momencie liturgii jako wyraz czci dla Matki Bożej.",
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Symeon i Anna, ludzie prawi i pobożni, są przykładem tych, którzy dostąpili błogosławieństwa oglądania Zbawiciela.",
       "moment": "ogolne"
     },
     {
-      "numer": "241",
-      "piesn": "Jam jest chlebem żywym",
-      "opis": "Pieśń eucharystyczna, która przypomina, że Jezus, ofiarowany w świątyni, jest Chlebem dającym życie wieczne.",
+      "numer": "230",
+      "piesn": "Światłości wieczna",
+      "opis": "Nawiązuje do słów Symeona o Jezusie jako 'świetle na oświecenie pogan'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "263",
+      "piesn": "Pan zstąpił z nieba",
+      "opis": "Pieśń mówi o Bogu, który przychodzi do swojego ludu, co jest istotą święta Ofiarowania Pańskiego.",
       "moment": "ogolne"
     }
   ]

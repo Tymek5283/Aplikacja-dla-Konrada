@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, który, jak mówi pierwsze czytanie, 'sam przychodzi, by was zbawić'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla, który przychodzi, aby uzdrowić i zbawić swój lud.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "4",
       "piesn": "Oto Pan przybywa",
       "opis": "Pieśń ta wzywa do przygotowania serc, by Pan mógł w nich zamieszkać i dokonać cudu uzdrowienia, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Uzdrowienie paralityka jest znakiem odpuszczenia grzechów, a ta pieśń wzywa do nawrócenia, które otwiera na Bożą łaskę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia i powrotu do Ojca, co jest warunkiem duchowego uzdrowienia.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "10",
-      "piesn": "W tym świętym oczekiwaniu",
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa, który wzywa do siebie obciążonych, a uzdrowienie paralityka jest tego widocznym znakiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, który ma moc odpuszczania grzechów i uzdrawiania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
       "opis": "Pieśń ta wyraża dziękczynienie za zbawienie, które objawia się w cudach Jezusa opisanych w Ewangelii, zapowiedzianych przez Izajasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Tłum w Ewangelii 'wielbił Boga', a ta pieśń jest radosnym hymnem uwielbienia za Jego zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wyraża tęsknotę za Bogiem, który przychodzi z pomocą, jak obiecuje w pierwszym czytaniu.",
       "moment": "uwielbienie"
     },
     {
       "numer": "8",
       "piesn": "Przyjdź, Panie Jezu",
       "opis": "Pieśń jest prośbą o przyjście Pana, który jako jedyny może nas ocalić, co jest głównym przesłaniem liturgii dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, który przychodzi, aby nas zbawić, co jest centralną prawdą Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Izajasza o powrocie odkupionych na Syjon.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń przypomina o konieczności przygotowania serc na przyjście Pana, który przynosi uzdrowienie i odpuszczenie grzechów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Jezus w Ewangelii lituje się nad paralitykiem, co jest znakiem miłosierdzia dla ubogich i cierpiących, o których mówią błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Zbawicielem, który przychodzi, by uleczyć nasze słabości.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414670.Sobota-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "3 J 5-8",
+      "opis": "Pomagać głosicielom prawdy",
+      "tekst": "Ty, umiłowany Gajusie, postępujesz w duchu wiary, gdy pomagasz braciom, a zwłaszcza przybywającym skądinąd. Oni to zaświadczyli o twej miłości wobec Kościoła; dobrze uczynisz, zaopatrując ich na drogę, zgodnie z wolą Boga. Przecież wyruszyli w drogę dla imienia Jego, nie przyjmując niczego od pogan. Powinniśmy zatem gościć takich ludzi, aby wspólnie z nimi pracować dla prawdy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 3-4. 5-6 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Błogosławiony ten, kto służy Panu.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nDobrobyt i bogactwo będą w jego domu, *\na jego sprawiedliwość będzie trwała zawsze.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nRefren.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje *\ni pozostanie w wiecznej pamięci.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tes 2, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bóg wezwał nas przez Ewangelię,\nabyśmy dostąpili chwały Pana naszego, Jezusa Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 18, 1-8",
+      "opis": "Wytrwałość w modlitwie",
+      "tekst": "Jezus opowiedział swoim uczniom przypowieść o tym, że zawsze powinni się modlić i nie ustawać: «W pewnym mieście żył sędzia, który Boga się nie bał i nie liczył się z ludźmi. W tym samym mieście żyła wdowa, która przychodziła do niego z prośbą: „Obroń mnie przed moim przeciwnikiem!” Przez pewien czas nie chciał; lecz potem rzekł do siebie: „Chociaż Boga się nie boję ani z ludźmi się nie liczę, to jednak, ponieważ naprzykrza mi się ta wdowa, wezmę ją w obronę, żeby nie nachodziła mnie bez końca i nie zadręczała mnie”».\nI Pan dodał: «Słuchajcie, co mówi ten niesprawiedliwy sędzia. A Bóg, czyż nie weźmie w obronę swoich wybranych, którzy dniem i nocą wołają do Niego, i czy będzie zwlekał w ich sprawie? Powiadam wam, że prędko weźmie ich w obronę. Czy jednak Syn Człowieczy znajdzie wiarę na ziemi, gdy przyjdzie?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Pieśń jest błaganiem o Boże zmiłowanie, co jest postawą wytrwałej wdowy z Ewangelii, która wołała do sędziego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa po pociechę i ratunek, co odzwierciedla postawę wdowy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża postawę wytrwałego oczekiwania i ufności w Boże wysłuchanie, do czego zachęca Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ta jest ofiarowaniem Bogu owoców naszej pracy, przez którą, jak uczy pierwsze czytanie, wspieramy głosicieli prawdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, aby On je umocnił do wytrwałej modlitwy i czynienia dobra, o czym mówią czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "W tej pieśni zanosimy nasze prośby do Boga, który, jak zapewnia Jezus w Ewangelii, zawsze wysłuchuje swoich wybranych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest pokarmem umacniającym naszą wiarę i wytrwałość w modlitwie, do której wzywa Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest mocnym wyznaniem wiary, której Jezus będzie szukał, gdy przyjdzie na ziemię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wyrazem wytrwałej modlitwy i wołania do Pana, do czego zachęca Jezus w przypowieści.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą wierność i wysłuchanie modlitw, o czym zapewnia Jezus w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która pozwala nam wytrwale modlić się i ufać w Bożą pomoc.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń jest aktem wdzięczności za Bożą dobroć i opiekę, o której przypomina psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ewangelia kończy się pytaniem o wiarę, a ta pieśń jest naszą odpowiedzią i prośbą o jej umocnienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń jest wyrazem zaufania w Bożą opiekę, która jest owocem wytrwałej modlitwy i wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń jest odpowiedzią na zachętę Jezusa do nieustannej modlitwy i czuwania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń błagalna, która jest echem wołania wdowy i wszystkich, którzy dniem i nocą wołają do Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest wyrazem ufności w Boże prowadzenie i opiekę, o którą prosimy w wytrwałej modlitwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem modlitwy i zawierzenia, do którego zachęca Jezus w dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wytrwała modlitwa, o której mówi Ewangelia, jest drogą do zjednoczenia z Bogiem, co wyraża ta pieśń.",
+      "moment": "ogolne"
+    }
+  ]
+}

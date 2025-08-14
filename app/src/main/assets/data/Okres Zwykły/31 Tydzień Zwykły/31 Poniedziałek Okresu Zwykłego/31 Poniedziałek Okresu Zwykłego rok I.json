@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414880.Poniedzialek-31-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "31 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 11, 29-36",
+      "opis": "Niepojęte drogi Boże",
+      "tekst": "Bracia:\nDary łaski i wezwanie Boże są nieodwołalne. Podobnie bowiem jak wy niegdyś byliście nieposłuszni Bogu, teraz zaś z powodu ich nieposłuszeństwa dostąpiliście miłosierdzia, tak i oni stali się teraz nieposłuszni z powodu okazanego wam miłosierdzia, aby i sami w czasie obecnym mogli dostąpić miłosierdzia. Albowiem Bóg poddał wszystkich nieposłuszeństwu, aby wszystkim okazać swe miłosierdzie.\nO głębokości bogactw, mądrości i wiedzy Boga! Jakże niezbadane są Jego wyroki i nie do wyśledzenia Jego drogi! Kto bowiem poznał myśl Pana, albo kto był Jego doradcą? Lub kto Go pierwszy obdarował, aby nawzajem otrzymać odpłatę?\nAlbowiem z Niego i przez Niego, i dla Niego jest wszystko. Jemu chwała na wieki! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 69 (68), 30-31. 33-34. 36-37 (R.: por. 14c)",
+      "opis": "",
+      "tekst": "Refren: W Twojej dobroci wysłuchaj mnie, Panie.\nJestem nędzny i pełen cierpienia, *\nniech pomoc Twa, Boże, mnie strzeże.\nPieśnią chcę chwalić imię Boga *\ni wielbić Go z dziękczynieniem.\nRefren.\nPatrzcie i cieszcie się, ubodzy, *\nniech ożyje serce szukających Boga.\nBo Pan wysłuchuje biednych *\ni swoimi więźniami nie gardzi.\nRefren.\nGdyż Bóg ocali Syjon i miasta Judy zbuduje, *\ntam będą mieszkać i mieć posiadłości.\nTo będzie dziedzictwem potomstwa sług Jego, *\nmiłujący Jego imię przebywać tam będą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 31b-32a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeżeli trwacie w nauce mojej,\njesteście prawdziwie moimi uczniami i poznacie prawdę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 12-14",
+      "opis": "Bezinteresowna miłość bliźniego",
+      "tekst": "Jezus powiedział do pewnego przywódcy faryzeuszów, który Go zaprosił:\n«Gdy wydajesz obiad albo wieczerzę, nie zapraszaj swoich przyjaciół ani braci, ani krewnych, ani zamożnych sąsiadów, aby cię i oni nawzajem nie zaprosili, i miałbyś odpłatę. Lecz kiedy urządzasz przyjęcie, zaproś ubogich, ułomnych, chromych i niewidomych. A będziesz szczęśliwy, ponieważ nie mają czym tobie się odwdzięczyć; odpłatę bowiem otrzymasz przy zmartwychwstaniu sprawiedliwych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych, jest doskonałym wprowadzeniem do Ewangelii o bezinteresownej miłości bliźniego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, którego niezbadane wyroki i miłosierdzie wysławia św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, które, jak mówi pierwsze czytanie, jest darem dla wszystkich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "W odpowiedzi na Ewangelię o miłości do ubogich, ta pieśń jest aktem ofiarowania naszej woli, by żyć przykazaniem miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud życia w miłości bezinteresownej, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono wyrazem miłości, która nie szuka odpłaty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Krótka pieśń 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest kwintesencją dzisiejszej Ewangelii o bezinteresownej miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłości do końca, zwłaszcza wobec ubogich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej przychodzi do nas, abyśmy mogli zapraszać Go do naszych serc i domów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "767",
+      "piesn": "Misericordias Domini",
+      "opis": "Pieśń ta jest uwielbieniem miłosierdzia Bożego, o którego niezbadanych wyrokach mówi św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń dziękczynna, która jest odpowiedzią na Boże miłosierdzie, o którym mówi św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar miłosierdzia, który Bóg okazał wszystkim przez nieposłuszeństwo niektórych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest posłaniem do głoszenia Ewangelii miłości, zwłaszcza ubogim i opuszczonym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o miłości jest ścieżką, którą chcemy podążać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców miłości i miłosierdzia, do których zachęca Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i szukania woli Bożej, która w dzisiejszej Ewangelii objawia się jako wezwanie do miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest wołaniem o Boże miłosierdzie, które jest głównym tematem pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem grzesznika o miłosierdzie, o którym z taką głębią pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która jest doskonałym podsumowaniem całej dzisiejszej liturgii słowa.",
+      "moment": "ogolne"
+    }
+  ]
+}

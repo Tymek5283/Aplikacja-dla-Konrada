@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412864.I-Niedziela-Wielkiego-Postu-rok-B",
+  "tytul_dnia": "1 Niedziela Wielkiego Postu rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 9, 8-15",
+      "opis": "Przymierze Boga z Noem po potopie",
+      "tekst": "Tak rzekł Bóg do Noego i do jego synów: «Oto Ja zawieram przymierze z wami i z waszym potomstwem, które po was będzie; z wszelką istotą żywą, która jest z wami: z ptactwem, ze zwierzętami domowymi i polnymi, jakie są przy was, ze wszystkimi, które wyszły z arki, z wszelkim zwierzęciem na ziemi. Zawieram z wami przymierze, tak iż nigdy już nie zostanie zgładzona wodami potopu żadna istota żywa i już nigdy nie będzie potopu niszczącego ziemię». Po czym Bóg dodał: «A to jest znak przymierza, które Ja zawieram z wami i każdą istotą żywą, jaka jest z wami, na wieczne czasy: Łuk mój kładę na obłoki, aby był znakiem przymierza między Mną a ziemią. A gdy rozciągnę obłoki nad ziemią i gdy ukaże się ten łuk na obłokach, wtedy wspomnę na moje przymierze, które zawarłem z wami i z wszelką istotą żywą, z każdym człowiekiem; i nie będzie już nigdy wód potopu na zniszczenie żadnego istnienia». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 6 i 7bc. 8-9 (R.: por. 10)",
+      "opis": "",
+      "tekst": "Refren: Drogi Twe, Panie, to łaska i wierność.\nDaj mi poznać Twoje drogi, Panie, *\n\nnaucz mnie chodzić Twoimi ścieżkami.\n\nProwadź mnie w prawdzie według swych pouczeń, *\n\nBoże i Zbawco, w Tobie mam nadzieję.\nRefren.\nWspomnij na swoje miłosierdzie, Panie, *\n\nna swoją miłość, która trwa od wieków.\n\nTylko o mnie pamiętaj w swoim miłosierdziu, *\n\nze względu na dobroć Twą, Panie.\nRefren.\nDobry jest Pan i łaskawy, *\n\ndlatego wskazuje drogę grzesznikom.\n\nPomaga pokornym czynić dobrze, *\n\nuczy ubogich dróg swoich.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 P 3, 18-22",
+      "opis": "Woda chrztu nas ocala",
+      "tekst": "Najdrożsi:\n\nChrystus raz jeden umarł za grzechy, sprawiedliwy za niesprawiedliwych, aby was do Boga przyprowadzić; zabity wprawdzie na ciele, ale powołany do życia przez Ducha. W Nim poszedł ogłosić zbawienie nawet duchom zamkniętym w więzieniu, niegdyś nieposłusznym, gdy za dni Noego cierpliwość Boża naczekiwała, a budowana była arka, w której niewielu, to jest osiem dusz, zostało uratowanych przez wodę. Teraz również zgodnie z tym wzorem ratuje was ona we chrzcie nie przez obmycie brudu cielesnego, ale przez zobowiązanie dobrego sumienia wobec Boga - dzięki zmartwychwstaniu Jezusa Chrystusa. On jest po prawicy Bożej, gdyż poszedł do nieba, gdzie poddani Mu zostali aniołowie i Władze, i Moce. Oto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 4b",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nie samym chlebem żyje człowiek,\n\nlecz każdym słowem, które pochodzi z ust Bożych."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 12-15",
+      "opis": "Jezus był kuszony przez Szatana, aniołowie zaś Mu usługiwali",
+      "tekst": "Duch wyprowadził Jezusa na pustynię. A przebywał na pustyni czterdzieści dni, kuszony przez Szatana, i był ze zwierzętami, aniołowie zaś Mu służyli. Gdy Jan został uwięziony, Jezus przyszedł do Galilei i głosił Ewangelię Bożą. Mówił: «Czas się wypełnił i bliskie jest królestwo Boże. Nawracajcie się i wierzcie w Ewangelię!» Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z wezwania Jezusa w Ewangelii: „nawracajmy się i wierzmy w Ewangelię”.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Jest to pieśń wzywająca do pokuty i nawrócenia, co stanowi centralne przesłanie dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia i powrotu do miłosiernego Ojca, do czego wzywa nas początek Wielkiego Postu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń mówi o wierności przymierzu z Bogiem, co nawiązuje do pierwszego czytania o przymierzu z Noem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do pokory i skruchy, co jest odpowiedzią na Boże wezwanie do nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców nawrócenia jest konkretną odpowiedzią na Boże wezwanie z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Utwór wprost odnosi się do czterdziestodniowego pobytu Jezusa na pustyni, opisanego w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która dobrze oddaje ducha Wielkiego Postu i prośbę o miłosierdzie obecną w psalmie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Przyjęcie Komunii skłania do prośby o miłosierdzie i oczyszczenie, co jest istotą wielkopostnej pokuty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Jest to pieśń wzywająca do pokuty i nawrócenia, co stanowi centralne przesłanie dzisiejszej Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą dobroć i miłosierdzie, o którym przypomina psalm i historia przymierza z Noem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń jest dziękczynieniem za dar zbawienia, który jest owocem nawrócenia i wiary w Ewangelię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o miłosierdzie i owocne przeżycie czasu pokuty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest sercem wielkopostnej modlitwy o przebaczenie i nawrócenie, do którego wzywa Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jesteśmy posłani, by w codziennym życiu realizować wezwanie do nawrócenia, prosząc Boga o siłę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która dobrze oddaje ducha Wielkiego Postu i prośbę o miłosierdzie obecną w psalmie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest sercem wielkopostnej modlitwy o przebaczenie i nawrócenie, do którego wzywa Chrystus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do słowa Pana, które jest fundamentem przymierza i wezwania do nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest aktem zawierzenia i prośbą o prowadzenie drogą nawrócenia, którą wskazuje Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

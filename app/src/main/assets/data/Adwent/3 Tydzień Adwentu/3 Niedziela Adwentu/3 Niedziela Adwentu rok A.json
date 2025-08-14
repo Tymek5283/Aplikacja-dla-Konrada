@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Izajasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, który, jak mówi pierwsze czytanie, 'sam przychodzi, by was zbawić'.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "7",
       "piesn": "Przybądź, Panie",
       "opis": "Pieśń jest odpowiedzią na pytanie uczniów Jana z Ewangelii 'Czy Ty jesteś Tym, który ma przyjść?' i wyraża naszą gotowość na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Drugie czytanie wzywa do cierpliwego oczekiwania, a ta pieśń jest modlitwą o dobre przygotowanie na przyjście Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest wezwaniem do nawrócenia i wydawania dobrych owoców, co jest odpowiedzią na nauczanie Jana Chrzciciela.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, który jest odpowiedzią na wszystkie oczekiwania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, który jest Tym, który ma przyjść.",
+      "moment": "komunia"
+    },
+    {
       "numer": "4",
       "piesn": "Oto Pan przybywa",
       "opis": "Pieśń ta, jako radosne dziękczynienie, podkreśla, że Pan nadchodzi, by nas zbawić, co jest centralną obietnicą dzisiejszych czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do wielbienia Boga za Jego sprawiedliwość, a ta pieśń jest majestatycznym hymnem chwały na cześć Stwórcy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która w Niedzielę Radości nabiera charakteru ufnego oczekiwania na bliskie już przyjście Pana.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który jest kluczową postacią Ewangelii, stanowi doskonałe podsumowanie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń opowiada o przyjściu Zbawiciela, który rozprasza ciemności, co jest echem proroctwa Izajasza o uzdrowieniu niewidomych i głuchych.",
+      "moment": "rozeslanie"
+    },
+    {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń wzywa do przygotowania serc, nawiązując do misji Jana Chrzciciela, który przygotowywał drogę Panu.",
       "moment": "ogolne"
     },
     {
-      "numer": "16",
-      "piesn": "Głos wdzięczny z nieba wychodzi",
-      "opis": "Pieśń opowiada o przyjściu Zbawiciela, który rozprasza ciemności, co jest echem proroctwa Izajasza o uzdrowieniu niewidomych i głuchych.",
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o głoszeniu Dobrej Nowiny ubogim, a pieśń o błogosławieństwach rozwija ten temat.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "768",
+      "piesn": "Pan blisko jest",
+      "opis": "Ta krótka, medytacyjna pieśń jest powtórzeniem słów z drugiego czytania 'Pan jest blisko!' i zachęca do radosnego oczekiwania.",
       "moment": "ogolne"
     }
   ]

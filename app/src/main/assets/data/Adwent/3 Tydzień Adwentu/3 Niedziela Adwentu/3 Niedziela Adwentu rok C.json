@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Sofoniasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, który, jak mówi pierwsze czytanie, 'jest pośród ciebie, Mocarz, który zbawia'.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "114",
       "piesn": "Wydawajcie owoce",
       "opis": "Pieśń jest odpowiedzią na pytanie tłumów z Ewangelii 'Cóż mamy czynić?', wzywając do uczynków miłości i nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co stanowiło centralne orędzie Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia, do którego wzywał Jan Chrzciciel, aby godnie przyjąć nadchodzącego Pana.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "14",
-      "piesn": "Córko syjońska",
-      "opis": "Pieśń jest radosnym wezwaniem, podobnym do pierwszego czytania 'Wyśpiewuj, Córo Syjońska!', na cześć nadchodzącego Króla.",
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, który chrzci Duchem Świętym i ogniem, jak zapowiada Jan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża adwentową tęsknotę za Zbawicielem, którego poprzednikiem był Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Psalm responsoryjny jest kantykiem z Księgi Izajasza, a ta pieśń, oparta na Magnificat, również jest wyrazem radości w Bogu Zbawicielu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Radosna Niedziela Adwentu jest okazją do wielbienia Boga za Jego wierność i zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która w Niedzielę Radości nabiera charakteru ufnego oczekiwania na bliskie już przyjście Pana.",
       "moment": "uwielbienie"
     },
     {
       "numer": "4",
       "piesn": "Oto Pan przybywa",
       "opis": "Pieśń wzywa do prostowania dróg życia, co jest echem nauczania Jana Chrzciciela i posłaniem na dalsze dni Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który jest kluczową postacią Ewangelii, stanowi doskonałe podsumowanie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, wzywający do nawrócenia.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń nawołuje do przygotowania serc dla nadchodzącego Pana, co jest głównym tematem nauczania Jana Chrzciciela w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia wzywa do dzielenia się z ubogimi, a pieśń o błogosławieństwach podkreśla wartość miłosierdzia.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424663.Piatek-23-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "23 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 9, 16-19. 22-27",
+      "opis": "Stałem się wszystkim dla wszystkich",
+      "tekst": "Bracia:\nNie jest dla mnie powodem do chluby to, że głoszę Ewangelię. Świadom jestem ciążącego na mnie obowiązku. Biada mi bowiem, gdybym nie głosił Ewangelii!\nGdybym to czynił z własnej woli, miałbym zapłatę, lecz jeśli działam nie z własnej woli, to tylko spełniam obowiązki szafarza. Jakąż przeto mam zapłatę? Otóż tę właśnie, że głosząc Ewangelię bez żadnej zapłaty, nie korzystam z praw, jakie mi daje Ewangelia.\nTak więc nie zależąc od nikogo, stałem się niewolnikiem wszystkich, aby tym liczniejsi byli ci, których pozyskam. Dla słabych stałem się jak słaby, by pozyskać słabych. , żeby uratować choć niektórych. Wszystko zaś czynię dla Ewangelii, by mieć w niej swój udział.\nCzyż nie wiecie, że gdy zawodnicy biegną na stadionie, wszyscy wprawdzie biegną, lecz jeden tylko otrzymuje nagrodę? Przeto tak biegnijcie, abyście ją otrzymali. Każdy, kto staje do zapasów, wszystkiego sobie odmawia; oni, aby zdobyć przemijającą nagrodę, my zaś - nieprzemijającą. Ja przeto biegnę nie jakby na oślep; walczę nie tak, jakby zadając ciosy w próżnię - lecz poskramiam moje ciało i biorę je w niewolę, abym innym głosząc naukę, sam przypadkiem nie został uznany za niezdatnego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 84 (83), 3-4. 5-6. 12 (R.: por. 2)",
+      "opis": "",
+      "tekst": "Refren: Jak miła, Panie, jest świątynia Twoja.\nDusza moja stęskniona pragnie przedsionków Pańskich, *\nserce moje i ciało radośnie wołają do Boga żywego.\nNawet wróbel znajduje swój dom, a jaskółka gniazdo, †\ngdzie złoży swe pisklęta: *\nprzy ołtarzach Twoich, Panie Zastępów, Królu mój i Boże!\nRefren.\nSzczęśliwi, którzy mieszkają w domu Twoim, Panie, *\nnieustannie wielbiąc Ciebie.\nSzczęśliwi, których moc jest w Tobie, *\nktórzy zachowują ufność w swym sercu.\nRefren.\nBo Pan Bóg jest słońcem i tarczą, *\nOn hojnie darzy łaską i chwałą,\nnie odmawia dobrodziejstw *\nżyjącym nienagannie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 39-42",
+      "opis": "Czy może niewidomy prowadzić niewidomego?",
+      "tekst": "Jezus opowiedział uczniom przypowieść:\n« Czy nie wpadną w dół obydwaj? Uczeń nie przewyższa nauczyciela. Lecz każdy, dopiero w pełni wykształcony, będzie jak jego nauczyciel.\nCzemu to widzisz drzazgę w oku swego brata, a nie dostrzegasz belki we własnym oku? Jak możesz mówić swemu bratu: „Bracie, pozwól, że usunę drzazgę, która jest w twoim oku”, podczas gdy sam belki w swoim oku nie widzisz? Obłudniku, usuń najpierw belkę ze swego oka, a wtedy przejrzysz, ażeby usunąć drzazgę z oka brata swego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna oddaje ducha pierwszego czytania, w którym św. Paweł mówi o swoim obowiązku głoszenia Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń głosi Chrystusa jako nadzieję, co jest istotą ewangelizacji, do której z zapałem wzywa św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest fundamentem misji apostolskiej, o której z pasją mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża skruchę i postanowienie poprawy, co jest warunkiem, by móc upominać brata, jak uczy Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa o czyste serce jest konieczna, aby unikać obłudy i móc z miłością upominać bliźniego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest wyrazem uznania własnej grzeszności, co jest warunkiem autentycznego życia chrześcijańskiego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory wyrażona w tej pieśni jest niezbędna, aby unikać obłudy, przed którą przestrzega Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Prośba o obmycie z win jest warunkiem owocnego przyjęcia Komunii i życia w prawdzie, bez osądzania innych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, Nauczyciela, który uczy nas patrzeć na siebie i braci z miłością.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Treść pieśni jest echem psalmu responsoryjnego, wyrażając tęsknotę za domem Pańskim.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary jest doskonałym uwielbieniem po Komunii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia pasuje do misyjnego zapału św. Pawła, który wszystko czyni dla Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że Chrystus jest naszym Nauczycielem, a my Jego uczniami, co nawiązuje do słów Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie jest wyrazem pokory i świadomości, że bez Niego możemy stać się 'ślepymi przewodnikami'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest cnotą, która chroni przed obłudą i osądzaniem braci, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń mówi o potrzebie własnego nawrócenia, zanim zaczniemy troszczyć się o nawrócenie innych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' odnosi się do wysiłku św. Pawła, który 'poskramia swoje ciało', by głosić Ewangelię.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, co jest pierwszym krokiem do usunięcia 'belki z własnego oka'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Modlitwa o czyste serce jest warunkiem, by móc uczyć grzeszników dróg Pańskich bez obłudy.",
+      "moment": "ogolne"
+    }
+  ]
+}

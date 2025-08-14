@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426613.Wtorek-XIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "13 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 19, 15-29",
+      "opis": "Zniszczenie Sodomy i Gomory",
+      "tekst": "Gdy zaczynało świtać, aniołowie przynaglali Lota, mówiąc: «Wstań, weź żonę i córki, które są przy tobie, abyś nie zginął z winy tego miasta». Kiedy zaś on zwlekał, mężowie ci chwycili go, jego żonę i dwie córki za ręce - Pan bowiem litował się nad nimi - i wyciągnęli ich, i wyprowadzili poza miasto.\nA gdy ich już wyprowadzili z miasta, rzekł jeden z nich: «Uchodź, abyś ocalił swe życie. Nie oglądaj się za siebie i nie zatrzymuj się nigdzie w tej okolicy, ale szukaj schronienia w górach, bo inaczej zginiesz!»\nAle Lot rzekł do nich: «Nie, panie mój! Jeśli darzysz twego sługę życzliwością, uczyń większą łaskę niż ta, którą mi wyświadczyłeś, ratując mi życie: bo ja nie mogę szukać schronienia w górach, aby tam nie dosięgło mnie nieszczęście i abym nie zginął. Oto jest tu w pobliżu miasto, do którego mógłbym uciec. A choć jest ono małe, w nim znajdę schronienie. Czyż nie jest ono małe? Ja zaś będę mógł ocalić życie».\nOdpowiedział mu anioł: «Przychylam się i do tej twojej prośby; nie zniszczę więc miasta, o którym mówisz. Szybko zatem schroń się w nim, bo nie mogę dokonać zniszczenia, dopóki tam nie wejdziesz». Dlatego dano temu miastu nazwę Soar.\nSłońce wzeszło już nad ziemią, gdy Lot przybył do Soaru.\nA wtedy Pan spuścił na Sodomę i Gomorę deszcz siarki i ognia pochodzący od Pana z nieba. I tak zniszczył te miasta oraz całą okolicę wraz ze wszystkimi mieszkańcami miast, a także roślinność. Żona Lota, która szła za nim, obejrzała się i stała się słupem soli.\nAbraham, wstawszy rano, udał się na to miejsce, na którym przedtem stał przed Panem. I gdy spojrzał w stronę Sodomy i Gomory i na cały obszar dokoła, zobaczył unoszący się nad ziemią gęsty dym, jak gdyby z pieca, w którym topią metal.\nTak więc Bóg, niszcząc okoliczne miasta, wspomniał o Abrahamie i ocalił Lota od zagłady, jakiej uległy te miasta, w których Lot przedtem mieszkał.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 26 (25), 2-3. 9-10. 11-12 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Twoją łaskawość zawsze mam w pamięci.\nDoświadcz mnie, Panie, wystaw mnie na próbę, *\nzbadaj me sumienie i serce.\nBo przed moimi oczyma łaskawość Twa stoi *\ni postępuję w Twojej prawdzie.\nRefren.\nNie zabieraj z grzesznymi mej duszy, *\na życia mojego z mężami krwawymi.\nW ich ręku zbrodnia, *\na ich prawica pełna jest przekupstwa.\nRefren.\nJa zaś kroczę w mojej niewinności, *\nwyzwól mnie i zmiłuj się nade mną.\nNa równej drodze stoi moja stopa, *\nna zgromadzeniach błogosławię Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 130 (129), 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pokładam nadzieję w Panu,\nufam Jego słowu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 23-27",
+      "opis": "Uciszenie burzy na jeziorze",
+      "tekst": "Gdy Jezus wszedł do łodzi, poszli za Nim Jego uczniowie.\nA oto zerwała się wielka burza na jeziorze, tak że fale zalewały łódź; On zaś spał. Wtedy przystąpili do Niego i obudzili Go, mówiąc: «Panie, ratuj, giniemy!»\nA On im rzekł: «Czemu bojaźliwi jesteście, ludzie małej wiary?» Potem, powstawszy, zgromił wichry i jezioro, i nastała głęboka cisza.\nA ludzie pytali zdumieni: «Kimże On jest, że nawet wichry i jezioro są Mu posłuszne?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu w obliczu zagrożeń, tak jak Lot został ocalony od zagłady, a uczniowie uratowani na jeziorze.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Historia ocalenia Lota jest przykładem Bożej Opatrzności, którą wysławia ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który ma moc ocalić od zagłady i panuje nad żywiołami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Wobec sądu nad Sodomą i Gomorą, ta krótka suplikacja jest wołaniem o Boże miłosierdzie i ocalenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec grozy sądu Bożego, prosimy o miłosierdzie i oczyszczenie z grzechów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu sądu Bożego, przyjmujemy postawę pokory i błagania o łaskę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Wyraża postawę bojaźni i wiary wobec Jezusa, który ucisza burzę i objawia swoją boską moc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, której doświadczyli uczniowie na jeziorze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i wiary jest odpowiedzią na objawienie się mocy Jezusa, Pana natury.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalmista pragnie postępować w prawdzie Bożej, a ta pieśń jest uwielbieniem za Bożą łaskawość, która nas prowadzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego łaskę i ocalenie, którego doświadczył Lot.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za moc Jezusa, która zwycięża chaos i przynosi pokój.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi panowanie Chrystusa nad żywiołami i całym stworzeniem, co objawiło się w uciszeniu burzy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po doświadczeniu mocy Jezusa, wychodzimy w świat, by głosić Jego królowanie nad wszelkim lękiem i zwątpieniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi, który jest naszą siłą w życiowych burzach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Jest to pieśń o zaufaniu, które jest odpowiedzią na pytanie Jezusa: 'Czemu bojaźliwi jesteście, ludzie małej wiary?'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "W życiowych burzach i ciemnościach grzechu, pragniemy być blisko Jezusa, który jest naszym ratunkiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, które jest lekarstwem na lęk i małą wiarę uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wobec grozy sądu Bożego, wznosimy nasze serca do Pana, prosząc o Jego prowadzenie i sprawiedliwość.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414671.Piatek-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 J 4-9",
+      "opis": "Kto trwa w nauce Chrystusa, ma Ojca i Syna",
+      "tekst": "Wybrana Pani, ucieszyłem się bardzo, że znalazłem wśród twych dzieci takie, które postępują według prawdy, zgodnie z przykazaniem, jakie otrzymaliśmy od Ojca.\nA teraz proszę cię, Pani, abyśmy się wzajemnie miłowali. A pisząc to - nie głoszę nowego przykazania, lecz to, które mieliśmy od początku. Miłość zaś polega na tym, abyśmy postępowali według Jego przykazań.\nJest to przykazanie, o jakim słyszeliście od początku, że według niego macie postępować. Wielu bowiem pojawiło się na świecie zwodzicieli, którzy nie uznają, że Jezus Chrystus przyszedł w ciele ludzkim. Taki jest zwodzicielem i antychrystem. Uważajcie na siebie, abyście nie utracili tego, co zdobyliście pracą, lecz żebyście otrzymali pełną zapłatę.\nKażdy, kto wybiega zbytnio naprzód, a nie trwa w nauce Chrystusa, ten nie ma Boga. Kto trwa w nauce Chrystusa, ten ma i Ojca, i Syna.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 1-2. 10-11. 17-18 (R.: por. 1)",
+      "opis": "",
+      "tekst": "Refren: Błogosławieni słuchający Pana.\nBłogosławieni, których droga nieskalana, *\nktórzy postępują zgodnie z Prawem Pańskim.\nBłogosławieni, którzy zachowują Jego napomnienia *\ni szukają Go całym sercem.\nRefren.\nZ całego serca swego szukam Ciebie, *\nnie daj mi odejść od Twoich przykazań.\nW sercu swoim zachowuję Twe słowa, *\naby nie zgrzeszyć przeciw Tobie.\nRefren.\nCzyń dobrze swemu słudze, Panie, *\naby żył i przestrzegał słów Twoich.\nOtwórz moje oczy, *\nabym podziwiał Twoje Prawo.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 21, 28bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nabierzcie ducha i podnieście głowy,\nponieważ zbliża się wasze odkupienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 26-37",
+      "opis": "Dzień Syna Człowieczego nadejdzie niespodziewanie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak działo się za dni Noego, tak będzie również za dni Syna Człowieczego: jedli i pili, żenili się i za mąż wychodziły aż do dnia, kiedy Noe wszedł do arki; a przyszedł potop i wygubił wszystkich. Podobnie jak działo się za czasów Lota: jedli i pili, kupowali i sprzedawali, sadzili i budowali, lecz w dniu, kiedy Lot wyszedł z Sodomy, spadł z nieba „deszcz ognia i siarki” i wygubił wszystkich; tak samo będzie w dniu, kiedy Syn Człowieczy się objawi.\nW owym dniu, kto będzie na dachu, a jego rzeczy w mieszkaniu, niech nie schodzi, by je zabrać; a kto na polu, niech również nie wraca do siebie. Miejcie w pamięci żonę Lota. Kto będzie się starał zachować swoje życie, straci je; a kto je straci, zachowa je.\nPowiadam wam: Tej nocy dwóch będzie na jednym posłaniu: jeden będzie wzięty, a drugi zostawiony. Dwie będą razem mleć na żarnach: jedna będzie wzięta, a druga zostawiona».\nPytali Go: «Gdzie, Panie?» On im odpowiedział: «Gdzie jest padlina, tam zgromadzą się i sępy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie podkreśla przykazanie wzajemnej miłości, które mieliśmy od początku, a ta pieśń jest jego muzycznym wyrazem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą prawdą, w której, jak mówi pierwsze czytanie, należy trwać, aby mieć Ojca i Syna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie szukania Boga i postępowania zgodnie z Jego Prawem, o czym mówi psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi przed utratą wiecznej nagrody i nagłym przyjściem Pana, ta pieśń jest aktem ofiarowania i zawierzenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, która jest dziękczynieniem za dar Ciała Pańskiego, umacniającego nas w oczekiwaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Klasyczna pieśń ofiarna, w której oddajemy cześć Bogu i składamy Mu w darze samych siebie, by być gotowymi na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Ewangelia mówi o nagłym przyjściu Pana i przemijalności ziemskich spraw, a ta pieśń przypomina, że naszą prawdziwą ojczyzną jest niebo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chrystusa w Komunii jest zaczątkiem życia wiecznego, o które walczymy, pamiętając o nagłym przyjściu Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem adoracji i wiary w obecność Chrystusa, co jest kluczowe w kontekście czuwania na Jego ostateczne przyjście.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Dziękczynienie za dar nauki Chrystusa, w której, jak mówi pierwsze czytanie, należy trwać, aby mieć Ojca i Syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże ocalenie i łaskę, która pozwala nam przygotować się na dzień ostateczny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który przyjdzie jako Sędzia, co jest głównym tematem Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "603",
+      "piesn": "Gdy mnie ranna zorza budzi",
+      "opis": "Pieśń ta, mówiąc o niepewności jutra, zachęca do powierzania się Bogu w każdej chwili, co jest odpowiedzią na wezwanie do czujności z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na codzienny trud życia w prawdzie i miłości, w oczekiwaniu na przyjście Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest niezbędna, by wytrwać w nauce Chrystusa i być gotowym na Jego przyjście, o czym mówią dzisiejsze czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym Jezus ostrzega w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem pierwszego czytania o miłości wzajemnej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do gotowości na przyjście Syna Człowieczego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża głęboką ufność w Boże słowo i miłosierdzie, co jest postawą niezbędną w obliczu Sądu Ostatecznego.",
+      "moment": "ogolne"
+    }
+  ]
+}

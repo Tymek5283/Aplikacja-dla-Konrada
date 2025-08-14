@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411050.Sroda-II-tydzien-zwykly-rok-II",
+  "tytul_dnia": "2 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 17, 32-33. 37. 40-51",
+      "opis": "Dawid zwycięża Goliata",
+      "tekst": "Dawid rzekł do Saula: «Niech niczyje serce się nie trapi! Twój sługa pójdzie stoczyć walkę z tym Filistynem». Saul odpowiedział Dawidowi: «To niemożliwe, byś stawił czoło temu Filistynowi i walczył z nim. Ty jesteś jeszcze chłopcem, a on wojownikiem od młodości». Powiedział Dawid: «Pan, który wyrwał mnie z łap lwów i niedźwiedzi, wybawi mnie również z ręki tego Filistyna». Rzekł więc Saul do Dawida: «Idź, niech Pan będzie z tobą!» Wziął w rękę swój kij, wybrał sobie pięć gładkich kamieni ze strumienia, włożył je do torby pasterskiej, którą miał, i do kieszeni, a z procą w ręce skierował się ku Filistynowi. Filistyn przybliżał się coraz bardziej do Dawida, a giermek jego szedł przed nim. Gdy Filistyn popatrzył i przyjrzał się Dawidowi, wzgardził nim dlatego, że był młodzieńcem, i to rudym, o pięknej powierzchowności. I rzekł Filistyn do Dawida: «Czyż jestem psem, że przychodzisz do mnie z kijem?» Złorzeczył Filistyn Dawidowi, przyzywając na pomoc swoich bogów. Filistyn zawołał do Dawida: «Przybliż się tylko do mnie, a ciało twoje oddam ptakom podniebnym i dzikim zwierzętom». Dawid odrzekł Filistynowi: «Ty idziesz na mnie z mieczem, dzidą i zakrzywionym nożem, ja zaś idę na ciebie w imię Pana Zastępów, Boga wojsk izraelskich, którym urągałeś. Dziś właśnie wyda cię Pan w moje ręce, pokonam cię i utnę ci głowę. Dziś oddam trupy wojsk filistyńskich na żer ptactwu podniebnemu i dzikim zwierzętom: niech się przekona cały świat, że Bóg jest w Izraelu. Niech wiedzą wszyscy zebrani, że nie mieczem ani dzidą Pan ocala. Ponieważ jest to wojna Pana, On więc wyda was w nasze ręce». I oto, gdy wstał Filistyn, szedł, zbliżając się coraz bardziej ku Dawidowi, Dawid również pobiegł szybko na pole walki naprzeciw Filistynowi. Potem sięgnął Dawid do torby pasterskiej i wyjąwszy z niej kamień, wyrzucił go z procy, trafiając Filistyna w czoło, tak że kamień utkwił w czole, i Filistyn upadł twarzą na ziemię. Tak to Dawid odniósł zwycięstwo nad Filistynem procą i kamieniem; trafił Filistyna i zabił go, nie mając w ręku miecza. Dawid podbiegł i stanął nad Filistynem, chwycił jego miecz i dobywszy z pochwy, dobił go; odrąbał mu głowę. Gdy spostrzegli Filistyni, że ich wojownik zginął, rzucili się do ucieczki. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 144 (143), 1b-2. 9-10 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Pan, Opoka moja.\nBłogosławiony Pan, Opoka moja, †\n\nOn moje ręce zaprawia do walki, *\n\nmoje palce do bitwy.\n\nOn mocą i warownią moją, osłoną moją i moim wybawcą, *\n\nmoją tarczą i schronieniem, On, który mi poddaje ludy.\nRefren.\nBoże, będę Ci śpiewał pieśń nową, *\n\ngrać Ci będę na harfie o dziesięciu strunach.\n\nTy królom dajesz zwycięstwo, *\n\nTy wyzwoliłeś Dawida, swego sługę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\n\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 1-6",
+      "opis": "Uzdrowienie w dzień szabatu",
+      "tekst": "W dzień szabatu Jezus wszedł do synagogi. Był tam człowiek, który miał uschniętą rękę. A śledzili Go, czy uzdrowi go w szabat, żeby Go oskarżyć. On zaś rzekł do człowieka z uschłą ręką: «Podnieś się na środek!» A do nich powiedział: «Co wolno w szabat: uczynić coś dobrego czy coś złego? Życie uratować czy zabić? » Lecz oni milczeli. Wtedy spojrzawszy na nich dokoła z gniewem, zasmucony z powodu zatwardziałości ich serc, rzekł do człowieka: «Wyciągnij rękę!» Wyciągnął, i ręka jego stała się znów zdrowa. A faryzeusze wyszli i ze zwolennikami Heroda zaraz się naradzali przeciwko Niemu, w jaki sposób Go zgładzić. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Panu, który jest obrońcą, co doskonale oddaje postawę Dawida przed walką z Goliatem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Nawiązuje do postaci Dawida jako pasterza, który w Bogu odnajduje swojego Wodza i Pasterza w walce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to prośba o Bożą pomoc i błogosławieństwo, które są źródłem zwycięstwa Dawida i uzdrowienia w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych trudów i zmagań, w których On, jak Dawidowi, daje nam zwycięstwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, której druga część jest modlitwą o przyjęcie ofiary, co jest istotą tego momentu Mszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na ofiarowanie, podkreślająca dar chleba i wina, które staną się Ciałem i Krwią Pańską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który w szabat przywrócił zdrowie człowiekowi z uschniętą ręką.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń eucharystyczna, która podkreśla dobroć Pana dającego się nam w Komunii jako pokarm i umocnienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Adoracyjna pieśń do Jezusa w Eucharystii, który ma moc uzdrawiać, jak to uczynił w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia za zwycięstwo, które Pan daje swojemu ludowi, tak jak w walce z Goliatem i w uzdrowieniu chorego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Bożą pomoc i ratunek, co doskonale pasuje do dziękczynienia po Komunii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn uwielbienia jest odpowiedzią na wielkie dzieła Boże ukazane w czytaniach: zwycięstwo i uzdrowienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Go szukają i w Nim pokładają nadzieję, jak Dawid.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i gotowości do walki duchowej, do której umacnia nas zwycięstwo Dawida i moc Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas w świat, abyśmy świadczyli o Jego mocy, która pokonuje wszelkie zło.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest zaproszeniem do Jezusa, który ma moc uzdrawiania i ratowania życia, nawet wbrew ludzkim przepisom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud należy uznać zwycięstwo Dawida i uzdrowienie w szabat.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla ufność w Bożą Opatrzność, która była źródłem odwagi i zwycięstwa Dawida w walce z Goliatem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Nawiązuje do postaci Dawida-pasterza i wyraża głęboką ufność w Bożą opiekę, która prowadzi do zwycięstwa.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416149.7-Niedziela-zwykla-rok-B",
+  "tytul_dnia": "7 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 43, 18-19. 21-22. 24b-25",
+      "opis": "Bóg odpuszcza grzechy",
+      "tekst": "Tak mówi Pan:\n«Nie wspominajcie wydarzeń minionych, nie roztrząsajcie w myśli dawnych rzeczy. Oto ja dokonuję rzeczy nowej; pojawia się właśnie. Czyż jej nie poznajecie? Otworzę też drogę na pustyni, ścieżyny na pustkowiu. Lud ten, który sobie utworzyłem, opowiadać będzie moją chwałę.\nLecz ty, Jakubie, nie wzywałeś Mnie, bo się Mną znudziłeś, Izraelu!\nRaczej przysporzyłeś Mi trudu twoimi grzechami, występkami twoimi Mnie zamęczasz. Ja, właśnie Ja przekreślam twe przestępstwa i nie wspominam twych grzechów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 41 (40), 2-3. 4-5. 13-14",
+      "opis": "",
+      "tekst": "Refren: Uzdrów mnie, Panie, bo bardzo zgrzeszyłem.\nBłogosławiony człowiek, który myśli o biednym, *\nPan go ocali w dniu nieszczęścia.\nPan go ustrzeże, zachowa przy życiu, †\nuczyni szczęśliwym na ziemi *\ni nie odda go w moc jego wrogów.\nRefren.\nPan mu pomoże na łożu boleści, *\npodczas choroby poprawi mu posłanie.\nMówię: «Panie, zmiłuj się nade mną, *\nuzdrów mnie, bo zgrzeszyłem przeciw Tobie!»\nRefren.\nA Ty mnie podtrzymasz dzięki mej prawości *\ni na wieki umieścisz przed Twoim obliczem.\nBłogosławiony Pan, Bóg Izraela, *\naż po wszystkie wieki.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 1, 18-22",
+      "opis": "Przez Chrystusa wypowiada się nasze \"Amen\" Bogu na chwałę",
+      "tekst": "Bracia:\nBóg mi świadkiem, że w tym, co do was mówię, nie ma równocześnie «tak» i «nie». Syn Boży, Chrystus Jezus, Ten, którego głosiłem wam ja i Sylwan, i Tymoteusz, nie był «tak» i «nie», lecz dokonało się w Nim «tak». Albowiem ile tylko obietnic Bożych, wszystkie w Nim są «tak». Dlatego też przez Niego wypowiada się nasze «Amen» Bogu na chwałę.\nTym zaś, który umacnia nas wespół z wami w Chrystusie i który nas namaścił, jest Bóg. On też wycisnął na nas pieczęć i zostawił zadatek Ducha w sercach naszych.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 1-12",
+      "opis": "Syn Człowieczy ma na ziemi władzę odpuszczania grzechów",
+      "tekst": "Gdy po pewnym czasie Jezus wrócił do Kafarnaum, posłyszano, że jest w domu. Zebrało się zatem tylu ludzi, że nawet przed drzwiami nie było miejsca, a On głosił im naukę.\nI przyszli do Niego z paralitykiem, którego niosło czterech. Nie mogąc z powodu tłumu przynieść go do Niego, odkryli dach nad miejscem, gdzie Jezus się znajdował, i przez otwór spuścili nosze, na których leżał paralityk. Jezus, widząc ich wiarę, rzekł do paralityka: «Dziecko, odpuszczone są twoje grzechy».\nA siedziało tam kilku uczonych w Piśmie, którzy myśleli w sercach swoich: «Czemu On tak mówi? On bluźni. Któż może odpuszczać grzechy, prócz jednego Boga?»\nJezus poznał zaraz w swym duchu, że tak myślą, i rzekł do nich: «Czemu myśli te nurtują w waszych sercach? Cóż jest łatwiej: powiedzieć paralitykowi: Odpuszczone są twoje grzechy, czy też powiedzieć: Wstań, weź swoje nosze i chodź? Otóż, żebyście wiedzieli, iż Syn Człowieczy ma na ziemi władzę odpuszczania grzechów - rzekł do paralityka: Mówię ci: Wstań, weź swoje nosze i idź do swego domu!»\nOn wstał, wziął zaraz swoje nosze i wyszedł na oczach wszystkich. Zdumieli się wszyscy i wielbili Boga, mówiąc: «Nigdy jeszcze nie widzieliśmy czegoś podobnego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do spotkania z Chrystusem, który ma moc odpuszczania grzechów i uzdrawiania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do miłosiernego Ojca, który odpuszcza grzechy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń błagalna, w której prosimy o Boże miłosierdzie i uzdrowienie duszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o przebaczenie, która doskonale pasuje do tematu odpuszczenia grzechów, obecnego we wszystkich czytaniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża żal za grzechy i pragnienie nawrócenia, składane w ofierze Bogu, który przekreśla nasze przestępstwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń ta jest pokorną prośbą o oczyszczenie z win, co jest warunkiem owocnego złożenia ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża wiarę w uzdrawiającą moc słowa Chrystusa, podobną do wiary przyjaciół paralityka z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który ma moc odpuszczania grzechów i uzdrawiania duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który w Eucharystii obmywa nas z win i zmaz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za Boże miłosierdzie i uzdrowienie, którego doświadczył paralityk.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar przebaczenia i nowego życia, który otrzymujemy od Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za bezmiar Bożych łask, w tym za dar odpuszczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa nad śmiercią, co zostało objawione we wskrzeszeniu córki Jaira i jest naszą nadzieją.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Po doświadczeniu uzdrowienia i przebaczenia, jesteśmy posłani, by iść drogą Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to radosne wezwanie do głoszenia chwały Boga, który czyni cuda, jak uzdrowienie paralityka.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń o charakterze pokutnym, która jest odpowiedzią na Bożą obietnicę przebaczenia z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Nawiązuje do postawy nawrócenia i powrotu do miłosiernego Ojca, który odpuszcza grzechy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "98",
+      "piesn": "Błogosławiony, komu odpuszczone",
+      "opis": "Pieśń ta jest echem psalmu i wyraża szczęście płynące z Bożego przebaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o uzdrowienie duszy, która jest głównym tematem dzisiejszej liturgii.",
+      "moment": "ogolne"
+    }
+  ]
+}

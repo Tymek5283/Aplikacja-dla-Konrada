@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418019.Sobota-25-tydzien-zwykly-rok-I",
+  "tytul_dnia": "25 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 2, 5-9. 14-15a",
+      "opis": "Odbudowana Jerozolima będzie miastem Boga",
+      "tekst": "Podniosłem oczy i patrzyłem. I oto zobaczyłem człowieka ze sznurem mierniczym w ręku. «Dokąd idziesz?» - zapytałem. A on rzekł: «Chcę przemierzyć Jerozolimę, aby poznać jej szerokość i długość».\nI wystąpił anioł, który do mnie mówił, a przed nim stanął inny anioł, któremu on nakazał: «Śpiesz się i powiedz temu młodzieńcowi: Jerozolima pozostanie bez murów, gdyż tak wiele ludzi i zwierząt w niej będzie. Ja będę dokoła niej murem ognistym - mówi Pan - a chwała moja zamieszka pośród niej».\n«Ciesz się i raduj, Córo Syjonu, bo już idę i zamieszkam pośród ciebie» - mówi Pan. Wówczas liczne narody przyznają się do Pana i będą ludem Jego, i zamieszkają pośród ciebie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Jr 31, 10. 11-12b. 13 (R.: por. 10d)",
+      "opis": "",
+      "tekst": "Refren: Pan nas obroni, tak jak pasterz owce.\nSłuchajcie, narody, słowa Pańskiego, *\ngłoście je na wyspach odległych i mówcie:\n«Ten, który rozproszył Izraela, znów go zgromadzi *\ni będzie nad nim czuwał jak pasterz nad swym stadem».\nRefren.\nPan bowiem uwolni Jakuba, *\nwybawi go z ręki silniejszego od niego.\nPrzyjdą z weselem na szczyt Syjonu *\ni rozradują się błogosławieństwem Pana.\nRefren.\nWtedy dziewica rozweseli się w tańcu *\ni młodzieńcy cieszyć się będą ze starcami.\nZamienię bowiem ich smutek w radość, *\npocieszę ich i rozweselę po ich troskach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 43b-45",
+      "opis": "Druga zapowiedź męki",
+      "tekst": "Gdy wszyscy pełni byli podziwu dla wszystkich czynów Jezusa, On powiedział do swoich uczniów: «Weźcie wy sobie dobrze do serca te słowa: Syn Człowieczy będzie wydany w ręce ludzi». Lecz oni nie rozumieli tego powiedzenia; było ono zakryte przed nimi, tak że go nie pojęli, a bali się zapytać Go o to powiedzenie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Pieśń ta jest bezpośrednim odniesieniem do wezwania z pierwszego czytania: 'Ciesz się i raduj, Córo Syjonu'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni oddaje atmosferę pierwszego czytania i psalmu, zapowiadających wyzwolenie i radość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa, mówiąca o przyjściu Pana, pasuje do obietnicy z pierwszego czytania: 'już idę i zamieszkam pośród ciebie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o Męce Pańskiej koresponduje z drugą zapowiedzią męki, która stanowi treść Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "763",
+      "piesn": "Crucem tuam",
+      "opis": "Adoracja krzyża jest odpowiedzią na zapowiedź męki i wezwaniem do naśladowania Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta, wymieniając poszczególne części cierpiącego Ciała Chrystusa, jest głęboką medytacją nad tajemnicą Paschy, zapowiedzianą w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest znakiem obecności Boga pośród swego ludu, co zapowiada prorok Zachariasz: 'zamieszkam pośród ciebie'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Komunia jest spotkaniem z Chrystusem, który, choć zapowiada swoją mękę, pozostaje z nami jako pokarm.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń łączy tajemnicę Eucharystii z ofiarą krzyża, o której Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Treść pieśni nawiązuje do psalmu responsoryjnego, który mówi o Panu gromadzącym swój lud jak pasterz stado.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, które nastąpiło po Jego męce i śmierci, zapowiedzianej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że nadzieja płynie ze zwycięstwa Chrystusa, które dokonało się przez krzyż, o którym mowa w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "340",
+      "piesn": "Jak szczęśliwa Polska cała",
+      "opis": "Jako że jest to sobota, pieśń maryjna jest stosowna, a Maryja jest uosobieniem Córki Syjonu, radującej się z obecności Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja, Matka Bolesna, jest wzorem przyjęcia zapowiedzi męki Syna w wierze i zaufaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę w trudnych chwilach, podobnych do tych, które zapowiada Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, nową Jerozolimę, łączy się z proroctwem o jej odbudowie i chwale.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest pocieszeniem w obliczu niezrozumiałej zapowiedzi męki Syna Człowieczego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta oddaje wielką radość powracających z wygnania, o której śpiewa psalm responsoryjny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Hymn do Chrystusa Króla jest odpowiedzią na zapowiedź męki, która prowadzi do chwały.",
+      "moment": "ogolne"
+    }
+  ]
+}

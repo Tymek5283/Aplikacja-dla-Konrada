@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412869.Wtorek-I-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "1 Wtorek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 55, 10-11",
+      "opis": "Skuteczność słowa Bożego",
+      "tekst": "Tak mówi Pan Bóg:\n\n«Podobnie jak ulewa i śnieg spadają z nieba i tam nie powracają, dopóki nie nawodnią ziemi, nie użyźnią jej i nie zapewnią urodzaju, tak iż wydaje nasienie dla siewcy i chleb dla jedzącego, tak słowo, które wychodzi z ust moich, nie wraca do Mnie bezowocne, zanim wpierw nie dokona tego, co chciałem, i nie spełni pomyślnie swego posłannictwa». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 4-5. 6-7. 16-17. 18-19 (R.: por. 18b)",
+      "opis": "",
+      "tekst": "Refren: Bóg sprawiedliwych wyzwala z niedoli.\nWysławiajcie razem ze mną Pana, *\n\nwspólnie wywyższajmy Jego imię.\n\nSzukałem pomocy u Pana, a On mnie wysłuchał *\n\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\n\noblicza wasze nie zapłoną wstydem.\n\nOto zawołał biedak i Pan go usłyszał, *\n\ni uwolnił od wszelkiego ucisku.\nRefren.\nOczy Pana zwrócone na sprawiedliwych, *\n\nuszy Jego otwarte na ich wołanie.\n\nPan zwraca swe oblicze przeciw zło czyniącym, *\n\nby pamięć o nich wymazać z ziemi.\nRefren.\nPan słyszy wołających o pomoc *\n\ni ratuje ich od wszelkiej udręki.\n\nPan jest blisko ludzi skruszonych w sercu, *\n\nocala upadłych na duchu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 4b",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nie samym chlebem żyje człowiek,\n\nlecz każdym słowem, które pochodzi z ust Bożych."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 6, 7-15",
+      "opis": "Jezus uczy, jak się modlić",
+      "tekst": "Jezus powiedział do swoich uczniów:\n\n«Modląc się, nie bądźcie gadatliwi jak poganie. Oni myślą, że przez wzgląd na swe wielomówstwo będą wysłuchani. Nie bądźcie podobni do nich! Albowiem wie Ojciec wasz, czego wam potrzeba, zanim jeszcze Go poprosicie. Wy zatem tak się módlcie:\n\nOjcze nasz, który jesteś w niebie, niech się święci Twoje imię! Niech przyjdzie Twoje królestwo; niech Twoja wola się spełnia na ziemi, tak jak w niebie. Naszego chleba powszedniego daj nam dzisiaj; i przebacz nam nasze winy, tak jak i my przebaczamy tym, którzy przeciw nam zawinili; i nie dopuść, abyśmy ulegli pokusie, ale nas zachowaj od złego. Jeśli bowiem przebaczycie ludziom ich przewinienia, i wam przebaczy Ojciec wasz niebieski. Lecz jeśli nie przebaczycie ludziom, Ojciec wasz nie przebaczy wam także waszych przewinień». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Ta błagalna pieśń jest wyrazem postawy modlitewnej, do której zachęca Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosty i ufny charakter tej pieśni jest odpowiedzią na zachętę Jezusa do wytrwałej modlitwy, opartej na wierze w dobroć Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Utwór ten jest muzycznym wyrazem postawy szukania Boga i modlitwy, o której naucza Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jej tekst bezpośrednio wzywa do wzajemnego przebaczenia, co jest kluczowym warunkiem postawionym przez Jezusa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Pieśń jest prośbą o przebaczenie, abyśmy sami mogli przebaczać, co jest warunkiem wysłuchania naszej modlitwy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest wołaniem o Boże miłosierdzie, które uzdalnia nas do przebaczania innym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o przebaczenie, która odzwierciedla prośbę „odpuść nam nasze winy” z Modlitwy Pańskiej, której uczy Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Przyjęcie Komunii jest powrotem do miłosiernego Ojca, który przebacza nam nasze winy, tak jak my przebaczamy innym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Parafraza Psalmu 51 jest prośbą o czyste serce, zdolne do modlitwy i przebaczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem uwielbienia za dobroć Ojca, który wysłuchuje modlitwy i przebacza winy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą wierność i wysłuchanie modlitw, o czym zapewnia nas Jezus w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń jest dziękczynieniem za dar przebaczenia i prośbą o radość zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Jako hymn wielkopostny, doskonale pasuje do charakteru dnia i prosi o Boże miłosierdzie oraz siłę do pokuty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Jesteśmy posłani, by żyć Ewangelią, której sercem jest modlitwa i przebaczenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do pokory i skruchy, co jest podstawą owocnej modlitwy, o której naucza Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Utwór ten jest muzycznym wyrazem postawy szukania Boga i modlitwy, o której naucza Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosty i ufny charakter tej pieśni jest odpowiedzią na zachętę Jezusa do wytrwałej modlitwy, opartej na wierze w dobroć Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem o Boże miłosierdzie, które jest nam potrzebne, abyśmy sami mogli przebaczać.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń o odnowieniu serca jest dobrym tłem dla nauki o modlitwie, która ma wypływać z czystego serca.",
+      "moment": "ogolne"
+    }
+  ]
+}

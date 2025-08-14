@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418126.24-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "24 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 27, 30 - 28, 7",
+      "opis": "Odpuść winę bliźniemu",
+      "tekst": "Złość i gniew są obrzydliwościami, których trzyma się grzesznik.\nTego, kto się mści, spotka pomsta od Pana, On grzechy jego dokładnie zachowa w pamięci. Odpuść przewinę bliźniemu, a wówczas, gdy błagać będziesz, zostaną ci odpuszczone grzechy.\nGdy człowiek żywi złość przeciw drugiemu, jakże u Pana szukać będzie uzdrowienia? Nie ma on miłosierdzia nad człowiekiem do siebie podobnym, jakże błagać będzie o odpuszczenie swoich własnych grzechów? Sam, będąc ciałem, trwa w nienawiści, któż więc zyska dla niego odpuszczenie grzechów? Pamiętaj o rzeczach ostatecznych i przestań nienawidzić - o rozkładzie ciała, o śmierci, i trzymaj się przykazań!\nPamiętaj o przykazaniach i nie miej w nienawiści bliźniego - o przymierzu Najwyższego, i daruj obrazę!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 9-10. 11-12 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\nnie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie Twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nNie zapamiętuje się w sporze, *\nnie płonie gniewem na wieki.\nNie postępuje z nami według naszych grzechów *\nani według win naszych nam nie odpłaca.\nRefren.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 14, 7-9",
+      "opis": "I w życiu, i w śmierci należymy do Pana",
+      "tekst": "Bracia:\nNikt z nas nie żyje dla siebie i nikt nie umiera dla siebie: jeżeli bowiem żyjemy, żyjemy dla Pana; jeżeli zaś umieramy, umieramy dla Pana. I w życiu więc, i w śmierci należymy do Pana. Po to bowiem Chrystus umarł i powrócił do życia, by zapanować tak nad umarłymi, jak nad żywymi.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 13, 34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Daję wam przykazanie nowe, abyście się wzajemnie miłowali,\ntak jak Ja was umiłowałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18, 21-35",
+      "opis": "Przypowieść o nielitościwym dłużniku",
+      "tekst": "Piotr podszedł do Jezusa i zapytał: «Panie, ile razy mam przebaczyć, jeśli mój brat zawini względem mnie? Czy aż siedem razy?»\nJezus mu odrzekł: «Nie mówię ci, że aż siedem razy, lecz aż siedemdziesiąt siedem razy. Dlatego podobne jest królestwo niebieskie do króla, który chciał się rozliczyć ze swymi sługami. Gdy zaczął się rozliczać, przyprowadzono mu jednego, który był mu winien dziesięć tysięcy talentów. Ponieważ nie miał z czego ich oddać, pan kazał sprzedać go razem z żoną, dziećmi i całym jego mieniem, aby dług w ten sposób odzyskać.\nWtedy sługa padł mu do stóp i prosił go: „Panie, okaż mi cierpliwość, a wszystko ci oddam”. Pan ulitował się nad owym sługą, uwolnił go i dług mu darował.\nLecz gdy sługa ów wyszedł, spotkał jednego ze współsług, który mu był winien sto denarów. Chwycił go i zaczął dusić, mówiąc: „Oddaj, coś winien!” Jego współsługa padł przed nim i prosił go: „Okaż mi cierpliwość, a oddam tobie”. On jednak nie chciał, lecz poszedł i wtrącił go do więzienia, dopóki nie odda długu.\nWspółsłudzy jego, widząc, co się działo, bardzo się zasmucili. Poszli i opowiedzieli swemu panu wszystko, co zaszło.\nWtedy pan jego, wezwawszy go, rzekł mu: „Sługo niegodziwy! Darowałem ci cały ten dług, ponieważ mnie prosiłeś. Czyż więc i ty nie powinieneś był ulitować się nad swoim współsługą, jak ja ulitowałem się nad tobą?” I uniósłszy się gniewem, pan jego kazał wydać go katom, dopóki mu nie odda całego długu.\nPodobnie uczyni wam Ojciec mój niebieski, jeżeli każdy z was nie przebaczy z serca swemu bratu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruchy i prośby o miłosierdzie, co jest głównym tematem czytań o potrzebie przebaczenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która pomaga wzbudzić w sercu postawę skruszonego dłużnika z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia i prośby o przebaczenie, co jest warunkiem otrzymania miłosierdzia od Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do obowiązku wzajemnego przebaczenia i miłości, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta jest przypomnieniem przykazania miłości, którego szczytowym wyrazem jest gotowość do przebaczenia 'siedemdziesiąt siedem razy'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zwrotka o wzajemnym wybaczaniu sobie jest doskonałym komentarzem do Ewangelii i pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i Boże miłosierdzie, które otrzymujemy w Komunii Świętej, by móc przebaczać innym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie, wyrażona w refrenie, jest kluczem do przyjęcia Komunii i życia w duchu przebaczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii w postawie pokory jest uznaniem własnej słabości i potrzeby Bożego miłosierdzia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn ten jest doskonałym uwielbieniem miłosierdzia Bożego, które jest wychwalane w psalmie responsoryjnym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar łask, w tym za dar przebaczenia, jest odpowiedzią na dzisiejszą liturgię słowa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń jest dziękczynieniem za dar Eucharystii, w której doświadczamy miłosierdzia i pojednania z Bogiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój jest konkretnym wyrazem życia w miłości i przebaczeniu, do którego wzywa nas Pan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o zjednoczenie w miłości, która jest możliwa tylko dzięki wzajemnemu przebaczeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud codziennego życia w duchu miłości i przebaczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "207",
+      "piesn": "O, miłosierdzia, miłosierdzia Panie",
+      "opis": "Pieśń jest gorącym błaganiem o miłosierdzie, które jest warunkiem otrzymania przebaczenia od Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest pierwszym krokiem do przyjęcia postawy miłosierdzia wobec bliźnich.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest wyrazem naszej potrzeby Bożego miłosierdzia, bez którego nie jesteśmy w stanie przebaczyć innym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Boże miłosierdzie jest fundamentem, na którym opiera się cała nauka o przebaczeniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

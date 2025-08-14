@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414875.Sobota-31-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "31 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 16, 3-9. 16. 22-27",
+      "opis": "Pozdrowienie w Chrystusie",
+      "tekst": "Bracia:\nPozdrówcie współpracowników moich w Chrystusie Jezusie, Pryskę i Akwilę, którzy za moje życie nadstawili karku i którym winienem wdzięczność nie tylko ja sam, ale i wszystkie Kościoły nawróconych pogan. Pozdrówcie także Kościół, który się zbiera w ich domu. Pozdrówcie mojego umiłowanego Epeneta, który należy do pierwocin złożonych Chrystusowi przez Azję. Pozdrówcie Marię, która poniosła wiele trudów dla waszego dobra. Pozdrówcie Andronika i Juniasa, moich rodaków i współtowarzyszy więzienia, którzy się wyróżniają między apostołami, a którzy przede mną przystali do Chrystusa. Pozdrówcie umiłowanego mego w Panu Ampliata. Pozdrówcie współpracownika naszego w Chrystusie, Urbana, i umiłowanego mego Stachysa. Pozdrówcie wzajemnie jedni drugich pocałunkiem świętym! Pozdrawiają was wszystkie Kościoły Chrystusa.\nPozdrawiam was w Panu i ja, Tercjusz, który pisałem ten list. Pozdrawia was Gajus, który jest gospodarzem moim i całego Kościoła. Pozdrawia was Erast, skarbnik miasta, i Kwartus, brat.\nTemu, który ma moc utwierdzić was zgodnie z Ewangelią i moim głoszeniem Jezusa Chrystusa, zgodnie z objawioną tajemnicą, dla dawnych wieków ukrytą, teraz jednak ujawnioną, a przez pisma prorockie na rozkaz odwiecznego Boga wszystkim narodom obwieszczoną, dla skłonienia ich do posłuszeństwa wierze, Bogu, który jedynie jest mądry, przez Jezusa Chrystusa, niech będzie chwała na wieki wieków! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 2-3. 4-5. 10-11 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Będę Cię wielbił, Boże mój i Królu.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nWielki jest Pan i godzien wielkiej chwały, *\na wielkość Jego niezgłębiona.\nRefren.\nPokolenie pokoleniu głosi Twoje dzieła *\ni zwiastuje Twe potężne czyny.\nGłoszą wspaniałą chwałę Twego majestatu *\ni rozpowiadają Twoje cuda.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 8, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus Chrystus, będąc bogatym, dla was stał się ubogim,\naby was ubóstwem swoim ubogacić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 16, 9-15",
+      "opis": "Nie można służyć Bogu i Mamonie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Pozyskujcie sobie przyjaciół niegodziwą mamoną, aby gdy wszystko się skończy, przyjęto was do wiecznych przybytków.\nKto w bardzo małej sprawie jest wierny, ten i w wielkiej będzie wierny; a kto w bardzo małej sprawie jest nieuczciwy, ten i w wielkiej nieuczciwy będzie. Jeśli więc w zarządzaniu niegodziwą mamoną nie okazaliście się wierni, to kto wam prawdziwe dobro powierzy? Jeśli w zarządzaniu cudzym dobrem nie okazaliście się wierni, to któż wam da wasze?\nŻaden sługa nie może dwom panom służyć. Gdyż albo jednego będzie nienawidził, a drugiego miłował; albo z tamtym będzie trzymał, a tym wzgardzi. Nie możecie służyć Bogu i Mamonie!»\nSłuchali tego wszystkiego chciwi na grosz faryzeusze i podrwiwali sobie z Niego. Powiedział więc do nich: «To wy właśnie wobec ludzi udajecie sprawiedliwych, ale Bóg zna wasze serca. To bowiem, co za wielkie uchodzi między ludźmi, obrzydliwością jest w oczach Bożych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, któremu pragniemy wiernie służyć, odrzucając służbę Mamonie, o czym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do zgromadzenia się wokół Pana, tworząc wspólnotę, o której jedności i wzajemnej trosce mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosna pieśń chwały, która jest odpowiedzią na wezwanie psalmisty do wysławiania imienia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi Jezusa przed służbą dwom panom, ta pieśń jest aktem ofiarowania całego życia jedynemu Panu, Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, prosząc, by uczył nas wierności w zarządzaniu dobrami, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Pieśń jest aktem ofiarowania serca, co jest odpowiedzią na ewangeliczne wezwanie do wyboru służby Bogu ponad Mamonę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń wyraża wdzięczność za Boże dary i pyta, jak możemy się odwdzięczyć. Ewangelia uczy, że wierność w małych rzeczach jest drogą do wielkich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii uczy nas hojności i dzielenia się, co jest przeciwieństwem służby Mamonie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która przewyższa wszelkie bogactwa doczesne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, w której chwalimy Boga za Jego wielkość i potęgę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która pozwala nam służyć Bogu, a nie Mamonie, i za wspólnotę Kościoła opisaną w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny za dar Eucharystii, która umacnia nas w wierności Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud wierności w codziennych sprawach, do której wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię i świadczyć o królestwie Bożym, któremu służymy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, w tym do jałmużny i miłosierdzia, co jest sposobem pozyskiwania przyjaciół 'niegodziwą mamoną'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pierwsze czytanie ukazuje żywą wspólnotę Kościoła, pełną wzajemnej miłości i troski. Ta pieśń jest modlitwą o jedność i pokój dla tej wspólnoty.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "W kontekście licznych pozdrowień z pierwszego czytania, ta pieśń jest modlitwą o jedność wszystkich wierzących w jednym Kościele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jedność Kościoła, Ciała Chrystusa, o której przypominają pozdrowienia św. Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pierwsze czytanie, pełne pozdrowień dla braci i sióstr, ukazuje Kościół jako jedną, wielką rodzinę.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426605.Czwartek-XIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "13 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 7, 10-17",
+      "opis": "Idź, prorokuj do narodu mego",
+      "tekst": "Amazjasz, kapłan z Betel, posłał do Jeroboama, króla izraelskiego, aby mu powiedzieć: «Spiskuje przeciw tobie Amos pośród domu Izraela. Nie może ziemia znieść wszystkich słów jego, gdyż tak rzekł Amos: Od miecza umrze Jeroboam i Izrael będzie uprowadzony ze swojej ziemi».\nI rzekł Amazjasz do Amosa: «„Widzący”, idź sobie, uciekaj do ziemi Judy! I tam jedz chleb, i tam prorokuj! A w Betel więcej nie prorokuj, bo jest ono królewską świątynią i królewską budowlą». I odpowiedział Amos Amazjaszowi: «Nie jestem ja prorokiem ani nie jestem synem proroków, gdyż jestem pasterzem i tym, który nacina sykomory. Od trzody bowiem wziął mnie Pan i rzekł do mnie Pan: „Idź, prorokuj do narodu mego, izraelskiego!”\nA teraz słuchaj słowa Pańskiego! Ty mówiłeś: Nie prorokuj przeciwko Izraelowi ani nie przepowiadaj przeciwko domowi Izaaka! Dlatego tak rzekł Pan: „Żona twoja w mieście będzie nierządnicą. Synowie zaś i córki twoje od miecza poginą. Ziemię twoją sznurem podzielą. Ty umrzesz na ziemi nieczystej, a Izrael zostanie ze swej ziemi uprowadzony”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8-9. 10-11 (R.: por. 10b)",
+      "opis": "",
+      "tekst": "Refren: Prawe i słuszne wszystkie sądy Pańskie.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 1-8",
+      "opis": "Jezus uzdrawia paralityka i odpuszcza mu grzechy",
+      "tekst": "Jezus wsiadł do łodzi, przeprawił się z powrotem i przyszedł do swego miasta. A oto przynieśli Mu paralityka, leżącego na łożu. Jezus, widząc ich wiarę, rzekł do paralityka: «Ufaj, synu! Odpuszczone są ci twoje grzechy».\nNa to pomyśleli sobie niektórzy z uczonych w Piśmie: On bluźni.\nA Jezus, znając ich myśli, rzekł: «Dlaczego złe myśli nurtują w waszych sercach? Cóż bowiem łatwiej jest powiedzieć: „Odpuszczone są ci twoje grzechy”, czy też powiedzieć: „Wstań i chodź!” Otóż żebyście wiedzieli, iż Syn Człowieczy ma na ziemi władzę odpuszczania grzechów» - rzekł do paralityka: «Wstań, weź swoje łoże i idź do swego domu!»\nOn wstał i poszedł do domu.\nA tłumy ogarnął lęk na ten widok, i wielbiły Boga, który takiej mocy udzielił ludziom.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim odzwierciedleniem misyjnego polecenia Jezusa danego apostołom w dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Apostołowie wyruszają w imię Chrystusa, swojego Wodza i Króla, by głosić Jego Ewangelię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Misja apostołów buduje Kościół, a ta pieśń jest modlitwą o jego jedność i pokój.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Wobec niewierności Izraela, opisanej w pierwszym czytaniu, ta pieśń pokutna jest prośbą o miłosierdzie i odnowienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec grzechu niewierności, o którym mówi Ozeasz, prosimy o miłosierdzie i czyste serce.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które polega na Bożej dobroci, mimo odejścia od Niego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Apostołowie mają głosić Królestwo i uzdrawiać, a Eucharystia jest najpełniejszym znakiem tego Królestwa i źródłem duchowego uzdrowienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Eucharystia jest pokarmem, który umacnia posłanych, by mogli 'darmo dawać' to, co darmo otrzymali.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Umacniani Ciałem Chrystusa, możemy jak apostołowie iść i głosić Ewangelię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Pieśń uwielbienia za miłość Boga, która jest jak miłość ojca do dziecka, opisana w proroctwie Ozeasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który jest Pasterzem Izraela i przychodzi z pomocą, jak prosi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za Bożą miłość i miłosierdzie, które nie chce zatracać, ale zbawiać.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Uczniowie są posłani, by głosić Królestwo Chrystusa, a ta pieśń jest wyznaniem Jego królewskiej władzy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na misję, którą podejmujemy na wzór rozesłanych apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności misji powierzonej nam przez Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Nawiązuje do psalmu, w którym Bóg jest przedstawiony jako Pasterz Izraela, który nawiedza swoją winorośl.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Wyraża osobistą odpowiedź na miłość Boga-Ojca, opisaną tak czule w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który posyła nas w świat, zapewniając o swojej opiece.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest wierny swojej miłości, mimo niewierności ludu.",
+      "moment": "ogolne"
+    }
+  ]
+}

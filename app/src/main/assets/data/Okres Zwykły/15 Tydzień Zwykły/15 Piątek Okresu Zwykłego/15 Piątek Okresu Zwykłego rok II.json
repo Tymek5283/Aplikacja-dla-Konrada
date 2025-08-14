@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426781.Piatek-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 38, 1-6. 21-22. 7-8",
+      "opis": "Choroba i uzdrowienie Ezechiasza",
+      "tekst": "W owych dniach Ezechiasz zachorował śmiertelnie. Prorok Izajasz, syn Amosa, przyszedł do niego i rzekł mu: «Tak mówi Pan: Rozporządź domem twoim, bo umrzesz - nie będziesz żył».\nWtedy Ezechiasz odwrócił się do ściany i modlił się do Pana. A mówił tak: «Ach, Panie, pamiętaj o tym, proszę, że postępowałem wobec Ciebie wiernie i ze szczerym sercem, że czyniłem to, co jest dobre w Twoich oczach». I płakał Ezechiasz bardzo rzewnie.\nWówczas Pan skierował do Izajasza słowo tej treści: «Idź i powiedz Ezechiaszowi: Tak mówi Pan, Bóg Dawida, twego praojca: Słyszałem twoją modlitwę, widziałem twoje łzy. Oto uzdrowię cię. Trzeciego dnia pójdziesz do domu Pańskiego. Oto dodam do dni twego życia piętnaście lat. Wybawię ciebie i to miasto z ręki króla asyryjskiego i roztoczę opiekę nad tym miastem».\nPowiedział też Izajasz: «Weźcie placek figowy i przyłóżcie do wrzodu, a król będzie zdrowy!» Ezechiasz zaś rzekł: «Jaki będzie znak tego, że wejdę do domu Pańskiego?» Odpowiedział Izajasz: «Ten ci będzie znak od Pana, że spełni On to, co powiedział: Oto ja cofnę cień wskazówki zegara o dziesięć stopni, po których słońce już zeszło na słonecznym zegarze Achaza». I cofnęło się słońce o dziesięć stopni, po których już zeszło.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Iz 38, 10. 11. 12abcd. 16 (R.: por. 17b)",
+      "opis": "",
+      "tekst": "Refren: Pan mnie zachował od unicestwienia.\nRzekłem: «W połowie dni moich *\nodejść muszę.\nW bramach Otchłani mnie opuści *\nlat moich reszta».\nRefren.\nMówiłem: «Nie ujrzę już Boga *\nna ziemi żyjących,\nnie zobaczę już nikogo *\nspośród mieszkańców tego świata.\nRefren.\nRozbiorą moje mieszkanie i przeniosą ode mnie *\njak namiot pasterski.\nJak tkacz zwinąłem me życie, *\na Pan jego nić przeciął.\nRefren.\nNad którymi Pan czuwa, ci żyją, *\nwśród nich dopełni się życie mego ducha.\nUzdrowiłeś mnie, Panie, *\ni żyć dozwoliłeś».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 1-8",
+      "opis": "Syn Człowieczy jest Panem szabatu",
+      "tekst": "Pewnego razu Jezus przechodził w szabat pośród zbóż. Uczniowie Jego, odczuwając głód, zaczęli zrywać kłosy i jeść ziarna.\nGdy to ujrzeli faryzeusze, rzekli Mu: «Oto twoi uczniowie czynią to, czego nie wolno czynić w szabat». A On im odpowiedział: «Czy nie czytaliście, co uczynił Dawid, gdy poczuł głód, on i jego towarzysze? Jak wszedł do domu Bożego i jadł chleby pokładne, których nie było wolno jeść ani jemu, ani jego towarzyszom, lecz tylko kapłanom?\nAlbo nie czytaliście w Prawie, że w dzień szabatu kapłani naruszają w świątyni spoczynek szabatu, a są bez winy? Oto powiadam wam: Tu jest coś większego niż świątynia.\nGdybyście zrozumieli, co znaczy: „Chcę raczej miłosierdzia niż ofiary”, nie potępialibyście niewinnych. Albowiem Syn Człowieczy jest Panem szabatu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń wyznaje panowanie Chrystusa, który jest Panem szabatu, a także Panem życia i śmierci, jak ukazuje historia Ezechiasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Chrystus, Pan szabatu, jest naszym Wodzem i Królem, któremu oddajemy cześć na początku liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do oddania pokłonu Panu, który jest większy niż świątynia i Prawo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Jest to pieśń dziękczynna o charakterze ofiarnym, nawiązująca do daru życia i uzdrowienia z pierwszego czytania i psalmu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa Ezechiasza jest wzorem pokornej prośby, a ta pieśń jest naszym wołaniem o Boże miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "W odpowiedzi na dar uzdrowienia i życia, składamy Bogu dziękczynną ofiarę naszych serc.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń eucharystyczna wyraża postawę pokory wobec Jezusa, który jest 'czymś większym niż świątynia' i ma moc uzdrawiania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jezus, Pan szabatu i życia, daje nam siebie jako pokarm na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który uzdrawia nasze dusze i ciała, na wzór uzdrowienia Ezechiasza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn ten jest pieśnią chwały dla Boga za Jego cuda, wierność i dar życia, o którym opowiada historia króla Ezechiasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar uzdrowienia i za to, że jest Panem życia, który zachowuje nas od unicestwienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń jest wyrazem wdzięczności za dar życia i zdrowia, o którym mówią czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest komentarzem do słów Jezusa z Ewangelii: 'Chcę raczej miłosierdzia niż ofiary'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po doświadczeniu Bożej mocy i miłosierdzia, prosimy o błogosławieństwo na naszą codzienną pracę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jezus, Pan szabatu, gromadzi nas w jedną wspólnotę, która żyje miłosierdziem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wierność i modlitwa Ezechiasza zostały wysłuchane, a ta pieśń wyraża ufność w Bożą opiekę w każdej sytuacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o zaufaniu Bożemu miłosierdziu, które jest kluczem do zrozumienia Ewangelii i postawy Boga wobec człowieka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który wysłuchuje modlitw i ratuje od śmierci, jak w historii Ezechiasza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który jest Panem życia i ma moc uzdrawiania.",
+      "moment": "ogolne"
+    }
+  ]
+}

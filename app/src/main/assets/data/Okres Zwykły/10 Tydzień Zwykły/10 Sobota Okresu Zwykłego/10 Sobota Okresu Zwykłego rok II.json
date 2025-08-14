@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417003.Sobota-X-tydzien-zwykly-rok-II",
+  "tytul_dnia": "10 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 19, 19-21",
+      "opis": "Powołanie Elizeusza",
+      "tekst": "Eliasz zszedł z góry i odnalazł Elizeusza, syna Szafata, orzącego: dwanaście par wołów przed nim, a on przy dwunastej. Wtedy Eliasz, podszedłszy do niego, zarzucił na niego swój płaszcz.\nWówczas Elizeusz zostawił woły i pobiegłszy za Eliaszem, powiedział: «Pozwól mi ucałować mego ojca i moją matkę, abym potem poszedł za tobą».\nOn mu odpowiedział: «Idź i wracaj, bo po co ci to uczyniłem?»\nWtedy powrócił do niego i zaraz wziął parę wołów, złożył je na ofiarę, a na jarzmie wołów ugotował ich mięso oraz dał ludziom, aby zjedli. Następnie zabrał się i poszedłszy za Eliaszem, stał się jego sługą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16 (15), 1b-2a i 5. 7-8. 9-10 (R.: por. 5a)",
+      "opis": "",
+      "tekst": "Refren: Pan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie, Boże, bo chronię się do Ciebie, *\nmówię do Pana: «Ty jesteś Panem moim».\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nRefren.\nBłogosławię Pana, który dał mi rozsądek, *\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\nRefren.\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 119 (118), 36a. 29b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nakłoń me serce do Twoich napomnień,\nobdarz mnie łaską Twojego Prawa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 33-37",
+      "opis": "Zakaz przysięgania",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano przodkom: „Nie będziesz fałszywie przysięgał, lecz dotrzymasz Panu swej przysięgi”. A Ja wam powiadam: Wcale nie przysięgajcie - ani na niebo, bo jest tronem Boga; ani na ziemię, bo jest podnóżkiem stóp Jego; ani na Jerozolimę, bo jest miastem wielkiego Króla. Ani na swoją głowę nie przysięgaj, bo nawet jednego włosa nie możesz uczynić białym albo czarnym.\nNiech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń doskonale oddaje radykalizm powołania Elizeusza, który porzucił wszystko, by pójść za głosem Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie Elizeusza jest wzorem odpowiedzi na misyjne wezwanie, które kieruje do nas Bóg.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Rozpoczynamy liturgię, wyznając, że Chrystus jest naszą drogą, którą chcemy podążać, odpowiadając na Jego powołanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Elizeusz złożył ofiarę ze swoich wołów; my ofiarowujemy Bogu owoce ziemi i naszej pracy, prosząc o ich przemianę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, naśladując radykalną decyzję Elizeusza, który zostawił wszystko dla powołania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W tej pieśni ofiarujemy Bogu naszą wolę życia w prawdzie i prostocie, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Komunia Święta jest umocnieniem dla tych, którzy jak psalmista obrali Pana za swoje dziedzictwo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjmując Eucharystię, umacniamy naszą wiarę w Pana, który jest naszym jedynym dziedzictwem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Z pokorą przystępujemy do Tego, który jest naszym Panem i dziedzictwem, jak wyznaje psalmista.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Ta prosta pieśń uwielbienia jest odpowiedzią na słowa psalmu: 'Pan moim dziedzictwem i przeznaczeniem'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękujemy Bogu za to, że jest naszym dziedzictwem i że nas prowadzi, jak obiecuje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń jest dziękczynieniem za dar powołania i za to, że Bóg jest naszym największym skarbem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Na zakończenie Mszy deklarujemy nasz wybór Boga jako jedynego Pana, któremu chcemy dochować wierności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest modlitwą o Boże błogosławieństwo dla naszej pracy, by była ona wyrazem wierności słowu, do której wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jesteśmy posłani, by żyć w prawdzie i jedności, odrzucając to, co pochodzi 'od Złego'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prosimy o umocnienie wiary, abyśmy mogli z odwagą odpowiedzieć na Boże powołanie, jak Elizeusz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, które jest motywacją do porzucenia wszystkiego i pójścia za Nim.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, którego wzorem jest Elizeusz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem oddania się Bogu, który jest naszym jedynym dziedzictwem.",
+      "moment": "ogolne"
+    }
+  ]
+}

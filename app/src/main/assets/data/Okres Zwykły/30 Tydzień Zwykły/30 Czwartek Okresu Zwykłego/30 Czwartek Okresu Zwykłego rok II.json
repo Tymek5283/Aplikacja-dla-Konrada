@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415412.Czwartek-30-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "30 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 6, 10-20",
+      "opis": "Walka chrześcijan ze złym duchem",
+      "tekst": "Bracia:\nBądźcie mocni w Panu - siłą Jego potęgi. Przyobleczcie pełną zbroję Bożą, byście mogli się ostać wobec podstępnych zakusów diabła. Nie toczymy bowiem walki przeciw krwi i ciału, lecz przeciw Zwierzchnościom, przeciw Władzom, przeciw rządcom świata tych ciemności, przeciw duchowym pierwiastkom zła na wyżynach niebieskich.\nDlatego przywdziejcie pełną zbroję Bożą, abyście się zdołali przeciwstawić w dzień zły i ostać, zwalczywszy wszystko. Stańcie więc do walki, przepasawszy biodra wasze prawdą i przyoblókłszy pancerz, którym jest sprawiedliwość, a obuwszy nogi w gotowość głoszenia dobrej nowiny o pokoju. W każdym położeniu bierzcie wiarę jako tarczę, dzięki której zdołacie zgasić wszystkie rozżarzone pociski Złego.\nWeźcie też hełm zbawienia i miecz Ducha, to jest słowo Boże - wśród wszelakiej modlitwy i błagania. Przy każdej sposobności módlcie się w Duchu! Nad tym właśnie czuwajcie najusilniej i proście za wszystkich świętych i za mnie, aby dane mi było słowo, gdy usta otworzę, by jawnie i swobodnie głosić tajemnicę Ewangelii, dla której sprawuję poselstwo jako więzień - żebym jawnie ją wypowiedział, tak jak winienem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 144 (143), 1b-2. 9-10 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Pan, Opoka moja.\nBłogosławiony Pan, Opoka moja, †\nOn moje ręce zaprawia do walki, *\nmoje palce do bitwy.\nOn mocą i warownią moją, osłoną moją i moim wybawcą, *\nmoją tarczą i schronieniem, On, który mi poddaje ludy.\nRefren.\nBoże, będę Ci śpiewał pieśń nową, *\ngrać Ci będę na harfie o dziesięciu strunach.\nTy królom dajesz zwycięstwo, *\nTy wyzwoliłeś Dawida, swego sługę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 19, 38",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławiony Król, który przychodzi w imię Pańskie.\nPokój w niebie i chwała na wysokościach."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 31-35",
+      "opis": "Jezus wierny swojemu posłannictwu",
+      "tekst": "Jezus wierny swojemu posłannictwu\nW tym czasie przyszli niektórzy faryzeusze i rzekli do Jezusa: «Wyjdź i uchodź stąd, bo Herod chce Cię zabić».\nLecz On im odpowiedział: «Idźcie i powiedzcie temu lisowi: Oto wyrzucam złe duchy i dokonuję uzdrowień dziś i jutro, a trzeciego dnia będę u kresu. Jednak dziś, jutro i pojutrze muszę być w drodze, bo rzecz to niemożliwa, żeby prorok zginął poza Jeruzalem.\nJeruzalem, Jeruzalem! Ty zabijasz proroków i kamienujesz tych, którzy do ciebie są posłani. Ile razy chciałem zgromadzić twoje dzieci, jak ptak swoje pisklęta pod skrzydła, a nie chcieliście. Oto dom wasz tylko dla was pozostanie.\nMówię zaś wam: nie ujrzycie Mnie, aż nadejdzie czas, gdy powiecie: „Błogosławiony Ten, który przychodzi w imię Pańskie”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do pierwszego czytania, wzywającego by być mocnym w Panu i sile Jego potęgi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest naszą zbroją w duchowej walce, o której mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń podkreśla wierność Boga, który jest naszą Opoką i siłą w walce ze złem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wobec zagrożenia ze strony Heroda i duchowej walki, ta pieśń jest aktem ofiarowania i zawierzenia Bożej opatrzności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc o siłę do walki duchowej, do której wzywa nas św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania się Bogu, który jest naszą mocą i zwycięstwem w walce z duchowymi pierwiastkami zła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu duchowej walki i przeciwności, ta pieśń jest wyznaniem wiary, że Chrystus jest naszą nadzieją i ostatecznym zwycięstwem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siłę do przezwyciężania trudności i walki ze złem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który pragnie zgromadzić swoje dzieci, jak ptak pisklęta pod skrzydła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego, w którym wierny chwali Pana, swoją Opokę i Wybawcę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, który daje nam zwycięstwo w walce duchowej, o której mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń uwielbienia dla Pana, który jest naszą mocą i opoką w walce z siłami ciemności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi wbrew przeciwnościom, co jest postawą, do której wzywa św. Paweł, mówiąc o duchowej walce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Aklamacja i Ewangelia mówią o Chrystusie Królu. Ta pieśń jest aklamacją na cześć Tego, który przychodzi w imię Pańskie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest źródłem siły do walki ze złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Walka duchowa, o której mówi św. Paweł, jest także walką o zbawienie innych poprzez głoszenie Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest tarczą, o której mówi pierwsze czytanie. Ta pieśń jest prośbą o jej umocnienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o zwycięstwie Chrystusa nad grzechem i śmiercią, które jest źródłem naszej mocy w walce duchowej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem o Boże miłosierdzie i ocalenie w walce z siłami zła.",
+      "moment": "ogolne"
+    }
+  ]
+}

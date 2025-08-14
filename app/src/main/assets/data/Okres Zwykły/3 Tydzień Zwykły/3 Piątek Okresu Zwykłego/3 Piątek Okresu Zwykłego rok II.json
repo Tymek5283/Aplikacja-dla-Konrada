@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415505.Piatek-III-tydzien-zwykly-rok-II",
+  "tytul_dnia": "3 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 11, 1-10a. 13-17",
+      "opis": "Grzech Dawida",
+      "tekst": "Na początku roku, gdy królowie zwykli wychodzić na wojnę, Dawid wyprawił Joaba i swoje sługi wraz z całym Izraelem. Spustoszyli oni ziemię Ammonitów i oblegali Rabba. Dawid natomiast pozostał w Jerozolimie.\nPewnego wieczora Dawid, podniósłszy się z posłania i chodząc po tarasie swego królewskiego pałacu, zobaczył z tarasu kąpiącą się kobietę. Kobieta była bardzo piękna. Dawid zasięgnął wiadomości o tej kobiecie. Powiedziano mu: «To jest Batszeba, córka Eliama, żona Uriasza Chittyty ».\nWysłał więc Dawid posłańców, by ją sprowadzili. A gdy przyszła do niego, spał z nią. Kobieta ta poczęła, posłała więc, by dać znać Dawidowi: «Jestem brzemienna».\nWtedy Dawid wyprawił posłańca do Joaba: «Przyślij do mnie Uriasza Chittytę». Joab posłał więc Uriasza do Dawida. Kiedy Uriasz do niego przyszedł, Dawid wypytywał się o powodzenie Joaba, ludu i walki. Następnie rzekł Dawid Uriaszowi: «Zejdź do swojego domu i umyj sobie nogi!»\nUriasz opuścił pałac królewski, a za nim niesiono dar ze stołu króla. Uriasz położył się jednak u bramy pałacu królewskiego wraz ze wszystkimi sługami swojego pana, a nie poszedł do własnego domu. Przekazano wiadomość Dawidowi: «Uriasz nie zszedł do swego domu». Dawid zaprosił  go, aby jadł i pił w jego obecności, aż go upoił. Wieczorem poszedł Uriasz, położył się na swym posłaniu między sługami swojego pana, a do domu swojego nie zszedł.\nNastępnego ranka napisał Dawid list do Joaba i posłał go za pośrednictwem Uriasza. W liście napisał: «Postawcie Uriasza tam, gdzie walka będzie najbardziej zażarta, potem odstąpcie go, aby został ugodzony i zginął».\nJoab, obejrzawszy miasto, postawił Uriasza w miejscu, o którym wiedział, że walczyli tam najsilniejsi wojownicy. Ludzie z miasta wypadli i natarli na Joaba. Byli zabici wśród ludu i sług Dawida; zginął też Uriasz Chittyta.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 3-4. 5-6a. 6b-7. 10-11",
+      "opis": "",
+      "tekst": "Refren: Zmiłuj się, Panie, bo jesteśmy grzeszni.\nZmiłuj się nade mną, Boże, w łaskawości swojej, *\nw ogromie swej litości zgładź moją nieprawość.\nObmyj mnie zupełnie z mojej winy *\ni oczyść mnie z grzechu mojego.\nRefren.\nUznaję bowiem nieprawość moją, *\na grzech mój jest zawsze przede mną.\nPrzeciwko Tobie samemu zgrzeszyłem *\ni uczyniłem, co złe jest przed Tobą.\nRefren.\nAbyś okazał się sprawiedliwy w swym wyroku *\ni prawy w swoim sądzie.\nOto urodziłem się obciążony winą *\ni jako grzesznika poczęła mnie matka.\nRefren.\nSpraw, abym usłyszał radość i wesele, *\nniech się radują kości, które skruszyłeś.\nOdwróć swe oblicze od moich grzechów *\ni zmaż wszystkie moje przewinienia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 26-34",
+      "opis": "Rozwój królestwa Bożego",
+      "tekst": "Jezus mówił do tłumów:\n«Z królestwem Bożym dzieje się tak, jak gdyby ktoś nasienie wrzucił w ziemię. Czy śpi, czy czuwa, we dnie i w nocy, nasienie kiełkuje i rośnie, sam nie wie jak. Ziemia sama z siebie wydaje plon, najpierw źdźbło, potem kłos, a potem pełne ziarno w kłosie. Gdy zaś plon dojrzeje, zaraz zapuszcza sierp, bo pora już na żniwo».\nMówił jeszcze: «Z czym porównamy królestwo Boże lub w jakiej przypowieści je przedstawimy? Jest ono jak ziarnko gorczycy; gdy się je wsiewa w ziemię, jest najmniejsze ze wszystkich nasion na ziemi. Lecz wsiane, wyrasta i staje się większe od innych jarzyn; wypuszcza wielkie gałęzie, tak że ptaki podniebne gnieżdżą się w jego cieniu».\nW wielu takich przypowieściach głosił im naukę, o ile mogli ją rozumieć. A bez przypowieści nie przemawiał do nich. Osobno zaś objaśniał wszystko swoim uczniom.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest parafrazą Psalmu 51, który jest psalmem responsoryjnym tego dnia, wprowadzając w pokutny charakter liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Kolejna wersja psalmu pokutnego, która jest modlitwą o przebaczenie i oczyszczenie z grzechu, na wzór skruszonego Dawida.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże przebaczenie, o które prosi psalmista po grzechu opisanym w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Wyraża skruchę i żal za grzechy, które były udziałem króla Dawida, co stanowi ofiarę skruszonego serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest postawą miłą Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, która jest konieczna po upadku w grzech.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, której tytuł i treść idealnie oddają postawę skruszonego grzesznika przystępującego do Pana po przebaczenie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża świadomość własnej grzeszności i jednocześnie pragnienie przyjęcia Jezusa, który obmywa nas z win.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Pieśń jest modlitwą o oczyszczenie i uświęcenie przez Krew i Ciało Chrystusa, co jest odpowiedzią na świadomość grzechu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń dziękczynna oparta na Psalmie 51, wyrażająca radość z otrzymanego przebaczenia i prośbę o czyste serce.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże miłosierdzie, które podnosi grzesznika z upadku.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, a zwłaszcza za dar przebaczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń stanowi posłanie do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na Boże miłosierdzie i przypowieści o Królestwie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest posłaniem na zakończenie Mszy, abyśmy, pouczeni historią Dawida, unikali grzechu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest odpowiedzią na Boże miłosierdzie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wyraża postawę pokory i błagania o przebaczenie, która jest właściwą odpowiedzią na grzech.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i miłosierdzie w obliczu ludzkiej słabości i grzechu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego królestwo wzrasta w tajemniczy sposób, jak ziarno w ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które jest jak ziarno, trwało w nas i przynosiło plon.",
+      "moment": "ogolne"
+    }
+  ]
+}

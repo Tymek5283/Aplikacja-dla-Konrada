@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417338.Wtorek-26-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "26 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 3, 1-3. 11-17. 20-23",
+      "opis": "Hiob narzeka na boleści życia",
+      "tekst": "Hiob otworzył usta i przeklinał swój dzień. Zabrał głos i tak mówił:\n«Niech przepadnie dzień mego urodzenia i noc, gdy powiedziano: Poczęty został mężczyzna. Dlaczego nie umarłem po wyjściu z łona, nie wyszedłem z wnętrzności, by skonać? Po cóż mnie przyjęły kolana, a piersi podały mi pokarm? Teraz bym spał, wypoczywał, odetchnąłbym w śnie pogrążony z królami, ziemskimi władcami, co sobie stawiali grobowce, wśród wodzów w złoto zasobnych, których domy pełne są srebra. Nie żyłbym jak płód poroniony lub jak dziecię, co światła nie znało. Tam niegodziwcy nie krzyczą, spokojni, zużyli już siły.\nPo co się daje życie strapionym, istnienie złamanym na duchu, co śmierci czekają na próżno, szukają jej usilniej niż skarbu; cieszą się, skaczą z radości, weselą się, że doszli do grobu. Człowiek swej drogi jest nieświadomy, Bóg sam ją przed nim zamyka».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 88 (87), 2-3. 4-5. 6. 7-8 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Moja modlitwa niech dotrze do Ciebie.\nPanie, mój Boże, wołam do Ciebie we dnie, *\nżalę się przed Tobą w nocy.\nNiech dotrze do Ciebie moja modlitwa, *\nnakłoń ucha na moje wołanie.\nRefren.\nBo moja dusza nieszczęściem jest przepełniona, *\na życie moje zbliża się do Otchłani.\nZaliczono mnie do grona idących do grobu, *\nstałem się jak mąż pozbawiony siły.\nRefren.\nMiędzy zmarłymi jest moje posłanie, *\ntak jak poległych, którzy leżą w grobach,\no których Ty już więcej nie pamiętasz, *\nnad którymi nie roztaczasz już opieki.\nRefren.\nStrąciłeś mnie w otchłań najgłębszą, *\nw mrok i przepaść.\nTwój gniew mnie przygniata, *\nspiętrzyły się nade mną jego fale.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 51-56",
+      "opis": "Jezus przeciwny natychmiastowemu karaniu",
+      "tekst": "Gdy dopełniały się dni wzięcia Jezusa z tego świata, postanowił udać się do Jeruzalem, i wysłał przed sobą posłańców. Ci wybrali się w drogę i weszli do pewnego miasteczka samarytańskiego, by przygotować Mu pobyt. Nie przyjęto Go jednak, ponieważ zmierzał do Jeruzalem.\nWidząc to, uczniowie Jakub i Jan rzekli: «Panie, czy chcesz, byśmy powiedzieli: Niech ogień spadnie z nieba i pochłonie ich?» Lecz On, odwróciwszy się, zgromił ich.\nI udali się do innego miasteczka.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem do Boga z głębi cierpienia, co odzwierciedla lamentację Hioba i psalmisty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "W sytuacji odrzucenia i niezrozumienia, jak w Ewangelii, pieśń wyraża zwrócenie się do Boga jako jedynej ucieczki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Pieśń jest wołaniem o litość z 'łez doliny', co dobrze oddaje stan ducha cierpiącego Hioba.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń wyraża pokorne wołanie do Boga o litość i pocieszenie, co jest postawą Hioba mimo jego buntu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem żalu i ufności w Bożą dobroć, która jest nadzieją dla cierpiącego Hioba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec tajemnicy cierpienia, pieśń wzywa do postawy pokory i błagania Boga o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Wobec ludzkiego pragnienia kary, pieśń przypomina o Chrystusie, który wziął na siebie grzechy, ukazując drogę miłosierdzia, a nie potępienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń o szukaniu schronienia w miłosierdziu Bożym jest odpowiedzią na postawę Jezusa, który nie potępia, lecz okazuje łaskę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii jest aktem pokory i wiary w Tego, który rozumie nasze słabości i nie odrzuca nas.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, które w Ewangelii Jezus ukazuje jako alternatywę dla gniewu i zemsty.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Mimo cierpienia, Hiob nie utracił wiary. Ta pieśń jest wyrazem dziękczynienia za Bożą obecność nawet w trudnych chwilach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą opiekę i ratunek, która jest wyrazem nadziei wbrew beznadziei wyrażonej przez Hioba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaproszenie do szukania pociechy w Jezusie jest odpowiedzią na ból Hioba i na postawę Jezusa, który nie potępia, lecz idzie dalej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wobec ciemności i cierpienia opisanego w czytaniach, prośba o Boże prowadzenie jest wyrazem ufności i nadziei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie miłości Chrystusa jest przesłaniem nadziei dla wszystkich cierpiących i odrzuconych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń jest wyrazem nadziei i wołania do Boga z głębokości, co łączy lament Hioba z chrześcijańską ufnością.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W obliczu niezrozumiałego cierpienia, pieśń o oddaniu się w opiekę Panu jest aktem wiary i zawierzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń ta jest pocieszeniem i przypomnieniem o Bożej Opatrzności, która czuwa nad nami nawet w najtrudniejszych doświadczeniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę i żal, które są potrzebne, by przyjąć Boże miłosierdzie, ukazane w postawie Jezusa w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

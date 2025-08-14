@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417014.Poniedzialek-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 1, 1-7",
+      "opis": "Pozdrowienie i dziękczynienie",
+      "tekst": "Paweł, z woli Bożej apostoł Chrystusa Jezusa, i Tymoteusz, brat, do Kościoła Bożego, który jest w Koryncie, ze wszystkimi świętymi, jacy są w całej Achai. Łaska wam i pokój od Boga, Ojca naszego, i Pana Jezusa Chrystusa!\nBłogosławiony Bóg i Ojciec Pana naszego, Jezusa Chrystusa, Ojciec miłosierdzia i Bóg wszelkiej pociechy, Ten, który nas pociesza w każdym naszym ucisku, byśmy sami mogli  pocieszać tych, co są w jakimkolwiek ucisku, tą pociechą, której doznajemy od Boga.\nJak bowiem obfitują w nas cierpienia Chrystusa, tak też wielkiej doznajemy przez Chrystusa pociechy. Ale gdy znosimy udręki - to dla pociechy i zbawienia waszego; a gdy pocieszani jesteśmy - to dla waszej pociechy, sprawiającej, że z wytrwałością znosicie te same cierpienia, których i my doznajemy. A nadzieja nasza co do was jest silna, bo wiemy, że jak cierpień jesteście współuczestnikami, tak i pociechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 4-5. 6-7. 8-9 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Wszyscy zobaczcie, jak nasz Pan jest dobry.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nWysławiajcie razem ze mną Pana, *\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał *\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał, *\ni uwolnił od wszelkiego ucisku.\nRefren.\nAnioł Pański otacza szańcem bogobojnych, *\naby ich ocalić.\nSkosztujcie i zobaczcie, jak Pan jest dobry, *\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5,12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Cieszcie się i radujcie,\nalbowiem wielka jest wasza nagroda w niebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 1-12",
+      "opis": "Osiem błogosławieństw",
+      "tekst": "Jezus, widząc tłumy, wyszedł na górę. A gdy usiadł, przystąpili do Niego Jego uczniowie. Wtedy otworzył usta i nauczał ich tymi słowami:\n«Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie.\nBłogosławieni, którzy się smucą, albowiem oni będą pocieszeni.\nBłogosławieni cisi, albowiem oni na własność posiądą ziemię.\nBłogosławieni, którzy łakną i pragną sprawiedliwości, albowiem oni będą nasyceni.\nBłogosławieni miłosierni, albowiem oni miłosierdzia dostąpią.\nBłogosławieni czystego serca, albowiem oni Boga oglądać będą.\nBłogosławieni, którzy wprowadzają pokój, albowiem oni będą nazwani synami Bożymi.\nBłogosławieni, którzy cierpią prześladowanie dla sprawiedliwości, albowiem do nich należy królestwo niebieskie.\nBłogosławieni jesteście, gdy wam urągają i prześladują was i gdy z mego powodu mówią kłamliwie wszystko złe o was. Cieszcie się i radujcie, albowiem wielka jest wasza nagroda w niebie. Tak bowiem prześladowali proroków, którzy byli przed wami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do Ewangelii o Ośmiu Błogosławieństwach, wprowadzając w główną tematykę liturgii słowa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża dążenie do bliskości z Bogiem, które jest istotą życia według błogosławieństw i źródłem pociechy w ucisku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście cierpień, o których mówią czytania, pieśń ta jest aktem ufności w Bożą opatrzność i opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń łączy ofiarowanie chleba i wina z ofiarą naszych trudów i cierpień, o których wspomina św. Paweł w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc o siłę do znoszenia cierpień z miłości do Niego, na wzór Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jest to akt ofiarowania siebie Bogu, który jest źródłem pociechy w każdym ucisku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Błogosławieństwo o łaknących i pragnących sprawiedliwości znajduje swoje wypełnienie w Eucharystii, gdzie Chrystus zaspokaja najgłębsze pragnienia serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest muzycznym opracowaniem psalmu responsoryjnego, wzywając do doświadczenia Bożej dobroci w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "W Eucharystii otrzymujemy pociechę i umocnienie, byśmy mogli, jak św. Paweł, pocieszać innych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalmista, wysłuchuje i wyzwala z ucisku.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego dobroć i pociechę, której doświadczamy nawet pośród cierpień.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na wezwanie psalmu: 'Skosztujcie i zobaczcie, jak Pan jest dobry'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po usłyszeniu nauki o błogosławieństwach, jesteśmy posłani, by żyć nią i świadczyć o niej w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy mogli żyć na co dzień według ducha Ośmiu Błogosławieństw.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Na zakończenie Mszy prosimy Pana, aby prowadził nas przez życie, zwłaszcza w chwilach ucisku i cierpienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń wyraża wdzięczność za Bożą opiekę i pociechę, o której pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Błogosławieństwo dla tych, którzy się smucą, znajduje swoje źródło w Bogu, który jest naszym Zbawicielem i pocieszeniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Modlitwa o Boże błogosławieństwo i miłosierdzie, które są obiecane w błogosławieństwach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wiarę, że idąc za Chrystusem, podążamy drogą błogosławieństw ku życiu wiecznemu.",
+      "moment": "ogolne"
+    }
+  ]
+}

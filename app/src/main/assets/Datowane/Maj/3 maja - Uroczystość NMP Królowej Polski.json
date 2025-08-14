@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Jdt 13,18bcda.19-20",
-      "opis": "Refren:",
-      "tekst": "Tyś wielką chlubą naszego narodu.\nBłogosławiona jesteś, córko, przez Boga Najwyższego\nspomiędzy wszystkich niewiast na ziemi,\ni niech będzie błogosławiony Pan Bóg,\nStwórca nieba i ziemi.\nTwoja ufność nie zatrze się aż na wieki\nw sercach ludzkich wspominających moc Boga.\nNiech Bóg to sprawi,\nabyś była wywyższona na wieki."
+      "opis": "",
+      "tekst": "Refren:\nTyś wielką chlubą naszego narodu.\nBłogosławiona jesteś, córko, przez Boga Najwyższego\nspomiędzy wszystkich niewiast na ziemi,\ni niech będzie błogosławiony Pan Bóg,\nStwórca nieba i ziemi.\nTwoja ufność nie zatrze się aż na wieki\nw sercach ludzkich wspominających moc Boga.\nNiech Bóg to sprawi,\nabyś była wywyższona na wieki."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "381",
+      "piesn": "Polski Królowo",
+      "opis": "Pieśń ta jest bezpośrednim zwrotem do Maryi jako Królowej Polski, co stanowi doskonałe rozpoczęcie liturgii w Jej uroczystość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "342",
+      "piesn": "Jasnogórska Pani",
+      "opis": "Utwór łączy tytuł Królowej Polski z Jej tronem na Jasnej Górze, co podkreśla narodowy charakter święta.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "340",
       "piesn": "Jak szczęśliwa Polska cała",
       "opis": "Pieśń o charakterze maryjnym i patriotycznym, podkreśla szczególną opiekę Matki Bożej nad Polską, co pasuje do momentu ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Ta pieśń mszalna, dedykowana świętom maryjnym, zawiera zwrotkę na przygotowanie darów, łącząc cześć dla Maryi z Ofiarą eucharystyczną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni wierni składają swoje serca w ofierze Maryi, co jest duchowym dopełnieniem darów chleba i wina.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Refren 'Witaj, Jezu, Synu Maryi' w tej pieśni eucharystycznej doskonale łączy tajemnicę Komunii Świętej z Bożym Macierzyństwem Królowej Polski.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "370",
+      "piesn": "O Maryjo, w niebo uniesiona",
+      "opis": "Pieśń o Wniebowzięciu podkreśla królewską chwałę Maryi w niebie, co jest stosowną medytacją po przyjęciu Ciała Jej Syna.",
+      "moment": "komunia"
+    },
+    {
       "numer": "356",
       "piesn": "Matko Niebieskiego Pana",
       "opis": "Majestatyczna pieśń podkreślająca królewską godność Maryi, nawiązując do wizji Niewiasty obleczonej w słońce z Apokalipsy.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń ta, oparta na hymnie 'Magnificat', jest najdoskonalszym uwielbieniem Boga ustami samej Maryi, Królowej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Uroczysty hymn wysławiający Maryję jako Królową nieba i ziemi, co jest istotą dzisiejszej uroczystości.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "635",
       "piesn": "Boże, coś Polskę",
       "opis": "Pieśń ta, będąca modlitwą za Ojczyznę, stanowi doskonałe zwieńczenie uroczystości o charakterze narodowym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o charakterze patriotycznym i religijnym, wyrażająca wierność Bogu i Kościołowi, co jest ważnym przesłaniem na zakończenie uroczystości 3 Maja.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "321",
+      "piesn": "Błękitne rozwińmy sztandary",
+      "opis": "Maryjny hymn o 'rycerskim' charakterze, wzywający do wierności i służby pod sztandarem Maryi, Królowej Polski.",
       "moment": "rozeslanie"
     },
     {
@@ -81,6 +141,12 @@
       "numer": "638",
       "piesn": "My chcemy Boga",
       "opis": "Manifest wiary o silnym wydźwięku patriotycznym, doskonale pasujący do charakteru uroczystości 3 Maja.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "341",
+      "piesn": "Jasnogórska, można Pani",
+      "opis": "Pieśń ta jest modlitwą do Matki Bożej Częstochowskiej, Królowej Polski, o opiekę i wstawiennictwo za całym narodem.",
       "moment": "ogolne"
     }
   ]

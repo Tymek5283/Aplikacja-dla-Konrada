@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425145.Sobota-22-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "22 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 1, 21-23",
+      "opis": "Bóg pojednał nas z sobą przez śmierć Chrystusa",
+      "tekst": "Bracia:\nWas, którzy byliście niegdyś obcymi wobec Boga i Jego wrogami przez sposób myślenia i wasze złe czyny, teraz znów pojednał Bóg w doczesnym Jego ciele przez śmierć, by stawić was przed sobą jako świętych i nieskalanych, i bez zarzutu, bylebyście tylko trwali w wierze - ugruntowani i stateczni - a nie chwiejący się w nadziei nieodłącznej od Ewangelii. Ją to posłyszeliście głoszoną wszelkiemu stworzeniu, które jest pod niebem - jej sługą stałem się ja, Paweł.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 54 (53), 3-4. 6 i 8 (R.: por. 6b)",
+      "opis": "",
+      "tekst": "Refren: Bóg podtrzymuje całe moje życie.\nWybaw mnie, Boże, w imię Twoje, *\nmocą swoją broń mojej sprawy.\nBoże, słuchaj mojej modlitwy, *\nnakłoń ucha na słowo ust moich.\nRefren.\nOto mi Bóg dopomaga, *\nPan podtrzymuje me życie.\nBędę Ci chętnie składać ofiarę *\ni sławić Twe imię, bo jest dobre.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 1-5",
+      "opis": "Chrystus jest Panem szabatu",
+      "tekst": "W pewien szabat Jezus przechodził wśród zbóż, a uczniowie zrywali kłosy i jedli, wykruszając ziarna rękami. Niektórzy zaś z faryzeuszów mówili: «Czemu czynicie to, czego nie wolno w szabat?»\nWtedy Jezus, odpowiadając im, rzekł: «Nawet tego nie czytaliście, co uczynił Dawid, gdy poczuł głód, on i jego ludzie? Jak wszedł do domu Bożego i wziąwszy chleby pokładne, sam jadł i dał swoim ludziom? Chociaż samym tylko kapłanom wolno je spożywać».\nI dodał: «Syn Człowieczy jest Panem także szabatu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń proklamuje królowanie Chrystusa, który w Ewangelii objawia się jako Pan szabatu, a więc Pan Prawa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest odpowiedzią na objawienie Chrystusa jako Pana i prośbą, by królował w naszym życiu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Hymn ten jest aktem hołdu dla Chrystusa, Władcy świata, który ma władzę nad Prawem, jak ukazuje Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o ofierze krzyża nawiązuje do pierwszego czytania, które mówi o pojednaniu dokonanym przez śmierć Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "763",
+      "piesn": "Crucem tuam",
+      "opis": "Adoracja krzyża jest odpowiedzią na dar pojednania, który, jak mówi św. Paweł, otrzymaliśmy przez śmierć Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest prośbą o zjednoczenie z Chrystusem, który przez swoją śmierć uczynił nas świętymi i nieskalanymi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Adoracyjna pieśń jest aktem wiary w Chrystusa, Pana szabatu, obecnego w Eucharystii, która jest nowym chlebem pokładnym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, Pana szabatu, który jest naszą mocą i nadzieją.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem głębokiej wiary w realną obecność Chrystusa, naszego Pana i Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem wdzięczności za dzieło pojednania, o którym naucza św. Paweł w Liście do Kolosan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń uwielbia Chrystusa Zwycięzcę, który przez swoją śmierć pojednał nas z Bogiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Potężny hymn chwały dla Boga, który, jak mówi psalm, jest naszym wspomożycielem i podtrzymuje nasze życie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "349b",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Jako w sobotę, pieśń do Maryi jest modlitwą o wierność i wytrwanie w wierze, do czego zachęca pierwsze czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o Jej opiekę, byśmy mogli trwać w wierze ugruntowani i stateczni.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Prosta pieśń maryjna na zakończenie tygodnia, zawierzająca Maryi owoce Eucharystii i prosząca o Jej błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, by trwać w niej 'ugruntowanym i statecznym', jak pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że Chrystus jest naszym pokojem i pojednaniem, co jest główną myślą pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest odpowiedzią na słowa psalmu: 'Bóg podtrzymuje całe moje życie'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest odpowiedzią na aklamację, wyznając, że Chrystus jest naszą Drogą, Prawdą i Życiem.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415671.Sobota-29-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "29 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 8, 1-11",
+      "opis": "Bóg zniszczył grzech przez swojego Syna",
+      "tekst": "Bracia:\nTeraz dla tych, którzy są w Chrystusie Jezusie, nie ma już potępienia. Albowiem prawo Ducha, który daje życie w Chrystusie Jezusie, wyzwoliło cię spod prawa grzechu i śmierci. Co bowiem było niemożliwe dla Prawa, ponieważ ciało czyniło je bezsilnym, tego dokonał Bóg. On to zesłał Syna swego w ciele podobnym do ciała grzesznego i dla usunięcia grzechu wydał w tym ciele wyrok potępiający grzech, aby to, co nakazuje Prawo, wypełniło się w nas, o ile postępujemy nie według ciała, ale według Ducha.\nCi bowiem, którzy żyją według ciała, dążą do tego, czego chce ciało; ci zaś, którzy żyją według Ducha - do tego, czego chce Duch. Dążność bowiem ciała prowadzi do śmierci, dążność zaś Ducha - do życia i pokoju: ponieważ dążność ciała jest wroga Bogu, nie podporządkowuje się bowiem Prawu Bożemu, ani nawet nie jest do tego zdolna. A ci, którzy według ciała żyją, Bogu podobać się nie mogą.\nWy jednak nie żyjecie według ciała, lecz według Ducha, jeśli tylko Duch Boży w was mieszka. Jeżeli zaś ktoś nie ma Ducha Chrystusowego, ten do Niego nie należy. Skoro zaś Chrystus w was mieszka, ciało wprawdzie podlega śmierci ze względu na skutki grzechu, duch jednak ma życie na skutek usprawiedliwienia.\nA jeżeli mieszka w was Duch Tego, który Jezusa wskrzesił z martwych, to Ten, co wskrzesił Chrystusa Jezusa z martwych, przywróci do życia wasze śmiertelne ciała mocą mieszkającego w was swego Ducha.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ez 33, 11",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan mówi: Nie chcę śmierci grzesznika,\nlecz pragnę, aby się nawrócił i miał życie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 1-9",
+      "opis": "Wezwanie do nawrócenia",
+      "tekst": "W tym czasie przyszli jacyś ludzie i donieśli Jezusowi o Galilejczykach, których krew Piłat zmieszał z krwią ich ofiar.\nJezus im odpowiedział: «Czyż myślicie, że ci Galilejczycy byli większymi grzesznikami niż inni mieszkańcy Galilei, iż to ucierpieli? Bynajmniej, powiadam wam; lecz jeśli się nie nawrócicie, wszyscy podobnie zginiecie. Albo myślicie, że owych osiemnastu, na których zwaliła się wieża w Siloam i zabiła ich, było większymi winowajcami niż inni mieszkańcy Jeruzalem? Bynajmniej, powiadam wam; lecz jeśli się nie nawrócicie, wszyscy tak samo zginiecie».\nI opowiedział im następującą przypowieść: «Pewien człowiek miał zasadzony w swojej winnicy figowiec; przyszedł i szukał na nim owoców, ale nie znalazł. Rzekł więc do ogrodnika: „Oto już trzy lata, odkąd przychodzę i szukam owocu na tym figowcu, a nie znajduję. Wytnij go, po co jeszcze ziemię wyjaławia?” Lecz on mu odpowiedział: „Panie, jeszcze na ten rok go pozostaw, aż okopię go i obłożę nawozem; i może wyda owoc. A jeśli nie, w przyszłości możesz go wyciąć”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest bezpośrednim wezwaniem do nawrócenia, o którym Jezus mówi w Ewangelii: 'jeśli się nie nawrócicie, wszyscy podobnie zginiecie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię, co jest istotą przypowieści o drzewie figowym, które otrzymuje jeszcze jedną szansę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na wezwanie Jezusa do nawrócenia, aby uniknąć zagłady.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wobec groźby odcięcia jak nieurodzajny figowiec, ta pieśń jest aktem nawrócenia i decyzją o powrocie do miłosiernego Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest owocem, którego Bóg oczekuje od nas.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze pragnienie nawrócenia, prosząc o łaskę wydawania dobrych owoców.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "W Komunii przyjmujemy Tego, który daje życie wieczne, o którym mówi św. Paweł, a które jest owocem życia według Ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża postawę skruszonego grzesznika, który z wiarą i nadzieją przyjmuje Pana, prosząc o odpuszczenie win.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę wiary i pokory, aby przyjąć Chrystusa i żyć według Ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Dziękczynienie za dar Ducha Świętego, który wyzwala nas spod prawa grzechu i śmierci, jak poucza św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Pieśń jest modlitwą o dary Ducha Świętego, abyśmy mogli żyć według Niego i przynosić owoce nawrócenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który jest źródłem nowego życia, o którym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest odpowiedzią na przypowieść o niepłodnym drzewie figowym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która jest niezbędna do życia według Ducha i wydawania owoców.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy, nawracając się, mogli przynosić dobre owoce w naszym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Psalm pyta 'Kto wstąpi na górę Pana?'. Ta pieśń jest odpowiedzią, wzywającą lud wierny do oddania czci Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, które są celem naszego nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wyraża postawę pokory i błagania o przebaczenie, która jest konieczna, aby uniknąć losu niepłodnego figowca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże miłosierdzie, które daje nam czas na nawrócenie i wydanie owoców.",
+      "moment": "ogolne"
+    }
+  ]
+}

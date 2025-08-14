@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418018.Poniedzialek-25-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "25 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Prz 3, 27-35",
+      "opis": "Pouczenia o życiu społecznym",
+      "tekst": "Nie odmawiaj dobra uprawnionemu, gdy masz możliwość działania. Nie mów bliźniemu: «Idź i wróć, dam jutro», gdy możesz dać zaraz.\nNie spiskuj przeciw bliźniemu, jeśli mieszka obok ciebie beztrosko. Nie sprzeczaj się z nikim niesłusznie, jeśli ci zła nie wyrządził.\nNie zazdrość gwałtownikowi, nie skłaniaj się ku jego drogom. Bo Pan się brzydzi przewrotnym, a z wiernymi obcuje przyjaźnie.\nPrzekleństwo Pana na domu bezbożnych, On błogosławi mieszkanie prawych.\nOn się naśmiewa z szyderców, a pokornym udziela swej łaski.\nMądrzy dostąpią chwały, udziałem głupich jest hańba.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 15 (14), 1b-2. 3 i 4b. 4c-5 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Prawy zamieszka w domu Twoim, Panie.\nKto będzie przebywał w Twym przybytku, Panie, *\nkto zamieszka na Twej górze świętej?\nTen, kto postępuje nienagannie, działa sprawiedliwie *\ni mówi prawdę w swym sercu.\nRefren.\nKto swym językiem oszczerstw nie głosi, *\nkto nie czyni bliźniemu nic złego\ni nie ubliża swoim sąsiadom, *|\nale szanuje tego, który oddaje cześć Bogu.\nRefren.\nKto dotrzyma przysięgi niekorzystnej dla siebie, *\nkto nie daje swych pieniędzy na lichwę\ni nie da się przekupić przeciw niewinnemu. *\nKto tak postępuje, nigdy się nie zachwieje.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak niech wasze światło jaśnieje przed ludźmi,\naby widzieli wasze dobre uczynki i chwalili Ojca waszego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 16-18",
+      "opis": "Przypowieść o lampie",
+      "tekst": "Jezus powiedział do tłumów:\n«Nikt nie zapala lampy i nie przykrywa jej garncem ani nie stawia pod łóżkiem; lecz umieszcza na świeczniku, aby widzieli światło ci, którzy wchodzą. Nie ma bowiem nic skrytego, co by nie miało być ujawnione, ani nic tajemnego, co by nie było poznane i na jaw nie wyszło. Uważajcie więc, jak słuchacie. Bo kto ma, temu będzie dane; a kto nie ma, temu zabiorą nawet to, co mu się wydaje, że ma».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna z motywem światła dobrze wprowadza w Ewangelię o lampie umieszczonej na świeczniku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest fundamentem dla życia prawego, opisanego w psalmie i pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, aby nasze światło mogło jaśnieć przed ludźmi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców dobrych czynów jest odpowiedzią na pouczenia o sprawiedliwości z Księgi Przysłów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości podsumowuje wszystkie społeczne pouczenia z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Prawdziwe ofiarowanie Bogu wyraża się w miłości i dobroci wobec bliźnich, do czego wzywa Księga Przysłów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój i miłosierdzie, pasuje do etycznych wskazań z pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii jest światłem, które rozprasza ciemności i napełnia nas życiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Komunia Święta jest przyjęciem Chrystusa, który jest światłością świata, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Pieśń uwielbienia, która nazywa Pana 'źródłem życia', jest aktem wiary, która ma jaśnieć jak światło lampy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, który jest wzorem sprawiedliwości i dobroci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia jest odpowiedzią na wezwanie do życia w prawości i oddawania chwały Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud czynienia dobra, by nasze światło jaśniało przed ludźmi, jak mówi aklamacja.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii jest zadaniem tych, którzy są światłem świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, który jest naszym światłem i prowadzi nas do Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, aby był światłem dla narodów i wiernie głosił Ewangelię.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem dla życia prawego, opisanego w psalmie i pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem bycia światłem i życia w sprawiedliwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia od nieprawości jest konieczne, aby móc zamieszkać w domu Pana, jak mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

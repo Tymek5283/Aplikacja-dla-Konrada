@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416109.Piatek-VI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "6 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 11, 1-9",
+      "opis": "Pomieszanie języków przy budowie wieży Babel",
+      "tekst": "Mieszkańcy całej ziemi mieli jedną mowę, czyli jednakowe słowa. A gdy wędrowali ze wschodu, napotkali równinę w kraju Szinear i tam zamieszkali. I mówili jeden do drugiego: «Chodźcie, wyrabiajmy cegłę i wypalmy ją w ogniu». A gdy już mieli cegłę zamiast kamieni i smołę zamiast zaprawy murarskiej, rzekli: «Chodźcie, zbudujemy sobie miasto i wieżę, której wierzchołek będzie sięgał nieba, i w ten sposób zdobędziemy sobie imię, abyśmy się nie rozproszyli po całej ziemi».\nA Pan zstąpił z nieba, by zobaczyć to miasto i wieżę, które budowali ludzie, i rzekł: «Są oni jednym ludem i wszyscy mają jedną mowę, i to jest przyczyną, że zaczęli budować. A zatem w przyszłości nic nie będzie dla nich niemożliwe, cokolwiek zamierzą uczynić. Zejdźmy więc i pomieszajmy tam ich język, aby jeden nie rozumiał drugiego!»\nW ten sposób Pan rozproszył ich stamtąd po całej powierzchni ziemi, i tak nie dokończyli budowy tego miasta. Dlatego to nazwano je Babel, tam bowiem Pan pomieszał mowę mieszkańców całej ziemi. Stamtąd też Pan rozproszył ich po całej powierzchni ziemi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 10-11. 12-13. 14-15 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nPan udaremnia zamiary narodów, *\nwniwecz obraca zamysły ludów.\nZamiary Pana trwają na wieki, *\nzamysły Jego serca przez pokolenia.\nRefren.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren.\nPatrzy z miejsca, gdzie przebywa, *\nna wszystkich mieszkańców ziemi.\nOn, który serca wszystkich ukształtował, *\nktóry zważa na wszystkie ich czyny.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nazwałem was przyjaciółmi,\nalbowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 34 - 9, 1",
+      "opis": "Prawdziwi uczniowie Jezusa",
+      "tekst": "Jezus przywołał do siebie tłum razem ze swoimi uczniami i rzekł im: «Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z powodu Mnie i Ewangelii, zachowa je.\nCóż bowiem za korzyść stanowi dla człowieka zyskać świat cały, a swoją duszę utracić? Bo cóż może dać człowiek w zamian za swoją duszę?\nKto się bowiem Mnie i słów moich zawstydzi przed tym pokoleniem wiarołomnym i grzesznym, tego Syn Człowieczy wstydzić się będzie, gdy przyjdzie w chwale Ojca swojego razem z aniołami świętymi».\nMówił im także: «Zaprawdę, powiadam wam: Niektórzy z tych, co tu stoją, nie zaznają śmierci, aż ujrzą królestwo Boże przychodzące w mocy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta wzywa do oddania czci Bogu, w przeciwieństwie do pychy budowniczych wieży Babel.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, którego naśladowanie wymaga zaparcia się siebie i wzięcia krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń błagalna, która jest odpowiedzią na grzech pychy i prośbą o Boże miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do konieczności wzięcia swojego krzyża, o której mowa w Ewangelii, jako drogi do zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc o siłę do naśladowania Chrystusa na drodze krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i oddania się Bogu, w przeciwieństwie do pychy budowniczych Babel.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, które wymaga zaparcia się siebie i pójścia za Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która uzdalnia do naśladowania Chrystusa na drodze krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary i pokory, który jest warunkiem naśladowania Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to pieśń chwały dla Pana, który, jak mówi psalm, udaremnia ludzkie zamysły, a swoje prowadzi do celu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do uwielbienia Pana, którego zamysły trwają na wieki, w przeciwieństwie do ludzkiej pychy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dar zbawienia, który otrzymujemy przez naśladowanie Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą krzyża, którą Jezus wskazuje w Ewangelii jako drogę ucznia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię o zbawieniu, które dokonuje się przez krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po usłyszeniu wezwania do naśladowania Chrystusa, prosimy o błogosławieństwo na tę drogę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Bogu w przeciwieństwie do polegania na własnych siłach, co było grzechem budowniczych Babel.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę całkowitego oddania się Bogu, do której wzywa Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która jest odpowiedzią na grzech pychy opisany w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która jest niezbędna do podjęcia krzyża i naśladowania Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

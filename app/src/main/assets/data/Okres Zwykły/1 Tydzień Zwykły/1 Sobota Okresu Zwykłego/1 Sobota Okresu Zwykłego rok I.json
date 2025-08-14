@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410443.Sobota-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 4, 12-16",
+      "opis": "Jezus wielki arcykapłan",
+      "tekst": "Bracia:\n\nŻywe jest słowo Boże, skuteczne i ostrzejsze niż wszelki  miecz obosieczny, przenikające aż do rozdzielenia duszy i ducha, stawów i szpiku, zdolne osądzić pragnienia i myśli serca. Nie ma stworzenia, które by dla Niego było niewidzialne; przeciwnie, wszystko odkryte jest i odsłonięte przed oczami Tego, któremu musimy zdać rachunek. Mając więc arcykapłana wielkiego, który przeszedł przez niebiosa, Jezusa, Syna Bożego, trwajmy mocno w wyznawaniu wiary. Nie takiego bowiem mamy arcykapłana, który by nie mógł współczuć naszym słabościom, lecz poddanego próbie pod każdym względem podobnie jak my - z wyjątkiem grzechu. Przybliżmy się więc z ufnością do tronu łaski, abyśmy doznali miłosierdzia i znaleźli łaskę pomocy w stosownej chwili. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8-9. 10 i 15 (R.: por. J 6, 63c)",
+      "opis": "",
+      "tekst": "Refren: Słowa Twe, Panie, są duchem i życiem.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\n\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\n\nJego słuszne nakazy radują serce, *\n\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\n\nsądy Pana prawdziwe, wszystkie razem słuszne.\n\nNiech znajdą uznanie przed Tobą †\n\nsłowa ust moich i myśli mego serca, *\n\nPanie, moja Opoko i mój Zbawicielu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\n\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 13-17",
+      "opis": "Powołanie Mateusza",
+      "tekst": "Jezus wyszedł znowu nad jezioro. Cały lud przychodził do Niego, a On go nauczał. A przechodząc, ujrzał Lewiego, syna Alfeusza, siedzącego na komorze celnej, i rzekł do niego: «Pójdź za Mną!» Ten wstał i poszedł za Nim. Gdy Jezus siedział w jego domu przy stole, wielu celników i grzeszników siedziało razem z Jezusem i Jego uczniami. Wielu bowiem było tych, którzy szli za Nim. Niektórzy uczeni w Piśmie, spośród faryzeuszów, widząc, że je z grzesznikami i celnikami, mówili do Jego uczniów: «Czemu On je i pije z celnikami i grzesznikami?» Jezus, usłyszawszy to, rzekł do nich: «Nie potrzebują lekarza zdrowi, lecz ci, którzy się źle mają. Nie przyszedłem, aby powołać sprawiedliwych, ale grzeszników». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta odzwierciedla postawę celnika Lewiego, który na wezwanie Jezusa poszedł za Nim, szukając u Niego ratunku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę grzesznika, który z ufnością zwraca się do miłosiernego Boga, Arcykapłana z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która pozwala odpowiedzieć na Boże wezwanie, tak jak uczynił to Mateusz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu swojego życia, co jest odpowiedzią na powołanie, jakiego doświadczył Mateusz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna, w której prosimy Boga o przyjęcie darów, symbolizujących nasze życie oddane na służbę Królestwu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń, która wyraża sens ofiarowania darów, które stają się Ciałem i Krwią Chrystusa, Lekarza dusz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do uczty w domu Lewiego, która jest zapowiedzią Uczty Eucharystycznej, na którą Jezus zaprasza grzeszników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa, który przyszedł powołać grzeszników i zaprasza ich do siebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Wyraża postawę grzesznika, który zwraca się do miłosiernego Boga, szukając przebaczenia i ocalenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynna za dar powołania i miłosierdzia, które Jezus okazał celnikowi i grzesznikom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania i miłosierdzia, które Bóg okazuje grzesznikom, zapraszając ich do swego stołu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Jest to pieśń uwielbienia za Słowo Boże, które jest żywe i skuteczne, jak opisuje List do Hebrajczyków.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża decyzję pójścia za Chrystusem, którą podjął Lewi, a do której zaproszony jest każdy wierzący.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo na drogę świadczenia o Chrystusie, którą rozpoczął Mateusz po swoim powołaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża prośbę o Boże prowadzenie w odpowiedzi na wezwanie 'Pójdź za Mną!', które odmieniło życie celnika.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie Lewiego-Mateusza na apostoła jest początkiem jego misji głoszenia Ewangelii, o której mówi ta pieśń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie jest modlitwą grzesznika, którego Jezus przyszedł powołać, a nie sprawiedliwego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń o Bożym miłosierdziu, które oczyszcza grzeszników i jest odpowiedzią na powołanie Lewiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, do której wzywa Jezus, powołując grzeszników.",
+      "moment": "ogolne"
+    }
+  ]
+}

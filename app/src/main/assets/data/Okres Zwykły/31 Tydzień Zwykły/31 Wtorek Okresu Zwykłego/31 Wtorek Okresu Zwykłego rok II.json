@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414873.Wtorek-31-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "31 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 2, 5-11",
+      "opis": "Chrystus uniżył samego siebie, dlatego Bóg Go wywyższył",
+      "tekst": "Bracia:\nTo dążenie niech was ożywia; ono też było w Chrystusie Jezusie.\nOn to, istniejąc w postaci Bożej, nie skorzystał ze sposobności, aby na równi być z Bogiem, lecz ogołocił samego siebie, przyjąwszy postać sługi, stając się podobnym do ludzi. A w zewnętrznej postaci uznany za człowieka, uniżył samego siebie, stając się posłusznym aż do śmierci - i to śmierci krzyżowej.\nDlatego też Bóg Go nad wszystko wywyższył i darował Mu imię ponad wszelkie imię, aby na imię Jezusa zgięło się każde kolano istot niebieskich i ziemskich, i podziemnych. I aby wszelki język wyznał, że Jezus Chrystus jest Panem - ku chwale Boga Ojca.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 22 (21), 26b-27. 28-30a. 31-32 (R.: por. 26a)",
+      "opis": "",
+      "tekst": "Refren: Będę Cię chwalił w wielkim zgromadzeniu.\nWypełnię moje śluby wobec czcicieli Boga. *\nUbodzy będą jedli i zostaną nasyceni,\nbędą chwalić Pana ci, którzy Go szukają: *\n«Serca wasze niech żyją na wieki».\nRefren.\nPrzypomną sobie i wrócą do Pana wszystkie krańce ziemi, *\noddadzą Mu pokłon wszystkie szczepy pogańskie,\nbo władza królewska należy do Pana †\ni On panuje nad narodami. *\nJemu się pokłonią wszyscy śpiący w ziemi.\nRefren.\nPotomstwo moje Jemu będzie służyć, *\nprzyszłym pokoleniom o Panu opowie.\nI sprawiedliwość Jego ogłoszą ludowi, †\nktóry się narodzi: *\n«Pan to uczynił».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 15-24",
+      "opis": "Przypowieść o zaproszonych na ucztę",
+      "tekst": "Gdy Jezus siedział przy stole, jeden ze współbiesiadników rzekł do Niego: «Szczęśliwy ten, kto będzie ucztował w królestwie Bożym».\nOn zaś mu powiedział: «Pewien człowiek wyprawił wielką ucztę i zaprosił wielu. Kiedy nadeszła pora uczty, posłał swego sługę, aby powiedział zaproszonym: „Przyjdźcie, bo już wszystko jest gotowe”. Wtedy zaczęli się wszyscy jednomyślnie wymawiać. Pierwszy kazał mu powiedzieć: „Kupiłem pole, muszę wyjść je obejrzeć; proszę cię, uważaj mnie za usprawiedliwionego”. Drugi rzekł: „Kupiłem pięć par wołów i idę je wypróbować; proszę cię, uważaj mnie za usprawiedliwionego”. Jeszcze inny rzekł: „Poślubiłem żonę i dlatego nie mogę przyjść”.\nSługa powrócił i oznajmił to swemu panu. Wtedy rozgniewany gospodarz nakazał swemu słudze: „Wyjdź co prędzej na ulice i w zaułki miasta i sprowadź tu ubogich, ułomnych, niewidomych i chromych!” Sługa oznajmił: „Panie, stało się, jak rozkazałeś, a jeszcze jest miejsce”. Na to pan rzekł do sługi: „Wyjdź na drogi i między opłotki i przynaglaj do wejścia, aby mój dom był zapełniony.\nAlbowiem powiadam wam: Żaden z owych ludzi, którzy byli zaproszeni, nie skosztuje mojej uczty”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń wprost nawiązuje do przypowieści z Ewangelii o uczcie, na którą gospodarz zaprasza wszystkich, zwłaszcza ubogich i chromych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do udziału w liturgii, która jest zapowiedzią uczty w królestwie Bożym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "688",
+      "piesn": "Boże, lud Twój",
+      "opis": "Pieśń gromadząca lud Boży na świętej uczcie, na którą wszyscy jesteśmy zaproszeni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na zaproszenie na ucztę, ta pieśń jest aktem ofiarowania Bogu całego siebie, by z czystym sercem uczestniczyć w Jego królestwie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża postawę pokory, która jest odpowiedzią na uniżenie się Chrystusa, opisane w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc, byśmy byli godni zasiąść przy Jego stole.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Aklamacja i Ewangelia są zaproszeniem na ucztę. Ta pieśń jest naszą odpowiedzią na to zaproszenie i prośbą o pokrzepienie w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, który zaprasza na swoją ucztę ubogich i odrzuconych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja najgłębsze pragnienia serca i karmi tych, którzy przyjęli Jego zaproszenie na ucztę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękczynienie za dar Eucharystii - uczty, na którą Bóg zaprasza nas wszystkich, a o której mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Hymn na cześć Chrystusa, który uniżył samego siebie, a Bóg Go nad wszystko wywyższył, czyniąc Go Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, którego wielbią wszystkie narody, jak zapowiada psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Hymn o kenozie Chrystusa z pierwszego czytania ukazuje Go jako Sługę. Pieśń ta jest uwielbieniem Chrystusa, który uniżył samego siebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby zapraszać wszystkich na ucztę Pańską, zwłaszcza tych z 'ulic i zaułków miasta'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy w codziennym życiu potrafili odpowiadać na Boże zaproszenie i służyć Mu z radością.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla, że w Eucharystii tworzymy jedno ciało w Chrystusie, co jest owocem Jego uniżenia i ofiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, które koresponduje z zaproszeniem na ucztę z Ewangelii, skierowanym do wszystkich utrudzonych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn chwalący Chrystusa Króla, którego królowanie objawiło się w uniżeniu i posłuszeństwie aż do śmierci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały, który jest odpowiedzią na zaproszenie na wielką ucztę w królestwie Bożym.",
+      "moment": "ogolne"
+    }
+  ]
+}

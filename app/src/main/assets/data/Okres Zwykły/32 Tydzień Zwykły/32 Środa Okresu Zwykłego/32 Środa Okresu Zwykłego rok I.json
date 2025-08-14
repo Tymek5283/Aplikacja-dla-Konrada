@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414681.Sroda-32-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "32 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 6, 1-11",
+      "opis": "Mądrość konieczna dla władców",
+      "tekst": "Słuchajcie, królowie, i zrozumcie, nauczcie się, sędziowie ziemskich rubieży! Nakłońcie ucha, wy, co nad wieloma panujecie i chlubicie się mnogością narodów, bo od Pana otrzymaliście władzę, od Najwyższego panowanie: On zbada uczynki wasze i zamysły wasze rozsądzi. Będąc bowiem sługami Jego królestwa, nie sądziliście uczciwie ani prawa nie przestrzegaliście, ani nie poszliście za wolą Boga, przeto groźnie i rychło natrze On na was, będzie bowiem sąd nieubłagany nad panującymi. Najmniejszy doznaje miłosiernego przebaczenia, ale mocarzy czeka mocne dochodzenie. Władca wszechrzeczy nie ulęknie się nikogo ani nie będzie zważał na wielkość. On bowiem stworzył małego i wielkiego i jednakowo o wszystkich się troszczy, ale możnym grozi surowe badanie.\nDo was więc zwracam się, władcy, byście się nauczyli mądrości i nie upadli. Bo ci, co świętości święcie przestrzegają, dostąpią uświęcenia, a którzy się tego nauczyli, ci znajdą słowa obrony. Pożądajcie więc słów moich, pragnijcie, a znajdziecie naukę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 82 (81), 3-4. 6-7 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Powstań, o Boże, osądź Twoją ziemię.\n«Ujmijcie się za sierotą i uciśnionym, *\noddajcie sprawiedliwość ubogim i nieszczęśliwym.\nUwolnijcie uciśnionego i nędzarza, *\nwyrwijcie go z rąk występnych».\nRefren.\nRzekłem: «Jesteście bogami, *\njesteście wszyscy synami Najwyższego.\nLecz wy pomrzecie jak ludzie, *\npoupadacie wszyscy jak książęta».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 Tes 5, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Za wszystko dziękujcie Bogu,\ntaka jest bowiem wola Boża względem was w Jezusie Chrystusie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 11-19",
+      "opis": "Niewdzięczność uzdrowionych z trądu",
+      "tekst": "Zdarzyło się, że Jezus, zmierzając do Jeruzalem, przechodził przez pogranicze Samarii i Galilei. Gdy wchodzili do pewnej wsi, wyszło naprzeciw Niego dziesięciu trędowatych. Zatrzymali się z daleka i głośno zawołali: «Jezusie, Mistrzu, ulituj się nad nami!»\nNa ten widok rzekł do nich: «Idźcie, pokażcie się kapłanom!» A gdy szli, zostali oczyszczeni.\nWtedy jeden z nich, widząc, że jest uzdrowiony, wrócił, chwaląc Boga donośnym głosem, padł na twarz u Jego nóg i dziękował Mu. A był to Samarytanin.\nJezus zaś rzekł: «Czyż nie dziesięciu zostało oczyszczonych? Gdzie jest dziewięciu? Czy się nie znalazł nikt, kto by wrócił i oddał chwałę Bogu, tylko ten cudzoziemiec?» Do niego zaś rzekł: «Wstań, idź, twoja wiara cię uzdrowiła».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który jak w Ewangelii lituje się nad chorymi i przynosi im uzdrowienie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest wołaniem o Boże miłosierdzie, podobnym do prośby dziesięciu trędowatych z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do przyjścia przed oblicze Pana z pokłonem, naśladując postawę uzdrowionego Samarytanina.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu dary w duchu wdzięczności, naśladując postawę uzdrowionego Samarytanina z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Prosimy Boga o przyjęcie naszej ofiary i wzmocnienie wiary, która, jak w przypadku Samarytanina, prowadzi do zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń eucharystyczna, która jest dziękczynieniem za dar Ciała Pańskiego, będący źródłem uzdrowienia duszy i ciała.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna, która jest odpowiedzią na pytanie Jezusa: 'Czy się nie znalazł nikt, kto by wrócił i oddał chwałę Bogu?'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "W Komunii przyjmujemy Chrystusa, który uzdrawia nas z trądu grzechu, a ta pieśń jest wyrazem naszej wdzięczności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, której w cudowny sposób doświadczyło dziesięciu trędowatych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Na wzór uzdrowionego Samarytanina, który wrócił, by wielbić Boga, ta pieśń jest wyrazem naszej wdzięczności za otrzymane łaski.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za Boże dary i łaski, których przykładem jest uzdrowienie z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny jest najlepszą formą uwielbienia za cud uzdrowienia i dar zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń ta jest aktem wdzięczności, do której wzywa postawa uzdrowionego Samarytanina, stanowiąc posłanie do życia w dziękczynieniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Po doświadczeniu Bożej mocy i miłosierdzia, jesteśmy posłani, by głosić chwałę Pana, tak jak czynił to uzdrowiony Samarytanin.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy w codziennym życiu potrafili, na wzór Samarytanina, wracać do Boga z dziękczynieniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń pyta, jak możemy odwdzięczyć się Bogu za Jego dary, a postawa wdzięczności uzdrowionego Samarytanina jest na to odpowiedzią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest wołaniem o miłosierdzie, podobnym do prośby dziesięciu trędowatych z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały jest doskonałym sposobem na wyrażenie wdzięczności za dar uzdrowienia i zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za niezliczone łaski, której wzorem jest postawa uzdrowionego cudzoziemca.",
+      "moment": "ogolne"
+    }
+  ]
+}

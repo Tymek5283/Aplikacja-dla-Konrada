@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431268.Poniedzialek-20-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "20 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 24, 15-24",
+      "opis": "Zapowiedź zburzenia Jerozolimy",
+      "tekst": "Pan skierował do mnie te słowa: «Synu człowieczy, oto zabieram ci nagle radość twych oczu, ale nie lamentuj ani nie płacz, ani nie pozwól, by płynęły ci łzy. Wzdychaj w milczeniu, nie przywdziewaj żałoby jak po umarłym, zawiąż sobie zawój dokoła głowy, sandały włóż na nogi, nie przysłaniaj brody, nie spożywaj chleba żałoby!»\nMówiłem do ludu mego rano, a wieczorem umarła mi żona, i uczyniłem rano tak, jak mi rozkazano. A lud mówił do mnie: «Czy nie wyjaśnisz nam, co oznacza dla nas to, co czynisz?»\nWówczas powiedziałem im: Pan skierował do mnie te słowa: «Powiedz domowi Izraela: Tak mówi Pan Bóg: Oto Ja pozwalam bezcześcić świątynię moją, dumę waszej potęgi, radość waszych oczu, tęsknotę waszych serc. Synowie wasi i córki wasze, których opuściliście, od miecza poginą. Wy zaś tak uczynicie, jak Ja uczyniłem: brody nie będziecie przesłaniać ani spożywać chleba żałoby, ale mając zawoje na głowach i sandały na nogach, nie będziecie lamentować ani płakać. Będziecie schnąć z powodu nieprawości waszych i będziecie wzdychać jeden przed drugim. Ezechiel będzie dla was znakiem. To, co on uczynił, będziecie i wy czynili, gdy to nastąpi. I poznacie, że Ja jestem Pan».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Pwt 32, 18-19. 20. 21 (R.: por. 18b)",
+      "opis": "",
+      "tekst": "Refren: Wspomnij na Boga, który stworzył ciebie.\nGardzisz Skałą, co ciebie zrodziła, *\nzapominasz o Bogu, który dał ci życie.\nZobaczył to Pan i wzgardził, *\noburzony na własnych synów i córki.\nRefren.\nI rzekł: «Odwrócę od nich oblicze, *\nzobaczę ich koniec.\nGdyż są narodem niestałym, *\ndziećmi, w których nie ma wierności.\nRefren.\nMnie do zazdrości pobudzili tym, co wcale nie jest bogiem, *\nrozjątrzyli Mnie swymi czczymi bożkami;\ni Ja ich do zazdrości pobudzę nie-ludem, *\nrozjątrzę ich narodem pozbawionym rozsądku».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 19, 16-22",
+      "opis": "Rada ubóstwa",
+      "tekst": "Pewien człowiek podszedł do Jezusa i zapytał: «Nauczycielu, co dobrego mam czynić, aby otrzymać życie wieczne?»\nOdpowiedział mu: «Dlaczego Mnie pytasz o dobro? Jeden tylko jest Dobry. A jeśli chcesz osiągnąć życie, zachowuj przykazania».\nZapytał Go: «Które?»\nJezus odpowiedział: «Oto te: Nie zabijaj, nie cudzołóż, nie kradnij, nie zeznawaj fałszywie, czcij ojca i matkę oraz miłuj swego bliźniego jak siebie samego».\nOdrzekł Mu młodzieniec: «Przestrzegałem tego wszystkiego, czego mi jeszcze brakuje?»\nJezus mu odpowiedział: «Jeśli chcesz być doskonały, idź, sprzedaj, co posiadasz, i daj ubogim, a będziesz miał skarb w niebie. Potem przyjdź i chodź za Mną!»\nGdy młodzieniec usłyszał te słowa, odszedł zasmucony, miał bowiem wiele posiadłości.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich idealnie wprowadza w Ewangelię, w której Jezus wzywa młodzieńca do rozdania majątku ubogim.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Refleksja nad marnością dóbr doczesnych jest dobrym wprowadzeniem do Ewangelii o bogatym młodzieńcu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do pójścia za Jezusem, co stanowiło trudność dla bogatego młodzieńcza z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta jest wyrazem gotowości do pójścia za Jezusem, w przeciwieństwie do postawy bogatego młodzieńca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu, która jest przeciwieństwem przywiązania do bogactw, ukazanego w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc, byśmy potrafili naśladować Chrystusa w ubóstwie i oddaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Czwarta zwrotka, mówiąca o Chrystusie, który oddał za nas życie, jest pocieszeniem w kontekście trudnego wezwania do radykalnego ubóstwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża pragnienie przyjęcia Jezusa, który jest prawdziwym skarbem, w przeciwieństwie do posiadłości młodzieńca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i ubóstwa ducha jest warunkiem godnego przyjęcia Chrystusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wobec grzechów niewierności Izraela, o których mówi psalm, ta pieśń jest wezwaniem do nawrócenia i wierności Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o powrocie do Ojca jest odpowiedzią na grzech zapomnienia o Bogu, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o przebaczenie grzechów niewierności, o których mówi psalm i symboliczny gest proroka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że pójście za Jezusem jest jedyną drogą do życia wiecznego, o które pytał młodzieniec.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o królestwie, do którego drogą jest naśladowanie ubogiego Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, w przeciwieństwie do postawy Izraelitów i bogatego młodzieńca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, która pomaga uznać swój grzech i niewierność, o której mowa w psalmie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń o przemijaniu i tęsknocie za niebieską ojczyzną pomaga zdystansować się od bogactw, które zatrzymały młodzieńca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie, które powinno kierować człowiekiem szukającym życia wiecznego, w przeciwieństwie do przywiązania do dóbr.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Bożą pomoc w pójściu za Chrystusem, co okazało się zbyt trudne dla bogatego młodzieńca.",
+      "moment": "ogolne"
+    }
+  ]
+}

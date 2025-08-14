@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 145,10-11.12-13ab.17-18",
-      "opis": "Refren:",
-      "tekst": "Królestwo Pana głoszą Jego święci.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
+      "opis": "",
+      "tekst": "Refren:\nKrólestwo Pana głoszą Jego święci.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta sławi Kościół, lud Boży, którego historię i nauczanie spisał dla nas św. Łukasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Dziękczynienie Bogu za dar św. Łukasza, który przekazał nam Ewangelię i Dzieje Apostolskie, jest dobrym rozpoczęciem liturgii.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "543",
       "piesn": "Sławimy pieśnią twój triumf",
       "opis": "Pieśń dedykowana św. Łukaszowi, która wspomina jego dzieło spisania Ewangelii i Dziejów Apostolskich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu owoc pracy św. Łukasza, który utrwalił dla nas słowo życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo dla naszej pracy, na wzór niestrudzonej pracy ewangelizacyjnej św. Łukasza.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, którą buduje Eucharystia, jest szczególnie stosowna w święto tego, który opisał początki wspólnoty wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Święty Łukasz przekazał nam opis Ostatniej Wieczerzy, a ta pieśń zaprasza nas do udziału w tej samej Uczcie Pańskiej.",
+      "moment": "komunia"
+    },
+    {
       "numer": "630",
       "piesn": "Wszystkie narody świata",
       "opis": "Pieśń ta jest echem Ewangelii o rozesłaniu uczniów, by głosili Dobrą Nowinę wszystkim narodom, co czynił św. Łukasz.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny mówi o głosie apostołów, który rozchodzi się po całej ziemi, a ta pieśń jest radosnym tego potwierdzeniem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne dziękczynienie za dzieło zbawienia, które św. Łukasz opisał w swojej Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Bezpośrednio nawiązuje do Ewangelii i misyjnego charakteru życia św. Łukasza, towarzysza św. Pawła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana jest posłaniem, które wierni zabierają ze sobą, naśladując misyjny zapał Ewangelisty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, którego życie i naukę spisał dla nas św. Łukasz.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "614",
       "piesn": "Panie, umocnij wiarę naszą",
       "opis": "Prośba o wiarę, która jest odpowiedzią na głoszoną Ewangelię, jest kluczowa w święto tego, który ją spisał.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest bezpośrednim nawiązaniem do słów Jezusa z dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "317",
+      "piesn": "Narodów Zbawco",
+      "opis": "Pieśń ta jest modlitwą o zbawienie dla wszystkich narodów, do których Ewangelię, spisaną przez Łukasza, zaniósł św. Paweł.",
       "moment": "ogolne"
     }
   ]

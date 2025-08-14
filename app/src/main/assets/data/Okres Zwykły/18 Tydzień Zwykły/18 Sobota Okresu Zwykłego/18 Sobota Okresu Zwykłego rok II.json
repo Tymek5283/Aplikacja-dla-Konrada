@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430564.Sobota-XVIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "18 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ha 1, 12 - 2, 4",
+      "opis": "Sprawiedliwy żyć będzie dzięki swej wierności",
+      "tekst": "Czyż to nie Ty, Boże mój, Świętości moja, jesteś od samych początków Panem? Nie pomrzemy! Na sąd przeznaczyłeś lud Chaldejczyków, o Panie, Opoko moja, zachowałeś go, aby mu wymierzyć karę.\nZbyt czyste oczy Twoje, by na zło patrzyły, a nieprawości pochwalać nie możesz. Czemu jednak spoglądasz na ludzi zdradliwych i milczysz, gdy bezbożny pożera uczciwszego od siebie?\nObchodzi się on z ludźmi jak z rybami morskimi, jak z pełzającymi zwierzętami, którymi nikt nie rządzi. Wszystkich łowi na wędkę, zagarnia swoim niewodem albo w sieci gromadzi - krzycząc przy tym z radości. Przeto ofiarę składa swojej sieci, pali kadzidło niewodowi swemu, bo przez nie zdobył sobie łup bogaty, a pożywienie jego stało się obfite. Czyż zatem nie zarzuca na nowo swych sieci, aby mordować ludy bez litości?\nNa moich czatach stać będę, udam się na miejsce czuwania, śledząc pilnie, by poznać, co On powie do mnie, jaką odpowiedź da na moją skargę.\nI odpowiedział Pan tymi słowami: «Zapisz widzenie, na tablicach wyryj, by można było łatwo je odczytać. Jest to widzenie na czas oznaczony, lecz wypełnienie jego niechybnie nastąpi; a jeśli się opóźnia, ty go oczekuj, bo w krótkim czasie przyjdzie niezawodnie. Oto zginie ten, co jest ducha nieprawego, a sprawiedliwy żyć będzie dzięki swej wierności».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 9, 8-9. 10-11. 12-13 (R.: por. 11b)",
+      "opis": "",
+      "tekst": "Refren: Pan nie opuszcza tych, co Go szukają.\nPan zasiada na wieki, *\nprzygotował swój tron, by sądzić.\nSam będzie sądził świat sprawiedliwie, *\nrozstrzygał bezstronnie sprawy narodów.\nRefren.\nSchronienie w Panu znajdzie uciśniony, *\nucieczkę w czasie utrapienia.\nUfają Tobie znający Twe imię, *\nbo nie opuszczasz, Panie, tych, co Cię szukają.\nRefren.\nPsalm śpiewajcie Panu, który mieszka na Syjonie, *\ngłoście Jego dzieła wśród narodów,\nbo mściciel krwi pamięta o nich, *\nnie zapomniał wołania ubogich.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17, 14-20",
+      "opis": "Potęga wiary",
+      "tekst": "Pewien człowiek zbliżył się do Jezusa i padając przed Nim na kolana, prosił: «Panie, zlituj się nad moim synem! Jest epileptykiem i bardzo cierpi; bo często wpada w ogień, a często w wodę. Przyprowadziłem go do Twoich uczniów, lecz nie mogli go uzdrowić».\nNa to Jezus odrzekł: «O plemię niewierne i przewrotne! Jak długo jeszcze mam być z wami; jak długo mam was znosić? Przyprowadźcie Mi go tutaj!» Jezus rozkazał mu surowo, i zły duch opuścił go. Od owej pory chłopiec odzyskał zdrowie.\nWtedy uczniowie podeszli do Jezusa na osobności i zapytali: «Dlaczego my nie mogliśmy go wypędzić?» On zaś im rzekł: «Z powodu małej wiary waszej. Bo zaprawdę, powiadam wam: Jeśli będziecie mieć wiarę jak ziarnko gorczycy, powiecie tej górze: „Przesuń się stąd tam!”, a przesunie się. I nic nie będzie dla was niemożliwego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę, co jest odpowiedzią na skargę proroka i postawę ojca chorego chłopca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to wołanie o pomoc w ucisku, które odzwierciedla zarówno lament proroka, jak i prośbę ojca z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do przyjścia do Jezusa z wiarą, tak jak uczynił to ojciec chorego chłopca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń dziękczynna, która kontrastuje z lamentem proroka, a podkreśla Bożą sprawiedliwość i ostateczne zwycięstwo dobra.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wobec tajemnicy cierpienia i zła, pieśń jest aktem nawrócenia i powierzenia się miłosierdziu Bożemu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu nasze troski i prośby, wierząc, że On, jak w Ewangelii, ma moc uzdrowienia i ocalenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę wiary i pokory, której domaga się Jezus w Ewangelii, a której zabrakło uczniom.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w moc Chrystusa ukrytego w Eucharystii, tej samej mocy, która uzdrowiła chłopca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża wiarę w przychodzącego Pana, który ma moc uzdrowić naszą małą wiarę i wszelkie słabości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który nie opuszcza tych, co Go szukają, jak głosi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą interwencję i uzdrowienie, które jest owocem wiary, nawet tak małej jak ziarnko gorczycy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który jest źródłem życia i uzdrowienia dla wszystkich, którzy w Niego wierzą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń ta jest doskonałym podsumowaniem dnia, w którym centralnym tematem jest wiara i wierność Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to bezpośrednia prośba o dar wiary, o której Jezus mówi, że jest zdolna przenosić góry.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po spotkaniu z uzdrawiającym Chrystusem, prosimy o błogosławieństwo na drogę świadczenia o Jego mocy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wyraża pragnienie życia w wierności Bogu, o której prorok Habakuk mówi, że jest źródłem życia dla sprawiedliwego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do zbliżenia się do Jezusa z wiarą, nawet pośród wątpliwości i cierpienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu, które jest kluczem do otrzymania cudu, jak pokazuje Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która umacnia wiarę i pozwala doświadczać Jego cudów.",
+      "moment": "ogolne"
+    }
+  ]
+}

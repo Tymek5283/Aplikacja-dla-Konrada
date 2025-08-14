@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416144.Czwartek-VII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "7 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 5, 1-8",
+      "opis": "Nie polegaj na bogactwach",
+      "tekst": "Nie polegaj na swych bogactwach i nie mów: «One mi wystarczą».\nNie daj się uwieść żądzom i sile, by iść za zachciankami swego serca.\nNie mów: «Któż ma nade mną panować?» Albowiem Pan z całą pewnością wymierzy ci sprawiedliwość.\nNie mów: «Zgrzeszyłem i cóż mi się stało?» Albowiem Pan jest cierpliwy. Nie bądź bez obawy co do przebaczenia, byś miał dodawać grzech do grzechu.\nNie mów: «Wielkie jest Jego miłosierdzie, zgładzi mnóstwo moich grzechów!» U Niego bowiem jest miłosierdzie, ale i gniew, a na grzeszników spadnie Jego zapalczywość.\nNie odwlekaj nawrócenia do Pana ani nie odkładaj z dnia na dzień; nagle bowiem gniew Jego przyjdzie i zginiesz w czasie odpłaty.\nNie polegaj na bogactwach, niesprawiedliwie nabytych, nic ci bowiem nie pomogą w dniu klęski.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40 [39], 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek, który nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 Tes 2, 13",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie słowo Boże nie jako słowo ludzkie,\nale jak jest naprawdę, jako słowo Boga."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 41-50",
+      "opis": "Unikać okazji do grzechu",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Kto wam poda kubek wody do picia, dlatego że należycie do Chrystusa, zaprawdę, powiadam wam, nie utraci swojej nagrody.\nA kto by się stał powodem grzechu dla jednego z tych małych, którzy wierzą, temu lepiej byłoby kamień młyński uwiązać u szyi i wrzucić go w morze.\nJeśli zatem twoja ręka jest dla ciebie powodem grzechu, odetnij ją; lepiej jest dla ciebie ułomnym wejść do życia wiecznego, niż z dwiema rękami pójść do piekła w ogień nieugaszony. I jeśli twoja noga jest dla ciebie powodem grzechu, odetnij ją; lepiej jest dla ciebie chromym wejść do życia, niż z dwiema nogami być wrzuconym do piekła. Jeśli twoje oko jest dla ciebie powodem grzechu, wyłup je; lepiej jest dla ciebie jednookim wejść do królestwa Bożego, niż z dwojgiem oczu być wrzuconym do piekła, gdzie robak ich nie ginie i ogień nie gaśnie. Bo każdy ogniem będzie posolony.\nDobra jest sól; lecz jeśli sól smak swój utraci, czymże ją przyprawicie? Miejcie sól w sobie i zachowujcie pokój między sobą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta wzywa do nawrócenia, o którym mówi pierwsze czytanie: 'Nie odwlekaj nawrócenia do Pana'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń błagalna, w której prosimy o prawe serce i siłę do walki z grzechem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża wołanie grzesznika o Bożą pomoc i miłosierdzie, w kontekście wezwania do unikania grzechu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń o charakterze ofiarnym jest prośbą o przyjęcie darów, które symbolizują nasze nawrócenie i zerwanie z grzechem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę żalu za grzechy i postanowienie poprawy, co jest odpowiedzią na wezwania z czytań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechu, abyśmy mogli wejść do życia wiecznego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem dającym siłę do radykalnego odcięcia się od grzechu, do czego wzywa Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który daje nam siłę do walki z grzechem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary i pokory, który jest warunkiem przyjęcia łaski do walki z grzechem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta jest wezwaniem do życia, które przynosi dobre owoce, w przeciwieństwie do drogi grzeszników opisanej w psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Boże miłosierdzie, które ratuje nas od grzechu i śmierci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dar zbawienia i Boże prowadzenie na drogach sprawiedliwości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie, aby unikać grzechu i zachować w sobie 'sól' Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby w codziennym życiu unikać okazji do grzechu, prosząc o Boże błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który jest naszą drogą do życia wiecznego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Panu, a nie bogactwom, przed czym ostrzega Księga Syracha.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na Boże wezwanie do nawrócenia i unikania grzechu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do psalmu, który mówi o szczęściu człowieka postępującego zgodnie z Prawem Pańskim.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu, które jest podstawą do przezwyciężania grzechu i pokus.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430475.Sroda-XVII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "17 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 34, 29-35",
+      "opis": "Twarz Mojżesza promienieje",
+      "tekst": "Gdy Mojżesz zstępował z góry Synaj z dwiema tablicami Świadectwa w ręku, nie wiedział, że skóra na jego twarzy promieniała na skutek rozmowy z Panem. Gdy Aaron i Izraelici zobaczyli Mojżesza z dala i ujrzeli, że skóra na jego twarzy promienieje, bali się zbliżyć do niego. A gdy Mojżesz ich przywołał, Aaron i wszyscy przywódcy zgromadzenia przyszli do niego, i Mojżesz rozmawiał z nimi. Potem przyszli także Izraelici, a on nakazał im wszystko, co Pan mu powiedział na górze Synaj.\nGdy Mojżesz zakończył z nimi rozmowę, nałożył zasłonę na twarz. Ilekroć Mojżesz wchodził przed oblicze Pana na rozmowę z Nim, zdejmował zasłonę aż do wyjścia. Gdy zaś wychodził, mówił Izraelitom to, co mu Pan rozkazał. I wtedy to Izraelici mogli widzieć twarz Mojżesza, że promienieje skóra na twarzy Mojżesza. A Mojżesz znów nakładał zasłonę na twarz, póki nie wszedł na rozmowę z Panem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 99 (98), 5-6. 7 i 9 (R.: por. 9c)",
+      "opis": "",
+      "tekst": "Refren: Jesteś najświętszy, Boże nasz i Panie.\nWysławiajcie Pana, naszego Boga, *\npadajcie przed podnóżkiem stóp Jego, bo On jest święty.\nWśród Jego kapłanów są Mojżesz, Aaron i Samuel †\nwśród tych, którzy wzywali Jego imienia, *\nwzywali Pana, a On ich wysłuchał.\nRefren.\nPrzemawiał do nich w słupie obłoku, *\na oni strzegli przykazań i prawa, które im nadał.\nWysławiajcie Pana, Boga naszego, †\npokłon oddajcie Jego świętej górze, *\nbo Pan nasz i Bóg jest święty.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nazwałem was przyjaciółmi,\nalbowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 44-46",
+      "opis": "Przypowieści o skarbie i perle",
+      "tekst": "Jezus opowiedział tłumom taką przypowieść:\n«Królestwo niebieskie podobne jest do skarbu ukrytego w roli. Znalazł go pewien człowiek i ukrył ponownie. Uradowany poszedł, sprzedał wszystko, co miał, i kupił tę rolę. Dalej, podobne jest królestwo niebieskie do kupca poszukującego pięknych pereł. Gdy znalazł jedną drogocenną perłę, poszedł, sprzedał wszystko, co miał, i kupił ją».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń nawiązuje do promieniejącej twarzy Mojżesza, która jest odbiciem chwały Bożej, a której pełnią jest sam Chrystus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie intymnej relacji z Bogiem, takiej jakiej doświadczał Mojżesz, rozmawiając z Nim 'twarzą w twarz'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do spotkania z Bogiem, którego chwała objawiła się na Synaju i objawia się w liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na odnalezienie skarbu Królestwa Niebieskiego, ta pieśń jest aktem oddania wszystkiego, co mamy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, co jest odpowiedzią na dar Jego Królestwa, cenniejszego niż wszystkie skarby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu nasze dary, prosząc, by stały się one znakiem naszego pragnienia posiadania skarbu w niebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta doskonale oddaje sens przypowieści o skarbie i perle, podkreślając, że Chrystus jest najcenniejszym darem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyraża pewność wiary w Chrystusa, który jest odnalezionym skarbem i drogocenną perłą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest pokarmem i skarbem, dla którego warto poświęcić wszystko inne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla świętości Boga, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest majestatycznym uwielbieniem Boga, którego chwałę oglądał Mojżesz i którego Królestwo odnajdujemy jako skarb.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dar wiary, która pozwala nam odkryć Królestwo Boże jako największą wartość.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wyboru Boga ponad wszystkie inne wartości, co jest postawą człowieka, który znalazł skarb.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po odnalezieniu Królestwa, jesteśmy posłani, by głosić panowanie Chrystusa-Króla.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Radość z odnalezienia skarbu Królestwa motywuje do dzielenia się tą Dobrą Nowiną z innymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża poszukiwanie ostatecznej wartości, którą jest Królestwo Boże, jak w przypowieści o kupcu szukającym pereł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest zaproszeniem do odkrycia w Jezusie największego skarbu i pójścia za Nim bez wahania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń podkreśla wartość poszukiwania Boga, co jest tematem przewodnim przypowieści o skarbie i perle.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Miłość do Jezusa, ukrytego skarbu, jest tematem tej pieśni, która dobrze koresponduje z Ewangelią.",
+      "moment": "ogolne"
+    }
+  ]
+}

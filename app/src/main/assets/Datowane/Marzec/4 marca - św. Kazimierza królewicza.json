@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 16,1-2a i 5.7-8.11",
-      "opis": "Refren:",
-      "tekst": "Pan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie, Boże, bo chronię się do Ciebie,\nmówię do Pana: „Tyś jest Panem moim”.\nPan moim dziedzictwem i przeznaczeniem,\nto On mój los zabezpiecza.\nBłogosławię Pana, który dał mi rozsądek,\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy,\nOn jest po mojej prawicy, nic mnie nie zachwieje.\nTy ścieżkę życia mi ukażesz,\npełnię Twojej radości\ni wieczną rozkosz\npo Twojej prawicy."
+      "opis": "",
+      "tekst": "Refren:\nPan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie, Boże, bo chronię się do Ciebie,\nmówię do Pana: „Tyś jest Panem moim”.\nPan moim dziedzictwem i przeznaczeniem,\nto On mój los zabezpiecza.\nBłogosławię Pana, który dał mi rozsądek,\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy,\nOn jest po mojej prawicy, nic mnie nie zachwieje.\nTy ścieżkę życia mi ukażesz,\npełnię Twojej radości\ni wieczną rozkosz\npo Twojej prawicy."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar patrona, który swoim życiem wskazywał drogę do świętości, jest odpowiednia na rozpoczęcie Mszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Słowa 'Błogosławieni czystego serca' doskonale charakteryzują św. Kazimierza, który jest wzorem czystości i umiłowania Boga.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "434",
       "piesn": "Kazimierzu, nasz patronie",
       "opis": "Modlitwa do patrona dnia, prosząca o wstawiennictwo i opiekę, doskonale pasuje do momentu przygotowania darów ofiarnych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na ofiarowanie, w której wraz z chlebem i winem składamy Bogu nasze życie na wzór świętego patrona.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta, mówiąc o ofiarowaniu siebie, odzwierciedla postawę św. Kazimierza, który całe swoje życie oddał Bogu.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o zjednoczenie z Jezusem w Komunii Świętej, na wzór głębokiej pobożności eucharystycznej św. Kazimierza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Hymn eucharystyczny podkreślający wiarę w realną obecność Chrystusa, która była fundamentem życia duchowego Świętego.",
+      "moment": "komunia"
+    },
+    {
       "numer": "599",
       "piesn": "Czego chcesz od nas, Panie",
       "opis": "Hymn dziękczynny za Boże dary jest odpowiedni na uwielbienie po Komunii, w duchu wdzięczności, którym żył Święty.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia, która może wyrażać naszą wdzięczność Bogu za przykład życia św. Kazimierza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem dziękczynienia za niezliczone łaski Boże, które w sposób szczególny objawiły się w życiu świętego królewicza.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "608",
       "piesn": "Kto się w opiekę",
       "opis": "Tekst psalmu o ufności Bogu przypomina o postawie czuwania i gotowości na przyjście Pana, do czego wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o Boże błogosławieństwo dla naszej pracy i trudu, na wzór św. Kazimierza, który uświęcał swoje królewskie obowiązki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa jako drogę, prawdę i życie jest przesłaniem, które zabieramy ze sobą po Mszy w święto tego, który tą drogą kroczył.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "582",
       "piesn": "O dobry Jezu",
       "opis": "Ta pieśń o naśladowaniu Chrystusa i pójściu za Nim drogą krzyża dobrze koresponduje z postawą św. Kazimierza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Modlitwa o umocnienie wiary jest zawsze aktualna, a w dzień św. Kazimierza przypomina o jego niezłomnej wierze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Święty Kazimierz był znany ze swojej miłości do ubogich, a ta pieśń przypomina o przykazaniu miłości bliźniego.",
       "moment": "ogolne"
     }
   ]

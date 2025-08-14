@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429097.Sroda-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 2, 9-13",
+      "opis": "Owocność apostolatu Pawła",
+      "tekst": "Pamiętacie przecież, bracia, naszą pracę i trud. Pracowaliśmy dniem i nocą, aby nikomu z was nie być ciężarem. Tak to wśród was głosiliśmy Ewangelię Bożą. Sami jesteście świadkami, i Bóg także, jak bogobojnie, sprawiedliwie i nienagannie zachowaliśmy się pośród was, wierzących. Przecież wiecie, że każdego z was - jak ojciec swe dzieci - prosiliśmy, zachęcaliśmy i zaklinaliśmy, abyście postępowali w sposób godny Boga, który was wzywa do swego królestwa i chwały.\nDlatego nieustannie dziękujemy Bogu, bo gdy przejęliście słowo Boże, usłyszane od nas, przyjęliście je nie jako słowo ludzkie, ale jako to, czym jest naprawdę - jako słowo Boga, który działa w was, wierzących.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 139 (138), 7-8. 9-10. 11-12b (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, przenikasz i znasz mnie całego.\nGdzie ucieknę przed duchem Twoim? *\nGdzie oddalę się od Twego oblicza?\nJeśli wstąpię do nieba, Ty tam jesteś, *\njesteś przy mnie, gdy położę się w Otchłani.\nRefren.\nGdybym wziął skrzydła jutrzenki, *\ngdybym zamieszkał na krańcach morza,\ntam również będzie mnie wiodła Twa ręka *\ni podtrzyma mnie Twoja prawica.\nRefren.\nJeśli powiem: «Niech więc mnie ciemność zasłoni *\ni noc mnie otoczy jak światło»,\nto nawet mrok nie będzie dla Ciebie ciemny, *\na noc jak dzień będzie jasna.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 J 2, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto zachowuje naukę Chrystusa,\nw tym naprawdę miłość Boża jest doskonała."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 27-32",
+      "opis": "Biada obłudnikom",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo podobni jesteście do grobów pobielanych, które z zewnątrz wyglądają pięknie, lecz wewnątrz pełne są kości trupich i wszelkiego plugastwa. Tak i wy z zewnątrz wydajecie się ludziom sprawiedliwi, lecz wewnątrz pełni jesteście obłudy i nieprawości.\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo budujecie groby prorokom i zdobicie grobowce sprawiedliwych oraz mówicie: „Gdybyśmy żyli za czasów naszych przodków, nie bylibyśmy ich wspólnikami w zabójstwie proroków”. Przez to sami przyznajecie, że jesteście potomkami tych, którzy mordowali proroków. Dopełnijcie i wy miary waszych przodków!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń prosi o stworzenie serca czystego, co jest odpowiedzią na Jezusowe oskarżenie faryzeuszy o wewnętrzną nieprawość i obłudę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i skruchy, która jest przeciwieństwem obłudy faryzeuszy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest modlitwą o oczyszczenie serca, w przeciwieństwie do dbania tylko o zewnętrzną czystość, co Jezus zarzuca faryzeuszom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruchy i żalu za grzechy, która jest przeciwieństwem obłudnej sprawiedliwości faryzeuszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Ofiarujemy Bogu pragnienie wydawania owoców prawdziwej wiary, a nie pozornej pobożności, jak faryzeusze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem prawdziwej wiary, a nie obłudy, którą gani Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa nawrócenia wyrażona w pieśni jest drogą do prawdziwej, a nie pozornej sprawiedliwości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem godnego przyjęcia Chrystusa, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest prośbą o obmycie duszy, co jest istotą prawdziwej czystości, o której naucza Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń ta, oparta na Psalmie 139, idealnie pasuje do psalmu responsoryjnego, mówiąc o Bogu, który nas przenika i zna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który zna nasze serca i pragnie szczerego, a nie obłudnego kultu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która powinna być żywa i autentyczna, a nie powierzchowna jak u faryzeuszy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa jako drogę prawdy, w przeciwieństwie do obłudnej drogi faryzeuszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi i Jego nauce, która demaskuje wszelką obłudę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest właściwą odpowiedzią na surowe słowa Jezusa z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość Słowa Bożego, które, jak pisze św. Paweł, działa w wierzących i prowadzi do życia godnego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości Królestwa i konieczności nawrócenia, co jest warunkiem wejścia do niego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie czystego serca jest przeciwieństwem postawy faryzeuszy, pełnych wewnętrznego plugastwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża, że Bogu miłe jest wdzięczne serce, a nie zewnętrzne obrzędy, co jest główną myślą Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

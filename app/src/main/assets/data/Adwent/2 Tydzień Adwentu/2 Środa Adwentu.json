@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest muzyczną parafrazą słów Jezusa z Ewangelii, wzywającą do Niego wszystkich obciążonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest adwentowym wołaniem o przyjście Pana, który jest ukojeniem dla naszych dusz, co obiecuje Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "633",
       "piesn": "Za rękę weź mnie, Panie",
       "opis": "Pieśń jest prośbą o Boże prowadzenie i pokrzepienie, które obiecuje Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze utrudzenie, prosząc o pokrzepienie, które daje Chrystus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania na Pana, który przychodzi, by dać nam ukojenie.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, które jest utrudzone i obciążone.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Jezusa, który przychodzi, by nas pokrzepić.",
+      "moment": "komunia"
+    },
+    {
       "numer": "608",
       "piesn": "Kto się w opiekę",
       "opis": "Pieśń jest wyrazem dziękczynienia i zaufania Panu, który, jak mówi Izajasz, 'daje siłę zmęczonemu i pomnaża moc bezsilnego'.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "8",
-      "piesn": "Przyjdź, Panie Jezu",
-      "opis": "Pieśń jest adwentowym wołaniem o przyjście Pana, który jest ukojeniem dla naszych dusz, co obiecuje Ewangelia.",
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny i pierwsze czytanie wzywają do wielbienia Boga za Jego potęgę i miłosierdzie, a ta pieśń jest tego wyrazem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który jest Stwórcą krańców ziemi i źródłem naszej siły.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń wzywa do przygotowania drogi Panu, który przychodzi, aby nas pokrzepić i dać nam ukojenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, abyśmy mogli przyjąć słodkie jarzmo i lekkie brzemię Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, który jest naszą siłą i ukojeniem.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "626",
       "piesn": "Szczęśliwy, kogo opatrzność Boska",
       "opis": "Pieśń wyraża szczęście płynące z Bożej opieki, o której zapewnia nas zarówno prorok Izajasz, jak i sam Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Jezus nazywa siebie cichym i pokornego serca, a pieśń o błogosławieństwach podkreśla wartość tych cnót w królestwie Bożym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, który jest jedynym ukojeniem dla naszych dusz.",
       "moment": "ogolne"
     }
   ]

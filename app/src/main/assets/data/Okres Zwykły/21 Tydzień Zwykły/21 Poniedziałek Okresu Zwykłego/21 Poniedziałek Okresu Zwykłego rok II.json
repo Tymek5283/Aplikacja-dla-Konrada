@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429093.Poniedzialek-21-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "21 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tes 1, 1-5. 11b-12",
+      "opis": "Dziękczynienie za wytrwanie Tesaloniczan w wierze",
+      "tekst": "Paweł, Sylwan i Tymoteusz do Kościoła Tesaloniczan w Bogu, Ojcu naszym, i Panu Jezusie Chrystusie. Łaska wam i pokój od Boga, Ojca naszego, i Pana Jezusa Chrystusa!\nBracia, zawsze winniśmy Bogu za was dziękować, co jest rzeczą słuszną, bo wiara wasza bardzo wzrasta, a miłość wzajemna u każdego z was się pomnaża, i to tak, że my sami chlubimy się wami w Kościołach Bożych z powodu waszej cierpliwości i wiary we wszystkich waszych prześladowaniach i uciskach, które znosicie. Są one zapowiedzią sprawiedliwego sądu Boga; celem jego jest uznanie was za godnych królestwa Bożego, dla którego też cierpicie.\nOby Bóg nasz uczynił was godnymi swego wezwania i oby z mocą wypełnił w was wszelkie pragnienie dobra oraz działanie wiary. Aby w was zostało uwielbione imię Pana naszego, Jezusa Chrystusa - a wy w Nim - za łaską Boga naszego i Pana Jezusa Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1-2a. 2b-3. 4-5 (R.: por. 3)",
+      "opis": "",
+      "tekst": "Refren: Pośród narodów głoście chwałę Pana.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, *\nsławcie Jego imię.\nRefren.\nKażdego dnia głoście Jego zbawienie. *\nGłoście Jego chwałę wśród wszystkich narodów,\nrozgłaszajcie Jego cuda *\npośród wszystkich ludów.\nRefren.\nWielki jest Pan, godzien wszelkiej chwały, *\nbudzi trwogę najwyższą, większą niż inni bogowie.\nBo wszyscy bogowie pogan są tylko ułudą, *\nPan zaś stworzył niebiosa.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 13-22",
+      "opis": "Zaślepienie faryzeuszów",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo zamykacie królestwo niebieskie przed ludźmi. Wy sami nie wchodzicie i nie pozwalacie wejść tym, którzy do niego idą.\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo przemierzacie morze i ziemię, żeby pozyskać jednego współ wyznawcę. A gdy się nim stanie, czynicie go dwakroć bardziej winnym piekła niż wy sami.\nBiada wam, przewodnicy ślepi, którzy mówicie: „Kto by przysiągł na przybytek, nic to nie znaczy; lecz kto by przysiągł na złoto przybytku, ten jest związany przysięgą”. Głupi i ślepi! Cóż bowiem jest ważniejsze, złoto czy przybytek, który uświęca złoto? Dalej: „Kto by przysiągł na ołtarz, nic to nie znaczy; lecz kto by przysiągł na ofiarę, która jest na nim, ten jest związany przysięgą”. Ślepcy! Cóż bowiem jest ważniejsze, ofiara czy ołtarz, który uświęca ofiarę?\nKto więc przysięga na ołtarz, przysięga na niego i na wszystko, co na nim leży. A kto przysięga na przybytek, przysięga na niego i na Tego, który w nim mieszka. A kto przysięga na niebo, przysięga na tron Boży i na Tego, który na nim zasiada».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o wzrost w wierze, za który św. Paweł chwali Tesaloniczan w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości Królestwa, które faryzeusze zamykają przed ludźmi, a do którego przez wiarę i cierpliwość dążą Tesaloniczanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Jest to wezwanie do nawrócenia, które jest warunkiem wejścia do królestwa Bożego, w przeciwieństwie do postawy faryzeuszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń o miłości braterskiej jest odpowiedzią na pochwałę wzajemnej miłości Tesaloniczan i na postawę faryzeuszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców dobrych czynów, co jest wyrazem prawdziwej wiary, chwalonej przez św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem prawdziwej wiary, a nie obłudy, którą gani Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec ostrych słów Jezusa piętnujących obłudę, ta pieśń pokutna pomaga przyjąć właściwą postawę skruchy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Jest to modlitwa o czyste serce i odnowienie ducha, co jest przeciwieństwem postawy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest prośbą o wewnętrzne oczyszczenie, w przeciwieństwie do zewnętrznej czystości faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń, będąca echem Psalmu 96, jest radosnym wezwaniem do głoszenia chwały Pana wśród narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości z przynależności do ludu Bożego, który głosi Jego chwałę, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą tych, którzy jak Tesaloniczanie, doświadczyli mocy Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest zachętą do głoszenia Ewangelii, co jest czynem wiary chwalonym przez św. Pawła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, w przeciwieństwie do postawy faryzeuszy, którzy zamykali przed ludźmi królestwo niebieskie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego prawdy, w przeciwieństwie do obłudy faryzeuszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna jest echem dziękczynienia św. Pawła za wiarę i miłość wspólnoty w Tesalonikach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory, która jest przeciwieństwem pychy i obłudy faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Nadzieja w Chrystusie jest fundamentem życia chrześcijańskiego, w przeciwieństwie do pustych praktyk faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna, za którą św. Paweł chwali Tesaloniczan, jest istotą życia chrześcijańskiego, w przeciwieństwie do obłudy piętnowanej w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

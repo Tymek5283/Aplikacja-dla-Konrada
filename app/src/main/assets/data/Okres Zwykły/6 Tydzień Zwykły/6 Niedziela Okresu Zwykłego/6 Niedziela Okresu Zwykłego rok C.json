@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415625.VI-Niedziela-Zwykla-rok-C",
+  "tytul_dnia": "6 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 17, 5-8",
+      "opis": "Błogosławiony, kto pokłada ufność w Bogu",
+      "tekst": "Tak mówi Pan: «Przeklęty mąż, który pokłada nadzieję w człowieku i który w ciele upatruje swą siłę, a od Pana odwraca swe serce. Jest on podobny do dzikiego krzewu na stepie, nie dostrzega, gdy przychodzi szczęście; wybiera miejsca spalone na pustyni, ziemię słoną i bezludną.\nBłogosławiony mąż, który pokłada ufność w Panu, i Pan jest jego nadzieją. Jest on podobny do drzewa zasadzonego nad wodą, co swe korzenie puszcza ku strumieniowi; nie obawia się, gdy nadejdzie upał, bo zachowa zielone liście; także w roku posuchy nie doznaje niepokoju i nie przestaje wydawać owoców».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40 [39], 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 15, 12. 16-20",
+      "opis": "Zmartwychwstanie Chrystusa podstawą naszej wiary",
+      "tekst": "Bracia:\nJeżeli głosi się, że Chrystus zmartwychwstał, to dlaczego twierdzą niektórzy spośród was, że nie ma zmartwychwstania? Jeśli umarli nie zmartwychwstają, to i Chrystus nie zmartwychwstał. A jeżeli Chrystus nie zmartwychwstał, daremna jest wasza wiara i aż dotąd pozostajecie w waszych grzechach. Tak więc i ci, co pomarli w Chrystusie, poszli na zatracenie. Jeżeli tylko w tym życiu w Chrystusie nadzieję pokładamy, jesteśmy bardziej od wszystkich ludzi godni politowania.\nTymczasem jednak Chrystus zmartwychwstał jako pierwociny spośród tych, co pomarli.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 6, 23ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Cieszcie się i radujcie,\nbo wielka jest wasza nagroda w niebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 17. 20-26",
+      "opis": "Błogosławieni ubodzy, biada bogaczom",
+      "tekst": "Jezus zszedł z Dwunastoma na dół i zatrzymał się na równinie; był tam liczny tłum Jego uczniów i wielkie mnóstwo ludu z całej Judei i z Jeruzalem oraz z nadmorskich okolic Tyru i Sydonu.\nOn podniósł oczy na swoich uczniów i mówił:\n«Błogosławieni jesteście, ubodzy, albowiem do was należy królestwo Boże.\nBłogosławieni, którzy teraz głodujecie, albowiem będziecie nasyceni.\nBłogosławieni, którzy teraz płaczecie, albowiem śmiać się będziecie.\nBłogosławieni jesteście, gdy ludzie was znienawidzą i gdy was wyłączą spośród siebie, gdy zelżą was i z powodu Syna Człowieczego odrzucą z pogardą wasze imię jako niecne: cieszcie się i radujcie w owym dniu, bo wielka jest wasza nagroda w niebie. Tak samo bowiem przodkowie ich czynili prorokom.\nNatomiast biada wam, bogaczom, bo odebraliście już pociechę waszą.\nBiada wam, którzy teraz jesteście syci, albowiem głód cierpieć będziecie.\nBiada wam, którzy się teraz śmiejecie, albowiem smucić się i płakać będziecie.\nBiada wam, gdy wszyscy ludzie chwalić was będą. Tak samo bowiem przodkowie ich czynili fałszywym prorokom».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest bezpośrednim nawiązaniem do Ewangelii o błogosławieństwach i stanowi doskonałe wprowadzenie do liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Nawiązuje do pierwszego czytania i psalmu, które przeciwstawiają drogę ufających Bogu i drogę występnych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, w którym, jak mówi prorok Jeremiasz, należy pokładać ufność.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wyraża ideę zaufania Panu, która jest centralnym tematem pierwszego czytania i psalmu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, ufając, że On jest naszą nadzieją.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubogiego w duchu, który całą swoją nadzieję pokłada w Bogu, a nie w człowieku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Nawiązuje do błogosławieństwa dla głodujących i ukazuje Eucharystię jako pokarm, który nasyca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Chleb Żywy, jest pokarmem dla ubogich i głodujących, obiecując im nasycenie w Królestwie Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta identyfikuje Chrystusa jako Chleb, który daje nam życie i jest naszą nadzieją na zmartwychwstanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń o zmartwychwstaniu, które jest podstawą naszej nadziei i nagrody w niebie, jak mówi drugie czytanie i Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Jest to hymn uwielbienia za zmartwychwstanie Chrystusa, które jest fundamentem naszej wiary i nadziei.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń ta sławi Chrystusa Zmartwychwstałego, który jest pierwociną tych, co pomarli, i naszą nadzieją.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary i zaufania Chrystusowi, co jest odpowiedzią na całą liturgię słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby żyć błogosławieństwami w codziennym życiu, prosząc o Bożą pomoc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię o Królestwie Bożym, które należy do ubogich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Jest to pieśń o zaufaniu Bogu, która dobrze koresponduje z pierwszym czytaniem o błogosławieństwie dla ufających Panu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Podkreśla, że nasza nadzieja jest w Chrystusie, co jest szczególnie ważne w kontekście drugiego czytania o zmartwychwstaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest źródłem prawdziwego błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą błogosławieństw, która często jest drogą trudną i wymagającą.",
+      "moment": "ogolne"
+    }
+  ]
+}

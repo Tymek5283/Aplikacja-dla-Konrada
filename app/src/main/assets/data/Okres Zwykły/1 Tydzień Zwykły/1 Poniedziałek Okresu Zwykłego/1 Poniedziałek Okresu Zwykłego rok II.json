@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410391.Poniedzialek-I-tydzien-zwykly-rok-II",
+  "tytul_dnia": "1 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 1, 1-8",
+      "opis": "Niedola niepłodnej Anny",
+      "tekst": "Był pewien człowiek z Ramataim, Sufita z górskiej okolicy Efraima, imieniem Elkana, syn Jerochama, syna Elihu, syna Tochu, syna Sufa, Efratejczyka. Miał on dwie żony: jednej było na imię Anna, a drugiej Peninna. Peninna miała dzieci, natomiast Anna ich nie miała. Corocznie człowiek ten udawał się z miasta swego do Szilo, aby oddać pokłon i złożyć ofiarę Panu Zastępów. Byli tam dwaj synowie Helego: Chofni i Pinchas - kapłani Pana. Pewnego dnia Elkana składał ofiarę. Dał wtedy żonie swej, Peninnie, wszystkim jej synom i córkom po części ze składanej ofiary. Również Annie dał część, lecz podwójną, gdyż Annę bardzo miłował, mimo że Pan zamknął jej łono. Jej rywalka przymnażała jej smutku, aby ją rozjątrzyć z tego powodu, że Pan zamknął jej łono. I tak się działo przez wiele lat. Ile razy szła do świątyni Pana, tamta dokuczała jej w ten sposób. Anna więc płakała i nie jadła. I rzekł do niej jej mąż, Elkana: «Anno, czemu płaczesz? Dlaczego nie jesz? Czemu się twoje serce smuci? Czyż ja nie znaczę dla ciebie więcej niż dziesięciu synów?» Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 12-13. 14-15. 16-17. 18-19 (R.: por. 17a)",
+      "opis": "",
+      "tekst": "Refren: Złożę Ci, Boże, ofiarę pochwalną.\n\nalbo: Alleluja.\nCzym się Panu odpłacę *\n\nza wszystko, co mi wyświadczył?\n\nPodniosę kielich zbawienia *\n\ni wezwę imienia Pana.\nRefren.\nWypełnię me śluby dla Pana *\n\nprzed całym Jego ludem.\n\nCenna jest w oczach Pana *\n\nśmierć Jego wyznawców.\nRefren.\nO Panie, jestem Twoim sługą, *\n\nTwym sługą, synem Twojej służebnicy.\n\nTy rozerwałeś moje kajdany, †\n\nTobie złożę ofiarę pochwalną *\n\ni wezwę imienia Pana.\nRefren.\nWypełnię me śluby dla Pana *\n\nprzed całym Jego ludem.\n\nW dziedzińcach Pańskiego domu, *\n\npośrodku ciebie, Jeruzalem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\n\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 14-20",
+      "opis": "Jezus wzywa ludzi do nawrócenia i powołuje pierwszych apostołów",
+      "tekst": "Gdy Jan został uwięziony, Jezus przyszedł do Galilei i głosił Ewangelię Bożą. Mówił: «Czas się wypełnił i bliskie jest królestwo Boże. Nawracajcie się i wierzcie w Ewangelię!» Przechodząc obok Jeziora Galilejskiego, ujrzał Szymona i brata Szymonowego, Andrzeja, jak zarzucali sieć w jezioro; byli bowiem rybakami. I rzekł do nich Jezus: «Pójdźcie za Mną, a sprawię, że się staniecie rybakami ludzi». A natychmiast, porzuciwszy sieci, poszli za Nim. Idąc nieco dalej, ujrzał Jakuba, syna Zebedeusza, i brata jego, Jana, którzy też byli w łodzi i naprawiali sieci. Zaraz ich powołał, a oni, zostawiwszy ojca swego, Zebedeusza, razem z najemnikami w łodzi, poszli za Nim. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest dosłownym cytatem z wezwania Jezusa w Ewangelii: 'Nawracajcie się i wierzcie w Ewangelię'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do zgromadzenia się przed Panem, który wzywa do nawrócenia i powołuje uczniów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę Anny z pierwszego czytania, która w swoim smutku wznosi serce do Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń wyraża ofiarowanie Bogu pracy i trudów, co symbolizuje porzucenie sieci przez apostołów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jest to klasyczna pieśń ofiarna, w której składamy Bogu dary, prosząc o ich przyjęcie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Pieśń ta w prostych słowach wyraża sens składania darów chleba i wina na ołtarzu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Powołanie uczniów jest zaproszeniem do wspólnoty z Jezusem, której pełnią jest Eucharystia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Wyraża osobiste pragnienie zjednoczenia z Chrystusem, który powołuje nas do bliskości z sobą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i jednocześnie poczucie niegodności w oczekiwaniu na przyjście Pana w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynna, która oddaje ducha psalmu responsoryjnego: 'Czym się Panu odpłacę za wszystko, co mi wyświadczył?'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Jest to pieśń dziękczynna, która doskonale oddaje ducha psalmu responsoryjnego 'Czym się Panu odpłacę?'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Wyraża osobiste dziękczynienie Bogu za Jego interwencję i ratunek, podobnie jak w psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie pierwszych uczniów jest początkiem misji Kościoła, polegającej na głoszeniu Ewangelii wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest prośbą o Boże błogosławieństwo na misję głoszenia Ewangelii, do której powołani są uczniowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Wyraża prośbę o stałą obecność Pana, która jest niezbędna do wypełnienia misji apostolskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, za którym uczniowie poszli, porzucając wszystko.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest echem wezwania Jezusa 'Pójdźcie za Mną!', skierowanego do pierwszych apostołów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni nawiązuje do modlitwy Anny, która w swoim utrapieniu zwraca się do Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest odpowiedzią na Jego powołanie i źródłem pociechy w trudnościach.",
+      "moment": "ogolne"
+    }
+  ]
+}

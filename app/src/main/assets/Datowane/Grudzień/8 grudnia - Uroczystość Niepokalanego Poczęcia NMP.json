@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 98,1-4",
-      "opis": "Refren:",
-      "tekst": "Śpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
+      "opis": "",
+      "tekst": "Refren:\nŚpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "399",
+      "piesn": "Witaj, Święta i Niepokalana",
+      "opis": "Kolejna pieśń bezpośrednio związana z tajemnicą dnia, podkreślająca świętość i wyjątkowe wybranie Maryi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Jest to hymn sławiący Niepokalanie Poczętą, który może być wykorzystany w różnych momentach liturgii.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "356",
       "piesn": "Matko Niebieskiego Pana",
       "opis": "Podkreśla wyjątkowość i czystość Maryi, która została wybrana przez Boga, o czym mówi drugie czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia, która poprzez swoje 'tak' stała się Matką Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Zwiastowaniu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "338",
       "piesn": "Gwiazdo zaranna",
       "opis": "Pieśń uwielbia Maryję jako Jutrzenkę zapowiadającą przyjście Chrystusa, co łączy się z Jej rolą w historii zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
       "moment": "uwielbienie"
     },
     {
@@ -66,21 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "327",
-      "piesn": "Ciebie na wieki",
-      "opis": "Jest to hymn sławiący Niepokalanie Poczętą, który może być wykorzystany w różnych momentach liturgii.",
-      "moment": "ogolne"
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
+      "moment": "rozeslanie"
     },
     {
-      "numer": "399",
-      "piesn": "Witaj, Święta i Niepokalana",
-      "opis": "Kolejna pieśń bezpośrednio związana z tajemnicą dnia, podkreślająca świętość i wyjątkowe wybranie Maryi.",
-      "moment": "ogolne"
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "Pieśń ta, będąca parafrazą 'Salve Regina', jest modlitwą o wstawiennictwo Tej, która jest Matką naszego Pana.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "29",
       "piesn": "Zdrowaś bądź Maryja",
       "opis": "Parafraza modlitwy 'Zdrowaś Maryjo', której słowa pochodzą ze sceny Zwiastowania, stanowi piękne uzupełnienie śpiewów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń jest echem słów anioła 'błogosławiona jesteś między niewiastami', co stanowi doskonałą medytację na temat tajemnicy dnia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Psalm responsoryjny wzywa do śpiewania nowej pieśni Panu, a ta pieśń jest radosnym hymnem na cześć Boga za Jego cuda.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "365",
+      "piesn": "O Maryjo bez grzechu poczęta",
+      "opis": "Proste, litanijne wezwanie, które jest modlitwą i wyznaniem wiary w Niepokalane Poczęcie.",
       "moment": "ogolne"
     }
   ]

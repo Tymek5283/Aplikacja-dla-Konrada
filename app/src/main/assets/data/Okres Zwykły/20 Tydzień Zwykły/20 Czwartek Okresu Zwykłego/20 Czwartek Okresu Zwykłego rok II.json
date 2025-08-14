@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431265.Czwartek-20-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "20 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 36, 23-28",
+      "opis": "Dam wam serce nowe i nowego ducha",
+      "tekst": "Tak mówi Pan:\n«Chcę uświęcić wielkie imię moje, które zbezczeszczone jest pośród ludów, zbezczeszczone przez was pośród nich, i poznają ludy, że Ja jestem Pan, gdy okażę się Świętym względem was przed ich oczami.\nZabiorę was spośród ludów, zbiorę was ze wszystkich krajów i przyprowadzę was z powrotem do waszego kraju, pokropię was czystą wodą, abyście się stali czystymi, i oczyszczę was od wszelkiej zmazy i od wszystkich waszych bożków.\nI dam wam serca nowe i ducha nowego tchnę do waszego wnętrza, zabiorę wam serca kamienne, a dam wam serca z ciała. Ducha mojego chcę tchnąć w was i sprawić, byście żyli według mych nakazów i przestrzegali przykazań, i według nich postępowali. Wtedy będziecie mieszkać w kraju, który dałem waszym przodkom, i będziecie moim ludem, a Ja będę waszym Bogiem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 12-13. 14-15. 18-19 (R.: por. Ez 36, 25)",
+      "opis": "",
+      "tekst": "Refren: Gdy was pokropię, staniecie się czyści.\nStwórz, Boże, we mnie serce czyste *\ni odnów we mnie moc ducha.\nNie odrzucaj mnie od swego oblicza *\ni nie odbieraj mi świętego ducha swego.\nRefren.\nPrzywróć mi radość Twojego zbawienia *\ni wzmocnij mnie duchem ofiarnym.\nBędę nieprawych nauczał dróg Twoich *\ni wrócą do Ciebie grzesznicy.\nRefren.\nOfiarą bowiem Ty się nie radujesz, *\na całopalenia, choćbym dał, nie przyjmiesz.\nBoże, moją ofiarą jest duch skruszony, *\npokornym i skruszonym sercem Ty, Boże, nie gardzisz.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 22, 1-14",
+      "opis": "Przypowieść o zaproszonych na ucztę",
+      "tekst": "Jezus w przypowieściach mówił do arcykapłanów i starszych ludu: «Królestwo niebieskie podobne jest do króla, który wyprawił ucztę weselną swemu synowi. Posłał więc swoje sługi, żeby zaproszonych zwołali na ucztę, lecz ci nie chcieli przyjść.\nPosłał jeszcze raz inne sługi z poleceniem: „Powiedzcie zaproszonym: Oto przygotowałem moją ucztę; woły i tuczne zwierzęta ubite i wszystko jest gotowe. Przyjdźcie na ucztę!” Lecz oni zlekceważyli to i odeszli: jeden na swoje pole, drugi do swego kupiectwa, a inni pochwycili jego sługi i znieważywszy, pozabijali.\nNa to król uniósł się gniewem. Posłał swe wojska i kazał wytracić owych zabójców, a miasto ich spalić. Wtedy rzekł swoim sługom: „Uczta weselna wprawdzie jest gotowa, lecz zaproszeni nie byli jej godni. Idźcie więc na rozstajne drogi i zaproście na ucztę wszystkich, których spotkacie”. Słudzy ci wyszli na drogi i sprowadzili wszystkich, których napotkali: złych i dobrych. I sala weselna zapełniła się biesiadnikami.\nWszedł król, żeby się przypatrzyć biesiadnikom, i zauważył tam człowieka nieubranego w strój weselny. Rzekł do niego: „Przyjacielu, jakże tu wszedłeś, nie mając stroju weselnego?” Lecz on oniemiał. Wtedy król rzekł sługom: „Zwiążcie mu ręce i nogi i wyrzućcie go na zewnątrz, w ciemności! Tam będzie płacz i zgrzytanie zębów”. Bo wielu jest powołanych, lecz mało wybranych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń jest zaproszeniem na ucztę, co stanowi centralny motyw Ewangelii o uczcie weselnej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się na uczcie, na którą król z przypowieści zaprasza wszystkich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Gromadzimy się jako Kościół, wspólnota zaproszona na królewską ucztę Syna Bożego i obdarowana nowym sercem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Prośba o 'serce czyste' z tej pieśni (Ps 51) jest echem obietnicy z pierwszego czytania i psalmu responsoryjnego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i chęć posiadania nowego serca, co jest warunkiem posiadania 'stroju weselnego' na uczcie Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na ofiarowanie, w której składamy dary na stół Pański, przygotowując się do uczty eucharystycznej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Prośba o dary Ducha Świętego jest odpowiedzią na Bożą obietnicę z proroctwa Ezechiela: 'Ducha mojego chcę tchnąć w was'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Jest to modlitwa o Ducha Świętego, który daje nam nowe serce i uzdalnia do godnego udziału w Uczcie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Wołanie do Ducha Świętego, który jest źródłem nowego życia obiecanego przez proroka Ezechiela.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń, będąca parafrazą Psalmu 51, jest modlitwą o odnowienie ducha i radość zbawienia, co obiecuje pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn uwielbienia dla Boga, który zaprasza nas, ubogich i nędznych, na swoją wspaniałą ucztę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar powołania na ucztę zbawienia i za obietnicę nowego serca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina o powołaniu Ludu Bożego, który jest zaproszony na ucztę królewską i obdarowany nowym sercem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani z Uczty, aby jak słudzy z przypowieści zapraszać wszystkich na rozstajnych drogach do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest wyrazem przyjęcia zaproszenia Króla i chęci należenia do Jego królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń jest adoracją Eucharystii jako świętej uczty, która jest zapowiedzią uczty niebieskiej z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, co jest warunkiem godnego uczestnictwa w uczcie - posiadania 'stroju weselnego'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia jest warunkiem przyjęcia zaproszenia na ucztę i otrzymania nowego serca od Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia, która jest konieczna, aby przyjąć 'strój weselny' i dar nowego serca.",
+      "moment": "ogolne"
+    }
+  ]
+}

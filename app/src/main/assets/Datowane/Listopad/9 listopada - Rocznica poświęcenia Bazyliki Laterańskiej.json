@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 46,2-3.5-6.8-9",
-      "opis": "Refren:",
-      "tekst": "Bóg jest we wnętrzu swojego Kościoła.\nBóg jest dla nas ucieczką i siłą:\nnajpewniejszą pomocą w trudnościach.\nPrzeto nie będziemy się bali, choćby\nzatrzęsła się ziemia\ni góry spadły w otchłań morza.\nNurty rzeki rozweselają miasto Boże,\nnajświętszy przybytek Najwyższego.\nBóg jest w Jego wnętrzu, więc się nie\nzachwieje,\nBóg je wspomoże o świcie.\nPan Zastępów jest z nami,\nBóg Jakuba jest naszą obroną.\nPrzyjdźcie, zobaczcie dzieła Pana,\nzdumiewające dzieła, których dokonał\nna ziemi."
+      "opis": "",
+      "tekst": "Refren:\nBóg jest we wnętrzu swojego Kościoła.\nBóg jest dla nas ucieczką i siłą:\nnajpewniejszą pomocą w trudnościach.\nPrzeto nie będziemy się bali, choćby\nzatrzęsła się ziemia\ni góry spadły w otchłań morza.\nNurty rzeki rozweselają miasto Boże,\nnajświętszy przybytek Najwyższego.\nBóg jest w Jego wnętrzu, więc się nie\nzachwieje,\nBóg je wspomoże o świcie.\nPan Zastępów jest z nami,\nBóg Jakuba jest naszą obroną.\nPrzyjdźcie, zobaczcie dzieła Pana,\nzdumiewające dzieła, których dokonał\nna ziemi."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Panu w Jego świątyni, co idealnie pasuje na rozpoczęcie liturgii w tym dniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń ta, prosząc o jedność i pokój dla Kościoła, przypomina, że każda świątynia jest znakiem jedności Ludu Bożego.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "688",
       "piesn": "Boże, lud Twój",
       "opis": "W tej pieśni wierni wznoszą serca ku ołtarzowi, co idealnie pasuje do momentu przygotowania darów w świątyni Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na ofiarowanie, która w dniu poświęcenia kościoła nabiera szczególnego znaczenia jako modlitwa zanoszona w domu Bożym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Pieśń ta podkreśla, że świątynia jest miejscem, gdzie Chrystus karmi swój lud i gromadzi go we wspólnocie.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "637",
-      "piesn": "Ciebie, Boże, chwalimy",
-      "opis": "Prosty hymn uwielbienia, który oddaje cześć Bogu obecnemu w swojej świątyni i w zgromadzeniu wiernych.",
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń ta podkreśla, że Eucharystia buduje wspólnotę Kościoła, czyniąc z wiernych żywą świątynię Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "W tej pieśni wielbimy Chrystusa, który karmi nas swoim Ciałem, czyniąc z naszych serc swój przybytek.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Uniwersalny hymn pochwalny dla Boga, który jest naszym Panem i mieszka pośród nas w swojej świętej świątyni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Pieśń adoracyjna, która wzywa do oddania czci Bogu obecnemu w Eucharystii, sercu każdej świątyni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały, który wzywa całe stworzenie do wielbienia Pana, a świątynia jest miejscem, gdzie ta chwała rozbrzmiewa w sposób szczególny.",
       "moment": "uwielbienie"
     },
     {
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
       "opis": "Pieśń jest modlitwą za Kościół-wspólnotę, który jest prawdziwą świątynią, o czym przypominają dzisiejsze czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Modlitwa o jedność wiernych, którzy tworzą żywą świątynię Boga, jest doskonałym posłaniem na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń ta jest wyznaniem wierności Chrystusowi i Jego świątyniom, co nabiera szczególnego znaczenia w tym dniu.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "619",
       "piesn": "Pójdźmy do Pana",
       "opis": "Zachęca do oddania czci Bogu w Jego domu, co jest istotą świętowania rocznicy poświęcenia kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń ta przypomina, że każda świątynia jest wieczernikiem, w którym Pan zastawia dla nas stół Słowa i Eucharystii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "284",
+      "piesn": "Zróbcie Mu miejsce",
+      "opis": "Pieśń procesyjna, która mówi o przychodzącym Panu, co można odnieść do poświęcenia domu Bożego jako miejsca Jego stałej obecności.",
       "moment": "ogolne"
     }
   ]

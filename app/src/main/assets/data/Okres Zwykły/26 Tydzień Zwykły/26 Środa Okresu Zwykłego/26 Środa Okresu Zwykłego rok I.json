@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417343.Sroda-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ne 2, 1-8",
+      "opis": "Artakserkses pozwala na odbudowę świątyni",
+      "tekst": "Ja, Nehemiasz, w miesiącu Nisan dwudziestego roku panowania króla Artakserksesa wykonywałem swój urząd, wziąłem wino i podałem królowi, i w jego obecności nie okazywałem smutku. Lecz król mi rzekł: «Czemu tak smutno wyglądasz? Przecież nie jesteś chory! Nie, lecz masz jakieś zmartwienie?»\nI przeraziłem się do najwyższego stopnia, i rzekłem królowi: «Niech król żyje na wieki! Jakże nie mam smutno wyglądać, gdy miasto, gdzie są groby moich przodków, jest spustoszone, a bramy jego są strawione ogniem».\nI rzekł mi król: «O co chciałbyś prosić?»\nWtedy pomodliłem się do Boga niebios i rzekłem królowi: «Jeśli to wyda się słuszne królowi i jeśli sługa twój ma względy u ciebie, to proszę, abyś mnie posłał do Judy, do grodu grobów moich przodków, abym go odbudował». I rzekł mi król, podczas gdy królowa siedziała obok niego: «Jak długo potrwa twoja podróż? I kiedy powrócisz?» I król, gdy podałem mu termin, raczył mnie wyprawić.\nI rzekłem królowi: «Jeśli to wyda się słuszne królowi, proszę o wystawienie dla mnie listów do namiestników Transeufratei, aby mnie przepuścili, aż dotrę do Judy; również pisma do Asafa, zarządcy lasu królewskiego, aby mi dał drewno do sporządzenia bram twierdzy przy świątyni, bram muru miejskiego i domu, do którego się wprowadzę». I król mi zezwolił, gdyż łaskawa ręka Boga mojego była nade mną.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 137 (136), 1-2. 3. 4-5. 6 (R.: por. 6b)",
+      "opis": "",
+      "tekst": "Refren: Kościele święty, nie zapomnę ciebie.\nNad rzekami Babilonu siedzieliśmy, *\npłacząc na wspomnienie Syjonu.\nNa topolach tamtej krainy *\nzawiesiliśmy nasze harfy.\nRefren.\nBo ci, którzy nas uprowadzili, *\nżądali od nas pieśni.\nNasi gnębiciele żądali pieśni radosnej: *\n«Zaśpiewajcie nam którąś z pieśni syjońskich!»\nRefren.\nJakże możemy śpiewać pieśń Pańską *\nw obcej krainie?\nJeruzalem, jeśli zapomnę o tobie, *\nniech uschnie moja prawica.\nRefren.\nNiech mi język przyschnie do gardła, *\njeśli nie będę o tobie pamiętał,\njeśli nie wyniosę Jeruzalem *\nponad wszelką swoją radość.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Flp 3, 8b-9a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wyzułem się ze wszystkiego i uznaję to za śmieci,\nbylebym pozyskał Chrystusa i w Nim się znalazł."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 57-62",
+      "opis": "Naśladowanie Chrystusa wymaga wyrzeczenia",
+      "tekst": "Gdy Jezus z uczniami szedł drogą, ktoś powiedział do Niego: «Pójdę za Tobą, dokądkolwiek się udasz».Jezus mu odpowiedział: «Lisy mają nory i ptaki podniebne - gniazda, lecz Syn Człowieczy nie ma miejsca, gdzie by głowę mógł położyć».\nDo innego rzekł: «Pójdź za Mną». Ten zaś odpowiedział: «Panie, pozwól mi najpierw pójść pogrzebać mojego ojca». Odparł mu: «Zostaw umarłym grzebanie ich umarłych, a ty idź i głoś królestwo Boże».\nJeszcze inny rzekł: «Panie, chcę pójść za Tobą, ale pozwól mi najpierw pożegnać się z moimi w domu». Jezus mu odpowiedział: «Ktokolwiek przykłada rękę do pługa, a wstecz się ogląda, nie nadaje się do królestwa Bożego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do pójścia za Jezusem, co jest głównym tematem Ewangelii o radykalnym naśladowaniu Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, co wymaga radykalnych decyzji, o których mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do podjęcia radykalnego naśladowania, do którego wzywa Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę całkowitego oddania się Bogu, do której wzywa Ewangelia, mówiąc o pozostawieniu wszystkiego dla Królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu owoce naszej pracy, co jest naszym wkładem w budowę Królestwa, dla którego trzeba wszystko zostawić.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o powołaniu kapłańskim przypomina o radykalności pójścia za Chrystusem, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Trzecia zwrotka pieśni mówi o naśladowaniu Chrystusa i wypełnianiu Jego przykazań, co stanowi odpowiedź na Jego wezwanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Przyjęcie Komunii jest najgłębszym aktem pójścia za Chrystusem, który sam staje się naszym pokarmem na drogę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyznanie wiary w Chrystusa jest fundamentem decyzji o pójściu za Nim bez oglądania się wstecz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą za Kościół-Jerozolimę, której odbudowa jest tematem pierwszego czytania i tęsknotą psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania do pójścia za Chrystusem i głoszenia Jego królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za łaskę powołania jest odpowiedzią na wezwanie Jezusa do radykalnego naśladowania Go.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Królestwa Bożego jest centralnym punktem powołania, o którym mówi Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o błogosławieństwo na trud służby, która w Ewangelii ukazana jest jako wymagająca i radykalna.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania, niezbędnego do podjęcia drogi powołania bez oglądania się wstecz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bożej Opatrzności jest pocieszeniem dla tych, którzy jak Syn Człowieczy nie mają gdzie głowy skłonić.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń podkreśla, że prawdziwe szczęście i bezpieczeństwo znajduje się w opiece Boga, a nie w ziemskich dobrach, które trzeba opuścić.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę oddania i zaufania Bogu, która jest konieczna, by odpowiedzieć na radykalne wezwanie Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus jest nadzieją, dla której warto podjąć trud pójścia za Nim, zostawiając wszystko inne.",
+      "moment": "ogolne"
+    }
+  ]
+}

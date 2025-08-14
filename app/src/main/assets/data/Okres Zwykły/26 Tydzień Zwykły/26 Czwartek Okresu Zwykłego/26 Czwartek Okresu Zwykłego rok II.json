@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417336.Czwartek-26-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "26 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 19, 21-27",
+      "opis": "Nadzieja Hioba",
+      "tekst": "Hiob powiedział:\n«Zlitujcie się, przyjaciele moi, zlitujcie, bo ręka Boga mnie dotknęła. Czemu, jak Bóg, mnie ścigacie? Nie syci was wygląd ciała? Oby me słowa zostały spisane, oby w księdze utrwalone! Żelaznym rylcem i ołowiem na skale wyryte na wieki! Lecz ja wiem: Wybawca mój żyje i jako ostatni stanie na ziemi. Potem me szczątki skórą przyodzieje, i ciałem swym Boga zobaczę. To właśnie ja Go zobaczę, moje oczy ujrzą, nie kto inny; moje nerki już mdleją z tęsknoty».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 7-8a. 8b-9c. 13-14 (R.: por. 13)",
+      "opis": "",
+      "tekst": "Refren: W krainie życia ujrzę dobroć Boga.\nUsłysz, Panie, kiedy głośno wołam, *\nzmiłuj się nade mną i mnie wysłuchaj.\nO Tobie mówi serce moje: *\n«Szukaj Jego oblicza!»\nRefren.\nBędę szukał oblicza Twego, Panie. *\nNie zakrywaj przede mną swojej twarzy,\nnie odtrącaj w gniewie Twego sługi. *\nTy jesteś moją pomocą, więc mnie nie odrzucaj.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 1-12",
+      "opis": "Rozesłanie uczniów na głoszenie królestwa Bożego",
+      "tekst": "Jezus wyznaczył jeszcze innych siedemdziesięciu dwu uczniów i wysłał ich po dwóch przed sobą do każdego miasta i miejscowości, dokąd sam przyjść zamierzał. Powiedział też do nich: «Żniwo wprawdzie wielkie, ale robotników mało; proście więc Pana żniwa, żeby wyprawił robotników na swoje żniwo.\nIdźcie! Oto posyłam was jak owce między wilki. Nie noście z sobą trzosa ani torby, ani sandałów; i nikogo w drodze nie pozdrawiajcie. Gdy wejdziecie do jakiegoś domu, najpierw mówcie: Pokój temu domowi. Jeśli tam mieszka człowiek godny pokoju, wasz pokój spocznie na nim; jeśli nie, powróci do was. W tym samym domu zostańcie, jedząc i pijąc, co będą mieli: bo zasługuje robotnik na swoją zapłatę. Nie przechodźcie z domu do domu. Jeśli do jakiegoś miasta wejdziecie i przyjmą was, jedzcie, co wam podadzą; uzdrawiajcie chorych, którzy tam są, i mówcie im: Przybliżyło się do was królestwo Boże.\nLecz jeśli do jakiegoś miasta wejdziecie, a nie przyjmą was, wyjdźcie na jego ulice i powiedzcie: Nawet proch, który z waszego miasta przylgnął nam do nóg, strząsamy wam. Wszakże to wiedzcie, że bliskie jest królestwo Boże. Powiadam wam: Sodomie lżej będzie w ów dzień niż temu miastu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest muzycznym odzwierciedleniem Ewangelii o rozesłaniu uczniów z misją głoszenia królestwa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter całego ludu Bożego, posłanego do głoszenia Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o pójściu za powołaniem jest zachętą do podjęcia misji, którą Jezus powierza swoim uczniom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Treść pieśni jest niemal dosłownym cytatem wyznania wiary Hioba z pierwszego czytania: 'ja wiem: Wybawca mój żyje'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowanie chleba i wina jest aktem zaufania Bogu, który żywi swoich posłańców, jak obiecuje Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę ubóstwa i oddania, której Jezus wymaga od swoich uczniów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina słowa, które mieli głosić uczniowie w Ewangelii, co czyni ją idealną na Komunię, która jest zadatkiem tego Królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń mówi o Chrystusie, który zaspokaja najgłębsze pragnienia, co jest owocem przyjęcia głoszonego przez uczniów królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia jest pokarmem na drogę dla tych, którzy zostali posłani, by głosić Dobrą Nowinę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za prowadzenie przez Boga, wyrażająca ufność, która była fundamentem nadziei Hioba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania i misji, którą Chrystus powierza swojemu Kościołowi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą opiekę i ratunek, która jest wyrazem nadziei wbrew beznadziei wyrażonej przez Hioba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o powołania bezpośrednio odpowiada na wezwanie Jezusa: 'proście więc Pana żniwa, żeby wyprawił robotników'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń misyjna jest doskonałym podsumowaniem dnia, w którym Ewangelia mówi o rozesłaniu uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, którą chcemy głosić innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Refren 'Serce me do Ciebie wznoszę, Panie, szukam Cię!' doskonale oddaje postawę psalmisty i Hioba, szukających oblicza Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń o Chrystusie jako nadziei jest pocieszeniem w cierpieniu, którego doświadczał Hiob, i celem misji, na którą posłani są uczniowie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą Opatrzność jest szczególnie adekwatna dla uczniów, których Jezus posyła bez żadnych zabezpieczeń materialnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Ufność w Bożą Opatrzność jest kluczowa dla misjonarza, który wyrusza w drogę bez torby i pieniędzy.",
+      "moment": "ogolne"
+    }
+  ]
+}

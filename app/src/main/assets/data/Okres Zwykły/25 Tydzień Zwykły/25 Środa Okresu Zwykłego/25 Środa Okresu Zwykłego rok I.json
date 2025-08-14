@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418022.Sroda-25-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "25 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ezd 9, 5-9",
+      "opis": "Modlitwa Ezdrasza za naród",
+      "tekst": "Ja, Ezdrasz, w czasie ofiary wieczornej wstałem z upokorzenia swego, w rozdartej szacie i płaszczu padłem na kolana, wyciągnąłem dłonie do Pana, Boga mojego, i rzekłem:\n«Boże mój! Bardzo się wstydzę, Boże mój, podnieść twarz do Ciebie, albowiem przestępstwa nasze urosły powyżej głowy, a wina nasza wzbiła się do nieba. Od dni ojców naszych aż po dziś dzień ciąży na nas wielka wina. My, królowie nasi, kapłani nasi zostaliśmy wydani za nasze przestępstwa pod władzę królów tych krain, pod miecz, w niewolę, na złupienie i na publiczne pośmiewisko, jak to jest dziś.\nA teraz zaledwie na chwilę przyszło zmiłowanie od Pana, Boga naszego, przez to, że pozostawił nam garstkę ocalonych, że w swoim miejscu świętym dał nam schronienie, że Bóg nasz rozjaśnił oczy nasze i że pozwolił nam w niewoli naszej trochę odetchnąć, bo przecież jesteśmy niewolnikami. Ale w niewoli naszej nie opuścił nas Bóg nasz, lecz dał nam znaleźć względy u królów perskich, pozwalając nam odżyć, byśmy mogli wznieść dom Boga naszego i odbudować jego ruiny - dając nam ostoję w Judzie i Jerozolimie».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Tb 13, 2abcde. 3-4a. 4bcd. 5. 8 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan bardzo wielki, żyjący na wieki.\nNiech będzie błogosławiony Bóg, który żyje na wieki, *\ni niech będzie błogosławione Jego królestwo!\nTo On karze i okazuje miłosierdzie, †\nposyła do podziemnej Otchłani *\ni wyprowadza z największej zagłady.\nRefren.\nWysławiajcie Go, synowie Izraela, *\nwobec narodów,\nwśród których was rozproszył *\ni tam swoją wielkość wam okazywał.\nRefren.\nWychwalajcie Go wobec wszelkiego stworzenia, *\ngdyż On sam jest Panem i Bogiem naszym,\nOn sam naszym Ojcem i Bogiem *\npo wszystkie czasy.\nRefren.\nOn was karci za wasze nieprawości, *\nlecz zmiłuje się nad wami wszystkimi.\nI zgromadzi was spośród wszelkich narodów, *\nwśród których zostaliście rozproszeni.\nRefren.\nJa zaś wychwalam Go w ziemi mego wygnania, *\nobwieszczam narodowi grzeszników Jego moc i wielkość.\nNawróćcie się, grzesznicy, †\ni postępujcie przed Nim sprawiedliwie, *\nkto wie, może znajdzie w was upodobanie\ni miłosierdzie wam okaże.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 1-6",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus zwołał Dwunastu, dał im moc i władzę nad wszystkimi złymi duchami oraz władzę leczenia chorób. I wysłał ich, aby głosili królestwo Boże i uzdrawiali chorych.\nMówił do nich: «Nie bierzcie nic na drogę: ani laski, ani torby podróżnej, ani chleba, ani pieniędzy; nie miejcie też po dwie suknie. Gdy do jakiegoś domu wejdziecie, pozostańcie tam i stamtąd będziecie wychodzić. Jeśliby was gdzieś nie przyjęli, wychodząc z tego miasta, strząśnijcie proch z nóg waszych na świadectwo przeciwko nim!» Wyszli więc i chodzili po wsiach, głosząc Ewangelię i uzdrawiając wszędzie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, co doskonale koresponduje z pokutną modlitwą Ezdrasza oraz psalmem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosta pieśń błagalna, która oddaje ducha modlitwy Ezdrasza, pełnej pokory i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, prosząca o Boże miłosierdzie, jest adekwatnym wprowadzeniem do liturgii opartej na czytaniach o winie i przebaczeniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, będąca prośbą o miłosierdzie, oddaje ducha pierwszego czytania i psalmu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża głęboki żal za grzechy, co jest echem pokutnej modlitwy Ezdrasza w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarowanie siebie Bogu jest odpowiedzią na Jego miłosierdzie i wezwanie do pójścia za Nim bez obciążeń, jak apostołowie w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta powtarza słowa aklamacji i jest streszczeniem misji, na którą Jezus posyła Dwunastu w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem dla 'wędrowców przez ziemię', którym stają się apostołowie posłani przez Jezusa bez chleba i torby.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest umocnieniem dla tych, którzy zostali posłani, by głosić Królestwo Boże i uzdrawiać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn na cześć miłosierdzia Bożego jest doskonałym uwielbieniem po Komunii, w nawiązaniu do łaski przebaczenia, o której mówią czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie i opiekę, o której z nadzieją mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności dla Boga, który karze, ale i okazuje miłosierdzie, jak słyszymy w psalmie z Księgi Tobiasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest idealnym podsumowaniem i posłaniem na koniec Mszy, nawiązując bezpośrednio do Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' misyjny, do którego Jezus powołuje swoich uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, którego apostołowie mają głosić, i zobowiązaniem do pójścia za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa syna marnotrawnego wyrażona w tej pieśni jest wzorem nawrócenia, do którego wzywa liturgia słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna do podjęcia misji głoszenia Królestwa, o której mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest wyrazem postawy, jakiej potrzebują apostołowie wysłani bez żadnych zabezpieczeń materialnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń pokutna, która wyraża skruchę i prośbę o miłosierdzie, co jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 23, 1-2a.2b-3.4.5.6",
-      "opis": "Refren:",
-      "tekst": "Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem,\nniczego mi nie braknie.\nPozwala mi leżeć\nna zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć,\norzeźwia moją duszę.\nWiedzie mnie po właściwych ścieżkach\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę,\nzła się nie ulęknę, bo Ty jesteś ze mną.\nKij Twój i laska pasterska\nsą moją pociechą.\nStół dla mnie zastawiasz\nna oczach mych wrogów. Namaszczasz mi głowę olejkiem,\na kielich mój pełny po brzegi.\nDobroć i łaska pójdą w ślad za mną\nprzez wszystkie dni mego życia\ni zamieszkam w domu Pana\npo najdłuższe czasy."
+      "opis": "",
+      "tekst": "Refren:\nPan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem,\nniczego mi nie braknie.\nPozwala mi leżeć\nna zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć,\norzeźwia moją duszę.\nWiedzie mnie po właściwych ścieżkach\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę,\nzła się nie ulęknę, bo Ty jesteś ze mną.\nKij Twój i laska pasterska\nsą moją pociechą.\nStół dla mnie zastawiasz\nna oczach mych wrogów. Namaszczasz mi głowę olejkiem,\na kielich mój pełny po brzegi.\nDobroć i łaska pójdą w ślad za mną\nprzez wszystkie dni mego życia\ni zamieszkam w domu Pana\npo najdłuższe czasy."
     },
     {
       "typ": "AKLAMACJA",
@@ -25,7 +25,7 @@
       "typ": "EWANGELIA",
       "sigla": "Mt 16,13-19",
       "opis": "Tobie dam klucze królestwa niebieskiego",
-      "tekst": "Gdy Jezus przyszedł w okolice Cezarei Filipowej, pytał swych uczniów: „Za kogo ludzie uważają Syna Człowieczego?”\nA oni odpowiedzieli: „Jedni za Jana Chrzciciela, inni za Eliasza, jeszcze inni za Jeremiasza albo za jednego z proroków”.\nJezus zapytał ich: „A wy za kogo Mnie uważacie?”\nOdpowiedział Szymon Piotr: „Tyjesteś Mesjasz, Syn Boga żywego”.\nNa to Jezus mu rzekł: „Błogosławiony jesteś, Szymonie, synu Jony. Albowiem ciało i krew nie objawiły ci tego, lecz Ojciec mój, który jest w niebie. Otóż i Ja tobie powiadam: Ty jesteś Piotr – Opoka, i na tej opoce zbuduję mój Kościół, a bramy piekielne go nie przemogą. I tobie dam klucze królestwa niebieskiego; cokolwiek zwiążesz na ziemi, będzie związane w niebie, a co rozwiążesz na ziemi, będzie rozwiązane w niebie”.\nOto słowo Pańskie."
+      "tekst": "Gdy Jezus przyszedł w okolice Cezarei Filipowej, pytał swych uczniów: „Za kogo ludzie uważają Syna Człowieczego?”\nA oni odpowiedzieli: „Jedni za Jana Chrzciciela, inni za Eliasza, jeszcze inni za Jeremiasza albo za jednego z proroków”.\nJezus zapytał ich: „A wy za kogo Mnie uważacie?”\nOdpowiedział Szymon Piotr: „Tyjesteś Mesjasz, Syn Boga żywego”.\nNa to Jezus mu rzekł: „Błogosławiony jesteś, Szymonie, synu Jony. Albowiem ciało i krew nie objawiły ci tego, lecz Ojciec mój, który jest w niebie. Otóż i Ja tobie powiadam: Ty jesteś Piotr - Opoka, i na tej opoce zbuduję mój Kościół, a bramy piekielne go nie przemogą. I tobie dam klucze królestwa niebieskiego; cokolwiek zwiążesz na ziemi, będzie związane w niebie, a co rozwiążesz na ziemi, będzie rozwiązane w niebie”.\nOto słowo Pańskie."
     }
   ],
   "piesniSugerowane": [
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "478",
+      "piesn": "Jeśli chcesz szukać patrona",
+      "opis": "Pieśń ta wychwala św. Piotra jako opokę Kościoła i tego, który otrzymał klucze Królestwa, co jest echem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć Apostołów, na czele których stoi św. Piotr, jest odpowiednim rozpoczęciem liturgii w to święto.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
       "opis": "Święto Katedry św. Piotra jest modlitwą za jedność Kościoła, a ta pieśń jest właśnie taką prośbą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Pieśń wyraża pokorę i cześć dla Boga, którego Kościół, zbudowany na Piotrze, składa Mu Najświętszą Ofiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla, że Kościół jest ludem Bożym, zgromadzonym wokół pasterza, którym jest następca św. Piotra.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Parafraza Psalmu 23, który jest psalmem responsoryjnym tego dnia, wyraża ufność w Chrystusa, Najwyższego Pasterza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, której widzialnym znakiem jest komunia z następcą św. Piotra.",
+      "moment": "komunia"
+    },
+    {
       "numer": "224",
       "piesn": "Ludu kapłański",
       "opis": "Pieśń ta podkreśla kapłański wymiar Ludu Bożego, zgromadzonego wokół następcy Piotra, co stanowi dziękczynienie za dar Kościoła.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn uwielbienia, który w święto Katedry Piotrowej jest dziękczynieniem za dar Kościoła, który głosi chwałę Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne dziękczynienie za Kościół, zbudowany na wierze Piotra, który jest naszą drogą do zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "478",
       "piesn": "Jeśli chcesz szukać patrona",
       "opis": "Pieśń wychwala św. Piotra jako opokę Kościoła i odźwiernego niebios, co bezpośrednio nawiązuje do Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i Jego Kościołowi, którego widzialną głową jest następca Piotra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia chwały Pana jest misją Kościoła, powierzoną w sposób szczególny Piotrowi i jego następcom.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "573",
       "piesn": "Chwała wam apostołowie",
       "opis": "Pieśń ogólna o Apostołach, na czele których stoi św. Piotr, pasuje do charakteru dnia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o powołania i wierność pasterzy Kościoła jest szczególnie stosowna w dniu, w którym czcimy prymat Piotrowy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa, które Piotr złożył pod Cezareą Filipową, jest fundamentem, na którym opiera się cały Kościół.",
       "moment": "ogolne"
     }
   ]

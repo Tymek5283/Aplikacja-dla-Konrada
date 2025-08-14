@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410457.Poniedzialek-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 1, 1-6",
+      "opis": "Bóg przemówił do nas przez Syna",
+      "tekst": "Wielokrotnie i na różne sposoby przemawiał niegdyś Bóg do ojców naszych przez proroków, a w tych ostatecznych dniach przemówił do nas przez Syna. Jego to ustanowił dziedzicem wszystkich rzeczy, przez Niego też stworzył wszechświat. Ten Syn, który jest odblaskiem Jego chwały i odbiciem Jego istoty, podtrzymuje wszystko słowem swej potęgi, a dokonawszy oczyszczenia z grzechów, zasiadł po prawicy Majestatu na wysokościach. On o tyle stał się większy od aniołów, o ile odziedziczył dostojniejsze od nich imię. Do którego bowiem z aniołów powiedział Bóg kiedykolwiek: «Ty jesteś moim Synem, Ja Cię dziś zrodziłem»? I znowu: «Ja będę Mu Ojcem, a On będzie Mi Synem»? A skoro ponownie wprowadzi Pierworodnego na świat, powie: «Niech Mu oddają pokłon wszyscy aniołowie Boży». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97 (96), 1-2. 6 i 7c. i 9 (R.: por. 7c)",
+      "opis": "",
+      "tekst": "Refren: Hołd Mu oddajcie, wszyscy aniołowie.\nPan króluje, wesel się, ziemio, *\n\nradujcie się, liczne wyspy!\n\nObłok i ciemność wokół Niego, *\n\nprawo i sprawiedliwość podstawą Jego tronu.\nRefren.\nJego sprawiedliwość rozgłaszają niebiosa †\n\ni wszystkie ludy widzą Jego chwałę. *\n\nWszystkie bóstwa hołd Mu oddają.\n\nPonad całą ziemią Ty jesteś wywyższony *\n\ni nieskończenie wyższy od wszystkich bogów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\n\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 14-20",
+      "opis": "Jezus wzywa ludzi do nawrócenia i powołuje pierwszych apostołów",
+      "tekst": "Gdy Jan został uwięziony, Jezus przyszedł do Galilei i głosił Ewangelię Bożą. Mówił: «Czas się wypełnił i bliskie jest królestwo Boże. Nawracajcie się i wierzcie w Ewangelię!» Przechodząc obok Jeziora Galilejskiego, ujrzał Szymona i brata Szymonowego, Andrzeja, jak zarzucali sieć w jezioro; byli bowiem rybakami. I rzekł do nich Jezus: «Pójdźcie za Mną, a sprawię, że się staniecie rybakami ludzi». A natychmiast, porzuciwszy sieci, poszli za Nim. Idąc nieco dalej, ujrzał Jakuba, syna Zebedeusza, i brata jego, Jana, którzy też byli w łodzi i naprawiali sieci. Zaraz ich powołał, a oni, zostawiwszy ojca swego, Zebedeusza, razem z najemnikami w łodzi, poszli za Nim. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do aklamacji i wezwania Jezusa z Ewangelii, ogłaszającego bliskość Królestwa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do zgromadzenia się przed Panem, który rozpoczyna swoją publiczną działalność i głosi Ewangelię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że Chrystus, Syn Boży z pierwszego czytania, jest nadzieją i przewodnikiem, za którym poszli pierwsi uczniowie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń wyraża ofiarowanie Bogu pracy i trudów, co symbolizuje porzucenie sieci przez apostołów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jest to klasyczna pieśń ofiarna, w której prosimy Boga o przyjęcie darów chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "W zwrotkach na przygotowanie darów, pieśń ta wyraża sens ofiarowania chleba i wina, które staną się Ciałem i Krwią Pańską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Powołanie uczniów jest zaproszeniem do wspólnoty z Jezusem, której pełnią jest Eucharystia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, powołując uczniów, zaprasza ich do wspólnoty życia, której szczytem jest przyjęcie Go jako Chleba Żywego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża tęsknotę za zjednoczeniem z Chrystusem w Komunii, co jest odpowiedzią na Jego powołanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Hymn ten wzywa całe stworzenie do uwielbienia Pana, którego królowanie głosi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże dzieła i Jego zbawczą obecność, o której mówią czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa aniołów do oddania hołdu Synowi, a ta pieśń jest szerokim wezwaniem całego stworzenia do chwalenia Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie pierwszych uczniów jest początkiem misji Kościoła, polegającej na głoszeniu Ewangelii wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o Boże błogosławieństwo na trud świadczenia o Chrystusie w świecie, co jest misją powołanych uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Wyraża prośbę o stałą obecność Pana w misji głoszenia Ewangelii, do której zostali wezwani apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina, że Bóg przemówił do nas przez Syna, co jest główną myślą pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, za którym uczniowie poszli, porzucając wszystko.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest echem wezwania Jezusa 'Pójdźcie za Mną!', skierowanego do pierwszych uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest kluczowa w odpowiedzi na powołanie i wezwanie do nawrócenia.",
+      "moment": "ogolne"
+    }
+  ]
+}

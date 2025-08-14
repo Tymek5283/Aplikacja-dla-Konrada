@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429094.Sobota-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 4, 9-11",
+      "opis": "Miłość braterska",
+      "tekst": "Bracia:\nNie jest rzeczą konieczną, abyśmy wam pisali o miłości braterskiej, albowiem Bóg was samych naucza, byście się wzajemnie miłowali. Czynicie to przecież w stosunku do wszystkich braci w całej Macedonii.\nZachęcam was jedynie, bracia, abyście coraz bardziej się doskonalili i starali zachować spokój, spełniać własne obowiązki i pracować swoimi rękami, jak to wam przykazaliśmy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 7-8. 9 (R.: por. 9)",
+      "opis": "",
+      "tekst": "Refren: Pan będzie sądził ludy sprawiedliwie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nNiech szumi morze i wszystko, co w nim żyje, *\nkrąg ziemi i jego mieszkańcy.\nRzeki niech klaszczą w dłonie, *\ngóry niech razem wołają z radości.\nRefren.\nW obliczu Pana, który nadchodzi, *\naby osądzić ziemię.\nOn będzie sądził świat sprawiedliwie *\ni ludy według słuszności.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 13, 34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Daję wam przykazanie nowe,\nabyście się wzajemnie miłowali, tak jak Ja was umiłowałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 25,14-30",
+      "opis": "Przypowieść o talentach",
+      "tekst": "Jezus opowiedział swoim uczniom następującą przypowieść:\n«Podobnie jest z królestwem niebieskim jak z pewnym człowiekiem, który mając się udać w podróż, przywołał swoje sługi i przekazał im swój majątek. Jednemu dał pięć talentów, drugiemu dwa, trzeciemu jeden, każdemu według jego zdolności, i odjechał. Zaraz ten, który otrzymał pięć talentów, poszedł, puścił je w obieg i zyskał drugie pięć. Tak samo i ten, który dwa otrzymał; on również zyskał drugie dwa. Ten zaś, który otrzymał jeden, poszedł i, rozkopawszy ziemię, ukrył pieniądze swego pana.\nPo dłuższym czasie powrócił pan owych sług i zaczął rozliczać się z nimi.\nWówczas przyszedł ten, który otrzymał pięć talentów. Przyniósł drugie pięć i rzekł: „Panie, przekazałeś mi pięć talentów, oto drugie pięć talentów zyskałem”. Rzekł mu pan: „Dobrze, sługo dobry i wierny! Byłeś wierny w rzeczach niewielu, nad wieloma cię postawię: wejdź do radości twego pana!”\nPrzyszedł również i ten, który otrzymał dwa talenty, mówiąc: „Panie, przekazałeś mi dwa talenty, oto drugie dwa talenty zyskałem”. Rzekł mu pan: „Dobrze, sługo dobry i wierny! Byłeś wierny w rzeczach niewielu, nad wieloma cię postawię: wejdź do radości twego pana!”\nPrzyszedł i ten, który otrzymał jeden talent, i rzekł: „Panie, wiedziałem, że jesteś człowiekiem twardym: żniesz tam, gdzie nie posiałeś, i zbierasz tam, gdzie nie rozsypałeś. Bojąc się więc, poszedłem i ukryłem twój talent w ziemi. Oto masz swoją własność!” Odrzekł mu pan jego: „Sługo zły i gnuśny! Wiedziałeś, że żnę tam, gdzie nie posiałem, i zbieram tam, gdzie nie rozsypałem. Powinieneś więc był oddać moje pieniądze bankierom, a ja po powrocie byłbym z zyskiem odebrał swoją własność. Dlatego odbierzcie mu ten talent, a dajcie temu, który ma dziesięć talentów. Każdemu bowiem, kto ma, będzie dodane, tak że nadmiar mieć będzie. Temu zaś, kto nie ma, zabiorą nawet to, co ma. A sługę nieużytecznego wyrzućcie na zewnątrz - w ciemności! Tam będzie płacz i zgrzytanie zębów”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest prośbą o błogosławieństwo na 'pracę i znojny trud', co jest odniesieniem do pomnażania talentów z Ewangelii i pracy rąk własnych, o której pisze św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania dobrych owoców, co jest tożsame z pomnażaniem talentów powierzonych przez Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, który obdarowuje nas talentami i oczekuje ich pomnożenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłość braterska, do której zachęca pierwsze czytanie, jest darem, który składamy Bogu, prosząc o Jego obecność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości jest echem aklamacji i pouczenia św. Pawła o miłości braterskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami składamy owoce naszej pracy, czyli pomnożone talenty, o których mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest zadatkiem 'radości pana', do której zaproszeni są wierni słudzy z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Komunia z Chrystusem jest umocnieniem w wiernej służbie i pomnażaniu darów, które od Niego otrzymaliśmy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie Chrystusa skierowane jest do wszystkich, abyśmy u Niego czerpali siłę do wiernej służby.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni pasuje do psalmu, który wzywa całą ziemię do radości przed nadchodzącym Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Pana, który przychodzi sądzić ziemię w sprawiedliwości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą sług, którzy wiernie pomnożyli talenty i oczekują na wejście do radości swego pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Jako w sobotę, pieśń maryjna jest wyrazem oddania się Tej, która doskonale pomnożyła otrzymane od Boga talenty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "349b",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Maryja jest wzorem wiernej służby i odpowiedzialności za otrzymane dary, o której mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Maryi jest prośbą o pomoc w wiernym wypełnianiu naszych obowiązków i pomnażaniu talentów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości jest echem aklamacji i pouczenia św. Pawła o miłości braterskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest tożsame z pomnażaniem talentów powierzonych przez Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem postawy sługi, który nie boi się podjąć ryzyka, by pomnożyć talenty pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Nadzieja na wejście do 'radości pana' motywuje nas do wiernej służby i pomnażania talentów.",
+      "moment": "ogolne"
+    }
+  ]
+}

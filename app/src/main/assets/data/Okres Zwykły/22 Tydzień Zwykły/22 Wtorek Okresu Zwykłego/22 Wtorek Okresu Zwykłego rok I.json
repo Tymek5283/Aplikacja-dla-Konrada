@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425149.Wtorek-22-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "22 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 5, 1-6. 9-11",
+      "opis": "Chrystus umarł za nas, abyśmy razem z Nim żyli",
+      "tekst": "Nie potrzeba wam, bracia, pisać o czasach i chwilach, sami bowiem dokładnie wiecie, że dzień Pański przyjdzie tak jak złodziej w nocy.\nKiedy bowiem będą mówić: «Pokój i bezpieczeństwo» - tak niespodzianie przyjdzie na nich zagłada, jak bóle na brzemienną, i nie umkną. Ale wy, bracia, nie jesteście w ciemnościach, aby ów dzień miał was zaskoczyć jak złodziej. Wszyscy wy bowiem jesteście synami światłości i synami dnia. Nie jesteśmy synami nocy ani ciemności. Nie śpijmy przeto jak inni, ale czuwajmy i bądźmy trzeźwi.\nPonieważ nie przeznaczył nas Bóg na to, abyśmy zasłużyli na gniew, ale na osiągnięcie zbawienia przez Pana naszego, Jezusa Chrystusa, który za nas umarł, abyśmy - żywi czy umarli - razem z Nim żyli. Dlatego zachęcajcie się wzajemnie i budujcie jedni drugich, jak to zresztą czynicie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 1bcde. 4. 13-14 (R.: por. 13)",
+      "opis": "",
+      "tekst": "Refren: W krainie życia ujrzę dobroć Boga.\nPan moim światłem i zbawieniem moim, *\nkogo miałbym się lękać?\nPan obrońcą mego życia, *\nprzed kim miałbym czuć trwogę?\nRefren.\nO jedno tylko Pana proszę i o to zabiegam, †\nżebym mógł zawsze przebywać w Jego domu *\npo wszystkie dni mego życia,\nabym kosztował słodyczy Pana, *\nstale się radował Jego świątynią.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 31-37",
+      "opis": "Uzdrowienie opętanego",
+      "tekst": "Jezus udał się do Kafarnaum, miasta w Galilei, i tam nauczał w szabat. Zdumiewali się Jego nauką, gdyż słowo Jego było pełne mocy.\nA był w synagodze człowiek, który miał w sobie ducha nieczystego. Zaczął on krzyczeć wniebogłosy: «Och, czego chcesz od nas, Jezusie Nazarejczyku? Przyszedłeś nas zgubić? Wiem, kto jesteś: Święty Boga». Lecz Jezus rozkazał mu surowo: «Milcz i wyjdź z niego!» Wtedy zły duch rzucił go na środek i wyszedł z niego, nie wyrządzając mu żadnej szkody.\nWprawiło to wszystkich w zdumienie, i mówili między sobą: «Cóż to za słowo, że z władzą i mocą rozkazuje nawet duchom nieczystym, i wychodzą».\nI wieść o Nim rozchodziła się wszędzie po okolicy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wezwanie 'Noc minęła, dzień jest blisko' z tej pieśni adwentowej doskonale koresponduje z zachętą św. Pawła do czuwania w oczekiwaniu na dzień Pański.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Ta pieśń adwentowa przypomina o bliskości Pana i potrzebie gotowości na Jego przyjście, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń o oczekiwaniu na przyjście Pana jest echem wezwania św. Pawła do czuwania i trzeźwości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość do oddania się Bogu, co jest postawą czuwania i bycia 'synami światłości', o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania serca jest wyrazem gotowości na przyjście Pana i pragnienia życia dla Niego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Postawa czuwania wyraża się w wydawaniu dobrych owoców, godnych nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa nad złem jest odpowiedzią na Ewangelię, w której Jezus objawia swoją moc nad duchami nieczystymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Jezusem, Świętym Boga, który przychodzi z mocą, by nas uwolnić od zła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę w moc Chrystusa, którego nawet duchy nieczyste rozpoznają jako 'Świętego Boga'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest hymnem na cześć Pana, który jest naszym światłem i zbawieniem, jak wyznaje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Chrystusie, który umarł za nas, abyśmy z Nim żyli, jak naucza św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Pana, który jest naszym światłem i obrońcą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Modlitwa wieczorna z prośbą o Bożą opiekę jest konkretnym wyrazem postawy czuwania, do której wzywa św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii, której moc objawiła się w Kafarnaum, jest dobrym zwieńczeniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud bycia 'synami światłości' i świadczenia o Chrystusie w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest odpowiedzią na słowa psalmu: 'Pan obrońcą mego życia, przed kim miałbym czuć trwogę?'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, by czuwać i być trzeźwym w oczekiwaniu na dzień Pański.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Temat przyjścia Pana, obecny w pierwszym czytaniu, jest główną myślą tej pieśni adwentowej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń adwentowa wzywa do przygotowania serc na przyjście Pana, co jest istotą czuwania, o którym mówi św. Paweł.",
+      "moment": "ogolne"
+    }
+  ]
+}

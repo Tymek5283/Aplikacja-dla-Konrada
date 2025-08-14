@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://www.paulus.org.pl/u59,sw-joachima-i-anny-wspomnienie-obowiazkowe",
+  "tytul_dnia": "26 lipca - św. Joachima i Anny",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 44, 1. 10-15",
+      "opis": "Imię ich żyje w pokoleniach",
+      "tekst": "Wychwalajmy mężów sławnych i ojców naszych w kolejności ich pochodzenia. Ci są mężami czcigodnymi, których dobre czyny nie zostały zapomniane; pozostały one wraz z ich potomstwem, dobrym dziedzictwem są ich następcy. Potomstwo to trzyma się przymierzy, a dzięki nim – ich dzieci. Potomstwo ich trwać będzie na wieki, a chwała ich nie będzie wymazana. Ciała ich w pokoju pogrzebano, a imię ich żyje w pokoleniach. Narody opowiadać będą ich mądrość, a zgromadzenie głosić ich chwałę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 132, 11. 13-14. 17-18",
+      "opis": "",
+      "tekst": "Refren: Chrystus otrzyma tron ojca, Dawida.\nPan złożył Dawidowi niezłomną obietnicę, * której nie odwoła:\n«Zrodzone z ciebie potomstwo * posadzę na twoim tronie».\nRefren.\nPan bowiem wybrał Syjon, * tej siedziby zapragnął dla siebie.\n«Oto miejsce mego odpoczynku na wieki, * tu będę mieszkał, bo wybrałem je sobie».\nRefren.\n«Wzbudzę tam moc dla Dawida, * przygotuję światło dla mego pomazańca.\nOdzieję wstydem nieprzyjaciół jego, * a nad nim zajaśnieje jego korona».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 2, 25c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Sprawiedliwi wyczekiwali pociechy Izraela, a Duch Święty spoczywał na nich."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 16-17",
+      "opis": "Prorocy i sprawiedliwi pragnęli widzieć Jezusa",
+      "tekst": "Jezus powiedział do swoich uczniów: «Szczęśliwe oczy wasze, że widzą, i uszy wasze, że słyszą. Bo zaprawdę, powiadam wam: Wielu proroków i sprawiedliwych pragnęło ujrzeć to, na co wy patrzycie, a nie ujrzeli; i usłyszeć to, co wy słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "492",
+      "piesn": "Witaj, pani, matko Matki",
+      "opis": "Jest to pieśń wprost do św. Anny, idealna na wejście w dzień jej wspomnienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Ogólna pieśń do świętych, która pasuje do wspomnienia świętych rodziców Maryi, będących chlubą narodu wybranego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta oddaje ducha sprawiedliwych Starego Testamentu, do których należeli Joachim i Anna, oczekujący Zbawiciela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "491",
+      "piesn": "Przyjmij, czcigodny ojcze",
+      "opis": "Pieśń poświęcona św. Joachimowi, ojcu Maryi, doskonale pasuje do dzisiejszego święta.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina, dziękujemy Bogu za przykład życia świętych Joachima i Anny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę oddania Bogu, która charakteryzowała rodziców Maryi i zaowocowała narodzinami Matki Zbawiciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Pieśń maryjna podkreślająca owoc życia świętych Joachima i Anny - Najświętszą Maryję Pannę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Przyjmując Ciało Chrystusa, oddajemy cześć Jego Matce, a przez Nią także Jej świętym rodzicom.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Pieśń eucharystyczna z refrenem 'Witaj, Jezu, Synu Maryi' łączy cześć dla Chrystusa z czcią dla Jego Matki i Jej rodziny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "326",
+      "piesn": "Chwalcie łąki umajone",
+      "opis": "Pieśń chwaląca Maryję, przez którą oddajemy cześć również Jej świętym Rodzicom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn dziękczynny za Boże dary, w tym za dar świętych małżonków, którzy stali się częścią historii zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest dziękczynieniem, które Maryja składa Bogu, a które ma swoje korzenie w wierze Jej rodziców.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Pieśń ta, wysławiając Maryję, pośrednio oddaje cześć Jej rodzicom, dzięki którym przyszła na świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Uroczysta pieśń do Matki Bożej, która jest owocem świętego małżeństwa Joachima i Anny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Pieśń do Królowej Polski, której rodziców dziś wspominamy, jest wyrazem naszej wdzięczności za Jej opiekę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Nawiązuje do wartości rodziny i dziedzictwa wiary, co jest głównym tematem pierwszego czytania o 'ojcach naszych'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "340",
+      "piesn": "Jak szczęśliwa Polska cała",
+      "opis": "Pieśń maryjna, która wyraża radość z opieki Matki Bożej, będącej owocem życia św. Joachima i Anny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, które było udziałem sprawiedliwych rodziców Maryi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm o ufności w Bożą opatrzność, która czuwała nad świętą rodziną z Nazaretu i jej przodkami.",
+      "moment": "ogolne"
+    }
+  ]
+}

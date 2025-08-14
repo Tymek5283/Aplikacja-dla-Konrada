@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426646.Sroda-XIV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "14 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 10, 1-3. 7-8. 12",
+      "opis": "Nadszedł czas, by szukać Pana",
+      "tekst": "Izrael był jak dorodny krzew winny, przynoszący wiele owoców; lecz gdy owoc jego się mnożył, wzrastała liczba ołtarzy; im większy dobrobyt w kraju, tym wspanialsze budowano stele. Ich serce jest obłudne, muszą pokutować!\nOn ich ołtarze zburzy i stele powywraca. Powiedzą wtedy: «My nie mamy króla, bo nie baliśmy się Pana - zresztą, cóż nam król pomoże?»\nSamaria upadnie, a król jej będzie jak odłamany konar na powierzchni wody. Zniszczone będą wyżyny Awen - grzech Izraela. Ciernie i osty wyrosną na ich ołtarzach.\nWtedy powiedzą górom: «Przykryjcie nas!», a wzgórzom: «Padnijcie na nas!»\nPosiejcie sobie sprawiedliwość, a zbierzecie miłość; wykarczujcie sobie karczowiska. To czas szukania Pana, aż przyjdzie i ześle wam sprawiedliwość.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 2-3. 4-5. 6-7 (R.: por. 4b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Zawsze szukajcie Bożego oblicza.\nŚpiewajcie i grajcie Mu psalmy, *\nrozsławiajcie wszystkie Jego cuda.\nSzczyćcie się Jego świętym imieniem, *\nniech się weseli serce szukających Pana.\nRefren.\nRozmyślajcie o Panu i Jego potędze, *\nzawsze szukajcie Jego oblicza.\nPamiętajcie o cudach, które On uczynił, *\no Jego znakach, o wyrokach ust Jego.\nRefren.\nPotomkowie Abrahama, słudzy Jego, *\nsynowie Jakuba, Jego wybrańcy.\nOn, Pan, jest naszym Bogiem, *\nJego wyroki obejmują świat cały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 1-7",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus przywołał do siebie dwunastu swoich uczniów i udzielił im władzy nad duchami nieczystymi, aby je wypędzali i leczyli wszystkie choroby i wszelkie słabości.\nA oto imiona dwunastu apostołów: pierwszy - Szymon, zwany Piotrem, i brat jego Andrzej, potem Jakub, syn Zebedeusza, i brat jego Jan, Filip i Bartłomiej, Tomasz i celnik Mateusz, Jakub, syn Alfeusza, i Tadeusz, Szymon Gorliwy i Judasz Iskariota, ten, który Go zdradził.\nTych to Dwunastu wysłał Jezus i dał im takie wskazania: «Nie idźcie do pogan i nie wstępujcie do żadnego miasta samarytańskiego. Idźcie raczej do owiec, które poginęły z domu Izraela. Idźcie i głoście: Bliskie już jest królestwo niebieskie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim nawiązaniem do Ewangelii, w której Jezus posyła Dwunastu, aby głosili bliskość królestwa niebieskiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do pójścia za Jezusem, na wzór Apostołów, którzy na Jego wezwanie zostali posłani na misję.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest odpowiedzią na wezwanie proroka Ozeasza do szukania Pana i zerwania z bałwochwalstwem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Apostołowie zostawili wszystko, by pójść za Jezusem; ta pieśń jest naszym aktem oddania się na służbę Panu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które pragnie porzucić niewierność opisaną w pierwszym czytaniu i wiernie służyć Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest modlitwą o błogosławieństwo dla naszej pracy i misji, na wzór posłannictwa Dwunastu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Powołanie Dwunastu jest fundamentem Kościoła - ludu kapłańskiego, który w Eucharystii jednoczy się ze swoim Panem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas we wspólnotę, której zalążkiem była grupa Dwunastu posłanych przez Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus zaprasza nas na Ucztę, tak jak posłał Dwunastu, aby głosili Jego królestwo i przygotowywali Mu drogę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, którego królestwo głoszą posłani apostołowie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest odpowiedzią na wezwanie psalmu do szukania oblicza Pana i pamiętania o Jego cudach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to odpowiedź na misję głoszenia królestwa, powierzoną przez Jezusa apostołom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Powołani i posłani przez Chrystusa, idziemy za Nim jako naszym Wodzem, by głosić Jego królestwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest aktem wierności powołaniu i misji, na wzór Apostołów posłanych przez Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest dosłownym cytatem z Ewangelii, streszczającym przesłanie, które mają głosić apostołowie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża decyzję o nawróceniu, do którego wzywa prorok Ozeasz, potępiając bałwochwalstwo.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Apostołowie są posłani, by nieść światu nadzieję, którą jest Chrystus i Jego królestwo.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa jest odpowiedzią na Jego powołanie i wejście na drogę bycia Jego uczniem i apostołem.",
+      "moment": "ogólne"
+    }
+  ]
+}

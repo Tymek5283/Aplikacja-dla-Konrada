@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417341.Piatek-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ba 1, 15-22",
+      "opis": "Wygnańcy wyznają grzechy Izraela",
+      "tekst": "Panu, Bogu naszemu, należna jest sprawiedliwość, nam zaś rumieniec wstydu na twarzy, jak to jest obecnie, oraz każdemu człowiekowi na ziemi judzkiej i mieszkańcom Jeruzalem, królom, zwierzchnikom, kapłanom, prorokom i przodkom naszym, ponieważ zgrzeszyliśmy przed Panem, nie wierzyliśmy Jemu, nie byliśmy posłuszni głosowi Pana, Boga naszego, by pójść za przykazaniami, które nam dał.\nOd czasu, kiedy Pan wyprowadził przodków naszych z ziemi egipskiej, aż do dnia dzisiejszego byliśmy niewierni wobec Pana, Boga naszego, byliśmy tak niedbali, iż nie słuchaliśmy Jego głosu. Przylgnęły przeto do nas nieszczęścia i przekleństwo, jakimi Pan zagroził przez Mojżesza, sługę swego, w dniu, w którym wyprowadził przodków naszych z Egiptu, aby nam dać ziemię opływającą w mleko i miód, jak to jest i obecnie. Nie byliśmy posłuszni głosowi Pana, Boga naszego, przekazanemu we wszystkich mowach proroków, których posłał do nas. Każdy chodził według zamysłów swego złego serca, służyliśmy bowiem cudzym bogom i czyniliśmy, co jest złe w oczach Pana, Boga naszego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 79 (78), 1b-2. 3-4. 5 i 8. 9 (R.: por. 9cd)",
+      "opis": "",
+      "tekst": "Refren: Wyzwól nas, Boże, dla imienia Twego.\nBoże, poganie wtargnęli do Twego dziedzictwa, †\nzbezcześcili Twój święty przybytek, *\nJeruzalem obrócili w ruiny.\nCiała sług Twoich wydali na pastwę ptaków z nieba, *\nzwierzętom ziemskim ciała Twoich wiernych.\nRefren.\nIch krew rozlali jak wodę wokół Jeruzalem *\ni nie miał ich kto pogrzebać.\nPrzedmiotem wzgardy staliśmy się dla sąsiadów, *\nigraszką i pośmiewiskiem dla otoczenia.\nRefren.\nJak długo, Panie? †\nCzy wiecznie będziesz się gniewał? *\nA Twoja zapalczywość płonąć będzie jak ogień?\nNie pamiętaj nam win przodków naszych, †\nniech szybko nas spotka Twoje zmiłowanie, *\ngdyż bardzo jesteśmy słabi.\nRefren.\nWspomóż nas, Boże, nasz Zbawco, *\ndla chwały Twojego imienia;\nWyzwól nas i odpuść nam grzechy *\nprzez wzgląd na swoje imię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 13-16",
+      "opis": "Kto gardzi Chrystusem, gardzi Tym, który Go posłał",
+      "tekst": "Jezus powiedział:\n«Biada tobie, Korozain! Biada tobie, Betsaido! Bo gdyby w Tyrze i Sydonie działy się cuda, które u was się dokonały, już dawno by się nawróciły, siedząc w worze i popiele. Toteż Tyrowi i Sydonowi lżej będzie na sądzie niżeli wam.\nA ty, Kafarnaum, czy aż do nieba masz być wyniesione? Aż do Otchłani zejdziesz!\nKto was słucha, Mnie słucha, a kto wami gardzi, Mną gardzi; lecz kto Mną gardzi, gardzi Tym, który mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty, co stanowi odpowiedź na słowa Jezusa o konieczności nawrócenia miast galilejskich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na groźby Jezusa wobec zatwardziałych miast.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń błagalna, w której prosimy o przebaczenie, jest adekwatna do wyznania grzechów z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i wolę poprawy, co jest echem wyznania win z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec prawdy o ludzkiej grzeszności, pieśń wzywa do pokory i błagania Boga o przebaczenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna jest prośbą o miłosierdzie, o które woła psalmista w imieniu zbezczeszczonego ludu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna oparta na Psalmie 51 jest modlitwą o przebaczenie, o które prosi psalm responsoryjny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Prośba o obmycie z win i czyste serce jest odpowiedzią na wyznanie grzechów z pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę grzesznika proszącego o miłosierdzie i uzdrowienie duszy, co jest jedyną nadzieją w obliczu sądu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania błagalna jest formą modlitwy pokutnej, która dobrze oddaje ducha dzisiejszej liturgii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, o które woła psalmista i które jest szansą dla grzesznych miast z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Ufność w Boże miłosierdzie i odkupienie jest odpowiedzią na lament psalmisty i wyznanie grzechów z pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka, intensywna modlitwa błagalna, która wpisuje się w pokutny charakter czytań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ewangelia podkreśla wagę słuchania posłańców Chrystusa. Ta pieśń przypomina o misji głoszenia, która jest dana Kościołowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus i Jego posłańcy są naszą drogą do zbawienia, a gardzenie nimi jest gardzeniem Bogiem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to kolejna parafraza Psalmu 51, która wyraża skruchę i prośbę o oczyszczenie z win.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę i żal, które są potrzebne, by przyjąć Boże miłosierdzie i uniknąć sądu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem do Boga z głębokości grzechu, podobnie jak lament psalmisty nad zburzonym Jeruzalem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest kluczem do przyjęcia słów Jezusa i Jego posłańców, a tym samym do uniknięcia sądu.",
+      "moment": "ogolne"
+    }
+  ]
+}

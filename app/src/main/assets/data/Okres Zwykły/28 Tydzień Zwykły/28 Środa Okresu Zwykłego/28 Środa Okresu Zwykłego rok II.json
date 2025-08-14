@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416403.Sroda-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 5, 18-25",
+      "opis": "Uczynki ciała i owoce Ducha",
+      "tekst": "Bracia:\nJeśli pozwolicie się prowadzić duchowi, nie będziecie podlegać Prawu.\nJest zaś rzeczą wiadomą, jakie uczynki rodzą się z ciała: nierząd, nieczystość, wyuzdanie, bałwochwalstwo, czary, nienawiść, spory, zawiść, gniewy, pogoń za zaszczytami, niezgoda, rozłamy, zazdrość, pijaństwo, hulanki i tym podobne. Co do nich zapowiadam wam, jak to już zapowiedziałem: ci, którzy się takich rzeczy dopuszczają, królestwa Bożego nie odziedziczą.\nOwocem zaś Ducha jest: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, opanowanie. Przeciw takim cnotom nie ma Prawa. A ci, którzy należą do Chrystusa Jezusa, ukrzyżowali ciało swoje z jego namiętnościami i pożądaniami. Mając życie od Ducha, do Ducha się też stosujmy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. J 8, 12)",
+      "opis": "",
+      "tekst": "Refren: Dasz światło życia idącym za Tobą.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 42-46",
+      "opis": "Jezus piętnuje obłudę faryzeuszów",
+      "tekst": "Jezus powiedział:\n«Biada wam, faryzeuszom, bo dajecie dziesięcinę z mięty i ruty, i z wszelkiej jarzyny, a pomijacie sprawiedliwość i miłość Bożą. Tymczasem to należało czynić, i tamtego nie pomijać. Biada wam, faryzeuszom, bo lubicie pierwsze miejsce w synagogach i pozdrowienia na rynku. Biada wam, bo jesteście jak groby niewidoczne, po których ludzie bezwiednie przechodzą».\nWtedy odezwał się do Niego jeden z uczonych w Prawie: «Nauczycielu, słowami tymi także nam ubliżasz». On odparł: «I wam, uczonym w Prawie, biada! Bo nakładacie na ludzi ciężary nie do uniesienia, a sami nawet jednym palcem ciężarów tych nie dotykacie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Pierwsze czytanie zachęca do życia według Ducha. Ta pieśń jest modlitwą o Jego dary, abyśmy mogli przynosić Jego owoce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Wezwanie do Ducha Świętego, aby nas prowadził i umacniał w walce z uczynkami ciała.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który jest źródłem życia i miłości, w przeciwieństwie do uczynków, które prowadzą do śmierci.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi przed pychą i obłudą, ta pieśń jest aktem pokornego ofiarowania siebie Bogu, by żyć Jego Prawem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie Bogu owoców naszej pracy jest prośbą, by On je uświęcił i uczynił owocami Ducha.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest prośbą o przemianę, abyśmy mogli żyć według Ducha, a nie ciała.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "W Komunii prosimy Ducha Świętego, by napełnił nasze serca miłością, która jest pierwszym owocem Ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o Ducha Świętego, abyśmy umocnieni Jego łaską, mogli żyć w prawdzie, a nie w obłudzie faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Przyjęcie Jezusa w Komunii jest przyjęciem samej Miłości, która jest owocem Ducha i przeciwieństwem uczynków ciała.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Dziękczynienie za dar Ducha Świętego, którego owocami są miłość, radość i pokój, w przeciwieństwie do uczynków ciała.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar Ducha Świętego, który prowadzi nas drogą sprawiedliwości i miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za łaskę życia w Duchu, która pozwala nam przynosić dobre owoce.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o szczęściu człowieka, który postępuje drogą Pana. Pieśń o błogosławieństwach ukazuje konkretne drogi do tego szczęścia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud codziennego życia według Ducha i przynoszenia Jego owoców.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec krytyki faryzeuszy, ta pieśń jest wyznaniem, że naszą drogą jest Chrystus, a nie obłudne przestrzeganie prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest wezwaniem do wydawania owoców godnych nawrócenia, które są owocami Ducha Świętego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Prośba o czyste serce jest wołaniem o łaskę życia według Ducha, w przeciwieństwie do uczynków ciała.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest konieczne, aby porzucić uczynki ciała i zacząć przynosić owoce Ducha.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest pierwszym i najważniejszym owocem Ducha Świętego.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410529.28-grudnia-Swietych-Mlodziankow-Meczennikow",
+  "tytul_dnia": "28 grudnia - Święto Świętych Młodzianków, męczenników",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 1,5-2,2",
+      "opis": "Krew Jezusa Chrystusa oczyszcza nas z wszelkiego grzechu",
+      "tekst": "Umiłowani:\nNowina, którą usłyszeliśmy od Jezusa Chrystusa i którą wam głosimy, jest taka: Bóg jest światłością, a nie ma w Nim żadnej ciemności. Jeżeli mówimy, że mamy z Nim współuczestnictwo, a chodzimy w ciemności, kłamiemy i nie postępujemy zgodnie z prawdą. Jeżeli zaś chodzimy w światłości, tak jak On sam trwa w światłości, wtedy mamy jedni z drugimi współuczestnictwo, a krew Jezusa, Syna Jego, oczyszcza nas z wszelkiego grzechu.\nJeśli mówimy, że nie mamy grzechu, to samych siebie oszukujemy i nie ma w nas prawdy. Jeżeli wyznajemy nasze grzechy, Bóg będąc wiernym i sprawiedliwym odpuści je nam i oczyści nas z wszelkiej nieprawości. Jeśli powiemy, że nie zgrzeszyliśmy, czynimy Go kłamcą i nie ma w nas Jego nauki.\nDzieci moje, piszę wam to dlatego, żebyście nie grzeszyli. Jeśliby nawet ktoś zgrzeszył, mamy Rzecznika wobec Ojca, Jezusa Chrystusa sprawiedliwego. On bowiem jest ofiarą przebłagalną za nasze grzechy, i nie tylko za nasze, lecz również za grzechy całego świata.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 124,2-3.4-5.7b-8",
+      "opis": "",
+      "tekst": "Refren:\nNaszą pomocą jest nasz Pan i Stwórca.\nGdyby Pan nie był po naszej stronie,\ngdy ludzie przeciw nam powstali,\nwtedy pochłonęliby nas żywcem,\ngdy gniew ich przeciw nam zapłonął.\nWówczas zatopiłaby nas woda,\npotok by popłynął nad nami,\nwówczas potoczyłyby się nad nami\nwezbrane wody.\nDusza nasza jak ptak się wyrwała z sidła ptaszników,\nsidło się podarło i zostaliśmy uwolnieni.\nNasza pomoc w imieniu Pana,\nktóry stworzył niebo i ziemię."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Ciebie, Boże, chwalimy, Ciebie, Panie, wysławiamy,\nCiebie wychwala Męczenników zastęp świetlany."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 2,13-18",
+      "opis": "Śmierć dzieci w Betlejem",
+      "tekst": "Gdy Mędrcy odjechali, oto anioł Pański ukazał się Józefowi we śnie i rzekł: „Wstań, weź Dziecię i Jego Matkę i uchodź do Egiptu; pozostań tam, aż ci powiem; bo Herod będzie szukał Dziecięcia, aby Je zgładzić”.\nOn wstał, wziął w nocy Dziecię i Jego Matkę i udał się do Egiptu; tam pozostał aż do śmierci Heroda. Tak miało się spełnić słowo, które Pan powiedział przez Proroka: „Z Egiptu wezwałem Syna mego”.\nWtedy Herod widząc, że go Mędrcy zawiedli, wpadł w straszny gniew. Posłał oprawców do Betlejem i całej okolicy i kazał pozabijać wszystkich chłopców w wieku do lat dwóch, stosownie do czasu, o którym się dowiedział od Mędrców.\nWtedy spełniły się słowa proroka Jeremiasza: „Krzyk usłyszano w Rama, płacz i jęk wielki. Rachel opłakuje swe dzieci i nie chce utulić się w żalu, bo ich już nie ma”.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń ta oddaje cześć Bogu za zastęp męczenników, do których należą Święci Młodziankowie, pierwsi świadkowie Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "W tej pieśni wzywamy wstawiennictwa 'męczeństwa purpuratów', prosząc o odpuszczenie grzechów, które gładzi Krew Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń ta wielbi Boga w Jego świętych, w tym w zastępie męczenników, którzy oddali życie dla Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "646",
+      "piesn": "Jezu, w Ogrojcu mdlejący",
+      "opis": "Choć pieśń jest pasyjna, jej błagalny charakter w obliczu cierpienia nawiązuje do niewinnej ofiary Młodzianków i płaczu matek.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o ofierze Chrystusa, która nadała sens niewinnej śmierci Młodzianków, stając się ofiarą przebłagalną za grzechy świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W darach chleba i wina łączymy naszą ofiarę z niewinną ofiarą Młodzianków i ofiarą samego Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest prośbą o zbawienie przez Krew Chrystusa, która, jak mówi pierwsze czytanie, oczyszcza nas z grzechu i nadała sens ofierze Młodzianków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń adoruje Ciało Chrystusa, które wycierpiało za nasze winy, łącząc nas z ofiarą wszystkich męczenników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest przyjęciem życia wiecznego, które stało się udziałem Świętych Młodzianków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta, choć skierowana do pojedynczego męczennika, dobrze oddaje cześć niewinnym ofiarom, które oddały życie za Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn uwielbienia dla Boga Stwórcy, którego chwałę głoszą Męczennicy, jak mówi aklamacja przed Ewangelią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Pana, którego moc objawiła się w ocaleniu Świętej Rodziny i w męczeństwie niewinnych dzieci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "361",
+      "piesn": "Nie opuszczaj nas… Matko",
+      "opis": "W obliczu tragedii opisanej w Ewangelii, zwracamy się do Matki Bolesnej, która współcierpiała z płaczącymi matkami z Betlejem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Ewangelia ukazuje św. Józefa jako obrońcę Dziecięcia Jezus; prosimy go o opiekę nad nami i naszymi dziećmi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o Boże prowadzenie i opiekę, której doświadczyła Święta Rodzina uciekając do Egiptu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Pieśń o miłości Jezusa do dzieci stanowi kontrast dla okrucieństwa Heroda i jest modlitwą o czystość serca.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalna pieśń prosząca o Bożą opiekę i ratunek, co jest echem wołania psalmisty 'Naszą pomocą jest nasz Pan i Stwórca'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, nawet pośród cierpienia i prześladowań, na wzór Młodzianków.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar życia i zbawienia, które Młodziankowie osiągnęli przez swoje męczeństwo.",
+      "moment": "ogólne"
+    }
+  ]
+}

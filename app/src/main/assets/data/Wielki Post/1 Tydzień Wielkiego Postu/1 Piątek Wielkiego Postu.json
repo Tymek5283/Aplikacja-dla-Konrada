@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412874.Piatek-I-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "1 Piątek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 18, 21-28",
+      "opis": "Bóg nie chce śmierci grzesznika",
+      "tekst": "Tak mówi Pan Bóg:\n\n«Jeśliby występny porzucił wszystkie swoje grzechy, które popełniał, a strzegłby wszystkich moich ustaw i postępował według prawa i sprawiedliwości, żyć będzie, a nie umrze: nie będą mu policzone żadne grzechy, jakie popełnił, lecz będzie żył dzięki sprawiedliwości, z jaką postępował. Czyż tak bardzo miałoby mi zależeć na śmierci występnego - mówi Pan Bóg - a nie raczej na tym, by się nawrócił i żył? A gdyby sprawiedliwy odstąpił od swej sprawiedliwości i popełniał zło, naśladując wszystkie obrzydliwości, którym się oddaje występny, czy taki będzie żył? Żaden z wykonanych czynów sprawiedliwych nie będzie mu policzony, ale umrze on z powodu nieprawości, której się dopuszczał, i grzechu, który popełnił. Wy mówicie: „Sposób postępowania Pana nie jest słuszny”. Słuchaj jednakże, domu Izraela: Czy mój sposób postępowania jest niesłuszny, czy raczej wasze postępowanie jest przewrotne? Jeśli sprawiedliwy odstąpił od sprawiedliwości, dopuszczał się grzechu i umarł, to umarł z powodu grzechów, które popełnił. A jeśli bezbożny odstąpił od bezbożności, której się oddawał, i postępuje według prawa i sprawiedliwości, to zachowa duszę swoją przy życiu. Zastanowił się i odstąpił od wszystkich swoich grzechów, które popełniał, i dlatego na pewno żyć będzie, a nie umrze». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 130 (129), 1b-2. 3-4. 5-7a. 7b-8 (R.: por. 3)",
+      "opis": "",
+      "tekst": "Refren: Gdy grzechy wspomnisz, któż się z nas ostoi?\nZ głębokości wołam do Ciebie, Panie, *\n\nPanie, wysłuchaj głosu mego.\n\nNachyl swe ucho *\n\nna głos mojego błagania.\nRefren.\nJeśli zachowasz pamięć o grzechach, Panie, *\n\nPanie, któż się ostoi?\n\nAle Ty udzielasz przebaczenia, *\n\naby Ci służono z bojaźnią.\nRefren.\nPokładam nadzieję w Panu, †\n\ndusza moja pokłada nadzieję w Jego słowie, *\n\ndusza moja oczekuje Pana.\n\nBardziej niż strażnicy poranka *\n\nniech Izrael wygląda Pana.\nRefren.\nU Pana jest bowiem łaska, *\n\nu Niego obfite odkupienie.\n\nOn odkupi Izraela *\n\nze wszystkich jego grzechów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ez 18, 31ac",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Odrzućcie od siebie wszystkie grzechy\n\ni uczyńcie sobie nowe serce i nowego ducha."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 20-26",
+      "opis": "Pojednaj się najpierw z bratem swoim",
+      "tekst": "Jezus powiedział do swoich uczniów:\n\n«Jeśli wasza sprawiedliwość nie będzie większa niż uczonych w Piśmie i faryzeuszów, nie wejdziecie do królestwa niebieskiego. Słyszeliście, że powiedziano przodkom: „Nie zabijaj!”; a kto by się dopuścił zabójstwa, podlega sądowi. A Ja wam powiadam: Każdy, kto się gniewa na swego brata, podlega sądowi. A kto by rzekł swemu bratu: „Raka”, podlega Wysokiej Radzie. A kto by mu rzekł: „Bezbożniku”, podlega karze piekła ognistego. Jeśli więc przyniesiesz dar swój przed ołtarz i tam sobie przypomnisz, że brat twój ma coś przeciw tobie, zostaw tam dar swój przed ołtarzem, a najpierw idź i pojednaj się z bratem swoim. Potem przyjdź i dar swój ofiaruj. Pogódź się ze swoim przeciwnikiem szybko, dopóki jesteś z nim w drodze, by cię przeciwnik nie wydał sędziemu, a sędzia dozorcy, i aby nie wtrącono cię do więzienia. Zaprawdę, powiadam ci: Nie wyjdziesz stamtąd, dopóki nie zwrócisz ostatniego grosza». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń jest muzycznym opracowaniem psalmu responsoryjnego (Ps 130), co czyni ją idealnie dopasowaną do liturgii dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to kolejna parafraza psalmu „De profundis”, która doskonale oddaje jego błagalny i pełen nadziei charakter.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest wołaniem o Boże miłosierdzie, o którym z mocą mówi prorok Ezechiel.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wybaczania sobie nawzajem jest kluczowe w kontekście Ewangelii o pojednaniu z bratem przed złożeniem ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do pokory i skruchy, co jest warunkiem owocnego złożenia ofiary, jak uczy Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Pieśń jest prośbą o przebaczenie, abyśmy sami mogli przebaczać, co jest warunkiem złożenia daru przed ołtarzem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta wyraża pragnienie powrotu do miłosiernego Ojca, co jest istotą nawrócenia opisanego w pierwszym czytaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Przyjęcie Komunii jest umocnieniem na drodze nawrócenia i pojednania, która prowadzi do królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Chrystus w Eucharystii daje nam siłę do naśladowania Go w miłości i przebaczeniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Utwór podkreśla niezmierzoną dobroć Boga, który nie chce śmierci grzesznika, lecz jego nawrócenia i życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Boże miłosierdzie, które jest obfitsze niż nasze grzechy, o czym zapewnia psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń jest dziękczynieniem za dar przebaczenia i prośbą o radość zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Treść pieśni jest bezpośrednim wezwaniem do nawrócenia, o którym mówi prorok Ezechiel w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jesteśmy posłani, by żyć przykazaniem miłości, które w Ewangelii jest ukazane jako droga pojednania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny na zakończenie liturgii, proszący o łaskę owocnego przeżycia czasu pokuty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to kolejna parafraza psalmu „De profundis”, która doskonale oddaje jego błagalny i pełen nadziei charakter.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, której radykalne wymagania, jak pojednanie, przedstawia dziś Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest wołaniem o Boże miłosierdzie, które jest warunkiem naszego nawrócenia i życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest aktem zawierzenia i prośbą o prowadzenie drogą pojednania i sprawiedliwości.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413289.Wtorek-III-tygodnia-wielkanocnego",
+  "tytul_dnia": "3 Wtorek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 7, 51 - 8, 1a",
+      "opis": "Męczeństwo Świętego Szczepana",
+      "tekst": "Szczepan mówił do ludu i starszych, i uczonych: «Ludzie twardego karku i opornych serc i uszu! Wy zawsze sprzeciwiacie się Duchowi Świętemu. Jak ojcowie wasi, tak i wy. Któregoż z proroków nie prześladowali wasi ojcowie? Pozabijali nawet tych, którzy przepowiadali przyjście Sprawiedliwego. A wy zdradziliście Go teraz i zamordowaliście. Wy, którzy otrzymaliście Prawo za pośrednictwem aniołów, lecz nie przestrzegaliście go». Gdy to usłyszeli, zawrzały gniewem ich serca i zgrzytali zębami na niego. A on, pełen Ducha Świętego, patrzył w niebo i ujrzał chwałę Bożą i Jezusa, stojącego po prawicy Boga. I rzekł: «Widzę niebo otwarte i Syna Człowieczego, stojącego po prawicy Boga». A oni podnieśli wielki krzyk, zatkali sobie uszy i rzucili się na niego wszyscy razem. Wyrzucili go poza miasto i kamienowali, a świadkowie złożyli swe szaty u stóp młodzieńca, zwanego Szawłem. Tak kamienowali Szczepana, który modlił się: «Panie Jezu, przyjmij ducha mego!» A gdy osunął się na kolana, zawołał głośno: «Panie, nie licz im tego grzechu!» Po tych słowach skonał. Szaweł zaś zgadzał się na zabicie Szczepana. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 31 (30), 3c-4. 6 i 7b i 8a. 17 i 21ab (R.: por. 6a)",
+      "opis": "",
+      "tekst": "Refren: W ręce Twe, Panie, składam ducha mego.\n\nalbo: Alleluja.\nBądź dla mnie skałą schronienia, *\n\nwarownią, która ocala.\n\nTy bowiem jesteś moją skałą i twierdzą, *\n\nkieruj mną i prowadź przez wzgląd na swe imię.\nRefren.\nW ręce Twoje powierzam ducha mego, *\n\nTy mnie odkupisz, Panie, wierny Boże.\n\nJa zaś pokładam ufność w Panu. *\n\nWeselę się i cieszę Twoim miłosierdziem.\nRefren.\nNiech Twoje oblicze zajaśnieje nad Twym sługą, *\n\nwybaw mnie w swoim miłosierdziu.\n\nOsłaniasz ich Twą obecnością *\n\nod spisku mężów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 35ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem chlebem życia.\n\nKto do Mnie przychodzi, nie będzie łaknął."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 30-35",
+      "opis": "Ja jestem chlebem życia",
+      "tekst": "W Kafarnaum lud powiedział do Jezusa: «Jaki więc Ty uczynisz znak, abyśmy go zobaczyli i Tobie uwierzyli? Cóż zdziałasz? Ojcowie nasi jedli mannę na pustyni, jak napisano: „Dał im do jedzenia chleb z nieba”». Rzekł do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Nie Mojżesz dał wam chleb z nieba, ale dopiero Ojciec mój daje wam prawdziwy chleb z nieba. Albowiem chlebem Bożym jest Ten, który z nieba zstępuje i życie daje światu». Rzekli więc do Niego: «Panie, dawaj nam zawsze ten chleb!» Odpowiedział im Jezus: «Ja jestem chlebem życia. Kto do Mnie przychodzi, nie będzie łaknął; a kto we Mnie wierzy, nigdy pragnąć nie będzie». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta jest radosnym świadectwem wiary w Zmartwychwstałego, którą z odwagą głoszą apostołowie w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo życia nad śmiercią, co jest fundamentem odwagi apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, któremu należy być posłusznym bardziej niż ludziom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór podkreśla ofiarę Chrystusa, która jest fundamentem wiary i daje życie wieczne, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której przyjmujemy Tego, który przyszedł z nieba i daje nam życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Nawiązuje do Ewangelii, podkreślając, że wiara w Syna, który daje siebie za pokarm, prowadzi do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest pokarmem na życie wieczne, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym wyrazem wiary w Syna, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Ta pieśń o charakterze triumfalnym oddaje moc świadectwa apostołów o zwycięstwie Chrystusa nad śmiercią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie głoszą z odwagą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar życia wiecznego, który otrzymujemy przez wiarę w Syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królewską chwałę Chrystusa, którego Bóg wywyższył po prawicy, jak świadczy Piotr w Dziejach Apostolskich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odwaga apostołów jest wzorem dla nas, posłanych by głosić Ewangelię o Jezusie Zbawicielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest centralnym punktem nauczania apostołów i źródłem ich odwagi.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to parafraza psalmu responsoryjnego, wzywająca do doświadczenia dobroci Pana, o której świadczą apostołowie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który daje Ducha Świętego tym, którzy Mu są posłuszni.",
+      "moment": "ogólne"
+    }
+  ]
+}

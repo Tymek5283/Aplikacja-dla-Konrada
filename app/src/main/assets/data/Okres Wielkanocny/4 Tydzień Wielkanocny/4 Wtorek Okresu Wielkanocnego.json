@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413302.Wtorek-IV-tygodnia-wielkanocnego",
+  "tytul_dnia": "4 Wtorek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 11, 19-26",
+      "opis": "Pierwsi „chrześcijanie” w Antiochii",
+      "tekst": "Ci, których rozproszyło prześladowanie, jakie wybuchło z powodu Szczepana, dotarli aż do Fenicji, na Cypr i do Antiochii, głosząc słowo samym tylko Żydom. Niektórzy z nich pochodzili z Cypru i z Cyreny. Oni to po przybyciu do Antiochii przemawiali też do Greków i głosili Dobrą Nowinę o Panu Jezusie. A ręka Pańska była z nimi, bo wielka liczba uwierzyła i nawróciła się do Pana.\nWieść o tym doszła do uszu Kościoła w Jeruzalem. Wysłano do Antiochii Barnabę. Gdy on przybył i zobaczył działanie łaski Bożej, ucieszył się i zachęcał wszystkich, aby całym sercem wytrwali przy Panu; był bowiem człowiekiem dobrym i pełnym Ducha Świętego i wiary. Pozyskano wtedy wielką liczbę wiernych dla Pana.\nBarnaba udał się też do Tarsu, aby odszukać Szawła. A kiedy go znalazł, przyprowadził do Antiochii i przez cały rok pracowali razem w Kościele, nauczając wielką rzeszę ludzi. W Antiochii też po raz pierwszy nazwano uczniów chrześcijanami.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 87 (86), 1b-3. 4-5. 6-7 (R.: por. Ps 117 [116], 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Wszystkie narody, wysławiajcie Pana.\nGród Jego wznosi się na świętych górach, †\numiłował Pan bramy Syjonu *\nbardziej niż wszystkie namioty Jakuba.\nWspaniałe rzeczy głoszą o tobie, *\nmiasto Boże.\nRefren.\nWymienię Egipt i Babilon wśród tych, którzy mnie znają. †\nOto Filistea, Tyr i Etiopia, *\nnawet taki kraj tam się narodził.\nO Syjonie powiedzą: «Każdy człowiek urodził się na nim, *\na Najwyższy sam go umacnia».\nRefren.\nPan zapisuje w księdze ludów: *\n«Oni się tam narodzili».\nI tańcząc, śpiewać będą: *\n«Wszystkie moje źródła są w tobie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 10, 22-30",
+      "opis": "Moje owce słuchają mego głosu",
+      "tekst": "Obchodzono w Jerozolimie uroczystość Poświęcenia Świątyni. Było to w zimie. Jezus przechadzał się w świątyni, w portyku Salomona.\nOtoczyli Go Żydzi i mówili do Niego: «Dokąd będziesz nas trzymał w niepewności? Jeśli Ty jesteś Mesjaszem, powiedz nam otwarcie!»\nRzekł do nich Jezus: «Powiedziałem wam, a nie wierzycie. Czyny, których dokonuję w imię mojego Ojca, świadczą o Mnie. Ale wy nie wierzycie, bo nie jesteście z moich owiec.\nMoje owce słuchają mego głosu, a Ja znam je. Idą one za Mną, a Ja daję im życie wieczne. Nie zginą na wieki i nikt nie wyrwie ich z mojej ręki. Ojciec mój, który Mi je dał, jest większy od wszystkich. I nikt nie może ich wyrwać z ręki mego Ojca. Ja i Ojciec jedno jesteśmy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą Psalmu 23, a jej treść doskonale pasuje do Ewangelii, w której Jezus przedstawia siebie jako Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która podkreśla ufność w Bożą opiekę, co jest głównym tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój radości i nadziei płynącej z wiary w Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do obrazu owczarni z Ewangelii, która jest ludem Pana i Jego własnością.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, która dobrze wpisuje się w modlitwę o dobrych pasterzy dla Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu darów, które stają się pokarmem od Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Dobry Pasterz karmi swoje owce swoim Ciałem, które jest prawdziwym pokarmem dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaprasza do przyjęcia Chrystusa w Komunii, aby doświadczyć, jak dobry jest Pan, nasz Pasterz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta łączy w sobie obraz Chrystusa Dobrego Pasterza i Chleba Życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Pieśń ta jest modlitwą o powołania kapłańskie i zakonne, co jest tradycyjnym tematem Niedzieli Dobrego Pasterza, a także pasuje do dni powszednich tego tygodnia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który jako Dobry Pasterz prowadzi nas do życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Dobry Pasterz karmi swój lud.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Misja Pawła i Barnaby, opisana w pierwszym czytaniu, jest przykładem wypełniania nakazu Chrystusa, by głosić Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń posyła wiernych, aby głosili światu, że Zmartwychwstały Pasterz jest z nami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa, Dobrego Pasterza, który pokonał śmierć, aby dać nam życie wieczne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Wiara w Zmartwychwstałego Pana jest fundamentem życia wiecznego, które On daje swoim owcom.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że naszą nadzieją jest Zmartwychwstały Chrystus, Dobry Pasterz.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Dobry Pasterz zaprasza nas na Ucztę Eucharystyczną, aby nas karmić i prowadzić.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Jest to modlitwa o świętych kapłanów, którzy są pasterzami na wzór Chrystusa.",
+      "moment": "ogólne"
+    }
+  ]
+}

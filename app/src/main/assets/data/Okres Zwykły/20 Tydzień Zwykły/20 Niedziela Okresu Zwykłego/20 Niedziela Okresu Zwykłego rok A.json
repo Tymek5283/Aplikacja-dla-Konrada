@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431277.20-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "20 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 56, 1. 6-7",
+      "opis": "Powszechność zbawienia",
+      "tekst": "Tak mówi Pan: «Zachowujcie prawo i przestrzegajcie sprawiedliwości, bo moje zbawienie już wnet nadejdzie i moja sprawiedliwość ma się objawić.\nCudzoziemców zaś, którzy się przyłączyli do Pana, ażeby Mu służyć i aby miłować imię Pana i zostać Jego sługami - wszystkich zachowujących szabat bez pogwałcenia go i trzymających się mocno mojego przymierza, przyprowadzę na moją świętą górę i rozweselę w moim domu modlitwy. Całopalenia ich oraz ofiary będą przyjęte na moim ołtarzu, bo dom mój będzie nazwany domem modlitwy dla wszystkich narodów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 67 (66), 2-3. 5 i 8 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Niech wszystkie ludy sławią Ciebie, Boże.\nNiech Bóg się zmiłuje nad nami i nam błogosławi; *\nniech nam ukaże pogodne oblicze.\nAby na ziemi znano Jego drogę, *\nJego zbawienie wśród wszystkich narodów.\nRefren.\nNiech się narody cieszą i weselą, †\nbo rządzisz ludami sprawiedliwie *\ni kierujesz narodami na ziemi.\nNiech nam Bóg błogosławi *\ni niech cześć Mu oddają wszystkie krańce ziemi.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 11, 13-15. 29-32",
+      "opis": "Bóg poddał wszystkich nieposłuszeństwu, aby wszystkim okazać miłosierdzie",
+      "tekst": "Bracia:\nDo was, pogan, mówię: «Będąc apostołem pogan, przez cały czas chlubię się posługiwaniem swoim w nadziei, że może pobudzę do współzawodnictwa swoich rodaków i przynajmniej niektórych z nich doprowadzę do zbawienia. Bo jeżeli ich odrzucenie przyniosło światu pojednanie, to czymże będzie ich przyjęcie, jeżeli nie powstaniem ze śmierci do życia?\nBo dary łaski i wezwanie Boże są nieodwołalne. Podobnie bowiem jak wy niegdyś byliście nieposłuszni Bogu, teraz zaś z powodu ich nieposłuszeństwa dostąpiliście miłosierdzia, tak i oni stali się teraz nieposłuszni z powodu okazanego wam miłosierdzia, aby i sami w czasie obecnym mogli dostąpić miłosierdzia. Albowiem Bóg poddał wszystkich nieposłuszeństwu, aby wszystkim okazać swe miłosierdzie».\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 15, 21-28",
+      "opis": "Wiara niewiasty kananejskiej",
+      "tekst": "Jezus podążył w okolice Tyru i Sydonu. A oto kobieta kananejska, wyszedłszy z tamtych stron, wołała: «Ulituj się nade mną, Panie, Synu Dawida! Moja córka jest ciężko nękana przez złego ducha». Lecz On nie odezwał się do niej ani słowem.\nNa to podeszli Jego uczniowie i prosili Go: «Odpraw ją, bo krzyczy za nami». Lecz On odpowiedział: «Jestem posłany tylko do owiec, które poginęły z domu Izraela».\nA ona przyszła, padła Mu do nóg i prosiła: «Panie, dopomóż mi». On jednak odparł: «Niedobrze jest zabierać chleb dzieciom, a rzucać szczeniętom». A ona odrzekła: «Tak, Panie, lecz i szczenięta jedzą okruchy, które spadają ze stołu ich panów».\nWtedy Jezus jej odpowiedział: «O niewiasto, wielka jest twoja wiara; niech ci się stanie, jak pragniesz!» Od tej chwili jej córka była zdrowa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta jest echem proroctwa Izajasza i psalmu, które zapowiadają zbawienie dla wszystkich narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Jest to radosne wezwanie do wszystkich ludów, aby oddały cześć Panu, co jest główną myślą psalmu i pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który ma być 'domem modlitwy dla wszystkich narodów', jak zapowiada prorok Izajasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o wiarę, której niezwykłym przykładem jest kobieta kananejska z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i ufności w Boże miłosierdzie, które w drugim czytaniu jest ukazane jako ostateczny cel Boga.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoce naszej pracy, prosząc, by przyjął je tak, jak przyjmuje ofiary wszystkich narodów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest 'chlebem dzieci', ale dzięki wierze, jak pokazuje kobieta kananejska, dostępna jest dla wszystkich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja pragnienia wszystkich serc, także tych, które, jak kobieta kananejska, z wiarą Go szukają.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie Chrystusa skierowane jest do wszystkich, co podkreśla uniwersalizm zbawienia obecny w dzisiejszych czytaniach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Pieśń uwielbia Boże miłosierdzie, które, jak uczy drugie czytanie, Bóg chce okazać wszystkim, poganom i Żydom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to modlitwa o Boże miłosierdzie i błogosławieństwo dla wszystkich narodów, co jest tematem psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która otwiera drogę do zbawienia wszystkim, jak ukazuje historia kobiety kananejskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest odpowiedzią na uniwersalizm zbawienia, który jest głównym tematem dzisiejszej liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Jesteśmy posłani jako lud Boży, aby głosić zbawienie wszystkim narodom, o czym mówią czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego miłości, która jednoczy wszystkie narody.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, którą w Ewangelii rozpoznała i której doświadczyła pogańska kobieta.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest fundamentem wspólnoty, która, jak zapowiada Izajasz, ma objąć wszystkie narody.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten wzywa cały świat do radosnego służenia Bogu, co jest wypełnieniem proroctw o powszechności zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to wezwanie do głoszenia chwały Pana wszystkim narodom, co stanowi centralny temat psalmu i pierwszego czytania.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/2988674.VII-Niedziela-Wielkanocna-rok-C",
+  "tytul_dnia": "7 Niedziela Okresu Wielkanocnego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 7, 55-60",
+      "opis": "Syn Człowieczy stojący po prawicy Boga",
+      "tekst": "Szczepan, pełen Ducha Świętego, patrzył w niebo i ujrzał chwałę Bożą i Jezusa, stojącego po prawicy Boga. I rzekł: «Widzę niebo otwarte i Syna Człowieczego, stojącego po prawicy Boga». A oni podnieśli wielki krzyk, zatkali sobie uszy i rzucili się na niego wszyscy razem. Wyrzucili go poza miasto i kamienowali, a świadkowie złożyli swe szaty u stóp młodzieńca, zwanego Szawłem.\nTak kamienowali Szczepana, który modlił się: «Panie Jezu, przyjmij ducha mego!» A gdy osunął się na kolana, zawołał głośno: «Panie, nie licz im tego grzechu!» Po tych słowach skonał.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97 (96), 1-2. 6-7. 9",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg króluje ponad całą ziemią.\nPan króluje, wesel się, ziemio, *\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego, *\nprawo i sprawiedliwość podstawą Jego tronu.\nRefren.\nJego sprawiedliwość rozgłaszają niebiosa †\ni wszystkie ludy widzą Jego chwałę. *\nWszystkie bóstwa hołd Mu oddają.\nPonad całą ziemią Ty jesteś wywyższony *\ni nieskończenie wyższy od wszystkich bogów.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ap 22, 12-14. 16-17. 20",
+      "opis": "Zapowiedź powtórnego przyjścia Chrystusa",
+      "tekst": "Przyjdź, Panie Jezu!\nJa, Jan, usłyszałem głos mówiący do mnie:\n«Oto przyjdę niebawem, a moja zapłata jest ze Mną, by tak każdemu odpłacić, jaka jest jego praca. Ja jestem Alfa i Omega, Pierwszy i Ostatni, Początek i Koniec. Błogosławieni, którzy płuczą swe szaty, aby władza nad drzewem życia do nich należała i aby bramami wchodzili do Miasta.\nJa, Jezus, posłałem mojego anioła, by wam zaświadczyć o tym, co dotyczy Kościołów. Ja jestem Odrośl i Potomstwo Dawida, Gwiazda świecąca, poranna».\nA Duch i Oblubienica mówią: «Przyjdź!» A kto słyszy, niech powie: «Przyjdź!» I kto odczuwa pragnienie, niech przyjdzie, kto chce, niech wody życia darmo zaczerpnie.\nMówi Ten, który o tym zaświadcza: «Zaiste, przyjdę niebawem».\nAmen. Przyjdź, Panie Jezu!\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 14, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zostawię was sierotami,\npowrócę do was i rozraduje się serce wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 17, 20-26",
+      "opis": "Aby stanowili jedno",
+      "tekst": "W czasie Ostatniej Wieczerzy Jezus, podniósłszy oczy ku niebu, modlił się tymi słowami:\n«Ojcze Święty, nie tylko za nimi proszę, ale i za tymi, którzy dzięki ich słowu będą wierzyć we Mnie; aby wszyscy stanowili jedno, jak Ty, Ojcze, we Mnie, a Ja w Tobie, aby i oni stanowili w Nas jedno, by świat uwierzył, że Ty Mnie posłałeś.\nI także chwałę, którą Mi dałeś, przekazałem im, aby stanowili jedno, tak jak My jedno stanowimy. Ja w nich, a Ty we Mnie! Oby się tak zespolili w jedno, aby świat poznał, że Ty Mnie posłałeś i że Ty ich umiłowałeś, tak jak Mnie umiłowałeś.\nOjcze, chcę, aby także ci, których Mi dałeś, byli ze Mną tam, gdzie Ja jestem, aby widzieli chwałę moją, którą Mi dałeś, bo umiłowałeś Mnie przed założeniem świata.\nOjcze sprawiedliwy! Świat Ciebie nie poznał, lecz Ja Ciebie poznałem, i oni poznali, że Ty Mnie posłałeś. Objawiłem im Twoje imię i nadal będę objawiał, aby miłość, którą Ty Mnie umiłowałeś, w nich była i Ja w nich».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Pieśń ta wprowadza w atmosferę oczekiwania na Zesłanie Ducha Świętego, co jest charakterystyczne dla tego dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wyraża radość Kościoła trwającego na modlitwie w oczekiwaniu na Ducha Świętego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem wiary w Chrystusa i nadziei na Jego powrót w chwale.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Jest to modlitwa o Ducha Świętego, którego apostołowie oczekiwali trwając na modlitwie w Wieczerniku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Kolejny hymn do Ducha Świętego, który podkreśla Jego rolę w uświęcaniu Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie w oczekiwaniu na dar Ducha Świętego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do jednomyślności apostołów na modlitwie i jest znakiem jedności, o którą modli się Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, który modli się za swoich uczniów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który w Eucharystii daje nam przedsmak wiecznej chwały.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "217",
+      "piesn": "O Stworzycielu, Duchu",
+      "opis": "Klasyczny hymn do Ducha Świętego, który jest uwielbieniem Boga za dar Pocieszyciela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który wstąpił do chwały Ojca, jak modli się w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i obietnicę życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń ta posyła wiernych, by z radością oczekiwali na objawienie się chwały Chrystusa, o czym mówi drugie czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Oczekiwanie na Ducha Świętego jest przygotowaniem do misji głoszenia Ewangelii, do której posyła nas Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "344",
+      "piesn": "Królowej Anielskiej śpiewajmy",
+      "opis": "Nawiązuje do obecności Maryi w Wieczerniku, trwającej na modlitwie z apostołami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa i Jego modlitwy za nas do Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, które są niezbędne do dawania świadectwa i wytrwania w cierpieniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Kanon ten w prosty sposób wyraża postawę Kościoła, który trwa na modlitwie, oczekując na Pocieszyciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

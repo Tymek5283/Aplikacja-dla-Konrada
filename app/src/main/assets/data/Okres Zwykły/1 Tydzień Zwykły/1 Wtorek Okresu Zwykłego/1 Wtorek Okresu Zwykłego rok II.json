@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410406.Wtorek-I-tydzien-zwykly-rok-II",
+  "tytul_dnia": "1 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 1, 9-20",
+      "opis": "Narodzenie się Samuela",
+      "tekst": "Gdy w Szilo skończono ucztę po ofierze, Anna wstała. A kapłan Heli siedział na krześle przed bramą przybytku Pańskiego. Ona zaś smutna na duszy zanosiła do Pana modlitwy i płakała rzewnie. Złożyła również ślub, mówiąc: «Panie Zastępów! Jeżeli łaskawie wejrzysz na poniżenie służebnicy twojej i wspomnisz na mnie, i nie zapomnisz służebnicy twojej, i dasz mi potomka płci męskiej, to oddam go Panu po wszystkie dni jego życia, a brzytwa nie dotknie jego głowy». Gdy tak żarliwie się modliła przed obliczem Pana, Heli przyglądał się jej ustom. Anna zaś mówiła tylko w głębi swego serca, poruszała wargami, lecz głosu nie było słychać. Heli sądził, że była pijana. Heli odezwał się do niej: «Dokąd będziesz pijana? Wytrzeźwiej od wina!» Anna odrzekła: «Nie, panie mój. Jestem nieszczęśliwą kobietą, a nie upiłam się winem ani sycerą. Wylałam duszę moją przed Panem. Nie uważaj swej służebnicy za córkę Beliala, gdyż z nadmiaru zmartwienia i boleści duszy mówiłam cały czas». Heli odpowiedział: «Idź w pokoju, a Bóg Izraela niech spełni prośbę, jaką do Niego zaniosłaś». Odpowiedziała: «Obyś darzył życzliwością twoją służebnicę! » I odeszła ta kobieta: jadła i nie miała już twarzy tak smutnej jak przedtem. Wstali o zaraniu i oddawszy pokłon Panu, wrócili i udali się do domu swego w Rama. Elkana zbliżył się do swojej żony, Anny, a Pan wspomniał na nią. Anna poczęła i po upływie dni urodziła syna, i nazwała go imieniem Samuel, ponieważ mówiła: «Uprosiłam go u Pana». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "1 Sm 2, 1bcde. 4-5. 6-7. 8abcd (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Całym swym sercem raduję się w Panu.\nMoje serce raduje się w Panu, *\n\ndzięki Niemu moc moja wzrasta.\n\nSzeroko otwarłam usta przeciw moim wrogom, *\n\nbo cieszyć się mogę Twoją pomocą.\nRefren.\nŁuk potężnych się łamie, *\n\na mocą przepasują się słabi.\n\nSyci za chleb się najmują, głodni zaś odpoczywają, *\n\nniepłodna rodzi siedmioro, a matka wielu dzieci usycha.\nRefren.\nPan daje śmierć i życie, *\n\nwtrąca do Otchłani i z niej wyprowadza.\n\nPan czyni ubogim lub bogatym, *\n\nponiża i wywyższa.\nRefren.\nBiedaka z prochu podnosi, *\n\nz błota dźwiga nędzarza,\n\nby go wśród książąt posadzić, *\n\ni dać mu tron chwały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 Tes 2, 13",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie słowo Boże nie jako słowo ludzkie,\n\nale jak jest naprawdę, jako słowo Boga."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 21-28",
+      "opis": "Jezus naucza jak ten, który ma władzę",
+      "tekst": "W Kafarnaum Jezus w szabat wszedł do synagogi i nauczał. Zdumiewali się Jego nauką: uczył ich bowiem jak ten, który ma władzę, a nie jak uczeni w Piśmie. Był właśnie w ich synagodze człowiek opętany przez ducha nieczystego. Zaczął on wołać: «Czego chcesz od nas, Jezusie Nazarejczyku? Przyszedłeś nas zgubić. Wiem, kto jesteś: Święty Boga». Lecz Jezus rozkazał mu surowo: «Milcz i wyjdź z niego! » Wtedy duch nieczysty zaczął nim miotać i z głośnym krzykiem wyszedł z niego. A wszyscy się zdumieli, tak że jeden drugiego pytał: «Co to jest? Nowa jakaś nauka z mocą. Nawet duchom nieczystym rozkazuje i są Mu posłuszne». I wnet rozeszła się wieść o Nim wszędzie po całej okolicznej krainie galilejskiej. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do uwielbienia Pana, którego władza i moc objawiają się w nauczaniu i egzorcyzmach Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę modlitewną Anny, która w swoim smutku i poniżeniu zwraca się z ufnością do Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Pieśń błagalna, która oddaje ducha modlitwy Anny, proszącej Boga o potomstwo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wyraża ofiarowanie darów Bogu, który wysłuchuje modlitw, tak jak wysłuchał modlitwy Anny z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń ofiarna, która jest aktem czci dla Boga, który wysłuchuje modlitw pokornych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ta jest ofiarowaniem Bogu naszych trudów w zjednoczeniu z Chrystusem, który ma moc nad złem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Pieśń ta oddaje cześć Jezusowi, który naucza z mocą i ma władzę nad duchami nieczystymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w moc Chrystusa, obecnego w Eucharystii, Tego samego, który z mocą nauczał w synagodze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "263",
+      "piesn": "Pan zstąpił z nieba",
+      "opis": "Pieśń wyraża wiarę w realną obecność Pana, którego władzę i Bóstwo rozpoznał nawet duch nieczysty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego potęga i władza zdumiewały słuchaczy Jezusa w Kafarnaum.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do radosnego uwielbienia Boga, którego moc i władza objawiły się w Jezusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to pieśń chwały, która jest odpowiedzią na zdumienie tłumów wobec nowej nauki Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn dziękczynny jest wyrazem radości Anny po narodzinach syna oraz ludzi zdumionych mocą Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Po doświadczeniu mocy Jezusa, ta pieśń jest prośbą o Jego stałą obecność i obronę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o mocy Jezusa, której byli świadkami ludzie w Kafarnaum.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud ludzie uznali naukę i egzorcyzmy Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą opiekę, której doświadczyła Anna i której pragną wszyscy wierzący.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń ta jest wyrazem ufności w Bożą opiekę, szczególnie w obliczu działania złych duchów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa jako jedynego Pana i Zbawiciela, którego naukę z mocą głosił.",
+      "moment": "ogolne"
+    }
+  ]
+}

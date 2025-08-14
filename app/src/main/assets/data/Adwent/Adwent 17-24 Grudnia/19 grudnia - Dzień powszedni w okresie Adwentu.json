@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, co jest odpowiedzią na radosną nowinę o narodzinach poprzednika.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, którego przyjście przygotowuje Jan Chrzciciel.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, co jest odpowiedzią na radosną nowinę o narodzinach poprzednika.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania, które staje się bardziej intensywne w świetle zapowiedzi narodzin Jana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co stanowiło centralne orędzie Jana Chrzciciela.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, którego poprzednikiem był Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, którego drogę przygotował Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
       "numer": "2",
       "piesn": "Niech się radują",
       "opis": "Ewangelia mówi, że narodziny Jana będą 'radością i weselem', a ta pieśń jest wyrazem tej radości z powodu bliskiego zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny jest hymnem uwielbienia za Boże cuda, a ta pieśń wzywa całe stworzenie do chwalenia Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, którego przyjście przygotowuje Jan.",
       "moment": "uwielbienie"
     },
     {
@@ -60,15 +108,27 @@
       "moment": "rozeslanie"
     },
     {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który jest kluczową postacią Ewangelii, stanowi doskonałe podsumowanie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
       "numer": "13",
       "piesn": "Boże wieczny, Boże żywy",
       "opis": "Pieśń jest wołaniem o przyjście Zbawiciela, podobnym do prośby Zachariasza, która została wysłuchana.",
       "moment": "ogolne"
     },
     {
-      "numer": "10",
-      "piesn": "W tym świętym oczekiwaniu",
-      "opis": "Pieśń wzywa do przygotowania na przyjście Pana, którego drogę ma przygotować zapowiedziany w Ewangelii Jan Chrzciciel.",
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413316.Piatek-IV-tygodnia-wielkanocnego",
+  "tytul_dnia": "4 Piątek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 13, 26-33",
+      "opis": "Bóg wskrzesił Jezusa",
+      "tekst": "Gdy Paweł przybył do Antiochii Pizydyjskiej, przemówił w synagodze:\n«Bracia, synowie rodu Abrahama, i ci spośród was, którzy się boją Boga! Nam została przekazana nauka o tym zbawieniu, bo mieszkańcy Jeruzalem i ich zwierzchnicy nie uznali Jezusa, a potępiając Go, wypełnili głosy Proroków, odczytywane co szabat. Chociaż nie znaleźli w Nim żadnej winy zasługującej na śmierć, zażądali od Piłata, aby Go stracił. Gdy wykonali wszystko, co było o Nim napisane, zdjęli Go z krzyża i złożyli w grobie.\nAle Bóg wskrzesił Go z martwych, a On ukazywał się przez wiele dni tym, którzy z Nim razem poszli z Galilei do Jeruzalem, a teraz dają świadectwo o Nim przed ludem.\nMy właśnie głosimy wam Dobrą Nowinę o obietnicy danej ojcom: że Bóg spełnił ją wobec nas jako ich dzieci, wskrzesiwszy Jezusa. Tak też jest napisane w psalmie drugim: „Ty jesteś moim Synem, Ja Ciebie dziś zrodziłem”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 2, 6-7. 8-9. 10-12a (R.: por. 7)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Tyś moim Synem, Ja Cię dziś zrodziłem.\n«Oto Ja ustanowiłem swego Króla *\nna Syjonie, świętej górze mojej».\nWyrok Pański ogłoszę: †\nOn rzekł do Mnie: «Ty jesteś moim Synem, *\nJa dzisiaj zrodziłem Ciebie.\nRefren.\nŻądaj, a dam Ci w dziedzictwo narody *\ni krańce ziemi w posiadanie Twoje.\nŻelazną rózgą będziesz nimi rządził, *\nskruszysz ich jak gliniane naczynie».\nRefren.\nA teraz, królowie, zrozumcie, *\nnauczcie się, sędziowie ziemi.\nSłużcie Panu z bojaźnią, *\nz drżeniem całujcie Mu stopy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 14, 1-6",
+      "opis": "Ja jestem drogą i prawdą, i życiem",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Niech się nie trwoży serce wasze. Wierzycie w Boga? I we Mnie wierzcie! W domu Ojca mego jest mieszkań wiele. Gdyby tak nie było, to bym wam powiedział. Idę przecież przygotować wam miejsce. A gdy odejdę i przygotuję wam miejsce, przyjdę powtórnie i zabiorę was do siebie, abyście i wy byli tam, gdzie Ja jestem. Znacie drogę, dokąd Ja idę».\nOdezwał się do Niego Tomasz: «Panie, nie wiemy, dokąd idziesz. Jak więc możemy znać drogę?»\nOdpowiedział mu Jezus: «Ja jestem drogą i prawdą, i życiem. Nikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń ta jest radosnym ogłoszeniem prawdy o Zmartwychwstaniu, którą Paweł głosi w Antiochii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń ta wyraża radość ze Zmartwychwstania, które jest fundamentem naszej nadziei na miejsce w domu Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który jest naszą Drogą do Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór podkreśla, że Chrystus przez swoją ofiarę otworzył nam bramę niebios, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna sławiąca Zbawiciela, który jest Drogą, Prawdą i Życiem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię jako pokarm na drogę do domu Ojca, który przygotował nam Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jezus, który jest Drogą, Prawdą i Życiem, w Eucharystii daje nam pokarm na drogę do domu Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest naszą Drogą do Ojca i daje nam siebie w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym zjednoczeniem z Jezusem, który prowadzi nas do domu Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń uwielbia Chrystusa Króla, którego Bóg ustanowił na Syjonie, jak głosi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, który jest naszą Drogą, Prawdą i Życiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Zmartwychwstania i obietnicę nieba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "210",
+      "piesn": "Chrystus Pan w niebo wstępuje",
+      "opis": "Nawiązuje do słów Jezusa z Ewangelii: 'Idę przecież przygotować wam miejsce'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, idąc drogą, którą jest Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o nowym życiu i nadziei na niebo, którą daje nam Zmartwychwstały Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa jest fundamentem wiary w Jego obietnicę przygotowania nam miejsca w domu Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest centralnym punktem nauczania Pawła i źródłem naszej nadziei.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest naszą Drogą do Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem naszej nadziei na życie wieczne.",
+      "moment": "ogolne"
+    }
+  ]
+}

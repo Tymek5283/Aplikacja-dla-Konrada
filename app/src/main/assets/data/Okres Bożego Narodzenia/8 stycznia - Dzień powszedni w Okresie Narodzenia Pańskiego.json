@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410518.8-stycznia",
+  "tytul_dnia": "8 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 4, 7-10",
+      "opis": "Bóg jest miłością",
+      "tekst": "Umiłowani, miłujmy się wzajemnie, ponieważ miłość jest z Boga, a każdy, kto miłuje, narodził się z Boga i zna Boga. Kto nie miłuje, nie zna Boga, bo Bóg jest miłością.\nW tym objawiła się miłość Boga ku nam, że zesłał Syna swego Jednorodzonego na świat, abyśmy życie mieli dzięki Niemu.\nW tym przejawia się miłość, że nie my umiłowaliśmy Boga, ale że on sam nas umiłował i posłał Syna swojego jako ofiarę przebłagalną za nasze grzechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 72 (71), 1b-2. 3-4b. 7-8 (R.: por. 11)",
+      "opis": "",
+      "tekst": "Refren: Uwielbią Pana wszystkie ludy ziemi.\nBoże, przekaż Twój sąd królowi, *\na Twoją sprawiedliwość synowi królewskiemu.\naby Twoim ludem rządził sprawiedliwie *\ni ubogimi według prawa.\nRefren.\nNiech góry przyniosą pokój ludowi, *\na wzgórza sprawiedliwość.\notoczy opieką ubogich z ludu, *\nbędzie ratował dzieci biedaków.\nRefren.\nZa dni jego zakwitnie sprawiedliwość *\ni wielki pokój, zanim księżyc zgaśnie.\nBędzie panował od morza do morza, *\nod Rzeki aż po krańce ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 34-44",
+      "opis": "Rozmnażając chleb, Jezus objawia swoją moc",
+      "tekst": "Gdy Jezus ujrzał wielki tłum, zlitował się nad nimi, byli bowiem jak owce niemające pasterza. I zaczął ich nauczać o wielu sprawach.\nA gdy pora była już późna, przystąpili do Niego uczniowie i rzekli: «Miejsce to jest pustkowiem, a pora już późna. Odpraw ich. Niech idą do okolicznych osiedli i wsi, a kupią sobie coś do jedzenia». Lecz On im odpowiedział: «Wy dajcie im jeść!»\nRzekli Mu: «Mamy pójść i za dwieście denarów kupić chleba, żeby dać im jeść?»\nOn ich spytał: «Ile macie chlebów? Idźcie, zobaczcie!» Gdy się upewnili, rzekli: «Pięć i dwie ryby».\nWtedy polecił im wszystkim usiąść gromadami na zielonej trawie. I rozłożyli się, gromada przy gromadzie, po stu i pięćdziesięciu. A wziąwszy pięć chlebów i dwie ryby, spojrzał w niebo, odmówił błogosławieństwo, połamał chleby i dawał uczniom, by podawali im; także dwie ryby rozdzielił między wszystkich.\nJedli wszyscy do syta i zebrali jeszcze dwanaście pełnych koszów ułomków i resztek z ryb. A tych, którzy jedli chleby, było pięć tysięcy mężczyzn.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą Psalmu 23, a jej treść doskonale pasuje do Ewangelii, w której Jezus lituje się nad tłumem jak pasterz nad owcami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Kolejna pieśń pasterska, która podkreśla ufność w Bożą opiekę, co jest głównym tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń bezpośrednio nawiązuje do Ewangelii o rozmnożeniu chleba, które jest znakiem miłości Boga-Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Pierwsze czytanie mówi, że 'Bóg jest miłością' i 'sam nas umiłował', a ta pieśń jest odpowiedzią na tę miłość, którą składamy w darze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Utwór ten jest hymnem na cześć miłości, która jest znakiem, że 'narodziliśmy się z Boga', jak uczy św. Jan.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszych darów, które są odpowiedzią na miłość Boga objawioną w Jezusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Cud rozmnożenia chleba jest zapowiedzią Eucharystii, w której Jezus daje nam siebie jako pokarm na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń eucharystyczna, która przypomina, że cud rozmnożenia chleba był zapowiedzią Uczty, na którą Pan zaprasza wszystkich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb dający życie wieczne, co jest teologiczną głębią cudu rozmnożenia chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, w której miłość Boga-Pasterza, opisana w Ewangelii, staje się pokarmem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar miłości Boga i za cud rozmnożenia chleba, który jest znakiem Jego troski.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za bezmiar łask, których znakiem jest cudowne nakarmienie tłumów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Zakończenie liturgii pieśnią o miłości wzajemnej jest odpowiedzią na wezwanie z pierwszego czytania i zachętą do dzielenia się 'chlebem' miłości z innymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by dzielić się Dobrą Nowiną i miłością, tak jak uczniowie dzielili chleb z polecenia Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża tęsknotę za Chlebem Żywym, który zaspokaja najgłębsze pragnienia ludzkiego serca, co zapowiada cud rozmnożenia chleba.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Jest to pieśń uwielbienia dla Jezusa, który troszczy się o potrzeby ludu i karmi go cudownym chlebem.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, który w Ewangelii objawia swoją litość i moc.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za pokarm duchowy i doczesny, którego Bóg nam udziela, jak w cudzie rozmnożenia chleba.",
+      "moment": "ogólne"
+    }
+  ]
+}

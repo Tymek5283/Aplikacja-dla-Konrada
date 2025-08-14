@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 103,8 i 10.13-14.15-16.17-18",
-      "opis": "Refren:",
-      "tekst": "Zbawienie prawych pochodzi od Pana\nMiłosierny jest Pan i łaskawy,\nnieskory do gniewu i bardzo cierpliwy.\nNie postępuje z nami według naszych grzechów\nani według win naszych nam nie odpłaca.\nJak ojciec lituje się nad dziećmi,\ntak Pan się lituje nad tymi, którzy się Go boją.\nWie On, z czegośmy powstali,\npamięta, że jesteśmy prochem.\nDni człowieka są jak trawa,\nkwitnie jak kwiat na polu.\nWystarczy, że wiatr go muśnie, już znika\ni wszelki ślad po nim ginie.\nŁaska zaś Boga jest wieczna dla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem,\nnad wszystkimi, którzy strzegą Jego przymierza\ni pamiętają, by spełniać Jego przykazania."
+      "opis": "",
+      "tekst": "Refren:\nZbawienie prawych pochodzi od Pana\nMiłosierny jest Pan i łaskawy,\nnieskory do gniewu i bardzo cierpliwy.\nNie postępuje z nami według naszych grzechów\nani według win naszych nam nie odpłaca.\nJak ojciec lituje się nad dziećmi,\ntak Pan się lituje nad tymi, którzy się Go boją.\nWie On, z czegośmy powstali,\npamięta, że jesteśmy prochem.\nDni człowieka są jak trawa,\nkwitnie jak kwiat na polu.\nWystarczy, że wiatr go muśnie, już znika\ni wszelki ślad po nim ginie.\nŁaska zaś Boga jest wieczna dla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem,\nnad wszystkimi, którzy strzegą Jego przymierza\ni pamiętają, by spełniać Jego przykazania."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae' jest głęboką medytacją nad sądem ostatecznym i prośbą o miłosierdzie, co jest istotą Dnia Zadusznego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Psalm 'De profundis' jest klasyczną modlitwą za zmarłych, wyrażającą nadzieję na Boże miłosierdzie i odkupienie.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "652",
       "piesn": "U Ciebie, Boże",
       "opis": "Pieśń wyraża głęboką ufność w Boże miłosierdzie, co jest kluczowym tematem modlitwy za zmarłych w tym dniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "646",
+      "piesn": "Jezu, w Ogrojcu mdlejący",
+      "opis": "W tej pieśni łączymy cierpienia dusz w czyśćcu z męką Chrystusa, ofiarowując ją za zmarłych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "651",
+      "piesn": "Święty Boże, Święty mocny",
+      "opis": "Tradycyjna suplikacja jest żarliwą prośbą o ratunek dla dusz czyśćcowych przez Boże miłosierdzie.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "648",
+      "piesn": "Na Twoje słowo, Panie",
+      "opis": "Pieśń ta, wspominając wskrzeszenie Łazarza, wyraża wiarę w moc Chrystusa, który jest zmartwychwstaniem i życiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Eucharystii jest zadatkiem życia wiecznego, o które modlimy się dla naszych zmarłych.",
+      "moment": "komunia"
+    },
+    {
       "numer": "644",
       "piesn": "Dobry Jezu a nasz Panie",
       "opis": "Krótka, ale bardzo treściwa pieśń jest modlitwą o wieczny odpoczynek i światłość wieczną dla zmarłych.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "649",
+      "piesn": "Panie, daj zmarłym",
+      "opis": "Prosta i bezpośrednia prośba o wieczne spoczywanie dla zmarłych w królestwie Bożym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "650",
+      "piesn": "Racz wiekuiste",
+      "opis": "Jest to modlitwa o wieczny odpoczynek i oglądanie Bożego oblicza przez zmarłych.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "654",
       "piesn": "Wieczny odpoczynek",
       "opis": "Jest to najczęściej używana formuła modlitewna za zmarłych, doskonale nadająca się na zakończenie liturgii i procesji na cmentarz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "655",
+      "piesn": "Witaj, Królowo nieba",
+      "opis": "Antyfona 'Salve Regina' jest modlitwą do Matki Miłosierdzia, której zawierzamy naszych zmarłych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Inna wersja psalmu 'De profundis', która jest wołaniem o litość i odkupienie dla dusz zmarłych.",
       "moment": "rozeslanie"
     },
     {
@@ -81,6 +141,12 @@
       "numer": "650",
       "piesn": "Racz wiekuiste",
       "opis": "Błagalna pieśń prosząca o wieczne odpoczywanie dla zmarłych, podkreślająca wiarę w Boże miłosierdzie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Psalm 130 'Z głębokości wołam do Ciebie, Panie' jest jedną z najbardziej znanych modlitw za zmarłych.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426603.Sobota-XIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "13 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 9, 11-15",
+      "opis": "Zapowiedź powrotu Izraela z niewoli",
+      "tekst": "Tak mówi Pan:\n«W tym dniu podniosę szałas Dawidowy, który upada, zamuruję jego szczeliny, ruiny jego podźwignę i jak za dawnych dni go zbuduję, by posiedli resztę Edomu i wszystkie narody, nad którymi wzywano mojego imienia - mówi Pan, który to uczyni.\nOto nadejdą dni - mówi Pan - gdy będzie postępował żniwiarz zaraz za oraczem, a depczący winogrona za siejącym ziarno; z gór moszcz spływać będzie kroplami, a wszystkie pagórki będą w niego opływać. Uwolnię z niewoli lud mój izraelski - odbudują miasta zburzone i będą w nich mieszkać; zasadzą winnice i pić będą wino; założą ogrody i będą jedli z nich owoce. Zasadzę ich na ich ziemi, a nigdy nie będą wyrwani z ziemi, którą im dałem - mówi Pan, twój Bóg».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9. 11-12. 13-14 (R.: por. 9)",
+      "opis": "",
+      "tekst": "Refren: Pan głosi pokój swojemu ludowi.\nBędę słuchał tego, *\nco Pan Bóg mówi:\noto ogłasza pokój ludowi i swoim wyznawcom, *\nktórzy się zwracają ku Niemu swym sercem.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 14-17",
+      "opis": "Nie można stosować zwyczajów Starego Przymierza do Nowego",
+      "tekst": "Po powrocie Jezusa z krainy Gadareńczyków podeszli do Niego uczniowie Jana i zapytali: «Dlaczego my i faryzeusze dużo pościmy, Twoi zaś uczniowie nie poszczą?»\nJezus im rzekł: «Czy goście weselni mogą się smucić, dopóki pan młody jest z nimi? Lecz przyjdzie czas, kiedy zabiorą im pana młodego, a wtedy będą pościć.\nNikt nie przyszywa łaty z surowego sukna do starego ubrania, gdyż łata obrywa ubranie, i gorsze staje się przedarcie. Nie wlewają też młodego wina do starych bukłaków. W przeciwnym razie bukłaki pękają, wino wycieka, a bukłaki przepadają. Ale młode wino wlewają do nowych bukłaków, a tak jedno i drugie się zachowuje».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o pokój i jedność, które są owocem odnowy obiecanej przez proroka Amosa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który podnosi z upadku i odbudowuje, co jest głównym tematem proroctwa Amosa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do oddania czci Bogu, który obiecuje odnowę i błogosławieństwo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń eucharystyczna symbolizuje nowe przymierze, które Jezus, Pan Młody, zawiera ze swoim Kościołem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu chleb i wino, prosząc, by stały się one pokarmem na uczcie z Chrystusem, Oblubieńcem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "W tej pieśni ofiarnej prosimy Boga o przyjęcie darów, które staną się Ciałem i Krwią Pana Młodego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń o charakterze eucharystycznym nawiązuje do obrazu uczty weselnej z Ewangelii, na której Chrystus jest Panem Młodym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Obecność Pana Młodego w Eucharystii jest źródłem radości i życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta podkreśla miłość Chrystusa, Pana Młodego, który pozostaje z nami pod postacią chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to pieśń uwielbienia za dar pokoju i sprawiedliwości, które Bóg obiecuje w psalmie i pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Pana, który ogłasza pokój i obdarza szczęściem, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za obietnicę odnowy i za dar nowego przymierza w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Pieśń wielkanocna przypomina o nowości, którą przyniósł Chrystus, a o której mówi Ewangelia w przypowieści o nowym winie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Nowe życie w Chrystusie, o którym mówi Ewangelia, jest owocem Jego zwycięstwa nad śmiercią.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Zmartwychwstanie Chrystusa jest początkiem 'nowego wina', które napełnia Kościół.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Obietnica odnowy z pierwszego czytania jest wezwaniem do nawrócenia, które podejmuje ta pieśń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Wyraża wiarę w Bożą moc, która odbudowuje zburzone miasta i odnawia życie swojego ludu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża pragnienie nawrócenia i przyjęcia nowości, którą przynosi Chrystus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Nawiązuje do postu, o którym mowa w Ewangelii, jako czasie przygotowania na spotkanie z Panem.",
+      "moment": "ogolne"
+    }
+  ]
+}

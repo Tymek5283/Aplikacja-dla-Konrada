@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414682.Wtorek-32-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "32 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 2, 23 - 3, 9",
+      "opis": "Nieśmiertelność sprawiedliwych",
+      "tekst": "Do nieśmiertelności Bóg stworzył człowieka - uczynił go obrazem swej własnej wieczności. A śmierć weszła w świat przez zawiść diabła i doświadczają jej ci, którzy do niego należą.\nA dusze sprawiedliwych są w ręku Boga i nie dosięgnie ich męka. Zdało się oczom głupich, że pomarli, zgon ich poczytano za nieszczęście i odejście od nas za unicestwienie, a oni trwają w pokoju. Choć nawet w ludzkim rozumieniu doznali kaźni, nadzieja ich pełna jest nieśmiertelności. Po nieznacznym skarceniu dostąpią dóbr wielkich, Bóg ich bowiem doświadczył i znalazł ich godnymi siebie. Wypróbował ich jak złoto w tyglu i przyjął ich jak całopalną ofiarę. W dzień nawiedzenia ich przez Boga zajaśnieją i rozbiegną się jak iskry po ściernisku. Będą sądzić ludy, zapanują nad narodami, a Pan królować będzie nad nimi na wieki.\nCi, którzy Mu zaufali, zrozumieją prawdę, wierni w miłości będą przy Nim trwali, łaska bowiem i miłosierdzie dla Jego wybranych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 16-17. 18-19 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Po wieczne czasy będę chwalił Pana.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nOczy Pana zwrócone na sprawiedliwych, *\nuszy Jego otwarte na ich wołanie.\nPan zwraca swe oblicze przeciw zło czyniącym, *\nby pamięć o nich wymazać z ziemi.\nRefren.\nPan słyszy wołających o pomoc *\ni ratuje ich od wszelkiej udręki.\nPan jest blisko ludzi skruszonych w sercu, *\nocala upadłych na duchu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 7-10",
+      "opis": "Słudzy nieużyteczni jesteśmy",
+      "tekst": "Jezus powiedział:\n«Kto z was, mając sługę, który orze lub pasie, powie mu, gdy on wróci z pola: „Pójdź zaraz i siądź do stołu”? Czy nie powie mu raczej: „Przygotuj mi wieczerzę, przepasz się i usługuj mi, aż zjem i napiję się, a potem ty będziesz jadł i pił”? Czy okazuje wdzięczność słudze za to, że wykonał to, co mu polecono? Tak i wy, gdy uczynicie wszystko, co wam polecono, mówcie: „Słudzy nieużyteczni jesteśmy; wykonaliśmy to, co powinniśmy wykonać”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, co jest postawą sługi z Ewangelii, który wiernie wypełnia wolę swego pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o pokój dla Kościoła, w którym, jak uczy Ewangelia, jesteśmy sługami Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a służba Jemu, nawet 'nieużyteczna', jest naszym powołaniem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec słów Jezusa 'słudzy nieużyteczni jesteśmy', ta pieśń jest aktem pokornego ofiarowania Bogu całego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze trudy i cierpienia, wypełniając naszą służbę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń eucharystyczna, która przypomina, że to Bóg nas karmi i obdarza łaską, a my jesteśmy tylko Jego sługami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest nagrodą dla sprawiedliwych, o których mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest aktem wiary i zaufania Bogu, któremu służymy jako Jego dzieci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża pokorę sługi, który czuje się niegodny przyjąć Pana, ale z wiarą Go zaprasza do serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego, w którym wierny chwali Pana za Jego opiekę i wysłuchanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar życia wiecznego i nadzieję nieśmiertelności, o której mówi Księga Mądrości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny jest wyrazem radości z przynależności do Boga, któremu służymy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy mogli wiernie pełnić naszą służbę, tak jak słudzy z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Po liturgii prosimy Pana, aby nas prowadził w naszej codziennej służbie, którą mamy pełnić z pokorą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Jesteśmy posłani, by budować Bożą rodzinę na ziemi, pełniąc naszą służbę z miłością i pokorą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń o zmartwychwstaniu i nadziei na oglądanie Boga, co jest centralnym punktem pierwszego czytania o nieśmiertelności sprawiedliwych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opatrzność, która jest źródłem pokoju dla dusz sprawiedliwych, o których mówi Księga Mądrości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pierwsze czytanie mówi o sprawiedliwych, którzy trwają w pokoju, a ta pieśń rozwija temat błogosławieństw dla ubogich i cichych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę, która jest udziałem dusz sprawiedliwych, opisanych w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

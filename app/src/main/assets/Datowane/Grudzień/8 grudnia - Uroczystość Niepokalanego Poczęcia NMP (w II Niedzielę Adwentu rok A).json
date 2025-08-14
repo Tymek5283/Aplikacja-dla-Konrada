@@ -12,12 +12,12 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 98,1-4",
-      "opis": "Refren:",
-      "tekst": "Śpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
+      "opis": "",
+      "tekst": "Refren:\nŚpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
     },
     {
       "typ": "DRUGIE CZYTANIE",
-      "sigla": "Rz 15,4–9",
+      "sigla": "Rz 15,4-9",
       "opis": "Chrystus zbawia wszystkich ludzi",
       "tekst": "Bracia:\nTo, co niegdyś zostało napisane, napisane zostało dla naszego pouczenia, abyśmy dzięki cierpliwości i pociesze, jaką niosą Pisma, podtrzymywali nadzieję. A Bóg, który daje cierpliwość i pociechę, niech sprawi, abyście wzorem Chrystusa te same uczucia żywili do siebie i zgodnie jednymi ustami wielbili Boga i Ojca Pana naszego, Jezusa Chrystusa.\nDlatego przygarniajcie siebie nawzajem, bo i Chrystus przygarnął was ku chwale Boga. Mówię bowiem: Chrystus stał się sługą obrzezanych dla okazania wierności Boga i potwierdzenia przez to obietnic danych ojcom oraz po to, żeby poganie za okazane sobie miłosierdzie uwielbili Boga, jak napisano: \"Dlatego oddawać Ci będę cześć między poganami i śpiewać imieniu Twojemu”.\nOto słowo Boże."
     },
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Podkreśla wyjątkową godność Maryi, wolnej od grzechu i wybranej na Matkę Zbawiciela, co łączy się z czytaniami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "399",
+      "piesn": "Witaj, Święta i Niepokalana",
+      "opis": "Kolejna pieśń bezpośrednio związana z tajemnicą dnia, podkreślająca świętość i wyjątkowe wybranie Maryi.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "12",
       "piesn": "Archanioł Boży Gabryjel",
       "opis": "Ta pieśń adwentowa opisuje scenę Zwiastowania z Ewangelii, łącząc radość oczekiwania z tajemnicą Wcielenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia, która poprzez swoje 'tak' stała się Matką Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Zwiastowaniu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "29",
       "piesn": "Zdrowaś bądź Maryja",
       "opis": "Ta parafraza 'Pozdrowienia anielskiego' jest wyrazem czci dla Tej, która jest 'łaski pełna', co podkreśla Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "356",
-      "piesn": "Matko Niebieskiego Pana",
-      "opis": "Podkreśla wyjątkową godność Maryi, wolnej od grzechu i wybranej na Matkę Zbawiciela, co łączy się z czytaniami.",
-      "moment": "ogolne"
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Klasyczna pieśń adwentowa, która wyraża tęsknotę za Zbawicielem, przypominając, że Maryja jest Tą, która Go wydała światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "338",
       "piesn": "Gwiazdo zaranna",
       "opis": "Maryja jako Jutrzenka zapowiadająca przyjście Chrystusa-Słońca to piękny obraz łączący tematykę maryjną i adwentową.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Jest to hymn sławiący Niepokalanie Poczętą, który może być wykorzystany w różnych momentach liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa, która w kontekście uroczystości Niepokalanego Poczęcia przypomina o celu tego wydarzenia - przygotowaniu drogi dla Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, którego Matka została zachowana od grzechu pierworodnego.",
       "moment": "ogolne"
     }
   ]

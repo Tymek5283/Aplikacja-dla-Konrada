@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430570.Sobota-XVIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "18 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 6, 4-13",
+      "opis": "Wierność Bogu",
+      "tekst": "Mojżesz powiedział do ludu:\n«Słuchaj, Izraelu, Pan jest naszym Bogiem - Pan jedynym. Będziesz więc miłował Pana, Boga twojego, z całego swego serca, z całej duszy swojej, ze wszystkich swych sił. Pozostaną w twym sercu te słowa, które ja ci dziś nakazuję.\nWpoisz je twoim synom, będziesz o nich mówił, przebywając w domu, w czasie podróży, kładąc się spać i wstając ze snu. Przywiążesz je do twojej ręki jako znak. One ci będą ozdobą między oczami. Wypisz je na odrzwiach swojego domu i na twoich bramach.\nGdy Pan, Bóg twój, wprowadzi cię do ziemi, o której poprzysiągł przodkom twoim: Abrahamowi, Izaakowi i Jakubowi, że da tobie miasta wielkie i bogate, których nie budowałeś, domy pełne wszelkich dóbr, których nie zbierałeś, wykopane studnie, których nie kopałeś, winnice i gaje oliwne, których nie sadziłeś, kiedy będziesz jadł i  nasycisz się, strzeż się, byś nie zapomniał o Panu, który cię wyprowadził z ziemi egipskiej, z domu niewoli.\nBędziesz się bał Pana, Boga swego, będziesz Mu służył i na Jego imię będziesz przysięgał».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 18 (17), 2-3a. 3b-4. 47 i 51ab (R.: 2)",
+      "opis": "",
+      "tekst": "Refren: Miłuję Ciebie, Panie, Mocy moja.\nMiłuję Cię, Panie, *\nMocy moja,\nPanie, Opoko moja i Twierdzo, *\nmój Wybawicielu.\nRefren.\nBoże, Skało moja, na którą się chronię, *\nTarczo moja, Mocy zbawienia mego i moja Obrono.\nWzywam Pana, godnego chwały, *\ni wyzwolony będę od moich nieprzyjaciół.\nRefren.\nNiech żyje Pan, niech będzie błogosławiona moja Opoka, *\nniech będzie wywyższony mój Bóg i Zbawca.\nTy dałeś wielkie zwycięstwo królowi *\ni łaską obdarzyłeś Dawida, Twego pomazańca.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17, 14-20",
+      "opis": "Potęga wiary",
+      "tekst": "Pewien człowiek zbliżył się do Jezusa i padając przed Nim na kolana, prosił: «Panie, zlituj się nad moim synem! Jest epileptykiem i bardzo cierpi; bo często wpada w ogień, a często w wodę. Przyprowadziłem go do Twoich uczniów, lecz nie mogli go uzdrowić».\nNa to Jezus odrzekł: «O plemię niewierne i przewrotne! Jak długo jeszcze mam być z wami; jak długo mam was znosić? Przyprowadźcie Mi go tutaj!» Jezus rozkazał mu surowo, i zły duch opuścił go. Od owej pory chłopiec odzyskał zdrowie.\nWtedy uczniowie podeszli do Jezusa na osobności i zapytali: «Dlaczego my nie mogliśmy go wypędzić?» On zaś im rzekł: «Z powodu małej wiary waszej. Bo zaprawdę, powiadam wam: Jeśli będziecie mieć wiarę jak ziarnko gorczycy, powiecie tej górze: „Przesuń się stąd tam!”, a przesunie się. I nic nie będzie dla was niemożliwego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wierności Bogu, co jest głównym tematem pierwszego czytania z Księgi Powtórzonego Prawa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do służenia jedynemu Bogu, do czego wzywa Mojżesz w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały dla jedynego Boga, którego Izrael ma miłować z całego serca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Wyraża miłość do Boga 'z całego serca', do której wzywa Mojżesz, a która jest podstawą prawdziwej wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania się Bogu, co jest odpowiedzią na przykazanie miłości z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarujemy Bogu nasze serca, zobowiązując się do wierności Jego przykazaniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory i wiary w uzdrawiającą moc Jezusa, której zabrakło uczniom w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w moc Chrystusa, której tak bardzo potrzeba, by czynić cuda w Jego imię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża wiarę w przychodzącego Pana, który ma moc uzdrowić naszą małą wiarę i wszelkie słabości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który jest Mocą i Wybawicielem, co doskonale koresponduje z treścią psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która, jak obiecuje Jezus, czyni wszystko możliwym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który jest naszą Opoką i Mocą zbawienia, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Jest to pieśń o zaufaniu, które jest istotą wiary, zdolnej przenosić góry, o której mówi Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to bezpośrednia prośba o wzrost wiary, której brak Jezus zarzuca swoim uczniom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po usłyszeniu Słowa Bożego, prosimy o błogosławieństwo, by nasza wiara przynosiła owoce w codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o wierności przyrzeczeniom złożonym Bogu stanowi dobre podsumowanie wezwania do wierności z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zachęca do przyjścia do Jezusa z wiarą, tak jak uczynił to ojciec chorego chłopca, ufając w Jego moc.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wezwanie do miłości Boga z całego serca jest fundamentem przykazania miłości bliźniego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosta i bezpośrednia odpowiedź na pierwsze i najważniejsze przykazanie z Księgi Powtórzonego Prawa.",
+      "moment": "ogolne"
+    }
+  ]
+}

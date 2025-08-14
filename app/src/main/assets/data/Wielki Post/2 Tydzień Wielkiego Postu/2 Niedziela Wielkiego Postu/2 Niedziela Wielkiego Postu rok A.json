@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412879.II-Niedziela-Wielkiego-Postu-rok-A",
+  "tytul_dnia": "2 Niedziela Wielkiego Postu rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 12, 1-4a",
+      "opis": "Powołanie Abrahama na ojca Ludu Bożego",
+      "tekst": "Pan Bóg rzekł do Abrama: «Wyjdź z twojej ziemi rodzinnej i z domu twego ojca do kraju, który ci ukażę. Uczynię bowiem z ciebie wielki naród, będę ci błogosławił i twoje imię rozsławię: staniesz się błogosławieństwem. Będę błogosławił tym, którzy tobie błogosławić będą, a tym, którzy tobie będą złorzeczyli, i Ja będę złorzeczył. Przez ciebie będą otrzymywały błogosławieństwo ludy całej ziemi». Abram udał się w drogę, jak mu Pan rozkazał. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 4-5. 18-19. 20 i 22 (R.: por. 22)",
+      "opis": "",
+      "tekst": "Refren: Okaż swą łaskę ufającym Tobie.\nSłowo Pana jest prawe, *\n\na każde Jego dzieło godne zaufania.\n\nOn miłuje prawo i sprawiedliwość, *\n\nziemia jest pełna Jego łaski.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\n\nna tych, którzy oczekują Jego łaski,\n\naby ocalił ich życie od śmierci *\n\ni żywił ich w czasie głodu.\nRefren.\nDusza nasza oczekuje Pana, *\n\nOn jest naszą pomocą i tarczą.\n\nPanie, niech nas ogarnie Twoja łaska, *\n\nwedług nadziei pokładanej w Tobie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Tm 1, 8b-10",
+      "opis": "Bóg nas powołuje i oświeca",
+      "tekst": "Najdroższy:\n\nWeź udział w trudach i przeciwnościach znoszonych dla Ewangelii mocą Bożą! On nas wybawił i wezwał świętym powołaniem nie na podstawie naszych czynów, lecz stosownie do własnego postanowienia i łaski, która nam dana została w Chrystusie Jezusie przed wiecznymi czasami. Ukazana zaś została ona teraz przez pojawienie się naszego Zbawiciela, Chrystusa Jezusa, który zniweczył śmierć, a na życie i nieśmiertelność rzucił światło przez Ewangelię. Oto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 17, 5",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Z obłoku świetlanego odezwał się głos Ojca:\n\n«To jest mój Syn umiłowany, Jego słuchajcie»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17, 1-9",
+      "opis": "Czystość duszy zapewnia oglądanie chwały Boga",
+      "tekst": "Jezus wziął z sobą Piotra, Jakuba oraz brata jego, Jana, i zaprowadził ich na górę wysoką, osobno. Tam przemienił się wobec nich: twarz Jego zajaśniała jak słońce, odzienie zaś stało się białe jak światło. A oto ukazali się im Mojżesz i Eliasz, rozmawiający z Nim. Wtedy Piotr rzekł do Jezusa: «Panie, dobrze, że tu jesteśmy; jeśli chcesz, postawię tu trzy namioty: jeden dla Ciebie, jeden dla Mojżesza i jeden dla Eliasza». Gdy on jeszcze mówił, oto obłok świetlany osłonił ich, a z obłoku odezwał się głos: «To jest mój Syn umiłowany, w którym mam upodobanie, Jego słuchajcie!» Uczniowie, słysząc to, upadli na twarz i bardzo się zlękli. A Jezus zbliżył się do nich, dotknął ich i rzekł: «Wstańcie, nie lękajcie się!» Gdy podnieśli oczy, nikogo nie widzieli, tylko samego Jezusa. A gdy schodzili z góry, Jezus przykazał im, mówiąc: «Nie opowiadajcie nikomu o tym widzeniu, aż Syn Człowieczy zmartwychwstanie». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń ta wyraża postawę modlitwy i wstępowania na górę spotkania z Bogiem, co jest centralnym obrazem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest aktem wzniesienia duszy do Pana, podobnie jak Jezus zaprowadził uczniów na wysoką górę na modlitwę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Modlitwa o prowadzenie drogą prawdy jest odpowiedzią na głos Ojca z obłoku: 'Jego słuchajcie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę zaufania Bogu, podobną do zaufania Abrama z pierwszego czytania, który wyruszył w drogę posłuszny Panu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do słowa Pana, które było fundamentem wiary Abrama i jest wezwaniem dla nas.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest odpowiedzią na Boże wezwanie, jakiego doświadczył Abram.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "306",
+      "piesn": "Najsłodszy Jezu",
+      "opis": "Jest to pieśń bezpośrednio odnosząca się do tajemnicy Przemienienia Pańskiego, opisanej w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Przyjęcie Komunii jest najgłębszym zjednoczeniem z Chrystusem, którego chwałę uczniowie oglądali na górze Tabor.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, Syna Umiłowanego, którego mamy słuchać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Hymn ten jest uwielbieniem Chrystusa, którego chwała objawiła się na górze Tabor uczniom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą łaskę i wierność, o której mówi psalm, a której doświadczyli apostołowie na górze Przemienienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, którego chwała zajaśniała na twarzy Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Pieśń ta stanowi podsumowanie teologiczne wydarzenia Przemienienia i jest dobrym akcentem na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by schodzić z 'góry' i świadczyć o Chrystusie, który jest naszą drogą, prawdą i życiem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy umocnieni wizją chwały Chrystusa, potrafili znosić trudy dla Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Przemienienie jest zapowiedzią chwały Królestwa, do którego jesteśmy wezwani przez wiarę i nawrócenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Ogólna pieśń wielkopostna, która przypomina o pokutnym charakterze okresu, w którym wspominamy Przemienienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Pieśń ta łączy czas Wielkiego Postu z drogą Chrystusa, której ważnym etapem jest umocnienie uczniów przez Przemienienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalny charakter pieśni jest wyrazem postawy, która pozwala usłyszeć głos Ojca: 'Jego słuchajcie'.",
+      "moment": "ogolne"
+    }
+  ]
+}

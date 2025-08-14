@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414206.Czwartek-33-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "33 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 5, 1-10",
+      "opis": "Bóg wręcza Barankowi księgę przeznaczeń",
+      "tekst": "Ja, Jan, ujrzałem na prawej dłoni Zasiadającego na tronie księgę zapisaną wewnątrz i na odwrocie opieczętowaną siedmiu pieczęciami.\nI ujrzałem potężnego anioła, obwieszczającego głosem donośnym: «Kto godzien jest otworzyć księgę i złamać jej pieczęcie?» A nie mógł nikt - na niebie ani na ziemi, ani pod ziemią - otworzyć księgi ani na nią patrzeć. A ja bardzo płakałem, że nie znalazł się nikt godny, by księgę otworzyć ani na nią patrzeć.\nI mówi do mnie jeden ze Starców: «Przestań płakać! Oto zwyciężył Lew z pokolenia Judy, Odrośl Dawida, tak że otworzy księgę i siedem jej pieczęci».\nI ujrzałem między tronem z czterema Istotami żyjącymi a kręgiem Starców stojącego Baranka, jakby zabitego, a miał siedem rogów i siedmioro oczu, którymi jest siedem Duchów Boga wysłanych na całą ziemię. On poszedł i z prawicy Zasiadającego na tronie wziął księgę. A kiedy wziął księgę, cztery Istoty żyjące i dwudziestu czterech Starców upadło przed Barankiem, każdy mając harfę i złote czasze pełne kadzideł, którymi są modlitwy świętych. I taką nową pieśń śpiewają: «Godzien jesteś wziąć księgę i jej pieczęcie otworzyć, bo zostałeś zabity i krwią Twoją nabyłeś dla Boga ludzi z każdego pokolenia, języka, ludu i narodu, i uczyniłeś ich Bogu naszemu królestwem i kapłanami, a będą królować na ziemi».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 149, 1b-2. 3-4. 5-6a i 9b (R.: por. Ap 5, 10)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Tyś nas uczynił kapłanami Boga.\nŚpiewajcie Panu pieśń nową, *\ngłoście Jego chwałę w zgromadzeniu świętych.\nNiech się Izrael cieszy swoim Stwórcą, *\na synowie Syjonu radują swym Królem.\nRefren.\nNiech imię Jego czczą tańcem, *\nniech grają Mu na bębnie i cytrze.\nBo Pan swój lud miłuje, *\npokornych wieńczy zwycięstwem.\nRefren.\nNiech święci cieszą się w chwale, *\nniech się weselą przy uczcie niebieskiej.\nChwała Boża niech będzie w ich ustach; *\nto jest chwałą wszystkich Jego świętych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 19, 41-44",
+      "opis": "Zapowiedź zburzenia Jerozolimy",
+      "tekst": "Gdy Jezus był już blisko Jerozolimy, na widok miasta zapłakał nad nim i rzekł: «O gdybyś i ty poznało w ten dzień to, co służy pokojowi! Ale teraz zostało to zakryte przed twoimi oczami.\nBo przyjdą na ciebie dni, gdy twoi nieprzyjaciele otoczą cię wałem, oblegną cię i ścisną zewsząd. Powalą na ziemię ciebie i twoje dzieci z tobą, a nie zostawią w tobie kamienia na kamieniu za to, żeś nie rozpoznało czasu twojego nawiedzenia».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Pieśń jest aktem adoracji Boga, na wzór Starców z Apokalipsy, którzy upadają przed Barankiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały, który wzywa do przyłączenia się do chórów niebieskich, oddających cześć Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Boga, co jest głównym motywem niebiańskiej liturgii z Apokalipsy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "W tej pieśni pozdrawiamy Baranka Bożego ukrytego w Hostii, Tego, który w pierwszym czytaniu jest godzien otworzyć zapieczętowaną księgę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, łącząc się z uwielbieniem aniołów i świętych z Apokalipsy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Akt adoracji i ofiarowania serc Bogu ukrytemu w Sakramencie, na wzór Starców oddających pokłon Barankowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń nazywa Jezusa w Eucharystii 'Bożym Barankiem', co bezpośrednio nawiązuje do wizji z Apokalipsy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości Jezusa w Eucharystii, który jako Baranek został zabity i swoją Krwią nas odkupił.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń jest aktem pokłonu Bogu prawdziwemu, ukrytemu w Sakramencie, na wzór adoracji Baranka w niebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Dziękczynienie za to, że Baranek uczynił nas 'królestwem i kapłanami', co jest treścią nowej pieśni śpiewanej w niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest echem 'nowej pieśni' śpiewanej Barankowi przez wszystkie narody w Apokalipsie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa cały świat do radosnego śpiewu na cześć Pana, podobnie jak czynią to zbawieni w wizji niebiańskiej liturgii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wobec płaczu Jezusa nad Jerozolimą, która nie rozpoznała czasu nawiedzenia, ta pieśń jest wezwaniem do nawrócenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na lament Jezusa i zachętą, byśmy rozpoznali czas naszego nawiedzenia i wrócili do Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię jest odpowiedzią na płacz Jezusa nad Jerozolimą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa cały świat do radosnego śpiewu na cześć Pana, podobnie jak czynią to zbawieni w wizji niebiańskiej liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest echem 'nowej pieśni' śpiewanej Barankowi przez wszystkie narody w Apokalipsie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "W obliczu sądu nad Jerozolimą, prosimy o Boże miłosierdzie i odpuszczenie grzechów, abyśmy nie podzielili jej losu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Błagalna suplikacja, która jest wyrazem skruchy w obliczu zapowiedzi zniszczenia Jerozolimy z powodu jej niewierności.",
+      "moment": "ogolne"
+    }
+  ]
+}

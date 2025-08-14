@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 148,1-2.11-13a.13c-14",
-      "opis": "Refren:",
-      "tekst": "Chłopcy i dziewczęta, chwalcie imię Pana.\nChwalcie Pana z niebios,\nchwalcie Go na wysokościach.\nChwalcie Go, wszyscy Jego aniołowie,\nchwalcie Go, wszystkie Jego zastępy.\nKrólowie ziemscy i wszystkie narody,\nwładcy i wszyscy sędziowie tej ziemi,\nMłodzieńcy i dziewczęta,\nstarcy i dzieci\nniech imię Pana wychwalają.\nMajestat Jego ponad ziemią i niebem\ni On pomnaża potęgę swego ludu.\nOto pieśń pochwalna wszystkich Jego świętych,\nsynów Izraela, ludu, który jest Mu bliski."
+      "opis": "",
+      "tekst": "Refren:\nChłopcy i dziewczęta, chwalcie imię Pana.\nChwalcie Pana z niebios,\nchwalcie Go na wysokościach.\nChwalcie Go, wszyscy Jego aniołowie,\nchwalcie Go, wszystkie Jego zastępy.\nKrólowie ziemscy i wszystkie narody,\nwładcy i wszyscy sędziowie tej ziemi,\nMłodzieńcy i dziewczęta,\nstarcy i dzieci\nniech imię Pana wychwalają.\nMajestat Jego ponad ziemią i niebem\ni On pomnaża potęgę swego ludu.\nOto pieśń pochwalna wszystkich Jego świętych,\nsynów Izraela, ludu, który jest Mu bliski."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "473",
+      "piesn": "Serc tysiąc wita cię",
+      "opis": "Chociaż pieśń jest do św. Alojzego, to jako patrona młodzieży, jej treść o czystości i niewinności doskonale pasuje do postaci św. Stanisława.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta oddaje ducha życia św. Stanisława, który od młodości szukał Boga i Jego woli ponad wszystko.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "519",
       "piesn": "Aniele ziemski bez winy",
       "opis": "Podkreśla czystość i niewinność św. Stanisława, o której mówi aklamacja 'Błogosławieni czystego serca', co dobrze pasuje na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta wyraża postawę całkowitego oddania się Bogu, która charakteryzowała św. Stanisława i jego ucieczkę do zakonu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania dziecięcego serca, która doskonale oddaje ducha młodego świętego.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń wyraża gorące pragnienie zjednoczenia z Jezusem, które było siłą napędową życia św. Stanisława.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Radosne oczekiwanie na przyjście Jezusa w Komunii Świętej odzwierciedla żarliwą miłość eucharystyczną patrona młodzieży.",
+      "moment": "komunia"
+    },
+    {
       "numer": "632",
       "piesn": "Wszystko Tobie oddać pragnę",
       "opis": "Pieśń wyraża młodzieńczy zapał i pragnienie oddania się Bogu, co doskonale charakteryzuje postawę Stanisława Kostki.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia, która jest wyrazem wdzięczności za dar życia i świętości, jakim Bóg obdarzył Stanisława.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar łask, które pozwoliły młodemu Stanisławowi osiągnąć tak wielką świętość w tak krótkim czasie.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "347",
       "piesn": "Maryjo, coś jest w niebie",
       "opis": "Św. Stanisław był wielkim czcicielem Maryi, dlatego maryjna pieśń o charakterze ślubowania i prośby o czystość jest odpowiednia na rozesłanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Jako patron młodzieży, św. Józef jest dobrym orędownikiem na zakończenie Mszy w dniu święta innego patrona młodych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w codziennych trudach i pracy, by na wzór św. Stanisława wszystko czynić na chwałę Bożą.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "582",
       "piesn": "O dobry Jezu",
       "opis": "Pieśń mówi o pójściu za głosem powołania, co św. Stanisław uczynił z wielką determinacją, wbrew woli rodziców.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo dla czystego serca i pragnących sprawiedliwości w pełni odnosi się do postaci św. Stanisława Kostki.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "325",
+      "piesn": "Chcę, Maryjo, służyć Tobie",
+      "opis": "Wyraża pragnienie służby Maryi, co było cechą charakterystyczną duchowości św. Stanisława, który pragnął wstąpić do zakonu poświęconego Jej Synowi.",
       "moment": "ogolne"
     }
   ]

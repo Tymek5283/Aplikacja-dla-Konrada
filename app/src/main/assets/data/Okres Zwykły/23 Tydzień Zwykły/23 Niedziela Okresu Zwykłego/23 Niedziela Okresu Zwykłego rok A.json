@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424676.23-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "23 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 33, 7-9",
+      "opis": "Obowiązek upominania",
+      "tekst": "Tak mówi Pan:\n«Ciebie, o synu człowieczy, wyznaczyłem na stróża domu Izraela po to, byś słysząc z mych ust napomnienia, przestrzegał ich w moim imieniu. Jeśli do występnego powiem: Występny musi umrzeć - a ty nic nie mówisz, by występnego sprowadzić z jego drogi - to on umrze z powodu swej przewiny, ale odpowiedzialnością za jego śmierć obarczę ciebie. Jeśli jednak ostrzegłeś występnego, by odstąpił od swojej drogi i zawrócił, on jednak nie odstępuje od swojej drogi, to on umrze z własnej winy, ty zaś ocaliłeś swoją duszę».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 1-2. 6-7c. 7d-9 (R.: por. 7d-8a)",
+      "opis": "",
+      "tekst": "Refren: Słysząc głos Pana, serc nie zatwardzajcie.\nPrzyjdźcie, radośnie śpiewajmy Panu, *\nwznośmy okrzyki ku chwale Opoki naszego zbawienia.\nStańmy przed obliczem Jego z uwielbieniem, *\nz weselem śpiewajmy Mu pieśni.\nRefren.\nPrzyjdźcie, uwielbiajmy Go, padając na twarze, *\nklęknijmy przed Panem, który nas stworzył.\nAlbowiem On jest naszym Bogiem, *\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren.\nObyście dzisiaj usłyszeli głos Jego: †\n«Niech nie twardnieją wasze serca jak w Meriba, *\njak na pustyni w dniu Massa,\ngdzie Mnie kusili wasi ojcowie, *\ndoświadczali Mnie, choć widzieli moje dzieła».\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 13, 8-10",
+      "opis": "Miłość jest wypełnieniem Prawa",
+      "tekst": "Bracia:\nNikomu nie bądźcie nic dłużni poza wzajemną miłością. Kto bowiem miłuje drugiego, wypełnił Prawo. Albowiem przykazania: «Nie cudzołóż, nie zabijaj, nie kradnij, nie pożądaj» i wszystkie inne - streszczają się w tym nakazie: «Miłuj bliźniego swego jak siebie samego!» Miłość nie wyrządza zła bliźniemu. Przeto miłość jest doskonałym wypełnieniem Prawa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18, 15-20",
+      "opis": "Upomnienie braterskie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Gdy brat twój zgrzeszy przeciw tobie, idź i upomnij go w cztery oczy. Jeśli cię usłucha, pozyskasz swego brata.\nJeśli zaś nie usłucha, weź z sobą jeszcze jednego albo dwóch, żeby na słowie dwóch albo trzech świadków oparła się cała sprawa. Jeśli i tych nie usłucha, donieś Kościołowi. A jeśli nawet Kościoła nie usłucha, niech ci będzie jak poganin i celnik.\nZaprawdę, powiadam wam: Wszystko, cokolwiek zwiążecie na ziemi, będzie związane w niebie, a co rozwiążecie na ziemi, będzie rozwiązane w niebie.\nDalej, zaprawdę, powiadam wam: Jeśli dwóch z was na ziemi zgodnie o coś prosić będzie, to wszystko otrzymają od mojego Ojca, który jest w niebie. Bo gdzie są dwaj albo trzej zebrani w imię moje, tam jestem pośród nich».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta idealnie wprowadza w tematykę dnia, podkreślając, że miłość i dobroć są fundamentem wspólnoty, w której obecny jest Bóg.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń bezpośrednio nawiązuje do drugiego czytania, które mówi, że miłość jest wypełnieniem całego Prawa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność, która jest celem upomnienia braterskiego - by 'pozyskać swego brata'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta wzywa do czynów miłosierdzia i wzajemnego wybaczania, co jest praktycznym zastosowaniem nauki o upomnieniu braterskim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruchy i postanowienia poprawy, co jest warunkiem owocnego upomnienia braterskiego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa o odpuszczenie grzechów jest fundamentem, który uzdalnia nas do miłości i przebaczenia bliźnim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w jedno Ciało, co jest podstawą do wzajemnej troski i upomnienia braterskiego, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą, która gromadzi nas jako jedną rodzinę, wezwaną do wzajemnej miłości i odpowiedzialności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Przyjęcie Komunii jest zjednoczeniem z Chrystusem, który jest pośród nas, gdy gromadzimy się w Jego imię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni jest odpowiedzią na wezwanie psalmu 'radośnie śpiewajmy Panu' i wyraża radość z obecności Boga we wspólnocie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, który jest naszym Stwórcą i Pasterzem, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia jest odpowiedzią na wezwanie psalmu do radosnego śpiewania Panu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła jest konkretnym sposobem realizacji troski o wspólnotę, do której wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud budowania wspólnoty w miłości i prawdzie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, ucząc się od Niego, jak budować wspólnotę opartą na miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest pierwszym krokiem do przyjęcia postawy miłości i odpowiedzialności za braci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, które są warunkiem życia we wspólnocie Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą o Boże prowadzenie, abyśmy umieli z miłością upominać naszych braci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Jako lud Boży jesteśmy wezwani do wzajemnej troski i odpowiedzialności za siebie nawzajem.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 63,2.3-4.5-6.8-9",
-      "opis": "Refren:",
-      "tekst": "Ciebie, mój Boże, pragnie moja dusza.\nBoże mój, Boże, szukam Ciebie\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą,\njak ziemia zeschła i łaknąca wody.\nOto wpatruję się w Ciebie w świątyni,\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia,\nwięc sławić Cię będą moje wargi.\nBędę Cię wielbił przez całe me życie\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie,\na usta Cię wielbią radosnymi wargami.\nBo stałeś się dla mnie pomocą\ni w cieniu Twych skrzydeł wołam radośnie:\nDo Ciebie lgnie moja dusza,\nprawica Twoja mnie wspiera."
+      "opis": "",
+      "tekst": "Refren:\nCiebie, mój Boże, pragnie moja dusza.\nBoże mój, Boże, szukam Ciebie\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą,\njak ziemia zeschła i łaknąca wody.\nOto wpatruję się w Ciebie w świątyni,\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia,\nwięc sławić Cię będą moje wargi.\nBędę Cię wielbił przez całe me życie\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie,\na usta Cię wielbią radosnymi wargami.\nBo stałeś się dla mnie pomocą\ni w cieniu Twych skrzydeł wołam radośnie:\nDo Ciebie lgnie moja dusza,\nprawica Twoja mnie wspiera."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta głosi prawdę o Zmartwychwstaniu, której pierwszym świadkiem i głosicielką była właśnie Maria Magdalena.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosne Alleluja podkreśla misję Marii Magdaleny, apostołki apostołów, która ogłosiła im 'Widziałam Pana!'.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "588",
       "piesn": "Boże, jesteś moim Bogiem",
       "opis": "Słowa psalmu responsoryjnego 'Ciebie, mój Boże, pragnie moja dusza' idealnie oddają postawę Marii Magdaleny szukającej Pana przy grobie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc i światło, podobnym do poszukiwania Pana przez Marię Magdalenę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o całkowitym oddaniu się Jezusowi, co odzwierciedla miłość Marii Magdaleny do Mistrza.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń wyraża osobistą wiarę i miłość do Chrystusa, podobną do tej, którą Maria Magdalena wyznała, rozpoznając Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która wyraża wiarę w obecność Pana, którego Maria Magdalena spotkała jako pierwsza po Zmartwychwstaniu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "185",
       "piesn": "Niech w radosne święto",
       "opis": "Sekwencja wielkanocna zawiera dialog z Marią Magdaleną ('Powiedz nam Maryjo, coś w drodze widziała?'), co czyni ją idealną pieśnią dziękczynną.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "177",
-      "piesn": "Alleluja, żyje Pan",
+      "numer": "186",
+      "piesn": "Niech w święto radosne",
+      "opis": "Inna wersja sekwencji wielkanocnej, która również bezpośrednio odnosi się do świadectwa Marii Magdaleny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń o Zmartwychwstaniu, którego nowinę jako pierwsza usłyszała i poniosła dalej Maria Magdalena.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "188",
+      "piesn": "Otrzyjcie już łzy",
       "opis": "Radosne Alleluja na zakończenie podkreśla misję Marii Magdaleny, apostołki apostołów, która ogłosiła im 'Widziałam Pana!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa nad śmiercią, co jest centralnym orędziem, które Maria Magdalena zaniosła apostołom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o Zwycięzcy śmierci, którego Maria Magdalena spotkała jako pierwsza, jest dobrym podsumowaniem i posłaniem.",
       "moment": "rozeslanie"
     },
     {
@@ -66,9 +126,21 @@
       "moment": "ogolne"
     },
     {
-      "numer": "197",
-      "piesn": "Zmartwychpowstał Pan prawdziwie",
-      "opis": "Pieśń ta głosi prawdę o Zmartwychwstaniu, której pierwszym świadkiem i głosicielką była właśnie Maria Magdalena.",
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o odkupieńczej śmierci Chrystusa, której świadkiem była wiernie stojąca pod krzyżem Maria Magdalena.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna, która wyraża wiarę w Zmartwychwstanie, ogłoszone po raz pierwszy przez Marię Magdalenę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Tradycyjna pieśń wielkanocna, która wprost wspomina o trzech Mariach idących do grobu.",
       "moment": "ogolne"
     }
   ]

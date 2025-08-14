@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413105.Sobota-w-Oktawie-Wielkanocy",
+  "tytul_dnia": "Sobota w Oktawie Wielkanocy",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 4, 13-21",
+      "opis": "Nie możemy nie mówić tego, co widzieliśmy",
+      "tekst": "Przełożeni i starsi, i uczeni, widząc odwagę Piotra i Jana, a dowiedziawszy się, że są oni ludźmi nieuczonymi i prostymi, dziwili się. Rozpoznawali w nich też towarzyszy Jezusa. A widząc nadto, że stoi z nimi uzdrowiony człowiek, nie znajdowali odpowiedzi. Kazali więc im wyjść z sali Sanhedrynu i naradzali się między sobą: «Co mamy zrobić z tymi ludźmi? Bo dokonali jawnego znaku, oczywistego dla wszystkich mieszkańców Jeruzalem. Przecież temu nie możemy zaprzeczyć. Aby jednak nie szerzyło się to wśród ludu, surowo zabrońmy im przemawiać do kogokolwiek w to imię!» Przywołali ich potem i zakazali im w ogóle przemawiać i nauczać w imię Jezusa. Lecz Piotr i Jan odpowiedzieli: «Rozsądźcie, czy słuszne jest w oczach Bożych bardziej słuchać was niż Boga? Bo my nie możemy nie mówić tego, co widzieliśmy i słyszeliśmy». Oni zaś ponowili groźby, a nie znajdując żadnej podstawy do wymierzenia im kary, wypuścili ich ze względu na lud, bo wszyscy wielbili Boga z powodu tego, co się stało. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 118 (117), 1bc i 14-15b. 16-18. 19-21 (R.: por. 21a)",
+      "opis": "",
+      "tekst": "Refren: Dziękuję, Panie, że mnie wysłuchałeś.\n\nalbo: Alleluja.\nDziękujcie Panu, bo jest dobry, *\n\nbo Jego łaska trwa na wieki.\n\nPan moją mocą i pieśnią, †\n\nOn stał się moim Zbawcą. *\n\nGłosy radości z ocalenia w namiotach sprawiedliwych.\nRefren.\nPrawica Pana wzniesiona wysoko, *\n\nprawica Pańska moc okazała.\n\nNie umrę, ale żyć będę i głosić dzieła Pana. *\n\nCiężko mnie Pan ukarał, ale na śmierć nie wydał.\nRefren.\nOtwórzcie mi bramy sprawiedliwości, †\n\nwejdę przez nie i podziękuję Panu. *\n\nOto jest brama Pana, przez nią wejdą sprawiedliwi.\n\nDziękuję Tobie, że mnie wysłuchałeś *\n\ni stałeś się moim Zbawcą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 118 (117), 24",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto dzień, który Pan uczynił,\n\nradujmy się nim i weselmy."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 16, 9-15",
+      "opis": "Idźcie na cały świat i głoście Ewangelię",
+      "tekst": "Po swym zmartwychwstaniu, wczesnym rankiem w pierwszy dzień tygodnia, Jezus ukazał się najpierw Marii Magdalenie, z której przedtem wyrzucił siedem złych duchów. Ona poszła i oznajmiła to Jego towarzyszom, pogrążonym w smutku i płaczącym. Ci jednak, słysząc, że żyje i że ona Go widziała, nie dali temu wiary. Potem ukazał się w innej postaci dwom spośród nich na drodze, gdy szli do wsi. Oni powrócili i obwieścili pozostałym. Lecz im też nie uwierzyli. W końcu ukazał się samym Jedenastu, gdy siedzieli za stołem, i wyrzucał im brak wiary oraz upór, że nie wierzyli tym, którzy widzieli Go zmartwychwstałego. I rzekł do nich: «Idźcie na cały świat i głoście Ewangelię wszelkiemu stworzeniu!» Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z dzisiejszej Ewangelii, w której Jezus posyła uczniów z misją głoszenia Dobrej Nowiny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój spotkania uczniów ze Zmartwychwstałym Panem i ich posłania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, który posyła swoich uczniów na cały świat.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Pieśń ta, mówiąc o ofierze Chrystusa, podkreśla treść przepowiadania apostołów, którzy nie mogą milczeć o tym, co widzieli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do Kościoła, który jest posłany przez Chrystusa, aby głosić Ewangelię wszelkiemu stworzeniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Utwór ten mówi o kapłaństwie i posłudze sakramentalnej, przez którą Chrystus kontynuuje swoją misję w Kościele.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wyraża istotę Ewangelii, którą uczniowie mają głosić na całym świecie, a która jest źródłem ich odwagi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "W Komunii Świętej przyjmujemy Zmartwychwstałego Pana, który posyła nas, byśmy głosili Dobrą Nowinę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym spotkaniem ze Zmartwychwstałym, który daje nam siłę do misji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Utwór podkreśla królewską godność Zmartwychwstałego Chrystusa, który posyła apostołów jako swoich wysłanników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie mają głosić wszystkim narodom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Wyraża wielkanocną radość, która ma być głoszona na cały świat, zgodnie z nakazem Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, które jest fundamentem odwagi apostołów opisanej w Dziejach Apostolskich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by głosić Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o nowym życiu i świetle, które przynosi Ewangelia, głoszona wszelkiemu stworzeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "185",
+      "piesn": "Niech w radosne święto",
+      "opis": "Sekwencja wielkanocna, którą można śpiewać przez całą oktawę, streszcza tajemnicę paschalną, będącą treścią apostolskiego przepowiadania.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest centralnym punktem nauczania apostołów.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem misji Kościoła.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który posyła swoich uczniów, aby Go głosili.",
+      "moment": "ogólne"
+    }
+  ]
+}

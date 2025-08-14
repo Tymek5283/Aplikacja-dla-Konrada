@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415540.Sobota-IV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "4 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 3, 4-13",
+      "opis": "Bóg wysłuchuje prośby Salomona",
+      "tekst": "Król Salomon udał się do Gibeonu, aby tam złożyć ofiarę, bo była tam wielka wyżyna. Salomon złożył na owym ołtarzu tysiąc ofiar całopalnych. W Gibeonie Pan ukazał się Salomonowi w nocy, we śnie. Wtedy Bóg rzekł: «Proś o to, co mam ci dać».\nA Salomon odrzekł: «Ty okazywałeś Twemu słudze, Dawidowi, memu ojcu, wielką łaskę, bo postępował wobec Ciebie szczerze, sprawiedliwie i w prostocie serca. Ponadto zachowałeś dla niego tę wielką łaskę, że dałeś mu syna zasiadającego na jego tronie po dziś dzień. Teraz więc, o Panie, Boże mój, Ty ustanowiłeś królem Twego sługę w miejsce Dawida, mego ojca, a ja jestem bardzo młody i nie umiem rządzić. Ponadto Twój sługa jest pośród Twego ludu, który wybrałeś, ludu mnogiego, którego nie da się zliczyć ani też spisać z powodu jego mnóstwa. Racz więc dać Twemu słudze serce rozumne do sądzenia Twego ludu i rozróżniania dobra od zła, bo któż zdoła sądzić ten lud Twój tak liczny?»\nSpodobało się Panu, że właśnie o to Salomon poprosił. Bóg więc mu powiedział: «Ponieważ poprosiłeś o to, a nie poprosiłeś dla siebie o długie życie ani też o bogactwa, i nie poprosiłeś o zgubę twoich nieprzyjaciół, ale prosiłeś dla siebie o umiejętność rozstrzygania spraw sądowych, oto spełniam twoje pragnienie i daję ci serce mądre i pojętne, takie, że podobnego tobie przed tobą nie było i po tobie nie będzie. I choć nie prosiłeś, daję ci ponadto bogactwo i sławę, tak iż za twoich dni podobnego tobie nie będzie wśród królów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 9-10. 11-12. 13-14 (R.: por. 12b)",
+      "opis": "",
+      "tekst": "Refren: Naucz mnie, Panie, mądrych ustaw swoich.\nJak zachowa młodzieniec swoją drogę w czystości? *\nPrzestrzegając słów Twoich, Panie.\nZ całego serca swego szukam Ciebie, *\nnie daj mi odejść od Twoich przykazań.\nRefren.\nW sercu swoim zachowuję Twe słowa, *\naby nie zgrzeszyć przeciw Tobie.\nBłogosławiony jesteś, Panie, *\nnaucz mnie swoich ustaw.\nRefren.\nOpowiadam moimi wargami *\nwszystkie wyroki ust Twoich.\nWięcej się cieszę z drogi wskazanej\nprzez Twe napomnienia *\nniż z wszelkiego bogactwa.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 30-34",
+      "opis": "Jezus lituje się nad tłumem",
+      "tekst": "Apostołowie zebrali się u Jezusa i opowiedzieli Mu wszystko, co zdziałali i czego nauczali. A On rzekł do nich: «Pójdźcie wy sami osobno na pustkowie i wypocznijcie nieco». Tak wielu bowiem przychodziło i odchodziło, że nawet na posiłek nie mieli czasu.\nOdpłynęli więc łodzią na pustkowie, osobno. Lecz widziano ich odpływających. Wielu zauważyło to i zbiegli się tam pieszo ze wszystkich miast, a nawet ich wyprzedzili. Gdy Jezus wysiadł, ujrzał wielki tłum. Zlitował się nad nimi, byli bowiem jak owce nie mające pasterza. I zaczął ich nauczać o wielu sprawach.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta łączy się z Ewangelią o Jezusie, Dobrym Pasterzu, litującym się nad tłumem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się przed Panem, którego mądrości szukał Salomon i którego szukały tłumy w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "430",
+      "piesn": "Nauczycielu wieczny i łaskawy",
+      "opis": "Pieśń jest modlitwą do wiecznego Nauczyciela o mądrość, która jest głównym tematem pierwszego czytania o Salomonie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych serc, prosząc o mądrość, o którą modlił się Salomon.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Składamy nasze serca na ołtarzu, prosząc Boga, aby napełnił je mądrością, tak jak uczynił to w przypadku Salomona.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "272",
+      "piesn": "Rzućmy się wszyscy",
+      "opis": "Hymn ten wyraża adorację ukrytego Boga, któremu w ofierze składamy samych siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Podkreśla troskę Dobrego Pasterza o swoje owce, które karmi swoim Ciałem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, Dobry Pasterz, karmi głodny tłum swoją nauką, zapowiadając Eucharystię, która nasyca najgłębszy głód serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń odnosi się bezpośrednio do Jezusa jako chleba życia, ostatecznego pokarmu dla ludu, który szedł za Nim jak za pasterzem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Pieśń jest prośbą o dar mądrości, którego Bóg w obfitości udzielił Salomonowi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to hymn pochwalny na cześć Stwórcy za Jego mądrość i hojność, które są głównymi tematami historii Salomona.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to osobista pieśń dziękczynna za Boże przewodnictwo, odzwierciedlająca wdzięczność za dar Jezusa, naszego Pasterza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostołowie, wracający z misji, są posłani przez Dobrego Pasterza, by nauczać i prowadzić lud do zbawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po wysłuchaniu nauki Dobrego Pasterza, jesteśmy posłani w świat, by wykonywać naszą pracę, prosząc o Boże błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, kontynuując dzieło apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Pieśń ta jest modlitwą o pasterzy dla ludu, który jest jak owce nie mające pasterza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Dobrego Pasterza, który prowadzi nas po właściwych ścieżkach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń ta odzwierciedla Bożą wszechwiedzę i opatrzność, nawiązując do prośby Salomona o mądrość i roli Jezusa jako wszechwiedzącego Pasterza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Wyraża tęsknotę duszy za Bogiem, podobnie jak tłumy z Ewangelii poszukiwały Jezusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

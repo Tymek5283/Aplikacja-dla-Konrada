@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424669.Piatek-23-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "23 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 1, 1-2. 12-14",
+      "opis": "Pozdrowienie i dziękczynienie Pawła za nawrócenie",
+      "tekst": "Paweł, apostoł Chrystusa Jezusa według nakazu Boga naszego, Zbawiciela, i Chrystusa Jezusa, naszej nadziei - do Tymoteusza, swego prawowitego dziecka w wierze. Łaska, miłosierdzie, pokój od Boga Ojca i Chrystusa Jezusa, naszego Pana.\nDzięki składam Temu, który mnie umocnił, Chrystusowi Jezusowi, naszemu Panu, że uznał mnie za godnego wiary, skoro przeznaczył do posługi sobie mnie, dawniej bluźniercę, prześladowcę i oszczercę. Dostąpiłem jednak miłosierdzia, ponieważ działałem z nieświadomością, w niewierze.\nA nad miarę obfita okazała się łaska naszego Pana, wraz z wiarą i miłością, która jest w Chrystusie Jezusie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16 (15), 1b-2a i 5. 7-8. 11 (R.: por. 5a)",
+      "opis": "",
+      "tekst": "Refren: Pan mym dziedzictwem, moim przeznaczeniem.\nZachowaj mnie, Boże, bo chronię się do Ciebie, *\nmówię do Pana: «Ty jesteś Panem moim».\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nRefren.\nBłogosławię Pana, który dał mi rozsądek, *\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\nRefren.\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 39-42",
+      "opis": "Czy może niewidomy prowadzić niewidomego?",
+      "tekst": "Jezus opowiedział uczniom przypowieść:\n« Czy nie wpadną w dół obydwaj? Uczeń nie przewyższa nauczyciela. Lecz każdy, dopiero w pełni wykształcony, będzie jak jego nauczyciel.\nCzemu to widzisz drzazgę w oku swego brata, a nie dostrzegasz belki we własnym oku? Jak możesz mówić swemu bratu: „Bracie, pozwól, że usunę drzazgę, która jest w twoim oku”, podczas gdy sam belki w swoim oku nie widzisz? Obłudniku, usuń najpierw belkę ze swego oka, a wtedy przejrzysz, ażeby usunąć drzazgę z oka brata swego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu dobrze oddaje ducha świadectwa św. Pawła, który z prześladowcy stał się apostołem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn na cześć Bożego miłosierdzia, którego w sposób szczególny doświadczył św. Paweł, dawny prześladowca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest odpowiedzią na łaskę miłosierdzia, o której mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruchy i żalu, która jest pierwszym krokiem do tego, by móc usuwać 'drzazgę' z oka brata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna jest wyrazem uznania własnej grzeszności, co jest konieczne, by unikać postawy obłudnego sędziego z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o miłosierdzie i oczyszczenie jest warunkiem, by móc z czystym sercem upominać brata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i oczyszczenie, co jest warunkiem owocnego przyjęcia Komunii i życia w prawdzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory wyrażona w pieśni jest przeciwieństwem obłudy, przed którą przestrzega Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, który jest naszym Nauczycielem i wzorem życia bez obłudy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest dziękczynieniem za 'bezmiar niezliczonych łask', o których świadczy św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Dziękczynienie za dar Chrystusa, który przyszedł zbawić grzeszników, jest odpowiedzią na pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności jest odpowiedzią na Boże miłosierdzie, które, jak mówi św. Paweł, obficie się w nas okazało.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi ta pieśń, jest cnotą, która pozwala przezwyciężyć obłudę i osądzanie braci, przed czym przestrzega Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, naszym Nauczycielem, ucząc się od Niego prawdy i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud świadczenia o Chrystusie, na wzór św. Pawła, który stał się sługą Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest konieczne, aby móc z czystym sercem patrzeć na brata i pomagać mu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, który jest naszym dziedzictwem, jak wyznaje psalmista, i źródłem miłosierdzia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą o Boże prowadzenie, abyśmy, pouczeni przez Nauczyciela, nie byli ślepymi przewodnikami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie jest odpowiedzią na świadectwo św. Pawła, który dostąpił miłosierdzia jako pierwszy z grzeszników.",
+      "moment": "ogolne"
+    }
+  ]
+}

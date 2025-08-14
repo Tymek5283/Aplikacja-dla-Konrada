@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418013.Sobota-25-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "25 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Koh 11, 9 - 12, 8",
+      "opis": "Wszystko przemija",
+      "tekst": "Ciesz się, młodzieńcze, w młodości swojej, a serce twoje niech się rozwesela za dni młodości twojej. I chodź drogami serca swego i za tym, co oczy twe pociąga; lecz wiedz, że z tego wszystkiego będzie cię sądził Bóg!\nUsuń przygnębienie ze swego serca i oddal ból od twego ciała, bo młodość jak zorza poranna szybko przemija. Pomnij jednak na Stwórcę swego w dniach swej młodości, zanim jeszcze nadejdą dni niedoli i przyjdą lata, o których powiesz: «Nie mam w nich upodobania»; zanim zaćmi się słońce i światło, i księżyc, i gwiazdy, i chmury powrócą po deszcu; w czasie, gdy trząść się będą stróże domu i uginać się będą silni mężowie, i będą ustawały kobiety mielące, bo ich ubędzie, i zaćmią się patrzące w oknach; i zamkną się drzwi na ulicę, podczas gdy łoskot młyna przycichnie i podniesie się do głosu ptaka, i wszystkie śpiewy przymilkną; odczuwać się nawet będzie lęk przed wyżyną i strach na drodze; i drzewo migdałowe zakwitnie, i ociężała stanie się szarańcza, i pękać będą kapary; bo człowiek zdążać będzie do swego wiecznego domu i kręcić się już będą po ulicy płaczki; zanim się przerwie srebrny sznur i stłucze się czara złota, i dzban się rozbije u źródła, i w studnię kołowrót złamany wpadnie; i wróci się proch do ziemi, tak jak nią był, a duch powróci do Boga, który go dał.\nMarność nad marnościami - powiada Kohelet - wszystko jest marnością.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 3-4. 5-6. 12-13. 14 i 17 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, Ty zawsze byłeś nam ucieczką.\nObracasz w proch człowieka *\ni mówisz: «Wracajcie, synowie ludzcy».\nBo tysiąc lat w Twoich oczach †\njest jak wczorajszy dzień, który minął, *\nalbo straż nocna.\nRefren.\nPorywasz ich, stają się niby sen poranny, *\njak trawa, która rośnie:\nrankiem zielona i kwitnąca, *\nwieczorem więdnie i usycha.\nRefren.\nNaucz nas liczyć dni nasze, *\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał? *\nBądź litościwy dla sług Twoich!\nRefren.\nNasyć nas o świcie swoją łaską, *\nabyśmy przez wszystkie dni nasze\nmogli się radować i cieszyć.\nDobroć Pana, Boga naszego, niech będzie nad nami †\ni wspieraj pracę rąk naszych, *\ndzieło rąk naszych wspieraj!\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 43b-45",
+      "opis": "Druga zapowiedź męki",
+      "tekst": "Gdy wszyscy pełni byli podziwu dla wszystkich czynów Jezusa, On powiedział do swoich uczniów: «Weźcie wy sobie dobrze do serca te słowa: Syn Człowieczy będzie wydany w ręce ludzi». Lecz oni nie rozumieli tego powiedzenia; było ono zakryte przed nimi, tak że go nie pojęli, a bali się zapytać Go o to powiedzenie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń o przemijalności i potrzebie pokuty doskonale oddaje nastrój pierwszego czytania z Księgi Koheleta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do tematu marności i pielgrzymiego charakteru życia, obecnego w pierwszym czytaniu i psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wychwala wiecznego Stwórcę, który jest jedyną stałą wartością w świecie opisanym przez Koheleta jako 'marność'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W obliczu przemijania, pieśń ta jest aktem żalu i zawierzenia Bogu, który jest wieczny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarowanie swojego życia Bogu jest jedyną sensowną odpowiedzią na marność świata opisaną przez Koheleta.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania serca jest wyrazem szukania trwałej wartości w Bogu, a nie w przemijającym świecie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o Męce Pańskiej jest odpowiedzią na zapowiedź cierpienia Syna Człowieczego z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta, wymieniając poszczególne części cierpiącego Ciała Chrystusa, jest głęboką medytacją nad tajemnicą Paschy, zapowiedzianą w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń łączy tajemnicę Eucharystii z ofiarą krzyża, o której Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "W sobotę, pieśń do Matki Bolesnej, która stała pod krzyżem, jest stosownym uwielbieniem w kontekście zapowiedzi męki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "355",
+      "piesn": "Matko Najświętsza!",
+      "opis": "Modlitwa do Matki Bolesnej jest wyrazem współczucia i wiary w obliczu niezrozumiałej zapowiedzi cierpienia Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, które nastąpiło po Jego męce i śmierci, zapowiedzianej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "655",
+      "piesn": "Witaj, Królowo nieba",
+      "opis": "Pieśń maryjna 'Salve Regina' jest modlitwą wygnańców, co koresponduje z poczuciem przemijania i tęsknoty za wieczną ojczyzną.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja, Matka Bolesna, jest wzorem przyjęcia zapowiedzi męki Syna w wierze i zaufaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę w trudnych chwilach, podobnych do tych, które zapowiada Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna pasuje do refleksji nad przemijaniem i koniecznością pamiętania o Stwórcy, zanim nadejdą 'dni niedoli'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "652",
+      "piesn": "U Ciebie, Boże",
+      "opis": "Pieśń wyraża świadomość ludzkiej kruchości i potrzebę Bożego miłosierdzia, co jest zgodne z duchem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o zaufaniu Bożej Opatrzności jest odpowiedzią na poczucie marności i przemijania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wobec refleksji o marności i przemijaniu, pieśń ta wskazuje na Chrystusa jako jedyną, wieczną nadzieję.",
+      "moment": "ogolne"
+    }
+  ]
+}

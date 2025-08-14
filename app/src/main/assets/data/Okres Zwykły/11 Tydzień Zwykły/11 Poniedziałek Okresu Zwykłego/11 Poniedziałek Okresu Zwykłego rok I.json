@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417222.Poniedzialek-XI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "11 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 6, 1-10",
+      "opis": "Stałość apostołów wśród doświadczeń",
+      "tekst": "Bracia:\nNapominamy was, abyście nie przyjmowali na próżno łaski Bożej. Mówi bowiem Pismo: «W czasie pomyślnym wysłuchałem cię, w dniu zbawienia przyszedłem ci z pomocą». Oto teraz czas upragniony, oto teraz dzień zbawienia.\nNie dając nikomu sposobności do zgorszenia, aby nie wyszydzono naszej posługi, okazujemy się sługami Boga przez wszystko: przez wielką cierpliwość, wśród utrapień, przeciwności i ucisków, w chłostach, więzieniach, podczas rozruchów, w trudach, nocnych czuwaniach i w postach, przez czystość i umiejętność, przez wielkoduszność i łagodność, przez objawy Ducha Świętego i miłość nieobłudną, przez głoszenie prawdy i moc Bożą, przez oręż sprawiedliwości zaczepny i obronny, wśród czci i pohańbienia, przez zniesławienie i dobrą sławę. Uchodzący za oszustów, a przecież prawdomówni, niby nieznani, a przecież dobrze znani, niby umierający, a oto żyjemy, jakby karceni, lecz nie uśmiercani, jakby smutni, lecz zawsze radośni, jakby ubodzy, a jednak wzbogacający wielu, jako ci, którzy nic nie mają, a posiadają wszystko.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 119 (118), 105",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Twoje słowo jest pochodnią dla stóp moich, Panie,\ni światłem na mojej ścieżce."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 38-42",
+      "opis": "Nie stawiajcie oporu złemu",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano: „Oko za oko i ząb za ząb!” A Ja wam powiadam: Nie stawiajcie oporu złemu: lecz jeśli cię ktoś uderzy w prawy policzek, nadstaw mu i drugi. Temu, kto chce prawować się z tobą i wziąć twoją szatę, odstąp i płaszcz. Zmusza cię ktoś, żeby iść z nim tysiąc kroków, idź dwa tysiące. Daj temu, kto cię prosi, i nie odwracaj się od tego, kto chce pożyczyć od ciebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest źródłem siły w trudach i przeciwnościach opisanych przez św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec cierpień i prześladowań, o których pisze św. Paweł, ta pieśń jest aktem ufności w Bożą opatrzność i opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń jest zapewnieniem o Bożej pomocy, która podtrzymywała św. Pawła w jego cierpieniach dla Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiara naszego życia wyraża się w miłości, która nie odpłaca złem za zło, zgodnie z nauką Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarujemy Bogu naszą skruchę i postanowienie poprawy, odrzucając logikę zemsty na rzecz miłości nieprzyjaciół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc o siłę do znoszenia przeciwności z miłości do Niego, na wzór św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wobec trudów apostolskich i własnej słabości, z pokorą przystępujemy do Chrystusa, by On był naszą mocą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w miłości, dając siłę do nadstawiania drugiego policzka i miłowania nieprzyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Przyjmując Ciało Chrystusa, uczymy się od Niego miłości, która przekracza ludzką sprawiedliwość i wzywa do przebaczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to radosna odpowiedź na wezwanie psalmu, by śpiewać Panu nową pieśń za cuda Jego zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm wzywa do głoszenia zbawienia Bożego, a ta pieśń jest radosnym hymnem na cześć Jego dzieł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Dziękujemy Bogu za Jego wierność i dobroć, które objawił w swoim zbawieniu, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby w naszym codziennym trudzie i znoju realizować Ewangelię miłości i przebaczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Na zakończenie Mszy jesteśmy posłani, by głosić Ewangelię miłości nieprzyjaciół i przebaczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Prosimy Boga, aby zjednoczył nas w miłości, która jest zdolna przezwyciężyć wszelką wrogość i podziały.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń łączy cierpienia, o których mówi św. Paweł, z krzyżem Chrystusa, który jest źródłem naszego zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Nowe przykazanie miłości jest fundamentem dla postawy 'nadstawiania drugiego policzka', której uczy Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia o nadstawianiu drugiego policzka jest praktycznym zastosowaniem błogosławieństwa dla cichych i wprowadzających pokój.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wiarę, że idąc za Chrystusem, uczymy się Jego drogi miłości i przebaczenia.",
+      "moment": "ogolne"
+    }
+  ]
+}

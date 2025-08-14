@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, co jest odpowiedzią na Boże wezwanie do pracy w winnicy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie nawrócenia, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "113",
       "piesn": "Wstanę i pójdę",
       "opis": "Pieśń o nawróceniu odzwierciedla postawę drugiego syna z przypowieści - tego, który najpierw odmówił, ale potem się opamiętał i poszedł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co jest warunkiem wejścia do królestwa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela, o którym wspomina Ewangelia.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,27 +72,75 @@
       "moment": "komunia"
     },
     {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana do serc, które, jak serce drugiego syna, opamiętały się.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, które pragnie pełnić wolę Ojca.",
+      "moment": "komunia"
+    },
+    {
       "numer": "101",
       "piesn": "Boże, Ojcze Wszechmogący",
       "opis": "Litania ta jest wołaniem o Boże miłosierdzie, o które proszą ubodzy i skruszeni w sercu, jak ci z psalmu i Ewangelii.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "4",
-      "piesn": "Oto Pan przybywa",
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który jest blisko ludzi skruszonych w sercu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do wielbienia Boga za Jego dobroć, a ta pieśń jest tego uroczystym wyrazem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń ta, wzywając do prostowania dróg życia, jest adwentowym wezwaniem do nawrócenia, które jest warunkiem wejścia do królestwa.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "106",
-      "piesn": "Nawróć się, ludu",
-      "opis": "Pieśń jest wezwaniem do nawrócenia, które Bóg obiecuje wysłuchać, co jest głównym przesłaniem pierwszego czytania i Ewangelii.",
-      "moment": "ogolne"
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego przyjmują celnicy i nierządnice, a odrzucają ci, którzy uważają się za sprawiedliwych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, jest aktem wiary, do którego zdolni byli grzesznicy z Ewangelii.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "1",
       "piesn": "Błogosławieni",
       "opis": "Pieśń o błogosławieństwach, szczególnie dla ubogich i cichych, nawiązuje do pierwszego czytania o ludzie pokornym i biednym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta wzywa do przygotowania na przyjście Zbawiciela, co wymaga postawy nawrócenia ukazanej w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, którego przyjmują ci, co się opamiętali.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc i światło, potrzebne do nawrócenia i pełnienia woli Ojca.",
       "moment": "ogolne"
     }
   ]

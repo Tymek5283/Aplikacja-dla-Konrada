@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415421.Wtorek-30-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "30 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 8, 18-25",
+      "opis": "Stworzenie oczekuje objawienia się synów Bożych",
+      "tekst": "Bracia:\nSądzę, że cierpień teraźniejszych nie można stawiać na równi z chwałą, która ma się w nas objawić. Bo stworzenie z upragnieniem oczekuje objawienia się synów Bożych. Stworzenie bowiem zostało poddane marności - nie z własnej chęci, ale ze względu na Tego, który je poddał - w nadziei, że również i ono zostanie wyzwolone z niewoli zepsucia, by uczestniczyć w wolności i chwale dzieci Bożych.\nWiemy przecież, że całe stworzenie aż dotąd jęczy i wzdycha w bólach rodzenia. Lecz nie tylko ono, ale i my sami, którzy już posiadamy pierwsze dary Ducha, i my również całą istotą swoją wzdychamy, oczekując przybrania za synów - odkupienia naszego ciała. W nadziei bowiem już jesteśmy zbawieni. Nadzieja zaś, której spełnienie już się ogląda, nie jest nadzieją, bo jak można się jeszcze spodziewać tego, co się już ogląda? Jeżeli jednak, nie oglądając, spodziewamy się czegoś, to z wytrwałością tego oczekujemy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 126 (125), 1b-2b. 2c-3. 4-5. 6 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg uczynił wielkie rzeczy dla nas.\nGdy Pan odmienił los Syjonu, *\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu, *\na język śpiewał z radości.\nRefren.\nMówiono wtedy między narodami: *\n«Wielkie rzeczy im Pan uczynił».\nPan uczynił nam wielkie rzeczy *\ni radość nas ogarnęła.\nRefren.\nOdmień znowu nasz los, o Panie, *\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją, *\nżąć będą w radości.\nRefren.\nIdą i płaczą, *\nniosąc ziarno na zasiew,\nlecz powrócą z radością, *\nniosąc swoje snopy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 18-21",
+      "opis": "Przypowieści o ziarnku gorczycy i o zaczynie",
+      "tekst": "Jezus mówił: «Do czego podobne jest królestwo Boże i z czym mam je porównać? Podobne jest do ziarnka gorczycy, które ktoś wziął i posiał w swoim ogrodzie. Wyrosło i stało się wielkim drzewem, tak że ptaki podniebne zagnieździły się na jego gałęziach».\nI mówił dalej: «Z czym mam porównać królestwo Boże? Podobne jest do zaczynu, który pewna kobieta wzięła i włożyła w trzy miary mąki, aż wszystko się zakwasiło».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu i wejścia do Jego domu, co jest zapowiedzią wejścia do Królestwa Bożego, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego królestwo wzrasta jak ziarno gorczycy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, która jest nauką o królestwie Bożym, przedstawionym w przypowieściach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Wobec obrazu wzrastającego królestwa, ta pieśń jest prośbą o błogosławieństwo, abyśmy i my mogli wzrastać i przynosić owoc.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by stało się ono ziarnem, które obumiera, by wydać plon dla królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, aby On sprawił w nas wzrost swojego królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Przypowieść o zaczynie jest obrazem jednoczącej mocy królestwa. Ta pieśń mówi o Eucharystii, która nas jednoczy w jedno Ciało.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą królestwa, do której jesteśmy zaproszeni i która daje nam udział w jego wzroście.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Eucharystia jest pokarmem, który daje nam siłę do życia w królestwie Bożym i oczekiwania na jego pełnię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar bycia dziećmi Bożymi i nadzieję przyszłej chwały, o których pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za wielkie rzeczy, które Pan uczynił dla nas, o czym śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar królestwa Bożego i nadzieję na wyzwolenie z niewoli zepsucia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do królestwa, które wzrasta jak ziarno gorczycy, by dać schronienie wszystkim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii, aby królestwo Boże wzrastało na całej ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam widzieć i uczestniczyć we wzroście królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pierwsze czytanie mówi o nadziei zbawienia. Ta pieśń jest wyznaniem, że naszą nadzieją na odkupienie ciała jest Chrystus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, którego wzrost opisują przypowieści.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest niezbędna w oczekiwaniu na pełnię królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która czuwa nad wzrostem swojego królestwa w świecie.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416137.Piatek-VII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "7 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 5, 9-12",
+      "opis": "Cierpliwość i wytrwanie",
+      "tekst": "Nie uskarżajcie się, bracia, jeden na drugiego, byście nie podpadli pod sąd. Oto Sędzia stoi przed drzwiami. Za przykład wytrwałości i cierpliwości weźcie, bracia, proroków, którzy przemawiali w imię Pańskie. Oto wychwalamy tych, co wytrwali. Słyszeliście o wytrwałości Hioba i widzieliście końcową nagrodę za nią od Pana; bo Pan pełen jest litości i miłosierdzia.\nPrzede wszystkim, bracia moi, nie przysięgajcie ani na niebo, ani na ziemię, ani w żaden inny sposób: wasze «tak» niech będzie «tak», a «nie» niech będzie «nie», abyście nie podpadli pod sąd.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 8-9. 11-12 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze, *\nnie płonie gniewem na wieki.\nRefren.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 1-12",
+      "opis": "Nierozerwalność małżeństwa",
+      "tekst": "Jezus przyszedł w granice Judei i Zajordania. A tłumy znowu ściągały do Niego i znów je nauczał, jak miał w zwyczaju.\nI przystąpili do Niego faryzeusze, a chcąc Go wystawić na próbę, pytali Go, czy wolno mężowi oddalić żonę.\nOdpowiadając, zapytał ich: «Co wam przykazał Mojżesz?»\nOni rzekli: «Mojżesz pozwolił napisać list rozwodowy i oddalić».\nWówczas Jezus rzekł do nich: «Przez wzgląd na zatwardziałość serc waszych napisał wam to przykazanie. Lecz na początku stworzenia Bóg stworzył ich jako mężczyznę i kobietę: dlatego opuści człowiek ojca swego i matkę i złączy się ze swoją żoną, i będą oboje jednym ciałem. A tak już nie są dwojgiem, lecz jednym ciałem. Co więc Bóg złączył, tego niech człowiek nie rozdziela».\nW domu uczniowie raz jeszcze pytali Go o to. Powiedział im: «Kto oddala swoją żonę, a bierze inną, popełnia względem niej cudzołóstwo. I jeśli żona opuści swego męża, a wyjdzie za innego, popełnia cudzołóstwo».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń ta podkreśla wartość wspólnoty i wierności, co jest dobrym wprowadzeniem do tematyki nierozerwalności małżeństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta wskazuje na miłość jako fundament wierności w małżeństwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest fundamentem nierozerwalnego małżeństwa, o którym naucza Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do wezwania do cierpliwości i miłości wzajemnej, które są fundamentem trwałego małżeństwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu swojego życia i relacji, prosząc o ich uświęcenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni składamy dar, prosząc o łaskę wierności w relacjach międzyludzkich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność, do której powołani są małżonkowie, stając się 'jednym ciałem' w Chrystusie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest źródłem miłości, która uzdalnia do wierności w małżeństwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Medytacyjny kanon podkreśla, że Bóg jest obecny tam, gdzie jest miłość, co jest istotą powołania małżeńskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "767",
+      "piesn": "Misericordias Domini",
+      "opis": "Jest to pieśń uwielbienia za miłosierdzie Pana, o którym mówi psalm i które jest wzorem dla relacji międzyludzkich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar małżeństwa, które jest odbiciem miłości Bożej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest echem psalmu, który wysławia miłosierdzie i łaskawość Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo dla codziennego trudu budowania wiernych relacji w małżeństwie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to prośba o jedność w miłości, która jest istotą powołania małżeńskiego, o którym naucza Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że podążanie za Chrystusem jest drogą do budowania trwałych i świętych relacji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to prośba o jedność w miłości, która jest istotą powołania małżeńskiego, o którym naucza Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość wytrwałości i zaufania Bogu, do czego zachęca św. Jakub w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest źródłem siły do budowania trwałych relacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy cierpliwości i pokoju, które są owocem wierności Bogu.",
+      "moment": "ogolne"
+    }
+  ]
+}

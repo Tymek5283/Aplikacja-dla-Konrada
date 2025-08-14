@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414048.Piatek-34-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "34 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 20, 1-4. 11 - 21, 2",
+      "opis": "Sąd ostateczny",
+      "tekst": "Ja, Jan, ujrzałem anioła zstępującego z nieba, który miał klucz od Czeluści i wielki łańcuch w ręce. I pochwycił Smoka, Węża starodawnego, którym jest Diabeł i Szatan, i związał go na tysiąc lat. I wtrącił go do Czeluści, i zamknął, i pieczęć nad nim położył, by już nie zwodził narodów, aż tysiąc lat się dopełni. A potem ma być na krótki czas uwolniony.\nI ujrzałem trony - a na nich zasiedli sędziowie, i dano im władzę sądzenia - i ujrzałem dusze ściętych dla świadectwa Jezusa i dla słowa Bożego, i tych, którzy pokłonu nie oddali Bestii ani jej obrazowi, i nie wzięli sobie znamienia na czoło ani na rękę. Ożyli oni i tysiąc lat królowali z Chrystusem.\nPotem ujrzałem wielki biały tron i na nim Zasiadającego, od którego oblicza uciekły ziemia i niebo, a miejsca dla nich nie znaleziono. I ujrzałem umarłych - wielkich i małych - stojących przed tronem, a otwarto księgi. I inną księgę otwarto, która jest księgą życia. I osądzono zmarłych z tego, co w księgach zapisano, według ich czynów.\nI morze wydało zmarłych, co w nim byli, i Śmierć, i Otchłań wydały zmarłych, co w nich byli, i każdy został osądzony według swoich czynów. A Śmierć i Otchłań wrzucono do jeziora ognia. To jest śmierć druga - jezioro ognia. Jeśli się ktoś nie znalazł zapisany w księdze życia, został wrzucony do jeziora ognia.\nI ujrzałem niebo nowe i ziemię nową, bo pierwsze niebo i pierwsza ziemia przeminęły, i morza już nie ma. I Miasto Święte - Jeruzalem Nowe ujrzałem zstępujące z nieba od Boga, przystrojone jak oblubienica zdobna w klejnoty dla swego męża.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 84 (83), 3-4. 5-6a i 8a (R.: por. Ap 21, 3b)",
+      "opis": "",
+      "tekst": "Refren: Oto przybytek Pana Boga z ludźmi.\nDusza moja stęskniona pragnie przedsiónków Pańskich, *\nserce moje i ciało radośnie wołają do Boga żywego.\nNawet wróbel znajduje swój dom, a jaskółka gniazdo, †\ngdzie złoży swe pisklęta: *\nprzy ołtarzach Twoich, Panie Zastępów, Królu mój i Boże!\nRefren.\nSzczęśliwi, którzy mieszkają w domu Twoim, Panie, *\nnieustannie wielbiąc Ciebie.\nSzczęśliwi, których moc jest w Tobie. *\nMocy im będzie przybywać.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 21, 28bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nabierzcie ducha i podnieście głowy,\nponieważ zbliża się wasze odkupienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 29-33",
+      "opis": "Przypowieść o drzewie figowym",
+      "tekst": "Jezus opowiedział swoim uczniom przypowieść:\n«Spójrzcie na figowiec i na wszystkie drzewa. Gdy widzicie, że wypuszczają pąki, sami poznajecie, że już blisko jest lato. Tak i wy, gdy ujrzycie te wszystkie wydarzenia, wiedzcie, iż blisko jest królestwo Boże. Zaprawdę, powiadam wam: Nie przeminie to pokolenie, aż się wszystko stanie.\nNiebo i ziemia przeminą, ale moje słowa nie przeminą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń ta jest parafrazą Psalmu 84 i wyraża tęsknotę za domem Pana, czyli Nowym Jeruzalem z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Wobec wizji nowego nieba i nowej ziemi, ta pieśń podkreśla, że nasza prawdziwa ojczyzna jest w niebie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada ostateczne przyjście Pana i Nowego Jeruzalem, o którym mówi Apokalipsa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W perspektywie Sądu Ostatecznego, opisanego w pierwszym czytaniu, ta pieśń jest aktem ofiarowania całego życia Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc, byśmy zostali zapisani w księdze życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i błagania przed Sędzią, o którym mówi Apokalipsa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest zapowiedzią uczty w Nowym Jeruzalem, mieście świętym, o którym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chleba Życia jest zadatkiem życia wiecznego w Nowym Jeruzalem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii daje nam życie wieczne i jest zapowiedzią uczty w domu Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Dziękczynienie za obietnicę Nowego Jeruzalem i królowania z Chrystusem, co jest głównym tematem wizji z Apokalipsy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn dziękczynny, który pasuje do radosnej perspektywy zwycięstwa i królowania z Chrystusem, ukazanej w Apokalipsie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który przyjdzie jako Sędzia i Król.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta, mówiąca o Chrystusie jako nadziei, jest posłaniem pociechy w kontekście przemijania świata, o którym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Jesteśmy posłani, by żyć pod panowaniem Chrystusa Króla, oczekując na Jego ostateczne przyjście w chwale.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest przygotowaniem na wejście do Nowego Jeruzalem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń o zmartwychwstaniu i nadziei na oglądanie Boga, co jest centralnym punktem wizji nowego nieba i nowej ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do odczytywania znaków czasu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który nadchodzi, aby królować i sądzić ziemię sprawiedliwie.",
+      "moment": "ogolne"
+    }
+  ]
+}

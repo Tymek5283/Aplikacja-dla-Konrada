@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://lsiturgia.wiara.pl/doc/416207.Czwartek-VIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "8 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 42, 15-25",
+      "opis": "Chwała Boga w stworzeniach",
+      "tekst": "Wspominać będę dzieła Pana i opowiadać będę to, co widziałem. Na słowa Pana powstały Jego dzieła. Jak słońce, świecąc, patrzy na wszystko, tak chwała Pana napełnia Jego dzieło.\nNie dozwolił On świętym Pańskim opowiedzieć wszystkich swych dzieł godnych podziwu, które utwierdził Pan Wszechmogący, tak iż wszechświat mocno stanął wobec Jego chwały.\nOn bada Otchłań i serce ludzkie i zna ich wszystkie knowania, albowiem Najwyższy posiada całą wiedzę i wzrokiem sięga w przyszłość. Ogłasza to, co minęło i co będzie, i odsłania ślady ukrytych rzeczy. Żadna myśl nie ujdzie Jego uwagi i nie ukryje się przed Nim ani jedno słowo.\nOn ustawił w pięknym porządku wielkie dzieła swej mądrości, ponieważ istnieje przed wiekami i na wieki; a nic Mu nie będzie dodane ani odjęte, i nie potrzebuje żadnego doradcy.\nJakże godne ukochania są wszystkie Jego dzieła, a są jak iskra do zobaczenia. Wszystko to żyje i trwa na wieki, we wszystkich potrzebach wszystko jest posłuszne. Wszystko jest parzyste, jedno naprzeciw drugiego, a niczego nie stworzył niepełnym; jedno umacnia dobro drugiego, a któż się nasyci, patrząc na Jego chwałę?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 2-3. 4-5. 6-7. 8-9",
+      "opis": "",
+      "tekst": "Refren: Przez słowo Pana powstały niebiosa.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nŚpiewajcie Mu pieśń nową, *\npełnym głosem śpiewajcie Mu wdzięcznie.\nRefren.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nOn morskie wody gromadzi jak w bukłaku, *\notchłanie oceanu w zbiornikach.\nRefren.\nNiech cała ziemia boi się Pana, *\nniech się Go lękają wszyscy mieszkańcy świata.\nBo przemówił i wszystko się stało, *\nsam rozkazał i zaczęło istnieć.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem światłością świata,\nkto idzie za Mną, będzie miał światło życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 46b-52",
+      "opis": "Uzdrowienie niewidomego z Jerycha",
+      "tekst": "Gdy Jezus wraz z uczniami i sporym tłumem wychodził z Jerycha, niewidomy żebrak, Bartymeusz, syn Tymeusza, siedział przy drodze. A słysząc, że to jest Jezus z Nazaretu, zaczął wołać: «Jezusie, Synu Dawida, ulituj się nade mną!»\nWielu nastawało na niego, żeby umilkł. Lecz on jeszcze głośniej wołał: «Synu Dawida, ulituj się nade mną!»\nJezus przystanął i rzekł: «Zawołajcie go». I przywołali niewidomego, mówiąc mu: «Bądź dobrej myśli, wstań, woła cię». On zrzucił z siebie płaszcz, zerwał się na nogi i przyszedł do Jezusa.\nA Jezus przemówił do niego: «Co chcesz, abym ci uczynił?»\nPowiedział Mu niewidomy: «Rabbuni, żebym przejrzał».\nJezus mu rzekł: «Idź, twoja wiara cię uzdrowiła». Natychmiast przejrzał i szedł za Nim drogą.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest echem pierwszego czytania i psalmu, które wzywają do chwalenia Boga za Jego dzieła w stworzeniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń dziękczynna za wspaniałość stworzenia, o której z podziwem mówi Księga Syracha.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego dzieła napełniają wszechświat.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która okazała się kluczowa dla uzdrowienia Bartymeusza w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc o uzdrowienie z duchowej ślepoty, na wzór Bartymeusza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, abyśmy z wiarą, jak Bartymeusz, mogli przyjąć dar uzdrowienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokornej wiary i zaufania, z jaką niewidomy żebrak zbliżył się do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i wiarę w przychodzącego Jezusa, podobną do tej, jaką okazał Bartymeusz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej uzdrawia nasze duchowe ślepoty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za uzdrowienie i ocalenie, co jest odpowiedzią na cud opisany w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar uzdrowienia i za wspaniałość Bożego stworzenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, w tym za dar wzroku i wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń ta jest modlitwą o prowadzenie, która oddaje postawę uzdrowionego Bartymeusza, który 'szedł za Nim drogą'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a pójście za Nim jest owocem uzdrowienia i wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o cudach, jakie czyni Pan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaprasza do przyjścia do Jezusa z każdą niemocą, tak jak uczynił to Bartymeusz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego słowo, jak mówi psalm, stwarza i podtrzymuje wszystko.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o pomoc i ratunek, podobnym do krzyku niewidomego Bartymeusza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem o miłosierdzie i uzdrowienie, o które z wiarą prosił Bartymeusz.",
+      "moment": "ogolne"
+    }
+  ]
+}

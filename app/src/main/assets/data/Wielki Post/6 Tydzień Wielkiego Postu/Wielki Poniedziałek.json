@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413074.Wielki-Poniedzialek",
+  "tytul_dnia": "Wielki Poniedziałek",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 42, 1-7",
+      "opis": "Sługa Boży ofiarowany za zbawienie świata",
+      "tekst": "To mówi Pan:\n«Oto mój Sługa, którego podtrzymuję, Wybrany mój, w którym mam upodobanie. Sprawiłem, że Duch mój na Nim spoczął; On przyniesie narodom Prawo. Nie będzie wołał ni podnosił głosu, nie da słyszeć krzyku swego na dworze. Nie złamie trzciny nadłamanej, nie zgasi ledwo tlejącego się knotka. On rzeczywiście przyniesie Prawo. Nie zniechęci się ani nie załamie, aż utrwali Prawo na ziemi, a Jego pouczenia wyczekują wyspy».\nTak mówi Pan Bóg, który stworzył i rozpiął niebo, rozpostarł ziemię wraz z jej plonami, dał ludziom na niej dech ożywczy i tchnienie tym, co po niej chodzą.\n«Ja, Pan, powołałem Cię słusznie, ująłem Cię za rękę i ukształtowałem, ustanowiłem Cię przymierzem dla ludzi, światłością dla narodów, abyś otworzył oczy niewidomym, ażebyś z zamknięcia wypuścił jeńców, z więzienia tych, co mieszkają w ciemności».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 1bcde. 2. 3. 13-14 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan moim światłem i zbawieniem moim.\nPan moim światłem i zbawieniem moim, *\nkogo miałbym się lękać?\nPan obrońcą mego życia, *\nprzed kim miałbym czuć trwogę?\nRefren.\nGdy mnie osaczają złoczyńcy, *\nktórzy chcą mnie pożreć,\noni sami, moi wrogowie i nieprzyjaciele, *\nchwieją się i padają.\nRefren.\nNawet gdy wrogowie staną przeciw mnie obozem, *\nmoje serce nie poczuje strachu.\nChoćby napadnięto mnie zbrojnie, *\nnawet wtedy ufność swą zachowam.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Witaj, nasz Królu i Zbawicielu,\nTy sam zlitowałeś się nad grzesznymi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 12, 1-11",
+      "opis": "Namaszczenie w Betanii",
+      "tekst": "Na sześć dni przed Paschą Jezus przybył do Betanii, gdzie mieszkał Łazarz, którego Jezus wskrzesił z martwych. Urządzono tam dla Niego ucztę. Marta usługiwała, a Łazarz był jednym z zasiadających z Nim przy stole. Maria zaś wzięła funt szlachetnego, drogocennego olejku nardowego i namaściła Jezusowi stopy, a włosami swymi je otarła. A dom napełnił się wonią olejku.\nNa to rzekł Judasz Iskariota, jeden z Jego uczniów, ten, który Go miał wydać: «Czemu to nie sprzedano tego olejku za trzysta denarów i nie rozdano ich ubogim?» Powiedział zaś to nie dlatego, że dbał o biednych, ale ponieważ był złodziejem i mając trzos, wykradał to, co składano.\nNa to rzekł Jezus: «Zostaw ją! Przechowała to, aby Mnie namaścić na dzień mojego pogrzebu. Bo ubogich zawsze macie u siebie, Mnie zaś nie zawsze macie».\nWielki tłum Żydów dowiedział się, że tam jest; a przybyli nie tylko ze względu na Jezusa, ale także by ujrzeć Łazarza, którego wskrzesił z martwych. Arcykapłani zatem postanowili zabić również Łazarza, gdyż wielu z jego powodu odłączyło się od Żydów i uwierzyło w Jezusa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń ta oddaje ducha psalmu responsoryjnego i postawę Sługi Pańskiego z pierwszego czytania, pełną zaufania Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie szukania Boga i Jego pomocy w obliczu nadchodzących wydarzeń Męki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wprowadza w atmosferę Wielkiego Tygodnia i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę miłości i żalu za grzechy, kontrastującą z chciwością Judasza, a współgrającą z gestem Marii z Betanii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę czci i oddania wobec Chrystusa, którego Maria namaściła na dzień pogrzebu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że dar Marii jest zapowiedzią daru, jaki Chrystus złoży z samego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń ta jest adoracją miłości Jezusa, którą w szczególny sposób uczciła Maria poprzez namaszczenie Jego stóp.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, którego ciało zostało namaszczone na mękę i śmierć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który jest światłością dla narodów, a którego przyjmujemy w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Jest to modlitwa o czyste serce i uwielbienie Boga za Jego zbawcze dzieła, co jest odpowiedzią na Ewangelię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i zbawienie, którego oczekuje psalmista i które przynosi Sługa Pański.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to pieśń chwały na cześć Pana, który jest naszym światłem i zbawieniem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który wprowadza w tajemnicę zbliżającej się Męki, zapowiedzianej przez namaszczenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa, Sługi Pańskiego, w Jego cichości i pokorze.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu postawy Judasza, aby wybrać miłość na wzór Marii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń o charakterze pokutnym, która jest odpowiednia na czas bezpośredniego przygotowania do Triduum Paschalnego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to parafraza psalmu 'De profundis', wyrażająca wołanie do Boga o miłosierdzie w obliczu grzechu i śmierci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne do bezinteresownej miłości, jaką okazała Maria z Betanii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy, które są przyczyną cierpienia Sługi Pańskiego.",
+      "moment": "ogolne"
+    }
+  ]
+}

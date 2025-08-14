@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416120.Czwartek-VI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "6 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 2, 1-9",
+      "opis": "Godność ubogich w Kościele",
+      "tekst": "Bracia moi, niech wiara wasza w Pana naszego, Jezusa Chrystusa uwielbionego, nie ma względu na osoby.\nBo gdyby przyszedł na wasze zgromadzenie człowiek przystrojony w złote pierścienie i bogatą szatę i przybył także człowiek ubogi w zabrudzonej szacie, a wy spojrzycie na bogato przyodzianego i powiecie: «Ty usiądź na zaszczytnym miejscu», do ubogiego zaś powiecie: «Stań sobie tam albo usiądź u podnóżka mojego», to czy nie czynicie różnic między sobą i nie stajecie się sędziami przewrotnymi?\nPosłuchajcie, bracia moi umiłowani! Czy Bóg nie wybrał ubogich tego świata na bogatych w wierze oraz na dziedziców królestwa przyobiecanego tym, którzy Go miłują? Wy zaś odmówiliście ubogiemu poszanowania. Czy to nie bogaci uciskają was bezwzględnie i nie oni ciągną was do sądów? Czy nie oni bluźnią zaszczytnemu Imieniu, które wypowiedziano nad wami?\nJeśli przeto zgodnie z Pismem wypełniacie królewskie Prawo: «Będziesz miłował bliźniego swego jak siebie samego », dobrze czynicie. Jeżeli zaś kierujecie się względem na osobę, popełniacie grzech, i Prawo potępi was jako przestępców.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 4-5. 6-7",
+      "opis": "",
+      "tekst": "Refren: Biedak zawołał i Pan go wysłuchał.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nWysławiajcie razem ze mną Pana, *\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał *\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał, *\ni uwolnił od wszelkiego ucisku.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 63c. 68c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 27-33",
+      "opis": "Wyznanie Piotra i zapowiedź męki",
+      "tekst": "Jezus udał się ze swoimi uczniami do wiosek pod Cezareą Filipową. W drodze pytał uczniów: «Za kogo uważają Mnie ludzie?» Oni Mu odpowiedzieli: «Za Jana Chrzciciela, inni za Eliasza, jeszcze inni za jednego z proroków».\nOn ich zapytał: «A wy za kogo Mnie uważacie?» Odpowiedział Mu Piotr: «Ty jesteś Mesjasz».\nWtedy surowo im przykazał, żeby nikomu o Nim nie mówili. I zaczął ich pouczać, że Syn Człowieczy wiele musi wycierpieć, że będzie odrzucony przez starszych, arcykapłanów i uczonych w Piśmie; że zostanie zabity, ale po trzech dniach zmartwychwstanie. A mówił zupełnie otwarcie te słowa.\nWtedy Piotr wziął Go na bok i zaczął Go upominać. Lecz On obrócił się i patrząc na swych uczniów, zgromił Piotra słowami: «Zejdź Mi z oczu, szatanie, bo nie myślisz po Bożemu, lecz po ludzku».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do pierwszego czytania o godności i błogosławieństwie ubogich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się przed Panem, który nie ma względu na osoby.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Pieśń ta jest aktem uwielbienia dla Boga Króla, co nawiązuje do wyznania Piotra 'Ty jesteś Mesjasz'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla królewskie Prawo miłości bliźniego, o którym mówi List św. Jakuba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do tajemnicy krzyża, której Piotr nie rozumiał, a która jest centrum naszej wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc o siłę do myślenia 'po Bożemu', a nie 'po ludzku'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ukazuje Chrystusa, który karmi głodnych, co jest wyrazem Bożej troski o ubogich, o której mowa w czytaniach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to osobiste powtórzenie wyznania Piotra w momencie przyjmowania Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, Mesjasza, obecnego w Eucharystii, dostępnego dla bogatych i ubogich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń chwały za wysłuchanie przez Boga, co jest echem refrenu psalmu 'Biedak zawołał i Pan go wysłuchał'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga, który wywyższa ubogich i jest naszym Mesjaszem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego Piotr wyznał jako Mesjasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Posyła wiernych do głoszenia Ewangelii, która jest Dobrą Nowiną także dla ubogich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która przyjmie tajemnicę cierpiącego Mesjasza, odrzuconą początkowo przez Piotra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą krzyża, którą Jezus wskazuje jako drogę ucznia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o Kościół, który będzie domem dla wszystkich, bez względu na status społeczny, jak uczy św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń dziękczynna, która może być odpowiedzią na dar wiary, która czyni ubogich bogatymi w oczach Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość bliźniego, o której mówi św. Jakub, jest fundamentem życia chrześcijańskiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, Mesjasza, który jest naszą drogą do Ojca.",
+      "moment": "ogolne"
+    }
+  ]
+}

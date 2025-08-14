@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413326.Sroda-V-tygodnia-wielkanocnego",
+  "tytul_dnia": "5 Środa Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 15, 1-6",
+      "opis": "Spór o przepisy Starego Testamentu",
+      "tekst": "W Antiochii niektórzy przybysze z Judei nauczali braci: «Jeżeli się nie poddacie obrzezaniu według zwyczaju Mojżeszowego, nie możecie być zbawieni».\nKiedy doszło do niemałych sporów i roztrząsań między nimi a Pawłem i Barnabą, postanowiono, że Paweł i Barnaba, i jeszcze kilku spośród nich udadzą się w sprawie tego sporu do Jeruzalem, do apostołów i starszych. Wysłani przez Kościół, szli przez Fenicję i Samarię, sprawiając wielką radość braciom opowiadaniem o nawróceniu pogan.\nKiedy przybyli do Jeruzalem, zostali przyjęci przez Kościół, apostołów i starszych. Opowiedzieli też, jak wielkich rzeczy Bóg przez nich dokonał. Lecz niektórzy nawróceni ze stronnictwa faryzeuszów oświadczyli: «Trzeba ich obrzezać i zobowiązać do przestrzegania Prawa Mojżeszowego». Zebrali się więc apostołowie i starsi, aby rozpatrzyć tę sprawę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 122 (121), 1b-2. 4-5 (R.: por. 1bc)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Idźmy z radością na spotkanie Pana.\nUcieszyłem się, gdy mi powiedziano: *\n«Pójdziemy do domu Pana».\nJuż stoją nasze stopy *\nw twoich bramach, Jeruzalem.\nRefren.\nDo niego wstępują pokolenia Pańskie, *\naby zgodnie z prawem Izraela wielbić imię Pana.\nTam ustawiono trony sędziowskie, *\ntrony domu Dawida.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 4a. 5b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Trwajcie we Mnie, a Ja w was trwać będę.\nKto trwa we Mnie, przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 1-8",
+      "opis": "Kto trwa we Mnie, przynosi owoc obfity",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Ja jestem prawdziwym krzewem winnym, a Ojciec mój jest tym, który go uprawia. Każdą latorośl, która nie przynosi we Mnie owocu, odcina, a każdą, która przynosi owoc, oczyszcza, aby przynosiła owoc obfitszy. Wy już jesteście czyści dzięki słowu, które wypowiedziałem do was. Trwajcie we Mnie, a Ja w was będę trwać. Podobnie jak latorośl nie może przynosić owocu sama z siebie - jeżeli nie trwa w winnym krzewie - tak samo i wy, jeżeli we Mnie trwać nie będziecie.\nJa jestem krzewem winnym, wy - latoroślami. Kto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity, ponieważ beze Mnie nic nie możecie uczynić. Ten, kto nie trwa we Mnie, zostanie wyrzucony jak winna latorośl i uschnie. Potem ją zbierają i wrzucają w ogień, i płonie. Jeżeli we Mnie trwać będziecie, a słowa moje w was, to proście, o cokolwiek chcecie, a to wam się spełni. Ojciec mój przez to dozna chwały, że owoc obfity przyniesiecie i staniecie się moimi uczniami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w żywego Pana, który jest prawdziwym krzewem winnym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem trwania w Chrystusie i przynoszenia owoców.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący Zmartwychwstałego Pana, który jest źródłem życia dla latorośli wszczepionych w Niego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do obrazu Kościoła jako winnicy Pańskiej, w której wszyscy, niezależnie od pochodzenia, są latoroślami jednego krzewu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta podkreśla jedność Kościoła, o którą toczył się spór w Antiochii, a która jest owocem trwania w Chrystusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle naszego życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Krzew Winny, w Eucharystii daje nam swoje Ciało, abyśmy trwając w Nim, przynosili owoc obfity.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że trwanie w Chrystusie, Krzewie Winnym, jest możliwe dzięki przyjmowaniu Go w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który jest pokarmem umacniającym nas do przynoszenia owoców.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to hymn uwielbienia dla Chrystusa, w którym trwamy jak latorośle w winnym krzewie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą miłość, objawioną w Chrystusie i wzywającą do przynoszenia owoców.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, która umacnia naszą więź z Chrystusem, Krzewem Winnym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Przynoszenie owocu, o którym mówi Jezus, jest misją Kościoła, który ma głosić Ewangelię wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii, która jest możliwa dzięki trwaniu w Nim jak latorośl w krzewie winnym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, przynosząc owoce wiary i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wiara w Zmartwychwstałego jest fundamentem trwania w Chrystusie i przynoszenia owoców.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, w którym nie ma już podziału na Żydów i pogan, co było tematem sporu w Antiochii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój w Kościele jest odpowiedzią na spory, które pojawiły się we wspólnocie w Antiochii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Narracyjna pieśń wielkanocna, która przypomina fundament wiary, z którego wyrasta życie w zjednoczeniu z Chrystusem.",
+      "moment": "ogolne"
+    }
+  ]
+}

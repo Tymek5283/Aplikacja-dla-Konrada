@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415504.Czwartek-III-tydzien-zwykly-rok-II",
+  "tytul_dnia": "3 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 7, 18-19. 24-29",
+      "opis": "Dziękczynienie Dawida",
+      "tekst": "Po wysłuchaniu proroka Natana poszedł król Dawid i usiadłszy przed Panem, mówił: «Kimże ja jestem, Panie, Boże, i czym jest mój ród, że doprowadziłeś mnie aż dotąd? Ale to było jeszcze za mało w Twoich oczach, Panie, Boże, bo dałeś zapowiedź tyczącą domu sługi swego na daleką przyszłość. I to jest prawo człowieka, Panie, Boże.\nUstaliłeś, by lud Twój izraelski był dla Ciebie ludem na wieki, a Ty, o Panie, stałeś się dla niego Bogiem. Teraz więc, o Panie, Boże, niech trwa na wieki słowo, które wyrzekłeś o słudze swoim i jego domu, i czyń, jak powiedziałeś, ażeby na wieki wielbione było imię Twe słowami: „Pan Zastępów jest Bogiem Izraela”. A dom Twego sługi, Dawida, niech trwa przed Tobą.\nTy bowiem, o Panie Zastępów, Boże Izraela, objawiłeś  swemu słudze, mówiąc: Zbuduję ci dom. Dlatego to sługaTwój ośmiela się zwrócić do Ciebie z tą modlitwą: Teraz Ty, o Panie, Boże, Ty jesteś Bogiem, Twoje słowa są prawdą.\nSkoro obiecałeś swojemu słudze to szczęście, racz teraz pobłogosławić dom Twojego sługi, aby trwał przed Tobą na wieki, bo Ty, Panie, Boże, to powiedziałeś, a dzięki Twojemu błogosławieństwu dom Twojego sługi będzie błogosławiony na wieki».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 132 (131), 1b-2. 3-5. 11. 12. 13-14 (R.: por. Łk 1, 32b)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg da jemu tron ojca Dawida.\nPamiętaj, Panie, Dawidowi *\nwszystkie jego trudy.\nJak złożył Panu przysięgę, *\nzwiązał się ślubem przed Bogiem Jakuba:\nRefren.\n«Nie wejdę do mieszkania w moim domu, †\nnie wstąpię na posłanie mego łoża, *\nnie użyczę snu moim oczom, powiekom moim spoczynku,\npóki nie znajdę miejsca dla Pana, *\nmieszkania dla Niego, dla Boga Jakuba».\nRefren.\nPan złożył Dawidowi niezłomną obietnicę, *\nktórej nie odwoła:\n«Zrodzone z ciebie potomstwo *\nposadzę na twoim tronie.\nRefren.\nA jeśli twoi synowie zachowają moje przymierze *\ni wskazania, których im udzielę,\ntakże ich synowie *\nzasiądą na tronie po wieczne czasy».\nRefren.\nPan bowiem wybrał Syjon, *\ntej siedziby zapragnął dla siebie.\n«Oto miejsce mego odpoczynku na wieki, *\ntu będę mieszkał, bo wybrałem je sobie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Twoje słowo jest pochodnią dla stóp moich, Panie,\ni światłem na mojej ścieżce."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 21-25",
+      "opis": "Przypowieść o świetle",
+      "tekst": "Jezus mówił ludowi:\n«Czy po to wnosi się światło, by je umieścić pod korcem lub pod łóżkiem? Czy nie po to, żeby je umieścić na świeczniku? Nie ma bowiem nic ukrytego, co by nie miało wyjść na jaw. Kto ma uszy do słuchania, niechaj słucha!»\nI mówił im: «Baczcie na to, czego słuchacie. Taką samą miarą, jaką wy mierzycie, odmierzą wam i jeszcze wam dołożą. Bo kto ma, temu będzie dodane; a kto nie ma, pozbawią go nawet tego, co ma».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, co jest obowiązkiem tych, którzy otrzymali światło wiary, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego obietnicę otrzymuje Dawid w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do oddawania czci Bogu, który jest wierny swoim obietnicom, jak te dane Dawidowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych dobrych uczynków, które są odpowiedzią na Jego błogosławieństwo, o które prosi Dawid.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynny charakter pieśni oddaje ducha modlitwy Dawida, wdzięcznego za Boże obietnice.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, podobna do tej, którą zanosi Dawid za swój dom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która jest światłem umieszczonym na świeczniku, aby oświecać innych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest naszym światłem i pokarmem na drodze wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszym światłem i życiem, dawanym nam w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Boże obietnice dane Dawidowi i na dar światła Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za Boże obietnice i dar wiary, która jest światłem na naszej drodze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże błogosławieństwo, o które prosił i które otrzymał król Dawid.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jest to pieśń misyjna, która wzywa do niesienia światła Ewangelii wszystkim narodom, aby nic nie pozostało w ukryciu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszym światłem i drogą, którą chcemy podążać i ukazywać innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, abyśmy mogli być światłem dla świata i nieść je innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Przypomina o Chrystusie, potomku Dawida, który jest światłością świata i wypełnieniem Bożych obietnic.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta głosi królowanie Chrystusa, potomka Dawida, którego tron Bóg utwierdził na wieki.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest wypełnieniem obietnicy danej Dawidowi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które jest światłem, trwało w nas i nas prowadziło.",
+      "moment": "ogolne"
+    }
+  ]
+}

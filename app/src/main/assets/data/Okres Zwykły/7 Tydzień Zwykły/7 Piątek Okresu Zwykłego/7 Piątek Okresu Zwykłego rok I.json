@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416143.Piatek-VII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "7 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 6, 5-17",
+      "opis": "Prawdziwa przyjaźń",
+      "tekst": "Miła mowa przyciąga przyjaciół, a język uprzejmy miłe słowa. Żyjących z tobą w pokoju niech będzie wielu, ale doradców - jeden na tysiąc!\nJeżeli chcesz mieć przyjaciela, zdobądź go po próbie, a niezbyt szybko mu zaufaj!\nBywa bowiem przyjaciel, ale tylko na czas jemu dogodny, nie pozostanie nim w dzień twego ucisku.\nBywa przyjaciel, który przechodzi do nieprzyjaźni i wyjawia wasz spór na twoją hańbę. Bywa przyjaciel, ale tylko jako towarzysz stołu, nie pozostanie nim w dniu twego ucisku.\nW powodzeniu twoim będzie jak drugi ty, z domownikami twymi będzie w zażyłości. Jeśli zaś zostaniesz poniżony, stanie przeciw tobie i skryje się przed twym obliczem.\nOddal się od swoich nieprzyjaciół, a miej się na baczności przed swymi przyjaciółmi.\nWierny przyjaciel potężną obroną, kto go znalazł, skarb znalazł. Za wiernego przyjaciela nie ma odpłaty ani równej wagi za wielką jego wartość.\nWierny przyjaciel jest lekarstwem życia; znajdą go bogobojni. Bogobojny dobrze pokieruje swoją przyjaźnią, bo jaki jest on, taki i jego przyjaciel.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 12 i 16. 18 i 27. 34-35 (R.: por. 35a)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, ścieżką Twych przykazań.\nBłogosławiony jesteś, Panie, *\nnaucz mnie swoich ustaw.\nBędę się radował z Twoich ustaw *\ni słów Twoich nie zapomnę.\nRefren.\nOtwórz moje oczy, *\nabym podziwiał Twoje Prawo.\nPozwól mi zrozumieć drogę Twych przykazań, *\nabym rozważał Twoje cuda.\nRefren.\nUcz mnie, bym przestrzegał Twego Prawa *\ni zachowywał je całym sercem.\nProwadź mnie ścieżką Twoich przykazań, *\nbo radość mi przynoszą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 1-12",
+      "opis": "Nierozerwalność małżeństwa",
+      "tekst": "Jezus przyszedł w granice Judei i Zajordania. A tłumy znowu ściągały do Niego i znów je nauczał, jak miał w zwyczaju.\nI przystąpili do Niego faryzeusze, a chcąc Go wystawić na próbę, pytali Go, czy wolno mężowi oddalić żonę.\nOdpowiadając, zapytał ich: «Co wam przykazał Mojżesz?»\nOni rzekli: «Mojżesz pozwolił napisać list rozwodowy i oddalić».\nWówczas Jezus rzekł do nich: «Przez wzgląd na zatwardziałość serc waszych napisał wam to przykazanie. Lecz na początku stworzenia Bóg stworzył ich jako mężczyznę i kobietę: dlatego opuści człowiek ojca swego i matkę i złączy się ze swoją żoną, i będą oboje jednym ciałem. A tak już nie są dwojgiem, lecz jednym ciałem. Co więc Bóg złączył, tego niech człowiek nie rozdziela».\nW domu uczniowie raz jeszcze pytali Go o to. Powiedział im: «Kto oddala swoją żonę, a bierze inną, popełnia względem niej cudzołóstwo. I jeśli żona opuści swego męża, a wyjdzie za innego, popełnia cudzołóstwo».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń ta podkreśla wartość wspólnoty i rodziny, co jest dobrym wprowadzeniem do tematyki przyjaźni i małżeństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta wskazuje na miłość jako fundament wierności w przyjaźni i małżeństwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest fundamentem zarówno prawdziwej przyjaźni, jak i nierozerwalnego małżeństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do wierności w przyjaźni i nierozerwalności małżeństwa, które są wyrazem prawdziwej miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu swojego życia i relacji, prosząc o ich uświęcenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni składamy dar, prosząc o łaskę wierności w relacjach międzyludzkich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność, do której powołani są małżonkowie, stając się 'jednym ciałem' w Chrystusie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest źródłem miłości, która uzdalnia do wierności w małżeństwie i przyjaźni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Medytacyjny kanon podkreśla, że Bóg jest obecny tam, gdzie jest miłość, co jest istotą powołania do przyjaźni i małżeństwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wspólnoty Kościoła, w której uczymy się wierności Bogu i ludziom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar przyjaźni i małżeństwa, które są odbiciem miłości Bożej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosty akt miłości, który jest fundamentem wszystkich wiernych relacji.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo dla codziennego trudu budowania wiernych relacji w małżeństwie i przyjaźni.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to prośba o jedność w miłości, która jest istotą powołania małżeńskiego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że podążanie za Chrystusem jest drogą do budowania trwałych i świętych relacji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest fundamentem zarówno prawdziwej przyjaźni, jak i nierozerwalnego małżeństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to prośba o jedność w miłości, która jest istotą powołania małżeńskiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie uczenia się dróg Pańskich, które są drogami wierności i miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest źródłem siły do budowania trwałych relacji.",
+      "moment": "ogolne"
+    }
+  ]
+}

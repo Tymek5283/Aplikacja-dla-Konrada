@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 117,1-2",
-      "opis": "Refren:",
-      "tekst": "Idźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
+      "opis": "",
+      "tekst": "Refren:\nIdźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "576",
+      "piesn": "Błogosławione serca",
+      "opis": "Pieśń sławi tych, którzy głoszą Słowo Boże, co jest istotą powołania każdego apostoła, w tym także św. Tomasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla, że cały Kościół jest ludem Bożym, zbudowanym na fundamencie Apostołów, co jest główną myślą pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "239",
       "piesn": "Ja wiem, w Kogo ja wierzę",
       "opis": "Tekst tej pieśni doskonale oddaje istotę wyznania wiary św. Tomasza, stąd jest to świetna propozycja na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na ofiarowanie, w której składamy Bogu dary chleba i wina, prosząc o ich przemianę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "274",
+      "piesn": "Sławcie, usta, Ciało Pana",
+      "opis": "Hymn eucharystyczny, który wzywa do oddania czci Ciału i Krwi Pańskiej, co jest centralnym punktem każdej Mszy Świętej.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum jest odpowiednim dziękczynieniem za dar wiary, która jest głównym tematem dzisiejszego święta.",
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoracyjna, która pomaga rozważać tajemnicę obecności Chrystusa w Eucharystii, podobnie jak Tomasz rozważał tajemnicę Jego zmartwychwstania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta łączy przyjęcie Eucharystii z obietnicą życia wiecznego, co jest owocem wiary w Zmartwychwstałego Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i ratunek, co odzwierciedla przejście Tomasza od zwątpienia do głębokiej wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uniwersalny hymn pochwalny, który wzywa całe stworzenie do oddania chwały Bogu, co jest odpowiedzią na objawienie się Zmartwychwstałego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń uwielbienia, która wyraża radość płynącą z odnalezionej wiary i spotkania z Panem.",
       "moment": "uwielbienie"
     },
     {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń ta realizuje misyjne wezwanie z psalmu responsoryjnego, podkreślając apostolski wymiar święta i posłanie do głoszenia Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta jest wezwaniem do głoszenia chwały Pana, co jest zadaniem każdego ochrzczonego, a zwłaszcza apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest naszą nadzieją, co jest przesłaniem, które apostołowie niosą światu.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "1",
       "piesn": "Błogosławieni",
       "opis": "Nawiązuje do słów Jezusa z Ewangelii i aklamacji: 'Błogosławieni, którzy nie widzieli, a uwierzyli', podkreślając wartość wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn wyrażający wdzięczność i oddanie Bogu, co jest postawą dojrzałej wiary, do której doszedł św. Tomasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm o ufności w Bożą opiekę, która jest owocem prawdziwej wiary, nawet jeśli początkowo była ona pełna wątpliwości.",
       "moment": "ogolne"
     }
   ]

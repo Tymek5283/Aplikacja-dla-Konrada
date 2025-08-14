@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429089.Piatek-21-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "21 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 1, 17-25",
+      "opis": "Mądrość świata i mądrość Boża",
+      "tekst": "Bracia:\nNie posłał mnie Chrystus, abym chrzcił, lecz abym głosił Ewangelię, i to nie w mądrości słowa, by nie zniweczyć Chrystusowego krzyża. Nauka bowiem krzyża głupstwem jest dla tych, co idą na zatracenie, mocą Bożą zaś dla nas, którzy dostępujemy zbawienia.\nNapisane jest bowiem: «Wytracę mądrość mędrców, a przebiegłość przebiegłych zniweczę». Gdzie jest mędrzec? Gdzie uczony? Gdzie badacz tego świata? Czyż nie uczynił Bóg mądrości świata głupstwem?\nSkoro bowiem świat przez mądrość nie poznał Boga w mądrości Bożej, spodobało się Bogu przez głupstwo głoszenia słowa zbawiać wierzących. Tak więc, gdy Żydzi żądają znaków, a Grecy szukają mądrości, my głosimy Chrystusa ukrzyżowanego, który jest zgorszeniem dla Żydów, a głupstwem dla pogan, dla tych zaś, którzy są powołani, tak spośród Żydów, jak i spośród Greków - Chrystusem, mocą Bożą i mądrością Bożą. To bowiem, co jest głupstwem u Boga, przewyższa mądrością ludzi, a co jest słabe u Boga, przewyższa mocą ludzi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 1-2. 4-5. 10-11 (R.: por. 5b)",
+      "opis": "",
+      "tekst": "Refren: Pełna jest ziemia łaskawości Pana.\nSprawiedliwi, radośnie wołajcie na cześć Pana, *\nprawym przystoi pieśń chwały.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nRefren.\nBo słowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nPan udaremnia zamiary narodów, *\nwniwecz obraca zamysły ludów.\nZamiary Pana trwają na wieki, *\nzamysły Jego serca przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 25, 1-13",
+      "opis": "Przypowieść o dziesięciu pannach",
+      "tekst": "Jezus opowiedział swoim uczniom tę przypowieść:\n«Podobne będzie królestwo niebieskie do dziesięciu panien, które wzięły swoje lampy i wyszły na spotkanie pana młodego. Pięć z nich było nierozsądnych, a pięć roztropnych. Nierozsądne wzięły lampy, ale nie wzięły z sobą oliwy. Roztropne zaś razem z lampami zabrały również oliwę w swoich naczyniach. Gdy się pan młody opóźniał, senność ogarnęła wszystkie i posnęły.\nLecz o północy rozległo się wołanie: „Oto pan młody idzie, wyjdźcie mu na spotkanie!” Wtedy powstały wszystkie owe panny i opatrzyły swe lampy. A nierozsądne rzekły do roztropnych: „Użyczcie nam swej oliwy, bo nasze lampy gasną”. Odpowiedziały roztropne: „Mogłoby i nam, i wam nie wystarczyć. Idźcie raczej do sprzedających i kupcie sobie”.\nGdy one szły kupić, nadszedł pan młody. Te, które były gotowe, weszły z nim na ucztę weselną, i drzwi zamknięto.\nNadchodzą w końcu i pozostałe panny, prosząc: „Panie, panie, otwórz nam!” Lecz on odpowiedział: „Zaprawdę, powiadam wam, nie znam was”.\nCzuwajcie więc, bo nie znacie dnia ani godziny».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa, wzywająca do czuwania i gotowości ('Ze snu powstać już pora!'), idealnie oddaje sens Ewangelii o pannach roztropnych i nierozsądnych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i konieczności gotowości, co jest głównym przesłaniem przypowieści o dziesięciu pannach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Chociaż jest to pieśń adwentowa, jej treść o przygotowaniu na przyjście Pana w pełni odpowiada dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o krzyżu Chrystusa, który jest 'mocą Bożą i mądrością Bożą', o czym naucza św. Paweł w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Głoszenie Chrystusa ukrzyżowanego, które jest 'głupstwem dla świata', jest istotą naszej ofiary duchowej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "124",
+      "piesn": "Krzyżu święty nade wszystko",
+      "opis": "Adoracja krzyża jest wyrazem wiary w Bożą moc i mądrość, objawioną w 'głupstwie głoszenia słowa'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Eucharystia jest ucztą weselną z Panem Młodym, na którą, jak poucza Ewangelia, trzeba być zawsze gotowym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest uczestnictwem w uczcie weselnej, na którą weszły panny roztropne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę czuwania i oczekiwania na Pana, który przychodzi w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem czci dla Bożej mądrości, która dla świata jest głupstwem, a dla wierzących mocą zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń uwielbienia jest odpowiedzią na wezwanie psalmu do radosnego wołania na cześć Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą tych, którzy z płonącymi lampami oczekują na przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna jest modlitwą o czujność i opiekę Bożą, co stanowi praktyczne zastosowanie wezwania z Ewangelii: 'Czuwajcie'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wierności Bogu, która jest wyrazem postawy czuwających panien.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i gotowości do obrony wiary, co jest cechą ludzi czuwających i gotowych na przyjście Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości królestwa i konieczności nawrócenia, co jest warunkiem wejścia na ucztę weselną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest tożsame z posiadaniem oliwy w lampach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę ufności i oczekiwania na Pana, do której wzywa dzisiejsza Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do czuwania i gromadzenia 'oliwy' dobrych uczynków.",
+      "moment": "ogolne"
+    }
+  ]
+}

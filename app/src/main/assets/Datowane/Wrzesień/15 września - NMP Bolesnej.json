@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 31, 2-3b.3c-4.5-6.15-16.20",
-      "opis": "Refren:",
-      "tekst": "Wybaw mnie, Panie, w miłosierdziu swoim.\nPanie, do Ciebie się uciekam,\nniech nigdy nie doznam zawodu,\nwybaw mnie w sprawiedliwości Twojej.\nNakłoń ku mnie Twe ucho,\npospiesz, aby mnie ocalić.\nBądź dla mnie skałą schronienia,\nwarownią, która ocala.\nTy bowiem jesteś moją skałą i twierdzą,\nkieruj mną i prowadź przez wzgląd na swe imię.\nWydobądź z sieci zastawionej na mnie,\nbo Ty jesteś moją ucieczką.\nW ręce Twoje powierzam ducha mego.\nTy mnie odkupisz, Panie, wierny Boże.\nJa zaś pokładam ufność w Tobie, Panie,\ni mówię: „Ty jesteś moim Bogiem”.\nW Twoim ręku są moje losy,\nwyrwij mnie z rąk wrogów i prześladowców.\nJakże jest wielka dobroć Twoja, Panie,\nktórą zachowałeś dla bogobojnych.\nOkazujesz ją tym, którzy uciekają się do Ciebie\nna oczach ludzi."
+      "opis": "",
+      "tekst": "Refren:\nWybaw mnie, Panie, w miłosierdziu swoim.\nPanie, do Ciebie się uciekam,\nniech nigdy nie doznam zawodu,\nwybaw mnie w sprawiedliwości Twojej.\nNakłoń ku mnie Twe ucho,\npospiesz, aby mnie ocalić.\nBądź dla mnie skałą schronienia,\nwarownią, która ocala.\nTy bowiem jesteś moją skałą i twierdzą,\nkieruj mną i prowadź przez wzgląd na swe imię.\nWydobądź z sieci zastawionej na mnie,\nbo Ty jesteś moją ucieczką.\nW ręce Twoje powierzam ducha mego.\nTy mnie odkupisz, Panie, wierny Boże.\nJa zaś pokładam ufność w Tobie, Panie,\ni mówię: „Ty jesteś moim Bogiem”.\nW Twoim ręku są moje losy,\nwyrwij mnie z rąk wrogów i prześladowców.\nJakże jest wielka dobroć Twoja, Panie,\nktórą zachowałeś dla bogobojnych.\nOkazujesz ją tym, którzy uciekają się do Ciebie\nna oczach ludzi."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "361",
+      "piesn": "Nie opuszczaj nas… Matko",
+      "opis": "Pieśń ta, a zwłaszcza słowa 'Tak pod krzyżem będziem stali', wprowadza wiernych w tajemnicę współcierpienia Maryi z Chrystusem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "372",
+      "piesn": "O Matko miłościwa",
+      "opis": "Jest to błagalna pieśń do Matki Bożej, która w swoim cierpieniu jest dla nas szczególną ucieczką i nadzieją.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "390",
       "piesn": "Serdeczna Matko",
       "opis": "Ta pieśń, wspominając boleść Serca Maryi pod krzyżem, jest doskonałą medytacją na przygotowanie darów ofiarnych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "332",
+      "piesn": "Do Serca Twego, Pani świata",
+      "opis": "Pieśń ta jest aktem zawierzenia cierpiącemu Sercu Maryi, co dobrze koresponduje z ofiarowaniem darów na ołtarzu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "375",
+      "piesn": "Panie, w ofierze Tobie",
+      "opis": "W tej pieśni, łącząc nasze cierpienia z ofiarą Chrystusa, odnajdujemy nadzieję w macierzyństwie Bolesnej Matki.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń pasyjna, która rozważa mękę Chrystusa, widzianą oczami Jego Matki, co pogłębia przeżycie Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta łączy tajemnicę Eucharystii z ofiarą krzyża, której pierwszym świadkiem i uczestnikiem była Matka Bolesna.",
+      "moment": "komunia"
+    },
+    {
       "numer": "361",
       "piesn": "Nie opuszczaj nas… Matko",
       "opis": "Słowa 'Tak pod krzyżem będziem stali, z Tobą krwawą łzą płakali' czynią tę pieśń idealną na dziękczynienie po Komunii Świętej.",
-      "moment": "uwielibienie"
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "382",
+      "piesn": "Pomnij Mario, Matko miła",
+      "opis": "Modlitwa św. Bernarda jest wyrazem ufności w macierzyńskie wstawiennictwo Maryi, która pod krzyżem stała się Matką wszystkich ludzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "655",
+      "piesn": "Witaj, Królowo nieba",
+      "opis": "Antyfona 'Salve Regina' w formie pieśni jest hołdem dla Matki litości, która poznała głębię cierpienia.",
+      "moment": "uwielbienie"
     },
     {
       "numer": "375",
       "piesn": "Panie, w ofierze Tobie",
       "opis": "Pieśń o cierpieniu i nadziei odnajdywanej w macierzyństwie Maryi jest odpowiednim zwieńczeniem liturgii ku czci Matki Bolesnej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o zbawczej mocy krzyża Chrystusa, pod którym wiernie trwała Jego Matka, jest dobrym posłaniem na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "300",
+      "piesn": "Serce Twe, Jezu",
+      "opis": "Pieśń o miłości Serca Jezusowego, zranionego na krzyżu, przypomina o współcierpieniu Serca Maryi.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "332",
       "piesn": "Do Serca Twego, Pani świata",
       "opis": "W tej pieśni wierni garną się do Serca Maryi, zwłaszcza w chwilach cierpienia, co doskonale koresponduje z tematem wspomnienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "303",
+      "piesn": "Twemu Sercu cześć składamy",
+      "opis": "Chociaż pieśń jest do Serca Jezusowego, jej treść o ranie zadanej włócznią na krzyżu bezpośrednio łączy się z boleścią Serca Maryi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń pasyjna, która pomaga rozważać mękę Pana w jedności z Jego Bolesną Matką.",
       "moment": "ogolne"
     }
   ]

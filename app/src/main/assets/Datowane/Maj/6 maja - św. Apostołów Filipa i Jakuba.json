@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 19,2-3.4-5",
-      "opis": "Refren:",
-      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+      "opis": "",
+      "tekst": "Refren:\nPo całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna podkreśla prawdę o Zmartwychwstaniu, która była fundamentem głoszenia Apostołów, o czym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta celebruje Kościół jako lud Boży, zgromadzony dzięki nauczaniu i świadectwu Apostołów.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "447",
       "piesn": "Filipie, jakże jaśniejesz",
       "opis": "Pieśń dedykowana dzisiejszym patronom, bezpośrednio odnosi się do ich postaci i roli w Kościele, dlatego pasuje do przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Tradycyjna pieśń na przygotowanie darów, wyrażająca postawę pokory i czci wobec tajemnicy Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń eucharystyczna, która w prostych słowach wyraża wdzięczność za dar Ciała i Krwi Pańskiej.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Słowa Jezusa z Ewangelii Janowej o Chlebie Życia są doskonałym uzupełnieniem Jego słów o byciu Drogą, Prawdą i Życiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta łączy tajemnicę Eucharystii ze zmartwychwstaniem Chrystusa, które jest centralną prawdą wiary głoszoną przez Apostołów.",
+      "moment": "komunia"
+    },
+    {
       "numer": "630",
       "piesn": "Wszystkie narody świata",
       "opis": "Ta pieśń uwielbienia odzwierciedla treść psalmu, który mówi o głosie apostołów rozchodzącym się po całej ziemi.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo Chrystusa, będące głównym orędziem apostolskim.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uniwersalny hymn chwały, który wzywa całe stworzenie do wielbienia Boga, którego poznaliśmy dzięki Apostołom.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Apostolskie posłanie do głoszenia Ewangelii, o którym mowa w psalmie, jest głównym tematem tej pieśni na rozesłanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta jest wezwaniem do głoszenia imienia Pana, co stanowi realizację misji powierzonej Apostołom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Wielkanocny hymn wzywający do wysławiania Zmartwychwstałego Chrystusa, którego Apostołowie są świadkami posłanymi do świata.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "596",
       "piesn": "Chrystus, Chrystus, to nadzieja",
       "opis": "Pieśń podkreśla, że Chrystus jest głową Kościoła, co jest prawdą, którą głosili i której świadkami byli Apostołowie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta skupia się na Zmartwychwstaniu jako źródle nadziei, co jest istotą kerygmatu apostolskiego z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, w tym przypadku Apostołów Filipa i Jakuba, którzy są dla nas wzorem wiary.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417012.Sroda-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 3, 4-11",
+      "opis": "Godność sług Nowego Przymierza",
+      "tekst": "Bracia:\nJeżeli dzięki Chrystusowi taką ufność w Bogu pokładamy, to nie dlatego, żebyśmy uważali, iż jesteśmy w stanie pomyśleć coś sami z siebie, lecz wiemy, że ta możność nasza jest z Boga. On też sprawił, że mogliśmy stać się sługami Nowego Przymierza, przymierza nie litery, lecz Ducha; litera bowiem zabija, Duch zaś ożywia.\nAle jeśli posługiwanie śmierci, utrwalone literami w kamieniu, dokonywało się w chwale, tak iż synowie Izraela nie mogli spoglądać na oblicze Mojżesza z powodu blasku jego oblicza, który miał przeminąć, to o ileż bardziej pełne chwały będzie posługiwanie Ducha? Jeżeli bowiem posługiwanie potępieniu jest chwałą, to o ileż bardziej będzie obfitować w chwałę posługiwanie sprawiedliwości. Wobec przeogromnej chwały okazało się w ogóle bez chwały to, co miało chwałę tylko częściową. Jeżeli zaś to, co przemijające, było w chwale, daleko więcej cieszy się chwałą to, co trwa.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 99 (98), 5-6. 7-8. 9 (R.: por. 9c)",
+      "opis": "",
+      "tekst": "Refren: Jesteś najświętszy, Boże nasz i Panie.\nWysławiajcie Pana, naszego Boga, *\npadajcie przed podnóżkiem stóp Jego, bo On jest święty.\nWśród Jego kapłanów są Mojżesz, Aaron i Samuel †\nwśród tych, którzy wzywali Jego imienia, *\nwzywali Pana, a On ich wysłuchał.\nRefren.\nPrzemawiał do nich w słupie obłoku, *\na oni strzegli przykazań i prawa, które im nadał.\nBoże, nasz Panie, Ty ich wysłuchałeś, *\nłaskę im okazałeś, lecz karałeś występki.\nRefren.\nWysławiajcie Pana, *\nBoga naszego,\npokłon oddajcie Jego świętej górze, *\nbo Pan nasz i Bóg jest święty.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 25 (24), 4b. 5a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Naucz mnie, Boże, chodzić Twoimi ścieżkami,\nprowadź mnie w prawdzie według swych pouczeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 17-19",
+      "opis": "Jezus nie znosi Prawa, lecz je wypełnia",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie sądźcie, że przyszedłem znieść Prawo albo Proroków. Nie przyszedłem znieść, ale wypełnić. Zaprawdę bowiem, powiadam wam: Dopóki niebo i ziemia nie przeminą, ani jedna jota, ani jedna kreska nie zmieni się w Prawie, aż się wszystko spełni.\nKtokolwiek więc zniósłby jedno z tych przykazań, choćby najmniejszych, i uczyłby tak ludzi, ten będzie najmniejszy w królestwie niebieskim. A kto je wypełnia i uczy wypełniać, ten będzie wielki w królestwie niebieskim».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do oddania czci Bogu, którego świętość i wielkość podkreśla psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to hymn chwały na cześć świętego Boga, którego Prawo Chrystus przyszedł wypełnić.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń sławi Boga jako Króla, którego Prawo jest wieczne i doskonałe, jak naucza Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Składamy Bogu ofiarę, prosząc o łaskę Ducha, który daje życie, w przeciwieństwie do litery Prawa, która zabija.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem ofiarowania Bogu woli zachowania Jego przykazań, które Chrystus udoskonalił.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarujemy Bogu nasze życie, pragnąc żyć według Ducha Nowego Przymierza, a nie tylko litery Prawa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "W Komunii Świętej spotykamy Tego, który jest wypełnieniem Prawa i Proroków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Adorujemy Chrystusa, który daje nam Ducha ożywiającego, przewyższającego chwałą Prawo Mojżeszowe.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siebie i siłę do wypełniania Jego Prawa z miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Pieśń ta jest odpowiedzią na wezwanie psalmu do oddania czci świętemu Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Hymn chwały na cześć Boga, którego Prawo jest wieczne i niezmienne.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia dla Pana, którego świętość i sprawiedliwość sławimy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wierności Bogu i Jego Prawu, które mamy wypełniać i nauczać wypełniać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby nauczać zachowywania wszystkiego, co Chrystus przykazał, wypełniając stare Prawo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo na trud życia zgodnego z Prawem, które Chrystus udoskonalił.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, którego Prawo jest dla nas drogowskazem i ochroną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest wypełnieniem całego Prawa, o czym przypomina nam Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Chrystus jest naszym Prawem i Drogą; idąc za Nim, wypełniamy wolę Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń podsumowuje dzieło Chrystusa, który ustanowił Nowe Przymierze, oparte na Duchu, a nie na literze.",
+      "moment": "ogolne"
+    }
+  ]
+}

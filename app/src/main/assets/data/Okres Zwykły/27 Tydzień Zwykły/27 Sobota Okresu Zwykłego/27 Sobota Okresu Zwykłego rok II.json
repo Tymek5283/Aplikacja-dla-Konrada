@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416866.Sobota-27-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "27 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 3, 22-29",
+      "opis": "Dzięki wierze jesteśmy dziećmi Bożymi",
+      "tekst": "Bracia:\nPismo poddało wszystko pod władzę grzechu, aby obietnica dostała się dzięki wierze w Jezusa Chrystusa tym, którzy wierzą.\nDo czasu przyjścia wiary byliśmy poddani pod straż Prawa i trzymani w zamknięciu aż do przyszłego objawienia się wiary. Tym sposobem Prawo stało się dla nas wychowawcą, który miał prowadzić ku Chrystusowi, abyśmy dzięki wierze uzyskali usprawiedliwienie. Gdy jednak wiara nadeszła, już nie jesteśmy poddani wychowawcy.\nWszyscy bowiem przez wiarę jesteście synami Bożymi - w Chrystusie Jezusie. Bo wy wszyscy, którzy zostaliście ochrzczeni w Chrystusie, przyoblekliście się w Chrystusa. Nie ma już Żyda ani poganina, nie ma już niewolnika ani człowieka wolnego, nie ma już mężczyzny ani kobiety, wszyscy bowiem jesteście kimś jednym w Chrystusie Jezusie.\nJeżeli zaś należycie do Chrystusa, to jesteście też potomstwem Abrahama, dziedzicami zgodnie z obietnicą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 2-3. 4-5. 6-7 (R.: por. 8a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\nŚpiewajcie i grajcie Mu psalmy, *\nrozgłaszajcie wszystkie Jego cuda.\nSzczyćcie się Jego świętym imieniem, *\nniech się weseli serce szukających Pana.\nRefren.\nRozmyślajcie o Panu i Jego potędze, *\nzawsze szukajcie Jego oblicza.\nPamiętajcie o cudach, które On uczynił, *\no Jego znakach, o wyrokach ust Jego.\nRefren.\nPotomkowie Abrahama, słudzy Jego, *\nsynowie Jakuba, Jego wybrańcy.\nOn, Pan, jest naszym Bogiem, *\nJego wyroki obejmują świat cały.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 27-28",
+      "opis": "Błogosławieni ci, którzy słuchają słowa Bożego",
+      "tekst": "Gdy Jezus mówił, jakaś kobieta z tłumu głośno zawołała do Niego: «Błogosławione łono, które Cię nosiło, i piersi, które ssałeś».\nLecz On rzekł: «Tak, błogosławieni są raczej ci, którzy słuchają słowa Bożego i go przestrzegają».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń podkreśla, że przez wiarę i chrzest stajemy się dziećmi Bożymi, co jest główną myślą pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina historię zbawienia, w której przez Chrystusa staliśmy się dziećmi Bożymi, co jest głównym tematem czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest kluczowa, gdyż to przez wiarę, jak uczy pierwsze czytanie, stajemy się dziedzicami obietnicy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "340",
+      "piesn": "Jak szczęśliwa Polska cała",
+      "opis": "Ta pieśń maryjna dobrze wpisuje się w kontekst Ewangelii, w której kobieta z tłumu wychwala Matkę Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Historyczna pieśń do Matki Bożej, która jest błogosławiona, ponieważ nosiła w łonie Słowo Wcielone.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "332",
+      "piesn": "Do Serca Twego, Pani świata",
+      "opis": "Zwrócenie się do Maryi, która jest wzorem słuchania i zachowywania Słowa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności w Chrystusie, która znosi podziały, nawiązuje do słów św. Pawła: „Nie ma już Żyda ani poganina...”.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla jednoczącą moc Eucharystii, w której wszyscy jesteśmy 'kimś jednym w Chrystusie Jezusie'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pan zaprasza na ucztę wszystkich, bez względu na pochodzenie, co jest wypełnieniem obietnicy danej potomstwu Abrahama.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar życia i wiary przez Jezusa Chrystusa idealnie pasuje jako uwielbienie po Komunii Świętej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar bycia dzieckiem Bożym i dziedzicem obietnicy, o czym mówi św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże cuda i wierność przymierzu, o których przypomina psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń do Matki Bożej, która jest wzorem słuchania i zachowywania Słowa Bożego, co podkreśla Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "376",
+      "piesn": "Panno Święta",
+      "opis": "Maryja jest wzorem słuchania Słowa Bożego, co czyni Ją błogosławioną ponad wszystkie niewiasty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Pieśń jest modlitwą do Tej, która jest błogosławiona, ponieważ nosiła w łonie Słowo Wcielone.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach jest rozwinięciem słów Jezusa o tym, kto jest prawdziwie błogosławiony.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność Kościoła, w którym, jak pisze św. Paweł, nie ma już podziałów na Żyda czy poganina.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana i Jego Słowa w naszym życiu jest odpowiedzią na Ewangelię.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o jedność w Chrystusie, która jest darem dla wszystkich ochrzczonych, jak uczy pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

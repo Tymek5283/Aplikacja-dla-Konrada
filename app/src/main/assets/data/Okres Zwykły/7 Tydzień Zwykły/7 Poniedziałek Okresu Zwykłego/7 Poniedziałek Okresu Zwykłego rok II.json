@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416141.Poniedzialek-VII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "7 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 3, 13-18",
+      "opis": "Mądrość zstępująca z góry",
+      "tekst": "Najmilsi:\nKto spośród was jest mądry i rozsądny? Niech wykaże się w swoim nienagannym postępowaniu uczynkami spełnianymi z łagodnością właściwą mądrości. Ale jeśli żywicie w sercach waszych gorzką zazdrość i skłonność do kłótni, to nie przechwalajcie się i nie kłamcie wbrew prawdzie.\nNie na tym polega zstępująca z góry mądrość, ale mądrość ziemska, zmysłowa i szatańska. Gdzie bowiem zazdrość i żądza sporu, tam też bezład i wszelki występek. Mądrość zaś zstępująca z góry jest przede wszystkim czysta, dalej - skłonna do zgody, ustępliwa, posłuszna, pełna miłosierdzia i dobrych owoców, wolna od względów ludzkich i obłudy. Owoc zaś sprawiedliwości sieją w pokoju ci, którzy zaprowadzają pokój.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8. 9. 10. 15",
+      "opis": "",
+      "tekst": "Refren: Nakazy Pana są radością serca.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nNiech znajdą uznanie przed Tobą †\nsłowa ust moich i myśli mego serca, *\nPanie, moja Opoko i mój Zbawicielu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 14-29",
+      "opis": "Uzdrowienie opętanego epileptyka",
+      "tekst": "Gdy Jezus z Piotrem, Jakubem i Janem zstąpił z góry i przyszedł do uczniów, ujrzał wielki tłum wokół nich i uczonych w Piśmie, którzy rozprawiali z nimi. Skoro Go zobaczyli, zaraz podziw ogarnął cały tłum i przybiegając, witali Go.\nOn ich zapytał: «O czym rozprawiacie z nimi?»\nJeden z tłumu odpowiedział Mu: «Nauczycielu, przyprowadziłem do Ciebie mojego syna, który ma ducha niemego. Ten, gdziekolwiek go pochwyci, rzuca nim, a on wtedy się pieni, zgrzyta zębami i drętwieje. Powiedziałem Twoim uczniom, żeby go wyrzucili, ale nie mogli».\nOdpowiadając im, Jezus rzekł: «O plemię niewierne, jak długo mam być z wami? Jak długo mam was znosić? Przyprowadźcie go do Mnie!» I przywiedli go do Niego. Na widok Jezusa duch zaraz począł miotać chłopcem, tak że upadł na ziemię i tarzał się z pianą na ustach.\nJezus zapytał ojca: «Od jak dawna to mu się zdarza?»\nTen zaś odrzekł: «Od dzieciństwa. I często wrzucał go nawet w ogień i w wodę, żeby go zgubić. Lecz jeśli coś możesz, zlituj się nad nami i pomóż nam».\nJezus mu odrzekł: «Jeśli możesz? Wszystko możliwe jest dla tego, kto wierzy».\nZaraz ojciec chłopca zawołał: «Wierzę, zaradź memu niedowiarstwu!»\nA Jezus, widząc, że tłum się zbiega, rozkazał surowo duchowi nieczystemu: «Duchu niemy i głuchy, rozkazuję ci, wyjdź z niego i więcej w niego nie wchodź!» A ten krzyknął i wyszedł, silnie nim miotając. Chłopiec zaś pozostawał jak martwy, tak że wielu mówiło: «On umarł». Lecz Jezus ujął go za rękę i podniósł, a on wstał.\nA gdy przyszedł do domu, uczniowie pytali Go na osobności: «Dlaczego my nie mogliśmy go wyrzucić?»\nPowiedział im: «Ten rodzaj można wyrzucić tylko modlitwą i postem».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do spotkania z Chrystusem, który ma moc uzdrawiania, co jest centralnym wydarzeniem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaprasza do zgromadzenia się przed Panem, który ma moc uzdrowienia i udziela mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża postawę szukania Pana i wołania o pomoc, tak jak ojciec z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, której potrzebował ojciec chorego chłopca i której brakowało uczniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża ofiarowanie Bogu swojego niedowiarstwa i prośbę o umocnienie wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasz trud walki z niewiarą i prosimy o Jego interwencję.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokornej wiary, z jaką ojciec chłopca zwrócił się do Jezusa: 'Wierzę, zaradź memu niedowiarstwu!'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje postawę człowieka, który z wiarą i bojaźnią zbliża się do uzdrawiającego Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Jest to akt wiary w moc Chrystusa, który przychodzi w Eucharystii, by wyrzucić z nas zło.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą interwencję i uzdrowienie, które jest owocem wiary, modlitwy i postu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar uzdrowienia i umocnienia w wierze, którego doświadczył ojciec i syn.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na doświadczenie Bożej mocy i miłosierdzia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-wyznanie wiary, która posyła wiernych do życia opartego na mądrości z góry, a nie na mądrości ziemskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę życia w wierze, umocnionej modlitwą i postem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że Chrystus jest drogą, którą chcemy podążać, umocnieni Jego łaską.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Podkreśla, że moc do przezwyciężania zła pochodzi od Pana, a nie z ludzkich sił, co jest lekcją dla uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie podążania drogami Pana, które są drogami mądrości i pokoju, jak uczy pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Modlitwa o mądrość zstępującą z góry, o której mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest owocem wiary i modlitwy.",
+      "moment": "ogolne"
+    }
+  ]
+}

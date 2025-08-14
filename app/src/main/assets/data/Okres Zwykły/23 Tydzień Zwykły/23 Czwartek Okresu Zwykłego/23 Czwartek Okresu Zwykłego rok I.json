@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424670.Czwartek-23-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "23 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 3, 12-17",
+      "opis": "Miłość jest więzią doskonałości",
+      "tekst": "Bracia:\nJako wybrańcy Boży - święci i umiłowani - obleczcie się w serdeczne współczucie, w dobroć, pokorę, cichość, cierpliwość, znosząc jedni drugich i wybaczając sobie nawzajem, jeśliby ktoś miał coś do zarzucenia drugiemu: jak Pan wybaczył wam, tak i wy.\nNa to zaś wszystko przywdziejcie miłość, która jest spoiwem doskonałości. A w sercach waszych niech panuje pokój Chrystusowy, do którego też zostaliście wezwani w jednym Ciele. I bądźcie wdzięczni.\nSłowo Chrystusa niech w was mieszka w całym swym bogactwie: z całą mądrością nauczajcie i napominajcie siebie, psalmami, hymnami, pieśniami pełnymi ducha, pod wpływem łaski śpiewając Bogu w waszych sercach. A cokolwiek mówicie lub czynicie, wszystko niech będzie w imię Pana Jezusa, dziękując Bogu Ojcu przez Niego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 150, 1b-2. 3-4. 5-6a (R.: 6a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Wszystko, co żyje, niechaj chwali Pana.\nChwalcie Boga w Jego świątyni, *\nchwalcie na ogromnym Jego nieboskłonie.\nChwalcie Go za potężne Jego dzieła, *\nchwalcie za niezmierzoną wielkość Jego.\nRefren.\nChwalcie Go dźwiękiem rogu, *\nchwalcie na harfie i cytrze.\nChwalcie Go bębnem i tańcem, *\nchwalcie na strunach i flecie.\nRefren.\nChwalcie Go na dźwięcznych cymbałach, *\nchwalcie na cymbałach brzęczących.\nWszystko, co żyje, *\nniechaj chwali Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 J 4, 12bcd",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeżeli miłujemy się wzajemnie, Bóg w nas mieszka\ni miłość ku Niemu jest w nas doskonała."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 27-38",
+      "opis": "Przykazanie miłości nieprzyjaciół",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Powiadam wam, którzy słuchacie: Miłujcie waszych nieprzyjaciół; dobrze czyńcie tym, którzy was nienawidzą; błogosławcie tym, którzy was przeklinają, i módlcie się za tych, którzy was oczerniają. Jeśli cię kto uderzy w policzek, nadstaw mu i drugi. Jeśli zabiera ci płaszcz, nie broń mu i szaty. Dawaj każdemu, kto cię prosi, a nie dopominaj się zwrotu od tego, który bierze twoje. Jak chcecie, żeby ludzie wam czynili, podobnie wy im czyńcie.\nJeśli bowiem miłujecie tych tylko, którzy was miłują, jakaż za to należy się wam wdzięczność? Przecież i grzesznicy okazują miłość tym, którzy ich miłują. I jeśli dobrze czynicie tym tylko, którzy wam dobrze czynią, jaka za to należy się wam wdzięczność? I grzesznicy to samo czynią. Jeśli pożyczek udzielacie tym, od których spodziewacie się zwrotu, jakaż za to należy się wam wdzięczność? I grzesznicy pożyczają grzesznikom, żeby tyleż samo otrzymać.\nWy natomiast miłujcie waszych nieprzyjaciół, czyńcie dobrze i pożyczajcie, niczego się za to nie spodziewając. A wasza nagroda będzie wielka i będziecie synami Najwyższego; ponieważ On jest dobry dla niewdzięcznych i złych. Bądźcie miłosierni, jak Ojciec wasz jest miłosierny. Nie sądźcie, a nie będziecie sądzeni; nie potępiajcie, a nie będziecie potępieni; odpuszczajcie, a będzie wam odpuszczone. Dawajcie, a będzie wam dane; miarę dobrą, ubitą, utrzęsioną i wypełnioną ponad brzegi wsypią w zanadrza wasze. Odmierzą wam bowiem taką miarą, jaką wy mierzycie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta jest echem Ewangelii i pierwszego czytania, stawiając miłość jako fundament i spoiwo doskonałości życia chrześcijańskiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń podkreśla, że miłość, dobroć i przebaczenie są znakiem obecności Boga we wspólnocie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Modlitwa o jedność w miłości jest odpowiedzią na wezwanie do przywdziania miłości jako 'spoiwa doskonałości'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Składając dary, prosimy, aby Bóg był pośród nas, co dzieje się tam, gdzie panuje miłość i przebaczenie, o których mówią czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do konkretnych czynów miłości, takich jak serdeczne miłosierdzie i wybaczanie, o których mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca, które pragnie żyć w miłości i przebaczeniu, na wzór Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Komunia Święta jest najgłębszym zjednoczeniem z Bogiem i z braćmi, o co prosi ta pieśń w duchu dzisiejszych czytań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest sakramentem jedności, która jest owocem miłości i wzajemnego przebaczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Przyjmując Chrystusa, uczymy się od Niego miłości miłosiernej, która obejmuje nawet nieprzyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosna pieśń uwielbienia jest odpowiedzią na wezwanie psalmu responsoryjnego, by wszystko, co żyje, chwaliło Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm 150 jest radosnym wezwaniem do chwalenia Boga na wszelkich instrumentach, co oddaje ta pieśń.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym uwielbieniem, które jest owocem życia w pokoju Chrystusowym i wdzięczności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest prośbą o Boże błogosławieństwo na trud codziennego życia w miłości i miłosierdziu, do którego wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Pieśń jest podsumowaniem całej dzisiejszej liturgii i posłaniem, by żyć dla miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłości i miłosierdzia, której nauczyliśmy się od Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie jest echem wezwania z Ewangelii: 'Bądźcie miłosierni, jak Ojciec wasz jest miłosierny'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła jest konkretnym wyrazem miłości, która jest spoiwem doskonałości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia, która jest konieczna, by móc przebaczać i miłować nieprzyjaciół.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie jest fundamentem, na którym możemy budować postawę miłości nieprzyjaciół.",
+      "moment": "ogolne"
+    }
+  ]
+}

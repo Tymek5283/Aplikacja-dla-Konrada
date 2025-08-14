@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413097.Wtorek-w-Oktawie-Wielkanocy",
+  "tytul_dnia": "Wtorek w Oktawie Wielkanocy",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 2, 36-41",
+      "opis": "Chrzest pierwszych wyznawców Chrystusa",
+      "tekst": "W dniu Pięćdziesiątnicy Piotr mówił do Żydów: «Niech cały dom Izraela wie z niewzruszoną pewnością, że tego Jezusa, którego ukrzyżowaliście, uczynił Bóg i Panem, i Mesjaszem». Gdy to usłyszeli, przejęli się do głębi serca: «Cóż mamy czynić, bracia?» - zapytali Piotra i pozostałych apostołów. «Nawróćcie się - powiedział do nich Piotr - i niech każdy z was przyjmie chrzest w imię Jezusa Chrystusa na odpuszczenie grzechów waszych, a otrzymacie w darze Ducha Świętego. Bo dla was jest obietnica i dla dzieci waszych, i dla wszystkich, którzy są daleko, a których Pan, Bóg nasz, powoła». W wielu też innych słowach dawał świadectwo i napominał: «Ratujcie się spośród tego przewrotnego pokolenia!» Ci więc, którzy przyjęli jego naukę, zostali ochrzczeni. I przyłączyło się owego dnia około trzech tysięcy dusz. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 4-5. 18-19. 20 i 22 (R.: por. 5b)",
+      "opis": "",
+      "tekst": "Refren: Pełna jest ziemia łaskawości Pana.\n\nalbo: Alleluja.\nSłowo Pana jest prawe, *\n\na każde Jego dzieło godne zaufania.\n\nOn miłuje prawo i sprawiedliwość, *\n\nziemia jest pełna Jego łaski.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\n\nna tych, którzy oczekują Jego łaski,\n\naby ocalił ich życie od śmierci *\n\ni żywił ich w czasie głodu.\nRefren.\nDusza nasza oczekuje Pana, *\n\nOn jest naszą pomocą i tarczą.\n\nPanie, niech nas ogarnie Twoja łaska, *\n\nwedług nadziei pokładanej w Tobie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 118 (117), 24",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto dzień, który Pan uczynił,\n\nradujmy się nim i weselmy."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 20, 11-18",
+      "opis": "Ukazanie się Zmartwychwstałego Marii Magdalenie",
+      "tekst": "Maria Magdalena stała przed grobem, płacząc. A kiedy tak płakała, nachyliła się do grobu i ujrzała dwóch aniołów w bieli, siedzących tam, gdzie leżało ciało Jezusa - jednego w miejscu głowy, drugiego w miejscu nóg. I rzekli do niej: «Niewiasto, czemu płaczesz?»\n\nOdpowiedziała im: «Zabrano Pana mego i nie wiem, gdzie Go położono». Gdy to powiedziała, odwróciła się i ujrzała stojącego Jezusa, ale nie wiedziała, że to Jezus. Rzekł do niej Jezus: «Niewiasto, czemu płaczesz? Kogo szukasz?»\n\nOna zaś, sądząc, że to jest ogrodnik, powiedziała do Niego: «Panie, jeśli ty Go przeniosłeś, powiedz mi, gdzie Go położyłeś, a ja Go zabiorę». Jezus rzekł do niej: «Mario!» A ona, obróciwszy się, powiedziała do Niego po hebrajsku: «Rabbuni», to znaczy: Mój Nauczycielu! Rzekł do niej Jezus: «Nie zatrzymuj Mnie, jeszcze bowiem nie wstąpiłem do Ojca. Natomiast udaj się do moich braci i powiedz im: „Wstępuję do Ojca mego i Ojca waszego oraz do Boga mego i Boga waszego”». Poszła Maria Magdalena i oznajmiła uczniom: «Widziałam Pana», i co jej powiedział. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "185",
+      "piesn": "Niech w radosne święto",
+      "opis": "Tekst sekwencji wielkanocnej zawiera dialog: 'Powiedz nam Maryjo, coś w drodze widziała?', co bezpośrednio nawiązuje do świadectwa Marii Magdaleny z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "196",
+      "piesn": "Złóżcie troski, żałujący",
+      "opis": "Utwór opowiada o nowinie Zmartwychwstania przyniesionej przez niewiasty, co jest głównym tematem perykopy ewangelicznej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "188",
+      "piesn": "Otrzyjcie już łzy",
+      "opis": "Piąta zwrotka tej pieśni wprost opisuje ukazanie się Zmartwychwstałego Pana Marii Magdalenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Pieśń ta łączy radość Zmartwychwstania z ofiarą Mszy Świętej, która jest owocem zwycięstwa Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której spotykamy Zmartwychwstałego Pana, tak jak spotkała Go Maria Magdalena.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Pieśń ta, podobnie jak sekwencja, zawiera pytanie skierowane do Marii, co czyni ją szczególnie odpowiednią do dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "W Komunii Świętej przyjmujemy Zmartwychwstałego Pana, który jest naszym pokarmem i źródłem radości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym spotkaniem ze Zmartwychwstałym, który daje nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Jest to radosna proklamacja faktu Zmartwychwstania, którą Maria Magdalena jako pierwsza ogłosiła apostołom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego Maria Magdalena z radością ogłosiła uczniom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Wyraża wielkanocną radość, która napełniła Marię Magdalenę i którą ma zanieść apostołom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Maria Magdalena jako pierwsza otrzymuje misję głoszenia Zmartwychwstania, stając się 'apostołką apostołów'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które Maria Magdalena zaniosła apostołom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o przejściu ze smutku i płaczu do radości i światła, co jest doświadczeniem Marii Magdaleny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren o nawróceniu doskonale koresponduje z wezwaniem Piotra z pierwszego czytania: 'Nawróćcie się'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest fundamentem wiary i świadectwa Marii Magdaleny.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, którą Maria Magdalena zaniosła apostołom.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    }
+  ]
+}

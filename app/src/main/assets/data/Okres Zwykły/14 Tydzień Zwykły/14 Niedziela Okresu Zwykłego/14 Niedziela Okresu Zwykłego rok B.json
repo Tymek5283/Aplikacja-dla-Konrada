@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426656.Niedziela-rok-B",
+  "tytul_dnia": "14 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 2, 2-5",
+      "opis": "Powołanie proroka",
+      "tekst": "Wstąpił we mnie duch, gdy do mnie mówił, i postawił mnie na nogi; potem słuchałem Tego, który do mnie mówił. Powiedział mi:\n«Synu człowieczy, posyłam cię do synów Izraela, do ludu buntowników, którzy Mi się sprzeciwili. Oni i przodkowie ich występowali przeciwko Mnie aż do dnia dzisiejszego.\nTo ludzie o bezczelnych twarzach i zatwardziałych sercach; posyłam cię do nich, abyś im powiedział: Tak mówi Pan Bóg. A oni, czy będą słuchać, czy też zaprzestaną - są bowiem ludem opornym - przecież będą wiedzieli, że prorok jest wśród nich».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 123 (122), 1b-2. 3-4 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Do Ciebie, Boże, wznoszę moje oczy.\nDo Ciebie wznoszę oczy, który mieszkasz w niebie. †\nJak oczy sług są zwrócone na ręce ich panów. *\nJak oczy służebnicy na ręce jej pani,\ntak oczy nasze ku Panu, Bogu naszemu, *\ndopóki się nie zmiłuje nad nami.\nRefren.\nZmiłuj się nad nami, zmiłuj się, Panie, *\nbo mamy już dosyć pogardy.\nPonad miarę nasza dusza jest nasycona *\nszyderstwem zarozumialców i pysznych pogardą.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 12, 7-10",
+      "opis": "Paweł chlubi się ze swoich słabości",
+      "tekst": "Bracia:\nAby nie wynosił mnie zbytnio ogrom objawień, dany mi został oścień dla ciała, wysłannik Szatana, aby mnie policzkował - żebym się nie unosił pychą. Dlatego trzykrotnie prosiłem Pana, aby odszedł ode mnie, lecz mi powiedział: «Wystarczy ci mojej łaski. Moc bowiem w słabości się doskonali». Najchętniej więc będę się chlubił z moich słabości, aby zamieszkała we mnie moc Chrystusa.\nDlatego mam upodobanie w moich słabościach, w obelgach, w niedostatkach, w prześladowaniach, w uciskach z powodu Chrystusa. Albowiem ilekroć niedomagam, tylekroć jestem mocny.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Pański spoczywa na Mnie,\nposłał Mnie, abym ubogim niósł dobrą nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 1-6",
+      "opis": "Jezus lekceważony w Nazarecie",
+      "tekst": "Jezus przyszedł do swego rodzinnego miasta. A towarzyszyli Mu Jego uczniowie. Gdy zaś nadszedł szabat, zaczął nauczać w synagodze; a wielu, przysłuchując się, pytało ze zdziwieniem: «Skąd to u Niego? I co to za mądrość, która Mu jest dana? I takie cuda dzieją się przez Jego ręce! Czy nie jest to cieśla, syn Maryi, a brat Jakuba, Józefa, Judy i Szymona? Czyż nie żyją tu u nas także Jego siostry?» I powątpiewali o Nim.\nA Jezus mówił im: «Tylko w swojej ojczyźnie, wśród swoich krewnych i w swoim domu może być prorok tak lekceważony».\nI nie mógł tam zdziałać żadnego cudu, jedynie na kilku chorych położył ręce i uzdrowił ich. Dziwił się też ich niedowiarstwu. Potem obchodził okoliczne wsie i nauczał.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę w obliczu trudności i odrzucenia, o których mowa w czytaniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest echem psalmu, w którym wierni wznoszą oczy ku Bogu w doświadczeniu pogardy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o Boże błogosławieństwo i miłosierdzie jest odpowiednia w kontekście odrzucenia, którego doświadczył Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta jest ofiarnym aktem oddania Bogu swoich słabości, co nawiązuje do słów św. Pawła: 'Moc w słabości się doskonali'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i ofiarowania serca, które uznaje swoją słabość i polega na Bożej dobroci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Ofiarowanie skruszonego serca jest najmilszą Bogu ofiarą, zwłaszcza w kontekście słabości i grzechu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń o charakterze eucharystycznym wyraża pokorę i wiarę w uzdrawiającą moc Chrystusa, której zabrakło mieszkańcom Nazaretu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Eucharystyczny akt wiary w obecność Chrystusa kontrastuje z niedowiarstwem opisanym w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest mocnym wyznaniem wiary, które przeciwstawia się postawie zwątpienia i niedowiarstwa mieszkańców Nazaretu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń uwielbienia podkreśla, że siła wierzących płynie od Pana, co jest głównym przesłaniem drugiego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn uwielbienia dla Boga, który ratuje i wspiera w chorobie i słabości, co jest echem drugiego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która pozwala dostrzec moc Bożą działającą w ludzkiej słabości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Modlitwa o wiarę jest adekwatnym zakończeniem liturgii, w której Ewangelia mówi o konsekwencjach niedowiarstwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Mimo odrzucenia, Jezus nie przestaje nauczać, co jest dla nas wezwaniem do nieustannej ewangelizacji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i wytrwałości w wierze, nawet w obliczu odrzucenia i niezrozumienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem pomimo trudności i odrzucenia, co jest tematem dzisiejszych czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wyrażając ufne zwrócenie się do Boga w chwili pogardy i niezrozumienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu jest odpowiedzią na doświadczenie słabości, o którym mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaproszenie do Jezusa jest zawsze aktualne, zwłaszcza dla tych, którzy czują się odrzuceni przez świat.",
+      "moment": "ogolne"
+    }
+  ]
+}

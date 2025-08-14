@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411030.Piatek-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 8, 6-13",
+      "opis": "Chrystus pośrednikiem Nowego Przymierza",
+      "tekst": "Bracia:\n\nTeraz Chrystus otrzymał w udziale o tyle wznioślejszą służbę, o ile też stał się pośrednikiem lepszego przymierza, które oparte zostało na lepszych obietnicach. Gdyby bowiem owo pierwsze było bez zarzutu, nie szukano by miejsca na drugie przymierze. Albowiem ganiąc ich, zapowiada: «Oto nadchodzą dni, mówi Pan, a zawrę z domem Izraela i z domem Judy przymierze nowe. Nie takie jednak przymierze, jakie zawarłem z ich domem w dniu, gdy ich wziąłem za rękę, by wyprowadzić ich z ziemi egipskiej. Ponieważ oni nie wytrwali w moim przymierzu, przeto i Ja przestałem dbać o nich, mówi Pan. Takie jest przymierze, które zawrę z domem Izraela po owych dniach, mówi Pan. Nadam prawa moje w ich myśli, i wypiszę je na ich sercach, i będę im Bogiem, a oni będą Mi ludem. I nikt nie będzie uczył swojego rodaka ani nikt swego brata, mówiąc: Poznaj Pana! Bo wszyscy Mnie poznają, od małego aż do wielkiego. Ponieważ ulituję się nad ich nieprawością, a na ich grzechy więcej już nie wspomnę». Skoro zaś mówi o nowym, pierwsze uznał za przestarzałe; a to, co się przedawnia i starzeje, bliskie jest zniszczenia. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 8 i 10. 11-12. 13-14 (R.: 11a)",
+      "opis": "",
+      "tekst": "Refren: Łaska i wierność spotkają się z sobą.\nOkaż nam, Panie, łaskę swoją *\n\ni daj nam swoje zbawienie.\n\nZaprawdę, bliskie jest Jego zbawienie †\n\ndla tych, którzy Mu cześć oddają, *\n\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\n\nucałują się sprawiedliwość i pokój.\n\nWierność z ziemi wyrośnie, *\n\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\n\na nasza ziemia wyda swój owoc.\n\nSprawiedliwość będzie kroczyć przed Nim, *\n\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\n\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 13-19",
+      "opis": "Jezus wybiera dwunastu Apostołów",
+      "tekst": "Jezus wszedł na górę i przywołał do siebie tych, których sam chciał, a oni przyszli do Niego. I ustanowił Dwunastu, aby Mu towarzyszyli, by mógł wysyłać ich na głoszenie nauki i by mieli władzę wypędzać złe duchy. Ustanowił więc Dwunastu: Szymona, któremu nadał imię Piotr; dalej Jakuba, syna Zebedeusza, i Jana, brata Jakuba, którym nadał przydomek Boanerges, to znaczy synowie gromu; dalej Andrzeja, Filipa, Bartłomieja, Mateusza, Tomasza, Jakuba, syna Alfeusza, Tadeusza, Szymona Gorliwego i Judasza Iskariotę, który właśnie Go wydał. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest echem powołania Dwunastu, których Jezus ustanowił, aby wysyłać ich na głoszenie nauki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Pieśń sławi fundament Kościoła, jakim jest kolegium Dwunastu, ustanowione przez Jezusa w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do pójścia za Jezusem, na wzór Apostołów, którzy na Jego wezwanie przyszli do Niego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych myśli, słów i czynów, jako odpowiedź na powołanie do bycia z Jezusem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Apostołowie zostawili wszystko, by pójść za Jezusem; ta pieśń jest naszym aktem oddania się na służbę Panu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest modlitwą o błogosławieństwo dla naszej pracy i misji, na wzór posłannictwa Dwunastu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Powołanie Dwunastu jest fundamentem Kościoła - ludu kapłańskiego, który w Eucharystii jednoczy się ze swoim Panem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas we wspólnotę, której zalążkiem była grupa Dwunastu powołanych przez Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus zaprasza nas na Ucztę, tak jak powołał Dwunastu, aby Mu towarzyszyli i byli z Nim jedno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Jest to pieśń uwielbienia, która zapowiada powszechność zbawienia w Nowym Przymierzu, którego pośrednikiem jest Chrystus.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, który w Chrystusie ustanowił Nowe Przymierze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Utwór ten wzywa całe stworzenie do radości z powodu panowania Pana, którego Apostołowie mają głosić.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń ta jest prośbą o obecność Pana, który powołał Dwunastu, aby Mu towarzyszyli.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Powołani przez Chrystusa, idziemy za Nim jako naszym Wodzem, by głosić Jego królestwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest aktem wierności powołaniu, na wzór Apostołów, którzy poszli za Jezusem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa jest odpowiedzią na Jego powołanie i wejście na drogę bycia Jego uczniem.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o misterium Wcielenia, które jest podstawą Nowego Przymierza, opisanego w pierwszym czytaniu.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus, Pośrednik Nowego Przymierza, jest naszą nadzieją, a Apostołowie są pierwszymi świadkami tej nadziei.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Powołanie apostołów jest darem, który wymaga wiary; prosimy o jej umocnienie, byśmy mogli wiernie odpowiedzieć na nasze powołanie.",
+      "moment": "ogólne"
+    }
+  ]
+}

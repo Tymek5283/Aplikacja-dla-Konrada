@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426652.Sroda-XIV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "14 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 41, 55-57; 42, 5-7. 14-15a. 17-24a",
+      "opis": "Bracia Józefa przybywają do Egiptu",
+      "tekst": "Kiedy w Egipcie głód zaczął się dawać we znaki, ludność domagała się chleba od faraona. Wtedy faraon mówił do wszystkich Egipcjan: «Udajcie się do Józefa i czyńcie, co wam powie». Gdy był głód na całej ziemi, Józef otwierał wszystkie spichlerze, w których było zboże, i sprzedawał zboże Egipcjanom, w miarę jak w Egipcie głód stawał się coraz większy. Ze wszystkich krajów ludzie przybywali do Egiptu, by kupować zboże od Józefa, gdyż głód wzmagał się na całej ziemi.\nPoszli więc synowie Izraela wraz z innymi, którzy tam również się udawali, aby kupić zboża, bo głód był w Kanaanie.\nJózef sprawował władzę w kraju i on to sprzedawał zboże wszystkim mieszkańcom tego kraju. Bracia Józefa, przybywszy do niego, oddali mu pokłon, padając na twarz. Gdy Józef ujrzał swoich braci, poznał ich; jednak udał, że jest im obcy, i przemówił do nich surowo tymi słowami: «Skąd przyszliście?» Odpowiedzieli: «Z Kanaanu, aby kupić żywności». Józef rzekł do nich: «Jest tak, jak wam mówię: jesteście szpiegami! Takiej próbie będziecie poddani, na życie faraona!» I oddał ich pod straż na trzy dni.\nA trzeciego dnia Józef rzekł do nich: «Uczyńcie to, jeśli chcecie ocalić życie - bo ja czczę Boga. Skoro jesteście uczciwi, niechaj jeden wasz brat pozostanie w więzieniu, w którym was osadzono, wy zaś idźcie, zawieźcie zboże dla głodnych waszych rodzin. Potem przyprowadzicie do mnie najmłodszego brata waszego, aby się potwierdziły wasze słowa i nie spotkała was śmierć».\nI tak uczynili. Mówili między sobą: «Ach, zawiniliśmy przeciwko bratu naszemu, patrząc na jego strapienie, kiedy nas błagał o litość, a nie wysłuchaliśmy go! Dlatego spadło na nas to nieszczęście». Ruben zaś tak im wtedy powiedział: «Czyż nie mówiłem wam: Nie dopuszczajcie się przestępstwa względem tego chłopca; ale nie usłuchaliście mnie. Toteż teraz żąda się odpowiedzialności za jego krew!»\nNie wiedzieli zaś, że Józef to rozumie, bo rozmawiał z nimi przez tłumacza. Józef, odszedłszy więc od nich, rozpłakał się. Potem wrócił do nich i rozmawiał z nimi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 2-3. 10-11. 18-19 (R.: por. 22)",
+      "opis": "",
+      "tekst": "Refren: Okaż swą łaskę ufającym Tobie.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nŚpiewajcie Mu pieśń nową, *\npełnym głosem śpiewajcie Mu wdzięcznie.\nRefren.\nPan udaremnia zamiary narodów, *\nwniwecz obraca zamysły ludów.\nZamiary Pana trwają na wieki, *\nzamysły Jego serca przez pokolenia.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\nna tych, którzy oczekują Jego łaski,\naby ocalił ich życie od śmierci *\ni żywił ich w czasie głodu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 1-7",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus przywołał do siebie dwunastu swoich uczniów i udzielił im władzy nad duchami nieczystymi, aby je wypędzali i leczyli wszystkie choroby i wszelkie słabości.\nA oto imiona dwunastu apostołów: pierwszy - Szymon, zwany Piotrem, i brat jego Andrzej, potem Jakub, syn Zebedeusza, i brat jego Jan, Filip i Bartłomiej, Tomasz i celnik Mateusz, Jakub, syn Alfeusza, i Tadeusz, Szymon Gorliwy i Judasz Iskariota, ten, który Go zdradził.\nTych to Dwunastu wysłał Jezus i dał im takie wskazania: «Nie idźcie do pogan i nie wstępujcie do żadnego miasta samarytańskiego. Idźcie raczej do owiec, które poginęły z domu Izraela. Idźcie i głoście: Bliskie już jest królestwo niebieskie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń bezpośrednio nawiązuje do Ewangelii, w której Jezus powołuje i posyła Dwunastu, aby głosili Królestwo Boże.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń podkreśla królewską władzę Chrystusa, który powołuje i posyła swoich apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Powołanie apostołów jest fundamentem Kościoła, a ta pieśń jest modlitwą o jego jedność i pokój.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wyrzuty sumienia braci Józefa są początkiem ich nawrócenia, a ta pieśń eucharystyczna jest wyrazem skruchy i prośby o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Historia braci Józefa ukazuje potrzebę miłosierdzia, o które prosimy w tej pieśni, składając ofiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które uznaje Bożą dobroć, objawioną w historii Józefa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Powołanie Apostołów, zwykłych ludzi do wielkich dzieł, uświadamia nam naszą małość i potrzebę łaski Bożej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem dla posłanych, umacniającym ich w misji głoszenia Królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę w moc Chrystusa, którą przekazał On swoim apostołom.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to radosne wezwanie do chwalenia Pana za Jego opatrzność, o której mówi psalm i historia Józefa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm wzywa do sławienia Pana i Jego zamiarów, a ta pieśń jest radosnym hymnem na Jego cześć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar powołania apostołów i za Jego niezmienną opatrzność w dziejach zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Apostołowie są posłani, by głosić Królestwo Chrystusa, a ta pieśń jest wyznaniem Jego królewskiej władzy i naszego posłuszeństwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo dla posłanych, aby ich praca przyniosła obfity owoc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności powołaniu, na wzór apostołów wybranych przez Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm mówi o opiece Boga nad bogobojnymi, a historia Józefa jest tego doskonałym przykładem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Historia braci Józefa jest dramatyczną drogą do pojednania i miłości, do której wzywa ta pieśń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który swoje zbawcze plany realizuje nawet poprzez ludzkie słabości i grzechy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Historia Józefa uczy, że Bóg potrafi zło obrócić w dobro, co jest podstawą naszej ufności.",
+      "moment": "ogolne"
+    }
+  ]
+}

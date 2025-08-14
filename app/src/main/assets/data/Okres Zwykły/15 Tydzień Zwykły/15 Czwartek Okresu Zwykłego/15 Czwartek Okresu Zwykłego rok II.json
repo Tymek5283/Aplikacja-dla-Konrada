@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426782.Czwartek-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 26, 7-9. 12. 16-19",
+      "opis": "Psalm nadziei",
+      "tekst": "Ścieżka sprawiedliwego jest prosta, Ty równasz prawą drogę sprawiedliwego. Także na ścieżce Twoich sądów, o Panie, oczekujemy Ciebie; imię Twoje i pamięć o Tobie to pragnienie naszej duszy. Dusza moja pożąda Ciebie w nocy, duch mój poszukuje Cię w mym wnętrzu, bo gdy Twe sądy jawią się na ziemi, mieszkańcy świata uczą się sprawiedliwości.\nPanie, użyczysz nam pokoju, bo i wszystkie nasze czyny są Twoim dziełem!\nPanie, w ucisku szukaliśmy Ciebie, słaliśmy modły półgłosem, kiedy Ty chłostałeś. Jak brzemienna bliska chwili rodzenia wije się, krzyczy w bólach porodu, takimi staliśmy się przed Tobą, o Panie! Poczęliśmy, wiliśmy się z bólu, jakbyśmy mieli rodzić; ducha zbawczego nie wydaliśmy ziemi i nie przybyło mieszkańców na świecie.\nOżyją Twoi umarli, zmartwychwstaną ich trupy, obudzą się i krzykną z radości spoczywający w prochu, bo rosa Twoja jest rosą światłości, a ziemia wyda cienie zmarłych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 102 (101), 13-14b. 15-16. 17-19. 20-21 (R.: por. 20b)",
+      "opis": "",
+      "tekst": "Refren: Bóg z wyżyn nieba spogląda na ziemię.\nTy Panie, trwasz na wieki, *\na imię Twoje przez wszystkie pokolenia.\nPowstań i okaż litość Syjonowi, *\nbo nastała pora, byś nad nim się zmiłował.\nRefren.\nAlbowiem Twoi słudzy miłują jego kamienie, *\nżalem ich przejmują jego gruzy.\nPoganie będą się bali imienia Pana, *\na Twej chwały wszyscy królowie ziemi.\nRefren.\nBo Pan odbuduje Syjon i ukaże się w swym majestacie, †\nprzychyli się ku modlitwie opuszczonych *\ni nie odrzuci ich modłów.\nNależy to zapisać dla przyszłych pokoleń, *\nlud, który się narodzi, niech wychwala Pana.\nRefren.\nSpojrzał Pan z wysokości swego przybytku, *\npopatrzył z nieba na ziemię,\naby usłyszeć jęki uwięzionych, *\naby skazanych na śmierć uwolnić.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 28-30",
+      "opis": "Jezus cichy i pokornego serca",
+      "tekst": "Jezus przemówił tymi słowami:\n«Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię. Weźcie na siebie moje jarzmo i uczcie się ode Mnie, bo jestem cichy i pokornego serca, a znajdziecie ukojenie dla dusz waszych. Albowiem słodkie jest moje jarzmo, a moje brzemię lekkie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest bezpośrednią odpowiedzią na wezwanie Jezusa z Ewangelii i aklamacji: 'Przyjdźcie do Mnie wszyscy'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Tekst tej pieśni jest dosłownym przywołaniem słów Jezusa z Ewangelii, zapraszającego do siebie utrudzonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Jezus, który daje pokrzepienie, jest naszą nadzieją i pokojem, o czym śpiewa ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec doświadczenia ucisku, o którym mówią czytania, ta pieśń eucharystyczna jest prośbą o Boże miłosierdzie i pokój.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu ucisku, o którym mówi prorok Izajasz, składamy Bogu ofiarę skruszonego serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest wołaniem o Boże miłosierdzie w czasie utrapienia, opisanego w czytaniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, który daje pokrzepienie utrudzonym, ofiarowuje się nam w Eucharystii jako pokarm i źródło ukojenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, co jest odpowiedzią na Jego zaproszenie z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Radosne oczekiwanie na przyjście Jezusa w Komunii jest odpowiedzią na Jego zaproszenie utrudzonych i obciążonych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalm, spogląda z nieba, by usłyszeć jęki uwięzionych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za bezmiar łask, a zwłaszcza za dar pokrzepienia, który Jezus ofiarowuje w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za Bożą litość i opiekę, o której z nadzieją mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń jest aktem zawierzenia Jezusowi, który jest naszą nadzieją i pokrzepieniem w trudnościach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Po znalezieniu pokrzepienia w Jezusie, prosimy Go, aby prowadził nas przez resztę naszej drogi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'znojny trud', który z Chrystusem staje się 'słodkim jarzmem' i 'lekkim brzemieniem'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "287",
+      "piesn": "Jezu dobry i cichy",
+      "opis": "Pieśń nawiązuje do słów Jezusa 'uczcie się ode Mnie, bo jestem cichy i pokornego serca'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Pieśń wyraża tęsknotę za Bogiem i nadzieję na zmartwychwstanie, o której z wiarą mówi prorok Izajasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec ucisku i cierpienia, pieśń ta jest wyrazem głębokiej ufności w Bożą opiekę i ocalenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który jest naszym pokrzepieniem i ukojeniem w trudach życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

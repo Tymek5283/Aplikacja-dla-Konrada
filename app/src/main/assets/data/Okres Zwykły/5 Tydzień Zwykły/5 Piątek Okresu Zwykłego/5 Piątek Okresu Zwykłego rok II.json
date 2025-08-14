@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415569.Piatek-V-tydzien-zwykly-rok-II",
+  "tytul_dnia": "5 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 11, 29-32; 12, 19",
+      "opis": "Zapowiedź podziału królestwa Salomona",
+      "tekst": "Gdy pewnego razu Jeroboam wyszedł z Jerozolimy, spotkał go na drodze prorok Achiasz z Szilo, odziany w nowy płaszcz. Sami tylko obydwaj byli na polu.\nWtedy Achiasz zdjął nowy płaszcz, który miał na sobie, porozdzierał go na dwanaście części i powiedział Jeroboamowi: «Weź sobie dziesięć części, bo tak rzekł Pan, Bóg Izraela: Oto wyrwę królestwo z ręki Salomona, a tobie dam dziesięć pokoleń. Jedno tylko pokolenie będzie miał ze względu na Dawida, mego sługę, i ze względu na miasto Jeruzalem, które wybrałem ze wszystkich pokoleń Izraela».\nTak więc Izrael odpadł od rodu Dawida po dzień dzisiejszy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 81 (80), 10-11b. 12-13. 14-15 (R.: por. 11a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Ja jestem Bogiem, słuchaj mego głosu.\nNie będziesz miał obcego boga, *\ncudzemu bogu nie będziesz się kłaniał.\nJa jestem Panem, Bogiem twoim, *\nktóry cię wywiódł z ziemi egipskiej.\nRefren.\nLecz mój lud nie posłuchał mego głosu, *\nIzrael nie był Mi posłuszny.\nZostawiłem ich przeto ich twardym sercom, *\nniech postępują według swych zamysłów.\nRefren.\nGdyby mój lud Mnie posłuchał, *\na Izrael kroczył moimi drogami,\nnatychmiast bym zgniótł ich wrogów *\ni obrócił rękę na ich przeciwników.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 7, 31-37",
+      "opis": "Uzdrowienie głuchoniemego",
+      "tekst": "Jezus opuścił okolice Tyru i przez Sydon przyszedł nad Jezioro Galilejskie, przemierzając posiadłości Dekapolu.\nPrzyprowadzili Mu głuchoniemego i prosili Go, żeby położył na niego rękę. On wziął go na bok, z dala od tłumu, włożył palce w jego uszy i śliną dotknął mu języka; a spojrzawszy w niebo, westchnął i rzekł do niego: «Effatha», to znaczy: Otwórz się. Zaraz otworzyły się jego uszy, więzy języka się rozwiązały i mógł prawidłowo mówić.\nJezus przykazał im, żeby nikomu nie mówili. Lecz im bardziej przykazywał, tym gorliwiej to rozgłaszali. I przepełnieni zdumieniem mówili: «Dobrze wszystko uczynił. Nawet głuchym słuch przywraca i niemym mowę».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do Jezusa, który otwiera uszy i rozwiązuje język, uwalniając od duchowej głuchoty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń błagalna, która pasuje do atmosfery prośby o uzdrowienie i wierność Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża wołanie grzesznika o Bożą pomoc i miłosierdzie, w kontraście do niewierności Izraela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu serc otwartych na Jego słowo, w przeciwieństwie do ludu o twardym sercu z psalmu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i postanowienie poprawy, co jest odpowiedzią na grzech bałwochwalstwa i niewierności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechu, który prowadzi do podziału i odejścia od Boga.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który przywraca słuch i mowę, jak w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który uwalnia nas od niemocy spowodowanej grzechem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który leczy nasze duchowe rany, będące skutkiem niewierności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia za cudowne dzieła Boże, o których świadczy uzdrowienie głuchoniemego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Boże uzdrowienie i ocalenie, które są odpowiedzią na ludzką słabość.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i zbawienia, który otrzymujemy od Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest odpowiedzią na cud Jezusa, który sprawił, że ludzie mówili: 'Dobrze wszystko uczynił'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po doświadczeniu uzdrawiającej mocy Chrystusa jesteśmy posłani, by głosić Jego Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo w naszym codziennym życiu, abyśmy mogli świadczyć o Bożej dobroci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud uznano uzdrowienie głuchoniemego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje postawę ludzi, którzy z wiarą przyprowadzili chorego do Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która jest odpowiedzią na grzech niewierności opisany w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechu, który jest przyczyną naszej duchowej głuchoty i niemoty.",
+      "moment": "ogolne"
+    }
+  ]
+}

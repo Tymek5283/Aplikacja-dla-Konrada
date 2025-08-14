@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410516.10-stycznia",
+  "tytul_dnia": "10 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 4, 19 - 5, 4",
+      "opis": "Kto miłuje Boga, niech miłuje brata",
+      "tekst": "Najmilsi:\nMy miłujemy Boga, ponieważ Bóg sam pierwszy nas umiłował. Jeśliby ktoś mówił: «Miłuję Boga», a brata swego nienawidził, jest kłamcą, albowiem kto nie miłuje brata swego, którego widzi, nie może miłować Boga, którego nie widzi. Takie zaś mamy od Niego przykazanie, aby ten, kto miłuje Boga, miłował też i brata swego.\nKażdy, kto wierzy, że Jezus jest Mesjaszem, z Boga się narodził; i każdy miłujący Tego, który dał życie, miłuje również tego, kto życie od Niego otrzymał. Po tym poznajemy, że miłujemy dzieci Boże, gdy miłujemy Boga i wypełniamy Jego przykazania, albowiem miłość względem Boga polega na spełnianiu Jego przykazań, a przykazania Jego nie są ciężkie. Wszystko bowiem, co z Boga zrodzone, zwycięża świat; tym właśnie zwycięstwem, które zwyciężyło świat, jest nasza wiara.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 72 (71), 1b-2. 14 i 15bc. 17 (R.: por. 11)",
+      "opis": "",
+      "tekst": "Refren: Uwielbią Pana wszystkie ludy ziemi.\nBoże, przekaż Twój sąd królowi, *\na Twoją sprawiedliwość synowi królewskiemu.\naby Twoim ludem rządził sprawiedliwie *\ni ubogimi według prawa.\nRefren.\nWybawi ich od krzywdy i przemocy, *\ngdyż krew ich cenna jest w jego oczach.\nzawsze będą się modlić za niego, *\nnieustannie błogosławić mu będą.\nRefren.\nNiech jego imię trwa na wieki, *\njak długo świeci słońce, niech trwa jego imię.\nNiech jego imieniem wzajemnie się błogosławią, *\nniech wszystkie narody życzą mu szczęścia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 14-22a",
+      "opis": "Jezus jest Mesjaszem zapowiedzianym przez proroków",
+      "tekst": "Jezus powrócił mocą Ducha do Galilei, a wieść o Nim rozeszła się po całej okolicy. On zaś nauczał w ich synagogach, wysławiany przez wszystkich.\nPrzyszedł również do Nazaretu, gdzie się wychował. W dzień szabatu udał się swoim zwyczajem do synagogi i powstał, aby czytać. Podano Mu księgę proroka Izajasza. Rozwinąwszy księgę, znalazł miejsce, gdzie było napisane: «Duch Pański spoczywa na Mnie, ponieważ Mnie namaścił i posłał Mnie, abym ubogim niósł dobrą nowinę, więźniom głosił wolność, a niewidomym przejrzenie; abym uciśnionych odsyłał wolnymi, abym obwoływał rok łaski Pana».\nZwinąwszy księgę, oddał słudze i usiadł; a oczy wszystkich w synagodze były w Niego utkwione. Począł więc mówić do nich: «Dziś spełniły się te słowa Pisma, które słyszeliście». A wszyscy przyświadczali Mu i dziwili się pełnym łaski słowom, które płynęły z ust Jego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń podkreśla misyjny charakter Wcielenia, co doskonale koresponduje z Ewangelią, gdzie Jezus ogłasza program swojej działalności.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o przyjściu Pana, który przynosi zbawienie, co jest główną myślą psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń ta mówi o Chrystusie, który przychodzi, by rozproszyć ciemności, co nawiązuje do aklamacji o światłości dla pogan.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie mocno akcentuje nierozerwalny związek miłości Boga i bliźniego, co jest istotą tej pieśni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na przygotowanie darów, w której prosimy Boga o przyjęcie owoców ziemi i pracy rąk ludzkich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń ta podkreśla, że dary chleba i wina, które składamy, pochodzą od Boga i do Niego wracają w ofierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń łączy wiarę w Chrystusa obecnego w Eucharystii z Jego zbawczym posłannictwem, o którym On sam mówi w synagodze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Słowa Jezusa o Chlebie Życia są dopełnieniem Jego misji niesienia Dobrej Nowiny, którą rozpoczyna w dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń ta zaprasza wszystkich, zwłaszcza ubogich i chorych, do stołu Pańskiego, co jest echem misji Jezusa z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosna pieśń chwały, która odzwierciedla treść psalmu responsoryjnego, wzywającego wszystkie narody do uwielbienia Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Hymn ten jest radosnym dziękczynieniem za zbawienie, które ogłasza Jezus w synagodze w Nazarecie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia, która jest odpowiedzią serca na usłyszaną Dobrą Nowinę o zbawieniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest posłaniem do głoszenia Dobrej Nowiny ubogim, co jest misją, którą Jezus w Ewangelii ogłasza jako swoją własną.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta wzywa do głoszenia chwały Pana, który przyszedł, aby nas zbawić, co jest centralnym przesłaniem dzisiejszej liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa jako drogę, prawdę i życie jest przesłaniem, które wierni zabierają ze sobą w świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem pierwszego czytania o miłości Boga i brata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Chociaż jest to pieśń adwentowa, mówi o wypełnieniu się obietnic, co jest głównym tematem Ewangelii: 'Dziś spełniły się te słowa Pisma'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Prosta i żarliwa pieśń miłości do Boga, która jest odpowiedzią na Jego miłość objawioną w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pierwsze czytanie mówi, że nasza wiara jest zwycięstwem nad światem, a ta pieśń jest modlitwą o jej umocnienie.",
+      "moment": "ogolne"
+    }
+  ]
+}

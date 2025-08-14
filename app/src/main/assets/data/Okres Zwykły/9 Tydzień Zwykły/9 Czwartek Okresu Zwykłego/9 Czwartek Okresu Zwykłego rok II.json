@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416996.Czwartek-IX-tydzien-zwykly-rok-II",
+  "tytul_dnia": "9 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 2, 8-15",
+      "opis": "Wierność Chrystusowi, który dochowuje wiary",
+      "tekst": "Najmilszy:\nPamiętaj na Jezusa Chrystusa, potomka Dawida. On według Ewangelii mojej powstał z martwych. Dla niej znoszę niedolę aż do więzów jak złoczyńca; ale słowo Boże nie uległo spętaniu. Dlatego znoszę wszystko przez wzgląd na wybranych, aby i oni dostąpili zbawienia w Chrystusie Jezusie, wraz z wieczną chwałą.\nNauka to godna wiary: Jeżeli bowiem z Nim współumarliśmy, z Nim także żyć będziemy. Jeśli trwamy w cierpliwości, z Nim też królować będziemy. Jeśli się będziemy Go zapierali, to i On nas się zaprze. Jeśli my odmawiamy wierności, On wiary dochowuje, bo nie może się zaprzeć siebie samego.\nTo wszystko przypominaj, dając świadectwo w obliczu Boga, byś nie walczył o same słowa, bo to się na nic nie zda, chyba tylko na zgubę słuchaczy. Staraj się, byś sam stanął przed Bogiem jako godny uznania pracownik, który nie przynosi wstydu, trzymając się prostej linii prawdy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 8-9. 10 i 14 (R.: 4b)",
+      "opis": "",
+      "tekst": "Refren: Naucz mnie chodzić Twoimi ścieżkami.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i Zbawco, w Tobie mam nadzieję.\nRefren.\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren.\nWszystkie ścieżki Pana są pewne i pełne łaski *\ndla strzegących Jego praw i przymierza.\nBóg powierza swe zamiary swoim czcicielom *\ni objawia im swoje przymierze.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 28b-34",
+      "opis": "Przykazanie miłości",
+      "tekst": "Jeden z uczonych w Piśmie podszedł do Jezusa i zapytał Go: «Które jest pierwsze ze wszystkich przykazań?»\nJezus odpowiedział: «Pierwsze jest: „Słuchaj, Izraelu, Pan Bóg nasz jest jedynym Panem. Będziesz miłował Pana, Boga swego, całym swoim sercem, całą swoją duszą, całym swoim umysłem i całą swoją mocą”. Drugie jest to: „Będziesz miłował swego bliźniego jak siebie samego”. Nie ma innego przykazania większego od tych».\nRzekł Mu uczony w Piśmie: «Bardzo dobrze, Nauczycielu, słusznie powiedziałeś, bo Jeden jest i nie ma innego prócz Niego. Miłować Go całym sercem, całym umysłem i całą mocą i miłować bliźniego jak siebie samego znaczy daleko więcej niż wszystkie całopalenia i ofiary».\nJezus, widząc, że rozumnie odpowiedział, rzekł do niego: «Niedaleko jesteś od królestwa Bożego». I nikt już nie odważył się Go więcej pytać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń ta jest echem psalmu, w którym prosimy Boga o poznanie Jego dróg i prowadzenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest Prawdą i drogą, o której mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża postawę szukania Bożego prowadzenia, co jest zgodne z duchem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Nawiązuje bezpośrednio do Ewangelii, która przedstawia przykazanie miłości jako najważniejsze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta wskazuje, że miłość jest ofiarą cenniejszą niż całopalenia, jak zauważył uczony w Piśmie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania całego serca Bogu, co jest istotą pierwszego przykazania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Jest to pieśń o miłości, która jest owocem wierności Bogu, o której mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest źródłem miłości, która uzdalnia nas do wypełniania największego przykazania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jednoczącą moc Eucharystii, która buduje wspólnotę miłości, opartą na przykazaniach Bożych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar miłości i wierności Boga, który dochowuje wiary nawet gdy my jej odmawiamy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosty i żarliwy akt miłości do Boga, który jest odpowiedzią na pierwsze przykazanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest wyrazem miłości do Boga całym sercem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o siłę do życia przykazaniami miłości w codziennym trudzie i pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność w miłości, która jest misją chrześcijan w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Posyła wiernych, by świadczyli o miłości Boga i bliźniego, która jest sercem Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Medytacyjny kanon, który podkreśla, że Bóg jest obecny tam, gdzie jest miłość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wierność, do której wzywa św. Paweł w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest istotą pierwszego przykazania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Przypomina, że miłość bliźniego jest nierozłączna z miłością Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

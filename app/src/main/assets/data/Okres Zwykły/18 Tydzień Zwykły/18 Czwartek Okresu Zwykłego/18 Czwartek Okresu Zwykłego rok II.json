@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430566.Czwartek-XVIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "18 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 31, 31-34",
+      "opis": "Nowe przymierze",
+      "tekst": "Pan mówi: «Oto nadchodzą dni, kiedy zawrę z domem Izraela i z domem Judy nowe przymierze. Nie takie jak przymierze, które zawarłem z ich przodkami, kiedy ująłem ich za rękę, by wyprowadzić z ziemi egipskiej. To moje przymierze złamali, mimo że byłem ich władcą, mówi Pan.\nLecz takie będzie przymierze, jakie zawrę z domem Izraela po tych dniach, mówi Pan: Umieszczę swe prawo w głębi ich jestestwa i wypiszę na ich sercach. Będę im Bogiem, oni zaś będą Mi ludem.\nI nie będą się musieli wzajemnie pouczać, mówiąc jeden do drugiego: Poznajcie Pana! Wszyscy bowiem od najmniejszego do największego poznają Mnie, mówi Pan, ponieważ odpuszczę im występki, a o grzechach ich nie będę już wspominał».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 12-13. 14-15. 18-19 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Stwórz, o mój Boże, we mnie serce czyste.\nStwórz, Boże, we mnie serce czyste *\ni odnów we mnie moc ducha.\nNie odrzucaj mnie od swego oblicza *\ni nie odbieraj mi świętego ducha swego.\nRefren.\nPrzywróć mi radość Twojego zbawienia *\ni wzmocnij mnie duchem ofiarnym.\nBędę nieprawych nauczał dróg Twoich *\ni wrócą do Ciebie grzesznicy.\nRefren.\nOfiarą bowiem Ty się nie radujesz, *\na całopalenia, choćbym dał, nie przyjmiesz.\nBoże, moją ofiarą jest duch skruszony, *\npokornym i skruszonym sercem Ty, Boże, nie gardzisz.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 16, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ty jesteś Piotr, czyli Opoka, i na tej opoce zbuduję mój Kościół,\na bramy piekielne go nie przemogą."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16, 13-23",
+      "opis": "Wyznanie Piotra i pierwsza zapowiedź męki",
+      "tekst": "Gdy Jezus przyszedł w okolice Cezarei Filipowej, pytał swych uczniów: «Za kogo ludzie uważają Syna Człowieczego?» A oni odpowiedzieli: «Jedni za Jana Chrzciciela, inni za Eliasza, jeszcze inni za Jeremiasza albo za jednego z proroków».\nJezus zapytał ich: «A wy za kogo Mnie uważacie?»\nOdpowiedział Szymon Piotr: «Ty jesteś Mesjasz, Syn Boga żywego».\nNa to Jezus mu rzekł: «Błogosławiony jesteś, Szymonie, synu Jony. Albowiem nie objawiły ci tego ciało i krew, lecz Ojciec mój, który jest w niebie. Otóż i Ja tobie powiadam: Ty jesteś Piotr, czyli Opoka, i na tej opoce zbuduję Kościół mój, a bramy piekielne go nie przemogą. I tobie dam klucze królestwa niebieskiego; cokolwiek zwiążesz na ziemi, będzie związane w niebie, a co rozwiążesz na ziemi, będzie rozwiązane w niebie».\nWtedy surowo zabronił uczniom, aby nikomu nie mówili, że On jest Mesjaszem.\nOdtąd zaczął Jezus Chrystus wskazywać swoim uczniom na to, że musi udać się do Jerozolimy i wiele wycierpieć od starszych i arcykapłanów oraz uczonych w Piśmie; że będzie zabity i trzeciego dnia zmartwychwstanie.\nA Piotr wziął Go na bok i począł robić Mu wyrzuty: «Panie, niech Cię Bóg broni! Nie przyjdzie to nigdy na Ciebie». Lecz On odwrócił się i rzekł do Piotra: «Zejdź Mi z oczu, szatanie! Jesteś Mi zawadą, bo nie myślisz po Bożemu, lecz po ludzku».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń jest uroczystym wyznaniem wiary w Chrystusa, co stanowi odpowiedź na Jego pytanie z Ewangelii i na wyznanie Piotra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaproszenie do oddania czci Bogu, który zawiera z nami Nowe Przymierze i buduje swój Kościół na wierze Piotra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały, który jest odpowiedzią na objawienie się Jezusa jako Mesjasza i Syna Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Ofiara Eucharystyczna jest pieczęcią Nowego Przymierza, które jednoczy nas w jedno Ciało – Kościół zbudowany na wierze Piotra.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruszonego serca, na którym Bóg wypisuje swoje nowe prawo miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu ofiarę, która jest znakiem Nowego Przymierza, zawartego we Krwi Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Wyraża osobistą więź z Jezusem, która jest fundamentem Nowego Przymierza i pozwala na myślenie 'po Bożemu'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Bóstwo Chrystusa, którą Piotr wyznał w imieniu Apostołów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to osobiste potwierdzenie wyznania Piotra, które składamy, przyjmując Chrystusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to hymn chwały dla Boga za dar wiary, Kościoła i Nowego Przymierza w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dar wiary, który jak u Piotra, pochodzi od Ojca i pozwala nam rozpoznać w Jezusie Mesjasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosna pieśń uwielbienia za dar Nowego Przymierza i obietnicę zbawienia w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń o ludzie kapłańskim, którym jest Kościół, oparty na fundamencie Piotra, doskonale podsumowuje treść Ewangelii i aklamacji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jesteśmy posłani, by budować jedność Kościoła, którego fundamentem jest wiara Piotra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Kościołowi, który Chrystus zbudował na Piotrze i obiecał mu swoje zwycięstwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażając prośbę o czyste serce, na którym Bóg wypisze swoje prawo.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "W odpowiedzi na 'myślenie po ludzku' Piotra, pieśń jest ponownym zobowiązaniem do podążania drogą Bożą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do zapowiedzi męki, której Piotr początkowo nie rozumiał, a która jest centrum Nowego Przymierza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "478",
+      "piesn": "Jeśli chcesz szukać patrona",
+      "opis": "Pieśń wprost odwołuje się do postaci św. Piotra, którego wyznanie wiary i prymat są tematem Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

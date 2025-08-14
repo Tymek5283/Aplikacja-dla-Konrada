@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, co jest odpowiedzią na radosną nowinę o narodzinach poprzednika.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, którego przyjście przygotowuje Jan Chrzciciel.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, którego poprzednikiem jest Jan, zapowiedziany przez Malachiasza jako nowy Eliasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania, które staje się bardziej intensywne w świetle narodzin Jana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co stanowiło centralne orędzie Jana Chrzciciela.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, którego poprzednikiem był Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, którego drogę przygotował Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
       "numer": "2",
       "piesn": "Niech się radują",
       "opis": "Ewangelia mówi o radości sąsiadów i krewnych z narodzin Jana, a ta pieśń jest wyrazem radości całego stworzenia z bliskości zbawienia.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do wielbienia Boga za Jego dobroć, a ta pieśń jest tego uroczystym wyrazem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, którego przyjście przygotowuje Jan.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "21",
       "piesn": "Mądrości, która",
-      "opis": "Wielka antyfona na 23 grudnia 'O Emmanuelu' wzywa Króla i Prawodawcę, którego narodziny przygotowuje Jan Chrzciciel.",
+      "opis": "Siódma zwrotka tej pieśni to Wielka Antyfona 'O Emmanuelu', tradycyjnie przypisana do 23 grudnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który jest kluczową postacią Ewangelii, stanowi doskonałe podsumowanie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "600",
       "piesn": "Do Ciebie wznoszę serce me",
       "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażając pragnienie poznania dróg Pańskich i nadzieję w Zbawcy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o tym, że Pan uczy ubogich dróg swoich, a pieśń o błogosławieństwach podkreśla wartość pokory.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417348.26-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "26 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 18, 25-28",
+      "opis": "Bóg nie chce śmierci grzesznika",
+      "tekst": "Tak mówi Pan Bóg:\n«Wy mówicie: „Sposób postępowania Pana nie jest słuszny”. Słuchaj jednakże, domu Izraela: Czy mój sposób postępowania jest niesłuszny, czy raczej wasze postępowanie jest przewrotne?\nJeśli sprawiedliwy odstąpił od sprawiedliwości, dopuszczał się grzechu i umarł, to umarł z powodu grzechów, które popełnił. A jeśli bezbożny odstąpił od bezbożności, której się oddawał, i postępuje według prawa i sprawiedliwości, to zachowa duszę swoją przy życiu. Zastanowił się i odstąpił od wszystkich swoich grzechów, które popełniał, i dlatego na pewno żyć będzie, a nie umrze».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 6-7. 8-9 (R.: por. 6a)",
+      "opis": "",
+      "tekst": "Refren: Wspomnij, o Panie, na swe miłosierdzie.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i Zbawco, w Tobie mam nadzieję.\nRefren.\nWspomnij na swoje miłosierdzie, Panie, *\nna swoją miłość, która trwa od wieków.\nNie pamiętaj mi grzechów i win mej młodości, †\nlecz o mnie pamiętaj w swoim miłosierdziu *\nze względu na dobroć Twą, Panie.\nRefren\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE DŁUŻSZE",
+      "sigla": "Flp 2, 1-11",
+      "opis": "KRÓTSZEFlp 2, 1-5",
+      "tekst": "Jezus Chrystus wzorem pokory\nBracia:\nJeśli jest jakieś napomnienie w Chrystusie, jeśli jakaś moc przekonująca Miłości, jeśli jakieś uczestnictwo w Duchu, jeśli jakieś serdeczne współczucie - dopełnijcie mojej radości przez to, że będziecie mieli te same dążenia: tę samą miłość i wspólnego ducha, pragnąc tylko jednego, a niczego nie pragnąc dla niewłaściwego współzawodnictwa ani dla próżnej chwały, lecz w pokorze oceniając jedni drugich za wyżej stojących od siebie. Niech każdy ma na oku nie tylko swoje własne sprawy, ale też i drugich.\nTo dążenie niech was ożywia; ono też było w Chrystusie Jezusie.\nKoniec krótszej perykopy.\nOn to, istniejąc w postaci Bożej, nie skorzystał ze sposobności, by na równi być z Bogiem, lecz ogołocił samego siebie, przyjąwszy postać sługi, stając się podobnym do ludzi. A w zewnętrznej postaci uznany za człowieka, uniżył samego siebie, stając się posłusznym aż do śmierci - i to śmierci krzyżowej.\nDlatego też Bóg Go nad wszystko wywyższył i darował Mu imię ponad wszelkie imię, aby na imię Jezusa zgięło się każde kolano istot niebieskich i ziemskich, i podziemnych. I aby wszelki język wyznał, że Jezus Chrystus jest Panem - ku chwale Boga Ojca.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 21, 28-32",
+      "opis": "Nawrócenie prowadzi do zbawienia",
+      "tekst": "Jezus powiedział do arcykapłanów i starszych ludu:\n«Co myślicie? Pewien człowiek miał dwóch synów. Zwrócił się do pierwszego i rzekł: „Dziecko, idź i pracuj dzisiaj w winnicy”. Ten odpowiedział: „Idę, panie!”, lecz nie poszedł. Zwrócił się do drugiego i to samo powiedział. Ten odparł: „Nie chcę”. Później jednak opamiętał się i poszedł. Który z tych dwóch spełnił wolę ojca?» Mówią Mu: «Ten drugi».\nWtedy Jezus rzekł do nich: «Zaprawdę, powiadam wam: Celnicy i nierządnice wchodzą przed wami do królestwa niebieskiego. Przyszedł bowiem do was Jan drogą sprawiedliwości, a wy mu nie uwierzyliście. Uwierzyli mu zaś celnicy i nierządnice. Wy patrzyliście na to, ale nawet później nie opamiętaliście się, żeby mu uwierzyć».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, co jest głównym tematem czytań, zwłaszcza przypowieści o dwóch synach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest odpowiedzią na Ewangelię, która pokazuje, że do królestwa wchodzą ci, którzy się opamiętali.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa syna marnotrawnego, wyrażona w tej pieśni, jest tożsama z postawą drugiego syna z Ewangelii – opamiętania i powrotu do Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co odzwierciedla postawę drugiego syna z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna jest prośbą o miłosierdzie, które jest potrzebne każdemu grzesznikowi, by mógł pełnić wolę Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec prawdy o ludzkiej słabości, pieśń wzywa do pokory i błagania Boga o przebaczenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta podkreśla pokorę, która jest kluczowa w nawróceniu i naśladowaniu Chrystusa opisanego w drugim czytaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża postawę grzesznika, który z żalem i pokorą pragnie przyjąć Pana, w przeciwieństwie do pychy 'sprawiedliwych' z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Prośba o czyste serce jest modlitwą o łaskę nawrócenia, która pozwala pełnić wolę Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, o którym mówi psalm responsoryjny i którego doświadczają nawracający się grzesznicy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar Bożego miłosierdzia, które jest większe niż nasze grzechy i niewierności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Bożą dobroć, która wzywa nas do nawrócenia i daje szansę na zmianę życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Trzecia zwrotka pieśni mówi o wypełnianiu przykazań, co bezpośrednio łączy się z Ewangelią o pełnieniu woli Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud codziennego pełnienia woli Ojca, nie tylko w słowach, ale i w czynach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus uczy nas drogi do Ojca, która polega na pełnieniu Jego woli.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna (Ps 51), która doskonale oddaje ducha nawrócenia i prośby o miłosierdzie obecnego w czytaniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest istotą postawy drugiego syna z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Drugie czytanie mówi o pokorze Chrystusa. Pieśń o błogosławieństwach wychwala cichość i pokorę jako drogę do królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę zaufania i prośby o prowadzenie drogami Pana, o co modli się psalmista.",
+      "moment": "ogolne"
+    }
+  ]
+}

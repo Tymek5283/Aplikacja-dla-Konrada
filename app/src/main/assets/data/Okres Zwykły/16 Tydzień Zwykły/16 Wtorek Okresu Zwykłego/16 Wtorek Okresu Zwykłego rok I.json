@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430390.Wtorek-XVI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "16 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 14, 21 - 15, 1a",
+      "opis": "Przejście przez Morze Czerwone",
+      "tekst": "Gdy Mojżesz wyciągnął rękę nad morze, Pan cofnął wody gwałtownym wiatrem wschodnim, który wiał przez całą noc, i uczynił morze suchą ziemią. Wody się rozstąpiły, a Izraelici szli przez środek morza po suchej ziemi, mając mur z wód po prawej i po lewej stronie. Egipcjanie ścigali ich. Wszystkie konie faraona, jego rydwany i jeźdźcy weszli za nimi w środek morza.\nO świcie spojrzał Pan ze słupa ognia i ze słupa obłoku na wojsko egipskie i zmusił je do ucieczki. I zatrzymał koła ich rydwanów, tak że z wielką trudnością mogli się naprzód posuwać. Egipcjanie krzyknęli: «Uciekajmy przed Izraelem, bo w jego obronie Pan walczy z Egipcjanami».\nA Pan rzekł do Mojżesza: «Wyciągnij rękę nad morze, aby wody zalały Egipcjan, ich rydwany i jeźdźców». Wyciągnął Mojżesz rękę nad morze, które o brzasku dnia wróciło na swoje miejsce. Egipcjanie, uciekając, biegli naprzeciw falom, i pogrążył ich Pan w środku morza. Powracające fale zatopiły rydwany i jeźdźców całego wojska faraona, którzy weszli w morze, ścigając tamtych; nie ocalał z nich ani jeden. Izraelici zaś szli po suchym dnie morskim, mając mur wodny po prawej i po lewej stronie.\nW tym to dniu wybawił Pan Izraela z rąk Egipcjan. I widzieli Izraelici martwych Egipcjan na brzegu morza. Gdy Izraelici zobaczyli wielkie dzieło, którego dokonał Pan wobec Egipcjan, ulękli się Pana i uwierzyli Jemu oraz Jego słudze Mojżeszowi. Wtedy Mojżesz i Izraelici razem z nim zaśpiewali taką oto pieśń ku czci Pana: «Będę śpiewał ku czci Pana, który wspaniale swą potęgę okazał, gdy konia i jeźdźca jego pogrążył w morzu».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Wj 15, 8-9. 10 i 12. 17 (R.: por. 1a)",
+      "opis": "",
+      "tekst": "Refren: Śpiewajmy Panu, który moc okazał.\nOd Twojego tchnienia spiętrzyły się wody, †\njak wał stanęły ogromne fale, *\nw pośrodku morza zakrzepły otchłanie.\nMówił nieprzyjaciel: «Będę ścigał, dopadnę, †\nrozdzielę łupy i nasycę mą duszę *\ndobędę miecza, moja ręka ich zniszczy».\nRefren.\nLecz Ty posłałeś swój wicher i przykryło ich morze, *\nzatonęli jak ołów wśród gwałtownych wirów.\nWyciągnąłeś prawicę *\ni wchłonęła ich ziemia.\nRefren.\nWprowadziłeś ich i osadziłeś *\nna górze Twojego dziedzictwa.\nW miejscu, które uczyniłeś swym mieszkaniem, *\nw świątyni zbudowanej Twoimi rękami.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 46-50",
+      "opis": "Prawdziwa rodzina Jezusa",
+      "tekst": "Gdy Jezus przemawiał do tłumów, oto Jego Matka i bracia stanęli na dworze i chcieli z Nim rozmawiać. Ktoś rzekł do Niego: «Oto Twoja Matka i Twoi bracia stoją na dworze i chcą pomówić z Tobą».\nLecz On odpowiedział temu, który Mu to oznajmił: «Któż jest moją matką i którzy są moimi braćmi?» I wyciągnąwszy rękę ku swoim uczniom, rzekł: «Oto moja matka i moi bracia. Bo kto pełni wolę Ojca mojego, który jest w niebie, ten jest Mi bratem, siostrą i matką».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Boga za Jego wielkie dzieła, co jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Na wzór pieśni Mojżesza, rozpoczynamy liturgię radosnym hymnem na cześć Pana, który okazał swoją moc.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, którego potęga objawiła się w cudzie przejścia przez Morze Czerwone.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pełnienie woli Bożej, o którym mówi Ewangelia, jest istotą ofiary, jaką składamy Bogu wraz z chlebem i winem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na Boże ocalenie, ofiarujemy Mu całe nasze życie, pragnąc pełnić Jego wolę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które pragnie należeć do nowej rodziny Jezusa przez wierność Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Maryja, Matka Jezusa, jest pierwszą z tych, którzy w pełni wypełnili wolę Ojca, stając się wzorem dla nowej rodziny Bożej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Maryja, Matka Kościoła, jest pierwszą z tych, którzy pełnią wolę Ojca i tworzą nową rodzinę Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Maryi, która jest naszą Matką, ponieważ doskonale wypełniła wolę Bożą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń jest doskonałym sposobem na uwielbienie Boga za cudowne ocalenie Izraela i za dar nowej rodziny w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże ocalenie, którego pamiątką jest przejście przez Morze Czerwone.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar bycia Jego dziećmi przez pełnienie Jego woli, co czyni nas rodziną Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń mówi o Kościele jako wspólnocie braci i sióstr złączonych miłością, co bezpośrednio nawiązuje do słów Jezusa z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do Ewangelii, w której Jezus definiuje swoją prawdziwą rodzinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy mogli wiernie pełnić wolę Ojca i należeć do rodziny Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wierność Bogu i pełnienie Jego woli to klucz do bycia w prawdziwej rodzinie Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Przejście przez morze jest symbolem Bożej opieki nad swoim ludem, co jest głównym tematem tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który prowadzi nas do Ojca i czyni nas swoją rodziną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który okazuje swoją potęgę i ratuje swój lud.",
+      "moment": "ogolne"
+    }
+  ]
+}

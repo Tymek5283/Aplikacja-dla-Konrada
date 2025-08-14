@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 96,1-2.11-13",
-      "opis": "Refren:",
-      "tekst": "Duch mój się raduje w Bogu, Zbawcy moim\nŚpiewajcie Panu pieśń nową,\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię,\nkażdego dnia głoście Jego zbawienie.\nNiech się radują niebiosa i ziemia weseli,\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie,\nniech wszystkie drzewa w lasach wykrzykują z radości.\nPrzed obliczem Pana, który już się zbliża,\nktóry już się zbliża osądzić ziemię.\nOn będzie sądził świat sprawiedliwie,\na ludy według swej prawdy."
+      "opis": "",
+      "tekst": "Refren:\nDuch mój się raduje w Bogu, Zbawcy moim\nŚpiewajcie Panu pieśń nową,\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię,\nkażdego dnia głoście Jego zbawienie.\nNiech się radują niebiosa i ziemia weseli,\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie,\nniech wszystkie drzewa w lasach wykrzykują z radości.\nPrzed obliczem Pana, który już się zbliża,\nktóry już się zbliża osądzić ziemię.\nOn będzie sądził świat sprawiedliwie,\na ludy według swej prawdy."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "343",
+      "piesn": "Już od rana rozśpiewana",
+      "opis": "Pieśń ta wzywa do chwalenia Maryi od samego rana, co idealnie pasuje do radosnego charakteru święta Jej narodzin.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "386",
+      "piesn": "Prześliczna Panno",
+      "opis": "Utwór sławi wyjątkową godność i piękno Maryi, której przyjście na świat było zapowiedzią zbawienia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "377",
       "piesn": "Pełna świętości",
       "opis": "Pieśń ta, wychwalając cnoty Maryi, jest odpowiednia na przygotowanie darów, kiedy składamy Bogu owoce naszej pracy i modlitwy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, na wzór Maryi, która całe życie ofiarowała Bogu, składamy Jej nasze serca wraz z darami chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Ta pieśń mszalna, przeznaczona na święta maryjne, zawiera zwrotkę na przygotowanie darów, która łączy cześć dla Maryi z Ofiarą eucharystyczną.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń ta jest parafrazą Pozdrowienia Anielskiego i przypomina o łasce, jaką Maryja została obdarzona od swego narodzenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Jest to modlitwa o wstawiennictwo Maryi, której narodziny dały światu Zbawiciela, obecnego w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
       "numer": "330",
       "piesn": "Dnia każdego",
       "opis": "Wysławia Maryję i zachęca do codziennej czci, co idealnie pasuje na dziękczynienie po Komunii Świętej.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest najpiękniejszym dziękczynieniem, jakie możemy złożyć Bogu ustami samej Maryi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "326",
+      "piesn": "Chwalcie łąki umajone",
+      "opis": "Radosne wezwanie całego stworzenia do chwalenia Maryi, której narodziny przyniosły radość całemu światu.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "343",
       "piesn": "Już od rana rozśpiewana",
       "opis": "Dynamiczna i radosna pieśń maryjna, która podkreśla radość z Jej narodzin, jest świetnym akcentem na zakończenie Mszy Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "350",
+      "piesn": "Maryjo Matko",
+      "opis": "Pieśń o charakterze zawierzenia, w której oddajemy się pod opiekę Maryi, jest dobrym posłaniem na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "325",
+      "piesn": "Chcę, Maryjo, służyć Tobie",
+      "opis": "Wyraża pragnienie służenia Maryi przez całe życie, co jest odpowiedzią na dar Jej narodzin dla świata.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "29",
       "piesn": "Zdrowaś bądź Maryja",
       "opis": "Treść tej pieśni to parafraza modlitwy 'Zdrowaś Maryjo', która przypomina o Jej wybraniu i łasce Bożej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna, w której naród zwraca się do Matki Bożej, jest zawsze stosowna w Jej święta.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Pieśń podkreśla godność Maryi jako Matki Króla niebios, której narodziny były początkiem nowej ery w dziejach zbawienia.",
       "moment": "ogolne"
     }
   ]

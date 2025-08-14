@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425144.Poniedzialek-22-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "22 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 2, 1-5",
+      "opis": "Wiara opiera się na mocy Bożej",
+      "tekst": "Bracia, przyszedłszy do was, nie przybyłem, aby błyszcząc słowem i mądrością, głosić wam świadectwo Boże. Postanowiłem bowiem, będąc wśród was, nie znać niczego więcej, jak tylko Jezusa Chrystusa, i to ukrzyżowanego. I stanąłem przed wami w słabości i w bojaźni, i z wielkim drżeniem. A mowa moja i moje głoszenie nauki nie miały nic z uwodzących przekonywaniem słów mądrości, lecz były ukazywaniem ducha i mocy, aby wiara wasza opierała się nie na mądrości ludzkiej, lecz na mocy Bożej.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 97-98. 99-100. 101-102 (R.: 97a)",
+      "opis": "",
+      "tekst": "Refren: Jakże miłuję Prawo Twoje, Panie.\nJakże miłuję Prawo Twoje, Panie, *\nprzez cały dzień nad nim rozmyślam.\nPrzez Twe przykazanie stałem się mędrszym od wrogów, *\nbo jest ono moim na wieki.\nRefren.\nJestem roztropniejszy od wszystkich, którzy mnie uczą, *\nbo rozmyślam o Twoich napomnieniach.\nJestem rozważniejszy od starców, *\nbo zachowuję Twe postanowienia.\nRefren.\nPowstrzymuję nogi od wszelkiej złej ścieżki, *\naby słów Twoich przestrzegać.\nNie odstępuję od Twoich wyroków, *\nalbowiem Ty mnie pouczasz.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Pański spoczywa na Mnie,\nposłał Mnie, abym ubogim niósł dobrą nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 16-30",
+      "opis": "Jezus nieprzyjęty w Nazarecie",
+      "tekst": "Jezus przyszedł do Nazaretu, gdzie się wychował. W dzień szabatu udał się swoim zwyczajem do synagogi i powstał, aby czytać.\nPodano Mu księgę proroka Izajasza. Rozwinąwszy księgę, znalazł miejsce, gdzie było napisane: «Duch Pański spoczywa na Mnie, ponieważ Mnie namaścił i posłał Mnie, abym ubogim niósł dobrą nowinę, więźniom głosił wolność, a niewidomym przejrzenie; abym uciśnionych odsyłał wolnymi, abym obwoływał rok łaski Pana».\nZwinąwszy księgę, oddał słudze i usiadł; a oczy wszystkich w synagodze byli w Niego utkwione.\nPoczął więc mówić do nich: «Dziś spełniły się te słowa Pisma, które słyszeliście». A wszyscy przyświadczali Mu i dziwili się pełnym łaski słowom, które płynęły z ust Jego. I mówili: «Czy nie jest to syn Józefa?»\nWtedy rzekł do nich: «Z pewnością powiecie Mi to przysłowie: Lekarzu, ulecz samego siebie; dokonajże i tu, w swojej ojczyźnie, tego, co wydarzyło się, jak słyszeliśmy, w Kafarnaum».\nI dodał: «Zaprawdę, powiadam wam: Żaden prorok nie jest mile widziany w swojej ojczyźnie. Naprawdę, mówię wam: Wiele wdów było w Izraelu za czasów Eliasza, kiedy niebo pozostawało zamknięte przez trzy lata i sześć miesięcy, tak że wielki głód panował w całym kraju; a Eliasz do żadnej z nich nie został posłany, tylko do owej wdowy w Sarepcie Sydońskiej. I wielu trędowatych było w Izraelu za proroka Elizeusza, a żaden z nich nie został oczyszczony, tylko Syryjczyk Naaman».\nNa te słowa wszyscy w synagodze unieśli się gniewem. Porwawszy się z miejsc, wyrzucili Go z miasta i wyprowadzili aż na urwisko góry, na której zbudowane było ich miasto, aby Go strącić. On jednak, przeszedłszy pośród nich, oddalił się.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o Chrystusie ukrzyżowanym jest bezpośrednim nawiązaniem do słów św. Pawła, który postanowił 'nie znać niczego więcej, jak tylko Jezusa Chrystusa, i to ukrzyżowanego'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Adoracja krzyża jest odpowiedzią na nauczanie św. Pawła, że moc Boża objawia się w słabości krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "124",
+      "piesn": "Krzyżu święty nade wszystko",
+      "opis": "Pieśń sławi krzyż, który dla świata jest głupstwem, a dla nas mocą Bożą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest kluczowa w kontekście Ewangelii o odrzuceniu Jezusa, które wynikało z braku wiary Jego ziomków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Bożą, a nie mądrość ludzką, o czym naucza św. Paweł w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu, która jest fundamentem wiary opierającej się na mocy Bożej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Adoracja Jezusa w Eucharystii jest aktem wiary w Jego moc, która przekracza ludzką mądrość.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości płynącej z ran Chrystusa jest źródłem siły dla tych, którzy jak On, doświadczają odrzucenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem przyjęcia 'głupstwa krzyża' i mocy Bożej w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń, będąca hymnem o Prawie Bożym, dobrze współbrzmi z psalmem responsoryjnym, który wychwala Prawo Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość Słowa Bożego, które Jezus głosi w synagodze i które jest źródłem prawdziwej mądrości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, którego Prawo jest naszą mądrością, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odrzucenie Jezusa w Nazarecie jest zapowiedzią Jego misji skierowanej do pogan, co czyni tę pieśń misyjną odpowiednią na zakończenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego mocy, nawet jeśli spotka nas odrzucenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, nawet w obliczu odrzucenia przez świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec odrzucenia Jezusa przez swoich, pieśń ta jest aktem ponownego wyboru Chrystusa jako Drogi, Prawdy i Życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Nadzieja w Chrystusie ukrzyżowanym jest fundamentem wiary, która opiera się na mocy Bożej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Jezus, odrzucony i ubogi, jest wzorem dla tych, którzy są błogosławieni, bo do nich należy królestwo niebieskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do przyjęcia Jezusa, którego odrzucili Jego rodacy w Nazarecie.",
+      "moment": "ogolne"
+    }
+  ]
+}

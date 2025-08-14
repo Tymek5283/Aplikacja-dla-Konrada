@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412905.Sobota-III-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "3 Sobota Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 6, 1-6",
+      "opis": "Miłości pragnę, a nie krwawej ofiary",
+      "tekst": "Chodźcie, powróćmy do Pana! On nas zranił i On też uleczy, On to nas pobił, On ranę przewiąże. Po dwu dniach przywróci nam życie, a dnia trzeciego nas dźwignie i żyć będziemy w Jego obecności. Poznajmy, dążmy do poznania Pana; Jego przyjście jest pewne jak poranek, jak wczesny deszcz przychodzi On do nas, jak deszcz późny, co nasyca ziemię.\n«Cóż ci mogę uczynić, Efraimie, co pocznę z tobą, Judo? Miłość wasza podobna do chmur o świtaniu albo do rosy, która prędko znika. Dlatego ciosałem cię przez proroków, słowami ust mych pouczałem, a Prawo moje zabłysło jak światło. Miłości pragnę, nie krwawej ofiary, poznania Boga bardziej niż całopaleń».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 3-4. 18-19. 20-21a (R.: Oz 6, 6)",
+      "opis": "",
+      "tekst": "Refren: Miłości pragnę, nie krwawej ofiary.\nZmiłuj się nade mną, Boże, w łaskawości swojej, *\nw ogromie swej litości zgładź moją nieprawość.\nObmyj mnie zupełnie z mojej winy *\ni oczyść mnie z grzechu mojego.\nRefren.\nOfiarą bowiem Ty się nie radujesz, *\na całopalenia, choćbym dał, nie przyjmiesz.\nBoże, moją ofiarą jest duch skruszony, *\npokornym i skruszonym sercem Ty, Boże, nie gardzisz.\nRefren.\nPanie, okaż Syjonowi łaskę w Twej dobroci, *\nodbuduj mury Jeruzalem.\nWtedy przyjmiesz prawe ofiary, *\ndary i całopalenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 18, 9-14",
+      "opis": "Przypowieść o faryzeuszu i celniku",
+      "tekst": "Jezus opowiedział niektórym, co dufni byli w siebie, że są sprawiedliwi, a innymi gardzili, tę przypowieść:\n«Dwóch ludzi przyszło do świątyni, żeby się modlić, jeden faryzeusz, a drugi celnik. Faryzeusz stanął i tak w duszy się modlił: „Boże, dziękuję Ci, że nie jestem jak inni ludzie: zdziercy, niesprawiedliwi, cudzołożnicy, albo jak i ten celnik. Zachowuję post dwa razy w tygodniu, daję dziesięcinę ze wszystkiego, co nabywam”.\nA celnik stał z daleka i nie śmiał nawet oczu wznieść ku niebu, lecz bił się w piersi, mówiąc: „Boże, miej litość dla mnie, grzesznika!”\nPowiadam wam: Ten odszedł do domu usprawiedliwiony, nie tamten. Każdy bowiem, kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń ta wzywa do postawy pokory i uniżenia, którą w Ewangelii reprezentuje celnik.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia serca, a nie tylko zewnętrznych praktyk, co jest głównym przesłaniem czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, zgodnie z postawą celnika.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Utwór ten podkreśla, że Bóg ceni serce skruszone i żałujące, co jest głównym przesłaniem psalmu i przypowieści.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń jest modlitwą o wewnętrzną przemianę i czystość serca, która jest prawdziwą ofiarą miłą Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla konieczność pokory, aby godnie złożyć ofiarę i przyjąć dar Boży.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to parafraza Psalmu 51, który jest psalmem responsoryjnym, a jego treść to modlitwa celnika: „Boże, miej litość dla mnie, grzesznika”.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o zmiłowanie i obmycie z grzechów jest warunkiem usprawiedliwienia, którego dostąpił celnik.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Prośba o czyste serce i siłę ducha jest odpowiedzią na Ewangelię, która uczy prawdziwej modlitwy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Kolejna pieśń oparta na Psalmie 51, która jest uwielbieniem Boga za Jego miłosierdzie okazywane pokornym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża ufność w Boże przebaczenie, które jest owocem pokornej modlitwy celnika.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które podnosi upadłych i usprawiedliwia grzeszników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta przypomina o błogosławieństwie ubogich i cichych, których postawę Jezus stawia za wzór.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, które są drogą do usprawiedliwienia i wejścia do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, a nie do polegania na własnej sprawiedliwości jak faryzeusz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i uznania własnej grzeszności, która prowadzi do usprawiedliwienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o zmiłowanie jest odpowiedzią na Ewangelię, która uczy, że Bóg wysłuchuje modlitwy pokornego grzesznika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania pokutna jest wołaniem o Boże miłosierdzie, którego dostąpił celnik w świątyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę pokory i prawdziwej pobożności.",
+      "moment": "ogolne"
+    }
+  ]
+}

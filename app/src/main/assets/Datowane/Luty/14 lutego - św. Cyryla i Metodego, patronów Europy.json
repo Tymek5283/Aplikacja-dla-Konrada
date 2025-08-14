@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 117,1-2",
-      "opis": "Refren:",
-      "tekst": "Idźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
+      "opis": "",
+      "tekst": "Refren:\nIdźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Święci Cyryl i Metody są nazywani Apostołami Słowian, dlatego ten hymn na cześć apostołów jest bardzo stosowny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "576",
+      "piesn": "Błogosławione serca",
+      "opis": "Pieśń sławi tych, którzy sieją zbawienne ziarno Ewangelii, co było istotą życia i misji świętych patronów dnia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Treść pieśni jest echem Ewangelii o rozesłaniu uczniów i psalmu 'Idźcie i głoście', co oddaje misyjny charakter patronów Europy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy Bogu trud misyjny Kościoła, którego wybitnymi przedstawicielami byli Cyryl i Metody.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Modlitwa o błogosławieństwo dla pracy i trudu, na wzór niestrudzonej pracy ewangelizacyjnej świętych braci.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla powołanie całego ludu Bożego do głoszenia chwały Pana, co jest owocem pracy misyjnej, takiej jak Cyryla i Metodego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest ucztą, na którą zaproszone są wszystkie narody, co było celem misji Apostołów Słowian.",
+      "moment": "komunia"
+    },
+    {
       "numer": "630",
       "piesn": "Wszystkie narody świata",
       "opis": "Jest to pieśń uwielbienia, która wzywa wszystkie narody do chwalenia Pana, co jest celem działalności misyjnej Cyryla i Metodego.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uniwersalny hymn chwały, który odzwierciedla pragnienie misjonarzy, by chwała Boża rozbrzmiewała pośród wszystkich ludów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne dziękczynienie za dzieło zbawienia, które dzięki posłudze świętych braci dotarło do narodów słowiańskich.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
-      "opis": "Modlitwa o jedność i pokój w Kościele jest odpowiednim zwieńczeniem liturgii w dniu patronów, którzy budowali jedność Europy.",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła jest odpowiednim zwieńczeniem liturgii w dniu patronów, którzy budowali jedność Europy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest prośbą o jedność, która była owocem ewangelizacji prowadzonej przez świętych Cyryla i Metodego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana jest posłaniem, które wierni zabierają ze sobą, naśladując misyjny zapał patronów dnia.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "634",
       "piesn": "Złącz, Panie, miłujących Cię",
       "opis": "Pieśń ta, będąca prośbą o jedność, doskonale wpisuje się w dzieło świętych braci, którzy łączyli różne narody w jednej wierze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o powołania kapłańskie i misyjne jest szczególnie stosowna w dniu wspomnienia wielkich misjonarzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "317",
+      "piesn": "Narodów Zbawco",
+      "opis": "Pieśń ta jest modlitwą o zbawienie dla wszystkich narodów, co było celem i pragnieniem świętych Cyryla i Metodego.",
       "moment": "ogolne"
     }
   ]

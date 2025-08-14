@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424675.23-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "23 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 35, 4-7a",
+      "opis": "Przejrzą oczy niewidomych i uszy głuchych się otworzą",
+      "tekst": "Powiedzcie małodusznym: «Odwagi! Nie bójcie się! Oto wasz Bóg, oto pomsta; przychodzi Boża odpłata; On sam przychodzi, by was zbawić».\nWtedy przejrzą oczy niewidomych i uszy głuchych się otworzą. Wtedy chromy wyskoczy jak jeleń i język niemych wesoło wykrzyknie. Bo trysną zdroje wód na pustyni i strumienie na stepie; spieczona ziemia zmieni się w pojezierze, spragniony kraj w krynice wód.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 6c-7. 8-9a. 9b-10 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Chwal, duszo moja, Pana, Stwórcę swego.\nBóg wiary dochowuje na wieki, *\nuciśnionym wymierza sprawiedliwość,\nchlebem karmi głodnych, *\nwypuszcza na wolność uwięzionych.\nRefren.\nPan przywraca wzrok ociemniałym, *\nPan dźwiga poniżonych.\nPan kocha sprawiedliwych, *\nPan strzeże przybyszów.\nRefren.\nOchrania sierotę i wdowę, *\nlecz występnych kieruje na bezdroża.\nPan króluje na wieki, *\nBóg twój, Syjonie, przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Jk 2, 1-5",
+      "opis": "Bóg wybrał ubogich",
+      "tekst": "Bracia moi, niech wiara wasza w Pana naszego, Jezusa Chrystusa uwielbionego, nie ma względu na osoby.\nBo gdyby przyszedł na wasze zgromadzenie człowiek przystrojony w złote pierścienie i bogatą szatę i przybył także człowiek ubogi w zabrudzonej szacie, a wy spojrzycie na bogato przyodzianego i powiecie: «Ty usiądź na zaszczytnym miejscu», do ubogiego zaś powiecie: «Stań sobie tam albo usiądź u podnóżka mojego», to czy nie czynicie różnic między sobą i nie stajecie się sędziami przewrotnymi?\nPosłuchajcie, bracia moi umiłowani! Czy Bóg nie wybrał ubogich tego świata na bogatych w wierze oraz na dziedziców królestwa przyobiecanego tym, którzy Go miłują?\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 7, 31-37",
+      "opis": "Uzdrowienie głuchoniemego",
+      "tekst": "Jezus opuścił okolice Tyru i przez Sydon przyszedł nad Jezioro Galilejskie, przemierzając posiadłości Dekapolu.\nPrzyprowadzili Mu głuchoniemego i prosili Go, żeby położył na niego rękę. On wziął go na bok, z dala od tłumu, włożył palce w jego uszy i śliną dotknął mu języka; a spojrzawszy w niebo, westchnął i rzekł do niego: «Effatha», to znaczy: Otwórz się. Zaraz otworzyły się jego uszy, więzy języka się rozwiązały i mógł prawidłowo mówić.\nJezus przykazał im, żeby nikomu nie mówili. Lecz im bardziej przykazywał, tym gorliwiej to rozgłaszali. I przepełnieni zdumieniem mówili: «Dobrze wszystko uczynił. Nawet głuchym słuch przywraca i niemym mowę».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń zaprasza do szukania pociechy u Jezusa, który w Ewangelii i pierwszym czytaniu jawi się jako Ten, co uzdrawia i zbawia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń jest uwielbieniem Boga za Jego cuda, które zapowiada prorok Izajasz i których dokonuje Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie skierowane do utrudzonych i obciążonych jest echem działania Jezusa, który lituje się nad cierpiącymi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich nawiązuje do drugiego czytania, które mówi o szczególnym wybraniu ubogich przez Boga.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do służby Chrystusowi w ubogich, co jest praktycznym wyrazem wiary, o której mówi św. Jakub.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Prawdziwa wiara, o której mówi drugie czytanie, wyraża się w miłości i dobrych uczynkach wobec braci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Przyjęcie Komunii jest otwarciem się na uzdrawiającą moc Chrystusa, o której z taką mocą mówią dzisiejsze czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i nadzieję na spotkanie z Jezusem-Uzdrowicielem w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Modlitwa do Jezusa ukrytego w Hostii jest prośbą o uzdrowienie i napełnienie serca Jego miłością.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia jest odpowiedzią na Psalm 146, który wzywa do chwalenia Pana za Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar samego siebie jest odpowiedzią na cud uzdrowienia i objawienie Bożej mocy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały jest odpowiedzią na wielkie dzieła Boże, opisane we wszystkich dzisiejszych czytaniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest zachętą do głoszenia Dobrej Nowiny o Bogu, który 'dobrze wszystko uczynił', jak mówili świadkowie cudu w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' jest modlitwą o siły do świadczenia o Bogu przez uczynki miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa i zobowiązaniem do pójścia za Nim, by głosić Jego dzieła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta wzywa do okazywania wiary przez dobre uczynki, co jest głównym tematem drugiego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie dla cierpiących i opuszczonych jest echem troski o ubogich z drugiego czytania i uzdrawiającej mocy Jezusa z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie jest odpowiedzią na obietnicę zbawienia dla ubogich i uciśnionych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której mówi św. Jakub, jest darem, który pozwala nam być 'bogatymi w wierze' i dziedzicami królestwa.",
+      "moment": "ogolne"
+    }
+  ]
+}

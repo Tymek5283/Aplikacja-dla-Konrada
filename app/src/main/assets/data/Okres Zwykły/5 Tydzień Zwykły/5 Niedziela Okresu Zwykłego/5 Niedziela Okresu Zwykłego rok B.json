@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415582.Niedziela-rok-B",
+  "tytul_dnia": "5 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 7, 1-4. 6-7",
+      "opis": "Marność życia ludzkiego",
+      "tekst": "Hiob przemówił w następujący sposób:\n«Czyż nie do bojowania podobny byt człowieka? Dni jego czyż nie są dniami najemnika? Jak sługa wzdycha on do cienia, i jak najemnik czeka na zapłatę. Tak moim działem miesiące nicości i wyznaczono mi noce udręki.\nPołożę się, mówiąc do siebie: Kiedyż zaświta i wstanę? Przedłuża się wieczór, a niepokój mnie syci do świtu. Dni moje lecą jak tkackie czółenko, i kończą się, bo braknie nici. Wspomnij, że dni me jak powiew. Ponownie oko me szczęścia nie zazna».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147A (146), 1b-2. 3-4. 5-6 (R.: por. 3a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Panie, Ty leczysz złamanych na duchu.\nChwalcie Pana, bo dobrze jest śpiewać psalmy Bogu, *\nsłodko jest Go wysławiać.\nPan buduje Jeruzalem, *\ngromadzi rozproszonych z Izraela.\nRefren.\nOn leczy złamanych na duchu *\ni przewiązuje ich rany.\nOn liczy wszystkie gwiazdy *\ni każdej imię nadaje.\nRefren.\nNasz Pan jest wielki i potężny, *\na Jego mądrość niewypowiedziana.\nPan dźwiga pokornych, *\nkarki grzeszników zgina do ziemi.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 9, 16-19. 22-23",
+      "opis": "Biada mi, gdybym nie głosił Ewangelii",
+      "tekst": "Bracia:\nNie jest dla mnie powodem do chluby to, że głoszę Ewangelię. Świadom jestem ciążącego na mnie obowiązku. Biada mi bowiem, gdybym nie głosił Ewangelii!\nGdybym to czynił z własnej woli, miałbym zapłatę, lecz jeśli działam nie z własnej woli, to tylko spełniam obowiązki szafarza. Jakąż przeto mam zapłatę? Otóż tę właśnie, że głosząc Ewangelię bez żadnej zapłaty, nie korzystam z praw, jakie mi daje Ewangelia.\nTak więc nie zależąc od nikogo, stałem się niewolnikiem wszystkich, aby tym liczniejsi byli ci, których pozyskam.\nDla słabych stałem się jak słaby, by pozyskać słabych. Stałem się wszystkim dla wszystkich, żeby uratować choć niektórych. Wszystko zaś czynię dla Ewangelii, by mieć w niej swój udział.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 8, 17",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus wziął na siebie nasze słabości\ni dźwigał nasze choroby."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 29-39",
+      "opis": "Jezus uzdrawia i wypędza złe duchy",
+      "tekst": "Po wyjściu z synagogi Jezus przyszedł z Jakubem i Janem do domu Szymona i Andrzeja. Teściowa zaś Szymona leżała w gorączce. Zaraz powiedzieli Mu o niej. On podszedł i podniósł ją, ująwszy za rękę, a opuściła ją gorączka. I usługiwała im.\nZ nastaniem wieczora, gdy słońce zaszło, przynosili do Niego wszystkich chorych i opętanych; i całe miasto zebrało się u drzwi. Uzdrowił wielu dotkniętych rozmaitymi chorobami i wiele złych duchów wyrzucił, lecz nie pozwalał złym duchom mówić, ponieważ Go znały.\nNad ranem, kiedy jeszcze było ciemno, wstał, wyszedł i udał się na miejsce pustynne, i tam się modlił. Pośpieszył za Nim Szymon z towarzyszami, a gdy Go znaleźli, powiedzieli Mu: «Wszyscy Cię szukają». Lecz On rzekł do nich: «Pójdźmy gdzie indziej, do sąsiednich miejscowości, abym i tam mógł nauczać, bo po to wyszedłem». I chodził po całej Galilei, nauczając w ich synagogach i wyrzucając złe duchy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Wprowadza w tematykę Bożej opieki, która jest odpowiedzią na ludzkie cierpienie opisane w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do Jezusa, który w Ewangelii uzdrawia chorych i jest pociechą w cierpieniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Wzywa do oddania czci Bogu, który, jak mówi psalm, leczy złamanych na duchu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu swoich trosk i cierpień, podobnie jak czynił to Hiob.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni składamy Bogu nasze życie, naśladując św. Pawła, który wszystko czynił dla Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem zawierzenia i ofiarowania Bogu swojego życia, zwłaszcza w trudnych doświadczeniach Hioba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest bezpośrednim zaproszeniem do spotkania z Chrystusem Uzdrowicielem, którego działalność opisuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który uzdrawia i daje nadzieję w cierpieniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który w Ewangelii przychodzi z uzdrowieniem do chorych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Ta pieśń jest dziękczynieniem za moc Bożą, która leczy złamanych na duchu, o czym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń chwały za Bożą interwencję i pomoc, nawiązująca do uzdrowień z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i zbawienia, który otrzymujemy od Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża prośbę o Boże prowadzenie w trudach życia, co jest odpowiedzią na doświadczenie Hioba i posługę Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po spotkaniu z uzdrawiającym Chrystusem jesteśmy posłani, by głosić Ewangelię, tak jak czynił to św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo w naszym codziennym trudzie i świadectwie, do którego wzywa nas liturgia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla potrzebę zaufania Bogu w trudnych doświadczeniach, co jest centralnym przesłaniem dzisiejszej liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń chwały za Bożą interwencję i pomoc, nawiązująca do uzdrowień z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Pieśń błagalna, która jest echem wołania Hioba i prośbą o Bożą litość w cierpieniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest jedyną pociechą w trudach życia opisanych przez Hioba.",
+      "moment": "ogolne"
+    }
+  ]
+}

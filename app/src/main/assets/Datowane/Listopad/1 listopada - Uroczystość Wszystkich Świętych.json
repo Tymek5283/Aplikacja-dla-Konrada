@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 24,1-6",
-      "opis": "Refren:",
-      "tekst": "Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia,\nświat i jego mieszkańcy.\nAlbowiem On go na morzach osadził\ni utwierdził ponad rzekami.\nKto wstąpi na górę Pana,\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca,\nktóry nie skłonił swej duszy ku marnościom.\nOn otrzyma błogosławieństwo od Pana\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, co Go szukają,\nktórzy szukają oblicza Boga Jakuba."
+      "opis": "",
+      "tekst": "Refren:\nOto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia,\nświat i jego mieszkańcy.\nAlbowiem On go na morzach osadził\ni utwierdził ponad rzekami.\nKto wstąpi na górę Pana,\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca,\nktóry nie skłonił swej duszy ku marnościom.\nOn otrzyma błogosławieństwo od Pana\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, co Go szukają,\nktórzy szukają oblicza Boga Jakuba."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -38,7 +38,19 @@
     {
       "numer": "554",
       "piesn": "Racz być, Chryste, przebłagany",
-      "opis": "Pieśń ta jest modlitwą do Chrystusa za wstawiennictwem wszystkich stanów Kościoła w niebie - aniołów, apostołów, męczenników i dziewic, co idealnie pasuje na rozpoczęcie uroczystości Wszystkich Świętych.",
+      "opis": "Pieśń ta jest modlitwą do Chrystusa za wstawiennictwem wszystkich stanów Kościoła w niebie, co idealnie pasuje na rozpoczęcie uroczystości Wszystkich Świętych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten jest bezpośrednim uwielbieniem Boga w Jego świętych, co stanowi doskonałe wprowadzenie w tajemnicę dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Pieśń ta jest bezpośrednim zwrotem do świętych w niebie, prosząc o ich wstawiennictwo, co jest istotą tej uroczystości.",
       "moment": "wejscie"
     },
     {
@@ -48,21 +60,69 @@
       "moment": "ofiarowanie"
     },
     {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Wraz z całym Kościołem w niebie i na ziemi składamy Bogu Najświętszą Ofiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "688",
+      "piesn": "Boże, lud Twój",
+      "opis": "Pieśń ta wyraża postawę całego ludu Bożego, pielgrzymującego i triumfującego, który wznosi swe serca do ołtarza.",
+      "moment": "ofiarowanie"
+    },
+    {
       "numer": "1",
       "piesn": "Błogosławieni",
       "opis": "Tekst pieśni jest bezpośrednim nawiązaniem do Ewangelii o Ośmiu Błogosławieństwach, która jest odczytywana w tę uroczystość.",
       "moment": "komunia"
     },
     {
-      "numer": "553",
-      "piesn": "Bądź uwielbion",
-      "opis": "Pieśń jest hymnem uwielbienia Boga w Jego świętych, łącząc głosy Kościoła pielgrzymującego z chórem zbawionych w niebie.",
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Komunia Święta jest zapowiedzią uczty niebieskiej, w której uczestniczą już wszyscy święci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń ta przypomina, że jesteśmy zaproszeni na Ucztę Pańską, która jest przedsmakiem wiecznej uczty w domu Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uroczysty hymn chwały, który wzywa całą ziemię i niebo do wysławiania Boga, łącząc Kościół pielgrzymujący z triumfującym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne dziękczynienie za zbawienie, którego owocem jest chwała Wszystkich Świętych w niebie.",
       "moment": "uwielbienie"
     },
     {
       "numer": "636",
       "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum jest doskonałym wyborem na zakończenie tak wielkiej uroczystości, oddając chwałę Bogu wraz z całym Kościołem triumfującym.",
+      "opis": "Hymn 'Te Deum' jest najwspanialszym uwielbieniem Boga, w którym łączymy się z chórem apostołów, proroków i męczenników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność z Bogiem i ze wszystkimi świętymi w niebieskiej ojczyźnie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół pielgrzymujący, aby podążając drogą świętych, doszedł do wiecznej chwały.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Jesteśmy posłani, by iść za Chrystusem drogą błogosławieństw, aby dojść do chwały świętych.",
       "moment": "rozeslanie"
     },
     {
@@ -72,15 +132,21 @@
       "moment": "ogolne"
     },
     {
-      "numer": "584",
-      "piesn": "Święci, niebieskiej mieszkańcy krainy",
-      "opis": "Pieśń ta, skierowana do polskich świętych, poszerza perspektywę o modlitwę za wstawiennictwem naszych rodaków w niebie.",
-      "moment": "ogolne"
-    },
-    {
       "numer": "2",
       "piesn": "Niech się radują",
       "opis": "Radosny charakter pieśni i wezwanie do chwalenia Pana przez całą ziemię dobrze oddaje triumfalny nastrój Uroczystości Wszystkich Świętych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, opisując pokolenie, które szuka oblicza Boga i wstępuje na Jego świętą górę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wezwanie do radosnej służby Panu, która jest drogą do świętości i udziału w chwale niebieskiej.",
       "moment": "ogolne"
     }
   ]

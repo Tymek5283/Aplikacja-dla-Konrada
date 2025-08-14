@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431270.Piatek-20-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "20 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rt 1, 1. 3-6. 14b-16. 22",
+      "opis": "Rut Moabitka zostaje wierna Bogu Noemi",
+      "tekst": "W czasach, gdy rządzili sędziowie, nastał głód w kraju.\nZ Betlejem judzkiego wyszedł pewien człowiek ze swoją żoną i swymi dwoma synami, aby osiedlić się w ziemi Moabu.\nCzłowiek ten, imieniem Elimelek, mąż Noemi, zmarł, a Noemi pozostała ze swymi dwoma synami. Oni wzięli sobie za żony Moabitki: jedna nazywała się Orpa, druga nazywała się Rut. Mieszkali tam około dziesięciu lat. Obaj synowie również zmarli, a kobieta pozostała, przeżywszy obu swych synów i swego męża.\nWyruszyła więc Noemi i z nią jej synowe, aby wrócić z ziemi Moabu, ponieważ usłyszała w ziemi Moabu, że Pan nawiedził swój lud, dając mu chleb. Orpa ucałowała swoją teściową i wróciła do swego narodu, a Rut pozostała przy niej.\n«Oto twoja szwagierka wróciła do swego narodu i do swego boga - powiedziała Noemi do Rut - wracaj i ty za twą szwagierką».\nOdpowiedziała Rut: «Nie nalegaj na mnie, abym opuściła ciebie i abym odeszła od ciebie, gdyż: gdzie ty pójdziesz, tam ja pójdę, gdzie ty zamieszkasz, tam ja zamieszkam, twój naród będzie moim narodem, a twój Bóg będzie moim Bogiem».\nWróciła więc Noemi, a z nią była Rut Moabitka, jej synowa, która przyszła z ziemi Moabu. Przyszły zaś do Betlejem na początku żniw jęczmiennych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 5-6b. 6c-7. 8-9a. 9b-10 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Chwal, duszo moja, Pana, Stwórcę swego.\nSzczęśliwy ten, kogo wspiera Bóg Jakuba, *\nkto pokłada nadzieję w Panu Bogu.\nOn stworzył niebo i ziemię, i morze *\nze wszystkim, co w nich istnieje.\nRefren.\nBóg wiary dochowuje na wieki, *\nuciśnionym wymierza sprawiedliwość,\nchlebem karmi głodnych, *\nwypuszcza na wolność uwięzionych.\nRefren.\nPan przywraca wzrok ociemniałym, *\nPan dźwiga poniżonych.\nPan kocha sprawiedliwych, *\nPan strzeże przybyszów.\nRefren.\nOchrania sierotę i wdowę, *\nlecz występnych kieruje na bezdroża.\nPan króluje na wieki, *\nBóg twój, Syjonie, przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 25 (24), 4b. 5a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Naucz mnie, Boże, chodzić Twoimi ścieżkami,\nprowadź mnie w prawdzie według swych pouczeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 22, 34-40",
+      "opis": "Największe przykazanie",
+      "tekst": "Gdy faryzeusze posłyszeli, że zamknął usta saduceuszom, zebrali się razem, a jeden z nich, uczony w Prawie, wystawiając Go na próbę, zapytał: «Nauczycielu, które przykazanie w Prawie jest największe?»\nOn mu odpowiedział: «„Będziesz miłował Pana Boga swego całym swoim sercem, całą swoją duszą i całym swoim umysłem”. To jest największe i pierwsze przykazanie. Drugie podobne jest do niego: „Będziesz miłował swego bliźniego jak siebie samego”. Na tych dwóch przykazaniach zawisło całe Prawo i Prorocy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta jest muzycznym opracowaniem największego przykazania miłości, które stanowi treść Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Proste wyznanie miłości do Boga jest odpowiedzią na pytanie uczonego w Prawie o największe przykazanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest fundamentem do życia w miłości, do której wzywa nas Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłość i wierność Rut wobec Noemi jest pięknym przykładem miłości bliźniego, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców miłosierdzia, które są praktycznym wyrazem przykazania miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem miłości, o której naucza Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń jest wezwaniem do miłości Boga, co jest pierwszym i największym przykazaniem z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w miłości, która jest fundamentem Prawa i Proroków, jak naucza Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia z Chrystusem jest najgłębszym aktem miłości, która jest odpowiedzią na największe przykazanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia jest odpowiedzią na wezwanie psalmu 'Chwal, duszo moja, Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Bożą opiekę nad wdowami, sierotami i przybyszami, o której mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Bożą dobroć jest wyrazem miłości, do której wzywa nas Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność w miłości, która jest fundamentem życia chrześcijańskiego według nauki Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię miłości, która jest największym przykazaniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie miłości Chrystusa posyła nas, abyśmy odnawiali świat przez miłość.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę pasuje do historii Rut, która jako przybysz i wdowa została otoczona Bożą opatrznością.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wierność Rut została nagrodzona przez Bożą Opatrzność, co jest zachętą do zaufania Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wierność Rut i jej wybór Boga Izraela jest wyrazem nadziei, która znajduje swoje wypełnienie w Chrystusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do konkretnych czynów miłości wobec bliźnich, co jest praktycznym zastosowaniem drugiego przykazania.",
+      "moment": "ogolne"
+    }
+  ]
+}

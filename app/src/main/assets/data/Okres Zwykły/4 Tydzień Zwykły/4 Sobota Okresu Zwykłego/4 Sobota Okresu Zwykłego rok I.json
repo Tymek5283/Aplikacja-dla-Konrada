@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415516.Sobota-IV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "4 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 13, 15-17. 20-21",
+      "opis": "Ofiara duchowa",
+      "tekst": "Bracia:\nPrzez Jezusa składajmy Bogu ofiarę pochwalną nieustannie, to jest owoc warg, które wyznają Jego imię. Nie zapominajcie o dobroczynności i wzajemnej pomocy, gdyż raduje się Bóg takimi ofiarami.\nBądźcie posłuszni waszym przełożonym i bądźcie im ulegli, ponieważ oni czuwają nad duszami waszymi i muszą zdać z tego sprawę. Niech to czynią z radością, a nie wzdychając, bo to nie byłoby z korzyścią dla was.\nBóg zaś pokoju, który na mocy krwi przymierza wiecznego wyprowadził spomiędzy zmarłych Wielkiego Pasterza owiec, Pana naszego, Jezusa, niech was uzdolni do wszelkiego dobra, byście wypełnili Jego wolę; niech sprawi w was, co miłe jest w Jego oczach, przez Jezusa Chrystusa, któremu chwała na wieki wieków. Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23 (22), 1b-3a. 3b-4. 5. 6 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem, †\nniczego mi nie braknie, *\npozwala mi leżeć na zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć, *\norzeźwia moją duszę.\nRefren.\nWiedzie mnie po właściwych ścieżkach *\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę, †\nzła się nie ulęknę, bo Ty jesteś ze mną. *\nKij Twój i laska pasterska są moją pociechą.\nRefren.\nStół dla mnie zastawiasz *\nna oczach mych wrogów.\nNamaszczasz mi głowę olejkiem, *\nkielich mój pełny po brzegi.\nRefren.\nDobroć i łaska pójdą w ślad za mną *\nprzez wszystkie dni życia\ni zamieszkam w domu Pana *\npo najdłuższe czasy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 30-34",
+      "opis": "Jezus lituje się nad tłumem",
+      "tekst": "Apostołowie zebrali się u Jezusa i opowiedzieli Mu wszystko, co zdziałali i czego nauczali. A On rzekł do nich: «Pójdźcie wy sami osobno na pustkowie i wypocznijcie nieco». Tak wielu bowiem przychodziło i odchodziło, że nawet na posiłek nie mieli czasu.\nOdpłynęli więc łodzią na pustkowie, osobno. Lecz widziano ich odpływających. Wielu zauważyło to i zbiegli się tam pieszo ze wszystkich miast, a nawet ich wyprzedzili. Gdy Jezus wysiadł, ujrzał wielki tłum. Zlitował się nad nimi, byli bowiem jak owce nie mające pasterza. I zaczął ich nauczać o wielu sprawach.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest parafrazą Psalmu 23, który jest psalmem responsoryjnym w dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jest to inna wersja psalmu 23, która również doskonale pasuje do dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do tematu pasterza i owczarni, obecnego zarówno w psalmie, jak i w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarę pochwalną, do której wzywa List do Hebrajczyków, składaną przez Jezusa, Wielkiego Pasterza owiec.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do wezwania z pierwszego czytania o dobroczynności i wzajemnej pomocy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń ta podkreśla jedność Kościoła pod przewodnictwem Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Podkreśla troskę Dobrego Pasterza o swoje owce, które karmi swoim Ciałem w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, Dobry Pasterz, karmi głodny tłum swoją nauką, zapowiadając Eucharystię, która nasyca najgłębszy głód serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń odnosi się bezpośrednio do Jezusa jako chleba życia, ostatecznego pokarmu dla ludu, który szedł za Nim jak za pasterzem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za opiekę Dobrego Pasterza, który prowadzi nas i karmi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dobroć i łaskę, które spływają na nas od Dobrego Pasterza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na doświadczenie Bożej opieki i miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostołowie, wracający z misji, są posłani przez Dobrego Pasterza, by nauczać i prowadzić lud do zbawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po odpoczynku z Panem, jesteśmy posłani, by kontynuować Jego dzieło, prosząc o błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, Dobrego Pasterza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Nawiązuje do posługi przełożonych w Kościele, o których wspomina pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Dobrego Pasterza, który prowadzi nas po właściwych ścieżkach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Pieśń ta jest modlitwą o pasterzy dla ludu, który jest jak owce nie mające pasterza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje otuchy, przypominając, że Pan, nasz Pasterz, jest naszą siłą i mocą.",
+      "moment": "ogolne"
+    }
+  ]
+}

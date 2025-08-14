@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 103,1-2.3-4.8-9.13-14.17-18",
-      "opis": "Refren:",
-      "tekst": "Chwal i błogosław, duszo moja, Pana.\nBłogosław, duszo moja, Pana,\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nOn odpuszcza wszystkie twoje winy\ni leczy wszystkie choroby,\nOn twoje życie ratuje od zguby,\nobdarza cię łaską i zmiłowaniem.\nMiłosierny jest Pan i łaskawy,\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze,\nnie płonie gniewem na wieki.\nJak ojciec lituje się nad dziećmi,\ntak Pan się lituje nad tymi, którzy się Go boją.\nWie On, z czegośmy powstali,\npamięta, że jesteśmy prochem.\nŁaska zaś Boga jest wieczna dla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem,\nnad wszystkimi, którzy strzegą Jego przymierza\ni pamiętają, by spełniać Jego przykazania."
+      "opis": "",
+      "tekst": "Refren:\nChwal i błogosław, duszo moja, Pana.\nBłogosław, duszo moja, Pana,\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nOn odpuszcza wszystkie twoje winy\ni leczy wszystkie choroby,\nOn twoje życie ratuje od zguby,\nobdarza cię łaską i zmiłowaniem.\nMiłosierny jest Pan i łaskawy,\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze,\nnie płonie gniewem na wieki.\nJak ojciec lituje się nad dziećmi,\ntak Pan się lituje nad tymi, którzy się Go boją.\nWie On, z czegośmy powstali,\npamięta, że jesteśmy prochem.\nŁaska zaś Boga jest wieczna dla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem,\nnad wszystkimi, którzy strzegą Jego przymierza\ni pamiętają, by spełniać Jego przykazania."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "579",
+      "piesn": "O patronko święta w niebie",
+      "opis": "Jest to ogólna pieśń do świętej patronki, która podkreśla jej rolę jako wzoru czystości i miłości do Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "581",
+      "piesn": "Chryste, wszechświata Stwórco",
+      "opis": "Pieśń sławi Boga za dar świętych niewiast, które przez swoją wierność i skromność zwyciężyły świat.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "443",
       "piesn": "Ozdobo Sieny",
       "opis": "Pieśń bezpośrednio zwraca się do św. Katarzyny, prosząc o jej wstawiennictwo, co jest bardzo odpowiednie na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o łaskę życia w światłości, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o całkowitym oddaniu się Jezusowi, co odzwierciedla duchowość św. Katarzyny ze Sieny.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "W Komunii przychodzi do nas cichy i pokorny Jezus, a ta pieśń prosi, by On sam zamieszkał w naszej duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Jezusa, który przychodzi, by nas pokrzepić.",
+      "moment": "komunia"
+    },
+    {
       "numer": "577",
       "piesn": "Boże, przedwieczna mądrości",
       "opis": "Hymn na cześć doktorów Kościoła, który podkreśla rolę świętych w przekazywaniu Bożej mądrości, co idealnie pasuje do postaci św. Katarzyny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny jest hymnem uwielbienia za Boże miłosierdzie, a ta pieśń wzywa całe stworzenie do chwalenia Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego tajemnice zostały objawione prostaczkom, takim jak św. Katarzyna.",
       "moment": "uwielbienie"
     },
     {
@@ -60,15 +108,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "579",
-      "piesn": "O patronko święta w niebie",
-      "opis": "Jest to ogólna pieśń do świętej patronki, która podkreśla jej rolę jako wzoru czystości i miłości do Boga.",
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń ta prosi o siłę do naśladowania Chrystusa, co jest dobrym zwieńczeniem Mszy i posłaniem do życia wiarą na wzór świętej patronki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń wyraża ufne powierzenie się Bogu, który jest ukojeniem dla dusz, jak obiecuje Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
       "moment": "ogolne"
     },
     {
-      "numer": "632",
-      "piesn": "Wszystko Tobie oddać pragnę",
-      "opis": "Pieśń o całkowitym oddaniu się Jezusowi, co odzwierciedla duchowość św. Katarzyny ze Sieny.",
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o objawieniu tajemnic prostaczkom, a pieśń o błogosławieństwach podkreśla wartość ubóstwa i cichości w oczach Bożych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pierwsze czytanie wzywa do chodzenia w światłości i wyznawania grzechów, co jest warunkiem wejścia do Królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o zaufaniu Bożemu miłosierdziu, które odpuszcza grzechy i leczy choroby, jak głosi psalm responsoryjny.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,189 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/432959.Uroczystosc-Najswietszej-Trojcy-Rok-A",
+  "tytul_dnia": "Uroczystość Najświętszej Trójcy rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 34, 4b-6. 8-9",
+      "opis": "Bóg miłosierny i łagodny",
+      "tekst": "Mojżesz, wstawszy rano, wstąpił na górę, jak mu nakazał Pan, i wziął do rąk tablice kamienne.\nA Pan zstąpił w obłoku, i Mojżesz zatrzymał się koło Niego, i wypowiedział imię Pana. Przeszedł Pan przed jego oczyma i wołał: «Pan, Pan, , nieskory do gniewu, bogaty w łaskę i wierność».\nNatychmiast Mojżesz skłonił się aż do ziemi i oddał pokłon, mówiąc: «Jeśli darzysz mnie życzliwością, Panie, to proszę, niech pójdzie Pan pośród nas. Jest to wprawdzie lud o twardym karku, ale przebaczysz nasze winy i nasze grzechy, a uczynisz nas swoim dziedzictwem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Dn 3, 52. 53-54. 55-56 (R.: por. 52b)",
+      "opis": "",
+      "tekst": "Refren: Chwalebny jesteś, wiekuisty Boże.\nBłogosławiony jesteś, Panie, Boże naszych ojców, *\npełen chwały i wywyższony na wieki.\nBłogosławione jest imię Twoje †\npełne chwały i świętości, *\nuwielbione i wywyższone na wieki.\nRefren.\nBłogosławiony jesteś w przybytku Twojej świętej chwały, *\nuwielbiony i przesławny na wieki.\nBłogosławiony jesteś na tronie swojego królestwa, *\nuwielbiony i przesławny na wieki.\nRefren.\nBłogosławiony jesteś Ty, co spoglądasz w otchłanie, †\nktóry zasiadasz na Cherubach, *\npełen chwały i wywyższony na wieki.\nBłogosławiony jesteś na sklepieniu nieba, *\npełen chwały i wywyższony na wieki.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 13, 11-13",
+      "opis": "Pozdrowienie w imię Trójcy Świętej",
+      "tekst": "Bracia, radujcie się, dążcie do doskonałości, pokrzepiajcie się na duchu, bądźcie jednomyślni, pokój zachowujcie, a Bóg miłości i pokoju będzie z wami.\nPozdrówcie się nawzajem świętym pocałunkiem! Pozdrawiają was wszyscy święci.\nŁaska Pana Jezusa Chrystusa, miłość Boga i dar jedności w Duchu Świętym niech będą z wami wszystkimi!\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ap 1, 8",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Chwała Ojcu i Synowi, i Duchowi Świętemu,\nBogu, który jest i który był, i który przychodzi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3, 16-18",
+      "opis": "Bóg posłał swego Syna na świat, aby świat został zbawiony",
+      "tekst": "Jezus powiedział do Nikodema:\n«Tak Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony. Kto wierzy w Niego, nie podlega potępieniu; a kto nie wierzy, już został potępiony, bo nie uwierzył w imię Jednorodzonego Syna Bożego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "231",
+      "piesn": "Trójcy Najświętszej",
+      "opis": "Pieśń wprost oddaje cześć Trójcy Świętej, co doskonale wprowadza w atmosferę dzisiejszej uroczystości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "228",
+      "piesn": "Ciebie wzywamy",
+      "opis": "Litania do Trójcy Świętej jest uroczystym wezwaniem Osób Boskich na początku Mszy Świętej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały, który nawiązuje do psalmu, wzywając do głoszenia potęgi Boga Stwórcy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Boga, co jest odpowiedzią na kantyk z Księgi Daniela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały, który jest echem psalmu responsoryjnego, wzywającego do błogosławienia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "229",
+      "piesn": "Jeden w naturze",
+      "opis": "Pieśń ta w prosty sposób wyjaśnia tajemnicę Trójcy Świętej i ma charakter błagalny, co dobrze pasuje do ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ta jest modlitwą do Boga Ojca o przyjęcie darów, które staną się Ciałem i Krwią Jego Syna, co ukazuje działanie Osób Trójcy Świętej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności Bogu Stwórcy za Jego dary, które symbolicznie składamy na ołtarzu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "232",
+      "piesn": "Bądź pochwalon na wieki",
+      "opis": "Pieśń eucharystyczna, która oddaje cześć Bogu ukrytemu w Sakramencie, a więc całej Trójcy Świętej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, którego miłość do świata objawiła się w darze Syna.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "228",
+      "piesn": "Ciebie wzywamy",
+      "opis": "Litania do Trójcy Świętej jest modlitwą o jedność i miłość, co nawiązuje do drugiego czytania oraz Ewangelii o miłości Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Komunia jednoczy nas w jedno Ciało, co jest dziełem Trójcy Świętej, o której jedności mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta wyraża wdzięczność za miłość Boga, objawioną w darze Eucharystii, która jest darem całej Trójcy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jednoczącą moc Trójcy Świętej, która gromadzi nas we wspólnocie Kościoła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności w miłości jest odpowiedzią na dar jedności w Duchu Świętym, o którym mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "230",
+      "piesn": "Światłości wieczna",
+      "opis": "Hymn ten jest uroczystym dziękczynieniem i uwielbieniem Trójcy Świętej, idealnym na zakończenie Komunii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosny hymn chwały, wzywający całe stworzenie do oddania czci Bogu, co jest doskonałym uwielbieniem Trójcy Świętej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i miłosierdzie, które są dziełem Ojca, Syna i Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "227",
+      "piesn": "Chwała Ojcu i Synowi",
+      "opis": "Ta krótka doksologia jest streszczeniem całej tajemnicy dnia i stanowi doskonałe, uroczyste zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta podkreśla dzieło zbawienia, w którym Syn prowadzi nas do Ojca, a wszystko to w mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności w miłości jest posłaniem do świata, aby świadczyć o Bogu, który jest Miłością i Jednością.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń oparta na błogosławieństwach wychwala Boga w Trójcy, co jest odpowiednie dla ogólnego charakteru dnia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń o charakterze misyjnym, prosząca, by wszystkie narody poznały Boga, co jest celem działania Trójcy w świecie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "227",
+      "piesn": "Chwała Ojcu i Synowi",
+      "opis": "Doksologia jest najprostszym i najczęstszym sposobem oddawania czci Trójcy Świętej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "231",
+      "piesn": "Trójcy Najświętszej",
+      "opis": "Pieśń wprost oddaje cześć Trójcy Świętej, co doskonale pasuje do każdego momentu liturgii w tę uroczystość.",
+      "moment": "ogolne"
+    }
+  ]
+}

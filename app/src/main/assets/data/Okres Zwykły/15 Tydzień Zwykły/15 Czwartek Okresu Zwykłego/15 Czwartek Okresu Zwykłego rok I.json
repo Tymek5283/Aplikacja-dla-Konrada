@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426788.Czwartek-XV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "15 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 3, 13-20",
+      "opis": "Bóg objawia swoje imię",
+      "tekst": "Mojżesz rzekł Bogu: «Oto pójdę do Izraelitów i powiem im: Bóg ojców naszych posłał mnie do was. Lecz gdy oni mnie zapytają, jakie jest Jego imię, cóż im mam powiedzieć?» Odpowiedział Bóg Mojżeszowi: «Jestem, który jestem». I dodał: «Tak powiesz synom Izraela: Jestem posłał mnie do was».\nMówił dalej Bóg do Mojżesza: «Tak powiesz Izraelitom: Pan, Bóg ojców waszych, Bóg Abrahama, Bóg Izaaka i Bóg Jakuba posłał mnie do was. To jest imię moje na wieki i to jest moje zawołanie na najdalsze pokolenia.\nIdź, a gdy zbierzesz starszych Izraela, powiesz im: Objawił mi się Pan, Bóg ojców waszych, Bóg Abrahama, Bóg Izaaka i Bóg Jakuba i powiedział: Zająłem się w pełni wami i tym, co wam uczyniono w Egipcie. Postanowiłem więc wywieść was z ucisku w Egipcie i zaprowadzić do ziemi Kananejczyka, Chittyty, Amoryty, Peryzzyty, Chiwwity i Jebusyty, do ziemi opływającej w mleko i miód. Oni twych słów usłuchają. I pójdziesz razem ze starszymi Izraela do króla egipskiego, i powiecie mu: Pan, Bóg Hebrajczyków, nam się objawił. Pozwól nam odbyć drogę trzech dni przez pustynię, abyśmy złożyli ofiary Panu, Bogu naszemu.\nJa zaś wiem, że król egipski nie pozwoli wam wyruszyć, chyba że zmuszony siłą. Wyciągnę przeto rękę i uderzę Egipt różnymi cudami, jakich tam dokonam, a wypuści was».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 1 i 5. 8-9. 24-25. 26-27 (R.: por. 8a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\nSławcie Pana, wzywajcie Jego imienia, *\ngłoście Jego dzieła wśród narodów.\nPamiętajcie o cudach, które On uczynił, *\no Jego znakach, o wyrokach ust Jego.\nRefren.\nNa wieki pamięta o swoim przymierzu, *\nobietnicy danej tysiącu pokoleń,\no przymierzu, które zawarł z Abrahamem, *\nprzysiędze danej Izaakowi.\nRefren.\nBóg swój naród bardzo rozmnożył, *\nuczynił go mocniejszym od jego wrogów.\nIch serce odmienił, by znienawidzili lud Jego *\ni wobec sług Jego postępowali zdradziecko.\nRefren.\nPosłał wtedy sługę swego, Mojżesza, *\ni Aarona, wybranego przez siebie.\nOkazali wśród nich Jego znaki *\ni cuda w krainie Chamitów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 28-30",
+      "opis": "Jezus cichy i pokornego serca",
+      "tekst": "Jezus przemówił tymi słowami:\n«Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię. Weźcie na siebie moje jarzmo i uczcie się ode Mnie, bo jestem cichy i pokornego serca, a znajdziecie ukojenie dla dusz waszych. Albowiem słodkie jest moje jarzmo, a moje brzemię lekkie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest bezpośrednim echem zaproszenia Jezusa z Ewangelii: 'Przyjdźcie do Mnie wszyscy, którzy utrudzeni jesteście'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Tekst tej pieśni jest dosłownym przywołaniem słów Jezusa z Ewangelii, zapraszającego do siebie utrudzonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Jezus, który daje pokrzepienie, jest naszą nadzieją i pokojem, o czym śpiewa ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń o charakterze ofiarnym jest dziękczynieniem za Bożą wierność przymierzu, o której przypomina psalm responsoryjny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "W odpowiedzi na zaproszenie Jezusa, ofiarujemy Mu nasze serca, prosząc, by w nich królował.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoce naszej pracy, nasze trudy i znoje, o których mowa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, który daje pokrzepienie i ukojenie, ofiarowuje się nam jako pokarm w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, co jest odpowiedzią na Jego zaproszenie z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Radosne oczekiwanie na przyjście Jezusa w Komunii jest odpowiedzią na Jego zaproszenie utrudzonych i obciążonych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to radosne wezwanie do chwalenia Boga za Jego cuda i wierność, co jest głównym tematem psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i ocalenie, o którym przypomina historia wyjścia z Egiptu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za bezmiar łask, a zwłaszcza za dar pokrzepienia, który Jezus ofiarowuje w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec trudów i obciążeń, o których mówi Ewangelia, ta pieśń jest aktem zawierzenia i szukania ukojenia w Jezusie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Po znalezieniu pokrzepienia w Jezusie, prosimy Go, aby prowadził nas przez resztę naszej drogi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'znojny trud', który z Chrystusem staje się 'słodkim jarzmem' i 'lekkim brzemieniem'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "287",
+      "piesn": "Jezu dobry i cichy",
+      "opis": "Pieśń nawiązuje do słów Jezusa 'uczcie się ode Mnie, bo jestem cichy i pokornego serca'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń wyznaje wiarę w Jezusa jako Pana, którego imię, objawione Mojżeszowi, jest imieniem Boga wiernego i zbawiającego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bożej opiece jest odpowiedzią na obietnicę wyzwolenia z niewoli egipskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który jest naszym pokrzepieniem i ukojeniem w trudach życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

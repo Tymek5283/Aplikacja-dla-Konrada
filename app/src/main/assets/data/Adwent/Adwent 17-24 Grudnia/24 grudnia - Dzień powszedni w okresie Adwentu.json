@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla chwały, którego królestwo, jak mówi proroctwo, będzie trwało na wieki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Hymn Zachariasza jest pieśnią uwielbienia, a ta pieśń wzywa całe stworzenie do radości z powodu nadchodzącego królowania Pana.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "7",
       "piesn": "Przybądź, Panie",
       "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, a refren 'Gotujmy drogę Panu' przypomina o misji Jana, syna Zachariasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wyraża postawę adwentowego oczekiwania i pragnienie, by Pan zastał nas przygotowanych na swoje narodzenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o łaskę wierności przymierzu, o którym mówi psalm.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "2",
-      "piesn": "Niech się radują",
-      "opis": "Hymn Zachariasza jest pieśnią uwielbienia, a ta pieśń wzywa całe stworzenie do radości z powodu nadchodzącego królowania Pana.",
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest żarliwym wołaniem o przyjście Zbawiciela, który jest 'Wschodzącym Słońcem' z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, którego narodzenie jest już tak bliskie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Hymn Zachariasza jest pieśnią uwielbienia, a ta pieśń, oparta na Magnificat, również jest wyrazem radości w Bogu Zbawicielu.",
       "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny jest hymnem na cześć Pana, a ta pieśń jest majestatycznym uwielbieniem Boga za Jego wierność i łaskę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która w Wigilię nabiera charakteru ufnego oczekiwania na bliskie już przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona 'O Wschodzie ranny' jest wołaniem o przyjście Światłości, o której prorokuje Zachariasz.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "27",
       "piesn": "Spuśćcie nam na ziemskie niwy",
       "opis": "Pieśń ta, jako ostatnie wołanie Adwentu, wyraża tęsknotę za Zbawicielem, który jest 'Wschodzącym Słońcem' z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście jest już bliskie.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "15",
       "piesn": "Czekam na Ciebie",
       "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą Wigilii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie czuwania, co jest głównym przesłaniem Adwentu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń opowiada o spełnieniu proroctw i zapowiedzi dotyczących przyjścia Syna z rodu Dawida.",
       "moment": "ogolne"
     }
   ]

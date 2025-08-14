@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418017.Wtorek-25-tydzien-zwykly-rok-II",
+  "tytul_dnia": "25 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Prz 21, 1-6. 10-13",
+      "opis": "Pouczenia Mądrości",
+      "tekst": "Serce króla - kanały wody w ręku Pana, zwraca je tam, dokąd sam zechce. Każdego droga jest prawa w jego oczach, lecz Pan osądza serca.\nPrzestrzeganie prawa i sprawiedliwości lepsze dla Pana niż krwawe ofiary.\nWyniosłe oczy i harde serce - ta lampa występnych jest grzechem.\nZamiary pracowitego prowadzą do zysku, a wszystkich śpieszących się - do straty.\nNabywanie skarbów językiem kłamliwym to słabnący oddech szukających śmierci.\nDusza występnego pragnie zła, bliźni w jego oczach nie znajduje łaski.\nGdy karzą szydercę, mądrzeje naiwny, gdy pouczają mądrego, on wiedzy nabywa.\nSprawiedliwy ma wgląd w dom bezbożnego, sprowadza zło na bezbożnych.\nKto uszy zatyka na krzyk ubogiego, sam będzie wołał, lecz nie otrzyma odpowiedzi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 1 i 27. 30 i 34. 35 i 44 (R.: por. 35a)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, ścieżką Twych przykazań.\nBłogosławieni, których droga nieskalana, *\nktórzy postępują zgodnie z Prawem Pańskim.\nPozwól mi zrozumieć drogę Twych przykazań, *\nabym rozważał Twoje cuda.\nRefren.\nWybrałem drogę prawdy, *\npragnąc Twych wyroków.\nUcz mnie, bym przestrzegał Twego Prawa *\ni zachowywał je całym sercem.\nRefren.\nProwadź mnie ścieżką Twoich przykazań, *\nbo radość mi przynoszą.\nA Prawa Twego zawsze strzec będę, *\npo wieki wieków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, aleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 19-21",
+      "opis": "Krewni Chrystusa",
+      "tekst": "Przyszli do Jezusa Jego Matka i bracia, lecz nie mogli dostać się do Niego z powodu tłumu.\nOznajmiono Mu: «Twoja Matka i bracia stoją na dworze i chcą się widzieć z Tobą». Lecz On im odpowiedział: «Moją matką i moimi braćmi są ci, którzy słuchają słowa Bożego i wypełniają je».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża prośbę o Boże prowadzenie po Jego ścieżkach, co jest główną myślą psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, abyśmy mogli słuchać Słowa Bożego i wypełniać je, stając się w ten sposób rodziną Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które realizuje się przez słuchanie i wypełnianie Jego Słowa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest wezwaniem do życia zgodnego z wolą Bożą i wydawania owoców dobrych czynów, co jest wypełnieniem Słowa, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości podsumowuje wszystkie społeczne pouczenia z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Prawdziwe ofiarowanie Bogu wyraża się w miłości i dobroci wobec bliźnich, do czego wzywa Księga Przysłów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach podkreśla wartość czystego serca i sprawiedliwości, o których mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia tworzy z nas jedną rodzinę - braci i siostry Jezusa, którzy słuchają Jego słowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą, która tworzy nową rodzinę Jezusa, zjednoczoną w słuchaniu i wypełnianiu Słowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, który jest wzorem sprawiedliwości i dobroci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia jest odpowiedzią na wezwanie do życia w prawości i oddawania chwały Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest owocem serca, które postępuje zgodnie z Prawem Pańskim.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Maryja jest najdoskonalszym przykładem słuchania i wypełniania woli Bożej, dlatego pieśń do Niej jest odpowiednia na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja jest pierwszą z tych, którzy słuchają Słowa Bożego i je wypełniają, dlatego jest naszą Matką.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Maryi, Matki Bożej, jest prośbą o Jej wstawiennictwo, byśmy umieli jak Ona słuchać i wypełniać Słowo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud codziennego życia w sprawiedliwości, do której wzywają czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest fundamentem dla życia prawego, opisanego w psalmie i pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem życia w sprawiedliwości i słuchania Słowa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia od nieprawości jest konieczne, aby móc zamieszkać w domu Pana, jak mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

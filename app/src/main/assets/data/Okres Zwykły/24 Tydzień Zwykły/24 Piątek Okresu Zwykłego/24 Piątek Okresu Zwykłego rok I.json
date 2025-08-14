@@ -1,0 +1,135 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418118.Piatek-24-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "24 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 6, 2c-12",
+      "opis": "Wierność zdrowej nauce i bezinteresowność w służbie Bożej",
+      "tekst": "Najmilszy:\nTych rzeczy nauczaj i do nich zachęcaj! Jeśli ktoś naucza inaczej i nie trzyma się zdrowych nauk Pana naszego, Jezusa Chrystusa, oraz nauczania zgodnego z pobożnością, to jest nadęty, niczego nie pojmuje, lecz choruje na dociekania i słowne utarczki. Z nich rodzą się: zawiść, kłótliwość, bluźnierstwa, złośliwe podejrzenia, ciągłe spory ludzi o wypaczonym umyśle i pozbawionych prawdy - ludzi, którzy uważają, że pobożność jest źródłem zysku.\nWielkim zaś zyskiem jest pobożność w połączeniu z poprzestawaniem na tym, co się ma. Nic bowiem nie przynieśliśmy na ten świat; nic też nie możemy z niego wynieść. Mając natomiast żywność i odzienie, i dach nad głową, bądźmy z tego zadowoleni. A ci, którzy chcą się bogacić, popadają w pokusę i w zasadzkę diabła oraz w liczne nierozumne i szkodliwe pożądania. One to pogrążają ludzi w zgubie i zatraceniu. Albowiem korzeniem wszelkiego zła jest chciwość pieniędzy. Za nimi to uganiając się, niektórzy zbłądzili z dala od wiary i sobie samym zadali wiele cierpień.\nTy natomiast, o człowiecze Boży, uciekaj od tego rodzaju rzeczy, a podążaj za sprawiedliwością, pobożnością, wiarą, miłością, wytrwałością, łagodnością. Walcz w dobrych zawodach o wiarę, zdobywaj życie wieczne: do niego zostałeś powołany i o nim złożyłeś dobre wyznanie wobec wielu świadków.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 49 (48), 6-7. 8-10. 17-18. 19-20 (R.: por. Mt 5, 3)",
+      "opis": "",
+      "tekst": "Refren: Ubodzy duchem mają wstęp do nieba.\nDlaczego miałbym się trwożyć w dniach niedoli, *\ngdy otacza mnie złość podstępnych,\nktórzy ufają swoim dostatkom *\ni chełpią się ogromem swego bogactwa?\nRefren.\nNikt przecież nie może samego siebie wykupić *\nani nie uiści Bogu ceny za siebie należnej.\nNazbyt jest kosztowne wyzwolenie duszy †\ni nigdy mu na to nie starczy, *\naby żyć wiecznie i nie ulec zagładzie.\nRefren.\nNie martw się, gdy ktoś się wzbogaci, *\ngdy wzrośnie zamożność jego domu,\nbo kiedy umrze, nic nie weźmie z sobą, *\na jego bogactwo za nim nie pośpieszy.\nRefren.\nI chociaż w życiu schlebia sam sobie: *\n«Będą cię sławić, że urządziłeś się dobrze»,\nić musi do pokolenia swych przodków, *\ndo tych, co na wieki nie ujrzą światła.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 1-3",
+      "opis": "Niewiasty wspierają Jezusa ze swojego mienia",
+      "tekst": "Jezus wędrował przez miasta i wsie, nauczając i głosząc Ewangelię o królestwie Bożym. A było z Nim Dwunastu oraz kilka kobiet, które zostały uwolnione od złych duchów i od chorób, Maria, zwana Magdaleną, którą opuściło siedem złych duchów; Joanna, żona Chuzy, rządcy Heroda; Zuzanna i wiele innych, które im usługiwały, udzielając ze swego mienia.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich dobrze koresponduje z refrenem psalmu i ostrzeżeniem przed chciwością z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń o marności dóbr doczesnych jest echem psalmu responsoryjnego oraz pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń o przemijalności życia na ziemi jest komentarzem do pierwszego czytania, które przestrzega przed pogonią za bogactwem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "485",
+      "piesn": "Gwiazdo Magdali",
+      "opis": "Pieśń do św. Marii Magdaleny, wymienionej w Ewangelii jako jedna z kobiet usługujących Jezusowi, jest stosowna na ofiarowanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę oddania i służby, na wzór pobożnych niewiast, które wspierały Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania serca jest przeciwieństwem chciwości, przed którą przestrzega św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta, szczególnie w zwrotce o naśladowaniu Chrystusa, jest odpowiedzią na Ewangelię i zachętę do służby.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Komunia jest odpowiedzią na zaproszenie Jezusa, by przyjść do Niego i znaleźć pokrzepienie, tak jak czyniły to niewiasty z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa jest naśladowaniem postawy kobiet, które szukały bliskości z Mistrzem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której mowa w pierwszym czytaniu, jest darem, o który prosimy w tej pieśni, by móc naśladować Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar wiary i miłości, które są cenniejsze niż wszelkie bogactwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności jest odpowiedzią na Bożą dobroć, która wzywa nas do życia w sprawiedliwości i pobożności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest prośbą o błogosławieństwo na trud służby i naśladowania Chrystusa, na wzór pobożnych niewiast z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest cnotą, do której zachęca św. Paweł w pierwszym czytaniu, przeciwstawiając ją chciwości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, służąc Mu w naszych braciach i siostrach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do służby potrzebującym, co jest konkretnym wyrazem 'pobożności', o której pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców dobrych czynów, takich jak jałmużna i miłosierdzie, jest odpowiedzią na ostrzeżenie przed chciwością.",
+      "moment": "ogolne"
+    }
+  ]
+}

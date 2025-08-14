@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414677.Piatek-32-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "32 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 13, 1-9",
+      "opis": "Z wielkości i piękna stworzeń poznaje się ich Stwórcę",
+      "tekst": "Głupi z natury są wszyscy ludzie, którzy nie poznali Boga; z dóbr widzialnych nie zdołali poznać Tego, który jest, patrząc na dzieła, nie poznali Twórcy, lecz ogień, wiatr, powietrze chyże, gwiazdy dokoła, rwącą wodę lub światła niebieskie uznali za bóstwa, które rządzą światem. Jeśli urzeczeni ich pięknem wzięli je za bóstwa - winni byli poznać, o ile wspanialszy jest ich Władca, stworzył je bowiem Twórca piękności; a jeśli ich moc i działanie wprawiły ich w podziw - winni byli z nich poznać, o ile jest potężniejszy Ten, kto je uczynił. Bo z wielkości i piękna stworzeń poznaje się przez podobieństwo ich Sprawcę.\nCi jednak na małą zasługują naganę, bo wprawdzie i oni błądzą, ale Boga szukają i pragną Go znaleźć. Obracając się bowiem wśród Jego dzieł, badają, i ulegają pozorom, bo piękne to, na co patrzą. Ale im także nie można wybaczyć: jeśli się bowiem zdobyli na tyle wiedzy, by móc ogarnąć wszechświat - jakże nie znaleźli rychlej jego Władcy?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 2-3. 4-5b (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Niebiosa głoszą chwałę Pana Boga.\nNiebiosa głoszą chwałę Boga, *\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi, *\nnoc nocy wiadomość przekazuje.\nRefren.\nNie są to słowa ani nie jest to mowa, *\nktórych by dźwięku nie usłyszano.\nIch głos się rozchodzi po całej ziemi, *\nich słowa aż po krańce świata.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 21, 28bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nabierzcie ducha i podnieście głowy,\nponieważ zbliża się wasze odkupienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 26-37",
+      "opis": "Dzień Syna Człowieczego nadejdzie niespodziewanie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak działo się za dni Noego, tak będzie również za dni Syna Człowieczego: jedli i pili, żenili się i za mąż wychodziły aż do dnia, kiedy Noe wszedł do arki; a przyszedł potop i wygubił wszystkich. Podobnie jak działo się za czasów Lota: jedli i pili, kupowali i sprzedawali, sadzili i budowali, lecz w dniu, kiedy Lot wyszedł z Sodomy, spadł z nieba „deszcz ognia i siarki” i wygubił wszystkich; tak samo będzie w dniu, kiedy Syn Człowieczy się objawi.\nW owym dniu, kto będzie na dachu, a jego rzeczy w mieszkaniu, niech nie schodzi, by je zabrać; a kto na polu, niech również nie wraca do siebie. Miejcie w pamięci żonę Lota. Kto będzie się starał zachować swoje życie, straci je; a kto je straci, zachowa je.\nPowiadam wam: Tej nocy dwóch będzie na jednym posłaniu: jeden będzie wzięty, a drugi zostawiony. Dwie będą razem mleć na żarnach: jedna będzie wzięta, a druga zostawiona».\nPytali Go: «Gdzie, Panie?» On im odpowiedział: «Gdzie jest padlina, tam zgromadzą się i sępy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń wzywa całe stworzenie do chwalenia Pana, co jest odpowiedzią na pierwsze czytanie mówiące o poznawaniu Stwórcy z Jego dzieł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "587",
+      "piesn": "Boże, dlatego dałeś nam życie",
+      "opis": "Pieśń jest wyznaniem wiary w Boga Stwórcę, którego poznajemy przez otaczający nas świat, co jest głównym tematem Księgi Mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Psalm mówi, że niebiosa głoszą chwałę Boga, a ta pieśń jest radosnym wezwaniem całego stworzenia do uwielbienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Wobec piękna stworzenia, opisanego w pierwszym czytaniu, ta pieśń jest aktem ofiarowania wdzięcznego serca jako najmilszej Bogu ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce ziemi i pracy rąk ludzkich, uznając w nich dzieło Stwórcy, o którym mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, Stwórcy nieba i ziemi, w oczekiwaniu na ostateczne przyjście Jego Syna.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Ewangelia mówi o nagłym przyjściu Pana i przemijalności ziemskich spraw, a ta pieśń przypomina, że naszą prawdziwą ojczyzną jest niebo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chrystusa w Komunii jest zaczątkiem życia wiecznego, o które walczymy, pamiętając o nagłym przyjściu Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem adoracji i wiary w obecność Chrystusa, co jest kluczowe w kontekście czuwania na Jego ostateczne przyjście.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn wzywający całe stworzenie do uwielbienia Pana, którego wielkość i piękno poznajemy przez Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały, który jest odpowiedzią na wezwanie psalmisty, by głosić dzieła Boże.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże ocalenie i łaskę, która pozwala nam przygotować się na dzień ostateczny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "603",
+      "piesn": "Gdy mnie ranna zorza budzi",
+      "opis": "Pieśń ta, mówiąc o niepewności jutra, zachęca do powierzania się Bogu w każdej chwili, co jest odpowiedzią na wezwanie do czujności z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na codzienny trud życia w prawdzie i miłości, w oczekiwaniu na przyjście Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest niezbędna, by wytrwać w czuwaniu i być gotowym na przyjście Pana, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym Jezus ostrzega w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "587",
+      "piesn": "Boże, dlatego dałeś nam życie",
+      "opis": "Pieśń jest wyznaniem wiary w Boga Stwórcę, którego poznajemy przez otaczający nas świat, co jest głównym tematem Księgi Mądrości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do gotowości na przyjście Syna Człowieczego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża głęboką ufność w Boże słowo i miłosierdzie, co jest postawą niezbędną w obliczu Sądu Ostatecznego.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414874.Poniedzialek-31-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "31 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 2, 1-4",
+      "opis": "Troszczyć się o potrzeby innych",
+      "tekst": "Bracia:\nJeśli jest jakieś napomnienie w Chrystusie, jeśli jakaś moc przekonująca Miłości, jeśli jakieś uczestnictwo w Duchu, jeśli jakieś serdeczne współczucie - dopełnijcie mojej radości przez to, że będziecie mieli te same dążenia: tę samą miłość i wspólnego ducha, pragnąc tylko jednego, a niczego nie pragnąc dla niewłaściwego współzawodnictwa ani dla próżnej chwały, lecz w pokorze oceniając jedni drugich za wyżej stojących od siebie. Niech każdy ma na oku nie tylko swoje własne sprawy, ale też i drugich.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 131 (130), 1bcde. 2-3",
+      "opis": "",
+      "tekst": "Refren: Strzeż duszy mojej w Twym pokoju, Panie.\nPanie, moje serce się nie pyszni *\ni nie patrzą wyniośle moje oczy.\nNie dbam o rzeczy wielkie *\nani o to, co przerasta me siły.\nRefren.\nLecz uspokoiłem i uciszyłem moją duszę. †\nJak dziecko na łonie swej matki, *\njak ciche dziecko jest we mnie moja dusza.\nIzraelu, złóż nadzieję w Panu, *\nteraz i na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 31b-32a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeżeli trwacie w nauce mojej,\njesteście prawdziwie moimi uczniami i poznacie prawdę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 12-14",
+      "opis": "Bezinteresowna miłość bliźniego",
+      "tekst": "Jezus powiedział do pewnego przywódcy faryzeuszów, który Go zaprosił:\n«Gdy wydajesz obiad albo wieczerzę, nie zapraszaj swoich przyjaciół ani braci, ani krewnych, ani zamożnych sąsiadów, aby cię i oni nawzajem nie zaprosili, i miałbyś odpłatę. Lecz kiedy urządzasz przyjęcie, zaproś ubogich, ułomnych, chromych i niewidomych. A będziesz szczęśliwy, ponieważ nie mają czym tobie się odwdzięczyć; odpłatę bowiem otrzymasz przy zmartwychwstaniu sprawiedliwych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych, jest doskonałym wprowadzeniem do Ewangelii o bezinteresownej miłości bliźniego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości i jedności, do których wzywa św. Paweł w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pierwsze czytanie jest wezwaniem do jedności i pokory. Ta pieśń jest modlitwą o te dary dla całego Kościoła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "W odpowiedzi na Ewangelię o miłości do ubogich, ta pieśń jest aktem ofiarowania naszej woli, by żyć przykazaniem miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud życia w miłości i pokorze, do których wzywają czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, aby On uczył nas miłości bezinteresownej, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Krótka pieśń 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest kwintesencją dzisiejszej Ewangelii i pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłości do końca, zwłaszcza wobec ubogich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej przychodzi do nas, abyśmy mogli zapraszać Go do naszych serc i domów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Dziękczynienie za dar wspólnoty, o której jedność i miłość apeluje św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wspólnoty Kościoła, w której uczymy się miłości, o której mówią czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą dobroć, która objawia się w wezwaniu do miłości i jedności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest posłaniem do głoszenia Ewangelii miłości, zwłaszcza ubogim i opuszczonym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o miłości jest ścieżką, którą chcemy podążać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców miłości i miłosierdzia, do których zachęca Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jedność Ciała Chrystusa, która jest owocem miłości i pokory, o których mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina, że Chrystus stał się człowiekiem, aby nas nauczyć miłości i zjednoczyć w jedną rodzinę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która jest doskonałym podsumowaniem całej dzisiejszej liturgii słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest źródłem pokoju serca, o którym mówi psalmista.",
+      "moment": "ogolne"
+    }
+  ]
+}

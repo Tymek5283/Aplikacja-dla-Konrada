@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412903.Piatek-III-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "3 Piątek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 14, 2-10",
+      "opis": "Wróć do Pana, Boga twojego",
+      "tekst": "Tak mówi Pan:\n«Wróć, Izraelu, do Pana, Boga twojego, upadłeś bowiem przez własną swą winę. Zabierzcie z sobą słowa i nawróćcie się do Pana! Mówcie do Niego: „Usuń cały grzech, a przyjmij to, co dobre, zamiast cielców dajemy Ci nasze wargi. Asyria nie może nas zbawić; nie chcemy już wsiadać na konie ani też mówić: nasz boże do dzieła rąk naszych. U Ciebie bowiem znajdzie litość sierota”.\nUleczę ich niewierność, szczodrze obdarzę ich miłością, bo gniew mój odwrócił się od nich. Stanę się jakby rosą dla Izraela, tak że rozkwitnie jak lilia i jak topola zapuści korzenie. Rozwiną się jego latorośle, będzie wspaniały jak drzewo oliwne, woń jego będzie jak woń Libanu.\nI wrócą znowu, by usiąść w mym cieniu, i zboża uprawiać będą, winnice sadzić, których sława będzie tak wielka, jak wina libańskiego. Co ma jeszcze Efraim wspólnego z bożkami? Ja go wysłuchuję i Ja na niego spoglądam, Ja jestem jak cyprys zielony i Mnie zawdzięcza swój owoc. Któż jest tak mądry, aby to pojął, i tak rozumny, aby to rozważył? Bo drogi Pańskie są proste; kroczą nimi sprawiedliwi, lecz potykają się na nich grzesznicy».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 81 (80), 6c-8a. 8b-9. 10-11b. 14 i 17 (R.: por. 11a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Ja jestem Bogiem, słuchaj mego głosu.\nSłyszę słowa nieznane: *\n«Uwolniłem od brzemienia jego barki,\njego ręce porzuciły kosze. *\nWołałeś w ucisku, a Ja cię ocaliłem.\nRefren.\nOdpowiedziałem ci z grzmiącej chmury, *\ndoświadczyłem cię przy wodach Meriba.\nSłuchaj, mój ludu, chcę cię napomnieć, *\nobyś Mnie posłuchał, Izraelu!\nRefren.\nNie będziesz miał obcego boga, *\ncudzemu bogu nie będziesz się kłaniał.\nJa jestem Panem, Bogiem twoim, *\nktóry cię wywiódł z ziemi egipskiej.\nRefren.\nGdyby mój lud Mnie posłuchał, *\na Izrael kroczył moimi drogami,\njego bym karmił wyborną pszenicą *\ni sycił miodem z opoki».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 17",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Pan mówi: Nawracajcie się,\nbliskie jest królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 28b-34",
+      "opis": "Pierwsze ze wszystkich przykazań",
+      "tekst": "Jeden z uczonych w Piśmie podszedł do Jezusa i zapytał Go: «Które jest pierwsze ze wszystkich przykazań?»\nJezus odpowiedział: «Pierwsze jest: „Słuchaj, Izraelu, Pan Bóg nasz jest jedynym Panem. Będziesz miłował Pana, Boga swego, całym swoim sercem, całą swoją duszą, całym swoim umysłem i całą swoją mocą”. Drugie jest to: „Będziesz miłował swego bliźniego jak siebie samego”. Nie ma innego przykazania większego od tych».\nRzekł Mu uczony w Piśmie: «Bardzo dobrze, Nauczycielu, słusznie powiedziałeś, bo Jeden jest i nie ma innego prócz Niego. Miłować Go całym sercem, całym umysłem i całą mocą i miłować bliźniego jak siebie samego znaczy daleko więcej niż wszystkie całopalenia i ofiary».\nJezus, widząc, że rozumnie odpowiedział, rzekł do niego: «Niedaleko jesteś od królestwa Bożego». I nikt już nie odważył się Go więcej pytać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta jest bezpośrednim echem wezwania proroka Ozeasza: „Wróć, Izraelu, do Pana, Boga twojego”.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą łaskę i opamiętanie, zgodnie z duchem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, co jest istotą nawrócenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Utwór ten jest muzycznym rozwinięciem przykazania miłości bliźniego, o którym naucza Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który pragnie miłości, a nie ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że miłość do Boga i bliźniego jest najdoskonalszą ofiarą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta wyraża miłość do Boga, która jest pierwszym i największym przykazaniem, i stanowi istotę nawrócenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o czyste serce, zdolne do miłowania Boga i bliźniego ponad wszystkie całopalenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o obmycie z grzechów jest warunkiem przyjęcia Chrystusa i życia według przykazania miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Jest to pieśń uwielbienia za Bożą obietnicę miłości i odnowy, o której mówi prorok Ozeasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą dobroć i miłosierdzie, które wzywają nas do miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest łaskawy i miłosierny dla tych, którzy Go miłują.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do życia miłością i miłosierdziem, co jest owocem nawrócenia i wypełnieniem największego przykazania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta przypomina, że miłość Boga i bliźniego jest drogą do królestwa Bożego, o którym mówi Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa przez pokutę i miłość, która jest najdoskonalszą ofiarą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do miłosiernego Ojca, do czego wzywa prorok Ozeasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi Boga o łaskę, by czas pokuty był owocny w miłość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które jest warunkiem prawdziwego poznania Boga i miłowania Go.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy, które są brakiem miłości, i prosi o przebaczenie miłosiernego Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

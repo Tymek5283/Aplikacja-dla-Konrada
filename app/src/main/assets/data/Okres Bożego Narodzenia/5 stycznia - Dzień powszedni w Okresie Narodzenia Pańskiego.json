@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410521.5-stycznia",
+  "tytul_dnia": "5 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 3, 11-21",
+      "opis": "Przeszliśmy ze śmierci do życia, ponieważ miłujemy braci",
+      "tekst": "Najmilsi:\nTaka jest nowina, którą usłyszeliście od początku, że mamy się wzajemnie miłować. Nie tak, jak Kain, który pochodził od złego i zabił swego brata. A czemu go zabił? Ponieważ czyny jego były złe, brata zaś sprawiedliwe.\nNie dziwcie się, bracia, jeśli świat was nienawidzi. My wiemy, że przeszliśmy ze śmierci do życia, bo miłujemy braci, kto zaś nie miłuje, trwa w śmierci. Każdy, kto nienawidzi swego brata, jest zabójcą, a wiecie, że żaden zabójca nie nosi w sobie życia wiecznego.\nPo tym poznaliśmy miłość, że Chrystus oddał za nas życie swoje. My także winniśmy oddać życie za braci.\nJeśliby ktoś posiadał na świecie majątek i widział, że brat jego cierpi niedostatek, a zamknął przed nim swe serce, jak może trwać w nim miłość Boga?\nDzieci, nie miłujmy słowem i językiem, ale czynem i prawdą. Po tym poznamy, że jesteśmy z prawdy, i uspokoimy przed Nim nasze serca.\nA jeśli serce oskarża nas, to przecież Bóg jest większy niż nasze serca i zna wszystko. Umiłowani, jeśli serce nas nie oskarża, to mamy ufność w Bogu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Niech cała ziemia śpiewa swemu Panu.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\non sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nalbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Zajaśniał nam dzień święty,\npójdźcie, narody, oddajcie pokłon Panu, bo wielka światłość zstąpiła dzisiaj na ziemię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 43-51",
+      "opis": "Chrystus jest Synem Bożym",
+      "tekst": "Jezus postanowił udać się do Galilei. I spotkał Filipa.\nJezus powiedział do niego: «Pójdź za Mną!» Filip zaś pochodził z Betsaidy, z miasta Andrzeja i Piotra. Filip spotkał Natanaela i powiedział do niego: «Znaleźliśmy Tego, o którym pisał Mojżesz w Prawie i Prorocy - Jezusa, syna Józefa, z Nazaretu». Rzekł do niego Natanael: «Czy może być co dobrego z Nazaretu?» Odpowiedział mu Filip: «Chodź i zobacz».\nJezus ujrzał, jak Natanael podchodzi do Niego, i powiedział o nim: «Oto prawdziwy Izraelita, w którym nie ma podstępu». Powiedział do Niego Natanael: «Skąd mnie znasz?» Odrzekł mu Jezus: «Widziałem cię, zanim cię zawołał Filip, gdy byłeś pod figowcem».\nOdpowiedział Mu Natanael: «Rabbi, Ty jesteś Synem Bożym, Ty jesteś Królem Izraela!»\nOdparł Mu Jezus: «Czy dlatego wierzysz, że powiedziałem ci: Widziałem cię pod figowcem? Zobaczysz jeszcze więcej niż to».\nPotem powiedział do niego: «zaprawdę, zaprawdę, powiadam wam: ujrzycie niebiosa otwarte i aniołów Bożych wstępujących i zstępujących nad Syna Człowieczego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń ta jest radosnym wezwaniem do chwalenia Pana, co odzwierciedla nastrój Psalmu responsoryjnego 'Niech cała ziemia śpiewa swemu Panu'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter tej pieśni dobrze koresponduje z Psalmem responsoryjnym i ogólną atmosferą okresu Bożego Narodzenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta wyraża radość ze znalezienia Mesjasza, co jest centralnym punktem Ewangelii o powołaniu Filipa i Natanaela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie wzywa do miłości braterskiej 'czynem i prawdą', a ta pieśń jest doskonałym muzycznym wyrazem tego przykazania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Utwór ten jest hymnem na cześć miłości, która jest znakiem, że 'jesteśmy z prawdy', jak uczy św. Jan.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszych czynów, aby były one wyrazem miłości, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Natanael w Ewangelii wyznaje wiarę w Jezusa, a ta pieśń jest naszym osobistym wyznaniem wiary w Chrystusa, którego przyjmujemy w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, na wzór pierwszych uczniów, którzy poszli za Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym spotkaniem z Nauczycielem, którego szukali i znaleźli Filip i Natanael.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta sławi Chrystusa jako Króla, co jest echem wyznania Natanaela: 'Ty jesteś Królem Izraela!'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest odpowiedzią na znalezienie Mesjasza i wyznanie wiary przez Natanaela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Boga, którego Syn objawił się jako Król Izraela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Na wzór Filipa, który przyprowadził Natanaela do Jezusa, jesteśmy posłani, by głosić Go innym, do czego zachęca ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami, miłując braci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jesteśmy posłani, by głosić imię Pana, tak jak Filip, który z radością oznajmił Natanaelowi, że znalazł Mesjasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem pierwszego czytania o miłości braterskiej.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa jako drogę, prawdę i życie, co jest odkryciem pierwszych uczniów.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, które charakteryzowało Filipa i Natanaela.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar powołania i prowadzenia przez Boga, czego doświadczyli pierwsi uczniowie.",
+      "moment": "ogólne"
+    }
+  ]
+}

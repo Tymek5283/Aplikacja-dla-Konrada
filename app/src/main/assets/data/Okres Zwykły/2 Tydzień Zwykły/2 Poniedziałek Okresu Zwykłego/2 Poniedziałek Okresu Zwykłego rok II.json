@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411045.Poniedzialek-II-tydzien-zwykly-rok-II",
+  "tytul_dnia": "2 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 15, 16-23",
+      "opis": "Bóg odrzuca Saula",
+      "tekst": "Po zwycięstwie Saula nad Amalekitami Samuel powiedział Saulowi:\n\n«Dosyć! Powiem ci, co rzekł do mnie Pan tej nocy». Odrzekł: «Mów!» I mówił Samuel: «Czy to nie jest prawdą, że choć byłeś mały we własnych oczach, to jednak ty właśnie stałeś się głową pokoleń izraelskich? Pan bowiem namaścił cię na króla izraelskiego. Pan wysłał cię w drogę i nakazał: Obłożysz klątwą tych występnych Amalekitów, będziesz z nimi walczył, aż ich zniszczysz. Czemu więc nie posłuchałeś głosu Pana? Rzuciłeś się na łup, popełniłeś więc to, co złe w oczach Pana». Saul odpowiedział Samuelowi: «Posłuchałem głosu Pana: szedłem drogą, którą mnie posłał Pan. Przyprowadziłem Agaga, króla Amalekitów, a Amalekitów obłożyłem klątwą. Lud zaś zabrał ze zdobyczy drobne i większe bydło, aby je w Gilgal ofiarować Panu, Bogu twemu, jako pierwociny rzeczy obłożonych klątwą». Samuel odrzekł: «Czyż milsze są Panu całopalenia i ofiary krwawe od posłuszeństwa głosowi Pana? Właśnie, lepsze jest posłuszeństwo od ofiary, uległość - od tłuszczu baranów. Bo opór jest jak grzech wróżbiarstwa, a krnąbrność jak złość bałwochwalstwa. Ponieważ wzgardziłeś nakazem Pana, odrzucił cię On jako króla». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 8-9. 16b-17. 21 i 23 (R.: por. 23b)",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\n«Nie oskarżam cię za twoje ofiary, *\n\nbo twe całopalenia zawsze są przede Mną.\n\nNie przyjmę cielca z twego domu *\n\nani kozłów ze stad twoich».\nRefren.\n«Czemu wymieniasz moje przykazania *\n\ni na ustach masz moje przymierze?\n\nTy, co nienawidzisz karności, *\n\na słowa moje odrzuciłeś za siebie?»\nRefren.\n«Ty tak postępujesz, a Ja mam milczeć? †\n\nCzy myślisz, że jestem podobny do ciebie? *\n\nSkarcę ciebie i postawię ci to przed oczy.\n\nKto składa dziękczynną ofiarę, ten cześć Mi oddaje, *\n\na tym, którzy postępują uczciwie, ukażę Boże zbawienie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\n\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 18-22",
+      "opis": "Zwyczajów Starego Testamentu nie można przenosić do Nowego",
+      "tekst": "Uczniowie Jana i faryzeusze mieli właśnie post. Przyszli więc do Jezusa i pytali: «Dlaczego uczniowie Jana i uczniowie faryzeuszów poszczą, a Twoi uczniowie nie poszczą?» Jezus im odpowiedział: «Czy goście weselni mogą pościć, dopóki pan młody jest z nimi? Nie mogą pościć, jak długo mają pośród siebie pana młodego. Lecz przyjdzie czas, kiedy zabiorą im pana młodego, a wtedy, w ów dzień, będą pościć. Nikt nie przyszywa łaty z surowego sukna do starego ubrania. W przeciwnym razie nowa łata obrywa jeszcze część ze starego ubrania i gorsze staje się przedarcie. Nikt też młodego wina nie wlewa do starych bukłaków. W przeciwnym razie wino rozerwie bukłaki. Wino się wylewa i bukłaki przepadną. Raczej młode wino należy wlewać do nowych bukłaków». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna oddaje ducha czytań, które przeciwstawiają Bogu miłe posłuszeństwo i nieposłuszeństwo króla Saula.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Jest to wezwanie do nawrócenia, które polega na posłuszeństwie Bogu, a nie na zewnętrznych ofiarach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, która jest milsza Bogu niż ofiary bez posłuszeństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarą miłą Bogu jest serce skruszone, a nie zewnętrzne ofiary bez posłuszeństwa, jak naucza prorok Samuel.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, co jest wyrazem prawdziwego posłuszeństwa Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem posłuszeństwa Jego woli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia mówi o gościach weselnych i Panu Młodym, co jest obrazem Uczty Eucharystycznej, na którą jesteśmy zaproszeni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia z Chrystusem, Panem Młodym, jest czasem radości, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja eucharystyczna sławi ofiarę Chrystusa, która jest szczytem posłuszeństwa woli Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który patrzy w serce i pragnie ofiary dziękczynnej, a nie całopaleń.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar zbawienia, które jest owocem posłuszeństwa, a nie tylko zewnętrznych ofiar.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem czci dla Boga, który pragnie posłuszeństwa i ofiary dziękczynnej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża przylgnięcie do Chrystusa, który jest nowością - 'młodym winem' wlanym w 'nowe bukłaki' naszych serc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami nowości, którą On przynosi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności i posłuszeństwa Chrystusowi, w przeciwieństwie do postawy króla Saula.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o nowości, jaką przyniósł Chrystus, Pan Młody, który jest z nami i zaprasza na gody.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Nowość Ewangelii, symbolizowana przez młode wino i nowe bukłaki, polega na przykazaniu miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "W kontekście Ewangelii o poście, ta pieśń pokutna może być wyrazem przygotowania na czas, gdy 'zabiorą im pana młodego'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża, że Bogu miłe jest wdzięczne serce i posłuszeństwo, a nie tylko zewnętrzne ofiary.",
+      "moment": "ogolne"
+    }
+  ]
+}

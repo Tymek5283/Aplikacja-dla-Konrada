@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410528.29-grudnia-piaty-dzien-w-Oktawie-Narodzenia-Panskiego",
+  "tytul_dnia": "29 grudnia - Piąty dzień w oktawie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 2, 3-11",
+      "opis": "Kto miłuje brata, trwa w światłości",
+      "tekst": "Najmilsi:\nPo tym poznajemy, że znamy Jezusa, jeżeli zachowujemy Jego przykazania. Kto mówi: «Znam Go», a nie zachowuje Jego przykazań, ten jest kłamcą i nie ma w nim prawdy. Kto zaś zachowuje Jego naukę, w tym naprawdę miłość Boża jest doskonała. Po tym właśnie poznajemy, że jesteśmy w Nim. Kto twierdzi, że w Nim trwa, powinien również sam postępować tak, jak On postępował.\nUmiłowani, nie piszę do was o nowym przykazaniu, ale o przykazaniu istniejącym od dawna, które mieliście od samego początku; tym dawnym przykazaniem jest nauka, którą posłyszeliście. A jednak piszę wam o nowym przykazaniu, które prawdziwe jest w Nim i w nas, ponieważ ciemności ustępują, a jaśnieje już prawdziwa światłość.\nKto twierdzi, że żyje w światłości, a nienawidzi brata swego, dotąd jeszcze jest w ciemności. Kto miłuje swego brata, ten trwa w światłości i nie może się potknąć. Kto zaś swojego brata nienawidzi, żyje w ciemności i działa w ciemności, i nie wie, dokąd idzie, ponieważ ciemności dotknęły ślepotą jego oczy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1-2. 3 i 5b i 6 (R.: por. 11a)",
+      "opis": "",
+      "tekst": "Refren: Niebo i ziemia niechaj się radują.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię, *\nkażdego dnia głoście Jego zbawienie.\nRefren.\nGłoście Jego chwałę wśród wszystkich narodów, *\nrozgłaszajcie Jego cuda pośród wszystkich ludów.\nPan stworzył niebiosa, †\nprzed Nim kroczą majestat i piękno, *\na potęga i blask w Jego przybytku.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 2, 32",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Światło na oświecenie pogan\ni chwałę ludu Twego, Izraela."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 2, 22-35",
+      "opis": "Chrystus jest światłem na oświecenie pogan",
+      "tekst": "Gdy upłynęły dni ich oczyszczenia według Prawa Mojżeszowego, Rodzice przynieśli Jezusa do Jerozolimy, aby przedstawić Go Panu. Tak bowiem jest napisane w Prawie Pańskim: «Każde pierworodne dziecko płci męskiej będzie poświęcone Panu». Mieli również złożyć w ofierze parę synogarlic albo dwa młode gołębie, zgodnie z przepisem Prawa Pańskiego.\nA żył w Jeruzalem człowiek imieniem Symeon. Był to człowiek sprawiedliwy i pobożny, wyczekujący pociechy Izraela; a Duch Święty spoczywał na nim. Jemu Duch Święty objawił, że nie ujrzy śmierci, aż zobaczy Mesjasza Pańskiego. Z natchnienia więc Ducha przyszedł do świątyni. a gdy Rodzice wnosili dzieciątko Jezus, aby postąpić z Nim według zwyczaju Prawa, on wziął Je w objęcia, błogosławił Boga i mówił:\n«Teraz, o Władco, pozwalasz odejść słudze Twemu w pokoju, według Twojego słowa. Bo moje oczy ujrzały Twoje zbawienie, które przygotowałeś wobec wszystkich narodów: światło na oświecenie pogan i chwałę ludu Twego, Izraela».\nA Jego ojciec i Matka dziwili się temu, co o Nim mówiono.\nSymeon zaś błogosławił ich i rzekł do Maryi, Matki Jego: «Oto Ten przeznaczony jest na upadek i na powstanie wielu w Izraelu, i na znak, któremu sprzeciwiać się będą - a Twoją duszę miecz przeniknie - aby na jaw wyszły zamysły serc wielu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter tej pieśni dobrze koresponduje z Psalmem responsoryjnym 'Niebo i ziemia niechaj się radują' i ogólną atmosferą oktawy Bożego Narodzenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń ta jest radosnym wezwaniem do chwalenia Pana, którego w świątyni rozpoznali Symeon i Anna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń mówi o Zbawicielu przynoszącym światło, co nawiązuje do Ewangelii o Jezusie jako 'świetle na oświecenie pogan'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Ewangelia mówi o ofiarowaniu Jezusa w świątyni; ta pieśń jest naszym ofiarowaniem darów, które staną się Ciałem i Krwią Tego, którego ofiarowali Maryja i Józef.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na dar Zbawiciela, ofiarowujemy Mu nasze życie, prosząc, by nas strzegł od miłości do świata, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszych darów, które składamy w imię Pana Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Symeon nazywa Jezusa 'światłem na oświecenie pogan', a ta pieśń jest modlitwą o to, by Chrystus był światłem naszej duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, na wzór Symeona, który wziął Dziecię w objęcia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym spotkaniem z Jezusem, 'światłem na oświecenie pogan'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "355",
+      "piesn": "Matko Najświętsza!",
+      "opis": "Pieśń do Matki Bolesnej nawiązuje do proroctwa Symeona z Ewangelii: 'a Twoją duszę miecz przeniknie'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest odpowiedzią na ujrzenie zbawienia Pańskiego, o którym z radością świadczył Symeon.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Pana, którego chwałę rozgłaszają niebiosa, a którego ujrzały oczy Symeona.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie mówi o przykazaniu miłości braterskiej jako znaku trwania w światłości, co stanowi doskonałe posłanie na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami, miłując braci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jesteśmy posłani, by głosić imię Pana, tak jak Symeon i Anna, którzy mówili o Dziecięciu wszystkim oczekującym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "775",
+      "piesn": "W naszych ciemnościach",
+      "opis": "Pieśń ta jest modlitwą o światło w ciemnościach, co nawiązuje do pierwszego czytania o trwaniu w światłości i do postaci Jezusa jako 'światła na oświecenie pogan'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń ta przypomina, że Syn Boży stał się człowiekiem, aby być światłem dla świata, co jest centralnym orędziem Ewangelii.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, które charakteryzowało Symeona, wyczekującego pociechy Izraela.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar poznania Zbawiciela, czego doświadczył Symeon w świątyni.",
+      "moment": "ogólne"
+    }
+  ]
+}

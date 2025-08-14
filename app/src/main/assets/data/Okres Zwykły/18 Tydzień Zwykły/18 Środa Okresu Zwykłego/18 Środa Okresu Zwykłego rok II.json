@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430567.Sroda-XVIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "18 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 31, 1-7",
+      "opis": "Obietnica odbudowy Izraela",
+      "tekst": "«W owych czasach - mówi Pan - będę Bogiem dla wszystkich pokoleń Izraela, one zaś będą moim narodem».\nTak mówi Pan: «Znajdzie łaskę na pustyni naród, co wyszedł cało spod miecza; Izrael pójdzie do miejsca swego odpoczynku. Pan się mu ukaże z daleka: Ukochałem cię odwieczną miłością, dlatego też podtrzymywałem dla ciebie łaskawość. Znowu cię zbuduję i będziesz odbudowana, Dziewico-Izraelu! Przyozdobisz się znów swymi bębenkami i zaczniesz tańce pełne wesela. Będziesz znów sadzić winnice na wzgórzach Samarii; uprawiający będą sadzić i zbierać. Nadejdzie bowiem dzień, kiedy strażnicy znów zawołają na wzgórzach Efraima: Wstańcie, wstąpmy na Syjon, do Pana, Boga naszego!»\nTak bowiem mówi Pan: «Wykrzykujcie radośnie na cześć Jakuba, weselcie się pierwszym wśród narodów! Głoście, wy chwalajcie i mówcie: Pan wybawił swój lud, Resztę Izraela!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Jr 31, 10. 11-12b. 13 (R.: por. 10d)",
+      "opis": "",
+      "tekst": "Refren: Pan nas obroni, tak jak pasterz owce.\nSłuchajcie, narody, słowa Pańskiego, *\ngłoście je na wyspach odległych i mówcie:\n«Ten, który rozproszył Izraela, znów go zgromadzi *\ni będzie nad nim czuwał jak pasterz nad swym stadem».\nRefren.\nPan bowiem uwolni Jakuba, *\nwybawi go z ręki silniejszego od niego.\nPrzyjdą z weselem na szczyt Syjonu *\ni rozradują się błogosławieństwem Pana.\nRefren.\nWtedy dziewica rozweseli się w tańcu *\ni młodzieńcy cieszyć się będą ze starcami.\nZamienię bowiem ich smutek w radość, *\npocieszę ich i rozweselę po ich troskach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 15, 21-28",
+      "opis": "Wiara niewiasty kananejskiej",
+      "tekst": "Jezus podążył w okolice Tyru i Sydonu. A oto kobieta kananejska, wyszedłszy z tamtych stron, wołała: «Ulituj się nade mną, Panie, Synu Dawida! Moja córka jest ciężko nękana przez złego ducha». Lecz On nie odezwał się do niej ani słowem.\nNa to podeszli Jego uczniowie i prosili Go: «Odpraw ją, bo krzyczy za nami».\nLecz On odpowiedział: «Jestem posłany tylko do owiec, które poginęły z domu Izraela».\nA ona przyszła, padła Mu do nóg i prosiła: «Panie, dopomóż mi».\nOn jednak odparł: «Niedobrze jest zabierać chleb dzieciom, a rzucać szczeniętom».\nA ona odrzekła: «Tak, Panie, lecz i szczenięta jedzą okruchy, które spadają ze stołu ich panów».\nWtedy Jezus jej odpowiedział: «O niewiasto, wielka jest twoja wiara; niech ci się stanie, jak pragniesz!» Od tej chwili jej córka była zdrowa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do przyjścia do Jezusa z wiarą i wytrwałością, na wzór kobiety kananejskiej z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Wyraża wołanie o pomoc i litość, które jest echem prośby kobiety kananejskiej i tęsknoty Izraela za odnowieniem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest aktem osobistej modlitwy i poszukiwania Boga, co doskonale oddaje postawę kobiety z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wobec obietnicy pocieszenia z pierwszego czytania i cudu uzdrowienia, pieśń ta jest wyrazem wdzięczności za Bożą dobroć.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest prośbą o miłosierdzie, o które z taką wiarą prosiła kobieta kananejska.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu nasze dary, prosząc, aby nasza wiara, jak wiara kobiety kananejskiej, była Mu miła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń wyraża postawę pokory i wiary kobiety kananejskiej, która prosi o okruchy ze stołu Pańskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę wielkiej wiary i uniżenia, którą Jezus pochwalił u kobiety kananejskiej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to mocne wyznanie wiary, które jest odpowiedzią na pytanie o to, kim jest dla nas Jezus, Syn Dawida.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny charakter pieśni pasuje do obietnicy wesela z pierwszego czytania oraz do radości z uzdrowienia córki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za wysłuchaną modlitwę i okazane miłosierdzie, którego doświadczyła kobieta kananejska.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i za przykład wielkiej wiary, jaki dała nam kobieta kananejska.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Postawa kobiety z Ewangelii jest wzorem zaufania, do którego zachęca refren tej pieśni: 'Jezu, ufam Tobie'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jesteśmy posłani, by naśladować wielką wiarę kobiety kananejskiej, prosząc Pana o jej umocnienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wytrwałej wiary, która nie poddaje się w obliczu trudności, na wzór kobiety z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Nawiązuje do psalmu responsoryjnego, gdzie Bóg jest przedstawiony jako pasterz, który gromadzi i broni swoje stado.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec początkowego milczenia Jezusa, pieśń ta przypomina o konieczności wytrwałej ufności w Bożą opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wytrwałość kobiety kananejskiej jest przykładem niezachwianej ufności w Panu, nawet gdy wydaje się, że nie słucha.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest echem wołania kobiety kananejskiej: 'Ulituj się nade mną, Panie', a także prośbą o błogosławieństwo obiecane Izraelowi.",
+      "moment": "ogolne"
+    }
+  ]
+}

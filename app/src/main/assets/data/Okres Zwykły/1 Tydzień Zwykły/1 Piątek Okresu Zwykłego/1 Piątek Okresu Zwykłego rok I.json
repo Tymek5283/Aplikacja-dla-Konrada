@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410444.Piatek-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 4, 1-5. 11",
+      "opis": "Śpieszmy do odpoczynku Bożego",
+      "tekst": "Bracia:\n\nLękajmy się, gdy jeszcze trwa obietnica wejścia do Bożego odpoczynku, aby ktoś z was nie mniemał, iż jest jej pozbawiony. Albowiem i my otrzymaliśmy dobrą nowinę, tak jak i tamci, lecz tamtym słowo usłyszane nie było pomocne, gdyż nie łączyli się przez wiarę z tymi, którzy je usłyszeli. Wchodzimy istotnie do odpoczynku my, którzy uwierzyliśmy, jak to Pan powiedział: «Toteż przysiągłem w swym gniewie: Nie wejdą do mego odpoczynku», aczkolwiek dzieła były dokonane od stworzenia świata. Powiedział bowiem Bóg na pewnym miejscu o siódmym dniu w ten sposób: «I odpoczął Bóg w siódmym dniu po wszystkich dziełach swoich». I znowu tamże: «Nie wejdą do mego odpoczynku». Śpieszmy się więc wejść do owego odpoczynku, aby nikt nie poszedł za tym samym przykładem nieposłuszeństwa. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 78 (77), 3 i 4bc. 6-7. 8 (R.: por. 7b)",
+      "opis": "",
+      "tekst": "Refren: Wielkich dzieł Boga nie zapominajmy.\nTo, co usłyszeliśmy i poznaliśmy, *\n\ni co nam opowiedzieli nasi ojcowie,\n\nopowiemy przyszłemu pokoleniu, *\n\nchwałę Pana i Jego potęgę.\nRefren.\nO tym ma wiedzieć przyszłe pokolenie, *\n\nsynowie, którzy się narodzą,\n\nże mają pokładać nadzieję w Bogu †\n\ni nie zapominać dzieł Bożych, *\n\nlecz strzec Jego poleceń.\nRefren.\nA niech nie będą jak ich ojcowie *\n\npokoleniem opornych buntowników,\n\npokoleniem, którego serce jest niestałe, *\n\na duch nie dochowuje wierności Bogu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\n\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 1-12",
+      "opis": "Chrystus ma władzę odpuszczania grzechów",
+      "tekst": "Gdy po pewnym czasie Jezus wrócił do Kafarnaum, posłyszano, że jest w domu. Zebrało się zatem tylu ludzi, że nawet przed drzwiami nie było miejsca, a On głosił im naukę. I przyszli do Niego z paralitykiem, którego niosło czterech. Nie mogąc z powodu tłumu przynieść go do Niego, odkryli dach nad miejscem, gdzie Jezus się znajdował, i przez otwór spuścili nosze, na których leżał paralityk. Jezus, widząc ich wiarę, rzekł do paralityka: «Dziecko, odpuszczone są twoje grzechy». A siedziało tam kilku uczonych w Piśmie, którzy myśleli w sercach swoich: «Czemu On tak mówi? On bluźni. Któż może odpuszczać grzechy, prócz jednego Boga?» Jezus poznał zaraz w swym duchu, że tak myślą, i rzekł do nich: «Czemu myśli te nurtują w waszych sercach? Cóż jest łatwiej: powiedzieć paralitykowi: Odpuszczone są twoje grzechy, czy też powiedzieć: Wstań, weź swoje nosze i chodź? Otóż, żebyście wiedzieli, iż Syn Człowieczy ma na ziemi władzę odpuszczania grzechów - rzekł do paralityka: Mówię ci: Wstań, weź swoje nosze i idź do swego domu!» On wstał, wziął zaraz swoje nosze i wyszedł na oczach wszystkich. Zdumieli się wszyscy i wielbili Boga, mówiąc: «Nigdy jeszcze nie widzieliśmy czegoś podobnego». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta wzywa do szukania pociechy i ratunku u Jezusa, co odzwierciedla postawę ludzi przynoszących paralityka.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaproszenie do uwielbienia Pana, który ma moc odpuszczania grzechów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, takie jak uzdrowienie paralityka.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Prosta pieśń ofiarna, która wyraża prośbę o umocnienie wiary, takiej, jaką wykazali przyjaciele paralityka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu nasze życie, prosząc o wiarę i posłuszeństwo, do których wzywa List do Hebrajczyków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy nasze życie, ufając w Boże miłosierdzie, które odpuszcza grzechy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą i odpuszczającą grzechy moc Chrystusa, objawioną w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę człowieka, który z wiarą przyjaciół został przyniesiony do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorę i wiarę w uzdrawiającą i odpuszczającą grzechy moc Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wyraża radość i uwielbienie Boga za Jego cuda, podobnie jak tłum, który wielbił Boga po uzdrowieniu paralityka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za dar uzdrowienia i odpuszczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za cud uzdrowienia, który był znakiem władzy odpuszczania grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest odpowiedzią na Ewangelię, w której Jezus, widząc wiarę, dokonuje cudu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o stałą obecność Pana, abyśmy nie byli nieposłuszni jak ojcowie na pustyni.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie drogą wiary do wiecznego odpoczynku.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Pieśń błagalna o Bożą pomoc i ratunek, która pasuje do sytuacji człowieka chorego i potrzebującego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie i błogosławieństwo jest odpowiedzią na objawienie się mocy Bożej w odpuszczeniu grzechów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, wyrażająca prośbę o odpuszczenie grzechów, którego udziela Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i powrocie do Ojca, możliwym dzięki mocy odpuszczania grzechów przez Syna.",
+      "moment": "ogolne"
+    }
+  ]
+}

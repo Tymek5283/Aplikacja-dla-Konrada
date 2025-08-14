@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425153.22-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "22 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 20, 7-9",
+      "opis": "Prorok poddany próbie",
+      "tekst": "Uwiodłeś mnie, Panie, a ja pozwoliłem się uwieść; ujarzmiłeś mnie i przemogłeś. Stałem się codziennym pośmiewiskiem, wszyscy mi urągają. Albowiem ilekroć mam zabierać głos, muszę obwieszczać: «Gwałt i ruina!» Tak, słowo Pańskie stało się dla mnie codzienną zniewagą i pośmiewiskiem.\nI powiedziałem sobie: Nie będę Go już wspominał ani mówił w Jego imię! Ale wtedy zaczął trawić moje serce jakby ogień, żarzący się w moim ciele. Czyniłem wysiłki, by go stłumić, lecz nie potrafiłem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 63 (62), 2. 3-4. 5-6. 8-9 (R.: por. 2ab)",
+      "opis": "",
+      "tekst": "Refren: Ciebie, mój Boże, pragnie moja dusza.\nBoże, mój Boże, szukam Ciebie *\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą *\njak zeschła ziemia łaknąca wody.\nRefren.\nOto wpatruję się w Ciebie w świątyni, *\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia, *\nwięc sławić Cię będą moje wargi.\nRefren.\nBędę Cię wielbił przez całe me życie *\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie, *\na usta Cię wielbią radosnymi wargami.\nRefren.\nBo stałeś się dla mnie pomocą *\ni w cieniu Twych skrzydeł wołam radośnie:\nDo Ciebie lgnie moja dusza, *\nprawica Twoja mnie wspiera.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 12, 1-2",
+      "opis": "Rozumna służba Boża",
+      "tekst": "Proszę was, bracia, przez miłosierdzie Boże, abyście dali ciała swoje na ofiarę żywą, świętą, Bogu miłą, jako wyraz waszej rozumnej służby Bożej. Nie bierzcie więc wzoru z tego świata, lecz przemieniajcie się przez odnawianie umysłu, abyście umieli rozpoznać, jaka jest wola Boża: co jest dobre, co Bogu miłe i co doskonałe.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16, 21-27",
+      "opis": "Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie",
+      "tekst": "Jezus zaczął wskazywać swoim uczniom na to, że musi udać się do Jerozolimy i wiele wycierpieć od starszych i arcykapłanów oraz uczonych w Piśmie; że będzie zabity i trzeciego dnia zmartwychwstanie.\nA Piotr wziął Go na bok i począł robić Mu wyrzuty: «Panie, niech Cię Bóg broni! Nie przyjdzie to nigdy na Ciebie». Lecz On odwrócił się i rzekł do Piotra: «Zejdź Mi z oczu, szatanie! Jesteś Mi zawadą, bo nie myślisz po Bożemu, lecz po ludzku».\nWtedy Jezus rzekł do swoich uczniów: «, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z mego powodu, znajdzie je. Cóż bowiem za korzyść odniesie człowiek, choćby cały świat zyskał, a na swej duszy szkodę poniósł? Albo co da człowiek w zamian za swoją duszę? Albowiem Syn Człowieczy przyjdzie w chwale Ojca swego razem z aniołami swoimi i wtedy odda każdemu według jego postępowania».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Pieśń jest zaproszeniem do pójścia za Jezusem, co jest centralnym tematem Ewangelii wzywającej do naśladowania Go na drodze krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "124",
+      "piesn": "Krzyżu święty nade wszystko",
+      "opis": "Adoracja krzyża jest odpowiedzią na wezwanie Jezusa do wzięcia swojego krzyża i naśladowania Go.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie na trudnej drodze niesienia krzyża, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Treść pieśni nawiązuje do drugiego czytania, które wzywa do złożenia swojego ciała na ofiarę, na wzór Chrystusowego krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę oddania swojego życia jako ofiary żywej, o której mówi św. Paweł w drugim czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania się Bogu i chęć unikania grzechu, co jest istotą 'rozumnej służby Bożej'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest głębokim zjednoczeniem z Męką Chrystusa, o której mowa w Ewangelii, i prośbą o siłę do niesienia własnego krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości płynącej z ran Chrystusa jest źródłem siły do naśladowania Go na drodze krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża postawę uniżenia i oddania, która jest warunkiem przyjęcia Bożej woli, wbrew ludzkiemu myśleniu, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń ta, będąca parafrazą psalmu responsoryjnego, wyraża głębokie pragnienie Boga, które było siłą proroka Jeremiasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem, nawet za cenę krzyża, łączy w sobie motywy ze wszystkich czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynna za łaskę powołania do naśladowania Chrystusa, nawet jeśli wiąże się to z krzyżem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie niosącym krzyż posyła nas, byśmy szli za Nim, niosąc swój własny krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi i Jego krzyżowi, wbrew myśleniu 'po ludzku'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na 'znojny trud' niesienia krzyża i naśladowania Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wołanie o pomoc i prowadzenie jest szczególnie aktualne w kontekście trudności i cierpienia, o których mówi Jeremiasz i Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń o wierności Boga jest pocieszeniem dla tych, którzy jak Jeremiasz cierpią dla Słowa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża głęboką ufność w Pana, która jest niezbędna, aby podjąć krzyż i stracić swe życie dla Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "764",
+      "piesn": "In manus tuas, Pater",
+      "opis": "Oddanie się w ręce Ojca jest aktem najwyższego zaufania, do którego wzywa nas Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/412861.Piatek-po-Popielcu",
+  "tytul_dnia": "Piątek po Popielcu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 58, 1-9a",
+      "opis": "Post należy łączyć z uczynkami miłości",
+      "tekst": "Tak mówi Pan Bóg:\n«Krzycz na całe gardło, nie przestawaj! Podnoś głos twój jak trąba! Wytknij mojemu ludowi jego przestępstwa i domowi Jakuba jego grzechy! Szukają Mnie dzień za dniem, pragną poznać moje drogi, jak naród, który kocha sprawiedliwość i nie porzuca prawa swego Boga. Proszą Mnie o sprawiedliwe prawa, pragną bliskości Boga:\n„Czemu pościliśmy, a Ty nie wejrzałeś? Umartwialiśmy siebie, a Ty tego nie uznałeś?”\nOtóż w dzień waszego postu wy znajdujecie sobie zajęcie i uciskacie wszystkich swoich robotników. Otóż pościcie wśród waśni i sporów, i wśród niegodziwego walenia pięścią. Nie pośćcie tak, jak dziś czynicie, żeby się rozlegał zgiełk wasz na wysokości.\nCzyż to jest post, jaki Ja wybieram: rozerwać kajdany zła, rozwiązać więzy niewoli, wypuścić na wolność uciśnionych i wszelkie jarzmo połamać; dzielić swój chleb z głodnym, do domu wprowadzić biednych tułaczy, nagiego, którego ujrzysz, przyodziać i nie odwrócić się od współziomków.\nWtedy twoje światło wzejdzie jak zorza i szybko rozkwitnie twe zdrowie. Sprawiedliwość twoja poprzedzać cię będzie, chwała Pańska iść będzie za tobą. Wtedy zawołasz, a Pan odpowie, wezwiesz pomocy, a On rzeknie: „Oto jestem!”»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 3-4. 5-6b. 18-19 (R.: por. 19b)",
+      "opis": "",
+      "tekst": "Refren: Sercem skruszonym nie pogardzisz, Panie.\nZmiłuj się nade mną, Boże, w łaskawości swojej, *\nw ogromie swej litości zgładź moją nieprawość.\nObmyj mnie zupełnie z mojej winy *\ni oczyść mnie z grzechu mojego.\nRefren.\nUznaję bowiem nieprawość moją, *\na grzech mój jest zawsze przede mną.\nPrzeciwko Tobie samemu zgrzeszyłem *\ni uczyniłem, co złe jest przed Tobą.\nRefren.\nOfiarą bowiem Ty się nie radujesz, *\na całopalenia, choćbym dał, nie przyjmiesz.\nBoże, moją ofiarą jest duch skruszony, *\npokornym i skruszonym sercem Ty, Boże, nie gardzisz.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Am 5, 14",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Szukajcie dobra, a nie zła, abyście żyli,\na Pan Bóg będzie z wami."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 14-15",
+      "opis": "Kiedy zabiorą im oblubieńca, wtedy będą pościć",
+      "tekst": "Po powrocie Jezusa z krainy Gadareńczyków podeszli do Niego uczniowie Jana i zapytali: «Dlaczego my i faryzeusze dużo pościmy, Twoi zaś uczniowie nie poszczą?»\nJezus im rzekł: «Czy goście weselni mogą się smucić, dopóki pan młody jest z nimi? Lecz przyjdzie czas, kiedy zabiorą im pana młodego, a wtedy będą pościć».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń ta jest modlitwą o owocny czas postu, co jest głównym tematem czytań i całego okresu Wielkiego Postu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń przypomina o konieczności pokuty i nawrócenia, do których wzywa Wielki Post.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, zgodnie z duchem wielkopostnym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń ta wzywa do pokuty i błagania Boga ze skruchą, co odpowiada treści psalmu responsoryjnego o skruszonym sercu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wzywa do odkupienia grzechów jałmużną, co jest istotą postu miłego Bogu z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że prawdziwy post prowadzi do głębszego zjednoczenia z Chrystusem-Oblubieńcem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń, będąca parafrazą Psalmu 51, wyraża skruchę i prośbę o przebaczenie, co jest istotą prawdziwego postu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Kolejna pieśń oparta na Psalmie 51, która jest modlitwą o czyste serce, godne spotkania z Oblubieńcem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o obmycie z grzechów jest warunkiem przyjęcia Chrystusa, który jest z nami jako Oblubieniec.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy z miłości do Boga i mocne postanowienie poprawy, co jest celem wielkopostnej pokuty.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń uwielbia Boga za Jego obietnicę przebaczenia, która jest źródłem nadziei w czasie postu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który nie gardzi sercem skruszonym i pokornym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Pieśń ta przypomina o sensie postu jako naśladowaniu Chrystusa, który jest Oblubieńcem, o którym mowa w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest odpowiedzią na czas łaski i bliskość królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i powrocie do Boga, co jest istotą wielkopostnej drogi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta wzywa do nawrócenia połączonego z uczynkami miłosierdzia, takimi jak obdarowanie łaknących chlebem, o czym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, w tym do miłosierdzia i jałmużny, co jest istotą postu miłego Bogu z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy, który jest podstawą prawdziwego postu, miłego Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest sercem wielkopostnej modlitwy o przebaczenie i miłosierdzie.",
+      "moment": "ogolne"
+    }
+  ]
+}

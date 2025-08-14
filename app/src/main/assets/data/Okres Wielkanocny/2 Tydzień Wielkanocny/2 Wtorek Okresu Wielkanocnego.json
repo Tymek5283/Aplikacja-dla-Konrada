@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413120.Wtorek-II-tygodnia-wielkanocnego",
+  "tytul_dnia": "2 Wtorek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 4, 32-37",
+      "opis": "Jeden duch i jedno serce wspólnoty chrześcijańskiej",
+      "tekst": "Jeden duch i jedno serce ożywiały wszystkich, którzy uwierzyli. Żaden nie nazywał swoim tego, co posiadał, ale wszystko mieli wspólne. Apostołowie z wielką mocą świadczyli o zmartwychwstaniu Pana Jezusa, a wielka łaska spoczywała na wszystkich. Nikt z nich nie cierpiał niedostatku, bo właściciele pól albo domów sprzedawali je i przynosili pieniądze uzyskane ze sprzedaży, i składali je u stóp apostołów. Każdemu też rozdzielano według potrzeby. A Józef, nazwany przez apostołów Barnaba, to znaczy Syn Pocieszenia, lewita rodem z Cypru, sprzedał ziemię, którą posiadał, a pieniądze przyniósł i złożył u stóp apostołów. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 93 (92), 1. 2 i 5 (R.: por. 1a)",
+      "opis": "",
+      "tekst": "Pan króluje, oblókł się w majestat, *\n\nPan wdział potęgę i nią się przepasał.\n\nTak świat utwierdził, *\n\nże się nie zachwieje.\nTwój tron niewzruszony na wieki, *\n\nistniejesz od wieków, Boże.\n\nŚwiadectwa Twoje bardzo godne są wiary; †\n\nTwojemu domowi świętość przystoi, *\n\npo wszystkie dni, o Panie."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 3, 14b-15",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Trzeba, by wywyższono Syna Człowieczego,\n\naby każdy, kto w Niego wierzy, miał życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3, 7b-15",
+      "opis": "Trzeba się powtórnie narodzić",
+      "tekst": "Jezus powiedział do Nikodema:\n\n«Trzeba wam się powtórnie narodzić. Wiatr wieje tam, gdzie chce, i szum jego słyszysz, lecz nie wiesz, skąd przychodzi i dokąd podąża. Tak jest z każdym, który narodził się z Ducha». Na to rzekł do Niego Nikodem: «Jakżeż to się może stać?» Odpowiadając na to, rzekł mu Jezus: «Ty jesteś nauczycielem Izraela, a tego nie wiesz? Zaprawdę, zaprawdę, powiadam ci, że to mówimy, co wiemy, i o tym świadczymy, co widzieliśmy, a świadectwa naszego nie przyjmujecie. Jeżeli wam mówię o tym, co ziemskie, a nie wierzycie, to jakżeż uwierzycie temu, co wam powiem o sprawach niebieskich? I nikt nie wstąpił do nieba, oprócz Tego, który z nieba zstąpił - Syna Człowieczego. A jak Mojżesz wywyższył węża na pustyni, tak trzeba, by wywyższono Syna Człowieczego, aby każdy, kto w Niego wierzy, miał życie wieczne». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Modlitwa do Ducha Świętego jest odpowiednim rozpoczęciem liturgii, w której Ewangelia mówi o konieczności narodzin z Ducha.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w Zmartwychwstałego Pana, który przez Ducha Świętego daje nam nowe narodzenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór ten jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem nowego życia, o którym Jezus mówi Nikodemowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do jedności pierwszej wspólnoty chrześcijańskiej, opisanej w Dziejach Apostolskich, gdzie 'jeden duch i jedno serce ożywiały wszystkich'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń eucharystyczna, która podkreśla, że w Komunii stajemy się jednym Ciałem, odzwierciedlając jedność pierwszej wspólnoty chrześcijańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Utwór ten sławi Chleb Życia, który jest pokarmem na życie wieczne, o którym mówi Ewangelia w kontekście wywyższenia Syna Człowieczego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego nawiązuje do Jego stwórczej mocy, odradzającej człowieka w sakramencie chrztu, o czym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który daje nam życie wieczne, o czym poucza Nikodema w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym wyrazem wiary w Tego, który został wywyższony, aby dać nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królowanie Chrystusa, którego tron jest niewzruszony na wieki, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń ta jest dziękczynieniem za Zmartwychwstanie Pana, o którym z wielką mocą świadczyli Apostołowie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar nowego życia, otrzymany przez narodzenie z Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Utwór ten mówi o wywyższeniu Chrystusa, które przynosi życie wieczne wierzącym, co jest głównym tematem Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym, tak jak czyniła to pierwsza wspólnota.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by świadczyć o Zmartwychwstaniu, tak jak czynili to Apostołowie, których świadectwo pociągało innych do wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Mówi o nowym życiu, które otrzymujemy w 'paschalnym źródle', co bezpośrednio odnosi się do nauki o chrzcie z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem na cześć miłości braterskiej, która była znakiem rozpoznawczym pierwszej gminy chrześcijańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest fundamentem naszej wiary i nowego narodzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń głosi obecność Zmartwychwstałego Pana, który przez Ducha Świętego ożywia swój Kościół i daje mu jedno serce.",
+      "moment": "ogolne"
+    }
+  ]
+}

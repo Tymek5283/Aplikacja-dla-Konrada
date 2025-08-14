@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/556998.Sroda-XIX-tydzien-zwykly-rok-I",
+  "tytul_dnia": "19 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 34, 1-12",
+      "opis": "Śmierć Mojżesza",
+      "tekst": "Ze stepów Moabu Mojżesz wszedł na górę Nebo, na szczyt Pisga, naprzeciw Jerycha. Pan zaś pokazał mu całą ziemię Gilead aż po Dan, całą - Neftalego, ziemię Efraima i Manassesa, całą krainę Judy aż po Morze Zachodnie, Negeb, okolicę doliny koło Jerycha, miasta palm, aż do Soaru.\nRzekł Pan do niego: «Oto kraj, który poprzysiągłem Abrahamowi, Izaakowi i Jakubowi tymi słowami: Dam go twemu potomstwu. Pozwoliłem ci zobaczyć go własnymi oczami, lecz tam nie wejdziesz».\nTam, w krainie Moabu, według postanowienia Pana, umarł Mojżesz, sługa Pański. I pochowano go w dolinie krainy Moabu naprzeciw Bet-Peor, a nikt nie zna jego grobu aż po dziś dzień. W chwili śmierci miał Mojżesz sto dwadzieścia lat, a wzrok jego nie był przyćmiony i siły go nie opuściły. Izraelici opłakiwali Mojżesza na stepach Moabu przez trzydzieści dni. Potem skończyły się dni żałoby po Mojżeszu.\nJozue, syn Nuna, pełen był ducha mądrości, gdyż Mojżesz położył na niego ręce. Izraelici słuchali go i czynili, jak im Pan rozkazał przez Mojżesza.\nNie powstał więcej w Izraelu prorok podobny do Mojżesza, który by poznał Pana twarzą w twarz, ani równy we wszystkich znakach i cudach, które polecił mu Pan czynić w ziemi egipskiej wobec faraona, wszystkich sług jego i całego jego kraju; ani równy mocą ręki i całą wielką grozą, jaką wywołał Mojżesz na oczach całego Izraela.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 66 (65), 1b-3a. 5 i 8. 16-17 (R.: por. 20a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Bóg, co daje życie.\nZ radością sławcie Boga, wszystkie ziemie, *\nopiewajcie chwałę Jego imienia,\ncześć Mu wspaniałą oddajcie. *\nPowiedzcie Bogu: «Jak zadziwiające są Twe dzieła!»\nRefren.\nPrzyjdźcie i patrzcie na dzieła Boga, *\nzadziwiających rzeczy dokonał wśród ludzi!\nBłogosławcie, ludy, naszemu Bogu *\ni rozgłaszajcie Jego chwałę.\nRefren.\nPrzyjdźcie i słuchajcie mnie wszyscy, †\nktórzy boicie się Boga, *\nopowiem, co uczynił mej duszy.\nDo Niego wołałem moimi ustami, *\nchwaliłem Go moim językiem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18, 15-20",
+      "opis": "Braterskie upomnienie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Gdy brat twój zgrzeszy przeciw tobie, idź i upomnij go w cztery oczy. Jeśli cię usłucha, pozyskasz swego brata. Jeśli zaś nie usłucha, weź z sobą jeszcze jednego albo dwóch, żeby na słowie dwóch albo trzech świadków oparła się cała sprawa. Jeśli i tych nie usłucha, donieś Kościołowi. A jeśli nawet Kościoła nie usłucha, niech ci będzie jak poganin i celnik.\nZaprawdę, powiadam wam: Wszystko, cokolwiek zwiążecie na ziemi, będzie związane w niebie, a co rozwiążecie na ziemi, będzie rozwiązane w niebie.\nDalej, zaprawdę, powiadam wam: Jeśli dwóch z was na ziemi zgodnie o coś prosić będzie, to wszystko otrzymają od mojego Ojca, który jest w niebie. Bo gdzie są dwaj albo trzej zebrani w imię moje, tam jestem pośród nich».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności wspólnoty wierzących stanowi wprowadzenie do Ewangelii o braterskim upomnieniu i wspólnej modlitwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o jedność i pokój w Kościele, które są owocem braterskiego upomnienia i wspólnej modlitwy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaproszenie do zgromadzenia się w imię Jezusa, aby doświadczyć Jego obecności we wspólnocie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiarujemy Bogu nasze pragnienie życia w miłości i zgodzie, które są warunkiem Jego obecności pośród nas.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Braterskie upomnienie jest konkretnym wyrazem przykazania miłości, które składamy w ofierze Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża pragnienie życia w zgodzie z wolą Bożą, która wzywa nas do troski o zbawienie braci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest sakramentem jedności Kościoła, który ma moc wiązania i rozwiązywania na ziemi i w niebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Uczta Eucharystyczna jest miejscem, gdzie Chrystus gromadzi swoją wspólnotę i jest pośród niej obecny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "267",
+      "piesn": "Pomiędzy lud swój idzie",
+      "opis": "Chrystus przychodzi w Komunii do tych, którzy są zgromadzeni w Jego imię, aby ich umocnić.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń chwały odpowiada na wezwanie psalmu, by opiewać zadziwiające dzieła Boga, takie jak Jego obecność w Kościele.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dar wspólnoty Kościoła i za obietnicę Jezusa, że będzie pośród nas.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego obecność w Słowie, Eucharystii i we wspólnocie modlących się braci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby budować wspólnotę Kościoła w oparciu o zasady braterskiej miłości i wspólnej modlitwy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy umocnieni obecnością Chrystusa, mogli świadczyć o Nim w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Chrystus idzie z nami przez wieki w swoim Kościele, który ma władzę wiązania i rozwiązywania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Historia Mojżesza, sługi Pańskiego, jest przykładem życia pod Bożą opieką, o której z ufnością mówi ta pieśń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o jedność i pokój dla Kościoła, w którym Chrystus jest obecny, gdy gromadzimy się w Jego imię.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która prowadzi Kościół przez dzieje, mimo ludzkich słabości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wezwanie do uwielbienia Boga, który jest obecny i działa w swojej wspólnocie, Kościele.",
+      "moment": "ogolne"
+    }
+  ]
+}

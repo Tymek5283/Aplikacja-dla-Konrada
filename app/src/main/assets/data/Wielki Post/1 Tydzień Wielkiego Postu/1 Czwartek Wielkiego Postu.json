@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412873.Czwartek-I-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "1 Czwartek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Est 4, 17k. l-m. r-u",
+      "opis": "Modlitwa Estery w niebezpieczeństwie",
+      "tekst": "Królowa Estera zwróciła się do Pana, przejęta niebezpieczeństwem śmierci. I błagała Pana, Boga Izraela, mówiąc: «Panie mój, Królu nasz, Ty jesteś jedyny, wspomóż mnie samotną, niemającą poza Tobą wspomożyciela, bo niebezpieczeństwo jest niejako w mojej ręce. Słyszałam od młodości mojej w pokoleniu moim ojczystym, że Ty, Panie, wybrałeś Izraela spośród wszystkich narodów i ojców naszych ze wszystkich ich przodków na wieczyste dziedzictwo i uczyniłeś im wszystko, co zapowiedziałeś. Wspomnij, Panie, daj się rozpoznać w chwili naszego udręczenia i dodaj mi odwagi, Królu bogów i Władco nad wszystkimi władcami. Włóż stosowną mowę w moje usta przed obliczem lwa i zwróć jego serce ku nienawiści do wroga naszego, aby zginął on sam i ci, którzy są z nim jednej myśli. Wybaw nas ręką Twoją i wspomóż mnie opuszczoną i niemającą nikogo poza Tobą, Panie, który wiesz wszystko». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 138 (137), 1b-2a. 2b-3. 7e-8 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pan mnie wysłuchał, kiedy Go wzywałem.\nBędę Cię sławił, Panie, z całego serca, *\n\nbo usłyszałeś słowa ust moich.\n\nBędę śpiewał Ci psalm wobec aniołów, *\n\npokłon Ci oddam w Twoim świętym przybytku.\nRefren.\nI będę sławił Twe imię za łaskę i wierność Twoją, *\n\nbo ponad wszystko wywyższyłeś Twe imię i obietnicę.\n\nWysłuchałeś mnie, kiedy Cię wzywałem, *\n\npomnożyłeś moc mojej duszy.\nRefren.\nWybawia mnie Twoja prawica. *\n\nPan za mnie wszystkiego dokona.\n\nPanie, Twa łaska trwa na wieki, *\n\nnie porzucaj dzieła rąk swoich.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 51 (50), 12a. 14a",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Stwórz, Boże, we mnie serce czyste\n\ni przywróć mi radość Twojego zbawienia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 7, 7-12",
+      "opis": "Kto prosi, otrzymuje",
+      "tekst": "Jezus powiedział do swoich uczniów: «Proście, a będzie wam dane; szukajcie, a znajdziecie; kołaczcie, a otworzą wam. Albowiem każdy, kto prosi, otrzymuje; kto szuka, znajduje; a kołaczącemu otworzą. Gdy któregoś z was syn prosi o chleb, czy jest taki, który poda mu kamień? Albo gdy prosi o rybę, czy poda mu węża? Jeśli więc wy, choć źli jesteście, umiecie dawać dobre dary swoim dzieciom, to o ileż bardziej Ojciec wasz, który jest w niebie, da to, co dobre, tym, którzy Go proszą. Wszystko więc, co chcielibyście, żeby wam ludzie czynili, i wy im czyńcie. Albowiem to jest istota Prawa i Proroków». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń jest modlitwą błagalną, która idealnie oddaje ducha modlitwy królowej Estery i nauki Jezusa o proszeniu Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosty i ufny charakter tej pieśni jest odpowiedzią na zachętę Jezusa do wytrwałej modlitwy, opartej na wierze w dobroć Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Utwór ten jest muzycznym wyrazem postawy szukania Boga i modlitwy, o której naucza Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Utwór wzywa do czynienia miłosierdzia, co jest praktycznym zastosowaniem „złotej reguły” z końca Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem żalu i postanowienia poprawy, co jest odpowiedzią na wezwanie do czynienia innym tego, co byśmy chcieli, aby nam czyniono.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do pokory i skruchy, co jest podstawą owocnej modlitwy, o której naucza Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Refren „Panie, szukam Cię!” doskonale koresponduje z zachętą Jezusa: „szukajcie, a znajdziecie”.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest modlitwą o przebaczenie i czyste serce, które jest warunkiem owocnej modlitwy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Przyjęcie Komunii jest powrotem do miłosiernego Ojca, który wysłuchuje próśb swoich dzieci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Modlitwa o czyste serce i radość zbawienia nawiązuje do słów aklamacji przed Ewangelią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą wierność i wysłuchanie modlitw, o czym zapewnia nas psalm i Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar modlitwy i pewność, że Ojciec w niebie da to, co dobre, tym, którzy Go proszą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosty i ufny charakter tej pieśni jest odpowiedzią na zachętę Jezusa do wytrwałej modlitwy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jesteśmy posłani, by realizować 'złotą regułę' z Ewangelii, która jest streszczeniem przykazania miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny na zakończenie liturgii, proszący o łaskę owocnego przeżycia czasu pokuty przez modlitwę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Utwór podkreśla zaufanie do Boga, które jest podstawą modlitwy, ukazanej zarówno w postawie Estery, jak i w nauczaniu Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do miłosiernego Ojca, który wysłuchuje próśb swoich dzieci, o czym zapewnia Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem zawierzenia i prośbą o prowadzenie, co jest istotą modlitwy, do której zachęca Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa po pociechę i ratunek, co jest odpowiedzią na Jego zachętę do modlitwy.",
+      "moment": "ogolne"
+    }
+  ]
+}

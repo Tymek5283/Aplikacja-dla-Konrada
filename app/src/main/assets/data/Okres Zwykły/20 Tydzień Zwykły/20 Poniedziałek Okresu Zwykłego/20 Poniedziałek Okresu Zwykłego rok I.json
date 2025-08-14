@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431274.Poniedzialek-20-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "20 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Sdz 2, 11-19",
+      "opis": "Niewierność Izraela w czasach sędziów",
+      "tekst": "Izraelici czynili to, co złe w oczach Pana, i służyli Baalom. Porzucili Boga swoich ojców, Jahwe, który ich wyprowadził z ziemi egipskiej, i poszli za cudzymi bogami, którzy należeli do ludów sąsiednich. Oddawali im pokłon i drażnili Pana. Porzucili Pana i służyli Baalowi i Asztartom.\nWówczas zapłonął gniew Pana przeciwko Izraelitom, tak że wydał ich w ręce ciemięzców, którzy ich złupili, wydał ich na łup nieprzyjaciół, którzy ich otaczali, tak że nie mogli im się oprzeć. We wszystkich ich poczynaniach ręka Pana była przeciwko nim na ich nieszczęście, jak to Pan przedtem im zapowiedział i jak im poprzysiągł. I tak spadł na nich ucisk ogromny.\nWówczas Pan wzbudził sędziów, by wybawili ich z ręki tych, którzy ich uciskali. Ale i sędziów swoich nie słuchali, gdyż uprawiali nierząd z cudzymi bogami, oddawali im pokłon. Zboczyli szybko z drogi, po której kroczyli ich przodkowie, którzy słuchali przykazań Pana: ci tak nie postępowali.\nKiedy zaś Pan wzbudzał sędziów dla nich, Pan był z sędzią i wybawiał ich z ręki nieprzyjaciół, póki żył sędzia. Pan bowiem litował się, gdy jęczeli pod jarzmem swoich ciemięzców i prześladowców. Lecz po śmierci sędziego odwracali się i czynili jeszcze gorzej niż ich przodkowie. Szli za cudzymi bogami, służyli im i pokłon im oddawali, nie wyrzekając się swych czynów ani drogi zatwardziałości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 106 (105), 34-35. 36-37. 39-40. 43ab i 44 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Pamiętaj o nas i przyjdź nam z pomocą.\nIzraelici nie wytępili narodów, *\njak im to Pan nakazał,\nale zmieszali się z poganami *\ni uczyli się postępować jak oni.\nRefren.\nPoczęli czcić ich bałwany, *\nktóre stały się dla nich pułapką.\nSkładali w ofierze swych synów *\ni swoje córki złym duchom.\nRefren.\nSplamili się swoimi czynami *\ni dopuścili się wiarołomstwa przez swoje występki.\nGniew Pana zapłonął przeciw Jego ludowi, *\naż poczuł wstręt do własnego dziedzictwa.\nRefren.\nUwalniał ich wiele razy, *\noni zaś buntowali się przeciw Jego zamysłom.\nLecz wejrzał na ich utrapienie, *\nwysłuchał ich modlitwy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 19, 16-22",
+      "opis": "Rada ubóstwa",
+      "tekst": "Pewien człowiek podszedł do Jezusa i zapytał: «Nauczycielu, co dobrego mam czynić, aby otrzymać życie wieczne?» Odpowiedział mu: «Dlaczego Mnie pytasz o dobro? Jeden tylko jest Dobry. A jeśli chcesz osiągnąć życie, zachowuj przykazania». Zapytał Go: «Które?» Jezus odpowiedział: «Oto te: Nie zabijaj, nie cudzołóż, nie kradnij, nie zeznawaj fałszywie, czcij ojca i matkę oraz miłuj swego bliźniego jak siebie samego». Odrzekł Mu młodzieniec: «Przestrzegałem tego wszystkiego, czego mi jeszcze brakuje?» Jezus mu odpowiedział: «Jeśli chcesz być doskonały, idź, sprzedaj, co posiadasz, i daj ubogim, a będziesz miał skarb w niebie. Potem przyjdź i chodź za Mną!» Gdy młodzieniec usłyszał te słowa, odszedł zasmucony, miał bowiem wiele posiadłości.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich nawiązuje do aklamacji i Ewangelii, w której Jezus wzywa do ubóstwa dla królestwa niebieskiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Refleksja nad marnością dóbr doczesnych jest dobrym wprowadzeniem do Ewangelii o bogatym młodzieńcu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do pójścia za Jezusem, co stanowiło trudność dla bogatego młodzieńcza z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość do pójścia za Jezusem i oddania Mu wszystkiego, co jest odpowiedzią na Jego wezwanie do doskonałości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu, która jest przeciwieństwem przywiązania do bogactw, ukazanego w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc, byśmy potrafili naśladować Chrystusa w ubóstwie i oddaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Czwarta zwrotka mówi o Chrystusie, który dla nas stał się ubogi, co jest źródłem siły do naśladowania Go w ubóstwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża pragnienie przyjęcia Jezusa, który jest prawdziwym skarbem, w przeciwieństwie do posiadłości młodzieńca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i ubóstwa ducha jest warunkiem godnego przyjęcia Chrystusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wobec historii niewierności Izraela z pierwszego czytania, pieśń ta jest wezwaniem do nawrócenia i powrotu do Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na historię grzechu i niewierności opisaną w pierwszym czytaniu i psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o przebaczenie grzechów niewierności, o których mówi pierwsze czytanie i psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że pójście za Jezusem jest jedyną drogą do życia wiecznego, o które pytał młodzieniec.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o królestwie, do którego drogą jest naśladowanie ubogiego Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, w przeciwieństwie do postawy Izraelitów i bogatego młodzieńca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, która pomaga uznać swój grzech i niewierność, o której mowa w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń o przemijaniu i tęsknocie za niebieską ojczyzną pomaga zdystansować się od bogactw, które zatrzymały młodzieńca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie, które powinno kierować człowiekiem szukającym życia wiecznego, w przeciwieństwie do przywiązania do dóbr.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Bożą pomoc w pójściu za Chrystusem, co okazało się zbyt trudne dla bogatego młodzieńca.",
+      "moment": "ogolne"
+    }
+  ]
+}

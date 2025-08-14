@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415673.Czwartek-29-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "29 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 6, 19-23",
+      "opis": "Po wyzwoleniu z grzechu oddać się na służbę Bogu",
+      "tekst": "Bracia:\nZe względu na przyrodzoną waszą słabość posługuję się porównaniem wziętym z ludzkich stosunków: jak oddawaliście członki wasze na służbę nieczystości i nieprawości, pogrążając się w nieprawość, tak teraz wydajcie członki wasze na służbę sprawiedliwości, dla uświęcenia.\nKiedy bowiem byliście niewolnikami grzechu, byliście wolni od służby sprawiedliwości. Jakiż jednak pożytek mieliście wówczas z tych czynów, których się teraz wstydzicie? Przecież końcem ich jest śmierć.\nTeraz zaś, po wyzwoleniu z grzechu i oddaniu się na służbę Bogu, jako owoc zbieracie uświęcenie. A końcem tego - życie wieczne. Albowiem zapłatą za grzech jest śmierć, a łaska przez Boga dana - to życie wieczne w Chrystusie Jezusie, Panu naszym.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40, 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Flp 3, 8b-9a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wyzułem się ze wszystkiego i uznaję to za śmieci,\nbylebym pozyskał Chrystusa i w Nim się znalazł."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 49-53",
+      "opis": "Ewangelia powodem rozłamu",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Przyszedłem ogień rzucić na ziemię i jakże pragnę, ażeby już zapłonął. Chrzest mam przyjąć, i jakiej doznaję udręki, aż się to stanie.\nCzy myślicie, że przyszedłem dać ziemi pokój? Nie, powiadam wam, lecz rozłam. Odtąd bowiem pięcioro będzie podzielonych w jednym domu: troje stanie przeciw dwojgu, a dwoje przeciw trojgu; ojciec przeciw synowi, a syn przeciw ojcu; matka przeciw córce, a córka przeciw matce; teściowa przeciw synowej, a synowa przeciw teściowej».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec słów Jezusa o rozłamie i konieczności wyboru, ta pieśń jest prośbą o siłę do trwania przy Chrystusie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, co jest odpowiedzią na wezwanie z pierwszego czytania do oddania się na służbę sprawiedliwości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to pieśń gromadząca wspólnotę, która staje razem, by słuchać słowa Bożego i dokonywać wyboru za Chrystusem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pierwsze czytanie wzywa do oddania się na służbę sprawiedliwości. Ta pieśń jest aktem ofiarowania Bogu całego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń o charakterze ofiarnym, w której prosimy o przyjęcie darów chleba i wina, symbolizujących nasze oddanie się Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ta pieśń jest osobistym aktem ofiarowania serca Bogu, co doskonale koresponduje z wezwaniem św. Pawła do służby uświęceniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Jezus mówi o ogniu, który pragnie rzucić na ziemię. W Komunii prosimy Ducha Świętego, by ten ogień miłości zapłonął w naszych sercach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża tęsknotę za zjednoczeniem z Chrystusem w Komunii, która jest źródłem siły do podejmowania trudnych wyborów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Adoracyjna pieśń podkreślająca osobistą więź z Jezusem Eucharystycznym, który daje życie wieczne – nagrodę za służbę Bogu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Dziękczynienie za dar Ducha Świętego, który jest ogniem miłości i umocnieniem w trudnych wyborach, o których mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta i radosna pieśń dziękczynna za dar Eucharystii i łaskę życia wiecznego, o której mowa w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Kontemplacyjna pieśń z Taizé, która pozwala w ciszy dziękować Bogu za dar uświęcenia i życia wiecznego w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi wbrew przeciwnościom i rozłamom, o których mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest odpowiedzią na przyjęte Słowo i Komunię, posyłająca do odważnego świadczenia o Chrystusie mimo podziałów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja, która stanowi odpowiedź na Ewangelię o konieczności wyboru i opowiedzenia się za Chrystusem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o szczęściu człowieka, który ma upodobanie w Prawie Pańskim. Pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy, wyzwoleni z grzechu, mogli owocnie służyć Bogu, jak zachęca św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie serca, by wbrew podziałom i trudnościom, o których mówi Ewangelia, trwać przy Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń ta jest wyrazem wdzięczności za wyzwolenie z grzechu i stanowi osobiste zobowiązanie do służby Bogu, o czym mówi św. Paweł.",
+      "moment": "ogolne"
+    }
+  ]
+}

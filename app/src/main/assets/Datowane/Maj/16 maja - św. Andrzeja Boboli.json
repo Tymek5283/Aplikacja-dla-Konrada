@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 34,2-3.4-5.6-7.8-9",
-      "opis": "Refren:",
-      "tekst": "Od wszelkiej trwogi Pan Bóg mnie wyzwolił.\nBędę błogosławił Pana po wieczne czasy,\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem,\nniech słyszą to pokorni i niech się weselą.\nWysławiajcie ze mną Pana,\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał\ni wyzwolił od wszelkiej trwogi.\nSpójrzcie na Niego, a rozpromienicie się radością,\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał,\ni uwolnił od wszelkiego ucisku.\nAnioł Pański otacza szańcem bogobojnych,\naby ich ocalić.\nSkosztujcie i zobaczcie, jak Pan jest dobry,\nszczęśliwy człowiek, który znajduje w Nim ucieczkę."
+      "opis": "",
+      "tekst": "Refren:\nOd wszelkiej trwogi Pan Bóg mnie wyzwolił.\nBędę błogosławił Pana po wieczne czasy,\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem,\nniech słyszą to pokorni i niech się weselą.\nWysławiajcie ze mną Pana,\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał\ni wyzwolił od wszelkiej trwogi.\nSpójrzcie na Niego, a rozpromienicie się radością,\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał,\ni uwolnił od wszelkiego ucisku.\nAnioł Pański otacza szańcem bogobojnych,\naby ich ocalić.\nSkosztujcie i zobaczcie, jak Pan jest dobry,\nszczęśliwy człowiek, który znajduje w Nim ucieczkę."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta jest powitaniem i hołdem dla męczennika, który oddał życie za wiarę, co doskonale charakteryzuje postać św. Andrzeja.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Modlitwa do polskich świętych, wśród których św. Andrzej Bobola zajmuje szczególne miejsce jako patron jedności.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "457",
       "piesn": "Święty Andrzeju Bobolo",
       "opis": "Treść pieśni nawiązuje do męczeńskiej śmierci Świętego za jedność Kościoła, co łączy się z modlitwą Jezusa o jedność z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Hymn na cześć męczenników, którego ofiara krwi, podobnie jak dary chleba i wina, jest zasiewem dla Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni, wraz z darami, składamy Bogu nasze życie, na wzór ofiary życia, jaką złożył św. Andrzej Bobola.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń ta jest prośbą o jedność i pokój dla Kościoła, za który św. Andrzej oddał swoje życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest sakramentem jedności, a św. Andrzej Bobola jest patronem jedności, co czyni tę pieśń szczególnie wymowną.",
+      "moment": "komunia"
+    },
+    {
       "numer": "574",
       "piesn": "Wielbimy Ciebie, wszechmogący Boże",
       "opis": "Hymn na cześć męczenników jest odpowiednim dziękczynieniem za świadectwo wiary i miłości, jakie złożył patron dnia.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń ta jest uwielbieniem Boga za dar świętych, w tym za męczeńską śmierć św. Andrzeja, który zwyciężył dzięki krwi Baranka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za łaski, które uzdolniły św. Andrzeja do złożenia najwyższego świadectwa wiary.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
       "opis": "Prośba o jedność i pokój dla Kościoła jest doskonałym zwieńczeniem liturgii ku czci męczennika, który oddał życie za jedność wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Modlitwa za Ojczyznę, której patronem jest św. Andrzej Bobola, jest bardzo stosowna na zakończenie Mszy Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń ta, będąca wyznaniem wierności Chrystusowi i Kościołowi, doskonale oddaje ducha męczeństwa św. Andrzeja Boboli.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "554",
       "piesn": "Racz być, Chryste, przebłagany",
       "opis": "Modlitwa za wstawiennictwem męczenników, prosząca o ich pomoc w drodze do nieba, jest dobrym wyborem na ten dzień.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności, która była ideałem, za który św. Andrzej Bobola oddał życie, jest głęboką modlitwą w jego wspomnienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o powołania i wierność kapłanów jest stosowna w dniu wspomnienia gorliwego duszpasterza i misjonarza.",
       "moment": "ogolne"
     }
   ]

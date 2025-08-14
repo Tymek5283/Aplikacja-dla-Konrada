@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Cała liturgia Niedzieli Gaudete przepełniona jest radością, a ta pieśń wzywa całe stworzenie do radości z powodu przyjścia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Izajasza.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Drugie czytanie wzywa do czuwania i zachowania duszy bez zarzutu, a ta pieśń jest modlitwą o dobre przygotowanie na przyjście Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, co jest głównym przesłaniem nauczania Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest odpowiedzią na wezwanie Jana Chrzciciela do nawrócenia i wydawania dobrych owoców.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, który jest Światłością, o której świadczy Jan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, którego drogę przygotował Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
       "numer": "701",
       "piesn": "Chrystus Pan karmi nas",
       "opis": "Psalm responsoryjny to hymn Magnificat, a ta pieśń, oparta na jego tekście, jest wyrazem radości w Bogu, podobnie jak Maryja i Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Radosna Niedziela Adwentu jest okazją do wielbienia Boga za Jego wierność i zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która w Niedzielę Radości nabiera charakteru ufnego oczekiwania na bliskie już przyjście Pana.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "2",
-      "piesn": "Niech się radują",
-      "opis": "Cała liturgia Niedzieli Gaudete przepełniona jest radością, a ta pieśń wzywa całe stworzenie do radości z powodu przyjścia Pana.",
-      "moment": "ogolne"
-    },
-    {
       "numer": "4",
       "piesn": "Oto Pan przybywa",
       "opis": "Pieśń ta, wzywając do prostowania dróg, nawiązuje do nauczania Jana Chrzciciela i przygotowuje na bliskie spotkanie z Panem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, co jest głównym przesłaniem drugiego czytania i całej Niedzieli Gaudete.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pierwsze czytanie mówi o dobrej nowinie dla ubogich, a pieśń o błogosławieństwach rozwija ten temat.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, wzywający do nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "768",
+      "piesn": "Pan blisko jest",
+      "opis": "Ta krótka, medytacyjna pieśń jest powtórzeniem słów z drugiego czytania 'Pan jest blisko!' i zachęca do radosnego oczekiwania.",
       "moment": "ogolne"
     }
   ]

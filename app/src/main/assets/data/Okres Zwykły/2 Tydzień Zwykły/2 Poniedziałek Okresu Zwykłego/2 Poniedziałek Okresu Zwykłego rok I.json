@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410999.Poniedzialek-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 5, 1-10",
+      "opis": "Jezus wielki arcykapłan na wzór Melchizedeka",
+      "tekst": "Każdy arcykapłan, spomiędzy ludzi brany, dla ludzi jest ustanawiany w sprawach odnoszących się do Boga, aby składał dary i ofiary za grzechy. Może on współczuć tym, którzy nie wiedzą i błądzą, ponieważ sam podlega słabości. I ze względu na nią powinien tak za lud, jak i za samego siebie składać ofiary za grzechy. A nikt sam sobie nie bierze tej godności, lecz tylko ten, kto jest powołany przez Boga jak Aaron. Podobnie i Chrystus nie sam siebie okrył sławą przez to, iż stał się arcykapłanem, ale uczynił to Ten, który powiedział do Niego: «Ty jesteś moim Synem, Ja Cię dziś zrodziłem», jak i w innym miejscu: «Ty jesteś kapłanem na wieki na wzór Melchizedeka». Z głośnym wołaniem i płaczem, za swych dni doczesnych, zanosił On gorące prośby i błagania do Tego, który mógł Go wybawić od śmierci, i został wysłuchany dzięki swej uległości. I chociaż był Synem, nauczył się posłuszeństwa przez to, co wycierpiał. A gdy wszystko wykonał, stał się sprawcą zbawienia wiecznego dla wszystkich, którzy Go słuchają, nazwany przez Boga arcykapłanem na wzór Melchizedeka. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 110 (109), 1b-2. 3-4 (R.: por. 4b)",
+      "opis": "",
+      "tekst": "Refren: Jesteś kapłanem, tak jak Melchizedek.\nRzekł Pan do Pana mego: «Siądź po mojej prawicy, *\n\naż uczynię Twych wrogów podnóżkiem stóp Twoich».\n\nPan rozciągnie moc Twego berła z Syjonu: *\n\n«Panuj wśród swych nieprzyjaciół!\nRefren.\nPrzy Tobie panowanie w dniu Twego triumfu, †\n\nw blasku świętości, *\n\nz łona jutrzenki zrodziłem Cię jak rosę».\n\nPan przysiągł i tego nie odwoła: *\n\n«Ty jesteś kapłanem na wieki na wzór Melchizedeka».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\n\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 18-22",
+      "opis": "Zwyczajów Starego Testamentu nie można przenosić do Nowego",
+      "tekst": "Uczniowie Jana i faryzeusze mieli właśnie post. Przyszli więc do Jezusa i pytali: «Dlaczego uczniowie Jana i uczniowie faryzeuszów poszczą, a Twoi uczniowie nie poszczą?» Jezus im odpowiedział: «Czy goście weselni mogą pościć, dopóki pan młody jest z nimi? Nie mogą pościć, jak long ma pośród siebie pana młodego. Lecz przyjdzie czas, kiedy zabiorą im pana młodego, a wtedy, w ów dzień, będą pościć. Nikt nie przyszywa łaty z surowego sukna do starego ubrania. W przeciwnym razie nowa łata obrywa jeszcze część ze starego ubrania i gorsze staje się przedarcie. Nikt też młodego wina nie wlewa do starych bukłaków. W przeciwnym razie wino rozerwie bukłaki. Wino się wylewa i bukłaki przepadną. Raczej młode wino należy wlewać do nowych bukłaków». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta wzywa do uwielbienia Arcykapłana Nowego Przymierza, o którym mówi pierwsze czytanie i psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Jest to hymn na cześć Chrystusa, który jako wieczny Kapłan panuje nad swoimi nieprzyjaciółmi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń sławi Chrystusa jako Króla i Kapłana, którego panowanie zapowiada psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Jest to pieśń o kapłaństwie Chrystusa, który złożył ofiarę z samego siebie, ustanawiając nowe przymierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń uwielbia Chrystusa, który swoje kapłaństwo kontynuuje w Kościele przez posługę kapłanów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni prosimy o przyjęcie ofiary, która jest uobecnieniem jedynej ofiary Chrystusa, Arcykapłana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja eucharystyczna sławi Chrystusa, Pana Młodego z Ewangelii, który daje nam siebie w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą weselną z Panem Młodym, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Eucharystia jest znakiem nowego przymierza, którego pośrednikiem jest Chrystus, Arcykapłan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jest to aklamacja na cześć Chrystusa Króla i Kapłana, którego panowanie opiewa psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn do Chrystusa Króla, który jest Kapłanem na wieki na wzór Melchizedeka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana, który jest naszym Kapłanem i Pośrednikiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża przylgnięcie do Chrystusa, który jest nowością - 'młodym winem' wlanym w 'nowe bukłaki' naszych serc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami nowości, którą On przynosi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie do udziału w kapłaństwie Chrystusa jest jednocześnie posłaniem do głoszenia Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Wcieleniu, dzięki któremu Syn Boży mógł stać się Arcykapłanem współczującym naszym słabościom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Nowość Ewangelii, symbolizowana przez młode wino i nowe bukłaki, polega na przykazaniu miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "W kontekście Ewangelii o poście, ta pieśń pokutna może być wyrazem przygotowania na czas, gdy 'zabiorą im pana młodego'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus, Arcykapłan Nowego Przymierza, jest naszą nadzieją na zbawienie wieczne.",
+      "moment": "ogolne"
+    }
+  ]
+}

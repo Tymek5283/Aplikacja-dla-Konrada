@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415669.Wtorek-29-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "29 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 2, 12-22",
+      "opis": "Chrystus jest naszym pokojem",
+      "tekst": "Bracia:\nW owym czasie byliście poza Chrystusem, obcy względem społeczności Izraela i bez udziału w przymierzach obietnicy, niemający nadziei ani Boga na tym świecie. Ale teraz w Chrystusie Jezusie wy, którzy niegdyś byliście daleko, staliście się bliscy przez krew Chrystusa. On bowiem jest naszym pokojem. On, który obie części ludzkości uczynił jednością, bo zburzył rozdzielający je mur - wrogość. W swym ciele pozbawił On mocy Prawo  przykazań, wyrażone w zarządzeniach, aby z dwóch rodzajów ludzi stworzyć w sobie jednego nowego człowieka, wprowadzając pokój, i w ten sposób jednych, jak i drugich znów pojednać z Bogiem, w jednym Ciele przez krzyż, w sobie zadawszy śmierć wrogości. A przyszedłszy, zwiastował pokój wam, którzy jesteście daleko, i pokój tym, którzy są blisko, bo przez Niego jedni i drudzy w jednym Duchu mamy przystęp do Ojca.\nA więc nie jesteście już obcymi i przybyszami, ale jesteście współobywatelami świętych i domownikami Boga - zbudowani na fundamencie apostołów i proroków, gdzie głowicą węgła jest sam Chrystus Jezus. W Nim zespalana cała budowla rośnie na świętą w Panu świątynię, w Nim i wy także wznosicie się we wspólnym budowaniu, by stanowić mieszkanie Boga przez Ducha.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. 9)",
+      "opis": "",
+      "tekst": "Refren: Pan głosi pokój swojemu ludowi.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 35-38",
+      "opis": "Oczekiwanie powrotu Pana",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Niech będą przepasane biodra wasze i zapalone pochodnie. A wy bądźcie podobni do ludzi oczekujących swego pana, kiedy z uczty weselnej powróci, aby mu zaraz otworzyć, gdy nadejdzie i zakołacze. Szczęśliwi owi słudzy, których pan zastanie czuwających, gdy nadejdzie. Zaprawdę, powiadam wam: Przepasze się i każe im zasiąść do stołu, a obchodząc, będzie im usługiwał. Czy o drugiej, czy o trzeciej straży przyjdzie, szczęśliwi oni, gdy ich tak zastanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, co jest postawą sług czuwających na powrót pana z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' doskonale pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna, która wyraża gotowość i czuwanie na przyjście Pana od samego początku dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec wezwania do czuwania, ta pieśń jest aktem ofiarowania Bogu całego siebie, by być gotowym na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud czuwania i wiernej służby, do której wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono nieustannym, czujnym oczekiwaniem na Niego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary i zaufania Panu, co jest postawą wiernego sługi, czuwającego na przyjście Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Pana w Komunii, co jest zapowiedzią Jego ostatecznego przyjścia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem dla tych, którzy wiernie na Niego oczekują.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Dziękczynienie za dar pokoju i jedności w Chrystusie, o którym mówi pierwsze czytanie, i modlitwa o te dary dla Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar Kościoła, w którym jesteśmy 'współobywatelami świętych i domownikami Boga'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, która umacnia nas w czuwaniu i budowaniu wspólnoty Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna, wzywająca do czuwania, jest doskonałym posłaniem na zakończenie Mszy, w której słyszymy 'Szczęśliwi owi słudzy, których pan zastanie czuwających'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wierność Jemu jest najlepszym przygotowaniem na Jego przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Czuwanie na przyjście Pana wiąże się z misją głoszenia Ewangelii pokoju, o której mówi pierwsze czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń, która jest odpowiedzią na wezwanie Jezusa do czuwania i modlitwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla, że w Eucharystii tworzymy jedno Ciało, co jest owocem pokoju, który zwiastował Chrystus, jak mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń jest hymnem o miłości i jedności, które są fundamentem Kościoła, budowli wznoszonej na Chrystusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do Chrystusa, który jest naszym pokojem.",
+      "moment": "ogolne"
+    }
+  ]
+}

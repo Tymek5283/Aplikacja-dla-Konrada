@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416269.9-Niedziela-zwykla-rok-C",
+  "tytul_dnia": "9 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 8, 41-43",
+      "opis": "Modlitwa Salomona za cudzoziemców",
+      "tekst": "Po poświęceniu świątyni Salomon tak się modlił:\n«Cudzoziemca, który nie jest z Twego ludu, Izraela, a jednak przyjdzie z dalekiego kraju przez wzgląd na Twe imię - bo będzie słychać o Twoim wielkim imieniu i o Twej mocnej ręce, i wyciągniętym ramieniu - gdy przyjdzie i będzie się modlić w tej świątyni, Ty w niebie, miejscu Twego przebywania, wysłuchaj i uczyń to wszystko, o co ten cudzoziemiec będzie do Ciebie wołać.\nNiech wszystkie narody ziemi poznają Twe imię, by przejąć się bojaźnią wobec Ciebie za przykładem Twego ludu, Izraela. Niech też wiedzą, że Twoje imię zostało wezwane nad tą świątynią, którą zbudowałem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117 (116), 1b-2",
+      "opis": "",
+      "tekst": "Refren: Całemu światu głoście Ewangelię.\nChwalcie Pana, wszystkie narody, *\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska, *\na wierność Pana trwa na wieki.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ga 1, 1-2. 6-10",
+      "opis": "Nie ma innej Ewangelii",
+      "tekst": "Paweł, apostoł nie z ludzkiego ustanowienia czy zlecenia, lecz z ustanowienia Jezusa Chrystusa i Boga Ojca, który Go wskrzesił z martwych, oraz wszyscy bracia, którzy są ze mną - do Kościołów Galacji:\nNadziwić się nie mogę, że od Tego, który was łaską Chrystusa powołał, tak szybko chcecie przejść do innej Ewangelii. Innej jednak Ewangelii nie ma: są tylko jacyś ludzie, którzy sieją wśród was zamęt i którzy chcieliby przekręcić Ewangelię Chrystusową.\nAle gdybyśmy nawet my lub anioł z nieba głosił wam Ewangelię różną od tej, którą wam głosiliśmy - niech będzie przeklęty! Już to przedtem powiedzieliśmy, a teraz jeszcze mówię: Gdyby wam ktoś głosił Ewangelię różną od tej, którą od nas otrzymaliście - niech będzie przeklęty!\nA zatem teraz: czy zabiegam o względy ludzi, czy raczej Boga? Czy ludziom staram się przypodobać? Gdybym jeszcze ludziom chciał się przypodobać, nie byłbym sługą Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 3, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak Bóg umiłował świat, że dał swojego Syna Jednorodzonego;\nkażdy, kto w Niego wierzy, ma życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 1-10",
+      "opis": "Uzdrowienie sługi setnika",
+      "tekst": "Gdy Jezus dokończył wszystkich swoich mów do słuchającego Go ludu, wszedł do Kafarnaum. Sługa pewnego setnika, szczególnie przez niego ceniony, chorował i bliski był śmierci. Skoro setnik posłyszał o Jezusie, wysłał do Niego starszyznę żydowską z prośbą, żeby przyszedł i uzdrowił mu sługę.\nCi zjawili się u Jezusa i prosili Go usilnie: «Godzien jest, żebyś mu to wyświadczył - mówili - miłuje bowiem nasz naród i sam zbudował nam synagogę». Jezus przeto zdążał z nimi.\nA gdy był już niedaleko domu, setnik wysłał do Niego przyjaciół ze słowami: «Panie, nie trudź się, bo nie jestem godzien, abyś wszedł pod dach mój. I dlatego ja sam nie uważałem się za godnego przyjść do Ciebie. Lecz powiedz słowo, a mój sługa odzyska zdrowie. Bo i ja, choć podlegam władzy, mam pod sobą żołnierzy. Mówię temu: „Idź!” - a idzie; drugiemu: „Przyjdź!” - a przychodzi; a mojemu słudze: „Zrób to!” - a robi».\nGdy Jezus to usłyszał, zadziwił się nad nim, i zwróciwszy się do tłumu, który szedł za Nim, rzekł: «Powiadam wam: Tak wielkiej wiary nie znalazłem nawet w Izraelu». A gdy wysłańcy wrócili do domu, zastali sługę zdrowego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta jest echem psalmu i pierwszego czytania, które mówią o uniwersalizmie zbawienia i wzywają wszystkie narody do chwalenia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Uniwersalna pieśń chwały, która dobrze wpisuje się w temat otwarcia świątyni dla wszystkich narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który przyjmuje wiarę poganina.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę na wzór setnika, którego postawa zadziwiła samego Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni składamy dar, prosząc o umocnienie naszej wiary, aby była tak wielka jak wiara setnika.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której prosimy o dar wiary, która uzdrawia i zbawia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Bezpośrednio nawiązuje do słów setnika z Ewangelii, które Kościół powtarza przed każdą Komunią Świętą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i wiary, którą odznaczył się pogański setnik w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Jest to akt uniżenia i wiary w moc Chrystusa, na wzór postawy setnika.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to pieśń uwielbienia, która wyraża radość z tego, że zbawienie Boże jest ofiarowane wszystkim narodom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia dla Boga, którego chwałę mają poznać wszystkie narody, jak modlił się Salomon.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "766",
+      "piesn": "Laudate omnes gentes",
+      "opis": "Prosty kanon wzywający wszystkie narody do chwalenia Pana, co jest echem psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń na rozesłanie, która jest odpowiedzią na refren psalmu: „Całemu światu głoście Ewangelię”.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę świadczenia o Ewangelii wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności jedynej Ewangelii, o której z mocą pisze św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o Kościół, który będzie otwarty na wszystkich, tak jak świątynia w modlitwie Salomona.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i wiary, którą odznaczył się pogański setnik w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaprasza do przyjścia do Jezusa z wiarą, która nie zna granic narodowych, jak wiara setnika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "762",
+      "piesn": "Confitemini Domino",
+      "opis": "Prosty kanon dziękczynny, który jest odpowiedzią na potężną łaskę i wierność Pana, o których mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

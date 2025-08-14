@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430618.Poniedzialek-XIX-tydzien-zwykly-rok-I",
+  "tytul_dnia": "19 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 10, 12-22",
+      "opis": "Obowiązki wobec Boga",
+      "tekst": "Mojżesz powiedział do ludu:\n«A teraz, Izraelu, czego żąda od ciebie Pan, Bóg twój? Tylko tego, byś się bał Pana, Boga swojego, chodził wszystkimi Jego drogami, miłował Go, służył Panu, Bogu twemu, z całego swojego serca i z całej swej duszy, strzegł poleceń Pana i Jego praw, które ja ci podaję dzisiaj dla twego dobra.\nDo Pana, Boga twojego, należą niebiosa, niebiosa najwyższe, ziemia i wszystko, co jest na niej. Tylko do twoich przodków skłonił się Pan z miłością; spośród wszystkich narodów wybrał ich potomstwo, czyli was, jak jest dzisiaj.\nDokonajcie więc obrzezania waszych serc, nie bądźcie nadal ludem o twardym karku, albowiem Pan, Bóg wasz, jest Bogiem nad bogami i Panem nad panami, Bogiem wielkim, potężnym i straszliwym, który nie ma względu na osoby i nie przyjmuje podarków. On wymierza sprawiedliwość sierotom i wdowom, miłuje cudzoziemca, udzielając mu chleba i odzienia. Wy także miłujcie przybysza, bo sami byliście przybyszami w ziemi egipskiej.\nBójcie się Pana, Boga swego, Jemu się oddajcie, służcie Mu i na Jego imię przysięgajcie. On waszą chwałą, On waszym Bogiem, On dla was uczynił te rzeczy straszliwe, które widziały wasze oczy. W liczbie siedemdziesięciu osób zstąpili przodkowie wasi do Egiptu, a teraz Pan, Bóg wasz, uczynił was licznymi jak gwiazdy na niebie».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147B, 12-13. 14-15. 19-20 (R.: por. 12a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Kościele święty, chwal swojego Pana.\nChwal, Jeruzalem, Pana, *\nwysławiaj twego Boga, Syjonie!\nUmacnia bowiem zawory bram twoich *\ni błogosławi synom twoim w tobie.\nRefren.\nZapewnia pokój twoim granicom *\ni wyborną pszenicą ciebie darzy.\nZsyła na ziemię swoje polecenia, *\na szybko mknie Jego słowo.\nRefren.\nOznajmił swoje słowo Jakubowi, *\nIzraelowi ustawy swe i wyroki.\nNie uczynił tego dla innych narodów, *\nnie oznajmił im swoich wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tes 2, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bóg wezwał nas przez Ewangelię,\nabyśmy dostąpili chwały Pana naszego, Jezusa Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 17, 22-27",
+      "opis": "Podatek na świątynię",
+      "tekst": "Gdy Jezus przebywał w Galilei z uczniami, rzekł do nich: «Syn Człowieczy będzie wydany w ręce ludzi. Oni zabiją Go, ale trzeciego dnia zmartwychwstanie». I bardzo się zasmucili.\nGdy przyszli do Kafarnaum, przystąpili do Piotra poborcy didrachmy z zapytaniem: «Wasz Nauczyciel nie płaci didrachmy?» Odpowiedział: «Tak».\nGdy wszedł do domu, Jezus uprzedził go, mówiąc: «Szymonie, jak ci się zdaje: Od kogo królowie ziemscy pobierają daniny lub podatki? Od synów swoich czy od obcych?» Gdy Piotr powiedział: «Od obcych», Jezus mu rzekł: «A zatem synowie są wolni. Żebyśmy jednak nie dali im powodu do zgorszenia, idź nad jezioro i zarzuć wędkę. Weź pierwszą złowioną rybę, a gdy otworzysz jej pyszczek, znajdziesz statera. Weź go i daj im za Mnie i za siebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wierności Bogu i Jego prawu, do czego wzywa Mojżesz w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do służenia jedynemu Bogu z całego serca, zgodnie z nakazem Mojżesza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały dla Boga, który jest naszą chwałą i jedynym Panem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jest odpowiedzią na wezwanie do służenia Panu z całego serca, ofiarując Mu całe nasze życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża oddanie się Bogu i pragnienie życia według Jego przykazań, o których mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Wobec daru przymierza i Bożych praw, ofiarujemy Mu nasze serca jako wyraz wdzięczności i miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę uniżenia wobec tajemnicy Chrystusa, Syna Bożego, który zapowiada swoją mękę i płaci podatek.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Syna Bożego, który jest wolny od ziemskich danin, a jednak poddaje się prawu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Adoracja Chrystusa w Eucharystii jest aktem służby jedynemu Bogu, do której wzywa Mojżesz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to pieśń chwały, która doskonale koresponduje z wezwaniem psalmu: 'Chwal, Jeruzalem, Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Boże błogosławieństwo i za Jego Słowo, które prowadzi nas przez życie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar Jego Prawa i za to, że uczynił nas swoim ludem, jak przypomina pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Podkreśla królewską godność Chrystusa, Syna wolnego od płacenia podatków, któremu pragniemy służyć.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Jesteśmy posłani, by głosić panowanie Chrystusa, który jest naszym jedynym Panem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi i Jego prawu, do której wzywa nas cała liturgia słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie wzywa do miłości Boga i bliźniego, co znajduje swoje wypełnienie w nowym przykazaniu Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście zapowiedzi męki Jezusa, pieśń ta jest wyrazem ufności w Bożą opiekę i ocalenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosta i bezpośrednia odpowiedź na wezwanie Mojżesza: 'Będziesz miłował Pana, Boga twojego, z całego swego serca'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za Boże dary i zobowiązaniem do służby, o której mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

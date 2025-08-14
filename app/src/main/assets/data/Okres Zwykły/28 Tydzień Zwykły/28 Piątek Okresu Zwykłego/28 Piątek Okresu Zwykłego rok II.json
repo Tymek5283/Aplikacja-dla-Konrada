@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416401.Piatek-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 1, 11-14",
+      "opis": "Zbawczy zamiar Boga obejmuje Izraelitów i pogan",
+      "tekst": "Bracia:\nW Chrystusie dostąpiliśmy udziału my również, z góry przeznaczeni zamiarem Tego, który dokonuje wszystkiego zgodnie z zamysłem swej woli, byśmy istnieli ku chwale Jego majestatu - my, którzy już przedtem nadzieję złożyliśmy w Chrystusie. W Nim także i wy, usłyszawszy słowo prawdy, Dobrą Nowinę o waszym zbawieniu, w Nim również - uwierzywszy, zostaliście naznaczeni pieczęcią, Duchem Świętym, który był obiecany. On jest zadatkiem naszego dziedzictwa w oczekiwaniu na odkupienie, które nas uczyni własnością Boga, ku chwale Jego majestatu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 1-2. 4-5. 12-13 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nSprawiedliwi, radośnie wołajcie na cześć Pana, *\nprawym przystoi pieśń chwały.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nRefren.\nBo słowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 33 (32), 22",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech nas ogarnie Twoja łaska, Panie,\nwedług nadziei pokładanej w Tobie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 1-7",
+      "opis": "Głosić słowo Boże bez obawy",
+      "tekst": "Kiedy ogromne tłumy zebrały się koło Jezusa, tak że jedni cisnęli się na drugich, zaczął mówić najpierw do swoich uczniów: «Strzeżcie się kwasu, to znaczy obłudy faryzeuszów. Nie ma bowiem nic ukrytego, co by nie wyszło na jaw, ani nic tajemnego, co by się nie stało wiadome. Dlatego wszystko, co powiedzieliście w mroku, w świetle będzie słyszane, a co w izbie szeptaliście do ucha, głoszone będzie na dachach.\nA mówię wam, przyjaciołom moim: Nie bójcie się tych, którzy zabijają ciało, a potem nic już więcej uczynić nie mogą. Pokażę wam, kogo się macie obawiać: bójcie się Tego, który po zabiciu ma moc wtrącić do piekła. Tak, mówię wam: Tego się bójcie! Czyż nie sprzedają pięciu wróbli za dwa asy? A przecież żaden z nich nie jest zapomniany w oczach Bożych. U was zaś nawet włosy na głowie wszystkie są policzone. Nie bójcie się: jesteście ważniejsi niż wiele wróbli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na zachętę Jezusa z Ewangelii: 'Nie bójcie się: jesteście ważniejsi niż wiele wróbli'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "W kontekście Ewangelii, która zapewnia, że jesteśmy ważniejsi niż wróble, ta pieśń jest wyrazem ufności w Bożą opatrzność.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, który jest źródłem naszego bezpieczeństwa i odwagi w głoszeniu Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec wezwania do odwagi w wyznawaniu wiary, ta pieśń jest aktem ofiarowania Bogu całego siebie, bez lęku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu owoce naszej pracy, ufając Jego opatrzności, o której zapewnia Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest aktem wiary i zaufania, do którego wzywa nas cała dzisiejsza liturgia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Tego, który jest naszą nadzieją i zadatkiem dziedzictwa, o czym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę ufności i wiary w Pana, który troszczy się o nas bardziej niż o wróble.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary i pokory wobec Chrystusa, w którym, jak mówi św. Paweł, zostaliśmy naznaczeni pieczęcią Ducha Świętego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar wybrania i przeznaczenia do chwały w Chrystusie, co jest głównym tematem listu do Efezjan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za dar Dobrej Nowiny o naszym zbawieniu, o której mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn uwielbienia za Boży majestat i plan zbawienia, którego zadatek otrzymaliśmy w Duchu Świętym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi bez lęku, do czego wzywa Ewangelia, zapewniając o Bożej opatrzności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do odważnego głoszenia Ewangelii, bez lęku przed ludźmi, jest głównym przesłaniem Chrystusa do uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud dawania świadectwa, do którego wzywa nas Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm responsoryjny mówi o błogosławieństwie narodu wybranego przez Pana, a pieśń ta rozwija temat błogosławieństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której umocnienie prosimy, jest warunkiem otrzymania Ducha Świętego i odwagi w wyznawaniu Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę zaufania Bogu, który zna nas do głębi i troszczy się o nas, jak mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest złożona w Chrystusie, jak pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

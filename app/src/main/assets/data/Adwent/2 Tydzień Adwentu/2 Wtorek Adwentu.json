@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest kwintesencją adwentowego wezwania, które słyszymy w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny hymn na cześć przychodzącego Pana, który jako Dobry Pasterz przynosi pocieszenie swojemu ludowi, co jest główną myślą czytań.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Pieśń ta, mówiąc o obniżaniu się szczytów i podnoszeniu dolin, jest echem proroctwa Izajasza z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, który jest Dobrym Pasterzem szukającym zagubionych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc Dobrego Pasterza o opiekę.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,27 +72,75 @@
       "moment": "komunia"
     },
     {
-      "numer": "2",
-      "piesn": "Niech się radują",
-      "opis": "Radosny hymn na cześć przychodzącego Pana, który jako Dobry Pasterz przynosi pocieszenie swojemu ludowi, co jest główną myślą czytań.",
-      "moment": "uwielbienie"
-    },
-    {
-      "numer": "7",
-      "piesn": "Przybądź, Panie",
-      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest kwintesencją adwentowego wezwania, które słyszymy w pierwszym czytaniu.",
-      "moment": "rozeslanie"
-    },
-    {
       "numer": "615",
       "piesn": "Pan mój, Wódz i Pasterz",
       "opis": "Kolejna pieśń pasterska, która wyraża ufność w prowadzenie Boże, co jest głównym tematem Ewangelii o zagubionej owcy.",
-      "moment": "ogolne"
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Jako Dobry Pasterz, Jezus zaspokaja głód naszych serc, karmiąc nas swoim Ciałem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny jest hymnem na cześć Króla, a ta pieśń jest majestatycznym uwielbieniem Boga za Jego zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, który przychodzi z mocą, jak zapowiada prorok Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wyraża tęsknotę za Bogiem, który przychodzi, by pocieszyć swój lud.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest prośbą o przyjście Dobrego Pasterza, który nie chce, by zginęło nawet jedno z Jego dzieci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie czuwania, co jest głównym przesłaniem Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, co jest echem proroctwa Izajasza.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "568",
       "piesn": "Krzyknijmy wszyscy",
       "opis": "Wspomnienie św. Mikołaja przypomina o dobroci Boga, Dobrego Pasterza, który nie chce, by zginęło nawet jedno z Jego dzieci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń jest wyrazem ufności w Bożą opiekę, którą obrazuje Dobry Pasterz z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Bóg jako Dobry Pasterz troszczy się o 'małych', ubogich i cichych, o których mówią błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, Dobrym Pasterzem, który szuka każdego z nas.",
       "moment": "ogolne"
     }
   ]

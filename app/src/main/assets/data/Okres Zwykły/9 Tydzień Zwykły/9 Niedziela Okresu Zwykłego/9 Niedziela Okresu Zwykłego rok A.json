@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416213.8-Niedziela-zwykla-rok-A",
+  "tytul_dnia": "9 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 11, 18. 26-28. 32",
+      "opis": "Dwie postawy wobec Prawa Bożego",
+      "tekst": "Mojżesz powiedział do ludu:\n«Weźcie sobie te moje słowa do serca i duszy. Przywiążcie je sobie jako znak na ręku. Niech one będą wam ozdobą między oczami.\nWidzicie, ja kładę dziś przed wami błogosławieństwo i przekleństwo. Błogosławieństwo, jeśli usłuchacie poleceń Pana, waszego Boga, które ja wam dzisiaj daję; przekleństwo, jeśli nie usłuchacie poleceń Pana, waszego Boga, jeśli odstąpicie od drogi, którą ja wam dzisiaj wskazuję, a pójdziecie za bogami cudzymi, których nie znacie. Wypełniajcie pilnie wszystkie prawa i nakazy, które ja wam dzisiaj daję».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 31 (30), 2-3. 4. 17 i 25",
+      "opis": "",
+      "tekst": "Refren: Bądź dla mnie, Panie, skałą ocalenia.\nPanie, do Ciebie się uciekam, †\nniech nigdy nie doznam zawodu, *\nwybaw mnie w sprawiedliwości Twojej!\nNakłoń ku mnie Twego ucha, *\npośpiesz, aby mnie ocalić!\nRefren.\nBądź dla mnie skałą schronienia, *\nwarownią, która ocala.\nTy bowiem jesteś moją skałą i twierdzą, *\nkieruj mną i prowadź przez wzgląd na swe imię.\nRefren.\nNiech Twoje oblicze zajaśnieje nad Twym sługą, *\nwybaw mnie w swoim miłosierdziu.\nBądźcie dzielni i mężnego serca, *\nwszyscy, którzy ufacie Panu.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 3, 21-25a. 28",
+      "opis": "Usprawiedliwienie przez wiarę",
+      "tekst": "Bracia:\nTeraz jawną się stała sprawiedliwość Boża niezależna od Prawa, poświadczona przez Prawo i Proroków.\nJest to sprawiedliwość Boża dostępna przez wiarę w Jezusa Chrystusa dla wszystkich, którzy wierzą. Bo nie ma tu różnicy: wszyscy bowiem zgrzeszyli i pozbawieni są chwały Bożej, a dostępują usprawiedliwienia darmo, z Jego łaski, przez odkupienie, które jest w Chrystusie Jezusie. Jego to ustanowił Bóg narzędziem przebłagania dzięki wierze mocą Jego krwi.\nSądzimy bowiem, że człowiek osiąga usprawiedliwienie na podstawie wiary, niezależnie od pełnienia uczynków wymaganych przez Prawo.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem krzewem winnym, a wy - latoroślami.\nKto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 7, 21-27",
+      "opis": "Dom zbudowany na skale i dom zbudowany na piasku",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie każdy, kto mówi Mi: „Panie, Panie!”, wejdzie do królestwa niebieskiego, lecz ten, kto spełnia wolę mojego Ojca, który jest w niebie. Wielu powie mi w owym dniu: „Panie, Panie, czy nie prorokowaliśmy mocą Twego imienia i nie wyrzucaliśmy złych duchów mocą Twego imienia, i nie czyniliśmy wielu cudów mocą Twego imienia?” Wtedy oświadczę im: „Nigdy was nie znałem. Odejdźcie ode Mnie wy, którzy dopuszczacie się nieprawości”.\nKażdego więc, kto tych słów moich słucha i wypełnia je, można porównać z człowiekiem roztropnym, który dom swój zbudował na skale. Spadł deszcz, wezbrały rzeki, zerwały się wichry i uderzyły w ten dom. On jednak nie runął, bo na skale był utwierdzony.\nKażdego zaś, kto tych słów moich słucha, a nie wypełnia ich, można porównać z człowiekiem nierozsądnym, który dom swój zbudował na piasku. Spadł deszcz, wezbrały rzeki, zerwały się wichry i rzuciły się na ten dom. I runął, a upadek jego był wielki».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to pieśń wzywająca do zgromadzenia się przed Panem, by słuchać Jego słów i budować na nich życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Bogu, który jest pewnym fundamentem, w przeciwieństwie do budowania na piasku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, którego słowa są fundamentem naszego życia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża chęć oddania życia Bogu i budowania go na fundamencie Jego woli, a nie na piasku własnych pragnień.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i szukania woli Bożej, która jest skałą, na której należy budować.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono zbudowane na trwałym fundamencie Jego słowa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża pokorę i wiarę, która jest fundamentem usprawiedliwienia, o którym mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszą skałą i fundamentem, na którym budujemy nasze życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem, który umacnia nas w pełnieniu woli Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń jest wyznaniem wiary w Boga, który jest naszą mocą i skałą, o której mówi Ewangelia i psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą sprawiedliwość i ocalenie, o którym z ufnością śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar wiary i usprawiedliwienia w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o siłę do wypełniania Słowa Bożego w codziennym życiu, co jest warunkiem błogosławieństwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus i Jego słowa są naszą drogą, a budowanie na nich prowadzi do zbawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii, aby inni mogli budować swoje życie na skale Słowa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która jest podstawą usprawiedliwienia i życia zgodnego z wolą Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, do którego wchodzą ci, co pełnią wolę Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Chrystusie, który przyniósł nam naukę Ojca i stał się fundamentem naszego zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże trwało w nas i było fundamentem naszego życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413285.III-Niedziela-Wielkanocna-rok-B",
+  "tytul_dnia": "3 Niedziela Okresu Wielkanocnego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 3, 13-15. 17-19",
+      "opis": "Bóg naszych ojców wskrzesił Jezusa",
+      "tekst": "Piotr powiedział do ludu:\n\n«Bóg Abrahama, Izaaka i Jakuba, Bóg ojców naszych wsławił Sługę swego, Jezusa, wy jednak wydaliście Go i zaparliście się Go przed Piłatem, gdy postanowił Go uwolnić. Zaparliście się Świętego i Sprawiedliwego, a wyprosiliście ułaskawienie dla zabójcy. Zabiliście Dawcę życia, ale Bóg wskrzesił Go z martwych, czego my jesteśmy świadkami. Lecz teraz wiem, bracia, że działaliście w nieświadomości, tak samo jak zwierzchnicy wasi. A Bóg w ten sposób spełnił to, co zapowiedział przez usta wszystkich proroków, że Jego Mesjasz będzie cierpiał. Pokutujcie więc i nawróćcie się, aby grzechy wasze zostały zgładzone». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 4, 2. 4 i 9 (R.: por. 7b)",
+      "opis": "",
+      "tekst": "Refren: Wznieś ponad nami światłość Twoją, Panie.\n\nalbo: Alleluja.\nKiedy Cię wzywam, odpowiedz mi, Boże, *\n\nktóry wymierzasz mi sprawiedliwość.\n\nTyś mnie wydźwignął z utrapienia, *\n\nzmiłuj się nade mną i wysłuchaj moją modlitwę.\nRefren.\nWiedzcie, że godnym podziwu czyni Pan swego wiernego, *\n\nPan mnie wysłucha, gdy będę Go wzywał.\n\nSpokojnie zasypiam, kiedy się położę, *\n\nbo tylko Ty jeden, Panie, pozwalasz mi żyć bezpiecznie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 2, 1-5",
+      "opis": "Chrystus jest ofiarą przebłagalną za nasze grzechy",
+      "tekst": "Dzieci moje, piszę do was, żebyście nie grzeszyli. Jeśliby nawet ktoś zgrzeszył, mamy Rzecznika u Ojca - Jezusa Chrystusa sprawiedliwego. On bowiem jest ofiarą przebłagalną za nasze grzechy, i nie tylko za nasze, lecz również za grzechy całego świata. Po tym zaś poznajemy, że Go znamy, jeżeli zachowujemy Jego przykazania. Kto mówi: «Znam Go», a nie zachowuje Jego przykazań, ten jest kłamcą i nie ma w nim prawdy. Kto zaś zachowuje Jego naukę, w tym naprawdę miłość Boża jest doskonała. Oto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 24, 32",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Panie Jezu, daj nam zrozumieć Pisma,\n\nniech pała nasze serce, gdy do nas mówisz."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 24, 35-48",
+      "opis": "Musiały się wypełnić zapowiedzi Pisma",
+      "tekst": "Uczniowie opowiadali, co ich spotkało w drodze i jak poznali Jezusa przy łamaniu chleba. A gdy rozmawiali o tym, On sam stanął pośród nich i rzekł do nich: «Pokój wam!» Zatrwożonym i wylękłym zdawało się, że widzą ducha. Lecz On rzekł do nich: «Czemu jesteście zmieszani i dlaczego wątpliwości budzą się w waszych sercach? Popatrzcie na moje ręce i nogi: to Ja jestem. Dotknijcie Mnie i przekonajcie się: duch nie ma ciała ani kości, jak widzicie, że Ja mam». Przy tych słowach pokazał im swoje ręce i nogi. Lecz gdy oni z radości jeszcze nie wierzyli i pełni byli zdumienia, rzekł do nich: «Macie tu coś do jedzenia?» Oni podali Mu kawałek pieczonej ryby. Wziął i spożył przy nich. Potem rzekł do nich: «To właśnie znaczyły słowa, które mówiłem do was, gdy byłem jeszcze z wami: Musi się wypełnić wszystko, co napisane jest o Mnie w Prawie Mojżesza, u Proroków i w Psalmach». Wtedy oświecił ich umysły, aby rozumieli Pisma. I rzekł do nich: «Tak jest napisane: Mesjasz będzie cierpiał i trzeciego dnia zmartwychwstanie; w imię Jego głoszone będzie nawrócenie i odpuszczenie grzechów wszystkim narodom, począwszy od Jeruzalem. Wy jesteście świadkami tego». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń ta doskonale oddaje treść pierwszego czytania, w którym Piotr głosi, że Bóg wskrzesił z martwych Dawcę życia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój spotkania uczniów ze Zmartwychwstałym Panem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, który przychodzi do swoich uczniów z darem pokoju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór ten, przeznaczony na różne części Mszy, podkreśla ofiarny charakter dzieła Chrystusa, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której Chrystus karmi nas swoim Ciałem, co jest nawiązaniem do posiłku z uczniami w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Słowa 'Pan zmartwychwstał i jest z nami' bezpośrednio nawiązują do Ewangelii, w której Jezus staje pośród uczniów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do posiłku Zmartwychwstałego z uczniami oraz do 'łamania chleba', przez które Go rozpoznano.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym spotkaniem ze Zmartwychwstałym, który daje nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Wyraża wielkanocną radość, o której mówi Ewangelia, gdzie uczniowie z radości nie mogli uwierzyć w zmartwychwstanie Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, który oświeca umysły uczniów, aby rozumieli Pisma.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Zmartwychwstania i spotkania z Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Pieśń ta podkreśla, że Zmartwychwstanie jest nadzieją dla wszystkich ludzi, co koresponduje z Ewangelią mówiącą o głoszeniu nawrócenia wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jest odpowiedzią na słowa Jezusa z Ewangelii, który czyni uczniów świadkami i posyła ich, by głosili nawrócenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które uczniowie niosą w świat jako świadkowie Zmartwychwstania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla zwycięstwo Chrystusa nad śmiercią, co jest głównym tematem liturgii słowa w Okresie Wielkanocy.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem świadectwa apostołów i życia Kościoła.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "176",
+      "piesn": "Alleluja... O dniu radosny",
+      "opis": "Pieśń ta wyraża radość dnia zmartwychwstania, w którym Chrystus ukazuje się swoim uczniom, przynosząc im pokój.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    }
+  ]
+}

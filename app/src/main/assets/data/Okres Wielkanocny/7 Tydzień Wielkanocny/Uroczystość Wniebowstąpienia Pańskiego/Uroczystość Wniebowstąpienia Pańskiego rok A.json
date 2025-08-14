@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413523.Uroczystosc-Wniebowstapienia-Panskiego-rok-A",
+  "tytul_dnia": "Uroczystość Wniebowstąpienia Pańskiego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 1, 1-11",
+      "opis": "Uniósł się w ich obecności w górę",
+      "tekst": "Pierwszą Księgę napisałem, Teofilu, o wszystkim, co Jezus czynił i czego nauczał od początku aż do dnia, w którym dał polecenia apostołom, których sobie wybrał przez Ducha Świętego, a potem został wzięty do nieba. Im też po swojej męce dał wiele dowodów, że żyje: ukazywał się im przez czterdzieści dni i mówił o królestwie Bożym.\nA podczas wspólnego posiłku przykazał im nie odchodzić z Jerozolimy, ale oczekiwać obietnicy Ojca:\n«Słyszeliście o niej ode Mnie - mówił - Jan chrzcił wodą, ale wy wkrótce zostaniecie ochrzczeni Duchem Świętym».\nZapytywali Go zebrani: «Panie, czy w tym czasie przywrócisz królestwo Izraela?» Odpowiedział im: «Nie wasza to rzecz znać czasy i chwile, które Ojciec ustalił swoją władzą, ale gdy Duch Święty zstąpi na was, otrzymacie Jego moc i będziecie moimi świadkami w Jeruzalem i w całej Judei, i w Samarii, i aż po krańce ziemi».\nPo tych słowach uniósł się w ich obecności w górę i obłok zabrał Go im sprzed oczu. Kiedy jeszcze wpatrywali się w Niego, jak wstępował do nieba, przystąpili do nich dwaj mężowie w białych szatach. I rzekli: «Mężowie z Galilei, dlaczego stoicie i wpatrujecie się w niebo? Ten Jezus, wzięty od was do nieba, przyjdzie tak samo, jak widzieliście Go wstępującego do nieba».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 47 (46), 2-3. 6-7. 8-9 (R.: por. 6)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan wśród radości wstępuje do nieba.\nWszystkie narody, klaskajcie w dłonie, *\nradosnym głosem wykrzykujcie Bogu,\nbo Pan Najwyższy i straszliwy, *\njest wielkim Królem nad całą ziemią.\nRefren.\nBóg wstępuje wśród radosnych okrzyków, *\nPan wstępuje przy dźwięku trąby.\nŚpiewajcie psalmy Bogu, śpiewajcie, *\nśpiewajcie Królowi naszemu, śpiewajcie.\nRefren.\nGdyż Bóg jest Królem całej ziemi, *\nhymn zaśpiewajcie!\nBóg króluje nad narodami, *\nBóg zasiada na swym świętym tronie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 1, 17-23",
+      "opis": "Bóg posadził Chrystusa po swojej prawicy",
+      "tekst": "Bracia:\nBóg Pana naszego, Jezusa Chrystusa, Ojciec chwały, niech da wam ducha mądrości i objawienia w głębszym poznawaniu Jego samego. Niech da wam światłe oczy serca, byście wiedzieli, czym jest nadzieja, do której On wzywa, czym bogactwo chwały Jego dziedzictwa wśród świętych i czym przeogromna Jego moc względem nas wierzących - na podstawie działania Jego potęgi i siły. Wykazał On je, gdy wskrzesił Go z martwych i posadził po swojej prawicy na wyżynach niebieskich, ponad wszelką Zwierzchnością i Władzą, i Mocą, i Panowaniem, i ponad wszelkim innym imieniem, wzywanym nie tylko w tym wieku, ale i w przyszłym.\nI wszystko poddał pod Jego stopy, a Jego samego ustanowił nade wszystko Głową dla Kościoła, który jest Jego Ciałem, Pełnią Tego, który napełnia wszystko wszelkimi sposobami.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 28, 19a. 20b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Idźcie i nauczajcie wszystkie narody.\nJa jestem z wami przez wszystkie dni, aż do skończenia świata."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 28, 16-20",
+      "opis": "Dana Mi jest wszelka władza w niebie i na ziemi",
+      "tekst": "Jedenastu uczniów udało się do Galilei, na górę, tam gdzie Jezus im polecił. A gdy Go ujrzeli, oddali Mu pokłon. Niektórzy jednak wątpili. Wtedy Jezus podszedł do nich i przemówił tymi słowami:\n«Dana Mi jest wszelka władza w niebie i na ziemi. Idźcie więc i nauczajcie wszystkie narody, udzielając im chrztu w imię Ojca i Syna, i Ducha Świętego. Uczcie je zachowywać wszystko, co wam przykazałem. A oto Ja jestem z wami przez wszystkie dni, aż do skończenia świata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "210",
+      "piesn": "Chrystus Pan w niebo wstępuje",
+      "opis": "Jest to klasyczna pieśń na Wniebowstąpienie, która wprost opisuje wydarzenie z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń sławi Chrystusa jako Króla wiecznej chwały, co doskonale oddaje treść psalmu i drugiego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Podkreśla królewską władzę Chrystusa, o której mowa w Ewangelii: 'Dana Mi jest wszelka władza w niebie i na ziemi'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "212",
+      "piesn": "Otoczono gronem świętych",
+      "opis": "Pieśń ta opisuje chwałę Wniebowstąpienia i zapowiada powtórne przyjście Chrystusa, o czym mówią aniołowie w Dziejach Apostolskich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "213",
+      "piesn": "Zaświtał blaskiem",
+      "opis": "Hymn ten podkreśla, że Wniebowstąpienie jest nadzieją dla wszystkich ludzi i otwiera bramy raju.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "W zwrotce na ofiarowanie przypomina o ofierze Chrystusa, której zwieńczeniem jest Wniebowstąpienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "211",
+      "piesn": "Ciesz się, Królowo Anielska",
+      "opis": "Jest to maryjna pieśń wielkanocna, która w kontekście Wniebowstąpienia wyraża radość z tryumfu Jej Syna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Chrystus, Głowa Kościoła (2C), karmi swoje Ciało, lud kapłański.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Przyjmujemy Tego, który wstąpił do nieba, ale zostaje z nami w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Chrystusa, który wstąpił do nieba i króluje.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń sławi Zmartwychwstałego, który teraz zasiada po prawicy Ojca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna, która jest fundamentem święta Wniebowstąpienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Bezpośrednio nawiązuje do misyjnego nakazu Chrystusa z Ewangelii, który jest centralnym przesłaniem uroczystości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest odpowiedzią na obietnicę Jezusa: 'Ja jestem z wami przez wszystkie dni'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Posyła wiernych, by głosili Ewangelię Zwycięzcy śmierci, który wstąpił do nieba.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Pieśń ta, choć o Zesłaniu Ducha, pasuje, bo Wniebowstąpienie jest zapowiedzią i warunkiem Jego przyjścia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Modlitwa o królowanie Chrystusa, który otrzymał wszelką władzę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Kolejna pieśń o królowaniu Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Chrystus jest nadzieją, która weszła do nieba, aby się za nami wstawiać.",
+      "moment": "ogolne"
+    }
+  ]
+}

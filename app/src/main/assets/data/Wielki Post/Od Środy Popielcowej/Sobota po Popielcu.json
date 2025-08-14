@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/412862.Sobota-po-Popielcu",
+  "tytul_dnia": "Sobota po Popielcu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 58, 9b-14",
+      "opis": "Obietnica dla sprawiedliwych",
+      "tekst": "Tak mówi Pan Bóg:\n«Jeśli u siebie usuniesz jarzmo, przestaniesz grozić palcem i mówić przewrotnie, jeśli podasz twój chleb zgłodniałemu i nakarmisz duszę przygnębioną, wówczas twe światło zabłyśnie w ciemnościach, a twoja ciemność stanie się południem. Pan cię zawsze prowadzić będzie, nasyci duszę twoją na pustkowiach. Odmłodzi twoje kości, tak że będziesz jak zroszony ogród i jak źródło wody, co się nie wyczerpie.\nTwoi ludzie odbudują prastare zwaliska, wzniesiesz fundamenty pokoleń. I będą cię nazywać naprawiaczem wyłomów, odnowicielem uliczek - na zamieszkanie.\nJeśli powściągniesz nogi od przekraczania szabatu, żeby w dzień mój święty spraw swych nie załatwiać, jeśli nazwiesz szabat rozkoszą, a święty dzień Pana - czcigodnym, jeśli go uszanujesz przez unikanie podróży, tak by nie nie przeprowadzać swej woli ani nie omawiać spraw swoich, wtedy znajdziesz rozkosz w Panu. Ja cię powiodę w triumfie przez wyżyny kraju, karmić cię będę dziedzictwem Jakuba, twojego ojca.\nAlbowiem usta Pańskie to wyrzekły».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 86 (85), 1b-2. 3-4. 5-6 (R.: por. 11ab)",
+      "opis": "",
+      "tekst": "Refren: Naucz mnie chodzić drogą Twojej prawdy.\nNakłoń swego ucha i wysłuchaj mnie, Panie, *\nbo biedny jestem i ubogi.\nStrzeż mojej duszy, bo jestem pobożny, †\nzbaw sługę Twego, który ufa Tobie, *\nTy jesteś moim Bogiem.\nRefren.\nPanie, zmiłuj się nade mną, *\nbo nieustannie wołam do Ciebie.\nUraduj duszę swego sługi, *\nku Tobie, Panie, wznoszę moją duszę.\nRefren.\nTy bowiem, Panie, jesteś dobry i łaskawy, *\npełen łaski dla wszystkich, którzy Cię wzywają.\nWysłuchaj, Panie, modlitwę moją *\ni zważ na głos mojej prośby.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ez 33, 11",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Pan mówi: Nie chcę śmierci grzesznika,\nlecz pragnę, aby się nawrócił i miał życie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 5, 27-32",
+      "opis": "Nie przyszedłem wezwać do nawrócenia sprawiedliwych, lecz grzeszników",
+      "tekst": "Jezus zobaczył celnika, imieniem Lewi, siedzącego na komorze celnej. Rzekł do niego: «Pójdź za Mną!» On zostawił wszystko, wstał i z Nim poszedł.\nPotem Lewi wydał dla Niego wielkie przyjęcie u siebie w domu; a był spory tłum celników oraz innych ludzi, którzy zasiadali z nimi do stołu. Na to szemrali faryzeusze i uczeni ich w Piśmie, mówiąc do Jego uczniów: «Dlaczego jecie i pijecie z celnikami i grzesznikami?»\nLecz Jezus im odpowiedział: «Nie potrzebują lekarza zdrowi, ale ci, którzy się źle mają. Nie przyszedłem powołać do nawrócenia się sprawiedliwych, lecz grzeszników».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta wprost wzywa do nawrócenia, co jest głównym tematem Ewangelii, w której Jezus powołuje grzesznika Lewiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem grzesznika o Bożą łaskę i opamiętanie, co jest postawą celnika Lewiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, zgodnie z wezwaniem Jezusa do nawrócenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń opowiada o powrocie syna marnotrawnego, co symbolizuje postawę Lewiego, który 'zostawił wszystko, wstał i z Nim poszedł'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i postanowieniem poprawy, co jest odpowiedzią na powołanie przez Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że Jezus przychodzi do grzeszników, aby ich uzdrowić i zbawić.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wyrazem tęsknoty za Bogiem i prośbą o Jego miłosierdzie, co jest postawą grzesznika przychodzącego do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o miłosierdzie, którego doświadczają celnicy i grzesznicy zaproszeni na ucztę z Jezusem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i obmycie z grzechów, co jest darem dla tych, których powołuje Chrystus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie i przebaczenie, które stało się udziałem celników i grzeszników zasiadających z Jezusem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą łaskę, która podnosi z grzechu i prowadzi drogami prawdy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to prośba o Boże błogosławieństwo i uwielbienie za Jego zbawcze dzieła, objawione w powołaniu grzeszników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która wpisuje się w charakter Wielkiego Postu i prosi o zmiłowanie, o którym Jezus mówi w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa, który nie przyszedł do sprawiedliwych, lecz do grzeszników.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, które są odpowiedzią na powołanie przez Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta jest wezwaniem do nawrócenia, które łączy się z uczynkami miłosierdzia, opisanymi w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże przebaczenie, które jest dostępne dla każdego grzesznika powołanego przez Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które jest darem dla tych, którzy jak Lewi odpowiadają na wezwanie Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy i prośbę o przebaczenie, które Jezus przynosi celnikom i grzesznikom.",
+      "moment": "ogolne"
+    }
+  ]
+}

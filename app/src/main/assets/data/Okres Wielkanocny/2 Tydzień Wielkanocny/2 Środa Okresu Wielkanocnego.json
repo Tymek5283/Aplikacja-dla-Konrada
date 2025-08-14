@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413122.Sroda-II-tygodnia-wielkanocnego",
+  "tytul_dnia": "2 Środa Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 5, 17-26",
+      "opis": "Cudowne uwolnienie apostołów",
+      "tekst": "Arcykapłan i wszyscy jego zwolennicy, należący do stronnictwa saduceuszów, pełni zawiści, zatrzymali apostołów i wtrącili ich do publicznego więzienia. Ale w nocy anioł Pański otworzył bramy więzienia i wyprowadziwszy ich, powiedział: «Idźcie i głoście w świątyni ludowi wszystkie słowa o tym życiu!» Usłuchawszy tego, weszli o świcie do świątyni i nauczali. Tymczasem arcykapłan i jego stronnicy zwołali Sanhedryn i całą starszyznę synów Izraela. Posłali do więzienia, aby ich przyprowadzono. Lecz kiedy słudzy przyszli, nie znaleźli ich w więzieniu. Powrócili więc i oznajmili: «Znaleźliśmy więzienie bardzo starannie zamknięte i strażników stojących przed drzwiami. Po otwarciu jednak nie znaleźliśmy wewnątrz nikogo». Kiedy dowódca straży świątynnej i arcykapłani usłyszeli te słowa, nie mogli pojąć, co się z tamtymi stało. Wtem nadszedł ktoś i oznajmił im: «Ci ludzie, których wtrąciliście do więzienia, znajdują się w świątyni i nauczają lud». Wtedy dowódca straży poszedł ze sługami i przyprowadził ich, ale bez użycia siły, bo obawiali się ludu, by ich samych nie ukamienował. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 4-5. 6-7. 8-9 (R.: por. 7a)",
+      "opis": "",
+      "tekst": "Refren: Biedak zawołał i Pan go wysłuchał.\n\nalbo: Alleluja.\nBędę błogosławił Pana po wieczne czasy, *\n\nJego chwała będzie zawsze na moich ustach.\n\nDusza moja chlubi się Panem, *\n\nniech słyszą to pokorni i niech się weselą.\nRefren.\nWysławiajcie razem ze mną Pana, *\n\nwspólnie wywyższajmy Jego imię.\n\nSzukałem pomocy u Pana, a On mnie wysłuchał *\n\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\n\noblicza wasze nie zapłoną wstydem.\n\nOto zawołał biedak i Pan go usłyszał, *\n\ni uwolnił od wszelkiego ucisku.\nRefren.\nAnioł Pański otacza szańcem bogobojnych, *\n\naby ich ocalić.\n\nSkosztujcie i zobaczcie, jak Pan jest dobry, *\n\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 3, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak Bóg umiłował świat, że dał swojego Syna Jednorodzonego;\n\nkażdy, kto w Niego wierzy, ma życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3, 16-21",
+      "opis": "Bóg posłał swego Syna, aby świat został zbawiony",
+      "tekst": "Jezus powiedział do Nikodema:\n\n«Tak Bóg umiłował świat, że Syna swego Jednorodzonego dał, aby każdy, kto w Niego wierzy, nie zginął, ale miał życie wieczne. Albowiem Bóg nie posłał swego Syna na świat po to, aby świat potępił, ale po to, by świat został przez Niego zbawiony. Kto wierzy w Niego, nie podlega potępieniu; a kto nie wierzy, już został potępiony, bo nie uwierzył w imię Jednorodzonego Syna Bożego. A sąd polega na tym, że światło przyszło na świat, lecz ludzie bardziej umiłowali ciemność aniżeli światło: bo złe były ich uczynki. Każdy bowiem, kto źle czyni, nienawidzi światła i nie zbliża się do światła, aby jego uczynki nie zostały ujawnione. Kto spełnia wymagania prawdy, zbliża się do światła, aby się okazało, że jego uczynki zostały dokonane w Bogu». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń ta głosi, że Pan żyje, co jest Dobrą Nowiną, którą apostołowie z odwagą głosili w świątyni po cudownym uwolnieniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo życia nad śmiercią, co jest owocem miłości Boga Ojca, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń ta głosi obecność Zmartwychwstałego Pana, którego anioł uwalnia apostołów, aby mogli odważnie nauczać.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Słowa o Baranku, który zbawił owce, nawiązują do Ewangelii o Synu posłanym przez Ojca dla zbawienia świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna, która sławi Chrystusa Zbawiciela, posłanego przez Ojca, aby świat został przez Niego zbawiony.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię jako dar miłości Boga, który posłał swego Syna, abyśmy mieli życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Nawiązuje do Ewangelii, podkreślając, że wiara w Syna, który daje siebie za pokarm, prowadzi do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest Światłością świata i pokarmem dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym zjednoczeniem z Jezusem, który jest Światłością przychodzącą na świat, aby nas zbawić.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Pieśń o zwycięstwie życia nad śmiercią jest wyrazem wiary, która prowadzi do zbawienia, o czym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Utwór ten jest hymnem chwały na cześć Zmartwychwstałego, którego moc uwalnia z więzów i ciemności grzechu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar zbawienia, ofiarowany światu przez Jezusa Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Utwór ten głosi zwycięstwo Chrystusa, które jest źródłem życia wiecznego dla wierzących i siłą dla apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by być świadkami Światłości w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostołowie, cudownie uwolnieni, kontynuują misję głoszenia Ewangelii, do której posłany jest cały Kościół.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to parafraza psalmu responsoryjnego, wzywająca do doświadczenia dobroci Pana, który ratuje z ucisku.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Pieśń mówi o przyjściu światła, co jest centralnym motywem Ewangelii: 'światło przyszło na świat'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "194",
+      "piesn": "Wstał Pan Chrystus",
+      "opis": "Klasyczna pieśń wielkanocna, która w prostych słowach wyraża fundamentalną prawdę o Zmartwychwstaniu, będącą dowodem miłości Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest Światłością świata i ratuje nas od wszelkiej trwogi.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426780.Sobota-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mi 2, 1-5",
+      "opis": "Zapowiedź kary Bożej za ucisk ludu",
+      "tekst": "Biada tym, którzy planują nieprawość i obmyślają zło na swych łożach! Gdy świta poranek, wykonują je, bo jest ono w ich rękach. Gdy pożądają pól, zagarniają je, gdy domów - to je zabierają; biorą w niewolę gospodarza wraz z jego domem, człowieka z jego dziedzictwem.\nPrzeto tak mówi Pan: «Oto Ja obmyślam dla tego plemienia niedolę, od której nie uchylicie karków i nie będziecie dumnie kroczyć, bo będzie to czas niedoli. W owym dniu wygłoszą przeciw wam satyrę, podniosą wielki lament, mówiąc: „Jesteśmy ograbieni do szczętu!” Odmierzono sznurem dział mojego ludu, i nikt mu go nie zwrócił; pola nasze przydzielono grabieżcy.\nPrzeto nie będzie u was nikogo, kto by odmierzał sznurem dział w zgromadzeniu Pańskim».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 10, 1-2. 3-4. 7-8. 14 (R.: por. 12b)",
+      "opis": "",
+      "tekst": "Refren: Nie zapominaj o ubogich, Panie.\nDlaczego z dala stoisz, o Panie, *\nukrywasz się w czasach ucisku,\ngdy występny się pyszni, biedny jest w udręce *\ni ulega podstępom, które tamten uknuł?\nRefren.\nBo chełpi się grzesznik swą pożądliwością, *\nbluźni drapieżca i pogardza Panem.\nPyszniąc się, mówi występny: †\n«Nie pomści, nie ma Boga». *\nOto całe jego myślenie.\nRefren.\nJego usta pełne przekleństwa, zdrady i podstępu, *\na pod jego językiem złość i krzywda.\nCzai się w zasadzkach przy drogach †\ni zabija niewinnego z ukrycia, *\noczy jego wypatrują biedaka.\nRefren.\nA Ty to widzisz: i trud, i cierpienie, *\npatrzysz, by wziąć je w swe ręce.\nTobie poleca się biedny, *\nTy jesteś opiekunem sieroty.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 14-21",
+      "opis": "Jezus cichy i pokornego serca",
+      "tekst": "Faryzeusze wyszli i odbyli naradę przeciw Jezusowi, w jaki sposób Go zgładzić.\nGdy się Jezus dowiedział o tym, oddalił się stamtąd. A wielu poszło za Nim i uzdrowił ich wszystkich. Lecz zabronił im surowo, żeby Go nie ujawniali. Tak miało się spełnić słowo proroka Izajasza:\n«Oto mój Sługa, którego wybrałem;\nUmiłowany mój, w którym moje serce ma upodobanie.\nPołożę ducha mojego na Nim, a On zapowie Prawo narodom.\nNie będzie się spierał ani krzyczał i nikt nie usłyszy na ulicach Jego głosu.\nTrzciny zgniecionej nie złamie ani knota tlejącego nie dogasi, aż zwycięsko sąd przeprowadzi.\nW Jego imieniu narody nadzieję pokładać będą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na grzechy ucisku i niesprawiedliwości opisane w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie proroka Micheasza do nawrócenia i porzucenia nieprawości jest głównym tematem tej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża decyzję o nawróceniu, do którego wzywa Bóg przez proroka, grożąc karą za nieprawość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Wobec grzechów pychy i nieprawości, ta pieśń jest prośbą o czyste serce, które miłe jest Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu Bożego sądu nad niesprawiedliwością, składamy Bogu ofiarę skruszonego serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które uznaje swoją winę i polega na Bożej dobroci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "291",
+      "piesn": "Najświętsze Serce Boże",
+      "opis": "Ewangelia ukazuje Jezusa jako cichego i pokornego Sługę, a ta pieśń jest aktem czci dla Jego Serca, które jest źródłem miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "287",
+      "piesn": "Jezu dobry i cichy",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do obrazu cichego i pokornego Sługi Pańskiego z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Adoracja Jezusa ukrytego w Hostii jest odpowiedzią na Jego cichą i pokorną obecność w świecie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalm, jest opiekunem sieroty i nie zapomina o ubogich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który widzi trud i cierpienie, i bierze je w swoje ręce.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za Bożą opiekę nad ubogimi i sierotami, o której zapewnia psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Postawa Sługi Pańskiego z Ewangelii jest wzorem miłości i miłosierdzia, do którego wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jezus, cichy Sługa, uczy nas miłości, która nie krzyczy i nie łamie zgniecionej trzciny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy na wzór Chrystusa mogli nieść światu sprawiedliwość i pokój.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec zagrożenia ze strony faryzeuszy, pieśń ta wyraża ufność w Bożą opiekę, której doświadczał Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń jest aktem zawierzenia Jezusowi, który jest nadzieją narodów i obrońcą uciśnionych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Psalmista poleca biednego opiece Pana, a ta pieśń jest wyrazem naszego zaufania do Niego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wobec knowań faryzeuszy, postawa Jezusa jest wzorem zaufania Bogu, a ta pieśń jest wyrazem naszego zawierzenia.",
+      "moment": "ogolne"
+    }
+  ]
+}

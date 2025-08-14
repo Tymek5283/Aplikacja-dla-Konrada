@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416208.Sroda-VIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "8 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 36, 1-2a. 5-6. 13-19",
+      "opis": "Modlitwa o nawrócenie wszystkich ludów",
+      "tekst": "Zmiłuj się nad nami, Władco, Boże wszechrzeczy, i spojrzyj, ześlij bojaźń przed Tobą na wszystkie narody.\nNiech Cię uznają, jak my uznaliśmy, że nie ma Boga prócz Ciebie, o Panie!\nOdnów znaki i powtórz cuda. Zgromadź wszystkie szczepy Jakuba i weź je w posiadanie, jak było od początku.\nPanie, zmiłuj się nad narodem, który jest nazwany Twoim imieniem, nad Izraelem, którego przyrównałeś do pierworodnego. Zlituj się nad Twoim świętym miastem, nad Jeruzalem, miejscem Twego odpoczynku! Napełnij Syjon wysławianiem Twej mocy i lud Twój chwałą swoją!\nDaj świadectwo tym, którzy od początku są Twoimi stworzeniami, i wypełnij proroctwa dane w Twym imieniu! Daj zapłatę tym, którzy oczekują Ciebie, i prorocy Twoi niech będą uznani za prawdomównych!\nWysłuchaj, Panie, prośby tych, co Cię błagają, zgodnie z błogosławieństwem Aaronowym dla Twego ludu. Niech wszyscy na ziemi poznają, że jesteś Panem i Bogiem wieków.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 79 (78), 8. 9. 11 i 13",
+      "opis": "",
+      "tekst": "Refren: Okaż nam, Panie, miłosierdzie swoje.\nCzy wiecznie będziesz się gniewał? *\nNie pamiętaj nam win przodków naszych,\nniech szybko nas spotka Twoje zmiłowanie, *\ngdyż bardzo jesteśmy słabi.\nRefren.\nWspomóż nas, Boże, nasz Zbawco, *\ndla chwały Twojego imienia;\nWyzwól nas i odpuść nam grzechy *\nprzez wzgląd na swoje imię.\nRefren.\nNiech jęk pojmanych dojdzie do Ciebie *\ni mocą Twego ramienia ocal na śmierć skazanych.\nMy zaś, lud Twój i owce Twojej trzody, †\nbędziemy wielbić Ciebie na wieki *\ni przez pokolenia głosić Twoją chwałę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 32-45",
+      "opis": "Zapowiedź męki",
+      "tekst": "Uczniowie byli w drodze, zdążając do Jerozolimy. Jezus wyprzedzał ich, tak że się dziwili; ci zaś, którzy szli za Nim, byli strwożeni. Wziął znowu Dwunastu i zaczął mówić im o tym, co miało Go spotkać: «Oto idziemy do Jerozolimy. A tam Syn Człowieczy zostanie wydany arcykapłanom i uczonym w Piśmie. Oni skażą Go na śmierć i wydadzą poganom. I będą z Niego szydzić, oplują Go, ubiczują i zabiją, a po trzech dniach zmartwychwstanie».\nWtedy podeszli do Niego synowie Zebedeusza, Jakub i Jan, i rzekli: «Nauczycielu, pragniemy, żebyś nam uczynił to, o co Cię poprosimy».\nOn ich zapytał: «Co chcecie, żebym wam uczynił?»\nRzekli Mu: «Daj nam, żebyśmy w Twojej chwale siedzieli jeden po prawej, a drugi po lewej Twej stronie».\nJezus im odparł: «Nie wiecie, o co prosicie. Czy możecie pić kielich, który Ja mam pić, albo przyjąć chrzest, którym Ja mam być ochrzczony?»\nOdpowiedzieli Mu: «Możemy».\nLecz Jezus rzekł do nich: «Kielich, który Ja mam pić, wprawdzie pić będziecie; i chrzest, który Ja mam przyjąć, wy również przyjmiecie. Nie do Mnie jednak należy dać miejsce po mojej stronie prawej lub lewej, ale dostanie się ono tym, dla których zostało przygotowane».\nGdy usłyszało to dziesięciu pozostałych, poczęli oburzać się na Jakuba i Jana. A Jezus przywołał ich do siebie i rzekł do nich:\n«Wiecie, że ci, którzy uchodzą za władców narodów, uciskają je, a ich wielcy dają im odczuć swą władzę. Nie tak będzie między wami. Lecz kto by między wami chciał się stać wielkim, niech będzie sługą waszym. A kto by chciał być pierwszym między wami, niech będzie  niewolnikiem wszystkich. Bo i Syn Człowieczy nie przyszedł, aby Mu służono, lecz żeby służyć i dać swoje życie jako okup za wielu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń ta jest echem modlitwy z pierwszego czytania i psalmu o Boże miłosierdzie dla swojego ludu i wszystkich narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń błagalna, która dobrze oddaje ducha prośby o zmiłowanie, obecnej w psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc i miłosierdzie, o które prosi psalmista w imieniu uciśnionego ludu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do zapowiedzi męki w Ewangelii i ofiary Chrystusa, która jest okupem za wielu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc o udział w kielichu Chrystusa i Jego chrzcie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Pieśń eucharystyczna, która łączy w sobie adorację z prośbą o błogosławieństwo i ratunek w utrapieniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to medytacja nad Męką Pańską, która jest drogą do chwały, o którą prosili synowie Zebedeusza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń eucharystyczna, w której prosimy o litość i zmiłowanie mocą Ciała i Krwi Pańskiej, ofiarowanych za nas.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z ofiarą Chrystusa, o której On sam zapowiada w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn uwielbienia za zbawczą moc Boga, o którą prosi pierwsze czytanie, a która w pełni objawiła się w ofierze Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar zbawienia, który jest owocem służby i ofiary Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, o które prosi psalmista i które objawia się w ofierze Syna Człowieczego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to modlitwa o jedność w służbie, która jest prawdziwą drogą do wielkości w Królestwie Bożym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud służby i naśladowania Chrystusa w Jego uniżeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o Chrystusie Słudze, który dał życie jako okup za wielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy służby i pokory, której uczy Jezus jako drogi do prawdziwego błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest wołaniem o miłosierdzie, o które prosi pierwsze czytanie i psalm.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i miłosierdzie w obliczu zapowiedzi męki Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i służba, o których mówi ta pieśń, są istotą nauki Jezusa o wielkości w Jego królestwie.",
+      "moment": "ogolne"
+    }
+  ]
+}

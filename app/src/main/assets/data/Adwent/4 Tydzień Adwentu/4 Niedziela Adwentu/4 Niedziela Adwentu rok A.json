@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń opowiada o zwiastowaniu Maryi, które poprzedziło wydarzenia opisane w Ewangelii, a które razem tworzą tajemnicę Wcielenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "411",
       "piesn": "Józefie, święty patronie",
       "opis": "Ewangelia ukazuje postać św. Józefa i jego posłuszeństwo woli Bożej, a w tej pieśni prosimy go o wstawiennictwo i opiekę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "414",
+      "piesn": "Szczęśliwy, kto sobie patrona",
+      "opis": "W kontekście Ewangelii o św. Józefie, ta pieśń jest wyrazem ufności w jego potężną opiekę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "409",
+      "piesn": "Duszo moja",
+      "opis": "Pieśń sławi św. Józefa jako wybranego opiekuna Jezusa, co jest centralnym tematem Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "12",
-      "piesn": "Archanioł Boży Gabryjel",
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia, która poprzez swoje 'tak' stała się Matką Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń jest rozwinięciem pozdrowienia anielskiego i sławi Tę, która poczęła z Ducha Świętego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
       "opis": "Chociaż Ewangelia skupia się na Józefie, ta pieśń przypomina o Zwiastowaniu Maryi, które poprzedziło wydarzenia opisane w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który przychodzi, by być 'Bogiem z nami'.",
       "moment": "uwielbienie"
     },
     {
       "numer": "17",
       "piesn": "Grzechem Adama ludzie uwikłani",
       "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą ostatniej niedzieli Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, którego narodzenie jest już tak bliskie.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "27",
       "piesn": "Spuśćcie nam na ziemskie niwy",
       "opis": "Klasyczna pieśń adwentowa, która w kontekście dzisiejszych czytań ukazuje spełnienie się odwiecznych próśb o Zbawiciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście jest już bliskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
       "moment": "ogolne"
     }
   ]

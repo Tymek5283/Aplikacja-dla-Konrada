@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415579.Poniedzialek-V-tydzien-zwykly-rok-I",
+  "tytul_dnia": "5 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 1, 1-19",
+      "opis": "Stworzenie świata",
+      "tekst": "Na początku Bóg stworzył niebo i ziemię. Ziemia zaś była bezładem i pustkowiem: ciemność była nad powierzchnią bezmiaru wód, a Duch Boży unosił się nad wodami. Wtedy Bóg rzekł: «Niechaj się stanie światłość!» I stała się światłość. Bóg, widząc, że światłość jest dobra, oddzielił ją od ciemności. I nazwał Bóg światłość dniem, a ciemność nazwał nocą.\nI tak upłynął wieczór i poranek - dzień pierwszy.\nA potem Bóg rzekł: «Niechaj powstanie sklepienie w środku wód i niechaj oddzieli ono jedne wody od drugich!» Uczyniwszy to sklepienie, Bóg oddzielił wody pod sklepieniem od wód ponad sklepieniem; a gdy tak się stało, Bóg nazwał to sklepienie niebem.\nI tak upłynął wieczór i poranek - dzień drugi.\nA potem Bóg rzekł: «Niechaj zbiorą się wody spod nieba w jedno miejsce i niech się ukaże powierzchnia sucha!» A gdy tak się stało, Bóg nazwał tę suchą powierzchnię ziemią, a zbiorowisko wód nazwał morzem. Bóg, widząc, że były dobre, rzekł: «Niechaj ziemia wyda rośliny zielone: trawy dające nasiona, drzewa owocowe rodzące na ziemi według swego gatunku owoce, w których są nasiona». I tak się stało. Ziemia wydała rośliny zielone: trawę dającą nasienie według swego gatunku i drzewa rodzące owoce, w których było nasienie według ich gatunków. A Bóg widział, że były dobre.\nI tak upłynął wieczór i poranek - dzień trzeci.\nA potem Bóg rzekł: «Niechaj powstaną ciała niebieskie, świecące na sklepieniu nieba, aby oddzielały dzień od nocy, aby wyznaczały pory roku, dni i lata; aby były ciałami jaśniejącymi na sklepieniu nieba i aby świeciły nad ziemią». I tak się stało. Bóg uczynił dwa duże ciała jaśniejące: większe, aby rządziło dniem, i mniejsze, aby rządziło nocą, oraz gwiazdy. I umieścił je Bóg na sklepieniu nieba, aby świeciły nad ziemią; aby rządziły dniem i nocą i oddzielały światłość od ciemności. A widział Bóg, że były dobre.\nI tak upłynął wieczór i poranek - dzień czwarty.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 104 (103), 1-2a. 5-6. 10 i 12. 24 i 35c (R.: por. 31b)",
+      "opis": "",
+      "tekst": "Refren: Radością Pana dzieła, które stworzył.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\nRefren.\nUmocniłeś fundamenty ziemi, *\nnie zachwieje się na wieki wieków.\nJak szatą okryłeś ją Wielką Głębią, *\nponad górami stanęły wody.\nRefren.\nTy zdroje kierujesz do strumieni, *\nktóre pośród gór się sączą.\nNad nimi mieszka ptactwo niebieskie *\ni śpiewa pośród gałęzi.\nRefren\nJak liczne są dzieła Twoje, Panie! *\nTy wszystko mądrze uczyniłeś,\nziemia jest pełna Twoich stworzeń. *\nBłogosław, duszo moja, Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 53-56",
+      "opis": "Jezus uzdrawia chorych",
+      "tekst": "Gdy Jezus i uczniowie Jego się przeprawili, przypłynęli do ziemi Genezaret i przybili do brzegu. Skoro wysiedli z łodzi, zaraz Go rozpoznano. Ludzie biegali po całej owej okolicy i zaczęli znosić na noszach chorych tam, gdzie jak słyszeli, przebywa. I gdziekolwiek wchodził do wsi, do miast czy osad, kładli chorych na otwartych miejscach i prosili Go, żeby ci choć frędzli u Jego płaszcza mogli dotknąć. A wszyscy, którzy się Go dotknęli, odzyskiwali zdrowie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest hymnem na cześć Stwórcy, o którym opowiada pierwsze czytanie z Księgi Rodzaju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to klasyczna pieśń chwały na cześć Boga Stworzyciela, którego dzieła podziwiamy w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do uwielbienia Boga Stwórcy, którego dzieła są 'bardzo dobre'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Wyraża ofiarowanie Bogu darów, które są owocem Jego stwórczej mocy, opisanej w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarowujemy Bogu owoce ziemi, którą stworzył i którą nam dał.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosimy Boga Stwórcę o przyjęcie darów, które dzięki Niemu możemy składać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, której doświadczali ludzie w ziemi Genezaret.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który jest źródłem uzdrowienia i życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który przychodzi z mocą uzdrawiania, jak w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Boże dzieła stworzenia i uzdrowienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to hymn dziękczynny za dzieło stworzenia, które jest głównym tematem pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która wyraża radość z Bożych dzieł, zarówno stworzenia, jak i uzdrowienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do Jezusa, który jest źródłem uzdrowienia i pociechy, jak w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby czynić sobie ziemię poddaną, prosząc o Boże błogosławieństwo w tej pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest modlitwą o jedność ludzkości, stworzonej przez jednego Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, zarówno te w dziele stworzenia, jak i w uzdrawianiu chorych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje postawę ludzi, którzy z wiarą znosili chorych do Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która czuwa nad całym stworzeniem, od początku świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń ta jest wyrazem zaufania do wszechmocnego Pana, Stwórcy i Uzdrowiciela.",
+      "moment": "ogolne"
+    }
+  ]
+}

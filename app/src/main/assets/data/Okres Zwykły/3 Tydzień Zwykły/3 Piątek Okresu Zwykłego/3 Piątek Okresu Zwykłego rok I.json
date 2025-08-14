@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415483.Piatek-III-tydzien-zwykly-rok-I",
+  "tytul_dnia": "3 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 10, 32-39",
+      "opis": "Wiara podtrzymuje wytrwałość",
+      "tekst": "Bracia:\nPrzypomnijcie sobie dawniejsze dni, kiedy to po oświeceniu wytrzymaliście wielkie zmaganie, to jest udręki, już to wystawieni publicznie na szyderstwa i prześladowania, już to stawszy się towarzyszami tych, którzy to przeżywali. Albowiem współcierpieliście z uwięzionymi, z radością przyjęliście rabunek waszego mienia, wiedząc, że sami posiadacie majątek lepszy i trwały. Nie wyzbywajcie się więc waszej ufności, która znajduje wielką odpłatę. Potrzebujecie bowiem wytrwałości, abyście po wypełnieniu woli Bożej dostąpili spełnienia obietnicy. «Jeszcze bowiem krótka, bardzo krótka chwila, i przyjdzie Ten, który ma nadejść, i nie spóźni się. A mój sprawiedliwy dzięki wierze żyć będzie, jeśli się cofnie, nie znajdzie dusza moja w nim upodobania».\nMy zaś nie należymy do odstępców, którzy idą na zatracenie, ale do wiernych, którzy zbawiają duszę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 37 (36), 3-4. 5-6. 23-24. 39-40 (R.: por. 39a)",
+      "opis": "",
+      "tekst": "Refren: Zbawienie prawych pochodzi od Pana.\nMiej ufność w Panu i czyń to, co dobre, *\na będziesz mieszkał na ziemi i żył bezpiecznie.\nRaduj się w Panu, *\na On spełni pragnienia twego serca.\nRefren.\nPowierz Panu swą drogę, *\nzaufaj Mu, a On sam będzie działał.\nOn sprawi, że twa sprawiedliwość zabłyśnie jak światło, *\na prawość twoja jak blask południa.\nRefren.\nPan umacnia kroki człowieka *\nna drodze, która jest miła dla niego.\nA choćby upadł, nie będzie leżał, *\nbo jego rękę Pan podtrzyma.\nRefren.\nZbawienie sprawiedliwych pochodzi od Pana, *\nOn ich ucieczką w czasie utrapienia.\nPan ich wspomaga i wyzwala, †\nwyzwala od występnych i zachowuje, *\nOn bowiem jest ich ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 26-34",
+      "opis": "Rozwój królestwa Bożego",
+      "tekst": "Jezus mówił do tłumów:\n«Z królestwem Bożym dzieje się tak, jak gdyby ktoś nasienie wrzucił w ziemię. Czy śpi, czy czuwa, we dnie i wocy, nasienie kiełkuje i rośnie, sam nie wie jak. Ziemia sama z siebie wydaje plon, najpierw źdźbło, potem kłos, a potem pełne ziarno w kłosie. Gdy zaś plon dojrzeje, zaraz zapuszcza sierp, bo pora już na żniwo».\nMówił jeszcze: «Z czym porównamy królestwo Boże lub w jakiej przypowieści je przedstawimy? Jest ono jak ziarnko gorczycy; gdy się je wsiewa w ziemię, jest najmniejsze ze wszystkich nasion na ziemi. Lecz wsiane, wyrasta i staje się większe od innych jarzyn; wypuszcza wielkie gałęzie, tak że ptaki podniebne gnieżdżą się w jego cieniu».\nW wielu takich przypowieściach głosił im naukę, o ile mogli ją rozumieć. A bez przypowieści nie przemawiał do nich. Osobno zaś objaśniał wszystko swoim uczniom.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta nawiązuje do przypowieści o królestwie Bożym, które wzrasta jak zasiane ziarno.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Mówi o zaufaniu Bogu, który jest ucieczką w czasie utrapienia, jak podkreśla to psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest źródłem wytrwałości i nadziei wbrew przeciwnościom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu owoców pracy, które są owocem wzrostu danego przez Boga, jak w przypowieści o ziarnie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud wytrwałości w wierze, do której wzywa List do Hebrajczyków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, ufając, że On da wzrost zasianemu ziarnu wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która jest podstawą wytrwałości w trudach, o której mówi List do Hebrajczyków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem, który umacnia naszą wytrwałość i wiarę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która jest źródłem naszej nadziei i wytrwałości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i zbawienie, które, jak mówi psalm, pochodzi od Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i wyzwolenie, o których zapewnia psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wiary i nadzieję na spełnienie obietnic, o których mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która jest niezbędna do wytrwania i zbawienia duszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wytrwałość w wierze jest podążaniem za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest wezwaniem do siania ziarna królestwa Bożego, o którym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Mu ufają, co jest głównym motywem psalmu i pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego królestwo wzrasta w tajemniczy sposób, jak ziarno w ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszą nadzieją i dla którego warto wytrwać w trudnościach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które jest jak ziarno, trwało w nas i przynosiło plon.",
+      "moment": "ogolne"
+    }
+  ]
+}

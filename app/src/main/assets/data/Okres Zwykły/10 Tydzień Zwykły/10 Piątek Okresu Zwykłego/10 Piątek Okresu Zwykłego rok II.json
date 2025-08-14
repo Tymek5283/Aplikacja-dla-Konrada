@@ -1,0 +1,135 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417004.Piatek-X-tydzien-zwykly-rok-II",
+  "tytul_dnia": "10 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 19, 9a. 11-16",
+      "opis": "Bóg objawia się Eliaszowi",
+      "tekst": "Gdy Eliasz przyszedł do Bożej góry Horeb, wszedł do pewnej groty, gdzie przenocował. Wtedy Bóg rzekł: «Wyjdź, aby stanąć na górze wobec Pana!»\nA oto Pan przechodził. Gwałtowna wichura rozwalająca góry i druzgocąca skały szła przed Panem; ale Pana nie było w wichurze. A po wichurze - trzęsienie ziemi: Pana nie było w trzęsieniu ziemi. Po trzęsieniu ziemi powstał ogień: Pana nie było w ogniu. A po tym ogniu - szmer łagodnego powiewu.\nKiedy tylko Eliasz go usłyszał, zasłoniwszy twarz płaszczem, wyszedł i stanął przy wejściu do groty. A wtedy rozległ się głos mówiący do niego: «Co ty tu robisz, Eliaszu?»\nEliasz odpowiedział: «Żarliwością zapłonąłem o Pana, Boga Zastępów, gdyż Izraelici opuścili Twoje przymierze, rozwalili Twoje ołtarze, a Twoich proroków zabili mieczem. Tak że ja sam tylko zostałem, a oni godzą jeszcze i na moje życie».\nWtedy Pan rzekł do niego: «Idź, wracaj swoją drogą ku pustyni Damaszku. A kiedy tam przybędziesz, namaścisz Chazaela na króla Aramu. Później namaścisz Jehu, syna Nimsziego, na króla Izraela. A wreszcie Elizeusza, syna Szafata z Abel-Mechola, namaścisz na proroka po tobie».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 7-8a. 8b-9c. 13-14 (R.: por. 8b)",
+      "opis": "",
+      "tekst": "Refren: Szukam, o Panie, Twojego oblicza.\nUsłysz, Panie, kiedy głośno wołam, *\nzmiłuj się nade mną i mnie wysłuchaj.\nO Tobie mówi serce moje: *\n«Szukaj Jego oblicza!»\nRefren.\nBędę szukał oblicza Twego, Panie. *\nNie zakrywaj przede mną swojej twarzy,\nnie odtrącaj w gniewie Twego sługi. *\nTy jesteś moją pomocą, więc mnie nie odrzucaj.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Flp 2, 15d. 16a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jawicie się jako źródło światła w świecie,\ntrzymając się mocno Słowa Życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 27-32",
+      "opis": "Wymagania nowego Prawa w dziedzinie czystości",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano: „Nie cudzołóż”. A Ja wam powiadam: Każdy, kto pożądliwie patrzy na kobietę, już się w swoim sercu dopuścił z nią cudzołóstwa.\nJeśli więc prawe twoje oko jest ci powodem do grzechu, wyłup je i odrzuć od siebie. Lepiej bowiem jest dla ciebie, gdy zginie jeden z twoich członków, niż żeby całe twoje ciało miało być wrzucone do piekła. I jeśli prawa twoja ręka jest ci powodem do grzechu, odetnij ją i odrzuć od siebie. Lepiej bowiem jest dla ciebie, gdy zginie jeden z twoich członków, niż żeby całe twoje ciało miało iść do piekła.\nPowiedziano też: „Jeśli ktoś chce oddalić swoją żonę, niech jej da list rozwodowy”. A Ja wam powiadam: Każdy, kto oddala swoją żonę - poza wypadkiem nierządu - naraża ją na cudzołóstwo; a kto by oddaloną wziął za żonę, dopuszcza się cudzołóstwa».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest echem wołania psalmisty: 'Szukam, o Panie, Twojego oblicza', wyrażając tęsknotę za Bogiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to modlitwa duszy, która w trudnościach i osamotnieniu, podobnie jak Eliasz, szuka oblicza Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża głębokie pragnienie Boga i szukanie Go, co jest głównym tematem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Ewangelia wzywa do radykalnej walki z grzechem; ta pieśń jest prośbą o czyste serce, które możemy ofiarować Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Ofiarujemy Bogu skruszone serce, prosząc o siłę do odrzucenia grzechu, do czego wzywa nas Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W tej pieśni ofiarujemy Bogu naszą wolę zachowania czystości serca i wierności Jego przykazaniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "236",
+      "piesn": "Chwała i dziękczynienie",
+      "opis": "Wyraża postawę pokory wobec Boga, który objawia się w 'szmerze łagodnego powiewu', a nie w potędze żywiołów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjmując Eucharystię, zbliżamy się do Boga, który przychodzi w cichości i pokorze, jak w spotkaniu z Eliaszem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "W Komunii Świętej spotykamy Pana, który przychodzi, by nas umocnić w walce z grzechem i w dążeniu do czystości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który jest pomocą i ocaleniem, o czym z nadzieją mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu, że jest naszą pomocą i nie odtrąca nas, gdy Go szukamy, jak obiecuje psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na doświadczenie Bożej obecności i wezwanie do wierności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Radykalne wymagania Ewangelii dotyczące czystości i wierności są możliwe do spełnienia tylko w mocy przykazania miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Bóg posyła Eliasza z nową misją; my również jesteśmy posłani, by głosić Ewangelię czystości i wierności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy mogli żyć zgodnie z wymaganiami Ewangelii i być światłem dla świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Nawiązuje do aklamacji, która wzywa nas, byśmy byli źródłem światła w świecie, trzymając się Słowa Życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prosimy o umocnienie wiary, abyśmy mogli z odwagą, jak Eliasz, pełnić Bożą wolę i żyć według Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

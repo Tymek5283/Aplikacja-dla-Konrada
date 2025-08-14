@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426784.Wtorek-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 7, 1-9",
+      "opis": "Bóg obroni Jerozolimę przed nieprzyjaciółmi",
+      "tekst": "Za czasów Achaza, syna Jotama, syna Ozjasza, króla Judy, wyruszył Resin, król Aramu, z Pekachem, synem Remaliasza, królem Izraela, przeciw Jerozolimie, aby z nią toczyć wojnę, ale nie mógł jej zdobyć. I przyniesiono tę wiadomość do domu Dawida: «Aram stanął obozem w Efraimie!» Wówczas zadrżało serce króla i serce ludu jego, jak drżą od wichru drzewa w lesie.\nPan zaś rzekł do Izajasza: «Wyjdź naprzeciw Achaza, ty i twój syn, Szear-Jaszub, na koniec kanału Górnej Sadzawki, na drogę Pola Folusznika, i powiedz do niego: Uważaj, bądź spokojny, nie bój się! Niech twoje serce nie słabnie z powodu tych dwóch oto niedopałków dymiących głowni, z powodu zaciekłości Resina, Aramejczyków i syna Remaliasza: dlatego że Aramejczycy, Efraim i syn Remaliasza postanowili twą zgubę, mówiąc: Wtargnijmy do Judei, przeraźmy ją i podbijmy dla siebie, a królem nad nią ustanowimy syna Tabeela!\nTak mówi Pan Bóg: Nic z tego - tak się nie stanie! Bo stolicą Aramu jest Damaszek, a głową Damaszku Resin; i stolicą Efraima jest Samaria, a głową Samarii syn Remaliasza; ale jeszcze sześćdziesiąt pięć lat, a Efraim zdruzgotany przestanie być narodem. Jeżeli nie uwierzycie, nie ostoicie się».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 48 (47), 2-3b. 3c-4. 5-6. 7-8 (R.: por. 9d)",
+      "opis": "",
+      "tekst": "Refren: Bóg swoje miasto umacnia na wieki.\nWielki jest Pan i godzien wielkiej chwały *\nw mieście Boga naszego.\nŚwięta Jego góra, wspaniałe wzniesienie, *\nradością jest całej ziemi.\nRefren.\nGóra Syjon, kres północy, *\njest miastem wielkiego Króla.\nBóg w zamkach swoich *\nokazał się obroną.\nRefren.\nOto połączyli się królowie *\ni wspólnie natarli.\nZaledwie ujrzeli, zdrętwieli, *\nzmieszali się i uciekli.\nRefren.\nChwyciło ich drżenie *\njak ból rodzącą kobietę,\njak wiatr ze wschodu, *\nktóry okręty z Tarszisz druzgocze.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 20-24",
+      "opis": "Jezus gromi oporne miasta",
+      "tekst": "Jezus począł czynić wyrzuty miastom, w których dokonało się najwięcej Jego cudów, że się nie nawróciły.\n«Biada tobie, Korozain! Biada tobie, Betsaido! Bo gdyby w Tyrze i Sydonie działy się cuda, które u was się dokonały, już dawno w worze i w popiele by się nawróciły. Toteż powiadam wam: Tyrowi i Sydonowi lżej będzie w dzień sądu niż wam.\nA ty, Kafarnaum, czy aż do nieba masz być wyniesione? Aż do Otchłani zejdziesz. Bo gdyby w Sodomie działy się cuda, które się w tobie dokonały, przetrwałaby aż do dnia dzisiejszego. Toteż powiadam wam: Ziemi sodomskiej lżej będzie w dzień sądu niż tobie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na lęk króla Achaza i jego ludu, którym prorok Izajasz przekazuje słowa otuchy od Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Historia króla Achaza jest przykładem braku zaufania Bożej Opatrzności, a ta pieśń jest wyrazem naszej wiary w nią.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który jest obroną dla swojego ludu, jak obiecuje przez proroka Izajasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec groźby sądu nad miastami, o której mówi Jezus, ta pieśń jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o miłosierdzie jest odpowiedzią na wezwanie Jezusa do nawrócenia, skierowane do opornych miast.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu sądu Bożego, o którym mówi Ewangelia, przyjmujemy postawę pokory i błagania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń wyraża postawę pokory i uznania własnej grzeszności, która jest warunkiem nawrócenia, do którego wzywa Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory wyrażona w tej pieśni kontrastuje z pychą miast, które nie przyjęły Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjmujemy Jezusa w Komunii z wiarą, której zabrakło mieszkańcom Korozain i Betsaidy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny sławi Boga, który jest obroną swojego miasta, a ta pieśń jest wezwaniem do uwielbienia Go za Jego moc.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże ocalenie, obiecane przez proroka Izajasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego łaskę i wierność, która ocala nas mimo naszych grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na wezwanie Jezusa do nawrócenia i odrzucenia zatwardziałości serca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Na zakończenie liturgii, wezwanie do nawrócenia jest przypomnieniem o konieczności odpowiedzi na Boże cuda.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka suplikacja jest prośbą o miłosierdzie, aby nie spotkał nas los opornych miast z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec odrzucenia cudów Jezusa przez miasta galilejskie, pieśń ta jest aktem wiary i wyboru Boga.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Hymn ten jest wyrazem czci dla Boga, który jest obroną dla swojego ludu i wzywa nas do nawrócenia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec groźby sądu, pieśń ta jest wyrazem zaufania w Boże miłosierdzie i przebaczenie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa jest przeciwieństwem postawy miast, które nie uwierzyły Jego cudom.",
+      "moment": "ogólne"
+    }
+  ]
+}

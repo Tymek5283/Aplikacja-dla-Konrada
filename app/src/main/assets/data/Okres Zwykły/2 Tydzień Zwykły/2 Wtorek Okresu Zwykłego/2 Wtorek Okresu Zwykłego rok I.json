@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411017.Wtorek-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 6, 10-20",
+      "opis": "Motywy naszej nadziei",
+      "tekst": "Bracia:\n\nNie jest Bóg niesprawiedliwy, aby zapomniał o czynie waszym i miłości, którą okazaliście dla imienia Jego, gdy usługiwaliście świętym i jeszcze usługujecie. Pragniemy zaś, by każdy z was okazywał tę samą gorliwość w doskonaleniu nadziei aż do końca, abyście nie stali się ospałymi, ale naśladowali tych, którzy przez wiarę i cierpliwość stają się dziedzicami obietnic. Albowiem gdy Bóg Abrahamowi uczynił obietnicę, nie mając nikogo większego, na kogo mógłby przysiąc, poprzysiągł na samego siebie, mówiąc: «Zaiste, hojnie cię pobłogosławię i ponad miarę rozmnożę». A ponieważ Abraham tak cierpliwie oczekiwał, otrzymał to, co było obiecane. Ludzie przysięgają na kogoś wyższego, a przysięga dla stwierdzenia prawdy jest zakończeniem każdego sporu między nimi. Dlatego Bóg, pragnąc okazać dziedzicom obietnicy ponad wszelką miarę niezmienność swego postanowienia, wzmocnił je przysięgą, abyśmy przez dwie rzeczy niezmienne, co do których niemożliwe jest, by skłamał Bóg, mieli trwałą pociechę, my, którzy uciekliśmy się do uchwycenia zaofiarowanej nadziei. Trzymajmy się jej jak bezpiecznej i silnej dla duszy kotwicy, która przenika poza zasłonę, gdzie Jezus jako poprzednik wszedł za nas, stawszy się arcykapłanem na wieki na wzór Melchizedeka. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 1b-2. 4-5. 9 i 10c (R.: 5b)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\n\nalbo: Alleluja.\nZ całego serca będę chwalił Pana *\n\nw radzie sprawiedliwych i na zgromadzeniu.\n\nWielkie są dzieła Pana, *\n\nzgłębiać je mają wszyscy, którzy je miłują.\nRefren.\nSprawił, że trwa pamięć Jego cudów, *\n\nPan jest miłosierny i łaskawy.\n\nDał pokarm bogobojnym, *\n\npamiętać będzie wiecznie o swoim przymierzu.\nRefren.\nZesłał odkupienie swojemu ludowi, *\n\nna wieki ustanowił swoje przymierze,\n\nimię Jego jest święte i wzbudza trwogę, *\n\na Jego sprawiedliwość będzie trwać na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\n\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 23-28",
+      "opis": "Szabat został ustanowiony dla człowieka, a nie człowiek dla szabatu",
+      "tekst": "Pewnego razu, gdy Jezus przechodził w szabat pośród zbóż, uczniowie Jego zaczęli po drodze zrywać kłosy. Na to faryzeusze mówili do Niego: «Patrz, czemu oni czynią w szabat to, czego nie wolno?» On im odpowiedział: «Czy nigdy nie czytaliście, co uczynił Dawid, kiedy znalazł się w potrzebie i poczuł głód, on i jego towarzysze? Jak wszedł do domu Bożego za Abiatara, najwyższego kapłana, i jadł chleby pokładne, które tylko kapłanom jeść wolno; i dał również swoim towarzyszom». I dodał: «To szabat został ustanowiony dla człowieka, a nie człowiek dla szabatu. Zatem Syn Człowieczy jest Panem także szabatu». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do oddania czci Bogu, który jest Panem szabatu i dawcą wiecznego przymierza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to pieśń chwały, która dobrze koresponduje z psalmem wysławiającym wielkie dzieła i wierność Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Króla, który jest Panem szabatu i wiernym w swoich obietnicach, jak czytamy w Liście do Hebrajczyków.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Nawiązuje do chlebów pokładnych z Ewangelii, a także do pokarmu, który Bóg daje bogobojnym, jak mówi psalm.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, podkreślająca ofiarny wymiar Mszy Świętej, w której Chrystus daje nam siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Klasyczna pieśń na ofiarowanie, która w prosty sposób wyraża istotę składania darów chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Pana szabatu, w którym mamy bezpieczną kotwicę nadziei, jak uczy List do Hebrajczyków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Nawiązuje do chlebów pokładnych z Ewangelii i ukazuje Eucharystię jako pokarm umacniający naszą nadzieję.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Pan szabatu, objawia się jako prawdziwy Chleb życia, który zaspokaja głód ludzkiego serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga za Jego wierność przymierzu i za dar nadziei.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest osobistym dziękczynieniem za wierność Boga, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to prosta pieśń dziękczynna za dar Chrystusa i Nowego Przymierza, które daje nam pewną nadzieję.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta wyraża przylgnięcie do Chrystusa, który jest Panem i prowadzi nas do wiecznego odpoczynku.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest to modlitwa o stałą obecność Pana w naszym życiu, abyśmy mocni nadzieją mogli iść przez świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa i posyła nas, byśmy byli świadkami Jego panowania nad wszelkim prawem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Mówi o zaufaniu Bogu, które jest podstawą nadziei, o której mowa w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą opiekę, która jest źródłem nadziei i cierpliwości w oczekiwaniu na spełnienie obietnic.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Tytuł i treść pieśni bezpośrednio nawiązują do pierwszego czytania, które mówi o nadziei jako bezpiecznej kotwicy duszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń podkreśla, że Bogu miłe jest wdzięczne serce, a nie tylko literalne przestrzeganie przepisów, co jest myślą przewodnią Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

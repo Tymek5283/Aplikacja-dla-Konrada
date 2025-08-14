@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416111.Sroda-VI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "6 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 8, 6-13. 20-22",
+      "opis": "Koniec potopu i wyjście z arki",
+      "tekst": "Po czterdziestu dniach Noe, otworzywszy okno arki, które przedtem uczynił, wypuścił kruka; ale ten wylatywał i zaraz wracał, dopóki nie wyschła woda na ziemi.\nPotem wypuścił z arki gołębicę, aby się przekonać, czy ustąpiły wody z powierzchni ziemi. Gołębica, nie znalazłszy miejsca, gdzie by mogła usiąść, wróciła do arki, bo jeszcze była woda na całej powierzchni ziemi; Noe, wyciągnąwszy rękę, schwytał ją i zabrał do arki.\nPrzeczekawszy zaś jeszcze siedem dni, znów wypuścił z arki gołębicę i ta wróciła do niego pod wieczór, niosąc w dziobie świeży listek z drzewa oliwnego. Poznał więc Noe, że woda na ziemi opadła. I czekał jeszcze siedem dni, po czym wypuścił znów gołębicę, ale ona już nie powróciła do niego.\nW sześćset pierwszym roku, w miesiącu pierwszym, w pierwszym dniu miesiąca wody wyschły na ziemi, i Noe, zdjąwszy dach arki, zobaczył, że powierzchnia ziemi jest już prawie sucha.\nNoe zbudował ołtarz dla Pana i wziąwszy ze wszystkich zwierząt czystych i z ptaków czystych, złożył je w ofierze całopalnej na tym ołtarzu. Gdy Pan poczuł miłą woń, rzekł do siebie: «Nie będę już więcej złorzeczył ziemi ze względu na ludzi, bo usposobienie człowieka jest złe już od młodości.\nPrzeto już nigdy nie zgładzę wszystkiego, co żyje, jak to uczyniłem. Będą zatem istniały, jak długo trwać będzie ziemia: siew i żniwo, mróz i upał, lato i zima, dzień i noc».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 12-13. 14-15. 18-19 (R.: por. 17a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Złożę Ci, Boże, ofiarę pochwalną.\nCzym się Panu odpłacę *\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia *\ni wezwę imienia Pana.\nRefren.\nWypełnię me śluby dla Pana *\nprzed całym Jego ludem.\nCenna jest w oczach Pana *\nśmierć Jego wyznawców.\nRefren.\nWypełnię me śluby dla Pana *\nprzed całym Jego ludem.\nW dziedzińcach Pańskiego domu, *\npośrodku ciebie, Jeruzalem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 22-26",
+      "opis": "Uzdrowienie niewidomego",
+      "tekst": "Jezus i uczniowie przyszli do Betsaidy. Tam przyprowadzili Mu niewidomego i prosili, żeby się go dotknął. On ujął niewidomego za rękę i wyprowadził go poza wieś. Zwilżył mu oczy śliną, położył na niego ręce i zapytał: «Czy coś widzisz?» A gdy ten przejrzał, powiedział: «Widzę ludzi, bo gdy chodzą, dostrzegam ich niby drzewa».\nPotem znowu położył ręce na jego oczy. I przejrzał on zupełnie, i został uzdrowiony; wszystko widział teraz jasno i wyraźnie.\nJezus odesłał go do domu ze słowami: «Tylko do wsi nie wstępuj!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta zaprasza do oddania czci Bogu, który ocala i uzdrawia, co jest tematem obu czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Wyraża prośbę o Bożą opiekę i uzdrowienie, co jest centralnym motywem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń błagalna, w której prosimy o ratunek i ocalenie, podobnie jak Noe w arce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Nawiązuje do ofiary dziękczynnej Noego oraz jest modlitwą o przyjęcie darów, które stają się źródłem łaski.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni składamy Bogu dziękczynienie za ocalenie, na wzór ofiary Noego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę wdzięczności i oddania się Bogu, który jest naszym Zbawicielem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do spotkania z Jezusem Uzdrowicielem, który w Ewangelii przywraca wzrok niewidomemu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który otwiera oczy na Bożą prawdę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który jest światłością i uzdrowieniem dla naszych dusz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń ta jest wyrazem wdzięczności za Boże dary, podobnie jak ofiara Noego po potopie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna, która dobrze oddaje ducha psalmu i postawę Noego po ocaleniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Boże ocalenie i uzdrowienie, które są tematem czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo dla codziennego życia, które jest darem od Boga, Stwórcy i Odkupiciela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Chrystusa, który jest naszym światłem i zbawieniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie przez Jezusa, który uzdrawia naszą ślepotę i prowadzi do życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna, która dobrze oddaje ducha psalmu i postawę Noego po ocaleniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Wyraża prośbę o Bożą opiekę i uzdrowienie, co jest centralnym motywem Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Bogu, które ocaliło Noego i jego rodzinę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która czuwa nad nami, tak jak czuwała nad Noem w arce.",
+      "moment": "ogolne"
+    }
+  ]
+}

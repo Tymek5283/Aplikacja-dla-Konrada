@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412878.Sobota-I-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "1 Sobota Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Pwt 26, 16-19",
+      "opis": "Świętość ludu Bożego",
+      "tekst": "Mojżesz powiedział do ludu:\n\n«Dziś Pan, Bóg twój, rozkazuje ci wykonać te prawa i nakazy. Przestrzegaj ich, wypełniaj z całego swego serca i z całej duszy. Dziś uzyskałeś od Pana oświadczenie, iż będzie dla ciebie Bogiem, o ile ty będziesz chodził Jego drogami, przestrzegał Jego praw, poleceń i nakazów oraz słuchał Jego głosu. A Pan uzyskał to, że ty będziesz, jak ci zapowiedział, ludem stanowiącym szczególną Jego własność, i będziesz przestrzegał Jego wszystkich poleceń. On cię wtedy wywyższy we czci, sławie i wspaniałości ponad wszystkie narody, które uczynił, abyś był ludem świętym dla Pana, Boga twego, jak powiedział». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 1-2. 4-5. 7-8 (R.: por. 1)",
+      "opis": "",
+      "tekst": "Refren: Błogosławieni słuchający Pana.\nBłogosławieni, których droga nieskalana, *\n\nktórzy postępują zgodnie z Prawem Pańskim.\n\nBłogosławieni, którzy zachowują Jego napomnienia *\n\ni szukają Go całym sercem.\nRefren.\nTy po to dałeś swoje przykazania, *\n\naby przestrzegano ich pilnie.\n\nOby niezawodnie zmierzały moje drogi *\n\nku przestrzeganiu Twych ustaw.\nRefren.\nBędę Cię wysławiał prawym sercem, *\n\ngdy nauczę się Twych sprawiedliwych wyroków.\n\nPrzestrzegać będę Twoich ustaw, *\n\nabyś mnie nigdy nie opuścił.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "2 Kor 6, 2b",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Oto teraz czas upragniony,\n\noto teraz dzień zbawienia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 43-48",
+      "opis": "Bądźcie doskonali, jak doskonały jest Ojciec wasz niebieski",
+      "tekst": "Jezus powiedział do swoich uczniów:\n\n«Słyszeliście, że powiedziano: „Będziesz miłował swego bliźniego”, a nieprzyjaciela swego będziesz nienawidził. A Ja wam powiadam: Miłujcie waszych nieprzyjaciół i módlcie się za tych, którzy was prześladują, abyście się stali synami Ojca waszego, który jest w niebie; ponieważ On sprawia, że słońce Jego wschodzi nad złymi i nad dobrymi, i On zsyła deszcz na sprawiedliwych i niesprawiedliwych. Jeśli bowiem miłujecie tych, którzy was miłują, cóż za nagrodę mieć będziecie? Czyż i celnicy tego nie czynią? I jeśli pozdrawiacie tylko swych braci, cóż szczególnego czynicie? Czyż i poganie tego nie czynią? Bądźcie więc wy doskonali, jak doskonały jest Ojciec wasz niebieski». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości jest kluczowa w kontekście Ewangelii, która radykalnie rozszerza to przykazanie na nieprzyjaciół.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wzywa do nawrócenia, którego szczytem jest miłość nieprzyjaciół, otwierająca drogę do królestwa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia, które wyraża się w miłości bliźniego, nawet nieprzyjaciela, jak uczy Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wybaczania sobie nawzajem jest praktycznym zastosowaniem miłości nieprzyjaciół, do której wzywa Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń o Bożej dobroci, która jest wzorem dla naszej doskonałości, o której mówi Jezus: „jak doskonały jest Ojciec wasz niebieski”.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń o odnowieniu serca jest dobrym tłem dla wezwania do doskonałości, która zaczyna się od wewnętrznej przemiany.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Tekst o czynieniu pokoju i miłosierdziu doskonale rezonuje z Ewangelią o miłości nieprzyjaciół jako drodze do doskonałości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Przyjęcie Komunii skłania do prośby o miłosierdzie, abyśmy sami potrafili być miłosierni dla naszych nieprzyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest modlitwą o czyste serce, zdolne do miłości doskonałej, na wzór Ojca niebieskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń o Bożej dobroci, która jest wzorem dla naszej doskonałości, o której mówi Jezus: „jak doskonały jest Ojciec wasz niebieski”.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą dobroć, która obejmuje wszystkich, sprawiedliwych i niesprawiedliwych, co jest wzorem dla naszej miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Dziękczynienie za miłosierdzie Ojca, które uzdalnia nas do miłowania nieprzyjaciół.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Prośba o łaskę do przemiany życia jest niezbędna, aby móc sprostać wysokim wymaganiom Ewangelii o miłości nieprzyjaciół.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jesteśmy posłani, by w codziennym życiu realizować przykazanie miłości nieprzyjaciół, prosząc Boga o siłę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalna pieśń na zakończenie liturgii, prosząca o Boże miłosierdzie, które uzdalnia nas do bycia doskonałymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń o odnowieniu serca jest dobrym tłem dla wezwania do doskonałości, która zaczyna się od wewnętrznej przemiany.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wzywa do nawrócenia, którego szczytem jest miłość nieprzyjaciół, otwierająca drogę do królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Parafraza Psalmu 51, która jest prośbą o czyste serce, zdolne do miłości nieprzyjaciół.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest aktem zawierzenia i prośbą o prowadzenie drogą doskonałości, którą wskazuje Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

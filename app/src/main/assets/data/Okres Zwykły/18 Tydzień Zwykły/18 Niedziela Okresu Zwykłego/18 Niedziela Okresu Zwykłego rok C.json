@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430576.18-Niedziela-Zwykla-rok-C",
+  "tytul_dnia": "18 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Koh 1, 2; 2, 21-23",
+      "opis": "Cóż ma człowiek z wszelkiego trudu swego?",
+      "tekst": "Marność nad marnościami, powiada Kohelet, marność nad marnościami - wszystko jest marnością.\nJest nieraz człowiek, który w swej pracy odznacza się mądrością, wiedzą i dzielnością, a udział swój musi on oddać człowiekowi, który nie włożył w nią trudu. To także jest marność i wielkie zło. Cóż bowiem ma człowiek z wszelkiego swego trudu i z pracy ducha swego, którą mozoli się pod słońcem? Bo wszystkie dni jego są cierpieniem, a zajęcia jego utrapieniem. Nawet w nocy serce jego nie zazna spokoju. To także jest marność.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 3-4. 5-6. 12-13. 14 i 17 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, Ty zawsze byłeś nam ucieczką.\nObracasz w proch człowieka *\ni mówisz: «Wracajcie, synowie ludzcy».\nBo tysiąc lat w Twoich oczach †\njest jak wczorajszy dzień, który minął, *\nalbo straż nocna.\nRefren.\nPorywasz ich, stają się niby sen poranny, *\njak trawa, która rośnie:\nrankiem zielona i kwitnąca, *\nwieczorem więdnie i usycha.\nRefren.\nNaucz nas liczyć dni nasze, *\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał? *\nBądź litościwy dla sług Twoich!\nRefren.\nNasyć nas o świcie swoją łaską, *\nabyśmy przez wszystkie dni nasze\nmogli się radować i cieszyć.\nDobroć Pana, Boga naszego, niech będzie nad nami †\ni wspieraj pracę rąk naszych, *\ndzieło rąk naszych wspieraj!\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Kol 3, 1-5. 9-11",
+      "opis": "Szukajcie tego, co w górze, zadajcie śmierć temu, co jest przyziemne",
+      "tekst": "Bracia:\nJeśli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze, gdzie przebywa Chrystus, zasiadający po prawicy Boga. Dążcie do tego, co w górze, nie do tego, co na ziemi.\nUmarliście bowiem i wasze życie jest ukryte z Chrystusem w Bogu. Gdy się ukaże Chrystus, nasze Życie, wtedy i wy razem z Nim ukażecie się w chwale.\nZadajcie więc śmierć temu, co przyziemne w członkach: rozpuście, nieczystości, lubieżności, złej żądzy i chciwości, bo ona jest bałwochwalstwem.\nNie okłamujcie się nawzajem, bo zwlekliście z siebie dawnego człowieka z jego uczynkami, a przyoblekliście nowego, który wciąż się odnawia ku głębszemu poznaniu Boga, na obraz Tego, który go stworzył. A tu już nie ma Greka ani Żyda, obrzezania ani nieobrzezania, barbarzyńcy, Scyty, niewolnika, wolnego, lecz wszystkim we wszystkich jest Chrystus.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 13-21",
+      "opis": "Marność dóbr doczesnych",
+      "tekst": "Ktoś z tłumu rzekł do Jezusa: «Nauczycielu, powiedz mojemu bratu, żeby się podzielił ze mną spadkiem».\nLecz On mu odpowiedział: «Człowieku, któż Mnie ustanowił nad wami sędzią albo rozjemcą?»\nPowiedział też do nich: «Uważajcie i strzeżcie się wszelkiej chciwości, bo nawet gdy ktoś ma wszystkiego w nadmiarze, to życie jego nie zależy od jego mienia».\nI opowiedział im przypowieść: «Pewnemu zamożnemu człowiekowi dobrze obrodziło pole. I rozważał w sobie: „Co tu począć? Nie mam gdzie pomieścić moich zbiorów”. I rzekł: „Tak zrobię: zburzę moje spichlerze, a pobuduję większe i tam zgromadzę całe moje zboże i dobra. I powiem sobie: Masz wielkie dobra, na długie lata złożone; odpoczywaj, jedz, pij i używaj!” Lecz Bóg rzekł do niego: „Głupcze, jeszcze tej nocy zażądają twojej duszy od ciebie; komu więc przypadnie to, co przygotowałeś?”\nTak dzieje się z każdym, kto skarby gromadzi dla siebie, a nie jest bogaty u Boga».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Pieśń wyraża tęsknotę za tym, co w górze i kontrastuje z marnością dóbr ziemskich, o której mówią czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wobec marności świata, pieśń wyraża pragnienie dążenia do tego, co w górze, gdzie jest nasz prawdziwy skarb.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Jest to akt zwrócenia serca ku Bogu, w odpowiedzi na wezwanie, by nie gromadzić skarbów na ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi przed gromadzeniem skarbów dla siebie, ta pieśń jest aktem ofiarowania Bogu wszystkiego co posiadamy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń jest ofiarowaniem serca jako odpowiedzi na Bożą dobroć, która jest naszym jedynym prawdziwym bogactwem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu chleb i wino, symbole naszej pracy, prosząc, by On je przyjął jako nasz skarb duchowy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta podkreśla, że prawdziwym skarbem jest Chrystus, a nie dobra materialne, co jest głównym przesłaniem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyraża wiarę w Chrystusa jako jedyną wartość, dla której warto porzucić wszystkie ziemskie dobra.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Eucharystii jest aktem ubóstwa w duchu, uznaniem, że nasze jedyne bogactwo jest w Bogu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który jest naszą ucieczką, jak głosi psalm, i nadaje sens naszemu życiu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie Bogu za Jego łaskę, która jest cenniejsza niż wszystkie skarby ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który jest źródłem prawdziwego życia, a nie przemijające dobra materialne.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest deklaracją wyboru wartości duchowych nad materialnymi, co podsumowuje naukę dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Jesteśmy posłani, by iść za Chrystusem drogą ubóstwa i zaufania, a nie drogą chciwości i gromadzenia dóbr.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, aby nasza praca była skierowana na gromadzenie skarbów w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Nawiązuje do drugiego czytania i psalmu, mówiąc o dążeniu do tego co w górze i szukaniu mądrości serca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń o charakterze dziękczynnym za Bożą dobroć, która stanowi przeciwwagę dla perspektywy marności przedstawionej przez Koheleta.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do aklamacji 'Błogosławieni ubodzy w duchu', podkreślając, że prawdziwe szczęście nie leży w bogactwie materialnym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń podkreśla, że Bóg nie pragnie od nas złota, lecz wdzięcznego serca, co jest odpowiedzią na przestrogę przed chciwością.",
+      "moment": "ogolne"
+    }
+  ]
+}

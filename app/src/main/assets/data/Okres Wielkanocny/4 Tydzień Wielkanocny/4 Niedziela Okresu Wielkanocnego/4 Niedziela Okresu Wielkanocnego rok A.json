@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413296.IV-Niedziela-Wielkanocna-rok-A",
+  "tytul_dnia": "4 Niedziela Okresu Wielkanocnego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 2, 14a. 36-41",
+      "opis": "Bóg uczynił Jezusa Mesjaszem",
+      "tekst": "W dniu Pięćdziesiątnicy stanął Piotr razem z Jedenastoma i przemówił donośnym głosem:\n«Niech cały dom Izraela wie z niewzruszoną pewnością, że tego Jezusa, którego ukrzyżowaliście, uczynił Bóg i Panem, i Mesjaszem».\nGdy to usłyszeli, przejęli się do głębi serca: «Cóż mamy czynić, bracia?» - zapytali Piotra i pozostałych apostołów. «Nawróćcie się - powiedział do nich Piotr - i niech każdy z was przyjmie chrzest w imię Jezusa Chrystusa na odpuszczenie grzechów waszych, a otrzymacie w darze Ducha Świętego. Bo dla was jest obietnica i dla dzieci waszych, i dla wszystkich, którzy są daleko, a których Pan, Bóg nasz, powoła».\nW wielu też innych słowach dawał świadectwo i napominał: «Ratujcie się spośród tego przewrotnego pokolenia!»\nCi więc, którzy przyjęli jego naukę, zostali ochrzczeni. I przyłączyło się owego dnia około trzech tysięcy dusz.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23 (22), 1b-3a. 3b-4. 5. 6 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem, †\nniczego mi nie braknie, *\npozwala mi leżeć na zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć, *\norzeźwia moją duszę.\nRefren.\nWiedzie mnie po właściwych ścieżkach *\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę, †\nzła się nie ulęknę, bo Ty jesteś ze mną. *\nKij Twój i laska pasterska są moją pociechą.\nRefren.\nStół dla mnie zastawiasz *\nna oczach mych wrogów.\nNamaszczasz mi głowę olejkiem, *\nkielich mój pełny po brzegi.\nRefren.\nDobroć i łaska pójdą w ślad za mną *\nprzez wszystkie dni życia\ni zamieszkam w domu Pana *\npo najdłuższe czasy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 P 2, 20b-25",
+      "opis": "Nawróciliście się do Pasterza dusz waszych",
+      "tekst": "Najdrożsi:\nTo się Bogu podoba, jeżeli dobrze czynicie, a znosicie cierpienia. Do tego bowiem jesteście powołani. Chrystus przecież również cierpiał za was i zostawił wam wzór, abyście szli za Nim Jego śladami.\nOn grzechu nie popełnił, a w Jego ustach nie było podstępu. On, gdy Mu złorzeczono, nie złorzeczył, gdy cierpiał, nie groził, ale zdawał się na Tego, który sądzi sprawiedliwie. On sam w swoim ciele poniósł nasze grzechy na drzewo, abyśmy przestali być uczestnikami grzechów, a żyli dla sprawiedliwości - krwią Jego ran zostaliście uzdrowieni.\nBłądziliście bowiem jak owce, ale teraz nawróciliście się do Pasterza i Stróża dusz waszych.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 10, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem dobrym pasterzem\ni znam owce moje, a moje Mnie znają."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 10, 1-10",
+      "opis": "Jezus jest bramą owiec",
+      "tekst": "Jezus powiedział:\n«Zaprawdę, zaprawdę, powiadam wam: Kto nie wchodzi do owczarni przez bramę, ale wdziera się inną drogą, ten jest złodziejem i rozbójnikiem. Kto jednak wchodzi przez bramę, jest pasterzem owiec. Temu otwiera odźwierny, a owce słuchają jego głosu; woła on swoje owce po imieniu i wyprowadza je. A kiedy wszystkie wyprowadzi, staje na ich czele, owce zaś postępują za nim, ponieważ głos jego znają. Natomiast za obcym nie pójdą, lecz będą uciekać od niego, bo nie znają głosu obcych».\nTę przypowieść opowiedział im Jezus, lecz oni nie pojęli znaczenia tego, co im mówił.\nPowtórnie więc powiedział do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Ja jestem bramą owiec. Wszyscy, którzy przyszli przede Mną, są złodziejami i rozbójnikami, a nie posłuchały ich owce. Ja jestem bramą. Jeżeli ktoś wejdzie przeze Mnie, będzie zbawiony - wejdzie i wyjdzie, i znajdzie pastwisko. Złodziej przychodzi tylko po to, aby kraść, zabijać i niszczyć. Ja przyszedłem po to, aby owce miały życie, i miały je w obfitości».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą Psalmu 23, który choć nie jest psalmem responsoryjnym, tematycznie idealnie pasuje do Niedzieli Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jest to kolejna wersja Psalmu 23, która podkreśla osobistą więź z Chrystusem Dobrym Pasterzem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która pasuje do Niedzieli Dobrego Pasterza, święta radości i nadziei.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do obrazu owczarni z Ewangelii i psalmu, która jest ludem Pana i Jego własnością.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, która dobrze wpisuje się w modlitwę o dobrych pasterzy dla Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu darów, które stają się pokarmem od Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Dobry Pasterz karmi swoje owce swoim Ciałem, które jest prawdziwym pokarmem dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaprasza do przyjęcia Chrystusa w Komunii, aby doświadczyć, jak dobry jest Pan, nasz Pasterz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta łączy w sobie obraz Chrystusa Dobrego Pasterza i Chleba Życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Pieśń ta jest modlitwą o powołania kapłańskie i zakonne, co jest tradycyjnym tematem Niedzieli Dobrego Pasterza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który jako Dobry Pasterz prowadzi nas do życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Dobry Pasterz karmi swój lud.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Misja Pawła i Barnaby do pogan jest przykładem wypełniania nakazu Chrystusa, by głosić Ewangelię aż po krańce ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń posyła wiernych, aby głosili światu, że Zmartwychwstały Pasterz jest z nami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa, Dobrego Pasterza, który pokonał śmierć, aby dać nam życie wieczne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Wiara w Zmartwychwstałego Pana jest fundamentem życia wiecznego, które On daje swoim owcom.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że naszą nadzieją jest Zmartwychwstały Chrystus, Dobry Pasterz.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Dobry Pasterz zaprasza nas na Ucztę Eucharystyczną, aby nas karmić i prowadzić.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Jest to modlitwa o świętych kapłanów, którzy są pasterzami na wzór Chrystusa.",
+      "moment": "ogólne"
+    }
+  ]
+}

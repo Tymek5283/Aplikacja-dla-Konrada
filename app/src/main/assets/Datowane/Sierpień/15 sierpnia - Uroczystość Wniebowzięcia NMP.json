@@ -42,27 +42,87 @@
       "moment": "wejscie"
     },
     {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Uroczysty hymn na cześć Maryi Wniebowziętej, która jest Królową aniołów i świętych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "344",
+      "piesn": "Królowej Anielskiej śpiewajmy",
+      "opis": "Pieśń ta sławi Maryję jako Królową nieba, co jest bezpośrednim skutkiem Jej chwalebnego Wniebowzięcia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "356",
       "piesn": "Matko Niebieskiego Pana",
       "opis": "Ta majestatyczna pieśń podkreśla królewską godność Maryi, która została z ciałem i duszą wzięta do nieba.",
       "moment": "ofiarowanie"
     },
     {
-      "numer": "344",
-      "piesn": "Królowej Anielskiej śpiewajmy",
-      "opis": "Wniebowzięcie jest ukoronowaniem życia Maryi, dlatego pieśń sławiąca Ją jako Królową Anielską jest doskonała na Komunię.",
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Pieśń mszalna na święta maryjne, której zwrotka na przygotowanie darów łączy cześć dla Maryi z Ofiarą Jej Syna.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, na wzór Maryi wziętej do nieba, ofiarowujemy Bogu nasze serca i całe nasze życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat', w którym Maryja wielbi Boga za wielkie rzeczy, których zapowiedzią jest Jej Wniebowzięcie.",
       "moment": "komunia"
     },
     {
-      "numer": "327",
-      "piesn": "Ciebie na wieki",
-      "opis": "Hymn ten jest wyrazem czci dla Maryi, która wzięta do nieba, odbiera chwałę od aniołów i świętych.",
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Pieśń eucharystyczna z refrenem 'Witaj Jezu, Synu Maryi' łączy cześć dla Chrystusa w Hostii z czcią dla Jego Matki, która króluje w niebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Przyjmując Ciało Chrystusa, oddajemy cześć Jego Matce, która jest Arką Nowego Przymierza, wziętą do chwały.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna jest wzniosłym hymnem uwielbienia Matki Bożej, której chwałę dziś kontemplujemy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń ta wzywa do codziennego wysławiania Maryi, której Wniebowzięcie jest dla nas znakiem nadziei zmartwychwstania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Hymn 'Te Deum' jest najwspanialszym uwielbieniem Boga, w którym łączymy się z chórem aniołów i świętych, witających Maryję w niebie.",
       "moment": "uwielbienie"
     },
     {
       "numer": "191",
       "piesn": "Wesel się, Królowo miła",
       "opis": "Ta wielkanocna antyfona maryjna przypomina, że Wniebowzięcie jest udziałem w Zmartwychwstaniu Jej Syna, co stanowi radosne zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Wniebowzięta Maryja jest Królową nieba i ziemi, a w tej pieśni czcimy Ją jako szczególną Patronkę i Królową naszego narodu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "321",
+      "piesn": "Błękitne rozwińmy sztandary",
+      "opis": "Pieśń o charakterze triumfalnym, która wzywa do oddania czci Maryi jako Królowej, co jest stosowne na zakończenie Jej uroczystości.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "406",
       "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
       "opis": "Jest to pieśń-modlitwa, w której wzywamy opieki naszej Królowej, która w niebie oręduje za nami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "345",
+      "piesn": "Królowo ziem polskich",
+      "opis": "Pieśń ta łączy tytuł Królowej Polski z Jej niebieską chwałą, co jest istotą uroczystości Wniebowzięcia w polskim kontekście.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "Pieśń, będąca parafrazą 'Salve Regina', jest modlitwą do Maryi, naszej nadziei, która poprzedziła nas w drodze do niebieskiej ojczyzny.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425148.Sroda-22-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "22 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 1, 1-8",
+      "opis": "Pozdrowienie i dziękczynienie za wiarę Kolosan",
+      "tekst": "Paweł, z woli Bożej apostoł Chrystusa Jezusa, i Tymoteusz, brat, do świętych i wiernych w Chrystusie braci w Kolosach: łaska wam i pokój od Boga, Ojca naszego!\nDzięki czynimy Bogu, Ojcu Pana naszego, Jezusa Chrystusa, zawsze, ilekroć modlimy się za was - odkąd usłyszeliśmy o waszej wierze w Chrystusie Jezusie i o waszej miłości, jaką żywicie dla wszystkich świętych - z powodu nadziei nagrody odłożonej dla was w niebie.\nO niej to już przedtem usłyszeliście dzięki głoszeniu prawdy - Ewangelii, która do was dotarła. Podobnie jak jest na całym świecie, tak również i u was owocuje ona i rośnie od dnia, w którym usłyszeliście i poznaliście łaskę Boga w jej prawdzie, jak tego nauczyliście się od umiłowanego współsługi naszego, Epafrasa. Jest on wiernym sługą Chrystusa, zastępującym nas; on też nam ukazał waszą miłość w Duchu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 52 (51), 10-11 (R.: por. 10b)",
+      "opis": "",
+      "tekst": "Refren: Ufam na wieki łaskawości Boga.\nJa zaś jak oliwka kwitnąca w domu Bożym *\nna wieki zaufam łaskawości Boga.\nBędę Cię sławił na wieki za to, co uczyniłeś, †\npolegał na Twoim imieniu, *\nponieważ jest dobre dla ludzi oddanych Tobie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 38-44",
+      "opis": "Liczne uzdrowienia",
+      "tekst": "Po opuszczeniu synagogi Jezus przyszedł do domu Szymona. A wysoka gorączka trawiła teściową Szymona. I prosili Go za nią. On, stanąwszy nad nią, rozkazał gorączce, i opuściła ją. Zaraz też wstała uzdrowiona i usługiwała im.\nO zachodzie słońca wszyscy, którzy mieli cierpiących na rozmaite choroby, przynosili ich do Niego. On zaś na każdego z nich kładł ręce i uzdrawiał ich. Także złe duchy wychodziły z wielu, wołając: «Ty jesteś Syn Boży!» Lecz On je gromił i nie pozwalał im mówić, ponieważ wiedziały, że On jest Mesjaszem.\nZ nastaniem dnia wyszedł i udał się na miejsce pustynne. A tłumy szukały Go i przyszły aż do Niego; chciały Go zatrzymać, żeby nie odchodził od nich. Lecz On rzekł do nich: «Także innym miastom muszę głosić Dobrą Nowinę o królestwie Bożym, bo po to zostałem posłany».\nI głosił słowo w synagogach Judei.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do spotkania z Jezusem, który w Ewangelii uzdrawia chorych i jest źródłem pociechy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń wychwala Boga za Jego cuda, których Jezus dokonuje w dzisiejszej Ewangelii, uzdrawiając chorych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Jezus, uzdrawiając i głosząc Ewangelię, jest pocieszeniem dla utrudzonych i obciążonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której słyszymy w pierwszym czytaniu, jest darem, który składamy Bogu wraz z chlebem i winem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami składamy naszą wiarę, miłość i nadzieję, o których pisze św. Paweł, prosząc, by owocowały i rosły.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę oddania Bogu, która jest owocem wiary i miłości, chwalonych w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o uzdrowienie i obmycie z grzechów, co jest owocem spotkania z Jezusem w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Jezusem-Uzdrowicielem, który przychodzi, by nas uleczyć i umocnić.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę w uzdrawiającą moc Chrystusa obecnego w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za 'bezmiar niezliczonych łask' jest odpowiedzią na dary wiary, miłości i nadziei, o których pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń jest dziękczynieniem za dar Eucharystii, w której spotykamy uzdrawiającego Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary, w tym za dar wiary i łaski, o których mowa w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest echem słów Jezusa z Ewangelii: 'Także innym miastom muszę głosić Dobrą Nowinę'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud głoszenia Ewangelii, do którego Jezus czuł się posłany.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary i zobowiązaniem do pójścia za Chrystusem, by głosić Dobrą Nowinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu koresponduje z psalmem, w którym psalmista wyznaje: 'na wieki zaufam łaskawości Boga'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie dla cierpiących i chorych jest echem działalności Jezusa w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wiara i ufność są fundamentem, na którym opiera się miłość i nadzieja, o których pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, które jest podstawą życia chrześcijańskiego, opisanego w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

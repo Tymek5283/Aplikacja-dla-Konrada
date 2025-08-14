@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415568.Sobota-V-tydzien-zwykly-rok-II",
+  "tytul_dnia": "5 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 12, 26-32; 13, 33-34",
+      "opis": "Odstępstwo Jeroboama",
+      "tekst": "Jeroboam pomyślał sobie tak: «W tych warunkach władza królewska może powrócić do rodu Dawida, bo jeżeli ten lud będzie chodził na składanie ofiar do świątyni Pańskiej, to zechce wrócić do swego pana, Roboama, króla Judy, i wskutek tego mogą mnie zabić i wrócić do króla Judy, Roboama».\nDlatego po zastanowieniu się król sporządził dwa złote cielce i ogłosił ludowi: «Zbyteczne jest, abyście chodzili do Jerozolimy. Izraelu, oto Bóg twój, który cię wyprowadził z ziemi egipskiej!» Postawił zatem jednego w Betel, a drugiego umieścił w Dan. To oczywiście doprowadziło do grzechu Izraela, bo lud poszedł do jednego do Betel, a do drugiego aż do Dan. Ponadto urządził przybytki na wyżynach oraz mianował spośród zwykłego ludu kapłanów, którzy nie byli lewitami.\nNastępnie Jeroboam ustanowił święto w ósmym miesiącu, piętnastego dnia tego miesiąca, naśladując święto obchodzone w Judzie, oraz sam przystąpił do ołtarza. Tak uczynił w Betel, składając krwawą ofiarę cielcom, które sporządził, i ustanowił w Betel kapłanów wyżyn, które urządził.\nJeroboam nie zawrócił ze swej złej drogi, lecz przeciwnie, mianował kapłanów wyżyn spośród zwykłego ludu. Kto tylko chciał, tego wprowadzał na urząd, tak iż ten stawał się kapłanem wyżyn. Takie postępowanie stało się dla rodu Jeroboama sposobnością do grzechu i powodem usunięcia go i zgładzenia z powierzchni ziemi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 106 (105), 6-7a. 19-20. 21-22 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Pamiętaj o nas i przyjdź nam z pomocą.\nGrzeszyliśmy jak nasi ojcowie, *\npopełniliśmy nieprawość, żyliśmy występnie.\nOjcowie nasi w Egipcie *\nnie pojęli Twych cudów.\nRefren.\nU stóp Horebu zrobili cielca *\ni pokłon oddawali bożkowi ulanemu ze złota.\nZamienili swą Chwałę *\nna podobieństwo cielca jedzącego siano.\nRefren.\nZapomnieli o Bogu, który ich ocalił, *\nktóry wielkich rzeczy dokonał w Egipcie,\nrzeczy przedziwnych w krainie Chamitów, *\nzdumiewających nad Morzem Czerwonym.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 4b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie samym chlebem żyje człowiek,\nlecz każdym słowem, które pochodzi z ust Bożych."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 1-10",
+      "opis": "Drugie rozmnożenie chleba",
+      "tekst": "W owym czasie, gdy znowu wielki tłum był z Jezusem i nie mieli co jeść, przywołał do siebie uczniów i rzekł im: «Żal Mi tego tłumu, bo już trzy dni trwają przy Mnie, a nie mają co jeść. I jeśli ich puszczę zgłodniałych do domu, zasłabną w drodze, bo niektórzy z nich przyszli z daleka».\nOdpowiedzieli uczniowie: «Jakże tu na pustkowiu będzie mógł ktoś nakarmić ich chlebem?» Zapytał ich: «Ile macie chlebów?» Odpowiedzieli: «Siedem».\nI polecił tłumowi usiąść na ziemi. A wziąwszy siedem chlebów, odmówił dziękczynienie, połamał i dawał uczniom, aby je podawali. I podali tłumowi. Mieli też kilka rybek. I nad tymi odmówił błogosławieństwo, i polecił je rozdać. Jedli do syta, a pozostałych ułomków zebrali siedem koszów. Było zaś około czterech tysięcy ludzi. Potem ich odprawił.\nZaraz też wsiadł z uczniami do łodzi i przybył w okolice Dalmanuty.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do cudu rozmnożenia chleba na pustkowiu, opisanego w dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do Uczty Pańskiej, której zapowiedzią jest cudowne nakarmienie tłumów przez Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do Jezusa, który lituje się nad tłumem i karmi go chlebem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Wyraża wdzięczność za dar Eucharystii, której zapowiedzią jest cudowne nakarmienie tłumów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "W tej pieśni ofiarowujemy Bogu chleb i wino, które On cudownie rozmnaża i przemienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce ziemi, dziękując za Jego opatrzność, która objawiła się w nakarmieniu tłumu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Refren 'Przyjdź, Chlebie Żywy' jest modlitwą o pokarm eucharystyczny, zapowiedziany przez rozmnożenie chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta ukazuje Jezusa jako prawdziwy Chleb z nieba, który nasyca głód ludzkości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb dający życie wieczne, co jest teologiczną głębią cudu rozmnożenia chleba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Jest to pieśń uwielbienia dla Jezusa, który troszczy się o potrzeby ludu i karmi go cudownym chlebem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar chleba i za miłosierdzie Jezusa okazane tłumom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga za Jego cudowne dzieła, takie jak rozmnożenie chleba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do Uczty Pańskiej, której prefiguracją jest nakarmienie czterech tysięcy ludzi na pustkowiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po nakarmieniu przez Pana, jesteśmy posłani, by dzielić się chlebem wiary i miłości z innymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię o Jezusie, który karmi i zbawia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb dający życie wieczne, co jest teologiczną głębią cudu rozmnożenia chleba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Wzywa do oddania czci prawdziwemu Bogu, w przeciwieństwie do bałwochwalstwa Jeroboama z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń błagalna, w której prosimy o prawe serce, w przeciwieństwie do serca Jeroboama, które odwróciło się od Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która jest odpowiedzią na grzech niewierności opisany w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

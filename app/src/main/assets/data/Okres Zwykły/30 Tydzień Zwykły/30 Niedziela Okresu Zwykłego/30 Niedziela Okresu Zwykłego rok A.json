@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415425.30-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "30 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 22, 20-26",
+      "opis": "Bóg słyszy skargę pokrzywdzonych",
+      "tekst": "Tak mówi Pan:\n«Nie będziesz gnębił ani uciskał przybysza, bo wy sami byliście przybyszami w ziemi egipskiej. Nie będziesz krzywdził żadnej wdowy ani sieroty. Jeślibyś ich skrzywdził i poskarżą Mi się, usłyszę ich skargę, rozpali się gniew mój, i wygubię was mieczem; i żony wasze będą wdowami, a dzieci wasze sierotami.\nJeśli pożyczysz pieniądze ubogiemu z mojego ludu, żyjącemu obok ciebie, to nie będziesz postępował wobec niego jak lichwiarz i nie każesz mu płacić odsetek. Jeśli weźmiesz w zastaw płaszcz twego bliźniego, winieneś mu go oddać przed zachodem słońca, bo jest to jedyna jego szata i jedyne okrycie jego ciała podczas snu. I jeśliby się on żalił przede Mną, usłyszę go, bo jestem litościwy».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 18 (17), 2-3a. 3b-4. 47 i 51ab (R.: 2)",
+      "opis": "",
+      "tekst": "Refren: Miłuję Ciebie, Panie, Mocy moja.\nMiłuję Cię, Panie, *\nMocy moja,\nPanie, Opoko moja i Twierdzo, *\nmój Wybawicielu.\nRefren.\nBoże, Skało moja, na którą się chronię, *\nTarczo moja, Mocy zbawienia mego i moja Obrono.\nWzywam Pana, godnego chwały, *\ni wyzwolony będę od moich nieprzyjaciół.\nRefren.\nNiech żyje Pan, niech będzie błogosławiona moja Opoka, *\nniech będzie wywyższony mój Bóg i Zbawca.\nTy dałeś wielkie zwycięstwo królowi *\ni łaską obdarzyłeś Dawida, Twego pomazańca.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Tes 1, 5c-10",
+      "opis": "Służyć Bogu żywemu i oczekiwać Jego Syna",
+      "tekst": "Bracia:\nWiecie, jacy dla was byliśmy, przebywając wśród was. A wy, przyjmując słowo pośród wielkiego ucisku, z radością Ducha Świętego, staliście się naśladowcami naszymi i Pana, tak że okazaliście się wzorem dla wszystkich wierzących w Macedonii i Achai.\nDzięki wam nauka Pańska stała się głośna nie tylko w Macedonii i Achai, ale wasza wiara w Boga wszędzie dała się poznać, tak że nawet nie potrzebujemy o tym mówić. Albowiem oni sami opowiadają o nas, jakiego to przyjęcia doznaliśmy od was i jak nawróciliście się od bożków do Boga, by służyć Bogu żywemu i prawdziwemu i oczekiwać z niebios jego Syna, którego wskrzesił z martwych, Jezusa, naszego wybawcę od nadchodzącego gniewu.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 22, 34-40",
+      "opis": "Największe przykazanie",
+      "tekst": "Gdy faryzeusze posłyszeli, że zamknął usta saduceuszom, zebrali się razem, a jeden z nich, uczony w Prawie, wystawiając Go na próbę, zapytał: «Nauczycielu, które przykazanie w Prawie jest największe?»\nOn mu odpowiedział: «„Będziesz miłował Pana Boga swego całym swoim sercem, całą swoją duszą i całym swoim umysłem”. To jest największe i pierwsze przykazanie.\nDrugie podobne jest do niego: „Będziesz miłował swego bliźniego jak siebie samego”. Na tych dwóch przykazaniach zawisło całe Prawo i Prorocy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Pieśń jest prostym i żarliwym wyznaniem miłości do Boga, co stanowi istotę pierwszego przykazania, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności i szukania woli Bożej, która streszcza się w przykazaniu miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, którego mamy miłować całym sercem, duszą i umysłem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "W odpowiedzi na Ewangelię o przykazaniu miłości Boga i bliźniego, ta pieśń jest aktem ofiarowania naszej woli, by żyć tymi przykazaniami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości, która jest najmilszą Bogu ofiarą, przewyższającą wszystkie całopalenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia w miłości, która jest fundamentem Prawa i Proroków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Krótka pieśń 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest kwintesencją dzisiejszej Ewangelii i pierwszego czytania o miłości bliźniego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłości do końca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę do życia przykazaniem miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Uroczysty hymn chwały na cześć jedynego Boga, którego mamy miłować całym sercem, jak przypomina Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, w której wyznajemy naszą miłość do Pana, naszej Mocy i Opoki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, która jest odpowiedzią serca miłującego Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest posłaniem do głoszenia Ewangelii miłości, która jest największym przykazaniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który uczy nas miłości do Boga i bliźniego jako drogi do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o miłości Chrystusa, która przemienia świat, jest posłaniem do realizacji przykazania miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar wiary, która, jak mówi drugie czytanie, jest owocem nawrócenia się do Boga żywego i prawdziwego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych i czyniących pokój, jest praktycznym wymiarem przykazania miłości bliźniego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która jest doskonałym podsumowaniem całej dzisiejszej liturgii słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pierwsze czytanie piętnuje niewiernych kapłanów. Ta pieśń przypomina, że cały lud Boży jest powołany do oddawania czci Bogu przez miłość.",
+      "moment": "ogolne"
+    }
+  ]
+}

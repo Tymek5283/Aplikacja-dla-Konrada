@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418014.Piatek-25-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "25 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Koh 3, 1-11",
+      "opis": "Wszystko ma swój czas",
+      "tekst": ", i jest wyznaczona godzina na wszystkie sprawy pod niebem: Jest czas rodzenia i czas umierania, czas sadzenia i czas wyrywania tego, co zasadzono, czas zabijania i czas leczenia, czas burzenia i czas budowania, czas płaczu i czas śmiechu, czas zawodzenia i czas pląsów, czas rzucania kamieni i czas ich zbierania, czas pieszczot cielesnych i czas wstrzymywania się od nich, czas szukania i czas tracenia, czas zachowania i czas wyrzucania, czas rozdzierania i czas zszywania, czas milczenia i czas mówienia, czas miłowania i czas nienawiści, czas wojny i czas pokoju.\nCóż przyjdzie pracującemu z trudu, jaki sobie zadaje? Przyjrzałem się pracy, jaką Bóg obarczył ludzi, by się nią trudzili. Uczynił wszystko pięknie w swoim czasie, dał im nawet wyobrażenie o dziejach świata, tak jednak, że nie pojmie człowiek dzieł, jakich Bóg dokonuje od początku aż do końca.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 144 (143), 1b i 2abc. 3-4 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Pan, Opoka moja.\nBłogosławiony Pan, Opoka moja. *\nOn mocą i warownią moją,\nosłoną moją i moim wybawcą, *\nmoją tarczą i schronieniem.\nRefren.\nPanie, czym jest człowiek, że troszczysz się o niego, *\nczym syn człowieczy, że Ty o nim myślisz?\nDo tchnienia wiatru podobny jest człowiek, *\ndni jego jak cień przemijają.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, aleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 18-22",
+      "opis": "Wyznanie Piotra i zapowiedź męki",
+      "tekst": "Gdy raz Jezus modlił się na osobności, a byli z Nim uczniowie, zwrócił się do nich z zapytaniem: «Za kogo uważają Mnie tłumy?»\nOni odpowiedzieli: «Za Jana Chrzciciela; inni za Eliasza; jeszcze inni mówią, że któryś z dawnych proroków zmartwychwstał».\nZapytał ich: «A wy za kogo Mnie uważacie?» Piotr odpowiedział: «Za Mesjasza Bożego».\nWtedy surowo im przykazał i napomniał ich, żeby nikomu o tym nie mówili. I dodał: «Syn Człowieczy musi wiele wycierpieć: będzie odrzucony przez starszyznę, arcykapłanów i uczonych w Piśmie; zostanie zabity, a trzeciego dnia zmartwychwstanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta jest proklamacją wiary w Chrystusa Króla, co jest echem wyznania Piotra z Ewangelii: 'Za Mesjasza Bożego'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Pieśń jest odpowiedzią na wyznanie Piotra, uwielbiając Chrystusa jako Króla i Mesjasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest odpowiedzią na wyznanie Piotra i zaproszeniem Chrystusa-Mesjasza do królowania w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń ta, mówiąc o przemijalności życia, dobrze koresponduje z refleksją Koheleta, że na wszystko jest czas, w tym czas umierania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń przypomina o przemijalności i konieczności pokuty, co jest jednym z głównych tematów Księgi Koheleta.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W obliczu przemijania, pieśń ta jest aktem żalu i zawierzenia Bogu, który jest wieczny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Spożywanie Ciała Pańskiego jest uobecnieniem Jego ofiary, o której Jezus po raz pierwszy mówi w Ewangelii, zapowiadając swoją mękę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta, wymieniając poszczególne części cierpiącego Ciała Chrystusa, jest głęboką medytacją nad tajemnicą Paschy, zapowiedzianą w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń łączy tajemnicę Eucharystii z ofiarą krzyża, o której Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia dla Pana jako wiecznej Opoki jest odpowiedzią na psalm, który zestawia kruchość człowieka z potęgą Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności dla Stwórcy jest odpowiedzią na refleksję o przemijaniu i ludzkim trudzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, który jest naszą Opoką i Wybawcą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wierność Chrystusowi, którego droga, jak zapowiada Ewangelia, prowadzi przez cierpienie do zmartwychwstania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wobec refleksji o marności i przemijaniu, pieśń ta wskazuje na Chrystusa jako jedyną, wieczną nadzieję.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania w Jego mesjańską moc w obliczu cierpienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna jest wyrazem uznania własnej małości wobec wiecznego Boga, co jest echem psalmu i Księgi Koheleta.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "652",
+      "piesn": "U Ciebie, Boże",
+      "opis": "Pieśń wyraża świadomość ludzkiej kruchości i potrzebę Bożego miłosierdzia, co jest zgodne z duchem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o zaufaniu Bożej Opatrzności jest odpowiedzią na poczucie marności i przemijania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Hymn do Chrystusa Króla jest odpowiedzią na wyznanie Piotra i zapowiedź męki, która prowadzi do chwały.",
+      "moment": "ogolne"
+    }
+  ]
+}

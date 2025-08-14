@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416873.Piatek-27-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "27 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jl 1, 13-15; 2, 1-2",
+      "opis": "Wezwanie do pokuty",
+      "tekst": "Przepaszcie się i płaczcie, kapłani; podnieście lament, słudzy ołtarza, wejdźcie i nocujcie w worach, słudzy Boga mojego, bo odmówiono domowi Boga waszego ofiary pokarmowej i płynnej.\nUświęćcie się przez post, zwołajcie uroczyste zgromadzenie, zbierzcie starców, wszystkich mieszkańców kraju do domu Pana, Boga waszego, i wołajcie do Pana: «Ach, biada! Co za dzień! Bliski jest dzień Pański, zniszczenie przyjdzie od Niszczyciela». Dmijcie w róg na Syjonie, a wołajcie na górze mej świętej! Niechaj zadrżą wszyscy mieszkańcy kraju, bo nadchodzi dzień Pański, bo jest już bliski. Dzień ciemności i mroku, dzień obłoku i mgły. Jak zorza poranna rozciągasię po górach lud wielki a mocny, któremu równego nie było od początku i nie będzie po nim nigdy aż po lata następnych pokoleń.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 9, 2-3. 6 i 16. 8-9 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Pan będzie sądził ten świat sprawiedliwie.\nChwalić Cię będę, Panie, całym sercem moim, *\nopowiem wszystkie cudowne Twe dzieła.\nCieszyć się będę i radować Tobą, *\nzaśpiewam psalm na cześć Twego imienia, Najwyższy.\nRefren.\nRozgromiłeś pogan, wygubiłeś grzeszników, *\nna wieki wymazałeś ich imię.\nPoganie wpadli do dołu, który sami kopali, *\nw sidle przez nich ukrytym noga ich uwięzła.\nRefren.\nA Pan zasiada na wieki, *\nprzygotował swój tron, by sądzić.\nSam będzie sądził świat sprawiedliwie, *\nrozstrzygał bezstronnie sprawy narodów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 12, 31b-32",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Teraz władca tego świata zostanie precz wyrzucony,\na Ja, gdy zostanę nad ziemię wywyższony, przyciągnę wszystkich do siebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 15-26",
+      "opis": "Walka Chrystusa ze złym duchem",
+      "tekst": "Gdy Jezus wyrzucał złego ducha, niektórzy z tłumu rzekli: «Mocą Belzebuba, władcy złych duchów, wyrzuca złe duchy». Inni zaś, chcąc Go wystawić na próbę, domagali się od Niego znaku z nieba.\nOn jednak, znając ich myśli, rzekł do nich: «Każde królestwo wewnętrznie skłócone pustoszeje i dom na dom się wali. Jeśli więc i Szatan z sobą jest skłócony, jakże się ostoi jego królestwo? Mówicie bowiem, że Ja przez Belzebuba wyrzucam złe duchy. Lecz jeśli Ja mocą Belzebuba wyrzucam złe duchy, to czyją mocą wyrzucają je wasi synowie? Dlatego oni będą waszymi sędziami. A jeśli Ja palcem Bożym wyrzucam złe duchy, to istotnie przyszło już do was królestwo Boże.\nGdy mocarz uzbrojony strzeże swego dworu, bezpieczne jest jego mienie. Lecz gdy mocniejszy od niego nadejdzie i pokona go, to zabierze całą broń jego, na której polegał, i rozda jego łupy.\nKto nie jest ze Mną, jest przeciwko Mnie; a kto nie zbiera ze Mną, ten rozprasza.\nGdy duch nieczysty opuści człowieka, błąka się po miejscach bezwodnych, szukając spoczynku. A gdy go nie znajduje, mówi: „Wrócę do swego domu, skąd wyszedłem”. Przychodzi i zastaje go wymiecionym i przyozdobionym. Wtedy idzie i bierze siedmiu innych duchów, złośliwszych niż on sam; wchodzą i mieszkają tam. I stan późniejszy owego człowieka staje się gorszy niż poprzedni».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest bezpośrednim wezwaniem do pokuty, co stanowi główny temat pierwszego czytania z Księgi Joela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń łączy tematykę nawrócenia (z pierwszego czytania) z nadejściem Królestwa Bożego (o którym mówi Ewangelia).",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń błagalna, w której prosimy o przebaczenie, jest adekwatna do wezwania proroka Joela do pokuty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Ta pieśń pokutna doskonale pasuje do atmosfery wezwania do nawrócenia i prośby o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i błagania przed Bogiem, co jest odpowiedzią na wezwanie do postu i modlitwy z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka, intensywna modlitwa błagalna, która wpisuje się w pokutny charakter czytań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, który w Ewangelii pokonuje złego ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii w postawie pokory jest odpowiedzią na wezwanie do nawrócenia i uznania mocy Bożej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę grzesznika proszącego o miłosierdzie i przyjęcie do serca Pana, który jest mocniejszy od złego ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Hymn o zwycięstwie Chrystusa nad złem jest doskonałym uwielbieniem w kontekście Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń proklamuje Chrystusa jako Króla i Władcę, co jest odpowiedzią na oskarżenia o działanie mocą Belzebuba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Uwielbienie Chrystusa, który zwyciężył zło i jest naszą nadzieją, jest odpowiedzią na Ewangelię o Jego walce z szatanem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń wyraża wierność Chrystusowi i opowiedzenie się po Jego stronie, co jest odpowiedzią na słowa Ewangelii: 'Kto nie jest ze Mną, jest przeciwko Mnie'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest wezwaniem do głoszenia zwycięstwa Chrystusa nad złem, o którym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest warunkiem ostatecznego zwycięstwa nad złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, która wyraża żal za grzechy i jest odpowiedzią na wezwanie proroka Joela do nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa nawrócenia i powrotu do Ojca jest kluczowa w kontekście groźby 'dnia Pańskiego' z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, która jest źródłem zwycięstwa nad grzechem i szatanem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń wyraża ufność w moc Pana, który jest silniejszy od 'mocarza' z przypowieści ewangelicznej.",
+      "moment": "ogolne"
+    }
+  ]
+}

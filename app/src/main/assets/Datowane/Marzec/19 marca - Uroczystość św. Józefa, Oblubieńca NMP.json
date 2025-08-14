@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 89,2-3.4-5.27 i 29",
-      "opis": "Refren:",
-      "tekst": "Jego potomstwo będzie trwało wiecznie.\nBędę na wieki śpiewał o łasce Pana,\nmoimi ustami Twą wierność będę głosił\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś:\n„Na wieki ugruntowana jest łaska”,\nutrwaliłeś swą wierność w niebiosach.\n„Zawarłem przymierze z moim wybrańcem,\nprzysiągłem mojemu słudze, Dawidowi:\nUtrwalę twoje potomstwo na wieki\ni tron twój umocnię na wszystkie pokolenia”.\n„On będzie wołał do Mnie: «Tyś jest Ojcem moim,\nmoim Bogiem, Opoką mego zbawienia».\nNa wieki zachowam dla niego łaskę\ni trwałe z nim będzie moje przymierze”."
+      "opis": "",
+      "tekst": "Refren:\nJego potomstwo będzie trwało wiecznie.\nBędę na wieki śpiewał o łasce Pana,\nmoimi ustami Twą wierność będę głosił\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś:\n„Na wieki ugruntowana jest łaska”,\nutrwaliłeś swą wierność w niebiosach.\n„Zawarłem przymierze z moim wybrańcem,\nprzysiągłem mojemu słudze, Dawidowi:\nUtrwalę twoje potomstwo na wieki\ni tron twój umocnię na wszystkie pokolenia”.\n„On będzie wołał do Mnie: «Tyś jest Ojcem moim,\nmoim Bogiem, Opoką mego zbawienia».\nNa wieki zachowam dla niego łaskę\ni trwałe z nim będzie moje przymierze”."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -48,9 +48,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "409",
+      "piesn": "Duszo moja",
+      "opis": "Radosny hymn na cześć św. Józefa, który był mężem sprawiedliwym i wiernym sługą Bożych tajemnic.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "410",
+      "piesn": "Józefie, niebian ozdobo",
+      "opis": "Uroczysta pieśń, która sławi św. Józefa jako ozdobę nieba i opiekuna Odkupiciela.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "411",
       "piesn": "Józefie, święty patronie",
       "opis": "W tej pieśni prosimy św. Józefa o opiekę, tak jak on opiekował się Jezusem, co jest formą ofiarowania naszych trosk Bogu przez jego wstawiennictwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "413",
+      "piesn": "Otocz opieką",
+      "opis": "Prośba do św. Józefa o opiekę nad Kościołem, którego jest patronem, jest stosowną modlitwą podczas przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Pieśń o ofiarowaniu serca Chrystusowi, na wzór św. Józefa, który całe swoje życie poświęcił Jezusowi i Maryi.",
       "moment": "ofiarowanie"
     },
     {
@@ -60,15 +84,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Święty Józef adorował ukrytego Boga w Dzieciątku Jezus, a my adorujemy Go ukrytego w Najświętszym Sakramencie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i pokorę z przybycia Jezusa do serca, co odzwierciedla postawę św. Józefa przyjmującego Zbawiciela do swego domu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "409",
       "piesn": "Duszo moja",
       "opis": "Jest to radosny hymn chwały na cześć Patrona dnia, idealny na dziękczynienie po Komunii.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary, w tym za dar św. Józefa jako wzoru męstwa, wiary i posłuszeństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar życia i wiary, których stróżem na ziemi był św. Józef.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "410",
       "piesn": "Józefie, niebian ozdobo",
       "opis": "Pieśń o charakterze prośby i zawierzenia, prosi o opiekę na drogę życia, co dobrze pasuje na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "415",
+      "piesn": "Święty Józefie, patronie nasz!",
+      "opis": "Krótka i treściwa modlitwa śpiewana, zawierzająca nas opiece św. Józefa na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo dla naszej pracy i trudu, na wzór św. Józefa, patrona ludzi pracy.",
       "moment": "rozeslanie"
     },
     {
@@ -81,6 +141,18 @@
       "numer": "415",
       "piesn": "Święty Józefie, patronie nasz!",
       "opis": "Prosta i bezpośrednia aklamacja do patrona dnia, łatwa do wykorzystania w dowolnym momencie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które św. Józef realizował w codziennym życiu u boku Jezusa i Maryi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "W uroczystość Opiekuna Świętej Rodziny, ta pieśń przypomina o wartości rodziny i naszym powołaniu do tworzenia Bożej rodziny.",
       "moment": "ogolne"
     }
   ]

@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "23",
+      "piesn": "Niebiosa, rosę ślijcie",
+      "opis": "Inna wersja 'Rorate caeli', która podkreśla tęsknotę za Mesjaszem, Sprawiedliwym, o którym mówi Izajasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, który jest Bogiem sprawiedliwym i zbawiającym, jak głosi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "27",
       "piesn": "Spuśćcie nam na ziemskie niwy",
       "opis": "Pieśń jest prośbą o przyjście Zbawiciela, co odpowiada pytaniu uczniów Jana z Ewangelii: 'Czy Ty jesteś Tym, który ma przyjść?'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wzywa do przygotowania na przyjście Pana, który przez swoje czyny w Ewangelii objawia, że jest oczekiwanym Mesjaszem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń nawołuje do przygotowania serc, co jest odpowiedzią na świadectwo Jana Chrzciciela i zapowiedź bliskiego zbawienia.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża głęboką tęsknotę za Chrystusem, który jest odpowiedzią na wszystkie oczekiwania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, który jest Tym, który ma przyjść.",
+      "moment": "komunia"
+    },
+    {
       "numer": "17",
       "piesn": "Grzechem Adama ludzie uwikłani",
       "opis": "Pieśń opowiada o spełnieniu się obietnic i przyjściu Zbawiciela, co jest odpowiedzią na adwentowe oczekiwanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, którego zbawienie, jak mówi Izajasz, jest dla wszystkich krańców świata.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do wielbienia Boga za Jego sprawiedliwość, a ta pieśń jest majestatycznym hymnem chwały na cześć Stwórcy.",
       "moment": "uwielbienie"
     },
     {
@@ -60,15 +108,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "23",
-      "piesn": "Niebiosa, rosę ślijcie",
-      "opis": "Inna wersja 'Rorate caeli', która podkreśla tęsknotę za Mesjaszem, Sprawiedliwym, o którym mówi Izajasz.",
-      "moment": "ogolne"
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, a którego czyny potwierdzają Jego mesjańską godność.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, jest aktem wiary w Tego, który przyszedł.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "4",
       "piesn": "Oto Pan przybywa",
       "opis": "Pieśń ta, wzywając do prostowania dróg, nawiązuje do misji Jana Chrzciciela, który przygotowywał lud na spotkanie z Panem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń jest wołaniem o przyjście Pana i zachętą do nawrócenia, co jest istotą misji Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie czuwania, co jest głównym przesłaniem Adwentu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o głoszeniu Dobrej Nowiny ubogim, a pieśń o błogosławieństwach rozwija ten temat.",
       "moment": "ogolne"
     }
   ]

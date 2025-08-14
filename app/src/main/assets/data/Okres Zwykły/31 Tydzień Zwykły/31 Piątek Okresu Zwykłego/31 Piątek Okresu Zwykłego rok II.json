@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414870.Piatek-31-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "31 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 3, 17 - 4, 1",
+      "opis": "Chrystus przemieni nasze ciała",
+      "tekst": "Bracia, bądźcie wszyscy razem moimi naśladowcami i wpatrujcie się w tych, którzy tak postępują, jak tego wzór macie w nas. Wielu bowiem postępuje jak wrogowie krzyża Chrystusowego, o których często wam mówiłem, a teraz mówię z płaczem. Ich losem - zagłada, ich bogiem - brzuch, a chwała - w tym, czego winni się wstydzić. To ci, których dążenia są przyziemne.\nNasza bowiem ojczyzna jest w niebie. Stamtąd też jako Zbawcy wyczekujemy Pana Jezusa Chrystusa, który przekształci nasze ciało poniżone w podobne do swego chwalebnego ciała tą mocą, jaką może On także wszystko, co jest, sobie podporządkować.\nPrzeto, bracia umiłowani, za którymi tęsknię - radości i chwało moja! - tak trwajcie mocno w Panu, umiłowani!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 122 (121), 1b-2. 4-5 (R.: por. 1bc)",
+      "opis": "",
+      "tekst": "Refren: Idźmy z radością na spotkanie Pana.\nUcieszyłem się, gdy mi powiedziano: *\n«Pójdziemy do domu Pana».\nJuż stoją nasze stopy *\nw twoich bramach, Jeruzalem.\nRefren.\nDo niego wstępują pokolenia Pańskie, *\naby zgodnie z prawem Izraela wielbić imię Pana.\nTam ustawiono trony sędziowskie, *\ntrony domu Dawida.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 J 2, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto zachowuje naukę Chrystusa,\nw tym naprawdę miłość Boża jest doskonała."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 16, 1-8",
+      "opis": "Przypowieść o nieuczciwym rządcy",
+      "tekst": "Jezus powiedział do swoich uczniów: «Pewien bogaty człowiek miał rządcę, którego oskarżono przed nim, że trwoni jego majątek. Przywołał więc go do siebie i rzekł mu: „Cóż to słyszę o tobie? Zdaj sprawę z twego zarządzania, bo już nie będziesz mógł zarządzać”.\nNa to rządca rzekł sam do siebie: „Co ja pocznę, skoro mój pan odbiera mi zarządzanie? Kopać nie mogę, żebrać się wstydzę. Wiem już, co uczynię, żeby mnie ludzie przyjęli do swoich domów, gdy będę odsunięty od zarządzania”.\nPrzywołał więc do siebie każdego z dłużników swego pana i zapytał pierwszego: „Ile jesteś winien mojemu panu?” Ten odpowiedział: „Sto beczek oliwy”. On mu rzekł: „Weź swoje zobowiązanie, siadaj prędko i napisz: pięćdziesiąt”. Następnie pytał drugiego: „A ty ile jesteś winien?” Ten odrzekł: „Sto korców pszenicy”. Mówi mu: „Weź swoje zobowiązanie i napisz: osiemdziesiąt”.\nPan pochwalił nieuczciwego rządcę, że roztropnie postąpił. Bo synowie tego świata roztropniejsi są w stosunkach z podobnymi sobie ludźmi niż synowie światłości».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń ta wprost nawiązuje do pierwszego czytania, które mówi: 'Nasza bowiem ojczyzna jest w niebie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża tęsknotę za domem Pana, co jest echem psalmu responsoryjnego i myśli o niebieskiej ojczyźnie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, którego wyczekujemy jako Zbawcy z naszej niebieskiej ojczyzny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "W kontekście przypowieści o rządcy, ta pieśń przypomina, że wszystko, co posiadamy, jest darem Boga i mamy tym mądrze zarządzać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem ofiarowania siebie Bogu, abyśmy, żyjąc na ziemi, dążyli do naszej ojczyzny w niebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, byśmy byli roztropnymi szafarzami Jego darów w drodze do nieba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary i nadziei w Panu, do którego należymy i którego wyczekujemy jako Zbawcy, jak mówi św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem na drogę do naszej niebieskiej ojczyzny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która jest przedsmakiem radości w niebieskiej ojczyźnie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar życia wiecznego i Kościoła, który jest naszą drogą do niebieskiej ojczyzny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar powołania do niebieskiej ojczyzny i za radość pielgrzymowania do domu Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar wiary, która pozwala nam z nadzieją oczekiwać na przemianę naszych ciał na wzór chwalebnego Ciała Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy, naśladując Chrystusa i Jego świętych, trwali mocno w Panu, jak zachęca św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o Boże prowadzenie w ziemskiej pielgrzymce do domu Ojca w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do niebieskiej ojczyzny, o której mówi św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, co jest przejawem roztropności, o której mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, które jest naszą prawdziwą ojczyzną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, które są podstawą roztropnego postępowania w oczekiwaniu na królestwo.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest fundamentem roztropnego życia, wolnego od lęku o przyszłość.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410404.Czwartek-I-tydzien-zwykly-rok-II",
+  "tytul_dnia": "1 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 4, 1b-11",
+      "opis": "Zdobycie Arki Przymierza przez Filistynów",
+      "tekst": "Izraelici wyruszyli do walki z Filistynami. Rozbili oni obóz koło Eben-Haezer, natomiast Filistyni rozbili obóz w Afek. Filistyni ustawili szyki bojowe przeciw Izraelitom i rozgorzała walka. Izraelici zostali pokonani przez Filistynów, tak że poległo na pobojowisku, na równinie, około czterech tysięcy ludzi. Po powrocie ludzi do obozu starsi Izraela stawiali sobie pytanie: «Dlaczego Pan dotknął nas klęską z ręki Filistynów? Sprowadźmy sobie tutaj Arkę Przymierza Pańskiego z Szilo, ażeby znajdując się wśród nas, wyzwoliła nas z ręki naszych wrogów». Lud posłał więc do Szilo i przywieziono stamtąd Arkę Przymierza Pana Zastępów, który zasiada na cherubach. Przy Arce Przymierza Bożego byli tam dwaj synowie Helego: Chofni i Pinchas. Gdy Arka Przymierza Pańskiego dotarła do obozu, wszyscy Izraelici podnieśli głos w radosnym uniesieniu, aż ziemia drżała. Kiedy Filistyni usłyszeli głos okrzyków, mówili: «Co znaczy ów głos tak gromkich okrzyków w obozie izraelskim? » Gdy dowiedzieli się, że Arka Pańska przybyła do obozu, Filistyni przelękli się. Mówili: «Bóg przybył do obozu». Mówili: «Biada nam! Nigdy dawniej czegoś podobnego nie było. Biada nam! Kto nas wybawi z mocy tych potężnych bogów? Przecież to ci sami bogowie, którzy zesłali na Egipt wszelakie plagi na pustyni. Trzymajcie się dzielnie i bądźcie mężami, Filistyni, żebyście się nie stali niewolnikami Hebrajczyków, podobnie jak oni byli niewolnikami waszymi. Bądźcie więc mężami i walczcie!» Filistyni stoczyli bitwę i zwyciężyli Izraelitów, tak że każdy uciekł do swego namiotu. Klęska to była bardzo wielka. Zginęło bowiem trzydzieści tysięcy piechoty izraelskiej. Arka Boża została zabrana, a dwaj synowie Helego, Chofni i Pinchas, polegli. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 44 (43), 10-11. 14-15. 24-25 (R.: por. 27b)",
+      "opis": "",
+      "tekst": "Refren: Wyzwól nas, Panie, przez Twe miłosierdzie.\nOdrzuciłeś nas, Boże, i okryłeś wstydem, *\n\njuż nie wyruszasz z naszymi wojskami.\n\nSprawiłeś, że ustępujemy przed wrogiem, *\n\na ci, co nas nienawidzą, łup sobie zdobyli.\nRefren.\nWystawiłeś nas na wzgardę sąsiadów, *\n\nna śmiech otoczenia, na urągowisko.\n\nUczyniłeś nas przysłowiem wśród pogan, *\n\ngłowami potrząsają nad nami ludy.\nRefren.\nOcknij się! Dlaczego śpisz, Panie? *\n\nPrzebudź się! Nie odrzucaj nas na zawsze!\n\nDlaczego ukrywasz Twoje oblicze, *\n\nzapominasz o naszej nędzy i ucisku?\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\n\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 40-45",
+      "opis": "Uzdrowienie trędowatego",
+      "tekst": "Pewnego dnia przyszedł do Jezusa trędowaty i upadłszy na kolana, prosił Go: «Jeśli zechcesz, możesz mnie oczyścić ». A Jezus, zdjęty litością, wyciągnął rękę, dotknął go i rzekł do niego: «Chcę, bądź oczyszczony». Zaraz trąd go opuścił, i został oczyszczony. Jezus surowo mu przykazał i zaraz go odprawił, mówiąc mu: «Bacz, abyś nikomu nic nie mówił, ale idź, pokaż się kapłanowi i złóż za swe oczyszczenie ofiarę, którą przepisał Mojżesz, na świadectwo dla nich». Lecz on po wyjściu zaczął wiele opowiadać i rozgłaszać to, co zaszło, tak że Jezus nie mógł już jawnie wejść do miasta, lecz przebywał w miejscach pustynnych. A ludzie zewsząd schodzili się do Niego. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta wzywa do szukania pociechy u Jezusa, podobnie jak trędowaty z Ewangelii, który z wiarą prosił o uzdrowienie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Panu, a nie w zewnętrznych znakach, co jest lekcją z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Wołanie o pomoc z głębi nieszczęścia, jak w psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu trudów i znojów, co może być odpowiedzią na doświadczenie klęski Izraelitów z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy naszą nędzę i prosimy o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy, które mogły być przyczyną klęski, i prośbę o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, obecnego w Eucharystii, co nawiązuje do uzdrowienia trędowatego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę trędowatego, który z wiarą zbliża się do Jezusa po uzdrowienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorę i wiarę w uzdrawiającą moc słowa Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn dziękczynny za Bożą litość i pomoc, której wzywa psalmista i której doświadczył uzdrowiony z trądu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i ratunek, której doświadczył trędowaty.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i miłosierdzia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest ratunkiem w trudnościach opisanych w psalmie i pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o prawdziwej ufności w Bogu, w przeciwieństwie do zabobonnej wiary Izraelitów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Boga, jedynego prawdziwego Króla i Obrońcę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni dobrze współbrzmi z lamentacją psalmisty po klęsce Izraelitów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie i błogosławieństwo jest odpowiedzią zarówno na klęskę Izraela, jak i na cud uzdrowienia w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, pasująca do lamentacji psalmu i prośby trędowatego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyrażająca skruchę i żal za grzechy, które prowadzą do klęski.",
+      "moment": "ogolne"
+    }
+  ]
+}

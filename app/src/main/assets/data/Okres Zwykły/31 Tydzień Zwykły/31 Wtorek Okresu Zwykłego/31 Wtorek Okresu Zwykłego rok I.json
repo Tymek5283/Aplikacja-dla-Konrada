@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414879.Wtorek-31-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "31 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 12, 5-16a",
+      "opis": "Gorliwie wypełniać swoje zadanie w Kościele",
+      "tekst": "Bracia:\nWszyscy razem tworzymy jedno ciało w Chrystusie, a dla siebie nawzajem jesteśmy członkami. Mamy zaś według udzielonej nam łaski różne dary: bądź dar proroctwa - aby go stosować zgodnie z wiarą; bądź to urząd diakona - dla wykonywania czynności diakońskich; bądź urząd nauczyciela - dla wypełniania czynności nauczycielskich; bądź dar upominania - dla karcenia. Kto zajmuje się rozdawaniem, niech to czyni ze szczodrobliwością; kto jest przełożonym, niech działa z gorliwością; kto pełni uczynki miłosierdzia, niech to czyni ochoczo.\nMiłość niech będzie bez obłudy. Miejcie wstręt do złego, podążajcie za dobrem. W miłości braterskiej nawzajem bądźcie sobie życzliwi. W okazywaniu czci jedni drugich wyprzedzajcie. Nie opuszczajcie się w gorliwości. Bądźcie płomiennego ducha. Pełnijcie służbę Panu. Weselcie się nadzieją. W ucisku bądźcie cierpliwi, w modlitwie - wytrwali. Zaradzajcie potrzebom świętych. Przestrzegajcie gościnności.\nBłogosławcie tych, którzy was prześladują. Błogosławcie, a nie złorzeczcie. Weselcie się z tymi, którzy się weselą, płaczcie z tymi, którzy płaczą. Bądźcie między sobą jednomyślni. Nie gońcie za wielkością, lecz niech was pociąga to, co pokorne.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 131 (130), 1bcde. 2-3",
+      "opis": "",
+      "tekst": "Refren: Strzeż duszy mojej w Twym pokoju, Panie.\nPanie, moje serce się nie pyszni *\ni nie patrzą wyniośle moje oczy.\nNie dbam o rzeczy wielkie *\nani o to, co przerasta me siły.\nRefren.\nLecz uspokoiłem i uciszyłem moją duszę. †\nJak dziecko na łonie swej matki, *\njak ciche dziecko jest we mnie moja dusza.\nIzraelu, złóż nadzieję w Panu, *\nteraz i na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 15-24",
+      "opis": "Przypowieść o zaproszonych na ucztę",
+      "tekst": "Gdy Jezus siedział przy stole, jeden ze współbiesiadników rzekł do Niego: «Szczęśliwy ten, kto będzie ucztował w królestwie Bożym».\nOn zaś mu powiedział: «Pewien człowiek wyprawił wielką ucztę i zaprosił wielu. Kiedy nadeszła pora uczty, posłał swego sługę, aby powiedział zaproszonym: „Przyjdźcie, bo już wszystko jest gotowe”. Wtedy zaczęli się wszyscy jednomyślnie wymawiać. Pierwszy kazał mu powiedzieć: „Kupiłem pole, muszę wyjść je obejrzeć; proszę cię, uważaj mnie za usprawiedliwionego”. Drugi rzekł: „Kupiłem pięć par wołów i idę je wypróbować; proszę cię, uważaj mnie za usprawiedliwionego”. Jeszcze inny rzekł: „Poślubiłem żonę i dlatego nie mogę przyjść”.\nSługa powrócił i oznajmił to swemu panu. Wtedy rozgniewany gospodarz nakazał swemu słudze: „Wyjdź co prędzej na ulice i w zaułki miasta i sprowadź tu ubogich, ułomnych, niewidomych i chromych!” Sługa oznajmił: „Panie, stało się, jak rozkazałeś, a jeszcze jest miejsce”. Na to pan rzekł do sługi: „Wyjdź na drogi i między opłotki i przynaglaj do wejścia, aby mój dom był zapełniony.\nAlbowiem powiadam wam: Żaden z owych ludzi, którzy byli zaproszeni, nie skosztuje mojej uczty”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń wprost nawiązuje do przypowieści z Ewangelii o uczcie, na którą gospodarz zaprasza ubogich i chromych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do udziału w liturgii, która jest zapowiedzią uczty w królestwie Bożym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, które koresponduje z zaproszeniem na ucztę z Ewangelii, skierowanym do wszystkich utrudzonych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na zaproszenie na ucztę, ta pieśń jest aktem ofiarowania Bogu całego siebie, by z czystym sercem uczestniczyć w Jego królestwie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, która jest jednym z darów, jakimi służymy we wspólnocie Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na naszą służbę w Kościele, abyśmy gorliwie wykorzystywali otrzymane dary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Aklamacja i Ewangelia są zaproszeniem na ucztę. Ta pieśń jest naszą odpowiedzią na to zaproszenie i prośbą o pokrzepienie w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, który zaprasza na swoją ucztę ubogich i odrzuconych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja najgłębsze pragnienia serca i karmi tych, którzy przyjęli Jego zaproszenie na ucztę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękczynienie za dar Eucharystii - uczty, na którą Bóg zaprasza nas wszystkich, a o której mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar powołania do wspólnoty Kościoła i za różnorodne dary łaski, o których mówi św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą uwielbienia i prośbą o jedność dla Kościoła, który jest jednym ciałem złożonym z wielu członków.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pierwsze czytanie mówi o różnych darach i służbach w Kościele. Ta pieśń jest hymnem na cześć całego Ludu Bożego, zjednoczonego jako jedno ciało.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jesteśmy posłani, aby żyć miłością braterską, o której z taką mocą pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby zapraszać wszystkich na ucztę Pańską, zwłaszcza tych z 'ulic i zaułków miasta'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla, że w Eucharystii tworzymy jedno ciało w Chrystusie, co jest główną myślą pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "W kontekście pierwszego czytania o jedności w Ciele Chrystusa, ta pieśń jest modlitwą o jedność i miłość we wspólnocie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pierwsze czytanie ukazuje Kościół jako jedno ciało, jedną rodzinę, w której każdy ma swoje miejsce i zadanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie pokory i bliskości z Bogiem, co jest postawą opisaną w psalmie responsoryjnym.",
+      "moment": "ogolne"
+    }
+  ]
+}

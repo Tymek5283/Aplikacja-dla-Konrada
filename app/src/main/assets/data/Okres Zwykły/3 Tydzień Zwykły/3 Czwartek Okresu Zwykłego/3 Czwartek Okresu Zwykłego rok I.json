@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415482.Czwartek-III-tydzien-zwykly-rok-I",
+  "tytul_dnia": "3 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 10, 19-25",
+      "opis": "Wezwanie do wytrwania",
+      "tekst": "Bracia, mamy pewność, iż wejdziemy do Miejsca Świętego przez krew Jezusa. On nam zapoczątkował drogę nową i żywą, przez zasłonę, to jest przez ciało swoje. Mając zaś kapłana wielkiego, który jest nad domem Bożym, przystąpmy z sercem prawym, z wiarą pełną, oczyszczeni na duszy od wszelkiego zła świadomego i obmyci na ciele wodą czystą.\nTrzymajmy się niewzruszenie nadziei, którą wyznajemy, bo godny jest zaufania Ten, który dał obietnicę. Troszczmy się o siebie wzajemnie, by się zachęcać do miłości i do dobrych uczynków. Nie opuszczajmy naszych wspólnych zebrań, jak się to stało zwyczajem niektórych, ale zachęcajmy się nawzajem, i to tym bardziej, im wyraźniej widzicie, że zbliża się dzień.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 119 (118), 105",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Twoje słowo jest pochodnią dla stóp moich, Panie,\ni światłem na mojej ścieżce."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 21-25",
+      "opis": "Przypowieść o świetle",
+      "tekst": "Jezus mówił ludowi:\n«Czy po to wnosi się światło, by je umieścić pod korcem lub pod łóżkiem? Czy nie po to, żeby je umieścić na świeczniku? Nie ma bowiem nic ukrytego, co by nie miało wyjść na jaw. Kto ma uszy do słuchania, niechaj słucha!»\nI mówił im: «Baczcie na to, czego słuchacie. Taką samą miarą, jaką wy mierzycie, odmierzą wam i jeszcze wam dołożą. Bo kto ma, temu będzie dodane; a kto nie ma, pozbawią go nawet tego, co ma».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, co jest obowiązkiem tych, którzy otrzymali światło wiary, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym wezwaniem do głoszenia zbawienia Pana, co jest zadaniem tych, którzy są światłem świata.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do oddawania czci Bogu, co jest postawą ludu wiernego, szukającego Boga, o którym mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych dobrych uczynków, do których zachęca List do Hebrajczyków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud bycia światłem dla innych i zachęcania do dobrych uczynków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "W ofierze składamy nasze życie, prosząc, by stało się ono światłem dla świata, na wzór Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która jest światłem umieszczonym na świeczniku, aby oświecać innych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest naszym światłem i pokarmem na drodze wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszym światłem i życiem, dawanym nam w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na dary Boże, których miarą jest nasza hojność wobec Boga i bliźnich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar wiary, która jest światłem na naszej drodze, o czym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże błogosławieństwo, które otrzymuje człowiek czystego serca, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jest to pieśń misyjna, która wzywa do niesienia światła Ewangelii wszystkim narodom, aby nic nie pozostało w ukryciu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszym światłem i drogą, którą chcemy podążać i ukazywać innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, abyśmy mogli być światłem dla świata i nieść je innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do wezwania z pierwszego czytania: 'Troszczmy się o siebie wzajemnie, by się zachęcać do miłości i do dobrych uczynków'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Przypomina o Chrystusie, który jest światłem i zapoczątkował nam nową drogę do Miejsca Świętego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czystego serca, nawiązuje do psalmu, który pyta, kto może stanąć w świętym miejscu Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które jest światłem, trwało w nas i nas prowadziło.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 45, 11-12. 14-17",
-      "opis": "Refren:",
-      "tekst": "Posłuchaj, córko, spójrz i nakłoń ucha\nPosłuchaj, córko, spójrz i nakłoń ucha,\nzapomnij o swym ludzie, o domu twego ojca.\nKról pragnie twego piękna,\non twoim panem, oddaj mu pokłon.\nCóra królewska wchodzi pełna chwały,\nodziana w złotogłów.\nW szacie wzorzystej prowadzą ją do króla,\nza nią przywodzą do ciebie dziewice, jej druhny.\nZ weselem je wiodą i w uniesieniu,\nwkraczają do królewskiego pałacu.\nSynowie twoi zajmą miejsce twoich ojców,\nustanowisz ich książętami na całej ziemi."
+      "opis": "",
+      "tekst": "Refren:\nPosłuchaj, córko, spójrz i nakłoń ucha\nPosłuchaj, córko, spójrz i nakłoń ucha,\nzapomnij o swym ludzie, o domu twego ojca.\nKról pragnie twego piękna,\non twoim panem, oddaj mu pokłon.\nCóra królewska wchodzi pełna chwały,\nodziana w złotogłów.\nW szacie wzorzystej prowadzą ją do króla,\nza nią przywodzą do ciebie dziewice, jej druhny.\nZ weselem je wiodą i w uniesieniu,\nwkraczają do królewskiego pałacu.\nSynowie twoi zajmą miejsce twoich ojców,\nustanowisz ich książętami na całej ziemi."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Choć pieśń zwraca się do męczennika, jej treść o wierności Chrystusowi aż do śmierci idealnie pasuje do postaci św. Teresy Benedykty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta oddaje ducha poszukiwania prawdy, które charakteryzowało całe życie Edyty Stein, od filozofii po mistykę krzyża.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "582",
       "piesn": "O dobry Jezu",
       "opis": "Pieśń mówi o naśladowaniu Chrystusa i pójściu za Nim, co idealnie oddaje duchowość Edyty Stein, która oddała życie za wiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "W tej pieśni ofiarujemy Bogu samych siebie, na wzór św. Teresy Benedykty, która swoje życie złożyła w ofierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o ofierze krzyżowej Chrystusa, z którą św. Teresa Benedykta od Krzyża zjednoczyła swoje życie i męczeńską śmierć.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która mówi o pragnieniu zjednoczenia z Chrystusem, co było centrum duchowości karmelitańskiej Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Prosta i głęboka modlitwa o zjednoczenie z Sercem Jezusa, co było pragnieniem św. Teresy Benedykty.",
+      "moment": "komunia"
+    },
+    {
       "numer": "574",
       "piesn": "Wielbimy Ciebie, wszechmogący Boże",
       "opis": "Hymn na cześć męczenników, który jest stosowny dla uczczenia ofiary życia złożonej przez św. Teresę Benedyktę od Krzyża.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń ta jest uwielbieniem Boga za dar świętych, w tym za świadectwo wiary i męczeństwa patronki dnia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn wdzięczności, który wyraża podziw dla Bożej mądrości, której szukała i którą odnalazła w Chrystusie Edyta Stein.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "109",
       "piesn": "Pan Jezus grzechy nasze",
       "opis": "Pieśń pasyjna nawiązuje do tajemnicy krzyża, która była w centrum duchowości i imienia zakonnego Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń ta wyraża pragnienie zjednoczenia z Bogiem w krzyżu i cierpieniu, co jest głównym przesłaniem życia św. Teresy Benedykty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie, że Chrystus jest drogą, prawdą i życiem, jest podsumowaniem drogi wiary Edyty Stein, która odnalazła w Nim pełnię prawdy.",
       "moment": "rozeslanie"
     },
     {
@@ -68,7 +128,19 @@
     {
       "numer": "580",
       "piesn": "Szczęśliwi ludzie szukający Boga",
-      "opis": "Pieśń ta oddaje ducha poszukiwania prawdy, które charakteryzowało życie Edyty Stein – od filozofii do pełni wiary w Chrystusie.",
+      "opis": "Pieśń ta oddaje ducha poszukiwania prawdy, które charakteryzowało życie Edyty Stein - od filozofii do pełni wiary w Chrystusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo dla cierpiących prześladowanie dla sprawiedliwości w pełni zrealizowało się w męczeńskiej śmierci Świętej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest nadzieją, która zwycięża zło i śmierć, co było fundamentem męstwa św. Teresy Benedykty.",
       "moment": "ogolne"
     }
   ]

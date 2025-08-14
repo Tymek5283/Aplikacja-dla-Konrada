@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/556986.Niedziela-rok-B",
+  "tytul_dnia": "19 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 19, 4-8",
+      "opis": "Cudowny pokarm przywraca siły Eliaszowi",
+      "tekst": "Eliasz poszedł na pustynię na odległość jednego dnia drogi. Przyszedłszy, usiadł pod jednym z janowców i pragnąc umrzeć, powiedział: «Wielki już czas, o Panie! Zabierz moje życie, bo nie jestem lepszy od moich przodków». Po czym położył się pod jednym z janowców i zasnął.\nA oto anioł, trącając go, powiedział mu: «Wstań, jedz!»\nEliasz spojrzał, a oto przy jego głowie podpłomyk i dzban z wodą. Zjadł więc i wypił, i znów się położył.\nPonownie anioł Pański wrócił i trącając go, powiedział: «Wstań, jedz, bo przed tobą długa droga». Powstawszy zatem, zjadł i wypił. Następnie umocniony tym pożywieniem szedł czterdzieści dni i czterdzieści nocy aż do Bożej góry Horeb.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 4-5. 6-7. 8-9 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Wszyscy zobaczcie, jak nasz Pan jest dobry.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nWysławiajcie razem ze mną Pana, *\nwspólnie wywyższajmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał *\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał, *\ni uwolnił od wszelkiego ucisku.\nRefren.\nAnioł Pański otacza szańcem bogobojnych, *\naby ich ocalić.\nSkosztujcie i zobaczcie, jak Pan jest dobry, *\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 4, 30 - 5, 2",
+      "opis": "Naśladować Boga, który objawił swoją miłość w Chrystusie",
+      "tekst": "Bracia:\nNie zasmucajcie Bożego Ducha Świętego, którym zostaliście opieczętowani na dzień odkupienia. Niech zniknie spośród was wszelka gorycz, uniesienie, gniew, wrzaskliwość, znieważanie - wraz z wszelką złością. Bądźcie dla siebie nawzajem dobrzy i miłosierni. Przebaczajcie sobie, tak jak i Bóg wam przebaczył w Chrystusie.\nBądźcie więc naśladowcami Boga, jako dzieci umiłowane, i postępujcie drogą miłości, bo i Chrystus was umiłował i samego siebie wydał za nas w ofierze i dani na woń miłą Bogu.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 51ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem chlebem żywym, który zstąpił z nieba.\nJeśli ktoś spożywa ten chleb, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 41-51",
+      "opis": "Chleb żywy, który zstąpił z nieba",
+      "tekst": "Żydzi szemrali przeciwko Jezusowi, dlatego że powiedział: «Ja jestem chlebem, który z nieba zstąpił». I mówili: «Czyż to nie jest Jezus, syn Józefa, którego ojca i matkę my znamy? Jakżeż może Он teraz mówić: Z nieba zstąpiłem».\nJezus rzekł im w odpowiedzi: «Nie szemrajcie między sobą! Nikt nie może przyjść do Mnie, jeżeli go nie pociągnie Ojciec, który Mnie posłał; Ja zaś wskrzeszę go w dniu ostatecznym. Napisane jest u Proroków: „Oni wszyscy będą uczniami Boga”. Każdy, kto od Ojca usłyszał i przyjął naukę, przyjdzie do Mnie. Nie znaczy to, aby ktokolwiek widział Ojca; jedynie Ten, który jest od Boga, widział Ojca. Zaprawdę, zaprawdę, powiadam wam: Kto we Mnie wierzy, ma życie wieczne.\nJa jestem chlebem życia. Ojcowie wasi jedli mannę na pustyni i pomarli. To jest chleb, który z nieba zstępuje: Kto go je, nie umrze. Ja jestem chlebem żywym, który zstąpił z nieba. Jeśli ktoś spożywa ten chleb, będzie żył na wieki. Chlebem, który Ja dam, jest moje Ciało, wydane za życie świata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest dosłownym zaproszeniem z psalmu responsoryjnego, a jej treść nawiązuje do pokarmu, który Bóg daje człowiekowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do przyjścia do Chrystusa, Chleba Żywego, który jako jedyny może zaspokoić głód naszego serca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża tęsknotę za Bogiem, który w Ewangelii objawia się jako Chleb dający życie wieczne.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Drugie czytanie wzywa do życia miłością i przebaczeniem, co stanowi istotę duchowej ofiary składanej Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Ofiarujemy Bogu nasze pragnienie życia według przykazania miłości, naśladując Chrystusa, który wydał za nas samego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża oddanie się Bogu i pragnienie życia w miłości, do czego zachęca drugie czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń jest bezpośrednim echem słów Jezusa z Ewangelii, w której objawia On siebie jako Chleb dający życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Jest to wyznanie wiary w Jezusa, Chleb Żywy, który zstąpił z nieba, aby dać życie światu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń łączy w sobie temat pokarmu umacniającego w drodze (jak Eliasza) i daru Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Jest to pieśń dziękczynna za dar Eucharystii, w której Chrystus wydał samego siebie za nas w ofierze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "236",
+      "piesn": "Chwała i dziękczynienie",
+      "opis": "Prosta aklamacja uwielbienia, która jest doskonałą odpowiedzią na dar Chleba Żywego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń jest wezwaniem do miłości Pana, który umiłował nas i wydał za nas samego siebie, jak mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Posileni Chlebem Życia, jesteśmy posłani, by postępować drogą miłości, naśladując Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy umocnieni Chlebem z nieba, mogli naśladować Boga jako Jego umiłowane dzieci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić światu Dobrą Nowinę o Chlebie, który daje życie wieczne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Historia Eliasza jest przykładem Bożej opieki nad tymi, którzy Mu ufają, co jest główną myślą tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "281",
+      "piesn": "Witaj, Pokarmie",
+      "opis": "Pieśń adoracyjna, która sławi Eucharystię jako cudowny pokarm, zapowiedziany przez posiłek Eliasza na pustyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń wysławia Ucztę Eucharystyczną, która jest wypełnieniem obietnicy Chleba z nieba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyraża wiarę w Chrystusa, Chleb Życia, która jest warunkiem posiadania życia wiecznego, jak uczy Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

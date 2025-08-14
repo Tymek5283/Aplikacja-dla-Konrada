@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416870.Wtorek-27-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "27 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 1, 13-24",
+      "opis": "Paweł powołany przez Chrystusa",
+      "tekst": "Bracia:\nSłyszeliście o moim wcześniejszym postępowaniu, gdy jeszcze wyznawałem judaizm, jak z niezwykłą gorliwością zwalczałem Kościół Boży i usiłowałem go zniszczyć, jak w żarliwości dla judaizmu przewyższałem wielu moich rówieśników z mego narodu, jak byłem szczególnie wielkim zapaleńcem w zachowywaniu tradycji moich przodków.\nGdy jednak spodobało się Temu, który wybrał mnie jeszcze w łonie matki mojej i powołał łaską swoją, aby objawić Syna swego we mnie, bym Ewangelię o Nim głosił poganom, natychmiast, nie radząc się ciała i krwi ani nie udając się do Jerozolimy, do tych, którzy apostołami stali się pierwej niż ja, skierowałem się do Arabii, a później znowu wróciłem do Damaszku. Następnie, trzy lata później, udałem się do Jerozolimy, aby poznać się z Kefasem, i zatrzymałem się u niego tylko piętnaście dni. Spośród zaś innych, którzy należą do grona apostołów, widziałem jedynie Jakuba, brata Pańskiego. A Bóg jest mi świadkiem, że w tym, co tu do was piszę, nie kłamię.\nPotem udałem się do krain Syrii i Cylicji. Kościołom zaś chrześcijańskim w Judei pozostawałem osobiście nieznany. Docierała do nich jedynie wieść: ten, co dawniej nas prześladował, teraz jako Dobrą Nowinę głosi wiarę, którą wcześniej usiłował wytępić. I wielbili Boga z mego powodu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 139 (138), 1b-3. 13-14b. 14c-15 (R.: por. 24b)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, swą drogą odwieczną.\nPrzenikasz i znasz mnie, Panie, *\nTy wiesz, kiedy siedzę i wstaję.\nZ daleka spostrzegasz moje myśli, †\nprzyglądasz się, jak spoczywam i chodzę, *\ni znasz wszystkie moje drogi.\nRefren.\nTy bowiem stworzyłeś moje wnętrze *\ni utkałeś mnie w łonie mej matki.\nSławię Cię, że mnie tak cudownie stworzyłeś, *\ngodne podziwu są Twoje dzieła.\nRefren.\nI duszę moją znasz do głębi. *\nNie byłem dla Ciebie tajemnicą,\nkiedy w ukryciu nabierałem kształtów, *\nutkany we wnętrzu ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 38-42",
+      "opis": "Jezus w gościnie u Marty i Marii",
+      "tekst": "Jezus przyszedł do jednej wsi. Tam pewna niewiasta, imieniem Marta, przyjęła Go w swoim domu. Miała ona siostrę, imieniem Maria, która usiadłszy u nóg Pana, słuchała Jego słowa. Marta zaś uwijała się około rozmaitych posług. A stanąwszy przy Nim, rzekła: «Panie, czy Ci to obojętne, że moja siostra zostawiła mnie samą przy usługiwaniu? Powiedz jej, żeby mi pomogła».\nA Pan jej odpowiedział: «Marto, Marto, martwisz się i niepokoisz o wiele, a potrzeba mało albo tylko jednego. Maria obrała najlepszą cząstkę, której nie będzie pozbawiona».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Pana, co koresponduje z gościnnością Marty i Marii z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Wezwanie do oddania czci Bogu, który nas powołał i wybrał, jak św. Pawła, i który gości w naszych domach, jak u Marty i Marii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Wcieleniu i powołaniu, które jest darem łaski, jak podkreśla św. Paweł w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń mówi o całkowitym oddaniu się Bogu, co jest echem powołania św. Pawła i postawy Marii zasłuchanej w słowa Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie Bogu owoców naszej pracy łączy w sobie postawę służby (Marta) i oddania (Maria).",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o powołaniu do służby jest odpowiedzią na dar łaski, o której z wdzięcznością mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Przygotowanie serca na przyjście Chrystusa łączy postawę służby (Marta) i kontemplacji (Maria), które dopełniają się w przyjęciu Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i pragnienie godnego przyjęcia Jezusa, co jest owocem zasłuchania w Jego słowo, jak Maria.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca jest echem postawy Marii, która całą sobą skupiła się na słuchaniu Mistrza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń ta, oparta na Psalmie 139, idealnie pasuje do psalmu responsoryjnego, mówiąc o Bogu, który zna nas od poczęcia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar Bożego Słowa, które jest 'najlepszą cząstką', jak uczy Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar powołania i łaski, o którym z wdzięcznością świadczy św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń ta łączy troskę o codzienne sprawy (jak Marta) z powierzeniem ich Bogu (jak Maria), stanowiąc dobre podsumowanie dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus i Jego słowo są naszą drogą, co jest wyborem 'lepszej cząstki'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud łączenia codziennej pracy (jak Marta) ze słuchaniem Słowa (jak Maria).",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "493",
+      "piesn": "Wysławiamy ciebie, Marto",
+      "opis": "Pieśń bezpośrednio odnosi się do postaci z Ewangelii, ukazując wartość zarówno służby, jak i słuchania Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie jest odpowiedzią na świadectwo św. Pawła, którego Bóg wybrał i prowadził od łona matki.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana i Jego Słowa w naszym życiu jest odpowiedzią na Ewangelię o Marcie i Marii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "587",
+      "piesn": "Boże, dlatego dałeś nam życie",
+      "opis": "Pieśń jest wyznaniem wdzięczności za dar życia i powołania, które, jak pokazuje św. Paweł, jest darem Bożej łaski.",
+      "moment": "ogolne"
+    }
+  ]
+}

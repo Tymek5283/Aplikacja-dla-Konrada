@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416204.Poniedzialek-VIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "8 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 1, 3-9",
+      "opis": "Dziękczynienie Bogu Ojcu, który nas zbawił przez Chrystusa",
+      "tekst": "Niech będzie błogosławiony Bóg i Ojciec Pana naszego, Jezusa Chrystusa. On w swoim wielkim miłosierdziu przez powstanie z martwych Jezusa Chrystusa na nowo zrodził nas do żywej nadziei: do dziedzictwa niezniszczalnego i niepokalanego, i niewiędnącego, które jest zachowane dla was w niebie. Wy bowiem jesteście przez wiarę strzeżeni mocą Bożą dla zbawienia, gotowego objawić się w czasie ostatecznym.\nDlatego radujcie się, choć teraz musicie doznać trochę smutku z powodu różnorodnych doświadczeń. Przez to wartość waszej wiary okaże się o wiele cenniejsza od zniszczalnego złota, które przecież próbuje się w ogniu, na sławę, chwałę i cześć przy objawieniu Jezusa Chrystusa. Wy, choć nie widzieliście, miłujecie Go; wy w Niego teraz, choć nie widzicie, przecież wierzycie, a ucieszycie się radością niewymowną i pełną chwały wtedy, gdy osiągniecie cel waszej wiary - zbawienie dusz.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 1b-2. 5-6. 9 i 10c (R.: 5b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\nZ całego serca będę chwalił Pana *\nw radzie sprawiedliwych i na zgromadzeniu.\nWielkie są dzieła Pana, *\nzgłębiać je mają wszyscy, którzy je miłują.\nRefren.\nDał pokarm bogobojnym, *\npamiętać będzie wiecznie o swoim przymierzu.\nLudowi swemu okazał potęgę dzieł swoich, *\noddając im posiadłości pogan.\nRefren.\nZesłał odkupienie swojemu ludowi, *\nna wieki ustanowił swoje przymierze,\nimię Jego jest święte i wzbudza trwogę, *\na Jego sprawiedliwość będzie trwać na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 8, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus Chrystus, będąc bogatym, dla was stał się ubogim,\naby was ubóstwem swoim ubogacić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 17-27",
+      "opis": "Należy wszystko porzucić, aby iść za Jezusem",
+      "tekst": "Gdy Jezus wybierał się w drogę, przybiegł pewien człowiek i upadłszy przed Nim na kolana, zaczął Go pytać: «Nauczycielu dobry, co mam czynić, aby osiągnąć życie wieczne?»\nJezus mu rzekł: «Czemu nazywasz Mnie dobrym? Nikt nie jest dobry, tylko sam Bóg. Znasz przykazania: Nie zabijaj, nie cudzołóż, nie kradnij, nie zeznawaj fałszywie, nie oszukuj, czcij swego ojca i matkę».\nOn Mu odpowiedział: «Nauczycielu, wszystkiego tego przestrzegałem od mojej młodości».\nWtedy Jezus spojrzał na niego z miłością i rzekł mu: «Jednego ci brakuje. Idź, sprzedaj wszystko, co masz, i rozdaj ubogim, a będziesz miał skarb w niebie. Potem przyjdź i chodź za Mną». Lecz on spochmurniał na te słowa i odszedł zasmucony, miał bowiem wiele posiadłości.\nWówczas Jezus spojrzał dookoła i rzekł do swoich uczniów: «Jak trudno tym, którzy mają dostatki, wejść do królestwa Bożego». Uczniowie przerazili się Jego słowami, lecz Jezus powtórnie im rzekł: «Dzieci, jakże trudno wejść do królestwa Bożego tym, którzy w dostatkach pokładają ufność. Łatwiej jest wielbłądowi przejść przez ucho igielne, niż bogatemu wejść do królestwa Bożego».\nA oni tym bardziej się dziwili i mówili między sobą: «Któż więc może być zbawiony?»\nJezus popatrzył na nich i rzekł: «U ludzi to niemożliwe, ale nie u Boga; bo u Boga wszystko jest możliwe».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta wyraża żywą nadzieję, o której mówi pierwsze czytanie, płynącą ze zmartwychwstania Jezusa Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który jest źródłem naszej nadziei i zbawienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem zbawienia, które otrzymaliśmy przez zmartwychwstanie Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę, do której Jezus zaprasza bogatego młodzieńca - oddania wszystkiego, by pójść za Nim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i uznania, że wszystko co mamy, pochodzi od Boga, co przeciwstawia się postawie bogatego młodzieńca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, byśmy nie pokładali ufności w dostatkach, lecz w Nim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ukazuje Chrystusa jako prawdziwy skarb w niebie, cenniejszy niż wszelkie posiadłości, których żądał od młodzieńca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która jest prawdziwym skarbem, o który warto zabiegać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę ubóstwa ducha i wiary w obliczu tajemnicy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar odkupienia i przymierza, o których z wdzięcznością mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za wielkie dzieła Pana, o których mówi psalm, a które są źródłem naszej nadziei.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar zbawienia i nadziei, które są cenniejsze niż wszelkie bogactwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą, którą wskazuje Jezus, a która dla ludzi jest niemożliwa bez Bożej pomocy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do życia wiecznego, o które pytał młodzieniec.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o prawdziwym skarbie, którym jest Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy ubóstwa w duchu, która jest warunkiem wejścia do królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Bogu, a nie dostatkom, co jest głównym tematem Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która jest prawdziwym bogactwem, w przeciwieństwie do dóbr materialnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest prawdziwym skarbem, o którym mówi Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

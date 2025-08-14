@@ -42,15 +42,51 @@
       "moment": "wejscie"
     },
     {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń przypomina o Zwiastowaniu, które poprzedzało i umożliwiło scenę Nawiedzenia opisaną w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, które jest tłem dla wydarzeń z Ewangelii o Nawiedzeniu.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "695",
       "piesn": "Przyjmij, o Najświętszy Panie",
       "opis": "Drugie czytanie mówi o ofierze Ciała Chrystusa, a my w geście ofiarowania składamy dary, które się w nie przemienią.",
       "moment": "ofiarowanie"
     },
     {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "Wraz z darami chleba i wina składamy nasze serca, naśladując fiat Maryi, która uwierzyła słowu Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
       "numer": "323",
       "piesn": "Boga Rodzico",
+      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i posłuszeństwa podziwiamy w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
       "opis": "Ewangelia o Nawiedzeniu podkreśla godność Maryi jako Matki Pana, a pieśń ta jest aktem czci i zawierzenia Tej, która przynosi nam Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia jako Tej, która zrodziła światu Zbawiciela.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Maryi niosącej Pana w swoim łonie.",
       "moment": "komunia"
     },
     {
@@ -60,9 +96,33 @@
       "moment": "uwielbienie"
     },
     {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki, którą Elżbieta nazywa 'Matką mojego Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, którego przyjście wywołuje radość u Elżbiety i poruszenie dzieciątka w jej łonie.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "384",
       "piesn": "Pozdrowiona bądź, Królowo",
       "opis": "Pieśń ta, będąca parafrazą 'Salve Regina', jest modlitwą o wstawiennictwo Tej, która jest Matką naszego Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą ostatniej niedzieli Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, którego narodzenie jest już tak bliskie.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "26",
       "piesn": "Pragniemy Ciebie",
       "opis": "Pieśń wyraża adwentowe oczekiwanie na przyjście Pana, którego Maryja nosi w swoim łonie, spiesząc do Elżbiety.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Wielka antyfona 'O Emmanuelu' wzywa Króla i Prawodawcę, który przychodzi, by być 'Bogiem z nami'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście jest już bliskie.",
       "moment": "ogolne"
     }
   ]

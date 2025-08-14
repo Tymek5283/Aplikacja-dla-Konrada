@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424673.Poniedzialek-23-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "23 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 1, 24 - 2, 3",
+      "opis": "Udział Pawła w misterium Chrystusa",
+      "tekst": "Bracia:\nTeraz raduję się w cierpieniach za was i ze swej strony dopełniam niedostatki udręk Chrystusa w moim ciele dla dobra Jego Ciała, którym jest Kościół. Jego sługą stałem się z powodu zleconego mi wobec was Bożego włodarstwa: mam wypełnić posłannictwo głoszenia słowa Bożego.\nTajemnica ta, ukryta od wieków i pokoleń, została teraz objawiona Jego świętym, którym Bóg zechciał oznajmić, jakie jest bogactwo chwały tej tajemnicy pośród pogan. Jest nią Chrystus pośród was - nadzieja chwały. Jego to głosimy, upominając każdego człowieka i ucząc każdego człowieka z całą mądrością, aby każdego człowieka przedstawić jako doskonałego w Chrystusie. Po to właśnie się trudzę, walcząc Jego mocą, która potężnie działa we mnie.\nChcę bowiem, abyście wiedzieli, jak wielką walkę toczę o was, o tych, którzy są w Laodycei, i o tych wszystkich, którzy nie widzieli mnie osobiście, aby ich serca doznały pokrzepienia, aby przez miłość wyuczeni, osiągnęli pełnię rozumienia, w całym jego bogactwie, i głębsze poznanie tajemnicy Boga - Chrystusa. W Nim wszystkie skarby mądrości i wiedzy są ukryte.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 62 (61), 6-7. 9 (R.: por. 7a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest opoką i zbawieniem moim.\nJedynie w Bogu szukaj spokoju, duszo moja, *\nbo od Niego pochodzi moja nadzieja.\nTylko On jest opoką i zbawieniem moim, *\nOn moją twierdzą, więc się nie zachwieję.\nRefren.\nW każdym czasie *\nJemu ufaj, narodzie.\nPrzed Nim wylejcie wasze serca, *\nBóg jest naszą ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 6-11",
+      "opis": "Uzdrowienie w szabat",
+      "tekst": "W szabat Jezus wszedł do synagogi i nauczał. A był tam człowiek, który miał uschłą prawą rękę. Uczeni zaś w Piśmie i faryzeusze śledzili Go, czy w szabat uzdrawia, żeby znaleźć powód do oskarżenia Go.\nOn wszakże znał ich myśli i rzekł do człowieka, który miał uschłą rękę: «Podnieś się i stań na środku!» Podniósł się i stanął. Wtedy Jezus rzekł do nich: «Pytam was: Czy wolno w szabat czynić coś dobrego, czy coś złego, życie ocalić czy zniszczyć?» I spojrzawszy dokoła po wszystkich, rzekł do niego: «Wyciągnij rękę!» Uczynił to, i jego ręka stała się znów zdrowa.\nOni zaś wpadli w szał i naradzali się między sobą, jak mają postąpić wobec Jezusa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do spotkania z Chrystusem, który w Ewangelii objawia swoją uzdrawiającą moc.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń głosi Chrystusa jako nadzieję chwały, co jest centralnym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na słowa psalmu: 'Pan jest opoką i zbawieniem moim'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń ta łączy tajemnicę krzyża z darem łaski, co jest echem słów św. Pawła o dopełnianiu udręk Chrystusa dla dobra Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy nasze trudy i cierpienia, łącząc je z ofiarą Chrystusa dla dobra Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Jezus wzywa do siebie utrudzonych, a my w ofierze składamy Mu nasze trudy, na wzór św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń wyraża zwrócenie się do Pana, który jest naszą ucieczką i zbawieniem, jak głosi psalm responsoryjny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Chrystusem, który uzdrawia i daje pokrzepienie sercom, jak pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża pokorę i wiarę w moc Chrystusa, który uzdrawia i jest naszą nadzieją chwały.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Boże prowadzenie jest odpowiedzią na Jego moc, która potężnie działa w nas, jak pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń jest dziękczynieniem za dar Chrystusa, który jest pośród nas nadzieją chwały.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary jest odpowiedzią na Jego łaskę, która pokrzepia serca wierzących.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest spoiwem Kościoła i motywacją do czynienia dobra, jakiego przykład daje Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud głoszenia Ewangelii i czynienia dobra jest echem postawy św. Pawła i Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, który jest naszą nadzieją i celem życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina, że cały Kościół, Ciało Chrystusa, uczestniczy w Jego misji i cierpieniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, dla którego dobra trudzi się i cierpi św. Paweł, jest stosowną pieśnią na ten dzień.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Boga, który jest naszą opoką i twierdzą, jak głosi psalm.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Ufność w Jezusa jest źródłem siły do znoszenia cierpień dla dobra Kościoła, o czym pisze św. Paweł.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425143.Wtorek-22-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "22 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 2, 10b-16",
+      "opis": "Duch Boży daje poznanie Boga",
+      "tekst": "Bracia:\nDuch przenika wszystko, nawet głębokości Boga samego. Kto zaś z ludzi zna to, co ludzkie, jeżeli nie duch, który jest w człowieku? Podobnie i tego, co Boskie, nie zna nikt, tylko Duch Boży. Otóż my nie otrzymaliśmy ducha świata, lecz Ducha, który jest z Boga, dla poznania dobra, jakim Bóg nas obdarzył. A głosimy to nie za pomocą wyszukanych słów ludzkiej mądrości, lecz korzystamy z pouczeń Ducha, przedkładając duchowe sprawy tym, którzy są z Ducha.\nCzłowiek zmysłowy bowiem nie pojmuje tego, co jest z Bożego Ducha. Głupstwem mu się to wydaje i nie może tego pojąć, bo tylko duchem można to zrozumieć. Człowiek zaś duchowy rozsądza wszystko, lecz sam przez nikogo nie jest sądzony. Któż więc poznał zamysł Pana tak, by Go mógł pouczać? My właśnie znamy zamysł Chrystusowy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 8-9. 10-11. 12-13. 14 i 17 (R.: 17a)",
+      "opis": "",
+      "tekst": "Refren: Pan sprawiedliwy na wszystkich swych drogach.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nAby synom ludzkim oznajmić Twoją potęgę *\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków, *\nprzez wszystkie pokolenia Twoje panowanie.\nRefren.\nPan podtrzymuje wszystkich, którzy upadają, *\ni podnosi wszystkich zgnębionych.\nPan jest sprawiedliwy na wszystkich swych drogach *\ni łaskawy we wszystkich swoich dziełach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 31-37",
+      "opis": "Uzdrowienie opętanego",
+      "tekst": "Jezus udał się do Kafarnaum, miasta w Galilei, i tam nauczał w szabat. Zdumiewali się Jego nauką, gdyż słowo Jego było pełne mocy.\nA był w synagodze człowiek, który miał w sobie ducha nieczystego. Zaczął on krzyczeć wniebogłosy: «Och, czego chcesz od nas, Jezusie Nazarejczyku? Przyszedłeś nas zgubić? Wiem, kto jesteś: Święty Boga». Lecz Jezus rozkazał mu surowo: «Milcz i wyjdź z niego!» Wtedy zły duch rzucił go na środek i wyszedł z niego, nie wyrządzając mu żadnej szkody.\nWprawiło to wszystkich w zdumienie, i mówili między sobą: «Cóż to za słowo, że z władzą i mocą rozkazuje nawet duchom nieczystym, i wychodzą».\nI wieść o Nim rozchodziła się wszędzie po okolicy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Hymn do Ducha Świętego doskonale wprowadza w tematykę pierwszego czytania, które mówi o Duchu, który przenika głębokości Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Hymn ten jest modlitwą o Ducha Świętego, aby oświecał nasze umysły i serca do przyjęcia mądrości Bożej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Ta kontemplacyjna pieśń jest modlitwą o Ducha Świętego, który uzdalnia nas do przyjęcia pełnego mocy słowa Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o dary Ducha Świętego jest odpowiedzią na naukę św. Pawła, że to Duch daje nam poznanie spraw Bożych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "770",
+      "piesn": "Spiritus Iesu Christi",
+      "opis": "Pieśń prosi o dar Ducha, który, jak uczy św. Paweł, pochodzi od Boga, a nie od ducha świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prosta modlitwa o napełnienie Duchem Świętym, by móc rozsądzać wszystko duchowo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa nad złem jest uwielbieniem za Jego moc, która w Ewangelii pokonuje duchy nieczyste.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Jezusem, Świętym Boga, który przychodzi z mocą, by nas uwolnić od zła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę w moc Chrystusa, którego nawet duchy nieczyste rozpoznają jako 'Świętego Boga'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to ogólna pieśń chwały, dobrze pasująca do psalmu responsoryjnego, który wzywa do wielbienia dzieł Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Pana, którego potęga i chwała królestwa są głoszone w psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem wdzięczności za Bożą dobroć i miłosierdzie, o których mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii, której moc objawiła się w Kafarnaum, jest dobrym zwieńczeniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud bycia świadkami mocy Chrystusa w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, którego słowo jest pełne mocy i prowadzi do życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary, abyśmy jak 'człowiek duchowy' mogli wszystko rozsądzać i przyjąć naukę Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, aby był napełniony Duchem Bożym i głosił Ewangelię z mocą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego jest prośbą o Jego dary, byśmy mogli pojąć to, co Boskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Prosimy Jezusa, by był światłością naszych dusz, abyśmy mogli przyjąć Jego naukę, która jest pełna mocy.",
+      "moment": "ogolne"
+    }
+  ]
+}

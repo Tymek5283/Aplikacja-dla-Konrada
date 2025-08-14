@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430393.Niedziela-rok-B",
+  "tytul_dnia": "16 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 23, 1-6",
+      "opis": "Bóg sam ustanowi pasterzy",
+      "tekst": "Pan mówi:\n«Biada pasterzom, którzy prowadzą do zguby i rozpraszają owce z mojego pastwiska.\nDlatego tak mówi Pan, Bóg Izraela, o pasterzach, którzy mają paść mój naród: Wy rozproszyliście moje owce, rozpędziliście i nie zajęliście się nimi. Oto Ja się zajmę nieprawością waszych uczynków.\nJa sam zbiorę Resztę mych owiec ze wszystkich krajów, do których je wypędziłem. Sprowadzę je na ich pastwisko, aby były płodne i liczne. Ustanowię zaś nad nimi pasterzy, by je paśli; i nie będą się już więcej lękać ani trwożyć, ani nie trzeba będzie szukać którejkolwiek.\nOto nadchodzą dni, kiedy wzbudzę Dawidowi Odrośl sprawiedliwą. Będzie panował jako król, postępując roztropnie, i będzie wykonywał prawo i sprawiedliwość na ziemi. W jego dniach Juda dostąpi zbawienia, a Izrael będzie mieszkał bezpiecznie. To zaś będzie imię, którym go będą nazywać: „Pan naszą sprawiedliwością”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 23 (22), 1b-3a. 3b-4. 5. 6 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan mym pasterzem, nie brak mi niczego.\nPan jest moim pasterzem, †\nniczego mi nie braknie, *\npozwala mi leżeć na zielonych pastwiskach.\nProwadzi mnie nad wody, gdzie mogę odpocząć, *\norzeźwia moją duszę.\nRefren.\nWiedzie mnie po właściwych ścieżkach *\nprzez wzgląd na swoją chwałę.\nChociażbym przechodził przez ciemną dolinę, †\nzła się nie ulęknę, bo Ty jesteś ze mną. *\nKij Twój i laska pasterska są moją pociechą.\nRefren.\nStół dla mnie zastawiasz *\nna oczach mych wrogów.\nNamaszczasz mi głowę olejkiem, *\nkielich mój pełny po brzegi.\nRefren.\nDobroć i łaska pójdą w ślad za mną *\nprzez wszystkie dni życia\ni zamieszkam w domu Pana *\npo najdłuższe czasy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 2, 13-18",
+      "opis": "Chrystus jednoczy ludzkość",
+      "tekst": "Bracia:\nW Chrystusie Jezusie wy, którzy niegdyś byliście daleko, staliście się bliscy przez krew Chrystusa. On bowiem jest naszym pokojem. On, który obie części ludzkości uczynił jednością, bo zburzył rozdzielający je mur - wrogość. W swym ciele pozbawił On mocy Prawo przykazań, wyrażone w zarządzeniach, aby z dwóch rodzajów ludzi stworzyć w sobie jednego nowego człowieka, wprowadzając pokój, i w ten sposób jednych, jak i drugich znów pojednać z Bogiem, w jednym Ciele przez krzyż, w sobie zadawszy śmierć wrogości.\nA przyszedłszy, zwiastował pokój wam, którzy jesteście daleko, i pokój tym, którzy są blisko, bo przez Niego jedni i drudzy w jednym Duchu mamy przystęp do Ojca.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 30-34",
+      "opis": "Jezus dobry pasterz",
+      "tekst": "Apostołowie zebrali się u Jezusa i opowiedzieli Mu wszystko, co zdziałali i czego nauczali. A On rzekł do nich: «Pójdźcie wy sami osobno na pustkowie i wypocznijcie nieco». Tak wielu bowiem przychodziło i odchodziło, że nawet na posiłek nie mieli czasu.\nOdpłynęli więc łodzią na pustkowie, osobno. Lecz widziano ich odpływających. Wielu zauważyło to i zbiegli się tam pieszo ze wszystkich miast, a nawet ich wyprzedzili.\nGdy Jezus wysiadł, ujrzał wielki tłum. Zlitował się nad nimi, byli bowiem jak owce niemające pasterza. I zaczął ich nauczać o wielu sprawach.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, a jej temat doskonale pasuje do obrazu Jezusa jako Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Pieśń ta, będąca inną wersją Psalmu 23, podkreśla ufność w prowadzenie Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jezus, litując się nad tłumem, zaprasza do siebie wszystkich, którzy są jak owce bez pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ofiarowujemy chleb i wino, które Chrystus, Dobry Pasterz, rozmnożył dla swojego ludu, dając zapowiedź Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarnej prosimy Boga, by przyjął dary, które staną się pokarmem od Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, który jest naszym Pasterzem i źródłem wszelkiej dobroci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, litując się nad tłumem, naucza go i karmi, a ta pieśń eucharystyczna ukazuje Go jako pokarm dający siłę i życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Dobry Pasterz daje swoje życie za owce, a w Eucharystii daje nam siebie jako Chleb Żywy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń ta podkreśla, że Chrystus, nasz Pasterz, karmi nas swoim Ciałem, abyśmy mieli życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Chrystus, nasz Pasterz i nasz Pokój, jednoczy nas w jedno Ciało, o czym mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia dla Boga, który jest naszym Pasterzem i gromadzi nas w jedną owczarnię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dobroć i łaskę, które idą w ślad za nami, jak wyznaje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostołowie, posłani przez Jezusa, wracają, by zdać Mu relację, a ta pieśń jest odnowieniem naszego misyjnego posłania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy Dobrego Pasterza o błogosławieństwo na naszą drogę, abyśmy mogli świadczyć o Jego miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności Chrystusowi, naszemu Pasterzowi i Królowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o opiece Bożej dobrze koresponduje z obrazem Boga-Pasterza, który chroni swoje owce.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pierwsze czytanie zapowiada Króla z rodu Dawida, a ta pieśń jest wyznaniem wiary w królowanie Chrystusa, Dobrego Pasterza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Jako lud pasterski, zgromadzony przez Chrystusa, śpiewamy Mu hymn chwały.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, Dobrego Pasterza, który prowadzi nas bezpiecznie nawet przez ciemną dolinę.",
+      "moment": "ogolne"
+    }
+  ]
+}

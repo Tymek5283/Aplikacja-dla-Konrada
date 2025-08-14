@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416210.Poniedzialek-VIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "8 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 17, 24-29",
+      "opis": "Prawdziwe nawrócenie",
+      "tekst": "Tym, którzy się nawracają, Bóg daje drogę powrotu i pociesza tych, którym zabrakło wytrwałości.\nNawróć się do Pana, porzuć grzechy, błagaj przed obliczem Jego, pomniejsz zgorszenie!\nWróć do Najwyższego, a odwróć się od niesprawiedliwości i miej w wielkiej nienawiści to, co obrzydliwe!\nKtóż w Otchłani wielbić będzie Najwyższego, zamiast żyjących, którzy mogą Mu dzięki czynić?\nZmarły, jako ten, którego nie ma, nie może składać dziękczynienia, żyjący i zdrowy wielbić będzie Pana.\nJakże wielkie jest miłosierdzie Pana i przebaczenie dla tych, którzy się do Niego nawracają.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 32 (31), 1b-2. 5. 6-7 (R.: por. 11a)",
+      "opis": "",
+      "tekst": "Refren: Cieszcie się w Panu, wszyscy sprawiedliwi.\nSzczęśliwy człowiek, †\nktóremu nieprawość została odpuszczona, *\na jego grzech zapomniany.\nSzczęśliwy ten, któremu Pan nie poczytuje winy, *\na w jego duszy nie kryje się podstęp.\nRefren.\nGrzech wyznałem Tobie *\ni nie skryłem mej winy.\nRzekłem: «Wyznaję mą nieprawość Panu», *\na Ty darowałeś niegodziwość mego grzechu.\nRefren.\nDo Ciebie więc modlić się będzie każdy wierny, †\ngdy znajdzie się w potrzebie. *\nChoćby nawet wezbrały wody, fale go nie dosięgną.\nTy jesteś moją ucieczką, †\nwyrwiesz mnie z ucisku *\ni dasz mi radość mego ocalenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 8, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus Chrystus, będąc bogatym, dla was stał się ubogim,\naby was ubóstwem swoim ubogacić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 17-27",
+      "opis": "Należy wszystko porzucić, aby iść za Jezusem",
+      "tekst": "Gdy Jezus wybierał się w drogę, przybiegł pewien człowiek i upadłszy przed Nim na kolana, zaczął Go pytać: «Nauczycielu dobry, co mam czynić, aby osiągnąć życie wieczne?»\nJezus mu rzekł: «Czemu nazywasz Mnie dobrym? Nikt nie jest dobry, tylko sam Bóg. Znasz przykazania: Nie zabijaj, nie cudzołóż, nie kradnij, nie zeznawaj fałszywie, nie oszukuj, czcij swego ojca i matkę».\nOn Mu odpowiedział: «Nauczycielu, wszystkiego tego przestrzegałem od mojej młodości».\nWtedy Jezus spojrzał na niego z miłością i rzekł mu: «Jednego ci brakuje. Idź, sprzedaj wszystko, co masz, i rozdaj ubogim, a będziesz miał skarb w niebie. Potem przyjdź i chodź za Mną». Lecz on spochmurniał na te słowa i odszedł zasmucony, miał bowiem wiele posiadłości.\nWówczas Jezus spojrzał dookoła i rzekł do swoich uczniów: «Jak trudno tym, którzy mają dostatki, wejść do królestwa Bożego». Uczniowie przerazili się Jego słowami, lecz Jezus powtórnie im rzekł: «Dzieci, jakże trudno wejść do królestwa Bożego tym, którzy w dostatkach pokładają ufność. Łatwiej jest wielbłądowi przejść przez ucho igielne, niż bogatemu wejść do królestwa Bożego».\nA oni tym bardziej się dziwili i mówili między sobą: «Któż więc może być zbawiony?»\nJezus popatrzył na nich i rzekł: «U ludzi to niemożliwe, ale nie u Boga; bo u Boga wszystko jest możliwe».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta jest wyrazem nawrócenia i powrotu do Pana, do czego wzywa pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia i porzucenia grzechów, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem wejścia do królestwa Bożego, o czym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę, do której Jezus zaprasza bogatego młodzieńca - oddania wszystkiego, by pójść za Nim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i uznania, że wszystko co mamy, pochodzi od Boga, co przeciwstawia się postawie bogatego młodzieńca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, byśmy nie pokładali ufności w dostatkach, lecz w Nim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ukazuje Chrystusa jako prawdziwy skarb, cenniejszy niż wszelkie posiadłości, których żądał od młodzieńca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która jest prawdziwym skarbem, o który warto zabiegać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę ubóstwa ducha i wiary w obliczu tajemnicy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "98",
+      "piesn": "Błogosławiony, komu odpuszczone",
+      "opis": "Jest to pieśń o szczęściu płynącym z odpuszczenia grzechów, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże miłosierdzie i ocalenie, o którym z radością śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar przebaczenia i miłosierdzia, o którym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą, którą wskazuje Jezus, a która dla ludzi jest niemożliwa bez Bożej pomocy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do życia wiecznego, o które pytał młodzieniec.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o prawdziwym skarbie, którym jest Chrystus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń o charakterze pokutnym, która dobrze oddaje ducha nawrócenia i porzucenia grzechów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy ubóstwa w duchu, która jest warunkiem wejścia do królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże przebaczenie, które jest dostępne dla każdego, kto się nawraca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i miłosierdzie, o którym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

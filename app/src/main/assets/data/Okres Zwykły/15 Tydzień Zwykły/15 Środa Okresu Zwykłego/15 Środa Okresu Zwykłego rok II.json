@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426783.Sroda-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 10, 5-7. 13-16",
+      "opis": "Asyria biczem Bożym",
+      "tekst": "Tak mówi Pan:\n«Biada Asyrii, rózdze mego gniewu i biczowi mocy mej zapalczywości! Posyłam ją przeciw narodowi bezbożnemu, przykazuję jej, aby lud, na który się zawziąłem, ograbiła i złupiła doszczętnie, by rzuciła go na zdeptanie, jak błoto na ulicach. Lecz ona nie tak będzie mniemała i serce jej nie tak będzie rozumiało, bo w jej umyśle plan zniszczenia i wycięcia w pień narodów bez liku».\nPowiedział bowiem: «Działałem siłą mej ręki i własnym sprytem, bo jestem rozumny. Przesunąłem granice narodów i rozgrabiłem ich skarby, a mieszkańców powaliłem, jak mocarz. Ręka moja odkryła jakby gniazdo bogactwa narodów. A jak zbierają porzucone jajka, tak ja zagarnąłem całą ziemię; i nie było nikogo, kto by zatrzepotał skrzydłem, nikt nie otworzył dzioba, nikt nie pisnął».\nCzy się pyszni siekiera wobec drwala? Czy się wynosi piła ponad tracza? Jak gdyby bicz chciał wywijać tym, który go unosi, i jak gdyby pręt chciał podnosić tego, który nie jest z drewna.\nPrzeto Pan, Bóg Zastępów, ześle wycieńczenie na jego tuszę. Mimo świetnego wyglądu trawić go będzie gorączka, jakby zapłonął ogień.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 94 (93), 5-6. 7-8. 9-10. 14-15 (R.: por. 14a)",
+      "opis": "",
+      "tekst": "Refren: Pan nie odrzuca ludu wybranego.\nDepczą Twój lud, Panie, *\nuciskają Twoje dziedzictwo,\nmordują wdowę i przybysza, *\nzabijają sieroty.\nRefren.\nMówią: «Pan tego nie widzi, *\nnie dostrzega tego Bóg Jakuba».\nPomnijcie na to, głupcy w narodzie, *\nkiedy zmądrzejecie bezrozumni?\nRefren.\nCzy nie usłyszy Ten, który wszczepił ucho, *\nTen, który stworzył oko, nie zobaczy?\nCzy Ten, co napomina ludy, nie będzie ich karał? *\nTen, który ludzi uczy mądrości?\nRefren.\nPan nie odpycha swojego ludu *\ni nie porzuca swojego dziedzictwa.\nSąd się zwróci ku sprawiedliwości, *\npójdą za nią wszyscy ludzie prawego serca.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 25-27",
+      "opis": "Tajemnice królestwa objawione prostaczkom",
+      "tekst": "W owym czasie Jezus przemówił tymi słowami:\n«Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nWszystko przekazał Mi Ojciec mój. Nikt też nie zna Syna, tylko Ojciec, ani Ojca nikt nie zna, tylko Syn i ten, komu Syn zechce objawić».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą sprawiedliwość i opiekę, o której zapewnia psalmista wbrew pysze ciemiężycieli.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Wobec ucisku i niesprawiedliwości, o której mówią czytania, prosimy Boga o miłosierdzie i ratunek.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem do Boga o pomoc w obliczu zła i pychy ludzkiej, opisanej w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec Bożego sądu nad narodami, o którym mówi prorok Izajasz, ta pieśń jest aktem pokory i prośby o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu pychy Asyrii i Bożej sprawiedliwości, przyjmujemy postawę pokory i błagania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o miłosierdzie, które jest naszą jedyną nadzieją wobec Bożej sprawiedliwości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Ewangelia mówi o objawieniu tajemnic prostaczkom, a ta pieśń wyraża postawę pokory, która otwiera na Boże dary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest kluczem do poznania tajemnic Bożych, o których mówi Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Jezusa, który objawia nam Ojca, co jest centralnym tematem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest uwielbieniem dla Boga, Pana Zastępów, którego wielkość i sprawiedliwość opisują dzisiejsze czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Wielbimy Boga, który jest Sędzią sprawiedliwym i nie porzuca swojego dziedzictwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń wzywa do głoszenia chwały Króla, który sądzi narody i jest Panem historii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń wyznaje panowanie Chrystusa, który objawia Ojca i jest prawdziwym władcą, w przeciwieństwie do pysznego króla Asyrii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Wobec ziemskich potęg, które Bóg wykorzystuje jako narzędzia, ta pieśń jest wyznaniem wiary w jedyne i wieczne królestwo Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Po usłyszeniu o Bożym sądzie, odnawiamy naszą wierność Chrystusowi i Jego prawu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Jezus objawia nam Ojca, rozpraszając ciemności pychy i niewiary, o których mówią czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieni są prostaczkowie, którym Ojciec objawił tajemnice Królestwa, co jest głównym tematem Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec pychy mocarzy, psalmista i my pokładamy ufność w Panu, który nie odpycha swojego ludu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który jest objawieniem miłości Ojca, w przeciwieństwie do przemijającej potęgi świata.",
+      "moment": "ogolne"
+    }
+  ]
+}

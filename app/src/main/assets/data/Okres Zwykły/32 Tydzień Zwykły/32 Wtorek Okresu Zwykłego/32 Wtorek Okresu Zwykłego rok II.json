@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414674.Wtorek-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tt 2, 1-8. 11-14",
+      "opis": "Żyć pobożnie, oczekując Chrystusa",
+      "tekst": "Umiłowany:\nGłoś to, co jest zgodne ze zdrową nauką: że starcy winni być ludźmi trzeźwymi, statecznymi, roztropnymi, odznaczającymi się zdrową wiarą, miłością, cierpliwością. Podobnie starsze kobiety winny być w zewnętrznym ułożeniu jak najskromniejsze, powinny unikać plotek i oszczerstw, nie upijać się winem, a uczyć innych dobrego. Niech pouczają młode kobiety, jak mają kochać mężów, dzieci, jak mają być rozumne, czyste, gospodarne, dobre, poddane swym mężom - aby nie bluźniono słowu Bożemu.\nMłodzieńców również upominaj, ażeby byli umiarkowani; we wszystkim dawaj wzór dobrych uczynków własnym postępowaniem, w nauczaniu okazuj prawość, powagę, mowę zdrową, nienaganną, żeby przeciwnik ustąpił ze wstydem, nie mogąc nic złego o nas powiedzieć.\nUkazała się bowiem łaska Boga, która niesie zbawienie wszystkim ludziom i poucza nas, abyśmy wyrzekłszy się bezbożności i żądz światowych, rozumnie i sprawiedliwie, i pobożnie żyli na tym świecie, oczekując błogosławionej nadziei i objawienia się chwały wielkiego Boga i Zbawiciela naszego, Jezusa Chrystusa, który wydał samego siebie za nas, aby odkupić nas od wszelkiej nieprawości i oczyścić lud wybrany sobie na własność, gorliwy w spełnianiu dobrych uczynków.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 37 (36), 3-4. 18 i 23. 27 i 29 (R.: por. 39a)",
+      "opis": "",
+      "tekst": "Refren: Zbawienie prawych pochodzi od Pana.\nMiej ufność w Panu i czyń to, co dobre, *\na będziesz mieszkał na ziemi i żył bezpiecznie.\nRaduj się w Panu, *\na On spełni pragnienia twego serca.\nRefren.\nPan zna dni postępujących uczciwie, *\na ich dziedzictwo trwać będzie na wieki.\nPan umacnia kroki człowieka *\nna drodze, która jest miła dla niego.\nRefren.\nOdstąp od złego i czyń dobro, *\nabyś mógł przetrwać na wieki.\nSprawiedliwi posiądą ziemię *\ni będą ją zamieszkiwać na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 7-10",
+      "opis": "Słudzy nieużyteczni jesteśmy",
+      "tekst": "Jezus powiedział:\n«Kto z was, mając sługę, który orze lub pasie, powie mu, gdy on wróci z pola: „Pójdź zaraz i siądź do stołu”? Czy nie powie mu raczej: „Przygotuj mi wieczerzę, przepasz się i usługuj mi, aż zjem i napiję się, a potem ty będziesz jadł i pił”? Czy okazuje wdzięczność słudze za to, że wykonał to, co mu polecono? Tak i wy, gdy uczynicie wszystko, co wam polecono, mówcie: „Słudzy nieużyteczni jesteśmy; wykonaliśmy to, co powinniśmy wykonać”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, co jest postawą sługi z Ewangelii, który wiernie wypełnia wolę swego pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia podkreśla pokorę sługi, a pieśń o błogosławieństwach wychwala cichych i pokornych sercem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem szukania woli Bożej, którą jesteśmy zobowiązani wypełnić jako 'słudzy nieużyteczni'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec słów Jezusa 'słudzy nieużyteczni jesteśmy', ta pieśń jest aktem pokornego ofiarowania Bogu całego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud wiernej służby, do której jesteśmy powołani.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę sługi, który z miłości do dobrego Pana pragnie wiernie wypełniać Jego wolę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest motywacją do wiernej służby, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Tytuł i treść pieśni idealnie oddają postawę sługi z Ewangelii, który z pokorą przystępuje do swego Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża postawę pokory i świadomości własnej niegodności, która jest istotą bycia 'sługą nieużytecznym'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest dziękczynieniem za łaskę Boga, która, jak uczy pierwsze czytanie, poucza nas jak żyć sprawiedliwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna sługi, który wie, że wszystko, co ma i czyni, jest darem od Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą opiekę i zbawienie, które jest darem, a nie zapłatą za naszą służbę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a życie z Nim polega na wiernej służbie, do której wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest posłaniem do służby, która polega na głoszeniu Ewangelii i czynieniu dobra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest wezwaniem do wydawania owoców dobrych uczynków, do których zachęca św. Paweł w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm mówi o ufności w Pana i czynieniu dobra, a ta pieśń jest wyrazem tej ufności, która prowadzi do zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pierwsze czytanie zawiera wskazania dla wspólnoty Kościoła, a ta pieśń jest modlitwą o jedność i pokój w Kościele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pierwsze czytanie mówi o oczekiwaniu na objawienie się chwały Chrystusa, co jest oczekiwaniem na pełnię Królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na łaskę Boga, która poucza nas, byśmy wyrzekli się bezbożności.",
+      "moment": "ogolne"
+    }
+  ]
+}

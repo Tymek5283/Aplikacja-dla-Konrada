@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416146.Wtorek-VII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "7 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 2, 1-11",
+      "opis": "Bądź wierny Bogu, a On zajmie się tobą",
+      "tekst": "Dziecko, jeśli masz zamiar służyć Panu, przygotuj swą duszę na doświadczenia!\nZachowaj spokój serca i bądź cierpliwy, a nie trać równowagi w czasie utrapienia! Przylgnij do Niego i nie odstępuj, abyś był wywyższony w twoim dniu ostatnim.\nPrzyjmij wszystko, co przyjdzie na ciebie, a w zmiennych losach poniżenia bądź wytrzymały! Bo w ogniu próbuje się złoto, a ludzi miłych Bogu - w piecu poniżenia.\nBądź Mu wierny, a On zajmie się tobą, prostuj swe drogi i Jemu zaufaj!\nKtórzy boicie się Pana, oczekujcie Jego zmiłowania, nie zbaczajcie z drogi, abyście nie upadli.\nKtórzy boicie się Pana, zawierzcie Mu, a nie przepadnie wasza zapłata.\nKtórzy boicie się Pana, spodziewajcie się dobra, wiecznego wesela i zmiłowania!\nPopatrzcie na dawne pokolenia i zobaczcie: kto zaufał Panu, a został zawstydzony? Albo kto trwał w bojaźni Pańskiej, a został opuszczony? Albo kto wzywał Go, a On nim wzgardził?\nDlatego że Pan jest litościwy i miłosierny, odpuszcza grzechy i wybawia w czasie ucisku.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 37 (36), 3-4. 18-19. 27-28b. 39-40 (R.: por. 5b)",
+      "opis": "",
+      "tekst": "Refren: Zaufaj Panu, On sam będzie działał.\nMiej ufność w Panu i czyń to, co dobre, *\na będziesz mieszkał na ziemi i żył bezpiecznie.\nRaduj się w Panu, *\na On spełni pragnienia twego serca.\nRefren.\nPan zna dni postępujących uczciwie, *\na ich dziedzictwo trwać będzie na wieki.\nW czasie klęski nie zaznają wstydu, *\nw dniach głodu zostaną nasyceni.\nRefren.\nOdstąp od złego i czyń dobro, *\nabyś mógł przetrwać na wieki.\nGdyż Pan sprawiedliwość miłuje *\ni nie opuszcza swych świętych.\nRefren.\nZbawienie sprawiedliwych pochodzi od Pana, *\nOn ich ucieczką w czasie utrapienia.\nPan ich wspomaga i wyzwala, †\nwyzwala od występnych i zachowuje, *\nOn bowiem jest ich ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ga 6, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie daj Boże, bym się miał chlubić z czego innego, jak tylko z krzyża Pana naszego, Jezusa Chrystusa,\ndzięki któremu świat stał się ukrzyżowany dla mnie, a ja dla świata."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 30-37",
+      "opis": "Druga zapowiedź męki i wezwanie do pokory",
+      "tekst": "Jezus i Jego uczniowie przemierzali Galileę, On jednak nie chciał, żeby ktoś o tym wiedział. Pouczał bowiem swoich uczniów i mówił im: «Syn Człowieczy będzie wydany w ręce ludzi. Ci Go zabiją, lecz zabity, po trzech dniach zmartwychwstanie». Oni jednak nie rozumieli tych słów, a bali się Go pytać.\nTak przyszli do Kafarnaum. Gdy był już w domu, zapytał ich: «O czym to rozprawialiście w drodze?» Lecz oni milczeli, w drodze bowiem posprzeczali się między sobą o to, kto z nich jest największy.\nOn usiadł, przywołał Dwunastu i rzekł do nich: «Jeśli ktoś chce być pierwszym, niech będzie ostatnim ze wszystkich i sługą wszystkich». Potem wziął dziecko, postawił je przed nimi i objąwszy je ramionami, rzekł do nich: «Kto jedno z tych dzieci przyjmuje w imię moje, Mnie przyjmuje; a kto Mnie przyjmuje, nie przyjmuje Mnie, lecz Tego, który Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta jest wyrazem zaufania Bogu w doświadczeniach, co jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla szczęście płynące z zaufania Bożej Opatrzności, nawet w trudnych doświadczeniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń podkreśla wierność Boga, który, jak mówi psalm, nie opuszcza swoich świętych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę pokory i uniżenia, do której wzywa Jezus w Ewangelii, stawiając za wzór dziecko.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, aby On nas prowadził drogą pokory i służby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud bycia ostatnim i sługą wszystkich, jak naucza Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Nawiązuje do sceny z Ewangelii, gdzie Jezus stawia dziecko za wzór i utożsamia się z nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosta, dziecięca modlitwa, która jest idealnym przygotowaniem do przyjęcia Komunii Świętej w duchu pokory.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje prostotę i radość dziecka, które z czystym sercem przyjmuje Jezusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i wyzwolenie, o których z ufnością mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar zbawienia, który jest owocem wierności w próbach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, które otrzymujemy, gdy z ufnością powierzamy się Bogu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie drogą pokory i służby, którą Jezus wskazuje jako drogę do wielkości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o pokorze jest ścieżką, którą chcemy podążać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o królestwie, do którego należą ci, co są jak dzieci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie przylgnięcia do Pana, o którym mówi pierwsze czytanie jako o warunku ostatecznego wywyższenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla cichych i pokornego serca, nawiązuje do postawy dziecka, która otwiera drogę do królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, o której On sam zapowiada w Ewangelii, a która jest źródłem naszego zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który przez swoją mękę i zmartwychwstanie daje nam nadzieję na wieczne wesele.",
+      "moment": "ogolne"
+    }
+  ]
+}

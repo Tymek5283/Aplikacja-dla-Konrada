@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430477.Poniedzialek-XVII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "17 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 32, 15-24. 30-34",
+      "opis": "Bałwochwalstwo Izraelitów",
+      "tekst": "Mojżesz zszedł z góry z dwiema tablicami Świadectwa w swym ręku, a tablice były zapisane po obu stronach, zapisane na jednej i na drugiej stronie. Tablice te były dziełem Bożym, a pismo na nich było pismem Boga wyrytym na tablicach. A Jozue, usłyszawszy odgłos okrzyków ludu, powiedział do Mojżesza: «W obozie rozlegają się okrzyki wojenne». On zaś odpowiedział: «To nie głos pieśni zwycięstwa ani głos klęski, lecz słyszę pieśni dwóch chórów».\nA Mojżesz przybliżył się do obozu i ujrzał cielca i tańce. Zapłonął wówczas Mojżesz gniewem i rzucił z rąk swoich tablice, i potłukł je u podnóża góry. A porwawszy cielca, którego uczynili, spalił go w ogniu, starł na proch, rozsypał w wodzie i kazał ją pić Izraelitom.\nI powiedział Mojżesz do Aarona: «Cóż ci uczynił ten lud, że sprowadziłeś na niego tak wielki grzech?» Aaron odpowiedział: «Niech się mój pan nie unosi na mnie gniewem, bo wiesz sam, że ten lud jest skłonny do złego. Powiedzieli do mnie: Uczyń nam boga, który by szedł przed nami, bo nie wiemy, co się stało z Mojżeszem, z tym mężem, który nas wyprowadził z ziemi egipskiej. Wtedy rzekłem do nich: Kto ma złoto, niech je zdejmie z siebie. I złożyli mi je, i wrzuciłem je w ogień, i tak powstał cielec».\nNazajutrz zaś tak powiedział Mojżesz do ludu: «Popełniliście ciężki grzech; ale teraz wstąpię do Pana, może otrzymam przebaczenie waszego grzechu». I poszedł Mojżesz do Pana, i powiedział: «Oto niestety lud ten dopuścił się wielkiego grzechu. Sporządzili sobie boga ze złota. Przebacz jednak im ten grzech! A jeśli nie, to wymaż mnie natychmiast z Twej księgi, którą napisałeś». Pan powiedział do Mojżesza: «Tylko tego, który zgrzeszył przeciw Mnie, wymażę z mojej księgi. Idź teraz i prowadź ten lud, gdzie ci rozkazałem, a mój anioł pójdzie przed tobą. A w dniu mojej kary ukarzę ich za ich grzech».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 106 (105), 19-20. 21-22. 23 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Nasz Pan jest dobry, chwalcie Go na wieki.\nU stóp Horebu zrobili cielca *\ni pokłon oddawali bożkowi ulanemu ze złota.\nZamienili swą Chwałę *\nna podobieństwo cielca jedzącego siano.\nRefren.\nZapomnieli o Bogu, który ich ocalił, *\nktóry wielkich rzeczy dokonał w Egipcie,\nrzeczy przedziwnych w krainie Chamitów, *\nzdumiewających nad Morzem Czerwonym.\nRefren.\nPostanowił ich zatem wytracić, *\ngdyby nie Mojżesz, Jego wybraniec.\nOn wstawił się do Niego, *\naby odwrócić Jego gniew niszczący.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ze swej woli zrodził nas Ojciec przez słowo prawdy,\nbyśmy byli jakby pierwocinami Jego stworzeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 31-35",
+      "opis": "Przypowieść o ziarnku gorczycy i o kwasie",
+      "tekst": "Jezus opowiedział tłumom tę przypowieść:\n«Królestwo niebieskie podobne jest do ziarnka gorczycy, które ktoś wziął i posiał na swej roli. Jest ono najmniejsze ze wszystkich nasion, lecz gdy wyrośnie, większe jest od innych jarzyn i staje się drzewem, tak że ptaki podniebne przylatują i gnieżdżą się na jego gałęziach».\nPowiedział im inną przypowieść: «Królestwo niebieskie podobne jest do zaczynu, który pewna kobieta wzięła i włożyła w trzy miary mąki, aż się wszystko zakwasiło».\nTo wszystko mówił Jezus tłumom w przypowieściach, a bez przypowieści nic im nie mówił. Tak miało się spełnić słowo Proroka: «Otworzę usta w przypowieściach, wypowiem rzeczy ukryte od założenia świata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń pokutna, która dobrze oddaje ducha pierwszego czytania, w którym lud prosi o przebaczenie grzechu bałwochwalstwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec grzechu złotego cielca, pieśń ta jest wołaniem o Boże miłosierdzie i oczyszczenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Błagalna pieśń, która wyraża skruchę ludu po grzechu bałwochwalstwa i prośbę o łaskę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wobec złamania przymierza przez Izraelitów, ta pieśń jest aktem odnowienia wierności Bogu i Jego przykazaniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest odpowiedzią na miłosierdzie Boga wyproszone przez Mojżesza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Jest to bezpośrednia prośba o przebaczenie, adekwatna do sytuacji opisanej w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Królestwo Boże, jak zaczyn, jednoczy nas w jedno Ciało, co w pełni realizuje się w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń o Uczcie Pańskiej, która gromadzi lud Boży, jest obrazem Królestwa, które wzrasta jak ciasto od zaczynu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "267",
+      "piesn": "Pomiędzy lud swój idzie",
+      "opis": "Chrystus przychodzi do swojego ludu w Eucharystii, aby go przemieniać od wewnątrz, tak jak kwas przemienia mąkę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za miłosierdzie Boga, który mimo grzechu ludu, przebacza i pozostaje wierny, jak wstawiał się Mojżesz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za Boże przebaczenie, które Mojżesz wyjednał dla ludu po grzechu bałwochwalstwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest echem modlitwy wstawienniczej Mojżesza, proszącego o miłosierdzie i błogosławieństwo dla grzesznego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Królestwo niebieskie, które wzrasta z małego ziarna, ma swojego Króla - Chrystusa, któremu ta pieśń oddaje cześć.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po odnowieniu przymierza z Bogiem, wyruszamy w świat, aby głosić Jego panowanie, które rozrasta się jak drzewo gorczycy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o Królestwie Bożym, które z małych początków ogarnie cały świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest mocną deklaracją przeciw bałwochwalstwu, o którym mowa w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wstawiennictwo Mojżesza jest przykładem opieki nad ludem, a pieśń ta wyraża ufność w opiekę samego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Mimo grzechu ludu, Bóg okazuje swoją opatrzność, słuchając modlitwy Mojżesza, co jest źródłem naszej ufności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana i Jego miłosierdzia, które jest jedyną nadzieją dla grzesznego ludu.",
+      "moment": "ogolne"
+    }
+  ]
+}

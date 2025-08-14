@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417337.Sroda-26-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "26 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 9, 1-12. 14-16",
+      "opis": "Człowiek nie może mieć słuszności, spierając się z Bogiem",
+      "tekst": "Hiob tak odpowiedział swoim przyjaciołom: «Istotnie. Ja wiem, że tak jest. Jak człowiek może być przed Bogiem prawy? Gdyby się ktoś z nim prawował, nie odpowie raz jeden na tysiąc. Umysłem mądry, a potężny mocą. Któż Mu się sprzeciwi, a ocaleje? Przesunie On góry, choć one nie wiedzą, kto je wywraca w swym gniewie. On ziemię porusza w posadach, tak iż się trzęsą jej filary. Słońcu daje rozkaz, a ono nie wschodzi, na gwiazdy pieczęć nakłada. On sam rozciąga niebiosa, kroczy po morskich głębinach; On stworzył Niedźwiedzicę, Oriona, Plejady i Strefy Południa. On czyni cuda niezbadane, nikt nie zliczy Jego dziwów.\nOto przechodzi, ale Go nie widzę, mija, ale Go nie dostrzegam. Porywa - któż Mu zabroni? Kto Mu powie: Co czynisz? Jakże ja zdołam z Nim mówić? Jakich dobiorę słów wobec Niego? Choć słuszność mam, nie odpowiem, a przecież błagać będę o litość. Jeśli zawołam, czy mi odpowie? Nie mam pewności, czy głos mój słyszy».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 88 (87), 10b-11. 12-13. 14-15 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Moja modlitwa niech dotrze do Ciebie.\nKażdego dnia wołam do Ciebie, Panie, *\nręce do Ciebie wyciągam.\nCzy uczynisz cud dla umarłych? *\nCzy wstaną cienie, by wielbić Ciebie?\nRefren.\nCzy to w grobach sławi się Twoją łaskę, *\na wierność Twoją w miejscu zagłady?\nCzy Twoje cuda widzi się w ciemnościach, *\na sprawiedliwość w krainie zapomnienia?\nRefren.\nA ja wołam do Ciebie, Panie, *\nniech nad ranem dotrze do Ciebie moja modlitwa.\nCzemu odrzucasz mnie, Panie, *\ni ukrywasz swoje oblicze przede mną?\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Flp 3, 8b-9a",
+      "opis": "Aklamacja: Alleluja, alleluja, aleluja.",
+      "tekst": "Wyzułem się ze wszystkiego i uznaję to za śmieci,\nbylebym pozyskał Chrystusa i w Nim się znalazł."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 57-62",
+      "opis": "Naśladowanie Chrystusa wymaga wyrzeczenia",
+      "tekst": "Gdy Jezus z uczniami szedł drogą, ktoś powiedział do Niego: «Pójdę za Tobą, dokądkolwiek się udasz».Jezus mu odpowiedział: «Lisy mają nory i ptaki podniebne - gniazda, lecz Syn Człowieczy nie ma miejsca, gdzie by głowę mógł położyć».\nDo innego rzekł: «Pójdź za Mną». Ten zaś odpowiedział: «Panie, pozwól mi najpierw pójść pogrzebać mojego ojca». Odparł mu: «Zostaw umarłym grzebanie ich umarłych, a ty idź i głoś królestwo Boże».\nJeszcze inny rzekł: «Panie, chcę pójść za Tobą, ale pozwól mi najpierw pożegnać się z moimi w domu». Jezus mu odpowiedział: «Ktokolwiek przykłada rękę do pługa, a wstecz się ogląda, nie nadaje się do królestwa Bożego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do pójścia za Jezusem, co jest głównym tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, co wymaga radykalnych decyzji, o których mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do podjęcia radykalnego naśladowania, do którego wzywa Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość do całkowitego poświęcenia się Bogu, do czego wzywa Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu owoce naszej pracy, co jest naszym wkładem w budowę Królestwa, dla którego trzeba wszystko zostawić.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o powołaniu kapłańskim przypomina o radykalności pójścia za Chrystusem, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Trzecia zwrotka mówi o naśladowaniu Chrystusa, który jest naszym życiem i oczekiwaniem, co jest odpowiedzią na Jego radykalne wezwanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Przyjęcie Komunii jest najgłębszym aktem pójścia za Chrystusem, który sam staje się naszym pokarmem na drogę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyznanie wiary w Chrystusa jest fundamentem decyzji o pójściu za Nim bez oglądania się wstecz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten podkreśla wielkość i majestat Boga Stwórcy, o którym z lękiem i podziwem mówi Hiob w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania do pójścia za Chrystusem i głoszenia Jego królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za łaskę powołania jest odpowiedzią na wezwanie Jezusa do radykalnego naśladowania Go.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest odpowiedzią na wezwanie Jezusa: 'a ty idź i głoś królestwo Boże'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o błogosławieństwo na trud służby, która w Ewangelii ukazana jest jako wymagająca i radykalna.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania, niezbędnego do podjęcia drogi powołania bez oglądania się wstecz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem do Boga z głębokości, podobnie jak psalm responsoryjny i lamentacje Hioba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście bezdomności Syna Człowieczego i niepewności losu Jego naśladowców, pieśń o ufności w Bożą opiekę nabiera szczególnego znaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń podkreśla, że prawdziwe szczęście i bezpieczeństwo znajduje się w opiece Boga, a nie w ziemskich dobrach, które trzeba opuścić.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę oddania i zaufania Bogu, która jest konieczna, by odpowiedzieć na radykalne wezwanie Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

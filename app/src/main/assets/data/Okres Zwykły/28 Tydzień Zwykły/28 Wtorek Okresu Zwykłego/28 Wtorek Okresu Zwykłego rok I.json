@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416410.Wtorek-28-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "28 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 1, 16-25",
+      "opis": "Boga można poznać przez Jego dzieła",
+      "tekst": "Bracia:\nJa nie wstydzę się Ewangelii, jest bowiem ona mocą Bożą ku zbawieniu dla każdego wierzącego, najpierw dla Żyda, potem dla Greka. W niej bowiem objawia się sprawiedliwość Boża, która od wiary wychodzi i ku wierze prowadzi, jak jest napisane: «A sprawiedliwy żyć będzie dzięki wierze».\nAlbowiem gniew Boży objawia się z nieba na wszelką bezbożność i nieprawość tych ludzi, którzy przez nieprawość nakładają prawdzie pęta. To bowiem, co o Bogu można poznać, jawne jest wśród nich, gdyż Bóg im to ujawnił. Albowiem od stworzenia świata niewidzialne Jego przymioty - wiekuista Jego potęga oraz bóstwo - stają się widzialne dla umysłu przez Jego dzieła, tak że nie mogą się oni wymówić od winy, ponieważ, choć Boga poznali, nie oddali Mu czci jako Bogu ani Mu nie dziękowali, lecz znikczemnieli w swoich myślach i zaćmione zostało bezrozumne ich serce. Podając się za mądrych, stali się głupimi. «I zamienili chwałę» niezniszczalnego Boga «na podobizny » i obrazy śmiertelnego człowieka, ptaków, czworonożnych zwierząt i płazów. Dlatego wydał ich Bóg poprzez pożądania ich serc na łup nieczystości, tak iż dopuszczali się bezczeszczenia własnych ciał. Prawdę Bożą przemienili oni w kłamstwo i stworzeniu oddawali cześć, i służyli jemu, zamiast służyć Stwórcy, który jest błogosławiony na wieki. Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 2-3. 4-5b (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Niebiosa głoszą chwałę Pana Boga.\nNiebiosa głoszą chwałę Boga, *\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi, *\nnoc nocy wiadomość przekazuje.\nRefren.\nNie są to słowa ani nie jest to mowa, *\nktórych by dźwięku nie usłyszano.\nIch głos się rozchodzi po całej ziemi, *\nich słowa aż po krańce świata.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 37-41",
+      "opis": "Czystość wewnętrzna",
+      "tekst": "Pewien faryzeusz zaprosił Jezusa do siebie na obiad. Poszedł więc i zajął miejsce za stołem. Lecz faryzeusz, widząc to, wyraził zdziwienie, że nie obmył wpierw rąk przed posiłkiem.\nNa to Pan rzekł do niego: «Właśnie wy, faryzeusze, dbacie o czystość zewnętrznej strony kielicha i misy, a wasze wnętrze pełne jest zdzierstwa i niegodziwości. Nierozumni! Czyż Stwórca zewnętrznej strony nie uczynił także wnętrza? Raczej dajcie to, co jest wewnątrz, na jałmużnę, a zaraz wszystko będzie dla was czyste».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń wzywa całe stworzenie do chwalenia Pana, co jest odpowiedzią na pierwsze czytanie mówiące o poznawaniu Stwórcy z Jego dzieł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "587",
+      "piesn": "Boże, dlatego dałeś nam życie",
+      "opis": "Pieśń jest wyznaniem wiary w Boga Stwórcę, którego poznajemy przez otaczający nas świat.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń chwały dla Stwórcy, którego dzieło, jak mówi psalm, obwieszcza nieboskłon.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Wobec piękna stworzenia, opisanego w czytaniach, ta pieśń jest aktem ofiarowania wdzięcznego serca jako najmilszej Bogu ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowanie darów chleba i wina jest oddaniem czci Stwórcy, o którym mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu owoce naszej pracy, uznając Go za Stwórcę i Pana wszystkiego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jezus w Ewangelii piętnuje obłudę i wzywa do czystości wewnętrznej. Ta pieśń jest prośbą o obmycie z win i czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec wezwania do czystości wewnętrznej, ta pieśń jest pokorną prośbą o miłosierdzie i stworzenie w nas serca czystego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Prośba o oczyszczenie serca jest odpowiedzią na wezwanie Jezusa do czystości wewnętrznej, a nie tylko zewnętrznej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Pieśń chwały, która wyraża wdzięczność Stwórcy za wszystkie dary, w tym za piękno stworzenia, które głosi Jego chwałę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn uwielbienia dla Stwórcy, którego chwałę głoszą niebiosa, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie Pana za Jego dzieła, przez które możemy Go poznać, jak uczy św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, w tym do jałmużny, którą Jezus w Ewangelii wskazuje jako drogę do prawdziwej czystości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia i uczynków miłosierdzia jest odpowiedzią na Ewangelię o czystości serca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w prawdzie i czystości serca, do których wzywa nas liturgia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i oczyszczenie, o którym mówi Jezus faryzeuszom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to kolejna parafraza Psalmu 51, która wyraża skruchę i prośbę o oczyszczenie z win.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo ludzi czystego serca jest celem, do którego prowadzi nauka Jezusa z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i jałmużna, o której mówi Jezus, są wyrazem prawdziwej czystości serca.",
+      "moment": "ogolne"
+    }
+  ]
+}

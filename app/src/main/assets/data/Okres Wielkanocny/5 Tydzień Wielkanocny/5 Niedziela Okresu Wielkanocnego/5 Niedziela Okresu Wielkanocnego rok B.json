@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413319.V-Niedziela-Wielkanocna-rok-B",
+  "tytul_dnia": "5 Niedziela Okresu Wielkanocnego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 9, 26-31",
+      "opis": "Gorliwość nawróconego Szawła",
+      "tekst": "Kiedy Szaweł przybył do Jeruzalem, próbował przyłączyć się do uczniów, lecz wszyscy bali się go, nie wierząc, że jest uczniem.\nDopiero Barnaba przygarnął go i zaprowadził do apostołów, i opowiedział im, jak w drodze Szaweł ujrzał Pana, który przemówił do niego, i z jaką siłą przekonania występował w Damaszku w imię Jezusa. Dzięki temu przebywał z nimi w Jerozolimie, z siłą przekonania przemawiając w imię Pana. Przemawiał też i rozprawiał z hellenistami, którzy usiłowali go zgładzić. Bracia jednak, dowiedziawszy się o tym, odprowadzili go do Cezarei i wysłali do Tarsu.\nA Kościół cieszył się pokojem w całej Judei, Galilei i Samarii. Rozwijał się i żył bogobojnie, i obfitował w pociechę Ducha Świętego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 22 (21), 26b-27. 28 i 30ab. 30c-32 (R.: por. 26a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Będę Cię chwalił w wielkim zgromadzeniu.\nWypełnię moje śluby wobec czcicieli Boga. *\nUbodzy będą jedli i zostaną nasyceni,\nbędą chwalić Pana ci, którzy Go szukają: *\n«Serca wasze niech żyją na wieki».\nRefren.\nPrzypomną sobie i wrócą do Pana wszystkie krańce ziemi, *\noddadzą Mu pokłon wszystkie szczepy pogańskie.\nJemu się pokłonią wszyscy śpiący w ziemi, *\nprzed Nim zegną się wszyscy, którzy staną się prochem.\nRefren.\nMoja dusza będzie żyła dla Niego, †\npotomstwo moje Jemu będzie służyć, *\nprzyszłym pokoleniom o Panu opowie.\nI sprawiedliwość Jego ogłoszą ludowi, †\nktóry się narodzi: *\n«Pan to uczynił».\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 3, 18-24",
+      "opis": "Miłujmy czynem i prawdą",
+      "tekst": "Dzieci, nie miłujmy słowem i językiem, ale czynem i prawdą. Po tym poznamy, że jesteśmy z prawdy, i uspokoimy przed Nim nasze serca. A jeśli serce oskarża nas, to przecież Bóg jest większy niż nasze serca i zna wszystko.\nUmiłowani, jeśli serce nas nie oskarża, to mamy ufność w Bogu, a o co prosić będziemy, otrzymamy od Niego, ponieważ zachowujemy Jego przykazania i czynimy to, co się Jemu podoba. Przykazanie zaś Jego jest takie, abyśmy wierzyli w imię Jego Syna, Jezusa Chrystusa, i miłowali się wzajemnie tak, jak nam nakazał. Kto wypełnia Jego przykazania, trwa w Bogu, a Bóg w nim; a to, że trwa On w nas, poznajemy po Duchu, którego nam dał.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 4a. 5b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Trwajcie we Mnie, a Ja w was trwać będę.\nKto trwa we Mnie, przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 1-8",
+      "opis": "Kto trwa w Chrystusie, przynosi owoc obfity",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Ja jestem prawdziwym krzewem winnym, a Ojciec mój jest tym, który go uprawia. Każdą latorośl, która nie przynosi we Mnie owocu, odcina, a każdą, która przynosi owoc, oczyszcza, aby przynosiła owoc obfitszy. Wy już jesteście czyści dzięki słowu, które wypowiedziałem do was. Trwajcie we Mnie, a Ja w was będę trwać. Podobnie jak latorośl nie może przynosić owocu sama z siebie - jeśli nie trwa w winnym krzewie - tak samo i wy, jeżeli we Mnie trwać nie będziecie.\nJa jestem krzewem winnym, wy - latoroślami. Kto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity, ponieważ beze Mnie nic nie możecie uczynić. Ten, kto nie trwa we Mnie, zostanie wyrzucony jak winna latorośl i uschnie. Potem ją zbierają i wrzucają w ogień, i płonie. Jeżeli we Mnie trwać będziecie, a słowa moje w was, to proście, o cokolwiek chcecie, a to wam się spełni. Ojciec mój przez to dozna chwały, że owoc obfity przyniesiecie i staniecie się moimi uczniami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w żywego Pana, który jest prawdziwym krzewem winnym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem trwania w Chrystusie i przynoszenia owoców miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący Zmartwychwstałego Pana, który jest źródłem życia dla latorośli wszczepionych w Niego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do obrazu Kościoła jako winnicy Pańskiej, w której latorośle przynoszą owoc przez miłość czynem i prawdą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest doskonałym komentarzem do drugiego czytania, które wzywa do miłości czynem i prawdą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle naszego życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Krzew Winny, w Eucharystii daje nam pokarm, abyśmy trwając w Nim, przynosili owoc obfity.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że trwanie w Chrystusie, Krzewie Winnym, jest możliwe dzięki przyjmowaniu Go w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który jest pokarmem umacniającym nas do przynoszenia owoców.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to hymn uwielbienia dla Chrystusa, w którym trwamy jak latorośle w winnym krzewie, aby przynosić owoc miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą miłość, objawioną w Chrystusie i wzywającą do przynoszenia owoców.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, która umacnia naszą więź z Chrystusem, Krzewem Winnym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Przynoszenie owocu, o którym mówi Jezus, jest misją Kościoła, czego przykładem jest działalność nawróconego Szawła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna, o której mówi drugie czytanie, jest owocem trwania w Chrystusie, prawdziwym krzewie winnym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, przynosząc owoce wiary i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wiara w Zmartwychwstałego jest fundamentem trwania w Chrystusie i przynoszenia owoców.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, który jako wspólnota latorośli złączonych z jednym krzewem, przynosi owoc.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten przypomina, że miłość, która jest owocem trwania w Chrystusie, jest miejscem obecności Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "208",
+      "piesn": "Pragnę miłością Twą",
+      "opis": "Jest to osobista modlitwa o napełnienie serca miłością Bożą, aby przynosić owoce godne ucznia Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

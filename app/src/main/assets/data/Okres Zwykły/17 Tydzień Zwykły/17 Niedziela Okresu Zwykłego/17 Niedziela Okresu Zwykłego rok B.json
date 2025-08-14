@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430479.Niedziela-rok-B",
+  "tytul_dnia": "17 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Krl 4, 42-44",
+      "opis": "Elizeusz rozmnaża chleb",
+      "tekst": "Pewien człowiek przyszedł z Baal-Szalisza, przynosząc mężowi Bożemu, Elizeuszowi, chleb z pierwocin, dwadzieścia chlebów jęczmiennych i świeże zboże w worku. On zaś rozkazał: «Podaj ludziom i niech jedzą!»\nLecz sługa jego odrzekł: «Jakże to rozdzielę między stu ludzi?» A on odpowiedział: «Podaj ludziom i niech jedzą, bo tak mówi Pan: Nasycą się i pozostawią resztki». Położył więc to przed nimi, a ci jedli i pozostawili resztki - według słowa Pańskiego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 10-11. 15-16. 17-18 (R.: por. 16)",
+      "opis": "",
+      "tekst": "Refren: Otwierasz rękę, karmisz nas do syta.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nOczy wszystkich zwracają się ku Tobie, *\na Ty ich karmisz we właściwym czasie.\nTy otwierasz swą rękę *\ni karmisz do syta wszystko, co żyje.\nRefren.\nPan jest sprawiedliwy na wszystkich swych drogach *\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają, *\nwszystkich wzywających Go szczerze.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 4, 1-6",
+      "opis": "Usiłujcie zachować jedność",
+      "tekst": "Bracia:\nZachęcam was ja, więzień w Panu, abyście postępowali w sposób godny powołania, do jakiego zostaliście wezwani, z całą pokorą i cichością, z cierpliwością, znosząc siebie nawzajem w miłości.  Ducha dzięki więzi, jaką jest pokój.\nJedno jest Ciało i jeden Duch, bo też zostaliście wezwani do jednej nadziei, jaką daje wasze powołanie. Jeden jest Pan, jedna wiara, jeden chrzest. Jeden jest Bóg i Ojciec wszystkich, który jest i działa ponad wszystkimi, przez wszystkich i we wszystkich.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 1-15",
+      "opis": "Jezus rozmnaża chleb",
+      "tekst": "Jezus udał się na drugi brzeg Jeziora Galilejskiego, czyli Tyberiadzkiego. Szedł za Nim wielki tłum, bo oglądano znaki, jakie czynił dla tych, którzy chorowali. Jezus wszedł na wzgórze i usiadł tam ze swoimi uczniami.\nA zbliżało się święto żydowskie, Pascha. Kiedy więc Jezus podniósł oczy i ujrzał, że liczne tłumy schodzą się do Niego, rzekł do Filipa: «Gdzie kupimy chleba, aby oni się najedli?» A mówił to, wystawiając go na próbę. Wiedział bowiem, co ma czynić.\nOdpowiedział Mu Filip: «Za dwieście denarów nie wystarczy chleba, aby każdy z nich mógł choć trochę otrzymać».\nJeden z Jego uczniów, Andrzej, brat Szymona Piotra, rzekł do Niego: «Jest tu jeden chłopiec, który ma pięć chlebów jęczmiennych i dwie ryby, lecz cóż to jest dla tak wielu?»\nJezus zaś rzekł: «Każcie ludziom usiąść». A w miejscu tym było wiele trawy. Usiedli więc mężczyźni, a liczba ich dochodziła do pięciu tysięcy.\nJezus więc wziął chleby i odmówiwszy dziękczynienie, rozdał siedzącym; podobnie uczynił i z rybami, rozdając tyle, ile kto chciał. A gdy się nasycili, rzekł do uczniów: «Zbierzcie pozostałe ułomki, aby nic nie zginęło». Zebrali więc i ułomkami z pięciu chlebów jęczmiennych, pozostałymi po spożywających, napełnili dwanaście koszów.\nA kiedy ludzie spostrzegli, jaki znak uczynił Jezus, mówili: «Ten prawdziwie jest prorokiem, który ma przyjść na świat». Gdy więc Jezus poznał, że mieli przyjść i porwać Go, aby Go obwołać królem, sam usunął się znów na górę.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, a jej temat doskonale pasuje do obrazu Jezusa jako Dobrego Pasterza karmiącego lud.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest wezwaniem z psalmu responsoryjnego i zaprasza do doświadczenia Bożej dobroci, objawionej w cudzie rozmnożenia chleba.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to pieśń gromadząca wspólnotę, która jak tłumy z Ewangelii, przychodzi do Jezusa, by słuchać i zostać nasyconą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Tekst pieśni jest dziękczynieniem za Bożą hojność, o której mówi psalm 'Otwierasz rękę, karmisz nas do syta'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń podkreśla, że dary chleba i wina, które składamy, pochodzą od Boga, co rezonuje z cudem rozmnożenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Tradycyjna pieśń na ofiarowanie, która łączy nasz dar z darem Chrystusa, zapowiedzianym w rozmnożeniu chleba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta jest bezpośrednim nawiązaniem do cudu rozmnożenia chleba, który jest zapowiedzią Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Cud rozmnożenia chleba jest znakiem, który prowadzi do objawienia Jezusa jako Chleba Życia w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń wyznaje wiarę w realną obecność Chrystusa w Eucharystii, która jest owocem cudu rozmnożenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Adoracja Chrystusa w Najświętszym Sakramencie jest odpowiedzią na Jego miłość objawioną w cudzie rozmnożenia chleba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, która jest wypełnieniem obietnicy zawartej w cudownym nakarmieniu tłumów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "236",
+      "piesn": "Chwała i dziękczynienie",
+      "opis": "Prosta aklamacja uwielbienia, która jest doskonałą odpowiedzią na cud rozmnożenia chleba i dar Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń ta doskonale podsumowuje drugie czytanie, mówiąc o jedności Ciała Chrystusa, do której jesteśmy wezwani.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Nakarmieni jednym Chlebem, jesteśmy posłani, by budować jedność, o której mówi drugie czytanie z Listu do Efezjan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po otrzymaniu pokarmu od Pana, prosimy o błogosławieństwo na naszą pracę i świadectwo w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne wezwanie do chwalenia Pana za Jego dzieła, takie jak cudowne nakarmienie ludu przez Elizeusza i Jezusa.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń łączy w sobie motyw Bożej gościnności, troski o głodnych i daru Eucharystii, obecne w dzisiejszych czytaniach.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń wprost mówi o karmieniu ludu przez Pana, co jest centralnym tematem czytań z Księgi Królewskiej i Ewangelii.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń o jedności w miłości jest odpowiedzią na wezwanie św. Pawła do zachowania jedności Ducha.",
+      "moment": "ogólne"
+    }
+  ]
+}

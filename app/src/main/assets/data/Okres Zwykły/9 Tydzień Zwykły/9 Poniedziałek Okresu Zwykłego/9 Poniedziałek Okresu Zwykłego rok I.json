@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416268.Poniedzialek-IX-tydzien-zwykly-rok-I",
+  "tytul_dnia": "9 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tb 1, 3; 2, 1a-8",
+      "opis": "Pobożność Tobiasza",
+      "tekst": "Ja, Tobiasz, chodziłem drogami prawdy i dobrych uczynków przez wszystkie dni mojego życia. Dawałem wiele jałmużny moim braciom i moim rodakom, uprowadzonym razem ze mną do kraju Asyrii, do Niniwy.\nNa naszą Pięćdziesiątnicę, to jest na Święto Tygodni, przygotowano mi wspaniałą ucztę, a ja zająłem miejsce przy stole. Zastawiono mi stół i przyniesiono liczne potrawy. Wtedy powiedziałem do mojego syna, Tobiasza: «Dziecko, idź, a gdy znajdziesz kogoś biednego z braci moich uprowadzonych do Niniwy, który dochowuje wierności całym sercem, przyprowadź go tu, aby jadł razem ze mną. Ja czekam, dziecko, na twój powrót».\nWyszedł więc Tobiasz, aby poszukać jakiegoś biednego między naszymi braćmi, ale wrócił i rzekł: «Ojcze!», a ja odpowiedziałem: «Oto jestem, dziecko». A on odezwał się: «Ojcze, oto jeden nasz rodak został zamordowany i porzucony na rynku. I dopiero co go uduszono». Wtedy wyskoczyłem, pozostawiłem ucztę nietkniętą, ściągnąłem człowieka z placu i złożyłem go w jednym z moich pomieszczeń, czekając aż do zachodu, aby go pogrzebać. Powróciłem, umyłem się i jadłem chleb w smutku. Wspominałem sobie przy tym słowa proroka Amosa, które wypowiedział o Betel: «Wasze święta zamienią się w smutki, a wasze pieśni w żałobne lamentacje». I wybuchnąłem płaczem. Potem, gdy słońce zaszło, wyszedłem, wykopałem grób i pogrzebałem tamtego. Moi sąsiedzi mówili, drwiąc ze mnie: «Jeszcze się nie boi. Już przecież z powodu takiego samego czynu poszukiwano go, aby go zabić, tak że musiał uciekać, i oto znowu grzebie umarłych».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 3-4. 5-6",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony ten, kto służy Panu.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nDobrobyt i bogactwo będą w jego domu, *\na jego sprawiedliwość będzie trwała zawsze.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nRefren.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje *\ni pozostanie w wiecznej pamięci.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ap 1, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezu Chryste, Ty jesteś Świadkiem Wiernym, Pierworodnym wśród umarłych;\numiłowałeś nas i przez krew swoją uwolniłeś nas od grzechów."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 1-12",
+      "opis": "Przypowieść o dzierżawcach winnicy",
+      "tekst": "Jezus zaczął mówić w przypowieściach do arcykapłanów, uczonych w Piśmie i starszych:\n«Pewien człowiek założył winnicę. Otoczył ją murem, wykopał tłocznię i zbudował wieżę. W końcu oddał ją w dzierżawę rolnikom i wyjechał.\nGdy nadszedł czas, posłał do rolników sługę, by odebrał od nich należną część plonów winnicy. Ci chwycili go, obili i odprawili z niczym. Wtedy posłał do nich drugiego sługę; lecz i tego zranili w głowę i znieważyli. Posłał jeszcze jednego, i tego zabili. I posłał wielu innych, z których jednych obili, drugich pozabijali.\nMiał jeszcze jednego - umiłowanego syna. Posłał go do nich jako ostatniego, bo mówił sobie: „Uszanują mojego syna”. Lecz owi rolnicy mówili między sobą: „To jest dziedzic. Chodźcie, zabijmy go, a dziedzictwo będzie nasze”. I chwyciwszy, zabili go i wyrzucili z winnicy. Cóż uczyni właściciel winnicy? Przyjdzie i wytraci rolników, a winnicę odda innym.\nNie czytaliście tych słów w Piśmie: „Ten właśnie kamień, który odrzucili budujący, stał się głowicą węgła. Pan to sprawił i jest cudem w naszych oczach”».\nI starali się Go ująć, lecz bali się tłumu. Zrozumieli bowiem, że przeciw nim opowiedział tę przypowieść. Pozostawili Go więc i odeszli.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest echem psalmu, który mówi o błogosławieństwie człowieka, który służy Panu i czyni miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który jest właścicielem winnicy, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, którego sprawiedliwość trwa na wieki, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do postawy Tobiasza, który ryzykując życiem, pełnił uczynki miłosierdzia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jest to wezwanie do przynoszenia dobrych owoców, w przeciwieństwie do złych dzierżawców z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud czynienia dobra, na wzór sprawiedliwego Tobiasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ukazuje Chrystusa, odrzucony kamień, który stał się Chlebem Życia dla tych, którzy Go przyjmują.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, Syna, którego posłał właściciel winnicy, a który daje nam siebie w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która wyraża postawę wiary i pokory, jakiej zabrakło dzierżawcom winnicy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Bożą sprawiedliwość i wierność, które są widoczne w historii zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar wiary i za przykład sprawiedliwych, jak Tobiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, które otrzymujemy jako nowi dzierżawcy winnicy Pańskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do pracy w winnicy Pańskiej i przynoszenia owoców.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a pójście za Nim jest odpowiedzią na powołanie do pracy w Jego winnicy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Bogu, które było siłą Tobiasza w pełnieniu dobrych uczynków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta przypomina, że Kościół jest nową winnicą Pana, powołaną do wydawania owoców sprawiedliwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, które są warunkiem przyjęcia dziedzictwa w winnicy Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, abyśmy nie zostali odrzuceni jak niegodni dzierżawcy z przypowieści.",
+      "moment": "ogolne"
+    }
+  ]
+}

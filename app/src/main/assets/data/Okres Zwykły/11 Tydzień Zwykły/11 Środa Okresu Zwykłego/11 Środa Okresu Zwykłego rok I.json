@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417225.Sroda-XI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "11 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 9, 6-11",
+      "opis": "Zachęta do hojności",
+      "tekst": "Bracia:\nKto skąpo sieje, ten i skąpo zbiera, kto zaś hojnie sieje, ten hojnie też zbierać będzie. Każdy niech przeto postąpi tak, jak mu nakazuje jego własne serce, nie żałując i nie czując się przymuszonym, albowiem radosnego dawcę miłuje Bóg.\nA Bóg może zlać na was całą obfitość łaski, tak byście mając wszystkiego i zawsze pod dostatkiem, bogaci byli we wszystkie dobre uczynki, według tego, co jest napisane: «Rozproszył, dał ubogim, sprawiedliwość Jego trwa na wieki».\nTen zaś, który daje siewcy ziarno do zasiewu i chleb do jedzenia, dostarczy również wam ziarna i rozmnoży je, i zwiększy plon waszej sprawiedliwości. Wzbogaceni we wszystko, będziecie pełni wszelkiej prostoty, która składa przez nas dziękczynienie Bogu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 3-4. 9 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Błogosławiony ten, kto służy Panu.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nDobrobyt i bogactwo będą w jego domu, *\na jego sprawiedliwość będzie trwała zawsze.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nRefren.\nRozdaje i obdarza ubogich, *\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą *\nbędzie jego potęga.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 6, 1-6. 16-18",
+      "opis": "Dobre uczynki pełnić w ukryciu",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Strzeżcie się, żebyście uczynków pobożnych nie wykonywali przed ludźmi po to, aby was widzieli; inaczej bowiem nie będziecie mieli nagrody u Ojca waszego, który jest w niebie.\nKiedy więc dajesz jałmużnę, nie trąb przed sobą, jak obłudnicy czynią w synagogach i na ulicach, aby ich ludzie chwalili. Zaprawdę, powiadam wam: ci otrzymali już swoją nagrodę. Kiedy zaś ty dajesz jałmużnę, niech nie wie lewa twoja ręka, co czyni prawa, aby twoja jałmużna pozostała w ukryciu. A Ojciec twój, który widzi w ukryciu, odda tobie.\nGdy się modlicie, nie bądźcie jak obłudnicy. Oni to lubią w synagogach i na rogach ulic wystawać i modlić się, żeby się ludziom pokazać. Zaprawdę, powiadam wam: otrzymali już swoją nagrodę. Ty zaś, gdy chcesz się modlić, wejdź do swej izdebki, zamknij drzwi i módl się do Ojca twego, który jest w ukryciu. A Ojciec twój, który widzi w ukryciu, odda tobie.\nKiedy pościcie, nie bądźcie posępni jak obłudnicy. Przybierają oni wygląd ponury, aby pokazać ludziom, że poszczą. Zaprawdę, powiadam wam, już odebrali swoją nagrodę. Ty zaś, gdy pościsz, namaść sobie głowę i obmyj twarz, aby nie ludziom pokazać, że pościsz, ale Ojcu twemu, który jest w ukryciu. A Ojciec twój, który widzi w ukryciu, odda tobie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Jałmużna, o której mówi Ewangelia i pierwsze czytanie, jest wyrazem miłości, do której wzywa ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń przypomina o przykazaniu miłości, którego praktycznym wyrazem jest hojność i bezinteresowność w czynieniu dobra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do czynnej miłości i miłosierdzia wobec potrzebujących, co jest praktycznym wymiarem nauk z dzisiejszych czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W tej pieśni dziękujemy Bogu za Jego dary, a jednocześnie ofiarujemy Mu owoce naszej hojności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serce, prosząc, by uczynił je hojnym i radosnym w dawaniu, tak jak On sam miłuje.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Składamy Bogu owoce naszej pracy, które On rozmnaża, abyśmy mogli być 'bogaci we wszystkie dobre uczynki'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Modlitwa w ukryciu, do której zachęca Jezus, jest wyrazem najgłębszych pragnień serca skierowanych do Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Komunia Święta jest najgłębszym spotkaniem z Bogiem 'w ukryciu', w tajemnicy serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń jest modlitwą o przygotowanie serca na spotkanie z Ojcem, który 'widzi w ukryciu'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalm responsoryjny sławi człowieka, który 'rozdaje i obdarza ubogich', a ta pieśń jest uwielbieniem dla Boga, źródła wszelkiej hojności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego obfitość łaski, która pozwala nam być hojnymi dla innych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia dla Boga, który 'miłuje radosnego dawcę' i jest źródłem wszelkiego dobra.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wierność Bogu wyraża się w czynach, a nie w słowach, a pieśń ta jest odnowieniem przyrzeczenia życia w prawdzie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, aby nasze uczynki, czynione w ukryciu, przynosiły chwałę Ojcu w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by świadczyć o Bożej miłości nie na pokaz, ale autentycznym życiem zgodnym z Ewangelią.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wykonywanie uczynków pobożnych dla Boga, a nie dla ludzi, jest wyrazem wyboru Boga jako najwyższej wartości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Prośba o czyste serce, które jest warunkiem bezinteresownej miłości i działania na chwałę Bożą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo dla miłosiernych jest nagrodą za jałmużnę, do której zachęca Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Modlitwa w ukryciu, o której mówi Ewangelia, jest drogą do głębszej relacji i bliskości z Bogiem.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413080.Wielki-Czwartek-Msza-z-poswieceniem-krzyzma",
+  "tytul_dnia": "Wielki Czwartek - Msza Krzyżma",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 61, 1-3a. 6a. 8b-9",
+      "opis": "Pan mnie namaścił",
+      "tekst": "Duch Pana Boga nade mną, bo Pan mnie namaścił. Posłał mnie, abym głosił dobrą nowinę ubogim, bym opatrywał rany serc złamanych, żebym zapowiadał wyzwolenie jeńcom i więźniom swobodę; abym obwieszczał rok łaski Pańskiej i dzień pomsty naszego Boga; abym pocieszał wszystkich zasmuconych, bym rozweselił płaczących na Syjonie, abym im wieniec dał zamiast popiołu, olejek radości zamiast szaty smutku, pieśń chwały zamiast przygnębienia na duchu.\nWy zaś będziecie nazywani kapłanami Pana, zwać was będą sługami Boga naszego.\nTak mówi Pan: «Dam im uczciwą zapłatę i zawrę z nimi wieczyste przymierze. Plemię ich będzie znane wśród narodów i między ludami - ich potomstwo. Wszyscy, co ich zobaczą, uznają, że oni są błogosławionym szczepem Pana».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 21-22. 25 i 27",
+      "opis": "",
+      "tekst": "Refren: Na wieki będę sławił łaski Pana.\nZnalazłem Dawida, mojego sługę, *\n namaściłem go moim świętym olejem,\nby ręka moja zawsze przy nim była *\n i umacniało go moje ramię.\nRefren.\nZ nim moja wierność i łaska, *\n w moim imieniu jego moc wywyższona.\nOn będzie wołał do Mnie: †\n „Ty jesteś moim Ojcem, *\n moim Bogiem, Opoką mojego zbawienia”.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ap 1, 5-8",
+      "opis": "Chrystus uczynił nas królestwem i kapłanami",
+      "tekst": "Łaska wam i pokój od Jezusa Chrystusa, Świadka Wiernego, Pierworodnego wśród umarłych i Władcy królów ziemi.\nTemu, który nas miłuje i który przez swą krew uwolnił nas od naszych grzechów, i uczynił nas królestwem - kapłanami dla Boga i Ojca swojego, Jemu chwała i moc na wieki wieków! Amen.\nOto nadchodzi z obłokami i ujrzy Go wszelkie oko i wszyscy, którzy Go przebili. I będą Go opłakiwać wszystkie pokolenia ziemi. Tak: Amen.\nJa jestem Alfa i Omega, mówi Pan Bóg, Który jest, Który był i Który przychodzi, Wszechmogący.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Iz 61, 1 (por. Łk 4, 18)",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Duch Pański nade mną,\nposłał mnie, abym głosił dobrą nowinę ubogim."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 16-21",
+      "opis": "Chrystus namaszczony przez Ducha Świętego",
+      "tekst": "Jezus przyszedł do Nazaretu, gdzie się wychował. W dzień szabatu udał się swoim zwyczajem do synagogi i powstał, aby czytać.\nPodano Mu księgę proroka Izajasza. Rozwinąwszy księgę, znalazł miejsce, gdzie było napisane: «Duch Pański spoczywa na Mnie, ponieważ Mnie namaścił i posłał Mnie, abym ubogim niósł dobrą nowinę, więźniom głosił wolność, a niewidomym przejrzenie; abym uciśnionych odsyłał wolnymi, abym obwoływał rok łaski Pana».\nZwinąwszy księgę, oddał słudze i usiadł; a oczy wszystkich w synagodze były w Niego utkwione. Począł więc mówić do nich: «Dziś spełniły się te słowa Pisma, które słyszeliście».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta bezpośrednio odnosi się do tematu powszechnego kapłaństwa wiernych, o którym mówi drugie czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa do Ducha Świętego, który namaścił Chrystusa i namaszcza kapłanów do głoszenia Dobrej Nowiny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta sławi Chrystusa Króla i Kapłana, którego misję kontynuuje Kościół.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Nawiązuje do tajemnicy kapłaństwa służebnego i sakramentów, co jest centralnym punktem Mszy Krzyżma.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Pieśń ta jest modlitwą za kapłanów, którzy w jedności z biskupem odnawiają swoje przyrzeczenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna, która podkreśla, że każda Eucharystia jest sprawowana mocą kapłaństwa Chrystusowego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Podkreśla misyjny wymiar kapłaństwa, wynikający z namaszczenia Duchem Świętym, o którym mówią czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Jest to modlitwa o powołania i za kapłanów, aby wiernie pełnili swoją posługę w winnicy Pańskiej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jedność Kościoła, budowaną przez Eucharystię i posługę kapłanów zjednoczonych z biskupem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Jest to hymn do Ducha Świętego, który namaścił Chrystusa i namaszcza kapłanów do służby.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego jest prośbą o Jego dary dla całego Kościoła, a zwłaszcza dla kapłanów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o światło Ducha Świętego, aby zrozumieć i żyć tajemnicą kapłaństwa Chrystusowego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta sławi Chrystusa Króla i Kapłana, który posyła swoich sług do budowania Jego Królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest aklamacją na cześć Chrystusa Króla, którego kapłani są sługami i zwiastunami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń wyraża wierność Chrystusowi i Kościołowi, której przyrzeczenie składają kapłani.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Pieśń ta jest modlitwą za kapłanów, co jest jednym z głównych celów Mszy Krzyżma.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, niezbędne w posłudze kapłańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Pieśń uwielbia Chrystusa Króla, obecnego w swoim Kościele i działającego przez posługę kapłanów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Jest to modlitwa o królowanie Chrystusa w sercach, rodzinach i narodach, co jest owocem posługi kapłańskiej.",
+      "moment": "ogolne"
+    }
+  ]
+}

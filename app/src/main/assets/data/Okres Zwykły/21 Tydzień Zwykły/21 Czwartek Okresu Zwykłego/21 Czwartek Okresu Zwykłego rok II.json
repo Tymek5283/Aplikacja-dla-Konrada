@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429090.Czwartek-21-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "21 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 1, 1-9",
+      "opis": "Pozdrowienie Koryntian i dziękczynienie",
+      "tekst": "Paweł, z woli Bożej powołany na apostoła Jezusa Chrystusa, i Sostenes, brat, do Kościoła Bożego w Koryncie, do tych, którzy zostali uświęceni w Jezusie Chrystusie i powołani do świętości wespół ze wszystkimi, co na każdym miejscu wzywają imienia Pana naszego, Jezusa Chrystusa, ich i naszego Pana.\nŁaska wam i pokój od Boga Ojca naszego i Pana Jezusa Chrystusa! Bogu mojemu dziękuję wciąż za was, za łaskę daną wam w Chrystusie Jezusie. W Nim to bowiem zostaliście wzbogaceni we wszystko: we wszelkie słowo i wszelkie poznanie, bo świadectwo Chrystusowe utrwaliło się w was.\nNie doznajecie tedy braku żadnej łaski, oczekując objawienia się Pana naszego, Jezusa Chrystusa. On też będzie umacniał was aż do końca, abyście byli bez zarzutu w dzień Pana naszego, Jezusa Chrystusa.\nWierny jest Bóg, który powołał was do współuczestnictwa z Synem swoim, Jezusem Chrystusem, Panem naszym.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 2-3. 4-5. 6-7 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Będę Cię wielbił, Boże mój i Królu.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nWielki jest Pan i godzien wielkiej chwały, *\na wielkość Jego niezgłębiona.\nRefren.\nPokolenie pokoleniu głosi Twoje dzieła *\ni zwiastuje Twe potężne czyny.\nGłoszą wspaniałą chwałę Twego majestatu *\ni rozpowiadają Twoje cuda.\nRefren.\nMówią o potędze Twoich dzieł straszliwych *\ni głoszą wielkość Twoją.\nPrzekazują pamięć o wielkiej Twej dobroci *\ni cieszą się Twą sprawiedliwością.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 24, 42a. 44",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i bądźcie gotowi,\nbo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 24, 42-51",
+      "opis": "Wezwanie do czujności",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Czuwajcie, bo nie wiecie, w którym dniu Pan wasz przyjdzie. A to rozumiejcie: Gdyby gospodarz wiedział, o jakiej porze nocy nadejdzie złodziej, na pewno by czuwał i nie pozwoliłby włamać się do swego domu. Dlatego i wy bądźcie gotowi, bo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie.\nKtóż jest tym sługą wiernym i roztropnym, którego pan ustanowił nad swoją służbą, żeby we właściwej porze rozdał jej żywność? Szczęśliwy ów sługa, którego pan, gdy wróci, zastanie przy tej czynności. Zaprawdę, powiadam wam: Postawi go nad całym swoim mieniem. Lecz jeśli taki zły sługa powie sobie w duszy: „Mój pan się ociąga z powrotem”, i zacznie bić swoje współsługi, i będzie jadł i pił z pijakami, to nadejdzie pan tego sługi w dniu, kiedy się nie spodziewa, i o godzinie, której nie zna. Każe surowo go ukarać i wyznaczy mu miejsce z obłudnikami. Tam będzie płacz i zgrzytanie zębów».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń ta, szczególnie przez słowa 'Noc minęła, dzień jest blisko', doskonale oddaje atmosferę ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Treść pieśni przypomina o konieczności bycia gotowym na przyjście Pana, co jest głównym tematem Ewangelii i aklamacji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Chociaż jest to pieśń adwentowa, jej temat oczekiwania na przyjście Pana na końcu czasów idealnie pasuje do dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę wierności sługi z przypowieści, który z oddaniem pełni swoje obowiązki w oczekiwaniu na pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców dobrych czynów, co jest wyrazem czujności i gotowości na przyjście Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu naszą pracę, prosząc, by uznał nas za sługi wierne i roztropne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Komunia Święta umacnia naszą wiarę i nadzieję w oczekiwaniu na powtórne przyjście Pana, o którym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest pokarmem, który wierny sługa rozdaje we właściwej porze, umacniając nas w oczekiwaniu na Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę czuwania i oczekiwania na Pana, który przychodzi w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmu do codziennego błogosławienia i wysławiania imienia Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za łaskę powołania do wspólnoty z Chrystusem, o której pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za niezliczone łaski jest echem dziękczynienia św. Pawła za wspólnotę w Koryncie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Modlitwa wieczorna jest konkretnym wyrazem postawy czuwania, do której wzywa nas Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wierności Bogu, która jest wyrazem postawy czuwającego sługi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i gotowości do obrony wiary, co jest cechą sługi oczekującego na powrót Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do czuwania i wiernego wypełniania swoich obowiązków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę ufności i oczekiwania na Pana, do której wzywa dzisiejsza Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na pracę jest modlitwą wiernego sługi, który pragnie dobrze wypełnić powierzone mu zadania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który oczekuje na objawienie się Pana, jest odpowiedzią na dziękczynienie św. Pawła za wspólnotę wierzących.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416997.Sroda-IX-tydzien-zwykly-rok-II",
+  "tytul_dnia": "9 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 1, 1-3. 6-12",
+      "opis": "Rozpal na nowo charyzmat Boży",
+      "tekst": "Paweł, z woli Boga apostoł Chrystusa Jezusa, posłany dla głoszenia życia obiecanego w Chrystusie Jezusie, do Tymoteusza, swego umiłowanego dziecka. Łaska, miłosierdzie, pokój od Boga Ojca i Chrystusa Jezusa, naszego Pana!\nDziękuję Bogu, któremu służę jak moi przodkowie z czystym sumieniem, gdy nieustannie cię wspominam w moich modlitwach w nocy i we dnie.\nZ tej właśnie przyczyny przypominam ci, abyś rozpalił na nowo charyzmat Boży, który jest w tobie od nałożenia moich rąk. Albowiem nie dał nam Bóg ducha bojaźni, ale mocy i miłości oraz trzeźwego myślenia. Nie wstydź się zatem świadectwa Pana naszego ani mnie, Jego więźnia, lecz weź udział w trudach i przeciwnościach znoszonych dla Ewangelii mocą Bożą! On nas wybawił i wezwał świętym powołaniem nie na podstawie naszych czynów, lecz stosownie do własnego postanowienia i łaski, która nam dana została w Chrystusie Jezusie przed wiecznymi czasami. Ukazana zaś została ona teraz przez pojawienie się naszego Zbawiciela, Chrystusa Jezusa, który zniweczył śmierć, a na życie i nieśmiertelność rzucił światło przez Ewangelię. Jej głosicielem, apostołem i nauczycielem ja zostałem ustanowiony.\nZ tej właśnie przyczyny znoszę i to obecne cierpienie, ale za ujmę sobie tego nie poczytuję, bo wiem, komu zawierzyłem, i jestem pewny, że mocen On jest ustrzec mój depozyt aż do owego dnia.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 123 (122), 1b-2 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Do Ciebie, Boże, wznoszę moje oczy.\nDo Ciebie wznoszę oczy, który mieszkasz w niebie. †\nJak oczy sług są zwrócone na ręce ich panów. *\nJak oczy służebnicy na ręce jej pani,\ntak oczy nasze ku Panu, Bogu naszemu, *\ndopóki się nie zmiłuje nad nami.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 11, 25a. 26",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem zmartwychwstaniem i życiem,\nkto wierzy we Mnie, nie umrze na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 18-27",
+      "opis": "Zmartwychwstanie umarłych",
+      "tekst": "Przyszli do Jezusa saduceusze, którzy twierdzą, że nie ma zmartwychwstania, i pytali Go w ten sposób: «Nauczycielu, Mojżesz tak nam przepisał: „Jeśli umrze czyjś brat i pozostawi żonę, a nie zostawi dziecka, niech jego brat pojmie ją za żonę i wzbudzi potomstwo swemu bratu”.\nOtóż było siedmiu braci. Pierwszy pojął żonę, a umierając, nie zostawił potomstwa. Drugi ją pojął za żonę i też zmarł bez potomstwa; tak samo trzeci. I siedmiu ich nie zostawiło potomstwa. W końcu po wszystkich umarła także kobieta. Przy zmartwychwstaniu więc, gdy powstaną, którego z nich będzie żoną? Bo siedmiu miało ją za żonę».\nJezus im rzekł: «Czyż nie dlatego jesteście w błędzie, że nie rozumiecie Pisma ani mocy Bożej? Gdy bowiem powstaną z martwych, nie będą się ani żenić, ani za mąż wychodzić, ale będą jak aniołowie w niebie. Co się zaś tyczy umarłych, że zmartwychwstaną, to czy nie czytaliście w księdze Mojżesza, tam gdzie mowa o krzewie, jak Bóg powiedział do niego: „Ja jestem Bóg Abrahama, Bóg Izaaka i Bóg Jakuba”? Nie jest On Bogiem umarłych, lecz żywych. Jesteście w wielkim błędzie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń ta jest echem psalmu, w którym wierny wznosi oczy ku Bogu w oczekiwaniu na Jego miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Modlitwa o prowadzenie i nadzieję jest odpowiedzią na wezwanie św. Pawła do odwagi i wierności.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest źródłem siły do znoszenia trudów dla Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Wyraża postawę wierności i odwagi w świadectwie, do której wzywa św. Paweł w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec wezwania do udziału w trudach Ewangelii, ta pieśń jest aktem ofiarowania całego życia Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud głoszenia Ewangelii i wierności otrzymanemu charyzmatowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa Zmartwychwstałego, który jest Bogiem żywych, a nie umarłych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń wyraża wiarę w zmartwychwstanie i nadzieję na oglądanie Boga, co jest głównym tematem pouczenia Jezusa w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wielkanocna, która sławi Chrystusa jako zwycięzcę śmierci, co jest podstawą naszej wiary w zmartwychwstanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar powołania i łaski, o której pisze św. Paweł do Tymoteusza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą moc i miłość, która uzdalnia nas do świadectwa, o czym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary w zmartwychwstanie, która jest fundamentem chrześcijaństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta posyła wiernych ze świadectwem o Chrystusie, który zniweczył śmierć i rzucił światło na życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię życia i nieśmiertelności, o której pisze św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by kroczyć drogą Chrystusa, drogą wiary w zmartwychwstanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Podkreśla, że Bóg daje ducha mocy, a nie bojaźni, co jest kluczowe w posłudze ewangelizacyjnej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę w zmartwychwstanie, której brakowało saduceuszom w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń przypomina o perspektywie życia wiecznego, które jest nagrodą za wiarę w zmartwychwstanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna, która doskonale oddaje temat zmartwychwstania, centralny dla dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415417.Piatek-30-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "30 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 9, 1-5",
+      "opis": "Paweł boleje nad niewiarą swojego narodu",
+      "tekst": "Bracia:\nPrawdę mówię w Chrystusie, nie kłamię, potwierdza mi to moje sumienie w Duchu Świętym, że w sercu swoim odczuwam wielki smutek i nieustanny ból.\nWolałbym bowiem sam być pod klątwą, odłączonym od Chrystusa dla zbawienia braci moich, którzy według ciała są moimi rodakami. Są to Izraelici, do których należą przybrane synostwo i chwała, przymierza i nadanie Prawa, pełnienie służby Bożej i obietnice. Do nich należą praojcowie, z nich również jest Chrystus według ciała, Ten, który jest ponad wszystkim, Bóg błogosławiony na wieki. Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147B, 12-13. 14-15. 19-20 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Kościele święty, chwal swojego Pana.\nChwal, Jeruzalem, Pana, *\nwysławiaj Twego Boga, Syjonie!\nUmacnia bowiem zawory bram twoich *\ni błogosławi synom twoim w tobie.\nRefren.\nZapewnia pokój twoim granicom *\ni wyborną pszenicą ciebie darzy.\nZsyła na ziemię swoje polecenia, *\na szybko mknie Jego słowo.\nRefren.\nOznajmił swoje słowo Jakubowi, *\nIzraelowi ustawy swe i wyroki.\nNie uczynił tego dla innych narodów, *\nnie oznajmił im swoich wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 1-6",
+      "opis": "Pan Jezus uzdrawia w szabat",
+      "tekst": "Gdy Jezus przyszedł do domu pewnego przywódcy faryzeuszów, aby w szabat spożyć posiłek, oni Go śledzili.\nA oto zjawił się przed Nim pewien człowiek chory na wodną puchlinę. Wtedy Jezus zapytał uczonych w Prawie i faryzeuszów: «Czy wolno w szabat uzdrawiać, czy też nie?» Lecz oni milczeli. On zaś dotknął go, uzdrowił i odprawił.\nA do nich rzekł: «Któż z was, jeśli jego syn albo wół wpadnie do studni, nie wyciągnie go zaraz, nawet w dzień szabatu?» I nie zdołali Mu na to odpowiedzieć.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który w Ewangelii objawia się jako uzdrowiciel, litujący się nad chorym człowiekiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Psalm responsoryjny jest hymnem na cześć Jerozolimy (Syjonu), która jest obrazem Kościoła, obdarzonego Bożym słowem i błogosławieństwem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do zgromadzenia się przed Panem, który w Ewangelii ukazuje swoje miłosierdzie przekraczające Prawo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec miłości św. Pawła, który pragnąłby być odłączonym od Chrystusa dla zbawienia braci, ta pieśń jest aktem ofiarowania siebie Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłosierny czyn Jezusa w Ewangelii jest przykładem miłości, która jest najmilszą Bogu ofiarą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i ofiarowania życia Bogu, którego miłosierdzie i sprawiedliwość są większe niż ludzkie przepisy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Jezus jest Dobrym Pasterzem, który troszczy się o swoje owce, uzdrawiając je nawet w szabat, jak pokazuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę i uzdrowienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłosierdzia, które przekracza literę Prawa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Psalm responsoryjny wzywa do chwalenia Pana. Ta pieśń jest radosnym hymnem na cześć Boga, który objawił swoje słowo Izraelowi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, którego zbawienie, jak mówi psalm, ujrzały wszystkie krańce ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże zbawienie i cuda, o których mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego miłosierdzie jest ważniejsze niż przepisy Prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłosierdzia, której przykład daje Jezus, uzdrawiając w szabat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń jest wezwaniem do służby potrzebującym, co jest praktycznym zastosowaniem nauki Jezusa o miłosierdziu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar Kościoła, który, jak mówi psalm, jest obdarowany słowem Bożym i Jego prawami.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i ocalenie, co jest wyrazem miłosierdzia, którego domaga się Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych, nawiązuje do postawy Jezusa, który uzdrawia w szabat.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn sławiący Boże miłosierdzie jest doskonałym komentarzem do Ewangelii, w której Jezus stawia miłosierdzie ponad Prawem.",
+      "moment": "ogolne"
+    }
+  ]
+}

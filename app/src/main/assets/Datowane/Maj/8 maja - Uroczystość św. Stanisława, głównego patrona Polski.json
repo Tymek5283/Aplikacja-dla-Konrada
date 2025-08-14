@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 100,1-2.3.4b-5ab",
-      "opis": "Refren:",
-      "tekst": "My ludem Pana i Jego owcami.\nWykrzykujcie na cześć Pana, wszystkie ziemie,\nsłużcie Panu z weselem.\nStawajcie przed obliczem Pana\nz okrzykami radości.\nWiedzcie, że Pan jest Bogiem,\nOn sam nas stworzył,\njesteśmy Jego własnością,\nJego ludem, owcami Jego pastwiska.\nW Jego bramy wstępujcie z dziękczynieniem,\nz hymnami w Jego przedsłonki.\nAlbowiem Pan jest dobry,\nJego łaska trwa na wieki."
+      "opis": "",
+      "tekst": "Refren:\nMy ludem Pana i Jego owcami.\nWykrzykujcie na cześć Pana, wszystkie ziemie,\nsłużcie Panu z weselem.\nStawajcie przed obliczem Pana\nz okrzykami radości.\nWiedzcie, że Pan jest Bogiem,\nOn sam nas stworzył,\njesteśmy Jego własnością,\nJego ludem, owcami Jego pastwiska.\nW Jego bramy wstępujcie z dziękczynieniem,\nz hymnami w Jego przedsłonki.\nAlbowiem Pan jest dobry,\nJego łaska trwa na wieki."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Jest to pieśń powitalna skierowana do męczennika, która podkreśla jego wierność Chrystusowi aż do śmierci.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar patrona, który jest dla narodu wzorem i orędownikiem u Boga.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "448",
       "piesn": "Chwała Tobie, Gospodzinie",
       "opis": "Hymn na cześć św. Stanisława, który uczył sprawiedliwości, jest świetnym tłem do przygotowania darów ofiarnych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń ta, sławiąc Boga za dar męczenników, łączy ofiarę ich życia z ofiarą chleba i wina na ołtarzu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni, wraz z darami materialnymi, składamy Bogu nasze życie, na wzór ofiary życia św. Stanisława.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Pieśń oparta na Psalmie 23, który jest psalmem responsoryjnym w tę uroczystość, podkreśla ufność w prowadzenie Dobrego Pasterza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń eucharystyczna, która podkreśla miłość Chrystusa-Pasterza, oddającego się za nas w Komunii, co jest echem Ewangelii dnia.",
+      "moment": "komunia"
+    },
+    {
       "numer": "449",
       "piesn": "O Stanisławie, pasterzu dusz",
       "opis": "Pieśń ta jest modlitwą o wstawiennictwo patrona Polski, a także wyrazem wdzięczności za jego męstwo i wiarę.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn uwielbienia Boga w Jego świętych, który doskonale pasuje na dziękczynienie za dar życia i męczeństwa św. Stanisława.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn dziękczynny, który wyraża wdzięczność za wszystkie Boże dary, w tym za przykład świętych pasterzy.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "450",
       "piesn": "Święty Stanisławie, patronie nasz",
       "opis": "Krótkie, treściwe wezwanie do patrona Polski, które może być śpiewane na rozesłanie, zawierzając naród jego opiece.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o wierności Chrystusowi i obronie wiary, co doskonale odzwierciedla postawę św. Stanisława wobec króla.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Modlitwa do polskich świętych, z prośbą o wstawiennictwo za Ojczyznę, jest bardzo stosowna na zakończenie uroczystości patrona Polski.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "224",
       "piesn": "Ludu kapłański",
       "opis": "Podkreśla powołanie całego ludu Bożego, którego częścią i pasterzem był św. Stanisław.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Hymn narodowy o charakterze błagalnym, który w uroczystość patrona Polski nabiera szczególnego znaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, za który św. Stanisław oddał życie, broniąc jego praw i wolności.",
       "moment": "ogolne"
     }
   ]

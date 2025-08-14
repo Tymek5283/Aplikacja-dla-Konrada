@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424668.Sobota-23-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "23 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 1, 15-17",
+      "opis": "Jezus przyszedł na świat zbawić grzeszników",
+      "tekst": "Nauka to godna wiary i zasługująca na całkowite uznanie, że Chrystus , spośród których ja jestem pierwszy. Lecz dostąpiłem miłosierdzia po to, by we mnie pierwszym Jezus Chrystus pokazał całą wielkoduszność jako przykład dla tych, którzy w Niego wierzyć będą na życie wieczne.\nA Królowi wieków, nieśmiertelnemu, niewidzialnemu, Bogu samemu - cześć i chwała na wieki wieków. Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 113 (112), 1b-2. 3-4. 5a i 6-7 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech imię Pana będzie pochwalone.\nChwalcie, słudzy Pańscy, *\nchwalcie imię Pana.\nNiech imię Pana będzie błogosławione *\nteraz i na wieki.\nRefren.\nOd wschodu aż do zachodu słońca *\nniech będzie pochwalone imię Pana.\nPan jest wywyższony ponad wszystkie ludy, *\nponad niebiosa sięga Jego chwała.\nRefren.\nKto jest jak nasz Pan Bóg, *\nco w dół spogląda na niebo i na ziemię?\nPodnosi z prochu nędzarza *\ni dźwiga z gnoju ubogiego.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 43-49",
+      "opis": "Dobre i złe drzewo. Dobra i zła budowa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie ma drzewa dobrego, które by wydawało zły owoc, ani też drzewa złego, które by dobry owoc wydawało. Po własnym owocu bowiem poznaje się każde drzewo; nie zrywa się fig z ciernia, ani z krzaka jeżyny nie zbiera się winogron. Dobry człowiek z dobrego skarbca swego serca wydobywa dobro, a zły człowiek ze złego skarbca wydobywa zło. Bo z obfitości serca mówią jego usta.\nCzemu to wzywacie Mnie: „Panie, Panie!”, a nie czynicie tego, co mówię? Pokażę wam, do kogo podobny jest każdy, kto przychodzi do Mnie, słucha słów moich i wypełnia je.\nPodobny jest do człowieka, który buduje dom: wkopał się głęboko i fundament założył na skale. Gdy przyszła powódź, wezbrana rzeka uderzyła w ten dom, ale nie zdołała go naruszyć, ponieważ był dobrze zbudowany.\nLecz ten, kto usłyszał, a nie wypełnił, podobny jest do człowieka, który zbudował dom na ziemi bez fundamentu. Gdy rzeka uderzyła w niego, od razu runął, a ruina owego domu była wielka».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta jest bezpośrednim nawiązaniem do Ewangelii o dobrym drzewie, które wydaje dobre owoce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem przyjęcia Słowa Bożego i wydania owocu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość trwania Słowa Bożego, które jest ziarnem zasiewanym w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, którego doświadczył św. Paweł, nazywający siebie pierwszym z grzeszników.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża skruchę i postanowienie poprawy, co jest postawą dobrej gleby, gotowej na przyjęcie Słowa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy nasze życie, prosząc, by stało się ono dobrym owocem, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Trzecia zwrotka mówi o wypełnianiu przykazań, co jest budowaniem na skale, o którym naucza Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Komunia Święta jest pokarmem, który umacnia nas w wytrwałości, by Słowo Boże wydało w nas owoc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Eucharystia zaspokaja nasze najgłębsze pragnienia i daje siłę do życia Słowem Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem czci i chwały dla 'Króla wieków, nieśmiertelnemu', o którym pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmu do chwalenia imienia Pana od wschodu do zachodu słońca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest owocem serca, które przyjęło Słowo Boże i doświadczyło Jego miłosierdzia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "349b",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Jako w sobotę, pieśń do Maryi, która jest wzorem żyznej gleby przyjmującej Słowo, jest stosowna na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja, która zachowywała Słowo w sercu, jest wzorem dla nas, jak przyjmować ziarno Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę nad naszą wiarą, by wydawała dobre owoce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem, skałą, na której można bezpiecznie budować dom swojego życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest podstawą do przyjęcia Słowa i wydawania owoców, o czym mówi dzisiejsza Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie, którego przykładem jest nawrócenie św. Pawła, jest skałą, na której budujemy nasze życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który podnosi nędzarza z prochu i jest fundamentem naszego życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

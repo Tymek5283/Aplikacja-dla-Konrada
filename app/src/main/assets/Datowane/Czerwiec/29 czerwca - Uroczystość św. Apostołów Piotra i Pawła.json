@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 19,2-3.4-5",
-      "opis": "Refren:",
-      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+      "opis": "",
+      "tekst": "Refren:\nPo całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla charakter Kościoła, zbudowanego na fundamencie Apostołów, których dziś uroczyście wspominamy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, którego filarami są Piotr i Paweł, o jedność i pokój.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "478",
       "piesn": "Jeśli chcesz szukać patrona",
       "opis": "Pieśń poświęcona św. Piotrowi jako opoce Kościoła, co nawiązuje do jego roli podkreślonej w liturgii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami składamy nasze życie, prosząc o łaskę wierności na wzór Apostołów, którzy złożyli swoje życie w ofierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Modlitwa o błogosławieństwo w pracy apostolskiej, do której powołani zostali Piotr i Paweł, a także każdy z nas.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "573",
-      "piesn": "Chwała wam apostołowie",
-      "opis": "Jest to hymn uwielbienia dla wszystkich apostołów, a w tym dniu w szczególności dla Piotra i Pawła, filarów Kościoła.",
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Piotr wyznał wiarę, Paweł jej nauczał, a my prosimy o umocnienie naszej wiary w Chrystusa, którego przyjmujemy w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, budowanego na fundamencie Ewangelii głoszonej przez apostołów i umacnianego Eucharystią.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały dla Boga, którego wielkość głosili Apostołowie 'aż po krańce świata', jak słyszymy w psalmie.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum, wymieniający 'Apostołów Tobie rzesza', jest doskonałym zwieńczeniem celebracji tak wielkiej uroczystości.",
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn dziękczynienia za dar Apostołów i ich świadectwo, które rozeszło się po całej ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia chwały Pana, co było misją życia Piotra i Pawła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Jest to hymn uwielbienia dla wszystkich apostołów, a w tym dniu w szczególności dla Piotra i Pawła, filarów Kościoła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Treść pieśni jest bezpośrednim echem misyjnego nakazu Jezusa, który realizowali Apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i wierze, za którą Apostołowie oddali życie.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "476",
       "piesn": "Duchem Świętym kierowany",
       "opis": "Pieśń, która w równym stopniu oddaje cześć obu apostołom, podkreślając ich komplementarne role w budowaniu Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "428",
+      "piesn": "Niezbadany ślad Twych dróg",
+      "opis": "Pieśń o nawróceniu św. Pawła, które było kluczowym momentem w historii Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi królowanie Chrystusa, którego Ewangelię nieśli światu Piotr i Paweł.",
       "moment": "ogolne"
     }
   ]

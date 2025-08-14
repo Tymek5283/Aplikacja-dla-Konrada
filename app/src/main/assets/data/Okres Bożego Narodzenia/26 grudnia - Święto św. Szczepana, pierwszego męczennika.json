@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410531.26-grudnia-swietego-Szczepana-pierwszego-meczennika",
+  "tytul_dnia": "26 grudnia - Święto św. Szczepana, pierwszego męczennika",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 6,8-10;7,54-60",
+      "opis": "Ukamienowanie św. Szczepana",
+      "tekst": "Szczepan pełen łaski i mocy działał cuda i znaki wielkie wśród ludu. Niektórzy zaś z synagogi, zwanej synagogą Libertynów i Cyrenejczyków, i Aleksandryjczyków, i tych, którzy pochodzili z Cylicji i z Azji, wystąpili do rozprawy ze Szczepanem. Nie mogli jednak sprostać mądrości i Duchowi, z którego natchnienia przemawiał.\nGdy usłyszeli to, co mówił, zawrzały gniewem ich serca i zgrzytali zębami na niego.\nA on pełen Ducha Świętego patrzył w niebo i ujrzał chwałę Bożą i Jezusa, stojącego po prawicy Boga. I rzekł: „Widzę niebo otwarte i Syna Człowieczego, stojącego po prawicy Boga”.\nA oni podnieśli wielki krzyk, zatkali sobie uszy i rzucili się na niego wszyscy razem. Wyrzucili go poza miasto i kamienowali, a świadkowie złożyli swe szaty u stóp młodzieńca, zwanego Szawłem.\nTak kamienowali Szczepana, który modlił się: „Panie Jezu, przyjmij ducha mego!” A gdy osunął się na kolana, zawołał głośno: „Panie, nie poczytaj im tego grzechu”.\nPo tych słowach skonał.\nOto słowo Boże"
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 31,3cd-4.6 i 8ab.16-17",
+      "opis": "",
+      "tekst": "Refren:\nW ręce Twe, Panie, składam ducha mego.\nBądź dla mnie skałą schronienia,\nwarownią, która ocala.\nTy bowiem jesteś moją skałą i twierdzą,\nkieruj mną i prowadź przez wzgląd na swe imię.\nW ręce Twoje powierzam ducha mego:\nTy mnie odkupisz, Panie, Boże.\nWeselę się i cieszę się Twoim miłosierdziem,\nboś wejrzał na moją nędzę.\nW Twoim ręku są moje losy,\nwyrwij mnie z rąk wrogów i prześladowców.\nNiech Twoje oblicze zajaśnieje nad Twym sługą:\nwybaw mnie w swym miłosierdziu."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 118,26a i 27a",
+      "opis": "Alleluja, alleluja, alleluja",
+      "tekst": "Błogosławiony, który przybywa w imię Pańskie,\nPan jest Bogiem i daje nam światło."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10,17-22",
+      "opis": "Duch Ojca waszego będzie mówił przez was",
+      "tekst": "Jezus powiedział do swoich Apostołów:\n„Miejcie się na baczności przed ludźmi. Będą was wydawać sądom i w swych synagogach będą was biczować. Nawet przed namiestników i królów będą was wodzić z mego powodu, na świadectwo im i poganom. Kiedy was wydadzą, nie martwcie się o to, jak ani co macie mówić. W owej bowiem godzinie będzie wam poddane, co macie mówić. Gdyż nie wy będziecie mówili, lecz . Brat wyda brata na śmierć i ojciec syna; dzieci powstaną przeciw rodzicom i o śmierć ich przyprawią. Będziecie w nienawiści u wszystkich z powodu mego imienia. Lecz kto wytrwa do końca, ten będzie zbawiony’.\nOto słowo Pańskie"
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "571",
+      "piesn": "W otwartych niebiosach",
+      "opis": "Pieśń ta jest bezpośrednim opisem wizji i męczeństwa św. Szczepana, o których czytamy w Dziejach Apostolskich, co czyni ją idealną na wejście.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń o męczennikach, której tekst mówi o ich męstwie i przykładzie, jest doskonałym utworem na rozpoczęcie liturgii w dzień pierwszego męczennika.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Pieśń ta wielbi Boga w Jego świętych, w tym w zastępie męczenników, którzy oddali życie dla Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "W ofiarowaniu darów łączymy nasze życie ze świadectwem męczenników, prosząc o siłę do wyznawania wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W darach chleba i wina łączymy naszą ofiarę z ofiarą życia św. Szczepana i samego Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszej pracy i świadectwa, na wzór św. Szczepana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ewangelia mówi o potrzebie wytrwania do końca. Ta pieśń jest prośbą o moc wiary, która pozwoliła św. Szczepanowi oddać życie za Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest prośbą o zjednoczenie z Chrystusem, którego św. Szczepan widział w chwale i któremu powierzył swego ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń adoruje Ciało Chrystusa, które wycierpiało za nasze winy, łącząc nas z ofiarą wszystkich męczenników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Pieśń jest modlitwą uwielbienia za dar męczennika i prośbą o wstawiennictwo, co doskonale pasuje na dziękczynienie po Komunii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "W tej pieśni wzywamy wstawiennictwa 'męczeństwa purpuratów', do których jako pierwszy dołączył św. Szczepan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Pana, którego chwałę ujrzał św. Szczepan w otwartym niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń ta jest wyznaniem wierności Chrystusowi aż do końca, na wzór św. Szczepana, co stanowi mocne posłanie na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Śmierć Szczepana była potężnym świadectwem, które przyczyniło się do rozszerzenia Ewangelii, do głoszenia której jesteśmy posłani.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi Chrystusa jako nadzieję, dla której warto cierpieć i oddać życie, jak uczynił to św. Szczepan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń mówi o niesieniu krzyża i oddawaniu życia z miłości, co jest istotą świadectwa męczenników.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm o ufności w Bożą opiekę, która nie zawodzi nawet w obliczu prześladowań, o których mówi Ewangelia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, nawet pośród cierpienia, na wzór św. Szczepana, który w chwili śmierci widział Jezusa.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar wiary i męstwa, którego przykładem jest św. Szczepan.",
+      "moment": "ogólne"
+    }
+  ]
+}

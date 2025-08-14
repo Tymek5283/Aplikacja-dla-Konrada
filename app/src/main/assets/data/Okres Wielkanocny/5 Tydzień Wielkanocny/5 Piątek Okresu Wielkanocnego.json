@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413328.Piatek-V-tygodnia-wielkanocnego",
+  "tytul_dnia": "5 Piątek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 15, 22-31",
+      "opis": "Dekret Soboru Jerozolimskiego",
+      "tekst": "Po naradzie w Jerozolimie apostołowie i starsi wraz z całym Kościołem postanowili wybrać ludzi przodujących wśród braci: Judę, zwanego Barsabą, i Sylasa i wysłać do Antiochii razem z Barnabą i Pawłem. Posłali przez nich pismo tej treści:\n«Apostołowie i starsi bracia przesyłają pozdrowienie braciom pogańskiego pochodzenia w Antiochii, w Syrii i w Cylicji. Ponieważ dowiedzieliśmy się, że niektórzy bez naszego upoważnienia wyszli od nas i zaniepokoili was naukami, siejąc zamęt w waszych duszach, postanowiliśmy jednomyślnie wybrać mężów i wysłać razem z naszymi drogimi: Barnabą i Pawłem, którzy dla imienia Pana naszego, Jezusa Chrystusa, poświęcili swe życie. Wysyłamy więc Judę i Sylasa, którzy oznajmią wam ustnie to samo.\nPostanowiliśmy bowiem, Duch Święty i my, nie nakładać na was żadnego ciężaru oprócz tego, co konieczne. Powstrzymajcie się od ofiar składanych bożkom, od krwi, od tego, co uduszone, i od nierządu. Dobrze uczynicie, jeżeli powstrzymacie się od tego. Bywajcie zdrowi!»\nWysłannicy przybyli więc do Antiochii i zwoławszy lud, oddali list. Gdy został odczytany, uradowali się jego pocieszającą treścią.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 57 (56), 8 i 10. 11-12 (R.: por. 10a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Będę Cię, Panie, chwalił wśród narodów.\nSerce moje jest mocne, Boże, †\nmocne jest moje serce, *\nzaśpiewam psalm i zagram.\nBędę Cię chwalił wśród ludów, Panie, *\nzaśpiewam Ci psalm wśród narodów.\nRefren.\nTwoja łaska sięga aż do nieba, *\na wierność Twoja po chmury.\nWznieś się, Boże, ponad niebiosa, *\nnad całą ziemią Twoja chwała.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 15b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nazwałem was przyjaciółmi,\nalbowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 12-17",
+      "opis": "To wam przykazuję, abyście się wzajemnie miłowali",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«To jest moje przykazanie, abyście się wzajemnie miłowali, tak jak Ja was umiłowałem. Nikt nie ma większej miłości od tej, gdy ktoś życie swoje oddaje za przyjaciół swoich.\nWy jesteście przyjaciółmi moimi, jeżeli czynicie to, co wam przykazuję. Już was nie nazywam sługami, bo sługa nie wie, co czyni jego pan, ale nazwałem was przyjaciółmi, albowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego.\nNie wy Mnie wybraliście, ale Ja was wybrałem i przeznaczyłem was na to, abyście szli i owoc przynosili, i by owoc wasz trwał - aby Ojciec dał wam wszystko, o cokolwiek Go poprosicie w imię moje. ».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z dzisiejszej Ewangelii, w której Jezus daje uczniom przykazanie miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana wśród narodów, co jest tematem psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem bycia przyjacielem Jezusa i życia w Jego miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do przykazania miłości, które jest fundamentem życia wspólnoty Kościoła, o której mówią Dzieje Apostolskie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, budowaną na miłości wzajemnej, której uczy Jezus i którą starali się zachować apostołowie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, największym dowodzie przyjaźni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, który oddał życie za swoich przyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który do końca nas umiłował i nazwał nas swoimi przyjaciółmi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus jednoczy nas ze sobą i uzdalnia do wzajemnej miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na pocieszającą treść listu apostołów, która uradowała wiernych w Antiochii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący zwycięstwo Zmartwychwstałego Pana, który daje nam przykazanie miłości jako drogę do życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń jest wyznaniem wiary w Zmartwychwstanie, które jest źródłem radości i jedności w Kościele.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jezus wybrał i przeznaczył apostołów, aby szli i przynosili owoc, co jest istotą ich misji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii miłości, do której zostali posłani apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń posyła wiernych, by z radością głosili światu, że Pan żyje i jest z nami, a my jesteśmy Jego przyjaciółmi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wiara w Zmartwychwstałego jest źródłem miłości i jedności, które budują Kościół.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten przypomina, że miłość, do której wzywa Ewangelia, jest miejscem obecności Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "208",
+      "piesn": "Pragnę miłością Twą",
+      "opis": "Jest to osobista modlitwa o napełnienie serca miłością Bożą, aby żyć nowym przykazaniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój w Kościele jest odpowiedzią na decyzje Soboru Jerozolimskiego, mające na celu zachowanie jedności.",
+      "moment": "ogolne"
+    }
+  ]
+}

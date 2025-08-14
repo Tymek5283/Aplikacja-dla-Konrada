@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430470.Wtorek-XVII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "17 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 14, 17-22",
+      "opis": "W czasie klęski nadzieja w Bogu",
+      "tekst": "Oczy moje wylewają łzy dzień i noc bez przerwy, bo wielki upadek dotknie Dziewicę, Córę mojego ludu, klęska bardzo wielka. Gdy wyjdę na pole - oto pobici mieczem! Jeśli pójdę do miasta - oto męki głodu! Nawet prorok i kapłan błądzą po kraju, nic nie rozumiejąc.\nCzy nieodwołalnie odrzuciłeś Judę albo czy odczuwasz wstręt do Syjonu? Dlaczego nas dotknąłeś klęską, a nie ma dla nas uleczenia? Spodziewaliśmy się pokoju, ale nie ma nic dobrego; czasu uleczenia - a tu przerażenie!\nUznajemy, Panie, naszą niegodziwość, przewrotność naszych przodków, bo zgrzeszyliśmy przeciw Tobie. Nie odrzucaj nas przez wzgląd na Twoje imię, od czci nie odsądzaj tronu Twojej chwały! Pamiętaj, nie zrywaj przymierza z nami!\nCzy są wśród bożków pogańskich tacy, którzy by zesłali deszcz? Czy może niebo zsyła krople deszczu? Czy raczej nie Ty, Panie, nasz Boże? W Tobie pokładamy nadzieję, bo Ty uczyniłeś to wszystko.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 79 (78), 5 i 8. 9. 11 i 13 (R.: por. 9cd)",
+      "opis": "",
+      "tekst": "Refren: Wyzwól nas, Boże, dla imienia Twego.\nCzy wiecznie będziesz się gniewał? *\nNie pamiętaj nam win przodków naszych,\nniech szybko nas spotka Twoje zmiłowanie, *\ngdyż bardzo jesteśmy słabi.\nRefren.\nWspomóż nas, Boże, nasz Zbawco, *\ndla chwały Twojego imienia;\nWyzwól nas i odpuść nam grzechy *\nprzez wzgląd na swoje imię.\nRefren.\nNiech jęk pojmanych dojdzie do Ciebie, *\ni mocą Twego ramienia ocal na śmierć skazanych.\nMy zaś, lud Twój i owce Twojej trzody, †\nbędziemy wielbić Ciebie na wieki *\ni przez pokolenia głosić Twoją chwałę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 13, 35cd",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 36-43",
+      "opis": "Wyjaśnienie przypowieści o chwaście",
+      "tekst": "Jezus odprawił tłumy i wrócił do domu. Tam przystąpili do Niego uczniowie, mówiąc: «Wyjaśnij nam przypowieść o chwaście».\nOn odpowiedział: «Tym, który sieje dobre nasienie, jest Syn Człowieczy. Rolą jest świat, dobrym nasieniem są synowie królestwa, chwastem zaś synowie Złego. Nieprzyjacielem, który posiał chwast, jest diabeł; żniwem jest koniec świata, a żeńcami są aniołowie.\nJak więc zbiera się chwast i spala w ogniu, tak będzie przy końcu świata. Syn Człowieczy pośle aniołów swoich: ci zbiorą z Jego królestwa wszystkie zgorszenia oraz tych, którzy dopuszczają się nieprawości, i wrzucą ich w piec rozpalony; tam będzie płacz i zgrzytanie zębów. Wtedy sprawiedliwi jaśnieć będą jak słońce w królestwie Ojca swego. Kto ma uszy, niechaj słucha!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń jest odpowiedzią na lamentację proroka Jeremiasza, wyrażając pragnienie nawrócenia i powrotu do miłosiernego Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Błagalna pieśń, która oddaje nastrój pierwszego czytania i psalmu, pełnych bólu i nadziei w Boże miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec uznania własnej grzeszności, pieśń jest wołaniem o Boże zmiłowanie i oczyszczenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Wobec uznania własnej niegodziwości z pierwszego czytania, ta pieśń jest prośbą o oczyszczenie i przebaczenie grzechów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i nadzieję w Boże miłosierdzie, o które prosi prorok Jeremiasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błaganie o przebaczenie, które jest odpowiedzią na słowa proroka: 'Uznajemy, Panie, naszą niegodziwość'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Przyjęcie Komunii wymaga serca, które uznaje swoją słabość i potrzebę Zbawiciela, o czym przypominają dzisiejsze czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża pokorę i wiarę w Tego, który jest jedynym lekarstwem na 'nieuleczalną ranę' grzechu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża radość z przyjścia Pana w Komunii, który jest odpowiedzią na nasze wołanie i tęsknotę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Mimo doświadczenia klęski, prorok i psalmista pokładają nadzieję w Bogu, a ta pieśń jest wyrazem uwielbienia za Jego wierność.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które jest większe niż nasze grzechy i które wyzwala nas z ucisku.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Jest to pieśń nadziei, która odpowiada na wołanie psalmisty i proroka, ufających, że Bóg nie opuści swojego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Ewangelia mówi, że sprawiedliwi będą jaśnieć jak słońce, a ta pieśń wskazuje na Chrystusa jako źródło tej światłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by być 'dobrym nasieniem' w świecie, który jest rolą, gdzie dobro i zło rosną razem aż do żniwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po usłyszeniu Słowa Bożego, prosimy o błogosławieństwo, byśmy mogli przynosić owoc jako 'synowie królestwa'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W obliczu klęski i sądu, pieśń ta przypomina o Bożej opiece nad tymi, którzy Mu ufają.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Jest to akt zawierzenia Bożemu miłosierdziu, które jest jedyną nadzieją w sytuacji opisanej przez proroka Jeremiasza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu i Jego słowu, które jest pociechą w czasie utrapienia i klęski.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Pieśń jest wołaniem z 'doliny łez', które dobrze oddaje lament Jeremiasza i prośbę o litość.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418021.Czwartek-25-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "25 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ag 1, 1-8",
+      "opis": "Bóg nakazuje odbudowę świątyni",
+      "tekst": "W drugim roku rządów króla Dariusza, w pierwszym dniu szóstego miesiąca, Pan skierował te słowa przez proroka Aggeusza do Zorobabela, syna Szealtiela, namiestnika Judy, i do arcykapłana Jozuego, syna Josadaka:\n«Tak mówi Pan Zastępów: Ten lud powiada: Jeszcze nie nadszedł czas, aby odbudowywać dom Pański. Wówczas Pan skierował te słowa przez proroka Aggeusza: Czy to jest czas stosowny dla was, byście spoczywali w domach wyłożonych płytami, podczas gdy ten dom leży w gruzach?\nA teraz tak mówi Pan Zastępów: Zastanówcie się dobrze nad swoim postępowaniem! Siejecie wiele, lecz plon macie lichy; przyjmujecie pokarm, lecz nie macie go do syta; pijecie, lecz nie gasicie pragnienia; okrywacie się, lecz się nie rozgrzewacie; ten, kto pracuje dla zarobku, pracuje dla dziurawego mieszka.\nTak mówi Pan Zastępów: Zastanówcie się dobrze nad swoim postępowaniem. Wyjdźcie w góry i sprowadźcie drewno, a budujcie ten dom, bym sobie w nim upodobał i doznał czci - mówi Pan».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 149, 1b-2. 3-4. 5-6a i 9b (R.: por. 4a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan w swoim ludzie upodobał sobie.\nŚpiewajcie Panu pieśń nową, *\ngłoście Jego chwałę w zgromadzeniu świętych.\nNiech się Izrael cieszy swoim Stwórcą, *\na synowie Syjonu radują swym Królem.\nRefren.\nNiech imię Jego czczą tańcem, *\nniech grają Mu na bębnie i cytrze.\nBo Pan swój lud miłuje, *\npokornych wieńczy zwycięstwem.\nRefren.\nNiech święci cieszą się w chwale, *\nniech się weselą przy uczcie niebieskiej.\nChwała Boża niech będzie w ich ustach; *\nto jest chwałą wszystkich Jego świętych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 7-9",
+      "opis": "Herod chce zobaczyć Jezusa",
+      "tekst": "Tetrarcha Herod posłyszał o wszystkich cudach zdziałanych przez Chrystusa i był zaniepokojony. Niektórzy bowiem mówili, że Jan powstał z martwych; inni, że zjawił się Eliasz; jeszcze inni, że któryś z dawnych proroków zmartwychwstał.\nA Herod mówił: «Jana kazałem ściąć. Któż więc jest ten, o którym takie rzeczy słyszę?» I starał się Go zobaczyć.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża miłość do domu Bożego i radość z przebywania w nim, co bezpośrednio nawiązuje do wezwania do odbudowy świątyni z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do gromadzenia się w domu Pańskim, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest nowym domem Bożym, o którego odbudowę i cześć w nim zabiegał prorok Aggeusz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' idealnie pasuje do tematu odbudowy świątyni, która wymagała wielkiego wysiłku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu trud budowy Jego domu, prosząc o Jego błogosławieństwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowanie darów jest aktem czci dla Boga, który pragnie, by Jego dom był napełniony chwałą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Eucharystia jest obecnością Chrystusa w nowej świątyni, a pragnienie Heroda, by zobaczyć Jezusa, znajduje swoje spełnienie w adoracji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, którego Herod pragnął zobaczyć, a my spotykamy Go w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Adoracyjna pieśń jest aktem czci dla Boga, który zamieszkał pośród nas w swoim domu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter tej pieśni odpowiada wezwaniu psalmu do radowania się w swoim Stwórcy i Królu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości i uwielbienia dla Pana, który ma upodobanie w swoim ludzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest odpowiedzią na Bożą obietnicę napełnienia świątyni chwałą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii jest odpowiedzią na Boże pragnienie, by wszystkie narody poznały Jego chwałę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, którego Herod poszukiwał, a my poznaliśmy Go jako Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania, że On jest z nami, jak obiecał w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Wyraża tęsknotę za Bogiem i pragnienie oglądania Jego chwały, co odzwierciedla postawę Heroda, choć z innej motywacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za Bożą obecność i Jego dzieła, takie jak odbudowa świątyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń o ludzie wybranym przez Pana, o którym mówi psalm, jest wezwaniem do oddawania Mu chwały.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi królowanie Chrystusa, którego Herod chciał zobaczyć, a my uznajemy Go za naszego Władcę.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417334.Sobota-26-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "26 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 42, 1-3. 5-6. 12-17",
+      "opis": "Bóg błogosławi skruszonemu Hiobowi",
+      "tekst": "Hiob odpowiedział Panu: «Wiem, że Ty wszystko możesz, co zamyślasz, potrafisz uczynić. Kto przysłoni plan nierozumnie? O rzeczach wzniosłych mówiłem. To zbyt cudowne. Ja nie rozumiem. Dotąd Cię znałem ze słyszenia, teraz ujrzało Cię moje oko, dlatego odwołuję, co powiedziałem, kajam się w prochu i w popiele».\nPotem Pan błogosławił Hiobowi, tak że miał czternaście tysięcy owiec, sześć tysięcy wielbłądów, tysiąc jarzm wołów i tysiąc oślic. Miał jeszcze siedmiu synów i trzy córki. Pierwszą nazwał Gołębicą, drugą - Kasją, a trzecią - Rogiem-z-kremem-do-powiek. Nie było w całym kraju kobiet tak pięknych jak córki Hioba. Dał im też ojciec dziedzictwo między braćmi.\nI żył jeszcze Hiob sto czterdzieści lat, i widział swych synów i wnuków - cztery pokolenia. Umarł Hiob stary i w pełni dni.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 66 i 71. 75 i 91. 125 i 130 (R.: por. 135a)",
+      "opis": "",
+      "tekst": "Refren: Okaż swym sługom pogodne oblicze.\nNaucz mnie trafnego sądu i umiejętności, *\nbo ufam Twoim przykazaniom.\nDobrze to dla mnie, że mnie poniżyłeś, *\nbym się nauczył Twoich ustaw.\nRefren.\nWiem, Panie, że sprawiedliwe są Twoje wyroki, *\nże dotknąłeś mnie słusznie.\nWszystko trwa do dzisiaj według Twych wyroków, *\nbo wszelkie rzeczy Ci służą.\nRefren.\nJestem Twoim sługą, daj, abym zrozumiał *\ni poznał Twoje napomnienia.\nPoznanie Twoich słów oświeca *\ni naucza niedoświadczonych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 17-24",
+      "opis": "Przywileje uczniów",
+      "tekst": "Wróciło siedemdziesięciu dwóch z radością, mówiąc:\n«Panie, przez wzgląd na Twoje imię nawet złe duchy nam się poddają».\nWtedy rzekł do nich: «Widziałem Szatana, który spadł z nieba jak błyskawica. Oto dałem wam władzę stąpania po wężach i skorpionach, i po całej potędze przeciwnika, a nic wam nie zaszkodzi. Jednakże nie z tego się cieszcie, że duchy się wam poddają, lecz cieszcie się, że wasze imiona zapisane są w niebie».\nW tej to chwili rozradował się Jezus w Duchu Świętym i rzekł: «Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nOjciec mój przekazał Mi wszystko. Nikt też nie wie, kim jest Syn, tylko Ojciec; ani kim jest Ojciec, tylko Syn i ten, komu Syn zechce objawić».\nPotem zwrócił się do samych uczniów i rzekł: «Szczęśliwe oczy, które widzą to, co wy widzicie. Bo powiadam wam: Wielu proroków i królów pragnęło ujrzeć to, co wy widzicie, a nie ujrzeli, i usłyszeć, co słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń o przemijalności i potrzebie pokuty doskonale oddaje nastrój pierwszego czytania z Księgi Koheleta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń wzywa do radości z królowania Pana, co jest echem radości uczniów powracających z misji w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały jest doskonałym odzwierciedleniem radości siedemdziesięciu dwóch uczniów z powodu poddawania się im złych duchów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do tematu marności i pielgrzymiego charakteru życia, obecnego w pierwszym czytaniu i psalmie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Klasyczna pieśń eucharystyczna, która jest wyrazem wdzięczności za dar Ciała i Krwi Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, która podkreśla miłość Boga karmiącego swój lud.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o Męce Pańskiej jest odpowiedzią na zapowiedź cierpienia Syna Człowieczego z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Komunia z Chrystusem jest odpowiedzią na najgłębsze pragnienia człowieka, o których spełnienie prosi psalmista.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta podkreśla, że prawdziwym źródłem radości i życia wiecznego jest Chrystus, Chleb żywy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest wyrazem dziękczynienia za dar wiary i objawienia, o którym Jezus z radością mówi w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą interwencję, która przemienia smutek w radość, co jest widoczne w historii Hioba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest uniwersalnym wezwaniem do chwalenia Boga, co odzwierciedla radość Jezusa w Duchu Świętym z objawienia tajemnic prostaczkom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże błogosławieństwo pasuje do zakończenia historii Hioba, którego Pan obdarzył na nowo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń przypomina o misyjnym posłaniu, z którego właśnie z radością powrócili uczniowie w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo na trud głoszenia Ewangelii, do którego posłani są wszyscy uczniowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest pocieszeniem i wyrazem wiary, która przetrwała próbę Hioba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach dobrze współgra z Ewangelią, gdzie Jezus objawia tajemnice królestwa 'prostaczkom'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna nawiązuje do postawy Hioba, który na końcu swej próby kaja się w prochu i popiele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o opiece Bożej Opatrzności doskonale ilustruje los Hioba, który mimo cierpień ostatecznie doznał Bożego błogosławieństwa.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426786.Sobota-XV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "15 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 12, 37-42",
+      "opis": "Wyjście Izraelitów z Egiptu",
+      "tekst": "Izraelici wyruszyli z Ramses do Sukkot w liczbie około sześciuset tysięcy mężów pieszych, nie licząc dzieci. Także wielkie mnóstwo cudzoziemców wyruszyło z nimi, nadto drobne i większe bydło, i olbrzymi dobytek. Z ciasta, które wynieśli z Egiptu, wypiekli przaśne placki, ponieważ się nie zakwasiło. Wypędzeni z Egiptu, nie mogąc się zatrzymać, nie zdołali przygotować nawet zapasów na drogę.\nA pobyt Izraelitów w Egipcie trwał czterysta trzydzieści lat. I oto tego samego dnia, po upływie czterystu trzydziestu lat, wyszły wszystkie zastępy Pana z ziemi egipskiej.\nTej nocy czuwał Pan nad wyjściem synów Izraela z ziemi egipskiej. Dlatego noc ta winna być czuwaniem na cześć Pana dla wszystkich Izraelitów po wszystkie pokolenia.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 136 (135), 1b i 23a i 24. 10a i 11a i 12. 13a i 14a i 15 (R.: por. Ps 113 [112], 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech imię Pana będzie pochwalone.\nChwalcie Pana, bo jest dobry. *\nPamiętał o nas w naszym poniżeniu\ni uwolnił nas od wrogów, *\nbo Jego łaska na wieki.\nRefren.\nOn Egipcjanom pobił pierworodnych *\ni wywiódł spośród nich Izraela.\nRęką potężną, wyciągniętym ramieniem, *\nbo Jego łaska na wieki.\nRefren.\nRozdzielił Morze Czerwone *\ni środkiem morza przeprowadził Izraela.\nFaraona z wojskiem strącił w Morze Czerwone, *\nbo Jego łaska na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 5, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "W Chrystusie Bóg pojednał świat z sobą,\nnam zaś przekazał słowo jednania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 14-21",
+      "opis": "Jezus cichy i pokornego serca",
+      "tekst": "Faryzeusze wyszli i odbyli naradę przeciw Jezusowi, w jaki sposób Go zgładzić.\nGdy się Jezus dowiedział o tym, oddalił się stamtąd. A wielu poszło za Nim i uzdrowił ich wszystkich. Lecz zabronił im surowo, żeby Go nie ujawniali. Tak miało się spełnić słowo proroka Izajasza:\n«Oto mój Sługa, którego wybrałem;\nUmiłowany mój, w którym moje serce ma upodobanie.\nPołożę ducha mojego na Nim, a On zapowie Prawo narodom.\nNie będzie się spierał ani krzyczał i nikt nie usłyszy na ulicach Jego głosu.\nTrzciny zgniecionej nie złamie ani knota tlejącego nie dogasi, aż zwycięsko sąd przeprowadzi.\nW Jego imieniu narody nadzieję pokładać będą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Boga za Jego wielkie dzieła, co jest głównym tematem psalmu i pierwszego czytania o wyjściu z Egiptu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm wzywa do chwalenia Pana za Jego potęgę, a ta pieśń jest radosnym hymnem na cześć Stwórcy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmisty, by głosić dzieła Pana wśród narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń dziękczynna za łaskę wyzwolenia, o której opowiada historia wyjścia z Egiptu i którą wspomina psalmista.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Wdzięcznym sercem wyznajemy Boga, który okazał swoją potęgę, wyprowadzając swój lud z niewoli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu chleb i wino, dziękując za dar wyzwolenia i prosząc o łaskę wierności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "291",
+      "piesn": "Najświętsze Serce Boże",
+      "opis": "Ewangelia ukazuje Jezusa jako cichego i pokornego Sługę Pańskiego, a ta pieśń jest aktem czci dla Jego Serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "287",
+      "piesn": "Jezu dobry i cichy",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do obrazu cichego i pokornego Sługi Pańskiego z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Adoracja Jezusa ukrytego w Hostii jest odpowiedzią na Jego cichą i pokorną obecność w świecie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Hymn ten jest uwielbieniem Boga za Jego potęgę i miłosierdzie, objawione w dziele wyzwolenia Izraela z niewoli.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego łaskę, która trwa na wieki, jak wielokrotnie powtarza psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże ocalenie, którego pamiątką jest wyjście z Egiptu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Jezus, cichy Sługa Pański, jest naszym Królem, który prowadzi nas do prawdziwej wolności, tak jak Mojżesz prowadził Izraela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po celebracji wielkich dzieł Bożych, wychodzimy w świat, by głosić królowanie Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą drogę, byśmy, jak Izrael, mogli doświadczać Bożej opieki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o opiece Bożej dobrze oddaje ducha czuwania w noc paschalną, opisaną w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec knowań faryzeuszy, postawa Jezusa jest wzorem zaufania Bogu, a ta pieśń jest wyrazem naszego zawierzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wobec zagrożeń, ufamy Jezusowi, który jest naszą nadzieją i obroną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, którego łaska trwa na wieki, jak głosi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

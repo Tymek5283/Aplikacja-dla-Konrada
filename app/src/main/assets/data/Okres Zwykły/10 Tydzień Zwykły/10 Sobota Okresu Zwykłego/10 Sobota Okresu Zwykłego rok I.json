@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417009.Sobota-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 5, 14-21",
+      "opis": "Pojednanie z Bogiem w Chrystusie",
+      "tekst": "Bracia:\nMiłość Chrystusa przynagla nas, pomnych na to, że skoro Jeden umarł za wszystkich, to wszyscy pomarli. A właśnie za wszystkich umarł Chrystus po to, aby ci, co żyją, już nie żyli dla siebie, lecz dla Tego, który za nich umarł i zmartwychwstał.\nTak więc i my odtąd już nikogo nie znamy według ciała; a jeśli nawet według ciała poznaliśmy Chrystusa, to już więcej nie znamy Go w ten sposób. Jeżeli więc ktoś pozostaje w Chrystusie, jest nowym stworzeniem. To, co dawne, minęło, a oto wszystko stało się nowe. Wszystko zaś to pochodzi od Boga, który pojednał nas z sobą przez Chrystusa i zlecił nam posługę jednania. Albowiem w Chrystusie Bóg jednał z sobą świat, nie poczytując ludziom ich grzechów, nam zaś przekazując słowo jednania. Tak więc w imieniu Chrystusa spełniamy posłannictwo jakby Boga samego, który przez nas udziela napomnień.\nW imię Chrystusa prosimy: pojednajcie się z Bogiem! On to dla nas grzechem uczynił Tego, który nie znał grzechu, abyśmy się stali w Nim sprawiedliwością Bożą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 8-9. 11-12 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze, *\nnie płonie gniewem na wieki.\nRefren.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 119 (118), 36a. 29b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nakłoń me serce do Twoich napomnień,\nobdarz mnie łaską Twojego Prawa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 33-37",
+      "opis": "Zakaz przysięgania",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano przodkom: „Nie będziesz fałszywie przysięgał, lecz dotrzymasz Panu swej przysięgi”. A Ja wam powiadam: Wcale nie przysięgajcie - ani na niebo, bo jest tronem Boga; ani na ziemię, bo jest podnóżkiem stóp Jego; ani na Jerozolimę, bo jest miastem wielkiego Króla. Ani na swoją głowę nie przysięgaj, bo nawet jednego włosa nie możesz uczynić białym albo czarnym.\nNiech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem pojednania z Bogiem, o którym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń nawiązuje do postawy syna marnotrawnego i wyraża pragnienie powrotu i pojednania się z Ojcem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to klasyczny psalm pokutny, wołanie o miłosierdzie, które Bóg ofiarowuje nam w Chrystusie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża żal za grzechy i chęć poprawy, co jest istotą pojednania i życia w prawdzie, do którego wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Wyraża postawę pokory, niezbędną do przyjęcia daru pojednania, który składamy w ofierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Prosta i bezpośrednia prośba o przebaczenie, które jest sercem posługi jednania zleconej przez Boga.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jest sakramentem jedności, owocem pojednania z Bogiem i między ludźmi, o którym pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą grzesznika, który zwraca się do miłosiernego Boga, by przyjąć Go w Komunii jako nowe stworzenie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "W Komunii przyjmujemy Tego, który pojednał nas z Ojcem, stając się naszym pokarmem na drodze prawdy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm responsoryjny sławi miłosiernego Boga; ta pieśń jest radosnym wyrazem dziękczynienia za Jego dobroć i przebaczenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Boże miłosierdzie i odpuszczenie win, o którym z radością śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar pojednania w Chrystusie i za to, że staliśmy się nowym stworzeniem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Po pojednaniu z Bogiem jesteśmy posłani, aby budować jedność i żyć w prawdzie, o której przypomina Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani jako ambasadorowie Chrystusa, by nieść światu słowo jednania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pojednanie z Bogiem uzdalnia nas do życia nowym przykazaniem miłości, które jest świadectwem dla świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, które jest pierwszym krokiem do pojednania z Bogiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie w Boże miłosierdzie i przebaczenie, które są centralnym tematem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest modlitwą o uświęcenie naszej codziennej pracy i mowy, aby były one zgodne z Ewangelią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pojednanie z Bogiem owocuje miłością braterską, która jest znakiem obecności Boga wśród nas.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413295.Sobota-III-tygodnia-wielkanocnego",
+  "tytul_dnia": "3 Sobota Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 9, 31-42",
+      "opis": "Piotr cudownie uzdrawia chorych",
+      "tekst": "Kościół cieszył się pokojem w całej Judei, Galilei i Samarii. Rozwijał się i żył bogobojnie, i obfitował w pociechę Ducha Świętego. Kiedy Piotr odwiedzał wszystkich, przyszedł też do świętych, którzy mieszkali w Liddzie. Znalazł tam pewnego człowieka, imieniem Eneasz, który był sparaliżowany i od ośmiu lat leżał w łóżku. «Eneaszu - powiedział do niego Piotr - Jezus Chrystus cię uzdrawia, wstań i zaściel swoje łóżko!» I natychmiast wstał. Widzieli go wszyscy mieszkańcy Liddy i Szaronu i nawrócili się do Pana. Mieszkała też w Jafie pewna uczennica imieniem Tabita, co znaczy Gazela. Czyniła ona dużo dobrego i dawała hojne jałmużny. Wtedy właśnie zachorowała i umarła. Obmyto ją i położono w izbie na piętrze. Lidda leżała blisko Jafy; gdy więc uczniowie dowiedzieli się, że jest tam Piotr, wysłali do niego dwóch posłańców z prośbą: «Przyjdź do nas niezwłocznie». Piotr poszedł z nimi, a gdy przybył, zaprowadzili go do izby na górze. Otoczyły go wszystkie wdowy i pokazywały mu ze łzami w oczach chitony i płaszcze, które zrobiła im Gazela za swego życia. Po usunięciu wszystkich Piotr upadł na kolana i modlił się. Potem zwrócił się do zwłok i rzekł: «Tabito, wstań!» A ona otworzyła oczy i zobaczywszy Piotra, usiadła. Piotr podał jej rękę i podniósł ją. Zawołał świętych i wdowy, i ujrzeli ją żywą. Wieść o tym rozeszła się po całej Jafie, i wielu uwierzyło w Pana. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 12-13. 14-15. 16-17 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Cóż oddam, Panie, za Twe wszystkie dary?\n\nalbo: Alleluja.\nCzym się Panu odpłacę *\n\nza wszystko, co mi wyświadczył?\n\nPodniosę kielich zbawienia *\n\ni wezwę imienia Pana.\nRefren.\nWypełnię me śluby dla Pana *\n\nprzed całym Jego ludem.\n\nCenna jest w oczach Pana *\n\nśmierć Jego wyznawców.\nRefren.\nO Panie, jestem Twoim sługą, *\n\nTwym sługą, synem Twojej służebnicy.\n\nTy rozerwałeś moje kajdany, †\n\nTobie złożę ofiarę pochwalną *\n\ni wezwę imienia Pana.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 6, 63c. 68c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\n\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 55. 60-69",
+      "opis": "Do kogo pójdziemy, Ty masz słowa życia wiecznego",
+      "tekst": "W synagodze w Kafarnaum Jezus powiedział:\n\n«Ciało moje jest prawdziwym pokarmem, a Krew moja jest prawdziwym napojem». A wielu spośród Jego uczniów, którzy to usłyszeli, mówiło: «Trudna jest ta mowa. Któż jej może słuchać?» Jezus jednak, świadom tego, że uczniowie Jego na to szemrali, rzekł do nich: «To was gorszy? A gdy ujrzycie Syna Człowieczego wstępującego tam, gdzie był przedtem? To Duch daje życie; ciało na nic się nie zda. Słowa, które Ja wam powiedziałem, są duchem i są życiem. Lecz pośród was są tacy, którzy nie wierzą». Jezus bowiem od początku wiedział, którzy nie wierzą, i kto ma Go wydać. Rzekł więc: «Oto dlaczego wam powiedziałem: Nikt nie może przyjść do Mnie, jeżeli nie zostało mu to dane przez Ojca». Od tego czasu wielu uczniów Jego odeszło i już z Nim nie chodziło. Rzekł więc Jezus do Dwunastu: «Czyż i wy chcecie odejść?» Odpowiedział Mu Szymon Piotr: «Panie, do kogo pójdziemy? Ty masz słowa życia wiecznego. A my uwierzyliśmy i poznaliśmy, że Ty jesteś Świętym Bożym». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z dzisiejszej Ewangelii, w której Jezus objawia siebie jako Chleb Życia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój radości apostołów, którzy z odwagą głoszą Ewangelię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, który daje nam swoje Ciało jako pokarm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta jest modlitwą do Jezusa, Chleba Życia, i doskonale pasuje do tematyki eucharystycznej Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna sławiąca 'Chleb żyjących, pokarm żywy', o którym naucza Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię jako pokarm, w którym Bóg staje się bliski człowiekowi i zaspokaja jego głód.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Refren 'Przyjdź, Chlebie Żywy' jest modlitwą o pokarm eucharystyczny, o którym Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb dający życie wieczne, co jest teologiczną głębią mowy eucharystycznej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest pokarmem na życie wieczne, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Jest to pieśń uwielbienia dla Jezusa, który daje nam siebie w Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, który jest naszym pokarmem i życiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Eucharystii i życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, który daje nam życie wieczne w Eucharystii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Apostołowie, umocnieni wiarą, głoszą Ewangelię, której centrum jest Chrystus, Chleb Życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do Uczty Pańskiej, w której Jezus daje nam Chleb Życia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć i daje nam życie wieczne.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest Chlebem dającym życie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królowanie Chrystusa, który karmi nas swoim Ciałem i prowadzi do życia wiecznego.",
+      "moment": "ogólne"
+    }
+  ]
+}

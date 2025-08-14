@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410456.Wtorek-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 2, 5-12",
+      "opis": "Jezus jest Zbawicielem ludzi",
+      "tekst": "Nie aniołom Bóg poddał przyszły świat, o którym mówimy. Ktoś to gdzieś potwierdził uroczyście, mówiąc: «Czym jest człowiek, że pamiętasz o nim, albo syn człowieczy, że się troszczysz o niego; mało co mniejszym uczyniłeś go od aniołów, chwałą i czcią go uwieńczyłeś. Wszystko poddałeś pod jego stopy». Ponieważ zaś poddał Mu wszystko, nic nie zostawił, co by nie było Mu poddane. Teraz wszakże nie widzimy jeszcze, aby wszystko było Mu poddane. Widzimy natomiast Jezusa, który mało co od aniołów był mniejszy, chwałą i czcią uwieńczonego za mękę śmierci, iż z łaski Bożej zaznał śmierci za każdego człowieka. Przystało bowiem Temu, dla którego wszystko i przez którego wszystko istnieje, który wielu synów do chwały doprowadza, aby przewodnika ich zbawienia udoskonalił przez cierpienia. Tak bowiem Ten, który uświęca, jak ci, którzy mają być uświęceni, od Jednego wszyscy pochodzą. Z tej to przyczyny nie wstydzi się nazywać ich braćmi swymi, mówiąc: «Oznajmię imię Twoje braciom moim, pośrodku zgromadzenia będę Cię wychwalał». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 8, 2ab i 5. 6-7. 8-9 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Dałeś Synowi władzę nad swym dziełem.\nO Panie, nasz Panie, *\n\njak przedziwne jest Twoje imię po całej ziemi.\n\nCzym jest człowiek, że o nim pamiętasz, *\n\nczym syn człowieczy, że troszczysz się o niego?\nRefren.\nUczyniłeś go niewiele mniejszym od aniołów, *\n\nuwieńczyłeś go czcią i chwałą.\n\nObdarzyłeś go władzą nad dziełami rąk Twoich, *\n\nwszystko złożyłeś pod jego stopy:\nRefren.\nOwce i bydło wszelakie, *\n\ni dzikie zwierzęta,\n\nptaki niebieskie i ryby morskie, *\n\nwszystko, co szlaki mórz przemierza.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 Tes 2, 13",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie słowo Boże nie jako słowo ludzkie,\n\nale jak jest naprawdę, jako słowo Boga."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 21-28",
+      "opis": "Jezus naucza jak ten, który ma władzę",
+      "tekst": "W Kafarnaum Jezus w szabat wszedł do synagogi i nauczał. Zdumiewali się Jego nauką: uczył ich bowiem jak ten, który ma władzę, a nie jak uczeni w Piśmie. Był właśnie w ich synagodze człowiek opętany przez ducha nieczystego. Zaczął on wołać: «Czego chcesz od nas, Jezusie Nazarejczyku? Przyszedłeś nas zgubić. Wiem, kto jesteś: Święty Boga». Lecz Jezus rozkazał mu surowo: «Milcz i wyjdź z niego! » Wtedy duch nieczysty zaczął nim miotać i z głośnym krzykiem wyszedł z niego. A wszyscy się zdumieli, tak że jeden drugiego pytał: «Co to jest? Nowa jakaś nauka z mocą. Nawet duchom nieczystym rozkazuje i są Mu posłuszne». I wnet rozeszła się wieść o Nim wszędzie po całej okolicznej krainie galilejskiej. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do uwielbienia Pana, którego władza i moc objawiają się w nauczaniu i egzorcyzmach Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud ludzie uznali naukę i egzorcyzmy Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego potęga i władza zdumiewały słuchaczy Jezusa w Kafarnaum.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wyraża ofiarowanie darów Bogu, który w swoim Synu stał się człowiekiem i naszym Zbawicielem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń ofiarna, która jest aktem czci dla Boga, którego Syn stał się naszym bratem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ta jest ofiarowaniem Bogu naszych trudów w zjednoczeniu z Chrystusem, Przewodnikiem naszego zbawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Pieśń ta oddaje cześć Jezusowi, który naucza z mocą i ma władzę nad duchami nieczystymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w moc Chrystusa, obecnego w Eucharystii, Tego samego, który z mocą nauczał w synagodze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "263",
+      "piesn": "Pan zstąpił z nieba",
+      "opis": "Pieśń wyraża wiarę w realną obecność Pana, którego władzę i Bóstwo rozpoznał nawet duch nieczysty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to hymn pochwalny na cześć Stwórcy, któremu poddane jest wszelkie stworzenie, jak mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do radosnego uwielbienia Boga, którego moc i władza objawiły się w Jezusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to pieśń chwały, która jest odpowiedzią na zdumienie tłumów wobec nowej nauki Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Po doświadczeniu mocy Jezusa, ta pieśń jest prośbą o Jego stałą obecność i obronę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o mocy Jezusa, której byli świadkami ludzie w Kafarnaum.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża pragnienie bycia prowadzonym przez Pana, który ma wszelką władzę i moc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Wyraża osobistą więź z Bogiem, który w Jezusie stał się bliski człowiekowi i nie wstydzi się nazywać go bratem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń ta jest wyrazem ufności w Bożą opiekę, szczególnie w obliczu działania złych duchów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa jako jedynego Pana i Zbawiciela, którego naukę z mocą głosił.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jezus, nazywając nas braćmi, gromadzi nas w jedną wspólnotę, o której jedność modli się ta pieśń.",
+      "moment": "ogolne"
+    }
+  ]
+}

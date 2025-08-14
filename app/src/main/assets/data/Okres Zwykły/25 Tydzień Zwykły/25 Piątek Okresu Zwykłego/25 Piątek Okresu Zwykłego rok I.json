@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418020.Piatek-25-tydzien-zwykly-rok-I",
+  "tytul_dnia": "25 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ag 1, 15b - 2, 9",
+      "opis": "Przyszła chwała nowej świątyni",
+      "tekst": "W drugim roku rządów króla Dariusza, dnia dwudziestego pierwszego, miesiąca siódmego, Pan skierował te słowa do proroka Aggeusza: «Powiedz to Zorobabelowi, synowi Szealtiela, namiestnikowi Judy, i arcykapłanowi Jozuemu, synowi Josadaka, a także Reszcie ludu: Czy jest między wami ktoś, kto widział ten dom w jego dawnej chwale? A jak się on wam teraz przedstawia? Czyż nie wydaje się wam, jakby go w ogóle nie było?\nTeraz jednak nabierz ducha, Zorobabelu - mówi Pan - nabierz ducha, arcykapłanie Jozue, synu Josadaka, nabierz też ducha, cały ludu ziemi! Pracujcie, bo Ja jestem z wami, mówi Pan Zastępów. Zgodnie z przymierzem, które zawarłem z wami, gdy wyszliście z Egiptu, duch mój stale przebywa pośród was; nie lękajcie się!\nBo tak mówi Pan Zastępów: Jeszcze raz, będzie to jedna chwila, a Ja poruszę niebiosa i ziemię, morze i ląd. Poruszę wszystkie narody, tak że napłyną kosztowności wszystkich narodów, i napełnię chwałą ten dom. Do Mnie należy srebro i do Mnie złoto. Przyszła chwała tego domu będzie większa od dawnej; na tym miejscu Ja udzielę pokoju» - mówi Pan Zastępów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 43 (42), 1. 2. 3. 4 (R.: por. 5cd)",
+      "opis": "",
+      "tekst": "Refren: Zaufaj Panu, On jest twoim Zbawcą.\nOsądź mnie, Boże, sprawiedliwie *\ni broń mojej sprawy przeciw ludowi nieznającemu litości,\nwybaw mnie od człowieka *\npodstępnego i niegodziwego.\nRefren.\nTy bowiem, Boże, jesteś ucieczką moją, *\ndlaczego mnie odrzuciłeś?\nCzemu chodzę smutny *\ni gnębiony przez wroga?\nRefren.\nZeślij światłość i wierność swoją, *\nniech one mnie wiodą,\nniech mnie zaprowadzą na Twą górę świętą *\ni do Twoich przybytków.\nRefren.\nI przystąpię do ołtarza Bożego, *\ndo Boga, który jest moim weselem i radością.\nI będę Cię chwalił przy dźwiękach lutni, *\nBoże, mój Boże.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 18-22",
+      "opis": "Wyznanie Piotra i zapowiedź męki",
+      "tekst": "Gdy raz Jezus modlił się na osobności, a byli z Nim uczniowie, zwrócił się do nich z zapytaniem: «Za kogo uważają Mnie tłumy?»\nOni odpowiedzieli: «Za Jana Chrzciciela; inni za Eliasza; jeszcze inni mówią, że któryś z dawnych proroków zmartwychwstał».\nZapytał ich: «A wy za kogo Mnie uważacie?» Piotr odpowiedział: «Za Mesjasza Bożego».\nWtedy surowo im przykazał i napomniał ich, żeby nikomu o tym nie mówili. I dodał: «Syn Człowieczy musi wiele wycierpieć: będzie odrzucony przez starszyznę, arcykapłanów i uczonych w Piśmie; zostanie zabity, a trzeciego dnia zmartwychwstanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń jest aklamacją na cześć Chrystusa Króla, co jest doskonałym rozwinięciem wyznania Piotra: 'Tyś jest Mesjaszem Bożym'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Pieśń jest odpowiedzią na wyznanie Piotra, uwielbiając Chrystusa jako Króla i Mesjasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest odpowiedzią na wyznanie Piotra i zaproszeniem Chrystusa-Mesjasza do królowania w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń ta, mówiąc o męce i śmierci Jezusa na krzyżu, bezpośrednio nawiązuje do pierwszej zapowiedzi męki z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "763",
+      "piesn": "Crucem tuam",
+      "opis": "Adoracja krzyża jest odpowiedzią na zapowiedź męki i wezwaniem do naśladowania Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta, wymieniając poszczególne części cierpiącego Ciała Chrystusa, jest głęboką medytacją nad tajemnicą Paschy, zapowiedzianą w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Adoracyjna pieśń do Chrystusa w Eucharystii jest aktem wiary, podobnym do wyznania Piotra.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, którego Piotr rozpoznał jako Mesjasza, a my spotykamy Go w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń łączy tajemnicę Eucharystii z ofiarą krzyża, o której Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, które nastąpiło po Jego męce i śmierci, zapowiedzianej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że nadzieja płynie ze zwycięstwa Chrystusa, które dokonało się przez krzyż, o którym mowa w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wysławia Chrystusa jako Zwycięzcę śmierci, co jest dopełnieniem Jego mesjańskiej misji.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, który jest naszym Mesjaszem i Panem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud naśladowania Chrystusa na drodze krzyża.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania w Jego mesjańską moc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "620",
+      "piesn": "Przystąpię do ołtarza",
+      "opis": "Słowa tej pieśni są echem psalmu responsoryjnego, wyrażając pragnienie zbliżenia się do Boga w Jego świątyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Pana, co jest echem psalmu i pierwszego czytania o odbudowie świątyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Hymn do Chrystusa Króla jest odpowiedzią na wyznanie Piotra i zapowiedź męki, która prowadzi do chwały.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest konieczne, aby przyjąć tajemnicę cierpiącego Mesjasza.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń zapowiada przyjście Pana, który, jak mówi pierwsze czytanie, przygotuje ucztę dla wszystkich ludów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla, który przychodzi, aby uzdrowić i nakarmić swój lud, co jest tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "262",
       "piesn": "Pan wieczernik przygotował",
       "opis": "Ewangelia o rozmnożeniu chleba jest zapowiedzią Eucharystii - uczty, na którą zaprasza nas Pan, o czym mówi ta pieśń.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Słowa Jezusa z tej pieśni są doskonałym komentarzem do cudu rozmnożenia chleba, który jest zapowiedzią Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, której zapowiedzią jest cudowne nakarmienie tłumów z Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń o Chlebie Żywym, który zaspokaja najgłębsze pragnienia, co Jezus ukazuje, karmiąc głodny tłum.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń bezpośrednio nawiązuje do gestów Jezusa z Ewangelii, które są powtarzane podczas każdej Eucharystii.",
+      "moment": "komunia"
+    },
+    {
       "numer": "622",
       "piesn": "Radośnie Panu hymn śpiewajmy",
       "opis": "Pieśń jest wyrazem radości z przyjścia Pana i Jego zbawczych dzieł, opisanych w pierwszym czytaniu i Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Tłumy, widząc cuda Jezusa, 'wielbiły Boga Izraela', a ta pieśń jest majestatycznym hymnem chwały na cześć Stwórcy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna jest odpowiedzią na cudowne dary uzdrowienia i pokarmu, których Jezus udziela w Ewangelii.",
       "moment": "uwielbienie"
     },
     {
@@ -58,6 +106,30 @@
       "piesn": "Przyjdź, Panie Jezu",
       "opis": "Pieśń jest prośbą o przyjście Pana, który jako jedyny może nasycić głód ludzkich serc, co symbolizuje cud rozmnożenia chleba.",
       "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń wzywa do przygotowania drogi Panu, który przychodzi, aby nas zbawić i nakarmić, co jest przesłaniem na dalszy czas Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina, że Pan jest blisko, aby nas zbawić, co jest centralną prawdą Adwentu i pociechą płynącą z dzisiejszych czytań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest zaproszeniem do Jezusa, który ma moc uzdrawiania i ratowania życia, nawet wbrew ludzkim przepisom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud należy uznać zwycięstwo Dawida i uzdrowienie w szabat.",
+      "moment": "ogolne"
     },
     {
       "numer": "264",

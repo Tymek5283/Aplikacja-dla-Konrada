@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416998.Wtorek-IX-tydzien-zwykly-rok-II",
+  "tytul_dnia": "9 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 P 3, 12-15a. 17-18",
+      "opis": "Oczekujemy nowego nieba i nowej ziemi",
+      "tekst": "Najmilsi:\nOczekujecie i staracie się przyśpieszyć przyjście dnia Bożego, który sprawi, że niebo, płonąc, pójdzie na zagładę, a gwiazdy w ogniu się rozsypią. Oczekujemy jednak, według obietnicy, nowego nieba i nowej ziemi, w których zamieszka sprawiedliwość. Dlatego, umiłowani, oczekując tego, starajcie się, aby On was znalazł bez plamy i skazy - w pokoju, a cierpliwość Pana naszego uważajcie za zbawienną.\nWy zatem, umiłowani, wiedząc o tym wcześniej, strzeżcie się, abyście dając się uwieść błędom tych, którzy nie szanują praw Bożych, własnej stałości nie doprowadzili do upadku. Wzrastajcie zaś w łasce i poznaniu Pana naszego i Zbawiciela, Jezusa Chrystusa! Jemu chwała zarówno teraz, jak i do dnia wieczności! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 2 i 4. 10. 14 i 16 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, Ty zawsze byłeś nam ucieczką.\nZanim narodziły się góry, †\nnim powstał świat i ziemia, *\nod wieku po wiek Ty jesteś Bogiem.\nBo tysiąc lat w Twoich oczach †\njest jak wczorajszy dzień, który minął, *\nalbo straż nocna.\nRefren.\nMiarą naszego życia jest lat siedemdziesiąt, *\nosiemdziesiąt, gdy jesteśmy mocni.\nA większość z nich to trud i marność, *\nbo szybko mijają, my zaś odlatujemy.\nRefren.\nNasyć nas o świcie swoją łaską, *\nabyśmy przez wszystkie dni nasze\nmogli się radować i cieszyć.\nNiech sługom Twoim ukaże się Twe dzieło, *\na Twoja chwała nad ich synami.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 13-17",
+      "opis": "Podatek należny cezarowi",
+      "tekst": "Uczeni w Piśmie i starsi posłali do Jezusa kilku faryzeuszów i zwolenników Heroda, którzy mieli podchwycić Go w mowie. Ci przyszli i rzekli do Niego: «Nauczycielu, wiemy, że jesteś prawdomówny i na nikim ci nie zależy. Bo nie oglądasz się na osobę ludzką, lecz drogi Bożej w prawdzie nauczasz. Czy wolno płacić podatek cezarowi, czy nie? Mamy płacić czy nie płacić?»\nLecz On poznał ich obłudę i rzekł do nich: «Czemu wystawiacie Mnie na próbę? Przynieście mi denara; chcę zobaczyć». Przynieśli, a On ich zapytał: «Czyj jest ten obraz i napis?»\nOdpowiedzieli Mu: «Cezara».\nWówczas Jezus rzekł do nich: «Oddajcie więc cezarowi to, co należy do cezara, a Bogu to, co należy do Boga».\nI byli pełni podziwu dla Niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń ta oddaje ducha pierwszego czytania i psalmu, mówiących o oczekiwaniu na nową ziemię i przemijalności życia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wyraża eschatologiczną tęsknotę za przyjściem Pana, o której mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta jest parafrazą psalmu responsoryjnego, mówiącą o zaufaniu i opiece Bożej w przemijającym świecie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu tego, co Boże, o czym naucza Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasz trud, prosząc o łaskę życia w pokoju i sprawiedliwości w oczekiwaniu na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna, w której prosimy o łaskę wierności Bogu w sprawach doczesnych i wiecznych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Jest to modlitwa o bliskość z Bogiem, która jest celem życia chrześcijanina oczekującego na przyjście Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem na drogę do nowego nieba i nowej ziemi, o których mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i wiary, która pozwala nam już teraz uczestniczyć w dobrach przyszłego świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn ten jest wyrazem chwały dla wiecznego Boga, który jest naszą ucieczką, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia dla Boga, który jest Panem czasu i wieczności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest wyrazem radości i nadziei w oczekiwaniu na przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest manifestem oddania Bogu należnego Mu miejsca w życiu osobistym i społecznym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to deklaracja wierności Bogu i Jego prawu, które obowiązuje w każdej dziedzinie życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę życia w łasce i poznaniu Pana, do czego wzywa św. Piotr.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Jest to modlitwa o uświęcenie codzienności w perspektywie oczekiwania na dzień Pański.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla wartość zaufania Bożej Opatrzności w przemijającym świecie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta jest wyznaniem nadziei w Chrystusie, która jest centralnym tematem pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, które jest celem naszego oczekiwania.",
+      "moment": "ogolne"
+    }
+  ]
+}

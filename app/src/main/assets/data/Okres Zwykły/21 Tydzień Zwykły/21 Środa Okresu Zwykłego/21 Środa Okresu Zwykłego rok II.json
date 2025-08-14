@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429091.Sroda-21-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "21 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tes 3, 6-10. 16-18",
+      "opis": "Kto nie chce pracować, niech też nie je",
+      "tekst": "Nakazujemy wam, bracia, w imię Pana naszego, Jezusa Chrystusa, abyście stronili od każdego brata, który postępuje wbrew porządkowi, a nie zgodnie z tradycją, którą przejęliście od nas.\nSami bowiem wiecie, jak należy nas naśladować, bo nie wzbudzaliśmy wśród was niepokoju ani u nikogo nie jedliśmy za darmo chleba, ale pracowaliśmy w trudzie i zmęczeniu, we dnie i w nocy, aby dla nikogo z was nie być ciężarem. Nie żebyśmy nie mieli do tego prawa, lecz po to, aby dać wam samych siebie za przykład do naśladowania. Albowiem gdy byliśmy u was, nakazywaliśmy wam tak: !\nA sam Pan pokoju niech was darzy pokojem zawsze i we wszelki sposób. Pan niech będzie z wami wszystkimi! Pozdrowienie ręką moją - Pawła. Ten znak jest w każdym liście: Tak piszę. Łaska Pana naszego, Jezusa Chrystusa, niech będzie z wami wszystkimi!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 128 (127), 1b-2. 4-5 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który służy Panu.\nSzczęśliwy człowiek, który służy Panu *\ni chodzi Jego drogami.\nBędziesz spożywał owoc pracy rąk swoich, *\nszczęście osiągniesz i dobrze ci będzie.\nRefren.\nTak będzie błogosławiony człowiek, *\nktóry służy Panu.\nNiech cię z Syjonu Pan błogosławi †\ni obyś oglądał pomyślność Jeruzalem *\nprzez wszystkie dni twego życia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 J 2, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto zachowuje naukę Chrystusa,\nw tym naprawdę miłość Boża jest doskonała."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 27-32",
+      "opis": "Biada obłudnikom",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo podobni jesteście do grobów pobielanych, które z zewnątrz wyglądają pięknie, lecz wewnątrz pełne są kości trupich i wszelkiego plugastwa. Tak i wy z zewnątrz wydajecie się ludziom sprawiedliwi, lecz wewnątrz pełni jesteście obłudy i nieprawości.\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo budujecie groby prorokom i zdobicie grobowce sprawiedliwych oraz mówicie: „Gdybyśmy żyli za czasów naszych przodków, nie bylibyśmy ich wspólnikami w zabójstwie proroków”. Przez to sami przyznajecie, że jesteście potomkami tych, którzy mordowali proroków. Dopełnijcie i wy miary waszych przodków!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o błogosławieństwo na 'pracę i znojny trud', co stanowi główny temat pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do służby Panu, która wyraża się także w uczciwej pracy, o której mówi św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie czystego serca jest dobrym wprowadzeniem do Ewangelii, która gani wewnętrzną nieprawość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców dobrych czynów, co jest przeciwieństwem obłudy faryzeuszy z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoc naszej pracy, o której wartości przypomina pierwsze czytanie i psalm.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu całego życia, w tym codziennej pracy, jako wyraz prawdziwej pobożności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa o czyste serce jest odpowiedzią na ostre słowa Jezusa przeciwko wewnętrznej nieprawości uczonych w Piśmie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Jest to modlitwa o czyste serce i odnowienie ducha, co jest przeciwieństwem postawy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem godnego przyjęcia Chrystusa, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za Boże błogosławieństwo, które spoczywa na człowieku bogobojnym i pracowitym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn uwielbienia dla Boga, który patrzy na serce, a nie na pozory, i błogosławi trud rąk ludzkich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą człowieka, który doświadcza Bożego błogosławieństwa w swoim życiu i pracy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i uczciwość, o których mówi pieśń, są podstawą życia wspólnoty, do której nawołuje św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa jako drogę prawdy, w przeciwieństwie do obłudnej drogi faryzeuszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię nie tylko słowem, ale i przykładem uczciwego życia i pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia jest konieczne w obliczu oskarżenia o obłudę, które Jezus kieruje do faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wyraża postawę pokory, która jest przeciwieństwem pychy i obłudy piętnowanej w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Psalm opiewa błogosławieństwo domu człowieka bogobojnego, co czyni tę pieśń o rodzinie szczególnie stosowną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża, że Bogu miłe jest wdzięczne serce i prawe życie, a nie zewnętrzne obrzędy.",
+      "moment": "ogolne"
+    }
+  ]
+}

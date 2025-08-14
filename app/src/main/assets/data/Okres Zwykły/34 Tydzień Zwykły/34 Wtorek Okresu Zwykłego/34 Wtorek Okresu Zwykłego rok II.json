@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414041.Wtorek-34-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "34 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 14, 14-20",
+      "opis": "Sąd ostateczny jako żniwo i winobranie",
+      "tekst": "Ja, Jan, ujrzałem: oto biały obłok - a Siedzący na obłoku, podobny do Syna Człowieczego, miał złoty wieniec na głowie i w ręku ostry sierp. I wyszedł inny anioł ze świątyni, wołając głosem donośnym do Siedzącego na obłoku: «Zapuść Twój sierp i żniwa dokonaj, bo przyszła już pora dokonać żniwa, bo dojrzało żniwo na ziemi!» A Siedzący na obłoku rzucił swój sierp na ziemię i ziemia została zżęta.\nI wyszedł inny anioł ze świątyni, która jest w niebie, i on miał ostry sierp. I wyszedł inny anioł od ołtarza, mający władzę nad ogniem, i donośnie zawołał do trzymającego ostry sierp: «Zapuść Twój ostry sierp i poobcinaj grona winorośli ziemi, bo jagody jej dojrzały!» I rzucił anioł swój sierp na ziemię, i obrał z gron winorośl ziemi, i wrzucił je do tłoczni Bożego gniewu - ogromnej. I wydeptano tłocznię poza miastem, a z tłoczni krew wytrysnęła aż po wędzidła koni na odległość tysiąca i sześciuset stadiów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 10. 11-12. 13 (R.: por. 13ab)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg nadchodzi, aby sądzić ziemię.\nGłoście wśród ludów, *\nże Pan jest królem.\nOn świat tak utwierdził, że się nie zachwieje, *\nbędzie sprawiedliwie sądził ludy.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nniech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ap 2, 10c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bądź wierny aż do śmierci,\na dam ci wieniec życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 5-11",
+      "opis": "Zapowiedź zburzenia świątyni",
+      "tekst": "Gdy niektórzy mówili o świątyni, że jest przyozdobiona pięknymi kamieniami i darami, Jezus powiedział: «Przyjdzie czas, kiedy z tego, na co patrzycie, nie zostanie kamień na kamieniu, który by nie był zwalony».\nZapytali Go: «Nauczycielu, kiedy to nastąpi? I jaki będzie znak, gdy to się dziać zacznie?»\nJezus odpowiedział: «Strzeżcie się, żeby was nie zwiedziono. Wielu bowiem przyjdzie pod moim imieniem i będą mówić: „To ja jestem” oraz „Nadszedł czas”. Nie podążajcie za nimi! I nie trwóżcie się, gdy posłyszycie o wojnach i przewrotach. To najpierw musi się stać, ale nie zaraz nastąpi koniec».\nWtedy mówił do nich: «Powstanie naród przeciw narodowi i królestwo przeciw królestwu. Wystąpią silne trzęsienia ziemi, a miejscami głód i zaraza; ukażą się straszne zjawiska i wielkie znaki na niebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Wobec zapowiedzi przemijania rzeczy doczesnych, w tym świątyni, pieśń ta przypomina, że naszą prawdziwą ojczyzną jest niebo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada ostateczne przyjście Pana w chwale, o którym mówi Ewangelia i pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do gotowości na przyjście Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W perspektywie Sądu Ostatecznego, opisanego w pierwszym czytaniu, ta pieśń jest aktem ofiarowania całego życia Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc o łaskę wytrwania w oczekiwaniu na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, który przyjdzie sądzić żywych i umarłych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu zapowiedzi wojen i kataklizmów, ta pieśń jest wyznaniem wiary, że naszą jedyną i trwałą nadzieją jest Chrystus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem naszej wiary w Tego, który przyjdzie jako Sędzia i Król.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do wytrwałości i jest pokarmem na drogę do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest radosnym hymnem na cześć Pana, który, jak mówi psalm, nadchodzi, aby sądzić ziemię sprawiedliwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który przyjdzie jako Sędzia i Król.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą obietnicę zbawienia i sprawiedliwości, która jest nagrodą za wierność.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy w życiu i pracy byli wierni aż do śmierci, jak wzywa aklamacja.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię i świadczyć o Chrystusie, oczekując na Jego ostateczne przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwoli przetrwać czas próby i ocalić życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym mówią oba czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń wzywa wszystkie narody do chwalenia Boga, który jest sprawiedliwym sędzią, jak głosi psalm responsoryjny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ogłasza królowanie Chrystusa, który przyjdzie sądzić ziemię, co jest centralnym tematem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest przygotowaniem na spotkanie z Nim w dniu ostatecznym.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425142.Sroda-22-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "22 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 3, 1-9",
+      "opis": "Apostołowie są pomocnikami Boga",
+      "tekst": "Nie mogłem, bracia, przemawiać do was jako do ludzi duchowych, lecz jako do cielesnych, jako do niemowląt w Chrystusie.\nMleko wam dawałem, a nie pokarm stały, bo byliście słabi; zresztą i nadal nie jesteście mocni. Ciągle przecież jeszcze jesteście cieleśni. Jeżeli bowiem jest między wami zawiść i niezgoda, to czyż nie jesteście cieleśni i nie postępujecie tylko po ludzku? Skoro jeden mówi: «Ja jestem Pawła», a drugi: «Ja jestem Apollosa», to czyż nie postępujecie tylko po ludzku? Kimże jest Apollos? Albo kim jest Paweł? Sługami, przez których uwierzyliście według tego, co każdemu dał Pan. Ja siałem, Apollos podlewał, lecz Bóg dał wzrost. Otóż nic nie znaczy ten, który sieje, ani ten, który podlewa, tylko Ten, który daje wzrost - Bóg.\nTen, który sieje, i ten, który podlewa, stanowią jedno; każdy według własnego trudu otrzyma należną mu zapłatę. My bowiem jesteśmy pomocnikami Boga, wy zaś - uprawną rolą Bożą i Bożą budowlą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 12-13. 14-15. 20-21 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren.\nPatrzy z miejsca, gdzie przebywa, *\nna wszystkich mieszkańców ziemi.\nOn, który serca wszystkich ukształtował, *\nktóry zważa na wszystkie ich czyny.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nRaduje się w Nim nasze serce, *\nufamy Jego świętemu imieniu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 38-44",
+      "opis": "Liczne uzdrowienia",
+      "tekst": "Po opuszczeniu synagogi Jezus przyszedł do domu Szymona. A wysoka gorączka trawiła teściową Szymona. I prosili Go za nią. On, stanąwszy nad nią, rozkazał gorączce, i opuściła ją. Zaraz też wstała uzdrowiona i usługiwała im.\nO zachodzie słońca wszyscy, którzy mieli cierpiących na rozmaite choroby, przynosili ich do Niego. On zaś na każdego z nich kładł ręce i uzdrawiał ich. Także złe duchy wychodziły z wielu, wołając: «Ty jesteś Syn Boży!» Lecz On je gromił i nie pozwalał im mówić, ponieważ wiedziały, że On jest Mesjaszem.\nZ nastaniem dnia wyszedł i udał się na miejsce pustynne. A tłumy szukały Go i przyszły aż do Niego; chciały Go zatrzymać, żeby nie odchodził od nich. Lecz On rzekł do nich: «Także innym miastom muszę głosić Dobrą Nowinę o królestwie Bożym, bo po to zostałem posłany».\nI głosił słowo w synagogach Judei.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Hymn do Ducha Świętego doskonale wprowadza w tematykę pierwszego czytania, które mówi o Duchu, który przenika głębokości Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność Kościoła jest szczególnie ważna w kontekście napomnień św. Pawła dotyczących sporów we wspólnocie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń podkreśla, że miłość i jedność są znakiem obecności Boga, co jest lekarstwem na podziały w Koryncie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o dary Ducha Świętego jest odpowiedzią na naukę św. Pawła, że to Duch daje nam poznanie spraw Bożych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina, że jesteśmy 'uprawną rolą Bożą i Bożą budowlą', a apostołowie są tylko sługami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami składamy Bogu trud naszej pracy, pamiętając, że to On daje wzrost.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Ta kontemplacyjna pieśń jest modlitwą o Ducha Świętego, który uzdalnia nas do przyjęcia pełnego mocy słowa Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa nad złem jest uwielbieniem za Jego moc, która w Ewangelii pokonuje duchy nieczyste.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Jezusem, Świętym Boga, który przychodzi z mocą, by nas uwolnić od zła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Hymn ten jest modlitwą o Ducha Świętego, aby oświecał nasze umysły i serca do przyjęcia mądrości Bożej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "770",
+      "piesn": "Spiritus Iesu Christi",
+      "opis": "Pieśń prosi o dar Ducha, który, jak uczy św. Paweł, pochodzi od Boga, a nie od ducha świata.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to ogólna pieśń chwały, dobrze pasująca do psalmu responsoryjnego, który wzywa do wielbienia dzieł Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest echem słów Jezusa z Ewangelii: 'Także innym miastom muszę głosić Dobrą Nowinę'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud głoszenia Ewangelii, do którego Jezus czuł się posłany.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary i zobowiązaniem do pójścia za Chrystusem, by głosić Dobrą Nowinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary, abyśmy nie byli 'cieleśni', lecz 'duchowi', jak naucza św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest odpowiedzią na słowa psalmu: 'Dusza nasza oczekuje Pana, On jest naszą pomocą i tarczą'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Prośba o miłosierdzie dla cierpiących i chorych jest echem działalności Jezusa w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do spotkania z Jezusem, który w Ewangelii uzdrawia chorych i jest źródłem pociechy.",
+      "moment": "ogolne"
+    }
+  ]
+}

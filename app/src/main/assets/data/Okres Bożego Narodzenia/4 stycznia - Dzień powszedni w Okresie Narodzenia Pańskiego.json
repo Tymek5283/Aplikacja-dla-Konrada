@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410522.4-stycznia",
+  "tytul_dnia": "4 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 3, 7-10",
+      "opis": "Chrześcijanin nie może grzeszyć, bo narodził się z Boga",
+      "tekst": "Dzieci, nie dajcie się zwodzić nikomu; ten, kto postępuje sprawiedliwie, jest sprawiedliwy, tak jak On jest sprawiedliwy. Kto grzeszy, jest dzieckiem diabła, ponieważ diabeł trwa w grzechu od początku. Syn Boży objawił się po to, aby zniszczyć dzieła diabła.\nKtokolwiek narodził się z Boga, nie grzeszy, gdyż trwa w nim nasienie Boże; taki nie może grzeszyć, bo się narodził z Boga. Dzięki temu można rozpoznać dzieci Boga i dzieci diabła: kto postępuje niesprawiedliwie, nie jest z Boga, jak i ten, kto nie miłuje swego brata.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 7-8. 9 (R.: por. 3cd)",
+      "opis": "",
+      "tekst": "Refren: Ziemia ujrzała swego Zbawiciela.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nzwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nNiech szumi morze i wszystko, co w nim żyje, *\nkrąg ziemi i jego mieszkańcy.\nRzeki niech klaszczą w dłonie, *\ngóry niech razem wołają z radości.\nRefren.\nW obliczu Pana, który nadchodzi, *\naby osądzić ziemię.\nOn będzie sądził świat sprawiedliwie *\ni ludy według słuszności.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 1, 1-2a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielokrotnie przemawiał niegdyś Bóg do ojców przez proroków,\na w tych ostatecznych dniach przemówił do nas przez Syna."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 35-42",
+      "opis": "Znaleźliśmy Mesjasza",
+      "tekst": "Jan stał wraz z dwoma swoimi uczniami i gdy zobaczył przechodzącego Jezusa, rzekł: «Oto Baranek Boży». Dwaj uczniowie usłyszeli, jak mówił, i poszli za Jezusem.\nJezus zaś, odwróciwszy się i ujrzawszy, że oni idą za Nim, rzekł do nich: «Czego szukacie?» Oni powiedzieli do Niego: «Rabbi! - to znaczy: Nauczycielu - gdzie mieszkasz?»\nOdpowiedział im: «Chodźcie, a zobaczycie». Poszli więc i zobaczyli, gdzie mieszka, i tego dnia pozostali u Niego. Było to około godziny dziesiątej.\nJednym z dwóch, którzy to usłyszeli od Jana i poszli za Nim, był Andrzej, brat Szymona Piotra. Ten spotkał najpierw swego brata i rzekł do niego: «» - to znaczy: Chrystusa. i przyprowadził go do Jezusa.\nA Jezus, wejrzawszy na niego, powiedział: «Ty jesteś Szymon, syn Jana; ty będziesz nazywał się Kefas» - to znaczy: Piotr.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ewangelia opisuje pierwsze powołania uczniów, którzy stają się apostołami. Pieśń o charakterze misyjnym dobrze wprowadza w ten temat.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta wyraża radość ze znalezienia Mesjasza, co jest centralnym punktem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć to pieśń adwentowa, jej treść o poszukiwaniu i spotkaniu Pana dobrze oddaje dynamikę dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Odpowiedzią na powołanie jest oddanie się Bogu, co jest treścią tej pieśni, a także echem pierwszego czytania o narodzeniu się z Boga.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W darze chleba i wina ofiarujemy nasze życie, odpowiadając na wezwanie Jezusa 'Pójdź za Mną'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszej pracy i służby, która jest odpowiedzią na powołanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Uczniowie w Ewangelii szukają Jezusa pytając 'gdzie mieszkasz?'. Pieśń ta wyraża tęsknotę i poszukiwanie bliskości z Panem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, na wzór pierwszych uczniów, którzy pozostali u Niego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym spotkaniem z Nauczycielem, którego szukali i znaleźli pierwsi uczniowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który jest odpowiedzią na znalezienie Mesjasza, o czym z radością świadczy Andrzej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, którego uczniowie rozpoznali jako Mesjasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Utwór ten, podobnie jak psalm, wzywa całe stworzenie do radości z powodu przyjścia Pana i Jego zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Uczniowie odnaleźli Mesjasza - Nadzieję Izraela. Ta pieśń posyła nas, byśmy byli świadkami tej nadziei dla świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy przyprowadzali do Niego innych, jak Andrzej Piotra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jesteśmy posłani, by głosić imię Pana, tak jak Andrzej, który z radością oznajmił bratu, że znalazł Mesjasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Andrzej mówi 'Znaleźliśmy Mesjasza'. Ta pieśń jest osobistym wyznaniem tej samej wiary.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa jako drogę, prawdę i życie, co jest odkryciem pierwszych uczniów.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, które charakteryzowało pierwszych uczniów.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar powołania i prowadzenia przez Boga, czego doświadczyli Andrzej i Piotr.",
+      "moment": "ogólne"
+    }
+  ]
+}

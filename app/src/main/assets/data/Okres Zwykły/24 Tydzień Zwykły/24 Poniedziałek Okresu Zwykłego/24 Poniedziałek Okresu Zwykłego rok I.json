@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418123.Poniedzialek-24-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "24 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 2, 1-8",
+      "opis": "Wspólne błagania za wszystkich ludzi",
+      "tekst": "Polecam przede wszystkim, by prośby, modlitwy, wspólne błagania, dziękczynienia odprawiane były za wszystkich ludzi: za królów i za wszystkich sprawujących władzę, abyśmy mogli prowadzić życie ciche i spokojne z całą pobożnością i godnością. Jest to bowiem dobre i miłe w oczach Zbawiciela naszego, Boga, który pragnie, by wszyscy ludzie zostali zbawieni i doszli do poznania prawdy.\nAlbowiem jeden jest Bóg, jeden też pośrednik między Bogiem a ludźmi, człowiek, Chrystus Jezus, który wydał siebie samego na okup za wszystkich, jako świadectwo, w oznaczonym czasie. Ze względu na nie ja zostałem ustanowiony głosicielem i apostołem - mówię prawdę, nie kłamię - nauczycielem pogan w wierze i prawdzie.\nChcę więc, by mężczyźni modlili się na każdym miejscu, podnosząc ręce czyste, bez gniewu i sporów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 28 (27), 2. 7. 8-9 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg usłyszał głos mego błagania.\nUsłysz głos mojego błagania, *\ngdy wołam do Ciebie\ni gdy wznoszę ręce *\ndo świętego przybytku Twego.\nRefren.\nPan moją mocą i tarczą, *\nzaufało Mu moje serce.\nPomógł mi, więc moje serce się cieszy *\ni moją pieśnią Go sławię.\nRefren.\nPan jest zbawczą mocą dla swojego ludu, *\ntwierdzą zbawienia dla swego pomazańca.\nOcal swój lud i błogosław swojemu dziedzictwu, *\nbądź im pasterzem, weź ich w opiekę na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 3, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak Bóg umiłował świat, że dał swojego Syna Jednorodzonego;\nkażdy, kto w Niego wierzy, ma życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 1-10",
+      "opis": "Uzdrowienie sługi setnika",
+      "tekst": "Gdy Jezus dokończył wszystkich swoich mów do słuchającego Go ludu, wszedł do Kafarnaum. Sługa pewnego setnika, szczególnie przez niego ceniony, chorował i bliski był śmierci. Skoro setnik posłyszał o Jezusie, wysłał do Niego starszyznę żydowską z prośbą, żeby przyszedł i uzdrowił mu sługę.\nCi zjawili się u Jezusa i prosili Go usilnie: «Godzien jest, żebyś mu to wyświadczył - mówili - miłuje bowiem nasz naród i sam zbudował nam synagogę». Jezus przeto zdążał z nimi.\nA gdy był już niedaleko domu, setnik wysłał do Niego przyjaciół ze słowami: «Panie, nie trudź się, bo nie jestem godzien, abyś wszedł pod dach mój. I dlatego ja sam nie uważałem się za godnego przyjść do Ciebie. Lecz powiedz słowo, a mój sługa odzyska zdrowie. Bo i ja, choć podlegam władzy, mam pod sobą żołnierzy. Mówię temu: „Idź!” - a idzie; drugiemu: „Przyjdź!” - a przychodzi; a mojemu słudze: „Zrób to!” - a robi».\nGdy Jezus to usłyszał, zadziwił się nad nim, i zwróciwszy się do tłumu, który szedł za Nim, rzekł: «Powiadam wam: Tak wielkiej wiary nie znalazłem nawet w Izraelu».\nA gdy wysłańcy wrócili do domu, zastali sługę zdrowego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie w wierze, która jest fundamentem życia według Słowa Bożego, a nie tylko ludzkich tradycji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla pragnienie życia Słowem Bożym na co dzień, co jest warunkiem przynależności do rodziny Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do Ewangelii, w której Jezus definiuje swoją prawdziwą rodzinę jako tych, którzy pełnią wolę Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i ofiarowania serca, które pragnie pełnić wolę Bożą, cenniejszą niż zewnętrzne ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy nasze czyny, pamiętając, że Bóg ceni sprawiedliwość i prawość bardziej niż ofiary materialne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, co jest istotą prawdziwej ofiary miłej Bogu, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem przyjęcia Chrystusa i Jego nauki, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Przyjęcie Komunii jest umocnieniem w pełnieniu woli Ojca, co czyni nas przyjaciółmi i rodziną Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Maryja, Matka Jezusa, jest najdoskonalszym wzorem słuchania Słowa Bożego i wypełniania go, stając się Matką wszystkich wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest uwielbieniem dla Boga, którego przykazania są drogą do życia i którego słuchanie czyni nas Jego rodziną.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń jest dziękczynieniem za Boże prowadzenie po ścieżkach przykazań, o które prosi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękujemy Bogu za dar wspólnoty, która staje się rodziną Jezusa przez słuchanie i wypełnianie Jego słowa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wyboru Boga i Jego Prawa ponad wszystko, co jest istotą dzisiejszej liturgii słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na trud codziennego świadczenia o Bogu przez wypełnianie Jego Słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy w świat za Chrystusem, naszym Nauczycielem, by pełnić wolę Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem życia według Jego przykazań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten jest odpowiedzią na pytanie o to, co jest miłe Bogu: nie ofiara, lecz wdzięczne serce i prawe życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń przypomina o przykazaniu miłości, które jest fundamentem sprawiedliwości i prawości, cenionych przez Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą o Boże prowadzenie po Jego ścieżkach, co jest główną prośbą psalmu responsoryjnego.",
+      "moment": "ogolne"
+    }
+  ]
+}

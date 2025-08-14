@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429100.21-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "21 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 66, 18-21",
+      "opis": "Powszechność zbawienia",
+      "tekst": "Tak mówi Pan:\n«Ja znam ich czyny i zamysły. Przybędę, by zebrać wszystkie narody i języki; przyjdą i ujrzą moją chwałę. Ustanowię u nich znak i wyślę niektórych ocalałych z nich do narodów Tarszisz, Put, Lud, Meszek i Rosz, Tubal i Jawan, do wysp dalekich, które nie słyszały o mojej sławie ani nie widziały mojej chwały. Oni rozgłoszą chwałę moją wśród narodów.\nZ wszelkich narodów przyprowadzą jako dar dla Pana wszystkich waszych braci - na koniach, na wozach, w lektykach, na mułach i na dromaderach - na moją świętą górę w Jeruzalem - mówi Pan - podobnie jak Izraelici przynoszą ofiarę pokarmową w czystych naczyniach do świątyni Pana. Z nich także wezmę sobie niektórych jako kapłanów i lewitów» - mówi Pan.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117 (116), 1b-2 (R.: por. Mk 16, 15)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Całemu światu głoście Ewangelię.\nChwalcie Pana, wszystkie narody, *\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska, *\na wierność Pana trwa na wieki.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 12, 5-7. 11-13",
+      "opis": "Kogo Bóg miłuje, tego karci",
+      "tekst": "Bracia:\nZapomnieliście o napomnieniu, z jakim Bóg się zwraca do was jako do synów:\n«Synu mój, nie lekceważ karcenia Pana, nie upadaj na duchu, gdy On cię doświadcza. Bo kogo miłuje Pan, tego karci, chłoszcze zaś każdego, którego za syna przyjmuje». Trwajcie w karności! Bóg obchodzi się z wami jak z dziećmi. Jakiż to bowiem syn, którego by ojciec nie karcił?\nWszelkie karcenie na razie nie wydaje się radosne, ale smutne, potem jednak przynosi tym, którzy go doświadczyli, błogi plon sprawiedliwości. Dlatego wyprostujcie opadłe ręce i osłabłe kolana! Proste ślady czyńcie nogami, aby kto chromy, nie zbłądził, ale był raczej uzdrowiony.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 22-30",
+      "opis": "Królestwo Boże dostępne dla wszystkich narodów",
+      "tekst": "Jezus przemierzał miasta i wsie, nauczając i odbywając swą podróż do Jerozolimy. Raz ktoś Go zapytał: «Panie, czy tylko nieliczni będą zbawieni?»\nOn rzekł do nich: «Usiłujcie wejść przez ciasne drzwi; gdyż wielu, powiadam wam, będzie chciało wejść, a nie zdołają.\nSkoro Pan domu wstanie i drzwi zamknie, wówczas, stojąc na dworze, zaczniecie kołatać do drzwi i wołać: „Panie, otwórz nam!”, lecz On wam odpowie: „Nie wiem, skąd jesteście”. Wtedy zaczniecie mówić: „Przecież jadaliśmy i piliśmy z Tobą, i na ulicach naszych nauczałeś”.\nLecz On rzecze: „Powiadam wam, nie wiem, skąd jesteście. Odstąpcie ode Mnie wszyscy, którzy dopuszczacie się niesprawiedliwości!” Tam będzie płacz i zgrzytanie zębów, gdy ujrzycie Abrahama, Izaaka i Jakuba, i wszystkich proroków w królestwie Bożym, a siebie samych precz wyrzuconych.\nPrzyjdą ze wschodu i zachodu, z północy i południa i siądą za stołem w królestwie Bożym. Tak oto są ostatni, którzy będą pierwszymi, i są pierwsi, którzy będą ostatnimi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta jest muzycznym odzwierciedleniem proroctwa Izajasza i psalmu, które mówią o zgromadzeniu wszystkich narodów, by chwaliły Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Jest to radosne wezwanie do wszystkich ludów, aby oddały cześć Panu, co jest główną myślą psalmu i pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który ma być 'domem modlitwy dla wszystkich narodów', jak zapowiada prorok Izajasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Refren psalmu 'Całemu światu głoście Ewangelię' jest wprost wyrażony w tej pieśni, która przypomina o misyjnym powołaniu Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "W kontekście wezwania do wysiłku, by wejść przez ciasne drzwi, pieśń ta przypomina o konieczności wydawania owoców godnych nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze trudy i wysiłki, abyśmy mogli wejść przez ciasne drzwi do Jego królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń o Uczcie Pańskiej nawiązuje do Ewangelii, w której Jezus mówi o ludziach ze wschodu i zachodu, którzy zasiądą za stołem w królestwie Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie Chrystusa skierowane jest do wszystkich, co podkreśla uniwersalizm zbawienia obecny w dzisiejszych czytaniach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja pragnienia wszystkich serc, gromadząc ludzi z każdego narodu i języka.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały, wzywający wszystkie ludy do wysławiania Boga, jest doskonałym uwielbieniem w kontekście powszechności zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten wzywa cały świat do radosnego służenia Bogu, co jest wypełnieniem proroctw o powszechności zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to wezwanie do głoszenia chwały Pana wszystkim narodom, co stanowi centralny temat psalmu i pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina, że cały lud Boży, zebrany z różnych narodów, jest powołany do głoszenia chwały Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego miłości, która jednoczy wszystkie narody.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności, która jest warunkiem wejścia przez 'ciasne drzwi' do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości królestwa i konieczności nawrócenia, aby móc wejść przez ciasne drzwi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Bożą pomoc w trudzie wchodzenia przez ciasne drzwi, o których mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, które jest motywacją do podejmowania wysiłku na drodze do zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest pocieszeniem w kontekście drugiego czytania, które mówi o karceniu jako znaku miłości Ojca.",
+      "moment": "ogolne"
+    }
+  ]
+}

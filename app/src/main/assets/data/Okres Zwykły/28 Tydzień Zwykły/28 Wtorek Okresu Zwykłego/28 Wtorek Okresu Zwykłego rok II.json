@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416404.Wtorek-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 5, 1-6",
+      "opis": "Obrzezanie nie ma znaczenia, tylko wiara, która działa z miłości",
+      "tekst": "Bracia:\nKu wolności wyswobodził nas Chrystus. A zatem trwajcie w niej i nie poddawajcie się na nowo pod jarzmo niewoli!\nOto ja, Paweł, mówię wam: Jeżeli poddacie się obrzezaniu, Chrystus wam się na nic nie przyda. I raz jeszcze oświadczam każdemu człowiekowi, który poddaje się obrzezaniu: jest on zobowiązany zachować wszystkie przepisy Prawa. Zerwaliście z Chrystusem wszyscy, którzy szukacie usprawiedliwienia w Prawie; wypadliście z łaski.\nMy zaś z pomocą Ducha dzięki wierze wyczekujemy spodziewanej sprawiedliwości. Albowiem w Chrystusie Jezusie ani obrzezanie, ani jego brak nie mają żadnego znaczenia, tylko wiara, która działa przez miłość.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 41 i 43. 44-45. 47-48 (R.: por. 41a)",
+      "opis": "",
+      "tekst": "Refren: Niech Twoja łaska zstąpi na mnie, Panie.\nPanie, niech zstąpi na mnie Twoja łaska, *\nTwoje zbawienie według Twej obietnicy.\nNie odbieraj moim ustom słowa prawdy, *\nbo ufam Twoim wyrokom.\nRefren.\nA Prawa Twego zawsze strzec będę, *\npo wieki wieków.\nI będę kroczył szeroką drogą, *\nbo szukam Twoich przykazań.\nRefren.\nI będę się weselił z Twoich przykazań, *\nktóre umiłowałem.\nMoje ręce wznoszę ku Twym wyrokom, które miłuję, *\ni rozważam Twoje ustawy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 37-41",
+      "opis": "Czystość wewnętrzna",
+      "tekst": "Pewien faryzeusz zaprosił Jezusa do siebie na obiad. Poszedł więc i zajął miejsce za stołem. Lecz faryzeusz, widząc to, wyraził zdziwienie, że nie obmył wpierw rąk przed posiłkiem.\nNa to Pan rzekł do niego: «Właśnie wy, faryzeusze, dbacie o czystość zewnętrznej strony kielicha i misy, a wasze wnętrze pełne jest zdzierstwa i niegodziwości. Nierozumni! Czyż Stwórca zewnętrznej strony nie uczynił także wnętrza? Raczej dajcie to, co jest wewnątrz, na jałmużnę, a zaraz wszystko będzie dla was czyste».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pierwsze czytanie podkreśla, że w Chrystusie liczy się 'wiara, która działa przez miłość'. Ta pieśń jest modlitwą o umocnienie takiej wiary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że naszą drogą jest Chrystus i Jego łaska, a nie przepisy Prawa, jak uczy św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że naszą nadzieją jest Chrystus, a nie uczynki Prawa, co jest główną myślą pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wobec przestrogi Jezusa przed wewnętrzną nieczystością, ta pieśń jest aktem nawrócenia i prośbą o czyste serce.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia i uczynków miłosierdzia, co jest odpowiedzią na Ewangelię o czystości serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem żalu i ufności w Bożą dobroć, która oczyszcza nasze wnętrze, a nie tylko zewnętrzność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jezus w Ewangelii piętnuje obłudę i wzywa do czystości wewnętrznej. Ta pieśń jest prośbą o obmycie z win i czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec wezwania do czystości wewnętrznej, ta pieśń jest pokorną prośbą o miłosierdzie i stworzenie w nas serca czystego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Prośba o oczyszczenie serca jest odpowiedzią na wezwanie Jezusa do czystości wewnętrznej, a nie tylko zewnętrznej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za łaskę wolności w Chrystusie, o której pisze św. Paweł, i która pozwala nam służyć Bogu w czystości serca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar wiary, która działa przez miłość i prowadzi do prawdziwej czystości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą łaskę i zbawienie, o których mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, w tym do jałmużny, którą Jezus w Ewangelii wskazuje jako drogę do prawdziwej czystości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest owocem wiary, o której pisze św. Paweł, i drogą do czystości serca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia wiarą, która działa przez miłość i prowadzi do wewnętrznej czystości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i oczyszczenie, o którym mówi Jezus faryzeuszom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo ludzi czystego serca jest celem, do którego prowadzi nauka Jezusa z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię jest kluczowe w kontekście obu czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę i żal, które są potrzebne, by przyjąć Boże miłosierdzie i osiągnąć czystość serca.",
+      "moment": "ogolne"
+    }
+  ]
+}

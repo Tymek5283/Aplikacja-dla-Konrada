@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417340.Sobota-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ba 4, 5-12. 27-29",
+      "opis": "Bóg, który zesłał zło, przywiedzie radość",
+      "tekst": "Bądź dobrej myśli, narodzie mój, pamiątko Izraela! Zostaliście zaprzedani poganom, ale nie na zatracenie; dlatego zostaliście wydani nieprzyjaciołom, iż pobudziliście Boga do gniewu. Rozgniewaliście bowiem Stworzyciela swego ofiarami składanymi złym duchom, a nie Bogu. Zapomnieliście o waszym Żywicielu, Bogu wiekuistym, zasmuciliście też Jerozolimę, która was wychowała.\nWidziała bowiem przychodzący na was gniew Boży i rzekła: «Słuchajcie, sąsiedzi Syjonu, Bóg zasmucił mnie bardzo, widzę bowiem niewolę moich synów i córek, jaką im zesłał Przedwieczny. Wyżywiłam ich z radością, a odesłałam z płaczem i smutkiem. Niech nikt się nie śmieje, że jestem wdową i opuszczoną przez wielu. Zostałam opuszczona z powodu grzechów dzieci moich, ponieważ wyłamały się spod prawa Bożego. Ufajcie, dzieci, wołajcie do Boga, a Ten, który dopuścił to na was, będzie o was pamiętał. Jak bowiem, błądząc, myśleliście o odstąpieniu od Boga, tak teraz, nawróciwszy się, szukajcie Go dziesięciokrotnie. Albowiem Ten, który zesłał na was to zło, przywiedzie radość wieczną wraz z wybawieniem waszym».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 69 (68), 33-35. 36-37 (R.: por. 34a)",
+      "opis": "",
+      "tekst": "Refren: Pan wysłuchuje biednych i pokornych.\nPatrzcie i cieszcie się, ubodzy, †\nniech ożyje serce szukających Boga. *\nBo Pan wysłuchuje biednych\ni swoimi więźniami nie gardzi.\nNiechaj Go chwalą niebiosa i ziemia, *\nmorze i wszystko, co w nim żyje.\nRefren.\nGdyż Bóg ocali Syjon i miasta Judy zbuduje, *\ntam będą mieszkać i mieć posiadłości.\nTo będzie dziedzictwem potomstwa sług Jego, *\nmiłujący Jego imię przebywać tam będą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 17-24",
+      "opis": "Przywileje uczniów",
+      "tekst": "Wróciło siedemdziesięciu dwóch z radością, mówiąc:\n«Panie, przez wzgląd na Twoje imię nawet złe duchy nam się poddają».\nWtedy rzekł do nich: «Widziałem Szatana, który spadł z nieba jak błyskawica. Oto dałem wam władzę stąpania po wężach i skorpionach, i po całej potędze przeciwnika, a nic wam nie zaszkodzi. Jednakże nie z tego się cieszcie, że duchy się wam poddają, lecz cieszcie się, że wasze imiona zapisane są w niebie».\nW tej to chwili rozradował się Jezus w Duchu Świętym i rzekł: «Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nOjciec mój przekazał Mi wszystko. Nikt też nie wie, kim jest Syn, tylko Ojciec; ani kim jest Ojciec, tylko Syn i ten, komu Syn zechce objawić».\nPotem zwrócił się do samych uczniów i rzekł: «Szczęśliwe oczy, które widzą to, co wy widzicie. Bo powiadam wam: Wielu proroków i królów pragnęło ujrzeć to, co wy widzicie, a nie ujrzeli, i usłyszeć, co słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń wyraża radość z Bożego działania, co jest głównym tematem Ewangelii o powrocie uczniów z misji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń wzywa do radości z królowania Pana, co jest echem radości uczniów i obietnicy wybawienia z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosne wezwanie do chwalenia Pana jest odpowiedzią na radość uczniów i Jezusa w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna przypomina o zadaniu, z którego z radością powrócili uczniowie w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna jest wyrazem oddania Bogu owoców naszej pracy, na wzór uczniów, którzy wrócili z misji.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o powołaniu do służby Bożej nawiązuje do misji siedemdziesięciu dwóch uczniów z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Pieśń jest dziękczynieniem za dar zbawienia i nadzieję zmartwychwstania, co jest źródłem prawdziwej radości, o której mówi Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Prawdziwą radością, jak uczy Jezus, jest zbawienie, a Komunia Święta jest zadatkiem tego ostatecznego zaspokojenia pragnień.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń przypomina, że źródłem życia wiecznego i prawdziwej radości jest sam Chrystus, a nie cuda czy władza nad duchami.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest wyrazem osobistego uwielbienia, które Jezus wznosi do Ojca w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar wiary i objawienia, które Jezus wychwala w swojej modlitwie do Ojca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Boże prowadzenie i łaskę, która pozwala prostaczkom poznać tajemnice Królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia, które według pierwszego czytania jest drogą do odzyskania Bożej radości i wybawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo na trud dalszego głoszenia Ewangelii po powrocie z misji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który posyła swoich uczniów i objawia im Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o objawieniu tajemnic królestwa 'prostaczkom', co bezpośrednio łączy się z błogosławieństwem ubogich i cichych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń łączy wezwanie do nawrócenia z pierwszego czytania z radością z bliskości Królestwa Bożego, której doświadczyli uczniowie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Ufność w Bożą opiekę jest fundamentem misji uczniów, którzy zostali posłani z władzą nad wszelką potęgą przeciwnika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o miłosierdzie i błogosławieństwo jest odpowiedzią na obietnicę wybawienia zawartą w proroctwie Barucha.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416867.Piatek-27-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "27 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 3, 7-14",
+      "opis": "Abraham ojcem wierzących",
+      "tekst": "Bracia:\nZrozumiejcie, że ci, którzy polegają na wierze, ci są synami Abrahama. I stąd Pismo, widząc, że w przyszłości Bóg dzięki wierze będzie dawał poganom usprawiedliwienie, już Abrahamowi oznajmiło tę radosną nowinę: «W tobie będą błogosławione wszystkie narody». I dlatego ci, którzy żyją dzięki wierze, mają uczestnictwo w błogosławieństwie wraz z Abrahamem, który dał posłuch wierze.\nNatomiast na tych wszystkich, którzy polegają na uczynkach wymaganych przez Prawo, ciąży przekleństwo. Napisane jest bowiem: «Przeklęty każdy, kto nie wypełnia wytrwale wszystkiego, co nakazuje wykonać Księga Prawa». A że w Prawie nikt nie osiąga usprawiedliwienia przed Bogiem, wynika stąd, że «sprawiedliwy żyć będzie dzięki wierze». Prawo zaś nie uwzględnia wiary, lecz mówi: «Kto wypełnia przepisy, dzięki nim żyć będzie».\nZ tego przekleństwa Prawa Chrystus nas wykupił - stawszy się za nas przekleństwem, bo napisane jest: «Przeklęty każdy, którego powieszono na drzewie» - aby błogosławieństwo Abrahama stało się w Chrystusie Jezusie udziałem pogan i abyśmy przez wiarę otrzymali obiecanego Ducha.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 1b-2. 3-4. 5-6 (R.: 5b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\nZ całego serca będę chwalił Pana *\nw radzie sprawiedliwych i na zgromadzeniu.\nWielkie są dzieła Pana, *\nzgłębiać je mają wszyscy, którzy je miłują.\nRefren.\nJego dzieło jest wspaniałe i pełne majestatu, *\na Jego sprawiedliwość trwa na wieki.\nSprawił, że trwa pamięć Jego cudów, *\nPan jest miłosierny i łaskawy.\nRefren.\nDał pokarm bogobojnym, *\npamiętać będzie wiecznie o swoim przymierzu.\nLudowi swemu okazał potęgę dzieł swoich, *\noddając im posiadłości pogan.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 12, 31b-32",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Teraz władca tego świata zostanie precz wyrzucony,\na Ja, gdy zostanę nad ziemię wywyższony, przyciągnę wszystkich do siebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 15-26",
+      "opis": "Walka Chrystusa ze złym duchem",
+      "tekst": "Gdy Jezus wyrzucał złego ducha, niektórzy z tłumu rzekli: «Mocą Belzebuba, władcy złych duchów, wyrzuca złe duchy». Inni zaś, chcąc Go wystawić na próbę, domagali się od Niego znaku z nieba.\nOn jednak, znając ich myśli, rzekł do nich: «Każde królestwo wewnętrznie skłócone pustoszeje i dom na dom się wali. Jeśli więc i Szatan z sobą jest skłócony, jakże się ostoi jego królestwo? Mówicie bowiem, że Ja przez Belzebuba wyrzucam złe duchy. Lecz jeśli Ja mocą Belzebuba wyrzucam złe duchy, to czyją mocą wyrzucają je wasi synowie? Dlatego oni będą waszymi sędziami. A jeśli Ja palcem Bożym wyrzucam złe duchy, to istotnie przyszło już do was królestwo Boże.\nGdy mocarz uzbrojony strzeże swego dworu, bezpieczne jest jego mienie. Lecz gdy mocniejszy od niego nadejdzie i pokona go, to zabierze całą broń jego, na której polegał, i rozda jego łupy.\nKto nie jest ze Mną, jest przeciwko Mnie; a kto nie zbiera ze Mną, ten rozprasza.\nGdy duch nieczysty opuści człowieka, błąka się po miejscach bezwodnych, szukając spoczynku. A gdy go nie znajduje, mówi: „Wrócę do swego domu, skąd wyszedłem”. Przychodzi i zastaje go wymiecionym i przyozdobionym. Wtedy idzie i bierze siedmiu innych duchów, złośliwszych niż on sam; wchodzą i mieszkają tam. I stan późniejszy owego człowieka staje się gorszy niż poprzedni».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń proklamuje królowanie Chrystusa, co jest adekwatne w kontekście Ewangelii o Jego walce z Szatanem i nadejściu Królestwa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa nad złem i Jego królowaniu jest dobrym wprowadzeniem do liturgii, której centrum jest walka duchowa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że Chrystus jest nadzieją i zwycięzcą zła, co doskonale wpisuje się w tematykę czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która według pierwszego czytania jest drogą do usprawiedliwienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowanie chleba i wina jest aktem wiary w Tego, który przez swoją ofiarę na krzyżu wykupił nas z przekleństwa Prawa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest wyznaniem wiary w Bożą dobroć i miłosierdzie, które są źródłem naszego usprawiedliwienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wyznanie wiary w Chrystusa obecnego w Eucharystii jest odpowiedzią na Ewangelię, która wzywa do opowiedzenia się za Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę grzesznika, który przez wiarę zbliża się do Pana, aby otrzymać usprawiedliwienie i życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w realną obecność Chrystusa, który jest mocniejszy od złego ducha i daje nam udział w swoim zwycięstwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Boga, który ma moc nad wszelkim złem, o czym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie Pana za Jego dzieła, o których mówi psalm, a których szczytem jest odkupienie w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże zbawienie, które stało się naszym udziałem dzięki wierze, a nie uczynkom Prawa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń wyraża wierność Chrystusowi i Jego Kościołowi, co jest odpowiedzią na ewangeliczne wezwanie: „Kto nie jest ze Mną, jest przeciwko Mnie”.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest warunkiem ostatecznego zwycięstwa nad złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest wezwaniem do głoszenia zwycięstwa Chrystusa nad złem, o którym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina, że Chrystus na krzyżu ('powieszony na drzewie') wykupił nas z przekleństwa Prawa, o czym mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń wyraża ufność w moc Pana, który jest silniejszy od 'mocarza' z przypowieści ewangelicznej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa nawrócenia i wiary jest drogą do usprawiedliwienia, o której mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń łączy wezwanie do nawrócenia z Ewangelią, która mówi o nadejściu Królestwa Bożego mocą Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

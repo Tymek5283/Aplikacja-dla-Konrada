@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418023.Wtorek-25-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "25 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ezd 6, 7-8. 12b. 14-20",
+      "opis": "Zakończenie odbudowy świątyni i obchód Paschy",
+      "tekst": "Król perski Dariusz napisał do namiestników prowincji położonej na wschód od Eufratu:\n«Pozwólcie namiestnikowi Żydów i starszyźnie żydowskiej pracować nad tym domem Bożym. Niech odbudują ten dom Boży na dawnym miejscu. Wydaję rozporządzenie, jak macie się odnosić do owej starszyzny żydowskiej przy budowie tego domu Bożego, mianowicie: z dochodów królewskich, płynących z podatku Transeufratei, dokładnie i bez przerwy mają być owym mężom wypłacane koszty. Ja, Dariusz, wydałem ten rozkaz: niech będzie on dokładnie wykonany».\nA starszyzna żydowska budowała z powodzeniem dzięki proroctwu Aggeusza, proroka, i Zachariasza, syna Iddo, i doprowadzili budowę do skutku, zgodnie z rozkazem Boga Izraela i z rozporządzeniem Cyrusa i Dariusza oraz Artakserksesa, króla perskiego. I dom ten był gotowy na dwudziesty trzeci dzień miesiąca Adar - był to rok szósty panowania króla Dariusza.\nI Izraelici: kapłani, lewici i reszta wysiedleńców radośnie obchodzili poświęcenie tego domu Bożego. I na poświęcenie tego domu Bożego ofiarowali: sto cielców, dwieście baranów, czterysta jagniąt, a jako ofiarę przebłagalną za całego Izraela - dwanaście kozłów według liczby pokoleń izraelskich. I do służby Bożej w Jerozolimie ustanowili kapłanów według ich oddziałów, a lewitów według ich grup, zgodnie z przepisem księgi Mojżeszowej.\nCzternastego dnia miesiąca pierwszego wysiedleńcy obchodzili Paschę. Lewici bowiem jak jeden mąż oczyścili się; wszyscy oni byli teraz czyści i zabili baranki na Paschę dla wszystkich wysiedleńców, dla braci swoich, kapłanów, i dla siebie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 122 (121), 1b-2. 4-5 (R.: por. 1bc)",
+      "opis": "",
+      "tekst": "Refren: Idźmy z radością na spotkanie Pana.\nUcieszyłem się, gdy mi powiedziano: *\n«Pójdziemy do domu Pana».\nJuż stoją nasze stopy *\nw twoich bramach, Jeruzalem.\nRefren.\nDo niego wstępują pokolenia Pańskie, *\naby zgodnie z prawem Izraela wielbić imię Pana.\nTam ustawiono trony sędziowskie, *\ntrony domu Dawida.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 19-21",
+      "opis": "Krewni Chrystusa",
+      "tekst": "Przyszli do Jezusa Jego Matka i bracia, lecz nie mogli dostać się do Niego z powodu tłumu.\nOznajmiono Mu: «Twoja Matka i bracia stoją na dworze i chcą się widzieć z Tobą». Lecz On im odpowiedział: «Moją matką i moimi braćmi są ci, którzy słuchają słowa Bożego i wypełniają je».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Pana, co jest echem psalmu i pierwszego czytania o odbudowie i poświęceniu świątyni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Refren psalmu 'Idźmy z radością' znajduje swoje rozwinięcie w tej pieśni, która zaprasza do domu Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana pasuje do atmosfery dziękczynienia za powrót z niewoli i odnowę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Pieśń jest aktem pokory i ofiarowania w domu Bożym, co odpowiada postawie ludu podczas poświęcenia świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowanie darów jest aktem czci dla Boga, który pobudził ducha swojego ludu do odbudowy świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu trud budowy Jego domu, prosząc o Jego błogosławieństwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia tworzy nową rodzinę Bożą, o której mówi Jezus w Ewangelii - tych, którzy słuchają Słowa i je wypełniają.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą nowej Paschy, o której wspomina pierwsze czytanie, i która tworzy nową rodzinę Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Przyjęcie Komunii jest najgłębszym aktem słuchania i wypełniania woli Bożej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest nową świątynią i domem Pana, jest doskonałym uwielbieniem po Komunii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta oddaje wielką radość z poświęcenia świątyni i z przynależności do rodziny Bożej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości z przynależności do ludu Bożego, który gromadzi się w Jego domu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Maryja jest najdoskonalszym wzorem słuchania i wypełniania Słowa Bożego, co czyni Ją Matką Chrystusa w sposób duchowy, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja jest pierwszą z tych, którzy słuchają Słowa Bożego i je wypełniają, dlatego jest naszą Matką.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Maryi, Matki Bożej, jest prośbą o Jej wstawiennictwo, byśmy umieli jak Ona słuchać i wypełniać Słowo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest kluczowa, abyśmy mogli, jak zachęca Ewangelia, słuchać Słowa Bożego i je wypełniać.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest fundamentem dla życia w świetle Jego Słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina o powołaniu całego ludu Bożego do bycia rodziną Bożą przez słuchanie Słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo z aklamacji dla słuchających Słowa Bożego jest tematem tej pieśni.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416876.Wtorek-27-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "27 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jon 3, 1-10",
+      "opis": "Nawrócenie Niniwy",
+      "tekst": "Pan przemówił do Jonasza po raz drugi tymi słowami:\n«Wstań, idź do Niniwy, wielkiego miasta, i głoś jej upomnienie, które Ja ci zlecam». Jonasz wstał i poszedł do Niniwy, jak powiedział Pan.\nNiniwa była miastem bardzo rozległym - na trzy dni drogi. Począł więc Jonasz iść przez miasto jeden dzień drogi i wołał, i głosił: «Jeszcze czterdzieści dni, a Niniwa zostanie zburzona». I uwierzyli mieszkańcy Niniwy Bogu, ogłosili post i przyoblekli się w wory od najstarszego do najmłodszego.\nDoszła ta sprawa do króla Niniwy. Powstał więc z tronu, zdjął z siebie płaszcz, przyoblókł się w wór i usiadł na popiele. Z rozkazu króla i jego dostojników zarządzono i ogłoszono w Niniwie, co następuje:\n«Ludzie i zwierzęta, bydło i trzoda niech nic nie jedzą, niech się nie pasą i wody nie piją. Ludzie i zwierzęta niech przyobleką się w wory. Niech żarliwie wołają do Boga! Niechaj każdy odwróci się od swojego złego postępowania i od nieprawości, którą popełnia swoimi rękami. Kto wie, może się zwróci i ulituje Bóg, odstąpi od zapalczywości swego gniewu, i nie zginiemy?»\nZobaczył Bóg ich czyny, że odwrócili się od złego postępowania. I ulitował się Bóg nad niedolą, którą postanowił na nich sprowadzić, i nie zesłał jej.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 130 (129), 1b-2. 3-4. 7b-8 (R.: por. 3)",
+      "opis": "",
+      "tekst": "Refren: Gdy grzechy wspomnisz, któż się z nas ostoi?\nZ głębokości wołam do Ciebie, Panie, *\nPanie, wysłuchaj głosu mego.\nNachyl swe ucho *\nna głos mojego błagania.\nRefren.\nJeśli zachowasz pamięć o grzechach, Panie, *\nPanie, któż się ostoi?\nAle Ty udzielasz przebaczenia, *\naby Ci służono z bojaźnią.\nRefren.\nU Pana jest bowiem łaska, *\nu Niego obfite odkupienie.\nOn odkupi Izraela *\nze wszystkich jego grzechów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 38-42",
+      "opis": "Jezus w gościnie u Marty i Marii",
+      "tekst": "Jezus przyszedł do jednej wsi. Tam pewna niewiasta, imieniem Marta, przyjęła Go w swoim domu. Miała ona siostrę, imieniem Maria, która usiadłszy u nóg Pana, słuchała Jego słowa. Marta zaś uwijała się około rozmaitych posług. A stanąwszy przy Nim, rzekła: «Panie, czy Ci to obojętne, że moja siostra zostawiła mnie samą przy usługiwaniu? Powiedz jej, żeby mi pomogła».\nA Pan jej odpowiedział: «Marto, Marto, martwisz się i niepokoisz o wiele, a potrzeba mało albo tylko jednego. Maria obrała najlepszą cząstkę, której nie będzie pozbawiona».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń bezpośrednio wzywa do nawrócenia i pokuty, co jest głównym tematem pierwszego czytania o mieszkańcach Niniwy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię łączy w sobie motyw pokuty z pierwszego czytania i postawę słuchania z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń błagalna, w której prosimy o przebaczenie, jest adekwatna do postawy Niniwitów, którzy wołali do Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża pragnienie powrotu do Ojca i prośbę o odpuszczenie grzechów, co koresponduje z postawą Niniwitów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem żalu i ufności w Bożą dobroć, która okazała się większa niż grzech Niniwy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i błagania przed Bogiem, co jest odpowiedzią na wezwanie do postu i modlitwy z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń mówi o przygotowaniu serca na przyjście Pana, co jest postawą Marii z Ewangelii, która wybrała słuchanie Słowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i pragnienie godnego przyjęcia Jezusa, co jest owocem zasłuchania w Jego słowo, jak Maria.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca jest echem postawy Marii, która całą sobą skupiła się na słuchaniu Mistrza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń ta, oparta na Psalmie 130, doskonale pasuje do psalmu responsoryjnego i mówi o Bożym przebaczeniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń jest prośbą o Boże miłosierdzie, które okazało się tak wielkie wobec Niniwy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar Bożego Słowa, które jest 'najlepszą cząstką', jak uczy Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń powierza Bogu codzienne sprawy, łącząc w sobie postawę aktywnej Marty i zasłuchanej Marii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus i Jego słowo są naszą drogą, co jest wyborem 'lepszej cząstki'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud łączenia codziennej pracy (jak Marta) ze słuchaniem Słowa (jak Maria).",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "493",
+      "piesn": "Wysławiamy ciebie, Marto",
+      "opis": "Ta pieśń do św. Marty, może być użyta jako bezpośrednie nawiązanie do postaci z Ewangelii i jej służby Panu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i zmiłowanie, o które wołali mieszkańcy Niniwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem do Boga z głębokości, podobnie jak modlitwa pokutna Niniwitów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana i Jego Słowa w naszym życiu jest odpowiedzią na Ewangelię o Marcie i Marii.",
+      "moment": "ogolne"
+    }
+  ]
+}

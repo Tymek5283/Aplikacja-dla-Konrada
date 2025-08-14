@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414174.33-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "33 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 12, 1-3",
+      "opis": "Zmartwychwstanie w czasach ostatecznych",
+      "tekst": "W owym czasie wystąpi Michał, wielki książę, który jest opiekunem dzieci twojego narodu. Wtedy nastąpi okres ucisku, jakiego nie było, odkąd narody powstały, aż do chwili obecnej. W tym czasie naród twój dostąpi zbawienia: ci wszyscy, którzy zapisani są w księdze. Wielu zaś, co śpi w prochu ziemi, zbudzi się: jedni do wiecznego życia, drudzy ku hańbie, ku wiecznej odrazie.\nMądrzy będą świecić jak blask sklepienia, a ci, którzy nauczyli wielu sprawiedliwości, jak gwiazdy na wieki i na zawsze.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16 (15), 5 i 8. 9-10. 11 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\nRefren.\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\nRefren.\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\nRefren"
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 10, 11-14. 18",
+      "opis": "Skuteczność ofiary Chrystusa",
+      "tekst": "Każdy kapłan Starego Testamentu staje codziennie do wykonywania swej służby i wiele razy składa te same ofiary, które żadną miarą nie mogą zgładzić grzechów. Ten przeciwnie, złożywszy raz na zawsze jedną ofiarę za grzechy, zasiadł po prawicy Boga, oczekując tylko, «aż nieprzyjaciele Jego staną się podnóżkiem pod Jego stopy». Jedną bowiem ofiarą udoskonalił na wieki tych, którzy są uświęcani. Gdzie zaś jest ich odpuszczenie, tam już więcej nie zachodzi potrzeba ofiary za grzechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 13, 24-32",
+      "opis": "Sąd ostateczny",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«W owe dni, po wielkim ucisku, „słońce się zaćmi i księżyc nie da swego blasku. Gwiazdy będą spadać z nieba i moce na niebie” zostaną wstrząśnięte. Wówczas ujrzą Syna Człowieczego, przychodzącego w obłokach z wielką mocą i chwałą. Wtedy pośle On aniołów i „zgromadzi swoich wybranych z czterech stron świata, od krańca ziemi po kraniec nieba”.\nA od figowca uczcie się przez podobieństwo. Kiedy już jego gałąź nabrzmiewa sokami i wypuszcza liście, poznajecie, że blisko jest lato. Tak i wy, gdy ujrzycie te wydarzenia, wiedzcie, że to blisko jest, u drzwi.\nZaprawdę, powiadam wam: Nie przeminie to pokolenie, aż się to wszystko stanie. Niebo i ziemia przeminą, ale słowa moje nie przeminą. Lecz o dniu owym lub godzinie nikt nie wie, ani aniołowie w niebie, ani Syn, tylko Ojciec».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń wyraża wiarę w zmartwychwstanie i nadzieję na życie wieczne, co jest głównym tematem pierwszego czytania z Księgi Daniela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada ostateczne przyjście Pana w chwale, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do czuwania i odczytywania znaków czasu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Wobec zapowiedzi przemijania nieba i ziemi, ta pieśń jest wyznaniem, że naszą prawdziwą ojczyzną jest dom Ojca w niebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W oczekiwaniu na przyjście Pana, składamy Mu w ofierze całe nasze życie, prosząc o łaskę wytrwania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń nawiązuje do jedynej ofiary Chrystusa, która, jak mówi drugie czytanie, udoskonaliła na wieki tych, którzy są uświęcani.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu eschatologicznych zapowiedzi, ta pieśń jest wyznaniem wiary, że Chrystus jest naszą nadzieją i pojednaniem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem naszej wiary w Tego, który przyjdzie w obłokach z wielką mocą i chwałą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Eucharystia jest zadatkiem życia wiecznego i zmartwychwstania, o którym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest naszą tarczą w czasie ucisku, o którym wspomina Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który króluje na wieki, jak głosi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Aklamacja na cześć Chrystusa Króla, który przyjdzie w chwale sądzić żywych i umarłych, jak zapowiada Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jesteśmy posłani, by żyć pod panowaniem Chrystusa Króla, oczekując na Jego ostateczne przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Pieśń jest aktem zawierzenia Chrystusowi Królowi i prośbą o prowadzenie do Jego wiecznego królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest wezwaniem do gromadzenia wybranych z czterech stron świata przed przyjściem Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym mówią czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który nadchodzi, aby królować i sądzić ziemię sprawiedliwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń o charakterze adwentowym, która dobrze oddaje atmosferę oczekiwania na powtórne przyjście Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, co jest centralnym tematem liturgii końca roku kościelnego.",
+      "moment": "ogolne"
+    }
+  ]
+}

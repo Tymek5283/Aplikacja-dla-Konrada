@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Iz 12,2-3.4bcde.5-6",
-      "opis": "Refren:",
-      "tekst": "Wielki wśród ciebie Święty Izraela.\nOto Bóg jest moim zbawieniem,\nbędę miał ufność i bać się nie będę.\nBo Pan jest moją mocą i pieśnią,\nOn stał się dla mnie zbawieniem.\nWy zaś z weselem czerpać będziecie wodę\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia,\nDajcie poznać Jego dzieła między narodami,\nprzypominajcie, że wspaniałe jest imię Jego.\nŚpiewajcie dla Pana, bo uczynił wzniosłe rzeczy,\nNiech to będzie wiadome po całej ziemi.\nWznoś okrzyki i wołaj z radości, mieszkanko Syjonu,\nbo wielki jest pośród ciebie Święty Izraela."
+      "opis": "",
+      "tekst": "Refren:\nWielki wśród ciebie Święty Izraela.\nOto Bóg jest moim zbawieniem,\nbędę miał ufność i bać się nie będę.\nBo Pan jest moją mocą i pieśnią,\nOn stał się dla mnie zbawieniem.\nWy zaś z weselem czerpać będziecie wodę\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia,\nDajcie poznać Jego dzieła między narodami,\nprzypominajcie, że wspaniałe jest imię Jego.\nŚpiewajcie dla Pana, bo uczynił wzniosłe rzeczy,\nNiech to będzie wiadome po całej ziemi.\nWznoś okrzyki i wołaj z radości, mieszkanko Syjonu,\nbo wielki jest pośród ciebie Święty Izraela."
     },
     {
       "typ": "AKLAMACJA",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "334",
+      "piesn": "Dzisiaj pozdrawiamy",
+      "opis": "Pieśń jest echem pozdrowienia Elżbiety, która jako pierwsza uczciła Maryję jako Matkę Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "343",
+      "piesn": "Już od rana rozśpiewana",
+      "opis": "Radosny hymn na cześć Maryi, która z pośpiechem niesie Chrystusa do domu swojej krewnej.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "378",
       "piesn": "Pieśnią wesela witamy",
       "opis": "Pieśń ta, choć często śpiewana w maju, swoim charakterem pasuje do radosnego święta, które jest wyrazem miłości i służby Maryi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, na wzór Maryi niosącej pomoc, ofiarujemy Jej nasze serca i gotowość do służby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "325",
+      "piesn": "Chcę, Maryjo, służyć Tobie",
+      "opis": "Pieśń wyraża pragnienie służby Maryi, co jest odpowiedzią na Jej przykład czynnej miłości w scenie Nawiedzenia.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
-      "numer": "334",
-      "piesn": "Dzisiaj pozdrawiamy",
-      "opis": "Jest to pieśń-pozdrowienie dla Maryi, co nawiązuje do pozdrowienia, które Elżbieta skierowała do Niej w Ewangelii.",
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "W Komunii przyjmujemy Tego, którego Maryja przyniosła Elżbiecie, a refren 'Witaj, Jezu, Synu Maryi' doskonale to podkreśla.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Elżbieta nazwała Maryję 'Matką mojego Pana', a my, przyjmując Jej Syna, czcimy Ją tą prastarą pieśnią.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń wzywa do codziennego wysławiania Maryi, której hymn 'Magnificat' jest najpiękniejszym uwielbieniem Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "327",
+      "piesn": "Ciebie na wieki",
+      "opis": "Uroczysty hymn chwały na cześć Maryi, która w domu Elżbiety objawiła się jako Arka Nowego Przymierza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni odpowiada radości spotkania Maryi i Elżbiety oraz proroctwu Sofoniasza 'Ciesz się i wesel z całego serca'.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "323",
-      "piesn": "Boga Rodzico",
-      "opis": "Ufna modlitwa do Maryi jako Opiekunki, która jest odpowiedzią na Jej postawę służby i pośpiechu w niesieniu pomocy Elżbiecie.",
-      "moment": "ogolne"
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Pieśń jest modlitwą o opiekę Maryi, która uczy nas, jak nieść Chrystusa innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Prośba o opiekę nad Kościołem i narodem, skierowana do Tej, która jest wzorem służby i miłości.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "384",
       "piesn": "Pozdrowiona bądź, Królowo",
       "opis": "Pieśń ta, będąca parafrazą 'Salve Regina', podkreśla rolę Maryi jako Matki miłosierdzia, co objawiło się w akcie nawiedzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "355",
+      "piesn": "Matko Najświętsza!",
+      "opis": "Wspomnienie o mieczu boleści, zapowiedzianym przez Symeona, jest tłem dla radosnego spotkania w Ain Karim, ukazując pełnię życia Maryi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "Pieśń do Serca Maryi, które w scenie Nawiedzenia jest pełne radości Ducha Świętego i miłości do bliźniego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń jest echem słów Elżbiety i aklamacji, sławiąc Maryję za Jej wiarę, która przyniosła zbawienie światu.",
       "moment": "ogolne"
     }
   ]

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 78,1-2.34-35.36-37.38",
-      "opis": "Refren:",
-      "tekst": "Wielkich dzieł Boga nie zapominajmy.\nSłuchaj, mój ludu, nauki mojej,\nnakłońcie wasze uszy na słowa ust moich,\nDo przypowieści otworzę me usta,\nwyjawię tajemnice zamierzchłego czasu.\nGdy ich zabijał, wtedy Go szukali,\nnawróceni garnęli się do Boga.\nPrzypominali sobie, że Bóg jest ich opoką,\nże Bóg najwyższy jest ich Zbawicielem.\nLecz oszukiwali Go swymi ustami\ni kłamali Mu swoim językiem.\nIch serce nie było Mu wierne,\nw przymierzu z Nim nie byli stali.\nOn jednak będąc miłosierny\nodpuszczał im winę i nie zatracał,\ngniew swój często powściągał\ni powstrzymywał swoje wzburzenie."
+      "opis": "",
+      "tekst": "Refren:\nWielkich dzieł Boga nie zapominajmy.\nSłuchaj, mój ludu, nauki mojej,\nnakłońcie wasze uszy na słowa ust moich,\nDo przypowieści otworzę me usta,\nwyjawię tajemnice zamierzchłego czasu.\nGdy ich zabijał, wtedy Go szukali,\nnawróceni garnęli się do Boga.\nPrzypominali sobie, że Bóg jest ich opoką,\nże Bóg najwyższy jest ich Zbawicielem.\nLecz oszukiwali Go swymi ustami\ni kłamali Mu swoim językiem.\nIch serce nie było Mu wierne,\nw przymierzu z Nim nie byli stali.\nOn jednak będąc miłosierny\nodpuszczał im winę i nie zatracał,\ngniew swój często powściągał\ni powstrzymywał swoje wzburzenie."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń pasyjna, która medytuje nad ranami Chrystusa na krzyżu, wprowadzając w tajemnicę Jego zbawczej ofiary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "300",
+      "piesn": "Serce Twe, Jezu",
+      "opis": "Pieśń o miłości Serca Jezusowego, które na krzyżu zostało otwarte włócznią, jest głęboką refleksją nad ceną naszego odkupienia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "763",
       "piesn": "Crucem tuam",
       "opis": "Krótka, medytacyjna pieśń 'Krzyż Twój wielbimy, Panie' jest doskonałą modlitwą na przygotowanie darów, skupiając myśli na tajemnicy Krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "758",
+      "piesn": "Adoramus te Christe",
+      "opis": "Śpiewana aklamacja 'Wielbimy Cię, Chryste...', która jest echem aklamacji przed Ewangelią, podkreśla odkupieńczą moc Krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "W tej pieśni łączymy ofiarę chleba i wina z jedyną ofiarą Chrystusa złożoną na Krzyżu.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Pieśń ta, witając Hostię żywą, jest jednocześnie adoracją Baranka Bożego, który przez swoją ofiarę na krzyżu gładzi grzechy świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Adoracja Chrystusa w Sakramencie jest dziękczynieniem za Jego ofiarę krzyżową, którą uobecniamy na ołtarzu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "758",
       "piesn": "Adoramus te Christe",
       "opis": "Jest to śpiewana wersja aklamacji przed Ewangelią: 'Wielbimy Cię, Chryste, i błogosławimy Tobie, bo przez Krzyż Twój święty świat odkupiłeś'.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Hymn uwielbienia, który dziękuje za dar Eucharystii, będącej pamiątką zbawczej męki i śmierci Chrystusa na krzyżu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń ta jest uwielbieniem miłości Jezusa, która najpełniej objawiła się w Jego otwartym na krzyżu Sercu.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "311",
       "piesn": "Chrystus Wodzem",
       "opis": "Chrystus przez Krzyż odniósł zwycięstwo; śpiewanie o Nim jako o Królu i Wodzu na zakończenie liturgii podkreśla Jego triumf.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i Jego Krzyżowi, co stanowi mocne posłanie na zakończenie święta.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie niosącym krzyż jest przypomnieniem, że droga za Nim jest drogą krzyżową prowadzącą do chwały.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "300",
       "piesn": "Serce Twe, Jezu",
       "opis": "Ta pieśń o miłości Serca Jezusowego, zranionego na krzyżu, jest głęboką medytacją nad tajemnicą zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, która w kontekście święta Krzyża, przypomina o cenie naszego odkupienia i wzywa do żalu za grzechy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Psalm pokutny, który jest modlitwą o oczyszczenie, możliwą dzięki ofierze Chrystusa na krzyżu.",
       "moment": "ogolne"
     }
   ]

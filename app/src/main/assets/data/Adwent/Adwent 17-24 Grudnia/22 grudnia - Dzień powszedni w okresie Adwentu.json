@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki, której hymn 'Magnificat' jest czytany w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne wprowadzenie do Mszy.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "369",
       "piesn": "O Maryjo, przyjm w ofierze",
       "opis": "Na wzór Anny, która ofiarowała Bogu syna, i Maryi, która oddała się Bogu, my również składamy Mu w darze nasze serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i uwielbienia podziwiamy w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń ta rozwija treść pozdrowienia anielskiego i sławi Maryję, która w 'Magnificat' dziękuje Bogu za Jego wielkie dzieła.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,27 +72,75 @@
       "moment": "komunia"
     },
     {
-      "numer": "324",
-      "piesn": "Bogurodzica",
-      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki, której hymn 'Magnificat' jest czytany w Ewangelii.",
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń jest echem słów Elżbiety, która nazywa Maryję błogosławioną, co stanowi doskonałą medytację po przyjęciu Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Jezusa, którego wielkość wysławia Maryja w swoim hymnie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Hymn 'Magnificat' jest pieśnią radości, a ta pieśń wzywa całe stworzenie do radości z powodu zbawczych dzieł Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny jest hymnem uwielbienia, podobnie jak 'Magnificat', a ta pieśń wzywa do chwalenia Pana za Jego potęgę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wyraża tęsknotę za Bogiem, który wywyższa pokornych, jak śpiewa Maryja.",
       "moment": "uwielbienie"
     },
     {
       "numer": "21",
       "piesn": "Mądrości, która",
-      "opis": "Wielka antyfona na 22 grudnia 'O Królu narodów' jest wołaniem o przyjście Zbawiciela, którego wielkość wysławia Maryja.",
+      "opis": "Szósta zwrotka tej pieśni to Wielka Antyfona 'O Królu narodów', tradycyjnie przypisana do 22 grudnia.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "29",
-      "piesn": "Zdrowaś bądź Maryja",
-      "opis": "Pieśń ta rozwija treść pozdrowienia anielskiego i sławi Maryję, która w 'Magnificat' dziękuje Bogu za Jego wielkie dzieła.",
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą ostatnich dni Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Klasyczna pieśń adwentowa, która w kontekście dzisiejszych czytań ukazuje spełnienie się odwiecznych próśb o Zbawiciela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
       "moment": "ogolne"
     },
     {
-      "numer": "323",
-      "piesn": "Boga Rodzico",
-      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i uwielbienia podziwiamy w Ewangelii.",
+      "numer": "22",
+      "piesn": "Niebiosa, rosę spuśćcie",
+      "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście jest już bliskie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do wesela, które jest echem kantyku Maryi i Anny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń opowiada o Zbawicielu, którego wielkość i miłosierdzie wysławia Maryja w swoim hymnie.",
       "moment": "ogolne"
     }
   ]

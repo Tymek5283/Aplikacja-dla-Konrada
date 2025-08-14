@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415542.Sroda-IV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "4 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 24, 2. 9-17",
+      "opis": "Pycha Dawida i kara",
+      "tekst": "Rzekł król Dawid do Joaba, dowódcy wojsk, który był z nim: «Przebiegnij wszystkie pokolenia Izraela od Dan do Beer-Szeby i policzcie ludzi, abym się dowiedział, ile liczy naród». Joab przekazał królowi liczbę spisanej ludności. Izrael liczył osiemset tysięcy wojowników dobywających miecza. Juda zaś - pięćset tysięcy ludzi.\nSerce Dawida zadrżało, dlatego że zliczył lud. Dawid zwrócił się do Pana: «Bardzo zgrzeszyłem tym, czego dokonałem, lecz teraz, o Panie, daruj łaskawie winę swego sługi, bo postąpiłem bardzo nierozsądnie».\nGdy Dawid wstał nazajutrz rano, słowo Pańskie następującej treści zostało skierowane do proroka Gada, „Widzącego” Dawidowego: «Idź i oświadcz Dawidowi: Tak mówi Pan: Przedstawiam ci trzy możliwości. Wybierz sobie jedną z nich, a Ja ci to uczynię».\nGad udał się do Dawida i przekazał mu następujące oświadczenie: «Czy chcesz, by w tej ziemi nastało siedem lat głodu, czy wolisz przez trzy miesiące uciekać przed wrogiem, który cię będzie ścigał, czy też przyjść ma na twój kraj zaraza trwająca trzy dni? Pomyśl i rozpatrz, co mam odpowiedzieć Temu, który mnie posłał». Dawid odpowiedział Gadowi: «Jestem w wielkiej rozterce. Wpadnijmy raczej w ręce Pana, bo wielkie jest Jego miłosierdzie, ale w ręce człowieka niech nie wpadnę!»\nZesłał więc Pan na Izraela zarazę od rana do ustalonego czasu. Umarło wtedy z narodu od Dan do Beer-Szeby siedemdziesiąt tysięcy ludzi.\nAnioł wyciągnął już rękę nad Jerozolimą, by ją wyniszczyć; wtedy Pan ulitował się nad nieszczęściem i rzekł do anioła, niszczyciela ludności: «Wystarczy! Cofnij rękę!»\nAnioł Pański znajdował się obok klepiska Arauny Jebusyty. Dawid, widząc, że anioł zabija lud, wołał do Pana: «To ja zgrzeszyłem, to ja zawiniłem, a te owce cóż uczyniły? Niech Twoja ręka obróci się raczej na mnie i na dom mego ojca!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 32 (31), 1b-2. 5. 6-7 (R.: por. 5d)",
+      "opis": "",
+      "tekst": "Refren: Daruj mi, Panie, winę mego grzechu.\nSzczęśliwy człowiek, †\nktóremu nieprawość została odpuszczona, *\na jego grzech zapomniany.\nSzczęśliwy ten, któremu Pan nie poczytuje winy, *\na w jego duszy nie kryje się podstęp.\nRefren.\nGrzech wyznałem Tobie *\ni nie skryłem mej winy.\nRzekłem: «Wyznaję mą nieprawość Panu», *\na Ty darowałeś niegodziwość mego grzechu.\nRefren.\nDo Ciebie więc modlić się będzie każdy wierny, †\ngdy znajdzie się w potrzebie. *\nChoćby nawet wezbrały wody, fale go nie dosięgną.\nTy jesteś moją ucieczką, †\nwyrwiesz mnie z ucisku *\ni dasz mi radość mego ocalenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 1-6",
+      "opis": "Jezus lekceważony w Nazarecie",
+      "tekst": "Jezus przyszedł do swego rodzinnego miasta. A towarzyszyli Mu Jego uczniowie. Gdy zaś nadszedł szabat, zaczął nauczać w synagodze; a wielu, przysłuchując się, pytało ze zdziwieniem: «Skąd to u Niego? I co to za mądrość, która Mu jest dana? I takie cuda dzieją się przez Jego ręce! Czy nie jest to cieśla, syn Maryi, a brat Jakuba, Józefa, Judy i Szymona? Czyż nie żyją tu u nas także Jego siostry?» I powątpiewali o Nim.\nA Jezus mówił im: «Tylko w swojej ojczyźnie, wśród swoich krewnych i w swoim domu może być prorok tak lekceważony».\nI nie mógł tam zdziałać żadnego cudu, jedynie na kilku chorych położył ręce i uzdrowił ich. Dziwił się też ich niedowiarstwu. Potem obchodził okoliczne wsie i nauczał.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń ta wyraża skruchę i żal za grzechy, które były udziałem króla Dawida w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Ten psalm pokutny bezpośrednio odzwierciedla błaganie Dawida o litość po uświadomieniu sobie grzechu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża poszukiwanie Bożego miłosierdzia przez grzesznika, co jest centralnym tematem pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o przebaczenie, która odzwierciedla postawę Dawida po uświadomieniu sobie grzechu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża żal za grzechy motywowany miłością do Boga, co jest doskonałą formą skruchy ukazanej przez Dawida.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pokorne błaganie o łaskę i prawe serce, składane wraz z chlebem i winem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest odrzucony przez swoich z powodu niedowiarstwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń odzwierciedla świadomość grzesznika o swojej niegodności przed przyjęciem Pana, co jest echem skruchy Dawida.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Jest aktem wiary w ukrytego Chrystusa, kontrastującym z brakiem wiary mieszkańców Nazaretu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "98",
+      "piesn": "Błogosławiony, komu odpuszczone",
+      "opis": "Pieśń uwielbia Boga za Jego miłosierdzie i odpuszczenie grzechów, o które prosił Dawid.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Jest to pieśń ufności w Boże miłosierdzie i obfite odkupienie, którego Dawid doświadczył po swojej skrusze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Pieśń ta jest modlitwą o czyste serce i dziękczynieniem za Boże zbawienie, odzwierciedlając radość z przebaczenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża przylgnięcie do Chrystusa, nawet gdy jest On lekceważony i odrzucony przez świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, której zabrakło w rodzinnym mieście Jezusa, a której potrzebujemy, by głosić Go światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po rozważeniu grzechu i przebaczenia, zostajemy posłani do pracy dla Królestwa, prosząc o Boże błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o zmiłowanie jest echem modlitwy Dawida, który wolał wpaść w ręce miłosiernego Boga niż ludzi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, która jest konieczna po upadku w grzech.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to bezpośrednie i uroczyste błaganie, aby Bóg wysłuchał naszej modlitwy i odpuścił grzechy, na wzór modlitwy Dawida.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta podsumowuje przesłanie dnia: wezwanie do nawrócenia i wiary w Ewangelię, nawet jeśli jest to trudne.",
+      "moment": "ogolne"
+    }
+  ]
+}

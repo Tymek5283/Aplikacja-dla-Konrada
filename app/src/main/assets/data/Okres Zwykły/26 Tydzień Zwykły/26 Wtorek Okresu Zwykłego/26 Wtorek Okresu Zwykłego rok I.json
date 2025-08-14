@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417344.Wtorek-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 8, 20-23",
+      "opis": "Narody będą szukały prawdziwego Boga",
+      "tekst": "Tak mówi Pan Zastępów: «W przyszłości przyjdą ludy i mieszkańcy wielu miast. Mieszkańcy jednego miasta, idąc do drugiego, będą mówili: Pójdźmy zjednać przychylność Pana i szukać Pana Zastępów! - Ja także idę». I tak liczne ludy i mnogie narody przychodzić będą, aby szukać Pana Zastępów w Jeruzalem i zjednać sobie przychylność Pana.\nTak mówi Pan Zastępów: «W owych dniach dziesięciu mężów ze wszystkich języków, którymi mówią narody, uchwyci się skraju płaszcza Judejczyka, mówiąc: Chcemy iść z wami, albowiem zrozumieliśmy, że z wami jest Bóg».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 87 (86), 1b-3. 4-5. 6-7 (R.: por. Za 8, 23)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg jest z nami, wszyscy się radujmy.\nGród Jego wznosi się na świętych górach, †\numiłował Pan bramy Syjonu *\nbardziej niż wszystkie namioty Jakuba.\nWspaniałe rzeczy głoszą o tobie, *\nmiasto Boże.\nRefren.\nWymienię Egipt i Babilon wśród tych, którzy mnie znają. †\nOto Filistea, Tyr i Etiopia, *\nnawet taki kraj tam się narodził.\nO Syjonie powiedzą: «Każdy człowiek urodził się na nim, *\na Najwyższy sam go umacnia».\nRefren.\nPan zapisuje w księdze ludów: *\n«Oni się tam narodzili».\nI tańcząc, śpiewać będą: *\n«Wszystkie moje źródła są w Tobie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 51-56",
+      "opis": "Jezus przeciwny natychmiastowemu karaniu",
+      "tekst": "Gdy dopełniały się dni wzięcia Jezusa z tego świata, postanowił udać się do Jeruzalem, i wysłał przed sobą posłańców. Ci wybrali się w drogę i weszli do pewnego miasteczka samarytańskiego, by przygotować Mu pobyt. Nie przyjęto Go jednak, ponieważ zmierzał do Jeruzalem.\nWidząc to, uczniowie Jakub i Jan rzekli: «Panie, czy chcesz, byśmy powiedzieli: Niech ogień spadnie z nieba i pochłonie ich?» Lecz On, odwróciwszy się, zgromił ich.\nI udali się do innego miasteczka.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń wzywa wszystkie narody do chwalenia Boga, co idealnie oddaje uniwersalistyczną wizję z proroctwa Zachariasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana nad całą ziemią koresponduje z wizją proroka Zachariasza o gromadzeniu się narodów w Jerozolimie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest wezwaniem do radosnego oddawania czci Bogu przez wszystkie ludy, co zapowiada pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła jest odpowiedzią na postawę Jezusa, który gani uczniów za chęć zemsty i ukazuje drogę miłosierdzia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń podkreśla, że miłość i dobroć są miejscem spotkania z Bogiem, co jest przeciwieństwem postawy uczniów pragnących zemsty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń o miłości eucharystycznej, która łączy i buduje wspólnotę, jest odpowiedzią na podziały i wrogość (Samarytanie) z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia, która jednoczy ludzi z różnych narodów w jedno Ciało Chrystusa, jest wypełnieniem proroctwa o przychodzeniu pogan do Jerozolimy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaproszenie do skosztowania dobroci Pana jest skierowane do wszystkich, co realizuje wizję Zachariasza o narodach szukających Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pan zaprasza na ucztę wszystkich, co jest wypełnieniem proroctwa o gromadzeniu się ludów w Jerozolimie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o zjednoczenie wszystkich w Bogu, co jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar wiary, która jest otwarta dla wszystkich narodów, jak zapowiada prorok Zachariasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały, który wzywa wszystkie narody do oddania czci Panu, co jest echem proroctwa z pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest zachętą do pójścia do wszystkich narodów z Ewangelią pokoju, a nie potępienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o miłosierdzie i błogosławieństwo dla wszystkich narodów jest echem dzisiejszych czytań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie miłości Chrystusa, która przemienia świat i jednoczy ludzi, jest odpowiedzią na postawę uczniów z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna jest drogą do jedności, o której mówią czytania, i przeciwieństwem postawy Jakuba i Jana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus jest nadzieją na pojednanie wszystkich ludów, co jest główną myślą proroctwa Zachariasza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za Kościół, w którym gromadzą się wszystkie narody, by oddać chwałę Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest drogą, która prowadzi wszystkie narody do poznania jedynego Boga, jak zapowiada prorok.",
+      "moment": "ogolne"
+    }
+  ]
+}

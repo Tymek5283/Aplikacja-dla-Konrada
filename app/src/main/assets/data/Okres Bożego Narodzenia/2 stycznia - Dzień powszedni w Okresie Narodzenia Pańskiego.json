@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410522.2-stycznia",
+  "tytul_dnia": "2 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 2, 22-28",
+      "opis": "Jezus jest Mesjaszem",
+      "tekst": "Najmilsi:\nKtóż jest kłamcą, jeśli nie ten, kto zaprzecza, że Jezus jest Mesjaszem? Ten właśnie jest antychrystem, kto nie uznaje Ojca i Syna. Ktokolwiek nie uznaje Syna, nie ma też i Ojca, kto zaś uznaje Syna, ten ma i Ojca.\nWy zaś zachowujecie w sobie to, co słyszeliście od początku. Jeżeli będzie trwało w was to, co słyszeliście od początku, to i wy będziecie trwać w Synu i w Ojcu. A obietnicą tą, daną przez Niego samego, jest życie wieczne. To wszystko napisałem wam o tych, którzy wprowadzają was w błąd.\nCo do was, to namaszczenie, które otrzymaliście od Niego, trwa w was i nie potrzebujecie pouczenia od nikogo, ponieważ Jego namaszczenie poucza was o wszystkim. Ono jest prawdziwe i nie jest kłamstwem. Toteż trwajcie w Nim tak, jak was nauczyło.\nTeraz właśnie trwajcie w Nim, dzieci, abyśmy, gdy się zjawi, mieli ufność i w dniu Jego przyjścia nie doznali wstydu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 3cd)",
+      "opis": "",
+      "tekst": "Refren: Ziemia ujrzała swego Zbawiciela.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nzwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 1, 1-2a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielokrotnie przemawiał niegdyś Bóg do ojców przez proroków,\na w tych ostatecznych dniach przemówił do nas przez Syna."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 19-28",
+      "opis": "Świadectwo Jana Chrzciciela o Chrystusie",
+      "tekst": "Takie jest świadectwo Jana. Gdy Żydzi wysłali do niego z Jerozolimy kapłanów i lewitów z zapytaniem: «Kto ty jesteś?», on wyznał, a nie zaprzeczył, oświadczając: «Ja nie jestem Mesjaszem».\nZapytali go: «Cóż zatem? Czy jesteś Eliaszem?» Odrzekł: «Nie jestem». «Czy ty jesteś prorokiem?» Odparł: «Nie». Powiedzieli mu więc: «Kim jesteś, abyśmy mogli dać odpowiedź tym, którzy nas wysłali? Co mówisz sam o sobie?» Powiedział: «Jam głos wołającego na pustyni: Prostujcie drogę Pańską, jak rzekł prorok Izajasz».\nA wysłannicy byli spośród faryzeuszów. i zaczęli go pytać, mówiąc do niego: «Czemu zatem chrzcisz, skoro nie jesteś ani Mesjaszem, ani Eliaszem, ani prorokiem?» Jan im tak odpowiedział: «Ja chrzczę wodą. Pośród was stoi Ten, którego wy nie znacie, który po mnie idzie, a któremu ja nie jestem godzien odwiązać rzemyka u Jego sandała». Działo się to w Betanii, po drugiej stronie Jordanu, gdzie Jan udzielał chrztu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Refren 'Gotujmy drogę Panu, prostujmy ścieżki Jego' jest bezpośrednim nawiązaniem do świadectwa Jana Chrzciciela z dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń poświęcona Janowi Chrzcicielowi, który w Ewangelii daje świadectwo o Chrystusie, jest doskonałym wprowadzeniem w liturgię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o przyjściu Pana, którego poprzednikiem był Jan Chrzciciel, dobrze oddaje ducha okresu Bożego Narodzenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń ta, podobnie jak Jan Chrzciciel, wzywa do przygotowania serc na przyjście Pana, co pasuje do momentu przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na przygotowanie darów, w której prosimy Boga o przyjęcie owoców naszej pracy i modlitwy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta wyraża postawę oddania się Bogu, do której wzywał Jan Chrzciciel, przygotowując lud na spotkanie z Mesjaszem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wobec pytań 'Kto ty jesteś?', Jan wskazuje na Chrystusa. Ta pieśń jest naszym wyznaniem wiary w Tego, którego wskazał Jan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jan Chrzciciel wskazywał na Tego, który miał nadejść, a my w Komunii przyjmujemy Go jako Chleb dający życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa obecnego w Eucharystii, Tego samego, o którym świadczył Jan nad Jordanem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm responsoryjny wzywa do radosnego śpiewu, bo 'ziemia ujrzała swego Zbawiciela', a ta pieśń jest radosnym dziękczynieniem za ten dar.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosna pieśń chwały, która jest odpowiedzią na świadectwo Jana i wezwanie psalmu, by wszystkie krańce ziemi ujrzały zbawienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia, która jest odpowiedzią serca na usłyszaną Dobrą Nowinę o Zbawicielu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o misji Jana Chrzciciela, który przygotował drogę Panu, stanowi doskonałe podsumowanie i posłanie na zakończenie Mszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Świadectwo Jana Chrzciciela jest wzorem dla misji całego Kościoła, by głosić Ewangelię wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta wzywa do głoszenia chwały Pana, którego poprzednikiem był Jan, a jego radością było słuchanie głosu Oblubieńca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pierwsze czytanie podkreśla znaczenie trwania w wierze w Jezusa Mesjasza, a ta pieśń jest modlitwą o umocnienie tej wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń opowiada o misji Chrystusa, którego przyjście zapowiadał Jan Chrzciciel, i dobrze wpisuje się w okres Bożego Narodzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Pieśń wprost do Jana Chrzciciela, która prosi o jego wstawiennictwo i naśladowanie jego cnót.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń ta mówi o Chrystusie, który przychodzi, by zbawić świat, a Jan Chrzciciel był głosem, który to przyjście zapowiadał.",
+      "moment": "ogolne"
+    }
+  ]
+}

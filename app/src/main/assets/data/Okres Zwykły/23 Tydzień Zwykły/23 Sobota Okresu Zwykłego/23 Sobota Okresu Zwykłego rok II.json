@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424662.Sobota-23-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "23 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 10, 14-22",
+      "opis": "Eucharystia misterium zjednoczenia",
+      "tekst": "Najmilsi moi, strzeżcie się bałwochwalstwa. Mówię jak do ludzi rozsądnych. Zresztą osądźcie sami to, co mówię: Kielich błogosławieństwa, który błogosławimy, czyż nie jest udziałem we Krwi Chrystusa? Chleb, który łamiemy, czyż nie jest udziałem w Ciele Chrystusa? Ponieważ jeden jest chleb, przeto my, liczni, tworzymy jedno ciało. Wszyscy bowiem bierzemy z tego samego chleba. Przypatrzcie się Izraelowi według ciała! Czyż nie są w jedności z ołtarzem ci, którzy spożywają z ofiar na ołtarzu złożonych?\nLecz cóż to znaczy? Czy może jest czymś ofiara złożona bożkom? Albo czy sam bożek jest czymś? Ależ właśnie to, co ofiarują poganie, demonom składają w ofierze, a nie Bogu. Nie chciałbym, byście mieli coś wspólnego z demonami. Nie możecie pić z kielicha Pana i z kielicha demonów; nie możecie zasiadać przy stole Pana i przy stole demonów. Czyż będziemy pobudzali Pana do zazdrości? Czyż jesteśmy mocniejsi od Niego?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 12-13. 17-18 (R.: por. 17a)",
+      "opis": "",
+      "tekst": "Refren: Złożę Ci, Boże, ofiarę pochwalną.\nCzym się Panu odpłacę *\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia *\ni wezwę imienia Pana.\nRefren.\nTobie złożę ofiarę pochwalną *\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana *\nprzed całym Jego ludem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 43-49",
+      "opis": "Dobre i złe drzewo. Dobra i zła budowa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie ma drzewa dobrego, które by wydawało zły owoc, ani też drzewa złego, które by dobry owoc wydawało. Po własnym owocu bowiem poznaje się każde drzewo; nie zrywa się fig z ciernia, ani z krzaka jeżyny nie zbiera się winogron. Dobry człowiek z dobrego skarbca swego serca wydobywa dobro, a zły człowiek ze złego skarbca wydobywa zło. Bo z obfitości serca mówią jego usta.\nCzemu to wzywacie Mnie: „Panie, Panie!”, a nie czynicie tego, co mówię? Pokażę wam, do kogo podobny jest każdy, kto przychodzi do Mnie, słucha słów moich i wypełnia je.\nPodobny jest do człowieka, który buduje dom: wkopał się głęboko i fundament założył na skale. Gdy przyszła powódź, wezbrana rzeka uderzyła w ten dom, ale nie zdołała go naruszyć, ponieważ był dobrze zbudowany.\nLecz ten, kto usłyszał, a nie wypełnił, podobny jest do człowieka, który zbudował dom na ziemi bez fundamentu. Gdy rzeka uderzyła w niego, od razu runął, a ruina owego domu była wielka».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń ta wspaniale oddaje treść pierwszego czytania o Eucharystii, która z wielu tworzy jedno Ciało.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń zaprasza na Ucztę Pańską, która, jak uczy św. Paweł, jest udziałem w Ciele i Krwi Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Eucharystia jest sakramentem miłości i jedności, co stanowi fundament życia chrześcijańskiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń jest wezwaniem do wydawania dobrych owoców, co jest głównym tematem Ewangelii o dobrym drzewie i budowaniu na skale.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z chlebem i winem składamy nasze życie, prosząc, by stało się ono dobrym owocem, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna podkreśla, że składamy Bogu owoc naszej pracy, aby On go przemienił i uświęcił.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Spożywanie Chleba Eucharystycznego, o którym mówi pierwsze czytanie, jest fundamentem, na którym budujemy nasze życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń ta wychwala Eucharystię jako pokarm, który jednoczy nas z Chrystusem i między sobą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaproszenie do skosztowania dobroci Pana w Eucharystii jest odpowiedzią na dar Jego Ciała i Krwi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "236",
+      "piesn": "Chwała i dziękczynienie",
+      "opis": "Prosty akt adoracji jest odpowiedzią na wielką tajemnicę Eucharystii, o której naucza św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Pieśń jest aktem głębokiej wiary i uwielbienia dla Chrystusa obecnego w Najświętszym Sakramencie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "280",
+      "piesn": "Wielbię Ciebie",
+      "opis": "Krótka aklamacja jest wyrazem nieustannej czci dla Jezusa w Eucharystii, która buduje w nas 'dobrego człowieka'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "344",
+      "piesn": "Królowej Anielskiej śpiewajmy",
+      "opis": "W sobotę, pieśń do Maryi, która jest wzorem słuchania Słowa i wydawania owoców, jest stosowna na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem, skałą, która pozwala przetrwać wszelkie burze życiowe, o których mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest skałą, na której budujemy nasze życie, by wydać dobre owoce i nie runąć w czasie próby.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność Kościoła jest ważna w kontekście nauki św. Pawła o Eucharystii jako sakramencie jedności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyznaje wiarę w Chrystusa jako fundament naszego życia, co jest kluczowe w kontekście Ewangelii o budowaniu na skale.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia, która jest warunkiem wydawania dobrych owoców i budowania na skale.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, które jest fundamentem, na którym budujemy dom naszego życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

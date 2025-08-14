@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412911.Poniedzialek-IV-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "4 Poniedziałek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 65, 17-21",
+      "opis": "Oto stwarzam nowe niebiosa i nową ziemię",
+      "tekst": "Tak mówi Pan:\n«Oto Ja stwarzam nowe niebiosa i nową ziemię; nie będzie się wspominać dawniejszych dziejów ani na myśl one nie przyjdą.\nPrzeciwnie, będzie radość i wesele na zawsze z tego, co Ja stworzę; bo oto Ja uczynię z Jerozolimy wesele i z jej ludu - radość. Rozweselę się z Jerozolimy i rozraduję się z jej ludu. Już się nie usłyszy w niej odgłosów płaczu ani krzyku narzekania.\nNie będzie już w niej niemowlęcia, co miałoby żyć tylko kilka dni, ani starca, który by nie dopełnił swych lat; bo najmłodszy umrze jako stuletni, a nie osiągnąć stu lat, będzie znakiem klątwy. Zbudują domy i mieszkać w nich będą, zasadzą winnice i będą jedli z nich owoce».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 30 (29), 2 i 4. 5-6. 11-12a i 13b (R.: 2a)",
+      "opis": "",
+      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie, mój Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\nRefren.\nŚpiewajcie psalm, wszyscy miłujący Pana *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\nRefren.\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Am 5, 14",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Szukajcie dobra, a nie zła, abyście żyli,\na Pan Bóg będzie z wami."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 4, 43-54",
+      "opis": "Uzdrowienie syna urzędnika królewskiego",
+      "tekst": "Jezus odszedł z Samarii i udał się do Galilei. Jezus wprawdzie sam stwierdził, że prorok nie doznaje czci we własnej ojczyźnie, kiedy jednak przyszedł do Galilei, Galilejczycy przyjęli Go, ponieważ widzieli wszystko, co uczynił w Jerozolimie w czasie świąt. I oni bowiem przybyli na święto.\nNastępnie przybył powtórnie do Kany Galilejskiej, gdzie przedtem przemienił wodę w wino. A był w Kafarnaum pewien urzędnik królewski, którego syn chorował. Usłyszawszy, że Jezus przybył z Judei do Galilei, udał się do Niego z prośbą, aby przyszedł i uzdrowił jego syna, był on już bowiem umierający.\nJezus rzekł do niego: «Jeżeli nie zobaczycie znaków i cudów, nie uwierzycie».\nPowiedział do Niego urzędnik królewski: «Panie, przyjdź, zanim umrze moje dziecko».\nRzekł do niego Jezus: «Idź, syn twój żyje». Uwierzył człowiek słowu, które Jezus powiedział do niego, i poszedł.\nA kiedy był jeszcze w drodze, słudzy wyszli mu naprzeciw, mówiąc, że syn jego żyje. Zapytał ich o godzinę, kiedy poczuł się lepiej. Rzekli mu: «Wczoraj około godziny siódmej opuściła go gorączka». Poznał więc ojciec, że było to o tej godzinie, kiedy Jezus rzekł do niego: «Syn twój żyje». I uwierzył on sam i cała jego rodzina.\nTen już drugi znak uczynił Jezus od chwili przybycia z Judei do Galilei.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń ta jest modlitwą błagalną, która oddaje postawę urzędnika królewskiego proszącego o uzdrowienie syna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą łaskę i pociechę, o której zapewnia prorok Izajasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie szukania Boga i Jego pomocy, co jest postawą urzędnika z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę pokory i wiary, która jest warunkiem otrzymania łaski, jak w przypadku urzędnika z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i postanowieniem poprawy, co jest owocem doświadczenia Bożej mocy uzdrawiania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wiara w słowo Chrystusa jest kluczem do otrzymania daru życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta sławi dobroć Boga, który wysłuchuje modlitw i dokonuje cudów, przynosząc radość i wesele.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o oczyszczenie i uzdrowienie duszy, które jest większym cudem niż uzdrowienie ciała.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, którego słowo ma moc uzdrawiania, co potwierdził urzędnik królewski.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to pieśń uwielbienia za Boże miłosierdzie, które zamienia płacz w radość, o czym mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i wybawienie, które stało się udziałem urzędnika i jego syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to prośba o Boże błogosławieństwo i uwielbienie za Jego zbawcze dzieła, które objawiają się w cudach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Uzdrowienie syna urzędnika jest znakiem nadejścia królestwa Bożego, które wymaga wiary i nawrócenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców wiary, której przykład dał urzędnik królewski i cała jego rodzina.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i powrocie do Boga, który jest źródłem życia i uzdrowienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Nawiązuje do postawy zaufania Bogu, którą musiał przyjąć urzędnik, aby jego syn został uzdrowiony.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o Boże miłosierdzie i uleczenie z chorób duszy i ciała.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o oczyszczenie i uzdrowienie, które jest darem Bożej łaski dla wierzących.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy i prośbę o przebaczenie, co jest warunkiem duchowego uzdrowienia.",
+      "moment": "ogolne"
+    }
+  ]
+}

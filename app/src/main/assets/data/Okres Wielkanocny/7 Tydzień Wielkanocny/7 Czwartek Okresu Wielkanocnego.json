@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413535.Czwartek-VII-tygodnia-wielkanocnego",
+  "tytul_dnia": "7 Czwartek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 22, 30; 23, 6-11",
+      "opis": "Paweł przed Sanhedrynem",
+      "tekst": "W Jerozolimie trybun rzymski, chcąc dowiedzieć się dokładnie, o co Żydzi oskarżali Pawła, zdjął z niego więzy, rozkazał zebrać się arcykapłanom i całemu Sanhedrynowi i wyprowadziwszy Pawła, stawił go przed nimi.\nWiedząc zaś, że jedna część składa się z saduceuszów, a druga z faryzeuszów, wołał Paweł na całe gardło w Sanhedrynie: «Jestem faryzeuszem, bracia, i synem faryzeuszów, a stoję przed sądem za to, że spodziewam się zmartwychwstania umarłych».\nGdy to powiedział, powstał spór między faryzeuszami i saduceuszami i doszło do rozłamu wśród zebranych. Saduceusze bowiem mówią, że nie ma zmartwychwstania ani anioła, ani ducha, a faryzeusze uznają jedno i drugie. Powstała wielka wrzawa, zerwali się niektórzy z uczonych w Piśmie spośród faryzeuszów, wykrzykując wojowniczo: «Nie znajdujemy nic złego w tym człowieku. A jeśli naprawdę mówił do niego duch albo anioł?»\nKiedy doszło do wielkiego wzburzenia, trybun, obawiając się, żeby nie rozszarpali Pawła, rozkazał żołnierzom zejść, zabrać go spośród nich i zaprowadzić do twierdzy.\nNastępnej nocy ukazał mu się Pan. «Odwagi! - powiedział - trzeba bowiem, żebyś i w Rzymie zaświadczył o Mnie, tak jak dawałeś o Mnie świadectwo w Jeruzalem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16 (15), 1b-2a i 5. 7-8. 9-10. 11 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\nZachowaj mnie, Boże, bo chronię się do Ciebie, *\nmówię do Pana: «Ty jesteś Panem moim».\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nRefren.\nBłogosławię Pana, który dał mi rozsądek, *\nbo serce napomina mnie nawet nocą.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\nRefren.\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\nRefren.\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 17, 21",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Aby wszyscy stanowili jedno, jak Ty, Ojcze, we Mnie, a Ja w Tobie,\naby świat uwierzył, że Ty Mnie posłałeś."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 17, 20-26",
+      "opis": "Aby stanowili jedno",
+      "tekst": "W czasie Ostatniej Wieczerzy Jezus, podniósłszy oczy ku niebu, modlił się tymi słowami:\n«Ojcze Święty, nie tylko za nimi proszę, ale i za tymi, którzy dzięki ich słowu będą wierzyć we Mnie; aby wszyscy stanowili jedno, jak Ty, Ojcze, we Mnie, a Ja w Tobie, aby i oni stanowili w Nas jedno, by świat uwierzył, że Ty Mnie posłałeś.\nI także chwałę, którą mi dałeś, przekazałem im, aby stanowili jedno, tak jak My jedno stanowimy. Ja w nich, a Ty we Mnie! Oby się tak zespolili w jedno, aby świat poznał, że Ty Mnie posłałeś i że Ty ich umiłowałeś, tak jak Mnie umiłowałeś.\nOjcze, chcę, aby także ci, których Mi dałeś, byli ze Mną tam, gdzie Ja jestem, aby widzieli chwałę moją, którą Mi dałeś, bo umiłowałeś Mnie przed założeniem świata.\nOjcze sprawiedliwy! Świat Ciebie nie poznał, lecz Ja Ciebie poznałem, i oni poznali, że Ty Mnie posłałeś. Objawiłem im Twoje imię i nadal będę objawiał, aby miłość, którą Ty Mnie umiłowałeś, w nich była i Ja w nich».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest bezpośrednią odpowiedzią na modlitwę Jezusa o jedność z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, o którego jedność i wiarę modli się Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która głosi chwałę Zmartwychwstałego, o którym świadczy Paweł i o którego jedność modli się Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla, że miłość i jedność są znakiem obecności Boga, co jest centralnym przesłaniem modlitwy arcykapłańskiej Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Wskazuje na Eucharystię jako źródło i znak jedności Kościoła, o którą modli się Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, jednoczącej wszystkich wierzących.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, która ma jednoczyć Jego uczniów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który modli się, abyśmy stanowili jedno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus jednoczy nas ze sobą i z Ojcem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję zmartwychwstania, za którą św. Paweł daje świadectwo w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który jest naszą nadzieją i obroną, jak wyznaje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i obietnicę życia wiecznego w jedności z Bogiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jest to pieśń o misji i świadectwie, do którego Pan wzywa Pawła, obiecując mu dotarcie do Rzymu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki Jego wstawiennictwu u Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, którego chwałę mają oglądać w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Nawiązuje do psalmu i postawy św. Pawła, który w obliczu zagrożenia całkowicie ufa Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Radosna pieśń wielkanocna, która przypomina o fundamencie wiary, czyli zmartwychwstaniu, o którym mowa w czytaniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten przypomina, że miłość, która jest owocem jedności z Bogiem, jest miejscem Jego obecności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Podkreśla godność ludu Bożego, za który modli się Jezus, aby był z Nim tam, gdzie On jest.",
+      "moment": "ogolne"
+    }
+  ]
+}

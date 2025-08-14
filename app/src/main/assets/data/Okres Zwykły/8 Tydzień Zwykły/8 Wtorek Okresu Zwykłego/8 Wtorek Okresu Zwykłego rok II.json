@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416200.Wtorek-VIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "8 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 1, 10-16",
+      "opis": "Proroctwa podtrzymują naszą nadzieję",
+      "tekst": "Najmilsi:\nNad zbawieniem wszczęli poszukiwania i badania prorocy - ci, którzy przepowiadali przeznaczoną dla was łaskę. Badali oni, kiedy i na jaką chwilę wskazywał Duch Chrystusa, który w nich był i przepowiadał cierpienia przeznaczone dla Chrystusa oraz mające potem nastąpić uwielbienia. Im też zostało objawione, że nie im samym, ale raczej wam miały służyć sprawy obwieszczone wam przez tych, którzy wam głosili Ewangelię mocą zesłanego z nieba Ducha Świętego. Wejrzeć w te sprawy pragną aniołowie.\nDlatego przepasawszy biodra waszego umysłu, bądźcie trzeźwi, pokładajcie całą nadzieję w łasce, która wam przypadnie przy objawieniu Jezusa Chrystusa. Bądźcie jak posłuszne dzieci. Nie przystosowujcie się do waszych dawniejszych żądz, gdy byliście nieświadomi, ale w całym postępowaniu stańcie się wy również świętymi na wzór Świętego, który was powołał, gdyż jest napisane: «Świętymi bądźcie, bo Ja jestem święty».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 28-31",
+      "opis": "Nagroda za wyrzeczenia",
+      "tekst": "Piotr powiedział do Jezusa: «Oto my opuściliśmy wszystko i poszliśmy za Tobą».\nJezus odpowiedział: «Zaprawdę, powiadam wam: Nikt nie opuszcza domu, braci, sióstr, matki, ojca, dzieci lub pól z powodu Mnie i z powodu Ewangelii, żeby nie otrzymał stokroć więcej teraz, w tym czasie, domów, braci, sióstr, matek, dzieci i pól, wśród prześladowań, a życia wiecznego w czasie przyszłym. Lecz wielu pierwszych będzie ostatnimi, a ostatnich pierwszymi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta wyraża postawę nawrócenia i uniżenia przed Panem, do której wzywa pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wzywa do nawrócenia i oczyszczenia serca, o czym mówi List św. Jakuba.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do porzucenia grzechu i powrotu do Boga, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń o charakterze pokutnym, która dobrze oddaje ducha Listu św. Jakuba, wzywającego do oczyszczenia serc.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń ta wzywa do pokory, która jest warunkiem otrzymania Bożej łaski, jak pisze św. Jakub.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża skruchę i prośbę o czyste serce, wolne od żądz, o których mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Nawiązuje do sceny z Ewangelii, gdzie Jezus stawia dziecko za wzór i utożsamia się z nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Jest to prośba o przyjście Jezusa do serca z postawą dziecka, które jest wzorem dla wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń wyraża pragnienie przygotowania serca na przyjęcie Jezusa z dziecięcą prostotą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o zaufaniu Panu, które jest odpowiedzią na wezwanie psalmu: 'Zrzuć swą troskę na Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta jest wyznaniem wiary w moc Pana, który podtrzymuje sprawiedliwego, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i wyzwolenie, o których z ufnością mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie drogą pokory i służby, którą Jezus wskazuje jako drogę do wielkości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę służby, do której wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża pragnienie podążania za Chrystusem drogą pokory i służby.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na Boże wezwanie do uniżenia się i uznania swojej nędzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o miłosierdzie, które jest potrzebne w walce z pychą i żądzami, o których mówi św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy cichości i pokory, które są drogą do odziedziczenia ziemi obiecanej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to modlitwa o Boże prowadzenie i opiekę w trudnościach życiowych.",
+      "moment": "ogolne"
+    }
+  ]
+}

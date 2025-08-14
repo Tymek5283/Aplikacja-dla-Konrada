@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429098.Wtorek-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 2, 1-8",
+      "opis": "Życzliwość św. Pawła dla Tesaloniczan",
+      "tekst": "Sami wiecie, bracia, że nasze przyjście do was nie okazało się daremne. Chociaż ucierpieliśmy i - jak wiecie - doznaliśmy zniewagi w Filippi, odważyliśmy się w Bogu naszym głosić wam Ewangelię Bożą pośród wielkiego utrapienia.\nUpominanie zaś nasze nie pochodzi z błędu ani z nieczystej pobudki, ani z podstępu, lecz jak przez Boga zostaliśmy uznani za godnych powierzenia nam Ewangelii, tak głosimy ją, aby się podobać nie ludziom, ale Bogu, który bada nasze serca. Nigdy przecież nie posługiwaliśmy się pochlebstwem w mowie - jak wiecie - ani też nie kierowaliśmy się ukrytą chciwością, czego Bóg jest świadkiem, i nie szukaliśmy ludzkiej chwały ani pośród was, ani pośród innych. A jako apostołowie Chrystusa mogliśmy być dla was ciężarem, my jednak stanęliśmy pośród was pełni skromności, jak matka troskliwie opiekująca się swoimi dziećmi.\nBędąc tak pełni życzliwości dla was, chcieliśmy wam dać nie tylko Bożą Ewangelię, lecz nadto dusze nasze, tak bowiem staliście się nam drodzy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 139 (138), 1b-3. 4-5 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, przenikasz i znasz mnie całego.\nPrzenikasz i znasz mnie, Panie, *\nTy wiesz, kiedy siedzę i wstaję.\nZ daleka spostrzegasz moje myśli, †\nprzyglądasz się, jak spoczywam i chodzę, *\ni znasz wszystkie moje drogi.\nRefren.\nZanim słowo się znajdzie na moim języku, *\nTy, Panie, już znasz je w całości.\nTy ze wszystkich stron mnie ogarniasz *\ni kładziesz na mnie swą rękę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 23-26",
+      "opis": "Biada obłudnikom",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo dajecie dziesięcinę z mięty, kopru i kminku, lecz zaniedbaliście to, co ważniejsze jest w Prawie: sprawiedliwość, miłosierdzie i wiarę. To zaś należało czynić, a tamtego nie zaniedbywać. Ślepi przewodnicy, którzy przecedzacie komara, a połykacie wielbłąda!\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo dbacie o czystość zewnętrznej strony kubka i misy, a wewnątrz pełne są zdzierstwa i niepowściągliwości. Faryzeuszu ślepy! Oczyść wpierw wnętrze kubka, żeby i zewnętrzna jego strona stała się czysta».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest modlitwą o czyste serce, co jest odpowiedzią na Jezusowe wezwanie do oczyszczenia wpierw wnętrza kubka.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i skruchy, która jest przeciwieństwem obłudy faryzeuszy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest prośbą o wewnętrzne oczyszczenie, w przeciwieństwie do zewnętrznej czystości faryzeuszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do czynów miłosierdzia i sprawiedliwości, które Jezus w Ewangelii stawia ponad zewnętrznymi praktykami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiarujemy Bogu naszą miłość, która jest 'ważniejsza w Prawie' niż zewnętrzne przepisy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem sprawiedliwości, miłosierdzia i wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest prośbą o obmycie duszy, co jest istotą prawdziwej czystości, o której naucza Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem godnego przyjęcia Chrystusa, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Jest to modlitwa o czyste serce i odnowienie ducha, co jest przeciwieństwem postawy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń, będąca parafrazą Psalmu 139, idealnie pasuje do psalmu responsoryjnego, mówiąc o Bogu, który przenika i zna nasze serca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który zna nasze serca i pragnie szczerego, a nie obłudnego kultu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która powinna wyrażać się w miłosierdziu i sprawiedliwości, a nie w formalizmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa jako drogę prawdy, w przeciwieństwie do obłudnej drogi faryzeuszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłości i miłosierdzia, o której z taką troską mówił św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest właściwą odpowiedzią na surowe słowa Jezusa z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża skruchę, która prowadzi do wewnętrznej czystości, a nie tylko zewnętrznej, krytykowanej przez Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest cnotą, którą św. Paweł okazywał Tesaloniczanom, stając się dla nich jak matka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie czystego serca jest przeciwieństwem postawy faryzeuszy, dbających tylko o zewnętrzną czystość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża, że Bogu miłe jest wdzięczne serce i prawe życie, a nie zewnętrzne obrzędy.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426080.Poniedzialek-XII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "12 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Krl 17, 5-8. 13-15a. 18",
+      "opis": "Zdobycie Samarii przez Asyryjczyków",
+      "tekst": "Król asyryjski Salmanassar najechał cały kraj, dotarł do Samarii i oblegał ją przez trzy lata. W dziewiątym roku panowania Ozeasza król asyryjski zdobył Samarię i uprowadził Izraelitów na wygnanie do Asyrii. Osiedlił ich w Chalach, nad Chabor, rzeką Gozanu, i w miastach Medii. Stało się tak, bo Izraelici zgrzeszyli przeciwko Panu, Bogu swemu, który ich wyprowadził z Egiptu, spod ręki faraona, króla egipskiego. Czcili oni cudzych bogów i naśladowali obyczaje ludów, które Pan wypędził przed Izraelitami, oraz królów izraelskich, których wybrali.\nPan jednak ciągle ostrzegał Izraela i Judę przez wszystkich swoich proroków i wszystkich „widzących”, mówiąc: «Zawróćcie z waszych dróg grzesznych i przestrzegajcie moich przykazań i postanowień moich, według całego Prawa, które nadałem waszym przodkom i które przekazałem wam przez sługi moje, proroków». Lecz oni nie słuchali i twardym uczynili swój kark, jak ich przodkowie, którzy nie zawierzyli Panu, Bogu swojemu. Odrzucili przykazania Jego i przymierze, które zawarł z przodkami, oraz prawa, które im nadał.\nWtedy Pan zapłonął gwałtownym gniewem przeciw Izraelowi i odrzucił go sprzed swego oblicza. Pozostało tylko samo pokolenie Judy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 60 (59), 3-4. 5 i 12. 13-14 (R.: por. 7b)",
+      "opis": "",
+      "tekst": "Refren: Usłysz nas, Panie, wspomóż Twą prawicą.\nOdrzuciłeś nas i złamałeś, Boże, *\nrozgniewałeś się, lecz powróć do nas!\nWstrząsnąłeś i rozdarłeś ziemię, *\nulecz jej rozdarcia, albowiem się chwieje.\nRefren.\nLudowi Twemu zgotowałeś los twardy, *\nnapoiłeś nas winem, które moc odbiera.\nCzyż nie Ty, Boże, który nas odrzuciłeś *\ni już nie wychodzisz z naszymi wojskami?\nRefren.\nDaj nam pomoc przeciw nieprzyjacielowi, *\nbo ludzkie wsparcie jest zawodne.\nDokonamy w Bogu czynów pełnych mocy, *\na On podepcze naszych nieprzyjaciół.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 7, 1-5",
+      "opis": "Usuń najpierw belkę ze swego oka",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie sądźcie, abyście nie byli sądzeni. Bo takim sądem, jakim sądzicie, i was osądzą; i taką miarą, jaką wy mierzycie, wam odmierzą.\nCzemu to widzisz drzazgę w oku swego brata, a nie dostrzegasz belki we własnym oku? Albo jak możesz mówić swemu bratu: Pozwól, że usunę drzazgę z twego oka, podczas gdy belka tkwi w twoim oku? Obłudniku, usuń najpierw belkę ze swego oka, a wtedy przejrzysz, ażeby usunąć drzazgę z oka twego brata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec obrazu kary za grzechy z pierwszego czytania i psalmu, ta pieśń jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża wołanie z głębokości grzechu i nadzieję na Boże miłosierdzie, co jest echem lamentu psalmisty.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "W obliczu odrzucenia przez Boga, o którym mówi pierwsze czytanie, ta pieśń jest wołaniem o ratunek i ocalenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Ewangelia wzywa do nawrócenia i usunięcia belki z własnego oka, a ta litanijna pieśń jest prośbą o oczyszczenie serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Ofiarujemy Bogu naszą wolę nawrócenia, odrzucając grzechy, które doprowadziły do upadku Izraela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to ofiara skruszonego serca, które uznaje swoją winę i prosi o miłosierdzie, zamiast sądzić innych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory, która jest warunkiem przyjęcia Chrystusa i Jego nauki o nieosądzaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Przyjmując Komunię, zwracamy się do Pana z prośbą o przebaczenie i siłę do życia bez osądzania braci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosimy Jezusa, by wszedł do naszych serc i oczyścił je z belki obłudy i osądu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Mimo grzechów i kary, psalmista woła do Boga o pomoc, a ta pieśń jest dziękczynieniem za Jego zbawczą interwencję.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękujemy Bogu, który jest sprawiedliwy, ale i miłosierny, i który wzywa nas do nawrócenia, a nie do potępienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego słowo, które nas napomina i wzywa do życia w prawdzie i miłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest doskonałym komentarzem do Ewangelii, wzywając do miłości braterskiej, która powstrzymuje od sądu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jesteśmy posłani, by żyć przykazaniem miłości, które wyraża się w nieosądzaniu braci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy potrafili żyć Ewangelią i powstrzymywać się od sądzenia innych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Wygnanie z pierwszego czytania jest obrazem ziemskiej pielgrzymki, a ta pieśń wyraża tęsknotę za niebieską ojczyzną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "W obliczu sądu Bożego i własnej słabości, ta pieśń jest aktem zawierzenia i zaufania miłosierdziu Bożemu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Jest to bezpośrednie wezwanie do nawrócenia, którego zabrakło Izraelitom z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem o litość i odpuszczenie grzechów, które doprowadziły do upadku narodu wybranego.",
+      "moment": "ogolne"
+    }
+  ]
+}

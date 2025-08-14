@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426653.Wtorek-XIV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "14 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 32, 23-32. 33b",
+      "opis": "Walka Jakuba z aniołem",
+      "tekst": "Jakub wstał w nocy i zabrawszy obie swe żony, dwie ich niewolnice i jedenaścioro dzieci, przeprawił się przez bród potoku Jabbok. A gdy ich przeprawił przez ten potok, przeniósł również na drugi brzeg to, co posiadał.\nGdy zaś Jakub pozostał sam jeden, ktoś zmagał się z nim aż do wschodu jutrzenki, a widząc, że nie może go pokonać, dotknął jego stawu biodrowego i wywichnął Jakubowi ten staw podczas zmagania się z nim. A wreszcie rzekł: «Puść mnie, bo już wschodzi zorza!» Jakub powiedział: «Nie puszczę cię, dopóki mi nie pobłogosławisz!» Wtedy tamten go zapytał: «Jakie masz imię?» On zaś rzekł: «Jakub». Powiedział: «Odtąd nie będziesz się zwał Jakub, lecz Izrael, bo walczyłeś z Bogiem i z ludźmi i zwyciężyłeś ».\nPotem Jakub rzekł: «Powiedz mi, proszę, jakie jest Twe imię?» Ale on odpowiedział: «Czemu pytasz mnie o imię?» - i pobłogosławił go na owym miejscu. Jakub dał temu miejscu nazwę Penuel, mówiąc: «Mimo że widziałem Boga twarzą w twarz, jednak ocaliłem me życie».\nSłońce już wschodziło, gdy Jakub przechodził przez Penuel, utykając na nogę, gdyż został porażony w staw biodrowy, w ścięgno biodra.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 17 (16), 1bcd. 2-3. 6-7. 8 i 15 (R.: por. 15a)",
+      "opis": "",
+      "tekst": "Refren: W sprawiedliwości ujrzę Twe oblicze.\nRozważ, Panie, moją słuszną sprawę, *\nusłysz me wołanie,\nwysłuchaj modlitwy *\nmoich warg nieobłudnych.\nRefren.\nNiech wyrok o mnie wyjdzie od Ciebie, *\nTwoje oczy widzą to, co sprawiedliwe.\nChoćbyś badał moje serce i przyszedł do mnie nocą, †\ni doświadczał mnie ogniem, *\nnieprawości we mnie nie znajdziesz.\nRefren.\nWołam do Ciebie, bo Ty mnie, Boże, wysłuchasz, *\nnakłoń ku mnie swe ucho, usłysz moje słowo.\nOkaż przedziwne miłosierdzie Twoje, †\nZbawco tych, którzy się chronią przed wrogiem *\npod Twoją prawicę.\nRefren.\nStrzeż mnie jak źrenicy oka, *\nukryj mnie w cieniu Twych skrzydeł.\nA ja w sprawiedliwości ujrzę Twe oblicze, *\nze snu powstając, nasycę się Twoim widokiem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 10, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem dobrym pasterzem\ni znam owce moje, a moje Mnie znają."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 32-38",
+      "opis": "Jezus lituje się nad ludźmi",
+      "tekst": "Przyprowadzono do Jezusa opętanego niemowę. Po wyrzuceniu złego ducha niemy odzyskał mowę, a tłumy pełne podziwu wołały: «Jeszcze się nigdy nic podobnego nie pojawiło w Izraelu!»\nLecz faryzeusze mówili: «Wyrzuca złe duchy mocą ich przywódcy».\nTak Jezus obchodził wszystkie miasta i wioski. Nauczał w tamtejszych synagogach, głosił Ewangelię o królestwie i leczył wszystkie choroby i wszystkie słabości.\nA widząc tłumy, litował się nad nimi, bo byli znękani i porzuceni, jak owce niemające pasterza. Wtedy rzekł do swych uczniów: «Żniwo wprawdzie wielkie, ale robotników mało. Proście Pana żniwa, żeby wyprawił robotników na swoje żniwo».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest doskonałym komentarzem do Ewangelii, w której Jezus lituje się nad tłumem 'jak owce niemające pasterza'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jezus, widząc tłumy, lituje się nad nimi, objawiając się jako Dobry Pasterz, o którym śpiewa ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o Boże miłosierdzie i błogosławieństwo jest odpowiedzią na litość Jezusa nad znękanym ludem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wytrwała walka Jakuba o błogosławieństwo jest obrazem naszej modlitwy, w której zawierzamy się Bożej opiece.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, który jest naszą ucieczką i obroną, jak w historii Jakuba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jakub walczył o Boże błogosławieństwo; my w tej pieśni ofiarujemy Bogu całe nasze życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, Dobry Pasterz, karmi nas swoim Słowem i Ciałem, dając pokrzepienie znękanym i porzuconym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Eucharystia jest odpowiedzią na głód ludu, nad którym lituje się Jezus, Dobry Pasterz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus, litując się nad tłumem, zaprasza wszystkich na ucztę, której zapowiedzią jest Eucharystia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalmista, okazuje swoje przedziwne miłosierdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego miłosierdzie i opiekę, której doświadczył Jakub i której doznajemy w Kościele.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Jezus, Dobry Pasterz, pozostaje z nami.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie Jezusa do modlitwy o robotników na żniwo jest misyjnym posłaniem, które podejmuje ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po doświadczeniu litości i mocy Jezusa, wychodzimy w świat, by głosić Jego panowanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na pracę na 'żniwie Pańskim', do której wzywa nas Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Historia walki Jakuba uczy wytrwałości w modlitwie, a ta pieśń jest wyrazem ufności w jej wysłuchanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaprasza, by przyjść do Jezusa, który lituje się nad ludźmi i leczy wszystkie ich choroby i słabości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń jest wyrazem zaufania do Boga, który jest naszą ucieczką, co jest tematem psalmu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wytrwała walka Jakuba z Bogiem była wyrazem pragnienia bliskości, które oddaje ta pieśń.",
+      "moment": "ogolne"
+    }
+  ]
+}

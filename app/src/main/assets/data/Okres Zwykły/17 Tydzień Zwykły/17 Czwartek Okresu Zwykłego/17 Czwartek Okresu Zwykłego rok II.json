@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430468.Czwartek-XVII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "17 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 18, 1-6",
+      "opis": "Przypowieść o garncarzu",
+      "tekst": "Słowo, które Pan oznajmił Jeremiaszowi: «Wstań i zejdź do domu garncarza; tam usłyszysz moje słowa». Zstąpiłem więc do domu garncarza, on zaś pracował właśnie przy kole. Jeżeli naczynie, które wyrabiał, uległo zniekształceniu, jak to się zdarza z gliną w ręku garncarza, robił z niego inne naczynie, według tego, co wydawało się słuszne garncarzowi.\nWtedy Pan skierował do mnie następujące słowo: «Czy nie mogę postąpić z wami, domu Izraela, jak ten garncarz? - mówi Pan. Oto bowiem jak glina w ręku garncarza, tak jesteście wy, domu Izraela, w moim ręku».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 1b-2. 3-4. 5-6b (R.: 5a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Szczęśliwy, kogo wspiera Bóg Jakuba.\nChwal, duszo moja, Pana. *\nBędę chwalił Pana do końca mego życia,\nbędę śpiewał mojemu Bogu, *\ndopóki istnieję.\nRefren.\nNie pokładajcie ufności w książętach *\nani w człowieku, który zbawić nie może.\nKiedy duch go opuści, znów w proch się obraca *\ni przepadają wszystkie jego zamiary.\nRefren.\nSzczęśliwy ten, kogo wspiera Bóg Jakuba, *\nkto pokłada nadzieję w Panu Bogu.\nOn stworzył niebo i ziemię, i morze *\nze wszystkim, co w nich istnieje.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 47-53",
+      "opis": "Przypowieść o sieci",
+      "tekst": "Jezus powiedział do tłumów:\n«Podobne jest królestwo niebieskie do sieci, zarzuconej w morze i zagarniającej ryby wszelkiego rodzaju. Gdy się napełniła, wyciągnęli ją na brzeg i usiadłszy, dobre zebrali w naczynia, a złe odrzucili. Tak będzie przy końcu świata: wyjdą aniołowie, wyłączą złych spośród sprawiedliwych i wrzucą ich w piec rozpalony; tam będzie płacz i zgrzytanie zębów.\nZrozumieliście to wszystko?» Odpowiedzieli Mu: «Tak».\nA On rzekł do nich: «Dlatego każdy uczony w Piśmie, który stał się uczniem królestwa niebieskiego, podobny jest do ojca rodziny, który ze swego skarbca wydobywa rzeczy nowe i stare».\nGdy Jezus dokończył tych przypowieści, oddalił się stamtąd.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, który jak garncarz z pierwszego czytania, kształtuje nasze życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Jest to akt oddania się Bogu, aby nas formował jak glinę w swoich rękach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaproszenie do oddania czci Bogu, który jest naszym Stwórcą i Garncarzem, kształtującym nas według swojej woli.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jesteśmy jak glina w ręku garncarza; ta pieśń jest ofiarowaniem siebie Bogu, aby nas kształtował według swojej woli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża poddanie się woli Bożej, która jak ręka garncarza, pragnie nadać nam doskonały kształt.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Ofiarujemy Bogu nasze serca, aby On je przemieniał i czynił naczyniami godnymi Jego królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy Kościół, który na ziemi jest mieszaniną dobrych i złych, jak ryby w sieci, lecz w niebie będzie wspólnotą świętych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Uczta eucharystyczna jest miejscem, gdzie gromadzą się wszyscy powołani, jak ryby w sieci, oczekując na ostateczne oddzielenie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "267",
+      "piesn": "Pomiędzy lud swój idzie",
+      "opis": "Chrystus przychodzi w Komunii do swojej wspólnoty, która jest jak sieć pełna ryb, oczekująca na sąd.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalm responsoryjny wzywa do chwalenia Boga Stwórcy, a ta pieśń jest radosnym wypełnieniem tego wezwania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały dla Boga, który jest Garncarzem naszego życia i Sędzią na końcu czasów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, w którym pokładamy nadzieję, jak zachęca psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Przypowieść o sieci ma wymiar misyjny, a ta pieśń jest wezwaniem do głoszenia Ewangelii i 'łowienia' ludzi dla królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Chrystus idzie przez wieki, gromadząc swój Kościół jak sieć, aż do ostatecznego sądu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani jako 'uczeni w Piśmie', by ze skarbca Kościoła wydobywać rzeczy nowe i stare.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec tajemnicy sądu ostatecznego, o którym mówi Ewangelia, ta pieśń wyraża nasze zaufanie Bożemu miłosierdziu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "W perspektywie sądu i oddzielenia złych od sprawiedliwych, pieśń ta jest aktem nawrócenia i powrotu do miłosiernego Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Psalm responsoryjny podkreśla szczęście płynące z nadziei w Panu, a nie w człowieku, co jest główną myślą tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu, który jest naszym Stwórcą i Sędzią, i w którym pokładamy całą naszą nadzieję.",
+      "moment": "ogolne"
+    }
+  ]
+}

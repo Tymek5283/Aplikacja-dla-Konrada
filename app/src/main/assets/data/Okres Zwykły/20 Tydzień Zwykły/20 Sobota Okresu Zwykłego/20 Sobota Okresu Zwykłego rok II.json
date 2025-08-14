@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431263.Sobota-20-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "20 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 43, 1-7a",
+      "opis": "Chwała Boża wraca do świątyni",
+      "tekst": "Anioł poprowadził mnie ku bramie, która skierowana jest na wschód. I oto chwała Boga Izraela przyszła od wschodu, a głos Jego był jak szum wielu wód, a ziemia jaśniała od Jego chwały. Było to widzenie jak to, które miałem wtedy, gdy przyszedł, by zniszczyć miasto, widzenie jak tamto, które oglądałem nad rzeką Kebar. I upadłem na twarz.\nA chwała Pańska weszła do świątyni przez bramę, która wychodziła na wschód. Wtedy uniósł mnie duch i zaniósł mnie na wewnętrzny dziedziniec. - A oto świątynia pełna była chwały Pańskiej.\nI usłyszałem, jak ktoś mówił do mnie od strony świątyni, podczas gdy ów mąż stał jeszcze przy mnie. Rzekł do mnie: «Synu człowieczy, to jest miejsce tronu mojego, miejsce podstawy mych stóp, gdzie chcę na wieki mieszkać pośród Izraelitów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. 10b)",
+      "opis": "",
+      "tekst": "Refren: Na ziemi naszej Bóg zamieszka w chwale.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 23, 9b. 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeden jest Ojciec wasz w niebie\ni jeden jest wasz Nauczyciel, Chrystus."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 1-12",
+      "opis": "Kto się wywyższa, będzie poniżony",
+      "tekst": "Jezus przemówił do tłumów i do swych uczniów tymi słowami: «Na katedrze Mojżesza zasiedli uczeni w Piśmie i faryzeusze. Czyńcie więc i zachowujcie wszystko, co wam polecą, lecz uczynków ich nie naśladujcie. Mówią bowiem, ale sami nie czynią. Wiążą ciężary wielkie i nie do uniesienia i kładą je ludziom na ramiona, lecz sami palcem ruszyć ich nie chcą. Wszystkie swe uczynki spełniają w tym celu, żeby się ludziom pokazać. Rozszerzają swoje filakterie i wydłużają frędzle u płaszczów. Lubią zaszczytne miejsca na ucztach i pierwsze krzesła w synagogach. Chcą, by ich pozdrawiano na rynkach i żeby ludzie nazywali ich Rabbi.\nA wy nie pozwalajcie nazywać się Rabbi, albowiem jeden jest wasz Nauczyciel, a wy wszyscy jesteście braćmi. Nikogo też na ziemi nie nazywajcie waszym ojcem; jeden bowiem jest Ojciec wasz, Ten w niebie. Nie chciejcie również, żeby was nazywano mistrzami, bo jeden jest tylko wasz Mistrz, Chrystus.\nNajwiększy z was niech będzie waszym sługą. , a kto się poniża, będzie wywyższony».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Bożym, co nawiązuje do wizji powrotu chwały Pańskiej do świątyni z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, który jest jedynym Ojcem i Nauczycielem, jak poucza Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, nową świątynię, w której mieszka chwała Pana, jest odpowiednim rozpoczęciem liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie cichych i pokornych jest odpowiedzią na Ewangelię, która gani pychę i wywyższanie się.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i oddania, która jest przeciwieństwem obłudnej postawy faryzeuszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem pokornej służby, a nie szukania ludzkiej chwały.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory, wyrażona w tej pieśni, jest warunkiem godnego przyjęcia Chrystusa, który uniżył samego siebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę pokory i uznania własnej niegodności, która jest przeciwieństwem pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii uczy nas służby i uniżenia, stając się pokarmem dla wszystkich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń jest odpowiedzią na obietnicę z psalmu, że 'chwała zamieszka w naszej ziemi'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga, którego chwała napełnia świątynię i całą ziemię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to radosne uwielbienie Boga, którego chwała objawia się w Jego świątyni i w całym stworzeniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "W sobotę, pieśń do Maryi, wzoru pokory i służby, jest odpowiednia na zakończenie Mszy, której Ewangelia mówi o uniżeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "W sobotę zwracamy się do Maryi, która jest wzorem pokory i służby, o której naucza Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Maryi, Królowej i wzoru pokornej służebnicy, jest dobrym zakończeniem liturgii w sobotni dzień.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa jako jedynego Nauczyciela i Mistrza, o czym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory, która jest przeciwieństwem pychy faryzeuszy z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę uniżenia i szukania woli Bożej, która jest przeciwieństwem postawy faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń podkreśla, że jesteśmy braćmi, co jest główną myślą pouczenia Jezusa w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

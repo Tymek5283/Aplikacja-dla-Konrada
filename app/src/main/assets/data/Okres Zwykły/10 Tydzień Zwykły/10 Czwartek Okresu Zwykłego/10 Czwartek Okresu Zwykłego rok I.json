@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417011.Czwartek-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 3, 15 - 4, 1. 3-6",
+      "opis": "Bóg dał nam poznać Jezusa Chrystusa",
+      "tekst": "Bracia:\nAż po dzień dzisiejszy, gdy czytają Mojżesza, zasłona spoczywa na sercach synów Izraela. A kiedy ktoś zwraca się do Pana, zasłona opada. Pan zaś - to Duch, a gdzie jest Duch Pański - tam wolność.\nMy wszyscy z odsłoniętą twarzą wpatrujemy się w jasność Pańską jakby w zwierciadle; za sprawą Ducha Pańskiego, coraz bardziej jaśniejąc, upodabniamy się do Jego obrazu.\nPrzeto oddani posługiwaniu zleconemu nam przez miłosierdzie, nie upadamy na duchu. A jeśli nawet Ewangelia nasza jest ukryta, to tylko dla tych, którzy idą na zatracenie, dla niewiernych, których umysły zaślepił bóg tego świata, aby nie olśnił ich blask Ewangelii chwały Chrystusa, który jest obrazem Boga.\nNie głosimy bowiem siebie samych, lecz Chrystusa Jezusa jako Pana, a nas - jako sługi wasze przez Jezusa. Albowiem Bóg, Ten, który rozkazał ciemnościom, by zajaśniały światłem, zabłysnął w naszych sercach, by olśnić nas jasnością poznania chwały Bożej na obliczu Jezusa Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. 10b)",
+      "opis": "",
+      "tekst": "Refren: Na ziemi naszej Bóg zamieszka w chwale.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 13, 34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Daję wam przykazanie nowe, abyście się wzajemnie miłowali,\ntak jak Ja was umiłowałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 20-26",
+      "opis": "Wymagania nowego Prawa w dziedzinie miłości bliźniego",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeśli wasza sprawiedliwość nie będzie większa niż uczonych w Piśmie i faryzeuszów, nie wejdziecie do królestwa niebieskiego.\nSłyszeliście, że powiedziano przodkom: „Nie zabijaj”; a kto by się dopuścił zabójstwa, podlega sądowi. A Ja wam powiadam: Każdy, kto się gniewa na swego brata, podlega sądowi. A kto by rzekł swemu bratu: „Raka”, podlega Wysokiej Radzie. A kto by mu rzekł: „Bezbożniku”, podlega karze piekła ognistego.\nJeśli więc przyniesiesz dar swój przed ołtarz i tam sobie przypomnisz, że brat twój ma coś przeciw tobie, zostaw tam dar swój przed ołtarzem, a najpierw idź i pojednaj się z bratem swoim. Potem przyjdź i dar swój ofiaruj.\nPogódź się ze swoim przeciwnikiem szybko, dopóki jesteś z nim w drodze, by cię przeciwnik nie wydał sędziemu, a sędzia dozorcy, i aby nie wtrącono cię do więzienia. Zaprawdę, powiadam ci: Nie wyjdziesz stamtąd, dopóki nie zwrócisz ostatniego grosza».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń nawiązuje do pierwszego czytania, które mówi o blasku Ewangelii chwały Chrystusa, jaśniejącym w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń o Chrystusie, którego głosimy jako Pana i który jest źródłem nowego prawa miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Chrystus jest drogą do nowej sprawiedliwości, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ewangelia wzywa do pojednania z bratem przed złożeniem daru na ołtarzu, a ta pieśń jest modlitwą o ducha miłości i zgody.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność, która jest owocem pojednania, warunku złożenia ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Ofiara ma być wyrazem życia według przykazania miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory i prośbę o uzdrowienie relacji, zanim przyjmiemy Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia jest zjednoczeniem z Miłością, która uczy nas miłować braci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus zaprasza na Ucztę, ale stawia warunek pojednania z bratem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Bożą łaskę i pokój, które, jak obiecuje psalm, zamieszkają na naszej ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą dobroć i zbawienie, o których mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękczynienie za dar Eucharystii i wezwanie do życia w jedności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Posyła wiernych, aby żyli nowym przykazaniem miłości, które jest fundamentem sprawiedliwości większej, niż faryzeuszów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w pojednaniu i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń-modlitwa o jedność, która jest owocem pojednania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec wysokich wymagań nowej sprawiedliwości, ta pieśń pokutna jest prośbą o serce zdolne do przebaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "217",
+      "piesn": "O Stworzycielu, Duchu",
+      "opis": "Pierwsze czytanie mówi o Duchu Pańskim, który daje wolność i upodabnia nas do Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i pojednaniu, kluczowych tematach Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon podkreślający, że miłość i dobroć są miejscem obecności Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

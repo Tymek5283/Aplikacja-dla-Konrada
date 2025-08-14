@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431264.Piatek-20-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "20 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 37, 1-14",
+      "opis": "Duch daje życie",
+      "tekst": "Spoczęła na mnie ręka Pana, i wyprowadził mnie On w duchu na zewnątrz, i postawił mnie pośród doliny. Była ona pełna kości. I polecił mi, abym przeszedł dokoła nich, i oto było ich na obszarze doliny bardzo wiele. Były one zupełnie wyschłe.\nI rzekł do mnie: «Synu człowieczy, czy kości te powrócą znowu do życia?» Odpowiedziałem: «Panie Boże, Ty to wiesz».\nWtedy rzekł On do mnie: «Prorokuj nad tymi kośćmi i mów do nich: Wyschłe kości, słuchajcie słowa Pana! Tak mówi Pan Bóg: Oto Ja wam daję ducha, byście ożyły. Chcę was otoczyć ścięgnami i sprawić, byście obrosły ciałem, i przybrać was w skórę, i dać wam ducha, byście ożyły i poznały, że Ja jestem Pan».\nI prorokowałem, jak mi polecono, a gdy prorokowałem, oto powstał szum i trzask, i kości jedna po drugiej zbliżały się do siebie. I patrzyłem, a oto powróciły ścięgna i wyrosło ciało, a skóra pokryła je z wierzchu, ale jeszcze nie było w nich ducha.\nI powiedział On do mnie: «Prorokuj do ducha, prorokuj, o synu człowieczy, i mów do ducha: Tak powiada Pan Bóg: Z czterech wiatrów przybądź, duchu, i tchnij na tych pobitych, aby ożyli».\nWtedy prorokowałem tak, jak mi nakazał, i duch wstąpił w nich, a ożyli i stanęli na nogach - wojsko bardzo, bardzo wielkie.\nI rzekł do mnie: «Synu człowieczy, kości te to cały dom Izraela. Oto mówią oni: Wyschły kości nasze, znikła nadzieja nasza, już po nas. Dlatego prorokuj i mów do nich:\nTak mówi Pan Bóg:\nOto otwieram wasze groby i wydobywam was z grobów, ludu mój, i wiodę was do kraju Izraela, i poznacie, że Ja jestem Pan, gdy wasze groby otworzę i z grobów was wydobędę, ludu mój. Udzielę wam mego ducha, byście ożyli, i powiodę was do kraju waszego, i poznacie, że Ja, Pan, to powiedziałem i wykonam» - mówi Pan Bóg.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 107 (106), 2-3. 4-5. 6-7. 8-9 (R.: por. 1)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Chwalmy na wieki miłosierdzie Pana.\nTak niech mówią odkupieni przez Pana, *\nktórych wybawił z rąk przeciwnika\ni których zgromadził z obcych krain, *\nze wschodu i zachodu, z północy i południa.\nRefren.\nBłądzili na pustynnym odludziu, *\ndo miasta zamieszkałego nie znaleźli drogi.\nCierpieli głód i pragnienie *\ni wygasało w nich życie.\nRefren.\nW swoim utrapieniu wołali do Pana, *\na On ich uwolnił od trwogi.\nI powiódł ich prostą drogą, *\naż doszli do miasta zamieszkałego.\nRefren.\nNiech dziękują Panu za dobroć Jego, *\nza Jego cuda wobec synów ludzkich,\nbo głodnego nasycił, *\na łaknącego napełnił dobrami.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 25 (24), 4b. 5a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Naucz mnie, Boże, chodzić Twoimi ścieżkami,\nprowadź mnie w prawdzie według swych pouczeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 22, 34-40",
+      "opis": "Największe przykazanie",
+      "tekst": "Gdy faryzeusze posłyszeli, że zamknął usta saduceuszom, zebrali się razem, a jeden z nich, uczony w Prawie, wystawiając Go na próbę, zapytał: «Nauczycielu, które przykazanie w Prawie jest największe?»\nOn mu odpowiedział: «„Będziesz miłował Pana Boga swego całym swoim sercem, całą swoją duszą i całym swoim umysłem”. To jest największe i pierwsze przykazanie. Drugie podobne jest do niego: „Będziesz miłował swego bliźniego jak siebie samego”. Na tych dwóch przykazaniach zawisło całe Prawo i Prorocy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Hymn do Ducha Świętego, który daje życie, jest doskonałym wprowadzeniem w liturgię, której centralnym obrazem jest ożywienie wyschłych kości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Jest to prośba o Ducha Świętego, który ożywia nas wewnętrznie i uzdalnia do miłości, będącej największym przykazaniem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wołaniem do Ducha Świętego jako źródła życia, co jest główną myślą wizji proroka Ezechiela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń jest muzycznym rozwinięciem Ewangelii, która podaje miłość Boga i bliźniego jako największe przykazanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiarujemy Bogu naszą miłość, która jest fundamentem, na którym, jak uczy Ewangelia, opiera się całe Prawo i Prorocy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców miłosierdzia, które są praktycznym wyrazem przykazania miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia z Chrystusem jest najgłębszym aktem miłości, która jest odpowiedzią na największe przykazanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń jest wezwaniem do miłości Boga, co jest pierwszym i największym przykazaniem z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w miłości, która jest fundamentem Prawa i Proroków, jak naucza Jezus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn ten jest odpowiedzią na psalm, który wzywa do chwalenia miłosierdzia Pana, objawionego w dziele odkupienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar nowego życia w Duchu Świętym, o którym mówi prorok Ezechiel.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za wybawienie z utrapienia, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność w miłości, która jest fundamentem życia chrześcijańskiego według nauki Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię miłości, która ma moc ożywić 'wyschłe kości' tego świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie miłości Chrystusa posyła nas, abyśmy odnawiali świat przez miłość, będącą największym przykazaniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Proste wyznanie miłości do Boga jest streszczeniem pierwszego i największego przykazania z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wizja Ezechiela jest obietnicą odnowy dla ludu, który się nawróci i powróci do swojego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wizja ożywienia wyschłych kości jest proroctwem o zmartwychwstaniu, którego nadzieję przynosi nam Chrystus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do konkretnych czynów miłości wobec bliźnich, co jest praktycznym zastosowaniem drugiego przykazania.",
+      "moment": "ogolne"
+    }
+  ]
+}

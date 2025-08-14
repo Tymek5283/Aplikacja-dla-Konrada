@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415419.Czwartek-30-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "30 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 8, 31b-39",
+      "opis": "Nic nas nie odłączy od miłości Chrystusa",
+      "tekst": "Bracia:\nJeżeli Bóg z nami, któż przeciwko nam? On, który nawet własnego Syna nie oszczędził, ale Go za nas wszystkich wydał, jakże miałby także wraz z Nim wszystkiego nam nie darować? Któż może wystąpić z oskarżeniem przeciw tym, których Bóg wybrał? Czyż Bóg, który usprawiedliwia? Któż może wydać wyrok potępienia? Czy Chrystus Jezus, który poniósł za nas śmierć, co więcej - zmartwychwstał, siedzi po prawicy Boga i przyczynia się za nami?\nKtóż nas może odłączyć od miłości Chrystusowej? Utrapienie, ucisk czy prześladowanie, głód czy nagość, niebezpieczeństwo czy miecz? Jak to jest napisane: «Z powodu Ciebie zabijają nas przez cały dzień, uważają nas za owce na rzeź przeznaczone». Ale we wszystkim tym odnosimy pełne zwycięstwo dzięki Temu, który nas umiłował.\nI jestem pewien, że ani śmierć, ani życie, ani aniołowie, ani Zwierzchności, ani rzeczy teraźniejsze, ani przyszłe, ani Moce, ani co jest wysoko, ani co głęboko, ani jakiekolwiek inne stworzenie nie zdoła nas odłączyć od miłości Boga, która jest w Chrystusie Jezusie, Panu naszym.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 109 (108), 21-22. 26-27. 30-31",
+      "opis": "Ocal mnie, Panie, w swojej łaskawości",
+      "tekst": "Refren: Ocal mnie, Panie, w swojej łaskawości.\nPanie, mój Panie, †\nujmij się za mną przez wzgląd na Twoje imię, *\nwybaw mnie, bo łaskawa jest Twoja dobroć.\nBo jestem nędzny i nieszczęśliwy, *\na serce jest we mnie zranione.\nRefren.\nDopomóż mi, Panie, mój Boże, *\nocal mnie w swej łaskawości,\naby poznali, że to Twoja ręka, *\nże Ty, o Panie, tego dokonałeś.\nRefren\nChcę dziękować Panu głośno swoimi ustami *\ni chwalić Go w pośrodku tłumów.\nBo stanął po prawicy biednego, *\naby go wybawić od sądzących jego życie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 19, 38",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławiony Król, który przychodzi w imię Pańskie.\nPokój w niebie i chwała na wysokościach."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 31-35",
+      "opis": "Jezus wierny swojemu posłannictwu",
+      "tekst": "Jezus wierny swojemu posłannictwu\nW tym czasie przyszli niektórzy faryzeusze i rzekli do Jezusa: «Wyjdź i uchodź stąd, bo Herod chce Cię zabić».\nLecz On im odpowiedział: «Idźcie i powiedzcie temu lisowi: Oto wyrzucam złe duchy i dokonuję uzdrowień dziś i jutro, a trzeciego dnia będę u kresu. Jednak dziś, jutro i pojutrze muszę być w drodze, bo rzecz to niemożliwa, żeby prorok zginął poza Jeruzalem.\nJeruzalem, Jeruzalem! Ty zabijasz proroków i kamienujesz tych, którzy do ciebie są posłani. Ile razy chciałem zgromadzić twoje dzieci, jak ptak swoje pisklęta pod skrzydła, a nie chcieliście. Oto dom wasz tylko dla was pozostanie.\nMówię zaś wam: nie ujrzycie Mnie, aż nadejdzie czas, gdy powiecie: „Błogosławiony Ten, który przychodzi w imię Pańskie”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na zapewnienie św. Pawła, że nic nie zdoła nas odłączyć od miłości Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie zjednoczenia z Chrystusem w Jego miłości, która, jak zapewnia św. Paweł, jest silniejsza niż śmierć i wszelkie przeciwności.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń podkreśla wierność Boga, który jest z nami we wszelkich utrapieniach, o których mówi św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wobec zagrożenia ze strony Heroda i lamentu nad Jerozolimą, ta pieśń jest aktem ofiarowania i zawierzenia Bożej opatrzności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, ufając, że Jego miłość jest silniejsza niż wszelkie prześladowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania się Bogu, który w Chrystusie odnosi pełne zwycięstwo nad wszelkim złem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu cierpienia i odrzucenia, o których mówi Ewangelia, ta pieśń jest wyznaniem wiary w Chrystusa, który jest naszą nadzieją i zwycięstwem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który do końca nas umiłował i w Eucharystii daje nam siłę do przezwyciężania trudności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który pragnie zgromadzić swoje dzieci, jak ptak pisklęta pod skrzydła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego, w którym wierny chwali Pana za ocalenie i wybawienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar miłości Bożej w Chrystusie, od której nic nie może nas odłączyć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask i miłość Boga, która zwycięża wszelkie zło.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Aklamacja i Ewangelia mówią o Chrystusie Królu. Ta pieśń jest aklamacją na cześć Tego, który przychodzi w imię Pańskie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest odpowiedzią na Jego królewskie posłannictwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, nawet jeśli prowadzi ona przez Jerozolimę, miejsce odrzucenia proroków.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która streszcza przesłanie pierwszego czytania o niezwyciężonej miłości Boga w Chrystusie Jezusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, która jest źródłem naszej siły i zwycięstwa, o którym mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem o Boże miłosierdzie i ocalenie, o którym zapewnia psalmista i św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam trwać w miłości Chrystusowej mimo wszelkich przeciwności.",
+      "moment": "ogolne"
+    }
+  ]
+}

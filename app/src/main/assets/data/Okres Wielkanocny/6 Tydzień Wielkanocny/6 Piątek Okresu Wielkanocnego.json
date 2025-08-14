@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413364.Piatek-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Piątek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 18, 9-18",
+      "opis": "Wystąpienie Żydów przeciw Pawłowi w Koryncie",
+      "tekst": "Kiedy Paweł przebywał w Koryncie, w nocy Pan przemówił do niego w widzeniu: «Przestań się lękać, a przemawiaj i nie milcz, bo Ja jestem z tobą i nikt nie targnie się na ciebie, aby cię skrzywdzić, dlatego że wiele Ludu mam w tym mieście». Pozostał więc i głosił im słowo Boże przez rok i sześć miesięcy.\nKiedy Gallio został prokonsulem Achai, Żydzi jednomyślnie wystąpili przeciw Pawłowi i przyprowadzili go przed sąd. Powiedzieli: «Ten namawia ludzi, aby czcili Boga niezgodnie z Prawem».\nGdy Paweł miał już otworzyć usta, Gallio przemówił do Żydów: «Gdyby tu chodziło o jakieś przestępstwo albo zły czyn, zająłbym się wami, Żydzi, jak należy, ale gdy spór toczy się o słowa i nazwy, i o wasze Prawo, rozpatrzcie to sami. Ja nie chcę być sędzią w tych sprawach». I wypędził ich z sądu.\nA wszyscy Grecy, schwyciwszy przełożonego synagogi, Sostenesa, bili go przed sądem, lecz Galliona nic to nie obchodziło.\nPaweł pozostał jeszcze przez dłuższy czas, potem pożegnał się z braćmi i popłynął do Syrii, a z nim Pryscylla i Akwila. W Kenchrach ostrzygł głowę, bo złożył ślub.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 47 (46), 2-3. 4-5. 6-7 (R.: por. 8a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg jest królem całej naszej ziemi.\nWszystkie narody, klaskajcie w dłonie, *\nradosnym głosem wykrzykujcie Bogu,\nbo Pan Najwyższy i straszliwy, *\njest wielkim Królem nad całą ziemią.\nRefren.\nOn nam poddaje narody *\ni ludy rzuca pod nasze stopy.\nWybiera nam na dziedzictwo *\nchlubę Jakuba, którego miłuje.\nRefren.\nBóg wstępuje wśród radosnych okrzyków, *\nPan wstępuje przy dźwięku trąby.\nŚpiewajcie psalmy Bogu, śpiewajcie, *\nśpiewajcie Królowi naszemu, śpiewajcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 24, 46b. 26b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Chrystus musiał cierpieć i zmartwychwstać,\naby wejść do swojej chwały."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 16, 20-23a",
+      "opis": "Smutek wasz przemieni się w radość",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Zaprawdę, zaprawdę, powiadam wam: Wy będziecie płakać i zawodzić, a świat się będzie weselił. Wy będziecie się smucić, ale smutek wasz przemieni się w radość.\nKobieta, gdy rodzi, doznaje smutku, bo przyszła jej godzina. Gdy jednak urodzi dziecię, już nie pamięta o bólu - z powodu radości, że się człowiek na świat narodził.\nTakże i wy teraz doznajecie smutku. Znowu jednak was zobaczę, i rozraduje się serce wasze, a radości waszej nikt wam nie zdoła odebrać. W owym zaś dniu o nic nie będziecie Mnie pytać».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta doskonale koresponduje z psalmem, który głosi, że Bóg jest Królem całej ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Ta radosna pieśń wielkanocna oddaje obietnicę z Ewangelii, że smutek przemieni się w radość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, Króla całej ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "196",
+      "piesn": "Złóżcie troski, żałujący",
+      "opis": "Nawiązuje do słów Ewangelii o przemianie smutku w radość, co jest centralnym przesłaniem wielkanocnym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, ufając, że On jest z nami, jak obiecał Pawłowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle naszej radości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "188",
+      "piesn": "Otrzyjcie już łzy",
+      "opis": "Bezpośrednio odnosi się do obietnicy Jezusa o pocieszeniu i radości, która nadejdzie po okresie smutku.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń eucharystyczna, która jest źródłem radości, której nikt nam nie zdoła odebrać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Chrystus w Eucharystii daje nam przedsmak radości, która będzie naszym udziałem, gdy ujrzymy Go w chwale.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie i królowaniu Boga, co jest tematem przewodnim psalmu responsoryjnego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to pieśń chwały dla Zmartwychwstałego Pana, który pokonał śmierć i smutek.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Głosi centralną prawdę okresu wielkanocnego, która jest źródłem radości obiecanej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Podkreśla królewską godność Zmartwychwstałego Chrystusa i posyła wiernych, by głosili Jego tryumf.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń podkreśla triumf Chrystusa, który jest fundamentem odwagi św. Pawła i radości wierzących.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana, który w widzeniu zapewnił Pawła: 'Ja jestem z tobą'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "176",
+      "piesn": "Alleluja... O dniu radosny",
+      "opis": "Wyraża ogólną radość okresu wielkanocnego, która ma swoje źródło w Zmartwychwstaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która pozwala przetrwać czas smutku w oczekiwaniu na radość spotkania z Panem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Narracyjna pieśń wielkanocna, która przypomina fundament wiary, głoszonej przez Pawła w Koryncie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Jest to dynamiczny hymn uwielbienia, który pasuje do radosnego charakteru Okresu Wielkanocnego i psalmu.",
+      "moment": "ogolne"
+    }
+  ]
+}

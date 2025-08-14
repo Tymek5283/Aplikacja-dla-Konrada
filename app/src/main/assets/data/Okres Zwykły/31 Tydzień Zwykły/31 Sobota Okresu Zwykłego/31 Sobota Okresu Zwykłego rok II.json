@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414869.Sobota-31-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "31 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flp 4, 10-19",
+      "opis": "Paweł dziękuje za ofiarność Filipian",
+      "tekst": "Bracia:\nBardzo się rozradowałem w Panu, że wreszcie rozkwitło wasze staranie o mnie, bo istotnie staraliście się, lecz nie mieliście do tego sposobności. Nie mówię tego bynajmniej z powodu niedostatku: ja bowiem nauczyłem się wystarczać sobie w warunkach, w jakich jestem. Umiem cierpieć biedę, umiem też korzystać z obfitości. Do wszystkich w ogóle warunków jestem zaprawiony: i być sytym, i głód cierpieć, korzystać z obfitości i doznawać niedostatku. Wszystko mogę w Tym, który mnie umacnia. W każdym razie dobrze uczyniliście, biorąc udział w moim ucisku.\nWy, Filipianie, wiecie przecież, że na początku głoszenia Ewangelii, gdy opuściłem Macedonię, żaden z Kościołów poza wami jednymi nie prowadził ze mną otwartego rachunku przychodów i rozchodów, bo do Tesaloniki nawet raz i drugi przysłaliście na moje potrzeby. Mówię zaś to bynajmniej nie dlatego, że pragnę daru, lecz pragnę owocu, który wzrasta na wasze dobro. Stwierdzam, że wszystko mam, i to w obfitości: jestem zaopatrzony, otrzymawszy przez Epafrodyta od was wdzięczną woń, ofiarę przyjemną, miłą Bogu. A Bóg mój według swego bogactwa zaspokoi wspaniale w Chrystusie Jezusie każdą waszą potrzebę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 5-6. 8a i 9 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony ten, kto służy Panu.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje *\ni pozostanie w wiecznej pamięci.\nRefren.\nJego wierne serce lękać się nie będzie. *\nRozdaje i obdarza ubogich,\njego sprawiedliwość będzie trwała zawsze, *\nwywyższona z chwałą będzie jego potęga.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 8, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus Chrystus, będąc bogatym, dla was stał się ubogim,\naby was ubóstwem swoim ubogacić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 16, 9-15",
+      "opis": "Nie można służyć Bogu i Mamonie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Pozyskujcie sobie przyjaciół niegodziwą mamoną, aby gdy wszystko się skończy, przyjęto was do wiecznych przybytków.\nKto w bardzo małej sprawie jest wierny, ten i w wielkiej będzie wierny; a kto w bardzo małej sprawie jest nieuczciwy, ten i w wielkiej nieuczciwy będzie. Jeśli więc w zarządzaniu niegodziwą mamoną nie okazaliście się wierni, to kto wam prawdziwe dobro powierzy? Jeśli w zarządzaniu cudzym dobrem nie okazaliście się wierni, to któż wam da wasze?\nŻaden sługa nie może dwom panom służyć. Gdyż albo jednego będzie nienawidził, a drugiego miłował; albo z tamtym będzie trzymał, a tym wzgardzi. Nie możecie służyć Bogu i Mamonie!»\nSłuchali tego wszystkiego chciwi na grosz faryzeusze i podrwiwali sobie z Niego. Powiedział więc do nich: «To wy właśnie wobec ludzi udajecie sprawiedliwych, ale Bóg zna wasze serca. To bowiem, co za wielkie uchodzi między ludźmi, obrzydliwością jest w oczach Bożych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, któremu pragniemy wiernie służyć, odrzucając służbę Mamonie, o czym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o błogosławieństwie dla człowieka, który służy Panu i jest miłosierny. Pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opatrzność, która, jak pisze św. Paweł, zaspokoi wspaniale każdą naszą potrzebę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi Jezusa przed służbą dwom panom, ta pieśń jest aktem ofiarowania całego życia jedynemu Panu, Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, które, jak uczy św. Paweł, mogą być ofiarą przyjemną i miłą Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze serce, prosząc, by On je strzegł przed służbą Mamonie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń wyraża wdzięczność za Boże dary i pyta, jak możemy się odwdzięczyć. Ewangelia uczy, że wierność w małych rzeczach jest drogą do wielkich.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii uczy nas hojności i dzielenia się, co jest przeciwieństwem służby Mamonie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która przewyższa wszelkie bogactwa doczesne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Dziękczynienie za przykład Filipian z pierwszego czytania i prośba o błogosławieństwo, byśmy potrafili dzielić się z innymi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która pozwala nam służyć Bogu, a nie Mamonie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny za Bożą hojność, która zaspokaja każdą naszą potrzebę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest pytaniem o to, co jest miłe Bogu. Odpowiedzią jest postawa hojności i wierności, opisana w czytaniach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię i wspierać jej głosicieli, tak jak czynili to Filipianie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, w tym do jałmużny i miłosierdzia, co jest przeciwieństwem służby Mamonie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o błogosławieństwie dla człowieka, który służy Panu i jest miłosierny. Pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opatrzność, która, jak pisze św. Paweł, zaspokoi wspaniale każdą naszą potrzebę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę, która jest prawdziwym bogactwem, w przeciwieństwie do niegodziwej mamony.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest niezbędna, aby wybrać służbę Bogu ponad służbę Mamonie, o czym mówi Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

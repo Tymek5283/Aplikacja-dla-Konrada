@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415519.Sroda-IV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "4 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 12, 4-7. 11-15",
+      "opis": "Kogo Bóg miłuje, tego karci",
+      "tekst": "Bracia:\nJeszcze nie opieraliście się aż do krwi, walcząc przeciw grzechowi, a zapomnieliście o napomnieniu, z jakim Bóg się zwraca do was jako do synów: «Synu mój, nie lekceważ karcenia Pana, nie upadaj na duchu, gdy On cię doświadcza. Bo kogo miłuje Pan, tego karci, chłoszcze zaś każdego, którego za syna przyjmuje». Trwajcie w karności! Bóg obchodzi się z wami jak z dziećmi. Jakiż to bowiem syn, którego by ojciec nie karcił?\nWszelkie karcenie na razie nie wydaje się radosne, ale smutne, potem jednak przynosi tym, którzy go doświadczyli, błogi plon sprawiedliwości. Dlatego wyprostujcie opadłe ręce i osłabłe kolana! Proste ślady czyńcie nogami, aby kto chromy, nie zbłądził, ale był raczej uzdrowiony. Starajcie się o pokój ze wszystkimi i o uświęcenie, bez którego nikt nie zobaczy Pana. Baczcie, aby nikt nie pozbawił się łaski Bożej, aby jakiś korzeń gorzki, który wyrasta do góry, nie spowodował zamieszania, a przez to nie skalali się inni.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 13-14. 17-18a (R.: por. 17a)",
+      "opis": "",
+      "tekst": "Refren: Bóg jest łaskawy dla swoich czcicieli.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nJak ojciec lituje się nad dziećmi, *\ntak Pan się lituje nad tymi, którzy cześć Mu oddają.\nWie On, z czegośmy powstali, *\npamięta, że jesteśmy prochem.\nRefren.\nLecz łaska Pana jest wieczna *\ndla Jego wyznawców,\na Jego sprawiedliwość nad ich potomstwem, *\nnad wszystkimi, którzy strzegą Jego przymierza.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 1-6",
+      "opis": "Jezus lekceważony w Nazarecie",
+      "tekst": "Jezus przyszedł do swego rodzinnego miasta. A towarzyszyli Mu Jego uczniowie. Gdy zaś nadszedł szabat, zaczął nauczać w synagodze; a wielu, przysłuchując się, pytało ze zdziwieniem: «Skąd to u Niego? I co to za mądrość, która Mu jest dana? I takie cuda dzieją się przez Jego ręce! Czy nie jest to cieśla, syn Maryi, a brat Jakuba, Józefa, Judy i Szymona? Czyż nie żyją tu u nas także Jego siostry?» I powątpiewali o Nim.\nA Jezus mówił im: «Tylko w swojej ojczyźnie, wśród swoich krewnych i w swoim domu może być prorok tak lekceważony».\nI nie mógł tam zdziałać żadnego cudu, jedynie na kilku chorych położył ręce i uzdrowił ich. Dziwił się też ich niedowiarstwu. Potem obchodził okoliczne wsie i nauczał.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Bogu, który jest naszą ucieczką i siłą, zwłaszcza w doświadczeniach i karceniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Jest to bezpośrednie zwrócenie się do Boga jako miłosiernego Ojca, co jest centralnym obrazem w pierwszym czytaniu i psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się przed Panem, którego ojcowskie karcenie prowadzi do świętości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych trudów i cierpień, które On przyjmuje jako miłujący Ojciec.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża pragnienie poddania się woli Bożej, przyjmując Jego ojcowskie karcenie jako drogę do świętości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "272",
+      "piesn": "Rzućmy się wszyscy",
+      "opis": "W tej pieśni uniżamy się przed Bogiem, przyjmując Jego miłującą korektę i ofiarowując Mu nasze życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest odrzucony przez swoich, ale dla nas jest źródłem uzdrowienia i mocy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Jest aktem wiary w ukrytego Chrystusa, kontrastującym z brakiem wiary mieszkańców Nazaretu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Pana, który umacnia nas w naszych próbach i doświadczeniach, o których mowa w pierwszym czytaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za łaskę Bożą, która jest wieczna dla Jego czcicieli, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to hymn pochwalny na cześć Stwórcy, którego ojcowska miłość i karcenie służą naszemu dobru.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Ten eucharystyczny hymn jest doskonałym dziękczynieniem Bogu Ojcu za Jego dobroć, którą opiewa psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża przylgnięcie do Chrystusa, nawet gdy jest On lekceważony i odrzucony przez świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, której zabrakło w rodzinnym mieście Jezusa, a której potrzebujemy, by głosić Go światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po przypomnieniu o ojcowskiej trosce Boga, jesteśmy posłani, by żyć święcie, prosząc o Jego błogosławieństwo w naszej pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, który jak Ojciec lituje się nad swoimi dziećmi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która prowadzi nas przez doświadczenia do wiecznej chwały.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Ta pieśń ufności odzwierciedla właściwą odpowiedź na ojcowskie karcenie Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to dziecięca modlitwa o prowadzenie przez Boga, naszego Ojca, który karci nas dla naszego dobra.",
+      "moment": "ogolne"
+    }
+  ]
+}

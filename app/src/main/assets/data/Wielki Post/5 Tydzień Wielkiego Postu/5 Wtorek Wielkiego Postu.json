@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412424.Wtorek-V-tydzien-Wielkiego-Postu",
+  "tytul_dnia": "5 Wtorek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Lb 21, 4-9",
+      "opis": "Wąż miedziany znakiem ocalenia",
+      "tekst": "Od góry Hor szli Izraelici w kierunku Morza Czerwonego, aby obejść ziemię Edom; podczas drogi jednak lud stracił cierpliwość. I zaczęli mówić przeciw Bogu i Mojżeszowi: «Czemu wyprowadziliście nas z Egiptu, byśmy tu na pustyni pomarli? Nie ma chleba ani wody, a uprzykrzył się nam już ten pokarm mizerny».\nZesłał więc Pan na lud węże o jadzie palącym, które kąsały ludzi, tak że wielka liczba Izraelitów zmarła. Przybyli więc ludzie do Mojżesza, mówiąc: «Zgrzeszyliśmy, szemrząc przeciw Panu i przeciwko tobie. Wstaw się za nami do Pana, aby oddalił od nas węże». I wstawił się Mojżesz za ludem.\nWtedy rzekł Pan do Mojżesza: «Sporządź węża i umieść go na wysokim palu; wtedy każdy ukąszony, jeśli tylko spojrzy na niego, zostanie przy życiu». Sporządził więc Mojżesz węża miedzianego i umieścił go na wysokim palu. I rzeczywiście, jeśli kogoś wąż ukąsił, a ukąszony spojrzał na węża miedzianego, zostawał przy życiu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 102 (101), 2-3a i 3cd. 16-17. 18-19. 20-21 (R.: por. 2)",
+      "opis": "",
+      "tekst": "Refren: Wysłuchaj, Panie, mojego wołania.\nPanie, wysłuchaj modlitwę moją, *\na moje wołanie niech przyjdzie do Ciebie.\nNie ukrywaj przede mną swojego oblicza †\nnakłoń ku mnie Twe ucho, *\nw dniu, w którym Cię wzywam, szybko mnie wysłuchaj!\nRefren.\nPoganie będą się bali imienia Pana, *\na Twej chwały wszyscy królowie ziemi,\nbo Pan odbuduje Syjon *\ni ukaże się w swym majestacie.\nRefren.\nPan przychyli się ku modlitwie opuszczonych *\ni nie odrzuci ich modłów.\nNależy to zapisać dla przyszłych pokoleń, *\nlud, który się narodzi, niech wychwala Pana.\nRefren.\nSpojrzał Pan z wysokości swego przybytku, *\npopatrzył z nieba na ziemię,\naby usłyszeć jęki uwięzionych, *\naby skazanych na śmierć uwolnić.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 8, 21-30",
+      "opis": "Gdy wywyższycie Syna Człowieczego, poznacie, że Ja Jestem",
+      "tekst": "Jezus powiedział do faryzeuszów: «Ja odchodzę, a wy będziecie Mnie szukać i w grzechu swoim pomrzecie. Tam gdzie Ja idę, wy pójść nie możecie».\nMówili więc Żydzi: «Czyżby miał sam siebie zabić, skoro powiada: Tam, gdzie Ja idę, wy pójść nie możecie?»\nA On rzekł do nich: «Wy jesteście z niskości, a Ja jestem z wysoka. Wy jesteście z tego świata, Ja nie jestem z tego świata. Powiedziałem wam, że pomrzecie w grzechach swoich. Jeżeli bowiem nie uwierzycie, że Ja Jestem, pomrzecie w grzechach waszych».\nPowiedzieli do Niego: «Kimże Ty jesteś?»\nOdpowiedział im Jezus: «Przede wszystkim po cóż do was mówię? Wiele mam w waszej sprawie do powiedzenia i do osądzenia. Ale Ten, który Mnie posłał, jest prawdomówny, a Ja mówię wobec świata to, co usłyszałem od Niego». A oni nie pojęli, że im mówił o Ojcu.\nRzekł więc do nich Jezus: «Gdy wywyższycie Syna Człowieczego, wtedy poznacie, że Ja Jestem i że Ja nic sam z siebie nie czynię, ale że mówię to, czego Mnie Ojciec nauczył. A Ten, który Mnie posłał, jest ze Mną; nie pozostawił Mnie samego, bo Ja zawsze czynię to, co się Jemu podoba».\nKiedy to mówił, wielu uwierzyło w Niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń ta jest modlitwą błagalną, która oddaje ducha psalmu responsoryjnego i wołania ludu ukąszonego przez węże.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie szukania Boga i Jego pomocy, co jest postawą Izraelitów w ucisku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą łaskę i ratunek, o który prosił Mojżesz za ludem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do wywyższenia Syna Człowieczego na krzyżu, które jest zapowiedziane w Ewangelii i prefigurowane przez węża miedzianego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i prośby o miłosierdzie, które jest odpowiedzią na grzech szemrania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wiara w Chrystusa wywyższonego jest źródłem życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Jest to akt wiary w Chrystusa, który przez swoje wywyższenie na krzyżu daje nam życie i zbawienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, który jest naszym ocaleniem, jak wąż miedziany dla Izraelitów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, w którego trzeba uwierzyć, aby nie umrzeć w grzechach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń uwielbia Boga za Jego miłosierdzie, które ocaliło Izraelitów i które objawia się w Jezusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże ocalenie, którego doświadczyli Izraelici na pustyni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to prośba o Boże błogosławieństwo i uwielbienie za Jego zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Zachęca do wiary w Jezusa, która jest warunkiem uniknięcia śmierci w grzechach, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców wiary, która jest odpowiedzią na dar ocalenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu grzechu szemrania, aby uwierzyć w Tego, który jest z wysoka.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest odpowiedzią na grzech szemrania i niewiary, opisany w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny prosi o miłosierdzie i ocalenie, którego znakiem był wąż miedziany.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne uwierzyć w Jezusa i przyjąć Jego zbawienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest jedynym ratunkiem w obliczu śmiertelnego niebezpieczeństwa.",
+      "moment": "ogolne"
+    }
+  ]
+}

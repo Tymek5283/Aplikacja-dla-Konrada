@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411023.Sroda-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 7, 1-3. 15-17",
+      "opis": "Melchizedek typem biblijnym Chrystusa",
+      "tekst": "Bracia:\n\nMelchizedek, król Szalemu, kapłan Boga Najwyższego, wyszedł na spotkanie Abrahama, wracającego po rozgromieniu królów, i udzielił mu błogosławieństwa. Jemu Abraham także wydzielił dziesięcinę z całego łupu. Imię jego najpierw oznacza króla sprawiedliwości, a następnie także króla Szalemu, to jest króla pokoju. Bez ojca, bez matki, bez rodowodu, nie ma ani początku swych dni, ani też końca życia, upodobniony zaś do Syna Bożego, pozostaje kapłanem na zawsze. Jest to jeszcze bardziej oczywiste, skoro na podobieństwo Melchizedeka jest ustanowiony inny kapłan, który stał się takim nie według cielesnego przepisu Prawa, ale według mocy niezniszczalnego życia. Dane Mu jest bowiem takie świadectwo: «Ty jesteś kapłanem na wieki na wzór Melchizedeka». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 110 (109), 1b-2. 3-4 (R.: por. 4b)",
+      "opis": "",
+      "tekst": "Refren: Jesteś kapłanem, tak jak Melchizedek.\nRzekł Pan do Pana mego: «Siądź po mojej prawicy, *\n\naż uczynię Twych wrogów podnóżkiem stóp Twoich».\n\nPan rozciągnie moc Twego berła z Syjonu: *\n\n«Panuj wśród swych nieprzyjaciół!\nRefren.\nPrzy Tobie panowanie w dniu Twego triumfu, †\n\nw blasku świętości, *\n\nz łona jutrzenki zrodziłem Cię jak rosę».\n\nPan przysiągł i tego nie odwoła: *\n\n«Ty jesteś kapłanem na wieki na wzór Melchizedeka».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\n\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 1-6",
+      "opis": "Uzdrowienie w dzień szabatu",
+      "tekst": "W dzień szabatu Jezus wszedł do synagogi. Był tam człowiek, który miał uschniętą rękę. A śledzili Go, czy uzdrowi go w szabat, żeby Go oskarżyć. On zaś rzekł do człowieka z uschłą ręką: «Podnieś się na środek!» A do nich powiedział: «Co wolno w szabat: uczynić coś dobrego czy coś złego? Życie uratować czy zabić? » Lecz oni milczeli. Wtedy spojrzawszy na nich dokoła z gniewem, zasmucony z powodu zatwardziałości ich serc, rzekł do człowieka: «Wyciągnij rękę!» Wyciągnął, i ręka jego stała się znów zdrowa. A faryzeusze wyszli i ze zwolennikami Heroda zaraz się naradzali przeciwko Niemu, w jaki sposób Go zgładzić. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta wzywa do uwielbienia Arcykapłana Nowego Przymierza, o którym mówi pierwsze czytanie i psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Jest to hymn na cześć Chrystusa, który jako wieczny Kapłan jest Królem Sprawiedliwości i Pokoju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń sławi Chrystusa jako Króla i Kapłana, którego panowanie zapowiada psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Jest to pieśń o kapłaństwie Chrystusa, który jest Królem Sprawiedliwości i Pokoju, jak Melchizedek.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń uwielbia Chrystusa, który swoje kapłaństwo kontynuuje w Kościele przez posługę kapłanów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni prosimy o przyjęcie ofiary, która jest uobecnieniem jedynej ofiary Chrystusa, Arcykapłana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który w szabat przywrócił zdrowie człowiekowi z uschniętą ręką.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Adoracyjna pieśń do Jezusa w Eucharystii, który ma moc uzdrawiać, jak to uczynił w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus, Pan szabatu, staje się dla nas Chlebem, pokazując, że czynienie dobra jest najważniejsze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jest to aklamacja na cześć Chrystusa Króla, którego panowanie opiewa psalm i którego władzę nad szabatem ukazuje Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn do Chrystusa Króla, który jest Kapłanem na wieki na wzór Melchizedeka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana, który jest naszym Kapłanem i uzdrowicielem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który uczy nas prawdziwego sensu Prawa i szabatu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy świadczyli o Jego uzdrawiającej mocy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o Chrystusie, który jest Panem szabatu i ma moc uzdrawiać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest zaproszeniem do Jezusa, który ma moc uzdrawiania i ratowania życia, nawet wbrew ludzkim przepisom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za taki cud należy uznać uzdrowienie w szabat, opisane w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus, Arcykapłan Nowego Przymierza, jest naszą nadzieją na uzdrowienie i zbawienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Wcieleniu, dzięki któremu Syn Boży mógł stać się Arcykapłanem i uzdrowicielem naszych słabości.",
+      "moment": "ogolne"
+    }
+  ]
+}

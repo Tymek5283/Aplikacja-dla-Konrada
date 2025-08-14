@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412887.Sroda-II-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "2 Środa Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 18, 18-20",
+      "opis": "Modlitwa prześladowanego Jeremiasza",
+      "tekst": "Niegodziwi rzekli: «Chodźcie, uknujemy zamach na Jeremiasza! Bo przecież nie zabraknie kapłanowi pouczenia ani mędrcowi rady, ani prorokowi słowa. Chodźcie, uderzmy go językiem, nie zważajmy wcale na jego słowa!» Usłysz mnie, Panie, i słuchaj głosu moich przeciwników! Czy złem za dobro się płaci? A oni wykopali dół dla mnie. Wspomnij, jak stawałem przed Tobą, aby się wstawiać za nimi, aby odwrócić od nich Twój gniew. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 31 (30), 5-6. 14. 15-16 (R.: 17b)",
+      "opis": "",
+      "tekst": "Refren: Wybaw mnie, Panie, w swoim miłosierdziu.\nWydobądź mnie z sieci zastawionej na mnie, *\n\nbo Ty jesteś moją ucieczką.\n\nW ręce Twoje powierzam ducha mego, *\n\nTy mnie odkupisz, Panie, wierny Boże.\nRefren.\nSłyszałem bowiem, jak wielu szeptało: *\n\n«Trwoga jest dokoła!»\n\nPrzeciw mnie się gromadzą, *\n\nzamierzając odebrać mi życie.\nRefren.\nJa zaś pokładam ufność w Tobie, Panie, *\n\ni mówię: «Ty jesteś moim Bogiem».\n\nW Twoim ręku są moje losy, *\n\nwyrwij mnie z rąk wrogów i prześladowców.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 12",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Ja jestem światłością świata,\n\nkto idzie za Mną, będzie miał światło życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 20, 17-28",
+      "opis": "Syn Człowieczy zostanie wydany na ukrzyżowanie",
+      "tekst": "Udając się do Jerozolimy, Jezus wziął osobno Dwunastu i w drodze rzekł do nich: «Oto idziemy do Jerozolimy: a tam Syn Człowieczy zostanie wydany arcykapłanom i uczonym w Piśmie. Oni skażą Go na śmierć i wydadzą Go poganom, aby został wyszydzony, ubiczowany i ukrzyżowany; a trzeciego dnia zmartwychwstanie». Wtedy podeszła do Niego matka synów Zebedeusza ze swoimi synami i oddawszy Mu pokłon, o coś Go prosiła. On ją zapytał: «Czego pragniesz?» Rzekła Mu: «Powiedz, żeby ci dwaj moi synowie zasiedli w Twoim królestwie jeden po prawej, a drugi po lewej Twej stronie». Odpowiadając zaś, Jezus rzekł: «Nie wiecie, o co prosicie. Czy możecie pić kielich, który Ja mam pić?» Odpowiedzieli Mu: «Możemy». On rzekł do nich: «Kielich mój wprawdzie pić będziecie. Nie do Mnie jednak należy dać miejsce po mojej stronie prawej i lewej, ale dostanie się ono tym, dla których mój Ojciec je przygotował». Gdy usłyszało to dziesięciu pozostałych, oburzyli się na tych dwóch braci. Lecz Jezus przywołał ich do siebie i rzekł: «Wiecie, że władcy narodów uciskają je, a wielcy dają im odczuć swą władzę. Nie tak będzie u was. Lecz kto by między wami chciał stać się wielkim, niech będzie waszym sługą. A kto by chciał być pierwszy między wami, niech będzie niewolnikiem waszym, tak jak Syn Człowieczy, który nie przyszedł, aby Mu służono, lecz aby służyć i dać swoje życie jako okup za wielu». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń ta wyraża skruchę z powodu grzechu, który jest przyczyną cierpienia proroków i samego Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą człowieka prześladowanego, który szuka ucieczki w Bogu, podobnie jak prorok Jeremiasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża prośbę o Bożą obronę przed niesprawiedliwością i złem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Utwór łączy cierpienie prześladowanego Jeremiasza z ofiarą Chrystusa, który przyszedł służyć i dać życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który jest sędzią sprawiedliwym i obrońcą uciśnionych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że prawdziwa wielkość polega na służbie, a nie na zaszczytach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń ta jest adoracją Serca Jezusa, który zapowiada swoją mękę i uczy prawdziwej wielkości w służbie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem w Jego Męce, aby móc z Nim pić kielich zbawienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który uniżył się, by nam służyć, i daje nam siebie w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu w prześladowaniach, o którym mówi psalmista i którego przykład daje prorok Jeremiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i ratunek wbrew knowaniom złych ludzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o ufności w Bożą Opatrzność, która chroni sprawiedliwego przed wszelkim złem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest odpowiedzią na naukę Jezusa o służbie i uniżeniu jako drodze do wielkości w Królestwie Bożym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i życia Ewangelią, której istotą jest służba na wzór Syna Człowieczego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, takich jak pokora i służba, a nie dążenie do zaszczytów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest modlitwą o Bożą pomoc w trudnościach i prześladowaniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalny charakter pieśni koresponduje z modlitwą Jeremiasza i psalmisty, którzy wołają do Boga w utrapieniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne do służby, a nie do szukania własnej chwały.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę naśladowania Chrystusa w Jego uniżeniu i służbie.",
+      "moment": "ogolne"
+    }
+  ]
+}

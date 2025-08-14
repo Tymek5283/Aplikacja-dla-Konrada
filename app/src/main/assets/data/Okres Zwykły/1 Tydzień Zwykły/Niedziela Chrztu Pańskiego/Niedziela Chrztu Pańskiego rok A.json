@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410451.Niedziela-Chrztu-Panskiego-rok-A",
+  "tytul_dnia": "Niedziela Chrztu Pańskiego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 42, 1-4. 6-7",
+      "opis": "Chrystus Sługą, w którym Bóg ma upodobanie",
+      "tekst": "To mówi Pan:\n\n«Oto mój Sługa, którego podtrzymuję, Wybrany mój, w którym mam upodobanie. Sprawiłem, że duch mój na Nim spoczął; on przyniesie narodom Prawo. Nie będzie wołał ni podnosił głosu, nie da słyszeć krzyku swego na dworze. Nie złamie trzciny nadłamanej, nie zgasi ledwo tlejącego się knotka. on rzeczywiście przyniesie Prawo. Nie zniechęci się ani nie załamie, aż utrwali Prawo na ziemi, a Jego pouczenia wyczekują wyspy. Ja, Pan, powołałem Cię słusznie, ująłem Cię za rękę i ukształtowałem, ustanowiłem Cię przymierzem dla ludzi, światłością dla narodów, abyś otworzył oczy niewidomym, ażebyś z zamknięcia wypuścił jeńców, z więzienia tych, co mieszkają w ciemności». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 29 (28), 1b-2. 3ac-4. 3b i 9b-10 (R.: por. 11b)",
+      "opis": "",
+      "tekst": "Refren: Pan ześle pokój swojemu ludowi.\nOddajcie Panu, synowie Boży, *\n\noddajcie Panu chwałę i sławcie Jego potęgę.\n\nOddajcie Panu chwałę Jego imienia, *\n\nna świętym dziedzińcu uwielbiajcie Pana.\nRefren.\nPonad wodami głos Pański, *\n\nPan ponad wód bezmiarem!\n\nGłos Pana potężny, *\n\ngłos Pana pełen dostojeństwa.\nRefren.\nZagrzmiał Bóg majestatu: *\n\na w Jego świątyni wszyscy mówią: «Chwała!»\n\nPan zasiadł nad potopem, *\n\nPan jako Król zasiada na wieki.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Dz 10, 34-38",
+      "opis": "Jezus został namaszczony Duchem Świętym",
+      "tekst": "Gdy Piotr przybył do domu setnika Korneliusza w Cezarei, przemówił w dłuższym wywodzie: «Przekonuję się, że Bóg naprawdę nie ma względu na osoby, ale w każdym narodzie miły jest Mu ten, kto się Go boi i postępuje sprawiedliwie. Posłał swe słowo synom Izraela, zwiastując im pokój przez Jezusa Chrystusa. On to jest Panem wszystkich. Wiecie, co się działo w całej Judei, począwszy od Galilei, po chrzcie, który głosił Jan. znacie sprawę Jezusa z Nazaretu, którego Bóg namaścił duchem Świętym i mocą. dlatego że Bóg był z Nim, przeszedł on, dobrze czyniąc i uzdrawiając wszystkich, którzy byli pod władzą diabła». Oto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 9, 7",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwarło się niebo i zabrzmiał głos ojca:\n\n«To jest mój Syn umiłowany, Jego słuchajcie»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 3, 13-17",
+      "opis": "Chrzest Jezusa",
+      "tekst": "Jezus przyszedł z Galilei nad Jordan do Jana, żeby przyjąć od niego chrzest. Lecz Jan powstrzymywał Go, mówiąc: «To ja potrzebuję chrztu od Ciebie, a Ty przychodzisz do mnie?» Jezus mu odpowiedział: «Ustąp teraz, bo tak godzi się nam wypełnić wszystko, co sprawiedliwe». Wtedy Mu ustąpił. A gdy Jezus został ochrzczony, natychmiast wyszedł z wody. A oto otworzyły się nad Nim niebiosa i ujrzał ducha Bożego zstępującego jak gołębica i przychodzącego nad Niego. A oto głos z nieba mówił: «Ten jest mój Syn umiłowany, w którym mam upodobanie». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "217",
+      "piesn": "O Stworzycielu, Duchu",
+      "opis": "Pieśń ta wzywa Ducha Świętego, który w Ewangelii zstąpił na Jezusa podczas chrztu w Jordanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, który spoczął na Jezusie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń o misji Jezusa, która rozpoczyna się chrztem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Wyraża wdzięczność za dary stworzenia, które składamy w ofierze, a które chrzest czyni nas godnymi ofiarować.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy owoce ziemi, a Bóg daje nam swego Syna, Sługę Jahwe.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "W zwrotkach na przygotowanie darów, pieśń ta wyraża sens ofiarowania chleba i wina, które staną się Ciałem i Krwią Pańską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do godności ludu ochrzczonych, którzy przez chrzest stają się ludem kapłańskim, królewskim i świętym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "W Komunii przyjmujemy Umiłowanego Syna Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus, namaszczony Duchem, zaspokaja najgłębsze pragnienia ludzkich serc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Trójcy Świętej, która objawiła się podczas chrztu Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "231",
+      "piesn": "Trójcy Najświętszej",
+      "opis": "Bezpośrednie uwielbienie Trójcy Świętej, która objawiła się nad Jordanem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "229",
+      "piesn": "Jeden w naturze",
+      "opis": "Kolejna pieśń trynitarna, idealnie pasująca do teofanii podczas chrztu Pańskiego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Chrzest jest początkiem misji, do której Jezus posyła swoich uczniów, aby nauczali i chrzcili wszystkie narody.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Posłani, by być światłością dla narodów, prosimy o stałą obecność Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o naszej wierze, którą przyjęliśmy na chrzcie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Sekwencja do Ducha Świętego przypomina o Jego zstąpieniu na Jezusa i na każdego ochrzczonego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Prosta modlitwa do Ducha Świętego, który namaścił Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Chrzest Jezusa rozpoczyna Jego drogę, która jest naszą drogą do zbawienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Chrzest Janowy był chrztem nawrócenia, a chrzest Jezusa otwiera drogę do nowego życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

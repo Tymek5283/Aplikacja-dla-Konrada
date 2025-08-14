@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413096.Poniedzialek-w-Oktawie-Wielkanocy",
+  "tytul_dnia": "Poniedziałek w Oktawie Wielkanocy",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 2, 14. 22b-32",
+      "opis": "Piotr głosi zmartwychwstanie Chrystusa",
+      "tekst": "W dniu Pięćdziesiątnicy stanął Piotr razem z Jedenastoma i przemówił donośnym głosem: «Mężowie Judejczycy i wszyscy mieszkańcy Jeruzalem, przyjmijcie do wiadomości i posłuchajcie uważnie mych słów! Jezusa Nazarejczyka, Męża, którego posłannictwo Bóg potwierdził wam niezwykłymi czynami, cudami i znakami, jakich Bóg przez Niego dokonał wśród was, o czym sami wiecie, tego Męża, który z woli, postanowienia i przewidzenia Boga został wydany, przybiliście rękami bezbożnych do krzyża i zabiliście. Lecz Bóg wskrzesił Go, zerwawszy więzy śmierci, gdyż niemożliwe było, aby ona panowała nad Nim, bo Dawid mówi o Nim: „Miałem Pana zawsze przed oczami, gdyż stoi po mojej prawicy, abym się nie zachwiał. Dlatego ucieszyło się moje serce i rozradował się mój język, także i moje ciało spoczywać będzie w nadziei, że nie zostawisz duszy mojej w Otchłani ani nie dasz Świętemu Twemu ulec rozkładowi. Dałeś mi poznać drogi życia i napełnisz mnie radością przed obliczem Twoim”. Bracia, wolno powiedzieć do was otwarcie, że patriarcha Dawid umarł i został pochowany w grobie, który znajduje się u nas aż po dzień dzisiejszy. Więc jako prorok, który wiedział, że Bóg przysiągł mu uroczyście, iż jego Potomek zasiądzie na jego tronie, widział przyszłość i przepowiedział zmartwychwstanie Mesjasza, że ani nie pozostanie w Otchłani, ani ciało Jego nie ulegnie rozkładowi. Tego właśnie Jezusa wskrzesił Bóg, a my wszyscy jesteśmy tego świadkami». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 16 (15), 1b-2a i 5. 7-8. 9-10. 11 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\n\nalbo: Alleluja.\nZachowaj mnie, Boże, bo chronię się do Ciebie, *\n\nmówię do Pana: «Ty jesteś Panem moim».\n\nPan moim dziedzictwem i przeznaczeniem, *\n\nto On mój los zabezpiecza.\nRefren.\nBłogosławię Pana, który dał mi rozsądek, *\n\nbo serce napomina mnie nawet nocą.\n\nZawsze stawiam sobie Pana przed oczy, *\n\nOn jest po mojej prawicy, nic mną nie zachwieje.\nRefren.\nDlatego cieszy się moje serce i dusza raduje, *\n\na ciało moje będzie spoczywać bezpiecznie,\n\nbo w kraju zmarłych duszy mej nie zostawisz *\n\ni nie dopuścisz, bym pozostał w grobie.\nRefren.\nTy ścieżkę życia mi ukażesz, *\n\npełnię radości przy Tobie\n\ni wieczne szczęście *\n\npo Twojej prawicy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 118 (117), 24",
+      "opis": "",
+      "tekst": "Aklamacja: Alleluja, alleluja, alleluja.\nOto dzień, który Pan uczynił,\n\nradujmy się nim i weselmy.\nAklamacja: Alleluja, alleluja, alleluja."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 28, 8-15",
+      "opis": "W kościołach, które obchodzą uroczystość „Emaus”, można odczytać Ewangelię Łk 24, 13-35 ze środy w oktawie Wielkanocy, s. 312.",
+      "tekst": "Gdy anioł przemówił do niewiast, one pośpiesznie oddaliły się od grobu, z bojaźnią i wielką radością, i pobiegły oznajmić to Jego uczniom. A oto Jezus stanął przed nimi, mówiąc: «Witajcie!». One podeszły do Niego, objęły Go za nogi i oddały Mu pokłon. A Jezus rzekł do nich: «Nie bójcie się! Idźcie i oznajmijcie moim braciom: niech udadzą się do Galilei, tam Mnie zobaczą». Gdy one były w drodze, niektórzy ze straży przyszli do miasta i powiadomili arcykapłanów o wszystkim, co zaszło. Ci zebrali się ze starszymi, a po naradzie dali żołnierzom sporo pieniędzy i rzekli: «Rozpowiadajcie tak: Jego uczniowie przyszli w nocy i wykradli Go, gdy spaliśmy. A gdyby to doszło do uszu namiestnika, my z nim pomówimy i wybawimy was z kłopotu». Ci więc wzięli pieniądze i uczynili, jak ich pouczono. I tak rozniosła się ta pogłoska między Żydami, i trwa aż do dnia dzisiejszego. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielką radość, która towarzyszyła niewiastom odchodzącym od grobu, o czym wspomina dzisiejsza Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "176",
+      "piesn": "Alleluja... O dniu radosny",
+      "opis": "Pieśń ta podkreśla radość dnia zmartwychwstania, w którym Chrystus spotyka niewiasty i posyła je do braci.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Słowa 'Pan zmartwychwstał i jest z nami' doskonale oddają doświadczenie niewiast, które spotkały żywego Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór ten podkreśla ofiarę Chrystusa, o której z mocą świadczy Piotr w Dziejach Apostolskich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której spotykamy Zmartwychwstałego Pana, tak jak spotkały Go niewiasty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Tekst pieśni wspomina o trzech Maryjach idących do grobu, co tematycznie łączy się z Ewangelią o spotkaniu niewiast ze Zmartwychwstałym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "W Komunii Świętej przyjmujemy Zmartwychwstałego Pana, który jest naszym pokarmem i źródłem radości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym spotkaniem ze Zmartwychwstałym, który daje nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Prosta i radosna pieśń jest proklamacją prawdy o Zmartwychwstaniu, którą Piotr odważnie głosi w Dziejach Apostolskich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego niewiasty z radością i bojaźnią adorowały.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Wyraża wielkanocną radość, która napełniła niewiasty i którą mają zanieść apostołom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "188",
+      "piesn": "Otrzyjcie już łzy",
+      "opis": "Pieśń opowiada o wydarzeniach wielkanocnego poranka i jest pieśnią pocieszenia, podobnie jak słowa Jezusa do niewiast: 'Nie bójcie się!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Niewiasty jako pierwsze otrzymują misję głoszenia Zmartwychwstania, stając się 'apostołkami apostołów'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które niewiasty zaniosły apostołom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Słowa pieśni korespondują z mową św. Piotra, który głosi, że Bóg wskrzesił Jezusa, zerwawszy więzy śmierci.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, którą niewiasty zaniosły apostołom.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa jest fundamentem wiary i radości, które towarzyszyły niewiastom.",
+      "moment": "ogólne"
+    }
+  ]
+}

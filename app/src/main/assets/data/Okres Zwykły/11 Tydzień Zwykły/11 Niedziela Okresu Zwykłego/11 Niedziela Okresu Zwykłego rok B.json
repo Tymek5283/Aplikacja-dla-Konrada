@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417212.11-Niedziela-zwykla-rok-B",
+  "tytul_dnia": "11 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 17, 22-24",
+      "opis": "Bóg wywyższa drzewo niskie",
+      "tekst": "Tak mówi Pan Bóg: «Ja także wezmę wierzchołek z wysokiego cedru i zasadzę, z najwyższych jego pędów ułamię gałązkę i zasadzę ją na górze wyniosłej i wysokiej.\nNa wysokiej górze izraelskiej ją zasadzę. Ona wypuści gałązki i wyda owoc, i stanie się cedrem wspaniałym. Wszystko ptactwo pod nim zamieszka, wszystkie istoty skrzydlate zamieszkają w cieniu jego gałęzi.\nI wszystkie drzewa na polu poznają, że Ja jestem Pan, który poniża drzewo wysokie, który drzewo niskie wywyższa, który sprawia, że drzewo zielone usycha, który zieloność daje drzewu suchemu. Ja, Pan, rzekłem i to uczynię».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 92 (91), 2-3. 13-14. 15-16 (R.: por. 2)",
+      "opis": "",
+      "tekst": "Refren: Dobrze jest śpiewać Tobie, Panie Boże.\nDobrze jest dziękować Panu, *\nśpiewać Twojemu imieniu, Najwyższy,\nrano głosić Twoją łaskawość, *\na wierność Twoją nocami.\nRefren.\nSprawiedliwy zakwitnie jak palma, *\nrozrośnie się jak cedr na Libanie.\nZasadzeni w domu Pańskim *\nrozkwitną na dziedzińcach naszego Boga.\nRefren.\nNawet i w starości wydadzą owoc, *\nzawsze pełni życiodajnych soków,\naby świadczyć, że Pan jest sprawiedliwy, *\nOn moją Opoką i nie ma w Nim nieprawości.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 5, 6-10",
+      "opis": "Staramy się podobać Bogu",
+      "tekst": "Bracia:\nMając ufność, wiemy, że jak długo pozostajemy w ciele, jesteśmy pielgrzymami, z daleka od Pana. Albowiem według wiary, a nie dzięki widzeniu postępujemy. Mamy jednak nadzieję i chcielibyśmy raczej opuścić nasze ciało i stanąć w obliczu Pana.\nDlatego też staramy się Jemu podobać, czy to gdy z Nim, czy gdy z daleka od Niego jesteśmy. Wszyscy bowiem musimy stanąć przed trybunałem Chrystusa, aby każdy otrzymał zapłatę za uczynki dokonane w ciele, złe lub dobre.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 4, 26-34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 26-34",
+      "opis": "Przypowieść o ziarnku gorczycy",
+      "tekst": "Jezus mówił do tłumów:\n«Z królestwem Bożym dzieje się tak, jak gdyby ktoś nasienie wrzucił w ziemię. Czy śpi, czy czuwa, we dnie i w nocy, nasienie kiełkuje i rośnie, sam nie wie jak. Ziemia sama z siebie wydaje plon, najpierw źdźbło, potem kłos, a potem pełne ziarno w kłosie. Gdy zaś plon dojrzeje, zaraz zapuszcza sierp, bo pora już na żniwo».\nMówił jeszcze: «Z czym porównamy królestwo Boże lub w jakiej przypowieści je przedstawimy? Jest ono jak ziarnko gorczycy; gdy się je wsiewa w ziemię, jest najmniejsze ze wszystkich nasion na ziemi. Lecz wsiane, wyrasta i staje się większe od innych jarzyn; wypuszcza wielkie gałęzie, tak że ptaki podniebne gnieżdżą się w jego cieniu».\nW wielu takich przypowieściach głosił im naukę, o ile mogli ją rozumieć. A bez przypowieści nie przemawiał do nich. Osobno zaś objaśniał wszystko swoim uczniom.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym dziękczynieniem, do którego wzywa psalm responsoryjny, sławiąc Boga za Jego dzieła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to wezwanie całego stworzenia do chwalenia Pana, którego moc objawia się w przyrodzie i w Jego Królestwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń sławi Boga jako wszechmocnego Króla, który z małych rzeczy czyni wielkie cuda, jak ziarno gorczycy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarujemy Bogu proste dary, ziarna, które On swoją mocą przemienia i daje im wzrost, podobnie jak Królestwu Bożemu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosimy Boga, aby przyjął nasze dary, tak jak przyjmuje ziarno rzucone w ziemię i daje mu wzrost.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, prosząc, by zasiał w nich ziarno swojego Królestwa i dał mu wzrastać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Królestwo Boże, wyrosłe z małego ziarna, gromadzi wielu; podobnie Eucharystia jednoczy nas w jedno Ciało Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Bóg zaprasza nas do swojego Królestwa, którego obrazem jest Uczta Eucharystyczna, gdzie karmi nas Chlebem Życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "W Komunii Świętej przyjmujemy Chrystusa, który jest Siewcą i Ziarnem Królestwa Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym dziękczynieniem za Bożą dobroć, o której śpiewa psalmista, i za dar Królestwa Bożego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękujemy Bogu za Jego łaskawość i wierność, dzięki którym sprawiedliwy zakwitnie jak palma.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "227",
+      "piesn": "Chwała Ojcu i Synowi",
+      "opis": "Doksologia jest doskonałym sposobem na oddanie chwały Bogu za tajemniczy wzrost Jego Królestwa w świecie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by siać ziarno Ewangelii, ufając, że to Bóg daje wzrost swojemu Królestwu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Na zakończenie Mszy prosimy, aby Królestwo Boże, o którym słyszeliśmy w przypowieściach, wzrastało w nas i na całym świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo na naszą pracę siania ziarna Słowa Bożego w codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Kościół jest obrazem Królestwa Bożego, które jak wielkie drzewo daje schronienie wszystkim narodom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wzrost Królestwa Bożego jest tajemnicą; pieśń ta wyraża zaufanie Bogu, który działa w ukryciu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prosimy o umocnienie wiary, abyśmy mogli dostrzec i przyjąć Królestwo Boże, które wzrasta w świecie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wiarę, że idąc za Chrystusem, podążamy drogą do pełni Królestwa Bożego.",
+      "moment": "ogolne"
+    }
+  ]
+}

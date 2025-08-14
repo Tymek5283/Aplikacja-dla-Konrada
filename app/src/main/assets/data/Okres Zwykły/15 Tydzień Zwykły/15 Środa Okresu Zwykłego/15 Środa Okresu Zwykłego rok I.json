@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426789.Sroda-XV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "15 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 3, 1-6. 9-12",
+      "opis": "Bóg objawia się Mojżeszowi",
+      "tekst": "Gdy Mojżesz pasł owce swego teścia imieniem Jetro, kapłana Madianitów, zaprowadził owce w głąb pustyni i doszedł do Góry Bożej Horeb. Wtedy ukazał mu się Anioł Pański w płomieniu ognia, ze środka krzewu. Mojżesz widział, jak krzew płonął ogniem, a nie spłonął od niego.\nWtedy Mojżesz powiedział do siebie: «Podejdę, żeby się przyjrzeć temu niezwykłemu zjawisku. Dlaczego krzew się nie spala?» Gdy zaś Pan ujrzał, że podchodzi, by się przyjrzeć, zawołał Bóg do niego ze środka krzewu: «Mojżeszu, Mojżeszu!»\nOn zaś odpowiedział: «Oto jestem».\nRzekł mu Bóg: «Nie zbliżaj się tu! Zdejmij sandały z nóg, gdyż miejsce, na którym stoisz, jest ziemią świętą».\nPowiedział jeszcze Pan: «Jestem Bogiem ojca twego, Bogiem Abrahama, Bogiem Izaaka i Bogiem Jakuba». Mojżesz zasłonił twarz, bał się bowiem zwrócić oczy na Boga.\nPan mówił: «Teraz oto doszło do Mnie wołanie Izraelitów, bo też naocznie przekonałem się o cierpieniach, jakie im zadają Egipcjanie: Idź przeto teraz, oto posyłam cię do faraona, i wyprowadź mój lud, Izraelitów, z Egiptu».\nA Mojżesz odrzekł Bogu: «Kimże jestem, bym miał iść do faraona i wyprowadzić Izraelitów z Egiptu?» A On powiedział: «Ja będę z tobą. Znakiem zaś dla ciebie, że Ja cię posłałem, będzie to, iż po wyprowadzeniu tego ludu z Egiptu oddacie cześć Bogu na tej górze».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 6-7 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nDzieła Pana są sprawiedliwe, *\nwszystkich uciśnionych ma w swojej opiece.\nDrogi swoje objawił Mojżeszowi, *\nswoje dzieła synom Izraela.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 25-27",
+      "opis": "Tajemnice królestwa objawione prostaczkom",
+      "tekst": "W owym czasie Jezus przemówił tymi słowami:\n«Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nWszystko przekazał Mi Ojciec mój. Nikt też nie zna Syna, tylko Ojciec, ani Ojca nikt nie zna, tylko Syn i ten, komu Syn zechce objawić».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Pieśń adoracyjna, która oddaje postawę Mojżesza, zdejmującego sandały i zasłaniającego twarz przed Bogiem na świętej ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Wezwanie do oddania czci Bogu, który objawia się w sposób tak niezwykły, jak w płonącym krzewie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "691",
+      "piesn": "Z pokorą upadamy",
+      "opis": "Pieśń wyraża postawę pokory i czci wobec świętości Boga, której doświadczył Mojżesz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec objawienia się jedynego Boga, ta pieśń jest aktem wyznania wiary i ofiarowania Mu swojego życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu nasze życie, odpowiadając na Jego wezwanie, tak jak Mojżesz odpowiedział na swoje powołanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, który jest łaskawy i pełen miłosierdzia, jak głosi psalm.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń wyraża postawę pokory i uniżenia, która jest warunkiem przyjęcia objawienia, danego prostaczkom.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Ewangelia mówi o objawieniu tajemnic prostaczkom, a ta pieśń jest wyrazem pokornej wiary w tajemnicę Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Jezusa, który objawia nam Ojca, co jest centralnym tematem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Pieśń jest parafrazą psalmu 103, który jest psalmem responsoryjnym tego dnia i wychwala Boże miłosierdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który odpuszcza winy i leczy choroby, o czym śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za wszystkie dobrodziejstwa Boże, o których przypomina psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Mojżesz został posłany, by wyprowadzić lud z niewoli, a my jesteśmy posłani, by głosić Ewangelię o zbawieniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po spotkaniu z Bogiem, wychodzimy w świat, by głosić Jego panowanie i prowadzić innych do Niego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo na naszą misję, tak jak Bóg obiecał Mojżeszowi swoją obecność.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Obietnica 'Ja będę z tobą' dana Mojżeszowi jest źródłem ufności, którą wyraża ta pieśń.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń wysławia Boga, który objawia się człowiekowi w niezwykły sposób i powołuje go do wielkich dzieł.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Jezus objawia nam Ojca, rozpraszając ciemności niewiedzy i grzechu.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieni są prostaczkowie, którym Ojciec objawił tajemnice Królestwa, co jest głównym tematem Ewangelii.",
+      "moment": "ogólne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 112,1-2.5-6.7-8.9",
-      "opis": "Refren:",
-      "tekst": "Mąż sprawiedliwy obdarza ubogich.\nBłogosławiony człowiek, który boi się Pana\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi,\ndostąpi błogosławieństwa pokolenie prawych.\nDobrze się wiedzie człowiekowi, który z litości pożycza\ni swymi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje\ni pozostanie w wiecznej pamięci.\nNie przelęknie się złej nowiny,\njego mocne serce zaufało Panu.\nJego wierne serce lękać się nie będzie\ni spojrzy z wysoka na swych przeciwników.\nRozdaje i obdarza ubogich,\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą\nbędzie jego potęga."
+      "opis": "",
+      "tekst": "Refren:\nMąż sprawiedliwy obdarza ubogich.\nBłogosławiony człowiek, który boi się Pana\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi,\ndostąpi błogosławieństwa pokolenie prawych.\nDobrze się wiedzie człowiekowi, który z litości pożycza\ni swymi sprawami zarządza uczciwie.\nSprawiedliwy nigdy się nie zachwieje\ni pozostanie w wiecznej pamięci.\nNie przelęknie się złej nowiny,\njego mocne serce zaufało Panu.\nJego wierne serce lękać się nie będzie\ni spojrzy z wysoka na swych przeciwników.\nRozdaje i obdarza ubogich,\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą\nbędzie jego potęga."
     },
     {
       "typ": "AKLAMACJA",
@@ -32,43 +32,115 @@
     {
       "numer": "500",
       "piesn": "Nie bez ran ten bój się toczył",
-      "opis": "Pieśń ta, dedykowana św. Wawrzyńcowi, opisuje jego męczeństwo jako zwycięską walkę, co idealnie pasuje na rozpoczęcie liturgii.",
+      "opis": "Pieśń poświęcona św. Wawrzyńcowi opisuje jego męczeństwo jako zwycięską walkę, co jest idealnym wprowadzeniem w liturgię tego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Ogólna pieśń na cześć męczennika, która podkreśla jego wierność Chrystusowi i stanowi uroczyste rozpoczęcie Mszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten, sławiąc zastępy męczenników, wprowadza nas w tajemnicę święta, w którym czcimy jednego z nich.",
       "moment": "wejscie"
     },
     {
       "numer": "574",
       "piesn": "Wielbimy Ciebie, wszechmogący Boże",
-      "opis": "Hymn ku czci męczenników, który podkreśla wartość ich ofiary, jest doskonały na przygotowanie darów, ofiarowując Bogu ich przykład.",
+      "opis": "Utwór ten jest hymnem dziękczynnym za świadectwo męczenników, których ofiara krwi, podobnie jak dary chleba i wina, użyźnia Kościół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ta łączy ofiarę chleba i wina z ofiarą naszego życia, na wzór męczeńskiej ofiary św. Wawrzyńca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Święty Wawrzyniec, rozdając dobra ubogim, wypełnił przykazanie miłości, o którym przypomina ta pieśń.",
       "moment": "ofiarowanie"
     },
     {
       "numer": "1",
       "piesn": "Błogosławieni",
-      "opis": "Pieśń o błogosławieństwach dobrze oddaje postawę św. Wawrzyńca, który służąc ubogim i oddając życie, osiągnął wieczną nagrodę.",
+      "opis": "Pieśń ta, a zwłaszcza słowa o miłosierdziu wobec braci, nawiązuje do tradycji o św. Wawrzyńcu, który skarbami Kościoła nazwał ubogich.",
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn 'Te Deum' jest odpowiednim dziękczynieniem za świadectwo męczennika, którego 'orszszak biały' wielbi Boga w niebie.",
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w jedno Ciało, a miłość do ubogich, której wzorem był św. Wawrzyniec, jest owocem tego zjednoczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta podkreśla, że miłość Chrystusa w Eucharystii uzdalnia nas do miłości ofiarnej, jaką okazał św. Wawrzyniec.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten jest bezpośrednim uwielbieniem Boga za dar świętości, jakim obdarzył On Wawrzyńca, co stanowi doskonałe dziękczynienie za jego męczeńskie świadectwo.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn wdzięczności za Boże dary, w tym za dar życia i świadectwa św. Wawrzyńca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna, która pozwala wyrazić wdzięczność Bogu za przykład męstwa i miłości patrona dnia.",
       "moment": "uwielbienie"
     },
     {
       "numer": "575",
       "piesn": "Witaj, święty męczenniku",
-      "opis": "Pieśń ta jest hołdem dla męczennika, który wiernie stał przy Chrystusie, co jest przesłaniem dzisiejszego święta na rozesłanie.",
+      "opis": "Pieśń ta jest hołdem dla męczennika, który wiernie stał przy Chrystusie, co stanowi wzór i posłanie dla wiernych na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo w pracy i trudzie, uświęconych przykładem św. Wawrzyńca, który służył Bogu i ubogim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o wierności Chrystusowi, nawet za cenę życia, doskonale oddaje ducha męczeństwa św. Wawrzyńca.",
       "moment": "rozeslanie"
     },
     {
       "numer": "554",
       "piesn": "Racz być, Chryste, przebłagany",
-      "opis": "Modlitwa za wstawiennictwem męczenników, która prosi o ich pomoc w drodze do nieba, jest dobrym wyborem na ten dzień.",
+      "opis": "Pieśń jest modlitwą o wstawiennictwo chóru męczenników, do którego dołączył św. Wawrzyniec, prosząc o odpuszczenie grzechów.",
       "moment": "ogolne"
     },
     {
       "numer": "584",
       "piesn": "Święci, niebieskiej mieszkańcy krainy",
-      "opis": "Pieśń ta zwraca się do wszystkich świętych, w tym męczenników, z prośbą o wstawiennictwo i opiekę.",
+      "opis": "Jest to ogólna pieśń do świętych patronów, która pasuje do dnia każdego świętego, prosząc o ich wstawiennictwo.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla godność ludu Bożego, którego służbą i ofiarą był św. Wawrzyniec jako diakon Kościoła Rzymskiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń głosi, że Chrystus jest nadzieją, która zwycięża śmierć, co jest fundamentem męstwa każdego męczennika.",
       "moment": "ogolne"
     }
   ]

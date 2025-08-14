@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430473.Piatek-XVII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "17 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kpł 23, 1. 4-11. 15-16. 27. 34b-37",
+      "opis": "Święta Izraela",
+      "tekst": "Pan przemówił do Mojżesza tymi słowami: «Oto czasy święte dla Pana, zwołania święte, na które wzywać ich będziecie w określonym czasie. W pierwszym miesiącu, czternastego dnia miesiąca, o zmierzchu, jest Pascha dla Pana. A piętnastego dnia tego miesiąca jest Święto Przaśników dla Pana - przez siedem dni będziecie jedli tylko przaśne chleby. Pierwszego dnia będzie dla was zwoła nie święte: nie będziecie wykonywać żadnej pracy. Przez siedem dni będziecie składali w ofierze dla Pana ofiarę spalaną, siódmego dnia będzie święte zwołanie, nie będziecie w tym dniu wykonywać żadnej pracy».\nPotem Pan powiedział do Mojżesza: «Przemów do Izraelitów i powiedz im: Kiedy wejdziecie do ziemi, którą Ja wam dam, i zbierzecie plon, przyniesiecie kapłanowi snop jako pierwociny waszego plonu. On wykona gest kołysania snopa przed Panem, aby był przez Niego łaskawie przyjęty. Wykona nim gest kołysania w następnym dniu po szabacie.\nI odliczycie sobie od dnia po szabacie, od dnia, w którym przyniesiecie snopy, aby wykonano nimi gest kołysania, siedem pełnych tygodni, aż do dnia po siódmym szabacie odliczycie pięćdziesiąt dni i wtedy złożycie nową ofiarę pokarmową dla Pana.\nDziesiątego dnia siódmego miesiąca jest Dzień Przebłagania. Będzie to dla was zwołanie święte. Będziecie pościć i będziecie składać Panu ofiary spalane.\nPiętnastego dnia tego siódmego miesiąca jest Święto Namiotów, przez siedem dni, dla Pana. Pierwszego dnia jest zwołanie święte: nie będziecie wykonywać żadnej pracy. Przez siedem dni będziecie składać ofiary spalane dla Pana. Ósmego dnia będzie dla was zwołanie święte i złożycie ofiarę spalaną dla Pana. To jest uroczyste zgromadzenie. Nie będziecie wykonywać w tym dniu żadnej pracy.\nTo są czasy święte dla Pana, na które będziecie dokonywać świętego zwołania, aby składać ofiarę spalaną dla Pana: ofiarę całopalną, ofiarę pokarmową, ofiarę krwawą i ofiarę płynną, każdego dnia to, co jest na ten dzień przeznaczone».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 81 (80), 3-4. 5-6b. 10-11b (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Śpiewajcie Bogu, naszemu Obrońcy.\nZacznijcie śpiewać i w bęben uderzcie, *\nw cytrę słodko dźwięczącą i lirę.\nZadmijcie w róg w czas nowiu, *\nw czas pełni, w nasz dzień uroczysty.\nRefren.\nBo tak ustanowiono w Izraelu *\nprzykazania Boga Jakuba.\nUstanowił to prawo dla Józefa, *\ngdy wyruszał z ziemi egipskiej.\nRefren.\nNie będziesz miał obcego boga, *\ncudzemu bogu nie będziesz się kłaniał.\nJa jestem Panem, Bogiem twoim, *\nktóry cię wywiódł z ziemi egipskiej.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 P 1, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Pana trwa na wieki.\nWłaśnie to słowo ogłoszono wam jako Dobrą Nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 54-58",
+      "opis": "Jezus lekceważony w Nazarecie",
+      "tekst": "Jezus, przyszedłszy do swego miasta rodzinnego, nauczał ich w synagodze, tak że byli zdumieni i pytali: «Skąd u Niego ta mądrość i cuda? Czyż nie jest On synem cieśli? Czy Jego Matce nie jest na imię Mariam, a Jego braciom Jakub, Józef, Szymon i Juda? Także Jego siostry czy nie żyją wszystkie u nas? Skądże więc u Niego to wszystko?» I powątpiewali o Nim.\nA Jezus rzekł do nich: «Tylko w swojej ojczyźnie i w swoim domu może być prorok lekceważony». I niewiele zdziałał tam cudów z powodu ich niedowiarstwa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest wezwaniem do radosnego świętowania, co nawiązuje do pierwszego czytania o świętach Pana i do psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest bezpośrednim wezwaniem do gromadzenia się na 'święte zwołanie', o którym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały, który oddaje uroczysty charakter świąt Pańskich opisanych w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowujemy Bogu chleb i wino, prosząc o wiarę, której zabrakło mieszkańcom Nazaretu, by rozpoznać w nich Ciało i Krew Pańską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża postawę skruchy i wiary, której zabrakło mieszkańcom Nazaretu, a która jest konieczna do złożenia miłej Bogu ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, która łączy owoce naszej pracy z ofiarą eucharystyczną, nawiązując do ofiar z pierwocin plonów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory, której zabrakło rodakom Jezusa, a która jest konieczna, by przyjąć Go w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest mocnym wyznaniem wiary w Jezusa, której zabrakło Jego rodakom, a która otwiera nas na cud Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę wiary, która potrafi dostrzec Boga ukrytego pod postaciami eucharystycznymi, w przeciwieństwie do niedowiarstwa mieszkańców Nazaretu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosny charakter tej pieśni dobrze koresponduje z wezwaniem psalmu: 'Zacznijcie śpiewać i w bęben uderzcie'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń dziękczynienia za dar wiary i Eucharystii, który pozwala nam rozpoznać i przyjąć Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta i bezpośrednia pieśń dziękczynna za dar samego Chrystusa, którego Jego rodacy nie potrafili przyjąć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odrzucenie Jezusa w Nazarecie jest zapowiedzią Jego misji skierowanej do wszystkich narodów, do czego wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi i Jego Kościołowi, nawet w obliczu odrzucenia i niezrozumienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń przypomina, że misja Chrystusa trwa przez wieki pomimo odrzucenia, a my jesteśmy posłani, by w niej uczestniczyć.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Mieszkańcy Nazaretu nie rozpoznali w Jezusie Mesjasza, a ta pieśń jest wyznaniem Jego królewskiej godności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do przezwyciężenia niedowiarstwa i zbliżenia się do Jezusa, Syna Bożego i Syna cieśli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to bezpośrednia prośba o umocnienie wiary, której brak uniemożliwił Jezusowi dokonanie cudów w Nazarecie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o tajemnicy Wcielenia, która stała się dla mieszkańców Nazaretu powodem zgorszenia i niedowiarstwa.",
+      "moment": "ogolne"
+    }
+  ]
+}

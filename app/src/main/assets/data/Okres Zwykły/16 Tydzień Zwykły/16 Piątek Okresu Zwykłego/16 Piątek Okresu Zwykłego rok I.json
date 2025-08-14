@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430387.Piatek-XVI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "16 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 20, 1-17",
+      "opis": "Bóg ogłasza przykazania",
+      "tekst": "W owych dniach mówił Bóg wszystkie te słowa:\n«Ja jestem Pan, Bóg twój, który cię wyprowadził z ziemi egipskiej, z domu niewoli. Nie będziesz miał cudzych bogów obok Mnie! Nie będziesz czynił żadnej rzeźby ani żadnego obrazu tego, co jest na niebie wysoko, ani tego, co jest na ziemi nisko, ani tego, co jest w wodach pod ziemią! Nie będziesz oddawał im pokłonu i nie będziesz im służył, bo Ja Pan, Bóg twój, jestem Bogiem zazdrosnym, który za nieprawość ojców karze synów do trzeciego i czwartego pokolenia, tych, którzy Mnie nienawidzą. Okazuję zaś łaskę aż do tysiącznego pokolenia tym, którzy Mnie miłują i przestrzegają moich przykazań.\nNie będziesz wzywał imienia Pana, Boga twego, w błahych rzeczach, bo nie pozwoli Pan, by pozostał bezkarny ten, kto wzywa Jego imienia w błahych rzeczach.\nPamiętaj o dniu szabatu, aby go uświęcić. Sześć dni będziesz się trudził i wykonywał wszystkie swoje zajęcia. Dzień zaś siódmy jest szabatem Pana, Boga twego. Nie będziesz przeto w dniu tym wykonywał żadnej pracy ani ty sam, ani syn twój, ani twoja córka, ani twój niewolnik, ani twoja niewolnica, ani twoje bydło, ani przybysz, który przebywa w twoich bramach. W sześć dni bowiem uczynił Pan niebo, ziemię, morze oraz wszystko, co jest w nich, siódmego zaś dnia odpoczął. Dlatego pobłogosławił Pan dzień szabatu i uznał go za święty.\nCzcij twego ojca i twoją matkę, abyś długo żył na ziemi, którą Pan, Bóg twój, ci daje.\nNie będziesz zabijał.\nNie będziesz cudzołożył.\nNie będziesz kradł.\nNie będziesz mówił przeciw bliźniemu twemu kłamstwa jako świadek.\nNie będziesz pożądał domu twojego bliźniego. Nie będziesz pożądał żony bliźniego twego, ani jego niewolnika, ani jego niewolnicy, ani jego wołu, ani jego osła, ani żadnej rzeczy, która należy do twego bliźniego».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8-9. 10-11 (R.: por. J 6, 68c)",
+      "opis": "",
+      "tekst": "Refren: Słowa Twe, Panie, dają życie wieczne.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 18-23",
+      "opis": "Wyjaśnienie przypowieści o siewcy",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Posłuchajcie przypowieści o siewcy. Do każdego, kto słucha słowa o królestwie, a nie rozumie go, przychodzi Zły i porywa to, co zasiane jest w jego sercu. Takiego człowieka oznacza ziarno posiane na drodze.\nPosiane na grunt skalisty oznacza tego, kto słucha słowa i natychmiast z radością je przyjmuje; ale nie ma w sobie korzenia i jest niestały. Gdy przyjdzie ucisk lub prześladowanie z powodu słowa, zaraz się załamuje.\nPosiane między ciernie oznacza tego, kto słucha słowa, lecz troski doczesne i ułuda bogactwa zagłuszają słowo, tak że zostaje bezowocne.\nPosiane wreszcie na ziemię żyzną oznacza tego, kto słucha słowa i rozumie je. On też wydaje plon: jeden stokrotny, drugi sześćdziesięciokrotny, inny trzydziestokrotny».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do zgromadzenia się przed Panem, by przyjąć Jego Słowo i zawrzeć z Nim przymierze, jak Izrael na Synaju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za Boże przykazania, które są darem i drogą do życia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Kościół jest ludem Nowego Przymierza, a ta pieśń jest modlitwą o jego jedność i pokój.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowujemy Bogu chleb i wino jako znak naszego przymierza, które w pełni objawiło się w Krwi Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, ofiarujemy naszą wolę, by wypełniać słowa Przymierza, jak obiecał lud Izraela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które pragnie zachowywać Boże przykazania z miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Krew przymierza z Księgi Wyjścia jest zapowiedzią Krwi Chrystusa, która w Eucharystii gromadzi nas w jeden Kościół, pole z pszenicą i chwastem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który umacnia nas w wierności przymierzu i pomaga być żyzną glebą dla Słowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Przyjmując Ciało Chrystusa, przyjmujemy Słowo, które ma moc zbawić nasze dusze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Psalm wzywa do składania dziękczynnej ofiary, a ta pieśń jest radosnym dziękczynieniem za dar Nowego Przymierza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga za Jego Prawo, które jest doskonałe i pokrzepia duszę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za dar Jego przykazań i za łaskę, która uzdalnia nas do wydawania owocu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po przyjęciu Słowa i pokarmu eucharystycznego jesteśmy posłani, by być 'żyzną glebą' i świadczyć o Królestwie Bożym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy mogli wiernie wypełniać słowa Przymierza w naszym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest kluczem do zrozumienia Słowa i wydania owocu, o czym mówi dzisiejsza Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o czyste serce, które będzie żyzną glebą dla Słowa Bożego i będzie zdolne zachowywać przykazania.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Przykazania Boże, a zwłaszcza przykazanie miłości, są fundamentem jedności wspólnoty Kościoła.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba do Ducha Świętego o zrozumienie Słowa Bożego, aby nie zostało ono porwane przez Złego.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana i Jego Słowa, które jest pewne i uczy mądrości.",
+      "moment": "ogólne"
+    }
+  ]
+}

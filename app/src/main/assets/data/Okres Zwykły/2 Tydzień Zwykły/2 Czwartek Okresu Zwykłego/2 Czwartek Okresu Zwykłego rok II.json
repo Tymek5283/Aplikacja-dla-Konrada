@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411051.Czwartek-II-tydzien-zwykly-rok-II",
+  "tytul_dnia": "2 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 18, 6-9; 19, 1-7",
+      "opis": "Saul zazdrości Dawidowi uznania",
+      "tekst": "Gdy Dawid wracał po zabiciu Filistyna, kobiety ze wszystkich miast wyszły ze śpiewem i tańcami naprzeciw króla Saula, przy wtórze bębnów, okrzyków i cymbałów. I zaśpiewały kobiety wśród grania i tańców: «Pobił Saul tysiące, a Dawid dziesiątki tysięcy». A Saul bardzo się rozgniewał, bo nie podobały mu się te słowa. Mówił: «Dawidowi przyznały dziesiątki tysięcy, a mnie tylko tysiące. Brak mu jedynie królowania». I od tego dnia Saul patrzył na Dawida zazdrosnym okiem. Saul namawiał syna swego, Jonatana, i wszystkie sługi swoje, by zabili Dawida. Jonatan jednak bardzo upodobał sobie Dawida. Uprzedził więc Jonatan Dawida, mówiąc: «Ojciec mój, Saul, pragnie cię zabić. Od rana miej się na baczności; udaj się do jakiejś kryjówki i pozostań w ukryciu. Tymczasem ja pójdę, by stanąć przy mym ojcu na polu, gdzie ty się będziesz znajdował. Ja sam porozmawiam o tobie z ojcem. Zobaczę, co będzie, i o tym cię zawiadomię». Jonatan mówił życzliwie o Dawidzie ze swym ojcem, Saulem; powiedział mu: «Niechaj nie zgrzeszy król przeciw swojemu słudze, Dawidowi! Nie zawinił on przeciw tobie, a czyny jego są dla ciebie bardzo pożyteczne. On przecież swoje życie narażał, on zabił Filistyna, dzięki niemu Pan dał całemu Izraelowi wielkie zwycięstwo. Patrzyłeś na to i cieszyłeś się. Dlaczego więc masz zamiar zgrzeszyć przeciw niewinnej krwi, bez przyczyny zabijając Dawida?» Posłuchał Saul Jonatana i złożył przysięgę: «Na życie Pana, nie będzie zabity!» Zawołał Jonatan Dawida i powtórzył mu całą rozmowę. Potem zaprowadził Dawida do Saula i Dawid został u niego jak poprzednio. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 56 (55), 2-3. 9-10. 12-13 (R.: por. 5b)",
+      "opis": "",
+      "tekst": "Refren: Refren: Bogu zaufam, nie będę się lękał.\nZmiłuj się nade mną, Boże, bo prześladuje mnie człowiek, *\n uciska mnie w nieustannej walce.\n Wrogowie moi wciąż mnie prześladują, *\n liczni są ci, którzy ze mną walczą.\n \n Refren.\n \n Ty zapisałeś moje życie tułacze †\n i przechowałeś łzy moje w swym bukłaku, *\n czyż nie są spisane w Twej księdze?\n Odstąpią moi wrogowie w dniu, gdy Cię wezwę, *\n po tym poznam, że Bóg jest ze mną.\n \n Refren.\n \n W Bogu pokładam nadzieję, nie będę się lękał, *\n cóż może uczynić mi człowiek?\n Wiążą mnie, Boże, śluby, które Ci złożyłem, *\n Tobie oddam ofiary pochwalne.\n \n Refren.\n \n "
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\n\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 7-12",
+      "opis": "Podziw tłumów dla Jezusa",
+      "tekst": "Jezus oddalił się ze swymi uczniami w stronę jeziora. A przyszło za Nim wielkie mnóstwo ludzi z Galilei. Także z Judei, z Jerozolimy, z Idumei i Zajordania oraz z okolic Tyru i Sydonu szło do Niego mnóstwo wielkie na wieść o tym, jak wiele działał. Toteż polecił swym uczniom, żeby łódka była dla Niego stale w pogotowiu ze względu na tłum, aby na Niego nie napierano. Wielu bowiem uzdrowił i wskutek tego wszyscy, którzy mieli jakieś choroby, cisnęli się do Niego, aby Go dotknąć. Nawet duchy nieczyste, na Jego widok, padały przed Nim i wołały: «Ty jesteś Syn Boży». Lecz On surowo im zabraniał, żeby Go nie ujawniały. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do przyjścia do Jezusa, tak jak czyniły to tłumy z Ewangelii, szukając uzdrowienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się wokół Jezusa, którego sława przyciągała wielkie mnóstwo ludzi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Wyraża wołanie o pomoc i uzdrowienie, z jakim przychodziły do Jezusa tłumy z różnych krain.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych trudów i cierpień, podobnie jak Dawid, który mimo prześladowań ufał Panu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża zaufanie Bogu i oddanie się Jego woli, co jest przeciwieństwem zazdrości i gniewu Saula.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Jest to akt skruchy i powrotu do Boga, który chroni niewinnych, jak Dawida przed Saulem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, której doświadczali ludzie cisnący się do Niego w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę tłumów, które z wiarą i pokorą cisnęły się do Jezusa, aby Go dotknąć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i wiarę w przychodzącego Jezusa, który jest źródłem uzdrowienia i życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na cuda Jezusa i Jego Boską tożsamość, rozpoznawaną nawet przez duchy nieczyste.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały dla Jezusa, Syna Bożego, którego moc objawiła się w licznych uzdrowieniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą opiekę i ratunek, o którym śpiewa psalmista w obliczu prześladowań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego wielbiły tłumy w Ewangelii, a którego zazdrościł Dawidowi Saul.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić światu Jezusa, który uzdrawia i zbawia, tak jak czynił to w Galilei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń ukazuje Chrystusa, który nieustannie idzie przez świat, niosąc uzdrowienie i pociechę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje postawę chorych i cierpiących, którzy z wiarą szukali pomocy u Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie pasuje do sytuacji Dawida prześladowanego przez Saula, który szukał ratunku u Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu w obliczu prześladowań, co jest głównym tematem psalmu responsoryjnego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o zaufaniu Bogu, który jest naszą ucieczką w trudnych chwilach, jak dla Dawida.",
+      "moment": "ogolne"
+    }
+  ]
+}

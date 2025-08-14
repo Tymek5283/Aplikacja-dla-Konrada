@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416198.Sroda-VIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "8 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 1, 18-25",
+      "opis": "Cena naszego odkupienia",
+      "tekst": "Najmilsi:\nWiecie, że z odziedziczonego po przodkach waszego złego postępowania zostaliście wykupieni nie czymś przemijającym, srebrem lub złotem, ale drogocenną krwią Chrystusa, jako baranka niepokalanego i bez zmazy. On był wprawdzie przewidziany przed stworzeniem świata, dopiero jednak w ostatnich czasach objawił się ze względu na was. Wy przez Niego uwierzyliście w Boga, który wskrzesił Go z martwych i udzielił Mu chwały, tak że wiara wasza i nadzieja są skierowane ku Bogu.\nSkoro już dusze swoje uświęciliście, będąc posłuszni prawdzie celem zdobycia nieobłudnej miłości bratniej, jedni drugich gorąco czystym sercem umiłujcie. Jesteście bowiem ponownie do życia powołani nie z ginącego nasienia, ale z niezniszczalnego, dzięki słowu Boga, które jest żywe i trwa. «Wszelkie bowiem ciało jest jak trawa, a cała jego chwała jak kwiat trawy: trawa uschła, a kwiat jej opadł, słowo zaś Pana trwa na wieki». Właśnie to słowo ogłoszono wam jako Dobrą Nowinę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147B, 12-13. 14-15. 19-20 (R.: por. 12a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Kościele święty, chwal swojego Pana.\nChwal, Jeruzalem, Pana, *\nwysławiaj twego Boga, Syjonie!\nUmacnia bowiem zawory bram twoich *\ni błogosławi synom twoim w tobie.\nRefren.\nZapewnia pokój twoim granicom *\ni wyborną pszenicą ciebie darzy.\nZsyła na ziemię swoje polecenia, *\na szybko mknie Jego słowo.\nRefren.\nOznajmił swoje słowo Jakubowi, *\nIzraelowi ustawy swe i wyroki.\nNie uczynił tego dla innych narodów, *\nnie oznajmił im swoich wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 32-45",
+      "opis": "Zapowiedź męki",
+      "tekst": "Uczniowie byli w drodze, zdążając do Jerozolimy. Jezus wyprzedzał ich, tak że się dziwili; ci zaś, którzy szli za Nim, byli strwożeni. Wziął znowu Dwunastu i zaczął mówić im o tym, co miało Go spotkać: «Oto idziemy do Jerozolimy. A tam Syn Człowieczy zostanie wydany arcykapłanom i uczonym w Piśmie. Oni skażą Go na śmierć i wydadzą poganom. I będą z Niego szydzić, oplują Go, ubiczują i zabiją, a po trzech dniach zmartwychwstanie».\nWtedy podeszli do Niego synowie Zebedeusza, Jakub i Jan, i rzekli: «Nauczycielu, pragniemy, żebyś nam uczynił to, o co Cię poprosimy».\nOn ich zapytał: «Co chcecie, żebym wam uczynił?»\nRzekli Mu: «Daj nam, żebyśmy w Twojej chwale siedzieli jeden po prawej, a drugi po lewej Twej stronie».\nJezus im odparł: «Nie wiecie, o co prosicie. Czy możecie pić kielich, który Ja mam pić, albo przyjąć chrzest, którym Ja mam być ochrzczony?»\nOdpowiedzieli Mu: «Możemy».\nLecz Jezus rzekł do nich: «Kielich, który Ja mam pić, wprawdzie pić będziecie; i chrzest, który Ja mam przyjąć, wy również przyjmiecie. Nie do Mnie jednak należy dać miejsce po mojej stronie prawej lub lewej, ale dostanie się ono tym, dla których zostało przygotowane».\nGdy usłyszało to dziesięciu pozostałych, poczęli oburzać się na Jakuba i Jana. A Jezus przywołał ich do siebie i rzekł do nich:\n«Wiecie, że ci, którzy uchodzą za władców narodów, uciskają je, a ich wielcy dają im odczuć swą władzę. Nie tak będzie między wami. Lecz kto by między wami chciał się stać wielkim, niech będzie sługą waszym. A kto by chciał być pierwszym między wami, niech będzie  niewolnikiem wszystkich. Bo i Syn Człowieczy nie przyszedł, aby Mu służono, lecz żeby służyć i dać swoje życie jako okup za wielu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do chwalenia Pana, co jest odpowiedzią na wezwanie psalmu: 'Kościele święty, chwal swojego Pana'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego słowo, jak mówi psalm, szybko mknie po ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do oddawania czci Bogu, który, jak mówi psalm, zapewnia pokój i darzy wyborną pszenicą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do pierwszego czytania o odkupieniu drogocenną krwią Chrystusa i do zapowiedzi męki w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc o udział w kielichu Chrystusa i Jego chrzcie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Pieśń eucharystyczna, która łączy w sobie adorację z prośbą o błogosławieństwo i ratunek w utrapieniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to medytacja nad Męką Pańską, która jest drogą do chwały, o którą prosili synowie Zebedeusza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń eucharystyczna, w której prosimy o litość i zmiłowanie mocą Ciała i Krwi Pańskiej, ofiarowanych za nas.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z ofiarą Chrystusa, o której On sam zapowiada w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar odkupienia i słowa Bożego, które trwa na wieki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar odkupienia, o którym mówi pierwsze czytanie, i za Bożą wierność.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, a zwłaszcza za dar odkupienia drogocenną Krwią Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wzywa do miłości bratniej, o której mówi pierwsze czytanie, i do postawy służby, której uczy Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud służby i naśladowania Chrystusa w Jego uniżeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o Chrystusie Słudze, który dał życie jako okup za wielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do postawy służby i pokory, której uczy Jezus jako drogi do prawdziwego błogosławieństwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla wartość miłości bratniej, do której wzywa św. Piotr w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który przez swoją śmierć i zmartwychwstanie dał nam nowe życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które trwa na wieki, było naszą siłą i przewodnikiem.",
+      "moment": "ogolne"
+    }
+  ]
+}

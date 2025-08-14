@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415543.Czwartek-IV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "4 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 2, 1-4. 10-12",
+      "opis": "Śmierć Dawida",
+      "tekst": "Kiedy zbliżył się czas śmierci Dawida, wtedy rozkazał swemu synowi, Salomonowi, mówiąc: «Ja wyruszam w drogę przeznaczoną ludziom na całej ziemi. Ty zaś bądź mocny i okaż się mężem! Będziesz strzegł zarządzeń Pana, Boga twego, idąc za Jego wskazaniami, przestrzegając Jego praw, poleceń i nakazów, jak napisano w Prawie Mojżesza, aby ci się powiodło wszystko, co zamierzysz, i wszystko, czym się zajmiesz, ażeby też Pan spełnił swą obietnicę, którą mi dał, mówiąc: Jeśli twoi synowie będą strzec swej drogi, postępując wobec Mnie szczerze z całego serca i z całej duszy, to wtedy nie będzie ci odjęty mąż na tronie Izraela».\nPotem Dawid spoczął ze swymi przodkami i został pochowany w Mieście Dawidowym. A czas panowania Dawida nad Izraelem wynosił czterdzieści lat. W Hebronie panował siedem lat, a w Jerozolimie panował trzydzieści trzy lata.\nZasiadł więc Salomon na tronie Dawida, swego ojca, a jego władza królewska została utwierdzona.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "1 Krn 29, 10b-11b. 11c-12 (R.: por. 12b)",
+      "opis": "",
+      "tekst": "Refren: Ty, Panie Boże, panujesz nad wszystkim.\nBądź błogosławiony po wszystkie wieki, *\nPanie, Boże ojca naszego, Izraela,\nTwoja jest wielkość, moc i sława, majestat i chwała, *\nbo wszystko, co jest na niebie i ziemi, Twoje jest, Panie.\nRefren.\nWładza królewska należy do Ciebie, †\ni nawet ziemski monarcha jest Twoją własnością. *\nBogactwo i chwała od Ciebie pochodzą.\nTy panujesz nad wszystkim, †\nw Twojej ręce spoczywa moc i siła, *\nTy swoją ręką wywyższasz i utwierdzasz wszystko.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 7-13",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus przywołał do siebie Dwunastu i zaczął rozsyłać ich po dwóch. Dał im też władzę nad duchami nieczystymi i przykazał im, żeby nic z sobą nie brali na drogę prócz laski: ani chleba, ani torby, ani pieniędzy w trzosie. «Ale idźcie obuci w sandały i nie wdziewajcie dwóch sukien».\nI mówił do nich: «Gdy do jakiegoś domu wejdziecie, zostańcie tam, aż stamtąd wyjdziecie. Jeśli w jakimś miejscu was nie przyjmą i nie będą was słuchać, wychodząc stamtąd, strząśnijcie proch z nóg waszych na świadectwo dla nich».\nOni więc wyszli i wzywali do nawracania się. Wyrzucali też wiele złych duchów, a wielu chorych namaszczali olejem i uzdrawiali.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim echem Ewangelii o rozesłaniu Dwunastu, aby wzywali do nawracania się.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, którego królewska władza jest tematem psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta jest aklamacją na cześć Chrystusa Króla, który posyła swoich uczniów do głoszenia królestwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu trudów misyjnych apostołów, którzy wyruszyli, by głosić królestwo Boże.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubóstwa i całkowitego zaufania Bogu, do której Jezus wzywa swoich uczniów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o Boże błogosławieństwo na trud misyjny, podejmowany w posłuszeństwie Chrystusowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do wspólnoty Kościoła, budowanej przez posługę apostołów, którzy wzywali do nawrócenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest jedynym pokarmem, którego potrzebują apostołowie wyruszający w drogę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który karmi nas swoim Ciałem i daje siłę do głoszenia Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń uwielbia Chrystusa Króla, którego władza, jak mówi psalm, przewyższa wszelką ziemską potęgę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to hymn chwały na cześć Pana, który panuje nad wszystkim, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wzywa do uwielbienia Boga, którego królestwo głoszą posłani apostołowie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest tożsamy z aklamacją przed Ewangelią i treścią nauczania rozesłanych apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, co jest zadaniem apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Po przyjęciu posłannictwa, wyznajemy, że Chrystus jest naszą drogą, którą chcemy głosić innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest to prośba o obecność i prowadzenie Pana w misji głoszenia Ewangelii, do której jesteśmy posłani.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który jest posłany, by głosić Ewangelię królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców nawrócenia jest celem misji, na którą Jezus posyła swoich uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje odwagi posłanym, przypominając, że to Pan jest ich siłą i mocą w głoszeniu Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

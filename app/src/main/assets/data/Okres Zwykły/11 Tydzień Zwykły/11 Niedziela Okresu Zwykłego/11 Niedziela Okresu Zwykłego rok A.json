@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417193.11-Niedziela-zwykla-rok-A",
+  "tytul_dnia": "11 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 19, 2-6a",
+      "opis": "Obietnice Boże dla ludu wybranego",
+      "tekst": "Po przybyciu na pustynię Synaj Izraelici rozbili obóz na pustyni. Izrael obozował tam naprzeciw góry.\nMojżesz wszedł wtedy na górę do Boga, a Pan zawołał na niego z góry i powiedział: «Tak powiesz domowi Jakuba i to oznajmisz Izraelitom: Wy widzieliście, co uczyniłem Egiptowi, jak niosłem was na skrzydłach orlich i przywiodłem was do Mnie. Teraz, jeśli pilnie słuchać będziecie głosu mego i strzec mojego przymierza, będziecie szczególną moją własnością pośród wszystkich narodów, gdyż do Mnie należy cała ziemia. Lecz wy będziecie Mi królestwem kapłanów i ludem świętym».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 3c)",
+      "opis": "",
+      "tekst": "Refren: My ludem Pana i Jego owcami.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 5, 6-11",
+      "opis": "Pojednani z Bogiem przez śmierć Chrystusa, dostąpimy zbawienia przez Jego życie",
+      "tekst": "Bracia:\nChrystus umarł za nas, jako za grzeszników, w oznaczonym czasie, gdy jeszcze byliśmy bezsilni. A nawet za człowieka sprawiedliwego podejmuje się ktoś umrzeć tylko z największą trudnością. Chociaż może jeszcze za człowieka życzliwego odważyłby się ktoś ponieść śmierć. Bóg zaś okazuje nam swoją miłość właśnie przez to, że Chrystus umarł za nas, gdy byliśmy jeszcze grzesznikami.\nTym bardziej więc będziemy przez Niego zachowani od karzącego gniewu, gdy teraz przez krew Jego zostaliśmy usprawiedliwieni. Jeżeli bowiem, będąc nieprzyjaciółmi, zostaliśmy pojednani z Bogiem przez śmierć Jego Syna, to tym bardziej, będąc już pojednanymi, dostąpimy zbawienia przez Jego życie. I nie tylko to - ale i chlubić się możemy w Bogu przez Pana naszego Jezusa Chrystusa, przez którego teraz uzyskaliśmy pojednanie.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 36 - 10, 8",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus, widząc tłumy, litował się nad nimi, bo byli znękani i porzuceni, jak owce nie mające pasterza. Wtedy rzekł do swych uczniów: «Żniwo wprawdzie wielkie, ale robotników mało. Proście Pana żniwa, żeby wyprawił robotników na swoje żniwo».\nWtedy przywołał do siebie dwunastu swoich uczniów i udzielił im władzy nad duchami nieczystymi, aby je wypędzali i leczyli wszystkie choroby i wszelkie słabości. A oto imiona dwunastu apostołów: pierwszy - Szymon, zwany Piotrem, i brat jego Andrzej, potem Jakub, syn Zebedeusza, i brat jego Jan, Filip i Bartłomiej, Tomasz i celnik Mateusz, Jakub, syn Alfeusza, i Tadeusz, Szymon Gorliwy i Judasz Iskariota, ten, który Go zdradził.\nTych to Dwunastu wysłał Jezus i dał im takie wskazania: «Nie idźcie do pogan i nie wstępujcie do żadnego miasta samarytańskiego. Idźcie raczej do owiec, które poginęły z domu Izraela. Idźcie i głoście: Bliskie już jest królestwo niebieskie. Uzdrawiajcie chorych, wskrzeszajcie umarłych, oczyszczajcie trędowatych, wypędzajcie złe duchy. Darmo otrzymaliście, darmo dawajcie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do pierwszego czytania, w którym Bóg nazywa swój lud 'królestwem kapłanów'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Rozpoczynamy liturgię jako lud Boży, Jego szczególna własność, zgromadzona w Jego domu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do oddania czci Bogu, który nas stworzył i wybrał, jak słyszymy w psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "W odpowiedzi na wezwanie Jezusa, by prosić o robotników na żniwo, ofiarujemy naszą modlitwę o nowe powołania do służby w Kościele.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy owoce naszej pracy, prosząc Pana żniwa, by pobłogosławił nasze wysiłki w budowaniu Jego Królestwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą pracę, abyśmy mogli być gorliwymi robotnikami na żniwie Pańskim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Ewangelia ukazuje Jezusa jako Pasterza litującego się nad owcami, a Komunia jest pokarmem od Niego dla Jego owiec.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "W Komunii Świętej spotykamy Dobrego Pasterza, który lituje się nad nami, jak nad tłumami z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus, Dobry Pasterz, zaprasza nas, swoje owce, do stołu, by nas karmić i umacniać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to radosna odpowiedź na wezwanie psalmu: 'Służcie Panu z weselem, stańcie przed obliczem Pana z okrzykami radości'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Dziękujemy Bogu za to, że jesteśmy Jego ludem i owcami Jego pastwiska, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar pojednania, który uzyskaliśmy przez śmierć i zmartwychwstanie Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest odpowiedzią na misyjne posłanie z Ewangelii, by iść i głosić Królestwo Boże.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po otrzymaniu misji od Chrystusa, wyruszamy w świat, uznając Go za naszego Wodza i Króla.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prosimy o umocnienie wiary, abyśmy mogli odważnie głosić Ewangelię, do czego zostaliśmy posłani.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń dziękczynna za miłość Boga, który pojednał nas ze sobą przez śmierć swojego Syna, o czym mówi drugie czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest to modlitwa o błogosławieństwo dla ludu, który Bóg wybrał jako swoją szczególną własność.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie nawiązuje do wezwania o robotników na żniwo i misji powierzonej apostołom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Wyraża naszą grzeszność i potrzebę pojednania z Bogiem, które stało się możliwe dzięki ofierze Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

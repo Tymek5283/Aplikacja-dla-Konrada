@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, co jest echem aklamacji i nauczania Jana Chrzciciela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, którego nadejście głosił Jan Chrzciciel, nowy Eliasz.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, którego drogę przygotował Jan Chrzciciel, utożsamiony w Ewangelii z Eliaszem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co stanowiło centralne orędzie Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia, do którego wzywał Jan Chrzciciel, aby godnie przyjąć nadchodzącego Pana.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża adwentową tęsknotę za Zbawicielem, którego poprzednikiem był Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, którego drogę przygotował Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
       "numer": "13",
       "piesn": "Boże wieczny, Boże żywy",
       "opis": "Błagalna pieśń adwentowa, która jest prośbą o zbawienie, o które woła również psalm responsoryjny: 'Odnów nas, Boże, i daj nam zbawienie'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który przychodzi, by nas zbawić, o co prosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do wielbienia Boga, a ta pieśń jest majestatycznym hymnem chwały na cześć Stwórcy.",
       "moment": "uwielbienie"
     },
     {
@@ -60,15 +108,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "1",
-      "piesn": "Błogosławieni",
-      "opis": "Pieśń o błogosławieństwach przypomina o postawie, do której przygotowuje nas Adwent, a której wzorem był Jan Chrzciciel.",
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Pieśń wprost wzywa wstawiennictwa Jana Chrzciciela, abyśmy umieli, jak on, przygotować drogę Panu w naszym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, nowy Eliasz.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "W sobotę, pieśń maryjna jest wyrazem oddania się Tej, która w pełni przyjęła Słowo i przygotowała drogę Panu.",
       "moment": "ogolne"
     },
     {
-      "numer": "4",
-      "piesn": "Oto Pan przybywa",
-      "opis": "Pieśń ta, wzywając do prostowania dróg życia, jest echem aklamacji i nauczania Jana Chrzciciela.",
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń ta wzywa do przygotowania na przyjście Zbawiciela, którego poprzedzał Jan Chrzciciel, utożsamiony z Eliaszem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "W sobotni dzień Adwentu, pieśń do Matki Bożej jest prośbą o pomoc w przygotowaniu serc na przyjście Jej Syna.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410939.II-Niedziela-zwykla-rok-A",
+  "tytul_dnia": "2 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 49, 3. 5-6",
+      "opis": "Sługa Boży światłością całej ziemi",
+      "tekst": "Pan rzekł do mnie: «Ty jesteś sługą moim, Izraelu, w tobie się rozsławię». Wsławiłem się w oczach Pana, Bóg mój stał się moją siłą. A teraz przemówił Pan, który mnie ukształtował od urodzenia na swego Sługę, bym nawrócił do Niego Jakuba i zgromadził Mu Izraela. A mówił: «To zbyt mało, iż jesteś Mi Sługą dla podźwignięcia pokoleń Jakuba i sprowadzenia ocalałych z Izraela! Ustanowię cię światłością dla pogan, aby moje zbawienie dotarło aż do krańców ziemi». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 40 (39), 2ab i 4ab. 7-8a. 8b-10 (R.: por. 8a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Przychodzę, Boże, pełnić Twoją wolę.\nZ nadzieją czekałem na Pana, *\n\na On pochylił się nade mną.\n\nWłożył mi w usta pieśń nową, *\n\nśpiew dla naszego Boga.\nRefren.\nNie chciałeś ofiary krwawej ani z płodów ziemi, *\n\nlecz otwarłeś mi uszy;\n\nnie żądałeś całopalenia i ofiary za grzechy. *\n\nWtedy powiedziałem: «Oto przychodzę.\nRefren.\nW zwoju księgi jest o mnie napisane: †\n\nRadością jest dla mnie pełnić Twoją wolę, mój Boże, *\n\na Twoje Prawo mieszka w moim sercu».\n\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu †\n\ni nie powściągałem warg moich, *\n\no czym Ty wiesz, Panie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 1, 1-3",
+      "opis": "Paweł apostołem Jezusa Chrystusa",
+      "tekst": "Paweł, z woli Bożej powołany na apostoła Jezusa Chrystusa, i Sostenes, brat, do Kościoła Bożego w Koryncie, do tych, którzy zostali uświęceni w Jezusie Chrystusie i powołani do świętości wespół ze wszystkimi, co na każdym miejscu wzywają imienia Pana naszego, Jezusa Chrystusa, ich i naszego Pana. Łaska wam i pokój od Boga Ojca naszego i Pana Jezusa Chrystusa! Oto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 1, 14a. 12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo stało się ciałem i zamieszkało między nami.\n\nWszystkim, którzy Je przyjęli, dało moc, aby się stali dziećmi Bożymi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 29-34",
+      "opis": "Duch Święty spoczął na Jezusie",
+      "tekst": "Jan zobaczył podchodzącego ku niemu Jezusa i rzekł: «Oto Baranek Boży, który gładzi grzech świata. To jest Ten, o którym powiedziałem: „Po mnie przyjdzie Mąż, który mnie przewyższył godnością, gdyż był wcześniej ode mnie”. Ja Go przedtem nie znałem, ale przyszedłem chrzcić wodą w tym celu, aby On się objawił Izraelowi». Jan dał takie świadectwo: «Ujrzałem Ducha, który zstępował z nieba jak gołębica i spoczął na Nim. Ja Go przedtem nie znałem, ale Ten, który mnie posłał, abym chrzcił wodą, powiedział do mnie: „Ten, nad którym ujrzysz Ducha zstępującego i spoczywającego na Nim, jest Tym, który chrzci Duchem Świętym”. Ja to ujrzałem i daję świadectwo, że On jest Synem Bożym». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego Jan Chrzciciel objawił światu jako Syna Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Bogiem, aby oddać Mu cześć, tak jak wzywa do tego św. Paweł w drugim czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa wszystkie narody do chwalenia Pana, co koresponduje z misją Sługi Bożego, by być światłością dla pogan.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wobec objawienia Baranka, który gładzi grzech świata, składamy Bogu w ofierze nasze skruszone serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiara Chrystusa, Baranka Bożego, jest centralnym punktem Eucharystii, w której uobecnia się Jego zbawcze dzieło.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu ofiarę chleba i wina, która stanie się Ciałem i Krwią Baranka Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń bezpośrednio nawiązuje do świadectwa Jana Chrzciciela: 'Oto Boży jest Baranek, który gładzi grzechy'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Baranek Boży, daje nam swoje Ciało jako pokarm na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i wiary w obecność Baranka Bożego pod postaciami eucharystycznymi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za dar zbawienia, które przyszło przez Chrystusa, Baranka Bożego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar Chrystusa, który stał się naszym zbawieniem i światłością dla narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który w swoim Synu objawił nam swoją miłość i zbawczą moc.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by jak Jan Chrzciciel i Sługa Pański z proroctwa Izajasza, być światłością dla pogan i głosić zbawienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń ukazuje Chrystusa, Baranka Bożego, idącego przez historię, aby nieść zbawienie aż po krańce ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą misję świadczenia o Chrystusie, którego rozpoznaliśmy jako Zbawiciela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń opowiada historię zbawienia, której centralnym punktem jest Słowo, które stało się ciałem, o czym mówi aklamacja.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która jest potrzebna, by przyjąć świadectwo Jana o Jezusie jako Synu Bożym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Prośba do Ducha Świętego, który zstąpił na Jezusa, aby i nas uświęcił i uzdolnił do pełnienia woli Bożej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Jako lud uświęcony w Chrystusie, jesteśmy wezwani do głoszenia Jego chwały i pełnienia Jego woli.",
+      "moment": "ogolne"
+    }
+  ]
+}

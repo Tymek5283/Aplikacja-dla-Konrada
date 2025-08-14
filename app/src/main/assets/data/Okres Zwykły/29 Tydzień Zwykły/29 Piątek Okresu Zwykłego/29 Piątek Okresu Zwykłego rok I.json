@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415672.Piatek-29-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "29 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 7, 18-25a",
+      "opis": "Któż mnie wyzwoli z ciała, co wiedzie ku śmierci",
+      "tekst": "Bracia:\nJestem świadom, że we mnie, to jest w moim ciele, nie mieszka dobro; bo łatwo przychodzi mi chcieć tego, co dobre, ale wykonać - nie. Nie czynię bowiem dobra, którego chcę, ale czynię właśnie zło, którego nie chcę. Jeżeli zaś czynię to, czego nie chcę, już nie ja to czynię, ale grzech, który we mnie mieszka.\nA zatem stwierdzam w sobie to prawo, że gdy chcę czynić dobro, narzuca mi się zło. Albowiem wewnętrzny człowiek we mnie ma upodobanie zgodne z Prawem Bożym. W członkach zaś moich spostrzegam prawo inne, które toczy walkę z prawem mojego umysłu i bierze mnie w niewolę pod prawo grzechu mieszkającego w moich członkach.\nNieszczęsny ja człowiek! Któż mnie wyzwoli z ciała, co wiedzie ku tej śmierci? Dzięki niech będą Bogu przez Jezusa Chrystusa, Pana naszego!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 66 i 68. 76-77. 93-94 (R.: por. 68b)",
+      "opis": "",
+      "tekst": "Refren: Naucz mnie, Panie, mądrych ustaw swoich.\nNaucz mnie trafnego sądu i umiejętności, *\nbo ufam Twoim przykazaniom.\nDobry jesteś i dobrze czynisz, *\nnaucz mnie ustaw swoich.\nRefren.\nNiech Twoja łaska będzie mi pociechą *\nzgodnie z obietnicą, daną Twemu słudze.\nNiech Twa litość mnie ogarnie, a żyć będę, *\nbo Twoje Prawo jest moją rozkoszą.\nRefren.\nNa wieki nie zapomnę Twoich postanowień, *\nbo przez nie dałeś mi życie.\nWybaw mnie, należę do Ciebie *\ni szukam Twoich postanowień.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 54-59",
+      "opis": "Poznać znaki czasu",
+      "tekst": "Jezus mówił do tłumów: «Gdy ujrzycie chmurę podnoszącą się na zachodzie, zaraz mówicie: „Deszcz idzie”. I tak się dzieje. A gdy wiatr wieje z południa, powiadacie:\n„Będzie upał”. I bywa. Obłudnicy, umiecie rozpoznawać wygląd ziemi i nieba, a jakże chwili obecnej nie rozpoznajecie? I dlaczego sami z siebie nie rozróżniacie tego, co jest słuszne?\nGdy idziesz do sprawującego władzę ze swym przeciwnikiem, staraj się w drodze dojść z nim do zgody, by cię nie zaciągnął do sędziego; a sędzia przekazałby cię dozorcy, dozorca zaś wtrąciłby cię do więzienia. Powiadam ci, nie wyjdziesz stamtąd, aż zwrócisz ostatni pieniążek».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest wołaniem grzesznika o Boże miłosierdzie, co oddaje dramat wewnętrznej walki opisany przez św. Pawła w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o pomoc i ratunek w duchowej walce z grzechem, o której mówi św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to prośba o Boże miłosierdzie, które jest jedynym ratunkiem dla człowieka rozdartego między pragnieniem dobra a czynieniem zła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Ewangelia wzywa do pojednania. Ta pieśń jest aktem nawrócenia i decyzją o powrocie do Ojca, zanim będzie za późno.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest odpowiedzią na wezwanie Ewangelii do pojednania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze zmagania z grzechem, prosząc o wyzwolenie, o którym mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "W Komunii przyjmujemy Tego, który wyzwala nas z niewoli grzechu, a ta modlitwa jest prośbą o oczyszczenie i zjednoczenie z Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża świadomość własnej grzeszności i jednocześnie pragnienie przyjęcia Jezusa, który jest naszym Wyzwolicielem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę wiary i pokory w obliczu tajemnicy Chrystusa, który uwalnia nas od grzechu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar zbawienia w Jezusie Chrystusie, który, jak woła św. Paweł, jest naszym jedynym wyzwolicielem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże miłosierdzie i wyzwolenie z grzechu, o które prosi psalmista i św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, w której otrzymujemy łaskę do walki z grzechem i siłę do czynienia dobra.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest odpowiedzią na wezwanie Jezusa, by rozpoznawać znaki czasu i rozróżniać, co jest słuszne.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która jest niezbędna do przezwyciężenia wewnętrznej walki z grzechem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo na trud codziennego wybierania dobra i pojednania z bliźnimi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec wewnętrznego rozdarcia opisanego przez św. Pawła, ta pieśń jest wyrazem ufności w Boże miłosierdzie i odkupienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest prośbą o Bożą łaskę i siłę do walki z grzechem, o której mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na wezwanie Jezusa do rozpoznawania znaków czasu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wyraża postawę pokory i błagania o przebaczenie, która jest konieczna w obliczu własnej słabości i grzechu.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410403.Piatek-I-tydzien-zwykly-rok-II",
+  "tytul_dnia": "1 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 8, 4-7. 10-22a",
+      "opis": "Izraelici domagają się ustanowienia króla",
+      "tekst": "Zebrała się cała starszyzna izraelska i udała się do Samuela do Rama. Odezwali się do niego: «Oto ty się zestarzałeś, a synowie twoi nie postępują twoimi drogami; ustanów raczej nad nami króla, aby nami rządził, tak jak to jest u innych narodów». Nie podobało się Samuelowi to, że mówili: «Daj nam króla, aby nami rządził». Modlił się więc Samuel do Pana. A Pan rzekł do Samuela: «Wysłuchaj głosu ludu we wszystkim, co mówi do ciebie, bo nie ciebie odrzucają, lecz Mnie odrzucają jako króla nad sobą». I powtórzył Samuel wszystkie słowa Pana ludowi, który od niego zażądał króla. Mówił: «Oto jest prawo króla mającego nad wami panować: Synów waszych będzie on brał do swego rydwanu i swych koni, aby biegali przed jego rydwanem.  I uczyni ich tysiącznikami, pięćdziesiątnikami, robotnikami na swojej roli i żniwiarzami. Przygotowywać też będą broń wojenną i zaprzęgi do rydwanów. Córki wasze zabierze do przyrządzania wonności oraz na kucharki i piekarki. Zabierze również najlepsze wasze ziemie uprawne, winnice i sady oliwkowe, a podaruje je swoim sługom. Zasiewy wasze i winnice obciąży dziesięciną i odda ją swoim dworzanom i sługom. Weźmie wam również waszych niewolników, niewolnice, waszych najlepszych młodzieńców i osły wasze i obarczy pracą dla siebie. Nałoży dziesięcinę na trzodę waszą, wy zaś będziecie jego sługami. Sami będziecie narzekali na króla, którego sobie wybierzecie, ale Pan was wtedy nie wysłucha». Odrzucił lud radę Samuela i wołał: «Nie, lecz król będzie nad nami, abyśmy byli jak wszystkie narody, aby nas sądził nasz król, aby nam przewodził i prowadził nasze wojny!» Samuel wysłuchał wszystkich słów ludu i przekazał je do uszu Pana. A Pan rzekł do Samuela: «Wysłuchaj ich głosu i ustanów im króla!» Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 16-17. 18-19 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Na wieki będę sławił łaski Pana.\nBłogosławiony lud, który umie się cieszyć *\n\ni chodzi, Panie, w blasku Twojej obecności.\n\nCieszą się zawsze Twym imieniem, *\n\nTwoja sprawiedliwość ich wywyższa.\nRefren.\nBo Ty jesteś blaskiem ich potęgi, *\n\na przychylność Twoja dodaje nam mocy.\n\nBo do Pana należy nasza tarcza, *\n\na król nasz do Świętego Izraela.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\n\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 1-12",
+      "opis": "Chrystus ma władzę odpuszczania grzechów",
+      "tekst": "Gdy po pewnym czasie Jezus wrócił do Kafarnaum, posłyszano, że jest w domu. Zebrało się zatem tylu ludzi, że nawet przed drzwiami nie było miejsca, a On głosił im naukę. I przyszli do Niego z paralitykiem, którego niosło czterech. Nie mogąc z powodu tłumu przynieść go do Niego, odkryli dach nad miejscem, gdzie Jezus się znajdował, i przez otwór spuścili nosze, na których leżał paralityk. Jezus, widząc ich wiarę, rzekł do paralityka: «Dziecko, odpuszczone są twoje grzechy». A siedziało tam kilku uczonych w Piśmie, którzy myśleli w sercach swoich: «Czemu On tak mówi? On bluźni. Któż może odpuszczać grzechy, prócz jednego Boga?» Jezus poznał zaraz w swym duchu, że tak myślą, i rzekł do nich: «Czemu myśli te nurtują w waszych sercach? Cóż jest łatwiej: powiedzieć paralitykowi: Odpuszczone są twoje grzechy, czy też powiedzieć: Wstań, weź swoje nosze i chodź? Otóż, żebyście wiedzieli, iż Syn Człowieczy ma na ziemi władzę odpuszczania grzechów - rzekł do paralityka: Mówię ci: Wstań, weź swoje nosze i idź do swego domu!» On wstał, wziął zaraz swoje nosze i wyszedł na oczach wszystkich. Zdumieli się wszyscy i wielbili Boga, mówiąc: «Nigdy jeszcze nie widzieliśmy czegoś podobnego». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta jest odpowiedzią na pierwsze czytanie, w którym lud odrzuca Boga jako króla, a my wyznajemy, że to Chrystus jest naszym Królem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Modlitwa-aklamacja, by Chrystus był naszym Królem, w przeciwieństwie do postawy Izraelitów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Kolejna pieśń o królowaniu Chrystusa, który objawia swoją władzę w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Prosta pieśń ofiarna, która wyraża prośbę o umocnienie wiary, takiej, jaką wykazali przyjaciele paralityka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu nasze życie, uznając Go za jedynego Pana i Króla.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy nasze życie, ufając w Boże miłosierdzie, które odpuszcza grzechy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą i odpuszczającą grzechy moc Chrystusa, objawioną w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę człowieka, który z wiarą przyjaciół został przyniesiony do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorę i wiarę w uzdrawiającą i odpuszczającą grzechy moc Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wyraża radość i uwielbienie Boga za Jego cuda, podobnie jak tłum, który wielbił Boga po uzdrowieniu paralityka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za dar uzdrowienia i odpuszczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za cud uzdrowienia, który był znakiem władzy odpuszczania grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o królowaniu Chrystusa, który zwycięża grzech i wprowadza ład.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi Królowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Pieśń o królowaniu Chrystusa, w którego sercu są skarby łask.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta wzywa do szukania pociechy i ratunku u Jezusa, co odzwierciedla postawę ludzi przynoszących paralityka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie i błogosławieństwo jest odpowiedzią na objawienie się mocy Bożej w odpuszczeniu grzechów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, wyrażająca prośbę o odpuszczenie grzechów, którego udziela Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i powrocie do Ojca, możliwym dzięki mocy odpuszczania grzechów przez Syna.",
+      "moment": "ogolne"
+    }
+  ]
+}

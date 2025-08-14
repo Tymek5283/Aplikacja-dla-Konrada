@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425140.Piatek-22-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "22 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 4, 1-5",
+      "opis": "Chrystus ujawni zamiary serc",
+      "tekst": "Bracia:\nNiech uważają nas ludzie za sługi Chrystusa i za szafarzy tajemnic Bożych. A od szafarzy już tutaj się żąda, aby każdy z nich był wierny.\nMnie zaś najmniej zależy na tym, czy będę osądzony przez was, czy przez jakikolwiek trybunał ludzki. Co więcej, nawet sam siebie nie sądzę. Sumienie nie wyrzuca mi wprawdzie niczego, ale to mnie jeszcze nie usprawiedliwia. Pan jest moim sędzią.\nPrzeto nie sądźcie przedwcześnie, dopóki nie przyjdzie Pan, który rozjaśni to, co w ciemnościach ukryte, i ujawni zamysły serc. Wtedy każdy otrzyma od Boga pochwałę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 37 (36), 3-4. 5-6. 27-28b. 39-40 (R.: por. 39a)",
+      "opis": "",
+      "tekst": "Refren: Zbawienie prawych pochodzi od Pana.\nMiej ufność w Panu i czyń to, co dobre, *\na będziesz mieszkał na ziemi i żył bezpiecznie.\nRaduj się w Panu, *\na On spełni pragnienia twego serca.\nRefren.\nPowierz Panu swą drogę, *\nzaufaj Mu, a On sam będzie działał.\nOn sprawi, że twa sprawiedliwość zabłyśnie jak światło, *\na prawość twoja jak blask południa.\nRefren.\nOdstąp od złego i czyń dobro, *\nabyś mógł przetrwać na wieki.\nGdyż Pan sprawiedliwość miłuje *\ni nie opuszcza swych świętych.\nRefren.\nZbawienie sprawiedliwych pochodzi od Pana, *\nOn ich ucieczką w czasie utrapienia.\nPan ich wspomaga i wyzwala, †\nwyzwala od występnych i zachowuje, *\nOn bowiem jest ich ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem światłością świata,\nkto idzie za Mną, będzie miał światło życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 5, 33-39",
+      "opis": "Nowość nauki Jezusa",
+      "tekst": "Faryzeusze i uczeni w Piśmie rzekli do Jezusa: «Uczniowie Jana dużo poszczą i modły odprawiają, podobnie też uczniowie faryzeuszów; natomiast Twoi jedzą i piją».\nA Jezus rzekł do nich: «Czy możecie nakłonić gości weselnych do postu, dopóki pan młody jest z nimi? Lecz przyjdzie czas, kiedy zabiorą im pana młodego, i wtedy, w owe dni, będą pościli».\nOpowiedział im też przypowieść: «Nikt nie przyszywa do starego ubrania jako łaty tego, co oderwie od nowego; w przeciwnym razie i nowe podrze, i łata z nowego nie nada się do starego. Nikt też młodego wina nie wlewa do starych bukłaków; w przeciwnym razie młode wino rozerwie bukłaki, i samo wycieknie, i bukłaki przepadną. Lecz młode wino należy wlewać do nowych bukłaków.\nKto się napił starego, nie chce potem młodego - mówi bowiem: „Stare jest lepsze”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem na ucztę z Panem Młodym, o której mówi Jezus w Ewangelii, co jest wyrazem nowości, jaką przynosi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża postawę wierności i oddania Bogu, której oczekuje się od szafarzy tajemnic Bożych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest modlitwą sługi, który wie, że jego ostatecznym sędzią jest Chrystus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę wierności i oddania Bogu, co jest cechą dobrego szafarza, o którym mowa w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania się Bogu i chęć bycia wiernym sługą, który nie sądzi przedwcześnie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc, byśmy byli wiernymi szafarzami Jego darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Eucharystia jest ucztą weselną z Chrystusem - Panem Młodym, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia z Chrystusem, Panem Młodym, jest czasem radości, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja eucharystyczna sławi tajemnice Boże, których szafarzami są apostołowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na psalm, który zapewnia, że 'zbawienie prawych pochodzi od Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń ta podkreśla ufność w Bożą Opatrzność, co jest postawą sługi, który wie, że jego ostatecznym sędzią jest Pan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który jest ucieczką dla sprawiedliwych, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "W kontekście Ewangelii o poście, ta pieśń pokutna może być wyrazem przygotowania na czas, gdy 'zabiorą im pana młodego'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest zaproszeniem do przyjęcia nowości, którą przynosi Chrystus, Pan Młody.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest nowym winem, wymagającym nowych bukłaków naszych serc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do wierności w służbie, o której naucza św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wierność, której wymaga się od szafarzy, opiera się na mocnej wierze w Pana, który jest naszym sędzią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o nowości, jaką przyniósł Chrystus, Pan Młody, który jest z nami i zaprasza na gody.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Nowość Ewangelii, symbolizowana przez młode wino i nowe bukłaki, polega na przykazaniu miłości.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415518.Czwartek-IV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "4 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 12, 18-19. 21-24",
+      "opis": "Nowe Przymierze",
+      "tekst": "Bracia:\nNie przyszliście do namacalnego i płonącego ognia, do mgły, do ciemności i burzy ani też do grzmiących trąb i do takiego dźwięku słów, iż wszyscy, którzy go usłyszeli, prosili, aby do nich nie mówił. A tak straszne było to zjawisko, iż Mojżesz powiedział: «Zatrwożony jestem i drżę».\nWy natomiast przyszliście do góry Syjon, do miasta Boga żywego - Jeruzalem niebieskiego, do niezliczonej liczby aniołów, na uroczyste zgromadzenie, i do Kościoła pierworodnych, którzy są zapisani w niebiosach, do Boga, który sądzi wszystkich, do duchów ludzi sprawiedliwych, którzy już doszli do celu, do Pośrednika Nowego Testamentu - Jezusa, do pokropienia krwią, która przemawia mocniej niż krew Abla.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 48 (47), 2-3b. 3c-4. 9. 10-11 (R.: por. 10)",
+      "opis": "",
+      "tekst": "Refren: W swojej świątyni łaskę okazałeś.\nWielki jest Pan i godzien wielkiej chwały *\nw mieście Boga naszego.\nŚwięta Jego góra, wspaniałe wzniesienie, *\nradością jest całej ziemi.\nRefren.\nGóra Syjon, kres północy, *\njest miastem wielkiego Króla.\nBóg w zamkach swoich *\nokazał się obroną.\nRefren.\nCo słyszeliśmy, to zobaczyliśmy *\nw mieście Pana Zastępów,\nw mieście naszego Boga. *\nBóg je umacnia na wieki.\nRefren.\nRozważamy, Boże, łaskawość Twoją *\nwe wnętrzu Twojej świątyni.\nJak imię Twe, Boże, †\ntak i chwała Twoja sięga po krańce ziemi. *\nPrawica Twoja pełna jest sprawiedliwości.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 7-13",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus przywołał do siebie Dwunastu i zaczął rozsyłać ich po dwóch. Dał im też władzę nad duchami nieczystymi i przykazał im, żeby nic z sobą nie brali na drogę prócz laski: ani chleba, ani torby, ani pieniędzy w trzosie. «Ale idźcie obuci w sandały i nie wdziewajcie dwóch sukien».\nI mówił do nich: «Gdy do jakiegoś domu wejdziecie, zostańcie tam, aż stamtąd wyjdziecie. Jeśli w jakimś miejscu was nie przyjmą i nie będą was słuchać, wychodząc stamtąd, strząśnijcie proch z nóg waszych na świadectwo dla nich».\nOni więc wyszli i wzywali do nawracania się. Wyrzucali też wiele złych duchów, a wielu chorych namaszczali olejem i uzdrawiali.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim echem Ewangelii o rozesłaniu Dwunastu, aby wzywali do nawracania się.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Nawiązuje do psalmu i pierwszego czytania, wzywając do wejścia do miasta Boga żywego, Kościoła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, zgromadzenie pierworodnych, do którego zostaliśmy włączeni przez Nowe Przymierze.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu trudów misyjnych apostołów, którzy wyruszyli bez chleba i torby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubóstwa i całkowitego zaufania Bogu, do której Jezus wzywa swoich uczniów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o Boże błogosławieństwo na trud misyjny, podejmowany w posłuszeństwie Chrystusowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do Kościoła, zgromadzenia pierworodnych, do którego przyszliśmy przez krew Nowego Przymierza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest jedynym pokarmem, którego potrzebują apostołowie wyruszający w drogę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który karmi nas swoim Ciałem i daje siłę do głoszenia Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę, rozważaną w świątyni, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to hymn chwały na cześć wielkiego Króla, którego miastem jest Syjon, Kościół Nowego Przymierza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wzywa do uwielbienia Boga, którego zbawienie jest głoszone wszystkim narodom przez posłanych apostołów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest tożsamy z aklamacją przed Ewangelią i treścią nauczania rozesłanych apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, co jest zadaniem apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Po przyjęciu posłannictwa, wyznajemy, że Chrystus jest naszą drogą, którą chcemy głosić innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Jest to prośba o obecność i prowadzenie Pana w misji głoszenia Ewangelii, do której jesteśmy posłani.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, miasta Boga żywego, o którym mówi List do Hebrajczyków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do wydawania owoców nawrócenia jest celem misji, na którą Jezus posyła swoich uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje odwagi posłanym, przypominając, że to Pan jest ich siłą i mocą w głoszeniu Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

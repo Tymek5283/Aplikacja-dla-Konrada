@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416995.Piatek-IX-tydzien-zwykly-rok-II",
+  "tytul_dnia": "9 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 3, 10-17",
+      "opis": "Wszelkie Pismo jest przez Boga natchnione i pożyteczne do nauczania",
+      "tekst": "Najmilszy:\nTy poszedłeś śladami mojej nauki, sposobu życia, zamierzeń, wiary, cierpliwości, miłości, wytrwałości, prześladowań, cierpień, jakie mnie spotkały w Antiochii, w Ikonium, w Listrze. Jakież to prześladowania zniosłem - a ze wszystkich wyrwał mnie Pan! I wszystkich, którzy chcą żyć zbożnie w Chrystusie Jezusie, spotkają prześladowania. Tymczasem ludzie źli i zwodziciele będą się dalej posuwać ku temu, co gorsze, błądząc i innych w błąd wprowadzając.\nTy natomiast trwaj w tym, czego się nauczyłeś i co ci powierzono, bo wiesz, od kogo się nauczyłeś. Od lat bowiem niemowlęcych znasz Pisma święte, które mogą cię nauczyć mądrości wiodącej ku zbawieniu przez wiarę w Chrystusie Jezusie.\nWszelkie Pismo jest od Boga natchnione i pożyteczne do nauczania, do przekonywania, do poprawiania, do wychowania w sprawiedliwości - aby człowiek Boży był doskonały, przysposobiony do każdego dobrego czynu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 157 i 160. 161 i 165. 166 i 168 (R.: por. 165a)",
+      "opis": "",
+      "tekst": "Refren: Obfity pokój miłującym Prawo.\nWielu mnie prześladuje i nęka, *\nnie uchylam się od Twoich napomnień.\nIstotą Twojego słowa jest prawda *\ni każdy Twój sprawiedliwy wyrok jest wieczny.\nRefren.\nMożni prześladują mnie bez powodu, *\nmoje serce lęk czuje przed Twoimi słowami.\nObfity pokój dla miłujących Twoje Prawo, *\ni nigdy się nie potkną.\nRefren.\nCzekam, Panie, na Twoją pomoc *\ni spełniam Twe przykazania.\nPrzestrzegam Twoich postanowień i napomnień, *\nbo wszystkie moje drogi są przed Tobą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 35-37",
+      "opis": "Mesjasz jest Panem Dawida",
+      "tekst": "Jezus, nauczając w świątyni, zapytał: «Jak mogą twierdzić uczeni w Piśmie, że Mesjasz jest synem Dawida? Wszak sam Dawid mówi mocą Ducha Świętego:\n„Rzekł Pan do Pana mego: Siądź po prawicy mojej, aż położę Twoich nieprzyjaciół pod stopy Twoje”.\nSam Dawid nazywa Go Panem, jakże więc jest tylko jego synem?» A liczny tłum chętnie Go słuchał.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń ta jest prośbą o obecność Pana i Jego Słowa, które jest natchnione i prowadzi do zbawienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, aby słuchać Jego nauki, która jest zawarta w Piśmie Świętym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, którego słowo jest prawdą, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę wierności i trwania w nauce Chrystusa, do której zachęca św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia zgodnego z Pismem Świętym, nawet w prześladowaniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono doskonałe i przysposobione do każdego dobrego czynu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa jako Pana, o czym naucza Jezus w Ewangelii, ukazując Jego Boską godność.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta głosi królowanie Chrystusa, którego Dawid nazywa swoim Panem, co jest główną myślą Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, który jest Panem Dawida i naszym Panem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, którego słowo jest prawdą i którego wyroki są wieczne.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar Pisma Świętego i za Bożą pomoc w prześladowaniach, o której mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar wiary i nauki, które prowadzą nas do zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-manifest wierności wierze i nauce Kościoła, nawet w obliczu prześladowań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, abyśmy, jak Tymoteusz, trwali w tym, czego się nauczyliśmy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii zawartej w Piśmie Świętym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie uczenia się dróg Pańskich, które poznajemy przez Pismo Święte.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Podkreśla, że Chrystus i Jego Słowo są drogą, prawdą i życiem dla wierzących.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla prześladowanych za sprawiedliwość, nawiązuje do doświadczeń św. Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest źródłem pokoju dla miłujących Prawo Boże, jak mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

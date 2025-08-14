@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415577.Sroda-V-tydzien-zwykly-rok-I",
+  "tytul_dnia": "5 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 2, 4b-9. 15-17",
+      "opis": "Bóg stwarza człowieka i umieszcza go w raju",
+      "tekst": "Gdy Pan Bóg uczynił ziemię i niebo, nie było jeszcze żadnego krzewu polnego na ziemi ani żadna trawa polna jeszcze nie wzeszła - bo Pan Bóg nie zsyłał deszczu na ziemię, bo nie było człowieka, który by uprawiał ziemię, a nurt wody wypływał z ziemi, aby w ten sposób nawadniać całą powierzchnię gleby.\nWtedy to Pan Bóg ulepił człowieka z prochu ziemi i tchnął w jego nozdrza tchnienie życia, wskutek czego stał się człowiek istotą żywą.\nA zasadziwszy ogród w Edenie na wschodzie, Pan Bóg umieścił tam człowieka, którego ulepił. Na rozkaz Pana Boga wyrosły z gleby wszelkie drzewa miłe z wyglądu i smaczny owoc rodzące oraz drzewo życia w środku tego ogrodu i drzewo poznania dobra i zła.\nPan Bóg wziął zatem człowieka i umieścił go w ogrodzie Eden, aby uprawiał go i doglądał. A tak przykazał Pan Bóg człowiekowi: «Z wszelkiego drzewa tego ogrodu możesz spożywać do woli, ale z drzewa poznania dobra i zła nie wolno ci jeść, bo gdy z niego spożyjesz, niechybnie umrzesz».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 104 (103), 1-2a. 27-28. 29b-30 (R.: por. 1a)",
+      "opis": "",
+      "tekst": "Refren: Chwal i błogosław, duszo moja, Pana.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\nRefren.\nWszystko czeka na Ciebie, *\nbyś dał im pokarm we właściwym czasie.\nGdy im dajesz, zbierają, *\ngdy otwierasz swą rękę, sycą się Twym dobrem.\nRefren.\nKiedy odbierasz im oddech, marnieją *\ni w proch się obracają.\nStwarzasz je, napełniając swym Duchem, *\ni odnawiasz oblicze ziemi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 7, 14-23",
+      "opis": "Prawdziwa nieczystość pochodzi z serca",
+      "tekst": "Jezus przywołał znowu tłum do siebie i rzekł do niego:\n«Słuchajcie Mnie, wszyscy, i zrozumcie! Nic nie wchodzi z zewnątrz w człowieka, co mogłoby uczynić go nieczystym; lecz to, co wychodzi z człowieka, to czyni człowieka nieczystym. Kto ma uszy do słuchania, niechaj słucha!»\nGdy się oddalił od tłumu i wszedł do domu, uczniowie pytali Go o tę przypowieść. Odpowiedział im: «I wy tak niepojętni jesteście? Nie rozumiecie, że nic z tego, co z zewnątrz wchodzi w człowieka, nie może uczynić go nieczystym; bo nie wchodzi do jego serca, lecz do żołądka, i zostaje wydalone na zewnątrz». Tak uznał wszystkie potrawy za czyste.\nI mówił dalej: «Co wychodzi z człowieka, to czyni go nieczystym. Z wnętrza bowiem, z serca ludzkiego pochodzą złe myśli, nierząd, kradzieże, zabójstwa, cudzołóstwa, chciwość, przewrotność, podstęp, wyuzdanie, zazdrość, obelgi, pycha, głupota. Całe to zło z wnętrza pochodzi i czyni człowieka nieczystym».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest hymnem na cześć Stwórcy, o którym opowiada pierwsze czytanie z Księgi Rodzaju.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to klasyczna pieśń chwały na cześć Boga Stworzyciela, którego dzieła podziwiamy w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do uwielbienia Boga Stwórcy, który dał człowiekowi życie i pokarm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Wyraża ofiarowanie Bogu darów, które są owocem Jego stwórczej mocy, opisanej w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarowujemy Bogu owoce ziemi, którą stworzył i którą nam dał.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosimy Boga Stwórcę o przyjęcie darów, które dzięki Niemu możemy składać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który uczy nas, co prawdziwie czyni człowieka nieczystym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który oczyszcza nasze serca, prawdziwe źródło nieczystości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który uczy nas o prawdziwej czystości serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Boże dzieła stworzenia, opisane w pierwszym czytaniu i psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Jest to hymn dziękczynny za dzieło stworzenia, które jest głównym tematem pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która wyraża radość z Bożych dzieł stworzenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, Stwórcy nieba i ziemi, który troszczy się o swoje stworzenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby uprawiać i doglądać ziemi, prosząc o Boże błogosławieństwo w tej pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest modlitwą o jedność ludzkości, stworzonej przez jednego Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a największym cudem jest dzieło stworzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która czuwa nad całym stworzeniem, od początku świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń ta jest wyrazem zaufania do wszechmocnego Pana, Stwórcy, który dał nam życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie czystego serca, wolnego od zła, o którym naucza Jezus w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431275.20-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "20 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 38, 4-6. 8-10",
+      "opis": "Bóg czuwa nad Jeremiaszem",
+      "tekst": "W czasie oblężenia Jerozolimy przywódcy, którzy trzymali Jeremiasza w więzieniu, powiedzieli do króla: «Niech umrze ten człowiek, bo naprawdę obezwładnia on ręce żołnierzy, którzy pozostali w tym mieście, i ręce całego ludu, gdy mówi do nich podobne słowa. Człowiek ten nie szuka przecież pomyślności dla tego ludu, lecz nieszczęścia».\nKról Sedecjasz odrzekł: «Oto jest w waszych rękach!» Nie mógł bowiem król nic uczynić przeciw nim. Wzięli więc Jeremiasza i wtrącili go, spuszczając na linach, do cysterny Malkiasza, syna królewskiego, która się znajdowała na dziedzińcu wartowni. W cysternie zaś nie było wody, lecz błoto; zanurzył się więc Jeremiasz w błocie.\nEbedmelek wyszedł z domu królewskiego i rzekł do króla: «Panie mój, królu! Źle zrobili ci ludzie, tak postępując z prorokiem Jeremiaszem i wrzucając go do cysterny. Przecież umrze z głodu w tym miejscu, zwłaszcza że nie ma już chleba w mieście».\nRozkazał król Kuszycie Ebedmelekowi: «Weź sobie stąd trzech ludzi i wyciągnij proroka Jeremiasza z cysterny, zanim umrze».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 40 (39), 2-3. 4. 18 (R.: por. 14b)",
+      "opis": "",
+      "tekst": "Refren: Panie, mój Boże, pośpiesz mi z pomocą.\nZ nadzieją czekałem na Pana, †\na On pochylił się nade mną *\ni wysłuchał mego wołania.\nWydobył mnie z dołu zagłady, z błotnego grzęzawiska, †\nstopy moje postawił na skale *\ni umocnił moje kroki.\nRefren.\nWłożył mi w usta pieśń nową, *\nśpiew dla naszego Boga.\nWielu to ujrzy i przejmie ich trwoga, *\ni zaufają Panu.\nRefren.\nJa zaś jestem ubogi i nędzny, *\nale Pan troszczy się o mnie.\nTy jesteś moim wspomożycielem i wybawcą, *\nBoże mój, nie zwlekaj!\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 12, 1-4",
+      "opis": "Przykład Chrystusa",
+      "tekst": "Bracia:\nMając dokoła siebie takie mnóstwo świadków, zrzuciwszy wszelki ciężar, a przede wszystkim grzech, który nas łatwo zwodzi, biegnijmy wytrwale w wyznaczonych nam zawodach. Patrzmy na Jezusa, który nam w wierze przewodzi i ją wydoskonala. On to zamiast radości, którą Mu obiecywano, przecierpiał krzyż, nie bacząc na jego hańbę, i zasiadł po prawicy na tronie Boga.\nZważcie więc na Tego, który ze strony grzeszników tak wielką wycierpiał wrogość wobec siebie, abyście nie ustawali, załamani na duchu. Jeszcze nie opieraliście się aż do krwi, walcząc przeciw grzechowi.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 49-53",
+      "opis": "Wymagania służby Bożej",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Przyszedłem ogień rzucić na ziemię i jakże pragnę, ażeby już zapłonął. Chrzest mam przyjąć, i jakiej doznaję udręki, aż się to stanie.\nCzy myślicie, że przyszedłem dać ziemi pokój? Nie, powiadam wam, lecz rozłam. Odtąd bowiem pięcioro będzie podzielonych w jednym domu: troje stanie przeciw dwojgu, a dwoje przeciw trojgu; ojciec przeciw synowi, a syn przeciw ojcu; matka przeciw córce, a córka przeciw matce; teściowa przeciw synowej, a synowa przeciw teściowej».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest pocieszeniem w kontekście prześladowań proroka Jeremiasza i wezwania do wytrwałości z drugiego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, które jest źródłem siły do znoszenia przeciwności i podejmowania krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie na trudnej drodze naśladowania Chrystusa, pełnej podziałów i cierpienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o krzyżu Chrystusa nawiązuje do drugiego czytania, które wzywa nas do patrzenia na Jezusa, który przecierpiał krzyż.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Jest to pieśń, która wprost wzywa do zjednoczenia się z krzyżem Chrystusa, co jest głównym tematem drugiego czytania i Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "124",
+      "piesn": "Krzyżu święty nade wszystko",
+      "opis": "Adoracja krzyża jest odpowiedzią na wezwanie do wzięcia swojego krzyża i naśladowania Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Komunia z Chrystusem rozpala w sercach ogień miłości, o którym Jezus mówi w Ewangelii, że przyszedł go rzucić na ziemię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta jest głębokim zjednoczeniem z Męką Chrystusa, która jest chrztem, jaki ma On przyjąć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości płynącej z przebitego Serca Jezusa jest źródłem siły do znoszenia rozłamów i cierpień.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń jest odpowiedzią na wybawienie, którego doświadczył psalmista i prorok Jeremiasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń ta, będąca parafrazą psalmu, wyraża głębokie pragnienie Boga, które jest źródłem siły w trudnościach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynna za Bożą opiekę i wybawienie, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności Chrystusowi, nawet za cenę podziałów i prześladowań, o których mówią czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie niosącym krzyż posyła nas, byśmy szli za Nim, niosąc swój własny krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na trud niesienia krzyża i świadczenia o Chrystusie w świecie pełnym podziałów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wołanie o pomoc i prowadzenie jest szczególnie aktualne w kontekście trudności i prześladowań, o których mówi Jeremiasz.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń o wierności Boga jest pocieszeniem dla tych, którzy jak Jeremiasz cierpią dla Słowa Bożego.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża głęboką ufność w Pana, która jest niezbędna, aby wytrwać w zawodach wiary, o których mówi List do Hebrajczyków.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "775",
+      "piesn": "W naszych ciemnościach",
+      "opis": "Prośba o rozpalenie ognia, który nigdy nie zagaśnie, jest echem słów Jezusa: 'Przyszedłem ogień rzucić na ziemię'.",
+      "moment": "ogólne"
+    }
+  ]
+}

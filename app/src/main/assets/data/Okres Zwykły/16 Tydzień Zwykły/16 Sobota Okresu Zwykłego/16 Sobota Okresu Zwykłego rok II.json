@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430380.Sobota-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 7, 1-11",
+      "opis": "Wezwanie do nawrócenia",
+      "tekst": "Słowo, które Pan skierował do Jeremiasza: «Stań w bramie świątyni i głoś następujące słowa: Słuchajcie słowa Pańskiego, wszyscy z Judy, którzy wchodzicie tymi bramami, aby oddać pokłon Panu. Tak mówi Pan Zastępów, Bóg Izraela: Poprawcie postępowanie i wasze uczynki, a pozwolę wam mieszkać na tym miejscu. Nie ufajcie słowom kłamliwym głoszącym: Świątynia Pańska, świątynia Pańska, świątynia Pańska!\nAlbowiem jeżeli naprawdę poprawicie wasze postępowanie i jeżeli będziecie się kierować wyłącznie sprawiedliwością jeden wobec drugiego, jeśli nie będziecie uciskać cudzoziemca, sieroty i wdowy i jeśli krwi niewinnej nie będziecie rozlewać na tym miejscu, i jeżeli nie pójdziecie za cudzymi bogami na waszą zgubę, to pozwolę wam mieszkać na tym miejscu, na ziemi, którą dałem przodkom waszym od wieków po wieki.\nOto wy na próżno pokładacie ufność w zwodniczych słowach. Nieprawda? Kraść, zabijać, cudzołożyć, przysięgać fałszywie, palić kadzidło Baalowi, chodzić za cudzymi bogami, których nie znacie. A potem przychodzicie i stajecie przede Mną w tym domu, nad którym wzywano mojego imienia, i mówicie: „Oto jesteśmy bezpieczni”, by móc nadal popełniać te wszystkie występki. Może jaskinią zbójców stał się w waszych oczach ten dom, nad którym wzywano mojego imienia? Ja to dobrze widzę - mówi Pan».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 84 (83), 3-4. 5-6a i 8a. 11 (R.: por. 2)",
+      "opis": "",
+      "tekst": "Refren: Jak miła, Panie, jest świątynia Twoja.\nDusza moja stęskniona pragnie przedsiónków Pańskich, *\nserce moje i ciało radośnie wołają do Boga żywego.\nNawet wróbel znajduje swój dom, a jaskółka gniazdo, †\ngdzie złoży swe pisklęta: *\nprzy ołtarzach Twoich, Panie Zastępów, Królu mój i Boże!\nRefren.\nSzczęśliwi, którzy mieszkają w domu Twoim, Panie, *\nnieustannie wielbiąc Ciebie.\nSzczęśliwi, których moc jest w Tobie. *\nMocy im będzie przybywać.\nRefren.\nDoprawdy, dzień jeden w przybytkach Twoich *\nlepszy jest niż innych tysiące.\nWolę stać w progu domu mojego Boga, *\nniż mieszkać w namiotach grzeszników.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 21bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie w duchu łagodności zaszczepione w was słowo,\nktóre ma moc zbawić dusze wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 24-30",
+      "opis": "Przypowieść o chwaście wśród zboża",
+      "tekst": "Jezus opowiedział tłumom tę przypowieść:\n«Królestwo niebieskie podobne jest do człowieka, który posiał dobre nasienie na swojej roli. Lecz gdy ludzie spali, przyszedł jego nieprzyjaciel, nasiał chwastu między pszenicę i odszedł.\nA gdy zboże wyrosło i wypuściło kłosy, wtedy pojawił się i chwast. Słudzy gospodarza przyszli i zapytali go: „Panie, czy nie posiałeś dobrego nasienia na swej roli? Skąd więc wziął się na niej chwast?” Odpowiedział im: „Nieprzyjazny człowiek to sprawił”.\nRzekli mu słudzy: „Chcesz więc, żebyśmy poszli i zebrali go?” A on im odrzekł: „Nie, byście zbierając chwast, nie wyrwali razem z nim i pszenicy. Pozwólcie obojgu róść aż do żniwa; a w czasie żniwa powiem żeńcom: Zbierzcie najpierw chwast i powiążcie go w snopki na spalenie; pszenicę zaś zwieźcie do mego spichlerza”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta jest osobistą odpowiedzią na wezwanie proroka Jeremiasza do nawrócenia i porzucenia grzesznego postępowania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do poprawy postępowania z pierwszego czytania jest głównym tematem tej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec oskarżeń proroka, pieśń ta jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Prośba o oczyszczenie z grzechów wymienionych przez Jeremiasza jest warunkiem godnego złożenia ofiary serca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec groźby odrzucenia, przyjmujemy postawę pokory i błagania o Boże przebaczenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o czyste serce, które będzie prawdziwą świątynią Pana, a nie 'jaskinią zbójców'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża tęsknotę za przebywaniem w domu Bożym, o której mówi psalmista, w przeciwieństwie do tych, którzy czynią go 'jaskinią zbójców'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia gromadzi nas w jedno Ciało, Kościół, w którym dobro i zło rosną razem aż do żniwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który umacnia w nas 'dobre nasienie', byśmy mogli wzrastać w królestwie Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za Bożą dobroć i ratunek, która kontrastuje z postawą ludu, który pokładał ufność w 'zwodniczych słowach'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego cierpliwość i miłosierdzie, które wzywa nas do nawrócenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń dziękczynna jest doskonałym wypełnieniem wezwania psalmisty: 'Kto składa dziękczynną ofiarę, ten cześć Mi oddaje'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec przestrogi proroka przed złem (chwastem) w świecie, pieśń ta jest deklaracją wyboru życia zgodnego z wolą Bożą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po usłyszeniu Słowa, wychodzimy w świat, by głosić panowanie Chrystusa, Pana żniwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą pracę, abyśmy byli dobrym nasieniem przynoszącym plon dla Królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Przypowieść o chwaście uczy cierpliwości Boga, a ta pieśń jest aktem zaufania Jego miłosierdziu i ostatecznej sprawiedliwości.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest sędzią sprawiedliwym i ostatecznie oddzieli dobro od zła.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W świecie, gdzie rośnie pszenica i chwast, pieśń ta jest wyrazem ufności w Bożą opiekę nad sprawiedliwymi.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "W sobotę zwracamy się do Maryi, Matki Kościoła, prosząc o Jej opiekę nad 'rolą Bożą', którą jest wspólnota wierzących.",
+      "moment": "ogólne"
+    }
+  ]
+}

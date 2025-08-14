@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417010.Piatek-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 4, 7-15",
+      "opis": "Bóg, który wskrzesił Jezusa, przywróci życie także nam",
+      "tekst": "Bracia:\nPrzechowujemy skarb w naczyniach glinianych, aby z Boga była owa przeogromna moc, a nie z nas. Zewsząd cierpienia znosimy, lecz nie poddajemy się zwątpieniu; żyjemy w niedostatku, lecz nie rozpaczamy; znosimy prześladowania, lecz nie czujemy się osamotnieni, obalają nas na ziemię, lecz nie giniemy. Nosimy nieustannie w ciele naszym konanie Jezusa, aby życie Jezusa objawiało się w naszym ciele. Ciągle bowiem my, którzy żyjemy, jesteśmy wydawani na śmierć z powodu Jezusa, aby życie Jezusa objawiało się w naszym śmiertelnym ciele. Tak więc działa w nas śmierć, podczas gdy w was - życie.\nA że mamy tego samego ducha wiary, według którego napisano: «Uwierzyłem, dlatego przemówiłem», my także wierzymy i dlatego mówimy, przekonani, że Ten, który wskrzesił Jezusa, z Jezusem przywróci życie także nam i stawi nas przed sobą razem z wami. Wszystko to bowiem dla was, ażeby łaska, obfitująca we wdzięczność wielu, pomnażała się Bogu na chwałę.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 10-11. 15-16. 17-18 (R.: por. 17a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Złożę Ci, Boże, ofiarę pochwalną.\nUfność miałem nawet wtedy, gdy mówiłem: *\n«Jestem w wielkim ucisku».\nI zalękniony wołałem: *\n«Każdy człowiek jest kłamcą!»\nRefren.\nCenna jest w oczach Pana *\nśmierć Jego wyznawców.\nO Panie, jestem Twoim sługą, †\nTwym sługą, synem Twojej służebnicy. *\nTy rozerwałeś moje kajdany.\nRefren.\nTobie złożę ofiarę pochwalną *\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana *\nprzed całym Jego ludem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Flp 2, 15d. 16a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jawicie się jako źródło światła w świecie,\ntrzymając się mocno Słowa Życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 27-32",
+      "opis": "Wymagania nowego Prawa w dziedzinie czystości",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano: „Nie cudzołóż”. A Ja wam powiadam: Każdy, kto pożądliwie patrzy na kobietę, już się w swoim sercu dopuścił z nią cudzołóstwa.\nJeśli więc prawe twoje oko jest ci powodem do grzechu, wyłup je i odrzuć od siebie. Lepiej bowiem jest dla ciebie, gdy zginie jeden z twoich członków, niż żeby całe twoje ciało miało być wrzucone do piekła. I jeśli prawa twoja ręka jest ci powodem do grzechu, odetnij ją i odrzuć od siebie. Lepiej bowiem jest dla ciebie, gdy zginie jeden z twoich członków, niż żeby całe twoje ciało miało iść do piekła.\nPowiedziano też: „Jeśli ktoś chce oddalić swoją żonę, niech jej da list rozwodowy”. A Ja wam powiadam: Każdy, kto oddala swoją żonę - poza wypadkiem nierządu - naraża ją na cudzołóstwo; a kto by oddaloną wziął za żonę, dopuszcza się cudzołóstwa».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec cierpień i prześladowań, o których pisze św. Paweł, ta pieśń jest wyrazem głębokiej ufności w Bożą opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża dążenie do bliskości z Bogiem, która jest źródłem siły w trudach i przeciwnościach opisanych przez św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń jest zapewnieniem o Bożej pomocy, która podtrzymywała św. Pawła w jego cierpieniach dla Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Ewangelia wzywa do radykalnej walki z grzechem; ta pieśń jest prośbą o czyste serce, które możemy ofiarować Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Ofiarujemy Bogu skruszone serce, prosząc o siłę do odrzucenia grzechu, do czego wzywa nas Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W tej pieśni ofiarujemy Bogu naszą wolę zachowania czystości serca i wierności Jego przykazaniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Noszenie w ciele konania Jezusa jest udziałem w Jego krzyżu, a Eucharystia uobecnia tę zbawczą ofiarę i daje siłę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa o uświęcenie przez Ciało i Krew Chrystusa, które dają siłę do radykalnego życia Ewangelią.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "W Komunii Świętej spotykamy Pana, który przychodzi, by nas umocnić w walce z grzechem i w dążeniu do czystości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest ofiarą pochwalną, do której złożenia wzywa psalmista w podzięce za ocalenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego wierność i za to, że rozerwał nasze kajdany, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na doświadczenie Bożej dobroci i ocalenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Jesteśmy posłani, by głosić nadzieję zmartwychwstania, o której z taką mocą pisze św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy mogli żyć zgodnie z wymaganiami Ewangelii i być światłem dla świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie na trudnej drodze życia według Ewangelii, a nie według zasad tego świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Aklamacja wzywa nas, byśmy byli źródłem światła w świecie, a ta pieśń wskazuje na Chrystusa jako źródło tego światła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wierność przymierzu małżeńskiemu, o której mówi Ewangelia, jest jednym z przejawów nowego przykazania miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia wzywa do czystości serca, co jest jednym z błogosławieństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wiarę, że idąc za Chrystusem, uczymy się Jego drogi czystości i wierności.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414672.Czwartek-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Flm 7-20",
+      "opis": "Paweł wstawia się za Onezymem",
+      "tekst": "Bracie, doznałem wielkiej radości i pociechy z powodu twojej miłości, jako że serca świętych otrzymały od ciebie pokrzepienie. Przeto, choć z całą swobodą mogę w Chrystusie nakładać na ciebie obowiązek, to jednak raczej proszę w imię miłości, bo taki już jestem.\nJa, stary Paweł, a teraz jeszcze więzień Chrystusa Jezusa - proszę cię za moim dzieckiem, za tym, którego zrodziłem w kajdanach, za Onezymem. Niegdyś dla ciebie nieużyteczny, teraz właśnie i dla ciebie, i dla mnie stał się on bardzo użyteczny. Jego ci odsyłam; ty zaś jego, to jest serce moje, przyjmij do domu. Zamierzałem go trzymać przy sobie, aby zamiast ciebie oddawał mi usługi w kajdanach, które noszę dla Ewangelii. Jednakże postanowiłem nie czynić niczego bez twojej zgody, aby dobry twój czyn był nie jakby z musu, ale z dobrej woli. Może bowiem po to oddalił się od ciebie na krótki czas, abyś go odebrał na zawsze, już nie jako niewolnika, lecz więcej niż niewolnika, jako brata umiłowanego. Takim jest on zwłaszcza dla mnie, ileż więcej dla ciebie zarówno w doczesności, jak i w Panu. Jeśli więc się poczuwasz do łączności ze mną, przyjmij go jak mnie. Jeśli zaś wyrządził ci jakąś szkodę lub winien jest cokolwiek, policz to na mój rachunek.\nJa, Paweł, piszę to własnoręcznie, ja uiszczę odszkodowanie - nie mówiąc już o tym, że ty w większym stopniu winien mi jesteś samego siebie. Tak, bracie, niech ja przez ciebie zaznam radości w Panu: pokrzep moje serce w Chrystusie!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 6c-7. 8-9a. 9b-10 (R.: por. 5a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Szczęśliwy, komu Pan Bóg jest pomocą.\nBóg wiary dochowuje na wieki, *\nuciśnionym wymierza sprawiedliwość,\nchlebem karmi głodnych, *\nwypuszcza na wolność uwięzionych.\nRefren.\nPan przywraca wzrok ociemniałym, *\nPan dźwiga poniżonych,\nPan kocha sprawiedliwych, *\nPan strzeże przybyszów.\nRefren.\nOchrania sierotę i wdowę, *\nlecz występnych kieruje na bezdroża.\nPan króluje na wieki, *\nBóg twój, Syjonie, przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 5ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem krzewem winnym, a wy - latoroślami.\nKto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 20-25",
+      "opis": "Królestwo Boże jest pośród was",
+      "tekst": "Jezus zapytany przez faryzeuszów, kiedy przyjdzie królestwo Boże, odpowiedział im: «Królestwo Boże nie przyjdzie w sposób dostrzegalny; i nie powiedzą: „Oto tu jest” albo: „Tam”. Oto bowiem królestwo Boże pośród was jest».\nDo uczniów zaś rzekł: «Przyjdzie czas, kiedy zapragniecie ujrzeć choćby jeden z dni Syna Człowieczego, a nie zobaczycie. Powiedzą wam: „Oto tam” lub: „Oto tu”. Nie chodźcie tam i nie biegnijcie za nimi. Bo jak błyskawica, gdy zabłyśnie, jaśnieje od jednego krańca widnokręgu aż do drugiego, tak będzie z Synem Człowieczym w dniu Jego.\nWpierw jednak musi wiele wycierpieć i być odrzuconym przez to pokolenie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie jest apelem o miłość i przyjęcie drugiego człowieka jako brata. Ta pieśń jest muzycznym wyrazem tego przykazania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności w miłości, która jest fundamentem Królestwa Bożego, o którym poucza Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem listu do Filemona i nauki o Królestwie Bożym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec prawdy, że królestwo Boże jest pośród nas, ta pieśń jest aktem ofiarowania całego życia Bogu, by budować to królestwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, która, jak w przypadku Filemona, ma być czyniona z dobrej woli i miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze serce, prosząc, by On je pokrzepił, tak jak Paweł prosił Filemona.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Ewangelia mówi o dniach Syna Człowieczego. Ta pieśń jest wyznaniem wiary, że Chrystus jest naszą nadzieją, a Jego miłość jest prawem życia w Jego królestwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii uczy nas miłości, która przekracza podziały społeczne, jak w przypadku Onezyma i Filemona.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jedność w Chrystusie, która sprawia, że niewolnik staje się umiłowanym bratem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar wiary, życia wiecznego i Kościoła, który jest zalążkiem królestwa Bożego na ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar miłości, która, jak pisze św. Paweł, przynosi wielką radość i pociechę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny za dar braterskiej miłości, która jest znakiem obecności Królestwa Bożego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy przez naszą pracę i świadectwo miłości, o której mówi św. Paweł, objawiali światu królestwo Boże.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłości i przebaczenia, której przykładem jest postawa św. Pawła wobec Onezyma.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Owocem życia w Królestwie Bożym są dobre czyny, miłosierdzie i przebaczenie, do których wzywają czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem listu do Filemona i nauki o Królestwie Bożym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności w miłości, która jest fundamentem Królestwa Bożego, o którym poucza Jezus w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta mówi o Królestwie Bożym, które jest pośród nas i przemienia relacje międzyludzkie, jak w przypadku Filemona i Onezyma.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest istotą Królestwa Bożego, o którym naucza Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

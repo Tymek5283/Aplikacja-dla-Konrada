@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426612.Sroda-XIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "13 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 21, 5. 8-20",
+      "opis": "Bóg ocala i błogosławi Izmaela",
+      "tekst": "Abraham miał sto lat, gdy mu się urodził syn jego, Izaak. Dziecko podrosło i zostało odłączone od piersi. Abraham wyprawił wielką ucztę w tym dniu, w którym Izaak został odłączony od piersi.\nSara, widząc, że syn Egipcjanki Hagar, którego ta urodziła Abrahamowi, naśmiewa się z Izaaka, rzekła do Abrahama: «Wypędź tę niewolnicę wraz z jej synem, bo syn tej niewolnicy nie będzie współdziedzicem z synem moim, Izaakiem». To powiedzenie Abraham uznał za bardzo złe - ze względu na swego syna.\nA wtedy Bóg rzekł do Abrahama: «Niechaj ci się nie wydaje złe to, co Sara powiedziała o tym chłopcu i o twojej niewolnicy. Posłuchaj jej, gdyż tylko od Izaaka będzie nazwane twoje potomstwo. Z syna zaś tej niewolnicy uczynię również wielki naród, bo jest on twoim potomkiem».\nNazajutrz rano wziął Abraham chleb oraz bukłak z wodą i dał Hagar, wkładając jej na barki, i oddalił ją wraz z dzieckiem. Ona zaś poszła i błąkała się po pustyni Beer-Szeby. A gdy zabrakło wody w bukłaku, ułożyła dziecko pod jednym z krzewów, po czym odeszła i usiadła opodal tak daleko, jak łuk doniesie, mówiąc: «Nie będę patrzała na śmierć dziecka». I tak siedząc opodal, zaczęła głośno płakać.\nAle Bóg usłyszał jęk chłopca i Anioł Boży zawołał na Hagar z nieba: «Cóż ci to, Hagar? Nie lękaj się, bo usłyszał Bóg jęk chłopca tam leżącego. Wstań, podnieś chłopca i weź go za rękę, bo uczynię z niego wielki naród».\nPo czym Bóg otworzył jej oczy i ujrzała studnię z wodą; a ona poszła, napełniła bukłak wodą i dała chłopcu pić. Bóg był z chłopcem, a ten rósł. Mieszkał on na pustyni i stał się łucznikiem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 7-8. 10-11. 12-13 (R.: por. 7a)",
+      "opis": "",
+      "tekst": "Refren: Biedak zawołał i Pan go wysłuchał.\nOto zawołał biedak i Pan go usłyszał, *\ni uwolnił od wszelkiego ucisku.\nAnioł Pański otacza szańcem bogobojnych, *\naby ich ocalić.\nRefren.\nBójcie się Pana, wszyscy Jego święci, *\ngdyż bogobojni nie zaznają biedy.\nBogacze zubożeli i zaznali głodu, *\nszukającym Pana niczego nie zabraknie.\nRefren.\nZbliżcie się, synowie, posłuchajcie, co mówię, *\nbędę was uczył bojaźni Pańskiej.\nKim jest ten człowiek, który życia pożąda *\ni długich dni pragnie, by się nimi cieszyć?\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ze swej woli zrodził nas Ojciec przez słowo prawdy,\nbyśmy byli jakby pierwocinami Jego stworzeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 28-34",
+      "opis": "Wypędzenie złych duchów",
+      "tekst": "Gdy Jezus przybył na drugi brzeg do kraju Gadareńczyków, wyszli Mu naprzeciw z grobowców dwaj opętani, tak bardzo niebezpieczni, że nikt nie mógł przejść tamtą drogą. Zaczęli krzyczeć: «Czego chcesz od nas, Jezusie, Synu Boży? Przyszedłeś tu przed czasem dręczyć nas?»\nA opodal nich pasła się duża trzoda świń. Złe duchy zaczęły Go prosić: «Jeżeli nas wyrzucasz, to poślij nas w tę trzodę świń». Rzekł do nich: «Idźcie!» Wyszły więc i weszły w świnie. I naraz cała trzoda ruszyła pędem po urwistym zboczu do jeziora i zginęła w wodach.\nPasterze zaś uciekli i przyszedłszy do miasta, rozpowiedzieli wszystko, a także zdarzenie z opętanymi. Wtedy całe miasto wyszło na spotkanie Jezusa; a gdy Go ujrzeli, prosili, żeby opuścił ich granice.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, który, jak w pierwszym czytaniu, słyszy płacz uciśnionych i przychodzi z pomocą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Historia Hagar i Izmaela jest przykładem Bożej Opatrzności, która czuwa nad każdym człowiekiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który ma moc ocalić od śmierci i panuje nad złymi duchami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń eucharystyczna jest dziękczynieniem za Bożą opatrzność i opiekę, której doświadczyła Hagar i jej syn na pustyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które polega na Bożej dobroci, objawionej w ocaleniu Izmaela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec mocy Jezusa, który panuje nad złem, stajemy w pokorze, prosząc o Jego miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Wyraża postawę wiary w Jezusa, który ma władzę nad złymi duchami i jest Synem Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, której doświadczyli opętani z kraju Gadareńczyków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i wiary jest odpowiedzią na objawienie się mocy Jezusa, Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalm, wysłuchuje wołania biedaka i uwalnia od ucisku.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego opiekę i ocalenie, o którym świadczy historia Hagar i Izmaela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za moc Jezusa, która zwycięża zło i przynosi wyzwolenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa nad mocami zła, co zostało objawione w uzdrowieniu opętanych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po doświadczeniu mocy Jezusa, wychodzimy w świat, by głosić Jego królowanie nad wszelkim złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Wobec odrzucenia Jezusa, my deklarujemy naszą wierność i gotowość do świadczenia o Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec odrzucenia Jezusa przez mieszkańców kraju Gadareńczyków, pieśń ta jest deklaracją wyboru Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Jest to akt zawierzenia Jezusowi, który jest potężniejszy od wszelkiego zła i przynosi wyzwolenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który, jak mówi psalm, jest obrońcą bogobojnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wobec odrzucenia Jezusa, my pragniemy być bliżej Niego i doświadczać Jego zbawczej mocy.",
+      "moment": "ogolne"
+    }
+  ]
+}

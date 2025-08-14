@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430467.Piatek-XVII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "17 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 26, 1-9",
+      "opis": "Jeremiasz skazany na śmierć",
+      "tekst": "Na początku panowania Jojakima, syna Jozjasza, króla judzkiego, Pan skierował następujące słowo do Jeremiasza: Tak mówi Pan: «Stań na dziedzińcu domu Pańskiego i mów do mieszkańców wszystkich miast judzkich, którzy przychodzą do domu Pańskiego oddać pokłon, wszystkie słowa, jakie poleciłem ci im oznajmić; nie ujmuj ani słowa! Może posłuchają i zawróci każdy ze swej złej drogi, wtenczas Ja powstrzymam nieszczęście, jakie zamyślam przeciw nim za ich przewrotne postępki.\nPowiesz im: Tak mówi Pan: Jeżeli nie będziecie Mi posłuszni i nie będziecie postępować według Prawa, które dla was ustanowiłem, i jeśli nie będziecie słuchać słów moich sług, proroków, których nieustannie do was posyłam, mimo że jesteście nieposłuszni, zrobię z tym domem podobnie jak z Szilo, a to miasto uczynię przekleństwem dla wszystkich narodów ziemi».\nKapłani, prorocy i cały lud słyszeli Jeremiasza mówiącego te słowa w domu Pańskim. Gdy zaś Jeremiasz skończył mówić wszystko to, co mu Pan nakazał głosić całemu ludowi, prorocy i cały lud pochwycili go, mówiąc: «Musisz umrzeć! Dlaczego prorokowałeś w imię Pana, że się z tym domem stanie to, co z Szilo, a to miasto ulegnie zniszczeniu i pozostanie niezamieszkałe?» Cały lud zgromadził się dokoła Jeremiasza w domu Pańskim.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 69 (68), 5. 8-10. 14 (R.: por. 14c)",
+      "opis": "",
+      "tekst": "Refren: W Twojej dobroci wysłuchaj mnie, Panie.\nLiczniejsi od włosów na mej głowie *\nsą ci, którzy mnie nienawidzą bez powodu.\nSilni są moi prześladowcy, wrogowie zakłamani, *\nczyż mam oddać to, czego nie zabrałem?\nRefren.\nDla Ciebie znoszę urąganie, hańba twarz mi okrywa, †\ndla braci moich stałem się obcym *\ni cudzoziemcem dla synów mej matki.\nBo gorliwość o dom Twój mnie pożera *\ni spadły na mnie obelgi złorzeczących Tobie.\nRefren.\nPanie, modlę się do Ciebie, *\nw czas łaski, o Boże.\nWysłuchaj mnie w Twojej wielkiej dobroci, *\nw Twojej zbawczej wierności.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 P 1, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Pana trwa na wieki.\nWłaśnie to słowo ogłoszono wam jako Dobrą Nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 54-58",
+      "opis": "Jezus lekceważony w Nazarecie",
+      "tekst": "Jezus, przyszedłszy do swego miasta rodzinnego, nauczał ich w synagodze, tak że byli zdumieni i pytali: «Skąd u Niego ta mądrość i cuda? Czyż nie jest On synem cieśli? Czy Jego Matce nie jest na imię Mariam, a Jego braciom Jakub, Józef, Szymon i Juda? Także Jego siostry czy nie żyją wszystkie u nas? Skądże więc u Niego to wszystko?» I powątpiewali o Nim.\nA Jezus rzekł do nich: «Tylko w swojej ojczyźnie i w swoim domu może być prorok lekceważony». I niewiele zdziałał tam cudów z powodu ich niedowiarstwa.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę w obliczu prześladowań, co jest doświadczeniem zarówno proroka Jeremiasza, jak i Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem prześladowanego, który szuka schronienia u Pana, podobnie jak psalmista i prorok Jeremiasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, nawet pośród cierpienia i odrzucenia, które są udziałem proroków.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wobec groźby sądu i kary, o której mówi Jeremiasz, ta pieśń jest aktem pokory i prośbą o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i oddanie się Bogu, co jest odpowiedzią na Jego słowo, nawet jeśli jest ono trudne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarowanie naszych cierpień w zjednoczeniu z ofiarą Chrystusa jest odpowiedzią na doświadczenie odrzucenia, podobnego do losu proroków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń wyraża pokorę i wiarę, której zabrakło mieszkańcom Nazaretu, a która jest warunkiem przyjęcia Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest kluczem do przyjęcia Chrystusa, odrzuconego przez swoich z powodu Jego pozornej zwyczajności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Pieśń pomaga w akcie wiary rozpoznać w Eucharystii Tego, którego rodacy Jezusa nie potrafili rozpoznać jako proroka.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynna za dar Słowa Bożego, nawet jeśli jest ono trudne i spotyka się z odrzuceniem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą opiekę i ratunek w trudnościach, których doświadczali prorocy wierni swojemu posłannictwu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który jest naszą ucieczką i siłą w chwilach próby i prześladowania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec odrzucenia proroków, pieśń ta jest deklaracją wierności Bogu i Jego Prawu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest zobowiązaniem do wierności Chrystusowi, nawet w obliczu sprzeciwu świata, na wzór proroków.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń ukazuje Chrystusa idącego przez historię drogą krzyża, drogą odrzucenia, którą kroczyli przed Nim prorocy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Chociaż Jezus został odrzucony przez swoich, ta pieśń jest wyznaniem Jego królewskiej godności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odrzucenie w Nazarecie staje się symbolicznym początkiem misji skierowanej do wszystkich, którzy uwierzą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu pośród prześladowań, co było postawą proroka Jeremiasza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalna pieśń, która jest echem lamentacji psalmisty, znoszącego urągania ze względu na wierność Bogu.",
+      "moment": "ogolne"
+    }
+  ]
+}

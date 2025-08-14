@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416206.Piatek-VIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "8 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 44, 1. 10-15",
+      "opis": "Pochwała wielkich przodków",
+      "tekst": "Wychwalajmy mężów sławnych i ojców naszych w kolejności ich pochodzenia.\nAle są i tacy, o których nie pozostała pamięć, zginęli, jakby wcale nie istnieli, byli, ale jak gdyby ich nie było, a dzieci ich po nich.\nLecz także ci są mężami czcigodnymi, których dobre czyny nie zostały zapomniane; pozostały one wraz z ich potomstwem, dobrym dziedzictwem są ich następcy.\nPotomstwo ich trzyma się przymierzy, a dzięki nim - ich dzieci. Potomstwo ich trwać będzie na wieki, a chwała ich nie będzie wymazana.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 149, 1b-2. 3-4. 5-6a i 9b",
+      "opis": "",
+      "tekst": "Refren: Pan w swoim ludzie upodobał sobie.\nŚpiewajcie Panu pieśń nową, *\ngłoście Jego chwałę w zgromadzeniu świętych.\nNiech się Izrael cieszy swoim Stwórcą, *\na synowie Syjonu radują swym Królem.\nRefren.\nNiech imię Jego czczą tańcem, *\nniech grają Mu na bębnie i cytrze.\nBo Pan swój lud miłuje, *\npokornych wieńczy zwycięstwem.\nRefren.\nNiech święci cieszą się w chwale, *\nniech się weselą przy uczcie niebieskiej.\nChwała Boża niech będzie w ich ustach; *\nto jest chwałą wszystkich Jego świętych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie wy Mnie wybraliście, ale Ja was wybrałem,\nabyście szli i owoc przynosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 11, 11-25",
+      "opis": "Nieurodzajny figowiec. Oczyszczenie świątyni",
+      "tekst": "Jezus przybył do Jerozolimy i wszedł do świątyni. Obejrzał wszystko, a że pora była już późna, wyszedł razem z Dwunastoma do Betanii.\nNazajutrz, gdy wyszli z Betanii, poczuł głód. A widząc z daleka figowiec, okryty liśćmi, podszedł ku niemu zobaczyć, czy nie znajdzie czegoś na nim. Lecz podszedłszy bliżej, nie znalazł nic prócz liści, gdyż nie był to czas na figi. Wtedy rzekł do drzewa: «Niechaj już nikt nigdy nie je z ciebie owocu!» A słyszeli to Jego uczniowie.\nI przyszli do Jerozolimy. Wszedłszy do świątyni, zaczął wyrzucać tych, którzy sprzedawali i kupowali w świątyni, powywracał stoły tych, co zmieniali pieniądze, i ławki sprzedawców gołębi; nie pozwolił też, żeby ktoś przeniósł sprzęt jakiś przez świątynię. Potem nauczał ich, mówiąc: «Czyż nie jest napisane: Mój dom ma być domem modlitwy dla wszystkich narodów? Lecz wy uczyniliście go jaskinią zbójców».\nKiedy doszło to do arcykapłanów i uczonych w Piśmie, szukali sposobu, jak by Go zgładzić. Czuli bowiem lęk przed Nim, gdyż cały tłum był zachwycony Jego nauką.\nGdy zaś wieczór zapadł, Jezus i uczniowie wychodzili poza miasto. Przechodząc rano, ujrzeli figowiec uschły od korzeni. Wtedy Piotr przypomniał sobie i rzekł do Niego: «Rabbi, patrz, figowiec, który przekląłeś, usechł».\nJezus im odpowiedział: «Miejcie wiarę w Boga! Zaprawdę, powiadam wam: Kto powie tej górze: Podnieś się i rzuć w morze, a nie zwątpi w duszy, lecz wierzy, że spełni się to, co mówi, tak mu się stanie. Dlatego powiadam wam: Wszystko, o co prosicie w modlitwie, stanie się wam, tylko wierzcie, że otrzymacie. A kiedy stajecie do modlitwy, przebaczcie, jeśli macie coś przeciw komuś, aby także Ojciec wasz, który jest w niebie, przebaczył wam wykroczenia wasze».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń ta wyraża cześć dla domu Bożego, co kontrastuje z postawą kupców w świątyni, których wyrzucił Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się w domu modlitwy, którym ma być świątynia Pańska.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana w zgromadzeniu świętych, o czym mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Nawiązuje do symboliki nieurodzajnego figowca, wzywając do przynoszenia owoców godnych nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono owocne, a nie jałowe jak przeklęty figowiec.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, aby nasze życie przynosiło owoce wiary, o które prosimy w modlitwie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która ma moc przenoszenia gór, o czym Jezus naucza w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary, która jest warunkiem owocnej modlitwy i życia chrześcijańskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę wiary i pokory w obliczu tajemnicy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta jest echem psalmu, który wzywa zgromadzenie świętych do radosnego chwalenia Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą chwałę, która objawia się w Jego dziełach i w odpowiedzi na naszą modlitwę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar modlitwy i pewność, że Bóg nas wysłuchuje.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii i przynoszenia owoców wiary w całym świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wiara w Niego pozwala nam czynić wielkie rzeczy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla konieczność przebaczenia, o którym Jezus mówi jako o warunku wysłuchanej modlitwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "554",
+      "piesn": "Racz być, Chryste, przebłagany",
+      "opis": "Nawiązuje do pierwszego czytania o pamięci o przodkach i wzywa do modlitwy w jedności ze świętymi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do wezwania Jezusa do przebaczenia przed modlitwą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i przebaczenie, o których mówi ta pieśń, są warunkiem owocnej modlitwy i życia wiarą.",
+      "moment": "ogolne"
+    }
+  ]
+}

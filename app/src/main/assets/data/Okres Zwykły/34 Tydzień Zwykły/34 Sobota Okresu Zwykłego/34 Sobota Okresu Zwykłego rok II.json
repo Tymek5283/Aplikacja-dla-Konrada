@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414049.Sobota-34-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "34 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 22, 1-7",
+      "opis": "Wizja raju",
+      "tekst": "Anioł Pański ukazał mi rzekę wody życia, lśniącą jak kryształ, wypływającą z tronu Boga i Baranka. Pomiędzy rynkiem Miasta a rzeką, po obu brzegach, drzewo życia rodzące dwanaście owoców - wydające swój owoc każdego miesiąca - a liście drzewa służą do leczenia narodów. Nic godnego klątwy już nie będzie. I będzie w nim tron Boga i Baranka, a słudzy Jego będą Mu cześć oddawali. I będą oglądać Jego oblicze, a imię Jego - na ich czołach. I już nocy nie będzie. A nie potrzeba im światła lampy ani światła słońca, bo Pan Bóg będzie świecił nad nimi i będą królować na wieki wieków.\nI rzekł do mnie: «Te słowa wiarygodne są i prawdziwe, a Pan, Bóg duchów proroków, wysłał swego anioła, by sługom swoim ukazać, co stać się musi niebawem. A oto niebawem przyjdę. Błogosławiony, kto strzeże słów proroctwa tej księgi».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 1-2. 3-5. 6-7c (R.: por. 7bc)",
+      "opis": "",
+      "tekst": "Refren: My ludem Pana i Jego owcami.\nPrzyjdźcie, radośnie śpiewajmy Panu, *\nwznośmy okrzyki ku chwale Opoki naszego zbawienia.\nStańmy przed obliczem Jego z uwielbieniem, *\nz weselem śpiewajmy Mu pieśni.\nRefren.\nBo Pan jest Bogiem wielkim, †\nwielkim Królem nad wszystkimi bogami. *\nW Jego ręku głębiny ziemi, szczyty gór do Niego należą.\nJego własnością jest morze, które sam stworzył, *\ni ziemia, którą ulepiły Jego ręce.\nRefren.\nPrzyjdźcie, uwielbiajmy Go, padając na twarze, *\nklęknijmy przed Panem, który nas stworzył.\nAlbowiem On jest naszym Bogiem, *\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 34-36",
+      "opis": "Czuwajcie i módlcie się w każdym czasie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Uważajcie na siebie, aby wasze serca nie były ociężałe wskutek obżarstwa, pijaństwa i trosk doczesnych, żeby ten dzień nie spadł na was znienacka jak potrzask. Przyjdzie on bowiem na wszystkich, którzy mieszkają na całej ziemi. Czuwajcie więc i módlcie się w każdym czasie, abyście mogli uniknąć tego wszystkiego, co ma nastąpić, i stanąć przed Synem Człowieczym».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest echem wezwania z psalmu responsoryjnego: 'Przyjdźcie, radośnie śpiewajmy Panu, (...) klęknijmy przed Panem, który nas stworzył'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża tęsknotę za domem Pana, którym w ostatecznym wymiarze jest Nowe Jeruzalem z Apokalipsy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada ostateczne przyjście Pana i Nowego Jeruzalem, o którym mówi Apokalipsa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec wezwania do czuwania z Ewangelii, ta pieśń jest aktem ofiarowania całego życia Bogu, aby być gotowym na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc o łaskę wytrwania w czujności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i modlitwy, do której zachęca Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Psalm responsoryjny mówi o nas jako o 'ludzie Jego pastwiska', a ta pieśń jest wyrazem ufności w Dobrego Pasterza, który prowadzi nas do wiecznego domu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chleba Życia jest zadatkiem życia wiecznego w Nowym Jeruzalem, gdzie znajduje się drzewo życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do czuwania i jest pokarmem na drogę do wiecznej ojczyzny.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Dziękczynienie za obietnicę oglądania oblicza Bożego i królowania na wieki, opisaną w pierwszym czytaniu z Apokalipsy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn dziękczynny, który pasuje do radosnej perspektywy zwycięstwa i królowania z Chrystusem, ukazanej w Apokalipsie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, którego słudzy będą Mu cześć oddawali w Nowym Jeruzalem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W ostatnim dniu roku liturgicznego, pieśń ta jest posłaniem nadziei na ostateczne spotkanie z Panem, do którego przygotowuje nas całe życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna, wzywająca do czuwania i powierzania się Bogu, jest doskonałym posłaniem na zakończenie Mszy, w której słyszymy 'Czuwajcie!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń jest odpowiedzią na wezwanie Jezusa do czuwania i modlitwy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń wyraża nadzieję na zmartwychwstanie i oglądanie Boga, co jest centralnym punktem wizji nowego nieba i nowej ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę, która jest niezbędna, aby wytrwać w czuwaniu i modlitwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń o charakterze adwentowym, która dobrze oddaje atmosferę oczekiwania na powtórne przyjście Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

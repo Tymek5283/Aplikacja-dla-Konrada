@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425151.22-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "22 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 3, 17-18. 20. 28-29",
+      "opis": "Bóg miłuje pokornych",
+      "tekst": "Synu, z łagodnością prowadź swe sprawy, a każdy, kto jest prawy, będzie cię miłował. Im większy jesteś, tym bardziej się uniżaj, a znajdziesz łaskę u Pana. Wielka jest bowiem potęga Pana i przez pokornych bywa chwalony.\nNa chorobę pyszałka nie ma lekarstwa, albowiem nasienie zła zapuściło w nim korzenie. Serce rozumnego rozważa przypowieść, a ucho słuchacza - to pragnienie mędrca.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 68 (67), 4 i 5ac. 6-7b. 10-11 (R.: por. 11b)",
+      "opis": "",
+      "tekst": "Refren: Ty, dobry Boże, biednego ochraniasz.\nSprawiedliwi cieszą się i weselą przed Bogiem, *\ni rozkoszują radością.\nŚpiewajcie Bogu, grajcie Jego imieniu, *\nbo Pan Mu na imię.\nRefren.\nOjcem dla sierot i wdów opiekunem *\njest Bóg w swym świętym mieszkaniu.\nBóg dom gotuje dla opuszczonych, *\njeńców prowadzi ku lepszemu życiu.\nRefren.\nDeszcz obfity zesłałeś, Boże, *\nTy orzeźwiłeś swe znękane dziedzictwo.\nTwoja rodzina, Boże, znalazła to mieszkanie, *\nktóre w swej dobroci dałeś ubogiemu.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 12, 18-19. 22-24a",
+      "opis": "Stare i Nowe Przymierze",
+      "tekst": "Bracia:\nNie przyszliście do namacalnego i płonącego ognia, do mgły, do ciemności i burzy ani też do grzmiących trąb i do takiego dźwięku słów, iż wszyscy, którzy go usłyszeli, prosili, aby do nich nie mówił.\nWy natomiast przyszliście do góry Syjon, do miasta Boga żywego - Jeruzalem niebieskiego, do niezliczonej liczby aniołów, na uroczyste zgromadzenie, i do Kościoła pierworodnych, którzy są zapisani w niebiosach, do Boga, który sądzi wszystkich, do duchów ludzi sprawiedliwych, którzy już doszli do celu, do Pośrednika Nowego Testamentu - Jezusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 29ab",
+      "opis": "Aklamacja: Alleluja, alleluja, aleluja.",
+      "tekst": "Weźcie na siebie moje jarzmo i uczcie się ode Mnie,\nbo jestem cichy i pokornego serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 1. 7-14",
+      "opis": "Kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony",
+      "tekst": "Gdy Jezus przyszedł do domu pewnego przywódcy faryzeuszów, aby w szabat spożyć posiłek, oni Go śledzili. Potem opowiedział zaproszonym przypowieść, gdy zauważył, jak sobie pierwsze miejsca wybierali. Tak mówił do nich:\n«Jeśli cię ktoś zaprosi na ucztę, nie zajmuj pierwszego miejsca, by przypadkiem ktoś znamienitszy od ciebie nie był zaproszony przez niego. Wówczas przyjdzie ten, kto was obu zaprosił, i powie ci: „Ustąp temu miejsca”, a wtedy musiałbyś ze wstydem zająć ostatnie miejsce. Lecz gdy będziesz zaproszony, idź i usiądź na ostatnim miejscu. A gdy przyjdzie ten, który cię zaprosił, powie ci: „Przyjacielu, przesiądź się wyżej”. I spotka cię zaszczyt wobec wszystkich współbiesiadników. Każdy bowiem, kto się wywyższa, będzie poniżony, a kto się uniża, będzie wywyższony».\nDo tego zaś, który Go zaprosił, mówił także: «Gdy wydajesz obiad albo wieczerzę, nie zapraszaj swoich przyjaciół ani braci, ani krewnych, ani zamożnych sąsiadów, aby cię i oni nawzajem nie zaprosili, i miałbyś odpłatę. Lecz kiedy urządzasz przyjęcie, zaproś ubogich, ułomnych, chromych i niewidomych. A będziesz szczęśliwy, ponieważ nie mają czym tobie się odwdzięczyć; odpłatę bowiem otrzymasz przy zmartwychwstaniu sprawiedliwych».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich i cichych jest doskonałym wprowadzeniem do Ewangelii, która wychwala pokorę i uniżenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory, o której naucza Księga Syracha i Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory, która jest głównym tematem dzisiejszej liturgii słowa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń wzywa do miłości, której konkretnym wyrazem jest zapraszanie na ucztę ubogich, o czym mówi Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń jest wezwaniem do dostrzegania Chrystusa w potrzebujących, których, jak uczy Ewangelia, należy zapraszać na ucztę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Czwarta zwrotka tej pieśni mówi o jałmużnie i miłosierdziu, które są drogą do szczęścia obiecanego w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Uczta Eucharystyczna jest zapowiedzią uczty w niebie, na którą w sposób szczególny zaproszeni są ubodzy i pokorni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie Chrystusa skierowane jest do wszystkich, a w sposób szczególny do ubogich i obciążonych, o których mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii uczy nas pokory, stając się pokarmem dla wszystkich, zwłaszcza dla ubogich w duchu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia jest odpowiedzią na Psalm 68, który sławi Boga jako opiekuna ubogich, sierot i wdów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który, jak mówi psalm, jest ojcem dla sierot i opiekunem wdów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar Eucharystii, uczty, na którą zaproszeni są wszyscy, a zwłaszcza ubodzy i pokorni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię ubogim i zapraszać ich do wspólnoty Kościoła, na wzór Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy w Jego imię służyli ubogim i pokornym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wyboru Boga, którego królestwo należy do pokornych i uniżonych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń podkreśla, że w Kościele, rodzinie Bożej, jest miejsce dla wszystkich, zwłaszcza dla ubogich i odrzuconych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest obrazem niebieskiego Jeruzalem, zgromadzenia pierworodnych, o którym mówi drugie czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość bliźniego, wyrażona w zapraszaniu ubogich, jest fundamentem życia chrześcijańskiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, które osiąga się przez pokorę i służbę najmniejszym.",
+      "moment": "ogolne"
+    }
+  ]
+}

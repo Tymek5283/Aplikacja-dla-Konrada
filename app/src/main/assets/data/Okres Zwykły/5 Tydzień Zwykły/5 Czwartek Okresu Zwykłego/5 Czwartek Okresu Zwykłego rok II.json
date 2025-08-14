@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415570.Czwartek-V-tydzien-zwykly-rok-II",
+  "tytul_dnia": "5 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 11, 4-13",
+      "opis": "Bałwochwalstwo Salomona",
+      "tekst": "Kiedy Salomon się zestarzał, żony zwróciły jego serce ku cudzym bogom i wskutek tego serce jego nie pozostało tak szczere wobec Pana, Boga jego, jak serce jego ojca, Dawida. Zaczął bowiem czcić Asztartę, boginię Sydończyków, oraz Milkoma, ohydę Ammonitów. Salomon dopuścił się więc tego, co jest złe w oczach Pana, i nie okazał pełnego posłuszeństwa Panu, jak Dawid, jego ojciec. Salomon zbudował również posąg Kemoszowi, bożkowi moabskiemu, na górze naprzeciw Jerozolimy oraz Milkomowi, ohydzie Ammonitów. Tak samo uczynił wszystkim swoim żonom obcej narodowości, palącym kadzidła i składającym ofiary swoim bogom.\nPan rozgniewał się więc na Salomona za to, że jego serce odwróciło się od Pana, Boga izraelskiego. Dwukrotnie mu się ukazał i zabraniał mu czcić cudzych bogów, ale on nie zachowywał tego, co Pan mu nakazał. Wtedy Pan rzekł Salomonowi:\n«Wobec tego, że tak postąpiłeś i nie zachowałeś mego przymierza oraz moich praw, które ci dałem, nieodwołalnie wyrwę ci królestwo i dam twojemu słudze. Choć nie uczynię tego za twego życia ze względu na twego ojca, Dawida, to wyrwę je z ręki twego syna. Jednak nie wyrwę całego królestwa. Dam twojemu synowi jedno pokolenie ze względu na Dawida, mego sługę, i ze względu na Jeruzalem, które wybrałem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 106 (105), 3-4. 35-36. 37 i 40 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Pamiętaj o nas i przyjdź nam z pomocą.\nSzczęśliwi, którzy strzegą przykazań *\ni sprawiedliwie postępują w każdym czasie.\nPamiętaj o nas, Panie, †\ngdyż upodobałeś sobie w Twym ludzie, *\nprzyjdź nam z pomocą.\nRefren.\nOjcowie nasi zmieszali się z poganami *\ni uczyli się postępować jak oni.\nPoczęli czcić ich bałwany, *\nktóre stały się dla nich pułapką.\nRefren.\nSkładali w ofierze swych synów *\ni swoje córki złym duchom.\nGniew Pana zapłonął przeciw Jego ludowi, *\naż poczuł wstręt do własnego dziedzictwa.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 21bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie w duchu łagodności zaszczepione w was słowo,\nktóre ma moc zbawić dusze wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 7, 24-30",
+      "opis": "Prośba poganki wysłuchana",
+      "tekst": "Jezus udał się w okolice Tyru i Sydonu. Wstąpił do pewnego domu i chciał, żeby nikt o tym nie wiedział, nie mógł jednak pozostać w ukryciu. Zaraz bowiem usłyszała o Nim kobieta, której córeczka była opętana przez ducha nieczystego. Przyszła, padła Mu do nóg, a była to poganka, Syrofenicjanka z pochodzenia, i prosiła Go, żeby złego ducha wyrzucił z jej córki.\nI powiedział do niej Jezus: «Pozwól wpierw nasycić się dzieciom, bo niedobrze jest zabierać chleb dzieciom, a rzucać szczeniętom».\nOna Mu odparła: «Tak, Panie, lecz i szczenięta pod stołem jedzą okruszyny po dzieciach».\nOn jej rzekł: «Przez wzgląd na te słowa idź; zły duch opuścił twoją córkę». Gdy wróciła do domu, zastała dziecko leżące na łóżku; a zły duch wyszedł.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pasuje jako pieśń o charakterze zbiorczym, wzywająca do oddania czci Bogu, co kontrastuje z bałwochwalstwem Salomona.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń błagalna, w której prosimy o prawe serce, w przeciwieństwie do serca Salomona, które odwróciło się od Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie wierności Bogu, w kontekście niewierności Salomona i jego ludu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za Bożą łaskę i miłosierdzie, o które z wiarą prosiła kobieta w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i postanowienie poprawy, co jest odpowiedzią na grzech bałwochwalstwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni prosimy Boga o przyjęcie naszej ofiary, która jest znakiem naszej wierności, w przeciwieństwie do ofiar składanych bożkom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Podkreśla postawę pokory i wiary, którą odznaczyła się Syrofenicjanka, prosząc Jezusa o cud.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża wiarę i pokorę, podobną do postawy kobiety syrofenicjańskiej, która uznała swoją niegodność.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w jedynego Boga, w przeciwieństwie do bałwochwalstwa, w które popadł Salomon.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest pieśnią dziękczynną za Bożą pomoc i uzdrowienie, co stanowi główny temat Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia jedynego Pana, co stanowi kontrast do grzechu bałwochwalstwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar wiary i uzdrowienia, którego doświadczyła córka kobiety z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Podkreśla jedność wierzących w miłości do Boga, ukazanej w Ewangelii jako przekraczającej granice narodów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest odpowiedzią na przykład wytrwałej wiary kobiety pogańskiej z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ewangelia pokazuje, że zbawienie jest dla wszystkich narodów, co jest wezwaniem do misji.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Nawiązuje do ufności i zawierzenia Bogu, które są kluczowe w dzisiejszych czytaniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Jest echem prośby psalmisty i kobiety z Ewangelii o Boże miłosierdzie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która jest odpowiedzią na grzech niewierności opisany w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o przebaczenie za grzechy, takie jak bałwochwalstwo, o którym mowa w pierwszym czytaniu.",
+      "moment": "ogolne"
+    }
+  ]
+}

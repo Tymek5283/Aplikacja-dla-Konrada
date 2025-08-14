@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429096.Czwartek-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 3, 7-13",
+      "opis": "Dziękczynienie za wiarę Tesaloniczan",
+      "tekst": "Doznaliśmy dzięki wam, bracia, pociechy: przez wiarę waszą we wszelkiej potrzebie i w naszym ucisku. Teraz bowiem ożyliśmy, gdy wy trwacie w Panu. Jakież bowiem podziękowanie możemy za was złożyć Bogu za radość, którą odczuwamy z waszego powodu przed Bogiem naszym? Gorąco modlimy się we dnie i w nocy, abyśmy mogli osobiście was zobaczyć i dopełnić tego, czego brak waszej wierze.\nDrogę naszą do was niech utoruje sam Bóg, Ojciec nasz, i Pan nasz, Jezus! A Pan niech pomnoży was liczebnie i niech spotęguje miłość waszą nawzajem do siebie i do wszystkich, jaką i my mamy dla was; aby serca wasze utwierdzone zostały w nienagannej świętości wobec Boga, Ojca naszego, na przyjście Pana naszego, Jezusa, wraz ze wszystkimi Jego świętymi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 3-4. 12-13. 14 i 17 (R.: por. 14a)",
+      "opis": "",
+      "tekst": "Refren: Nasyć nas, Panie, Twoim miłosierdziem.\nObracasz w proch człowieka *\ni mówisz: «Wracajcie, synowie ludzcy».\nBo tysiąc lat w Twoich oczach †\njest jak wczorajszy dzień, który minął, *\nalbo straż nocna.\nRefren.\nNaucz nas liczyć dni nasze, *\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał? *\nBądź litościwy dla sług Twoich!\nRefren.\nNasyć nas o świcie swoją łaską, *\nabyśmy przez wszystkie dni nasze\nmogli się radować i cieszyć.\nDobroć Pana, Boga naszego, niech będzie nad nami †\ni wspieraj pracę rąk naszych, *\ndzieło rąk naszych wspieraj!\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 24, 42a. 44",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i bądźcie gotowi,\nbo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 24, 42-51",
+      "opis": "Wezwanie do czujności",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Czuwajcie, bo nie wiecie, w którym dniu Pan wasz przyjdzie. A to rozumiejcie: Gdyby gospodarz wiedział, o jakiej porze nocy nadejdzie złodziej, na pewno by czuwał i nie pozwoliłby włamać się do swego domu. Dlatego i wy bądźcie gotowi, bo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie.\nKtóż jest tym sługą wiernym i roztropnym, którego pan ustanowił nad swoją służbą, żeby we właściwej porze rozdał jej żywność? Szczęśliwy ów sługa, którego pan, gdy wróci, zastanie przy tej czynności. Zaprawdę, powiadam wam: Postawi go nad całym swoim mieniem. Lecz jeśli taki zły sługa powie sobie w duszy: „Mój pan się ociąga z powrotem”, i zacznie bić swoje współsługi, i będzie jadł i pił z pijakami, to nadejdzie pan tego sługi w dniu, kiedy się nie spodziewa, i o godzinie, której nie zna. Każe surowo go ukarać i wyznaczy mu miejsce z obłudnikami. Tam będzie płacz i zgrzytanie zębów».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa z wezwaniem 'Ze snu powstać już pora!' idealnie pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i potrzebie gotowości, co jest głównym przesłaniem Ewangelii i aklamacji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Choć to pieśń adwentowa, jej treść o oczekiwaniu na przyjście Pana na końcu czasów doskonale wpisuje się w tematykę czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Postawa wiernego sługi z Ewangelii polega na oddaniu wszystkiego Panu i wiernym wypełnianiu swoich obowiązków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców dobrych czynów, co jest wyrazem czujności i gotowości na przyjście Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu naszą pracę, prosząc, by uznał nas za sługi wierne i roztropne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Komunia Święta jest pokarmem umacniającym wiarę, o której wzroście z radością pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest pokarmem, który wierny sługa rozdaje we właściwej porze, umacniając nas w oczekiwaniu na Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę czuwania i oczekiwania na Pana, który przychodzi w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna jest odpowiedzią na modlitwę św. Pawła, który dziękuje Bogu za wiarę i miłość Tesaloniczan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Bożą łaskę, która uzdalnia nas do uczestnictwa w dziale świętych w światłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za niezliczone łaski jest echem modlitwy św. Pawła za wspólnotę w Tesalonikach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń ta jest modlitwą o Bożą opiekę i uczy postawy czujności, nawet podczas snu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wierności Bogu, która jest wyrazem postawy czuwającego sługi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i gotowości do obrony wiary, co jest cechą sługi oczekującego na powrót Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do czuwania i wiernego wypełniania swoich obowiązków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna, o której pomnożenie modli się św. Paweł, jest znakiem rozpoznawczym czuwających uczniów Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na pracę jest modlitwą wiernego sługi, który pragnie dobrze wypełnić powierzone mu zadania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę ufności i oczekiwania na Pana, do której wzywa dzisiejsza Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430476.Wtorek-XVII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "17 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 33, 7-11; 34, 5-9. 28",
+      "opis": "Bóg rozmawia z Mojżeszem w Namiocie Spotkania",
+      "tekst": "Mojżesz wziął namiot i rozbił go za obozem, i nazwał go Namiotem Spotkania. A ktokolwiek chciał się zwrócić do Pana, szedł do Namiotu Spotkania, który był poza obozem.\nIle zaś razy Mojżesz szedł do namiotu, cały lud stawał u wejścia do swych namiotów i patrzał na Mojżesza, aż wszedł do namiotu. Ile zaś razy Mojżesz wszedł do namiotu, zstępował słup obłoku i stawał u wejścia do namiotu, i wtedy Pan rozmawiał z Mojżeszem. Cały lud widział, że słup obłoku stawał u wejścia do namiotu. Cały lud stawał i każdy oddawał pokłon u wejścia do swego namiotu. A Pan rozmawiał z Mojżeszem twarzą w twarz, jak się rozmawia z przyjacielem. Potem wracał Mojżesz do obozu, sługa zaś jego, Jozue, syn Nuna, młodzieniec, nie oddalał się z wnętrza namiotu.\nA Pan zstąpił w obłoku, i Mojżesz zatrzymał się koło Niego, i wypowiedział imię Jahwe. Przeszedł Pan przed jego oczyma i wołał: «Jahwe, Jahwe, Bóg miłosierny i łagodny, nieskory do gniewu, bogaty w łaskę i wierność, zachowujący swą łaskę w tysiączne pokolenia, przebaczający niegodziwość, niewierność, grzech, lecz niepozostawiający go bez ukarania, ale zsyłający kary za niegodziwość ojców na synów i wnuków aż do trzeciego i czwartego pokolenia».\nNatychmiast Mojżesz skłonił się aż do ziemi i oddał pokłon, mówiąc: «Jeśli darzysz mnie życzliwością, Panie, to proszę, niech pójdzie Pan pośród nas. Jest to wprawdzie lud o twardym karku, ale przebaczysz nasze winy i nasze grzechy, a uczynisz nas swoim dziedzictwem».\nI był tam Mojżesz u Pana czterdzieści dni i czterdzieści nocy, i nie jadł chleba, i nie pił wody. I napisał na tablicach słowa przymierza - Dziesięć Słów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 6-7. 8-9. 10-11. 12-13 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nDzieła Pana są sprawiedliwe, *\nwszystkich uciśnionych ma w swojej opiece.\nDrogi swoje objawił Mojżeszowi, *\nswoje dzieła synom Izraela.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie zapamiętuje się w sporze, *\nnie płonie gniewem na wieki.\nRefren.\nNie postępuje z nami według naszych grzechów *\nani według win naszych nam nie odpłaca.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nRefren.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nJak ojciec lituje się nad dziećmi, *\ntak Pan się lituje nad tymi, którzy cześć Mu oddają.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 13, 35cd",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 36-43",
+      "opis": "Wyjaśnienie przypowieści o chwaście",
+      "tekst": "Jezus odprawił tłumy i wrócił do domu. Tam przystąpili do Niego uczniowie, mówiąc: «Wyjaśnij nam przypowieść o chwaście».\nOn odpowiedział: «Tym, który sieje dobre nasienie, jest Syn Człowieczy. Rolą jest świat, dobrym nasieniem są synowie królestwa, chwastem zaś synowie Złego. Nieprzyjacielem, który posiał chwast, jest diabeł; żniwem jest koniec świata, a żeńcami są aniołowie.\nJak więc zbiera się chwast i spala w ogniu, tak będzie przy końcu świata. Syn Człowieczy pośle aniołów swoich: ci zbiorą z Jego królestwa wszystkie zgorszenia oraz tych, którzy dopuszczają się nieprawości, i wrzucą ich w piec rozpalony; tam będzie płacz i zgrzytanie zębów. Wtedy sprawiedliwi jaśnieć będą jak słońce w królestwie Ojca swego. Kto ma uszy, niechaj słucha!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest parafrazą psalmu 51, który jest psalmem responsoryjnym tego dnia, wyrażając prośbę o przebaczenie grzechu szemrania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to inna wersja psalmu pokutnego, która dobrze oddaje ducha skruchy po grzechu pychy i zazdrości Miriam i Aarona.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pokorne wołanie do Boga o litość i przebaczenie, na wzór modlitwy Mojżesza za ukaraną siostrę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Pieśń pokutna pasuje do postawy Aarona, który uznaje grzech i prosi o litość, a także Mojżesza, który wstawia się za Miriam.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża żal za grzechy i uznanie Bożej dobroci, która przebacza grzechy tym, co się uniżają.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia i powrotu do Ojca, co jest odpowiedzią na doświadczenie własnej grzeszności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę Piotra, który mimo zwątpienia i lęku, z pokorą zwraca się do Jezusa o ratunek.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, który panuje nad falami i ratuje tonących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie spotkania z Panem w Komunii, z wiarą w Jego Boską moc, objawioną na jeziorze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Uczniowie w łodzi wyznali: 'Prawdziwie jesteś Synem Bożym', a ten hymn jest uroczystym rozwinięciem tego wyznania wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za ratunek w niebezpieczeństwie, jakim dla uczniów była burza na jeziorze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który objawia swoją potęgę i przychodzi z pomocą swoim uczniom.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń umacnia wiarę w Chrystusa, który panuje nad żywiołami i prowadzi swój Kościół przez życiowe burze.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o prowadzenie przez Jezusa, który wyciągnął rękę, by uratować Piotra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Po doświadczeniu mocy Chrystusa, pieśń jest deklaracją wierności Jemu i Jego Kościołowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Idealnie pasuje do sceny na jeziorze, mówiąc o zaufaniu Bogu i Jego opiece pośród niebezpieczeństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Jest to pieśń o zaufaniu, które jest kluczowe w scenie kroczenia Piotra po wodzie i odpowiedzią na Jezusowe pytanie 'Czemu zwątpiłeś?'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Jezusem, które skłoniło Piotra do wyjścia z łodzi i pójścia po wodzie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o Bożej opatrzności, która czuwa nad nami w każdej chwili, nawet podczas nocnej burzy na jeziorze.",
+      "moment": "ogolne"
+    }
+  ]
+}

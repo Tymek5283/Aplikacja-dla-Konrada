@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429095.Piatek-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 4, 1-8",
+      "opis": "Nie powołał nas Bóg do nieczystości, ale do świętości",
+      "tekst": "Bracia, prosimy was i napominamy w Panu Jezusie: zgodnie z tym, co od nas przejęliście o sposobie postępowania i podobania się Bogu - jak już zresztą postępujecie - stawajcie się coraz doskonalszymi! Wiecie przecież, jakie nakazy daliśmy wam w imię Pana Jezusa.\nAlbowiem wolą Bożą jest wasze uświęcenie: powstrzymywanie się od rozpusty, aby każdy umiał utrzymywać własne ciało w świętości i we czci, a nie w pożądliwej namiętności, jak to czynią nie znający Boga poganie.\nNiech nikt w tej sprawie nie wykracza i nie oszukuje brata swego, bo jak wam to przedtem powiedzieliśmy, zapewniając uroczyście: Pan jest mścicielem tego wszystkiego. Albowiem nie powołał nas Bóg do nieczystości, ale do świętości. A więc kto te słowa odrzuca, nie człowieka odrzuca, lecz Boga, który przecież daje wam swego Ducha Świętego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97 (96), 1 i 2b. 5-6. 10. 11-12 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Niech sprawiedliwi weselą się w Panu.\nPan króluje, wesel się, ziemio, *\nradujcie się, liczne wyspy!\nPrawo i sprawiedliwość *\npodstawą Jego tronu.\nRefren.\nGóry jak wosk topnieją przed obliczem Pana, *\nprzed obliczem Władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa *\ni wszystkie ludy widzą Jego chwałę.\nRefren.\nPan tych miłuje, *\nktórzy zła nienawidzą,\nOn strzeże dusz świętych swoich, *\nwydziera je z rąk grzeszników.\nRefren.\nŚwiatło wschodzi dla sprawiedliwego *\ni radość dla ludzi prawego serca.\nWeselcie się w Panu, sprawiedliwi, *\ni sławcie Jego święte imię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 21, 36",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i módlcie się w każdym czasie,\nabyście mogli stanąć przed Synem Człowieczym."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 25, 1-13",
+      "opis": "Przypowieść o dziesięciu pannach",
+      "tekst": "Jezus opowiedział swoim uczniom tę przypowieść:\n«Podobne będzie królestwo niebieskie do dziesięciu panien, które wzięły swoje lampy i wyszły na spotkanie pana młodego. Pięć z nich było nierozsądnych, a pięć roztropnych. Nierozsądne wzięły lampy, ale nie wzięły z sobą oliwy. Roztropne zaś razem z lampami zabrały również oliwę w swoich naczyniach. Gdy się pan młody opóźniał, senność ogarnęła wszystkie i posnęły.\nLecz o północy rozległo się wołanie: „Oto pan młody idzie, wyjdźcie mu na spotkanie!” Wtedy powstały wszystkie owe panny i opatrzyły swe lampy. A nierozsądne rzekły do roztropnych: „Użyczcie nam swej oliwy, bo nasze lampy gasną”. Odpowiedziały roztropne: „Mogłoby i nam, i wam nie wystarczyć. Idźcie raczej do sprzedających i kupcie sobie”.\nGdy one szły kupić, nadszedł pan młody. Te, które były gotowe, weszły z nim na ucztę weselną, i drzwi zamknięto.\nNadchodzą w końcu i pozostałe panny, prosząc: „Panie, panie, otwórz nam!” Lecz on odpowiedział: „Zaprawdę, powiadam wam, nie znam was”.\nCzuwajcie więc, bo nie znacie dnia ani godziny».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń ta, a szczególnie słowa 'Ze snu powstać już pora!', doskonale oddaje ewangeliczne wezwanie do czuwania na przyjście Pana Młodego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i konieczności gotowości, co jest głównym przesłaniem przypowieści o dziesięciu pannach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Chociaż jest to pieśń adwentowa, jej treść o przygotowaniu na przyjście Pana w pełni odpowiada dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachowanie świętości i czystości, o których mówi pierwsze czytanie, jest owocem, który składamy w ofierze Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu i pragnienie życia w świętości, do której wzywa św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Jest to ofiarowanie swojego życia Bogu, aby On je uświęcił i uczynił godnym wejścia na ucztę weselną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Eucharystia to uczta weselna z Panem Młodym, na którą musimy być zawsze gotowi z płonącymi lampami wiary i miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest uczestnictwem w uczcie weselnej, na którą weszły panny roztropne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę czuwania i oczekiwania na Pana, który przychodzi w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni jest odpowiedzią na wezwanie psalmu: 'Niech sprawiedliwi weselą się w Panu'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości sprawiedliwych, którzy oczekują na przyjście Pana, Króla.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą tych, którzy z płonącymi lampami oczekują na przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna jest praktycznym wyrazem czuwania i gotowości, do której zachęca Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wierności Bogu, która jest wyrazem postawy czuwających panien.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności i gotowości do obrony wiary, co jest cechą ludzi czuwających i gotowych na przyjście Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości królestwa i konieczności nawrócenia, co jest warunkiem wejścia na ucztę weselną.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę ufności i oczekiwania na Pana, do której wzywa dzisiejsza Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest motywacją do czuwania i życia w świętości, o której mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Prośba do Ducha Świętego o uświęcenie jest odpowiedzią na wezwanie z pierwszego czytania: 'nie powołał nas Bóg do nieczystości, ale do świętości'.",
+      "moment": "ogolne"
+    }
+  ]
+}

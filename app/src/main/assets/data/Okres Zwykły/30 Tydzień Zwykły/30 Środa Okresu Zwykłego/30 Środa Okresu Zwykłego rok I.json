@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415420.Sroda-30-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "30 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 8, 26-30",
+      "opis": "Odwieczny zamiar Boga",
+      "tekst": "Bracia:\nDuch Święty przychodzi z pomocą naszej słabości. Gdy bowiem nie umiemy się modlić tak, jak trzeba, sam Duch przyczynia się za nami w błaganiach, których nie można wyrazić słowami. Ten zaś, który przenika serca, zna zamiar Ducha, wie, że przyczynia się za świętymi zgodnie z wolą Bożą.\nWiemy też, że Bóg z tymi, którzy Go miłują, współdziała we wszystkim dla ich dobra, z tymi, którzy są powołani według Jego zamysłu. Albowiem tych, których przedtem poznał, tych też przeznaczył na to, by się stali na wzór obrazu Jego Syna, aby On był Pierworodnym między wielu braćmi.\nTych zaś, których przeznaczył, tych też powołał, a których powołał - tych też usprawiedliwił, a których usprawiedliwił - tych też obdarzył chwałą.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 13 (12), 4-5. 6 (R.: 6a)",
+      "opis": "",
+      "tekst": "Refren: Ja zaufałem Twemu miłosierdziu.\nSpojrzyj i wysłuchaj mnie, Panie, mój Boże! *\nOświeć moje oczy, bym nie zasnął w śmierci,\nby wróg mój nie mówił: «Ja go zwyciężyłem», *\nby się nie cieszyli moi przeciwnicy, że się zachwiałem.\nRefren.\nJa zaś zaufałem Twemu miłosierdziu, *\nniech się moje serce cieszy z Twej pomocy.\nBędę śpiewał Panu, *\nktóry obdarzył mnie dobrem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tes 2, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bóg wezwał nas przez Ewangelię,\nabyśmy dostąpili chwały Pana naszego, Jezusa Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 22-30",
+      "opis": "Powszechne wezwanie do zbawienia",
+      "tekst": "Jezus przemierzał miasta i wsie, nauczając i odbywając swą podróż do Jerozolimy. Raz ktoś Go zapytał: «Panie, czy tylko nieliczni będą zbawieni?»\nOn rzekł do nich: «Usiłujcie wejść przez ciasne drzwi; gdyż wielu, powiadam wam, będzie chciało wejść, a nie zdołają. Skoro Pan domu wstanie i drzwi zamknie, wówczas, stojąc na dworze, zaczniecie kołatać do drzwi i wołać: „Panie, otwórz nam!”, lecz On wam odpowie: „Nie wiem, skąd jesteście”. Wtedy zaczniecie mówić: „Przecież jadaliśmy i piliśmy z Tobą, i na ulicach naszych nauczałeś”. Lecz On rzecze: „Powiadam wam, nie wiem, skąd jesteście. Odstąpcie ode Mnie wszyscy, którzy dopuszczacie się niesprawiedliwości!” Tam będzie płacz i zgrzytanie zębów, gdy ujrzycie Abrahama, Izaaka i Jakuba, i wszystkich proroków w królestwie Bożym, a siebie samych precz wyrzuconych. Przyjdą ze wschodu i zachodu, z północy i południa i siądą za stołem w królestwie Bożym. Tak oto są ostatni, którzy będą pierwszymi, i są pierwsi, którzy będą ostatnimi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu i wejścia do Jego domu, co nawiązuje do Ewangelii o 'ciasnych drzwiach' do królestwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' pasuje do ewangelicznego wezwania do wysiłku, by wejść do królestwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem wejścia przez 'ciasne drzwi', o których mówi Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Pierwsze czytanie mówi o Duchu Świętym, który przychodzi z pomocą naszej słabości. Ta pieśń jest prośbą o Jego dary i prowadzenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który, jak mówi pierwsze czytanie, przyczynia się za nami i prowadzi nas do życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze słabości, prosząc, by Duch Święty nas umocnił i prowadził.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia mówi o uczcie w królestwie Bożym. Komunia Święta jest zapowiedzią tej uczty, na którą zaproszeni są ludzie ze wszystkich stron świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę do przechodzenia przez 'ciasne drzwi'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Eucharystia jest pokarmem na drogę do królestwa Bożego, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar powołania i przeznaczenia do chwały, o czym w pierwszym czytaniu pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i dobroć, o której mówi psalmista, a która prowadzi nas do chwały.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które, jak mówi psalm, jest naszą jedyną nadzieją.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy potrafili wejść przez 'ciasne drzwi', o których mówi Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do Ojca, drogą, która prowadzi przez 'ciasne drzwi' Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii, aby jak najwięcej ludzi mogło wejść do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, do którego jesteśmy powołani według odwiecznego zamysłu Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest niezbędna w trudzie wchodzenia przez 'ciasne drzwi'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam ufać w Boży plan zbawienia, o którym mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która współdziała we wszystkim dla dobra tych, którzy Boga miłują.",
+      "moment": "ogolne"
+    }
+  ]
+}

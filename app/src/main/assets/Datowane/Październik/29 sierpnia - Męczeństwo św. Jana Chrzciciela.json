@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 71, 1-6.15ab i 17",
-      "opis": "Refren: Usta me głoszą Twoją sprawiedliwość.",
-      "tekst": "W Tobie, Panie, ucieczka moja,\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości,\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nBądź dla mnie skałą schronienia\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą.\nBoże mój, wyrwij mnie z rąk niegodziwca.\nBo Ty, mój Boże, jesteś moją nadzieją,\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin,\nod łona matki moim opiekunem,\nCiebie zawsze wysławiałem.\nMoje usta będą głosiły Twoją sprawiedliwość\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości\ni do tej chwili głoszę Twoje cuda."
+      "opis": "",
+      "tekst": "Refren: Usta me głoszą Twoją sprawiedliwość.\nW Tobie, Panie, ucieczka moja,\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości,\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nBądź dla mnie skałą schronienia\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą.\nBoże mój, wyrwij mnie z rąk niegodziwca.\nBo Ty, mój Boże, jesteś moją nadzieją,\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin,\nod łona matki moim opiekunem,\nCiebie zawsze wysławiałem.\nMoje usta będą głosiły Twoją sprawiedliwość\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości\ni do tej chwili głoszę Twoje cuda."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Pieśń jest modlitwą do patrona dnia, który swoim życiem i śmiercią dał świadectwo prawdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Ogólna pieśń na cześć męczennika, która podkreśla jego wierność Chrystusowi aż do przelania krwi.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "574",
       "piesn": "Wielbimy Ciebie, wszechmogący Boże",
       "opis": "Hymn na cześć męczenników, który podkreśla, że ich krew użyźnia ziemię pod zasiew wiary, co doskonale odnosi się do ofiary Jana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o ofierze Chrystusa, której zapowiedzią i świadectwem była ofiara życia Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, składamy Bogu nasze życie, na wzór Jana, który oddał swoje życie w obronie prawdy.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Jan Chrzciciel wskazywał na Baranka Bożego, a w Komunii Świętej my Go przyjmujemy pod postaciami chleba i wina.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chrystusa, Chleba Życia, jest owocem wiary, do której wzywał i za którą oddał życie Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
       "numer": "474",
       "piesn": "Janie Chrzcicielu",
       "opis": "Jest to modlitwa do św. Jana Chrzciciela, prosząca o jego wstawiennictwo i naśladowanie jego odwagi w obronie prawa Bożego.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten jest uwielbieniem Boga za dar świętych, w tym za niezłomne świadectwo Jana Chrzciciela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn wdzięczności, który jest odpowiedzią na Bożą wierność, objawioną w życiu i śmierci Jego proroka.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "575",
       "piesn": "Witaj, święty męczenniku",
       "opis": "Ogólna pieśń do męczennika, która prosi o wierność Chrystusowi i wytrwanie w trudach, co jest głównym przesłaniem tego dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o wierności Chrystusowi i obronie wiary, co doskonale odzwierciedla postawę Jana Chrzciciela wobec Heroda.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w codziennym świadczeniu o prawdzie, na wzór męczeńskiej śmierci Jana.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "594",
       "piesn": "Być bliżej Ciebie chcę",
       "opis": "Pieśń wyraża pragnienie wierności Bogu aż do końca, co było cechą charakterystyczną życia i śmierci Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, do którego wzywał Jan Chrzciciel, jest zawsze aktualnym przesłaniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń ta w piękny sposób podsumowuje misję i postawę Jana Chrzciciela, przyjaciela Oblubieńca.",
       "moment": "ogolne"
     }
   ]

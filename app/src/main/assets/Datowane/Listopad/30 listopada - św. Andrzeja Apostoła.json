@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 19,2-3.4-5ab",
-      "opis": "Refren:",
-      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+      "opis": "",
+      "tekst": "Refren:\nPo całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
     },
     {
       "typ": "AKLAMACJA",
@@ -44,7 +44,31 @@
     {
       "numer": "573",
       "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć wszystkich apostołów, który podkreśla ich rolę jako zwiastunów Dobrej Nowiny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co w sposób natychmiastowy uczynili Andrzej i Piotr.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
       "opis": "Hymn na cześć apostołów, który podkreśla ich rolę jako fundamentów Kościoła, doskonale pasuje do momentu składania darów w święto jednego z nich.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, na wzór Apostołów, którzy wszystko zostawili, by pójść za Jezusem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta wyraża postawę całkowitego oddania się Bogu, którą zapoczątkował św. Andrzej, idąc za głosem powołania.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum, wspominający 'Apostołów Tobie rzesza', jest wspaniałym aktem uwielbienia w święto apostoła.",
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Święty Andrzej uwierzył i poszedł za Jezusem, a ta pieśń jest naszym osobistym wyznaniem tej samej wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża tęsknotę za Chrystusem, którą Andrzej zaspokoił, idąc za Nim i przyprowadzając do Niego innych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to pieśń dziękczynienia za dar powołania i łaski, które św. Andrzej otrzymał od Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały, który jest echem psalmu responsoryjnego, mówiącego o głosie apostołów, który rozchodzi się po całej ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta wzywa do głoszenia chwały Pana, co było misją, którą św. Andrzej podjął jako pierwszy z powołanych.",
       "moment": "uwielbienie"
     },
     {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń ta przypomina o misyjnym posłaniu, które Andrzej i inni apostołowie otrzymali od Jezusa, co jest dobrym posłaniem na koniec liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Wezwanie do wszystkich narodów, by chwaliły Pana, jest owocem apostolskiej pracy, którą zapoczątkował św. Andrzej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w codziennej pracy i służbie, na wzór apostolskiego trudu św. Andrzeja.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "1",
       "piesn": "Błogosławieni",
       "opis": "Pieśń o błogosławieństwach może być przypomnieniem, że droga apostolska, choć trudna, prowadzi do wiecznej nagrody w niebie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Święty Andrzej był uczniem Jana Chrzciciela, który przygotowywał drogę Panu, a ta pieśń adwentowa oddaje ducha tego oczekiwania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest naszą nadzieją, co jest Dobrą Nowiną, którą apostołowie, począwszy od Andrzeja, nieśli światu.",
       "moment": "ogolne"
     }
   ]

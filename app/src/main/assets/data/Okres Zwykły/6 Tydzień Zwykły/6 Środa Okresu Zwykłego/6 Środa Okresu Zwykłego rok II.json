@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416121.Sroda-VI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "6 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 1, 19-27",
+      "opis": "Wprowadzajcie usłyszane słowo w czyn",
+      "tekst": "Wiedzcie, bracia moi umiłowani: każdy człowiek winien być chętny do słuchania, nieskory do mówienia, nieskory do gniewu. Gniew bowiem męża nie wypełnia sprawiedliwości Bożej. Odrzućcie przeto wszystko, co nieczyste, oraz cały bezmiar zła, a przyjmijcie w duchu łagodności zaszczepione w was słowo, które ma moc zbawić dusze wasze.\nWprowadzajcie zaś słowo w czyn, a nie bądźcie tylko słuchaczami oszukującymi samych siebie. Jeżeli bowiem ktoś tylko przysłuchuje się słowu, a nie wypełnia go, podobny jest do męża oglądającego w lustrze swe naturalne odbicie. Bo przyjrzał się sobie, odszedł i zaraz zapomniał, jakim był. Kto zaś pilnie rozważa doskonałe Prawo, Prawo wolności, i wytrwa w nim, ten nie jest słuchaczem skłonnym do zapominania, ale wykonawcą dzieła; wypełniając je, otrzyma błogosławieństwo.\nJeżeli ktoś uważa się za człowieka religijnego, lecz łudząc serce swoje, nie powściąga swego języka, to pobożność jego pozbawiona jest podstaw. Religijność czysta i bez skazy wobec Boga i Ojca jest taka: opiekować się sierotami i wdowami w ich utrapieniach i zachować siebie samego nie skażonym wpływami świata.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 15 (14), 2-3b. 3c-4b. 5",
+      "opis": "",
+      "tekst": "Refren: Prawy zamieszka w domu Twoim, Panie.\nKto będzie przebywał w Twym przybytku, Panie, *\nkto zamieszka na Twej górze świętej?\nTen, kto postępuje nienagannie, działa sprawiedliwie *\ni mówi prawdę w swym sercu.\nRefren.\nKto swym językiem oszczerstw nie głosi, *\nkto nie czyni bliźniemu nic złego\ni nie ubliża swoim sąsiadom, *\nale szanuje tego, który oddaje cześć Bogu.\nRefren.\nKto dotrzyma przysięgi niekorzystnej dla siebie, *\nkto nie daje swych pieniędzy na lichwę\ni nie da się przekupić przeciw niewinnemu. *\nKto tak postępuje, nigdy się nie zachwieje.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 22-26",
+      "opis": "Uzdrowienie niewidomego",
+      "tekst": "Jezus i uczniowie przyszli do Betsaidy. Tam przyprowadzili Mu niewidomego i prosili, żeby się go dotknął. On ujął niewidomego za rękę i wyprowadził go poza wieś. Zwilżył mu oczy śliną, położył na niego ręce i zapytał: «Czy coś widzisz?» A gdy ten przejrzał, powiedział: «Widzę ludzi, bo gdy chodzą, dostrzegam ich niby drzewa».\nPotem znowu położył ręce na jego oczy. I przejrzał on zupełnie, i został uzdrowiony; wszystko widział teraz jasno i wyraźnie.\nJezus odesłał go do domu ze słowami: «Tylko do wsi nie wstępuj!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń ta jest prośbą o obecność Pana i Jego Słowa, które należy wprowadzać w czyn, jak uczy pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, którego Prawo jest drogą do świętości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie uczenia się dróg Pańskich, co jest warunkiem wprowadzania Słowa w czyn.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla, że prawdziwa religijność to miłość i troska o bliźnich, co jest głównym przesłaniem Listu św. Jakuba.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze czyny, prosząc, by były one zgodne z Jego Słowem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest uczynkiem, który najpełniej wyraża naszą wiarę i jest odpowiedzią na wezwanie z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do spotkania z Jezusem, który w Ewangelii otwiera oczy niewidomemu, symbolizując otwarcie na Słowo Boże.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, który otwiera oczy na Bożą prawdę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który jest światłością i uzdrowieniem dla naszych dusz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i uzdrowienie, które jest owocem spotkania z Chrystusem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i za Słowo, które ma moc zbawić nasze dusze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dar Słowa Bożego i za łaskę uzdrowienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo w codziennej pracy i czynach, które mają być wyrazem naszej wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Słowa, które przyjęliśmy, i świadczyć o nim swoim życiem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie przez Jezusa, który uzdrawia naszą ślepotę i prowadzi do życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie uczenia się dróg Pańskich, co jest warunkiem wprowadzania Słowa w czyn.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, którego Słowo jest drogą, prawdą i życiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do błogosławieństwa, które otrzymuje ten, kto jest wykonawcą dzieła, a nie tylko słuchaczem Słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jest to bezpośrednie wezwanie do życia, które przynosi owoce, co jest echem nauki św. Jakuba.",
+      "moment": "ogolne"
+    }
+  ]
+}

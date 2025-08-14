@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416408.Czwartek-28-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "28 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 3, 21-30a",
+      "opis": "Człowiek osiąga usprawiedliwienie przez wiarę",
+      "tekst": "Bracia:\nTeraz jawną się stała sprawiedliwość Boża niezależna od Prawa, poświadczona przez Prawo i Proroków. Jest to sprawiedliwość Boża dostępna przez wiarę w Jezusa Chrystusa dla wszystkich, którzy wierzą. Bo nie ma tu różnicy: wszyscy bowiem zgrzeszyli i pozbawieni są chwały Bożej, a dostępują usprawiedliwienia darmo, z Jego łaski, przez odkupienie, które jest w Chrystusie Jezusie.\nJego to ustanowił Bóg narzędziem przebłagania dzięki wierze mocą Jego krwi. Chciał przez to wykazać, że sprawiedliwość Jego względem grzechów popełnionych dawniej - za dni cierpliwości Bożej - wyrażała się w odpuszczaniu ich po to, by ujawnić w obecnym czasie Jego sprawiedliwość, i aby pokazać, że On sam jest sprawiedliwy i usprawiedliwia każdego, który żyje dzięki wierze w Jezusa.\nGdzież więc podstawa do chlubienia się? Została uchylona. Przez jakie prawo? Czy przez prawo uczynków? Nie, przez prawo wiary. Sądzimy bowiem, że człowiek osiąga usprawiedliwienie na podstawie wiary, niezależnie od pełnienia uczynków wymaganych przez Prawo. Bo czyż Bóg jest Bogiem jedynie Żydów? Czy nie również i pogan? Na pewno również i pogan. Przecież jeden jest tylko Bóg.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 130 (129), 1b-2. 3-4. 5-6 (R.: por. 7bc)",
+      "opis": "",
+      "tekst": "Refren: Bóg Zbawicielem, pełnym miłosierdzia.\nZ głębokości wołam do Ciebie, Panie, *\nPanie, wysłuchaj głosu mego.\nNachyl swe ucho *\nna głos mojego błagania.\nRefren.\nJeśli zachowasz pamięć o grzechach, Panie, *\nPanie, któż się ostoi?\nAle Ty udzielasz przebaczenia, *\naby Ci służono z bojaźnią.\nRefren.\nPokładam nadzieję w Panu, *\ndusza moja pokłada nadzieję w Jego słowie.\nDusza moja oczekuje Pana *\nbardziej niż strażnicy poranka.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 47-54",
+      "opis": "Jezus gromi faryzeuszów i uczonych w Prawie",
+      "tekst": "Jezus powiedział do faryzeuszów i do uczonych w Prawie:\n«Biada wam, ponieważ budujecie grobowce prorokom, a wasi ojcowie ich zamordowali. Zatem dajecie świadectwo i przytakujecie uczynkom waszych ojców, gdyż oni ich pomordowali, a wy im wznosicie grobowce.\nDlatego też powiedziała Mądrość Boża: Poślę do nich proroków i apostołów, a niektórych z nich zabiją i prześladować będą. Tak na to plemię spadnie kara za krew wszystkich proroków, która została przelana od stworzenia świata, od krwi Abla aż do krwi Zachariasza, który zginął między ołtarzem a przybytkiem. Tak, mówię wam, zażąda się zdania z niej sprawy od tego plemienia.\nBiada wam, uczonym w Prawie, bo wzięliście klucze poznania; sami nie weszliście, a przeszkodziliście tym, którzy wejść chcieli».\nGdy wyszedł stamtąd, uczeni w Piśmie i faryzeusze poczęli gwałtownie nastawać na Niego i wypytywać Go o wiele rzeczy. Czyhali przy tym, żeby Go pochwycić na jakimś słowie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażającą głębokie wołanie do Boga i nadzieję na Jego miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem do Boga z głębokości grzechu, z nadzieją na przebaczenie, o którym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wzniesienie serca do Pana jest aktem wiary, która, jak uczy św. Paweł, jest drogą do usprawiedliwienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec prawdy o powszechnej grzeszności z pierwszego czytania, ta pieśń jest aktem pokory i prośbą o Boże przebaczenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i ufność w Bożą dobroć, która usprawiedliwia wierzącego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wobec grozy sądu, o której wspomina Ewangelia, pieśń wzywa do pokory i błagania o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "W Komunii przyjmujemy Tego, który jest narzędziem przebłagania za nasze grzechy, a ta modlitwa jest prośbą o oczyszczenie i zjednoczenie z Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Chrystusa, przez którego, jak uczy św. Paweł, dostępujemy usprawiedliwienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża postawę grzesznika, który z wiarą prosi o uzdrowienie duszy, co jest istotą usprawiedliwienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "98",
+      "piesn": "Błogosławiony, komu odpuszczone",
+      "opis": "Dziękczynna pieśń, która jest echem psalmu responsoryjnego o szczęściu człowieka, któremu Bóg odpuścił grzechy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar usprawiedliwienia darmo, z łaski Bożej, o którym pisze św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za dar odkupienia w Chrystusie Jezusie, który jest w centrum pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec oskarżeń Jezusa pod adresem faryzeuszy, ta pieśń jest wyznaniem, że naszą drogą i prawdą jest Chrystus, a nie obłudne nauczanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest odpowiedzią na Ewangelię, która piętnuje obłudę i wzywa do prawdziwej sprawiedliwości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia wiarą, która jako jedyna prowadzi do usprawiedliwienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pierwsze czytanie podkreśla, że człowiek osiąga usprawiedliwienie przez wiarę. Ta pieśń jest modlitwą o umocnienie tej wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na Bożą sprawiedliwość i miłosierdzie, które wzywają nas do porzucenia grzechu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o miłosierdzie, które jest nam darmo dane przez odkupienie w Chrystusie Jezusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię jest kluczowe w kontekście obu czytań.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 34,2-3.4 i 6.9 i 12.14-15",
-      "opis": "Refren:",
-      "tekst": "Po wieczne czasy będę chwalił Pana.\nBędę błogosławił Pana po wieczne czasy,\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem,\nniech słyszą to pokorni i niech się weselą.\nWysławiajcie razem ze mną Pana,\nwspólnie wywyższajmy Jego imię.\nSpójrzcie na Niego, a rozpromienicie się radością,\noblicza wasze nie zapłoną wstydem.\nSkosztujcie i zobaczcie, jak Pan jest dobry,\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nZbliżcie się, synowie, posłuchajcie, co mówię,\nbędę was uczył bojaźni Pańskiej.\nPowściągnij swój język od złego,\na wargi swoje od kłamstwa.\nOd zła się odwróć, czyń dobrze,\nszukaj pokoju i dąż do niego."
+      "opis": "",
+      "tekst": "Refren:\nPo wieczne czasy będę chwalił Pana.\nBędę błogosławił Pana po wieczne czasy,\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem,\nniech słyszą to pokorni i niech się weselą.\nWysławiajcie razem ze mną Pana,\nwspólnie wywyższajmy Jego imię.\nSpójrzcie na Niego, a rozpromienicie się radością,\noblicza wasze nie zapłoną wstydem.\nSkosztujcie i zobaczcie, jak Pan jest dobry,\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nZbliżcie się, synowie, posłuchajcie, co mówię,\nbędę was uczył bojaźni Pańskiej.\nPowściągnij swój język od złego,\na wargi swoje od kłamstwa.\nOd zła się odwróć, czyń dobrze,\nszukaj pokoju i dąż do niego."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -45,6 +45,30 @@
       "numer": "580",
       "piesn": "Szczęśliwi ludzie szukający Boga",
       "opis": "Pieśń o szukaniu Boga i Jego prawa, co było istotą życia i Reguły św. Benedykta, nawiązuje do pierwszego czytania o szukaniu mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "577",
+      "piesn": "Boże, przedwieczna mądrości",
+      "opis": "Hymn na cześć doktorów i nauczycieli Kościoła, który podkreśla rolę świętych w przekazywaniu Bożej mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o łaskę życia według mądrości Bożej, której szukał św. Benedykt.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Modlitwa o błogosławieństwo w pracy, która była fundamentalnym elementem reguły benedyktyńskiej 'Ora et labora'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o całkowitym oddaniu się Bogu doskonale koresponduje z ideałem życia monastycznego i słowami Ewangelii o opuszczeniu wszystkiego.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum jest odpowiednim dziękczynieniem za życie i dzieło wielkiego patrona Europy.",
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreślająca osobistą relację i wiarę w obecność Chrystusa, co jest kluczowe w życiu poświęconym Bogu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, które pragnie opuścić wszystko dla Niego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn dziękczynienia za dar świętych, w tym przypadku za życie i dzieło wielkiego patrona Europy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa do chwalenia Pana, a ta pieśń jest majestatycznym hymnem uwielbienia za Jego dobroć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego królestwo budował na ziemi św. Benedykt.",
       "moment": "uwielbienie"
     },
     {
@@ -69,12 +117,36 @@
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
       "opis": "Pieśń ta, prosząc o jedność i pokój dla Kościoła, wpisuje się w dziedzictwo św. Benedykta, który budował chrześcijańską cywilizację.",
-      "moment": "ogolne"
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest manifestem wiary i pragnienia budowania życia na Bogu, co było fundamentem dzieła św. Benedykta.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "613",
       "piesn": "Panie mój, cóż Ci oddać",
       "opis": "Wyraża wdzięczność za Boże prowadzenie, którego doświadczył św. Benedykt i które jest udziałem każdego wierzącego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Psalm responsoryjny wzywa do skosztowania dobroci Pana, co jest istotą życia monastycznego, poświęconego kontemplacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które było motywem przewodnim życia św. Benedykta.",
       "moment": "ogolne"
     }
   ]

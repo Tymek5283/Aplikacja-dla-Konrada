@@ -12,14 +12,14 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 98,1-4",
-      "opis": "Refren:",
-      "tekst": "Śpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
+      "opis": "",
+      "tekst": "Refren:\nŚpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową,\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica\ni święte ramię Jego.\nPan okazał swoje zbawienie,\nna oczach pogan objawił swoją sprawiedliwość.\nWspomniał na dobroć i na wierność swoją\ndla domu Izraela.\nUjrzały wszystkie krańce ziemi\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio,\ncieszcie się, weselcie i grajcie."
     },
     {
       "typ": "DRUGIE CZYTANIE",
       "sigla": "Flp 1, 4-6. 8-11",
       "opis": "Bądźcie czyści i bez zarzutu na dzień Chrystusa",
-      "tekst": "Bracia:\nZawsze, w każdej modlitwie, z radością zanoszę prośbę za was wszystkich – z powodu waszego udziału w szerzeniu Ewangelii od pierwszego dnia aż do chwili obecnej. Mam właśnie ufność, że Ten, który zapoczątkował w was dobre dzieło, dokończy go do dnia Chrystusa Jezusa. Albowiem Bóg jest mi świadkiem, jak gorąco tęsknię za wami wszystkimi ożywiony miłością Chrystusa Jezusa.\nA modlę się o to, by miłość wasza doskonaliła się coraz bardziej i bardziej w głębszym poznaniu i wszelkim wyczuciu dla oceny tego, co lepsze, abyście byli czyści i bez zarzutu na dzień Chrystusa, napełnieni plonem sprawiedliwości, który przynosimy przez Jezusa Chrystusa, na chwałę i cześć Boga.\nOto słowo Boże."
+      "tekst": "Bracia:\nZawsze, w każdej modlitwie, z radością zanoszę prośbę za was wszystkich - z powodu waszego udziału w szerzeniu Ewangelii od pierwszego dnia aż do chwili obecnej. Mam właśnie ufność, że Ten, który zapoczątkował w was dobre dzieło, dokończy go do dnia Chrystusa Jezusa. Albowiem Bóg jest mi świadkiem, jak gorąco tęsknię za wami wszystkimi ożywiony miłością Chrystusa Jezusa.\nA modlę się o to, by miłość wasza doskonaliła się coraz bardziej i bardziej w głębszym poznaniu i wszelkim wyczuciu dla oceny tego, co lepsze, abyście byli czyści i bez zarzutu na dzień Chrystusa, napełnieni plonem sprawiedliwości, który przynosimy przez Jezusa Chrystusa, na chwałę i cześć Boga.\nOto słowo Boże."
     },
     {
       "typ": "AKLAMACJA",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Ta uroczysta pieśń podkreśla wyjątkowy przywilej Maryi i Jej czystość, co jest istotą dzisiejszego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "399",
+      "piesn": "Witaj, Święta i Niepokalana",
+      "opis": "Kolejna pieśń bezpośrednio związana z tajemnicą dnia, podkreślająca świętość i wyjątkowe wybranie Maryi.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "12",
       "piesn": "Archanioł Boży Gabryjel",
       "opis": "Jako pieśń adwentowa, opisująca Zwiastowanie z dzisiejszej Ewangelii, łączy ona tematykę maryjną z radosnym oczekiwaniem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "356",
-      "piesn": "Matko Niebieskiego Pana",
-      "opis": "Ta uroczysta pieśń podkreśla wyjątkowy przywilej Maryi i Jej czystość, co jest istotą dzisiejszego święta.",
+      "numer": "20",
+      "piesn": "Matko Odkupiciela",
+      "opis": "Antyfona ta podkreśla rolę Maryi w dziele zbawienia, która poprzez swoje 'tak' stała się Matką Syna Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Zwiastowaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest wspaniałym hymnem uwielbienia na cześć Bożej Rodzicielki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Psalm responsoryjny wzywa do śpiewania nowej pieśni Panu, a ta pieśń jest radosnym hymnem na cześć Boga za Jego cuda.",
       "moment": "uwielbienie"
     },
     {
       "numer": "22",
       "piesn": "Niebiosa, rosę spuśćcie",
       "opis": "Klasyczna pieśń adwentowa, która wyraża tęsknotę za Zbawicielem, przypominając, że Maryja jest Tą, która Go wydała światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń adwentowa, która wyraża tęsknotę za Zbawicielem, a jednocześnie wskazuje na Maryję, przez którą Słowo stało się Ciałem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "18",
+      "piesn": "Gwiazdo morza głębokiego",
+      "opis": "Pieśń maryjna, która prosi Maryję o wstawiennictwo i opiekę, co jest odpowiedzią na Jej rolę w historii zbawienia.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "338",
       "piesn": "Gwiazdo zaranna",
       "opis": "Pieśń ta łączy w sobie motywy Niepokalanego Poczęcia i adwentowego oczekiwania na przyjście Światłości świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa, która w kontekście uroczystości Niepokalanego Poczęcia przypomina o celu tego wydarzenia - przygotowaniu drogi dla Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Pana, którego Matka została zachowana od grzechu pierworodnego.",
       "moment": "ogolne"
     }
   ]

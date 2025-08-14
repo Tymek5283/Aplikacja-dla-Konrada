@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń wzywa do prostowania dróg życia, co jest istotą misji Jana Chrzciciela, przygotowującego na przyjście Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana, którego nadejście głosił Jan Chrzciciel, największy z proroków.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "11",
       "piesn": "Z powagą przygotujcie",
       "opis": "Pieśń wzywa do przygotowania serc na przyjście Pana, co jest głównym przesłaniem postaci Jana Chrzciciela, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do pokuty i nawrócenia, co stanowiło centralne orędzie Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża postawę nawrócenia, do którego wzywał Jan Chrzciciel, aby godnie przyjąć nadchodzącego Pana.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Pieśń wyraża adwentową tęsknotę za Zbawicielem, którego poprzednikiem był Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Jezus mówi o królestwie niebieskim, a ta pieśń opisuje jego prawa i błogosławieństwa dostępne dla tych, którzy przyjmą Chrystusa.",
+      "moment": "komunia"
+    },
+    {
       "numer": "2",
       "piesn": "Niech się radują",
       "opis": "Pierwsze czytanie zapowiada wielką radość w Panu, a ta pieśń jest radosnym hymnem na cześć przychodzącego Króla.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny i pierwsze czytanie wzywają do wielbienia Boga za Jego potęgę i miłosierdzie, a ta pieśń jest tego wyrazem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Adwentowa pieśń błagalna, która wyraża tęsknotę za Bogiem, który przychodzi z pomocą, jak obiecuje w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "475",
       "piesn": "Zwiastun wschodzącego Słońca",
       "opis": "Pieśń poświęcona Janowi Chrzcicielowi, którego wielkość podkreśla Jezus w Ewangelii, jest doskonałym podsumowaniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Pieśń wprost wzywa wstawiennictwa Jana Chrzciciela, abyśmy umieli, jak on, przygotować drogę Panu w naszym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, największy 'między narodzonymi z niewiast'.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Pieśń ta wzywa do przygotowania na przyjście Zbawiciela, którego poprzedzał Jan Chrzciciel, największy 'między narodzonymi z niewiast'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest echem nauczania Jana Chrzciciela, wzywającego do nawrócenia w obliczu nadchodzącego królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia serc dla Króla, którego drogę przygotował Jan Chrzciciel.",
       "moment": "ogolne"
     }
   ]

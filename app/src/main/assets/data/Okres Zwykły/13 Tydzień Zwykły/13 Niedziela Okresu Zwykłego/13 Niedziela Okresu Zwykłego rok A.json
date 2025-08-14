@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426235.Niedziela-rok-A",
+  "tytul_dnia": "13 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Krl 4, 8-12a. 14-16a",
+      "opis": "Szunemitka przyjmuje proroka",
+      "tekst": "Pewnego dnia Elizeusz przechodził przez Szunem. Była tam kobieta bogata, która zawsze nakłaniała go do spożycia posiłku. Ilekroć więc przechodził, udawał się tam, by spożyć posiłek. Powiedziała ona do swego męża: «Oto jestem przekonana, że świętym mężem Bożym jest ten, który ciągle do nas przychodzi. Przygotujmy mały pokój na górze, obmurowany, i wstawmy tam dla niego łóżko, stół, krzesło i lampę. Kiedy przyjdzie do nas, to tam się uda».\nGdy więc pewnego dnia Elizeusz tam przyszedł, udał się na górę i tam ułożył się do snu. I powiedział do Gechaziego, swojego sługi: «Co można uczynić dla tej kobiety?» Odpowiedział Gechazi: «Niestety, ona nie ma syna, a mąż jej jest stary». Rzekł więc: «Zawołaj ją!» Zawołał ją i stanęła przed wejściem. I powiedział: «O tej porze za rok będziesz pieściła syna».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 2-3. 16-17. 18-19 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Na wieki będę sławił łaski Pana.\nO łaskach Pana będę śpiewał na wieki, †\nTwą wierność będę głosił moimi ustami *\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś: †\n«Na wieki ugruntowana jest łaska», *\nutrwaliłeś swą wierność w niebiosach.\nRefren.\nBłogosławiony lud, który umie się cieszyć *\ni chodzi, Panie, w blasku Twojej obecności.\nCieszą się zawsze Twym imieniem, *\nTwoja sprawiedliwość ich wywyższa.\nRefren.\nBo Ty jesteś blaskiem ich potęgi, *\na przychylność Twoja dodaje nam mocy.\nBo do Pana należy nasza tarcza, *\na król nasz do Świętego Izraela.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 6, 3-4. 8-11",
+      "opis": "Nowe życie ochrzczonych",
+      "tekst": "Bracia:\nMy wszyscy, którzy otrzymaliśmy chrzest zanurzający w Chrystusa Jezusa, zostaliśmy zanurzeni w Jego śmierć. Zatem przez chrzest zanurzający nas w śmierć zostaliśmy razem z Nim pogrzebani po to, abyśmy i my postępowali w nowym życiu - jak Chrystus powstał z martwych dzięki chwale Ojca.\nOtóż, jeżeli umarliśmy razem z Chrystusem, wierzymy, że z Nim również żyć będziemy, wiedząc, że Chrystus, powstawszy z martwych, już więcej nie umiera, śmierć nad Nim nie ma już władzy. Bo to, że umarł, umarł dla grzechu tylko raz, a że żyje, żyje dla Boga. Tak i wy rozumiejcie, że umarliście dla grzechu, żyjecie zaś dla Boga w Chrystusie Jezusie.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 P 2, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jesteście królewskim kapłaństwem, świętym narodem.\nOgłaszajcie dzieła potęgi Tego, który was wezwał do swojego przedziwnego światła."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 37-42",
+      "opis": "Kto was przyjmuje, Mnie przyjmuje",
+      "tekst": "Jezus powiedział do swoich apostołów:\n«Kto kocha ojca lub matkę bardziej niż Mnie, nie jest Mnie godzien. I kto kocha syna lub córkę bardziej niż Mnie, nie jest Mnie godzien. Kto nie bierze swego krzyża, a idzie za Mną, nie jest Mnie godzien. Kto chce znaleźć swe życie, straci je, a kto straci swe życie z mego powodu, znajdzie je.\nKto was przyjmuje, Mnie przyjmuje; a kto Mnie przyjmuje, przyjmuje Tego, który Mnie posłał. Kto przyjmuje proroka jako proroka, nagrodę proroka otrzyma. Kto przyjmuje sprawiedliwego jako sprawiedliwego, nagrodę sprawiedliwego otrzyma.\nKto poda kubek świeżej wody do picia jednemu z tych najmniejszych, dlatego że jest uczniem, zaprawdę, powiadam wam, nie utraci swojej nagrody».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest odpowiedzią na radykalne wezwanie Jezusa, by kochać Go ponad wszystko i wszystkich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość do całkowitego oddania się Bogu, co jest warunkiem pójścia za Nim i wzięcia swojego krzyża.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Jest to modlitwa o bliskość z Chrystusem, którego mamy kochać bardziej niż rodzinę i własne życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Pieśń o charakterze ofiarnym nawiązuje do słów Ewangelii o konieczności wzięcia swojego krzyża i naśladowania Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarowujemy nasze życie w zjednoczeniu z ofiarą Chrystusa na krzyżu, którą mamy codziennie podejmować.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy w ofierze nasze wyrzeczenia i trudy, które podejmujemy idąc za Chrystusem z naszym krzyżem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Przyjęcie proroka, jak uczyniła Szunemitka, jest obrazem przyjęcia Chrystusa w Eucharystii, który obdarza nas życiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, którego przyjmujemy, jest Tym, dla którego warto stracić swe życie, aby zyskać życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "W Komunii Świętej zbliżamy się do Tego, który umarł i zmartwychwstał, dając nam udział w nowym życiu, o którym mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalm responsoryjny jest hymnem na cześć łaski i wierności Pana, a ta pieśń uwielbienia jest jego parafrazą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Dziękujemy Bogu za Jego łaski i wierność, które pozwalają nam z radością sławić Jego imię, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym uwielbieniem Boga za Jego łaskawość i wierność, o których śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Gościnność okazana prorokowi i 'jednemu z najmniejszych' jest wyrazem miłości, do której wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię i przyjmować innych w imię Chrystusa, niosąc swój krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą drogę naśladowania Chrystusa i służenia Mu w 'najmniejszych'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Drugie czytanie mówi o naszym zanurzeniu w śmierci i zmartwychwstaniu Chrystusa, co jest fundamentem nowego życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Przyjmując uczniów Jezusa, przyjmujemy Jego samego, tworząc jedną Bożą rodzinę w Kościele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o miłości wzajemnej, której wyrazem jest przyjęcie bliźniego, jak uczyniła to kobieta z Szunem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo dla miłosiernych jest nagrodą za podanie kubka wody, o którym mówi Jezus w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

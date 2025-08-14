@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415488.Sobota-III-tydzien-zwykly-rok-I",
+  "tytul_dnia": "3 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 11, 1-2. 8-19",
+      "opis": "Wiara Abrahama wzorem dla nas",
+      "tekst": "Bracia:\nWiara jest poręką tych dóbr, których się spodziewamy, dowodem tych rzeczywistości, których nie widzimy. To dzięki niej przodkowie otrzymali świadectwo.\nDzięki wierze ten, którego nazwano Abrahamem, usłuchał wezwania, by wyruszyć do ziemi, którą miał objąć w posiadanie. Wyszedł, nie wiedząc, dokąd idzie. Dzięki wierze przywędrował do Ziemi Obiecanej, jako ziemi obcej, pod namiotami mieszkając z Izaakiem i Jakubem, współdziedzicami tej samej obietnicy. Oczekiwał bowiem miasta zbudowanego na silnych fundamentach, którego architektem i budowniczym jest sam Bóg.\nDzięki wierze także i sama Sara, mimo podeszłego wieku, otrzymała moc poczęcia. Uznała bowiem za godnego wiary Tego, który udzielił obietnicy. Przeto z człowieka jednego, i to już niemal obumarłego, powstało potomstwo tak liczne jak gwiazdy na niebie, jak niezliczone ziarnka piasku na wybrzeżu morza.\nW wierze pomarli oni wszyscy, nie osiągnąwszy tego, co im przyrzeczono, lecz patrzyli na to z daleka i witali, uznawszy siebie za obcych i gości na tej ziemi. Ci bowiem, co tak mówią, wykazują, że szukają ojczyzny. Gdyby zaś tę wspominali, z której wyszli, znaleźliby sposobność powrotu do niej. Teraz zaś do lepszej dążą, to jest do niebieskiej. Dlatego Bóg nie wstydzi się być nazywanym ich Bogiem, gdyż przysposobił im miasto.\nDzięki wierze Abraham, wystawiony na próbę, ofiarował Izaaka, i to jedynego syna składał na ofiarę, on, który otrzymał obietnicę, któremu powiedziane było: «Z Izaaka będzie dla ciebie potomstwo». Pomyślał bowiem, iż Bóg mocen jest wskrzesić także umarłych, i dlatego odzyskał go, na podobieństwo śmierci i zmartwychwstania Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Łk 1, 69-70. 71-73. 74-75 (R.: por. 68)",
+      "opis": "",
+      "tekst": "Refren: Wielbimy Pana, bo swój lud nawiedził.\nBóg wzbudził dla nas moc zbawczą *\nw domu swego sługi, Dawida.\nJak zapowiedział od dawna *\nprzez usta swych świętych proroków.\nRefren.\nŻe nas wybawi od naszych nieprzyjaciół *\ni z ręki wszystkich, którzy nas nienawidzą;\nże naszym ojcom okaże miłosierdzie †\ni wspomni na swe święte przymierze, *\nna przysięgę, którą złożył ojcu naszemu, Abrahamowi.\nRefren.\nDa nam, że z mocy nieprzyjaciół wyrwani, *\nsłużyć Mu będziemy bez trwogi,\nw pobożności i sprawiedliwości przed Nim *\npo wszystkie dni nasze.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 3, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak Bóg umiłował świat, że dał swojego Syna Jednorodzonego;\nkażdy, kto w Niego wierzy, ma życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 35-41",
+      "opis": "Jezus ucisza burzę",
+      "tekst": "Owego dnia, gdy zapadł wieczór, Jezus rzekł do swoich uczniów: «Przeprawmy się na drugą stronę». Zostawili więc tłum, a Jego zabrali, tak jak był w łodzi. Także inne łodzie płynęły z Nim.\nA nagle zerwał się gwałtowny wicher. Fale biły w łódź, tak że łódź już się napełniała wodą. On zaś spał w tyle łodzi na wezgłowiu. Zbudzili Go i powiedzieli do Niego: «Nauczycielu, nic Cię to nie obchodzi, że giniemy?» On, powstawszy, zgromił wicher i rzekł do jeziora: «Milcz, ucisz się!» Wicher się uspokoił i nastała głęboka cisza.\nWtedy rzekł do nich: «Czemu tak bojaźliwi jesteście? Jakże brak wam wiary!» Oni zlękli się bardzo i mówili między sobą: «Kim On jest właściwie, że nawet wicher i jezioro są Mu posłuszne?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Bogu w niebezpieczeństwach, co jest odpowiedzią na brak wiary uczniów podczas burzy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest źródłem bezpieczeństwa, nawet pośród morskiej nawałnicy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Mu ufają, co jest głównym motywem historii Abrahama i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu swojego życia w wierze, na wzór Abrahama, który przez wiarę stał się ojcem narodów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu z wiarą, na wzór Abrahama, który był gotów ofiarować nawet swego syna.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia w wierze, która jest poddawana próbom, jak wiara uczniów na jeziorze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który ma moc uciszyć burzę i jest Panem natury.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest naszym umocnieniem w chwilach próby wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która umacnia naszą wiarę w trudnych chwilach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Bożą wierność i miłosierdzie, o którym mówi psalm, wspominając przymierze z Abrahamem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za ocalenie z niebezpieczeństwa, co odnosi się do uczniów na jeziorze i do Abrahama na górze Moria.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar wiary, która pozwala nam przetrwać wszelkie burze i próby.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest odpowiedzią na pytanie Jezusa do uczniów: 'Jakże brak wam wiary?', prosząc o wzrost tej cnoty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszym przewodnikiem i Panem, któremu posłuszne są żywioły.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń jest prośbą o prowadzenie przez Pana, zwłaszcza w chwilach, gdy nasza wiara słabnie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest ratunkiem w doświadczeniach burzy i próby wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, który jest wierny swoim obietnicom danym Abrahamowi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszą nadzieją i ratunkiem w każdej burzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o stałą obecność Pana, która jest gwarancją bezpieczeństwa i pokoju.",
+      "moment": "ogolne"
+    }
+  ]
+}

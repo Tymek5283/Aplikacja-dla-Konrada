@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412886.Wtorek-II-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "2 Wtorek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 1, 10. 16-20",
+      "opis": "Przestańcie czynić zło, zaprawiajcie się w dobru",
+      "tekst": "Słuchajcie słowa Pańskiego, wodzowie sodomscy, daj posłuch prawu naszego Boga, ludu Gomory! «Obmyjcie się i oczyśćcie! Usuńcie zło uczynków waszych sprzed moich oczu! Przestańcie czynić zło! Zaprawiajcie się w dobru! Troszczcie się o sprawiedliwość, wspomagajcie uciśnionego, oddajcie słuszność sierocie, w obronie wdowy stawajcie! Chodźcie i spór ze Mną wiedźcie! - mówi Pan. Choćby wasze grzechy były jak szkarłat, jak śnieg wybieleją; choćby były czerwone jak purpura, staną się białe jak wełna. Jeżeli będziecie ulegli i posłuszni, dóbr ziemskich będziecie zażywać. Ale jeśli się zatniecie w oporze, miecz was wytępi». Albowiem usta Pańskie to wyrzekły. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 8-9. 16b-17. 21 i 23 (R.: por. 23b)",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\n«Nie oskarżam cię za twoje ofiary, *\n\nbo twe całopalenia zawsze są przede Mną.\n\nNie przyjmę cielca z twego domu *\n\nani kozłów ze stad twoich».\nRefren.\n«Czemu wymieniasz moje przykazania *\n\ni na ustach masz moje przymierze?\n\nTy, co nienawidzisz karności, *\n\na słowa moje odrzuciłeś za siebie?»\nRefren.\n«Ty tak postępujesz, a Ja mam milczeć? †\n\nCzy myślisz, że jestem podobny do ciebie? *\n\nSkarcę ciebie i postawię ci to przed oczy.\n\nKto składa dziękczynną ofiarę, ten cześć Mi oddaje, *\n\na tym, którzy postępują uczciwie, ukażę Boże zbawienie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ez 18, 31ac",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Odrzućcie od siebie wszystkie grzechy\n\ni uczyńcie sobie nowe serce i nowego ducha."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 1-12",
+      "opis": "Strzeżcie się pychy i obłudy",
+      "tekst": "Jezus przemówił do tłumów i do swych uczniów tymi słowami: «Na katedrze Mojżesza zasiedli uczeni w Piśmie i faryzeusze. Czyńcie więc i zachowujcie wszystko, co wam polecą, lecz uczynków ich nie naśladujcie. Mówią bowiem, ale sami nie czynią. Wiążą ciężary wielkie i nie do uniesienia i kładą je ludziom na ramiona, lecz sami palcem ruszyć ich nie chcą. Wszystkie swe uczynki spełniają w tym celu, żeby się ludziom pokazać. Rozszerzają swoje filakterie i wydłużają frędzle u płaszczów. Lubią zaszczytne miejsca na ucztach i pierwsze krzesła w synagogach. Chcą, by ich pozdrawiano na rynkach i żeby ludzie nazywali ich Rabbi. A wy nie pozwalajcie nazywać się Rabbi, albowiem jeden jest wasz Nauczyciel, a wy wszyscy jesteście braćmi. Nikogo też na ziemi nie nazywajcie waszym ojcem; jeden bowiem jest Ojciec wasz, Ten w niebie. Nie chciejcie również, żeby was nazywano mistrzami, bo jeden jest tylko wasz Mistrz, Chrystus. Największy z was niech będzie waszym sługą. Kto się wywyższa, będzie poniżony, a kto się poniża, będzie wywyższony». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń ta wzywa do postawy pokory, która jest przeciwieństwem pychy i obłudy faryzeuszów z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia i pokory, co jest głównym tematem czytań i przeciwieństwem postawy faryzeuszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, zgodnie z wezwaniem proroka Izajasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Utwór jest modlitwą o wewnętrzną przemianę i czystość serca, o której mówi prorok Izajasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wzywa do wydawania owoców nawrócenia, takich jak miłosierdzie, co jest prawdziwą ofiarą miłą Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreślająca pokorę, która jest warunkiem godnego złożenia ofiary i przeciwieństwem pychy faryzeuszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Prośba o czyste serce i siłę ducha jest odpowiedzią na wezwanie do autentycznej, a nie pozornej pobożności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Parafraza psalmu pokutnego, wyrażająca pragnienie czystego serca, by zjednoczyć się z Chrystusem w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o obmycie z grzechów przygotowuje na spotkanie z Chrystusem, który jest Nauczycielem prawdziwej sprawiedliwości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta sławi Boga, który ceni skruszone serce ponad zewnętrzne ofiary, o czym przypomina psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża ufność w Boże przebaczenie, które jest owocem pokornego uznania swoich grzechów, a nie faryzejskiej pychy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to pieśń dziękczynna za Boże miłosierdzie, które jest darem dla serc skruszonych, a nie dla pysznych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Utwór ten przypomina o błogosławieństwie cichych i pokornego serca, co jest drogą wskazaną przez Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta wzywa do nawrócenia i życia Ewangelią, co jest misją chrześcijanina po zakończeniu liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postanowienie porzucenia grzechu i powrotu do Ojca, co jest owocem spotkania ze Słowem Bożym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest wyrazem szczerego nawrócenia, do którego wzywa prorok Izajasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny prosi o łaskę oczyszczenia ciała i myśli, aby uniknąć obłudy potępionej przez Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Prosta pieśń błagalna, która dobrze oddaje ducha wielkopostnej modlitwy o łaskę i opamiętanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania pokutna, która jest wołaniem o Boże miłosierdzie w odpowiedzi na uświadomienie sobie własnej grzeszności.",
+      "moment": "ogolne"
+    }
+  ]
+}

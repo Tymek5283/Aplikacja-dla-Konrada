@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 19,2-5",
-      "opis": "Refren:",
-      "tekst": "Po całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
+      "opis": "",
+      "tekst": "Refren:\nPo całej ziemi ich głos się rozchodzi.\nNiebiosa głoszą chwałę Boga,\ndzieło rąk Jego obwieszcza nieboskłon.\nDzień opowiada dniowi,\nnoc nocy przekazuje wiadomość.\nNie są to słowa ani nie jest to mowa,\nktórych by dźwięku nie usłyszano:\nIch głos się rozchodzi po całej ziemi,\nich słowa aż po krańce świata."
     },
     {
       "typ": "AKLAMACJA",
@@ -38,7 +38,31 @@
     {
       "numer": "573",
       "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć wszystkich apostołów, którzy są fundamentem Kościoła, jak mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta sławi Kościół, lud Boży, zgromadzony przez posługę Apostołów, których dziś wspominamy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
       "opis": "Hymn ten podkreśla rolę wszystkich apostołów jako fundamentu Kościoła, co jest zgodne z pierwszym czytaniem z Listu do Efezjan.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co jest istotą życia każdego apostoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, składamy Bogu nasze życie, na wzór Apostołów, którzy oddali wszystko dla Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum, który wspomina 'przesławny chór Apostołów', jest doskonałym aktem uwielbienia w ich święto.",
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia mówi o tłumach, które przychodziły do Jezusa, a ta pieśń zaprasza wszystkich do Uczty Pańskiej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Wyznanie wiary w Chrystusa obecnego w Eucharystii jest kontynuacją wiary, którą głosili Apostołowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Ten uroczysty hymn jest odpowiedzią na wezwanie Psalmu, by głosić chwałę Pana, którego apostołowie zanieśli aż po krańce świata.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny mówi o głosie apostołów, który rozchodzi się po całej ziemi, a ta pieśń jest radosnym tego potwierdzeniem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta wzywa wszystkie narody do chwalenia Pana, co jest owocem apostolskiej pracy Szymona i Judy Tadeusza.",
       "moment": "uwielbienie"
     },
     {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń ta przypomina o misyjnym posłaniu, które otrzymali apostołowie, i stanowi zachętę dla wiernych na zakończenie Mszy Świętej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa, którego głosili Apostołowie, jest przesłaniem, które zabieramy ze sobą w świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w codziennej pracy i służbie, na wzór apostolskiego trudu świętych patronów.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "591",
       "piesn": "Boże, obdarz Kościół Twój",
       "opis": "Modlitwa o jedność i pokój dla Kościoła, który został zbudowany na fundamencie apostołów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest odpowiedzią na głoszenie Ewangelii, a ta pieśń jest prośbą o jej umocnienie, na wzór wiary Apostołów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest naszą nadzieją i pojednaniem, co jest Dobrą Nowiną, którą apostołowie mieli głosić światu.",
       "moment": "ogolne"
     }
   ]

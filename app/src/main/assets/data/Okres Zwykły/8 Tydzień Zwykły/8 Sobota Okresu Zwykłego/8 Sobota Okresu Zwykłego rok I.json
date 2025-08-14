@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416205.Sobota-VIII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "8 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 51, 12-20",
+      "opis": "Szukanie mądrości",
+      "tekst": "Będę Cię wielbił, Panie, i wychwalał, i błogosławił Twojemu imieniu.\nBędąc jeszcze młodym, zanim zacząłem podróżować, szukałem jawnie mądrości w modlitwie. U bram świątyni prosiłem o nią i aż do końca szukać jej będę.\nW jej rozkwicie, jakby dojrzewającego winogrona, rozradowało się nią me serce, noga moja wstąpiła na prostą drogę, od młodości mojej idę jej śladami. Nakłoniłem tylko trochę ucha, a już ją otrzymałem i znalazłem dla siebie rozległe wykształcenie.\nPostąpiłem w niej, a Temu, który mi daje mądrość, chcę oddać chwałę. Postanowiłem bowiem wprowadzić ją w czyn, zapłonąłem gorliwością o dobro i nie doznam wstydu.\nDusza moja walczyła o nią i z całą starannością usiłowałem zachować Prawo; ręce wyciągałem w górę, a błędy przeciwko niej opłakiwałem.\nSkierowałem ku niej moją duszę i znalazłem ją dzięki oczyszczeniu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8. 9. 10. 11",
+      "opis": "",
+      "tekst": "Refren: Nakazy Pana są radością serca.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Kol 3, 16a. 17c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Chrystusa niech w was mieszka w całym swym bogactwie;\ndziękujcie Bogu Ojcu przez Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 11, 27-33",
+      "opis": "Skąd pochodzi władza Jezusa",
+      "tekst": "Jezus wraz z uczniami przyszedł znowu do Jerozolimy.\nKiedy chodził po świątyni, przystąpili do Niego arcykapłani, uczeni w Piśmie i starsi i zapytali Go: «Jakim prawem to czynisz? I kto Ci dał tę władzę, żebyś to czynił?»\nJezus im odpowiedział: «Zadam wam jedno pytanie. Odpowiedzcie Mi na nie, a powiem wam, jakim prawem to czynię. Czy chrzest Janowy pochodził z nieba, czy też od ludzi? Odpowiedzcie Mi».\nOni zastanawiali się między sobą: «Jeśli powiemy: „Z nieba”, to nam zarzuci: „Dlaczego więc nie uwierzyliście mu?” Powiemy: „Od ludzi”». Lecz bali się tłumu, ponieważ wszyscy rzeczywiście uważali Jana za proroka. Odpowiedzieli więc Jezusowi: «Nie wiemy».\nJezus im rzekł: «Zatem i Ja wam nie powiem, jakim prawem to czynię».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do oddania czci Panu, którego mądrość i prawo są źródłem radości, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, którego nakazy, jak mówi psalm, radują serce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego prawo jest doskonałe i pokrzepia duszę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę szukania Bożej mądrości i dróg, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, aby On uczył nas swojej mądrości i prowadził swoimi drogami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud szukania i wprowadzania w czyn Bożej mądrości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary we władzę Chrystusa, której nie chcieli uznać arcykapłani w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest źródłem prawdziwej mądrości i życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest Panem i którego władzy nie chcieli uznać Jego przeciwnicy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na wezwanie psalmu do radowania się w nakazach Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, którego mądrość i prawo są cenniejsze nad złoto.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar Bożej mądrości i prawa, które prowadzą nas do życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest manifestem wierności Bogu i Jego prawu, w przeciwieństwie do postawy oponentów Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Podkreśla, że Chrystus jest Prawdą, a Jego słowo, jak mówi psalm, jest cenniejsze nad złoto.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam uznać władzę Chrystusa i przyjąć Jego naukę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Wyraża pragnienie obecności Pana i Jego Słowa, które jest źródłem prawdziwej mądrości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, które są owocem życia według Bożej mądrości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Chrystusie, który jest wcieloną Mądrością Bożą i naszym jedynym Nauczycielem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest owocem życia w bojaźni Pańskiej, o której mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

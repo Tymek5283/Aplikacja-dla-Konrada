@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426647.Wtorek-XIV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "14 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 8, 4-7. 11-13",
+      "opis": "Bałwochwalstwo i nieposłuszeństwo Izraelitów",
+      "tekst": "Tak mówi Pan:\n«Synowie Izraela ustanawiali sobie królów, ale beze Mnie. Książąt mianowali - też bez mojej wiedzy. Czynili posągi ze srebra swego i złota - na własną zagładę. Odrzucam cielca twojego, Samario, gniew mój się na nich rozpala; jak długo jeszcze nie będą mogli być wolni od winy synowie Izraela? Wykonał go rzemieślnik, lecz nie jest on bogiem; w kawałki się rozleci cielec samaryjski. Skoro sieją wiatr, zbiorą burzę. Zboże bez kłosów nie dostarczy mąki, jeśliby nawet dało, zabierze ją obcy.\nWiele ołtarzy Efraim zbudował, ale służą mu jedynie do grzechu. Wypisałem im moje liczne prawa, lecz je przyjęli jako coś obcego. Lubią ofiary krwawe i chętnie je składają, lubią też mięso, które wówczas jedzą, lecz Pan nie ma w tym upodobania. Wspominam wtedy na ich przewinienia i karzę ich za grzechy - niech wrócą znów do Egiptu!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 115 (113B), 3-4. 5-6. 7ab i 8. 9-10 (R.: por. 9a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Naród wybrany ufa swemu Panu.\nNasz Bóg jest w niebie, *\nczyni wszystko, co zechce.\nIch bożki są ze srebra i złota, *\ndzieła rąk ludzkich.\nRefren.\nMają usta, ale nie mówią, *\nmają oczy, ale nie widzą.\nMają uszy, ale nie słyszą, *\nmają nozdrza, ale nie czują zapachu.\nRefren.\nMają ręce pozbawione dotyku, *\nnogi mają, ale nie chodzą.\nDo nich będą podobni ci, którzy je robią, *\ni każdy, który im ufa.\nRefren.\nAle dom Izraela pokłada ufność w Panu, *\nOn jest ich pomocą i tarczą.\nDom Aarona pokłada ufność w Panu, *\nOn jest ich pomocą i tarczą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 10, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem dobrym pasterzem\ni znam owce moje, a moje Mnie znają."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 32-38",
+      "opis": "Jezus lituje się nad ludźmi",
+      "tekst": "Przyprowadzono do Jezusa opętanego niemowę. Po wyrzuceniu złego ducha niemy odzyskał mowę, a tłumy pełne podziwu wołały: «Jeszcze się nigdy nic podobnego nie pojawiło w Izraelu!»\nLecz faryzeusze mówili: «Wyrzuca złe duchy mocą ich przywódcy».\nTak Jezus obchodził wszystkie miasta i wioski. Nauczał w tamtejszych synagogach, głosił Ewangelię o królestwie i leczył wszystkie choroby i wszystkie słabości.\nA widząc tłumy, litował się nad nimi, bo byli znękani i porzuceni, jak owce niemające pasterza. Wtedy rzekł do swych uczniów: «Żniwo wprawdzie wielkie, ale robotników mało. Proście Pana żniwa, żeby wyprawił robotników na swoje żniwo».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest odpowiedzią na obraz ludu 'jak owce niemające pasterza' z Ewangelii i na aklamację o Dobrym Pasterzu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jezus, widząc tłumy, lituje się nad nimi, objawiając się jako Dobry Pasterz, o którym śpiewa ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o Boże miłosierdzie i błogosławieństwo jest odpowiedzią na litość Jezusa nad znękanym ludem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Wobec grzechu bałwochwalstwa, o którym mówi prorok Ozeasz, ta pieśń eucharystyczna jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec grzechu bałwochwalstwa, o którym mówi Ozeasz, prosimy o miłosierdzie i czyste serce.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które odrzuca grzech i pragnie służyć prawdziwemu Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jezus, litując się nad tłumem, daje mu pokarm duchowy i uzdrowienie, a w Eucharystii daje nam samego siebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Eucharystia jest odpowiedzią na głód ludu, nad którym lituje się Jezus, Dobry Pasterz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus, litując się nad tłumem, zaprasza wszystkich na ucztę, której zapowiedzią jest Eucharystia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który jest pomocą i tarczą, w przeciwieństwie do martwych bożków.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego miłosierdzie i opiekę, której doznajemy w Kościele, Jego owczarni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Jezus, Dobry Pasterz, pozostaje z nami.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie Jezusa do modlitwy o robotników na żniwo jest misyjnym posłaniem, które podejmuje ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po doświadczeniu litości i mocy Jezusa, wychodzimy w świat, by głosić Jego panowanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na pracę na 'żniwie Pańskim', do której wzywa nas Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec grzechu bałwochwalstwa, ta pieśń jest mocną deklaracją wyboru jedynego i prawdziwego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm mówi o ufności pokładanej w Panu, a ta pieśń jest wyrazem tego zaufania w przeciwieństwie do ufności w bożki.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Pieśń wyraża zaufanie do Jezusa, Dobrego Pasterza, który troszczy się o swoją owczarnię.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaprasza, by przyjść do Jezusa, który lituje się nad ludźmi i leczy wszystkie ich choroby i słabości.",
+      "moment": "ogolne"
+    }
+  ]
+}

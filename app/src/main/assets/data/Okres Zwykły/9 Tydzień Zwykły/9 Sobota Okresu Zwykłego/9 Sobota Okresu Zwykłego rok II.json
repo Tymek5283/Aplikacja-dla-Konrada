@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416994.Sobota-IX-tydzien-zwykly-rok-II",
+  "tytul_dnia": "9 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tm 4, 1-8",
+      "opis": "Wykonaj dzieło ewangelisty",
+      "tekst": "Najmilszy:\nZaklinam cię na Boga i Chrystusa Jezusa, który będzie sądził żywych i umarłych, oraz na Jego pojawienie się i na Jego królestwo: głoś naukę, nastawaj w porę i nie w porę, wykazuj błąd, napominaj, podnoś na duchu z całą cierpliwością w każdym nauczaniu.\nPrzyjdzie bowiem chwila, kiedy zdrowej nauki nie będą znosili, ale według własnych pożądań - ponieważ ich uszy świerzbią - będą sobie mnożyli nauczycieli. Będą się odwracali od słuchania prawdy, a obrócą się ku zmyślonym opowiadaniom.\nTy zaś czuwaj we wszystkim, znoś trudy, wykonaj dzieło ewangelisty, spełnij swe posługiwanie!\nAlbowiem krew moja już ma być wylana na ofiarę, a chwila mojej rozłąki nadeszła. W dobrych zawodach wystąpiłem, bieg ukończyłem, wiary ustrzegłem. Na ostatek odłożono dla mnie wieniec sprawiedliwości, który mi w owym dniu odda Pan, sprawiedliwy Sędzia, a nie tylko mnie, ale i wszystkim, którzy umiłowali pojawienie się Jego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 71 (70), 8-9. 14-15. 16-17. 22",
+      "opis": "",
+      "tekst": "Refren: Będę wysławiał Twoją sprawiedliwość.\nPełne Twojej chwały były moje usta, *\nsławiłem Cię przez dzień cały.\nNie odtrącaj mnie, gdy będę stary, *\nnie opuszczaj, gdy siły ustaną.\nRefren.\nJa zaś będę zawsze ufał *\ni pomnażał wszelką Twoją chwałę.\nMoje usta będą głosiły Twoją sprawiedliwość *\ni przez cały dzień Twoją pomoc.\nRefren.\nOpowiem o potędze Pana, *\nbędę przypominał tylko Twoją sprawiedliwość.\nBoże, Ty mnie uczyłeś od mojej młodości *\ni do tej chwili głoszę Twoje cuda.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 38-44",
+      "opis": "Jałmużna ubogiej wdowy",
+      "tekst": "Jezus, nauczając rzesze, mówił:\n«Strzeżcie się uczonych w Piśmie. Z upodobaniem chodzą oni w powłóczystych szatach, lubią pozdrowienia na rynku, pierwsze krzesła w synagogach i zaszczytne miejsca na ucztach. Objadają domy wdów i dla pozoru odprawiają długie modlitwy. Ci tym surowszy dostaną wyrok».\nPotem, usiadłszy naprzeciw skarbony, przypatrywał się, jak tłum wrzucał drobne pieniądze do skarbony. Wielu bogatych wrzucało wiele. Przyszła też jedna uboga wdowa i wrzuciła dwa pieniążki, czyli jeden grosz.\nWtedy przywołał swoich uczniów i rzekł do nich: «Zaprawdę, powiadam wam: Ta uboga wdowa wrzuciła najwięcej ze wszystkich, którzy kładli do skarbony. Wszyscy bowiem wrzucali z tego, co im zbywało; ona zaś ze swego niedostatku wrzuciła wszystko, co miała na swe utrzymanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do aklamacji oraz postawy ubogiej wdowy z Ewangelii, która jest błogosławiona w swoim ubóstwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża postawę zaufania Bogu, którą w pełni ukazała uboga wdowa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, które jest cenniejsze niż wszelkie bogactwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubogiej wdowy oraz św. Pawła, który całe życie oddał Bogu jako ofiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Pieśń wyraża postawę ofiarowania serca, które jest darem cenniejszym niż wielkie sumy pieniędzy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasz trud, na wzór ubogiej wdowy, która oddała wszystko.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje prostotę i szczerość serca, z jaką uboga wdowa złożyła swój dar, a z jaką my powinniśmy przyjmować Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ukazuje Chrystusa, który stał się ubogim, aby nas ubogacić, co jest najwyższym aktem miłosierdzia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę ubóstwa duchowego, która pozwala przyjąć dar Eucharystii z wdzięcznością.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń chwały, która jest echem psalmu, w którym psalmista głosi sprawiedliwość Bożą przez całe życie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar wiary i przykład ofiarności ubogiej wdowy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na Bożą dobroć i miłość.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-manifest wierności, która oddaje ducha testamentu św. Pawła: „bieg ukończyłem, wiary ustrzegłem”.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która wzywa do głoszenia Ewangelii całym życiem, na wzór św. Pawła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę wierności Bogu aż do końca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nawiązuje do wezwania „wykonaj dzieło ewangelisty” z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do życia, które przynosi owoce dobrych czynów, w przeciwieństwie do obłudnej pobożności uczonych w Piśmie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża skruchę i prośbę o serce zdolne do miłosierdzia, na wzór ubogiej wdowy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że podążanie za Chrystusem jest drogą do prawdziwej sprawiedliwości.",
+      "moment": "ogolne"
+    }
+  ]
+}

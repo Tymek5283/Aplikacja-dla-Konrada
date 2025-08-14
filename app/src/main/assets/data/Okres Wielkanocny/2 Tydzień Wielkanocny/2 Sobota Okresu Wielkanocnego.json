@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413136.Sobota-II-tygodnia-wielkanocnego",
+  "tytul_dnia": "2 Sobota Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 6, 1-7",
+      "opis": "Ustanowienie pierwszych diakonów",
+      "tekst": "Gdy liczba uczniów wzrastała, zaczęli helleniści szemrać przeciwko Hebrajczykom, że przy codziennym rozdawaniu jałmużny zaniedbywano ich wdowy. Dwunastu, zwoławszy wszystkich uczniów, powiedziało: «Nie jest rzeczą słuszną, abyśmy zaniedbali słowo Boże, a obsługiwali stoły. Upatrzcie zatem, bracia, siedmiu mężów spośród siebie, cieszących się dobrą sławą, pełnych Ducha i mądrości. Im zlecimy to zadanie. My zaś oddamy się wyłącznie modlitwie i posłudze słowa». Spodobały się te słowa wszystkim zebranym i wybrali Szczepana, męża pełnego wiary i Ducha Świętego, oraz Filipa, Prochora, Nikanora, Tymona, Parmenasa i Mikołaja, prozelitę z Antiochii. Przedstawili ich apostołom, którzy, modląc się, nałożyli na nich ręce. A słowo Boże szerzyło się, wzrastała też bardzo liczba uczniów w Jerozolimie, a nawet bardzo wielu kapłanów przyjmowało wiarę. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 1-2. 4-5. 18-19 (R.: por. 22)",
+      "opis": "",
+      "tekst": "Refren: Okaż swą łaskę ufającym Tobie.\n\nalbo: Alleluja.\nSprawiedliwi, radośnie wołajcie na cześć Pana, *\n\nprawym przystoi pieśń chwały.\n\nSławcie Pana na cytrze, *\n\ngrajcie Mu na harfie o dziesięciu strunach.\nRefren.\nBo słowo Pana jest prawe, *\n\na każde Jego dzieło godne zaufania.\n\nOn miłuje prawo i sprawiedliwość, *\n\nziemia jest pełna Jego łaski.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\n\nna tych, którzy oczekują Jego łaski,\n\naby ocalił ich życie od śmierci *\n\ni żywił ich w czasie głodu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Zmartwychwstał Chrystus, który wszystko stworzył\n\ni zlitował się nad ludźmi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 16-21",
+      "opis": "Jezus chodzi po wodzie",
+      "tekst": "Po rozmnożeniu chlebów, o zmierzchu uczniowie Jezusa zeszli nad jezioro i wsiadłszy do łodzi, zaczęli się przeprawiać przez nie do Kafarnaum. Nastały już ciemności, a Jezus jeszcze do nich nie przyszedł; jezioro burzyło się od silnego wichru. Gdy upłynęli około dwudziestu pięciu lub trzydziestu stadiów, ujrzeli Jezusa kroczącego po jeziorze i zbliżającego się do łodzi. I przestraszyli się. On zaś rzekł do nich: «To Ja jestem, nie bójcie się». Chcieli Go zabrać do łodzi, ale łódź znalazła się natychmiast przy brzegu, do którego zdążali. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój spotkania uczniów ze Zmartwychwstałym Panem, który ucisza burzę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, którego moc objawia się w cudzie na jeziorze.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń głosi zwycięstwo Chrystusa, który ma władzę nad żywiołami i przychodzi z pomocą swoim uczniom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o posłudze w Kościele, nawiązująca do ustanowienia diakonów w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Utwór podkreśla godność całego ludu Bożego, powołanego do służby na wzór pierwszych diakonów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W darach ołtarza składamy owoce naszej pracy, prosząc o umocnienie do służby, do której wzywa nas Kościół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, który przychodzi do nas w Eucharystii i ucisza nasze lęki.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Chrystus, który wszedł do łodzi uczniów, zaprasza nas na Ucztę, by być z nami i nas karmić.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Wyraża pragnienie spotkania z Panem, który przychodzi z pomocą w trudnościach i karmi nas swoim Ciałem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn chwały na cześć Zmartwychwstałego, który objawia swoją Boską moc, krocząc po jeziorze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń dziękczynna za dar Zmartwychwstania i opiekę, jaką Chrystus otacza swój Kościół.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wzywającego do radosnego chwalenia Boga za Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ustanowienie diakonów jest znakiem rozwoju i misji Kościoła, który ma głosić Ewangelię wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o stałą obecność Pana, który swoim 'Nie bójcie się!' umacnia nas do świadectwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który posyła swoich uczniów, aby Go głosili.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszej siły w trudnościach.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Wyraża siłę płynącą od Pana, który przychodzi z pomocą uczniom na wzburzonym jeziorze.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm o ufności w Bożą opiekę, która nie zawodzi nawet w największych niebezpieczeństwach.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który wzrasta i organizuje swoją posługę, jak w pierwszym czytaniu.",
+      "moment": "ogólne"
+    }
+  ]
+}

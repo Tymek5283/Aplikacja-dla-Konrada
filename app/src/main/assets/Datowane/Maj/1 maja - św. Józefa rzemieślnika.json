@@ -5,7 +5,7 @@
   "czytania": [
     {
       "typ": "PIERWSZE CZYTANIE",
-      "sigla": "Rdz 1, 26 – 2, 3",
+      "sigla": "Rdz 1, 26 - 2, 3",
       "opis": "Czyńcie ziemię sobie poddaną",
       "tekst": "Bóg rzekł: \"Uczyńmy człowieka na nasz obraz, podobnego Nam. Niech panuje nad rybami morskimi, nad ptactwem powietrznym, nad bydłem, nad całą ziemią i nad wszelkim gadem i płazem!\"\nStworzył więc Bóg człowieka na swój obraz, na obraz Boży go stworzył: stworzył mężczyznę i niewiastę. Po czym Bóg im błogosławił, mówiąc do nich: \"Bądźcie płodni i rozmnażajcie się, abyście zaludnili ziemię i uczynili ją sobie poddaną; abyście panowali nad rybami morskimi, nad ptactwem powietrznym i nad wszelkim gadem i płazem\".\nI rzekł Bóg: \"Oto wam daję wszelką roślinę przynoszącą ziarno po całej ziemi i wszelkie drzewo, którego owoc ma w sobie nasienie: dla was będą one pokarmem. A dla wszelkiego zwierzęcia polnego i dla wszelkiego ptactwa w powietrzu, i dla wszystkiego, co się rusza po ziemi i ma w sobie pierwiastek życia, będzie pokarmem wszelka trawa zielona\".\nI stało się tak. A Bóg widział, że wszystko, co uczynił, było bardzo dobre. I tak upłynął wieczór i poranek, dzień szósty.\nW ten sposób zostały ukończone niebo i ziemia oraz wszystkie zastępy stworzeń. A gdy Bóg ukończył w dniu szóstym swe dzieło, nad którym pracował, odpoczął dnia siódmego po całym swym trudzie, jaki podjął. Wtedy pobłogosławił ów siódmy dzień i uczynił go świętym; w tym bowiem dniu odpoczął po całej swej pracy, którą wykonał stwarzając.\nOto Słowo Boże"
     },
@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 90 (89), 2 i 4. 12-13. 14 i 16",
-      "opis": "Refren: Pracę rąk naszych wspieraj, Panie Boże.",
-      "tekst": "Zanim narodziły się góry,\nnim powstał świat i ziemia,\nod wieku po wiek Ty jesteś Bogiem.\nBo tysiąc lat w Twoich oczach\njest jak wczorajszy dzień, który minął,\nalbo straż nocna.\nNaucz nas liczyć dni nasze,\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał?\nBądź litościwy dla sług Twoich!\nNasyć nas o świcie swoją łaską,\nabyśmy przez wszystkie dni nasze mogli się radować i cieszyć.\nNiech sługom Twoim ukaże się Twe dzieło,\na Twoja chwała nad ich synami."
+      "opis": "",
+      "tekst": "Refren: Pracę rąk naszych wspieraj, Panie Boże.\nZanim narodziły się góry,\nnim powstał świat i ziemia,\nod wieku po wiek Ty jesteś Bogiem.\nBo tysiąc lat w Twoich oczach\njest jak wczorajszy dzień, który minął,\nalbo straż nocna.\nNaucz nas liczyć dni nasze,\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał?\nBądź litościwy dla sług Twoich!\nNasyć nas o świcie swoją łaską,\nabyśmy przez wszystkie dni nasze mogli się radować i cieszyć.\nNiech sługom Twoim ukaże się Twe dzieło,\na Twoja chwała nad ich synami."
     },
     {
       "typ": "AKLAMACJA",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "414",
+      "piesn": "Szczęśliwy, kto sobie patrona",
+      "opis": "Pieśń ta podkreśla rolę św. Józefa jako potężnego opiekuna, co jest dobrym rozpoczęciem liturgii w jego wspomnienie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "411",
+      "piesn": "Józefie, święty patronie",
+      "opis": "Bezpośredni zwrot do patrona dnia, proszący o jego opiekę nad naszą codzienną pracą i życiem.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "412",
       "piesn": "O Józefie ukochany!",
       "opis": "Treść pieśni bezpośrednio nawiązuje do roli Józefa jako opiekuna Jezusa i wzoru pracowitości, co jest głównym tematem dnia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest modlitwą o błogosławieństwo dla naszej pracy, którą składamy w ofierze Bogu na wzór św. Józefa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem, owocami pracy rąk ludzkich, składamy Bogu nasz codzienny trud, prosząc o jego uświęcenie.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta, mówiąc o chlebie, owocu pracy, który staje się Ciałem Pańskim, doskonale wpisuje się w tematykę dnia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Święty Józef żył w ukryciu z Jezusem w Nazarecie, a my spotykamy Go ukrytego w Eucharystii, owocu pracy i łaski.",
+      "moment": "komunia"
+    },
+    {
       "numer": "414",
       "piesn": "Szczęśliwy, kto sobie patrona",
       "opis": "Wyraża ufność w opiekę św. Józefa, co stanowi formę dziękczynienia za jego przykład i wstawiennictwo.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary i stworzenie, które człowiek ma czynić sobie poddanym przez pracę, jak mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna za dar pokarmu, zarówno doczesnego, będącego owocem pracy, jak i duchowego.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "411",
       "piesn": "Józefie, święty patronie",
       "opis": "Pieśń jest prośbą o opiekę i wstawiennictwo św. Józefa, co stanowi dobre zakończenie liturgii i powierzenie mu codziennych trudów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "413",
+      "piesn": "Otocz opieką",
+      "opis": "Modlitwa o opiekę św. Józefa nad Kościołem i wszystkimi pracującymi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie w codziennym życiu i pracy, na wzór św. Józefa, który był prowadzony przez Boga.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "586",
       "piesn": "Błogosław Panie nas",
       "opis": "Pieśń o poświęceniu pracy Bogu, co jest centralnym motywem wspomnienia św. Józefa Rzemieślnika.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "415",
+      "piesn": "Święty Józefie, patronie nasz!",
+      "opis": "Prosta i bezpośrednia aklamacja do patrona dnia, łatwa do wykorzystania w dowolnym momencie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Wspomnienie Opiekuna Świętej Rodziny przypomina o wartości pracy w budowaniu domu i rodziny.",
       "moment": "ogolne"
     }
   ]

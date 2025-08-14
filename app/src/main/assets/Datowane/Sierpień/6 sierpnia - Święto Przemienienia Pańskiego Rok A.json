@@ -1,6 +1,6 @@
 {
   "url": "https://liturgia.wiara.pl/doc/432649.6-sierpnia-swieto-Przemienienia-Panskiego-Rok-A",
-  "tytul_dnia": "6 sierpnia - Święto Przemienienia Pańskiego Rok A",
+  "tytul_dnia": "6 sierpnia - Święto Przemienienia Pańskiego rok A",
   "czy_datowany": true,
   "czytania": [
     {
@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 97,1-2.5-6.9",
-      "opis": "Refren:",
-      "tekst": "Pan wywyższony króluje nad ziemią\nPan króluje, wesel się, ziemio,\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego,\nprawo i sprawiedliwość podstawą Jego tronu.\nGóry jak wosk topnieją przed obliczem Pana,\nprzed obliczem władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa,\na wszystkie ludy widzą Jego chwałę.\nPonad całą ziemię\nTyś bowiem wywyższony\ni nieskończenie wyższy\nponad wszystkich bogów."
+      "opis": "",
+      "tekst": "Refren:\nPan wywyższony króluje nad ziemią\nPan króluje, wesel się, ziemio,\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego,\nprawo i sprawiedliwość podstawą Jego tronu.\nGóry jak wosk topnieją przed obliczem Pana,\nprzed obliczem władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa,\na wszystkie ludy widzą Jego chwałę.\nPonad całą ziemię\nTyś bowiem wywyższony\ni nieskończenie wyższy\nponad wszystkich bogów."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Nawiązuje do psalmu responsoryjnego, wzywając do otwarcia bram przed Królem chwały, którym jest przemieniony na górze Chrystus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Pieśń ta oddaje cześć Chrystusowi Królowi, którego chwała i panowanie zostały objawione w tajemnicy Przemienienia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "307",
       "piesn": "O Jezu, Światło ze Światłości",
       "opis": "Treść pieśni wprost odnosi się do Przemienienia, w którym szaty Jezusa stały się białe jak śnieg, a On sam objawił rąbek swego Bóstwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Pieśń na przygotowanie darów, która w kontekście Przemienienia przypomina, że w Eucharystii spotykamy tego samego Pana, który objawił swą chwałę na Taborze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "266",
+      "piesn": "Pobłogosław lud Twój",
+      "opis": "Jest to modlitwa o błogosławieństwo dla ludu zgromadzonego przed Bogiem ukrytym w ołtarzu, podobnie jak Jego chwała była osłonięta obłokiem.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Pieśń adoracyjna, w której wyznajemy wiarę w Boga ukrytego w Sakramencie, co jest echem wyznania wiary apostołów na górze Tabor.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "W tej pieśni prosimy, abyśmy kiedyś mogli oglądać oblicze Pana bez zasłon, co jest obietnicą daną w Przemienieniu.",
+      "moment": "komunia"
+    },
+    {
       "numer": "604",
       "piesn": "Głoś imię Pana",
       "opis": "Pieśń o królewskiej chwale Pana, która doskonale koresponduje z wizją Syna Człowieczego z pierwszego czytania i psalmem.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn wzywający całe stworzenie do chwalenia Pana, którego majestat objawił się na górze Przemienienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Uroczysta pieśń dziękczynna za dar Eucharystii, w której spotykamy Pana w Jego chwale, zapowiedzianej na Taborze.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "230",
       "piesn": "Światłości wieczna",
       "opis": "Nawiązuje do Jezusa jako Światłości, co jest kluczowym obrazem Ewangelii, gdzie twarz Chrystusa zajaśniała jak słońce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie Królu, który przez krzyż prowadzi do chwały, co jest teologicznym sensem Przemienienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Modlitwa o królowanie Chrystusa w naszych sercach i na świecie, którego zapowiedzią była Jego chwała na górze Tabor.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "585",
       "piesn": "Będę Cię wielbił",
       "opis": "Pieśń uwielbienia, która wyraża radość z Bożej obecności i Jego chwały, objawionej na górze Tabor.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Pieśń ta sławi Chrystusa Króla, którego chwała została ukazana uczniom w scenie Przemienienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "317",
+      "piesn": "Narodów Zbawco",
+      "opis": "Modlitwa o królowanie Chrystusa nad wszystkimi narodami, co jest zapowiedziane w pierwszym czytaniu z Księgi Daniela.",
       "moment": "ogolne"
     }
   ]

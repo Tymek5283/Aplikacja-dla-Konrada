@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411054.Sobota-II-tydzien-zwykly-rok-II",
+  "tytul_dnia": "2 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 1, 1-4. 11-12. 19. 23-27",
+      "opis": "Śmierć Saula i Jonatana",
+      "tekst": "W owym czasie:\n\nPo zwycięstwie nad Amalekitami wrócił Dawid i zatrzymał się przez dwa dni w Siklag. Trzeciego dnia przybył jakiś człowiek z obozu, z otoczenia Saula. Odzienie miał podarte, a głowę posypaną ziemią. Podszedłszy do Dawida, padł na ziemię i oddał mu pokłon. Dawid zapytał go: «Skąd przybywasz?» Odpowiedział mu: «Ocalałem z izraelskiego obozu». Rzekł do niego Dawid: «Opowiedz mi, proszę, co się tam stało?» Opowiedział więc, że ludzie uciekli z pola walki, wielu z ludzi zginęło, i że ponieśli śmierć również Saul i jego syn, Jonatan. Dawid, schwyciwszy swe szaty, rozdarł je. Tak też uczynili wszyscy mężowie, którzy z nim byli. Potem lamentowali i płakali, i pościli aż do wieczora z tego powodu, że padł od miecza Saul, a także syn jego, Jonatan, i z powodu ludu Pańskiego i domu Izraela. I powiedział Dawid:\n\n«O Izraelu, twa chwała na wyżynach twoich leży pobita. Jakże padli bohaterowie? Saul i Jonatan, kochani i pełni uroku, za życia i w śmierci nie są rozdzieleni. Byli oni bystrzejsi od orłów, dzielniejsi od lwów. O, płaczcie nad Saulem, córki izraelskie: On was ubierał w prześliczne szkarłaty, złotymi ozdobami upiększał stroje. Jakże zginąć mogli waleczni, wśród boju Jonatan przebity śmiertelnie? Żal mi ciebie, mój bracie, Jonatanie. Tak bardzo byłeś mi drogi! Więcej ceniłem twą miłość niżeli miłość kobiet. Jakże padli bohaterowie? Jakże przepadły wojenne oręża?» Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 80 (79), 2 i 3b. 5-7 (R.: por. 4)",
+      "opis": "",
+      "tekst": "Refren: Odnów nas, Boże, i daj nam zbawienie.\nUsłysz, Pasterzu Izraela, *\n\nTy, który jak trzodę prowadzisz ród Józefa.\n\nTy, który zasiadasz nad cherubami! *\n\nWzbudź swą potęgę i przyjdź nam z pomocą.\nRefren.\nPanie, Boże Zastępów, jak długo gniewać się będziesz *\n\npomimo modłów Twojego ludu?\n\nNakarmiłeś go chlebem płaczu, obficie napoiłeś łzami. †\n\nUczyniłeś nas przyczyną zwady sąsiadów, *\n\na wrogowie nasi z nas szydzą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\n\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 20-21",
+      "opis": "Rodzina niepokoi się o Jezusa",
+      "tekst": "Jezus przyszedł do domu, a tłum znów się zbierał, tak że nawet posilić się nie mogli. Gdy to posłyszeli Jego bliscy, wybrali się, żeby Go powstrzymać. Mówiono bowiem: «Odszedł od zmysłów». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do szukania pociechy u Jezusa w chwilach trudnych, jak lament Dawida czy niezrozumienie Jezusa przez bliskich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to wołanie o Bożą pomoc w utrapieniu, o którym mówi psalm i pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża głęboką ufność w Pana, która jest potrzebna w obliczu klęski i niezrozumienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu naszych trudów i smutków, o których mowa w psalmie i pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i żalu, która jest odpowiedzią na doświadczenie klęski i grzechu ludu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna jest modlitwą o przebaczenie i odnowę, o którą woła psalmista.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Jezusa, który jest naszą mocą, nawet gdy inni Go nie rozumieją, jak w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń o miłości płynącej z ran Chrystusa jest źródłem pociechy w smutku i niezrozumieniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii staje się pokarmem i umocnieniem w trudnych chwilach życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Bożą opiekę, o którą prosi psalmista w imieniu udręczonego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który wysłuchuje modlitwy swojego ludu i przychodzi z pomocą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary, która pozwala ufać Bogu nawet w najtrudniejszych doświadczeniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje ducha psalmu, który jest wołaniem do Boga o odnowę i zbawienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie w trudnych chwilach życia, o których mówią czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "W sobotę zwracamy się do Maryi, Matki Bolesnej, która rozumie cierpienie i jest ucieczką w utrapieniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest jedynym ratunkiem w doświadczeniach opisanych w czytaniach.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o zaufaniu Bożej Opatrzności jest pocieszeniem w obliczu klęski i śmierci, o których mowa w pierwszym czytaniu.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest odpowiedzią na modlitwę psalmisty o wybawienie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie i błogosławieństwo jest echem psalmu, który woła do Boga o pomoc.",
+      "moment": "ogólne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418026.25-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "25 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 2, 12. 17-20",
+      "opis": "Jeśli sprawiedliwy jest synem Bożym, Bóg ujmie się za nim",
+      "tekst": "Bezbożni mówili:\n«Zróbmy zasadzkę na sprawiedliwego, bo nam niewygodny: sprzeciwia się naszemu działaniu, zarzuca nam przekraczanie Prawa, wypomina nam przekraczanie naszych zasad karności. Zobaczmy, czy prawdziwe są jego słowa, wybadajmy, co będzie przy jego zgonie. Bo jeśli sprawiedliwy jest synem Bożym, Bóg ujmie się za nim i wyrwie go z rąk przeciwników. Dotknijmy go obelgą i katuszą, by poznać jego łagodność i doświadczyć jego cierpliwości. Zasądźmy go na śmierć haniebną, bo - jak mówił - będzie ocalony».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 54 (53), 3-4. 5. 6 i 8 (R.: por. 6b)",
+      "opis": "",
+      "tekst": "Refren: Bóg podtrzymuje całe moje życie.\nWybaw mnie, Boże, w imię Twoje, *\nmocą swoją broń mojej sprawy.\nBoże, słuchaj mojej modlitwy, *\nnakłoń ucha na słowo ust moich.\nRefren.\nBo powstają przeciw mnie pyszni, *\ngwałtownicy czyhają na moje życie.\nNie mają oni Boga *\nprzed swymi oczyma.\nRefren.\nOto mi Bóg dopomaga, *\nPan podtrzymuje me życie.\nBędę Ci chętnie składać ofiarę *\ni sławić Twe imię, bo jest dobre.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Jk 3, 16 - 4, 3",
+      "opis": "Źródłem niepokojów jest nieład wewnętrzny",
+      "tekst": "Najmilsi:\nGdzie zazdrość i żądza sporu, tam też bezład i wszelki występek. Mądrość zaś zstępująca z góry jest przede wszystkim czysta, dalej - skłonna do zgody, ustępliwa, posłuszna, pełna miłosierdzia i dobrych owoców, wolna od względów ludzkich i obłudy. Owoc zaś sprawiedliwości sieją w pokoju ci, którzy zaprowadzają pokój.\nSkąd się biorą wojny i skąd kłótnie między wami? Nie skądinąd, tylko z waszych żądz, które walczą w członkach waszych. Pożądacie, a nie macie, żywicie morderczą zazdrość, a nie możecie osiągnąć. Prowadzicie walki i kłótnie, a nic nie posiadacie, gdyż się nie modlicie. Modlicie się, a nie otrzymujecie, bo się źle modlicie, starając się jedynie o zaspokojenie swych żądz.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tes 2, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bóg wezwał nas przez Ewangelię,\nabyśmy dostąpili chwały Pana naszego, Jezusa Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 30-37",
+      "opis": "Jeśli ktoś chce być pierwszym, niech będzie ostatnim ze wszystkich",
+      "tekst": "Jezus i Jego uczniowie przemierzali Galileę, On jednak nie chciał, żeby ktoś o tym wiedział. Pouczał bowiem swoich uczniów i mówił im: «Syn Człowieczy będzie wydany w ręce ludzi. Ci Go zabiją, lecz zabity, po trzech dniach zmartwychwstanie». Oni jednak nie rozumieli tych słów, a bali się Go pytać.\nTak przyszli do Kafarnaum. Gdy był już w domu, zapytał ich: «O czym to rozprawialiście w drodze?» Lecz oni milczeli, w drodze bowiem posprzeczali się między sobą o to, kto z nich jest największy.\nOn usiadł, przywołał Dwunastu i rzekł do nich: « i sługą wszystkich». Potem wziął dziecko, postawił je przed nimi i objąwszy je ramionami, rzekł do nich: «Kto jedno z tych dzieci przyjmuje w imię moje, Mnie przyjmuje; a kto Mnie przyjmuje, nie przyjmuje Mnie, lecz Tego, który Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach ubogich i cichych doskonale wprowadza w Ewangelię, gdzie Jezus uczy, że pierwszy ma być ostatnim i sługą wszystkich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i służba są drogą do wielkości w Królestwie Bożym, co jest głównym przesłaniem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które realizuje się przez postawę służby i pokory.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę służby i oddania, do której wzywa Jezus w Ewangelii, przeciwstawiając się pysze i kłótniom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o męce Pańskiej dobrze rezonuje z pierwszym czytaniem, które jest proroctwem o cierpieniach sprawiedliwego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania serca jest wyrazem postawy dziecka, którą Jezus stawia za wzór w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Treść pieśni bezpośrednio nawiązuje do gestu Jezusa z Ewangelii, który przyjął dziecko i postawił je za wzór.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii w postawie dziecka, z pokorą i miłością, jest odpowiedzią na naukę Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa jest wyrazem dziecięcej ufności, do której zachęca Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń uwielbia Chrystusa Króla, który jest jednak sługą, co stanowi centralny paradoks dzisiejszych czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały jest odpowiedzią na objawienie tajemnicy cierpiącego Mesjasza, który jest Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie jest owocem przyjęcia mądrości 'zstępującej z góry', o której mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo na trud służby, do której posyła nas Chrystus na zakończenie Eucharystii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem drogą służby i pokory.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie jest wyrazem postawy dziecka, które ufa i pozwala się prowadzić.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Treść pieśni jest odpowiedzią na problem kłótni i zazdrości poruszony w drugim czytaniu, wskazując miłość jako drogę do Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój jest konkretnym sposobem na przezwyciężenie sporów i zazdrości, o których mówi św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, który podtrzymuje życie sprawiedliwego, jest odpowiedzią na psalm i pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia od pychy i zazdrości jest konieczne, by przyjąć postawę sługi.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417008.Poniedzialek-X-tydzien-zwykly-rok-II",
+  "tytul_dnia": "10 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 17, 1-6",
+      "opis": "Eliasz zapowiada suszę",
+      "tekst": "Prorok Eliasz z Tiszbe w Gileadzie rzekł do Achaba: «Na życie Pana, Boga Izraela, któremu służę! Nie będzie w tych latach ani rosy, ani deszczu, dopóki nie powiem».\nPotem Pan skierował do niego to słowo: «Odejdź stąd i udaj się na wschód, aby ukryć się przy potoku Kerit, który jest na wschód od Jordanu. Wodę będziesz pił z potoku, krukom zaś kazałem, żeby cię tam żywiły». Poszedł więc, aby uczynić według rozkazu Pańskiego, i podążył, żeby zamieszkać przy potoku Kerit na wschód od Jordanu. A kruki przynosiły mu rano chleb i mięso wieczorem, wodę zaś pił z potoku.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 121 (120), 1-2. 3-4. 5-6. 7-8",
+      "opis": "",
+      "tekst": "Refren: Naszą pomocą jest Zbawiciel świata.\nWznoszę swe oczy ku górom: *\nskąd nadejść ma dla mnie pomoc?\nPomoc moja od Pana, *\nktóry stworzył niebo i ziemię.\nRefren.\nOn nie pozwoli, by potknęła się twa noga, *\nani się nie zdrzemnie Ten, który ciebie strzeże.\nNie zdrzemnie się ani nie zaśnie *\nTen, który czuwa nad Izraelem.\nRefren.\nPan ciebie strzeże, †\njest cieniem nad tobą, *\nstoi po twojej prawicy.\nWe dnie nie porazi cię słońce *\nani księżyc wśród nocy.\nRefren.\nPan cię uchroni od zła wszelkiego, *\nochroni twoją duszę.\nPan będzie czuwał nad twoim wyjściem i powrotem, *\nteraz i po wszystkie czasy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Cieszcie się i radujcie,\nalbowiem wielka jest wasza nagroda w niebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 1-12",
+      "opis": "Osiem błogosławieństw",
+      "tekst": "Jezus, widząc tłumy, wyszedł na górę. A gdy usiadł, przystąpili do Niego Jego uczniowie. Wtedy otworzył usta i nauczał ich tymi słowami:\nBłogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie.\nBłogosławieni, którzy się smucą, albowiem oni będą pocieszeni.\nBłogosławieni cisi, albowiem oni na własność posiądą ziemię.\nBłogosławieni, którzy łakną i pragną sprawiedliwości, albowiem oni będą nasyceni.\nBłogosławieni miłosierni, albowiem oni miłosierdzia dostąpią.\nBłogosławieni czystego serca, albowiem oni Boga oglądać będą.\nBłogosławieni, którzy wprowadzają pokój, albowiem oni będą nazwani synami Bożymi.\nBłogosławieni, którzy cierpią prześladowanie dla sprawiedliwości, albowiem do nich należy królestwo niebieskie.\nBłogosławieni jesteście, gdy wam urągają i prześladują was i gdy z mego powodu mówią kłamliwie wszystko złe o was. Cieszcie się i radujcie, albowiem wielka jest wasza nagroda w niebie. Tak bowiem prześladowali proroków, którzy byli przed wami.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń doskonale oddaje treść psalmu responsoryjnego oraz opisuje ufność proroka Eliasza w Bożą opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń ta wprost mówi o Bożej opiece, której doświadczył Eliasz i która jest źródłem prawdziwego błogosławieństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ta pieśń jest bezpośrednim echem Ewangelii o Ośmiu Błogosławieństwach, stanowiącej program życia chrześcijańskiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to pieśń dziękczynna za Bożą opatrzność, która karmiła Eliasza i która jest źródłem naszego życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarujemy Bogu nasze życie w akcie zaufania, tak jak Eliasz, który powierzył się całkowicie Bożej opiece.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu dary, ufając, że On, który troszczy się o nas, przyjmie je i obdarzy swoją łaską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Cudowny pokarm zesłany Eliaszowi jest zapowiedzią Eucharystii, Chleba, który zaspokaja głód ludzkich serc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaproszenie do doświadczenia Bożej dobroci w Eucharystii, która jest pokarmem dla ubogich w duchu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Bóg, który karmił Eliasza przez kruki, daje nam w Komunii Chleb Życia, zapewniając o swojej nieustannej trosce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest wyrazem dziękczynienia za Bożą pomoc i opiekę, o której zapewniają nas dzisiejsze czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za Bożą opiekę, o której mówi psalm, i za obietnicę Królestwa z Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za Jego ojcowską troskę, która objawiła się w życiu Eliasza i jest obiecana żyjącym błogosławieństwami.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Zakończenie liturgii jest posłaniem do życia w świecie w oparciu o ufność w Boże prowadzenie, na wzór Eliasza i ludzi żyjących duchem błogosławieństw.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy mogli żyć na co dzień według ducha Ośmiu Błogosławieństw.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o Królestwie Niebieskim, które należy do ubogich w duchu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża dążenie do bliskości z Bogiem, które jest istotą życia według błogosławieństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń jest wyrazem zaufania Dobremu Pasterzowi, który prowadzi nas drogami błogosławieństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Błogosławieństwo dla tych, którzy się smucą, znajduje swoje źródło w Bogu, który jest naszym Zbawicielem i pocieszeniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Modlitwa o Boże błogosławieństwo i miłosierdzie, które są obiecane w błogosławieństwach.",
+      "moment": "ogolne"
+    }
+  ]
+}

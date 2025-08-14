@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426606.Sroda-XIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "13 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 5, 14-15. 21-24",
+      "opis": "Bóg pragnie kultu w prawdzie",
+      "tekst": "«Szukajcie dobra, a nie zła, abyście żyli. Wtedy Pan, Bóg Zastępów, będzie z wami, tak jak to mówicie. Miejcie w nienawiści zło, a miłujcie dobro! Wymierzajcie w bramie sprawiedliwość! Może ulituje się Pan, Bóg Zastępów, nad Resztą pokolenia Józefa.\nNienawidzę waszych świąt i brzydzę się nimi. Nie będę miał upodobania w waszych uroczystych zebraniach. Bo kiedy składacie Mi całopalenia i wasze ofiary, nie znoszę tego, a na ofiary biesiadne z tucznych wołów nie chcę patrzeć. Idź precz ode Mnie ze zgiełkiem pieśni twoich, i dźwięku twoich harf nie chcę słyszeć. Niech sprawiedliwość wystąpi jak woda z brzegów i prawość niech się wyleje jak nie wysychający potok!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 7-8. 9-10. 11-12. 16b-17 (R.: por. 23b)",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\n«Posłuchaj, mój ludu, gdyż będę przemawiał †\ni będę świadczył przeciw tobie, Izraelu. *\nJa jestem Bogiem, twoim Bogiem.\nNie oskarżam cię za twoje ofiary, *\nbo twe całopalenia zawsze są przede Mną.\nRefren.\nNie przyjmę cielca z twego domu *\nani kozłów ze stad twoich.\nBo do Mnie należy cała zwierzyna w lasach, *\ntysiące zwierząt na moich górach.\nRefren.\nZnam wszystkie ptaki na niebie, *\nmoim jest wszystko, co porusza się po polach.\nGdybym był głodny, nie mówiłbym ci o tym, *\nbo do Mnie świat należy i wszystko, co go napełnia».\nRefren.\n«Czemu wymieniasz moje przykazania *\ni na ustach masz moje przymierze?\nTy, co nienawidzisz karności, *\na słowa moje odrzuciłeś za siebie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ze swej woli zrodził nas Ojciec przez słowo prawdy,\nbyśmy byli jakby pierwocinami Jego stworzeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 28-34",
+      "opis": "Wypędzenie złych duchów",
+      "tekst": "Gdy Jezus przybył na drugi brzeg do kraju Gadareńczyków, wyszli Mu naprzeciw z grobowców dwaj opętani, tak bardzo niebezpieczni, że nikt nie mógł przejść tamtą drogą. Zaczęli krzyczeć: «Czego chcesz od nas, Jezusie, Synu Boży? Przyszedłeś tu przed czasem dręczyć nas?»\nA opodal nich pasła się duża trzoda świń. Złe duchy zaczęły Go prosić: «Jeżeli nas wyrzucasz, to poślij nas w tę trzodę świń». Rzekł do nich: «Idźcie!» Wyszły więc i weszły w świnie. I naraz cała trzoda ruszyła pędem po urwistym zboczu do jeziora i zginęła w wodach.\nPasterze zaś uciekli i przyszedłszy do miasta, rozpowiedzieli wszystko, a także zdarzenie z opętanymi. Wtedy całe miasto wyszło na spotkanie Jezusa; a gdy Go ujrzeli, prosili, żeby opuścił ich granice.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest osobistym odnowieniem przymierza z Bogiem, na wzór przymierza zawartego przez króla Jozjasza i cały lud.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to mocna deklaracja wierności Bogu i Jego Prawu, podobna do tej, którą złożył król Jozjasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do zgromadzenia się przed Panem i odnowienia wierności Jego przymierzu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wierność przymierzu jest ofiarą miłą Bogu, a ta pieśń jest deklaracją wyboru życia według Jego Prawa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Ofiarujemy Bogu nasze pragnienie życia, które przynosi dobre owoce, odróżniając nas od fałszywych proroków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Skrucha króla Jozjasza jest wzorem dla naszej postawy ofiarowania Bogu skruszonego serca i woli poprawy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Psalm wyraża pragnienie poznania i przestrzegania Bożych ustaw, a Komunia jest spotkaniem z Tym, który zaspokaja te pragnienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjmując Chrystusa, trwamy w Nim, aby przynosić owoc obfity, co jest znakiem prawdziwego ucznia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Eucharystia jest pokarmem, który umacnia nas w wierności przymierzu i w wydawaniu dobrych owoców.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to pieśń uwielbienia dla Boga za dar Jego Prawa, które, jak mówi psalmista, przynosi radość sercu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Dziękujemy Bogu za Jego słowo, które jest dla nas drogą i światłem, jak wyznaje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia za dar Bożych przykazań, które radują serce i olśniewają oczy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Dobre owoce, o których mówi Jezus, to przede wszystkim owoce miłości, a ta pieśń jest modlitwą o ducha miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię i świadczyć o niej dobrymi owocami naszego życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, aby nasze życie było świadectwem wierności przymierzu i przynosiło dobre owoce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Skrucha króla Jozjasza po usłyszeniu słów Prawa jest wzorem dla naszej postawy pokutnej i nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Modlitwa o Ducha Świętego, abyśmy mogli rozpoznać fałszywych proroków i wydawać dobre owoce życia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywająca do nawrócenia i wiary w Ewangelię, co jest warunkiem wydawania dobrych owoców.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna jest najdoskonalszym owocem, po którym można poznać uczniów Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

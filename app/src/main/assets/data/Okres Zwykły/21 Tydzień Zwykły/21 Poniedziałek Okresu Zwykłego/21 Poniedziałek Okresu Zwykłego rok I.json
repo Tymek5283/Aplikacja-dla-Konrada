@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429099.Poniedzialek-21-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "21 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 1, 1-5. 8b-10",
+      "opis": "Nawrócenie Tesaloniczan",
+      "tekst": "Paweł, Sylwan i Tymoteusz do Kościoła Tesaloniczan w Bogu Ojcu i Panu Jezusie Chrystusie. Łaska wam i pokój!\nZawsze dziękujemy Bogu za was wszystkich, wspominając o was nieustannie w naszych modlitwach, pomni przed Bogiem i Ojcem naszym na wasze dzieło wiary, na trud miłości i na wytrwałą nadzieję w Panu naszym, Jezusie Chrystusie.\nWiemy, bracia przez Boga umiłowani, o wybraniu waszym, bo nasze głoszenie Ewangelii wśród was nie dokonało się samym tylko słowem, lecz mocą i działaniem Ducha Świętego oraz wielką siłą przekonania. Wiecie bowiem, jacy dla was byliśmy, przebywając wśród was.\nWasza wiara w Boga wszędzie dała się poznać, tak że nawet nie potrzebujemy o tym mówić. Albowiem oni sami opowiadają o nas, jakiego to przyjęcia doznaliśmy od was i jak nawróciliście się od bożków do Boga, by służyć Bogu żywemu i prawdziwemu i oczekiwać z niebios Jego Syna, którego wskrzesił z martwych, Jezusa, naszego wybawcę od nadchodzącego gniewu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 149, 1b-2. 3-4. 5-6a i 9b (R.: por. 4a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan w swoim ludzie upodobał sobie.\nŚpiewajcie Panu pieśń nową, *\ngłoście Jego chwałę w zgromadzeniu świętych.\nNiech się Izrael cieszy swoim Stwórcą, *\na synowie Syjonu radują swym Królem.\nRefren.\nNiech imię Jego czczą tańcem, *\nniech grają Mu na bębnie i cytrze.\nBo Pan swój lud miłuje, *\npokornych wieńczy zwycięstwem.\nRefren.\nNiech święci cieszą się w chwale, *\nniech się weselą przy uczcie niebieskiej.\nChwała Boża niech będzie w ich ustach; *|\nto jest chwałą wszystkich Jego świętych.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 13-22",
+      "opis": "Zaślepienie faryzeuszów",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo zamykacie królestwo niebieskie przed ludźmi. Wy sami nie wchodzicie i nie pozwalacie wejść tym, którzy do niego idą.\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo przemierzacie morze i ziemię, żeby pozyskać jednego współ wyznawcę. A gdy się nim stanie, czynicie go dwakroć bardziej winnym piekła niż wy sami.\nBiada wam, przewodnicy ślepi, którzy mówicie: „Kto by przysiągł na przybytek, nic to nie znaczy; lecz kto by przysiągł na złoto przybytku, ten jest związany przysięgą”. Głupi i ślepi! Cóż bowiem jest ważniejsze, złoto czy przybytek, który uświęca złoto? Dalej: „Kto by przysiągł na ołtarz, nic to nie znaczy; lecz kto by przysiągł na ofiarę, która jest na nim, ten jest związany przysięgą”. Ślepcy! Cóż bowiem jest ważniejsze, ofiara czy ołtarz, który uświęca ofiarę?\nKto więc przysięga na ołtarz, przysięga na niego i na wszystko, co na nim leży. A kto przysięga na przybytek, przysięga na niego i na Tego, który w nim mieszka. A kto przysięga na niebo, przysięga na tron Boży i na Tego, który na nim zasiada».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, o którym z radością pisze św. Paweł, wspominając Tesaloniczan, którzy 'nawrócili się od bożków do Boga'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń przypomina o bliskości Królestwa, do którego nie wchodzą i innym wejść nie pozwalają faryzeusze z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia, o której z wdzięcznością pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, o której owoce dziękuje św. Paweł, jest darem, który składamy Bogu w ofierze i prosimy o jej umocnienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, co jest istotą życia chrześcijańskiego, chwalonego przez św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem prawdziwej wiary, a nie obłudy, którą gani Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec ostrych słów Jezusa skierowanych do obłudników, ta pieśń pokutna pomaga przyjąć postawę skruchy i prośby o czyste serce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "107",
+      "piesn": "O Boże mój, o Zbawicielu mój",
+      "opis": "Jest to modlitwa o czyste serce i odnowienie ducha, co jest przeciwieństwem postawy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest prośbą o wewnętrzne oczyszczenie, w przeciwieństwie do zewnętrznej czystości faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały jest odpowiedzią na wezwanie psalmu, by 'śpiewać Panu pieśń nową'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń uwielbienia jest postawą tych, którzy jak Tesaloniczanie, przyjęli Ewangelię z mocą Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości świętych, którzy, jak mówi psalm, cieszą się w chwale i weselą przy uczcie niebieskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, w przeciwieństwie do postawy faryzeuszy, którzy zamykali przed ludźmi królestwo niebieskie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię, która jest 'słowem Boga działającym w wierzących', a nie ludzką nauką.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego prawdy, w przeciwieństwie do obłudy faryzeuszy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory, która jest przeciwieństwem pychy i obłudy faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość Słowa Bożego, które, jak pisze św. Paweł, działa w wierzących i prowadzi do życia godnego Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Nadzieja w Chrystusie, o której pisze św. Paweł, jest fundamentem życia chrześcijańskiego, w przeciwieństwie do pustych praktyk faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której trudzie pisze św. Paweł, jest istotą życia chrześcijańskiego, w przeciwieństwie do obłudy piętnowanej w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/424672.Wtorek-23-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "23 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 2, 6-15",
+      "opis": "Wyzbycie się grzechu przez chrzest",
+      "tekst": "Bracia:\nJak przejęliście naukę o Chrystusie Jezusie jako Panu, tak dalej w Nim postępujcie: zapuśćcie w Nim korzenie i na Nim dalej się budujcie, i umacniajcie się w wierze, jak was nauczono, pełni wdzięczności.\nBaczcie, aby ktoś was nie zagarnął w niewolę przez tę filozofię będącą wierutnym oszustwem, opartą na ludzkiej tylko tradycji, na żywiołach świata, a nie na Chrystusie. W Him bowiem mieszka cała Pełnia: Bóstwo na sposób ciała, a zostaliście napełnieni w Nim, który jest Głową wszelkiej Zwierzchności i Władzy. I w Nim też otrzymaliście obrzezanie, nie z ręki ludzkiej, lecz Chrystusowe obrzezanie, polegające na zupełnym wyzbyciu się grzesznego ciała, jako razem z Nim pogrzebani w chrzcie, w którym też razem zostaliście wskrzeszeni przez wiarę w moc Boga, który Go wskrzesił.\nI was, umarłych na skutek występków i „nieobrzezania” waszego grzeszonego ciała, razem z Nim przywrócił do życia. Darował nam wszystkie występki, skreślił zapis dłużny, przygniatający nas nakazami. To właśnie, co było naszym przeciwnikiem, usunął z drogi, przygwoździwszy do krzyża. Dzięki Niemu po rozbrojeniu Zwierzchności i Władz jawnie wystawił je na pokaz, powiódłszy je w triumfalnym pochodzie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 1b-2. 8-9. 10-11 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg jest dobry dla wszystkich na ziemi.\nBędę Cię wielbił, Boże mój i Królu, *\ni sławił Twoje imię przez wszystkie wieki.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nRefren.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 15, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie wy Mnie wybraliście, ale Ja was wybrałem,\nabyście szli i owoc przynosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 12-19",
+      "opis": "Wybór Dwunastu",
+      "tekst": "Pewnego razu Jezus wyszedł na górę, aby się modlić, i całą noc trwał na modlitwie do Boga. Z nastaniem dnia przywołał swoich uczniów i wybrał spośród nich dwunastu, których też nazwał apostołami: Szymona, któremu nadał imię Piotr, i brata jego, Andrzeja, Jakuba, Jana, Filipa, Bartłomieja, Mateusza, Tomasza, Jakuba, syna Alfeusza, Szymona z przydomkiem Gorliwy, Judę, syna Jakuba, i Judasza Iskariotę, który stał się zdrajcą.\nZszedł z nimi na dół i zatrzymał się na równinie; był tam liczny tłum Jego uczniów i wielkie mnóstwo ludu z całej Judei i z Jeruzalem oraz z nadmorskich okolic Tyru i Sydonu; przyszli oni, aby Go słuchać i znaleźć uzdrowienie ze swych chorób. Także i ci, których dręczyły duchy nieczyste, doznawali uzdrowienia.\nA cały tłum starał się Go dotknąć, ponieważ moc wychodziła od Niego i uzdrawiała wszystkich.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń o posłaniu apostołów jest bezpośrednim nawiązaniem do Ewangelii o wyborze Dwunastu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Ta pieśń jest bezpośrednim hołdem dla apostołów, których Jezus powołuje w dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń przypomina o powołaniu całego Kościoła do świętości, które ma swoje źródło w wyborze Apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "W kontekście pierwszego czytania o biskupach i diakonach, ta pieśń o kapłaństwie jest odpowiednia na przygotowanie darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy Bogu trud budowania Kościoła, o którym mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest odpowiedzią na powołanie Dwunastu do pracy w winnicy Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń mówi o Chrystusie jako Głowie Kościoła, co jest główną myślą teologiczną pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Komunia jest spotkaniem z Jezusem, który uzdrawia i powołuje, jak czynił to w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Eucharystia jest pokarmem, który umacnia Kościół, budowany na fundamencie Apostołów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia, który odpowiada psalmistycznemu wezwaniu do wielbienia Boga za Jego dobroć i miłosierdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem wdzięczności za dar Kościoła i powołania do służby w nim.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Dziękczynienie za dar Eucharystii, która buduje Kościół, jest stosowną pieśnią na uwielbienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, którego struktura jest opisana w pierwszym czytaniu, jest dobrym zwieńczeniem liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa i zobowiązaniem do pójścia za Nim, na wzór powołanych Apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud apostolski jest echem Ewangelii o posłaniu Dwunastu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie w wierze jest kluczowa dla tych, którzy jak apostołowie, są wezwani do budowania na Chrystusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, budowanego na fundamencie Apostołów i karmionego jednym Chlebem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest dobry dla wszystkich, jak głosi psalm.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Ufność w Jezusa jest podstawą życia apostolskiego i odpowiedzią na Jego powołanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

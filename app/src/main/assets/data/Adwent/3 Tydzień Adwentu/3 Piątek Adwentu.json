@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta, zapowiadająca przyjście Pana i wielką światłość, dobrze koresponduje z tematem Jana Chrzciciela jako lampy i świadka Światłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń wzywa do otwarcia bram dla Króla, którego zbawienie, jak mówi pierwsze czytanie, jest przeznaczone dla wszystkich narodów.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "630",
       "piesn": "Wszystkie narody świata",
       "opis": "Pieśń ta jest echem zarówno pierwszego czytania o zbawieniu dla wszystkich narodów, jak i psalmu 'Niech wszystkie ludy sławią Ciebie, Boże'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń wzywa do przygotowania na przyjście Pana, abyśmy mogli, jak mówi pierwsze czytanie, wejść na Jego świętą górę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Pieśń nawołuje do przygotowania serc, co jest odpowiedzią na świadectwo Jana Chrzciciela i zapowiedź bliskiego zbawienia.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest wołaniem o przyjście Jezusa, który jest Prawdą, o której świadczył Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, który jest Światłością i Zbawieniem.",
+      "moment": "komunia"
+    },
+    {
       "numer": "475",
       "piesn": "Zwiastun wschodzącego Słońca",
       "opis": "Pieśń poświęcona Janowi Chrzcicielowi, który dał świadectwo prawdzie, stanowi piękne dziękczynienie za jego misję.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "3",
-      "piesn": "Oto Pan Bóg przyjdzie",
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, którego dom, jak mówi Izajasz, będzie 'domem modlitwy dla wszystkich narodów'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa wszystkie ludy do sławienia Boga, a ta pieśń jest tego uroczystym wyrazem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
       "opis": "Antyfona ta, zapowiadająca przyjście Pana i wielką światłość, dobrze podsumowuje adwentowe oczekiwanie na zbawienie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń mówi o Zbawicielu, którego nadejście zwiastował Jan Chrzciciel, świadek Prawdy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosne wezwanie do Jerozolimy, by powitała swojego Króla, jest aktem wiary i przyjęcia świadectwa o Chrystusie.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "6",
       "piesn": "Pan jest blisko",
       "opis": "Pieśń ta podkreśla bliskość przyjścia Pana, co jest głównym tematem drugiej części Adwentu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni 'nawracajmy się i wierzmy w Ewangelię' jest streszczeniem wezwania Jana Chrzciciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pierwsze czytanie mówi o błogosławieństwie dla tych, co przestrzegają sprawiedliwości, co łączy się z tematyką błogosławieństw.",
       "moment": "ogolne"
     }
   ]

@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 117,1-2",
-      "opis": "Refren:",
-      "tekst": "Idźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
+      "opis": "",
+      "tekst": "Refren:\nIdźcie i głoście światu Ewangelię.\nChwalcie Pana, wszystkie narody,\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska,\na wierność Pana trwa na wieki."
     },
     {
       "typ": "AKLAMACJA",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co w sposób nagły i radykalny stało się udziałem Szawła pod Damaszkiem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Słowa 'wstanę i pójdę' doskonale oddają postawę Szawła, który po spotkaniu z Chrystusem powstał do nowego życia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "429",
       "piesn": "Wśród trosk i nieszczęść kolei",
       "opis": "Jest to modlitwa o wstawiennictwo św. Pawła, która prosi o oświecenie wiarą, co doskonale pasuje do momentu składania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia, którego najwspanialszym przykładem jest przemiana Szawła w Pawła, Apostoła Narodów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, składamy Bogu nasze życie, prosząc o przemianę serc, jakiej doznał św. Paweł.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary, które mogłoby być mottem życia św. Pawła po jego nawróceniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Wiara w Chrystusa, który daje życie wieczne, była siłą napędową apostolskiej działalności św. Pawła.",
+      "moment": "komunia"
+    },
+    {
       "numer": "477",
       "piesn": "Bóg, wieczna światłość",
       "opis": "Chociaż jest to pieśń na święto Piotra i Pawła, jej treść o zaszczycie i chwale apostołów jest również odpowiednia na uwielbienie w dniu nawrócenia jednego z nich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn uwielbienia, który jest odpowiedzią na cud łaski, jakim było nawrócenie prześladowcy Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne dziękczynienie za Boże miłosierdzie, które potrafi z największego grzesznika uczynić naczynie wybrane.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Hymn Te Deum, który wysławia Boga i Jego apostołów, jest doskonałym utworem na tak uroczysty dzień.",
-      "moment": "ogolne"
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana jest misją, którą św. Paweł podjął z niezwykłą gorliwością po swoim nawróceniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta wzywa wszystkie narody do chwalenia Pana, co było celem misyjnych podróży Apostoła Narodów.",
+      "moment": "rozeslanie"
     },
     {
       "numer": "573",
       "piesn": "Chwała wam apostołowie",
       "opis": "Uniwersalny hymn na cześć Apostołów, który podkreśla ich rolę jako fundamentu Kościoła, co jest prawdą również w odniesieniu do św. Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń wzywa do głoszenia chwały Bożej po krańce ziemi, co było istotą życia i misji Apostoła Narodów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń o nawróceniu i wierze w Ewangelię, która doskonale oddaje istotę wydarzenia wspominanego w tym dniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta, prosząc o miłosierdzie, przypomina o wielkim miłosierdziu, jakiego dostąpił Szaweł pod Damaszkiem.",
       "moment": "ogolne"
     }
   ]

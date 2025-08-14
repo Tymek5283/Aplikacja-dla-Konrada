@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417345.Poniedzialek-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 8, 1-8",
+      "opis": "Zapowiedź wybawienia",
+      "tekst": "Pan Zastępów skierował do mnie następujące słowo:\n«Ogarnęła Mnie zazdrość wielka o Syjon i zapłonąłem wielką żarliwością o niego. Powrócę znowu na Syjon i zamieszkam znowu w Jeruzalem. I znowu Jeruzalem nazwą Miastem Wiernym, a górę Pana Zastępów - górą świętą. I znowu staruszkowie i staruszki zasiądą na placach Jeruzalem, wszyscy z laskami w ręku z powodu podeszłego wieku. I zaroją się place miasta od bawiących się tam chłopców i dziewcząt.\nJeżeli uchodzić to będzie za coś niemożliwego w oczach Reszty tego ludu w owych dniach, czy Ja również mam to uważać za coś niemożliwego?» Tak mówi Pan Zastępów: «Oto Ja wybawię mój lud z krainy wschodu i z krainy zachodu słońca. Sprowadzę ich, i mieszkać będą w Jeruzalem. I będą moim ludem, a Ja będę ich Bogiem, wiernym i sprawiedliwym».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 102 (101), 16-17. 18-19. 20-21. 29 i 22-23 (R.: por. 17)",
+      "opis": "",
+      "tekst": "Refren: Pan się objawi w chwale na Syjonie.\nPoganie będą się bali imienia Pana, *\na Twej chwały wszyscy królowie ziemi,\nbo Pan odbuduje Syjon *\ni ukaże się w swym majestacie.\nRefren.\nPan przychyli się ku modlitwie opuszczonych *\ni nie odrzuci ich modłów.\nNależy to zapisać dla przyszłych pokoleń, *\nlud, który się narodzi, niech wychwala Pana.\nRefren.\nSpojrzał Pan z wysokości swego przybytku, *\npopatrzył z nieba na ziemię,\naby usłyszeć jęki uwięzionych, *\naby skazanych na śmierć uwolnić.\nRefren.\nSynowie sług Twoich bezpiecznie mieszkać będą, *\na ich potomstwo będzie trwało w Twej obecności.\nAby imię Pana głoszono na Syjonie †\ni w Jeruzalem Jego chwałę, *\nkiedy zgromadzą się razem narody i królestwa,\naby służyć Panu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 10, 45",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Syn Człowieczy przyszedł, żeby służyć\ni dać swoje życie jako okup za wielu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 46-50",
+      "opis": "Nauka pokory",
+      "tekst": "Uczniom Jezusa przyszła myśl, kto z nich jest największy.\nLecz Jezus, znając tę myśl w ich sercach, wziął dziecko, postawił je przy sobie i rzekł do nich: «Kto by to dziecko przyjął w imię moje, Mnie przyjmuje; a kto by Mnie przyjął, przyjmuje Tego, który Mnie posłał. Kto bowiem jest najmniejszy wśród was wszystkich, ten jest wielki».\nWtedy przemówił Jan: «Mistrzu, widzieliśmy, jak ktoś w imię Twoje wypędzał złe duchy, i zaczęliśmy mu zabraniać, bo nie chodzi z nami». Lecz Jezus mu odpowiedział: «Przestańcie zabraniać; kto bowiem nie jest przeciwko wam, ten jest z wami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Bożym, co nawiązuje do obietnicy powrotu i zamieszkania Boga na Syjonie z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła-Jerozolimy jest aktualna w kontekście obietnicy odbudowy z pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana jest odpowiedzią na pełne nadziei proroctwo Zachariasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo ubogich i cichych jest echem nauki Jezusa z Ewangelii, że 'kto jest najmniejszy, ten jest wielki'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest odpowiedzią na Ewangelię, która wzywa do postawy dziecka, by stać się wielkim w królestwie niebieskim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę uniżenia i oddania, do której zachęca Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Pieśń bezpośrednio odnosi się do gestu Jezusa, który przytula dzieci i stawia je za wzór w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń wyraża pragnienie zjednoczenia z Jezusem w postawie dziecka, do której zachęca Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń o przygotowaniu serca na przyjęcie Jezusa, zwłaszcza serca 'dziecinnego', jest doskonałym komentarzem do Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn chwały jest odpowiedzią na pełne nadziei i radości proroctwo Zachariasza o odnowie Jerozolimy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosne wezwanie do chwalenia Pana, który odbudowuje Syjon i gromadzi swój lud.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą wierność i obietnicę odnowy, o której mówi prorok Zachariasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń podkreśla jedność w rodzinie Bożej, gdzie nie ma miejsca na spory o pierwszeństwo, o których mowa w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o jedność, która przeciwstawia się postawie zamknięcia i wykluczania, ukazanej w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w pokorze i otwartości na innych, do czego wzywa Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłość i dobroć są drogą do wielkości w królestwie Bożym, w przeciwieństwie do pychy i sporów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna jest znakiem przynależności do Chrystusa i przezwycięża podziały, o których mowa w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus jest nadzieją na pojednanie i jedność, która jest owocem przyjęcia Jego nauki o pokorze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest potrzebna, aby przyjąć naukę Jezusa o wielkości w małości i otwartości na działanie Boga w innych.",
+      "moment": "ogolne"
+    }
+  ]
+}

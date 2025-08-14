@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417013.Wtorek-X-tydzien-zwykly-rok-I",
+  "tytul_dnia": "10 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 1, 18-22",
+      "opis": "Przez Chrystusa wypowiada się nasze «Amen» Bogu na chwałę",
+      "tekst": "Bracia:\nBóg mi świadkiem, że w tym, co do was mówię, nie ma równocześnie «tak» i «nie». Syn Boży, Chrystus Jezus, Ten, którego głosiłem wam ja i Sylwan, i Tymoteusz, nie był «tak» i «nie», lecz dokonało się w Nim «tak». Albowiem ile tylko obietnic Bożych, wszystkie w Nim są «tak». Dlatego też przez Niego wypowiada się nasze «Amen» Bogu na chwałę.\nTym zaś, który umacnia nas wespół z wami w Chrystusie i który nas namaścił, jest Bóg. On też wycisnął na nas pieczęć i zostawił zadatek Ducha w sercach naszych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 129-130. 131-132. 133 i 135 (R.: por. 135a)",
+      "opis": "",
+      "tekst": "Refren: Okaż swym sługom pogodne oblicze.\nTwoje napomnienia, Panie, są przedziwne, *\ndlatego przestrzega ich moja dusza.\nPoznanie Twoich słów oświeca *\ni naucza niedoświadczonych.\nRefren.\nZaczerpnę powietrza otwartymi ustami, *\nbo pragnę Twoich przykazań.\nZwróć się ku mnie i zmiłuj się nade mną, *\ntak jak czynisz z miłującymi Twe imię.\nRefren.\nUmocnij moje kroki Twoim słowem, *\nniech żadna niegodziwość nie panuje we mnie.\nOkaż Twemu słudze światłość swego oblicza *\ni naucz mnie Twoich ustaw.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak niech wasze światło jaśnieje przed ludźmi,\naby widzieli wasze dobre uczynki i chwalili Ojca waszego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 13-16",
+      "opis": "Wy jesteście światłem świata",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Wy jesteście solą ziemi. Lecz jeśli sól utraci swój smak, czymże ją posolić? Na nic się już nie przyda, chyba na wyrzucenie i podeptanie przez ludzi.\nWy jesteście światłem świata. Nie może się ukryć miasto położone na górze. Nie zapala się też lampy i nie umieszcza pod korcem, ale na świeczniku, aby świeciła wszystkim, którzy są w domu.\nTak niech wasze światło jaśnieje przed ludźmi, aby widzieli wasze dobre uczynki i chwalili Ojca waszego, który jest w niebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń ta jest bezpośrednią odpowiedzią na słowa Ewangelii, w której Jezus nazywa swoich uczniów 'światłem świata'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Rozpoczynamy liturgię, prosząc, by nasze życie, tak jak ta pieśń, było chwałą dla Ojca w niebie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna, która nawiązuje do światła, jakim mamy być dla świata, rozpoczynając dzień od chwały Bożej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Nasze życie, ofiarowane Bogu, staje się 'Amen' wypowiedzianym na chwałę Boga, o czym mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowujemy Bogu owoce naszej pracy, aby On je przemienił i uczynił z nas światło dla świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Składamy w darze nasze serca, aby umocnione łaską Bożą, mogły świadczyć o Chrystusie dobrymi uczynkami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia umacnia nas w Chrystusie i daje siłę, byśmy byli 'solą ziemi' i 'światłem świata'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjmując Chrystusa, przyjmujemy Tego, który jest ostatecznym Bożym 'Tak' i źródłem naszego światła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Eucharystia umacnia nas, abyśmy byli 'solą ziemi', zachowując smak Ewangelii w naszym życiu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Nasze dobre uczynki, o których mówi Ewangelia, mają prowadzić do chwalenia Ojca w niebie, co wyraża ta pieśń.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Dziękujemy Bogu za dar Ducha Świętego, który jest zadatkiem naszego dziedzictwa i umacnia nas w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Nasze dziękczynienie jest odpowiedzią na wezwanie Ewangelii, by nasze dobre uczynki prowadziły do chwalenia Ojca w niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby nasze światło jaśniało przed ludźmi i aby głosić Ewangelię, która jest Bożym 'tak' dla świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy idąc w świat, mogli być skuteczną 'solą ziemi' i 'światłem świata'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Zostajemy posłani jako wspólnota, aby nasze zjednoczone świadectwo jaśniało przed ludźmi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Wcieleniu, w którym Bóg wypowiedział swoje ostateczne 'tak' dla ludzkości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Wyraża głęboką relację z Bogiem opartą na Jego słowie, którego poznanie, jak mówi psalm, oświeca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prosimy o umocnienie w wierze, aby nasze życie było czytelnym 'Amen' wypowiedzianym Bogu na chwałę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Psalm wzywa do życia słowem Bożym, które oświeca naszą drogę i czyni nas światłem dla innych.",
+      "moment": "ogolne"
+    }
+  ]
+}

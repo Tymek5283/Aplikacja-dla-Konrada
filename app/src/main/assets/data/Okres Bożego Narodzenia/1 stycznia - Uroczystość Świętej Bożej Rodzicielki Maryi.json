@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410525.1-stycznia-Oktawa-Narodzenia-Panskiego-Uroczystosc-Swietej",
+  "tytul_dnia": "1 stycznia - Uroczystość Świętej Bożej Rodzicielki Maryi",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Lb 6, 22-27",
+      "opis": "Błogosławieństwo Boże",
+      "tekst": "Pan mówił do Mojżesza tymi słowami: «Powiedz Aaronowi i jego synom: Tak oto macie błogosławić Izraelitom.\nPowiecie im: „Niech cię Pan błogosławi i strzeże. Niech Pan rozpromieni oblicze swe nad tobą, niech cię obdarzy swą łaską. Niech zwróci ku tobie oblicze swoje i niech cię obdarzy pokojem”.\nTak będą wzywać imienia mojego nad Izraelitami, a Ja im będę błogosławił».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 67 (66), 2-3. 5 i 8 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Bóg miłosierny niech nam błogosławi.\nNiech Bóg się zmiłuje nad nami i nam błogosławi; *\nniech nam ukaże pogodne oblicze.\nAby na ziemi znano Jego drogę, *\nJego zbawienie wśród wszystkich narodów.\nRefren.\nNiech się narody cieszą i weselą, †\nbo rządzisz ludami sprawiedliwie *\ni kierujesz narodami na ziemi.\nNiech nam Bóg błogosławi, *\ni niech cześć Mu oddają wszystkie krańce ziemi.\nRefren"
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ga 4, 4-7",
+      "opis": "Bóg zesłał swego Syna, zrodzonego z Niewiasty",
+      "tekst": "Bracia:\nGdy nadeszła pełnia czasu, zesłał Bóg Syna swego, zrodzonego z Niewiasty, zrodzonego pod Prawem, aby wykupił tych, którzy podlegali Prawu, byśmy mogli otrzymać przybrane synostwo.\nNa dowód tego, że jesteście synami, Bóg zesłał do serc naszych ducha Syna swego, który woła: «Abba, Ojcze!» A zatem nie jesteś już niewolnikiem, lecz synem. Jeżeli zaś synem, to i dziedzicem z woli Bożej.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 1, 1-2a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielokrotnie przemawiał niegdyś Bóg do ojców przez proroków,\na w tych ostatecznych dniach przemówił do nas przez Syna."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 2, 16-21",
+      "opis": "Nadano Mu imię Jezus",
+      "tekst": "Pasterze pośpiesznie udali się do Betlejem i znaleźli Maryję, Józefa oraz leżące w żłobie Niemowlę. Gdy Je ujrzeli, opowiedzieli, co im zostało objawione o tym dziecięciu. A wszyscy, którzy to słyszeli, zdumieli się tym, co im pasterze opowiedzieli.\nLecz Maryja zachowywała wszystkie te sprawy i rozważała je w swoim sercu. A pasterze wrócili, wielbiąc i wysławiając Boga za wszystko, co słyszeli i widzieli, jak im to zostało przedtem powiedziane.\nGdy nadszedł dzień ósmy i należało obrzezać dziecię, nadano Mu imię Jezus, którym Je nazwał Anioł, zanim się poczęło w łonie Matki.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń ta wprost wychwala Maryję jako Bożą Rodzicielkę, co jest centralną tajemnicą dzisiejszej uroczystości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna jest uroczystym hymnem na cześć Bożej Rodzicielki, idealnym na rozpoczęcie Mszy Świętej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Pieśń podkreśla godność Maryi jako Matki Króla niebios, co jest istotą dzisiejszego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, na wzór Maryi, która rozważała sprawy Boże w sercu, ofiarujemy Jej nasze serca i myśli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "387",
+      "piesn": "Przy obchodzie",
+      "opis": "Pieśń mszalna na święta maryjne, która łączy cześć dla Bożej Rodzicielki z Ofiarą eucharystyczną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "325",
+      "piesn": "Chcę, Maryjo, służyć Tobie",
+      "opis": "Pieśń wyraża pragnienie służby Maryi, co jest odpowiedzią na Jej macierzyńską miłość i opiekę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Refren 'Witaj, Jezu, Synu Maryi' łączy przyjęcie Eucharystii z tajemnicą Bożego Macierzyństwa, którą dziś świętujemy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest dziękczynieniem za wielkie dzieła Boże, których centrum jest narodzenie Zbawiciela z Maryi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Bożej Rodzicielki w formie pieśni jest doskonałym przygotowaniem serca na przyjęcie Jej Syna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń maryjna jest najwspanialszym hymnem na cześć Bożej Rodzicielki, idealnym na dziękczynienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń wzywająca do codziennego wysławiania Matki Bożej, która dała nam Zbawiciela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "343",
+      "piesn": "Już od rana rozśpiewana",
+      "opis": "Radosny hymn na cześć Maryi, której macierzyństwo jest źródłem naszej radości i zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Na początku nowego roku ta pieśń jest uroczystą modlitwą o błogosławieństwo Boże dla Ojczyzny, co nawiązuje do pierwszego czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "W uroczystość Bożej Rodzicielki, czcimy Ją również jako Królową Polski, zawierzając Jej opiece nadchodzący rok.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Pieśń jest aktem zawierzenia Kościoła i Ojczyzny opiece Matki Bożej na progu nowego roku.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "356",
+      "piesn": "Matko Niebieskiego Pana",
+      "opis": "Pieśń podkreśla wyjątkowe wybranie Maryi i Jej godność jako Matki Boga, co jest głównym tematem liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "Pieśń ta, będąca parafrazą 'Salve Regina', jest odpowiednia na uroczystość Królowej i Matki, jaką jest Boża Rodzicielka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń o Zwiastowaniu przypomina początek tajemnicy Bożego Macierzyństwa, którą dziś w pełni świętujemy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "29",
+      "piesn": "Zdrowaś bądź Maryja",
+      "opis": "Pieśń oparta na Pozdrowieniu Anielskim jest wyrazem naszej czci dla Tej, która stała się Matką Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

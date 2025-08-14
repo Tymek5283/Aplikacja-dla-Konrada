@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416291.Sobota-IX-tydzien-zwykly-rok-I",
+  "tytul_dnia": "9 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tb 12, 1b. 5-15. 20",
+      "opis": "Misja archanioła Rafała",
+      "tekst": "Tobiasz zawołał swego syna, Tobiasza, i powiedział do niego: «Dziecko, bacz, aby uiścić zapłatę człowiekowi, który wybrał się z tobą w drogę, i dołożyć mu coś jeszcze do zapłaty».\nPoprosił więc go do siebie i rzekł: «Weź połowę wszystkiego, co wracając, miałeś przy sobie, jako swoją zapłatę, i idź do domu zdrów!» Wtedy Rafał poprosił ich obu na bok i rzekł do nich: «Uwielbiajcie Boga i wysławiajcie Go przed wszystkimi żyjącymi za dobrodziejstwa, jakie wam wyświadczył, aby było uwielbione i wsławione Jego imię. Rozgłaszajcie wobec wszystkich ludzi słowa Boże, jak na to zasługują, i nie ociągajcie się z wyrażaniem Mu wdzięczności. Ukrywać tajemnice królewskie jest rzeczą piękną, ale godną pochwały jest ujawniać i wysławiać dzieła Boże. Czyńcie dobrze, a zło was nie spotka. Lepsza jest szczera modlitwa i miłosierdzie połączone ze sprawiedliwością aniżeli bogactwo pochodzące z nieprawości. Lepiej jest dawać jałmużnę aniżeli gromadzić złoto. Jałmużna uwalnia od śmierci i oczyszcza z wszelkiego grzechu. Ci, którzy dają jałmużnę, nasycą się życiem. Ci, którzy popełniają grzech i nieprawość, są wrogami własnej duszy. Odkryję przed wami całą prawdę, nie ukrywając niczego. Już was pouczyłem i powiedziałem: Piękną jest rzeczą zachowywać tajemnicę królewską, ale godną wszelkiej pochwały ujawniać dzieła Boże. A teraz: gdy ty i Sara modliliście się, ja przypomniałem wasze błagania przed majestatem Pańskim; tak samo, gdy chowałeś zmarłych. A kiedy nie wahałeś się wstawać i opuszczać swojego posiłku, i iść, by pochować zmarłego, ja zostałem posłany, aby cię wypróbować. Równocześnie posłał mnie Bóg, aby uzdrowić ciebie i twoją synową, Sarę. Ja jestem Rafał, jeden z siedmiu aniołów, którzy stoją w pogotowiu i wchodzą przed majestat Pański.\nA teraz uwielbiajcie Pana na ziemi i dziękujcie Bogu! Oto ja wstępuję do Tego, który mnie posłał. Opiszcie to wszystko, co was spotkało». I odszedł.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Tb 13, 2abcde. 6. 7. 8 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan bardzo wielki, żyjący na wieki.\nNiech będzie błogosławiony Bóg, który żyje na wieki, *\ni niech będzie błogosławione Jego królestwo!\nTo On karze i okazuje miłosierdzie, †\nposyła do podziemnej Otchłani *\ni wyprowadza z największej zagłady.\nRefren.\nA kiedy nawrócicie się do Niego całym sercem i duszą, *\naby przed Nim postępować w prawdzie,\nwtedy i On do was się zwróci *\ni już nigdy nie zakryje przed wami swojego oblicza.\nRefren.\nA teraz rozważcie, co wam uczynił, *\ni dziękujcie Mu głośno.\nBłogosławcie Pana sprawiedliwego *\ni wywyższajcie Króla wieków.\nRefren.\nJa zaś wychwalam Go w ziemi mego wygnania, *\nobwieszczam narodowi grzeszników Jego moc i wielkość.\nNawróćcie się, grzesznicy, †\ni postępujcie przed Nim sprawiedliwie, *\nkto wie, może znajdzie w was upodobanie\ni miłosierdzie wam okaże.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 38-44",
+      "opis": "Jałmużna ubogiej wdowy",
+      "tekst": "Jezus, nauczając rzesze, mówił:\n«Strzeżcie się uczonych w Piśmie. Z upodobaniem chodzą oni w powłóczystych szatach, lubią pozdrowienia na rynku, pierwsze krzesła w synagogach i zaszczytne miejsca na ucztach. Objadają domy wdów i dla pozoru odprawiają długie modlitwy. Ci tym surowszy dostaną wyrok».\nPotem, usiadłszy naprzeciw skarbony, przypatrywał się, jak tłum wrzucał drobne pieniądze do skarbony. Wielu bogatych wrzucało wiele. Przyszła też jedna uboga wdowa i wrzuciła dwa pieniążki, czyli jeden grosz.\nWtedy przywołał swoich uczniów i rzekł do nich: «Zaprawdę, powiadam wam: Ta uboga wdowa wrzuciła najwięcej ze wszystkich, którzy kładli do skarbony. Wszyscy bowiem wrzucali z tego, co im zbywało; ona zaś ze swego niedostatku wrzuciła wszystko, co miała na swe utrzymanie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do aklamacji oraz postawy ubogiej wdowy z Ewangelii, która jest błogosławiona w swoim ubóstwie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, który patrzy na serce, a nie na wielkość daru.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, którego należy błogosławić, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubogiej wdowy, która oddała Bogu wszystko, co miała, czyli całą siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i uznania, że prawdziwym darem dla Boga jest serce, a nie bogactwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, na wzór ubogiej wdowy, która oddała całe swoje utrzymanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje prostotę i szczerość serca, z jaką uboga wdowa złożyła swój dar, a z jaką my powinniśmy przyjmować Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla postawę pokory i wiary, jaką okazała uboga wdowa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest darem, który przewyższa wszelkie ludzkie dary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna, która jest echem wezwania archanioła Rafała do uwielbiania Boga za Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna, która dobrze oddaje ducha pierwszego czytania i psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest dziękczynieniem za Boże miłosierdzie i dobrodziejstwa, o których opowiada Księga Tobiasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jest to wezwanie do czynienia miłosierdzia i dawania jałmużny, o czym nauczał anioł Rafał.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy potrafili naśladować hojność ubogiej wdowy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii i ujawniania dzieł Bożych, jak radził anioł Rafał.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "419",
+      "piesn": "Rafale święty",
+      "opis": "Bezpośrednio odnosi się do postaci archanioła Rafała z pierwszego czytania, dziękując za jego opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i jałmużna, o których mówi ta pieśń, są wyrazem prawdziwej pobożności, o której poucza anioł Rafał.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "416",
+      "piesn": "Poślij nam, Panie",
+      "opis": "Pieśń do archaniołów, w tym do Rafała, który jest główną postacią pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która objawiła się w historii Tobiasza i jego rodziny.",
+      "moment": "ogolne"
+    }
+  ]
+}

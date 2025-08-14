@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416400.Sobota-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 1, 15-23",
+      "opis": "Bóg ustanowił Chrystusa Głową Kościoła",
+      "tekst": "Bracia:\nUsłyszawszy o waszej wierze w Pana Jezusa i o miłości względem wszystkich świętych, nie zaprzestaję dziękczynienia, wspominając was w moich modlitwach. Proszę w nich, aby Bóg Pana naszego, Jezusa Chrystusa, Ojciec chwały, dał wam ducha mądrości i objawienia w głębszym poznawaniu Jego samego. Niech da wam światłe oczy serca, byście wiedzieli, czym jest nadzieja, do której On wzywa, czym bogactwo chwały Jego dziedzictwa wśród świętych i czym przeogromna Jego moc względem nas wierzących - na podstawie działania Jego potęgi i siły.\nWykazał On je, gdy wskrzesił Go z martwych i posadził  po swojej prawicy na wyżynach niebieskich, ponad wszelką Zwierzchnością i Władzą, i Mocą, i Panowaniem, i ponad wszelkim innym imieniem, wzywanym nie tylko w tym wieku, ale i w przyszłym.\nI wszystko poddał pod Jego stopy, a Jego samego ustanowił nade wszystko Głową dla Kościoła, który jest Jego Ciałem, Pełnią Tego, który napełnia wszystko wszelkimi sposobami.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 8, 2 i 3b. 4-5. 6-7 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Dałeś Synowi władzę nad swym dziełem.\nO Panie, nasz Panie, *\njak przedziwne jest Twoje imię po całej ziemi.\nTy swój majestat wyniosłeś nad niebiosa. *\nUsta dzieci i niemowląt oddają Ci chwałę.\nRefren.\nGdy patrzę na Twe niebo, dzieło palców Twoich, *\nna księżyc i gwiazdy, które Ty utwierdziłeś:\nczym jest człowiek, że o nim pamiętasz, *\nczym syn człowieczy, że troszczysz się o niego?\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 15, 26b. 27a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Świadectwo o Mnie da Duch prawdy\ni wy także świadczyć będziecie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 8-12",
+      "opis": "Duch Święty czuwa nad uczniami Jezusa",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Kto się przyzna do Mnie wobec ludzi, przyzna się i Syn Człowieczy do niego wobec aniołów Bożych; a kto się Mnie wyprze wobec ludzi, tego wyprę się i Ja wobec aniołów Bożych.\nKażdemu, kto powie jakieś słowo przeciw Synowi Człowieczemu, będzie odpuszczone, lecz temu, kto bluźni przeciw Duchowi Świętemu, nie będzie odpuszczone.\nKiedy was ciągać będą po synagogach, urzędach i władzach, nie martwcie się, w jaki sposób albo czym macie się bronić lub co mówić, bo Duch Święty pouczy was w tej właśnie godzinie, co należy powiedzieć».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Pieśń jest modlitwą do Ducha Świętego, który, jak obiecuje Jezus w Ewangelii, pouczy nas, co mamy mówić w godzinie próby.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Wezwanie do Ducha Świętego, aby dał nam ducha mądrości i objawienia, o co modli się św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który jest źródłem życia i mocy do dawania świadectwa, jak uczy Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec wezwania do odważnego przyznawania się do Chrystusa, ta pieśń jest aktem ofiarowania i prośbą o umocnienie w wierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarowanie całego życia Bogu jest aktem wiary, która pozwala nam przyznać się do Chrystusa bez lęku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest odpowiedzią na dar wiary i miłości, o których wspomina św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla, że Kościół jest Ciałem Chrystusa, o czym mówi pierwsze czytanie, a Komunia Święta jest tego najpełniejszym znakiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Komunia Święta buduje Kościół, który jest Ciałem Chrystusa, Jego Pełnią, jak czytamy w Liście do Efezjan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "W Komunii jednoczymy się z Chrystusem, który został wskrzeszony z martwych i wywyższony ponad wszelkie stworzenie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Dziękczynienie za dar Ducha Świętego, który jest duchem mądrości i objawienia, o którego modli się św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń chwały dla Boga, który wywyższył Chrystusa ponad wszelkie imię i ustanowił Go Głową Kościoła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn uwielbienia dla Boga Ojca chwały, który objawił nam przeogromną moc swojej potęgi w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i Kościołowi, którego Głową jest Chrystus, jak mówi pierwsze czytanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do dawania świadectwa, do którego uzdalnia nas Duch Święty, obiecany w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa, który jest Głową Kościoła i Panem wszelkiego stworzenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o jedność Kościoła, który jest Ciałem Chrystusa, o czym z zachwytem pisze św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Prośba o dary Ducha Świętego, zwłaszcza o dar mądrości i objawienia, o który modli się św. Paweł dla Efezjan.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że Chrystus jest Głową Kościoła i nadzieją naszego dziedzictwa, o czym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń wyraża ufność w moc Pana, która objawiła się we wskrzeszeniu Chrystusa i która działa w nas, wierzących.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413363.Czwartek-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Czwartek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 18, 1-8",
+      "opis": "Święty Paweł w Koryncie",
+      "tekst": "Paweł opuścił Ateny i przybył do Koryntu. Znalazł tam pewnego Żyda, imieniem Akwila, rodem z Pontu, który z żoną Pryscyllą przybył niedawno z Italii, ponieważ Klaudiusz wysiedlił z Rzymu wszystkich Żydów. Przyszedł do nich, a ponieważ znał to samo rzemiosło, zamieszkał u nich i pracował; zajmowali się wyrobem namiotów. A co szabat rozprawiał w synagodze i przekonywał tak Żydów, jak i Greków.\nKiedy Sylas i Tymoteusz przybyli z Macedonii, Paweł oddał się wyłącznie nauczaniu i udowadniał Żydom, że Jezus jest Mesjaszem. A kiedy się sprzeciwiali i bluźnili, otrząsnął swe szaty i powiedział do nich: «Krew wasza na wasze głowy, ja nie jestem winien. Od tej chwili pójdę do pogan».\nOdszedł stamtąd i poszedł do domu „czciciela Boga”, niejakiego Tycjusza Justusa. Dom ten przylegał do synagogi. Przełożony synagogi, Kryspus, uwierzył w Pana z całym swym domem, wielu też słuchaczy korynckich uwierzyło i przyjmowało wiarę i chrzest.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 14, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zostawię was sierotami,\npowrócę do was i rozraduje się serce wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 16, 16-20",
+      "opis": "Smutek wasz przemieni się w radość",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeszcze chwila, a nie będziecie Mnie widzieć, i znowu chwila, a ujrzycie Mnie».\nWówczas niektórzy z Jego uczniów mówili między sobą: «Cóż to znaczy, co nam mówi: „Chwila, a nie będziecie Mnie widzieć, i znowu chwila, a ujrzycie Mnie”; oraz: „Idę do Ojca”?» Mówili więc: «Cóż znaczy ta chwila, o której mówi? Nie rozumiemy tego, co powiada».\nJezus poznał, że chcieli Go pytać, i rzekł do nich: «Pytacie się jeden drugiego o to, że powiedziałem: „Chwila, a nie będziecie Mnie widzieć, i znowu chwila, a ujrzycie Mnie?” Zaprawdę, zaprawdę, powiadam wam: Wy będziecie płakać i zawodzić, a świat się będzie weselił. Wy będziecie się smucić, ale smutek wasz przemieni się w radość».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Ta radosna pieśń wielkanocna doskonale oddaje obietnicę z Ewangelii, że smutek przemieni się w radość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, co jest tematem psalmu i misji św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "176",
+      "piesn": "Alleluja... O dniu radosny",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest zapowiedziana w Ewangelii jako owoc ponownego zobaczenia Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Ta mszalna pieśń wielkanocna w swojej zwrotce na ofiarowanie wprost wyraża charakter tego momentu liturgii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu owoce naszej pracy, tak jak Paweł, który pracował wyrabiając namioty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nawiązuje do misyjnej działalności św. Pawła, który oddał się wyłącznie nauczaniu i głoszeniu Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "181",
+      "piesn": "Już Zbawiciel, Jezus żyje",
+      "opis": "Nawiązuje do obietnicy Jezusa o ponownym zobaczeniu Go, co jest źródłem radości wielkanocnej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń eucharystyczna, która jest źródłem radości i siły w oczekiwaniu na powrót Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Chrystus w Eucharystii daje nam przedsmak radości, która będzie naszym udziałem, gdy ujrzymy Go w chwale.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Jest to dynamiczny hymn uwielbienia, który pasuje do radosnego charakteru Okresu Wielkanocnego i psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, którego zbawienie, zgodnie z psalmem, ujrzały wszystkie krańce ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Głosi centralną prawdę okresu wielkanocnego, która jest źródłem radości obiecanej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń podkreśla triumf Chrystusa, który jest fundamentem misji Kościoła i radości wierzących.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń posyła wiernych, by głosili światu, że Chrystus jest Królem, a Jego zbawienie jest dla wszystkich narodów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii, którą z zapałem realizował św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która pozwala przetrwać czas smutku w oczekiwaniu na radość spotkania z Panem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "196",
+      "piesn": "Złóżcie troski, żałujący",
+      "opis": "Nawiązuje do słów Ewangelii o przemianie smutku w radość, co jest centralnym przesłaniem wielkanocnym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "188",
+      "piesn": "Otrzyjcie już łzy",
+      "opis": "Bezpośrednio odnosi się do obietnicy Jezusa o pocieszeniu i radości, która nadejdzie po okresie smutku.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Narracyjna pieśń wielkanocna, która przypomina fundament wiary, głoszonej przez Pawła w Koryncie.",
+      "moment": "ogolne"
+    }
+  ]
+}

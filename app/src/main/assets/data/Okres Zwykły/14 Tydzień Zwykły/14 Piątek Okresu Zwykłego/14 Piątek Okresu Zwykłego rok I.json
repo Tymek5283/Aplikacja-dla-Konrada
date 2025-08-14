@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426650.Piatek-XIV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "14 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 46, 1-7. 28-30",
+      "opis": "Jakub z rodziną przenosi się do Egiptu",
+      "tekst": "Izrael wyruszył w drogę z całym swym dobytkiem.\nA gdy przybył do Beer-Szeby, złożył ofiarę Bogu ojca swego Izaaka. Bóg zaś w widzeniu nocnym tak odezwał się do Izraela: «Jakubie, Jakubie!» A gdy on odpowiedział: «Oto jestem», rzekł do niego: «Ja jestem Bogiem, Bogiem twego ojca. Idź bez obawy do Egiptu, gdyż uczynię cię tam wielkim narodem. Ja pójdę tam z tobą i Ja stamtąd cię wyprowadzę, a Józef zamknie ci oczy».\nPo czym Jakub wyruszył z Beer-Szeby. Synowie Izraela umieścili ojca swego Jakuba, swoje dzieci i żony na wozach, które faraon przysłał dla przewiezienia ich. Zabrali też swe trzody i swój dobytek, który nabyli w Kanaanie. Tak przybył do Egiptu Jakub, a z nim całe jego potomstwo. Wziął z sobą do Egiptu synów, wnuków, córki i wnuczki - całe swe potomstwo.\nWysłał on przed sobą do Józefa Judę, aby ten mógł go wyprzedzić do Goszen przed ich przybyciem. A gdy przybyli do ziemi Goszen, Józef kazał zaprząc do swego wozu i wyjechał na spotkanie Izraela, ojca swego, do Goszen. Kiedy zobaczył go, rzucił mu się na szyję i długo płakał na jego szyi.\nWreszcie Izrael odezwał się do Józefa: «Teraz mogę już umrzeć, skoro zobaczyłem cię jeszcze przy życiu!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 37 (36), 3-4. 18-19. 27-28b. 39-40 (R.: por. 39a)",
+      "opis": "",
+      "tekst": "Refren: Zbawienie prawych pochodzi od Pana.\nMiej ufność w Panu i czyń to, co dobre, *\na będziesz mieszkał na ziemi i żył bezpiecznie.\nRaduj się w Panu, *\na On spełni pragnienia twego serca.\nRefren.\nPan zna dni postępujących uczciwie, *\na ich dziedzictwo trwać będzie na wieki.\nW czasie klęski nie zaznają wstydu, *\nw dniach głodu zostaną nasyceni.\nRefren.\nOdstąp od złego i czyń dobro, *\nabyś mógł przetrwać na wieki.\nGdyż Pan sprawiedliwość miłuje *\ni nie opuszcza swych świętych.\nRefren.\nZbawienie sprawiedliwych pochodzi od Pana, *\nOn ich ucieczką w czasie utrapienia.\nPan ich wspomaga i wyzwala, †\nwyzwala od występnych i zachowuje, *\nOn bowiem jest ich ucieczką.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 16, 13a; 14, 26d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Gdy przyjdzie Duch Prawdy, doprowadzi was do całej prawdy\ni przypomni wam wszystko, co wam powiedziałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 16-23",
+      "opis": "Apostołowie będą prześladowani",
+      "tekst": "Jezus powiedział do swoich apostołów:\n«Oto Ja was posyłam jak owce między wilki. Bądźcie więc roztropni jak węże, a nieskazitelni jak gołębie.\nMiejcie się na baczności przed ludźmi! Będą was wydawać sądom i w swych synagogach będą was biczować. Nawet przed namiestników i królów będą was prowadzić z mego powodu, na świadectwo im i poganom. Kiedy was wydadzą, nie martwcie się o to, jak ani co macie mówić. W owej bowiem godzinie będzie wam poddane, co macie mówić, gdyż nie wy będziecie mówili, lecz Duch Ojca waszego będzie mówił przez was.\nBrat wyda brata na śmierć i ojciec syna; dzieci powstaną przeciw rodzicom i o śmierć ich przyprawią. Będziecie w nienawiści u wszystkich z powodu mego imienia. Lecz kto wytrwa do końca, ten będzie zbawiony.\nGdy was prześladować będą w tym mieście, uciekajcie do innego. Zaprawdę, powiadam wam: Nie zdążycie obejść miast Izraela, nim przyjdzie Syn Człowieczy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opatrzność jest doskonałym wprowadzeniem w liturgię, której czytania mówią o Bożej opiece i potrzebie wytrwania w prześladowaniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń podkreśla Bożą Opatrzność, która prowadziła Jakuba i jego rodzinę, nawet przez trudne doświadczenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który jest Panem historii i prowadzi swój lud, co jest widoczne w dziejach patriarchów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń eucharystyczna jest modlitwą o jedność i pokój dla Kościoła, który, jak zapowiada Ewangelia, będzie doświadczał prześladowań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc o siłę do wytrwania w trudnościach, na wzór apostołów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "W tej pieśni ofiarnej prosimy, aby dar chleba i wina stał się dla nas źródłem mocy w prześladowaniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem na drogę, dającym siłę do wytrwania w trudach i prześladowaniach, o których mówi Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Ewangelia obiecuje, że Duch Święty będzie mówił przez prześladowanych uczniów, dlatego prosimy o Jego dary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę i oddanie Chrystusowi, za którego imię apostołowie będą cierpieć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Krótka pieśń uwielbienia podkreślająca, że Bóg jest siłą swojego ludu, co jest kluczowe w kontekście ewangelicznych zapowiedzi trudności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą opiekę i wyzwolenie, o którym mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego wierność i zbawienie, które objawia się w historii patriarchów i w posłannictwie apostołów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń ta jest prośbą o siłę w wierze, niezbędną do tego, by jak Apostołowie wytrwać do końca mimo przeciwności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi nawet w obliczu prześladowań zapowiedzianych w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Mimo zapowiedzi trudności, misja głoszenia Ewangelii musi być kontynuowana, o czym przypomina ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "617",
+      "piesn": "Pod Twą obronę",
+      "opis": "Pieśń jest aktem zawierzenia Bogu, co doskonale pasuje do psalmu, który mówi o zbawieniu i ucieczce w Panu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Przypomina o fundamentalnej prawdzie, którą Apostołowie mają głosić światu, nawet za cenę prześladowań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wobec zapowiedzi prześladowań, akt ufności w Jezusa jest najwłaściwszą postawą ucznia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń jest wyrazem głębokiej ufności w Bożą pomoc w utrapieniu, o czym mówi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

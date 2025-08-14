@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417005.Czwartek-X-tydzien-zwykly-rok-II",
+  "tytul_dnia": "10 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 18, 41-46",
+      "opis": "Modlił się Eliasz i niebo zesłało deszcz",
+      "tekst": "Eliasz powiedział Achabowi: «Idź! Jedz i pij, bo słyszę odgłos deszczu». Achab zatem poszedł jeść i pić, a Eliasz wszedł na szczyt Karmelu i pochyliwszy się ku ziemi, wtulił twarz między kolana.\nPotem powiedział swemu słudze: «Podejdź i spójrz w stronę morza!» On podszedł, spojrzał i wnet powiedział: «Nie ma nic!» Na to mu odrzekł Eliasz: «Wracaj siedem razy!» Za siódmym razem sługa powiedział: «Oto obłok mały jak dłoń człowieka podnosi się z morza!» Wtedy mu rozkazał: «Idź, powiedz Achabowi: Zaprzęgaj i odjeżdżaj, aby cię deszcz nie zaskoczył».\nNiebawem chmury oraz wiatr zaciemniły niebo i spadła ulewa, więc Achab wsiadł na wóz i udał się do Jizreel.  A ręka Pańska wspomogła Eliasza, by przepasawszy swe biodra, pobiegł przed Achabem w kierunku Jizreel.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 65 (64), 10abcd. 10e-11. 12-13 (R.: 2ab)",
+      "opis": "",
+      "tekst": "Refren: Ciebie należy wielbić na Syjonie.\nNawiedziłeś i nawodniłeś ziemię, *\nwzbogaciłeś ją obficie.\nStrumień Boży wezbrał wodami, *\nprzygotowałeś im zboże.\nRefren.\nI tak uprawiłeś ziemię: *\nNawodniłeś jej bruzdy, wyrównałeś jej skiby,\nspulchniłeś ją deszczami *\ni pobłogosławiłeś plonom.\nRefren.\nRok uwieńczyłeś swoimi dobrami, *\ntam gdzie przejdziesz, wzbudzasz urodzaje.\nStepowe pastwiska są pełne rosy, *\na wzgórza przepasane weselem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 13, 34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Daję wam przykazanie nowe, abyście się wzajemnie miłowali,\ntak jak Ja was umiłowałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 20-26",
+      "opis": "Wymagania nowego Prawa w dziedzinie miłości bliźniego",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeśli wasza sprawiedliwość nie będzie większa niż uczonych w Piśmie i faryzeuszów, nie wejdziecie do królestwa niebieskiego.\nSłyszeliście, że powiedziano przodkom: „Nie zabijaj”; a kto by się dopuścił zabójstwa, podlega sądowi. A Ja wam powiadam: Każdy, kto się gniewa na swego brata, podlega sądowi. A kto by rzekł swemu bratu: „Raka”, podlega Wysokiej Radzie. A kto by mu rzekł: „Bezbożniku”, podlega karze piekła ognistego.\nJeśli więc przyniesiesz dar swój przed ołtarz i tam sobie przypomnisz, że brat twój ma coś przeciw tobie, zostaw tam dar swój przed ołtarzem, a najpierw idź i pojednaj się z bratem swoim. Potem przyjdź i dar swój ofiaruj.\nPogódź się ze swoim przeciwnikiem szybko, dopóki jesteś z nim w drodze, by cię przeciwnik nie wydał sędziemu, a sędzia dozorcy, i aby nie wtrącono cię do więzienia. Zaprawdę, powiadam ci: Nie wyjdziesz stamtąd, dopóki nie zwrócisz ostatniego grosza».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń dziękczynna za dary Bożej opatrzności, takie jak deszcz, o który modlił się Eliasz i za który dziękuje psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Zaproszenie do uwielbienia Boga, który zsyła deszcz i daje nowe prawo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za cuda natury (deszcz) i cuda łaski (pojednanie).",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ewangelia wzywa do pojednania z bratem przed złożeniem daru na ołtarzu, a ta pieśń jest modlitwą o ducha miłości i zgody.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność, która jest owocem pojednania, warunku złożenia ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Ofiara ma być wyrazem życia według przykazania miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory i prośbę o uzdrowienie relacji, zanim przyjmiemy Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia jest zjednoczeniem z Miłością, która uczy nas miłować braci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus zaprasza na Ucztę, ale stawia warunek pojednania z bratem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za Bożą moc objawioną przez modlitwę Eliasza i za dar Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą dobroć i wysłuchane modlitwy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękczynienie za dar Eucharystii i za dary natury, jak deszcz i plony.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń wyraża miłość do Chrystusa, która jest źródłem siły do wypełnienia przykazania miłości bliźniego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w pojednaniu i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń-modlitwa o jedność, która jest owocem pojednania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec wysokich wymagań nowej sprawiedliwości, ta pieśń pokutna jest prośbą o serce zdolne do przebaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wytrwała modlitwa Eliasza jest przykładem ufności w Bożą moc i wierność Jego obietnicom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i pojednaniu, kluczowych tematach Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon podkreślający, że miłość i dobroć są miejscem obecności Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

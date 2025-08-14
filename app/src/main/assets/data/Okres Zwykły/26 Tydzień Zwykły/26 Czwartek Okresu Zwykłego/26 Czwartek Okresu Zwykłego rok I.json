@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417342.Czwartek-26-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "26 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ne 8, 1-4a. 5-6. 7b-12",
+      "opis": "Czytanie Prawa Bożego wobec ludu",
+      "tekst": "Cały lud, jak jeden mąż, zgromadził się na placu przed Bramą Wodną. I domagali się od pisarza Ezdrasza, by przyniósł księgę Prawa Mojżeszowego, które Pan nadał Izraelowi. Pierwszego dnia siódmego miesiąca kapłan Ezdrasz przyniósł Prawo przed zgromadzenie, w którym uczestniczyli przede wszystkim mężczyźni, lecz także kobiety oraz wszyscy inni, którzy byli zdolni słuchać. I czytał z tej księgi, zwrócony do placu znajdującego się przed Bramą Wodną, od rana aż do południa przed mężczyznami, kobietami i tymi, którzy mogli rozumieć; a uszy całego ludu były zwrócone ku księdze Prawa.\nPisarz Ezdrasz stanął na drewnianym podwyższeniu, które zrobiono w tym celu. Ezdrasz otworzył księgę na oczach całego ludu - znajdował się bowiem wyżej niż cały lud; a gdy ją otworzył, cały lud powstał. I Ezdrasz błogosławił Pana, wielkiego Boga, a cały lud, podniósłszy ręce, odpowiedział: «Amen! Amen!» Potem oddali pokłon i padli przed Panem na kolana, twarzą ku ziemi. A lewici objaśniali ludowi Prawo, podczas gdy lud pozostawał na miejscu.\nCzytano więc z tej księgi, księgi Prawa Bożego, dobitnie, z dodaniem objaśnienia, tak że lud rozumiał czytanie. Wtedy Nehemiasz, to jest namiestnik, oraz kapłan-pisarz Ezdrasz, jak i lewici, którzy pouczali lud, rzekli do całego ludu: «Ten dzień jest poświęcony Panu, Bogu waszemu. Nie bądźcie smutni i nie płaczcie!» Cały lud bowiem płakał, gdy usłyszał te słowa Prawa. I rzekł im Nehemiasz: «Idźcie, spożywajcie potrawy świąteczne i pijcie słodkie napoje, poślijcie też porcje temu, który nic gotowego nie ma: albowiem poświęcony jest ten dzień Bogu naszemu. A nie bądźcie przygnębieni, gdyż radość w Panu jest waszą ostoją».\nA lewici uspokajali cały lud, wołając: «Uspokójcie się! Wszak ten dzień jest święty. Nie bądźcie przygnębieni!» I cały lud poszedł, by jeść, pić, rozsyłać porcje i wyprawić wielkie obchody radosne, gdyż zrozumieli to, co im ogłoszono.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 19 (18), 8-9. 10-11 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Nakazy Pana są radością serca.\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\nRefren.\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 10, 1-12",
+      "opis": "Rozesłanie uczniów na głoszenie królestwa Bożego",
+      "tekst": "Jezus wyznaczył jeszcze innych siedemdziesięciu dwu uczniów i wysłał ich po dwóch przed sobą do każdego miasta i miejscowości, dokąd sam przyjść zamierzał. Powiedział też do nich: «Żniwo wprawdzie wielkie, ale robotników mało; proście więc Pana żniwa, żeby wyprawił robotników na swoje żniwo.\nIdźcie! Oto posyłam was jak owce między wilki. Nie noście z sobą trzosa ani torby, ani sandałów; i nikogo w drodze nie pozdrawiajcie. Gdy wejdziecie do jakiegoś domu, najpierw mówcie: Pokój temu domowi. Jeśli tam mieszka człowiek godny pokoju, wasz pokój spocznie na nim; jeśli nie, powróci do was. W tym samym domu zostańcie, jedząc i pijąc, co będą mieli: bo zasługuje robotnik na swoją zapłatę. Nie przechodźcie z domu do domu. Jeśli do jakiegoś miasta wejdziecie i przyjmą was, jedzcie, co wam podadzą; uzdrawiajcie chorych, którzy tam są, i mówcie im: Przybliżyło się do was królestwo Boże.\nLecz jeśli do jakiegoś miasta wejdziecie, a nie przyjmą was, wyjdźcie na jego ulice i powiedzcie: Nawet proch, który z waszego miasta przylgnął nam do nóg, strząsamy wam. Wszakże to wiedzcie, że bliskie jest królestwo Boże. Powiadam wam: Sodomie lżej będzie w ów dzień niż temu miastu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń jest bezpośrednim echem Ewangelii o rozesłaniu uczniów do głoszenia Dobrej Nowiny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do zgromadzenia się, by słuchać Słowa Bożego, tak jak lud w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Bożym, miejscu słuchania Prawa i posłania na misję.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o powołaniu do służby w Kościele nawiązuje do Ewangelii, w której Jezus posyła robotników na swoje żniwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń prosi o błogosławieństwo na trud pracy na żniwie Pańskim, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę ubóstwa i oddania, której Jezus wymaga od swoich uczniów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń mówi o Chrystusie, który zaspokaja najgłębsze pragnienia, co jest owocem przyjęcia głoszonego przez uczniów królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia jest pokarmem na drogę dla tych, którzy zostali posłani, by głosić Dobrą Nowinę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Chleb Żywy, jest jedynym pokarmem, którego potrzebują apostołowie w swojej misji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Boga, co odpowiada radości ludu po usłyszeniu i zrozumieniu Słowa Bożego w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie Pana za Jego Prawo, które, jak mówi psalm, raduje serce i olśniewa oczy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar Słowa Bożego, które przynosi radość i zrozumienie, jak opisuje to pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter Kościoła, który jest posłany, by głosić Pana całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, którą chcemy głosić innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa, którego królestwo mają głosić posłani uczniowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest bezpośrednim nawiązaniem do prośby Jezusa z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń powtarza kluczowe słowa z Ewangelii, które mieli głosić uczniowie: 'Przybliżyło się do was królestwo Boże'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą Opatrzność jest szczególnie adekwatna dla uczniów, których Jezus posyła bez żadnych zabezpieczeń materialnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Ufność w Bożą Opatrzność jest kluczowa dla misjonarza, który wyrusza w drogę bez torby i pieniędzy.",
+      "moment": "ogolne"
+    }
+  ]
+}

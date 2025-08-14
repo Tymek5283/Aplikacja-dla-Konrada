@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 89,2-3.6-7.16-17",
-      "opis": "Refren:",
-      "tekst": "Będę na wieki sławił łaski Pana.\nBędę na wieki śpiewał o łasce Pana,\nmoimi ustami Twą wierność będę głosił\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś:\n„Na wieki ugruntowana jest łaska”,\nutrwaliłeś swą wierność w niebiosach.\nNiebiosa wysławiają cuda Twoje, Panie,\ni Twoją wierność w zgromadzeniu świętych.\nBo któż na obłokach będzie równy Panu,\nkto z synów Bożych będzie doń podobny?\nBłogosławiony lud, który umie się cieszyć\ni chodzi, Panie, w blasku Twojej obecności.\nCieszą się zawsze Twym imieniem,\nwywyższa ich Twoja sprawiedliwość."
+      "opis": "",
+      "tekst": "Refren:\nBędę na wieki sławił łaski Pana.\nBędę na wieki śpiewał o łasce Pana,\nmoimi ustami Twą wierność będę głosił\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś:\n„Na wieki ugruntowana jest łaska”,\nutrwaliłeś swą wierność w niebiosach.\nNiebiosa wysławiają cuda Twoje, Panie,\ni Twoją wierność w zgromadzeniu świętych.\nBo któż na obłokach będzie równy Panu,\nkto z synów Bożych będzie doń podobny?\nBłogosławiony lud, który umie się cieszyć\ni chodzi, Panie, w blasku Twojej obecności.\nCieszą się zawsze Twym imieniem,\nwywyższa ich Twoja sprawiedliwość."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter Kościoła, do którego budowania przyczynił się św. Marek, głosząc Ewangelię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, któremu św. Marek służył, spisując Dobrą Nowinę.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "442",
       "piesn": "Z weselem ducha",
       "opis": "Pieśń ta bezpośrednio zwraca się do św. Marka, sławiąc go za spisanie Ewangelii, co czyni ją idealną na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o łaskę wierności w głoszeniu Ewangelii na wzór św. Marka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo w pracy głoszenia Ewangelii, do której powołany był św. Marek.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,9 +72,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, budowanego na fundamencie Ewangelii głoszonej przez apostołów i ewangelistów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Jako Dobry Pasterz, Jezus zaspokaja głód naszych serc, karmiąc nas swoim Ciałem, byśmy mieli siłę do głoszenia Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Ta pieśń jest hymnem misyjnym, wzywającym do głoszenia chwały Pana aż po krańce ziemi, co było misją św. Marka.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "622",
       "piesn": "Radośnie Panu hymn śpiewajmy",
-      "opis": "Radosny hymn uwielbienia, który wzywa całe stworzenie do chwalenia Pana, co rezonuje z nakazem głoszenia Ewangelii 'wszelkiemu stworzeniu'.",
+      "opis": "Radosny hymn uwielbienia, który współbrzmi z psalmem wzywającym do głoszenia łask Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest uniwersalnym hymnem chwały, który wpisuje się w misyjny charakter święta, wzywając wszystkie narody do chwalenia Boga.",
       "moment": "uwielbienie"
     },
     {
@@ -60,15 +108,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "597",
-      "piesn": "Chwalcie Pana wszyscy",
-      "opis": "Pieśń ta jest uniwersalnym hymnem chwały, który wpisuje się w misyjny charakter święta, wzywając wszystkie narody do chwalenia Boga.",
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i wierze, której świadkiem i głosicielem był św. Marek.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi królowanie Chrystusa, którego Ewangelię zaniósł poganom św. Marek.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
       "moment": "ogolne"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Hymn 'Te Deum' jest odpowiedni na każdą uroczystość, a jego treść o chórze apostołów i proroków szczególnie pasuje do święta Ewangelisty.",
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń o szukaniu Boga i Jego prawa, co było istotą życia i misji św. Marka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pierwszy list św. Piotra wzywa do czujności i ufności w Bożą opiekę, co jest głównym tematem tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń wzywa do radosnej służby Panu, do której zachęca św. Piotr i którą realizował św. Marek.",
       "moment": "ogolne"
     }
   ]

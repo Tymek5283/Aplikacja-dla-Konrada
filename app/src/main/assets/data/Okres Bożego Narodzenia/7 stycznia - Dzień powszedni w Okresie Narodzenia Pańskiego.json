@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410519.7-stycznia",
+  "tytul_dnia": "7 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 3, 22 - 4, 6",
+      "opis": "Badajcie duchy, czy są z Boga",
+      "tekst": "Najmilsi:\nO co prosić będziemy, otrzymamy od Boga, ponieważ zachowujemy Jego przykazania i czynimy to, co się Jemu podoba.\nPrzykazanie zaś Jego jest takie, abyśmy wierzyli w imię Jego Syna, Jezusa Chrystusa, i miłowali się wzajemnie tak, jak nam nakazał. Kto wypełnia Jego przykazania, trwa w Bogu, a Bóg w nim; a to, że trwa On w nas, poznajemy po Duchu, którego nam dał.\nUmiłowani, nie każdemu duchowi dowierzajcie, ale badajcie duchy, czy są z Boga, gdyż wielu fałszywych proroków pojawiło się na świecie. Po tym poznajecie Ducha Bożego: każdy duch, który uznaje, że Jezus Chrystus przyszedł w ciele, jest z Boga. Żaden zaś duch, który nie uznaje Jezusa, nie jest z Boga; i to jest duch Antychrysta, który - jak słyszeliście - nadchodzi i już teraz przebywa na świecie.\nWy, dzieci, jesteście z Boga i zwyciężyliście ich, ponieważ większy jest Ten, który w was jest, od tego, który jest w świecie. Oni są ze świata, dlatego mówią od świata, a świat ich słucha. My jesteśmy z Boga. Ten, kto zna Boga, słucha nas. Kto nie jest z Boga, nas nie słucha. W ten sposób poznajemy ducha prawdy i ducha fałszu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 2, 7-8. 10-12a (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Dam Ci narody w Twoje posiadanie.\nWyrok Pański ogłoszę: †\non rzekł do mnie: «Ty jesteś moim Synem, *\nJa dzisiaj zrodziłem Ciebie.\nŻądaj, a dam Ci w dziedzictwo narody *\ni krańce ziemi w posiadanie Twoje».\nRefren.\nA teraz, królowie, zrozumcie, *\nnauczcie się, sędziowie ziemi.\nSłużcie Panu z bojaźnią, *\nz drżeniem całujcie Mu stopy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 4, 12-17. 23-25",
+      "opis": "Bliskie jest królestwo niebieskie",
+      "tekst": "Gdy Jezus posłyszał, że Jan został uwięziony, usunął się do Galilei. Opuścił jednak Nazaret, przyszedł i osiadł w Kafarnaum nad jeziorem, na pograniczu ziem Zabulona i Neftalego. Tak miało się spełnić słowo proroka Izajasza: «Ziemia Zabulona i ziemia Neftalego, na drodze ku morzu, Zajordanie, Galilea pogan! Lud, który siedział w ciemności, ujrzał światło wielkie, i mieszkańcom cienistej krainy śmierci wzeszło światło».\nOdtąd począł Jezus nauczać i mówić: «Nawracajcie się, albowiem bliskie jest królestwo niebieskie». I obchodził Jezus całą Galileę, nauczając w tamtejszych synagogach, głosząc Ewangelię o królestwie i lecząc wszelkie choroby i wszelkie słabości wśród ludu.\nA wieść o Nim rozeszła się po całej Syrii. Przynoszono więc do Niego wszystkich cierpiących, których nękały rozmaite choroby i dolegliwości: opętanych, epileptyków i paralityków. A On ich uzdrawiał. I szły za Nim liczne tłumy z Galilei i z Dekapolu, z Jerozolimy, z Judei i z Zajordania.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń o wcieleniu i misji Jezusa, który jako wielkie światło objawia się w Galilei, co bezpośrednio nawiązuje do treści Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń mówi o Zbawicielu przynoszącym światło zbłąkanym w mroku, co jest echem proroctwa Izajasza z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Utwór ten mówi o nowej Gwieździe, która rozświeca ciemności, co koresponduje z obrazem Jezusa jako 'wielkiego światła' w Galilei.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie podkreśla przykazanie miłości wzajemnej jako znak trwania w Bogu, a ta pieśń jest jego muzycznym wyrazem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Utwór ten jest hymnem na cześć miłości, która jest znakiem trwania w Bogu i wypełniania Jego przykazań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszej pracy i czynów, aby były one zgodne z wolą Bożą, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Ewangelia opisuje Jezusa uzdrawiającego wszelkie choroby, a pieśń ta jest zaproszeniem do szukania u Niego pociechy i uzdrowienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, na wzór tłumów, które szły za Nim, szukając uzdrowienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym spotkaniem z Jezusem, który jest lekarzem dusz i ciał.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest radosnym wezwaniem do głoszenia królewskiej władzy Pana, co koresponduje z Ewangelią o głoszeniu królestwa i Psalmem o dziedzictwie narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, którego sława rozchodziła się po całej Syrii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Utwór ten wzywa całe stworzenie do radości z powodu panowania Pana, którego królestwo głosi Jezus.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest dosłownym cytatem z wezwania Jezusa w dzisiejszej Ewangelii, co stanowi mocne posłanie na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o królestwie, tak jak czynił to Jezus w Galilei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Antyfona ta, choć adwentowa, wzywa Mądrość Bożą, by oświeciła siedzących w ciemnościach, co jest echem proroctwa Izajasza z Ewangelii.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Krótka pieśń podkreślająca temat Jezusa jako światłości, który pojawił się w 'Galilei pogan' jako 'światło wielkie'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, którego królestwo przybliżyło się wraz z przyjściem Jezusa.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar wiary i uzdrowienia, których doświadczały tłumy podążające za Jezusem.",
+      "moment": "ogólne"
+    }
+  ]
+}

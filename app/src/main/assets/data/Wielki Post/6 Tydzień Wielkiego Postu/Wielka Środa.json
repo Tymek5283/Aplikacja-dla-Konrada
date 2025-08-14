@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413077.Wielka-Sroda",
+  "tytul_dnia": "Wielka Środa",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 50, 4-9a",
+      "opis": "Proroctwo o cierpiącym słudze Boga",
+      "tekst": "Pan Bóg mnie obdarzył językiem wymownym, bym umiał pomóc strudzonemu krzepiącym słowem. Każdego rana pobudza me ucho, bym słuchał jak uczniowie. Pan Bóg otworzył mi ucho, a ja się nie oparłem ani się nie cofnąłem.\nPodałem grzbiet mój bijącym i policzki moje rwącym mi brodę. Nie zasłoniłem mojej twarzy przed zniewagami i opluciem.\nPan Bóg mnie wspomaga, dlatego jestem nieczuły na obelgi, dlatego uczyniłem twarz moją jak głaz i wiem, że wstydu nie doznam.\nBlisko jest Ten, który mnie uniewinni. Kto się odważy toczyć spór ze mną? Wystąpmy razem! Kto jest moim oskarżycielem? Niech się zbliży do mnie!\nOto Pan Bóg mnie wspomaga. Któż mnie potępi?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 69 (68), 8-10. 21-22. 31 i 33-34 (R.: por. 14c)",
+      "opis": "",
+      "tekst": "Refren: W Twojej dobroci wysłuchaj mnie, Panie.\nDla Ciebie znoszę urąganie, hańba twarz mi okrywa, †\ndla braci moich stałem się obcym *\ni cudzoziemcem dla synów mej matki.\nBo gorliwość o dom Twój mnie pożera *\ni spadły na mnie obelgi złorzeczących Tobie.\nRefren.\nHańba złamała me serce i sił mi zabrakło, †\nczekałem na współczucie, lecz nikt się nie zjawił, *\ni na pocieszycieli, lecz ich nie znalazłem.\nDomieszali trucizny do mego pokarmu, *\na gdy byłem spragniony, poili mnie octem.\nRefren.\nPieśnią chcę chwalić imię Boga *\ni wielbić Go z dziękczynieniem.\nPatrzcie i cieszcie się, ubodzy, †\nniech ożyje serce szukających Boga. *\nBo Pan wysłuchuje biednych i swoimi więźniami nie gardzi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Witaj, nasz Królu i Zbawicielu,\nTy sam zlitowałeś się nad grzesznymi.\nAlbo:\nWitaj, nasz Królu, posłuszny woli Ojca,\njak cichego baranka na zabicie zaprowadzono Ciebie na ukrzyżowanie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 26, 14-25",
+      "opis": "Zdrada Judasza",
+      "tekst": "Jeden z Dwunastu, imieniem Judasz Iskariota, udał się do arcykapłanów i rzekł: «Co chcecie mi dać, a ja wam Go wydam?» A oni wyznaczyli mu trzydzieści srebrników. Odtąd szukał sposobności, żeby Go wydać.\nW pierwszy dzień Przaśników przystąpili do Jezusa uczniowie i zapytali Go: «Gdzie chcesz, żebyśmy Ci przygotowali spożywanie Paschy?»\nOn odrzekł: «Idźcie do miasta, do znanego nam człowieka i powiedzcie mu: „Nauczyciel mówi: Czas mój jest bliski; u ciebie urządzam Paschę z moimi uczniami”». Uczniowie uczynili tak, jak im polecił Jezus, i przygotowali Paschę.\nZ nastaniem wieczoru zajął miejsce u stołu razem z dwunastu uczniami. A gdy jedli, rzekł: «Zaprawdę, zaprawdę, powiadam wam: jeden z was Mnie wyda».\nBardzo tym zasmuceni, zaczęli pytać jeden przez drugiego: «Chyba nie ja, Panie?»\nOn zaś odpowiedział: «Ten, który ze Mną rękę zanurzył w misie, ten Mnie wyda. Wprawdzie Syn Człowieczy odchodzi, jak o Nim jest napisane, lecz biada temu człowiekowi, przez którego Syn Człowieczy będzie wydany. Byłoby lepiej dla tego człowieka, gdyby się nie narodził».\nWtedy Judasz, który miał Go wydać, rzekł: «Czyżbym ja, Rabbi?» Odpowiedział mu: «Tak, ty».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to pieśń błagalna, która wprowadza w atmosferę Wielkiej Środy, dnia zdrady i zbliżającej się Męki.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża postawę Sługi Pańskiego, który w cierpieniu zwraca się do Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc w obliczu zdrady i cierpienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy i obrazę Bożego majestatu, co mocno rezonuje z tematem zdrady Judasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który wspomaga swojego Sługę w ucisku.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wierność Chrystusowi jest odpowiedzią na zdradę Judasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Wskazuje na cel Męki Pańskiej - zgładzenie grzechów, co jest odpowiedzią na zdradę i ludzką słabość.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem w Jego Męce, która rozpoczyna się od zdrady w Wieczerniku.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń adoruje miłość Jezusa, która jest zdradzona, a która daje się nam w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża osobiste zwrócenie się do Boga w obliczu ciemności grzechu i cierpienia opisanego w czytaniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest blisko i uniewinnia swojego Sługę, jak mówi prorok Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą wierność i pomoc w utrapieniu, o której mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Krótka i intensywna prośba o przebaczenie, która jest odpowiednim zwieńczeniem liturgii w tym dniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest przeciwieństwem postawy Judasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu drogi zdrady, aby powrócić do miłosiernego Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Pieśń ta jest parafrazą psalmu pokutnego, idealną do refleksji nad grzechem i Bożym miłosierdziem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Kolejna pieśń oparta na Psalmie 51, która pomaga wejść w ducha pokuty Wielkiego Tygodnia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o zmiłowanie jest odpowiedzią na dramat zdrady i zapowiedź Męki Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę wierności w przeciwieństwie do zdrady Judasza.",
+      "moment": "ogolne"
+    }
+  ]
+}

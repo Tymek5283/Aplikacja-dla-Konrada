@@ -1,0 +1,135 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418117.Sobota-24-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "24 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 6, 13-16",
+      "opis": "Zachować wierność Chrystusowi aż do Jego przyjścia",
+      "tekst": "Najmilszy:\nNakazuję w obliczu Boga, który ożywia wszystko, i Chrystusa Jezusa - Tego, który złożył dobre wyznanie za Poncjusza Piłata - ażebyś zachował przykazanie nieskalane, bez zarzutu, aż do objawienia się naszego Pana, Jezusa Chrystusa. Ukaże je, we właściwym czasie, błogosławiony i jedyny Władca, Król królujących i Pan panujących, jedyny mający nieśmiertelność, który zamieszkuje światłość niedostępną, którego nikt z ludzi nie widział ani nie może zobaczyć: Jemu cześć i moc wiekuista! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 2b)",
+      "opis": "",
+      "tekst": "Refren: Stańcie z radością przed obliczem Pana.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 4-15",
+      "opis": "Przypowieść o siewcy",
+      "tekst": "Gdy zebrał się wielki tłum i z poszczególnych miast przychodzili do Jezusa, opowiedział im przypowieść:\n«Siewca wyszedł siać swoje ziarno. A gdy siał, jedno padło na drogę i zostało podeptane, a ptaki podniebne wydziobały je. Inne padło na skałę i gdy wzeszło, uschło, bo nie miało wilgoci. Inne znowu padło między ciernie, a ciernie razem z nim wyrosły i zagłuszyły je. Inne w końcu padło na ziemię żyzną i gdy wzrosło, wydało plon stokrotny».\nTo mówiąc, wołał: «Kto ma uszy do słuchania, niechaj słucha!»\nPytali Go więc Jego uczniowie, co oznacza ta przypowieść. On rzekł: «Wam dano poznać wprost tajemnice królestwa Bożego, innym zaś w przypowieściach, „aby patrząc, nie widzieli, i słuchając, nie rozumieli”.\nTakie jest znaczenie przypowieści: Ziarnem jest słowo Boże. Tymi zaś na drodze są ci, którzy słuchają słowa; potem przychodzi diabeł i zabiera słowo z ich serca, żeby nie uwierzyli i nie byli zbawieni. Na skałę pada u tych, którzy gdy usłyszą, z radością przyjmują słowo, lecz nie mają korzenia: wierzą do czasu, a w chwili pokusy odstępują.\nTo, które padło między ciernie, oznacza tych, którzy słuchają słowa, lecz potem odchodzą, a zagłuszeni przez troski, bogactwa i rozkosze życia, nie wydają owocu.\nWreszcie ziarno w żyznej ziemi oznacza tych, którzy wysłuchawszy słowa sercem szlachetnym i dobrym, zatrzymują je i wydają owoc dzięki wytrwałości».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do słuchania Słowa Bożego, które jest ziarnem rzucanym przez Siewcę z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń podkreśla wartość trwania Słowa Bożego, które jest ziarnem zasiewanym w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest miejscem głoszenia i przyjmowania Słowa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców, co jest celem zasiewu Słowa Bożego opisanego w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy nasze życie, prosząc, by stało się ono dobrym owocem, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę otwartego serca, które jest żyzną glebą dla Słowa Bożego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Eucharystia jest pokarmem, który umacnia nas w wytrwałości, by Słowo Boże wydało w nas owoc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Komunia Święta jest przyjęciem samego Chrystusa, który jest Słowem i Chlebem życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus stał się pokarmem dla nas, abyśmy mogli iść i przynosić owoc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, Króla królujących, o którym z taką emfazą mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmu do radosnego służenia Panu i chwalenia Jego imienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem czci dla Boga, jedynego Władcy, o którym mówi św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Jako w sobotę, pieśń do Maryi, która jest wzorem żyznej gleby przyjmującej Słowo, jest stosowna na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "371",
+      "piesn": "O Maryjo, witam Cię!",
+      "opis": "Maryja, która zachowywała Słowo w sercu, jest wzorem dla nas, jak przyjmować ziarno Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Modlitwa do Królowej Polski jest prośbą o opiekę nad naszą wiarą, by wydawała dobre owoce.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, by Słowo Boże mogło zapuścić w nas korzenie i wydać plon.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu jest fundamentem, który pozwala Słowu Bożemu wzrastać w naszym sercu bez lęku.",
+      "moment": "ogolne"
+    }
+  ]
+}

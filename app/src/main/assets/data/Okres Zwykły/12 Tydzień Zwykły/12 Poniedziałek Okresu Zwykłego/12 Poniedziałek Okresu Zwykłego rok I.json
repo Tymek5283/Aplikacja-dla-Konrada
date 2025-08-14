@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426086.Poniedzialek-XII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "12 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 12, 1-9",
+      "opis": "Powołanie Abrahama",
+      "tekst": "Pan Bóg rzekł do Abrama: «Wyjdź z twojej ziemi rodzinnej i z domu twego ojca do kraju, który ci ukażę. Uczynię bowiem z ciebie wielki naród, będę ci błogosławił i twoje imię rozsławię: staniesz się błogosławieństwem. Będę błogosławił tym, którzy tobie błogosławić będą, a tym, którzy tobie będą złorzeczyli, i Ja będę złorzeczył. Przez ciebie będą otrzymywały błogosławieństwo ludy całej ziemi».\nAbram udał się w drogę, jak mu Pan rozkazał, a z nim poszedł i Lot. Abram miał siedemdziesiąt pięć lat, gdy wyszedł z Charanu. I zabrał Abram z sobą swoją żonę, Saraj, swego bratanka, Lota, i cały dobytek, jaki obaj posiadali, oraz służbę, którą nabyli w Charanie, i wyruszyli, aby się udać do Kanaanu.\nGdy zaś przybyli do Kanaanu, Abram przeszedł przez ten kraj aż do pewnej miejscowości koło Sychem, do dębu More. - A w kraju tym mieszkali wówczas Kananejczycy.\nPan, ukazawszy się Abramowi, rzekł: «Twojemu potomstwu oddaję właśnie tę ziemię». Abram zbudował tam ołtarz dla Pana, który mu się ukazał.\nStamtąd zaś przeniósł się na wzgórze na wschód od Betel i rozbił swój namiot pomiędzy Betel od zachodu i Aj od wschodu. Tam również zbudował ołtarz dla Pana i wzywał imienia Jego.\nZwinąwszy namioty, Abram wędrował z miejsca na miejsce w stronę Negebu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 12-13. 18-19. 20 i 22 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy naród wybrany przez Pana.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\nna tych, którzy oczekują Jego łaski,\naby ocalił ich życie od śmierci *\ni żywił ich w czasie głodu.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 7, 1-5",
+      "opis": "Usuń najpierw belkę ze swego oka",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie sądźcie, abyście nie byli sądzeni. Bo takim sądem, jakim sądzicie, i was osądzą; i taką miarą, jaką wy mierzycie, wam odmierzą.\nCzemu to widzisz drzazgę w oku swego brata, a nie dostrzegasz belki we własnym oku? Albo jak możesz mówić swemu bratu: Pozwól, że usunę drzazgę z twego oka, podczas gdy belka tkwi w twoim oku? Obłudniku, usuń najpierw belkę ze swego oka, a wtedy przejrzysz, ażeby usunąć drzazgę z oka twego brata».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, które było fundamentem drogi Abrahama, posłusznego Bożemu wezwaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Abraham, ufając Bożej Opatrzności, wyruszył w nieznane, a ta pieśń sławi szczęście płynące z takiego zaufania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń jest zapewnieniem o wierności Boga, który nie opuszcza tych, co Mu ufają, tak jak nie opuścił Abrahama.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Postawa Abrahama, który opuścił wszystko dla Boga, jest wzorem ofiarowania Mu całego swojego życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, naśladując posłuszeństwo i wiarę Abrahama.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Składamy w ofierze samych siebie, idąc za przykładem Abrahama, który całe swoje życie uczynił ofiarą dla Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Wobec wezwania do nieosądzania, ta pieśń jest aktem pokory i prośbą o Boże miłosierdzie nad naszą słabością.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosimy Jezusa, by przyszedł do naszych serc i oczyścił je z belki osądu, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory, która jest warunkiem przyjęcia Chrystusa i Jego nauki o nieosądzaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który wybiera sobie lud na dziedzictwo, jak mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Dziękujemy Bogu za Jego wierność i błogosławieństwo, obiecane Abrahamowi i jego potomstwu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm wzywa do radości naród wybrany przez Pana, a ta pieśń jest radosnym hymnem na Jego cześć.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ewangelia wzywa do miłości braterskiej, która powstrzymuje od osądzania, a ta pieśń jest modlitwą o taką miłość.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jesteśmy posłani, by żyć przykazaniem miłości, które wyraża się w nieosądzaniu braci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy potrafili żyć Ewangelią i powstrzymywać się od sądzenia innych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za Boże błogosławieństwo obiecane Abrahamowi i jego potomstwu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Abraham stał się błogosławieństwem dla wszystkich ludów, a my jesteśmy posłani, by nieść błogosławieństwo Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litanijna prośba o miłosierdzie jest adekwatna do nauki Jezusa o nieosądzaniu i potrzebie własnego nawrócenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, a jednym z nich jest powstrzymywanie się od sądzenia braci.",
+      "moment": "ogolne"
+    }
+  ]
+}

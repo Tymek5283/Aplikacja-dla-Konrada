@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412885.Poniedzialek-II-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "2 Poniedziałek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 9, 4b-10",
+      "opis": "Wyznanie grzechów",
+      "tekst": "O Panie, Boże mój, wielki i straszliwy, który dochowujesz wiernie przymierza tym, co Ciebie kochają i przestrzegają Twoich przykazań. Zgrzeszyliśmy, zbłądziliśmy, popełniliśmy nieprawość i zbuntowaliśmy się, odstąpiliśmy od Twoich przykazań. Nie byliśmy posłuszni Twoim sługom, prorokom, którzy przemawiali w Twoim imieniu do naszych królów, do naszych przywódców, do naszych przodków i do całej ludności kraju. U Ciebie, Panie, sprawiedliwość, a u nas wstyd na twarzach, jak to jest dziś u nas - mieszkańców Judy i Jerozolimy, i całego Izraela, u bliskich i dalekich, we wszystkich krajach, dokąd ich wypędziłeś z powodu niewierności, jaką Ci okazali. Panie! Wstyd na naszych twarzach, naszych królów, naszych przywódców i naszych ojców, bo zgrzeszyliśmy przeciw Tobie. Ale Pan, Bóg nasz, jest miłosierny i okazuje łaskawość, mimo że zbuntowaliśmy się przeciw Niemu i nie słuchaliśmy głosu Pana, Boga naszego, by postępować według wskazań, które nam dał przez swoje sługi, proroków. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 79 (78), 5a i 8. 9. 11 i 13 (R.: por. Ps 103 [102], 10a)",
+      "opis": "",
+      "tekst": "Refren: Nie czyń nam, Panie, według naszych grzechów.\nCzy wiecznie będziesz się gniewał? *\n\nNie pamiętaj nam win przodków naszych,\n\nniech szybko nas spotka Twoje zmiłowanie, *\n\ngdyż bardzo jesteśmy słabi.\nRefren.\nWspomóż nas, Boże, nasz Zbawco, *\n\ndla chwały Twojego imienia;\n\nWyzwól nas i odpuść nam grzechy *\n\nprzez wzgląd na swoje imię.\nRefren.\nNiech jęk pojmanych dojdzie do Ciebie *\n\ni mocą Twego ramienia ocal na śmierć skazanych.\n\nMy zaś, lud Twój i owce Twojej trzody, †\n\nbędziemy wielbić Ciebie na wieki *\n\ni przez pokolenia głosić Twoją chwałę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 6, 63c. 68c",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Słowa Twoje, Panie, są duchem i życiem.\n\nTy masz słowa życia wiecznego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 6, 36-38",
+      "opis": "Odpuszczajcie, a będzie wam odpuszczone",
+      "tekst": "Jezus powiedział do swoich uczniów:\n\n«Bądźcie miłosierni, jak Ojciec wasz jest miłosierny. Nie sądźcie, a nie będziecie sądzeni; nie potępiajcie, a nie będziecie potępieni; odpuszczajcie, a będzie wam odpuszczone. Dawajcie, a będzie wam dane; miarę dobrą, ubitą, utrzęsioną i wypełnioną ponad brzegi wsypią w zanadrza wasze. Odmierzą wam bowiem taką miarą, jaką wy mierzycie». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest echem modlitwy Daniela z pierwszego czytania, w której wyznaje grzechy ludu i prosi o litość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o przebaczenie, zgodnie z duchem pokutnym czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem grzesznego ludu o Bożą łaskę i opamiętanie, co jest treścią modlitwy Daniela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta wzywa do konkretnych czynów miłosierdzia i przebaczenia, o których naucza Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i błagania o miłosierdzie, które jest warunkiem otrzymania przebaczenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że miłosierdzie, którego doświadczamy, powinno prowadzić nas do przebaczenia braciom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Utwór ten skupia się na dobroci i miłosierdziu Boga, do naśladowania którego wzywa nas dzisiejsza Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń mówi o obmyciu i odnowieniu, co jest owocem Bożego przebaczenia, którego mamy udzielać innym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie, które otrzymujemy od Boga, abyśmy sami mogli przebaczać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to klasyczna pieśń pokutna, która wyraża postawę skruchy i prośby o miłosierdzie, obecną w czytaniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest miłosierny i okazuje łaskawość, jak wyznaje Daniel.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które jest odpowiedzią na naszą skruchę i modlitwę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Ta krótka suplikacja jest doskonałym podsumowaniem ducha dnia, prosząc o przebaczenie, byśmy sami mogli przebaczać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i życia Ewangelią, której sercem jest przykazanie wzajemnego przebaczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa przez pokutę i miłość, która wyraża się w przebaczeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o oczyszczenie z grzechów, co jest warunkiem otrzymania miłosierdzia od Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wzywa do postawy pokory i błagania, która jest odpowiedzią na słowa o Bożej sprawiedliwości i miłosierdziu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne do miłosierdzia na wzór miłosiernego Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę miłosierdzia dla nas i dla naszych winowajców.",
+      "moment": "ogolne"
+    }
+  ]
+}

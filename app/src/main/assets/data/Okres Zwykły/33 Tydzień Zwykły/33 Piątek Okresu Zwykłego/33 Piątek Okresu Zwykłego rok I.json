@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414194.Piatek-33-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "33 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Mch 4, 36-37. 52-59",
+      "opis": "Odbudowa i poświęcenie ołtarza",
+      "tekst": "Juda i jego bracia powiedzieli: «Oto nasi wrogowie zostali starci na proch. Chodźmy oczyścić świątynię i na nowo poświęcić». Zebrało się więc całe wojsko i poszli na górę Syjon.\nDwudziestego piątego dnia dziewiątego miesiąca, to jest miesiąca Kislew, sto czterdziestego ósmego roku wstali wcześnie rano i zgodnie z Prawem złożyli ofiarę na nowym ołtarzu całopalenia, który wybudowali. Dokładnie w tym samym czasie i tego samego dnia, którego poganie go zbezcześcili, został on na nowo poświęcony przy śpiewie pieśni i grze na cytrach, harfach i cymbałach. Cały lud upadł na twarz, oddał pokłon i aż pod niebo wysławiał Tego, który im poszczęścił. W osiem dni dokonali poświęcenia ołtarza, a przy tym z radością złożyli całopalenia, ofiarę biesiadną i ofiarę uwielbienia. Fasadę świątyni ozdobili wieńcami i małymi tarczami, odbudowali bramy i pomieszczenia dla kapłanów i pozakładali do nich drzwi, a wśród ludu nastała bardzo wielka radość z tego powodu, że skończyła się hańba, którą sprowadzili poganie.\nJuda zaś, jego bracia i całe zgromadzenie Izraela postanowili, że uroczystość poświęcenia ołtarza będą z weselem i radością obchodzili rokrocznie przez osiem dni, począwszy od dnia dwudziestego piątego miesiąca Kislew.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "1 Krn 29, 10b-11b. 11c-12 (R.: por. 13b)",
+      "opis": "",
+      "tekst": "Refren: Chwalimy, Panie, Twe przesławne imię.\nBądź błogosławiony po wszystkie wieki, *\nPanie, Boże ojca naszego, Izraela,\nTwoja jest wielkość, moc i sława, majestat i chwała, *\nbo wszystko, co jest na niebie i ziemi, Twoje jest, Panie.\nRefren.\nWładza królewska należy do Ciebie, †\ni nawet ziemski monarcha jest Twoją własnością. *\nBogactwo i chwała od Ciebie pochodzą.\nTy panujesz nad wszystkimi, †\nw Twojej ręce spoczywa moc i siła, *\nTy swoją ręką wywyższasz i utwierdzasz wszystko.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 19, 45-48",
+      "opis": "Jezus wypędza przekupniów ze świątyni",
+      "tekst": "Jezus wszedł do świątyni i zaczął wyrzucać sprzedających w niej. Mówił do nich: «Napisane jest: „Mój dom będzie domem modlitwy”, a wy uczyniliście go jaskinią zbójców».\nI nauczał codziennie w świątyni. Lecz arcykapłani i uczeni w Piśmie oraz przywódcy ludu czyhali na Jego życie. Tylko nie wiedzieli, co by mogli uczynić, cały lud bowiem słuchał Go z zapartym tchem.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Bożym, nawiązując do radości ludu z ponownego poświęcenia świątyni w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywająca do oddania czci Bogu w Jego domu, co jest centralnym tematem obu czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "688",
+      "piesn": "Boże, lud Twój",
+      "opis": "Pieśń na wejście, która podkreśla, że w świątyni lud wznosi serce do Boga, co stanowi tło dla wydarzeń z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W kontekście oczyszczenia świątyni przez Jezusa, składamy w ofierze dary chleba i wina, prosząc, by nasza ofiara była czysta.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Prosimy Boga o przyjęcie naszej ofiary i wzmocnienie wiary, abyśmy byli godni przebywać w Jego domu modlitwy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, łącząc się z radością ludu z odnowienia świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Jezus oczyszcza świątynię materialną, a ta pieśń jest modlitwą o przygotowanie naszych serc na Jego przyjście, by stały się Jego domem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, które pragnie być czystym mieszkaniem dla Niego, prawdziwą świątynią.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża postawę grzesznika, który z pokorą i radością przyjmuje Zbawiciela do swego serca, prosząc o jego oczyszczenie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest radosnym hymnem chwały, podobnym do tego, który lud śpiewał podczas poświęcenia ołtarza w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Boga, którego wielkość i moc opiewa psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą dobroć i łaskę, która pozwala nam na nowo poświęcać Mu nasze życie i świątynie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, który jest nową świątynią i domem modlitwy, o co upominał się Jezus w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy wychodząc ze świątyni, sami stawali się domem modlitwy przez nasze życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by kroczyć drogą Chrystusa, drogą modlitwy i wierności Bogu, której uczył w świątyni.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywająca do oddania czci Bogu w Jego domu, co jest centralnym tematem obu czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "688",
+      "piesn": "Boże, lud Twój",
+      "opis": "Pieśń na wejście, która podkreśla, że w świątyni lud wznosi serce do Boga, co stanowi tło dla wydarzeń z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Pieśń jest aktem adoracji i czci wobec świętości Boga, której Jezus bronił w świątyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "620",
+      "piesn": "Przystąpię do ołtarza",
+      "opis": "Pieśń wyraża radość z przystępowania do ołtarza w domu Bożym, miejscu modlitwy i spotkania z Bogiem.",
+      "moment": "ogolne"
+    }
+  ]
+}

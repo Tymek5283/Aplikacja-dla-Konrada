@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412416.Sobota-V-tydzien-Wielkiego-Postu",
+  "tytul_dnia": "5 Sobota Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 37, 21-28",
+      "opis": "Bóg gromadzi rozproszonych",
+      "tekst": "Tak mówi Pan Bóg:\n«Oto wybieram Izraelitów spośród ludów, do których pociągnęli, i zbieram ich ze wszystkich stron, i prowadzę ich do ich kraju. I uczynię ich jednym ludem w kraju, na górach Izraela, i jeden król będzie nimi wszystkimi rządził, i już nie będą tworzyć dwóch narodów, i już nie będą podzieleni na dwa królestwa.\nI już nie będą się kalać swymi bożkami i wstrętnymi kultami, i wszelkimi odstępstwami. Uwolnię ich od wszystkich wiarołomstw, którymi zgrzeszyli, oczyszczę ich i będą moim ludem, Ja zaś będę ich Bogiem.\nSługa mój, Dawid, będzie królem nad nimi, i wszyscy oni będą mieć jedynego Pasterza, i żyć będą według moich praw, i moje przykazania zachowywać będą i wypełniać. Będą mieszkali w kraju, który dałem słudze mojemu, Jakubowi, w którym mieszkali wasi przodkowie. Zamieszkają w nim oni i synowie, i wnuki ich na zawsze, a mój sługa, Dawid, będzie na zawsze ich władcą.\nI zawrę z nimi przymierze pokoju: będzie to wiekuiste przymierze z nimi. Osadzę ich i rozmnożę, a mój przybytek pośród nich umieszczę na stałe. Mieszkanie moje będzie pośród nich, i Ja będę ich Bogiem, a oni będą moim ludem. Ludy zaś pogańskie poznają, że Ja jestem Pan, który uświęca Izraela, gdy mój przybytek będzie wśród nich na zawsze».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Jr 31, 10. 11-12b. 13 (R.: por. 10d)",
+      "opis": "",
+      "tekst": "Refren: Pan nas obroni, tak jak pasterz owce.\nSłuchajcie, narody, słowa Pańskiego, *\ngłoście je na wyspach odległych i mówcie:\n«Ten, który rozproszył Izraela, znów go zgromadzi *\ni będzie nad nim czuwał jak pasterz nad swym stadem».\nRefren.\nPan bowiem uwolni Jakuba, *\nwybawi go z ręki silniejszego od niego.\nPrzyjdą z weselem na szczyt Syjonu *\ni rozradują się błogosławieństwem Pana.\nRefren.\nWtedy dziewica rozweseli się w tańcu *\ni młodzieńcy cieszyć się będą ze starcami.\nZamienię bowiem ich smutek w radość, *\npocieszę ich i rozweselę po ich troskach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ez 18, 31ac",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Odrzućcie od siebie wszystkie grzechy\ni uczyńcie sobie nowe serce i nowego ducha."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 11, 45-57",
+      "opis": "Jezus umrze, aby zgromadzić rozproszone dzieci Boże",
+      "tekst": "Wielu spośród Żydów przybyłych do Marii, ujrzawszy to, czego Jezus dokonał, uwierzyło w Niego. Niektórzy z nich udali się do faryzeuszów i donieśli im, co Jezus uczynił.\nArcykapłani więc i faryzeusze zwołali Sanhedryn i rzekli: «Cóż zrobimy wobec tego, że ten człowiek czyni wiele znaków? Jeżeli Go tak pozostawimy, to wszyscy uwierzą w Niego, a przyjdą Rzymianie i zniszczą nasze miejsce święte i nasz naród». Wówczas jeden z nich, Kajfasz, który w owym roku był najwyższym kapłanem, rzekł do nich: «Wy nic nie rozumiecie i nie bierzecie tego pod rozwagę, że lepiej jest dla was, aby jeden człowiek umarł za lud, niżby miał zginąć cały naród».\nTego jednak nie powiedział sam od siebie, ale jako najwyższy kapłan w owym roku wypowiedział proroctwo, że Jezus ma umrzeć za naród, i nie tylko za naród, ale także po to, by rozproszone dzieci Boże zgromadzić w jedno. Tego więc dnia postanowili Go zabić.\nOdtąd Jezus już nie występował otwarcie wśród Żydów, tylko odszedł stamtąd do krainy w pobliżu pustyni, do miasta zwanego Efraim, i tam przebywał ze swymi uczniami.\nA była blisko Pascha żydowska. Wielu przed Paschą udawało się z tej okolicy do Jerozolimy, aby się oczyścić. Oni więc szukali Jezusa i gdy stanęli w świątyni, mówili jeden do drugiego: «Jak wam się zdaje? Czyżby nie miał przyjść na święto?»\nArcykapłani zaś i faryzeusze wydali polecenie, aby każdy, ktokolwiek będzie wiedział o miejscu Jego pobytu, doniósł o tym, by można było Go pojmać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń ta mówi o zbawczej śmierci Chrystusa, która, jak prorokował Kajfasz, zgromadziła rozproszone dzieci Boże.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża skruchę z powodu grzechu, który doprowadził do decyzji o zabiciu Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża prośbę o miłosierdzie w obliczu nadchodzącej Męki Pańskiej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża wierność przymierzu z Bogiem, który obiecuje zgromadzić swój lud i być jego Pasterzem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę czci wobec Boga, który przez śmierć swojego Syna realizuje plan zjednoczenia ludzkości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że ofiara Chrystusa jest źródłem jedności Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do jedności, którą buduje ofiara Chrystusa, gromadząc w jedno rozproszone dzieci Boże.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, który umarł, aby nas zgromadzić w jedno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń adoruje miłość Jezusa, która objawiła się w Jego ofierze za naród i za wszystkich ludzi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń uwielbia Boga za Jego wierność obietnicom zjednoczenia i oczyszczenia swojego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które zamienia smutek w radość, jak obiecuje psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to pieśń chwały na cześć Pana, który jak pasterz gromadzi swoją owczarnię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do nawrócenia i życia w jedności, co jest owocem zbawczej śmierci Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta oddaje misyjny wymiar dzieła Chrystusa, który umarł, by zgromadzić w jedno dzieci Boże ze wszystkich narodów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa przez pokutę i miłość, która buduje jedność.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę zjednoczenia z Bogiem i braćmi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Decyzja o zabiciu Jezusa przybliża moment Jego ofiary, która otwiera bramy królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna jest prośbą o oczyszczenie, które Bóg obiecuje swojemu ludowi w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Boga, który pragnie zgromadzić wszystkich w swoim domu.",
+      "moment": "ogolne"
+    }
+  ]
+}

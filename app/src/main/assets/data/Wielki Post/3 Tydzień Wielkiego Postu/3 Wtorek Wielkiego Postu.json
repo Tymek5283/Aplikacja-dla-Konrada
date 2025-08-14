@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412899.Wtorek-III-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "3 Wtorek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 3, 25. 34-43",
+      "opis": "Modlitwa skruszonego",
+      "tekst": "Powstawszy, Azariasz tak się modlił, a otwarłszy usta, mówił pośród ognia:\n«Nie opuszczaj nas na zawsze - przez wzgląd na święte Twe imię nie zrywaj Twego przymierza. Nie odwracaj od nas swego miłosierdzia, przez wzgląd na Twego przyjaciela, Abrahama, sługę Twego, Izaaka, i Twego świętego - Izraela. Im to przyrzekłeś rozmnożyć potomstwo jak gwiazdy na niebie i jak piasek nad brzegiem morza.\nPanie, oto jesteśmy najmniejsi spośród wszystkich narodów. Oto jesteśmy dziś poniżeni na całej ziemi z powodu naszych grzechów. Nie ma obecnie władcy, proroka ani wodza, ani całopalenia, ani ofiar, ani darów pokarmowych, ani kadzielnych. Nie ma gdzie ofiarować Tobie pierwocin i doznać Twego miłosierdzia.\nNiech jednak dusza strapiona i duch uniżony znajdą u Ciebie upodobanie. Jak całopalenia z baranów i cielców, i z tysięcy tłustych owiec, tak niechaj dziś będzie nasza ofiara przed Tobą i niech Ci się podoba! Ponieważ ci, co pokładają ufność w Tobie, nie mogą doznać wstydu. Teraz zaś idziemy za Tobą z całego serca, odczuwamy lęk przed Tobą i szukamy Twego oblicza. Nie zawstydzaj nas, lecz postępuj z nami według swej łagodności i według wielkiego swego miłosierdzia. Wybaw nas przez swe cuda i uczyń swe imię sławnym, Panie!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 25 (24), 4-5. 6 i 7bc. 8-9 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Pamiętaj o nas, miłosierny Panie.\nDaj mi poznać Twoje drogi, Panie, *\nnaucz mnie chodzić Twoimi ścieżkami.\nProwadź mnie w prawdzie według swych pouczeń, *\nBoże i Zbawco, w Tobie mam nadzieję.\nRefren.\nWspomnij na swoje miłosierdzie, Panie, *\nna swoją miłość, która trwa od wieków.\nTylko o mnie pamiętaj w swoim miłosierdziu, *\nze względu na dobroć Twą, Panie.\nRefren.\nDobry jest Pan i łaskawy, *\ndlatego wskazuje drogę grzesznikom.\nPomaga pokornym czynić dobrze, *\nuczy ubogich dróg swoich.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jl 2, 13bc",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nawróćcie się do Boga waszego,\nOn bowiem jest łaskawy i miłosierny."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 18, 21-35",
+      "opis": "Przebaczenie Boga uwarunkowane przebaczeniem drugiemu człowiekowi",
+      "tekst": "Piotr podszedł do Jezusa i zapytał: «Panie, ile razy mam przebaczyć, jeśli mój brat zawini względem mnie? Czy aż siedem razy?»\nJezus mu odrzekł: «Nie mówię ci, że aż siedem razy, lecz aż siedemdziesiąt siedem razy.\nDlatego podobne jest królestwo niebieskie do króla, który chciał się rozliczyć ze swymi sługami. Gdy zaczął się rozliczać, przyprowadzono mu jednego, który był mu winien dziesięć tysięcy talentów. Ponieważ nie miał z czego ich oddać, pan kazał sprzedać go razem z żoną, dziećmi i całym jego mieniem, aby dług w ten sposób odzyskać.\nWtedy sługa padł mu do stóp i prosił go: „Panie, okaż mi cierpliwość, a wszystko ci oddam”. Pan ulitował się nad owym sługą, uwolnił go i dług mu darował.\nLecz gdy sługa ów wyszedł, spotkał jednego ze współsług, który mu był winien sto denarów. Chwycił go i zaczął dusić, mówiąc: „Oddaj, coś winien!” Jego współsługa padł przed nim i prosił go: „Okaż mi cierpliwość, a oddam tobie”. On jednak nie chciał, lecz poszedł i wtrącił go do więzienia, dopóki nie odda długu.\nWspółsłudzy jego, widząc, co się działo, bardzo się zasmucili. Poszli i opowiedzieli swemu panu wszystko, co zaszło.\nWtedy pan jego, wezwawszy go, rzekł mu: „Sługo niegodziwy! Darowałem ci cały ten dług, ponieważ mnie prosiłeś. Czyż więc i ty nie powinieneś był ulitować się nad swoim współsługą, jak ja ulitowałem się nad tobą?” I uniósłszy się gniewem, pan jego kazał wydać go katom, dopóki mu nie odda całego długu.\nPodobnie uczyni wam Ojciec mój niebieski, jeżeli każdy z was nie przebaczy z serca swemu bratu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń ta jest modlitwą błagalną, która oddaje ducha modlitwy Azariasza i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest echem modlitwy z pierwszego czytania, w której lud wyznaje swoje grzechy i prosi o litość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą łaskę i opamiętanie, zgodnie z duchem pokutnym czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Jej tekst bezpośrednio wzywa do wzajemnego przebaczenia, co jest kluczowym warunkiem postawionym przez Jezusa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i uniżenia, która jest jedyną ofiarą miłą Bogu, jak modli się Azariasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że miłosierdzie, którego doświadczamy, powinno prowadzić nas do przebaczenia braciom.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Utwór ten skupia się na dobroci i miłosierdziu Boga, do naśladowania którego wzywa nas dzisiejsza Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń mówi o obmyciu i odnowieniu, co jest owocem Bożego przebaczenia, którego mamy udzielać innym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie, które otrzymujemy od Boga, abyśmy sami mogli przebaczać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to klasyczna pieśń pokutna, która wyraża postawę skruchy i prośby o miłosierdzie, obecną w czytaniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest łagodny i pełen miłosierdzia, jak mówi modlitwa Azariasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które jest dla nas wzorem postępowania wobec bliźnich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Ta krótka suplikacja jest doskonałym podsumowaniem ducha dnia, prosząc o przebaczenie, byśmy sami mogli przebaczać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i życia Ewangelią, której sercem jest przykazanie wzajemnego przebaczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa przez pokutę i miłość, która wyraża się w przebaczeniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń jest prośbą o oczyszczenie z grzechów, co jest warunkiem otrzymania miłosierdzia od Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń ta, opisując cechy miłości, stanowi doskonały komentarz do ewangelicznej nauki o przebaczaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne do przebaczenia braciom siedemdziesiąt siedem razy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę miłosierdzia dla nas i dla naszych winowajców.",
+      "moment": "ogolne"
+    }
+  ]
+}

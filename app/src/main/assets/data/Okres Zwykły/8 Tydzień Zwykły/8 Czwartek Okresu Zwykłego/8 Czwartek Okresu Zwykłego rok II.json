@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416197.Czwartek-VIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "8 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 2, 2-5. 9-12",
+      "opis": "Jesteście królewskim kapłaństwem, świętym narodem",
+      "tekst": "Najmilsi:\nJak niedawno narodzone niemowlęta pragnijcie duchowego, nie sfałszowanego mleka, abyście dzięki niemu wzrastali ku zbawieniu - jeżeli tylko zasmakowaliście, że dobry jest Pan.\nPrzybliżając się do Tego, który jest żywym kamieniem, odrzuconym wprawdzie przez ludzi, ale u Boga wybranym i drogocennym, wy również, niby żywe kamienie, jesteście budowani jako duchowa świątynia, by stanowić święte kapłaństwo, dla składania duchowych ofiar, miłych Bogu przez Jezusa Chrystusa.\nWy zaś jesteście wybranym plemieniem, królewskim kapłaństwem, narodem świętym, ludem Bogu na własność przeznaczonym, abyście ogłaszali chwalebne dzieła Tego, który was wezwał z ciemności do przedziwnego swojego światła; wy, którzy byliście niegdyś nie-ludem, teraz zaś jesteście ludem Bożym, którzy nie dostąpiliście miłosierdzia, teraz zaś jako ci, którzy miłosierdzia doznali.\nUmiłowani! Proszę, abyście jak przybysze i goście powstrzymywali się od cielesnych pożądań, które walczą przeciwko duszy. Postępowanie wasze wśród pogan niech będzie dobre, aby przyglądając się waszym dobrym uczynkom, wychwalali Boga w dniu nawiedzenia za to, z powodu czego oczerniają was jako złoczyńców.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2. 3. 4. 5",
+      "opis": "",
+      "tekst": "Refren: Stańcie z radością przed obliczem Pana.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem światłością świata,\nkto idzie za Mną, będzie miał światło życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 46b-52",
+      "opis": "Uzdrowienie niewidomego z Jerycha",
+      "tekst": "Gdy Jezus wraz z uczniami i sporym tłumem wychodził z Jerycha, niewidomy żebrak, Bartymeusz, syn Tymeusza, siedział przy drodze. A słysząc, że to jest Jezus z Nazaretu, zaczął wołać: «Jezusie, Synu Dawida, ulituj się nade mną!»\nWielu nastawało na niego, żeby umilkł. Lecz on jeszcze głośniej wołał: «Synu Dawida, ulituj się nade mną!»\nJezus przystanął i rzekł: «Zawołajcie go». I przywołali niewidomego, mówiąc mu: «Bądź dobrej myśli, wstań, woła cię». On zrzucił z siebie płaszcz, zerwał się na nogi i przyszedł do Jezusa.\nA Jezus przemówił do niego: «Co chcesz, abym ci uczynił?»\nPowiedział Mu niewidomy: «Rabbuni, żebym przejrzał».\nJezus mu rzekł: «Idź, twoja wiara cię uzdrowiła». Natychmiast przejrzał i szedł za Nim drogą.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta bezpośrednio odnosi się do pierwszego czytania, które nazywa wiernych 'królewskim kapłaństwem'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem jako Jego lud i owce Jego pastwiska, o czym mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do służenia Panu, co jest echem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która okazała się kluczowa dla uzdrowienia Bartymeusza w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono miłą Mu duchową ofiarą, o której mówi św. Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, abyśmy, jako królewskie kapłaństwo, mogli składać ofiary miłe Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokornej wiary i zaufania, z jaką niewidomy żebrak zbliżył się do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i wiarę w przychodzącego Jezusa, podobną do tej, jaką okazał Bartymeusz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej uzdrawia nasze duchowe ślepoty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za uzdrowienie i ocalenie, co jest odpowiedzią na cud opisany w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar uzdrowienia i za powołanie do bycia ludem Bożym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, w tym za dar wzroku i wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń ta jest modlitwą o prowadzenie, która oddaje postawę uzdrowionego Bartymeusza, który 'szedł za Nim drogą'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a pójście za Nim jest owocem uzdrowienia i wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do ogłaszania chwalebnych dzieł Tego, który nas wezwał z ciemności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaprasza do przyjścia do Jezusa z każdą niemocą, tak jak uczynił to Bartymeusz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta jest echem psalmu, wzywającego do radosnego stawania przed obliczem Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach przypomina o wartościach Królestwa Bożego, do którego zostaliśmy wezwani jako lud Boży.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o pomoc i ratunek, podobnym do krzyku niewidomego Bartymeusza.",
+      "moment": "ogolne"
+    }
+  ]
+}

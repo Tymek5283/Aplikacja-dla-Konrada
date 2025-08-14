@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426787.Piatek-XV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "15 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 11, 10-12, 14",
+      "opis": "Baranek paschalny",
+      "tekst": "Mojżesz i Aaron dokonali wszystkich cudów wobec faraona, lecz Pan uczynił upartym serce faraona, tak iż wzbraniał się wypuścić Izraelitów ze swego kraju.\nPan powiedział do Mojżesza i Aarona w ziemi egipskiej:\n«Miesiąc ten będzie dla was początkiem miesięcy, będzie pierwszym miesiącem roku! Powiedzcie całemu zgromadzeniu Izraela tak: Dziesiątego dnia tego miesiąca niech się każdy postara o baranka dla rodziny, o baranka dla domu. Jeśliby zaś rodzina była za mała do spożycia baranka, to niech się postara o niego razem ze swym sąsiadem, który mieszka najbliżej jego domu, aby była odpowiednia liczba osób. Liczyć je zaś będziecie dla spożycia baranka według tego, co każdy może spożyć.\nBaranek będzie bez skazy, samiec, jednoroczny; wziąć możecie jagnię albo koźlę. Będziecie go strzec aż do czternastego dnia tego miesiąca, a wtedy zabije go całe zgromadzenie Izraela o zmierzchu. I wezmą krew baranka, i pokropią nią odrzwia i progi domu, w którym będą go spożywać.\nI tej samej nocy spożyją mięso pieczone w ogniu, i chleby przaśne będą spożywali z gorzkimi ziołami. Nie będziecie spożywać z niego nic surowego ani ugotowanego w wodzie, lecz upieczone na ogniu, z głową, nogami i wnętrznościami. Nie może nic pozostać z niego na dzień następny. Cokolwiek zostanie z niego na następny dzień, w ogniu spalicie. Tak zaś spożywać go będziecie: biodra wasze będą przepasane, sandały na waszych nogach i laska w waszym ręku. Spożywać będziecie pośpiesznie, gdyż jest to Pascha na cześć Pana.\nTej nocy przejdę przez Egipt, zabiję wszystko pierworodne w ziemi egipskiej, od człowieka aż po bydło, i odbędę sąd nad wszystkimi bogami Egiptu - Ja, Pan. Krew posłuży wam do oznaczenia domów, w których będziecie przebywać. Gdy ujrzę krew, przejdę obok i nie będzie pośród was plagi niszczycielskiej, gdy będę karał ziemię egipską.\nDzień ten będzie dla was dniem pamiętnym i obchodzić go będziecie jako święto dla uczczenia Pana. Po wszystkie pokolenia - na zawsze w tym dniu będziecie obchodzić święto».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116B (115), 12-13. 15 i 16bc. 17-18 (R.: por. 13)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Kielich zbawienia wzniosę w imię Pana.\nCzym się Panu odpłacę *\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia *\ni wezwę imienia Pana.\nRefren.\nCenna jest w oczach Pana *\nśmierć Jego wyznawców.\nJestem Twym sługą, synem Twojej służebnicy, *\nTy rozerwałeś moje kajdany.\nRefren.\nTobie złożę ofiarę pochwalną *\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana *\nprzed całym Jego ludem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 1-8",
+      "opis": "Syn Człowieczy jest Panem szabatu",
+      "tekst": "Pewnego razu Jezus przechodził w szabat pośród zbóż. Uczniowie Jego, odczuwając głód, zaczęli zrywać kłosy i jeść ziarna.\nGdy to ujrzeli faryzeusze, rzekli Mu: «Oto twoi uczniowie czynią to, czego nie wolno czynić w szabat». A On im odpowiedział: «Czy nie czytaliście, co uczynił Dawid, gdy poczuł głód, on i jego towarzysze? Jak wszedł do domu Bożego i jadł chleby pokładne, których nie było wolno jeść ani jemu, ani jego towarzyszom, lecz tylko kapłanom?\nAlbo nie czytaliście w Prawie, że w dzień szabatu kapłani naruszają w świątyni spoczynek szabatu, a są bez winy? Oto powiadam wam: Tu jest coś większego niż świątynia.\nGdybyście zrozumieli, co znaczy: „Chcę raczej miłosierdzia niż ofiary”, nie potępialibyście niewinnych. Albowiem Syn Człowieczy jest Panem szabatu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń wyznaje panowanie Chrystusa, który w Ewangelii objawia się jako Pan szabatu, większy niż świątynia i Prawo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Chrystus, Pan szabatu, jest naszym Wodzem i Królem, któremu oddajemy cześć na początku liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do oddania pokłonu Panu, który jest większy niż świątynia i Prawo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń eucharystyczna nawiązuje do ofiary Baranka Paschalnego i ofiary pochwalnej, o której śpiewa psalmista.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Ofiara chleba i wina staje się Ciałem i Krwią prawdziwego Baranka, który gładzi grzechy świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, Baranka Bożego, zapowiedzianej w obrzędzie Paschy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Starotestamentalny Baranek Paschalny jest zapowiedzią Chrystusa, prawdziwego Baranka Bożego, którego przyjmujemy w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń bezpośrednio wskazuje na Chrystusa jako Baranka Bożego, którego Krew jest Krwią nowego Przymierza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jezus, Pan szabatu, daje nam siebie jako pokarm na życie wieczne, wypełniając obietnicę Paschy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest dziękczynieniem za dar zbawienia, który jest owocem Paschy Chrystusa, zapowiedzianej w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wypełniamy wezwanie psalmisty, składając Bogu dziękczynną ofiarę za dar Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże ocalenie, którego pamiątką jest Pascha i które w pełni objawiło się w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "263",
+      "piesn": "Pan zstąpił z nieba",
+      "opis": "Pieśń ta podsumowuje tajemnicę Eucharystii jako wypełnienie Paschy i daru Chleba Życia na drogę do wieczności.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "284",
+      "piesn": "Zróbcie Mu miejsce",
+      "opis": "Chrystus, Pan szabatu, idzie z nami, a my mamy Mu przygotować drogę w naszych sercach i w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Wyznajemy Chrystusa jako naszego Króla i Pana, który ma władzę nad Prawem i szabatem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Jezus uczy, że miłosierdzie jest ważniejsze niż ofiara, a ta pieśń jest wezwaniem do życia miłością i dobrocią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Jest to pieśń o zaufaniu Bożemu miłosierdziu, które jest kluczem do zrozumienia słów Jezusa z dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest zawsze aktualne, abyśmy mogli zrozumieć, że Bóg pragnie miłosierdzia, a nie ofiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń wyraża zwrócenie się do Pana z ufnością, że On jest źródłem prawdziwego Prawa i miłosierdzia.",
+      "moment": "ogolne"
+    }
+  ]
+}

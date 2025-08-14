@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416145.Sroda-VII-tydzien-zwykly-rok-I",
+  "tytul_dnia": "7 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 4, 11-19",
+      "opis": "Mądrość mistrzynią życia",
+      "tekst": "Mądrość wywyższa swych synów i ma pieczę nad tymi, którzy jej szukają. Kto ją miłuje, ten miłuje życie, a ci, którzy dla niej rano wstaną, napełnią się weselem. Kto ją posiądzie, odziedziczy chwałę, a gdzie ona wejdzie, tam Pan błogosławi. Którzy jej służą, oddają cześć Świętemu, a miłujących ją Pan będzie miłował. Kto jej słucha, sądzić będzie narody, a kto do niej się przykłada, będzie trwał bezpiecznie. Kto jej zaufa, ten ją odziedziczy i posiadać ją będą jego potomkowie.\nZ początku powiedzie go trudnymi drogami, bojaźnią i strachem go przejmie, zada mu ból swoją nauką, aż nabierze zaufania do jego duszy i wypróbuje go przez swe nakazy. Następnie powróci do niego po drodze gładkiej i rozraduje go, i odkryje mu swe tajemnice. A jeśliby zszedł na bezdroża, opuści go i wyda go potężnej klęsce.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 165 i 168. 171-172. 174-175 (R.: por. 165a)",
+      "opis": "",
+      "tekst": "Refren: Obfity pokój miłującym Prawo.\nObfity pokój dla miłujących Twoje Prawo, *\ni nigdy się nie potkną.\nPrzestrzegam Twoich postanowień i napomnień, *\nbo wszystkie moje drogi są przed Tobą.\nRefren.\nNiech moje wargi rozbrzmiewają hymnem, *\nbo mnie nauczasz Twych ustaw.\nNiech mój język opiewa Twoje słowo, *\nbo wszystkie Twe przykazania są sprawiedliwe.\nRefren.\nPragnę Twojej pomocy, Panie, *\na Prawo Twoje jest moją rozkoszą.\nNiech żyje moja dusza i niech Ciebie chwali, *\nniech mnie wspierają Twoje wyroki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 38-40",
+      "opis": "Kto nie jest przeciwko nam, ten jest z nami",
+      "tekst": "Apostoł Jan rzekł do Jezusa: «Nauczycielu, widzieliśmy kogoś, kto nie chodzi z nami, jak w Twoje imię wyrzucał złe duchy, i zaczęliśmy mu zabraniać, bo nie chodzi z nami».\nLecz Jezus odrzekł: «Przestańcie zabraniać mu, bo nikt, kto uczyni cud w imię moje, nie będzie mógł zaraz źle mówić o Mnie. Kto bowiem nie jest przeciwko nam, ten jest z nami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do zjednoczenia się w chwaleniu Pana, co jest odpowiedzią na Ewangelię o jedności w czynieniu dobra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o jedność i pokój w Kościele, co jest owocem mądrości Bożej, a nie ludzkiej.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to modlitwa o jedność wszystkich, którzy działają w imię Chrystusa, nawet jeśli 'nie chodzą z nami'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości i jedności, które są owocem prawdziwej mądrości, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia w jedności i otwartości na działanie Ducha Świętego w innych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze pragnienie jedności i mądrości, o których mówią czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, która przekracza ludzkie podziały, o czym naucza Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z Chrystusem, który jest źródłem jedności dla wszystkich wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą jedności, na którą zaproszeni są wszyscy, którzy w imię Chrystusa czynią dobro.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar mądrości i jedności, które są owocami słuchania Prawa Bożego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże prawo i wyroki, które są źródłem pokoju dla miłujących je.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar mądrości i za łaskę jedności w Kościele.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii w duchu jedności i otwartości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który jest jedyną drogą, ale działa także przez tych, którzy nie należą do ścisłego grona uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie uczenia się dróg Pańskich, które są drogami mądrości i pokoju, jak mówi psalm.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do Ewangelii o przezwyciężaniu podziałów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina, że Chrystus przyszedł, aby nas zjednoczyć i nauczyć prawdziwej mądrości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o to, by Słowo Boże, które jest źródłem mądrości, trwało w nas i nas prowadziło.",
+      "moment": "ogolne"
+    }
+  ]
+}

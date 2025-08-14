@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Zapowiedź przyjścia Pana, który przynosi łaskę i pocieszenie, o czym mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wołanie o przyjście Pana-Pasterza, który lituje się nad tłumem, jak opisuje Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "262",
       "piesn": "Pan wieczernik przygotował",
       "opis": "W Ewangelii Jezus posyła uczniów, by darmo dawali, co otrzymali; my w ofiarowaniu składamy dary, przygotowując się na przyjęcie największego Daru.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Wezwanie do przygotowania serc na przyjęcie Pana, który posyła swoich uczniów na wielkie żniwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy dary, prosząc o siłę do pracy na 'wielkim żniwie' Pana, o którym mowa w Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Wyraża pragnienie przyjęcia Chrystusa, który jest Nauczycielem i Lekarzem dusz, o którym mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, który leczy złamanych na duchu, jak obiecuje psalm.",
+      "moment": "komunia"
+    },
+    {
       "numer": "585",
       "piesn": "Będę Cię wielbił",
       "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i ocalenie, co jest odpowiedzią na obietnicę uzdrowienia z pierwszego czytania i cuda Jezusa w Ewangelii.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosne dziękczynienie za Bożą litość i obietnicę uzdrowienia, które są tematem czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uwielbienie Boga za Jego cuda i za to, że 'leczy złamanych na duchu', jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń ta jest bezpośrednim echem misyjnego nakazu Jezusa z Ewangelii, posyłającego uczniów do głoszenia i uzdrawiania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosna pieśń o przyjściu Króla posyła nas w świat, byśmy głosili Jego królestwo, jak Apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń o Zbawicielu, który przychodzi, by nas wybawić, co jest treścią misji, do której posyła uczniów.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Pieśń adwentowa, która w kontekście Ewangelii przypomina, że oczekiwanie na Pana wiąże się z misją głoszenia Jego bliskości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "W sobotni dzień Adwentu, pieśń do Matki Bożej jest prośbą o pomoc w przygotowaniu serc na przyjście Jej Syna.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "384",
+      "piesn": "Pozdrowiona bądź, Królowo",
+      "opis": "W sobotę zwracamy się do Maryi, prosząc o Jej wstawiennictwo w dziele głoszenia Ewangelii, do którego posyła nas Jej Syn.",
       "moment": "ogolne"
     }
   ]

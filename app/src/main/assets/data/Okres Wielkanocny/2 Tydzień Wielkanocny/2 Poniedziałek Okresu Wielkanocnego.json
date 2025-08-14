@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413118.Poniedzialek-II-tygodnia-wielkanocnego",
+  "tytul_dnia": "2 Poniedziałek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 4, 23-31",
+      "opis": "Proroctwo Dawida spełniło się w Chrystusie",
+      "tekst": "Piotr i Jan, uwolnieni, przybyli do swoich i opowiedzieli, co do nich mówili arcykapłani i starsi. A ci, wysłuchawszy tego, wznieśli jednomyślnie głos do Boga i mówili: «Wszechwładny Stwórco nieba i ziemi, i morza, i wszystkiego, co w nich istnieje, Ty przez Ducha Świętego powiedziałeś ustami sługi Twego, Dawida: „Dlaczego burzą się narody i ludy knują daremne spiski? Powstali królowie ziemi i książęta zeszli się razem przeciw Panu i przeciw Jego Pomazańcowi”. Zeszli się bowiem rzeczywiście w tym mieście przeciw świętemu Słudze Twemu, Jezusowi, którego namaściłeś, Herod i Poncjusz Piłat z poganami i pokoleniami Izraela, aby uczynić to, co ręka Twoja i myśl zamierzyły. A teraz spójrz, Panie, na ich groźby i daj sługom Twoim głosić słowo Twoje z całą odwagą, gdy Ty wyciągać będziesz swą rękę, aby uzdrawiać i dokonywać znaków i cudów przez imię świętego Sługi Twego, Jezusa». Po tej ich modlitwie zadrżało miejsce, na którym byli zebrani; a wszyscy zostali napełnieni Duchem Świętym i głosili odważnie słowo Boże. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 2, 1-2. 3-4. 5-6. 7-8 (R.: por. 12d)",
+      "opis": "",
+      "tekst": "Dlaczego się burzą narody, *\n\nczemu ludy żywią daremne zamysły?\n\nBuntują się królowie ziemi †\n\ni władcy wraz z nimi spiskują *\n\nprzeciw Panu i Jego Pomazańcowi.\n«Stargajmy ich pęta, *\n\na więzy precz odrzućmy od siebie!»\n\nŚmieje się Ten, który mieszka w niebie, *\n\nPan się z nich naigrawa.\nA potem do nich mówi w gniewie swoim *\n\ni w swej zapalczywości wzbudza w nich trwogę:\n\n«Oto Ja ustanowiłem swego Króla *\n\nna Syjonie, świętej górze mojej».\nWyrok Pański ogłoszę: †\n\nOn rzekł do Mnie: «Ty jesteś moim Synem, *\n\nJa dzisiaj zrodziłem Ciebie.\n\nŻądaj, a dam Ci w dziedzictwo narody *\n\ni krańce ziemi w posiadanie Twoje»."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Kol 3, 1",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze,\n\ngdzie przebywa Chrystus, zasiadający po prawicy Boga."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3, 1-8",
+      "opis": "Jeśli się ktoś nie narodzi z wody i z Ducha, nie może wejść do królestwa Bożego",
+      "tekst": "Był wśród faryzeuszów pewien człowiek, imieniem Nikodem, dostojnik żydowski. Ten przyszedł do Jezusa nocą i powiedział Mu: «Rabbi, wiemy, że od Boga przyszedłeś jako nauczyciel. Nikt bowiem nie mógłby czynić takich znaków, jakie Ty czynisz, gdyby Bóg nie był z nim». W odpowiedzi rzekł do niego Jezus: «Zaprawdę, zaprawdę, powiadam ci, jeśli się ktoś nie narodzi powtórnie, nie może ujrzeć królestwa Bożego». Nikodem powiedział do Niego: «Jakżeż może się człowiek narodzić, będąc starcem? Czyż może powtórnie wejść do łona swej matki i narodzić się?» Jezus odpowiedział: «Zaprawdę, zaprawdę, powiadam ci, jeśli się ktoś nie narodzi z wody i z Ducha, nie może wejść do królestwa Bożego. To, co się z ciała narodziło, jest ciałem, a to, co się z Ducha narodziło, jest duchem.  Nie dziw się, że powiedziałem ci: Trzeba wam się powtórnie narodzić. Wiatr wieje tam, gdzie chce, i szum jego słyszysz, lecz nie wiesz, skąd przychodzi i dokąd podąża. Tak jest z każdym, który narodził się z Ducha». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Pieśń ta mówi o nowym życiu zrodzonym w 'paschalnym źródle', co jest bezpośrednim nawiązaniem do rozmowy Jezusa z Nikodemem o narodzinach z wody i Ducha.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w Zmartwychwstałego Pana, który przez Ducha Świętego daje nam nowe narodzenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór ten jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem nowego życia, o którym Jezus mówi Nikodemowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Pieśń ta wyraża radość Zmartwychwstania, które jest źródłem nowego życia z Ducha, o którym naucza Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna, która sławi Chrystusa, dającego nam nowe życie w sakramentach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której Chrystus karmi nas swoim Ciałem, dając nam udział w życiu z Ducha.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Hymn do Ducha Świętego nawiązuje do Jego stwórczej mocy, odradzającej człowieka w sakramencie chrztu, o czym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który daje nam nowe życie przez Ducha Świętego w sakramentach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym wyrazem wiary w Tego, który daje nam życie z Ducha.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królowanie Chrystusa, przeciw któremu, jak mówi psalm, spiskują władcy ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie głoszą z odwagą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar nowego życia, otrzymany przez narodzenie z Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nowe narodziny z Ducha są początkiem misji, do której posłani są wszyscy ochrzczeni, aby głosić Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o nowym życiu w Chrystusie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Utwór podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który daje nam Ducha Świętego i odwagę do świadectwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa jest źródłem odwagi dla apostołów, którzy proszą Boga o moc do głoszenia słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest fundamentem naszej wiary i nowego narodzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń głosi obecność Zmartwychwstałego Pana, który przez Ducha Świętego ożywia swój Kościół i daje mu jedno serce.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego jest modlitwą o Jego dary, które umacniają nas do życia jako nowo narodzeni w Chrystusie.",
+      "moment": "ogolne"
+    }
+  ]
+}

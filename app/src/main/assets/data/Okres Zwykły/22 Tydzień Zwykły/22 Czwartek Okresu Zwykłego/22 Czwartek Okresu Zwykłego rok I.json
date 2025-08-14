@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425147.Czwartek-22-tydzien-zwykly-rok-I",
+  "tytul_dnia": "22 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kol 1, 9-14",
+      "opis": "Modlitwa Pawła o postęp duchowy Kolosan",
+      "tekst": "Bracia:\nOd dnia, w którym usłyszeliśmy o was, nie przestajemy za was się modlić i prosić Boga, abyście - przez całą mądrość i duchowe zrozumienie - doszli do pełnego poznania Jego woli, by już postępować w sposób godny Pana, ku pełnemu Jego upodobaniu, wydając owoce wszelkich dobrych czynów i wzrastając przez głębsze poznanie Boga. Niech potęga Jego chwały w pełni umacnia was we wszelkiej cierpliwości i stałości.\nZ radością dziękujcie Ojcu, który was uzdolnił do uczestnictwa w dziale świętych w światłości. On to uwolnił nas spod władzy ciemności i przeniósł do królestwa swego umiłowanego Syna, w którym mamy odkupienie - odpuszczenie grzechów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 2-3b. 3c-4. 5-6 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren.\nŚpiewajcie Panu przy wtórze cytry, *\nprzy wtórze cytry i przy dźwięku harfy.\nPrzy trąbach i przy głosie rogu, *\nna oczach Pana, Króla, się radujcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 19",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pójdźcie za Mną,\na uczynię was rybakami ludzi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 5, 1-11",
+      "opis": "Cudowny połów ryb i powołanie apostołów",
+      "tekst": "Pewnego razu - gdy tłum cisnął się do Jezusa, aby słuchać słowa Bożego, a On stał nad jeziorem Genezaret - zobaczył dwie łodzie stojące przy brzegu; rybacy zaś wyszli z nich i płukali sieci. Wszedłszy do jednej łodzi, która należała do Szymona, poprosił go, żeby nieco odbił od brzegu. Potem usiadł i z łodzi nauczał tłumy.\nGdy przestał mówić, rzekł do Szymona: «Wypłyń na głębię i zarzućcie sieci na połów!» A Szymon odpowiedział: «Mistrzu, całą noc pracowaliśmy i nic nie ułowiliśmy. Lecz na Twoje słowo zarzucę sieci». Skoro to uczynili, zagarnęli tak wielkie mnóstwo ryb, że sieci ich zaczynały się rwać. Skinęli więc na współtowarzyszy w drugiej łodzi, żeby im przyszli z pomocą. Ci podpłynęli; i napełnili obie łodzie, tak że się prawie zanurzały.\nWidząc to, Szymon Piotr przypadł Jezusowi do kolan i rzekł: «Wyjdź ode mnie, Panie, bo jestem człowiekiem grzesznym». I jego bowiem, i wszystkich jego towarzyszy w zdumienie wprawił połów ryb, jakiego dokonali; jak również Jakuba i Jana, synów Zebedeusza, którzy byli wspólnikami Szymona.\nA Jezus rzekł do Szymona: «Nie bój się, odtąd ludzi będziesz łowił». I wciągnąwszy łodzie na ląd, zostawili wszystko i poszli za Nim.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta wzywa do pójścia za Chrystusem, co bezpośrednio nawiązuje do Ewangelii o powołaniu pierwszych uczniów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Tematyka pieśni jest bezpośrednim rozwinięciem misji 'łowienia ludzi', którą Jezus powierza apostołom w dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa jako drogę, za którą zdecydowali się pójść apostołowie, zostawiając wszystko.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta wyraża gotowość pozostawienia wszystkiego dla Jezusa, podobnie jak uczynili to apostołowie w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu całego życia, co jest odpowiedzią na powołanie, o którym mowa w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoce naszej pracy, prosząc, by uzdolnił nas do uczestnictwa w 'łowieniu ludzi'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Słowa tej pieśni doskonale oddają postawę Piotra, który w Ewangelii uznaje swoją grzeszność wobec Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę pokory i uznania własnej niegodności, podobnie jak Piotr, który rzekł: 'Wyjdź ode mnie, Panie'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Jest to prośba o przyjście Jezusa do serca, które, jak serce Piotra, jest świadome swojej grzeszności, ale pragnie bliskości Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Tekst psalmu responsoryjnego jest radosnym wezwaniem do chwalenia Boga, a ta pieśń jest uroczystym hymnem dziękczynnym i uwielbieniowym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości z powodu zbawienia, które Bóg okazał wszystkim ludom, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest odpowiedzią na cudowny połów ryb i dar powołania apostolskiego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy jak apostołowie, byli świadkami Jego mocy i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, na wzór apostołów, którzy zostawili wszystko i poszli za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest zawsze aktualna, szczególnie w kontekście powołania pierwszych uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "To pieśń charakterystyczna dla okresu zwykłego, mówiąca o poszukiwaniu Boga i podążaniu za Nim, co jest głównym tematem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Nawiązuje do pierwszego czytania, w którym mowa jest o przejściu z ciemności do światłości królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyznanie Piotra 'Wyjdź ode mnie, Panie, bo jestem człowiekiem grzesznym' znajduje swoje odzwierciedlenie w tej pieśni pokutnej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, które jest niezbędne, aby odpowiedzieć na powołanie i wypłynąć na głębię.",
+      "moment": "ogolne"
+    }
+  ]
+}

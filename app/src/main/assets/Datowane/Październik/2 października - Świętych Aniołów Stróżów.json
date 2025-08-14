@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 91,1-2.3-4.5-6.10-11",
-      "opis": "Refren:",
-      "tekst": "Aniołom kazał, aby strzegli ciebie.\nKto się w opiekę oddał Najwyższemu\ni mieszka w cieniu Wszechmocnego,\nmówi do Pana: „Tyś moją ucieczką i twierdzą,\nBoże mój, któremu ufam».\nBo On sam cię wyzwoli z sideł myśliwego\ni od słowa niosącego zgubę. Okryje cię swoimi piórami,\npod Jego skrzydła się schronisz.\nWierność Jego jest puklerzem i tarczą;\nnie ulękniesz się strachu nocnego.\nAni strzały za dnia lecącej,\nani zarazy, co skrada się w mroku,\nani moru niszczącego w południe.\nNie przystąpi do ciebie niedola,\na cios nie dosięgnie twego namiotu.\nBo rozkazał swoim aniołom,\naby cię strzegli na wszystkich twych drogach."
+      "opis": "",
+      "tekst": "Refren:\nAniołom kazał, aby strzegli ciebie.\nKto się w opiekę oddał Najwyższemu\ni mieszka w cieniu Wszechmocnego,\nmówi do Pana: „Tyś moją ucieczką i twierdzą,\nBoże mój, któremu ufam».\nBo On sam cię wyzwoli z sideł myśliwego\ni od słowa niosącego zgubę. Okryje cię swoimi piórami,\npod Jego skrzydła się schronisz.\nWierność Jego jest puklerzem i tarczą;\nnie ulękniesz się strachu nocnego.\nAni strzały za dnia lecącej,\nani zarazy, co skrada się w mroku,\nani moru niszczącego w południe.\nNie przystąpi do ciebie niedola,\na cios nie dosięgnie twego namiotu.\nBo rozkazał swoim aniołom,\naby cię strzegli na wszystkich twych drogach."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "422",
+      "piesn": "Aniele, stróżu duszy",
+      "opis": "Bezpośrednia prośba do Anioła Stróża o opiekę i wsparcie, idealna na rozpoczęcie Mszy w jego wspomnienie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "424",
+      "piesn": "O mój ty aniele",
+      "opis": "Prosta i ufna pieśń, która wyraża wiarę w anielską obecność i prowadzenie.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "425",
       "piesn": "Poślij, o Panie, swego anioła",
       "opis": "Treść pieśni bezpośrednio nawiązuje do pierwszego czytania z Księgi Wyjścia, gdzie Bóg obiecuje posłać anioła, by strzegł ludu w drodze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "W tej pieśni ofiarowujemy Bogu nasze serce, prosząc, by Anioł Stróż pomagał nam je chronić.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża pragnienie oddania się Bogu, a Anioł Stróż jest tym, który nas w tym pragnieniu wspiera.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "423",
+      "piesn": "Mój aniele ukochany",
+      "opis": "Pieśń wyraża pragnienie naśladowania anioła w miłości do Boga, co jest owocem zjednoczenia z Chrystusem w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Ewangelia mówi o stawaniu się jak dzieci, a ta pieśń prosi Jezusa o opiekę, którą realizuje także przez posługę Aniołów Stróżów.",
+      "moment": "komunia"
+    },
+    {
       "numer": "608",
       "piesn": "Kto się w opiekę",
       "opis": "Jest to muzyczna parafraza Psalmu 91, który jest psalmem responsoryjnym tego dnia, mówiącym o anielskiej opiece.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn ten wzywa aniołów i wszystkie zastępy niebieskie do chwalenia Pana, co jest istotą dzisiejszego święta.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń chwały, w której łączymy się z aniołami w wychwalaniu dzieł Bożych.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "420",
       "piesn": "Aniele Boży",
       "opis": "Najbardziej znana modlitwa do Anioła Stróża, idealna na zakończenie mszy, by powierzyć się jego opiece na dalszą część dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie, które często dokonuje się przez posługę Anioła Stróża, naszego przewodnika.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w codziennym życiu, w którym towarzyszy nam nasz Anioł Stróż.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "424",
       "piesn": "O mój ty aniele",
       "opis": "Prosta i ufna pieśń, która podkreśla rolę anioła jako przewodnika do nieba, co jest głównym tematem wspomnienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "416",
+      "piesn": "Poślij nam, Panie",
+      "opis": "Chociaż pieśń jest o Archaniołach, jej treść o anielskiej opiece i walce ze złem pasuje do wspomnienia Aniołów Stróżów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Anioł Stróż pomaga nam w dążeniu do bliskości z Bogiem, o czym mówi ta pieśń.",
       "moment": "ogolne"
     }
   ]

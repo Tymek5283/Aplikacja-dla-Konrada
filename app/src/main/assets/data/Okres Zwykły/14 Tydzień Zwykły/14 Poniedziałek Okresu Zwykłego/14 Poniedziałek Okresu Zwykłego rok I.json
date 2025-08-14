@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426654.Poniedzialek-XIV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "14 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 28, 10-22a",
+      "opis": "Sen Jakuba",
+      "tekst": "Kiedy Jakub, wyszedłszy z Beer-Szeby, wędrował do Charanu, trafił na jakieś miejsce i tam się zatrzymał na nocleg, gdyż słońce już zaszło. Wziął więc z tego miejsca kamień i podłożył go sobie pod głowę, układając się do snu na tym właśnie miejscu.\nWe śnie ujrzał drabinę opartą na ziemi, sięgającą swym wierzchołkiem nieba, oraz aniołów Bożych, którzy się wspinali i schodzili po niej na dół. A oto Pan stał nad nim i mówił:\n«Ja jestem Pan, Bóg twego ojca, Abrahama, i Bóg Izaaka. Ziemię, na której leżysz, oddaję tobie i twemu potomstwu. A potomstwo twe będzie tak liczne jak proch ziemi, ty zaś rozprzestrzenisz się na zachód i na wschód, na północ i na południe; wszystkie plemiona ziemi otrzymają błogosławieństwo przez ciebie i przez twych potomków. Ja jestem z tobą i będę cię strzegł, gdziekolwiek się udasz; a potem sprowadzę cię do tego kraju. Bo nie opuszczę cię, dopóki nie spełnię tego, co ci obiecuję».\nA gdy Jakub zbudził się ze snu, pomyślał: «Prawdziwie Pan jest na tym miejscu, a ja nie wiedziałem». I zdjęty trwogą rzekł: «O, jakże miejsce to przejmuje grozą! Prawdziwie jest to dom Boga i brama do nieba!» Wstawszy więc rano, wziął ów kamień, który podłożył sobie pod głowę, postawił go jako stelę i rozlał na jego wierzchu oliwę. I dał temu miejscu nazwę Betel. - Natomiast pierwotna nazwa tego miejsca była Luz.\nPo czym złożył taki ślub: «Jeżeli Pan Bóg będzie ze mną, strzegąc mnie w drodze, w którą wyruszyłem, jeżeli da mi chleb do jedzenia i ubranie do okrycia się i jeżeli wrócę szczęśliwie do domu mego ojca, Pan będzie moim Bogiem. Ten zaś kamień, który postawiłem jako stelę, będzie domem Boga».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 91 (90), 1-2. 3-4. 14-15b (R.: por. 2b)",
+      "opis": "",
+      "tekst": "Refren: Tobie, mój Boże, ufam całym sercem.\nKto się w opiekę oddał Najwyższemu *\ni w cieniu Wszechmocnego mieszka,\nmówi do Pana: «Ty jesteś moją ucieczką i twierdzą, *\nBoże mój, któremu ufam».\nRefren.\nBo On sam cię wyzwoli z sideł myśliwego *\ni od słowa niosącego zgubę.\nOkryje cię swoimi piórami, †\npod Jego skrzydła się schronisz; *\nwierność Jego jest puklerzem i tarczą.\nRefren.\n«Ja go wybawię, bo przylgnął do Mnie, *\nosłonię go, bo poznał moje imię.\nBędzie Mnie wzywał, a Ja go wysłucham *\ni będę z nim w utrapieniu».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 9, 18-26",
+      "opis": "Uzdrowienie kobiety i wskrzeszenie córki Jaira",
+      "tekst": "Gdy Jezus mówił do uczniów, oto przyszedł do Niego pewien zwierzchnik synagogi i oddając Mu pokłon, prosił:\n«Panie, moja córka dopiero co skonała, lecz przyjdź i połóż na nią rękę, a żyć będzie». Jezus wstał i wraz z uczniami poszedł za nim.\nWtem jakaś kobieta, która dwanaście lat cierpiała na krwotok, podeszła z tyłu i dotknęła się frędzli Jego płaszcza. Mówiła bowiem sobie: «Żebym choć dotknęła Jego płaszcza, a będę zdrowa».\nJezus obrócił się i widząc ją, rzekł: «Ufaj, córko! Twoja wiara cię ocaliła». I od tej chwili kobieta była zdrowa.\nGdy Jezus przyszedł do domu zwierzchnika i zobaczył fletnistów oraz tłum zgiełkliwy, rzekł: «Odsuńcie się, bo dziewczynka nie umarła, tylko śpi». A oni wyśmiewali Go.\nSkoro jednak usunięto tłum, wszedł i ujął ją za rękę, a dziewczynka wstała. Wieść o tym rozeszła się po całej tamtejszej okolicy.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Tekst tej pieśni jest niemal dosłownym opracowaniem Psalmu 91, który jest psalmem responsoryjnym tego dnia, i wyraża zaufanie Bogu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o Bożej Opatrzności doskonale wpisuje się w historię Jakuba, którego Bóg strzegł w drodze.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który objawia swoją obecność i moc, tak jak w widzeniu Jakuba w Betel.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń o charakterze ofiarnym wyraża akt oddania i zaufania Bogu, co jest odpowiedzią na Jego obietnicę opieki.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jakub złożył ślub Bogu, a my w tej pieśni ofiarujemy nasze życie i prosimy o Boże błogosławieństwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarowaniem serca Bogu, który jest naszą ucieczką i twierdzą, jak wyznaje psalmista.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna wyraża wiarę i pokorę, podobną do tej, jaką okazała kobieta cierpiąca na krwotok w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Pieśń jest aktem osobistej wiary w uzdrawiającą obecność Jezusa w Eucharystii, co jest centralnym tematem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wiara zwierzchnika synagogi i kobiety z tłumu jest wzorem dla naszej wiary w moc Chrystusa obecnego w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za Bożą pomoc i uzdrowienie, stanowiąca doskonałe podsumowanie cudów opisanych w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar uzdrowienia i życia, który jest owocem wiary w Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Dziękujemy Bogu za Jego obecność i działanie w naszym życiu, tak jak był obecny w życiu Jakuba i uzdrawiał chorych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta, mówiąca o pielgrzymowaniu do domu Ojca, nawiązuje do wędrówki Jakuba i obietnicy Bożej, że go poprowadzi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po doświadczeniu mocy Chrystusa, który zwycięża chorobę i śmierć, wychodzimy w świat, by głosić Jego panowanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo na naszą drogę, tak jak Jakub prosił o nie Boga w Betel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do szukania pociechy i uzdrowienia u Jezusa, co bezpośrednio odnosi się do wydarzeń z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Wiara i ufność, które okazały postacie z Ewangelii, są wzorem dla naszej postawy wobec Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, który objawia się jako Ten, który jest z nami i nas strzeże.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie nawiązuje do obietnicy danej Jakubowi: 'będę cię strzegł, gdziekolwiek się udasz'.",
+      "moment": "ogolne"
+    }
+  ]
+}

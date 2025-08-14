@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413538.Sobota-VII-tygodnia-wielkanocnego",
+  "tytul_dnia": "7 Sobota Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 28, 16-20. 30-31",
+      "opis": "Pobyt Pawła w Rzymie",
+      "tekst": "Gdy weszliśmy do Rzymu, pozwolono Pawłowi mieszkać prywatnie razem z żołnierzem, który go pilnował.\nPo trzech dniach poprosił on do siebie najznakomitszych Żydów. A kiedy się zeszli, mówił do nich: «Nie uczyniłem, bracia, nic przeciwko narodowi lub zwyczajom ojczystym, a jednak wydany zostałem jako więzień: z Jerozolimy w ręce Rzymian, którzy po rozpatrzeniu sprawy chcieli mnie wypuścić, dlatego że nie ma we mnie winy zasługującej na śmierć.\nPonieważ jednak Żydzi sprzeciwiali się temu, musiałem odwołać się do cezara - bynajmniej nie w zamiarze oskarżenia w czymkolwiek mojego narodu. Dlatego też zaprosiłem was, aby się z wami zobaczyć i rozmówić, bo dla nadziei Izraela dźwigam te kajdany».\nPrzez całe dwa lata pozostał w wynajętym przez siebie mieszkaniu i przyjmował wszystkich, którzy do niego przychodzili, głosząc królestwo Boże i nauczając o Panu Jezusie Chrystusie zupełnie swobodnie, bez przeszkód.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 11 (10), 4. 5 i 7 (R.: por. 7b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Twoje oblicze ujrzą ludzie prawi.\nPan w świętym swoim przybytku, *\nna niebiosach tron Pana.\nOczy Jego patrzą, *\nspod powiek śledzi synów ludzkich.\nRefren.\nBada Pan sprawiedliwego i występnego, *\nJego dusza nie cierpi miłujących nieprawość.\nBo Pan jest sprawiedliwy i sprawiedliwość kocha, *\nludzie prawi ujrzą Jego oblicze.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 16, 7. 13",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Poślę wam Ducha prawdy,\nOn doprowadzi was do całej prawdy."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 21, 20-25",
+      "opis": "Świadectwo św. Jana Apostoła",
+      "tekst": "Gdy Jezus zmartwychwstały ukazał się uczniom nad jeziorem Genezaret, Piotr, obróciwszy się, zobaczył idącego za sobą ucznia, którego miłował Jezus, a który to w czasie uczty spoczywał na Jego piersi, i powiedział: «Panie, któż jest ten, który Cię zdradzi?»\nGdy więc go Piotr ujrzał, rzekł do Jezusa: «Panie, a co z tym będzie?»\nOdpowiedział mu Jezus: «Jeżeli chcę, aby pozostał, aż przyjdę, to cóż tobie do tego? Ty pójdź za Mną!»\nRozeszła się wśród braci wieść, że uczeń ów nie umrze. Ale Jezus nie powiedział mu, że nie umrze, lecz: «Jeśli Ja chcę, aby pozostał, aż przyjdę, to cóż tobie do tego?»\nTen właśnie uczeń daje świadectwo o tych sprawach, i on je opisał. A wiemy, że świadectwo jego jest prawdziwe.\nJest ponadto wiele innych rzeczy, których Jezus dokonał, a które gdyby je szczegółowo opisać, to sądzę, że cały świat nie pomieściłby ksiąg, jakie trzeba by napisać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Radosna pieśń wielkanocna, która podkreśla misyjny charakter Kościoła, o którym świadczy działalność Pawła w Rzymie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Klasyczna pieśń wielkanocna, która głosi prawdę, będącą w centrum nauczania św. Pawła.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Jest to radosna pieśń na wejście, która wprowadza w atmosferę wielkanocną i głosi 'nadzieję Izraela'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest echem misyjnego zapału św. Pawła, który nawet w więzieniu głosił królestwo Boże.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża osobistą odpowiedź na wezwanie 'Pójdź za Mną', prosząc o Boże prowadzenie na drodze świadectwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie Bogu trudów głoszenia Ewangelii, na wzór św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest pokarmem dla tych, którzy idą za Jezusem i dają o Nim świadectwo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "W Komunii spotykamy Tego, za którym mamy iść i o którym mamy świadczyć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który umacnia nas do pójścia za Nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń uwielbienia za dar wiary i świadectwo apostołów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn chwały dla Zmartwychwstałego, o którym świadczył Jan i Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący Zmartwychwstałego Pana, którego świadectwo jest prawdziwe.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń ta wyraża prośbę o stałą obecność Pana, co jest fundamentem misji i świadectwa, do którego wzywa Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by głosili zwycięstwo Chrystusa, tak jak czynił to Paweł w Rzymie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Posłanie do życia pod panowaniem Króla, którego królestwo głosił Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "W wigilię Zesłania Ducha Świętego, ta pieśń jest modlitwą o Ducha Prawdy, obiecanego w aklamacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar świadectwa apostołów, które jest prawdziwe.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Zmartwychwstały jest 'nadzieją Izraela', dla której Paweł nosi kajdany.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Jako wigilia Zesłania Ducha Świętego, modlitwa o Ducha jest bardzo na miejscu.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415572.Wtorek-V-tydzien-zwykly-rok-II",
+  "tytul_dnia": "5 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 8, 22-23. 27-30",
+      "opis": "Modlitwa Salomona w czasie poświęcenia świątyni",
+      "tekst": "Salomon stanął przed ołtarzem Pańskim wobec całego zgromadzenia izraelskiego i wyciągnąwszy ręce do nieba, rzekł: «O Panie, Boże Izraela! Nie ma takiego Boga jak Ty, ani w górze na niebie, ani w dole na ziemi, tak dochowującego przymierza i łaski względem Twoich sług, którzy czczą Cię z całego serca.\nCzy jednak naprawdę zamieszka Bóg na ziemi? Przecież niebo i niebiosa najwyższe nie mogą Cię objąć, a tym mniej ta świątynia, którą zbudowałem. Zważ więc na modlitwę Twego sługi i jego błaganie, o Panie, Boże mój, i wysłuchaj tego wołania i tej modlitwy, którą dziś Twój sługa zanosi przed Ciebie. Niech w nocy i w dzień Twoje oczy będą otwarte na tę świątynię, na miejsce, o którym powiedziałeś: Tam będzie moje imię - tak aby wysłuchać modlitwę, którą zanosi Twój sługa na tym miejscu.\nDlatego wysłuchaj błaganie sługi Twego i Twojego ludu, Izraela, ilekroć modlić się będzie na tym miejscu. Ty zaś wysłuchaj w miejscu Twego przebywania - w niebie. Nie tylko wysłuchaj, ale też i przebacz».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 84 (83), 3-4. 5 i 10. 11 (R.: por. 2)",
+      "opis": "",
+      "tekst": "Refren: Jak miła, Panie, jest świątynia Twoja.\nDusza moja stęskniona pragnie przedsiónków Pańskich, *\nserce moje i ciało radośnie wołają do Boga żywego.\nNawet wróbel znajduje swój dom, a jaskółka gniazdo, †\ngdzie złoży swe pisklęta: *\nprzy ołtarzach Twoich, Panie Zastępów, Królu mój i Boże!\nRefren.\nSzczęśliwi, którzy mieszkają w domu Twoim, Panie, *\nnieustannie wielbiąc Ciebie.\nSpójrz, Boże, Tarczo nasza, *\nwejrzyj na twarz Twojego pomazańca.\nRefren.\nDoprawdy, dzień jeden w przybytkach Twoich *\nlepszy jest niż innych tysiące.\nWolę stać w progu domu mojego Boga, *\nniż mieszkać w namiotach grzeszników.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 119 (118), 36a. 29b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nakłoń me serce do Twoich napomnień,\nobdarz mnie łaską Twojego Prawa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 7, 1-13",
+      "opis": "Prawo Boże i tradycje ludzkie",
+      "tekst": "U Jezusa zebrali się faryzeusze i kilku uczonych w Piśmie, którzy przybyli z Jerozolimy. I zauważyli, że niektórzy z Jego uczniów brali posiłek nieczystymi, to znaczy nie obmytymi rękami. Faryzeusze bowiem, i w ogóle Żydzi, trzymając się tradycji starszych, nie jedzą, jeśli sobie rąk nie obmyją, rozluźniając pięść. I gdy wrócą z rynku, nie jedzą, dopóki się nie obmyją. Jest jeszcze wiele innych zwyczajów, które przejęli i których przestrzegają, jak obmywanie kubków, dzbanków, naczyń miedzianych.\nZapytali Go więc faryzeusze i uczeni w Piśmie: «Dlaczego Twoi uczniowie nie postępują według tradycji starszych, lecz jedzą nieczystymi rękami?»\nOdpowiedział im: «Słusznie prorok Izajasz powiedział o was, obłudnikach, jak jest napisane: „Ten lud czci Mnie wargami, lecz sercem swym daleko jest ode Mnie. Ale czci Mnie na próżno, ucząc zasad podanych przez ludzi”. Uchyliliście przykazanie Boże, a trzymacie się ludzkiej tradycji, dokonujecie obmywania dzbanków i kubków. I wiele innych podobnych rzeczy czynicie».\nI mówił do nich: «Sprawnie uchylacie Boże przykazanie, aby swoją tradycję zachować. Mojżesz tak powiedział: „Czcij ojca swego i matkę swoją”, oraz: „Kto złorzeczy ojcu lub matce, niech śmierć poniesie”. A wy mówicie: „Jeśli ktoś powie ojcu lub matce: Korban, to znaczy darem złożonym w ofierze jest to, co miało być ode mnie wsparciem dla ciebie” - to już nie pozwalacie mu nic uczynić dla ojca ani dla matki. I znosicie słowo Boże ze względu na waszą tradycję, którą sobie przekazaliście. Wiele też innych tym podobnych rzeczy czynicie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Nawiązuje bezpośrednio do psalmu responsoryjnego oraz modlitwy Salomona z pierwszego czytania, wyrażając radość z przebywania w domu Bożym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się w domu Pana, o którym z taką czcią mówił Salomon.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "238",
+      "piesn": "Idzie, idzie Bóg prawdziwy",
+      "opis": "Pieśń ta oddaje atmosferę majestatu i świętości Boga, którego chwała napełniła świątynię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ta pieśń jest modlitwą o przyjęcie darów, co koresponduje z tematem ofiary i prawdziwej czci wobec Boga poruszonym w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosimy Boga o przyjęcie naszej ofiary, tak jak wysłuchał modlitwy Salomona w swojej świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i prośby o czyste serce, w przeciwieństwie do obłudy faryzeuszy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Wyraża pokorną prośbę o zmiłowanie, co jest istotą prawdziwej pobożności, w przeciwieństwie do faryzejskiej obłudy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary i pokory, który jest odpowiedzią na Jezusową krytykę pustych tradycji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża świadomość własnej niegodności i prośbę o czyste serce, by godnie przyjąć Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały dla Boga, którego niebiosa nie mogą ogarnąć, a który jednak zniża się, by słuchać modlitw swojego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga, którego chwała napełniła świątynię i który jest godzien prawdziwej czci.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń ta jest hymnem chwały na cześć wielkiego Króla, którego domem jest świątynia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń stawia pytanie o to, co jest miłe Bogu, co jest centralnym tematem Ewangelii o przykazaniach Bożych i tradycji ludzkiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by żyć według przykazań Bożych, a nie ludzkich tradycji, idąc drogą Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po spotkaniu z Bogiem w Jego domu, prosimy o błogosławieństwo na nasze codzienne życie zgodne z Jego wolą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Podkreśla, że Bóg zna serce człowieka, co jest kluczowe w kontekście Jezusowej krytyki obłudy faryzeuszy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża pragnienie podążania drogami Pana, a nie ludzkimi tradycjami, o czym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o Kościół, który jest nową świątynią, miejscem prawdziwej czci Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość jest wypełnieniem Prawa, w przeciwieństwie do pustych tradycji, które krytykuje Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

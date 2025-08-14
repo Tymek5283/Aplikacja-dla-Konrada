@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414683.Poniedzialek-32-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "32 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 1, 1-7",
+      "opis": "Grzech zamyka drogę do mądrości",
+      "tekst": "Umiłujcie sprawiedliwość, sędziowie ziemscy! Myślcie o Panu właściwie i szukajcie Go w prostocie serca! Daje się bowiem znaleźć tym, co Go nie wystawiają na próbę, objawia się takim, którym nie brak wiary w Niego. Bo przewrotne myśli oddzielają od Boga, a Moc, gdy ją wystawiają na próbę, karci niemądrych.\nMądrość nie wejdzie w duszę przewrotną, nie zamieszka w ciele uwikłanym w grzech. Święty Duch uczący karności ucieknie przed obłudą, odsunie się od niemądrych myśli, wypłoszy Go nadejście nieprawości.\nMądrość bowiem jest duchem miłującym ludzi, ale bluźniercy z powodu jego warg nie zostawi bez kary: ponieważ Bóg świadkiem jego nerek, prawdziwym stróżem jego serca, Tym, który słyszy mowę jego języka.\nAlbowiem Duch Pański wypełnił zamieszkaną ziemię, Ten, który ogarnia wszystko, ma znajomość mowy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 139 (138), 1b-3. 4-5. 7-8. 9-10. (R.: por. 24b)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, swą drogą odwieczną.\nPrzenikasz i znasz mnie, Panie, *\nTy wiesz, kiedy siedzę i wstaję.\nZ daleka spostrzegasz moje myśli, †\nprzyglądasz się, jak spoczywam i chodzę, *\ni znasz wszystkie moje drogi.\nRefren.\nZanim słowo się znajdzie na moim języku, *\nTy, Panie, już znasz je w całości.\nTy ze wszystkich stron mnie ogarniasz *\ni kładziesz na mnie swą rękę.\nRefren.\nGdzie ucieknę przed Duchem Twoim? *\nGdzie oddalę się od Twego oblicza?\nJeśli wstąpię do nieba, Ty tam jesteś, *\njesteś przy mnie, gdy położę się w Otchłani.\nRefren.\nGdybym wziął skrzydła jutrzenki, *\ngdybym zamieszkał na krańcach morza,\ntam również będzie mnie wiodła Twa ręka *\ni podtrzyma mnie Twoja prawica.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Flp 2, 15d. 16a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jawicie się jako źródło światła w świecie,\ntrzymając się mocno Słowa Życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 1-6",
+      "opis": "Obowiązek przebaczania",
+      "tekst": "Jezus powiedział do swoich uczniów: «Niepodobna, żeby nie przyszły zgorszenia; lecz biada temu, przez którego przychodzą. Byłoby lepiej dla niego, gdyby kamień młyński zawieszono mu u szyi i wrzucono go w morze, niż żeby miał być powodem grzechu dla jednego z tych małych. Uważajcie na siebie!\nJeśli brat twój zawini, upomnij go; i jeśli będzie żałował, przebacz mu. I jeśliby siedem razy na dzień zawinił przeciw tobie i siedem razy zwrócił się do ciebie, mówiąc: „Żałuję tego”, przebacz mu».\nApostołowie prosili Pana: «Dodaj nam wiary». Pan rzekł: «Gdybyście mieli wiarę jak ziarnko gorczycy, powiedzielibyście tej morwie: „Wyrwij się z korzeniem i przesadź się w morze”, a byłaby wam posłuszna».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest bezpośrednią odpowiedzią na prośbę Apostołów z Ewangelii: 'Dodaj nam wiary'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń jest wyrazem poszukiwania Boga w prostocie serca, do czego zachęca Księga Mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Modlitwa o prowadzenie drogą odwieczną, o której wspomina psalm, jest wyrazem zaufania Bogu, który nas przenika i zna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Ewangelia wzywa do przebaczenia bratu, a ta pieśń jest modlitwą o przebaczenie naszych win, byśmy i my potrafili przebaczać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń eucharystyczna, która podkreśla, że Bóg stał się pokarmem dla nas, co jest największym dowodem Jego miłości i podstawą naszej wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej ofierze prosimy o przemianę naszych serc, abyśmy potrafili żyć wiarą i przebaczeniem, do których wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wiara, o którą proszą Apostołowie, jest fundamentem życia chrześcijańskiego, a ta pieśń jest osobistym wyznaniem tej wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, aby umocnił wiarę, która jest zdolna przenosić góry i przebaczać siedemdziesiąt siedem razy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja najgłębsze pragnienia serca, w tym pragnienie wzrostu w wierze, o które prosili apostołowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary i miłości, które pozwalają nam przezwyciężać zgorszenia i trwać w jedności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn dziękczynny za dzieło stworzenia, w którym objawia się Boża Mądrość, napełniająca ziemię, jak mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą obecność i Jego znajomość naszych serc, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażającą podziw dla wszechwiedzy Boga i prośbą o prowadzenie Jego drogą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Posłaniem po dzisiejszej liturgii jest życie w miłości, która wyraża się w gotowości do przebaczenia, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, abyśmy w codziennym życiu unikali dawania zgorszenia i umieli przebaczać naszym braciom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wezwanie do przebaczenia z Ewangelii jest częścią przykazania miłości, które jest tematem tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pierwsze czytanie zachęca do szukania Boga w prostocie serca, a ta pieśń jest wyrazem tej tęsknoty i poszukiwania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wezwanie do przebaczania innym nierozerwalnie łączy się z naszą potrzebą Bożego przebaczenia, o które prosimy w tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem do Boga o pomoc i wskazanie drogi, co jest wyrazem wiary, o którą proszą apostołowie.",
+      "moment": "ogolne"
+    }
+  ]
+}

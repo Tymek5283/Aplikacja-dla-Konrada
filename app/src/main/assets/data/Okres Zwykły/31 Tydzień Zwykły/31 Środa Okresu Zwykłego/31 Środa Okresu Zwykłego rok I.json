@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414878.Sroda-31-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "31 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 13, 8-10",
+      "opis": "Miłość jest doskonałym wypełnieniem Prawa",
+      "tekst": "Bracia:\nNikomu nie bądźcie nic dłużni poza wzajemną miłością. Kto bowiem miłuje drugiego, wypełnił Prawo. Albowiem przykazania: «Nie cudzołóż, nie zabijaj, nie kradnij, nie pożądaj», i wszystkie inne - streszczają się w tym nakazie: «Miłuj bliźniego swego jak siebie samego!» Miłość nie wyrządza zła bliźniemu. Przeto miłość jest doskonałym wypełnieniem Prawa.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 4-5. 9 (R.: por. 5a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Miłosiernemu Pan Bóg błogosławi.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nRefren.\nRozdaje i obdarza ubogich, *\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą *\nbędzie jego potęga.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 1 P 4, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni jesteście, jeżeli złorzeczą wam z powodu imienia Chrystusa,\nalbowiem Duch Boży na was spoczywa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 14, 25-33",
+      "opis": "Kto nie wyrzeka się wszystkiego, nie może być uczniem Jezusa",
+      "tekst": "Wielkie tłumy szły z Jezusem. On odwrócił się i rzekł do nich: «Jeśli ktoś przychodzi do Mnie, a nie ma w nienawiści swego ojca i matki, żony i dzieci, braci i sióstr, nadto i siebie samego, nie może być moim uczniem. Kto nie dźwiga swego krzyża, a idzie za Mną, ten nie może być moim uczniem.\nBo któż z was, chcąc zbudować wieżę, nie usiądzie wpierw i nie oblicza wydatków, czy ma na wykończenie? Inaczej, gdyby położył fundament, a nie zdołałby wykończyć, wszyscy, patrząc na to, zaczęliby drwić z niego: „Ten człowiek zaczął budować, a nie zdołał wykończyć”.\nAlbo jaki król, mając wyruszyć, aby stoczyć bitwę z drugim królem, nie usiądzie wpierw i nie rozważy, czy w dziesięć tysięcy ludzi może stawić czoło temu, który z dwudziestu tysiącami nadciąga przeciw niemu? Jeśli nie, wyprawia poselstwo, gdy tamten jest jeszcze daleko, i prosi o warunki pokoju.\nTak więc nikt z was, jeśli nie wyrzeka się wszystkiego, co posiada, nie może być moim uczniem».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą. Ewangelia ukazuje, że droga ta wymaga radykalnego wyrzeczenia się wszystkiego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o Boże prowadzenie na trudnej drodze uczniostwa, która wymaga niesienia krzyża i wyrzeczenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do pójścia za Jezusem, nawet jeśli wiąże się to z wielkimi wymaganiami opisanymi w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń ta jest doskonałą odpowiedzią na wezwanie Jezusa: 'nikt z was, jeśli nie wyrzeka się wszystkiego, co posiada, nie może być moim uczniem'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze wyrzeczenia i trudy, które podejmujemy jako Jego uczniowie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "W tej pieśni dziękujemy Bogu za dar Eucharystii i w odpowiedzi ofiarowujemy Mu samych siebie, by być Jego uczniami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem i niesienia z Nim krzyża, co jest warunkiem bycia uczniem Jezusa, o którym mowa w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do dźwigania naszego krzyża i do naśladowania Go na drodze wyrzeczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa o zjednoczenie z Chrystusem w Jego męce, abyśmy mieli siłę do niesienia własnego krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Dziękczynienie za dar przykazania miłości, która, jak mówi pierwsze czytanie, jest doskonałym wypełnieniem Prawa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar miłości, która jest streszczeniem wszystkich przykazań i drogą do doskonałości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą dobroć, która objawia się w przykazaniu miłości i w powołaniu do bycia uczniem Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy potrafili podążać za Chrystusem drogą krzyża i wyrzeczenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię nie tylko słowem, ale i życiem, które jest naśladowaniem Chrystusa niosącego krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Owocem bycia uczniem Chrystusa jest życie w miłości, która jest wypełnieniem Prawa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem pierwszego czytania o miłości jako wypełnieniu Prawa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm mówi o błogosławieństwie dla człowieka miłosiernego. Ta pieśń o błogosławieństwach jest nowotestamentowym rozwinięciem tej myśli.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest niezbędna, aby sprostać radykalnym wymaganiom Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W trudach naśladowania Chrystusa i niesienia krzyża, naszą jedyną nadzieją jest On sam.",
+      "moment": "ogolne"
+    }
+  ]
+}

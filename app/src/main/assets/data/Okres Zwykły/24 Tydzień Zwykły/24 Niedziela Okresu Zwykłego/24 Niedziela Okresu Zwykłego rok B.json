@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418125.24-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "24 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 50, 5-9a",
+      "opis": "Bóg wspiera swego sługę w prześladowaniach",
+      "tekst": "Pan Bóg otworzył mi ucho, a ja się nie oparłem ani się nie cofnąłem. Podałem grzbiet mój bijącym i policzki moje rwącym mi brodę. Nie zasłoniłem mojej twarzy przed zniewagami i opluciem.\nPan Bóg mnie wspomaga, dlatego jestem nieczuły na obelgi, dlatego uczyniłem twarz moją jak głaz i wiem, że wstydu nie doznam.\nBlisko jest Ten, który mnie uniewinni. Kto się odważy toczyć spór ze mną? Wystąpmy razem! Kto jest moim oskarżycielem? Niech się zbliży do mnie!\nOto Pan Bóg mnie wspomaga. Któż mnie potępi?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 116A (114), 1b-2. 3-4. 5-6. 8-9 (R.: por. 9)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: W krainie życia będę widział Boga.\nMiłuję Pana, albowiem usłyszał *\ngłos mego błagania,\nbo skłonił ku mnie swe ucho *\nw dniu, w którym wołałem.\nRefren.\nOplotły mnie więzy śmierci, †\ndosięgły mnie pęta Otchłani, *\nogarnął mnie strach i udręka.\nAle wezwałem imienia Pana: *\n«Panie, ratuj moje życie!»\nRefren.\nPan jest łaskawy i sprawiedliwy, *\nBóg nasz jest miłosierny.\nPan strzeże ludzi prostego serca: *\nbyłem w niedoli, a On mnie wybawił.\nRefren.\nUchronił bowiem moją duszę od śmierci, *\noczy od łez, nogi od upadku.\nBędę chodził w obecności Pana *\nw krainie żyjących.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Jk 2, 14-18",
+      "opis": "Wiara nie połączona z uczynkami jest martwa",
+      "tekst": "Jaki z tego pożytek, bracia moi, skoro ktoś będzie utrzymywał, że wierzy, a nie będzie spełniał uczynków? Czy sama wiara zdoła go zbawić?\nJeśli na przykład brat lub siostra nie mają odzienia lub brak im codziennego chleba, a ktoś z was powie im: «Idźcie w pokoju, ogrzejcie się i najedzcie do syta!» - a nie dacie im tego, czego koniecznie potrzebują dla ciała - to na co się to przyda? Tak też i wiara, jeśli nie byłaby połączona z uczynkami, martwa jest sama w sobie.\nAle może ktoś powiedzieć: Ty masz wiarę, a ja spełniam uczynki. Pokaż mi wiarę swoją bez uczynków, to ja ci pokażę wiarę na podstawie moich uczynków.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ga 6, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie daj Boże, bym się miał chlubić z czego innego, jak tylko z krzyża Pana naszego, Jezusa Chrystusa,\ndzięki któremu świat stał się ukrzyżowany dla mnie, a ja dla świata."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 27-35",
+      "opis": "Zapowiedź męki Chrystusa",
+      "tekst": "Jezus udał się ze swoimi uczniami do wiosek pod Cezareą Filipową. W drodze pytał uczniów: «Za kogo uważają Mnie ludzie?» Oni Mu odpowiedzieli: «Za Jana Chrzciciela, inni za Eliasza, jeszcze inni za jednego z proroków». On ich zapytał: «A wy za kogo Mnie uważacie?» Odpowiedział Mu Piotr: «Ty jesteś Mesjasz».\nWtedy surowo im przykazał, żeby nikomu o Nim nie mówili. I zaczął ich pouczać, że Syn Człowieczy wiele musi wycierpieć, że będzie odrzucony przez starszych, arcykapłanów i uczonych w Piśmie; że zostanie zabity, ale po trzech dniach zmartwychwstanie. A mówił zupełnie otwarcie te słowa. Wtedy Piotr wziął Go na bok i zaczął Go upominać. Lecz On obrócił się i patrząc na swych uczniów, zgromił Piotra słowami: «Zejdź Mi z oczu, szatanie, bo nie myślisz po Bożemu, lecz po ludzku».\nPotem przywołał do siebie tłum razem ze swoimi uczniami i rzekł im: «Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z powodu Mnie i Ewangelii, zachowa je».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Pieśń jest odpowiedzią na wyznanie Piotra 'Ty jesteś Mesjasz', rozpoczynając liturgię od aktu uwielbienia Chrystusa Króla.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Proklamacja królowania Chrystusa jest wyrazem wiary, która widzi w cierpiącym Mesjaszu Zwycięzcę i Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń głosi, że Chrystus przez swoją śmierć zwyciężył zło, co jest istotą Jego mesjańskiej misji objawionej w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o krzyżu jako znaku zbawienia idealnie wpisuje się w Ewangelię, gdzie Jezus zapowiada swoją mękę i wzywa do naśladowania Go na drodze krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "763",
+      "piesn": "Crucem tuam",
+      "opis": "Adoracja krzyża jest odpowiedzią na wezwanie Jezusa, by wziąć swój krzyż i Go naśladować.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa ta, wymieniając poszczególne części cierpiącego Ciała Chrystusa, jest głęboką medytacją nad tajemnicą Paschy, zapowiedzianą w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii jest aktem wiary w Mesjasza, który oddaje za nas życie, i prośbą o siłę do naśladowania Go.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń łączy tajemnicę Eucharystii z ofiarą krzyża, o której Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorę i wiarę w obecność Pana, który przychodzi, by nas umocnić na drodze krzyża.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń uwielbia Chrystusa Zwycięzcę, który przez krzyż pokonał zło i grzech.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały jest odpowiedzią na wyznanie Piotra i objawienie mesjańskiej godności Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Dziękczynienie za dar Eucharystii, w której uobecnia się ofiara Chrystusa zapowiedziana w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń ta jest prośbą o prowadzenie drogą krzyża, do czego wzywa Jezus na końcu Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaproszenie do pójścia za Jezusem jest odpowiedzią na Jego słowa: 'Jeśli ktoś chce pójść za Mną...'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' niesienia swojego krzyża w codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń ta łączy wiarę z uczynkami miłosierdzia, co jest kluczowe w świetle drugiego czytania z Listu św. Jakuba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wyrażona w uczynkach jest dowodem prawdziwej wiary, o której naucza św. Jakub.",
+      "moment": "ogolne"
+    }
+  ]
+}

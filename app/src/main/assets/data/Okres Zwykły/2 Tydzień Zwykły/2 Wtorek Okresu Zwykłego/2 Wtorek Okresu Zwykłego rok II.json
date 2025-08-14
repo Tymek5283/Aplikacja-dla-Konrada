@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411047.Wtorek-II-tydzien-zwykly-rok-II",
+  "tytul_dnia": "2 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 16, 1-13",
+      "opis": "Namaszczenie Dawida na króla",
+      "tekst": "Pan rzekł do Samuela: «Dokąd będziesz się smucił z powodu Saula? Uznałem go przecież za niegodnego, by panował nad Izraelem. Napełnij oliwą twój róg i idź: Posyłam cię do Jessego Betlejemity, gdyż między jego synami upatrzyłem sobie króla». Samuel odrzekł: «Jakże pójdę? Usłyszy o tym Saul i zabije mnie». Pan odpowiedział: «Weźmiesz z sobą jałowicę i będziesz mówił: Przybywam złożyć ofiarę Panu. Zaprosisz więc Jessego na ucztę ofiarną, a Ja wtedy powiem ci, co masz robić: wtedy namaścisz tego, którego ci wskażę». Samuel uczynił tak, jak polecił mu Pan, i udał się do Betlejem. Naprzeciw niego wyszła przelękniona starszyzna miasta. Jeden z nich zapytał: «Czy twe przybycie oznacza pokój?» Odpowiedział: «Pokój. Przybyłem złożyć ofiarę Panu. Oczyśćcie się i chodźcie złożyć ze mną ofiarę!» Oczyścił też Jessego i jego synów i zaprosił ich na ofiarę. Kiedy przybyli, spostrzegł Eliaba i powiedział: «Z pewnością przed Panem jest jego pomazaniec». Pan jednak rzekł do Samuela: «Nie zważaj ani na jego wygląd, ani na wysoki wzrost, gdyż odsunąłem go, nie tak bowiem jak człowiek widzi, widzi Bóg, bo człowiek widzi to, co dostępne dla oczu, a Pan widzi serce». Następnie Jesse przywołał Abinadaba i przedstawił go Samuelowi, ale ten rzekł: «Ten też nie został wybrany przez Pana». Potem Jesse przedstawił Szammę. Samuel jednak oświadczył: «Ten też nie został wybrany przez Pana». I Jesse przedstawił Samuelowi siedmiu swoich synów, lecz Samuel oświadczył Jessemu: «Nie ich wybrał Pan». Samuel więc zapytał Jessego: «Czy to już wszyscy młodzieńcy? » Odrzekł: «Pozostał jeszcze najmniejszy, lecz on pasie owce». Samuel powiedział do Jessego: «Poślij po niego i sprowadź tutaj, gdyż nie rozpoczniemy uczty, dopóki on nie przyjdzie». Posłał więc i przyprowadzono go: był on rudy, miał piękne oczy i pociągający wygląd. Pan rzekł: «Wstań i namaść go, to ten». Wziął więc Samuel róg z oliwą i namaścił go pośrodku jego braci. Od tego dnia duch Pański opanował Dawida. Samuel zaś ruszył w drogę i poszedł do Rama. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 20. 21-22. 27-28 (R.: por. 21a)",
+      "opis": "",
+      "tekst": "Refren: Ja sam wybrałem Dawida na króla.\nMówiąc kiedyś w widzeniu *\n\ndo świętych Twoich, rzekłeś:\n\n«Na głowę mocarza włożyłem koronę, *\n\nwyniosłem wybrańca z ludu.\nRefren.\nZnalazłem Dawida, mojego sługę, *\n\nnamaściłem go moim świętym olejem,\n\nby ręka moja zawsze przy nim była *\n\ni umacniało go moje ramię».\nRefren.\n«On będzie wołał do Mnie: †\n\n„Ty jesteś moim Ojcem, *\n\nmoim Bogiem, Opoką mojego zbawienia”.\n\nA Ja go ustanowię pierworodnym, *\n\nnajwyższym z królów ziemi».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\n\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 23-28",
+      "opis": "Szabat został ustanowiony dla człowieka, a nie człowiek dla szabatu",
+      "tekst": "Pewnego razu, gdy Jezus przechodził w szabat pośród zbóż, uczniowie Jego zaczęli po drodze zrywać kłosy. Na to faryzeusze mówili do Niego: «Patrz, czemu oni czynią w szabat to, czego nie wolno?» On im odpowiedział: «Czy nigdy nie czytaliście, co uczynił Dawid, kiedy znalazł się w potrzebie i poczuł głód, on i jego towarzysze? Jak wszedł do domu Bożego za Abiatara, najwyższego kapłana, i jadł chleby pokładne, które tylko kapłanom jeść wolno; i dał również swoim towarzyszom». I dodał: «To szabat został ustanowiony dla człowieka, a nie człowiek dla szabatu. Zatem Syn Człowieczy jest Panem także szabatu». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do oddania czci Bogu, który jest Panem szabatu i który wybiera sobie sługi, jak Dawida.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Nawiązuje do powołania Dawida, pasterza, którego Bóg wybrał, aby był pasterzem Jego ludu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za lud Boży, dla którego Pan wybiera i namaszcza pasterzy na wzór Dawida.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Nawiązuje do chlebów pokładnych z Ewangelii, które Dawid spożywał, a które są zapowiedzią Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na Ofiarowanie, w której prosimy Boga o przyjęcie darów chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, która łączy temat pokarmu z ofiarą składaną Ojcu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, Pana szabatu, który patrzy w serce, a nie na to, co dostępne dla oczu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus, Pan szabatu, staje się dla nas Chlebem, pokazując, że miłość i zaspokojenie głodu są ważniejsze od przepisów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Jezus, Pan szabatu, daje nam pokarm na życie wieczne, przewyższający dawne przepisy i zwyczaje.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń uwielbia Chrystusa Króla, którego zapowiedzią był król Dawid, namaszczony przez Samuela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jest to aklamacja na cześć Chrystusa Króla, którego panowanie zapoczątkowane zostało w tajemnicy wybrania Dawida.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana, który wybiera pokornych i małych, jak Dawid, by objawić swoją moc.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża przylgnięcie do Chrystusa, który jest Panem i nadaje sens Prawu, jak uczy Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie Królu, którego drogę przygotowywali królowie Izraela, jak namaszczony dziś Dawid.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Jest to pieśń-deklaracja wyboru Boga jako Pana i Króla, na wzór Bożego wyboru Dawida.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Mówi o zaufaniu Bogu, który wybiera i prowadzi swoje sługi, tak jak prowadził Dawida.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która kieruje losami ludzi i wybiera na króla najmniejszego z synów Jessego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń podkreśla, że Bóg patrzy na serce i wywyższa pokornych, co jest istotą historii powołania Dawida.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń uczy, że Bóg nie patrzy na wygląd zewnętrzny, ale pragnie wdzięcznego serca, co potwierdza historia wyboru Dawida.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Zapowiedź przyjścia Pana, który przynosi uzdrowienie i światło, o co proszą niewidomi w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Wołanie o przyjście Pana jest podobne do wołania niewidomych z Ewangelii: 'Ulituj się nad nami, Synu Dawida!'.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "8",
       "piesn": "Przyjdź, Panie Jezu",
       "opis": "Pieśń jest prośbą o przyjście Jezusa, który w Ewangelii objawia się jako Ten, co przywraca wzrok i przynosi uzdrowienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń o oczekiwaniu na Tego, który przynosi światło zbłąkanym w mroku, jak niewidomi z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Wezwanie do przygotowania serc na przyjęcie Pana, który uzdrawia, jest odpowiedzią na Jego pytanie o wiarę.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Wyraża pragnienie przyjęcia Chrystusa, który jest Światłością i uzdrowieniem dla wierzących w Niego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, by uzdrowił naszą duchową ślepotę, tak jak uzdrowił niewidomych.",
+      "moment": "komunia"
+    },
+    {
       "numer": "9",
       "piesn": "Stwórco gwiaździstych przestworzy",
       "opis": "Hymn ten sławi Chrystusa jako wieczne światło wierzących, co jest dziękczynieniem za dar wiary, dzięki której niewidomi z Ewangelii odzyskali wzrok.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosne dziękczynienie za dar uzdrowienia i obietnicę zbawienia, o której mówi prorok Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uwielbienie Boga za Jego cuda, takie jak przywrócenie wzroku niewidomym, które są znakiem Jego zbawczej mocy.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "775",
       "piesn": "W naszych ciemnościach",
       "opis": "Pieśń jest modlitwą o światło w ciemnościach grzechu i niewiary, nawiązując do uzdrowienia niewidomych i proroctwa Izajasza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń o Zbawicielu, który rozświeca ciemności, jest posłaniem do życia w świetle wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosna pieśń o przyjściu Króla posyła nas w świat, byśmy głosili Jego cuda, jak uzdrowieni niewidomi.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "112",
       "piesn": "Serce me do Ciebie wznoszę",
       "opis": "Pieśń jest wołaniem o Bożą pomoc i światło, podobnym do wołania niewidomych z Ewangelii: 'Ulituj się nad nami'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "13",
+      "piesn": "Boże wieczny, Boże żywy",
+      "opis": "Błagalna pieśń o przyjście Miłosiernego, podobna do wołania niewidomych z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, które są udziałem tych, którzy z wiarą przyjmują Jezusa i doznają Jego uzdrowienia.",
       "moment": "ogolne"
     }
   ]

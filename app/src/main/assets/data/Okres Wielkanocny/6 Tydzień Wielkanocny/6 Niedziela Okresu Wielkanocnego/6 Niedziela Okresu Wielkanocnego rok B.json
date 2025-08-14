@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413352.VI-Niedziela-Wielkanocna-rok-B",
+  "tytul_dnia": "6 Niedziela Okresu Wielkanocnego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 10, 25-26. 34-35. 44-48",
+      "opis": "Powołanie pogan do Kościoła",
+      "tekst": "Kiedy Piotr wchodził, Korneliusz wyszedł mu na spotkanie, padł mu do stóp i oddał pokłon. Piotr podniósł go ze słowami: «Wstań, ja też jestem człowiekiem».\nWtedy Piotr przemówił: «Przekonuję się, że Bóg naprawdę nie ma względu na osoby. Ale w każdym narodzie miły jest Mu ten, kto się Go boi i postępuje sprawiedliwie».\nKiedy Piotr jeszcze mówił o tym, Duch Święty zstąpił na wszystkich, którzy słuchali nauki. I zdumieli się wierni pochodzenia żydowskiego, którzy przybyli z Piotrem, że dar Ducha Świętego wylany został także na pogan. Słyszeli bowiem, że mówią językami i wielbią Boga.\nWtedy odezwał się Piotr: «Któż może odmówić chrztu tym, którzy otrzymali Ducha Świętego tak samo jak my?» I rozkazał ochrzcić ich w imię Jezusa Chrystusa.\nPotem uprosili go, aby pozostał u nich jeszcze kilka dni.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 4, 7-10",
+      "opis": "Bóg jest miłością",
+      "tekst": "Umiłowani, miłujmy się wzajemnie, ponieważ miłość jest z Boga, a każdy, kto miłuje, narodził się z Boga i zna Boga. Kto nie miłuje, nie zna Boga, bo Bóg jest miłością.\nW tym objawiła się miłość Boga ku nam, że zesłał Syna swego Jednorodzonego na świat, abyśmy życie mieli dzięki Niemu.\nW tym przejawia się miłość, że nie my umiłowaliśmy Boga, ale że On sam nas umiłował i posłał Syna swojego jako ofiarę przebłagalną za nasze grzechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 9-17",
+      "opis": "Przykazanie miłości",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak Mnie umiłował Ojciec, tak i Ja was umiłowałem. Trwajcie w miłości mojej! Jeśli będziecie zachowywać moje przykazania, będziecie trwać w miłości mojej, tak jak Ja zachowałem przykazania Ojca mego i trwam w Jego miłości.\nTo wam powiedziałem, aby radość moja w was była i aby radość wasza była pełna.\nTo jest moje przykazanie, abyście się wzajemnie miłowali, tak jak Ja was umiłowałem. Nikt nie ma większej miłości od tej, gdy ktoś życie swoje oddaje za przyjaciół swoich.\nWy jesteście przyjaciółmi moimi, jeżeli czynicie to, co wam przykazuję. Już was nie nazywam sługami, bo sługa nie wie, co czyni jego pan, ale nazwałem was przyjaciółmi, albowiem oznajmiłem wam wszystko, co usłyszałem od Ojca mego.\nNie wy Mnie wybraliście, ale Ja was wybrałem i przeznaczyłem was na to, abyście szli i owoc przynosili, i by owoc wasz trwał - aby Ojciec dał wam wszystko, o cokolwiek Go poprosicie w imię moje. To wam przykazuję, abyście się wzajemnie miłowali».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Radosna pieśń wielkanocna, która podkreśla uniwersalizm zbawienia, o którym mowa w pierwszym czytaniu i psalmie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana wśród wszystkich narodów, co jest tematem psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem miłości Boga, objawionej wszystkim narodom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest doskonałym komentarzem do drugiego czytania i Ewangelii, które mówią o miłości jako istocie chrześcijaństwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, budowaną na miłości wzajemnej, która jest owocem Eucharystii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle nowego przykazania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jest to niemal dosłowne powtórzenie centralnego przesłania z Ewangelii o przykazaniu miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, który oddał życie za swoich przyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który do końca nas umiłował i nazwał nas swoimi przyjaciółmi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Prosta w formie pieśń, która streszcza główną myśl drugiego czytania z Listu św. Jana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, którego zbawienie, zgodnie z psalmem, ujrzały wszystkie krańce ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą miłość, objawioną w Chrystusie i wzywającą do przynoszenia owoców.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla godność ludu Bożego, wybranego przez Chrystusa, by iść i przynosić owoc miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Miłość wzajemna jest świadectwem, które pociąga innych do wiary, co realizuje się w misji Kościoła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii miłości, do której zostali posłani apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "208",
+      "piesn": "Pragnę miłością Twą",
+      "opis": "Jest to osobista modlitwa o napełnienie serca miłością Bożą, do której wzywają czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon z Taizé, który w medytacyjny sposób powtarza prawdę, że tam, gdzie jest miłość, tam jest Bóg.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wiara w Zmartwychwstałego jest źródłem miłości i jedności, które budują Kościół.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Jest to modlitwa o Ducha Świętego, który został wylany także na pogan i który jest źródłem miłości w Kościele.",
+      "moment": "ogolne"
+    }
+  ]
+}

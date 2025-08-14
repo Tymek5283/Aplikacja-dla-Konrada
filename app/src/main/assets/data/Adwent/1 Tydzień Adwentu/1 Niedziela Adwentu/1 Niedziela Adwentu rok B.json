@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Wezwanie do prostowania dróg w odpowiedzi na ewangeliczne 'Czuwajcie!'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Wezwanie do otwarcia serc na Pana, który ma przyjść niespodziewanie.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Tekst pieśni wzywa do przygotowania na przyjście Pana, co jest odpowiedzią na lament proroka Izajasza z pierwszego czytania o ludzkiej grzeszności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Wezwanie do przygotowania serc jest istotą adwentowego czuwania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o siłę do czuwania i bycia gotowym na przyjście Pana.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, który umacnia nas w oczekiwaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Wyraża postawę czuwania i gotowości na przyjście Pana w Komunii, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
       "numer": "6",
       "piesn": "Pan jest blisko",
       "opis": "Dziękczynienie po komunii za bliskość Pana, który umacnia nas do czuwania, o którym przypomina Ewangelia.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Dziękczynienie za wierność Boga (drugie czytanie) i obietnicę przyjścia, która jest źródłem radości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uwielbienie Boga, który jest naszym Ojcem i Stwórcą, jak woła prorok Izajasz.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "7",
       "piesn": "Przybądź, Panie",
       "opis": "Wezwanie 'Ze snu powstać już pora!' jest echem słów Jezusa 'Czuwajcie!' i stanowi posłanie do życia w gotowości na Jego przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosna pieśń o przyjściu Króla posyła nas w świat z radosną nowiną i wezwaniem do czuwania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń o Zbawicielu, który rozświeca ciemności, jest posłaniem do życia w gotowości na Jego przyjście.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "26",
       "piesn": "Pragniemy Ciebie",
       "opis": "Pieśń wyraża głęboką tęsknotę za Bogiem, podobną do tej, którą wyraża Psalmista wołający: 'Odnów nas, Boże, i daj nam zbawienie'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Przypomina o postawie, która jest owocem czuwania i gotowości na przyjście Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "9",
+      "piesn": "Stwórco gwiaździstych przestworzy",
+      "opis": "Klasyczny hymn adwentowy jest modlitwą o obronę przed złem w czasie czuwania, do którego wzywa Ewangelia.",
       "moment": "ogolne"
     }
   ]

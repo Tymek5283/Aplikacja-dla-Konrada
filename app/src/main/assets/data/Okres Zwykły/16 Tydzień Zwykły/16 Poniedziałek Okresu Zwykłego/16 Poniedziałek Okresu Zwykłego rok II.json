@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430385.Poniedzialek-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mi 6, 1-4. 6-8",
+      "opis": "Istota prawdziwej religii",
+      "tekst": "Słuchajcie, proszę, tego, co Pan powiedział: «Stań, prawuj się wobec gór, niech słuchają pagórki twego głosu!»\nSłuchajcie, góry, sporu Pańskiego, nakłońcie uszu, posady ziemi! Oto Pan wiedzie spór ze swym ludem i oskarżać będzie Izraela.\n«Ludu mój, cóż ci uczyniłem? Czym ci się uprzykrzyłem? Odpowiedz Mi! Tym, że cię wywiodłem z ziemi egipskiej? Że z domu niewoli wybawiłem cię? Że posłałem przed tobą Mojżesza, Aarona i Miriam?»\n«Z czym stanę przed Panem i pokłonię się Bogu na wysokości? Czy stanę przed Nim z ofiarą całopalną, z rocznymi cielętami? Czy Pan się zadowoli tysiącami baranów, miriadami potoków oliwy? Czy trzeba, bym wydał pierworodnego mego za mój występek, owoc łona mego za grzech mojej duszy?»\n«Powiedziano ci, człowiecze, co jest dobre. I czego żąda Pan od ciebie, jeśli nie czynienia sprawiedliwości, umiłowania wierności i pokornego obcowania z Bogiem twoim?»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 5-6. 8-9. 16bc-17. 21 i 23 (R.: por. 23b)",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\n«Zgromadźcie Mi moich umiłowanych, *\nktórzy przez ofiarę zawarli ze Mną przymierze».\nNiebiosa zwiastują Bożą sprawiedliwość, *\nalbowiem sam Bóg jest sędzią.\nRefren.\n«Nie oskarżam cię za twoje ofiary, *\nbo twe całopalenia zawsze są przede Mną.\nNie przyjmę cielca z twego domu *\nani kozłów ze stad twoich».\nRefren.\n«Czemu wymieniasz moje przykazania *\ni na ustach masz moje przymierze?\nTy, co nienawidzisz karności, *\na słowa moje odrzuciłeś za siebie?»\nRefren.\n«Ty tak postępujesz, a Ja mam milczeć? †\nCzy myślisz, że jestem podobny do ciebie? *\nSkarcę ciebie i postawię ci to przed oczy.\nKto składa dziękczynną ofiarę, ten cześć Mi oddaje, *\na tym, którzy postępują uczciwie, ukażę Boże zbawienie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 38-42",
+      "opis": "Znak Jonasza",
+      "tekst": "Niektórzy z uczonych w Piśmie i faryzeuszów rzekli do Jezusa: «Nauczycielu, chcielibyśmy zobaczyć jakiś znak od Ciebie». Lecz On im odpowiedział: «Plemię przewrotne i wiarołomne żąda znaku, ale żaden znak nie będzie mu dany, prócz znaku proroka Jonasza.\nAlbowiem jak Jonasz był trzy dni i trzy noce we wnętrznościach wielkiej ryby, tak Syn Człowieczy będzie trzy dni i trzy noce w łonie ziemi.\nLudzie z Niniwy powstaną na sądzie przeciw temu plemieniu i potępią je, ponieważ oni wskutek nawoływania Jonasza się nawrócili; a oto tu jest coś więcej niż Jonasz.\nKrólowa z południa powstanie na sądzie przeciw temu plemieniu i potępi je; ponieważ ona z krańców ziemi przybyła słuchać mądrości Salomona, a oto tu jest coś więcej niż Salomon».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń ta jest bezpośrednią odpowiedzią na pytanie proroka Micheasza o to, czego Bóg żąda od człowieka: nie ofiar, lecz sprawiedliwości i pokory.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do czynienia sprawiedliwości i umiłowania wierności jest wezwaniem do nawrócenia, które podejmuje ta pieśń.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do stanięcia przed Bogiem z sercem prawym, a nie tylko z zewnętrznymi ofiarami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Psalm podkreśla, że Bogu miła jest ofiara dziękczynna, a ta pieśń jest ofiarowaniem naszych myśli, słów i czynów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Ofiarą miłą Bogu jest serce skruszone, które pragnie czynić sprawiedliwość i miłować wierność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Prawdziwą ofiarą jest oddanie Bogu całego siebie, a nie tylko zewnętrznych darów, o czym mówi prorok.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wobec żądania znaku przez faryzeuszy, ta pieśń jest wyznaniem wiary w Chrystusa, który jest największym znakiem - znakiem Jonasza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Znak Jonasza, czyli zmartwychwstanie, jest centralnym wydarzeniem naszej wiary, które świętujemy w tej radosnej pieśni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża postawę wiary, która nie potrzebuje zewnętrznych znaków, by uznać w Eucharystii obecność Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest dziękczynieniem za dar wiary, której domaga się Jezus, w przeciwieństwie do pokolenia żądającego spektakularnych znaków.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Zgodnie z psalmem, składamy Bogu dziękczynną ofiarę, która jest Mu milsza niż całopalenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który jest Sędzią sprawiedliwym i ukazuje zbawienie tym, którzy postępują uczciwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Na zakończenie Mszy, pieśń ta przypomina, że wypełnieniem Prawa jest miłość, o której mówi prorok Micheasz jako 'umiłowaniu wierności'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Umacnieni 'znakiem Jonasza', jesteśmy posłani, by głosić światu zmartwychwstanie Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Wychodzimy w świat, by głosić panowanie Chrystusa, który jest 'kimś większym' niż wszyscy prorocy i królowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Nawiązuje do postawy nawrócenia, której przykładem są mieszkańcy Niniwy z Ewangelii, wzywając do powrotu do Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "587",
+      "piesn": "Boże, dlatego dałeś nam życie",
+      "opis": "Pieśń ta jest aktem wiary i oddania czci Bogu, w odpowiedzi na skargę Pana z pierwszego czytania na niewdzięczność ludu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Czynienie sprawiedliwości i umiłowanie wierności, o których mówi prorok, są wyrazem miłości wzajemnej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec 'plemienia przewrotnego i wiarołomnego', prosimy o umocnienie naszej wiary w jedyny znak - Zmartwychwstanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

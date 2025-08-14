@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415413.Sroda-30-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "30 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 6, 1-9",
+      "opis": "Rady dotyczące życia rodzinnego",
+      "tekst": "Dzieci, bądźcie posłuszne w Panu waszym rodzicom, bo to jest sprawiedliwe. «Czcij ojca twego i matkę - jest to pierwsze przykazanie z obietnicą - aby ci było dobrze i abyś długo żył na ziemi». A wy, ojcowie, nie pobudzajcie do gniewu waszych dzieci, lecz wychowujcie je w karności, napominając, jak chce Pan.\nNiewolnicy, ze czcią i bojaźnią, w prostocie serca bądźcie posłuszni waszym doczesnym panom jak Chrystusowi, nie służąc tylko dla oka, by ludziom się podobać, lecz jako niewolnicy Chrystusa, którzy z duszy pełnią wolę Bożą. Z ochotą służcie, jak gdybyście służyli Panu, a nie ludziom, świadomi tego, że każdy, jeśli uczyni coś dobrego, otrzyma to z powrotem od Pana - czy to niewolnik, czy wolny.\nA wy, panowie, tak samo wobec nich postępujcie: zaniechajcie groźby, świadomi tego, że w niebie jest Pan zarówno ich, jak wasz, a u Niego nie ma względu na osoby.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 10-11. 12-13. 14 i 17 (R.: 17a)",
+      "opis": "",
+      "tekst": "Refren: Pan sprawiedliwy na wszystkich swych drogach.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nAby synom ludzkim oznajmić Twoją potęgę *\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków, *\nprzez wszystkie pokolenia Twoje panowanie.\nRefren.\nPan podtrzymuje wszystkich, którzy upadają, *\ni podnosi wszystkich zgnębionych.\nPan jest sprawiedliwy na wszystkich swych drogach *\ni łaskawy we wszystkich swoich dziełach.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tes 2, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bóg wezwał nas przez Ewangelię,\nabyśmy dostąpili chwały Pana naszego, Jezusa Chrystusa."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 22-30",
+      "opis": "Powszechne wezwanie do zbawienia",
+      "tekst": "Powszechne wezwanie do zbawienia\nJezus przemierzał miasta i wsie, nauczając i odbywając swą podróż do Jerozolimy. Raz ktoś Go zapytał: «Panie, czy tylko nieliczni będą zbawieni?»\nOn rzekł do nich: «Usiłujcie wejść przez ciasne drzwi; gdyż wielu, powiadam wam, będzie chciało wejść, a nie zdołają. Skoro Pan domu wstanie i drzwi zamknie, wówczas, stojąc na dworze, zaczniecie kołatać do drzwi i wołać: „Panie, otwórz nam!”, lecz On wam odpowie: „Nie wiem, skąd jesteście”. Wtedy zaczniecie mówić: „Przecież jadaliśmy i piliśmy z Tobą, i na ulicach naszych nauczałeś”. Lecz On rzecze: „Powiadam wam, nie wiem, skąd jesteście. Odstąpcie ode Mnie wszyscy, którzy dopuszczacie się niesprawiedliwości!” Tam będzie płacz i zgrzytanie zębów, gdy ujrzycie Abrahama, Izaaka i Jakuba, i wszystkich proroków w królestwie Bożym, a siebie samych precz wyrzuconych. Przyjdą ze wschodu i zachodu, z północy i południa i siądą za stołem w królestwie Bożym. Tak oto są ostatni, którzy będą pierwszymi, i są pierwsi, którzy będą ostatnimi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu i wejścia do Jego domu, co nawiązuje do Ewangelii o 'ciasnych drzwiach' do królestwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' pasuje do ewangelicznego wezwania do wysiłku, by wejść do królestwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem wejścia przez 'ciasne drzwi', o których mówi Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pierwsze czytanie zawiera wskazówki dotyczące życia rodzinnego. Ta pieśń jest modlitwą o jedność i miłość w rodzinach, które są obrazem Kościoła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Wobec wezwania do wysiłku, by wejść do królestwa, ta pieśń jest prośbą o błogosławieństwo na trud codziennego życia chrześcijańskiego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie rodzinne i społeczne, prosząc, by było ono zgodne z Jego wolą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Ewangelia mówi o uczcie w królestwie Bożym. Komunia Święta jest zapowiedzią tej uczty, na którą zaproszeni są ludzie ze wszystkich stron świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę do przechodzenia przez 'ciasne drzwi'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Eucharystia jest pokarmem na drogę do królestwa Bożego, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, w której chwalimy Boga za Jego sprawiedliwość, potęgę i chwałę Jego królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, którego królestwo jest królestwem wszystkich wieków, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń uwielbienia dla Pana, który jest sprawiedliwy i łaskawy, i który podtrzymuje wszystkich upadających.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do Ojca, drogą, która prowadzi przez 'ciasne drzwi' Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która jest niezbędna, aby wytrwać w wysiłkach wchodzenia do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii, aby jak najwięcej ludzi mogło wejść do królestwa Bożego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "W kontekście rad dotyczących życia rodzinnego i społecznego, pieśń o błogosławieństwach ukazuje drogę do prawdziwego szczęścia w królestwie Bożym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest niezbędna w trudzie wchodzenia przez 'ciasne drzwi'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna, o której mówi ta pieśń, jest znakiem rozpoznawczym tych, którzy należą do królestwa Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność, która jest celem i owocem życia w królestwie Bożym.",
+      "moment": "ogolne"
+    }
+  ]
+}

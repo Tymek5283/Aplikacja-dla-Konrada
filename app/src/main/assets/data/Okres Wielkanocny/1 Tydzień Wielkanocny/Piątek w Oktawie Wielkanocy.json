@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413100.Piatek-w-Oktawie-Wielkanocy",
+  "tytul_dnia": "Piątek w Oktawie Wielkanocy",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 4, 1-12",
+      "opis": "Kamień odrzucony przez budujących stał się kamieniem węgielnym",
+      "tekst": "Gdy Piotr i Jan przemawiali do ludu, po uzdrowieniu chromego, podeszli do nich kapłani i dowódca straży świątynnej oraz saduceusze oburzeni, że nauczają lud i głoszą zmartwychwstanie umarłych w Jezusie. Zatrzymali ich i oddali pod straż aż do następnego dnia, bo już był wieczór. A wielu z tych, którzy słyszeli naukę, uwierzyło. Liczba mężczyzn sięgała pięciu tysięcy. Następnego dnia zebrali się ich przełożeni i starsi, i uczeni w Jeruzalem: arcykapłan Annasz, Kajfasz, Jan, Aleksander i ilu ich było z rodu arcykapłańskiego. Postawiwszy ich pośrodku, pytali: «Czyją mocą albo w czyim imieniu uczyniliście to?» Wtedy Piotr napełniony Duchem Świętym powiedział do nich: «Przełożeni ludu i starsi! Jeżeli przesłuchujecie nas dzisiaj w sprawie dobrodziejstwa, dzięki któremu chory człowiek odzyskał zdrowie, to niech będzie wiadomo wam wszystkim i całemu ludowi Izraela, że w imię Jezusa Chrystusa Nazarejczyka - którego wy ukrzyżowaliście, a którego Bóg wskrzesił z martwych - że dzięki Niemu ten człowiek stanął przed wami zdrowy. On jest kamieniem odrzuconym przez was budujących, tym, który stał się głowicą węgła. I nie ma w żadnym innym zbawienia, gdyż nie dano ludziom pod niebem żadnego innego imienia, przez które moglibyśmy być zbawieni». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 118 (117), 1b-2 i 4. 22-24. 25-27a (R.: por. 22)",
+      "opis": "",
+      "tekst": "Refren: Kamień wzgardzony stał się fundamentem.\n\nalbo: Alleluja.\nDziękujcie Panu, bo jest dobry, *\n\nbo Jego łaska trwa na wieki.\n\nNiech dom Izraela głosi: †\n\n«Jego łaska na wieki».*\n\nNiech wyznawcy Pana głoszą: «Jego łaska na wieki».\nRefren.\nKamień odrzucony przez budujących †\n\nstał się kamieniem węgielnym. *\n\nStało się to przez Pana i cudem jest w naszych oczach.\n\nOto dzień, który Pan uczynił, *\n\nradujmy się nim i weselmy.\nRefren.\nO Panie, Ty nas wybaw, *\n\npomyślność daj nam, o Panie!\n\nBłogosławiony, który przybywa w imię Pańskie, †\n\nbłogosławimy wam z Pańskiego domu. *\n\nPan jest Bogiem i daje nam światło.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ps 118 (117), 24",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Oto dzień, który Pan uczynił,\n\nradujmy się nim i weselmy."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 21, 1-14",
+      "opis": "Ukazanie się Zmartwychwstałego nad Jeziorem Tyberiadzkim",
+      "tekst": "Jezus znowu ukazał się nad Jeziorem Tyberiadzkim. A ukazał się w ten sposób: Byli razem Szymon Piotr, Tomasz, zwany Didymos, Natanael z Kany Galilejskiej, synowie Zebedeusza oraz dwaj inni z Jego uczniów. Szymon Piotr powiedział do nich: «Idę łowić ryby».  Odpowiedzieli mu: «Idziemy i my z tobą». Wyszli więc i wsiedli do łodzi, ale tej nocy nic nie ułowili. A gdy ranek zaświtał, Jezus stanął na brzegu. Jednakże uczniowie nie wiedzieli, że to był Jezus. A Jezus rzekł do nich: «Dzieci, macie coś do jedzenia?»\n\nOdpowiedzieli Mu: «Nie». On rzekł do nich: «Zarzućcie sieć po prawej stronie łodzi, a znajdziecie». Zarzucili więc i z powodu mnóstwa ryb nie mogli jej wyciągnąć. Powiedział więc do Piotra ów uczeń, którego Jezus miłował: «To jest Pan!» Szymon Piotr, usłyszawszy, że to jest Pan, przywdział na siebie wierzchnią szatę - był bowiem prawie nagi - i rzucił się wpław do jeziora. Pozostali uczniowie przypłynęli łódką, ciągnąc za sobą sieć z rybami. Od brzegu bowiem nie było daleko - tylko około dwustu łokci. A kiedy zeszli na ląd, ujrzeli rozłożone ognisko, a na nim ułożoną rybę oraz chleb. Rzekł do nich Jezus: «Przynieście jeszcze ryb, które teraz złowiliście». Poszedł Szymon Piotr i wyciągnął na brzeg sieć pełną wielkich ryb w liczbie stu pięćdziesięciu trzech. A pomimo tak wielkiej ilości sieć nie rozerwała się. Rzekł do nich Jezus: «Chodźcie, posilcie się!» Żaden z uczniów nie odważył się zadać Mu pytania: «Kto Ty jesteś?», bo wiedzieli, że to jest Pan. A Jezus przyszedł, wziął chleb i podał im - podobnie i rybę. To już trzeci raz Jezus ukazał się uczniom od chwili, gdy zmartwychwstał. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Słowa 'Pan zmartwychwstał i jest z nami' idealnie oddają sens Ewangelii o ukazaniu się Jezusa uczniom nad Jeziorem Tyberiadzkim.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która oddaje nastrój spotkania uczniów ze Zmartwychwstałym Panem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, który przychodzi do swoich uczniów i karmi ich.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Opis posiłku przygotowanego przez Jezusa na brzegu jeziora ma wyraźne odniesienia eucharystyczne, co czyni tę pieśń bardzo stosowną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna sławiąca Zbawiciela, który karmi swój lud, tak jak nakarmił uczniów nad jeziorem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której Chrystus karmi nas swoim Ciałem, co jest nawiązaniem do posiłku z uczniami w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do wspólnotowego wymiaru posiłku z Jezusem, który jednoczy uczniów i jest zapowiedzią Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w realną obecność Jezusa, którego uczniowie rozpoznali nad Jeziorem Tyberiadzkim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Ciała Pańskiego jest najpełniejszym spotkaniem ze Zmartwychwstałym, który daje nam życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Utwór jest hymnem chwały na cześć Zmartwychwstałego, którego moc objawia się w cudownym połowie ryb.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Wyraża wielkanocną radość, która napełniła uczniów po spotkaniu ze Zmartwychwstałym Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Zmartwychwstania i spotkania z Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Jest to radosne ogłoszenie prawdy, którą Piotr i Jan z mocą głoszą przed Sanhedrynem w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Spotkanie ze Zmartwychwstałym umacnia uczniów do misji, do której są posłani, by głosić Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o przejściu ze zwątpienia (bezowocny połów) do radości i wiary po spotkaniu z Panem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wyraża istotę wiary apostołów, którzy w Zmartwychwstałym odnajdują nadzieję i odwagę do świadectwa.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń podkreśla zwycięstwo Chrystusa, które jest źródłem zbawienia, o czym Piotr mówi w Dziejach Apostolskich: 'nie ma w żadnym innym zbawienia'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest fundamentem wiary i świadectwa apostołów.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem świadectwa apostołów i życia Kościoła.",
+      "moment": "ogólne"
+    }
+  ]
+}

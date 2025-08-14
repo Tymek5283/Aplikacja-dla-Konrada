@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415626.Niedziela-rok-B",
+  "tytul_dnia": "6 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kpł 13, 1-2. 45-46",
+      "opis": "Odosobnienie trędowatego",
+      "tekst": "Tak mówił Pan do Mojżesza i Aarona: «Jeżeli u kogoś na skórze ciała pojawi się nabrzmienie albo wysypka, albo biała plama, która na skórze jego ciała jest oznaką trądu, to przyprowadzą go do kapłana Aarona albo do jednego z jego synów kapłanów.\nTrędowaty, dotknięty tą plagą, będzie miał rozerwane szaty, włosy nie uczesane, brodę zasłoniętą i będzie wołać: Nieczysty, nieczysty! Przez cały czas trwania tej choroby będzie nieczysty. Będzie mieszkał w odosobnieniu. Jego mieszkanie będzie poza obozem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 32 (31), 1b-2. 5 i 11 (R.: por. 7)",
+      "opis": "",
+      "tekst": "Refren: Tyś mą ucieczką i moją radością.\nSzczęśliwy człowiek, †\nktóremu nieprawość została odpuszczona, *\na jego grzech zapomniany.\nSzczęśliwy ten, któremu Pan nie poczytuje winy, *\na w jego duszy nie kryje się podstęp.\nRefren.\nGrzech wyznałem Tobie i nie skryłem mej winy. †\nRzekłem: «Wyznaję mą nieprawość Panu», *\na Ty darowałeś niegodziwość mego grzechu.\nCieszcie się i weselcie w Panu, sprawiedliwi, *\nradośnie śpiewajcie wszyscy prawego serca!\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 10, 31 - 11, 1",
+      "opis": "Paweł naśladowcą Chrystusa",
+      "tekst": "Bracia:\nCzy jecie, czy pijecie, czy cokolwiek innego czynicie, wszystko na chwałę Bożą czyńcie. Nie bądźcie zgorszeniem ani dla Żydów, ani dla Greków, ani dla Kościoła Bożego, podobnie jak ja, który się staram przypodobać wszystkim pod każdym względem, szukając nie własnej korzyści, lecz dobra wielu, aby byli zbawieni. Bądźcie naśladowcami moimi, tak jak ja jestem naśladowcą Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 40-45",
+      "opis": "Uzdrowienie trędowatego",
+      "tekst": "Pewnego dnia przyszedł do Jezusa trędowaty i upadłszy na kolana, prosił Go: «Jeśli zechcesz, możesz mnie oczyścić». A Jezus, zdjęty litością, wyciągnął rękę, dotknął go i rzekł do niego: «Chcę, bądź oczyszczony!» Zaraz trąd go opuścił, i został oczyszczony.\nJezus surowo mu przykazał i zaraz go odprawił, mówiąc mu: «Bacz, abyś nikomu nic nie mówił, ale idź, pokaż się kapłanowi i złóż za swe oczyszczenie ofiarę, którą przepisał Mojżesz, na świadectwo dla nich».\nLecz on po wyjściu zaczął wiele opowiadać i rozgłaszać to, co zaszło, tak że Jezus nie mógł już jawnie wejść do miasta, lecz przebywał w miejscach pustynnych. A ludzie zewsząd schodzili się do Niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do Jezusa, który w Ewangelii okazuje się źródłem pociechy i uzdrowienia dla trędowatego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, który oczyszcza nas z grzechów, symbolizowanych przez trąd.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Wyraża błaganie o Bożą litość, podobnie jak trędowaty, który z wiarą prosił Jezusa o oczyszczenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Nawiązuje do psalmu o odpuszczeniu grzechów i prośby trędowatego o oczyszczenie, które jest symbolem oczyszczenia z grzechu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem żalu i prośbą o przebaczenie, co jest duchowym odpowiednikiem prośby trędowatego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pokorne wołanie grzesznika o łaskę i oczyszczenie, które ofiarowujemy wraz z chlebem i winem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę trędowatego, który z wiarą i pokorą zbliżył się do Jezusa, prosząc o uzdrowienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który ma moc oczyszczać z trądu grzechu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża świadomość własnej niegodności i prośbę o uzdrowienie duszy przed przyjęciem Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń dziękczynna za uzdrowienie i ocalenie, co stanowi odpowiedź na cud opisany w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to prosta pieśń dziękczynna za dar uzdrowienia i zbawienia, który otrzymujemy od Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "98",
+      "piesn": "Błogosławiony, komu odpuszczone",
+      "opis": "Pieśń ta jest uwielbieniem Boga za Jego miłosierdzie i odpuszczenie grzechów, o którym mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń wyraża gotowość do naśladowania Chrystusa, do czego wzywa św. Paweł w drugim czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby wszystko czynić na chwałę Bożą, prosząc o Jego błogosławieństwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Po spotkaniu z uzdrawiającym Chrystusem, jesteśmy posłani, by iść Jego drogą i naśladować Go.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu, która dobrze oddaje duchowe znaczenie oczyszczenia z trądu, symbolizującego grzech.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to prosta pieśń dziękczynna za dar uzdrowienia i zbawienia, który otrzymujemy od Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechu, którego symbolem jest trąd w dzisiejszej liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Pieśń ta jest wołaniem o Boże miłosierdzie i oczyszczenie, podobnie jak prośba trędowatego.",
+      "moment": "ogolne"
+    }
+  ]
+}

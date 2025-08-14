@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426088.Niedziela-rok-B",
+  "tytul_dnia": "12 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hi 38, 1. 8-11",
+      "opis": "Bóg jest władcą morza",
+      "tekst": "Z wichru Pan zwrócił się do Hioba i rzekł: «Kto bramą zamknął morze, gdy wyszło z łona wzburzone, gdy chmury mu dałem za ubranie, za pieluszki - ciemność pierwotną? Złamałem jego wielkość mym prawem, wprawiłem wrzeciądze i bramę. I rzekłem: Aż dotąd, nie dalej! Tu zapora dla twoich fal nadętych».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 107 (106), 23-24. 25-26. 28-29. 30-31 (R.: por. 1)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Chwalmy na wieki miłosierdzie Pana.\nCi, którzy statkami ruszyli na morze, *\nby handlować na wodach ogromnych,\nwidzieli dzieła Pana *\ni Jego cuda wśród głębin.\nRefren.\nRzekł i zerwał się wicher, *\nburzliwie piętrząc fale.\nWznosili się pod niebo, zapadali w otchłań, *\nich dusza truchlała w niedoli.\nRefren.\nWołali w nieszczęściu do Pana, *\na On ich wyzwolił od trwogi.\nZamienił burzę na powiew łagodny, *\numilkły morskie fale.\nRefren.\nRadowali się ciszą, która nastała, *\nprzywiódł ich do upragnionej przystani.\nNiech dziękują Panu za dobroć Jego, *\nza Jego cuda wobec synów ludzkich.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 5, 14-17",
+      "opis": "Wszystko stało się nowe",
+      "tekst": "Bracia:\nMiłość Chrystusa przynagla nas, pomnych na to, że skoro Jeden umarł za wszystkich, to wszyscy pomarli. A właśnie za wszystkich umarł Chrystus po to, aby ci, co żyją, już nie żyli dla siebie, lecz dla Tego, który za nich umarł i zmartwychwstał.\nTak więc i my odtąd już nikogo nie znamy według ciała; a jeśli nawet według ciała poznaliśmy Chrystusa, to już więcej nie znamy Go w ten sposób. Jeżeli więc ktoś pozostaje w Chrystusie, jest nowym stworzeniem. To, co dawne, minęło, a oto wszystko stało się nowe.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 4, 35-41",
+      "opis": "Uciszenie burzy na jeziorze",
+      "tekst": "Owego dnia, gdy zapadł wieczór, Jezus rzekł do swoich uczniów: «Przeprawmy się na drugą stronę». Zostawili więc tłum, a Jego zabrali, tak jak był w łodzi. Także inne łodzie płynęły z Nim.\nA nagle zerwał się gwałtowny wicher. Fale biły w łódź, tak że łódź już się napełniała wodą. On zaś spał w tyle łodzi na wezgłowiu. Zbudzili Go i powiedzieli do Niego:\n«Nauczycielu, nic Cię to nie obchodzi, że giniemy?» On, powstawszy, zgromił wicher i rzekł do jeziora: «Milcz, ucisz się!» Wicher się uspokoił i nastała głęboka cisza.\nWtedy rzekł do nich: «Czemu tak bojaźliwi jesteście? Jakże brak wam wiary!» Oni zlękli się bardzo i mówili między sobą: «Kim On jest właściwie, że nawet wicher i jezioro są Mu posłuszne?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń chwali Boga jako Stwórcę, którego potęga nad żywiołami jest ukazana w pierwszym czytaniu i Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi potęgę Boga, który panuje nad morzem i ucisza burze, co jest centralnym obrazem dzisiejszej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Jest to hymn uwielbienia dla Stwórcy, który ustanowił granice morzu i którego dzieła podziwiamy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "617",
+      "piesn": "Pod Twą obronę",
+      "opis": "Wyraża prośbę o opiekę i jest aktem zaufania Bogu, którego zabrakło uczniom w łodzi podczas burzy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc, by On, Władca żywiołów, miał nas w swojej opiece.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wobec potęgi Boga i naszej małości, ofiarujemy Mu nasze skruszone serca, ufając w Jego miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta pomaga w akcie wiary w tajemniczą obecność Tego, który ma władzę nad wiatrem i jeziorem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "W Komunii Świętej umacniamy naszą wiarę w Chrystusa, którego potęgę poznali uczniowie na jeziorze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "263",
+      "piesn": "Pan zstąpił z nieba",
+      "opis": "Adorujemy Pana, który przychodzi do nas w Eucharystii z tą samą mocą, którą uciszył burzę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń ta doskonale oddaje treść psalmu responsoryjnego, który jest dziękczynieniem za ocalenie z niebezpieczeństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękujemy Bogu za Jego cuda i miłosierdzie, które ratuje nas z każdej niedoli, jak żeglarzy z psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za Bożą opiekę i moc, która nas ocala w życiowych burzach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie i opiekę, wyrażająca pragnienie wiary mocniejszej niż lęk, który ogarnął uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o Chrystusie, który jest Panem natury i historii, i w którym stajemy się 'nowym stworzeniem'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Na zakończenie Mszy wyznajemy, że Chrystus, Pan wiatru i morza, jest naszym Wodzem i Królem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń mówi o bezpieczeństwie płynącym z Bożej opieki, co jest głównym przesłaniem dla zalęknionych uczniów z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Klasyczna pieśń o zaufaniu Bogu, który chroni przed wszelkim złem, idealnie pasująca do tematu uciszenia burzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Jest to akt zawierzenia Jezusowi, który jest naszą ucieczką w każdej życiowej burzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "W obliczu zagrożenia, jak uczniowie w łodzi, pragniemy być bliżej Chrystusa, który przynosi pokój.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413536.Piatek-VII-tygodnia-wielkanocnego",
+  "tytul_dnia": "7 Piątek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 25, 13-21",
+      "opis": "Zmarły Jezus, o którym Paweł twierdzi, że żyje",
+      "tekst": "Król Agryppa i Berenike przybyli do Cezarei powitać Festusa. Gdy przebywali tam dłuższy czas, Festus przedstawił królowi sprawę Pawła: «Feliks pozostawił w więzieniu pewnego człowieka - powiedział. Gdy byłem w Jerozolimie, arcykapłani i starsi żydowscy wnieśli przeciw niemu skargę, żądając dla niego wyroku skazującego. Odpowiedziałem im: „Rzymianie nie mają zwyczaju skazywania kogokolwiek na śmierć, zanim oskarżony nie stanie wobec oskarżycieli i nie będzie miał możności bronienia się przed zarzutami”.\nA kiedy tutaj przybyli, zasiadłem bez żadnej zwłoki, nazajutrz, w sądzie i kazałem przyprowadzić tego człowieka. Oskarżyciele nie wnieśli przeciwko niemu żadnej skargi o przestępstwa, które podejrzewałem. Mieli z nim tylko spory o ich wierzenia i o jakiegoś zmarłego Jezusa, o którym Paweł twierdzi, że żyje.\nNie znając się na tych rzeczach, zapytałem, czy nie zechciałby udać się do Jerozolimy i tam odpowiadać przed sądem w tych sprawach. Ponieważ Paweł zażądał, aby go zatrzymać do wyroku cezara, kazałem go strzec, dopóki go nie odeślę do Najdostojniejszego».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 11-12. 19-20b (R.: por. 19a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg utwierdził swój tron na niebiosach.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nRefren.\nPan utwierdził swój tron na niebiosach, *\na Jego panowanie wszechświat obejmuje.\nBłogosławcie Pana, wszyscy Jego aniołowie, *\npotężni mocarze pełniący Jego rozkazy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 14, 26",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Święty was wszystkiego nauczy;\nprzypomni wam wszystko, co wam powiedziałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 21, 15-19",
+      "opis": "Piotr pasterzem Kościoła",
+      "tekst": "Gdy Jezus ukazał się swoim uczniom i spożył z nimi śniadanie, rzekł do Szymona Piotra: «Szymonie, synu Jana, czy miłujesz Mnie więcej aniżeli ci?»\nOdpowiedział Mu: «Tak, Panie, Ty wiesz, że Cię kocham».\nRzekł do niego: «Paś baranki moje».\nI znowu, po raz drugi, powiedział do niego: «Szymonie, synu Jana, czy miłujesz Mnie?»\nOdparł Mu: «Tak, Panie, Ty wiesz, że Cię kocham».\nRzekł do niego: «Paś owce moje».\nPowiedział mu po raz trzeci: «Szymonie, synu Jana, czy kochasz Mnie?»\nZasmucił się Piotr, że mu po raz trzeci powiedział: «Czy kochasz Mnie?» I rzekł do Niego: «Panie, Ty wszystko wiesz, Ty wiesz, że Cię kocham».\nRzekł do niego Jezus: «Paś owce moje. Zaprawdę, zaprawdę, powiadam ci: Gdy byłeś młodszy, opasywałeś się sam i chodziłeś, gdzie chciałeś. Ale gdy się zestarzejesz, wyciągniesz ręce swoje, a inny cię opasze i poprowadzi, dokąd nie chcesz».\nTo powiedział, aby zaznaczyć, jaką śmiercią uwielbi Boga. A wypowiedziawszy to, rzekł do niego: «Pójdź za Mną!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta głosi centralną prawdę wiary, o której świadczy Paweł - że Jezus żyje.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, którego tron, jak mówi psalm, jest utwierdzony na niebiosach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem wiary w Zmartwychwstałego Pana, Pasterza naszych dusz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża odpowiedź miłości na miłość Chrystusa, co jest warunkiem powierzenia Piotrowi misji pasterskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, na wzór Piotra, który miał uwielbić Boga swoją śmiercią.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle misji pasterskiej Piotra.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Nawiązuje do powołania Piotra na pasterza owczarni Chrystusa, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jest to kolejna wersja Psalmu 23, która podkreśla osobistą więź z Chrystusem Dobrym Pasterzem, który powołuje Piotra.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, Dobrym Pasterzem, który karmi swoje owce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "175",
+      "piesn": "Alleluja! Jezus żyje, On",
+      "opis": "Jest to radosny hymn wielkanocny, który potwierdza świadectwo Pawła i jest fundamentem misji Piotra.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, którego tron, jak mówi psalm, jest utwierdzony na niebiosach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i wierność, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie, która jest odpowiedzią na wezwanie Jezusa do Piotra: 'Pójdź za Mną!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Misja pasterska Piotra jest częścią wielkiego nakazu misyjnego, by głosić Ewangelię wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, tak jak Paweł i Piotr, aż do śmierci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla godność ludu Bożego, którego pasterzem został ustanowiony Piotr.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Wyraża siłę płynącą od Pana, niezbędną do wypełnienia misji pasterskiej i dawania świadectwa aż do śmierci.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa, który żyje i powołuje swoich uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, która dobrze wpisuje się w kontekst powierzenia Piotrowi misji pasterskiej.",
+      "moment": "ogolne"
+    }
+  ]
+}

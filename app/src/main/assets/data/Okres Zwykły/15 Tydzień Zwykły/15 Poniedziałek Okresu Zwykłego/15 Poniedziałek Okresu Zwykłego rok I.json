@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426791.Poniedzialek-XV-tydzien-zwykly-rok-I",
+  "tytul_dnia": "15 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 1, 8-14. 22",
+      "opis": "Prześladowanie Hebrajczyków w Egipcie",
+      "tekst": "Rządy w Egipcie objął nowy król, który nie znał Józefa. I rzekł do swego ludu: «Oto lud Izraelitów jest liczniejszy i potężniejszy od nas. Roztropnie przeciw niemu wystąpmy, ażeby się przestał rozmnażać. W przypadku bowiem wojny mógłby się połączyć z naszymi wrogami i walczyć przeciw nam, aby wyjść z tego kraju».\nUstanowiono nad nim przełożonych robót przymusowych, aby go uciskali ciężkimi pracami. Budowano wówczas dla faraona miasta na składy: Pitom i Ramses. Ale im bardziej go uciskano, tym bardziej się rozmnażał i rozrastał, co jeszcze potęgowało wstręt do Izraelitów. Egipcjanie bezwzględnie zmuszali synów Izraela do ciężkich prac i uprzykrzali im życie uciążliwą pracą przy glinie i cegle oraz różnymi pracami w polu. Do tych wszystkich prac przymuszano ich bezwzględnie.\nFaraon wydał wtedy rozkaz całemu swojemu ludowi: «Wszystkich nowo narodzonych chłopców wyrzucajcie do rzeki, a każdą dziewczynkę pozostawiajcie przy życiu».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 124 (123), 1b-3. 4-6. 7-8 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Naszą pomocą jest Zbawiciel świata.\nGdyby Pan nie był po naszej stronie, przyznaj, Izraelu, †\ngdyby Pan nie był po naszej stronie, *\ngdy ludzie przeciw nam powstali,\nwtedy żywcem by nas pochłonęli, *\nkiedy gniew ich przeciw nam zapłonął.\nRefren.\nWówczas zatopiłaby nas woda, †\npotok by popłynął nad nami, *\nwówczas potoczyłyby się nad nami wezbrane wody.\nBłogosławiony Pan, który nas nie wydał *\nna pastwę ich zębom.\nRefren.\nDusza nasza jak ptak się wyrwała z sideł ptaszników, *\nsidło się podarło i zostaliśmy uwolnieni.\nNasza pomoc w imieniu Pana, *\nktóry stworzył niebo i ziemię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 10",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 34 - 11, 1",
+      "opis": "Kto was przyjmuje, Mnie przyjmuje",
+      "tekst": "Jezus powiedział do swoich apostołów:\n«Nie sądźcie, że przyszedłem pokój przynieść na ziemię. Nie przyszedłem przynieść pokoju, ale miecz. Bo przyszedłem poróżnić syna z jego ojcem, córkę z matką, synową z teściową; „i będą nieprzyjaciółmi człowieka jego domownicy”.\nKto kocha ojca lub matkę bardziej niż Mnie, nie jest Mnie godzien. I kto kocha syna lub córkę bardziej niż Mnie, nie jest Mnie godzien. Kto nie bierze swego krzyża, a idzie za Mną, nie jest Mnie godzien. Kto chce znaleźć  swe życie, straci je, a kto straci swe życie z mego powodu znajdzie je.\nKto was przyjmuje, Mnie przyjmuje; a kto Mnie przyjmuje, przyjmuje Tego, który Mnie posłał.\nKto przyjmuje proroka jako proroka, nagrodę proroka otrzyma. Kto przyjmuje sprawiedliwego jako sprawiedliwego, nagrodę sprawiedliwego otrzyma.\nKto poda kubek świeżej wody do picia jednemu z tych najmniejszych, dlatego że jest uczniem, zaprawdę, powiadam wam, nie utraci swojej nagrody».\nGdy Jezus skończył dawać te wskazania dwunastu swoim uczniom, odszedł stamtąd, aby nauczać i głosić Ewangelię w ich miastach.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W obliczu prześladowań, o których mówią oba czytania, pieśń ta jest wyrazem ufności w Bożą opiekę i ocalenie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Psalm jest wołaniem o pomoc, a ta pieśń jest aktem zaufania Bogu, który jest jedyną pomocą w ucisku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Wobec ucisku i prześladowań, prosimy Boga o miłosierdzie i błogosławieństwo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Pieśń o charakterze ofiarnym nawiązuje do słów Jezusa o konieczności wzięcia swojego krzyża, aby być godnym Go naśladować.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarujemy nasze cierpienia, łącząc je z krzyżem Chrystusa, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania życia Bogu, co jest istotą naśladowania Chrystusa z krzyżem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń eucharystyczna wyraża postawę pokory i uniżenia, która jest konieczna, by stracić swe życie dla Chrystusa i odnaleźć je na nowo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii jest aktem miłości do Jezusa, większej niż do rodziny i własnego życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Eucharystia umacnia naszą wiarę, byśmy byli zdolni do radykalnych wyborów, jakich wymaga Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia za Boże ocalenie, o którym z wdzięcznością śpiewa psalmista: 'sidło się podarło i zostaliśmy uwolnieni'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar zbawienia, nawet jeśli prowadzi on przez drogę krzyża i prześladowań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Psalmista wyznaje, że pomoc jest w imieniu Pana, a ta pieśń uwielbia Boga jako źródło naszej mocy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wyboru Boga ponad więzy rodzinne i ziemskie przywiązania, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest zobowiązaniem do wierności Chrystusowi i Jego krzyżowi, nawet za cenę prześladowań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Idziemy za Chrystusem, naszym Wodzem, biorąc swój krzyż, by z Nim odnieść zwycięstwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "300",
+      "piesn": "Serce Twe, Jezu",
+      "opis": "Pieśń pasyjna pomaga rozważać tajemnicę krzyża w kontekście radykalnych wymagań Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ewangelia jest częścią mowy misyjnej, a ta pieśń jest odnowieniem naszego powołania do głoszenia Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec ucisku i konieczności niesienia krzyża, pieśń ta jest wyrazem głębokiego zaufania do Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa jest niezbędny, by stracić swoje życie z Jego powodu i odnaleźć je na nowo.",
+      "moment": "ogolne"
+    }
+  ]
+}

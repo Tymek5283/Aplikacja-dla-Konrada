@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410402.Sobota-I-tydzien-zwykly-rok-II",
+  "tytul_dnia": "1 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Sm 9, 1-4. 17-19; 10, 1",
+      "opis": "Namaszczenie Saula na króla",
+      "tekst": "Był pewien dzielny wojownik z rodu Beniamina - a na imię mu było Kisz, syn Abiela, syna Serora, syna Bekorata, syna Afijacha, syna Beniamina. Miał on syna imieniem Saul, wysokiego i dorodnego, a nie było od niego piękniejszego człowieka wśród synów izraelskich. Wzrostem o głowę przewyższał cały lud. Gdy zaginęły oślice Kisza, ojca Saula, rzekł Kisz do swego syna, Saula: «Weź z sobą jednego z chłopców i udaj się na poszukiwanie oślic». Przeszli więc przez górę Efraima, przeszli przez ziemię Szalisza, lecz ich nie znaleźli. Powędrowali przez krainę Szaalim: tam ich nie było. Poszli do ziemi Jemini i również nie znaleźli. Kiedy Samuel spostrzegł Saula, odezwał się do niego Pan: «Oto ten człowiek, o którym ci mówiłem, ten, który ma rządzić moim ludem». Saul podszedł tymczasem do Samuela w bramie i rzekł: «Wskaż mi, proszę, gdzie jest dom Widzącego». Samuel odparł Saulowi: «To ja jestem Widzący. Chodź ze mną na wyżynę! Dziś jeść będziecie ze mną, a jutro pozwolę ci odejść, powiem ci też wszystko, co jest w twym sercu». Samuel wziął wtedy naczyńko z olejem i wylał na głowę Saula, ucałował go i rzekł: «Czyż nie namaścił cię Pan na wodza nad swoim dziedzictwem?» Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 21 (20), 2-3. 4-5. 6-7 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Król się weseli z Twej potęgi, Panie.\nPanie, król się weseli z Twojej potęgi *\n\ni z Twej pomocy tak bardzo się cieszy.\n\nSpełniłeś pragnienie jego serca *\n\ni nie odmówiłeś błaganiom warg jego.\nRefren.\nPomyślne błogosławieństwo wcześniej zesłałeś na niego, *\n\nszczerozłotą koronę włożyłeś mu na głowę.\n\nProsił Ciebie o życie, *\n\nTy go obdarzyłeś długimi dniami na wieki i na zawsze.\nRefren.\nWielka jest jego chwała dzięki Twej pomocy, *\n\nozdobiłeś go dostojeństwem i blaskiem.\n\nGdyż błogosławieństwem uczyniłeś go na wieki, *\n\nnapełniłeś go radością Twojej obecności.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pan posłał Mnie, abym ubogim niósł dobrą nowinę,\n\nwięźniom głosił wolność."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 13-17",
+      "opis": "Powołanie Mateusza",
+      "tekst": "Jezus wyszedł znowu nad jezioro. Cały lud przychodził do Niego, a On go nauczał. A przechodząc, ujrzał Lewiego, syna Alfeusza, siedzącego na komorze celnej, i rzekł do niego: «Pójdź za Mną!» Ten wstał i poszedł za Nim. Gdy Jezus siedział w jego domu przy stole, wielu celników i grzeszników siedziało razem z Jezusem i Jego uczniami. Wielu bowiem było tych, którzy szli za Nim. Niektórzy uczeni w Piśmie, spośród faryzeuszów, widząc, że je z grzesznikami i celnikami, mówili do Jego uczniów: «Czemu On je i pije z celnikami i grzesznikami?» Jezus, usłyszawszy to, rzekł do nich: «Nie potrzebują lekarza zdrowi, lecz ci, którzy się źle mają. Nie przyszedłem, aby powołać sprawiedliwych, ale grzeszników». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta odzwierciedla postawę celnika Lewiego, który na wezwanie Jezusa poszedł za Nim, szukając u Niego ratunku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę szukania Bożej woli, tak jak Saul, który szukając oślic, odnalazł swoje powołanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o wiarę, która pozwala odpowiedzieć na Boże wezwanie, tak jak uczynił to Mateusz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu swojego życia, co jest odpowiedzią na powołanie, jakiego doświadczył Mateusz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna, w której prosimy Boga o przyjęcie darów, symbolizujących nasze życie oddane na służbę Królestwu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń, która wyraża sens ofiarowania darów, które stają się Ciałem i Krwią Chrystusa, Lekarza dusz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Nawiązuje do uczty w domu Lewiego, która jest zapowiedzią Uczty Eucharystycznej, na którą Jezus zaprasza grzeszników.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa, który przyszedł powołać grzeszników i zaprasza ich do siebie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Wyraża postawę grzesznika, który zwraca się do miłosiernego Boga, szukając przebaczenia i ocalenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta głosi królowanie Chrystusa, który jest prawdziwym Królem, w przeciwieństwie do ziemskich władców jak Saul z pierwszego czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jest to aklamacja na cześć Chrystusa Króla, którego potęgę i chwałę opiewa psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania i miłosierdzia, które Bóg okazuje grzesznikom, zapraszając ich do swego stołu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyraża decyzję pójścia za Chrystusem, którą podjął Lewi, a do której zaproszony jest każdy wierzący.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to modlitwa o błogosławieństwo na drogę świadczenia o Chrystusie, którą rozpoczął Mateusz po swoim powołaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Wyraża prośbę o Boże prowadzenie w odpowiedzi na wezwanie 'Pójdź za Mną!', które odmieniło życie celnika.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie Lewiego-Mateusza na apostoła jest początkiem jego misji głoszenia Ewangelii, o której mówi ta pieśń.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie jest modlitwą grzesznika, którego Jezus przyszedł powołać, a nie sprawiedliwego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń o Bożym miłosierdziu, które oczyszcza grzeszników i jest odpowiedzią na powołanie Lewiego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, do której wzywa Jezus, powołując grzeszników.",
+      "moment": "ogolne"
+    }
+  ]
+}

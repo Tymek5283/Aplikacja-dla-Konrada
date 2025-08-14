@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429102.21-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "21 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 22, 19-23",
+      "opis": "Klucz domu Dawidowego",
+      "tekst": "Tak mówi Pan do Szebny, zarządcy pałacu: «Gdy strącę cię z twego urzędu i przepędzę cię z twojej posady, tego dnia powołam sługę mego, Eliakima, syna Chilkiasza. Oblokę go w twoją tunikę, przepaszę go twoim pasem, twoją władzę oddam w jego ręce; on będzie ojcem dla mieszkańców Jeruzalem oraz dla domu Judy.\nPołożę klucz domu Dawidowego na jego ramieniu; gdy on otworzy, nikt nie zamknie, gdy on zamknie, nikt nie otworzy. Wbiję go jak kołek na miejscu pewnym; i stanie się on tronem chwały dla domu swego ojca».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 138 (137), 1b-2a. 2b-3. 6 i 8bc (R.: por. 8b)",
+      "opis": "",
+      "tekst": "Refren: Panie, Twa łaska trwa po wszystkie wieki.\nBędę Cię sławił, Panie, z całego serca, *\nbo usłyszałeś słowa ust moich.\nBędę śpiewał Ci psalm wobec aniołów, *\npokłon Ci oddam w Twoim świętym przybytku.\nRefren.\nI będę sławił Twe imię za łaskę i wierność Twoją, *\nbo ponad wszystko wywyższyłeś Twe imię i obietnicę.\nWysłuchałeś mnie, kiedy Cię wzywałem, *\npomnożyłeś moc mojej duszy.\nRefren.\nZaprawdę Pan jest wzniosły, †\npatrzy łaskawie na pokornego, *\npyszałka zaś dostrzega z daleka.\nPanie, Twa łaska trwa na wieki, *\nnie porzucaj dzieła rąk swoich.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 11, 33-36",
+      "opis": "Hymn na cześć mądrości Bożej",
+      "tekst": "O głębokości bogactw, mądrości i wiedzy Boga! Jakże niezbadane są Jego wyroki i nie do wyśledzenia Jego drogi! Kto bowiem poznał myśl Pana albo kto był Jego doradcą? Lub kto Go pierwszy obdarował, aby nawzajem otrzymać odpłatę?\nAlbowiem z Niego i przez Niego, i dla Niego jest wszystko. Jemu chwała na wieki! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 16, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ty jesteś Piotr, czyli Opoka, i na tej opoce zbuduję mój Kościół,\na bramy piekielne go nie przemogą."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16, 13-20",
+      "opis": "Ty jesteś Piotr i tobie dam klucze królestwa niebieskiego",
+      "tekst": "Gdy Jezus przyszedł w okolice Cezarei Filipowej, pytał swych uczniów: «Za kogo ludzie uważają Syna Człowieczego?» A oni odpowiedzieli: «Jedni za Jana Chrzciciela, inni za Eliasza, jeszcze inni za Jeremiasza albo za jednego z proroków».\nJezus zapytał ich: «A wy za kogo Mnie uważacie?»\nOdpowiedział Szymon Piotr: «Ty jesteś Mesjasz, Syn Boga żywego».\nNa to Jezus mu rzekł: «Błogosławiony jesteś, Szymonie, synu Jony. Albowiem nie objawiły ci tego ciało i krew, lecz Ojciec mój, który jest w niebie. Otóż i Ja tobie powiadam: Ty jesteś Piotr, czyli Opoka, i na tej opoce zbuduję Kościół mój, a bramy piekielne go nie przemogą. I tobie dam klucze królestwa niebieskiego; cokolwiek zwiążesz na ziemi, będzie związane w niebie, a co rozwiążesz na ziemi, będzie rozwiązane w niebie».\nWtedy surowo zabronił uczniom, aby nikomu nie mówili, że On jest Mesjaszem.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "433",
+      "piesn": "Na Boży rozkaz",
+      "opis": "Pieśń bezpośrednio nawiązuje do prymatu Piotra i władzy kluczy, co jest centralnym tematem Ewangelii i aklamacji.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "478",
+      "piesn": "Jeśli chcesz szukać patrona",
+      "opis": "Pieśń do św. Piotra, Opoki Kościoła, jest doskonałym wprowadzeniem w liturgię, która celebruje jego powołanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla godność Ludu Bożego, czyli Kościoła, którego fundamentem jest Piotr Apostoł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, zbudowany na opoce Piotrowej, jest naturalną odpowiedzią na słowa Jezusa z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoce naszej pracy jako członkowie Kościoła, którego klucze zostały powierzone Piotrowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń o miłości budującej wspólnotę Kościoła, którego widzialną głową jest następca Piotra.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest osobistym wyznaniem wiary w Chrystusa, podobnym do tego, które złożył Piotr w Cezarei Filipowej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Komunia z Chrystusem umacnia naszą wiarę, którą wyznajemy razem z Piotrem, Opoką Kościoła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia buduje jedność Kościoła, którego fundamentem jest wiara Piotra.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla niezbadanej mądrości Boga, o której mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna jest odpowiedzią na psalm, w którym sławimy Boga za Jego łaskę i wierność.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń uwielbienia dla Boga, którego wyroki są niezbadane, a mądrość nieskończona.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "477",
+      "piesn": "Bóg, wieczna światłość",
+      "opis": "Choć pieśń jest przeznaczona na święto Apostołów Piotra i Pawła, jej treść o książętach Kościoła pasuje do dzisiejszej Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię, opierając się na wierze Kościoła, zbudowanego na Piotrze.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyrazem wierności Kościołowi, którego, jak obiecał Jezus, 'bramy piekielne nie przemogą'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie wiary w Chrystusa, na wzór Piotra, jest drogą, prawdą i życiem dla całego Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Nadzieja Kościoła opiera się na Chrystusie, którego Piotr wyznał jako Mesjasza i Syna Boga żywego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń sławi Chrystusa jako Króla i Władcę, któremu Piotr w imieniu Dwunastu oddaje hołd.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Modlitwa o umocnienie wiary jest szczególnie stosowna w dniu, w którym wspominamy wyznanie Piotra.",
+      "moment": "ogolne"
+    }
+  ]
+}

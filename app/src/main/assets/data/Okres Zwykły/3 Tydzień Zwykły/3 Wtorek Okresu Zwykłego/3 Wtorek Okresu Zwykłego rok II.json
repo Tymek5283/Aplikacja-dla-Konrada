@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415494.Wtorek-III-tydzien-zwykly-rok-II",
+  "tytul_dnia": "3 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 6, 12b-15. 17-19",
+      "opis": "Przeniesienie Arki Pańskiej do Miasta Dawidowego",
+      "tekst": "Poszedł Dawid i sprowadził z wielką radością Arkę Bożą z domu Obed-Edoma do Miasta Dawidowego. Ilekroć niosący Arkę Pańską postąpili sześć kroków, składał w ofierze wołu i tuczne cielę. Dawid wtedy tańczył z całym zapałem w obecności Pana, a ubrany był w lniany efod. Dawid wraz z całym domem izraelskim prowadził Arkę Pańską wśród radosnych okrzyków i grania na rogach.\nPrzyniesioną więc Arkę Pańską ustawiono na przeznaczonym na to miejscu w środku namiotu, który rozpiął dla niej Dawid, po czym Dawid złożył przed Panem całopalenia i ofiary biesiadne. Kiedy Dawid skończył składanie całopaleń i ofiar biesiadnych, pobłogosławił lud w imieniu Pana Zastępów. Dokonał potem podziału między cały naród, między cały tłum Izraela, między mężczyzn i kobiety: dla każdego po jednym bochenku chleba, po kawałku mięsa i po placku z rodzynkami. Potem wszyscy ludzie udali się do swych domów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 7-8. 9-10 (R.: por. 10b)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg Zastępów, On jest Królem chwały.\nBramy, podnieście swe szczyty, †\nunieście się, odwieczne podwoje, *\naby mógł wkroczyć Król chwały!\n«Któż jest tym Królem chwały?» †\n«Pan, dzielny i potężny, *\nPan, potężny w boju».\nRefren.\nBramy, podnieście swe szczyty, †\nunieście się, odwieczne podwoje, *\naby mógł wkroczyć Król chwały!\n«Któż jest tym Królem chwały?» *\n«Pan Zastępów, On jest Królem chwały».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 31-35",
+      "opis": "Prawdziwa rodzina Jezusa",
+      "tekst": "Nadeszła Matka Jezusa i bracia i stojąc na dworze, posłali po Niego, aby Go przywołać. A tłum ludzi siedział wokół Niego, gdy Mu powiedzieli: «Oto Twoja Matka i bracia na dworze szukają Ciebie».\nOdpowiedział im: «Któż jest moją matką i którzy są moimi braćmi?» I spoglądając na siedzących dokoła Niego, rzekł: «Oto moja matka i moi bracia. Bo kto pełni wolę Bożą, ten jest Mi bratem, siostrą i matką».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego (Ps 24), wzywającą do otwarcia bram dla Króla chwały, którego Arkę sprowadza Dawid.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się wokół Pana, aby stać się Jego duchową rodziną przez słuchanie i pełnienie Jego woli.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do uwielbienia Pana, Króla chwały, którego obecność symbolizowała Arka Przymierza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jest to ofiarowanie darów w duchu posłuszeństwa woli Bożej, która czyni nas prawdziwą rodziną Jezusa, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Bogu, aby pełnić Jego wolę, co jest istotą przynależności do rodziny Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud pełnienia Jego woli, abyśmy mogli stać się Jego prawdziwą rodziną.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń ta jest echem słów Jezusa, który określa swoją prawdziwą rodzinę jako tych, którzy pełnią wolę Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża pragnienie zjednoczenia z Chrystusem w Komunii, co jest najgłębszym aktem pełnienia woli Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z Chrystusem, stając się Jego Ciałem i prawdziwą rodziną.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń uwielbia Chrystusa Króla, którego obecność w Arce Pańskiej radowała Dawida i cały Izrael.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia dla Boga, Króla chwały, którego triumfalne wprowadzenie do Miasta Dawidowego opisuje pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest wyrazem radosnego uwielbienia, podobnego do tego, jakie Dawid okazał tańcząc przed Arką Pańską.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest posłaniem, by iść drogą Chrystusa, czyli drogą pełnienia woli Bożej, aby stać się Jego rodziną.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pełnienie woli Bożej to także głoszenie Ewangelii, do czego wzywa ta pieśń misyjna.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest istotą pełnienia woli Bożej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Nawiązuje do Maryi, Matki Jezusa, która jest najdoskonalszym wzorem pełnienia woli Bożej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Przypomina, że przez pełnienie woli Bożej stajemy się braćmi i siostrami Chrystusa, który stał się jednym z nas.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "Pieśń do Matki Bożej, która jest wzorem słuchania i wypełniania woli Bożej, co czyni Ją pierwszą w rodzinie Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pełnienie woli Bożej streszcza się w przykazaniu miłości, które jest fundamentem bycia w rodzinie Jezusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

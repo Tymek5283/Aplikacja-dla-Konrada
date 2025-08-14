@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410526.31-grudnia-siodmy-dzien-w-oktawie-Narodzenia-Panskiego",
+  "tytul_dnia": "31 grudnia - Siódmy dzień w oktawie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 2, 18-21",
+      "opis": "Mamy namaszczenie od Boga i znamy prawdę",
+      "tekst": "Dzieci, jest już ostatnia godzina, i tak, jak słyszeliście, antychryst nadchodzi, bo oto teraz właśnie pojawiło się wielu antychrystów; stąd poznajemy, że już jest ostatnia godzina. Wyszli oni spośród nas, lecz nie byli z nas, bo gdyby byli z nas, pozostaliby z nami; a to stało się po to, aby wyszło na jaw, że nie wszyscy są z nas.\nWy natomiast macie namaszczenie od Świętego i wszyscy jesteście napełnieni wiedzą. Ja wam nie pisałem, jakbyście nie znali prawdy, lecz że ją znacie i że żadna fałszywa nauka z prawdy nie pochodzi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1-2. 11-12. 13 (R.: por. 11a)",
+      "opis": "",
+      "tekst": "Refren: Niebo i ziemia niechaj się radują.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię, *\nkażdego dnia głoście Jego zbawienie.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nniech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 1, 14a. 12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo stało się ciałem i zamieszkało między nami.\nWszystkim, którzy Je przyjęli, dało moc, aby się stali dziećmi Bożymi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 1-18",
+      "opis": "Słowo stało się ciałem",
+      "tekst": "Na początku było Słowo, a Słowo było u Boga, i Bogiem było Słowo. ono było na początku u Boga. Wszystko przez Nie się stało, a bez Niego nic się nie stało, z tego, co się stało.\nW Nim było życie, a życie było światłością ludzi, a światłość w ciemności świeci i ciemność jej nie ogarnęła.\nPojawił się człowiek posłany przez Boga - Jan mu było na imię. Przyszedł on na świadectwo, aby zaświadczyć o światłości, by wszyscy uwierzyli przez niego. Nie był on światłością, lecz został posłany, aby zaświadczyć o światłości.\nByła światłość prawdziwa, która oświeca każdego człowieka, gdy na świat przychodzi. Na świecie było Słowo, a świat stał się przez Nie, lecz świat Go nie poznał. Przyszło do swojej własności, a swoi Go nie przyjęli. Wszystkim tym jednak, którzy Je przyjęli, dało moc, aby się stali dziećmi Bożymi, tym, którzy wierzą w imię Jego - którzy ani z krwi, ani z żądzy ciała, ani z woli męża, ale z Boga się narodzili.\nA Słowo stało się ciałem i zamieszkało wśród nas. I oglądaliśmy Jego chwałę, chwałę, jaką Jednorodzony otrzymuje od ojca, pełen łaski i prawdy.\nJan daje o Nim świadectwo i głośno woła w słowach: «Ten był, o którym powiedziałem: Ten, który po mnie idzie, przewyższył mnie godnością, gdyż był wcześniej ode mnie». Z Jego pełności wszyscy otrzymaliśmy - łaskę po łasce.\nPodczas gdy Prawo zostało dane za pośrednictwem Mojżesza, łaska i prawda przyszły przez Jezusa Chrystusa.\nBoga nikt nigdy nie widział; ten Jednorodzony Bóg, który jest w łonie ojca, o Nim pouczył.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta wzywa całe stworzenie do radości z przyjścia Pana, co doskonale oddaje nastrój psalmu 'Niebo i ziemia niechaj się radują'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "21",
+      "piesn": "Mądrości, która",
+      "opis": "Pieśń ta, będąca zbiorem antyfon adwentowych, wspaniale oddaje teologiczną głębię Prologu św. Jana, mówiąc o przyjściu Mądrości, Światłości i Emmanuela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Utwór mówi o nowej Gwieździe i Słowie, które zstępuje na świat, co jest echem Ewangelii o Słowie, które stało się Ciałem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "W ofiarowaniu rozważamy tajemnicę Wcielenia, a ta pieśń w prosty sposób mówi o tym, że Słowo stało się Ciałem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na dar Wcielonego Słowa, składamy w ofierze samych siebie, co jest treścią tej pieśni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jest to klasyczna pieśń ofiarna, w której prosimy Boga o przyjęcie darów, które staną się Ciałem i Krwią Słowa Wcielonego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "Ewangelia mówi o Słowie, które zamieszkało wśród nas, a ta pieśń łączy tę tajemnicę z obecnością Jezusa w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest głębokim aktem wiary w tajemnicę Eucharystii, która jest uobecnieniem tajemnicy Wcielenia Słowa, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Adoracyjna pieśń do Hostii, w której witamy Jezusa, Syna Maryi, Słowo, które stało się Ciałem i zamieszkało między nami.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Ten klasyczny hymn dziękczynny jest doskonałym wyrazem wdzięczności Bogu za wszystkie łaski otrzymane w kończącym się roku.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń dziękczynna, która jest odpowiedzią na wszystkie łaski mijającego roku i na dar Wcielenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń ta jest kontemplacją miłości Jezusa, Słowa Wcielonego, i stanowi doskonałe dziękczynienie po Komunii Świętej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Na zakończenie roku kalendarzowego ta pieśń jest modlitwą dziękczynno-błagalną za Ojczyznę, polecającą jej losy Bogu na przyszłość.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest aktem wierności i zobowiązaniem na nowy rok, by trwać przy Chrystusie, który jest Prawdą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "402",
+      "piesn": "Z dawna Polski Tyś Królową",
+      "opis": "Na zakończenie roku zawierzamy Ojczyznę opiece Maryi, Matki Słowa Wcielonego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Treść o Słowie, które staje się Ciałem by zbawić człowieka, doskonale pasuje do Prologu Ewangelii św. Jana.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "238",
+      "piesn": "Idzie, idzie Bóg prawdziwy",
+      "opis": "Uroczysta pieśń o przyjściu prawdziwego Boga podkreśla majestat Wcielonego Słowa z Ewangelii św. Jana.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Pieśń adwentowa, która w kontekście Bożego Narodzenia staje się hymnem dziękczynnym za spełnienie obietnicy o Zbawicielu.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń wyraża wdzięczność za łaski i jest aktem oddania się Chrystusowi Królowi, co jest odpowiednie na zakończenie roku.",
+      "moment": "ogólne"
+    }
+  ]
+}

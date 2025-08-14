@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413125.Czwartek-II-tygodnia-wielkanocnego",
+  "tytul_dnia": "2 Czwartek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 5, 27-33",
+      "opis": "Bóg naszych ojców wskrzesił Jezusa",
+      "tekst": "Gdy słudzy przyprowadzili apostołów, stawili ich przed Sanhedrynem, a arcykapłan zapytał: «Surowo wam zakazaliśmy nauczać w to imię, a oto napełniliście Jeruzalem waszą nauką i chcecie ściągnąć na nas odpowiedzialność za krew tego Człowieka?» «Trzeba bardziej słuchać Boga niż ludzi - odpowiedział Piotr, a także apostołowie. Bóg naszych ojców wskrzesił Jezusa, którego wy straciliście, zawiesiwszy na drzewie. Bóg wywyższył Go na miejscu po prawicy swojej jako Władcę i Zbawiciela, aby zapewnić Izraelowi nawrócenie i odpuszczenie grzechów. Dajemy temu świadectwo my właśnie oraz Duch Święty, którego Bóg udzielił tym, którzy Mu są posłuszni». Gdy to usłyszeli, wpadli w gniew i chcieli ich zabić. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2 i 9. 17-18. 19-20 (R.: por. 7a)",
+      "opis": "",
+      "tekst": "Refren: Biedak zawołał i Pan go wysłuchał.\n\nalbo: Alleluja.\nBędę błogosławił Pana po wieczne czasy, *\n\nJego chwała będzie zawsze na moich ustach.\n\nSkosztujcie i zobaczcie, jak Pan jest dobry, *\n\nszczęśliwy człowiek, który znajduje w Nim ucieczkę.\nRefren.\nPan zwraca swe oblicze przeciw zło czyniącym, *\n\nby pamięć o nich wymazać z ziemi.\n\nPan słyszy wołających o pomoc *\n\ni ratuje ich od wszelkiej udręki.\nRefren.\nPan jest blisko ludzi skruszonych w sercu, *\n\nocala upadłych na duchu.\n\nLiczne są nieszczęścia, które cierpi sprawiedliwy, *\n\nale Pan go ze wszystkich wybawia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 20, 29",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Uwierzyłeś, Tomaszu, bo Mnie ujrzałeś;\n\nbłogosławieni, którzy nie widzieli, a uwierzyli."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 3, 31-36",
+      "opis": "Kto wierzy w Syna, ma życie wieczne",
+      "tekst": "Kto przychodzi z wysoka, panuje nad wszystkim, a kto z ziemi pochodzi, należy do ziemi i po ziemsku przemawia. Kto z nieba przychodzi, Ten jest ponad wszystkim. Świadczy On o tym, co widział i słyszał, a świadectwa Jego nikt nie przyjmuje. Kto przyjął Jego świadectwo, wyraźnie potwierdził, że Bóg jest prawdomówny. Ten bowiem, kogo Bóg posłał, mówi słowa Boże: a bez miary udziela mu Ducha. Ojciec miłuje Syna i wszystko oddał w Jego ręce. Kto wierzy w Syna, ma życie wieczne; kto zaś nie wierzy Synowi, nie ujrzy życia, lecz gniew Boży nad nim wisi. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta jest radosnym świadectwem wiary w Zmartwychwstałego, którą z odwagą głoszą apostołowie w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo życia nad śmiercią, co jest fundamentem odwagi apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, któremu należy być posłusznym bardziej niż ludziom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór podkreśla ofiarę Chrystusa, która jest fundamentem wiary i daje życie wieczne, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której przyjmujemy Tego, który przyszedł z nieba i daje nam życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Nawiązuje do Ewangelii, podkreślając, że wiara w Syna, który daje siebie za pokarm, prowadzi do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest pokarmem na życie wieczne, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym wyrazem wiary w Syna, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Ta pieśń o charakterze triumfalnym oddaje moc świadectwa apostołów o zwycięstwie Chrystusa nad śmiercią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie głoszą z odwagą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar życia wiecznego, który otrzymujemy przez wiarę w Syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królewską chwałę Chrystusa, którego Bóg wywyższył po prawicy, jak świadczy Piotr w Dziejach Apostolskich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odwaga apostołów jest wzorem dla nas, posłanych by głosić Ewangelię o Jezusie Zbawicielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest centralnym punktem nauczania apostołów i źródłem ich odwagi.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to parafraza psalmu responsoryjnego, wzywająca do doświadczenia dobroci Pana, o której świadczą apostołowie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który daje Ducha Świętego tym, którzy Mu są posłuszni.",
+      "moment": "ogólne"
+    }
+  ]
+}

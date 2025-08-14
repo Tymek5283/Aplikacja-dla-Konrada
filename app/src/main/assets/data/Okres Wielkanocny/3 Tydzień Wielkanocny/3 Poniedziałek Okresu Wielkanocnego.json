@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413288.Poniedzialek-III-tygodnia-wielkanocnego",
+  "tytul_dnia": "3 Poniedziałek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 6, 8-15",
+      "opis": "Święty Szczepan przed Sanhedrynem",
+      "tekst": "Szczepan, pełen łaski i mocy, działał cuda i znaki wielkie wśród ludu. Niektórzy zaś z synagogi zwanej synagogą Wyzwoleńców oraz Cyrenejczyków i Aleksandryjczyków, i tych, którzy pochodzili z Cylicji i z Azji, przystąpili do rozprawy ze Szczepanem. Nie mogli jednak sprostać mądrości i Duchowi, z którego natchnienia przemawiał. Podstawili więc ludzi, którzy zeznali: «Słyszeliśmy, jak on wypowiadał bluźnierstwa przeciwko Mojżeszowi i Bogu». W ten sposób podburzyli lud, starszych i uczonych w Piśmie. Przybiegli, porwali go i zaprowadzili przed Sanhedryn. Tam postawili fałszywych świadków, którzy zeznali: «Ten człowiek nie przestaje mówić przeciwko temu świętemu miejscu i przeciwko Prawu. Bo słyszeliśmy, jak mówił, że Jezus Nazarejczyk zburzy to miejsce i pozmienia zwyczaje, które nam Mojżesz przekazał». A wszyscy, którzy zasiadali w Sanhedrynie, przyglądali się mu uważnie i zobaczyli twarz jego, podobną do oblicza anioła. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 23-24. 26-27. 29-30 (R.: por. 1)",
+      "opis": "",
+      "tekst": "Refren: Błogosławieni słuchający Pana.\n\nalbo: Alleluja.\nChociaż zasiadają możni, przeciw mnie spiskując, *\n\nTwój sługa rozmyśla o Twoich ustawach.\n\nBo Twe napomnienia są moją rozkoszą, *\n\nmoimi doradcami Twoje ustawy.\nRefren.\nWyjawiłem Ci moje drogi, a Ty mnie wysłuchałeś, *\n\nnaucz mnie swoich ustaw.\n\nPozwól mi zrozumieć drogę Twych przykazań, *\n\nabym rozważał Twoje cuda.\nRefren.\nPowstrzymaj mnie od drogi kłamstwa, *\n\nobdarz mnie łaską Twojego Prawa.\n\nWybrałem drogę prawdy, *\n\npragnąc Twych wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 4b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie samym chlebem żyje człowiek,\n\nlecz każdym słowem, które pochodzi z ust Bożych."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 22-29",
+      "opis": "Troszczcie się o pokarm, który trwa na wieki",
+      "tekst": "Nazajutrz, po rozmnożeniu chlebów, tłum stojący po drugiej stronie jeziora spostrzegł, że poza jedną łodzią nie było tam żadnej innej oraz że Jezus nie wsiadł do łodzi razem ze swymi uczniami, lecz że Jego uczniowie odpłynęli sami. Tymczasem w pobliże tego miejsca, gdzie spożyto chleb po modlitwie dziękczynnej Pana, przypłynęły od Tyberiady inne łodzie. A kiedy ludzie z tłumu zauważyli, że nie ma tam Jezusa ani Jego uczniów, wsiedli do łodzi, dotarli do Kafarnaum i tam szukali Jezusa. Gdy zaś odnaleźli Go na przeciwległym brzegu, rzekli do Niego: «Rabbi, kiedy tu przybyłeś?» W odpowiedzi rzekł im Jezus: «Zaprawdę, zaprawdę, powiadam wam: Szukacie Mnie nie dlatego, że widzieliście znaki, ale dlatego, że jedliście chleb do syta. Zabiegajcie nie o ten pokarm, który niszczeje, ale o ten, który trwa na życie wieczne, a który da wam Syn Człowieczy; Jego to bowiem pieczęcią swą naznaczył Bóg Ojciec». Oni zaś rzekli do Niego: «Cóż mamy czynić, abyśmy wykonywali dzieła Boga?» Jezus, odpowiadając, rzekł do nich: «Na tym polega dzieło Boga, abyście wierzyli w Tego, którego On posłał». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń ta jest radosnym świadectwem wiary w Zmartwychwstałego, którą z odwagą głoszą apostołowie w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Radosna pieśń wielkanocna, która głosi zwycięstwo życia nad śmiercią, co jest fundamentem odwagi apostołów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Pieśń jest radosnym wyznaniem wiary w żyjącego Pana, któremu należy być posłusznym bardziej niż ludziom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Utwór podkreśla ofiarę Chrystusa, która jest fundamentem wiary i daje życie wieczne, o czym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "187",
+      "piesn": "Ofiarujmy chwałę w wierze",
+      "opis": "Pieśń ta, mówiąc o Baranku, który zbawił owce, nawiązuje do ofiary Chrystusa, o której świadczy Piotr.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię, w której przyjmujemy Tego, który przyszedł z nieba i daje nam życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Nawiązuje do Ewangelii, podkreślając, że wiara w Syna, który daje siebie za pokarm, prowadzi do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, który jest pokarmem na życie wieczne, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym wyrazem wiary w Syna, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Ta pieśń o charakterze triumfalnym oddaje moc świadectwa apostołów o zwycięstwie Chrystusa nad śmiercią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, którego apostołowie głoszą z odwagą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar życia wiecznego, który otrzymujemy przez wiarę w Syna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Pieśń głosi królewską chwałę Chrystusa, którego Bóg wywyższył po prawicy, jak świadczy Piotr w Dziejach Apostolskich.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odwaga apostołów jest wzorem dla nas, posłanych by głosić Ewangelię o Jezusie Zbawicielu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest centralnym punktem nauczania apostołów i źródłem ich odwagi.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to parafraza psalmu responsoryjnego, wzywająca do doświadczenia dobroci Pana, o której świadczą apostołowie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest źródłem naszego zbawienia.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który daje Ducha Świętego tym, którzy Mu są posłuszni.",
+      "moment": "ogólne"
+    }
+  ]
+}

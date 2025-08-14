@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414679.Czwartek-32-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "32 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 7, 22 - 8, 1",
+      "opis": "Pochwała Mądrości",
+      "tekst": "Jest w Mądrości duch rozumny, święty, jedyny, wieloraki, subtelny, rączy, przenikliwy, nieskalany, jasny, niezadający bólu, miłujący dobro, bystry, niepowstrzymany, dobroczynny, miłujący ludzi, mocny, niezawodny, beztroski, wszechmogący i wszystkowidzący, przenikający wszelkie duchy rozumne, czyste i najsubtelniejsze.\nMądrość bowiem jest ruchliwsza od wszelkiego ruchu; przez wszystko przechodzi i przenika dzięki czystości. Jest bowiem tchnieniem mocy Bożej i przeczystym wypływem chwały Wszechmocnego, dlatego nic skażonego do niej nie przylgnie. Jest bowiem odblaskiem wieczystej światłości, zwierciadłem bez skazy działania Boga, obrazem Jego dobroci.\nJedna jest, a wszystko może, pozostając sobą, wszystko odnawia, a przez pokolenia zstępując w dusze święte, kształtuje przyjaciół Bożych i proroków. Bóg bowiem miłuje tylko tego, kto przebywa z Mądrością. Bo ona piękniejsza niż słońce i niż wszelki gwiazdozbiór. Porównana ze światłością - uzyska pierwszeństwo, po tamtej bowiem nastaje noc, a Mądrości zło nie przemoże. Sięga potężnie od krańca do krańca i włada wszystkim z dobrocią.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 89-90. 91 i 130. 135 i 175 (R.: por. 89)",
+      "opis": "",
+      "tekst": "Refren: Słowo Twe, Panie, niezmienne na wieki.\nTwoje słowo, Panie, jest wieczne, *\nniezmienne jak niebiosa.\nTwoja wierność przez pokolenia, *\numocniłeś ziemię, by trwała.\nRefren.\nWszystko trwa do dzisiaj według Twych wyroków, *\nbo wszelkie rzeczy Ci służą.\nPoznanie Twoich słów oświeca *\ni naucza niedoświadczonych.\nRefren.\nOkaż Twemu słudze światłość swego oblicza *\ni naucz mnie Twoich ustaw.\nNiech żyje moja dusza i niech Ciebie chwali, *\nniech mnie wspierają Twoje wyroki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 15, 5ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem krzewem winnym, a wy - latoroślami.\nKto trwa we Mnie, a Ja w nim, ten przynosi owoc obfity."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 20-25",
+      "opis": "Królestwo Boże jest pośród was",
+      "tekst": "Jezus zapytany przez faryzeuszów, kiedy przyjdzie królestwo Boże, odpowiedział im: «Królestwo Boże nie przyjdzie w sposób dostrzegalny; i nie powiedzą: „Oto tu jest” albo: „Tam”. Oto bowiem królestwo Boże pośród was jest».\nDo uczniów zaś rzekł: «Przyjdzie czas, kiedy zapragniecie ujrzeć choćby jeden z dni Syna Człowieczego, a nie zobaczycie. Powiedzą wam: „Oto tam” lub: „Oto tu”. Nie chodźcie tam i nie biegnijcie za nimi. Bo jak błyskawica, gdy zabłyśnie, jaśnieje od jednego krańca widnokręgu aż do drugiego, tak będzie z Synem Człowieczym w dniu Jego.\nWpierw jednak musi wiele wycierpieć i być odrzuconym przez to pokolenie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń jest wyrazem poszukiwania Boga, a pierwsze czytanie mówi, że Mądrość daje się znaleźć tym, którzy jej szukają.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem poszukiwania i zawierzenia Bogu, którego Mądrość, jak słyszymy w pierwszym czytaniu, sama wychodzi naprzeciw.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest drogą do odnalezienia Mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Wobec pochwały Mądrości z pierwszego czytania, ta pieśń jest prośbą o Ducha Świętego, który jest źródłem wszelkiej mądrości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prośba o Ducha Świętego, który jest utożsamiany z Mądrością Bożą, aby napełnił nasze serca miłością i mądrością.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, prosząc, by napełnił je swoją Mądrością i uczynił je swoim mieszkaniem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta mówi o Królestwie Bożym, które jest pośród nas, co jest głównym tematem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest Mądrością Bożą, która staje się naszym pokarmem i umocnieniem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest zapowiedzią Królestwa Bożego, które jest pośród nas.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń jest aktem dziękczynienia za dar Bożej Mądrości, która, jak mówi pierwsze czytanie, jest odblaskiem wieczystej światłości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Boga, którego Mądrość przenika i włada wszystkim z dobrocią.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże słowo, które, jak mówi psalm, jest wieczne i oświeca niedoświadczonych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest istotą Królestwa Bożego, o którym naucza Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Jesteśmy posłani, by żyć w Królestwie Bożym, które jest już pośród nas, i świadczyć o nim światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo, abyśmy w naszym życiu kierowali się Bożą Mądrością i budowali Jego Królestwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec zapowiedzi cierpienia Syna Człowieczego, ta pieśń jest wyznaniem, że Chrystus jest naszą drogą, prawdą i życiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który w pierwszym czytaniu jest utożsamiany z Mądrością Bożą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn jest wyrazem podziwu dla Stwórcy, którego Mądrość objawia się w pięknie stworzenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Bezpośrednia prośba do Ducha Mądrości, o której wzniośle mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

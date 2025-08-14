@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410523.3-stycznia",
+  "tytul_dnia": "3 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1J 2, 29 - 3, 6",
+      "opis": "Chrystus objawił się po to, aby zgładzić grzechy",
+      "tekst": "Najmilsi:\nJeżeli wiecie, że Bóg jest sprawiedliwy, to uznajcie również, że każdy, kto postępuje sprawiedliwie, pochodzi od Niego.\nPopatrzcie, jaką miłością obdarzył nas Ojciec: zostaliśmy nazwani dziećmi Bożymi, i rzeczywiście nimi jesteśmy. Świat zaś dlatego nas nie zna, że nie poznał Jego.\nUmiłowani, obecnie jesteśmy dziećmi Bożymi, ale jeszcze się nie ujawniło, czym będziemy. Wiemy, że gdy się objawi, będziemy do Niego podobni, bo ujrzymy Go takim, jakim jest.\nKażdy zaś, kto pokłada w Nim tę nadzieję, uświęca się, podobnie jak On jest święty. Każdy, kto grzeszy, dopuszcza się bezprawia, ponieważ grzech jest bezprawiem.\nWiecie, że On się objawił po to, aby zgładzić grzechy, w Nim zaś nie ma grzechu. Ktokolwiek trwa w Nim, nie grzeszy, żaden zaś z tych, którzy grzeszą, nie widział Go ani Go nie poznał.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 3c-4. 5-6 (R.: por. 3cd)",
+      "opis": "",
+      "tekst": "Refren: Ziemia ujrzała swego Zbawiciela.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nzwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren.\nŚpiewajcie Panu przy wtórze cytry, *\nprzy wtórze cytry i przy dźwięku harfy.\nPrzy trąbach i przy głosie rogu, *\nna oczach Pana, Króla, się radujcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 1, 14a. 12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo stało się ciałem i zamieszkało między nami.\nWszystkim, którzy Je przyjęli, dało moc, aby się stali dziećmi Bożymi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 1, 29-34",
+      "opis": "Chrystus jest Barankiem, który gładzi grzech świata",
+      "tekst": "Jan zobaczył podchodzącego ku niemu Jezusa i rzekł: «oto Baranek Boży, który gładzi grzech świata. To jest Ten, o którym powiedziałem: „Po mnie przyjdzie Mąż, który mnie przewyższył godnością, gdyż był wcześniej ode mnie”. Ja Go przedtem nie znałem, ale przyszedłem chrzcić wodą w tym celu, aby on się objawił Izraelowi».\nJan dał takie świadectwo: «Ujrzałem Ducha, który zstępował z nieba jak gołębica i spoczął na Nim. Ja Go przedtem nie znałem, ale Ten, który mnie posłał, abym chrzcił wodą, powiedział do mnie: „Ten, nad którym ujrzysz Ducha zstępującego i spoczywającego na Nim, jest Tym, który chrzci Duchem Świętym”. Ja to ujrzałem i daję świadectwo, że On jest Synem Bożym».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Pieśń o Janie Chrzcicielu, który w Ewangelii daje świadectwo o Jezusie jako Baranku Bożym, doskonale wprowadza w liturgię dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "474",
+      "piesn": "Janie Chrzcicielu",
+      "opis": "Utwór ten wprost zwraca się do Jana Chrzciciela, prosząc go o wstawiennictwo i wskazanie drogi do Jezusa, tak jak czynił to nad Jordanem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "510",
+      "piesn": "Zamilkły usta proroka",
+      "opis": "Pieśń ta, choć mówi o męczeństwie Jana, przypomina o jego misji jako poprzednika Syna Bożego, o której świadczy w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń pasyjna, która jednak wprost mówi o tym, że Jezus zgładził nasze grzechy, co jest istotą świadectwa Jana: 'Oto Baranek Boży, który gładzi grzech świata'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "W zwrotce 'Bądźże pozdrowiony, Baranku Boży' pieśń ta bezpośrednio nawiązuje do słów Jana Chrzciciela z dzisiejszej Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W darze chleba i wina ofiarujemy nasze życie, prosząc, by Baranek Boży zgładził nasze grzechy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń ta nazywa Jezusa w Eucharystii 'Bożym Barankiem, który gładzi grzechy', co jest dosłownym nawiązaniem do Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjmując Komunię, zbliżamy się do Baranka Bożego, który gładzi grzechy świata, o czym świadczył Jan.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Baranek Boży, który gładzi grzechy, jest jednocześnie Chlebem Żywym dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm responsoryjny jest radosnym hymnem na cześć Zbawiciela, którego ujrzała cała ziemia, a ta pieśń jest jego doskonałym dziękczynnym rozwinięciem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, którego Jan Chrzciciel objawił światu jako Zbawiciela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Utwór ten, podobnie jak psalm, wzywa całe stworzenie do radości z powodu przyjścia Pana i Jego zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Ewangelia mówi o Duchu Świętym zstępującym na Jezusa. Ta pieśń jest prośbą, by ten sam Duch napełnił nas i posłał do świadczenia o Chrystusie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Świadectwo Jana Chrzciciela jest początkiem misji głoszenia Dobrej Nowiny, do której jesteśmy posłani na mocy chrztu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jesteśmy posłani, by świadczyć o Jezusie, tak jak Jan Chrzciciel, a ta pieśń jest prośbą o siłę do tego świadectwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' idealnie oddaje misję Jana Chrzciciela.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Pieśń błagalna, prosząca o przebaczenie win, które gładzi Baranek Boży, wskazany przez Jana.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń ta przypomina, że Syn Boży stał się człowiekiem, aby zgładzić grzechy, co jest centralnym orędziem Jana Chrzciciela.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń mówi o Zbawicielu, który przynosi światło, a Jan Chrzciciel był tym, który Go wskazał.",
+      "moment": "ogólne"
+    }
+  ]
+}

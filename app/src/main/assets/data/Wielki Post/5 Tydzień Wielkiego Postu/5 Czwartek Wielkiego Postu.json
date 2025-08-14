@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412422.Czwartek-V-tydzien-Wielkiego-Postu",
+  "tytul_dnia": "5 Czwartek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 17, 3-9",
+      "opis": "Przymierze Boga z Abrahamem",
+      "tekst": "Abram padł na oblicze, a Bóg tak do niego mówił:\n«Oto moje przymierze z tobą: staniesz się ojcem mnóstwa narodów. Nie będziesz więc odtąd nazywał się Abram, lecz imię twoje będzie Abraham, bo uczynię ciebie ojcem mnóstwa narodów. Sprawię, że będziesz niezmiernie płodny, tak że staniesz się ojcem narodów i pochodzić będą od ciebie królowie.\nPrzymierze moje, które zawieram pomiędzy Mną a tobą oraz twoim potomstwem, będzie trwało przez pokolenia jako przymierze wieczne, abym był Bogiem twoim, a potem twego potomstwa. I oddaję tobie i twym przyszłym potomkom kraj, w którym przebywasz, cały kraj Kanaan, jako własność na wieki i będę ich Bogiem».\nPotem rzekł Bóg do Abrahama: «Ty zaś, a po tobie twoje potomstwo przez wszystkie pokolenia zachowujcie przymierze ze Mną».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 105 (104), 4-5. 6-7. 8-9 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg pamięta o swoim przymierzu.\nRozmyślajcie o Panu i Jego potędze, *\nzawsze szukajcie Jego oblicza.\nPamiętajcie o cudach, które On uczynił, *\no Jego znakach, o wyrokach ust Jego.\nRefren.\nPotomkowie Abrahama, słudzy Jego, *\nsynowie Jakuba, Jego wybrańcy.\nOn, Pan, jest naszym Bogiem, *\nJego wyroki obejmują świat cały.\nRefren.\nNa wieki pamięta o swoim przymierzu, *\nobietnicy danej tysiącu pokoleń,\no przymierzu, które zawarł z Abrahamem, *\nprzysiędze danej Izaakowi.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 95 (94), 8a. 7d",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nie zatwardzajcie dzisiaj serc waszych,\nlecz słuchajcie głosu Pańskiego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 8, 51-59",
+      "opis": "Abraham ujrzał mój dzień",
+      "tekst": "Jezus powiedział do Żydów: «Zaprawdę, zaprawdę, powiadam wam: Jeśli ktoś zachowa moją naukę, nie zazna śmierci na wieki».\nRzekli do Niego Żydzi: «Teraz wiemy, że jesteś opętany, Abraham umarł, i prorocy - a Ty mówisz: „Jeśli ktoś zachowa moją naukę, ten śmierci nie zazna na wieki”. Czy Ty jesteś większy od ojca naszego, Abrahama, który przecież umarł? I prorocy pomarli. Kimże Ty siebie czynisz?»\nOdpowiedział Jezus: «Jeżeli Ja sam siebie otaczam chwałą, chwała moja jest niczym. Ale jest Ojciec mój, co otacza Mnie chwałą, o którym wy mówicie: „Jest naszym Bogiem”. Lecz wy Go nie poznaliście. Ja Go jednak znam. Gdybym powiedział, że Go nie znam, byłbym podobnie jak wy kłamcą. Ale Ja Go znam i słowo Jego zachowuję. Abraham, ojciec wasz, rozradował się z tego, że ujrzał mój dzień - ujrzał go i ucieszył się».\nNa to rzekli do Niego Żydzi: «Pięćdziesięciu lat jeszcze nie masz, a Abrahama widziałeś?»\nRzekł do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Zanim Abraham stał się, Ja jestem».\nPorwali więc kamienie, aby rzucić w Niego. Jezus jednak ukrył się i wyszedł ze świątyni.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta wyraża wierność przymierzu z Bogiem, o którym mówi pierwsze czytanie i psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie szukania Bożego oblicza, co jest istotą wierności przymierzu z Abrahamem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę z powodu grzechu niewiary, o którym mówi Jezus do Żydów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Oddaje postawę Abrahama, który padł na twarz przed Bogiem, a także postawę czci wobec Chrystusa, który jest 'JA JESTEM'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Utwór mówi o ofierze Chrystusa, która jest wypełnieniem przymierza zawartego z Abrahamem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że wiara w obecność Chrystusa jest zachowaniem Jego nauki, która daje życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Kto zachowuje naukę Jezusa i spożywa Jego Ciało, nie zazna śmierci na wieki, jak obiecuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który jest przed Abrahamem i daje nam siebie jako pokarm na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, aby przez zachowanie Jego słowa nie zaznać śmierci na wieki.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń uwielbia Boga za Jego wierność obietnicom, danym Abrahamowi i wypełnionym w Chrystusie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą wierność przymierzu, o której przypomina psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Jest to pieśń chwały na cześć Pana, który na wieki pamięta o swoim przymierzu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Zachęca do wiary w Ewangelię, która jest warunkiem zachowania nauki Chrystusa i osiągnięcia życia wiecznego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców wiary, na wzór Abrahama, który uwierzył Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Wzywa do naśladowania Chrystusa przez pokutę i wierność Jego słowu, które daje życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę wierności przymierzu z Bogiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Boga, który jest wierny swojemu przymierzu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna jest prośbą o przebaczenie grzechu niewiary, który uniemożliwia poznanie Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu i Jego słowu, które jest fundamentem przymierza i drogą do życia wiecznego.",
+      "moment": "ogolne"
+    }
+  ]
+}

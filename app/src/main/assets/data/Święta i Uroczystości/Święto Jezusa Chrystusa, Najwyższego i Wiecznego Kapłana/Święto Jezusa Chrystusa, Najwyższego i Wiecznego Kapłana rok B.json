@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/2506622.Jezusa-Chrystusa-Najwyzszego-Kaplana-B",
+  "tytul_dnia": "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 31, 31-34",
+      "opis": "Moje prawo wypiszę na ich sercach",
+      "tekst": "Pan mówi: «Oto nadchodzą dni, kiedy zawrę z domem Izraela i z domem Judy nowe przymierze. Nie takie jak przymierze, które zawarłem z ich przodkami, kiedy ująłem ich za rękę, by wyprowadzić z ziemi egipskiej. To moje przymierze złamali, mimo że byłem ich władcą, mówi Pan.\nLecz takie będzie przymierze, jakie zawrę z domem Izraela po tych dniach, mówi Pan: Umieszczę swe prawo w głębi ich jestestwa i wypiszę na ich sercach. Będę im Bogiem, oni zaś będą Mi ludem.\nI nie będą się musieli wzajemnie pouczać, mówiąc jeden do drugiego: Poznajcie Pana! Wszyscy bowiem od najmniejszego do największego poznają Mnie, mówi Pan, ponieważ odpuszczę im występki, a o grzechach ich nie będę już wspominał».\nOto słowo Boże."
+    },
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 10, 11-18",
+      "opis": "Udoskonalił na wieki tych, którzy są uświęcani",
+      "tekst": "Każdy kapłan Starego Testamentu staje codziennie do wykonywania swej służby i wiele razy składa te same ofiary, które żadną miarą nie mogą zgładzić grzechów. Ten przeciwnie, złożywszy raz na zawsze jedną ofiarę za grzechy, zasiadł po prawicy Boga, oczekując tylko, «aż nieprzyjaciele Jego staną się podnóżkiem pod Jego stopy». Jedną bowiem ofiarą udoskonalił na wieki tych, którzy są uświęcani.\nDaje nam zaś świadectwo Duch Święty, skoro powiedział: «Takie jest przymierze, które zawrę z nimi po owych dniach, mówi Pan: Nadam prawa moje w ich sercach, także w myśli ich je wypiszę. A na ich grzechy oraz ich nieprawości więcej już nie wspomnę».\nGdzie zaś jest ich odpuszczenie, tam już więcej nie zachodzi potrzeba ofiary za grzechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 110 (109), 1bcde. 2-3 (R.: por. 4b)",
+      "opis": "",
+      "tekst": "Refren: Jesteś kapłanem, tak jak Melchizedek.\nRzekł Pan do Pana mego: *\n«Siądź po mojej prawicy,\naż uczynię Twych wrogów *\npodnóżkiem stóp Twoich».\nRefren.\nPan rozciągnie moc Twego berła z Syjonu: *\n«Panuj wśród swych nieprzyjaciół!\nPrzy Tobie panowanie w dniu Twego triumfu, †\nw blasku świętości, *\nz łona jutrzenki zrodziłem Cię jak rosę».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Hbr 5, 8-9",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Chrystus, chociaż był Synem, nauczył się posłuszeństwa przez to, co wycierpiał.\nA gdy wszystko wykonał, stał się sprawcą zbawienia wiecznego dla wszystkich, którzy Go słuchają."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 14, 22-25",
+      "opis": "To jest Ciało moje. To jest moja Krew",
+      "tekst": "W pierwszy dzień Przaśników, kiedy ofiarowywano Paschę, Jezus, gdy jedli, wziął chleb, odmówił błogosławieństwo, połamał i dał uczniom, mówiąc: «Bierzcie, to jest Ciało moje». Potem wziął kielich i odmówiwszy dziękczynienie, dał im, i pili z niego wszyscy. I rzekł do nich: «To jest moja Krew Przymierza, która za wielu będzie wylana. Zaprawdę, powiadam wam: Odtąd nie będę już pił napoju z owocu winnego krzewu aż do owego dnia, kiedy pić będę go nowy w królestwie Bożym».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Hymn ten podkreśla kapłański wymiar całego ludu Bożego, co idealnie wprowadza w tajemnicę jedynego kapłaństwa Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń ta łączy kapłaństwo służebne z kapłaństwem Chrystusa, co jest zgodne z duchem święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "620",
+      "piesn": "Przystąpię do ołtarza",
+      "opis": "Pieśń wyraża radość z przystępowania do ołtarza, na którym Chrystus, Najwyższy Kapłan, składa swoją ofiarę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "688",
+      "piesn": "Boże, lud Twój",
+      "opis": "Zwrotka na przygotowanie darów tej pieśni bezpośrednio mówi o przemianie chleba i wina w Ciało i Krew Syna Bożego, co jest istotą Jego kapłańskiej ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta i bezpośrednia modlitwa ofiarna, która oddaje istotę kapłańskiego działania podczas Mszy Świętej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Ofiara chleba i wina, darów całej wspólnoty, jest znakiem jedności, którą buduje Chrystus Kapłan.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja na Boże Ciało wychwala Chrystusa jako Kapłana i Ofiarę Nowego Przymierza, co jest centralnym tematem dzisiejszej liturgii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Pieśń ta wprost mówi o Krwi Przymierza, nawiązując do Ewangelii i podkreślając kapłański akt Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń przypomina o ustanowieniu Eucharystii, które jest fundamentem kapłaństwa Nowego Przymierza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Pieśń jest modlitwą o świętych kapłanów, która wypływa z kontemplacji Serca Jezusa - źródła wszelkiego kapłaństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Potężny hymn adoracyjny, wzywający do oddania czci Chrystusowi Kapłanowi, obecnemu w Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "280",
+      "piesn": "Wielbię Ciebie",
+      "opis": "Krótka aklamacja jest intensywnym aktem uwielbienia dla Żywego Chleba, daru Najwyższego Kapłana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna przypomina, że kapłaństwo jest darem dla całego Kościoła, posłanego by głosić Ewangelię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta przypomina wiernym o ich powszechnym kapłaństwie, z którego mają czerpać siłę do świadectwa w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Modlitwa o jedność jest owocem jedynej ofiary Chrystusa Kapłana, którą wierni mają zanosić w świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Jest to modlitwa o powołania kapłańskie, która doskonale wpisuje się w tematykę święta Najwyższego Kapłana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, która jest owocem kapłańskiej ofiary Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Osobiste wyznanie wiary w Chrystusa obecnego w Sakramencie Ołtarza, darze Jego kapłańskiej miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorną postawę wobec tajemnicy Eucharystii, sprawowanej mocą kapłaństwa Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

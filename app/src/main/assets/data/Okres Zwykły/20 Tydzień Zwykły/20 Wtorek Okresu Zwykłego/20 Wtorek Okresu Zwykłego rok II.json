@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431267.Wtorek-20-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "20 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ez 28, 1-10",
+      "opis": "Proroctwo przeciw pysze króla Tyru",
+      "tekst": "Pan skierował do mnie te słowa: «Synu człowieczy, powiedz władcy Tyru: Tak mówi Pan Bóg: Ponieważ serce twoje stało się wyniosłe, powiedziałeś: Ja jestem Bogiem, ja zasiadam na Boskiej stolicy, w sercu mórz - a przecież ty jesteś tylko człowiekiem, a nie Bogiem, i rozum chciałeś mieć równy rozumowi Bożemu. Oto jesteś mądrzejszy od Daniela, żadna tajemnica nie jest ukryta przed tobą. Dzięki swej przezorności i sprytowi zdobyłeś sobie majątek i nagromadziłeś złota i srebra w swoich skarbcach. Dzięki swojej wielkiej przezorności, dzięki swoim zdolnościom kupieckim pomnożyłeś swoje majętności, a serce twoje stało się wyniosłe z powodu twego majątku.\nDlatego tak mówi Pan Bóg: Ponieważ rozum chciałeś mieć równy rozumowi Bożemu, oto dlatego sprowadzam na ciebie cudzoziemców - najsroższych spośród narodów. Oni dobędą mieczy przeciwko urokowi twojej mądrości i zbezczeszczą twój blask. Zepchną cię do dołu, i umrzesz śmiercią nagłą w sercu mórz.\nCzy będziesz jeszcze mówił: Ja jestem Bogiem - w obliczu swoich oprawców? Przecież będziesz tylko człowiekiem, a nie Bogiem w ręku tego, który cię będzie zabijał. Umrzesz śmiercią nieobrzezanych z ręki cudzoziemców, ponieważ Ja to postanowiłem» - mówi Pan Bóg.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Pwt 32, 26-27b. 27c-28. 30. 35c-36b (R.: 39c)",
+      "opis": "",
+      "tekst": "Refren: Ja, Pan, zabijam i Ja sam ożywiam.\nRzekłem: «Ja ich wytracę, *\nwygubię ich pamięć u ludzi».\nAle się bałem drwiny wroga, *\nże przeciwnicy ich będą się łudzić.\nRefren.\nBędą się łudzić, mówiąc: «Nasza ręka przemożna, *\na nie Pan uczynił to wszystko».\nGdyż jest to plemię niemądre *\ni niemające rozwagi.\nRefren.\nJak może jeden odpędzać tysiące, *\na dwóch odpierać dziesięć tysięcy?\nDlatego że ich sprzedała ich Skała, *\nże Pan na łup ich wydał.\nRefren.\nNadchodzi bowiem dzień klęski, *\nlos ich gotowy, już blisko.\nBo Pan swój naród obroni, *\nlitość okaże swym sługom.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Kor 8, 9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus Chrystus, będąc bogatym, dla was stał się ubogim,\naby was ubóstwem swoim ubogacić."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 19, 23-30",
+      "opis": "Nagroda za wyrzeczenie podjęte dla Chrystusa",
+      "tekst": "Jezus powiedział do swoich uczniów: «Zaprawdę, powiadam wam: Bogatemu trudno będzie wejść do królestwa niebieskiego. Jeszcze raz wam powiadam: Łatwiej jest wielbłądowi przejść przez ucho igielne, niż bogatemu wejść do królestwa niebieskiego».\nGdy uczniowie to usłyszeli, bardzo się przerazili i pytali: «Któż więc może być zbawiony?» Jezus spojrzał na nich i rzekł: «U ludzi to niemożliwe, lecz u Boga wszystko jest możliwe».\nWtedy Piotr rzekł do Niego: «Oto my opuściliśmy wszystko i poszliśmy za Tobą, cóż więc otrzymamy?» Jezus zaś rzekł do nich: «Zaprawdę, powiadam wam: Przy odrodzeniu, gdy Syn Człowieczy zasiądzie na swym tronie chwały, wy, którzy poszliście za Mną, zasiądziecie również na dwunastu tronach, aby sądzić dwanaście szczepów Izraela. I każdy, kto dla mego imienia opuści dom, braci, siostry, ojca, matkę, dzieci lub pole, stokroć tyle otrzyma i życie wieczne posiądzie na własność. Wielu zaś pierwszych będzie ostatnimi, a ostatnich pierwszymi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń o marności dóbr doczesnych jest doskonałym wprowadzeniem do Ewangelii, która ostrzega przed niebezpieczeństwem bogactw.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Postawa pokory wyrażona w tej pieśni jest przeciwieństwem pychy króla Tyru i warunkiem przyjęcia Bożej łaski.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to wołanie o Bożą pomoc w obliczu pychy i przywiązania do bogactw, które oddalają od Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich jest odpowiedzią na Ewangelię i kontrastuje z pychą króla Tyru z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę oddania Bogu, która jest przeciwieństwem przywiązania do bogactw, ukazanego w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze życie, prosząc, byśmy potrafili naśladować Chrystusa w ubóstwie i oddaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę apostołów, którzy 'opuścili wszystko' dla Chrystusa, co jest drogą do zbawienia, o które pytają uczniowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża pragnienie przyjęcia Jezusa, który jest prawdziwym skarbem, w przeciwieństwie do posiadłości, które utrudniają wejście do królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i ubóstwa ducha jest warunkiem godnego przyjęcia Chrystusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wobec trudności wejścia do królestwa, pieśń ta wskazuje na Chrystusa jako jedyną nadzieję i Tego, u którego 'wszystko jest możliwe'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar powołania i obietnicę życia wiecznego dla tych, którzy idą za Jezusem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Hymn uwielbienia dla Boga, który poniża pysznych, a wywyższa pokornych, jak głoszą czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do pójścia za Jezusem, co jest drogą do otrzymania 'stokroć więcej' i życia wiecznego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że pójście za Chrystusem, nawet za cenę wyrzeczeń, jest drogą do życia wiecznego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, która jest warunkiem otrzymania obiecanej nagrody.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń o przemijaniu i tęsknocie za wieczną ojczyzną pomaga zdystansować się od bogactw, które utrudniają wejście do nieba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie, które powinno kierować człowiekiem szukającym życia wiecznego, w przeciwieństwie do przywiązania do dóbr.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, u którego wszystko jest możliwe, jest pocieszeniem po trudnych słowach o bogactwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która prowadzi nas do zbawienia, nawet gdy wydaje się to po ludzku niemożliwe.",
+      "moment": "ogolne"
+    }
+  ]
+}

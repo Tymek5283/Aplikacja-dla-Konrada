@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418016.Sroda-25-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "25 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Prz 30, 5-9",
+      "opis": "Nie dawaj mi bogactwa ni nędzy",
+      "tekst": "Każde słowo Boże wypróbowane, tarczą jest dla tych, co się chronią do niego. Do słów Jego nic nie dodawaj, by cię nie skarcił i zostałbyś kłamcą.\nProszę Cię o dwie rzeczy, nie odmawiaj mi, nim umrę: Fałsz i kłamstwo oddal ode mnie, nie dawaj mi bogactwa ni nędzy, żyw mnie chlebem niezbędnym, bym syty, nie stał się niewierny i nie rzekł: «A któż to jest Pan?» lub z biedy nie zaczął kraść i nie targnął się na imię mego Boga.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 119 (118), 29 i 72. 89 i 101. 104 i 163 (R.: por. 105a)",
+      "opis": "",
+      "tekst": "Refren: Słowo Twe, Panie, oświeca mą drogę.\nPowstrzymaj mnie od drogi kłamstwa, *\nobdarz mnie łaską Twojego Prawa.\nPrawo ust Twoich jest dla mnie lepsze *\nniż tysiące sztuk złota i srebra.\nRefren.\nTwoje słowo, Panie, jest wieczne, *\nniezmienne jak niebiosa.\nPowstrzymuję nogi od wszelkiej złej ścieżki, *\naby słów Twoich przestrzegać.\nRefren.\nZ Twoich przykazań czerpię roztropność, *\ndlatego nienawidzę wszelkiej ścieżki nieprawej.\nNienawidzę kłamstwa i nim się brzydzę, *\na Prawo Twoje miłuję.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 1, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bliskie jest królestwo Boże.\nNawracajcie się i wierzcie w Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 1-6",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus zwołał Dwunastu, dał im moc i władzę nad wszystkimi złymi duchami oraz władzę leczenia chorób. I wysłał ich, aby głosili królestwo Boże i uzdrawiali chorych.\nMówił do nich: «Nie bierzcie nic na drogę: ani laski, ani torby podróżnej, ani chleba, ani pieniędzy; nie miejcie też po dwie suknie. Gdy do jakiegoś domu wejdziecie, pozostańcie tam i stamtąd będziecie wychodzić. Jeśliby was gdzieś nie przyjęli, wychodząc z tego miasta, strząśnijcie proch z nóg waszych na świadectwo przeciwko nim!» Wyszli więc i chodzili po wsiach, głosząc Ewangelię i uzdrawiając wszędzie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim odniesieniem do Ewangelii, w której Jezus posyła Dwunastu, aby głosili Królestwo Boże.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń podkreśla misyjny charakter całego ludu Bożego, posłanego do głoszenia Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o pójściu za powołaniem jest zachętą do podjęcia misji, którą Jezus powierza swoim uczniom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie ubogich nawiązuje do postawy apostołów posłanych bez pieniędzy i torby, a także do modlitwy z Księgi Przysłów o życie w umiarze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowanie chleba i wina jest aktem zaufania Bogu, który żywi swoich posłańców, jak obiecuje Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę ubóstwa i oddania, której Jezus wymaga od swoich uczniów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Przyjęcie Chrystusa w Komunii jest źródłem siły dla apostołów, którzy idą głosić Ewangelię i uzdrawiać.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia jest pokarmem na drogę dla tych, którzy zostali posłani, by głosić Dobrą Nowinę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Chleb Żywy, jest jedynym pokarmem, którego potrzebują apostołowie w swojej misji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara w Słowo Boże, o której mówi pierwsze czytanie i psalm, jest fundamentem misji apostolskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar powołania i misji, którą Chrystus powierza swojemu Kościołowi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za łaskę bycia posłanym do głoszenia Ewangelii i uzdrawiania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń misyjna jest doskonałym podsumowaniem dnia, w którym Ewangelia mówi o rozesłaniu uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa, którego królestwo mają głosić posłani uczniowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, którą chcemy głosić innym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą Opatrzność jest szczególnie adekwatna dla uczniów, których Jezus posyła bez żadnych zabezpieczeń materialnych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Treść pieśni jest echem aklamacji i streszczeniem orędzia, które apostołowie mieli głosić.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Ufność w Bożą Opatrzność jest kluczowa dla misjonarza, który wyrusza w drogę bez torby i pieniędzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o powołania jest odpowiedzią na wezwanie Jezusa, by prosić Pana żniwa o robotników.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415583.Niedziela-rok-A",
+  "tytul_dnia": "5 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 58, 7-10",
+      "opis": "Światło dobrych uczynków",
+      "tekst": "Tak mówi Pan:\n«Dziel swój chleb z głodnym, do domu wprowadź biednych tułaczy, nagiego, którego ujrzysz, przyodziej i nie odwracaj się od współziomków.\nWtedy twoje światło wzejdzie jak zorza i szybko rozkwitnie twe zdrowie. Sprawiedliwość twoja poprzedzać cię będzie, chwała Pańska iść będzie za tobą. Wtedy zawołasz, a Pan odpowie, wezwiesz pomocy, a On rzeknie: „Oto jestem!”\nJeśli u siebie usuniesz jarzmo, przestaniesz grozić palcem i mówić przewrotnie, jeśli podasz twój chleb zgłodniałemu i nakarmisz duszę przygnębioną, wówczas twe światło zabłyśnie w ciemnościach, a twoja ciemność stanie się południem».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 4-5. 6-7. 8a i 9 (R.: 4a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Wschodzi w ciemnościach jak światło dla prawych.\nOn wschodzi w ciemnościach jak światło dla prawych, *\nłagodny, miłosierny i sprawiedliwy.\nDobrze się wiedzie człowiekowi, który z litości pożycza *\ni swoimi sprawami zarządza uczciwie.\nRefren.\nSprawiedliwy nigdy się nie zachwieje *\ni pozostanie w wiecznej pamięci.\nNie przelęknie się złej nowiny, *\njego mocne serce zaufało Panu.\nRefren.\nJego wierne serce lękać się nie będzie. *\nRozdaje i obdarza ubogich,\njego sprawiedliwość będzie trwała zawsze, *\nwywyższona z chwałą będzie jego potęga.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 2, 1-5",
+      "opis": "Nauczanie Świętego Pawła",
+      "tekst": "Bracia, przyszedłszy do was, nie przybyłem, aby błyszcząc słowem i mądrością, głosić wam świadectwo Boże.\nPostanowiłem bowiem, będąc wśród was, nie znać niczego więcej, jak tylko Jezusa Chrystusa, i to ukrzyżowanego. I stanąłem przed wami w słabości i w bojaźni, i z wielkim drżeniem. A mowa moja i moje głoszenie nauki nie miały nic z uwodzących przekonywaniem słów mądrości, lecz były ukazywaniem ducha i mocy, aby wiara wasza opierała się nie na mądrości ludzkiej, lecz na mocy Bożej.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 8, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem światłością świata,\nkto idzie za Mną, będzie miał światło życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 13-16",
+      "opis": "Wy jesteście światłem świata",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Wy jesteście solą ziemi. Lecz jeśli sól utraci swój smak, czymże ją posolić? Na nic się już nie przyda, chyba na wyrzucenie i podeptanie przez ludzi.\n. Nie może się ukryć miasto położone na górze. Nie zapala się też lampy i nie umieszcza pod korcem, ale na świeczniku, aby świeciła wszystkim, którzy są w domu. Tak niech wasze światło jaśnieje przed ludźmi, aby widzieli wasze dobre uczynki i chwalili Ojca waszego, który jest w niebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń ta gromadzi lud Boży wokół Chrystusa, który jest światłością świata, o czym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest muzycznym opracowaniem Ośmiu Błogosławieństw, które stanowią treść dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, którego Prawo jest źródłem błogosławieństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje bezpośrednio do pierwszego czytania, które wzywa do czynów miłosierdzia i dobroci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarowujemy Bogu nasze dobre uczynki, które mają być światłem dla świata.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Podkreśla, że miłość jest fundamentem dobrych uczynków, które mają chwalić Ojca w niebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Jest odpowiedzią na słowa Ewangelii, gdzie Jezus nazywa swoich uczniów światłością świata, a Eucharystia jest źródłem tego światła.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Chleb Żywy, jest pokarmem, który uzdalnia nas do bycia solą ziemi i światłem świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta identyfikuje Chrystusa jako Chleb, który daje nam siłę do pełnienia dobrych uczynków.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na wezwanie Ewangelii, by ludzie, widząc nasze dobre uczynki, chwalili Ojca w niebie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to radosne wezwanie do chwalenia Boga, co jest ostatecznym celem naszych dobrych uczynków.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która wyraża radość płynącą z bycia dzieckiem Bożym i światłem dla świata.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to pieśń o posłaniu do pracy i trudu, co koresponduje z wezwaniem do bycia 'światłem świata' przez dobre uczynki.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby nasze światło jaśniało przed ludźmi, prowadząc ich do Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, co dokonuje się przez nasze dobre czyny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Podkreśla centralne miejsce miłości, która jest źródłem dobrych uczynków, do których zachęcają czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Przypomina, że siła do czynienia dobra i bycia 'solą ziemi' pochodzi od Boga, co podkreśla św. Paweł w drugim czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "775",
+      "piesn": "W naszych ciemnościach",
+      "opis": "Jest to modlitwa, aby Pan rozpalił w nas ogień miłości, byśmy mogli być światłem w ciemnościach świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznajemy, że Chrystus jest naszą drogą, a pójście za Nim oznacza bycie solą i światłem dla innych.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 145,10-11.12-13ab.17-18",
-      "opis": "Refren:",
-      "tekst": "Niech wierni Twoi sławią Twe królestwo.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
+      "opis": "",
+      "tekst": "Refren:\nNiech wierni Twoi sławią Twe królestwo.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła\ni niech Cię błogosławią Twoi święci.\nNiech mówią o chwale Twojego królestwa\ni niech głoszą Twoją potęgę.\nAby synom ludzkim oznajmić Twoją potęgę\ni wspaniałość chwały Twojego królestwa.\nKrólestwo Twoje królestwem wszystkich wieków,\nprzez wszystkie pokolenia Twoje panowanie.\nPan jest sprawiedliwy na wszystkich swych drogach\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają,\nwszystkich wzywających Go szczerze."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar patrona, który swoim życiem dał świadectwo wiary w Chrystusa, Syna Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla, że Kościół, zbudowany na fundamencie Apostołów, jest ludem wybranym do głoszenia chwały Pana.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "614",
       "piesn": "Panie, umocnij wiarę naszą",
       "opis": "Pieśń jest prośbą o umocnienie wiary, co odzwierciedla drogę św. Bartłomieja od sceptycyzmu do wyznania wiary w Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co jest istotą życia każdego apostoła, w tym także św. Bartłomieja.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, na wzór apostołów, którzy wszystko zostawili dla Chrystusa.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża tęsknotę za Chrystusem, którego Bartłomiej rozpoznał jako Syna Bożego i Króla Izraela.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Wyznanie wiary w Chrystusa obecnego w Eucharystii jest kontynuacją wyznania wiary, które złożył św. Bartłomiej.",
+      "moment": "komunia"
+    },
+    {
       "numer": "597",
       "piesn": "Chwalcie Pana wszyscy",
       "opis": "Pieśń jest hymnem pochwalnym, nawiązującym do psalmu responsoryjnego, wzywającego do wielbienia dzieł Pana.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie Pana za Jego cuda i za powołanie Apostołów, którzy głoszą Jego chwałę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń ta jest wezwaniem do głoszenia chwały Królestwa Bożego, o którym mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "507",
       "piesn": "O Bartłomieju, w niebiosach",
       "opis": "Pieśń jest bezpośrednim zwrotem do patrona dnia, prosząc go o wstawiennictwo, co jest odpowiednie na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta przypomina o misyjnym posłaniu, które otrzymali Apostołowie, aby głosić Ewangelię aż po krańce świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznanie, że Chrystus jest drogą, prawdą i życiem, jest przesłaniem, które Apostołowie nieśli światu.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń przypomina o misyjnym powołaniu Apostołów, do których należał św. Bartłomiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "580",
+      "piesn": "Szczęśliwi ludzie szukający Boga",
+      "opis": "Pieśń ta oddaje postawę Natanaela, 'prawdziwego Izraelity', który szukał prawdy i odnalazł ją w Jezusie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest naszą nadzieją i pojednaniem, co jest Dobrą Nowiną, którą apostołowie mieli głosić światu.",
       "moment": "ogolne"
     }
   ]

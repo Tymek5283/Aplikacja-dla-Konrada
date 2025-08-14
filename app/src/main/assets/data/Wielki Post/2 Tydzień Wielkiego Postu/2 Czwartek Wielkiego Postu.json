@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412888.Czwartek-II-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "2 Czwartek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 17, 5-10",
+      "opis": "Błogosławiony, kto ufa Bogu",
+      "tekst": "Tak mówi Pan: «Przeklęty mąż, który pokłada nadzieję w człowieku i który w ciele upatruje swą siłę, a od Pana odwraca swe serce. Jest on podobny do dzikiego krzewu na stepie, nie dostrzega, gdy przychodzi szczęście; wybiera miejsca spalone na pustyni, ziemię słoną i bezludną. Błogosławiony mąż, który pokłada ufność w Panu, i Pan jest jego nadzieją. Jest on podobny do drzewa zasadzonego nad wodą, co swe korzenie puszcza ku strumieniowi; nie obawia się, gdy nadejdzie upał, bo zachowa zielone liście; także w roku posuchy nie doznaje niepokoju i nie przestaje wydawać owoców. Serce jest zdradliwsze niż wszystko inne i niepoprawne - któż je zgłębi? Ja, Pan, badam serce i doświadczam nerki, bym mógł każdemu oddać stosownie do jego postępowania, według owoców jego uczynków». Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40 [39], 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek, który nie idzie za radą występnych, †\n\nnie wchodzi na drogę grzeszników *\n\ni nie zasiada w gronie szyderców,\n\nlecz w Prawie Pańskim upodobał sobie *\n\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\n\nktóre wydaje owoc w swoim czasie.\n\nLiście jego nie więdną, *\n\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\n\nsą jak plewa, którą wiatr rozmiata.\n\nAlbowiem droga sprawiedliwych jest Panu znana, *\n\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\n\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 16, 19-31",
+      "opis": "Przypowieść o Łazarzu i bogaczu",
+      "tekst": "Jezus powiedział do faryzeuszów:\n\n«Żył pewien człowiek bogaty, który ubierał się w purpurę i bisior i dzień w dzień ucztował wystawnie. U bramy jego pałacu leżał żebrak pokryty wrzodami, imieniem Łazarz. Pragnął on nasycić się odpadkami ze stołu bogacza. A także psy przychodziły i lizały jego wrzody. Umarł żebrak i aniołowie zanieśli go na łono Abrahama. Umarł także bogacz i został pogrzebany. Gdy cierpiąc męki w Otchłani, podniósł oczy, ujrzał z daleka Abrahama i Łazarza na jego łonie. I zawołał: „Ojcze Abrahamie, ulituj się nade mną i przyślij Łazarza, aby koniec swego palca umoczył w wodzie i ochłodził mój język, bo strasznie cierpię w tym płomieniu”. Lecz Abraham odrzekł: „Wspomnij, synu, że za życia otrzymałeś swoje dobra, a Łazarz w podobny sposób - niedolę; teraz on tu doznaje pociechy, a ty męki cierpisz. A ponadto między nami a wami zionie ogromna przepaść, tak że nikt, choćby chciał, stąd do was przejść nie może ani stamtąd nie przedostają się do nas”. Tamten rzekł: „Proszę cię więc, ojcze, poślij go do domu mojego ojca. Mam bowiem pięciu braci: niech ich ostrzeże, żeby i oni nie przyszli na to miejsce męki”. Lecz Abraham odparł: „Mają Mojżesza i Proroków, niechże ich słuchają!” „Nie, ojcze Abrahamie - odrzekł tamten - lecz gdyby ktoś z umarłych poszedł do nich, to się nawrócą”. Odpowiedział mu: „Jeśli Mojżesza i Proroków nie słuchają, to choćby ktoś z umarłych powstał, nie uwierzą”». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń ta jest wyrazem zaufania Bogu, o którym mówi prorok Jeremiasz jako o źródle błogosławieństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do pierwszego czytania, które nazywa błogosławionym męża, który ufa Panu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie oparcia swojego życia na Bogu, a nie na człowieku, co jest główną myślą pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wezwanie do odkupienia grzechów jałmużną jest bezpośrednim komentarzem do postawy bogacza z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i prośby o miłosierdzie, której zabrakło bogaczowi za życia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i postanowieniem poprawy, co jest odpowiedzią na przestrogę z Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Słowa „łaknących obdaruj chlebem” nawiązują do grzechu zaniedbania bogacza wobec głodnego Łazarza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o miłosierdzie, o które bogacz prosił zbyt późno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o zmiłowanie jest odpowiedzią na Ewangelię, która ukazuje konsekwencje braku miłosierdzia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta uwielbia dobroć Boga, stanowiącą kontrast dla bezduszności bogacza z ewangelicznej przypowieści.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń uwielbia Boga za Jego obietnicę przebaczenia, która jest szansą na uniknięcie losu bogacza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą sprawiedliwość, która nagradza ubogich i karze pysznych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Utwór przypomina o błogosławieństwie ubogich i miłosiernych, co jest kluczem do zrozumienia Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, którego konieczność podkreśla przypowieść o bogaczu i Łazarzu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu życia skupionego na dobrach doczesnych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to klasyczna pieśń pokutna, która wzywa do refleksji nad własnym sercem, które Bóg przenika i bada.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Hymn wielkopostny prosi o miłosierdzie i uleczenie z grzechów, których przykładem jest obojętność bogacza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie wrażliwe na potrzeby bliźnich, w przeciwieństwie do serca bogacza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzechy, zwłaszcza za grzech zaniedbania dobra, który potępił bogacza.",
+      "moment": "ogolne"
+    }
+  ]
+}

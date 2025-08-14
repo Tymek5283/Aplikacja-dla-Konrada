@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410515.11-stycznia",
+  "tytul_dnia": "11 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 5, 5-13",
+      "opis": "Jezus jest Synem Bożym",
+      "tekst": "Najmilsi:\nKtóż zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym?\nJezus Chrystus jest Tym, który przyszedł przez wodę i krew, i Ducha, nie tylko w wodzie, lecz w wodzie i we krwi. Duch daje świadectwo, bo Duch jest prawdą.\nTrzej bowiem dają świadectwo: Duch, woda i krew, a ci trzej w jedno się łączą. Jeśli przyjmujemy świadectwo ludzi - to świadectwo Boże więcej znaczy, ponieważ jest to świadectwo Boga, które dał o swoim Synu. Kto wierzy w Syna Bożego, ten ma w sobie świadectwo Boga; kto nie wierzy Bogu, uczynił Go kłamcą, bo nie uwierzył świadectwu, jakie Bóg dał o swoim Synu.\nA świadectwo jest takie: że Bóg dał nam życie wieczne, a to życie jest w Jego Synu. Ten, kto ma Syna, ma życie, a kto nie ma Syna Bożego, nie ma też i życia.\nO tym napisałem do was, którzy wierzycie w imię Syna Bożego, abyście wiedzieli, że macie życie wieczne.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 147B, 12-13. 14-15. 19-20 (R.: por. 12a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Kościele święty, chwal swojego Pana.\nChwal, Jeruzalem, Pana, *\nwysławiaj twego Boga, Syjonie!\nUmacnia bowiem zawory bram twoich *\ni błogosławi synom twoim w tobie.\nRefren.\nZapewnia pokój twoim granicom *\ni wyborną pszenicą ciebie darzy.\nZsyła na ziemię swoje polecenia, *\na szybko mknie Jego słowo.\nRefren.\nOznajmił swoje słowo Jakubowi, *\nIzraelowi ustawy swe i wyroki.\nNie uczynił tego dla innych narodów, *\nnie oznajmił im swoich wyroków.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 5, 12-16",
+      "opis": "Jezus cudownie uzdrawia",
+      "tekst": "Gdy Jezus przebywał w jednym z miast, zjawił się człowiek cały pokryty trądem. Gdy ujrzał Jezusa, upadł na twarz i prosił Go: «Panie, jeśli zechcesz, możesz mnie oczyścić».\nJezus wyciągnął rękę i dotknął go, mówiąc: «Chcę, bądź oczyszczony». I natychmiast trąd z niego ustąpił. A On mu przykazał, żeby nikomu nie mówił: «Ale idź, pokaż się kapłanowi i złóż ofiarę za swe oczyszczenie, jak przepisał Mojżesz, na świadectwo dla nich».\nLecz tym szerzej rozchodziła się Jego sława, a liczne tłumy zbierały się, aby Go słuchać i uzyskać uzdrowienie z ich niedomagań. On jednak usuwał się na pustkowie i tam się modlił.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosna pieśń chwały, która odzwierciedla wezwanie psalmu 'Chwal, Jeruzalem, Pana' i pasuje do radosnej wieści o uzdrowieniu z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń wzywa całą ziemię do radości z powodu królowania Pana, co jest echem psalmu i dobrej nowiny o uzdrowieniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn, który wzywa do wysławiania Boga za Jego dzieła, takie jak cudowne uzdrowienie opisane w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń wyraża ufność w Boże miłosierdzie, podobną do tej, jaką okazał trędowaty, mówiąc 'Panie, jeśli zechcesz, możesz mnie oczyścić'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń o Bożym miłosierdziu, które jest źródłem uzdrowienia i oczyszczenia, o co prosił trędowaty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Klasyczna pieśń na przygotowanie darów, w której składamy Bogu nasze prośby o oczyszczenie i uzdrowienie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Ewangelia pokazuje Jezusa jako uzdrowiciela, a ta pieśń jest zaproszeniem do Niego po pociechę i uzdrowienie, co jest istotą Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i obmycie z grzechów, co symbolicznie przedstawia oczyszczenie z trądu w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa i uzdrowienie duszy, na wzór prośby trędowatego o uzdrowienie ciała.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Dziękczynna pieśń, która wielbi Boga za Jego wielkie dzieła, podobnie jak uzdrowiony trędowaty i tłumy wielbiły Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest wyrazem wdzięczności za Bożą pomoc i uzdrowienie, co jest odpowiedzią na cud opisany w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar Ciała i Krwi Pańskiej, w której dziękujemy za uzdrawiającą moc Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń ta jest posłaniem, by zanieść światu łaskę otrzymaną od Pana, tak jak sława o Jezusie rozchodziła się po Jego cudach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia chwały Pana, którego moc uzdrawiania objawiła się w dzisiejszej Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który prowadzi nas przez życie i uzdrawia nasze słabości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pierwsze czytanie podkreśla, że zwycięstwo nad światem odnosi ten, kto wierzy w Syna Bożego, a ta pieśń jest modlitwą o umocnienie tej wiary.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i ocalenie, co koresponduje z gestem oczyszczenia trędowatego przez Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "209",
+      "piesn": "W każdym strapieniu i o każdej porze",
+      "opis": "Pieśń o Bożym miłosierdziu, które jest źródłem nadziei i uzdrowienia dla wszystkich cierpiących.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, którą Jezus okazywał chorym i odrzuconym, jak trędowaty z Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

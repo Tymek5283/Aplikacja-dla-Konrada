@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416150.7-Niedziela-zwykla-rok-A",
+  "tytul_dnia": "7 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Kpł 19, 1-2. 17-18",
+      "opis": "Przykazania miłości bliźniego",
+      "tekst": "Pan powiedział do Mojżesza: «Przemów do całej społeczności Izraelitów i powiedz im: Bądźcie świętymi, bo Ja jestem święty, Pan, Bóg wasz!\nNie będziesz żywił w sercu nienawiści do brata. Będziesz upominał bliźniego, aby nie ponieść winy z jego powodu. Nie będziesz szukał pomsty, nie będziesz żywił urazy do synów twego ludu, ale będziesz miłował bliźniego jak siebie samego. Ja jestem Pan!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 8 i 10. 12-13 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie postępuje z nami według naszych grzechów *\nani według win naszych nam nie odpłaca.\nRefren.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nJak ojciec lituje się nad dziećmi, *\ntak Pan się lituje nad tymi, którzy cześć Mu oddają.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 3, 16-23",
+      "opis": "Prawdziwa mądrość to trwać przy Chrystusie",
+      "tekst": "Bracia:\nCzyż nie wiecie, że jesteście świątynią Boga i że Duch Boży mieszka w was? Jeżeli ktoś zniszczy świątynię Boga, tego zniszczy Bóg. Świątynia Boga jest święta, a wy nią jesteście.\nNiechaj się nikt nie łudzi. Jeśli ktoś spośród was mniema, że jest mądry na tym świecie, niech się stanie głupim, by posiadł mądrość. Mądrość bowiem tego świata jest głupstwem u Boga. Zresztą jest napisane: «On udaremnia zamysły przebiegłych» lub także: «Wie Pan, że próżne są zamysły mędrców».\nNiech się przeto nie chełpi nikt z powodu ludzi! Wszystko bowiem jest wasze: czy to Paweł, czy Apollos, czy Kefas; czy to świat, czy życie, czy śmierć, czy to rzeczy teraźniejsze, czy przyszłe, wszystko jest wasze, wy zaś Chrystusa, a Chrystus - Boga.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "1 J 2, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto zachowuje naukę Chrystusa,\nw tym naprawdę miłość Boża jest doskonała."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 38-48",
+      "opis": "Przykazanie miłości nieprzyjaciół",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano: „Oko za oko i ząb za ząb”. A Ja wam powiadam: Nie stawiajcie oporu złemu: lecz jeśli cię ktoś uderzy w prawy policzek, nadstaw mu i drugi. Temu, kto chce prawować się z tobą i wziąć twoją szatę, odstąp i płaszcz. Zmusza cię ktoś, żeby iść z nim tysiąc kroków, idź dwa tysiące. Daj temu, kto cię prosi, i nie odwracaj się od tego, kto chce pożyczyć od ciebie.\nSłyszeliście, że powiedziano: „Będziesz miłował swego bliźniego”, a nieprzyjaciela swego będziesz nienawidził.\nA Ja wam powiadam: Miłujcie waszych nieprzyjaciół i módlcie się za tych, którzy was prześladują, abyście się stali synami Ojca waszego, który jest w niebie; ponieważ On sprawia, że słońce Jego wschodzi nad złymi i nad dobrymi, i On zsyła deszcz na sprawiedliwych i niesprawiedliwych.\nJeśli bowiem miłujecie tych, którzy was miłują, cóż za nagrodę mieć będziecie? Czyż i celnicy tego nie czynią? I jeśli pozdrawiacie tylko swych braci, cóż szczególnego czynicie? Czyż i poganie tego nie czynią?\nBądźcie więc wy doskonali, jak doskonały jest Ojciec wasz niebieski».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Idealnie wprowadza w tematykę dnia, która koncentruje się na przykazaniu miłości bliźniego i nieprzyjaciół.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jest to pieśń o przykazaniu miłości, które jest wypełnieniem i udoskonaleniem Prawa, o czym naucza Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Prosta i medytacyjna pieśń, która podkreśla, że tam, gdzie jest miłość, tam jest Bóg.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna łączy ofiarę Chrystusa z Jego nieskończoną miłością, która jest wzorem dla miłości nieprzyjaciół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę skruchy i pragnienie życia w miłości, co jest odpowiedzią na wymagania Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc, by uzdolnił nas do miłości doskonałej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia, która jednoczy nas w jedno Ciało, jest źródłem siły do miłowania nieprzyjaciół i budowania pokoju.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus, który do końca nas umiłował, w Komunii Świętej uczy nas miłości, która przebacza i nie szuka swego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, który jednoczy nas w miłości przez dar Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "767",
+      "piesn": "Misericordias Domini",
+      "opis": "Jest to pieśń uwielbienia za miłosierdzie Pana, które mamy naśladować w naszym życiu, jak uczy Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za dar Bożego miłosierdzia, które jest wzorem dla naszej miłości bliźniego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń chwały za Bożą dobroć i łaskawość, o której mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń na rozesłanie, która jest modlitwą o jedność w miłości, będącą owocem doskonałości na wzór Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby w codziennym życiu świadczyć o miłości, która przebacza i buduje pokój.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię miłości, która obejmuje nawet nieprzyjaciół.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do kontekstu Kazania na Górze, z którego pochodzi dzisiejsza Ewangelia, i opisuje postawy człowieka doskonałego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Prosta i głęboka pieśń, która streszcza przesłanie o naśladowaniu Boga w miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wyznajemy, że Chrystus jest naszą drogą, a Jego nauka o miłości jest drogą do doskonałości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o Kościół, który jest świątynią Boga i ma być miejscem miłości i pojednania.",
+      "moment": "ogolne"
+    }
+  ]
+}

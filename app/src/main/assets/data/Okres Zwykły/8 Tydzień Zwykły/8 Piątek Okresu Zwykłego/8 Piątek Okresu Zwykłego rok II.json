@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416196.Piatek-VIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "8 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 P 4, 7-13",
+      "opis": "Wezwanie do bratniej miłości",
+      "tekst": "Najmilsi:\nKoniec wszystkich jest bliski. Bądźcie więc roztropni i trzeźwi, abyście się mogli modlić. Przede wszystkim miejcie gorącą miłość jedni ku drugim, bo miłość zakrywa wiele grzechów. Okazujcie sobie bez szemrania wzajemną gościnność.\nJako dobrzy szafarze różnorakiej łaski Bożej służcie sobie nawzajem takim darem, jaki każdy otrzymał. Jeżeli ktoś ma dar przemawiania, niech to będą jakby słowa Boże. Jeżeli ktoś pełni posługę, niech to czyni mocą, której Bóg udziela, aby we wszystkim był uwielbiony Bóg przez Jezusa Chrystusa. Jemu chwała i moc na wieki wieków. Amen.\nUmiłowani! Temu żarowi, który pośrodku was trwa dla waszego doświadczenia, nie dziwcie się, jakby was spotykało coś niezwykłego, ale cieszcie się, im bardziej jesteście uczestnikami cierpień Chrystusowych, abyście się cieszyli i radowali przy objawieniu się Jego chwały.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 10. 11-12. 13 (R.: por. 13ab)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg nadchodzi, aby sądzić ziemię.\nGłoście wśród ludów, *\nże Pan jest królem.\nOn świat tak utwierdził, że się nie zachwieje, *\nbędzie sprawiedliwie sądził ludy.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nniech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 15, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie wy Mnie wybraliście, ale Ja was wybrałem,\nabyście szli i owoc przynosili."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 11, 11-25",
+      "opis": "Nieurodzajny figowiec. Oczyszczenie świątyni",
+      "tekst": "Jezus przybył do Jerozolimy i wszedł do świątyni. Obejrzał wszystko, a że pora była już późna, wyszedł razem z Dwunastoma do Betanii.\nNazajutrz, gdy wyszli z Betanii, poczuł głód. A widząc z daleka figowiec, okryty liśćmi, podszedł ku niemu zobaczyć, czy nie znajdzie czegoś na nim. Lecz podszedłszy bliżej, nie znalazł nic prócz liści, gdyż nie był to czas na figi. Wtedy rzekł do drzewa: «Niechaj już nikt nigdy nie je z ciebie owocu!» A słyszeli to Jego uczniowie.\nI przyszli do Jerozolimy. Wszedłszy do świątyni, zaczął wyrzucać tych, którzy sprzedawali i kupowali w świątyni, powywracał stoły tych, co zmieniali pieniądze, i ławki sprzedawców gołębi; nie pozwolił też, żeby ktoś przeniósł sprzęt jakiś przez świątynię. Potem nauczał ich, mówiąc: «Czyż nie jest napisane: Mój dom ma być domem modlitwy dla wszystkich narodów? Lecz wy uczyniliście go jaskinią zbójców».\nKiedy doszło to do arcykapłanów i uczonych w Piśmie, szukali sposobu, jak by Go zgładzić. Czuli bowiem lęk przed Nim, gdyż cały tłum był zachwycony Jego nauką.\nGdy zaś wieczór zapadł, Jezus i uczniowie wychodzili poza miasto. Przechodząc rano, ujrzeli figowiec uschły od korzeni. Wtedy Piotr przypomniał sobie i rzekł do Niego: «Rabbi, patrz, figowiec, który przekląłeś, usechł».\nJezus im odpowiedział: «Miejcie wiarę w Boga! Zaprawdę, powiadam wam: Kto powie tej górze: Podnieś się i rzuć w morze, a nie zwątpi w duszy, lecz wierzy, że spełni się to, co mówi, tak mu się stanie. Dlatego powiadam wam: Wszystko, o co prosicie w modlitwie, stanie się wam, tylko wierzcie, że otrzymacie. A kiedy stajecie do modlitwy, przebaczcie, jeśli macie coś przeciw komuś, aby także Ojciec wasz, który jest w niebie, przebaczył wam wykroczenia wasze».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń ta wyraża cześć dla domu Bożego, co kontrastuje z postawą kupców w świątyni, których wyrzucił Jezus.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się w domu modlitwy, którym ma być świątynia Pańska.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, który przychodzi, by sądzić ziemię, co zapowiada psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Nawiązuje do symboliki nieurodzajnego figowca oraz do wezwania z pierwszego czytania, by miłość przynosiła owoce.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by było ono owocne, a nie jałowe jak przeklęty figowiec.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo, aby nasze życie przynosiło owoce miłości i dobrych uczynków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która ma moc przenoszenia gór, o czym Jezus naucza w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary, która jest warunkiem owocnej modlitwy i życia chrześcijańskiego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która podkreśla potrzebę wiary i pokory w obliczu tajemnicy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Podkreśla konieczność miłości i przebaczenia, o których mówią oba czytania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar modlitwy i pewność, że Bóg nas wysłuchuje.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, która umacnia nas w miłości i wierze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii i przynoszenia owoców wiary w całym świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wiara w Niego pozwala nam czynić wielkie rzeczy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość wzajemna, o której mówi ta pieśń, jest fundamentem życia wspólnoty, opisanego w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Wyraża pragnienie obecności Pana i Jego słowa, które ma kierować życiem wiernych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla czyniących pokój, nawiązuje do wezwania Jezusa do przebaczenia przed modlitwą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem wezwania do miłości i przebaczenia.",
+      "moment": "ogolne"
+    }
+  ]
+}

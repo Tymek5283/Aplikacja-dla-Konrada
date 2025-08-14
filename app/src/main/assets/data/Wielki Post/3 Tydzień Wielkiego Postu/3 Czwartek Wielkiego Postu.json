@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412902.Czwartek-III-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "3 Czwartek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 7, 23-28",
+      "opis": "Niewierność wybranego ludu",
+      "tekst": "Tak mówi Pan:\n«Dałem im przykazanie: „Słuchajcie głosu mojego, a będę wam Bogiem, wy zaś będziecie Mi narodem. Chodźcie każdą drogą, którą wam rozkażę, aby się wam dobrze wiodło”.\nAle nie usłuchali ani nie chcieli słuchać i poszli za zatwardziałością swych przewrotnych serc; obrócili się plecami, a nie twarzą.\nOd dnia, kiedy przodkowie wasi wyszli z ziemi egipskiej, do dnia dzisiejszego posyłałem do was wszystkie moje sługi, proroków, każdego dnia, bezustannie, lecz nie usłuchali Mnie ani nie nadstawiali uszu.\nUczynili twardym swój kark, stali się gorsi niż ich przodkowie. Oznajmisz im wszystkie te słowa, ale cię nie usłuchają; będziesz wołał do nich, lecz nie dadzą ci odpowiedzi.\nI powiesz im: „To jest naród, który nie usłuchał głosu Pana, swego Boga, i nie przyjął pouczenia. Przepadła wierność, znikła z ich ust”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 1-2. 6-7c. 7d-9 (R.: por. 7d-8a)",
+      "opis": "",
+      "tekst": "Refren: Słysząc głos Pana, serc nie zatwardzajcie.\nPrzyjdźcie, radośnie śpiewajmy Panu, *\nwznośmy okrzyki ku chwale Opoki naszego zbawienia.\nStańmy przed obliczem Jego z uwielbieniem, *\nz weselem śpiewajmy Mu pieśni.\nRefren.\nPrzyjdźcie, uwielbiajmy Go padając na twarze, *\nklęknijmy przed Panem, który nas stworzył.\nAlbowiem On jest naszym Bogiem, *\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren.\nObyście dzisiaj usłyszeli głos Jego: †\n«Niech nie twardnieją wasze serca jak w Meriba, *\njak na pustyni w dniu Massa,\ngdzie Mnie kusili wasi ojcowie, *\ndoświadczali Mnie, choć widzieli moje dzieła».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jl 2, 13bc",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nawróćcie się do Boga waszego,\nOn bowiem jest łaskawy i miłosierny."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 14-23",
+      "opis": "Kto nie jest ze Mną, jest przeciwko Mnie",
+      "tekst": "Jezus wyrzucał złego ducha z człowieka, który był niemy. A gdy zły duch wyszedł, niemy zaczął mówić i tłumy były zdumione. Lecz niektórzy z nich rzekli: «Mocą Belzebuba, władcy złych duchów, wyrzuca złe duchy». Inni zaś, chcąc Go wystawić na próbę, domagali się od Niego znaku z nieba.\nOn jednak, znając ich myśli, rzekł do nich: «Każde królestwo wewnętrznie skłócone pustoszeje i dom na dom się wali. Jeśli więc i Szatan z sobą jest skłócony, jakże się ostoi jego królestwo? Mówicie bowiem, że Ja przez Belzebuba wyrzucam złe duchy. Lecz jeśli Ja mocą Belzebuba wyrzucam złe duchy, to czyją mocą wyrzucają je wasi synowie? Dlatego oni będą waszymi sędziami. A jeśli Ja palcem Bożym wyrzucam złe duchy, to istotnie przyszło już do was królestwo Boże.\nGdy mocarz uzbrojony strzeże swego dworu, bezpieczne jest jego mienie. Lecz gdy mocniejszy od niego nadejdzie i pokona go, to zabierze całą broń jego, na której polegał,i rozda jego łupy.\nKto nie jest ze Mną, jest przeciwko Mnie; a kto nie zbiera ze Mną, ten rozprasza».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń ta jest odpowiedzią na słowa Jezusa z Ewangelii: „przyszło już do was królestwo Boże”.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń jest wołaniem o Bożą łaskę i opamiętanie w odpowiedzi na Boże wezwanie do posłuszeństwa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie słuchania głosu Pana i unikania zatwardziałości serca, o której mówią czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy w odpowiedzi na Boże wezwanie do posłuszeństwa, o którym mówi prorok Jeremiasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem skruchy i postanowieniem poprawy, co jest właściwą ofiarą miłą Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla konieczność pokory, aby zjednoczyć się z Chrystusem, który pokonał królestwo szatana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do zwycięstwa Chrystusa nad szatanem, o którym mowa w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o czyste serce, aby móc opowiedzieć się po stronie Chrystusa, a nie przeciw Niemu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o obmycie z grzechów jest warunkiem przyjęcia Chrystusa, który mocą Bożą wyrzuca złe duchy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Jest to pieśń uwielbienia dla miłosiernego Boga, który wzywa do nawrócenia pomimo niewierności ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu, który jest mocniejszy od szatana i którego królestwo już nadeszło.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i wybawienie z mocy zła, o którym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, co jest odpowiedzią na wezwanie do słuchania głosu Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "103",
+      "piesn": "Dałeś nam przykład",
+      "opis": "Pieśń wzywa do naśladowania Chrystusa przez pokutę, aby opowiedzieć się po Jego stronie w walce ze złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję opowiedzenia się za Bogiem, a nie przeciw Niemu, co jest głównym przesłaniem Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta jest bezpośrednim wezwaniem do porzucenia zatwardziałości serca, o której mowa w psalmie i pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę nawrócenia i posłuszeństwa Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które nie będzie zatwardziałe na głos Pana, jak ostrzega psalm.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń wyraża żal za grzech nieposłuszeństwa Bogu, o którym z bólem mówi prorok Jeremiasz.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 48,2-3.9-11.13-15",
-      "opis": "Refren:",
-      "tekst": "Tyś wielką chlubą naszego narodu.\nWielki jest Pan i godzien wielkiej chwały\nw mieście naszego Boga.\nŚwięta Jego góra, wspaniałe wzniesienie,\nradością jest całej ziemi.\nCośmy słyszeli, to zobaczyliśmy\nw mieście Pana Zastępów,\nw mieście naszego Boga;\nBóg je umacnia na wieki.\nRozważamy, Boże, Twoją łaskawość\nwe wnętrzu Twojej świątyni.\nJak imię Twe, Boże, tak i chwała Twoja\nsięga po krańce ziemi.\nPrawica Twoja pełna jest sprawiedliwości.\nObejdźcie dokoła Syjon,\npoliczcie jego wieże.\nBy powiedzieć przyszłym pokoleniom,\nże Bóg jest naszym Bogiem na wieki."
+      "opis": "",
+      "tekst": "Refren:\nTyś wielką chlubą naszego narodu.\nWielki jest Pan i godzien wielkiej chwały\nw mieście naszego Boga.\nŚwięta Jego góra, wspaniałe wzniesienie,\nradością jest całej ziemi.\nCośmy słyszeli, to zobaczyliśmy\nw mieście Pana Zastępów,\nw mieście naszego Boga;\nBóg je umacnia na wieki.\nRozważamy, Boże, Twoją łaskawość\nwe wnętrzu Twojej świątyni.\nJak imię Twe, Boże, tak i chwała Twoja\nsięga po krańce ziemi.\nPrawica Twoja pełna jest sprawiedliwości.\nObejdźcie dokoła Syjon,\npoliczcie jego wieże.\nBy powiedzieć przyszłym pokoleniom,\nże Bóg jest naszym Bogiem na wieki."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -48,9 +48,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "345",
+      "piesn": "Królowo ziem polskich",
+      "opis": "Jest to uroczysty hymn do Maryi jako Królowej, który doskonale wprowadza w atmosferę święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Najstarsza polska pieśń religijna i historyczny hymn rycerstwa, jest nieodzownym elementem tej uroczystości.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "340",
       "piesn": "Jak szczęśliwa Polska cała",
       "opis": "Wyraża radość całego narodu z opieki Maryi, co dobrze koresponduje z dziękczynnym charakterem przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "381",
+      "piesn": "Polski Królowo",
+      "opis": "Pieśń jest modlitwą o opiekę nad narodem, składaną wraz z darami chleba i wina na ołtarzu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "W tej pieśni, zwracając się do Królowej, ofiarowujemy Jej nasze serca i cały naród.",
       "moment": "ofiarowanie"
     },
     {
@@ -60,15 +84,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Przyjmując Ciało Chrystusa, oddajemy cześć Jego Matce, Królowej Polski, prosząc o Jej wstawiennictwo.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Pieśń eucharystyczna z refrenem 'Witaj, Jezu, Synu Maryi' łączy cześć dla Chrystusa z czcią dla Jego Matki z Jasnej Góry.",
+      "moment": "komunia"
+    },
+    {
       "numer": "341",
       "piesn": "Jasnogórska, można Pani",
       "opis": "Jest to pieśń-modlitwa, która wzywa opieki Jasnogórskiej Pani nad narodem, idealna na dziękczynne uwielbienie.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Pieśń oparta na hymnie 'Magnificat' jest najpiękniejszym uwielbieniem Boga ustami samej Królowej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Pieśń wzywająca do codziennego wysławiania Maryi, której tron królewski znajduje się na Jasnej Górze.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "349a",
       "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
       "opis": "Apel Jasnogórski jest modlitwą o wierność Bogu i Kościołowi, co stanowi doskonałe posłanie na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "635",
+      "piesn": "Boże, coś Polskę",
+      "opis": "Patriotyczny hymn, który w uroczystość Królowej Polski jest modlitwą o błogosławieństwo dla Ojczyzny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i Jego Matce, Królowej Polski, co jest mocnym akcentem na zakończenie.",
       "moment": "rozeslanie"
     },
     {
@@ -84,9 +144,15 @@
       "moment": "ogolne"
     },
     {
-      "numer": "345",
-      "piesn": "Królowo ziem polskich",
-      "opis": "Pieśń o charakterze litanijnym, która w prostych słowach wyraża miłość i oddanie narodu polskiego swojej Królowej.",
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Hymn wyrażający pragnienie budowania życia narodu na wartościach chrześcijańskich, pod opieką Królowej Polski.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "349d",
+      "piesn": "Maryjo, Królowo Polski! (Apel Jasnogórski)",
+      "opis": "Inna wersja Apelu Jasnogórskiego, która jest modlitwą o uświęcenie rodzin i całego narodu.",
       "moment": "ogolne"
     }
   ]

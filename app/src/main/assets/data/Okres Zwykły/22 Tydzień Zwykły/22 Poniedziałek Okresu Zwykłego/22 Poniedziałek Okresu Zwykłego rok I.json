@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/425150.Poniedzialek-22-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "22 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tes 4, 13-18",
+      "opis": "Zmartwychwstanie umarłych",
+      "tekst": "Nie chcemy, bracia, byście trwali w niewiedzy co do tych, którzy umierają, abyście się nie smucili jak wszyscy ci, którzy nie mają nadziei. Jeśli bowiem wierzymy, że Jezus istotnie umarł i zmartwychwstał, to również tych, którzy umarli w Jezusie, Bóg wyprowadzi wraz z Nim.\nTo bowiem głosimy wam jako słowo Pańskie, że my, żywi, pozostawieni na przyjście Pana, nie wyprzedzimy tych, którzy pomarli. Sam bowiem Pan zstąpi z nieba na hasło i na głos archanioła, i na dźwięk trąby Bożej, a zmarli w Chrystusie powstaną pierwsi. Potem my, żywi, tak pozostawieni, wraz z nimi będziemy porwani w powietrze, na obłoki naprzeciw Pana, i w ten sposób na zawsze będziemy z Panem. Przeto wzajemnie się pocieszajcie tymi słowami.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1 i 3. 4-5. 11-12. 13 (R.: por. 13ab)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg nadchodzi, aby sądzić ziemię.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nGłoście Jego chwałę wśród wszystkich narodów, *\nrozgłaszajcie Jego cuda pośród wszystkich ludów.\nRefren.\nWielki jest Pan, godzien wszelkiej chwały, *\nbudzi trwogę najwyższą, większą niż inni bogowie.\nBo wszyscy bogowie pogan są tylko ułudą, *\nPan zaś stworzył niebiosa.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nNiech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 4, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Pański spoczywa na Mnie,\nposłał Mnie, abym ubogim niósł dobrą nowinę."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 4, 16-30",
+      "opis": "Jezus nieprzyjęty w Nazarecie",
+      "tekst": "Jezus przyszedł do Nazaretu, gdzie się wychował. W dzień szabatu udał się swoim zwyczajem do synagogi i powstał, aby czytać.\nPodano Mu księgę proroka Izajasza. Rozwinąwszy księgę, znalazł miejsce, gdzie było napisane: «Duch Pański spoczywa na Mnie, ponieważ Mnie namaścił i posłał Mnie, abym ubogim niósł dobrą nowinę, więźniom głosił wolność, a niewidomym przejrzenie; abym uciśnionych odsyłał wolnymi, abym obwoływał rok łaski Pana».\nZwinąwszy księgę, oddał słudze i usiadł; a oczy wszystkich w synagodze były w Niego utkwione.\nPoczął więc mówić do nich: «Dziś spełniły się te słowa Pisma, które słyszeliście». A wszyscy przyświadczali Mu i dziwili się pełnym łaski słowom, które płynęły z ust Jego. I mówili: «Czy nie jest to syn Józefa?»\nWtedy rzekł do nich: «Z pewnością powiecie Mi to przysłowie: Lekarzu, ulecz samego siebie; dokonajże i tu, w swojej ojczyźnie, tego, co wydarzyło się, jak słyszeliśmy, w Kafarnaum».\nI dodał: «Zaprawdę, powiadam wam: Żaden prorok nie jest mile widziany w swojej ojczyźnie. Naprawdę, mówię wam: Wiele wdów było w Izraelu za czasów Eliasza, kiedy niebo pozostawało zamknięte przez trzy lata i sześć miesięcy, tak że wielki głód panował w całym kraju; a Eliasz do żadnej z nich nie został posłany, tylko do owej wdowy w Sarepcie Sydońskiej. I wielu trędowatych było w Izraelu za proroka Elizeusza, a żaden z nich nie został oczyszczony, tylko Syryjczyk Naaman».\nNa te słowa wszyscy w synagodze unieśli się gniewem. Porwawszy się z miejsc, wyrzucili Go z miasta i wyprowadzili aż na urwisko góry, na której zbudowane było ich miasto, aby Go strącić. On jednak, przeszedłszy pośród nich, oddalił się.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wzywając całą ziemię do radości na przyjście Pana, który będzie sądził świat.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń adwentowa o przyjściu Pana w chwale koresponduje z tematem paruzji z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "6",
+      "piesn": "Pan jest blisko",
+      "opis": "Pieśń przypomina o bliskości Pana i konieczności gotowości na Jego przyjście, co jest głównym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Wyznanie wiary w zmartwychwstanie i obietnica oglądania Boga są bezpośrednim nawiązaniem do nauki św. Pawła z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń jest ofiarą chwały za zmartwychwstanie Chrystusa, które jest fundamentem naszej nadziei na życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Ofiarujemy Bogu naszą wiarę w Chrystusa, Zwycięzcę śmierci, który jest naszą nadzieją na zmartwychwstanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja opiera się na zmartwychwstaniu Chrystusa, co jest główną pociechą, o której pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Pieśń wielkanocna jest wyznaniem wiary w Zmartwychwstanie, które daje nam nadzieję na nasze własne powstanie z martwych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Przyjmując Komunię, jednoczymy się ze Zmartwychwstałym Panem, który jest naszą nadzieją na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń sławi Chrystusa jako zwycięzcę śmierci, co jest fundamentem chrześcijańskiej nadziei na zmartwychwstanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna jest uwielbieniem za dar zmartwychwstania i nadziei życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń jest radosnym uwielbieniem Zmartwychwstałego Pana, w którym mamy nadzieję na wieczne życie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna przypomina, że tak jak Chrystus zmartwychwstał, tak i my powstaniemy z grobów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Odrzucenie Jezusa w Nazarecie jest zapowiedzią Jego misji skierowanej do pogan, co czyni tę pieśń misyjną odpowiednią na zakończenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa posyła nas, byśmy byli świadkami Jego mocy, nawet jeśli spotka nas odrzucenie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Pieśń adwentowa o przyjściu Pana w chwale koresponduje z tematem paruzji z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Proste wyznanie wiary w zmartwychwstanie jest pocieszeniem w smutku po stracie bliskich, o którym mówi św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec odrzucenia Jezusa w Nazarecie, prosimy o umocnienie naszej wiary w Niego jako Zbawiciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, nawet w obliczu odrzucenia przez świat.",
+      "moment": "ogolne"
+    }
+  ]
+}

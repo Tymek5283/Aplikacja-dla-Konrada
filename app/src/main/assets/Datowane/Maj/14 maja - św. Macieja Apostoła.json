@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 113,1-2.3-4.5-6.7-8",
-      "opis": "Refren:",
-      "tekst": "Wśród książąt ludu Pan Bóg go posadził.\nChwalcie, słudzy Pańscy,\nchwalcie imię Pana.\nNiech imię Pana będzie błogosławione\nteraz i na wieki.\nOd wschodu aż do zachodu słońca\nniech będzie pochwalone imię Pana.\nPan jest wywyższony nad wszystkie ludy,\nponad niebiosa sięga Jego chwała.\nKto jest jak nasz Pan Bóg,\nco ma siedzibę w górze,\nco w dół spogląda\nna niebo i na ziemię?\nPodnosi z prochu nędzarza\ni dźwiga z gnoju ubogiego,\nby go posadzić wśród książąt,\nwśród książąt swojego ludu."
+      "opis": "",
+      "tekst": "Refren:\nWśród książąt ludu Pan Bóg go posadził.\nChwalcie, słudzy Pańscy,\nchwalcie imię Pana.\nNiech imię Pana będzie błogosławione\nteraz i na wieki.\nOd wschodu aż do zachodu słońca\nniech będzie pochwalone imię Pana.\nPan jest wywyższony nad wszystkie ludy,\nponad niebiosa sięga Jego chwała.\nKto jest jak nasz Pan Bóg,\nco ma siedzibę w górze,\nco w dół spogląda\nna niebo i na ziemię?\nPodnosi z prochu nędzarza\ni dźwiga z gnoju ubogiego,\nby go posadzić wśród książąt,\nwśród książąt swojego ludu."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla godność ludu Bożego, którego fundamentem są Apostołowie, wybrani przez samego Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Dziękczynienie Bogu za dar świętego patrona, który został włączony do grona świadków Zmartwychwstania, jest dobrym początkiem liturgii.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "453",
       "piesn": "Macieju, jakże cudowne",
       "opis": "Jest to pieśń bezpośrednio skierowana do patrona dnia, która rozważa tajemnicę jego Bożego wybrania na miejsce Judasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy Bogu nasze życie, prosząc, byśmy jak św. Maciej przynosili trwałe owoce.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co jest istotą życia każdego apostoła, w tym także św. Macieja.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "637",
-      "piesn": "Ciebie, Boże, chwalimy",
-      "opis": "Hymn dziękczynny jest odpowiedni na uwielbienie, aby podziękować Bogu za dar apostołów i świadków Zmartwychwstania.",
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus nazywa nas przyjaciółmi i karmi nas swoim Ciałem, co jest echem dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Zaproszenie Jezusa do siebie jest skierowane do wszystkich, a w Komunii Świętej realizuje się w sposób najpełniejszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Ten radosny hymn jest wyrazem wdzięczności Bogu za powołanie apostołów, którzy głoszą Jego chwałę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar Bożych łask, w tym za dar powołania apostolskiego, które otrzymał św. Maciej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie Pana za Jego cuda, w tym za cud powołania prostych ludzi na swoich apostołów.",
       "moment": "uwielbienie"
     },
     {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń o posłannictwie apostolskim, które stało się udziałem św. Macieja, przypomina o misji każdego chrześcijanina.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana jest zadaniem, które Chrystus powierzył swoim apostołom, a przez nich całemu Kościołowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w pracy i trudzie, by przynosić owoc, o którym mówi Jezus w Ewangelii.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "224",
       "piesn": "Ludu kapłański",
       "opis": "Pieśń ta podkreśla powołanie całego Kościoła do głoszenia chwały Pana, co jest realizacją misji apostolskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest odpowiedzią na Boże wybranie, o którym mówi Ewangelia, a ta pieśń jest prośbą o jej wzrost.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta głosi, że Chrystus jest naszą nadzieją i pojednaniem, co jest Dobrą Nowiną, którą apostołowie mieli głosić światu.",
       "moment": "ogolne"
     }
   ]

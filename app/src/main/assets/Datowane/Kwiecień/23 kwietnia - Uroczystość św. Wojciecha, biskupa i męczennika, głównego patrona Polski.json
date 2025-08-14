@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 126,1-6",
-      "opis": "Refren:",
-      "tekst": "Kto we łzach sieje, żąć będzie w radości.\nGdy Pan odmienił los Syjonu,\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu,\na język śpiewał z radości.\nMówiono wtedy między poganami:\n„Wielkie rzeczy im Pan uczynił”.\nPan uczynił nam wielkie rzeczy\ni ogarnęła nas radość.\nOdmień znowu nasz los, Panie,\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją,\nżać będą w radości.\nIdą i płaczą\nniosąc ziarno na zasiew,\nlecz powrócą z radością\nniosąc swoje snopy."
+      "opis": "",
+      "tekst": "Refren:\nKto we łzach sieje, żąć będzie w radości.\nGdy Pan odmienił los Syjonu,\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu,\na język śpiewał z radości.\nMówiono wtedy między poganami:\n„Wielkie rzeczy im Pan uczynił”.\nPan uczynił nam wielkie rzeczy\ni ogarnęła nas radość.\nOdmień znowu nasz los, Panie,\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją,\nżać będą w radości.\nIdą i płaczą\nniosąc ziarno na zasiew,\nlecz powrócą z radością\nniosąc swoje snopy."
     },
     {
       "typ": "DRUGIE CZYTANIE",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "440",
+      "piesn": "O święty Wojciechu",
+      "opis": "Pieśń ta, prosząc o wstawiennictwo patrona Polski, stanowi odpowiednie wprowadzenie do liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "448",
+      "piesn": "Chwała Tobie, Gospodzinie",
+      "opis": "Pieśń sławi Boga za dar św. Wojciecha, wzoru pasterzy, co doskonale pasuje na początek Mszy.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "635",
       "piesn": "Boże, coś Polskę",
       "opis": "W dniu patrona Polski ta pieśń jest modlitwą za Ojczyznę, którą św. Wojciech ewangelizował i za którą oddał życie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest manifestem wiary, której świadkiem i siewcą na polskiej ziemi był św. Wojciech.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i wierze ojców, której świadkiem był św. Wojciech.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,27 +78,75 @@
       "moment": "komunia"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Uroczysty hymn Te Deum jest wyrazem dziękczynienia Bogu za dar świętych patronów i za ich świadectwo męczeństwa.",
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń o męczennikach, których krew stała się zasiewem wiary, idealnie pasuje do dzisiejszej uroczystości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta jest hołdem dla męczennika, który wiernie stał przy Chrystusie, co jest wzorem dla przyjmujących Komunię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uroczysty hymn chwały, który wzywa do wysławiania Boga, który 'moc ludu swego raczył w górę wznieść' poprzez świadectwo patrona.",
       "moment": "uwielbienie"
     },
     {
-      "numer": "440",
-      "piesn": "O święty Wojciechu",
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest wezwaniem do głoszenia chwały Pana, którego świadkiem aż po krańce ziemi był św. Wojciech.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosny hymn dziękczynienia za dar świętych, w tym przypadku za życie i dzieło głównego patrona Polski.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "451",
+      "piesn": "Wesel się, Polsko cała",
       "opis": "Pieśń ta, prosząc o wstawiennictwo patrona Polski, stanowi odpowiednie zakończenie liturgii i posłanie do życia wiarą.",
       "moment": "rozeslanie"
     },
     {
-      "numer": "574",
-      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
-      "opis": "Pieśń o męczennikach, których krew stała się zasiewem wiary, idealnie pasuje do dzisiejszej uroczystości.",
+      "numer": "584",
+      "piesn": "Święci, niebieskiej mieszkańcy krainy",
+      "opis": "Pieśń jest modlitwą do świętych patronów Polski, prosząc o ich wstawiennictwo za Ojczyznę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Treść pieśni jest bezpośrednim echem Ewangelii i aklamacji, w których Jezus posyła uczniów, by głosili Dobrą Nowinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i wierze ojców, której świadkiem był św. Wojciech.",
       "moment": "ogolne"
     },
     {
-      "numer": "639",
-      "piesn": "Nie rzucim, Chryste",
-      "opis": "Pieśń ta jest wyznaniem wierności Chrystusowi i wierze ojców, której świadkiem był św. Wojciech.",
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętych patronów, którzy są dla nas wzorem i wstawiają się za nami u Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten sławi Boga w Jego świętych, a zwłaszcza w męczennikach, do których grona należy patron dnia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla, że miłość i ofiara Chrystusa są źródłem nadziei i pokoju, co było fundamentem życia i śmierci św. Wojciecha.",
       "moment": "ogolne"
     }
   ]

@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414881.31-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "31 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 11, 22 - 12, 2",
+      "opis": "Bóg miłuje całe stworzenie",
+      "tekst": "Panie, świat cały przy Tobie jak ziarnko na szali, kropla rosy porannej, co opadła na ziemię. Nad wszystkimi masz litość, bo wszystko w Twej mocy, i oczy zamykasz na grzechy ludzi, by się nawrócili. Miłujesz bowiem wszystkie byty, niczym się nie brzydzisz, co uczyniłeś, bo gdybyś miał coś w nienawiści, nie ukształtowałbyś tego.\nJakżeby coś trwać mogło, gdybyś Ty tego nie chciał? Jakby się zachowało to, czego byś nie wezwał? Oszczędzasz wszystko, bo to wszystko Twoje, Władco, miłujący życie! Bo we wszystkim jest Twoje nieśmiertelne tchnienie.\nDlatego nieznacznie karzesz upadających i strofujesz, przypominając, w czym grzeszą, by wyzbywszy się złości, w Ciebie, Panie, uwierzyli.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 1b-2. 8-9. 10-11. 13-14 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Będę Cię wielbił, Boże mój i Królu.\nBędę Cię wielbił, Boże mój i Królu, *\ni sławił Twoje imię przez wszystkie wieki.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nRefren.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nKrólestwo Twoje królestwem wszystkich wieków, *\nprzez wszystkie pokolenia Twoje panowanie.\nPan podtrzymuje wszystkich, którzy upadają, *\ni podnosi wszystkich zgnębionych.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Tes 1, 11 - 2, 2",
+      "opis": "Uświęcenie chrześcijan przynosi chwałę Chrystusowi",
+      "tekst": "Bracia:\nModlimy się stale za was, aby Bóg nasz uczynił was godnymi swego wezwania i aby z mocą wypełnił w was wszelkie pragnienie dobra oraz działanie wiary. Aby w was zostało uwielbione imię Pana naszego, Jezusa Chrystusa - a wy w Nim - za łaską Boga naszego i Pana Jezusa Chrystusa.\nW sprawie przyjścia Pana naszego, Jezusa Chrystusa, i naszego zgromadzenia się wokół Niego prosimy was, bracia, abyście się nie dali zbyt łatwo zachwiać w waszym rozumieniu ani zastraszyć bądź przez ducha, bądź przez mowę, bądź przez list, rzekomo od nas pochodzący, jakby już nastawał dzień Pański.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 3, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak Bóg umiłował świat, że dał swojego Syna Jednorodzonego;\nkażdy, kto w Niego wierzy, ma życie wieczne."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 19, 1-10",
+      "opis": "Syn Człowieczy przyszedł szukać i zbawić to, co zginęło",
+      "tekst": "Jezus wszedł do Jerycha i przechodził przez miasto. A pewien człowiek, imieniem Zacheusz, który był zwierzchnikiem celników i był bardzo bogaty, chciał koniecznie zobaczyć Jezusa, któż to jest, ale sam nie mógł z powodu tłumu, gdyż był niskiego wzrostu. Pobiegł więc naprzód i wspiął się na sykomorę, aby móc Go ujrzeć, tamtędy bowiem miał przechodzić.\nGdy Jezus przyszedł na to miejsce, spojrzał w górę i rzekł do niego: «Zacheuszu, zejdź prędko, albowiem dziś muszę się zatrzymać w twoim domu». Zszedł więc z pośpiechem i przyjął Go rozradowany. A wszyscy, widząc to, szemrali: «Do grzesznika poszedł w gościnę».\nLecz Zacheusz stanął i rzekł do Pana: «Panie, oto połowę mego majątku daję ubogim, a jeśli kogoś w czymś skrzywdziłem, zwracam poczwórnie».\nNa to Jezus rzekł do niego: «Dziś zbawienie stało się udziałem tego domu, gdyż i on jest synem Abrahama. Albowiem Syn Człowieczy przyszedł odszukać i zbawić to, co zginęło».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i powrocie do Ojca doskonale oddaje postawę Zacheusza, który pragnie zmienić swoje życie po spotkaniu z Jezusem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia i wiary w Ewangelię, co jest istotą historii Zacheusza, dla którego 'dziś zbawienie stało się udziałem tego domu'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który jak w Ewangelii przychodzi do grzeszników, by ich zbawić i dać im pokój.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zacheusz wydaje owoce nawrócenia, oddając połowę majątku ubogim. Ta pieśń wzywa do podobnych, konkretnych czynów miłosierdzia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest postawą Zacheusza, który chce wynagrodzić wyrządzone krzywdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze nawrócenie, prosząc, by przyjął owoce naszej przemiany, na wzór Zacheusza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej przychodzi do naszych domów, tak jak przyszedł do domu Zacheusza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Pana, podobną do tej, jaką okazał Zacheusz, przyjmując Go w swoim domu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, które pragnie nawrócenia, jak serce Zacheusza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, w której chwalimy Boga za Jego dobroć i miłosierdzie, o którym mówi też pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar zbawienia, który stał się udziałem domu Zacheusza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które odszukuje i zbawia to, co zginęło.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywająca do nawrócenia jest posłaniem na zakończenie Mszy, abyśmy na wzór Zacheusza otworzyli serca dla Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o zbawieniu, które przychodzi do każdego, kto przyjmuje Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do zbawienia, co potwierdza historia nawrócenia Zacheusza.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest wołaniem o Boże miłosierdzie, które w pierwszym czytaniu ogarnia wszystkie stworzenia, a w Ewangelii dotyka Zacheusza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża ufność w Boże miłosierdzie i odkupienie, które jest dostępne dla każdego grzesznika, jak Zacheusz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Pieśń jest wołaniem grzesznika o przebaczenie i miłosierdzie, które Bóg okazuje w spotkaniu z Zacheuszem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest naszym Zbawcą, przychodzącym, by odszukać i zbawić to, co zginęło.",
+      "moment": "ogolne"
+    }
+  ]
+}

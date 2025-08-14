@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416212.8-Niedziela-zwykla-rok-B",
+  "tytul_dnia": "8 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 2, 16b. 17b. 21-22",
+      "opis": "Naród wybrany jest oblubienicą Boga",
+      "tekst": "Tak mówi Pan:\n«Wyprowadzę oblubienicę na pustynię i przemówię do jej serca. I tam odpowie Mi jak w dniu, w którym wychodziła z ziemi egipskiej.\nI poślubię cię sobie na wieki, poślubię przez sprawiedliwość i prawo, przez miłość i miłosierdzie. Poślubię cię sobie przez wierność, a poznasz Pana».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 3-4. 8 i 10. 12-13",
+      "opis": "",
+      "tekst": "Refren: Pan jest łaskawy, pełen miłosierdzia.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nOn odpuszcza wszystkie twoje winy *\ni leczy wszystkie choroby.\nOn twoje życie ratuje od zguby, *\nobdarza cię łaską i zmiłowaniem.\nRefren.\nMiłosierny jest Pan i łaskawy, *\nnieskory do gniewu i bardzo cierpliwy.\nNie postępuje z nami według naszych grzechów *\nani według win naszych nam nie odpłaca.\nRefren.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nJak ojciec lituje się nad dziećmi, *\ntak Pan się lituje nad tymi, którzy cześć Mu oddają.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Kor 3, 1b-6",
+      "opis": "Słudzy Nowego Przymierza",
+      "tekst": "Bracia:\nCzy potrzebujemy, jak niektórzy, listów polecających do was lub od was? Wy jesteście naszym listem, pisanym w sercach naszych, listem, który znają i czytają wszyscy ludzie. Powszechnie o was wiadomo, że jesteście listem Chrystusowym dzięki naszemu posługiwaniu, listem napisanym nie atramentem, lecz Duchem Boga żywego; nie na kamiennych tablicach, lecz na żywych tablicach serc.\nA jeżeli dzięki Chrystusowi taką ufność w Bogu pokładamy, to nie dlatego, żebyśmy uważali, iż jesteśmy w stanie pomyśleć coś sami z siebie, lecz wiemy, że ta możność nasza jest z Boga. On też sprawił, że mogliśmy stać się sługami Nowego Przymierza, przymierza nie litery, lecz Ducha; litera bowiem zabija, Duch zaś ożywia.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ze swej woli zrodził nas Ojciec przez słowo prawdy,\nbyśmy byli jakby pierwocinami Jego stworzeń."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 2, 18-22",
+      "opis": "Chrystus jest oblubieńcem Kościoła",
+      "tekst": "Uczniowie Jana i faryzeusze mieli właśnie post. Przyszli więc do Jezusa i pytali: «Dlaczego uczniowie Jana i uczniowie faryzeuszów poszczą, a Twoi uczniowie nie poszczą?»\nJezus im odpowiedział: «Czy goście weselni mogą pościć, dopóki pan młody jest z nimi? Nie mogą pościć, jak długo mają pośród siebie pana młodego. Lecz przyjdzie czas, kiedy zabiorą im pana młodego, a wtedy, w ów dzień, będą pościć.\nNikt nie przyszywa łaty z surowego sukna do starego ubrania. W przeciwnym razie nowa łata obrywa jeszcze część ze starego ubrania i gorsze staje się przedarcie. Nikt też młodego wina nie wlewa do starych bukłaków. W przeciwnym razie wino rozerwie bukłaki. Wino się wylewa i bukłaki przepadną. Raczej młode wino należy wlewać do nowych bukłaków».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do spotkania z Chrystusem-Oblubieńcem, o którym mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń wzywa do odwzajemnienia miłości Sercu Jezusa, co doskonale wpisuje się w obraz Boga-Oblubieńca z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "296",
+      "piesn": "O niewysłowione szczęście",
+      "opis": "Pieśń wyraża radość z obecności Boga-Oblubieńca, który w Eucharystii daje nam swoje Serce.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania się Bogu jako Oblubieńcowi, który poślubia swój lud na wieki.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Drugie czytanie mówi o Nowym Przymierzu Ducha zapisanym w sercach, a ta pieśń jest prośbą o Jego obecność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "303",
+      "piesn": "Twemu Sercu cześć składamy",
+      "opis": "Jest to akt ofiarowania czci Sercu Jezusa-Oblubieńca, którego miłość jest fundamentem Nowego Przymierza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Podkreśla eucharystię jako ucztę weselną, na której Chrystus-Oblubieniec karmi swój Kościół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń jest adoracją Jezusa w Hostii, podkreślając Jego miłość i otwarte Serce, co nawiązuje do tematu Oblubieńca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń bezpośrednio nawiązuje do Uczty Pańskiej jako uczty weselnej, na którą zaproszeni są goście weselni z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "767",
+      "piesn": "Misericordias Domini",
+      "opis": "Jest to pieśń uwielbienia za miłość i miłosierdzie Pana, przez które poślubia On sobie swój lud.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Boże zbawienie i miłosierdzie, o którym z mocą mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za niezmierzone łaski Boże, Jego miłość i miłosierdzie, które są tematem czytań.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń na rozesłanie, która jest modlitwą za Kościół-Oblubienicę, aby trwał w wierności swojemu Panu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o jedność w miłości, która jest znakiem Nowego Przymierza, o którym mówią czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która posyła nas, byśmy byli 'listem Chrystusowym' dla świata, jak naucza św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Pieśń ta jest echem psalmu, który wysławia miłosierdzie Boże, będące fundamentem przymierza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Prośba do Ducha Świętego, który, jak mówi św. Paweł, pisze Nowe Przymierze na żywych tablicach serc.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Krótka, medytacyjna pieśń, która w doskonały sposób podsumowuje przesłanie dnia o Bogu-Oblubieńcu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest kwintesencją Nowego Przymierza opartego na miłości.",
+      "moment": "ogolne"
+    }
+  ]
+}

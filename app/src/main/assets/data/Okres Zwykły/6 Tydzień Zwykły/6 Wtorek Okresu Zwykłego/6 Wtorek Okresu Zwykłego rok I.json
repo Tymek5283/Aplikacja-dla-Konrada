@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416112.Wtorek-VI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "6 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rdz 6, 5-8; 7, 1-5. 10",
+      "opis": "Bóg zsyła potop",
+      "tekst": "Pan Bóg, widząc, że wielka jest niegodziwość ludzi na ziemi i że usposobienie ich jest wciąż złe, żałował, że stworzył ludzi na ziemi, i zasmucił się. Wreszcie Pan rzekł: «Zgładzę ludzi, których stworzyłem, z powierzchni ziemi: ludzi, bydło, zwierzęta pełzające i ptaki podniebne, bo żałuję, że ich stworzyłem». Tylko Noego Pan darzył życzliwością.\nPan rzekł do Noego: «Wejdź wraz z całą twą rodziną do arki, bo przekonałem się, że tylko ty jesteś wobec mnie prawy wśród tego pokolenia. Z wszelkich zwierząt czystych weź z sobą siedem samców i siedem samic, ze zwierząt zaś nieczystych po jednej parze: samca i samicę; również i z ptactwa - po siedem samców i po siedem samic, aby w ten sposób zachować ich potomstwo dla całej ziemi. Bo za siedem dni spuszczę na ziemię deszcz, który będzie padał czterdzieści dni i czterdzieści nocy, aby wyniszczyć wszystko, co istnieje na powierzchni ziemi - cokolwiek stworzyłem».\nI wypełnił Noe wszystko tak, jak mu Pan polecił. A gdy upłynęło siedem dni, wody potopu spadły na ziemię.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 29 (28), 1b-2. 3ac-4. 3b i 9b-10 (R.: por. 11b)",
+      "opis": "",
+      "tekst": "Refren: Pan ześle pokój swojemu ludowi.\nOddajcie Panu, synowie Boży, *\noddajcie Panu chwałę i sławcie Jego potęgę.\nOddajcie Panu chwałę Jego imienia, *\nna świętym dziedzińcu uwielbiajcie Pana.\nRefren.\nPonad wodami głos Pański, *\nPan ponad wód bezmiarem!\nGłos Pana potężny, *\ngłos Pana pełen dostojeństwa.\nRefren.\nZagrzmiał Bóg majestatu: *\na w Jego świątyni wszyscy mówią: «Chwała!»\nPan zasiadł nad potopem, *\nPan jako Król zasiada na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 14-21",
+      "opis": "Strzeżcie się kwasu faryzeuszów",
+      "tekst": "Uczniowie Jezusa zapomnieli zabrać chleby i tylko jeden chleb mieli z sobą w łodzi. Wtedy im przykazał: Uważajcie, strzeżcie się kwasu faryzeuszów i kwasu Heroda!»\nA oni zaczęli rozprawiać między sobą o tym, że nie mają chlebów. Jezus zauważył to i rzekł do nich: «Czemu rozprawiacie o tym, że nie macie chlebów? Jeszcze nie pojmujecie i nie rozumiecie, tak otępiałe są wasze umysły? Mając oczy, nie widzicie; mając uszy, nie słyszycie? Nie pamiętacie, ile zebraliście koszów pełnych ułomków, kiedy połamałem pięć chlebów dla pięciu tysięcy?» Odpowiedzieli Mu: «Dwanaście». «A kiedy połamałem siedem chlebów dla czterech tysięcy, ile zebraliście koszów pełnych ułomków?» Odpowiedzieli: «Siedem».\nI rzekł im: «Jeszcze nie rozumiecie?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Pieśń błagalna, która oddaje atmosferę prośby o ocalenie w obliczu Bożego sądu, opisanego w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża wołanie grzesznika o Bożą pomoc i miłosierdzie, w kontekście potopu i ludzkiej niegodziwości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechu, który sprowadził na świat potop.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Boga, co jest odpowiedzią na Boże wezwanie do sprawiedliwości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem żalu za grzechy i prośbą o łaskę poprawy, by uniknąć Bożego gniewu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc o ocalenie od zła, na wzór ocalenia Noego.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Nawiązuje do rozmnożenia chleba, o którym Jezus przypomina w Ewangelii, ukazując Eucharystię jako prawdziwy pokarm.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta ukazuje Jezusa jako prawdziwy Chleb z nieba, który chroni nas przed kwasem faryzeuszów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb, który daje nam życie i prawdziwe zrozumienie, w przeciwieństwie do uczniów z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to pieśń chwały dla Boga, którego potężny głos rozbrzmiewa nad wodami, jak opisuje to psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga, który jest Królem zasiadającym nad potopem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego potęga i majestat objawiły się w potopie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to prośba o zrozumienie i wiarę, której brakowało uczniom w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Chrystusa, strzegąc się kwasu obłudy i fałszu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po usłyszeniu ostrzeżenia Jezusa, prosimy o błogosławieństwo, byśmy mogli żyć w prawdzie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń o charakterze pokutnym, która jest odpowiedzią na Boży smutek z powodu ludzkiej niegodziwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla wartość zaufania Bogu, które ocaliło Noego i jego rodzinę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o przebaczenie za grzechy, które sprowadziły na świat Boży gniew.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wyraża postawę zaufania Bogu, którą odznaczał się sprawiedliwy Noe.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416124.Sobota-VI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "6 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 11, 1-7",
+      "opis": "Wiara patriarchów",
+      "tekst": "Bracia:\nWiara jest poręką tych dóbr, których się spodziewamy, dowodem tych rzeczywistości, których nie widzimy. To dzięki niej przodkowie otrzymali świadectwo.\nPrzez wiarę poznajemy, że słowem Boga wszechświat został tak stworzony, iż to, co widzimy, powstało nie z rzeczy widzialnych.\nDzięki wierze Abel złożył Bogu cenniejszą niż Kain ofiarę, za co otrzymał świadectwo, iż jest sprawiedliwy. Bóg bowiem zaświadczył o jego darach, toteż choć umarł, przez nią jeszcze przemawia.\nPrzez wiarę Henoch został uniesiony, aby nie oglądał śmierci. I nie znaleziono go, ponieważ Bóg go zabrał. Przed zabraniem bowiem otrzymał świadectwo, iż podobał się Bogu. Bez wiary zaś nie można podobać się Bogu. Przystępujący bowiem do Boga musi uwierzyć, że Bóg jest i że wynagradza tych, którzy Go szukają.\nPrzez wiarę Noe został pouczony cudownie o tym, czego jeszcze nie można było ujrzeć, i pełen bojaźni zbudował arkę, aby ocalić swą rodzinę. Przez wiarę też potępił świat i stał się dziedzicem sprawiedliwości, którą otrzymuje się dzięki wierze.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 2-3. 4-5. 10-11 (R.: por. 1c)",
+      "opis": "",
+      "tekst": "Refren: Będę wysławiał imię Twe na wieki.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nWielki jest Pan i godzien wielkiej chwały, *\na wielkość Jego niezgłębiona.\nRefren.\nPokolenie pokoleniu głosi Twoje dzieła *\ni zwiastuje Twe potężne czyny.\nGłoszą wspaniałą chwałę Twego majestatu *\ni rozpowiadają Twoje cuda.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 9, 7",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwarło się niebo i zabrzmiał głos Ojca:\n«To jest mój Syn umiłowany, Jego słuchajcie»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 2-13",
+      "opis": "Przemienienie Pańskie",
+      "tekst": "Jezus wziął z sobą Piotra, Jakuba i Jana i zaprowadził ich samych osobno na górę wysoką. Tam się przemienił wobec nich. Jego odzienie stało się lśniąco białe, tak jak żaden na ziemi folusznik wybielić nie zdoła. I ukazał się im Eliasz z Mojżeszem, którzy rozmawiali z Jezusem.\nWtedy Piotr rzekł do Jezusa: «Rabbi, dobrze, że tu jesteśmy; postawimy trzy namioty: jeden dla Ciebie, jeden dla Mojżesza i jeden dla Eliasza». Nie wiedział bowiem, co powiedzieć, tak byli przestraszeni.\nI zjawił się obłok, osłaniający ich, a z obłoku odezwał się głos: «To jest mój Syn umiłowany, Jego słuchajcie!» I zaraz potem, gdy się rozejrzeli, nikogo już nie widzieli przy sobie, tylko samego Jezusa.\nA gdy schodzili z góry, przykazał im, aby nikomu nie rozpowiadali o tym, co widzieli, zanim Syn Człowieczy nie powstanie z martwych. Zachowali to polecenie, rozprawiając tylko między sobą, co znaczy „powstać z martwych”.\nI pytali Go: «Czemu uczeni w Piśmie twierdzą, że wpierw musi przyjść Eliasz?»\nA On im rzekł: «Istotnie, Eliasz przyjdzie najpierw i wszystko naprawi. Ale jak jest napisane o Synu Człowieczym? Ma On wiele cierpieć i być wzgardzony. Otóż mówię wam: Eliasz już przyszedł i postąpili z nim tak, jak chcieli, jak o nim jest napisane».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "306",
+      "piesn": "Najsłodszy Jezu",
+      "opis": "Pieśń ta bezpośrednio odnosi się do tajemnicy Przemienienia Pańskiego, opisanej w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Jest to hymn na cześć przemienionego Chrystusa, który objawia swoją Boską chwałę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Nawiązuje wprost do głosu Ojca z obłoku, który objawia Jezusa jako umiłowanego Syna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o wiarę, która jest głównym tematem pierwszego czytania z Listu do Hebrajczyków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu naszą wiarę, na wzór wiary patriarchów i proroków.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "235",
+      "piesn": "Chwalmy niewysłowiony",
+      "opis": "W Eucharystii przez wiarę rozpoznajemy obecność Chrystusa, co jest kontynuacją doświadczenia wiary opisanego w czytaniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Wprost nawiązuje do słów Boga Ojca z Ewangelii: 'To jest mój Syn umiłowany, Jego słuchajcie'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, którego chwałę oglądali apostołowie na górze Tabor.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w ukrytego w Hostii Chrystusa, którego Bóstwo objawiło się w Przemienieniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Pieśń ta jest hymnem chwały dla przemienionego Chrystusa, ukazującego swoje Bóstwo.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga za Jego majestat, objawiony w Przemienieniu i wysławiany w psalmie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego potęgę i majestat opiewa psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wyraża nadzieję płynącą z wiary w Chrystusa, która jest fundamentem życia chrześcijańskiego, ukazanym w czytaniach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Po ujrzeniu chwały Chrystusa, jesteśmy posłani, by iść Jego drogą, która prowadzi przez cierpienie do zmartwychwstania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię o Chrystusie, którego mamy słuchać, zgodnie z poleceniem Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to pieśń chwały, która jest echem psalmu wzywającego do wysławiania dzieł i majestatu Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Podkreśla, że Chrystus jest drogą do Ojca, co zostało objawione w tajemnicy Przemienienia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu, które jest istotą wiary, o której mówi List do Hebrajczyków.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wyraża postawę wiary i zaufania Bogu, którą odznaczali się bohaterowie wiary z pierwszego czytania.",
+      "moment": "ogolne"
+    }
+  ]
+}

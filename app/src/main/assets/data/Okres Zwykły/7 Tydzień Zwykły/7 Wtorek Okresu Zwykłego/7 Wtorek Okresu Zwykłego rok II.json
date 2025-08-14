@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416140.Wtorek-VII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "7 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 4, 1-10",
+      "opis": "Warunki dobrej modlitwy",
+      "tekst": "Najmilsi:\nSkąd się biorą wojny i skąd kłótnie między wami? Nie skądinąd, tylko z waszych żądz, które walczą w członkach waszych. Pożądacie, a nie macie, żywicie morderczą zazdrość, a nie możecie osiągnąć. Prowadzicie walki i kłótnie, a nic nie posiadacie, gdyż się nie modlicie. Modlicie się, a nie otrzymujecie, bo się źle modlicie, starając się jedynie o zaspokojenie swych żądz.\nCudzołożnicy, czy nie wiecie, że przyjaźń ze światem jest nieprzyjaźnią z Bogiem? Jeżeli więc ktoś zamierzałby być przyjacielem świata, staje się nieprzyjacielem Boga. A może utrzymujecie, że na próżno Pismo mówi: «Zazdrośnie pożąda On ducha, którego w nas utwierdził»? Daje zaś tym większą łaskę. Dlatego mówi: «Bóg sprzeciwia się pysznym, pokornym zaś daje łaskę».\nBądźcie więc poddani Bogu, przeciwstawiajcie się natomiast diabłu, a ucieknie od was. Przystąpcie bliżej do Boga, to i On przybliży się do was. Oczyśćcie ręce, grzesznicy, uświęćcie serca, ludzie chwiejni! Uznajcie waszą nędzę, smućcie się i płaczcie! Śmiech wasz niech się obróci w smutek, a radość w przygnębienie. Uniżcie się przed Panem, a wywyższy was.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 55 (54), 7-9. 10-11. 23 (R.: por. 23a)",
+      "opis": "",
+      "tekst": "Refren: Zaufaj Panu, a On cię podtrzyma.\nMówię: «Gdybym miał skrzydła jak gołąb, *\nuleciałbym i spoczął;\nuciekłbym daleko, zamieszkał na pustyni». †\nPrędko bym sobie wyszukał schronienie *\nod wichru i nawałnicy.\nRefren.\nRozprosz ich, Panie, rozdziel ich języki, *\nbo przemoc widzę w mieście i niezgodę.\nObchodzą je murami w ciągu dnia i nocy, *\na złość i ucisk są we wnętrzu jego.\nRefren.\nZrzuć swą troskę na Pana, *\na On cię podtrzyma,\nnigdy nie dopuści, *\naby się zachwiał sprawiedliwy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ga 6, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie daj Boże, bym się miał chlubić z czego innego, jak tylko z krzyża Pana naszego, Jezusa Chrystusa,\ndzięki któremu świat stał się ukrzyżowany dla mnie, a ja dla świata."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 30-37",
+      "opis": "Druga zapowiedź męki i wezwanie do pokory",
+      "tekst": "Jezus i Jego uczniowie przemierzali Galileę, On jednak nie chciał, żeby ktoś o tym wiedział. Pouczał bowiem swoich uczniów i mówił im: «Syn Człowieczy będzie wydany w ręce ludzi. Ci Go zabiją, lecz zabity, po trzech dniach zmartwychwstanie». Oni jednak nie rozumieli tych słów, a bali się Go pytać.\nTak przyszli do Kafarnaum. Gdy był już w domu, zapytał ich: «O czym to rozprawialiście w drodze?» Lecz oni milczeli, w drodze bowiem posprzeczali się między sobą o to, kto z nich jest największy.\nOn usiadł, przywołał Dwunastu i rzekł do nich: «Jeśli ktoś chce być pierwszym, niech będzie ostatnim ze wszystkich i sługą wszystkich». Potem wziął dziecko, postawił je przed nimi i objąwszy je ramionami, rzekł do nich: «Kto jedno z tych dzieci przyjmuje w imię moje, Mnie przyjmuje; a kto Mnie przyjmuje, nie przyjmuje Mnie, lecz Tego, który Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta wyraża postawę nawrócenia i uniżenia przed Panem, do której wzywa pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i błagania o łaskę, o której św. Jakub pisze, że Bóg jej udziela pokornym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na wezwanie św. Jakuba do uznania swojej nędzy i płaczu nad grzechami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Jest to pieśń o charakterze pokutnym, która dobrze oddaje ducha Listu św. Jakuba, wzywającego do oczyszczenia serc.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest owocem uniżenia się przed Panem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze serca, prosząc o ich uświęcenie i oczyszczenie z pychy i żądz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Nawiązuje do sceny z Ewangelii, gdzie Jezus stawia dziecko za wzór i utożsamia się z nim.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosta, dziecięca modlitwa, która jest idealnym przygotowaniem do przyjęcia Komunii Świętej w duchu pokory.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje prostotę i radość dziecka, które z czystym sercem przyjmuje Jezusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o zaufaniu Panu, które jest odpowiedzią na wezwanie psalmu: 'Zrzuć swą troskę na Pana'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą opiekę i podtrzymanie, o którym z ufnością śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, które Bóg daje pokornym, jak naucza św. Jakub.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to prośba o Boże prowadzenie drogą pokory i służby, którą Jezus wskazuje jako drogę do wielkości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o pokorze jest ścieżką, którą chcemy podążać.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o królestwie, do którego należą ci, co są jak dzieci.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, która jest odpowiedzią na Boże wezwanie do uniżenia się i uznania swojej nędzy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o miłosierdzie, które jest potrzebne w walce z pychą i żądzami, o których mówi św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla cichych i pokornego serca, nawiązuje do postawy dziecka, która otwiera drogę do królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, o której On sam zapowiada w Ewangelii, a która jest źródłem naszego zbawienia.",
+      "moment": "ogolne"
+    }
+  ]
+}

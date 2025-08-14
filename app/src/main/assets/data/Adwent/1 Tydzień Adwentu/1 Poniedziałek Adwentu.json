@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Wezwanie do otwarcia bram dla Króla, do którego przyjdą wszystkie narody, jak zapowiada pierwsze czytanie i Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Zapowiedź przyjścia Pana, do którego z tak wielką wiarą zwraca się setnik, jest dobrym wprowadzeniem w liturgię.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "277",
       "piesn": "U drzwi Twoich stoję, Panie",
       "opis": "Słowa setnika z Ewangelii 'Panie, nie jestem godzien' znajdują swoje rozwinięcie w tej eucharystycznej pieśni, wyrażającej pokorę przed przyjściem Pana.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Wezwanie do prostowania dróg jest wyrazem wiary, jakiej oczekuje Jezus, a której przykład daje setnik.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Prośba o przyjście Pana, połączona z wezwaniem do przemiany życia, by być godnym Jego przyjścia, jak setnik.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Wyraża pragnienie przyjęcia Chrystusa, którego moc uzdrawiającą wyznał setnik z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, powtarzająca w duchu słowa setnika, ale z ufnością w Jego miłosierdzie.",
+      "moment": "komunia"
+    },
+    {
       "numer": "598",
       "piesn": "Cóż Ci, Jezu, damy",
       "opis": "Dziękczynienie za dar wiary, tak wielkiej jak u setnika, i za obietnicę wejścia do królestwa niebieskiego dla wszystkich narodów.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Dziękczynienie Bogu, do którego, jak mówi Izajasz i Jezus, przyjdą wszystkie narody.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który objawia swoją moc poganinowi, człowiekowi wielkiej wiary.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Proroctwo Izajasza o wszystkich narodach i słowa Jezusa o przychodzących ze wschodu i zachodu posyłają nas, by głosić Ewangelię całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosna pieśń o przyjściu Króla posyła nas w świat z zadaniem głoszenia Go wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń o Zbawicielu, który przychodzi do wszystkich, którzy w Niego wierzą, niezależnie od pochodzenia.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "6",
       "piesn": "Pan jest blisko",
       "opis": "Krótka, medytacyjna pieśń, która przypomina o bliskości Pana i potrzebie czuwania, co jest istotą Adwentu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, które są udziałem ludzi pokornego serca i wielkiej wiary, jak setnik.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "9",
+      "piesn": "Stwórco gwiaździstych przestworzy",
+      "opis": "Klasyczny hymn adwentowy jest modlitwą o obronę przed złem i siłę do życia wiarą, której przykład dał setnik.",
       "moment": "ogolne"
     }
   ]

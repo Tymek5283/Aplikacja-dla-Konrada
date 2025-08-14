@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415670.Poniedzialek-29-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "29 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 2, 1-10",
+      "opis": "Bóg przywróci nas razem z Chrystusem do życia",
+      "tekst": "Bracia:\nI wy byliście umarłymi na skutek waszych występków i grzechów, w których żyliście niegdyś według doczesnego sposobu tego świata, według sposobu Władcy mocarstwa powietrza, to jest ducha, który działa teraz w synach buntu. Pośród nich także my wszyscy niegdyś postępowaliśmy według żądz naszego ciała, spełniając zachcianki ciała i myśli zdrożnych. I byliśmy potomstwem z natury zasługującym na gniew, jak i wszyscy inni.\nA Bóg, będąc bogaty w miłosierdzie, przez wielką swą miłość, jaką nas umiłował, i to nas, umarłych na skutek występków, razem z Chrystusem przywrócił do życia - łaską bowiem jesteście zbawieni - razem też wskrzesił i razem posadził na wyżynach niebieskich - w Chrystusie Jezusie, aby w nadchodzących wiekach przeogromne bogactwo swej łaski okazać przez dobroć względem nas, w Chrystusie Jezusie.\nŁaską bowiem jesteście zbawieni przez wiarę. A to pochodzi nie od was, lecz jest darem Boga: nie z uczynków, aby się nikt nie chlubił. Jesteśmy bowiem Jego dziełem, stworzeni w Chrystusie Jezusie do dobrych czynów, które Bóg z góry przygotował, abyśmy je pełnili.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 3b)",
+      "opis": "",
+      "tekst": "Refren: Bóg sam nas stworzył, my Jego własnością.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 13-21",
+      "opis": "Gromadzić skarby przed Bogiem",
+      "tekst": "Ktoś z tłumu rzekł do Jezusa: «Nauczycielu, powiedz mojemu bratu, żeby się podzielił ze mną spadkiem». Lecz On mu odpowiedział: «Człowieku, któż Mnie ustanowił nad wami sędzią albo rozjemcą?»\nPowiedział też do nich: «Uważajcie i strzeżcie się wszelkiej chciwości, bo nawet gdy ktoś ma wszystkiego w nadmiarze, to życie jego nie zależy od jego mienia».\nI opowiedział im przypowieść: «Pewnemu zamożnemu człowiekowi dobrze obrodziło pole. I rozważał w sobie: „Co tu począć? Nie mam gdzie pomieścić moich zbiorów”. I rzekł: „Tak zrobię: zburzę moje spichlerze, a pobuduję większe i tam zgromadzę całe moje zboże i dobra. I powiem sobie: Masz wielkie dobra, na długie lata złożone; odpoczywaj, jedz, pij i używaj!” Lecz Bóg rzekł do niego: „Głupcze, jeszcze tej nocy zażądają twojej duszy od ciebie; komu więc przypadnie to, co przygotowałeś?”\nTak dzieje się z każdym, kto skarby gromadzi dla siebie, a nie jest bogaty u Boga».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń ta jest radosnym wezwaniem do służenia Panu, co jest echem psalmu responsoryjnego 'Służcie Panu z weselem'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do oddania czci Bogu, który nas stworzył i przez Chrystusa przywrócił do życia, jak mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym hymnem chwały na cześć Boga, który jest naszym Stwórcą i Pasterzem, o czym śpiewa psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec przestrogi przed chciwością, ta pieśń jest aktem ofiarowania Bogu swojego życia i skarbów, by być 'bogatym u Boga'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń wyraża postawę wdzięczności i uznania, że wszystko co mamy, pochodzi od Boga, co przeciwstawia się postawie chciwego bogacza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc, by nie było ono skupione na gromadzeniu skarbów ziemskich, lecz na bogaceniu się przed Bogiem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Aklamacja mówi o błogosławieństwie ubogich. Ta pieśń przypomina, że prawdziwym skarbem jest Królestwo Boże, a nie bogactwa ziemskie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Pieśń wyraża pragnienie zaspokojenia głodu duszy przez Chrystusa, co jest prawdziwym bogactwem w przeciwieństwie do dóbr materialnych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, która jest prawdziwym skarbem, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za to, że łaską jesteśmy zbawieni i stworzeni do dobrych czynów, jak poucza św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za niezliczone łaski Boże, które są prawdziwym bogactwem, w przeciwieństwie do skarbów ziemskich.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar nowego życia w Chrystusie i za to, że jesteśmy Jego własnością.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opatrzność jest odpowiedzią na Ewangelię, która uczy, że życie nie zależy od mienia, ale od Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "W kontekście przypowieści o bogaczu, ta pieśń przypomina, że prawdziwe bezpieczeństwo daje Boża opatrzność, a nie ziemskie dobra.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy umieli gromadzić skarby w niebie, a nie na ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, które jest prawdziwym bogactwem, w przeciwieństwie do skarbów gromadzonych dla siebie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary, które są drogą do bycia bogatym przed Bogiem, o czym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców godnych nawrócenia, takich jak miłosierdzie, które jest prawdziwym skarbem w oczach Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, który przez swoją łaskę przywrócił nas do życia.",
+      "moment": "ogolne"
+    }
+  ]
+}

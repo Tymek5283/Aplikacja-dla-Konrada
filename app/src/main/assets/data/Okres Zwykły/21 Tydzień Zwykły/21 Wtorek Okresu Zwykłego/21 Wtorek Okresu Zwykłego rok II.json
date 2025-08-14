@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/429092.Wtorek-21-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "21 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Tes 2, 1-3a. 14-17",
+      "opis": "Ostrzeżenie przed fałszywymi naukami",
+      "tekst": "W sprawie przyjścia Pana naszego, Jezusa Chrystusa, i naszego zgromadzenia się wokół Niego prosimy was, bracia, abyście się nie dali zbyt łatwo zachwiać w waszym rozumieniu ani zastraszyć bądź przez ducha, bądź przez mowę, bądź przez list, rzekomo od nas pochodzący, jakby już nastawał dzień Pański. Niech was w żaden sposób nikt nie zwodzi.\nPo to wezwał was przez nasze głoszenie Ewangelii, abyście dostąpili chwały Pana naszego, Jezusa Chrystusa. Przeto, bracia, trwajcie niewzruszenie i trzymajcie się tradycji, o których zostaliście pouczeni bądź żywym słowem, bądź za pośrednictwem naszego listu. Sam zaś Pan nasz, Jezus Chrystus, i Bóg, Ojciec nasz, który nas umiłował i przez łaskę udzielił nam wiecznego pocieszenia i dobrej nadziei, niech pocieszy serca wasze i niech utwierdzi w każdym działaniu i dobrej mowie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 10. 11-12. 13 (R.: por. 13ab)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg nadchodzi, aby sądzić ziemię.\nGłoście wśród ludów, *\nże Pan jest królem.\nOn świat tak utwierdził, że się nie zachwieje, *\nbędzie sprawiedliwie sądził ludy.\nRefren.\nNiech się radują niebiosa i ziemia weseli, *\nniech szumi morze i wszystko, co je napełnia.\nNiech się cieszą pola i wszystko, co na nich rośnie, *\nniech wszystkie drzewa w lasach wykrzykują z radości.\nRefren.\nPrzed obliczem Pana, który już się zbliża, *\nktóry już się zbliża, by osądzić ziemię.\nOn będzie sądził świat sprawiedliwie, *\na ludy według swej prawdy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Hbr 4, 12",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Żywe jest słowo Boże i skuteczne,\nzdolne osądzić pragnienia i myśli serca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 23, 23-26",
+      "opis": "Biada obłudnikom",
+      "tekst": "Jezus przemówił tymi słowami:\n«Biada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo dajecie dziesięcinę z mięty, kopru i kminku, lecz zaniedbaliście to, co ważniejsze jest w Prawie: sprawiedliwość, miłosierdzie i wiarę. To zaś należało czynić, a tamtego nie zaniedbywać. Ślepi przewodnicy, którzy przecedzacie komara, a połykacie wielbłąda!\nBiada wam, uczeni w Piśmie i faryzeusze obłudnicy, bo dbacie o czystość zewnętrznej strony kubka i misy, a wewnątrz pełne są zdzierstwa i niepowściągliwości. Faryzeuszu ślepy! Oczyść wpierw wnętrze kubka, żeby i zewnętrzna jego strona stała się czysta».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń jest modlitwą o czyste serce, co stanowi odpowiedź na Jezusowe wezwanie do oczyszczenia 'wnętrza kubka'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wzywa do postawy pokory i skruchy, która jest przeciwieństwem obłudy faryzeuszy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Pieśń pokutna jest prośbą o wewnętrzne oczyszczenie, w przeciwieństwie do zewnętrznej czystości faryzeuszy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do owoców sprawiedliwości i miłosierdzia, które Jezus w Ewangelii stawia ponad zewnętrznymi praktykami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ofiarujemy Bogu naszą miłość, która jest 'ważniejsza w Prawie' niż zewnętrzne przepisy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu nasze czyny, prosząc, by były one wyrazem sprawiedliwości, miłosierdzia i wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wierność tradycji, do której wzywa św. Paweł, i przeciwstawienie się obłudzie wymagają silnej wiary, o którą prosimy w tej pieśni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która pozwala trwać niewzruszenie przy tradycji apostolskiej, o której pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem godnego przyjęcia Chrystusa, w przeciwieństwie do pychy faryzeuszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń, będąca echem psalmu responsoryjnego, jest radosnym oczekiwaniem na przyjście Pana, który będzie sprawiedliwie sądził świat.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości z królowania Pana, o którym mówi psalm, i oczekiwania na Jego ostateczne przyjście.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosne uwielbienie jest postawą tych, którzy oczekują na przyjście Pana i trwają w Jego nauce.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wierność Chrystusowi i Jego nauce jest drogą do przezwyciężenia obłudy i fałszywych nauk, przed którymi ostrzegają czytania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności tradycji i nauce Kościoła, do czego wzywa św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest właściwą odpowiedzią na surowe słowa Jezusa z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Temat przyjścia Pana na sąd, obecny w psalmie i pierwszym czytaniu, jest główną myślą tej pieśni adwentowej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Pieśń adwentowa, wzywająca do gotowości na przyjście Pana, dobrze koresponduje z eschatologicznym wymiarem pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwie czystego serca jest przeciwieństwem postawy faryzeuszy, dbających tylko o zewnętrzną czystość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn ten wyraża, że Bogu miłe jest wdzięczne serce i prawe życie, a nie zewnętrzne obrzędy.",
+      "moment": "ogolne"
+    }
+  ]
+}

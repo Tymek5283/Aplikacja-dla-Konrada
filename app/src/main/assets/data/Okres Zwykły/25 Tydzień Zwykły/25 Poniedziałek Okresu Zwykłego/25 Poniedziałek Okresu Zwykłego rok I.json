@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418024.Poniedzialek-25-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "25 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ezd 1, 1-6",
+      "opis": "Edykt króla perskiego w sprawie odbudowy świątyni",
+      "tekst": "Aby się spełniło słowo Pańskie z ust Jeremiasza, pobudził Pan ducha Cyrusa, króla perskiego, w pierwszym roku jego panowania, tak iż obwieścił on, również na piśmie, w całym państwie swoim, co następuje:\n«Tak mówi Cyrus, król perski: Wszystkie państwa ziemi dał mi Pan, Bóg niebios. I On mi rozkazał zbudować Mu dom w Jerozolimie, w Judzie. Jeśli jest między wami jeszcze ktoś z całego ludu Jego, to niech Bóg jego będzie z nim; a niech idzie do Jerozolimy w Judzie i niech zbuduje dom Pana, Boga Izraela - tego Boga, który jest w Jerozolimie. A co do każdego z pozostających jeszcze przy życiu - to współmieszkańcy wszystkich miejscowości, gdzie taki przebywa, mają go wesprzeć srebrem, złotem, sprzętem i bydłem - oprócz darów dobrowolnych dla domu Bożego w Jerozolimie».\nZatem głowy rodów Judy i Beniamina, kapłani i lewici, słowem każdy, którego ducha Bóg pobudził, wybrali się w drogę, aby zbudować dom Pański w Jerozolimie. A wszyscy ich sąsiedzi poparli ich wszystkim: srebrem, złotem, sprzętem, bydłem i kosztownościami - oprócz wszelkich darów dobrowolnych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 126 (125), 1b-2b. 2c-3. 4-5. 6 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg uczynił wielkie rzeczy dla nas.\nGdy Pan odmienił los Syjonu, *\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu, *\na język śpiewał z radości.\nRefren.\nMówiono wtedy między narodami: *\n«Wielkie rzeczy im Pan uczynił».\nPan uczynił nam wielkie rzeczy *\ni radość nas ogarnęła.\nRefren.\nOdmień znowu nasz los, o Panie, *\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją, *\nżąć będą w radości.\nRefren.\nIdą i płaczą, *\nniosąc ziarno na zasiew,\nlecz powrócą z radością, *\nniosąc swoje snopy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Tak niech wasze światło jaśnieje przed ludźmi,\naby widzieli wasze dobre uczynki i chwalili Ojca waszego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 8, 16-18",
+      "opis": "Przypowieść o lampie",
+      "tekst": "Jezus powiedział do tłumów:\n«Nikt nie zapala lampy i nie przykrywa jej garncem ani nie stawia pod łóżkiem; lecz umieszcza na świeczniku, aby widzieli światło ci, którzy wchodzą. Nie ma bowiem nic skrytego, co by nie miało być ujawnione, ani nic tajemnego, co by nie było poznane i na jaw nie wyszło. Uważajcie więc, jak słuchacie. Bo kto ma, temu będzie dane; a kto nie ma, temu zabiorą nawet to, co mu się wydaje, że ma».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do domu Pańskiego, co nawiązuje do powrotu z niewoli i odbudowy świątyni z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń wyraża radość z przebywania w domu Pana, co jest echem psalmu i pierwszego czytania o odbudowie i poświęceniu świątyni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń o królowaniu Pana pasuje do atmosfery dziękczynienia za powrót z niewoli i odnowę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa za Kościół, nową Jerozolimę, jest odpowiedzią na Boże dzieło odbudowy opisane w Księdze Ezdrasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu trud budowy Jego domu, prosząc o Jego błogosławieństwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiarowanie darów jest aktem czci dla Boga, który pobudził ducha swojego ludu do odbudowy świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest światłem, które Kościół stawia na świeczniku, aby oświecało wszystkich, jak mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Komunia Święta jest przyjęciem Chrystusa, który jest światłością świata, o której mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii jest światłem, które rozprasza ciemności i napełnia nas życiem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta oddaje wielką radość powracających z wygnania, o której śpiewa psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna jest odpowiedzią na wielkie dzieła, które Pan uczynił dla swojego ludu, jak opisuje psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar łask jest echem radości ludu, który powrócił z niewoli.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń misyjna jest prośbą o błogosławieństwo na trud bycia światłem dla świata, do czego wzywa Ewangelia i aklamacja.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii jest zadaniem tych, którzy są światłem świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, który jest naszym światłem i prowadzi nas do Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest konieczna, aby nasze światło mogło jaśnieć przed ludźmi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana jest fundamentem dla życia w świetle Jego Słowa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem radości z dzieła odbudowy i wezwaniem do chwalenia Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń uwielbienia jest odpowiedzią na wezwanie psalmu do radosnego śpiewania Panu.",
+      "moment": "ogolne"
+    }
+  ]
+}

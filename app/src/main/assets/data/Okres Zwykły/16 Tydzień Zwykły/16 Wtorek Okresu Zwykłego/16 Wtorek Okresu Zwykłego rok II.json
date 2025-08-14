@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430384.Wtorek-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mi 7, 14-15.18-20",
+      "opis": "Prośba o przebaczenie",
+      "tekst": "Paś lud Twój, Panie, laską Twoją, trzodę dziedzictwa Twego, co mieszka samotnie w lesie, pośród ogrodów. Niech wypasają Baszan i Gilead jak za dawnych czasów. «Jak za dni Twego wyjścia z ziemi egipskiej ukażę mu dziwy».\nKtóryż bóg podobny Tobie, co oddalasz nieprawość, odpuszczasz występek Reszcie dziedzictwa Twego? Nie żywi On gniewu na zawsze, bo upodobał sobie miłosierdzie.\nUlituje się znowu nad nami, zetrze nasze nieprawości. Wrzucisz w morskie głębiny wszystkie ich grzechy. Okażesz wierność Jakubowi, Abrahamowi łaskawość, co poprzysiągłeś przodkom naszym od najdawniejszych czasów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 2-3. 5-6. 7-8 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Okaż nam, Panie, miłosierdzie swoje.\nŁaskawym się okazałeś, Panie, dla Twej ziemi, *\nodmieniłeś los Jakuba.\nOdpuściłeś winę swojemu ludowi *\ni zakryłeś wszystkie jego grzechy.\nRefren.\nOdnów nas, Boże, nasz Zbawco, *\nTwego oburzenia na nas poniechaj.\nCzyż będziesz się gniewał na wieki, *\nczy gniew swój rozciągniesz na wszystkie pokolenia?\nRefren.\nCzyż to nie Ty przywrócisz nam życie, *\na Twój lud w Tobie będzie się weselił?\nOkaż nam, Panie, łaskę swoją *\ni daj nam swoje zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 12, 46-50",
+      "opis": "Prawdziwa rodzina Jezusa",
+      "tekst": "Gdy Jezus przemawiał do tłumów, oto Jego Matka i bracia stanęli na dworze i chcieli z Nim rozmawiać. Ktoś rzekł do Niego: «Oto Twoja Matka i Twoi bracia stoją na dworze i chcą pomówić z Tobą».\nLecz On odpowiedział temu, który Mu to oznajmił: «Któż jest moją matką i którzy są moimi braćmi?» I wyciągnąwszy rękę ku swoim uczniom, rzekł: «Oto moja matka i moi bracia. Bo kto pełni wolę Ojca mojego, który jest w niebie, ten jest Mi bratem, siostrą i matką».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń nawiązuje do wezwania z pierwszego czytania: 'Paś lud Twój, Panie, laską Twoją', ukazując Boga jako troskliwego pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Pieśń ta, będąca inną wersją Psalmu 23, podkreśla Boże prowadzenie i opiekę, o której mówi prorok Micheasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o miłosierdzie i odnowienie, o której mówi psalmista, jest głównym tematem tej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to pieśń o charakterze pokutnym, która doskonale koresponduje z prośbą o przebaczenie i miłosierdzie z czytań.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o odpuszczenie win i miłosierdzie jest odpowiedzią na Bożą obietnicę przebaczenia z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które polega na Bożym miłosierdziu, opiewanym przez proroka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Maryja, Matka Jezusa, jest wzorem pełnienia woli Bożej, stając się przez to Matką wszystkich wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Maryja, Matka Kościoła, jest pierwszą z tych, którzy pełnią wolę Ojca i tworzą nową rodzinę Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Modlitwa do Maryi, która jest naszą Matką, ponieważ doskonale wypełniła wolę Bożą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Boże miłosierdzie, o którym z nadzieją mówią prorok Micheasz i psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za Bożą łaskawość i wierność, które są obiecane w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar bycia Jego dziećmi przez pełnienie Jego woli.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń podkreśla jedność Kościoła jako nowej rodziny Jezusa, o której mowa w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do Ewangelii, w której Jezus definiuje swoją prawdziwą rodzinę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy mogli wiernie pełnić wolę Ojca i należeć do rodziny Jezusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pełnienie woli Ojca jest warunkiem przynależności do rodziny Jezusa, a ta pieśń jest przypomnieniem przykazania miłości.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec grzechów i słabości, pieśń ta jest aktem zaufania w Boże miłosierdzie, które 'upodobało sobie' przebaczenie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który odpuszcza występki i okazuje łaskawość, jak głosi prorok.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Boże miłosierdzie, które jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "ogólne"
+    }
+  ]
+}

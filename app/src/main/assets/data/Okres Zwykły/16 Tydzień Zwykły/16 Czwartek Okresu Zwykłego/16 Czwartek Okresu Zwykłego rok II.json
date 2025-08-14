@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430382.Czwartek-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 2, 1-3. 7-8. 12-13",
+      "opis": "Odstępstwo Izraela",
+      "tekst": "Pan skierował do mnie następujące słowo: «Idź i głoś publicznie w Jerozolimie: Tak mówi Pan: Pamiętam wierność twej młodości, miłość twego narzeczeństwa, kiedy chodziłaś za Mną na pustyni, w ziemi, której nikt nie obsiewa.\nIzrael jest świętością Pana, pierwszym plonem z Jego zbiorów. Ci wszyscy, którzy go spożywają, stają się winni, spotka ich nieszczęście» - mówi Pan.\n«A Ja wprowadziłem was do ziemi urodzajnej, byście spożywali jej owoce i jej zasoby. Weszliście i zbezcześciliście moją ziemię, uczyniliście z mojej posiadłości miejsce pełne odrazy. Kapłani nie mówili: Gdzie jest Pan? Uczeni w Piśmie nie uznawali Mnie; pasterze zbuntowali się przeciw Mnie; prorocy głosili wyrocznie na korzyść Baala i chodzili za tymi, którzy nie dają pomocy.\nNiebo, niechaj cię na to ogarnie osłupienie, groza i wielkie drżenie! - mówi Pan. Bo podwójne zło popełnił mój naród: opuścili Mnie, źródło żywej wody, żeby wykopać sobie cysterny, cysterny popękane, które nie utrzymują wody».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 36 (35), 6-7b. 8-9. 10-11",
+      "opis": "",
+      "tekst": "Refren: W Tobie, o Panie, mamy źródło życia.\nDo nieba sięga, Panie, Twoja łaska, *\na Twoja wierność aż po same chmury.\nTwoja sprawiedliwość jak góry wysokie, *\na Twoje wyroki jak ogromna otchłań.\nRefren.\nJak cenna jest Twoja łaska, †\nprzychodzą do Ciebie ludzie *\ni chronią się w cieniu Twych skrzydeł,\nsycą się obfitością Twojego domu, *\npoisz ich potokiem Twojego szczęścia.\nRefren.\nAlbowiem w Tobie jest źródło życia *\ni w Twojej światłości oglądamy światło.\nZachowaj Twą łaskę dla tych, którzy Ciebie znają, *\na sprawiedliwość Twoją dla ludzi prawego serca.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 10-17",
+      "opis": "Dlaczego Jezus naucza w przypowieściach?",
+      "tekst": "Uczniowie przystąpili do Jezusa i zapytali: «Dlaczego mówisz do nich w przypowieściach?»\nOn im odpowiedział: «Wam dano poznać tajemnice królestwa niebieskiego, im zaś nie dano. Bo kto ma, temu będzie dodane, i w nadmiarze mieć będzie; kto zaś nie ma, temu zabiorą nawet to, co ma. Dlatego mówię do nich w przypowieściach, że patrząc, nie widzą, i słuchając, nie słyszą ani nie rozumieją. Tak spełnia się na nich przepowiednia Izajasza:\n„Słuchać będziecie, a nie zrozumiecie, patrzeć będziecie, a nie zobaczycie. Bo stwardniało serce tego ludu, ich uszy stępiały i oczy swe zamknęli, żeby oczami nie widzieli ani uszami nie słyszeli, ani swym sercem nie rozumieli, i nie nawrócili się, abym ich uzdrowił”. Lecz szczęśliwe oczy wasze, że widzą, i uszy wasze, że słyszą. Bo zaprawdę, powiadam wam: Wielu proroków i sprawiedliwych pragnęło ujrzeć to, na co wy patrzycie, a nie ujrzeli; i usłyszeć to, co wy słyszycie, a nie usłyszeli».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec oskarżeń o niewierność z pierwszego czytania, pieśń ta jest aktem skruchy i prośby o miłosierdzie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest odpowiedzią na Boże wezwanie do porzucenia niewierności i powrotu do miłości z czasów młodości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję powrotu do Boga, który jest 'źródłem żywej wody', a którego opuścił naród.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "281",
+      "piesn": "Witaj, Pokarmie",
+      "opis": "Pieśń eucharystyczna witająca Chrystusa jako 'Krynicę wszelkiego dobra', co jest odpowiedzią na grzech opuszczenia 'źródła żywej wody' z pierwszego czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które uznaje swoją niewierność i polega na Bożej dobroci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o oczyszczenie jest konieczna, by móc na nowo czerpać ze 'źródła żywej wody'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Ewangelia mówi o tajemnicach Królestwa, a ta pieśń wyraża pokorę, która jest kluczem do ich zrozumienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory jest warunkiem przyjęcia tajemnic Bożych, które są zakryte przed mądrymi tego świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus w Eucharystii jest prawdziwym 'źródłem żywej wody' i pokarmem na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Jest to pieśń uwielbienia za miłość Boga, która jest źródłem życia, co doskonale koresponduje z refrenem psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, którego łaska i wierność sięgają nieba, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękczynienie za Bożą łaskę, która jest 'źródłem życia' i 'potokiem szczęścia'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń ta jest prośbą o oświecenie serca, abyśmy mogli widzieć i rozumieć tajemnice, o których mówi Jezus.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prosimy Ducha Świętego o światło do rozumienia tajemnic Królestwa, które zostały nam objawione.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest kluczem do poznania tajemnic Bożych, o które prosimy na zakończenie liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "W odpowiedzi na grzech odrzucenia Boga, źródła żywej wody, ta pieśń jest deklaracją powrotu i wierności.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Ewangelia wspomina o zatwardziałości serca, a ta pieśń pokutna prosi o czyste serce, zdolne przyjąć Słowo.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Boga, który jest wierny mimo naszej niewierności, o czym przypomina prorok Jeremiasz.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest źródłem życia i światłości, jak wyznaje psalmista.",
+      "moment": "ogólne"
+    }
+  ]
+}

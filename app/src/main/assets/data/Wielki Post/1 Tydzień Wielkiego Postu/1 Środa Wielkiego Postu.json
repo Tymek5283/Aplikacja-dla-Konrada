@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412872.Sroda-I-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "1 Środa Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jon 3, 1-10",
+      "opis": "Nawrócenie sprowadza miłosierdzie Boże",
+      "tekst": "Pan przemówił do Jonasza po raz drugi tymi słowami: «Wstań, idź do Niniwy, wielkiego miasta, i głoś jej upomnienie, które Ja ci zlecam». Jonasz wstał i poszedł do Niniwy, jak powiedział Pan. Niniwa była miastem bardzo rozległym - na trzy dni drogi. Począł więc Jonasz iść przez miasto jeden dzień drogi i wołał, i głosił: «Jeszcze czterdzieści dni, a Niniwa zostanie zburzona». I uwierzyli mieszkańcy Niniwy Bogu, ogłosili post i przyoblekli się w wory od najstarszego do najmłodszego. Doszła ta sprawa do króla Niniwy. Powstał więc z tronu, zdjął z siebie płaszcz, przyoblókł się w wór i usiadł na popiele. Z rozkazu króla i jego dostojników zarządzono i ogłoszono w Niniwie, co następuje: «Ludzie i zwierzęta, bydło i trzoda niech nic nie jedzą, niech się nie pasą i wody nie piją. Ludzie i zwierzęta niech przyobleką się w wory. Niech żarliwie wołają do Boga! Niechaj każdy odwróci się od swojego złego postępowania i od nieprawości, którą popełnia swoimi rękami. Kto wie, może się zwróci i ulituje Bóg, odstąpi od zapalczywości swego gniewu, i nie zginiemy?» Zobaczył Bóg ich czyny, że odwrócili się od złego postępowania. I ulitował się Bóg nad niedolą, którą postanowił na nich sprowadzić, i nie zesłał jej. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 3-4. 12-13. 18-19 (R.: por. 19b)",
+      "opis": "",
+      "tekst": "Refren: Sercem skruszonym nie pogardzisz, Panie.\nZmiłuj się nade mną, Boże, w łaskawości swojej, *\n\nw ogromie swej litości zgładź moją nieprawość.\n\nObmyj mnie zupełnie z mojej winy *\n\ni oczyść mnie z grzechu mojego.\nRefren.\nStwórz, Boże, we mnie serce czyste *\n\ni odnów we mnie moc ducha.\n\nNie odrzucaj mnie od swego oblicza *\n\ni nie odbieraj mi świętego ducha swego.\nRefren.\nOfiarą bowiem Ty się nie radujesz, *\n\na całopalenia, choćbym dał, nie przyjmiesz.\n\nBoże, moją ofiarą jest duch skruszony, *\n\npokornym i skruszonym sercem Ty, Boże, nie gardzisz.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "",
+      "opis": "Aklamacja: Chwała Tobie, Słowo Boże.",
+      "tekst": "Nawróćcie się do Boga waszego,\n\nOn bowiem jest łaskawy i miłosierny."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 29-32",
+      "opis": "Znak proroka Jonasza: śmierć i zmartwychwstanie",
+      "tekst": "Gdy tłumy się gromadziły, Jezus zaczął mówić: «To plemię jest plemieniem przewrotnym. Żąda znaku, ale żaden znak nie będzie mu dany, prócz znaku Jonasza. Jak bowiem Jonasz stał się znakiem dla mieszkańców Niniwy, tak będzie Syn Człowieczy dla tego plemienia. Królowa z południa powstanie na sądzie przeciw ludziom tego plemienia i potępi ich; ponieważ ona z krańców ziemi przybyła słuchać mądrości Salomona, a oto tu jest coś więcej niż Salomon. Ludzie z Niniwy powstaną na sądzie przeciw temu plemieniu i potępią je; ponieważ oni dzięki nawoływaniu Jonasza się nawrócili, a oto tu jest coś więcej niż Jonasz». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń ta jest bezpośrednim echem wezwania Jonasza i postawy mieszkańców Niniwy z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wzywa do nawrócenia i wiary w Ewangelię, co jest odpowiedzią na znak Jonasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, o której mówią wszystkie czytania dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Oddaje postawę pokutną mieszkańców Niniwy, którzy pościli i przyoblekli się w wory, błagając Boga o litość.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem skruchy i prośby o miłosierdzie, co jest istotą wielkopostnej pokuty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców nawrócenia, takich jak jałmużna i miłosierdzie, które były częścią pokuty Niniwitów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Jest to parafraza Psalmu 51, który jest psalmem responsoryjnym tego dnia, mówiącym o skrusze i prośbie o miłosierdzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Kolejna pieśń oparta na Psalmie 51, podkreślająca prośbę o Boże miłosierdzie, które ocaliło Niniwę.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to modlitwa o oczyszczenie z grzechów, abyśmy mogli z czystym sercem przyjąć Chrystusa, który jest kimś więcej niż Jonasz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Kolejna pieśń oparta na Psalmie 51, podkreślająca prośbę o Boże miłosierdzie, które ocaliło Niniwę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to pieśń uwielbienia za Boże miłosierdzie, które jest większe niż nasze grzechy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "99",
+      "piesn": "Boże, coś przyrzekł",
+      "opis": "Pieśń wyraża wdzięczność za obietnicę przebaczenia, która jest centralnym przesłaniem historii o Niniwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża postawę nawrócenia i powrotu do Ojca, o której mówią wszystkie czytania dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Jako hymn wielkopostny, doskonale pasuje do charakteru dnia i prosi o miłosierdzie, co jest głównym tematem historii o Jonaszu i Niniwie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Pieśń jest modlitwą o przebaczenie i miłosierdzie, które są owocem nawrócenia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Ogólny hymn wielkopostny, który prosi o miłosierdzie, co jest głównym tematem historii o Jonaszu i Niniwie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to modlitwa błagalna, która dobrze oddaje ducha żarliwej modlitwy Niniwitów i postawę, do której wzywa Wielki Post.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie do Boga, który jest miłosierny i gotów przebaczyć, jak ukazuje historia Niniwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania błagalna, która jest wyrazem pokory i prośby o miłosierdzie, co jest zgodne z duchem czytań.",
+      "moment": "ogolne"
+    }
+  ]
+}

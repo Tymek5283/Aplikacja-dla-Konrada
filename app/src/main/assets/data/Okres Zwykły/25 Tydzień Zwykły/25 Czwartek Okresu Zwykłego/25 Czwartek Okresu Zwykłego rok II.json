@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418015.Czwartek-25-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "25 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Koh 1, 2-11",
+      "opis": "Nic nowego pod słońcem",
+      "tekst": "Marność nad marnościami, powiada Kohelet, marność nad marnościami - wszystko jest marnością.\nCóż przyjdzie człowiekowi z całego trudu, jaki zadaje sobie pod słońcem? Pokolenie przychodzi i pokolenie odchodzi, a ziemia trwa po wszystkie czasy. Słońce wschodzi i zachodzi, i na miejsce swoje śpieszy z powrotem, i znowu tam wschodzi. Ku południowi ciągnąc i ku północy zawracając, kolistą drogą wieje wiatr i znowu wraca na drogę swojego krążenia. Wszystkie rzeki płyną do morza, a morze wcale nie wzbiera; do miejsca, do którego rzeki płyną, zdążają one bezustannie.\nKażde mówienie jest wysiłkiem: nie zdoła człowiek wyrazić wszystkiego słowami. Nie nasyci się oko patrzeniem ani ucho napełni słuchaniem. To, co było, jest tym, co będzie, a to, co się stało, jest tym, co znowu się stanie, więc nic zgoła nowego nie ma pod słońcem. Jeśli jest coś, o czym by się rzekło: «Patrz, to coś nowego» - to przecież istniało to już w czasach, które były przed nami. Nie ma pamięci o tych, co żyli dawniej, ani też o tych, co będą kiedyś żyli, nie pozostanie wspomnienie u tych, co będą potem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 90 (89), 3-4. 5-6. 12-13. 14 i 17 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Panie, Ty zawsze byłeś nam ucieczką.\nObracasz w proch człowieka *\ni mówisz: «Wracajcie, synowie ludzcy».\nBo tysiąc lat w Twoich oczach †\njest jak wczorajszy dzień, który minął, *\nalbo straż nocna.\nRefren.\nPorywasz ich, stają się niby sen poranny, *\njak trawa, która rośnie:\nrankiem zielona i kwitnąca, *\nwieczorem więdnie i usycha.\nRefren.\nNaucz nas liczyć dni nasze, *\nbyśmy zdobyli mądrość serca.\nPowróć, Panie, jak długo będziesz zwlekał? *\nBądź litościwy dla sług Twoich!\nRefren.\nNasyć nas o świcie swoją łaską, *\nabyśmy przez wszystkie dni nasze\nmogli się radować i cieszyć.\nDobroć Pana, Boga naszego, niech będzie nad nami †\ni wspieraj pracę rąk naszych, *\ndzieło rąk naszych wspieraj!\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 9, 7-9",
+      "opis": "Herod chce zobaczyć Jezusa",
+      "tekst": "Tetrarcha Herod posłyszał o wszystkich cudach zdziałanych przez Chrystusa i był zaniepokojony. Niektórzy bowiem mówili, że Jan powstał z martwych; inni, że zjawił się Eliasz; jeszcze inni, że któryś z dawnych proroków zmartwychwstał.\nA Herod mówił: «Jana kazałem ściąć. Któż więc jest ten, o którym takie rzeczy słyszę?» I starał się Go zobaczyć.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "94",
+      "piesn": "O człowiecze, wspomnij sobie",
+      "opis": "Pieśń doskonale oddaje myśl przewodnią pierwszego czytania o marności i przemijalności świata.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Treść pieśni jest refleksją nad przemijaniem i pielgrzymim charakterem życia, co jest głównym tematem Księgi Koheleta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń ta, wychwalając Boga Stwórcę, przeciwstawia Jego wieczne dzieła przemijającym sprawom ludzkim z Księgi Koheleta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W obliczu przemijania, pieśń ta jest aktem żalu i zawierzenia Bogu, który jest wieczny.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Ofiarowanie swojego życia Bogu jest jedyną sensowną odpowiedzią na marność świata opisaną przez Koheleta.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Prosta pieśń ofiarowania serca jest wyrazem szukania trwałej wartości w Bogu, a nie w przemijającym świecie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wobec marności świata, pieśń ta stanowi wyznanie wiary w Chrystusa jako jedyną trwałą wartość i odpowiedź na poszukiwania Heroda.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "251",
+      "piesn": "Kłaniam się Tobie",
+      "opis": "Adoracja wiecznego Boga w Eucharystii jest przeciwstawieniem dla 'marności nad marnościami' tego świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę w realną obecność Chrystusa, który jest jedyną prawdą w świecie pełnym marności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą Opatrzność jako jedyny stały punkt w przemijającym świecie, co jest myślą przewodnią psalmu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec poczucia marności i przemijania, pieśń ta jest wyrazem głębokiego zaufania Bogu, który jest wieczną ucieczką.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za Bożą opiekę jest wyrazem mądrości, o którą prosi psalmista w obliczu kruchości życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Boga jest wyrazem mądrości, o którą prosi psalmista w obliczu kruchości ludzkiego życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pragnienie bliskości z Bogiem jest jedyną sensowną drogą w świecie, w którym 'wszystko jest marnością'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest jedyną trwałą drogą, prawdą i życiem w przemijającym świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna jest wyrazem uznania własnej małości wobec wiecznego Boga, co jest echem psalmu i Księgi Koheleta.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "652",
+      "piesn": "U Ciebie, Boże",
+      "opis": "Pieśń wyraża świadomość ludzkiej kruchości i potrzebę Bożego miłosierdzia, co jest zgodne z duchem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Wyraża tęsknotę za Bogiem i pragnienie oglądania Jego chwały, co odzwierciedla postawę Heroda, choć z innej motywacji.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Wobec niepokoju Heroda i poczucia marności, pieśń zaprasza do znalezienia pociechy w Jezusie.",
+      "moment": "ogolne"
+    }
+  ]
+}

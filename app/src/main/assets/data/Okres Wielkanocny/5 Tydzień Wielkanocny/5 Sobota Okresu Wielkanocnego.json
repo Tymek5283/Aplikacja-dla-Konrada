@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413329.Sobota-V-tygodnia-wielkanocnego",
+  "tytul_dnia": "5 Sobota Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 16, 1-10",
+      "opis": "Paweł zabiera z sobą Tymoteusza",
+      "tekst": "Paweł przybył także do Derbe i Listry. Był tam pewien uczeń, imieniem Tymoteusz, syn Żydówki, która przyjęła wiarę, i ojca Greka. Bracia z Listry i Ikonium dawali o nim dobre świadectwo. Paweł postanowił zabrać go z sobą w podróż. Obrzezał go jednak ze względu na Żydów, którzy mieszkali w tamtejszych stronach. Wszyscy bowiem wiedzieli, że ojciec jego był Grekiem. Kiedy przechodzili przez miasta, nakazywali im przestrzegać postanowień powziętych przez apostołów i starszych w Jerozolimie. Tak więc utwierdzały się Kościoły w wierze i z dnia na dzień rosły w liczbę.\nPrzeszli Frygię i krainę galacką, ponieważ Duch Święty zabronił im głosić słowo w Azji. Przybywszy do Myzji, próbowali udać się do Bitynii, ale Duch Jezusa nie pozwolił im, przeszli więc Myzję i zeszli do Troady. W nocy miał Paweł widzenie: jakiś Macedończyk stanął przed nim i błagał go: «Przepraw się do Macedonii i pomóż nam!» Zaraz po tym widzeniu staraliśmy się wyruszyć do Macedonii, w przekonaniu, że Bóg nas wezwał, abyśmy głosili im Ewangelię.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech cała ziemia śpiewa swemu Panu.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsłonki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Kol 3, 1",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze,\ngdzie przebywa Chrystus, zasiadający po prawicy Boga."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 18-21",
+      "opis": "Nie jesteście ze świata, bo Ja was wybrałem",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeżeli was świat nienawidzi, wiedzcie, że Mnie wpierw znienawidził. Gdybyście byli ze świata, świat by was kochał jako swoją własność. Ale ponieważ nie jesteście ze świata, bo Ja was wybrałem sobie ze świata, dlatego was świat nienawidzi.\nPamiętajcie o słowie, które do was powiedziałem: „Sługa nie jest większy od swego pana”. Jeżeli Mnie prześladowali, to i was będą prześladować. Jeżeli moje słowo zachowali, to i wasze będą zachowywać. Ale to wszystko wam będą czynić z powodu mego imienia, bo nie znają Tego, który Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wzywając całą ziemię do radosnego śpiewu na cześć Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia światu Zmartwychwstałego, dla którego imienia uczniowie znoszą prześladowania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest udziałem wierzących, wybranych przez Chrystusa ze świata.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nawiązuje do misyjnej podróży Pawła, który posłuszny wezwaniu Bożemu, głosił Ewangelię w Macedonii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze trudy misyjne, na wzór św. Pawła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, źródle naszej misji.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Wiara w zwycięstwo Chrystusa jest źródłem siły w prześladowaniach, o których Jezus mówi w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem umacniającym nas w trudach i prześladowaniach.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który jest naszą siłą, gdy świat nas nienawidzi.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to hymn uwielbienia dla Chrystusa, dla którego imienia apostołowie znoszą prześladowania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący zwycięstwo Zmartwychwstałego Pana, który daje nam udział w swoim zwycięstwie nad światem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i wierność, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wyraża nadzieję płynącą ze Zmartwychwstania, która pozwala przetrwać nienawiść świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii, która spotyka się ze sprzeciwem świata.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, nawet jeśli świat będzie ich prześladował.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Głosi królewską chwałę Chrystusa, któremu służymy, nawet gdy świat nas prześladuje.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w żywego Pana, posyłającego swoich uczniów na misję.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Podkreśla prawdę o Zmartwychwstaniu, która jest źródłem naszej odwagi w obliczu nienawiści świata.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który z dnia na dzień rośnie w liczbę, jak mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

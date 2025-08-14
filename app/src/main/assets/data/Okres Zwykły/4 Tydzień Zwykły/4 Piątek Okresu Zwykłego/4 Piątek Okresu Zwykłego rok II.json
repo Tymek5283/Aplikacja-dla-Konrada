@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415541.Piatek-IV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "4 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 47, 2-11",
+      "opis": "Pochwała Dawida",
+      "tekst": "Jak tłuszcz oddzielony jest od ofiar dziękczynnych, tak Dawid - od synów Izraela.\nZ lwami igrał jakby z koźlętami i z niedźwiedziami jak z jagniętami owiec. Czyż w młodości swej nie zabił olbrzyma i nie usunął hańby ludu, gdy podniósł rękę i kamieniem z procy obalił pychę Goliata? Wezwał bowiem Pana Najwyższego, który dał prawicy jego siłę, by zgładzić człowieka potężnego w boju, by wywyższyć moc swego ludu. Tak wysławiano go po dziesięć tysięcy razy i wychwalano z powodu błogosławieństw Pana, niosąc mu w darze koronę chwały.\nAlbowiem nieprzyjaciół dokoła wytracił, zniweczył wrogich Filistynów i złamał ich moc aż do dnia dzisiejszego. Każdym swym czynem oddał chwałę Świętemu i Najwyższemu, słowem uwielbienia z całego serca śpiewał hymny i umiłował Tego, który go stworzył. Postawił przed ołtarzem śpiewających psalmy, i słodki był dźwięk ich pieśni; świętom nadał przepych i dodał doskonałego blasku uroczystościom, aby wychwalano święte imię Pana i by przybytek już od rana rozbrzmiewał echem.\nPan darował mu grzechy, moc jego wywyższył na wieki, zawarł z nim przymierze królewskie i dał tron chwały w Izraelu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 18 (17), 31 i 47 i 50. 51",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Bóg mój i Zbawiciel.\nDroga Boża jest nieskalana, *\nsłowo Pana wypróbowane w ogniu.\nOn tarczą dla wszystkich, *\nktórzy chronią się u Niego.\nRefren.\nNiech żyje Pan, niech będzie błogosławiona moja Opoka, *\nniech będzie wywyższony mój Bóg i Zbawca.\nPrzeto będę Cię, Panie, chwalił wśród narodów *\ni pieśnią wysławiał Twoje imię.\nRefren.\nTy dałeś wielkie zwycięstwo królowi *\ni łaską obdarzyłeś Dawida,\nTwego pomazańca, *\ni jego potomstwo na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 8, 15",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy w sercu dobrym i szlachetnym zatrzymują słowo Boże\ni wydają owoc dzięki swojej wytrwałości."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 14-29",
+      "opis": "Śmierć Jana Chrzciciela",
+      "tekst": "Król Herod posłyszał o Jezusie, gdyż Jego imię nabrało rozgłosu, i mówił: «Jan Chrzciciel powstał z martwych i dlatego moce cudotwórcze działają w nim». Inni zaś mówili: «To jest Eliasz»; jeszcze inni utrzymywali, że to prorok, jak jeden z dawnych proroków. Herod, słysząc to, mawiał: «To Jan, którego ściąć kazałem, zmartwychwstał».\nTen bowiem Herod kazał pochwycić Jana i związanego trzymał w więzieniu z powodu Herodiady, żony brata swego, Filipa, którą wziął za żonę. Jan bowiem napominał Heroda: «Nie wolno ci mieć żony twego brata». A Herodiada zawzięła się na niego i chciała go zgładzić, lecz nie mogła. Herod bowiem czuł lęk przed Janem, widząc, że jest mężem prawym i świętym, i brał go w obronę. Ilekroć go posłyszał, odczuwał duży niepokój, a jednak chętnie go słuchał.\nOtóż chwila sposobna nadeszła, kiedy Herod w dzień swoich urodzin wyprawił ucztę swym dostojnikom, dowódcom wojskowym i osobistościom w Galilei. Gdy córka tej Herodiady weszła i tańczyła, spodobała się Herodowi i współbiesiadnikom. Król rzekł do dziewczyny: «Proś mnie, o co chcesz, a dam ci». Nawet jej przysiągł: «Dam ci, o co tylko poprosisz, nawet połowę mojego królestwa». Ona wyszła i zapytała swą matkę: «O co mam prosić?» Ta odpowiedziała: «O głowę Jana Chrzciciela». Natychmiast podeszła z pośpiechem do króla i poprosiła: «Chcę, żebyś mi zaraz dał na misie głowę Jana Chrzciciela». A król bardzo się zasmucił, ale przez wzgląd na przysięgę i na biesiadników nie chciał jej odmówić. Zaraz też król posłał kata i polecił przynieść głowę Jana. Ten poszedł, ściął go w więzieniu i przyniósł głowę jego na misie; dał ją dziewczynie, a dziewczyna dała swej matce.\nUczniowie Jana, dowiedziawszy się o tym, przyszli, zabrali jego ciało i złożyli je w grobie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń ta mówi o zaufaniu Bogu, który jest tarczą i opoką, jak głosi psalm, i który dał zwycięstwo Dawidowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest jedyną nadzieją w obliczu ludzkiej niegodziwości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to wołanie o Bożą pomoc i obronę, aktualne zarówno w kontekście męczeństwa Jana, jak i wierności Dawida.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu życia w wierności, na wzór Jana Chrzciciela, który oddał życie za prawdę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, naśladując wierność Jana Chrzciciela aż do śmierci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę całkowitego oddania się Bogu, na wzór Dawida i Jana Chrzciciela.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary, która daje siłę do wytrwania w prześladowaniach, jakich doświadczył Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który jest źródłem siły do dawania świadectwa prawdzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Adoracja Chrystusa w Eucharystii jest źródłem siły do naśladowania świętych, jak Jan Chrzciciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "510",
+      "piesn": "Zamilkły usta proroka",
+      "opis": "Pieśń ta bezpośrednio opowiada o męczeńskiej śmierci św. Jana Chrzciciela, opisanej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "475",
+      "piesn": "Zwiastun wschodzącego Słońca",
+      "opis": "Jest to hymn na cześć Jana Chrzciciela, który swoim życiem i śmiercią dał świadectwo Prawdzie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę, o której mówi psalmista, i za dar świadectwa męczenników.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Go szukają, nawet w obliczu śmierci, jak Jan Chrzciciel.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o prowadzenie drogą wierności, na wzór Jana Chrzciciela.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Chrystusa, naśladując wiarę tych, którzy nas poprzedzili.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która jest źródłem siły i pociechy w cierpieniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą Opatrzność, która jest jedyną nadzieją w obliczu ludzkiej niegodziwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu, które jest niezbędne w obliczu prześladowań i niesprawiedliwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje odwagi w obliczu trudności, przypominając, że Pan jest naszą mocą i tarczą.",
+      "moment": "ogolne"
+    }
+  ]
+}

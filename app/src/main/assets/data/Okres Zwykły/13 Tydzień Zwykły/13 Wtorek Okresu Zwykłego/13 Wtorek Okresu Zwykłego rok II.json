@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426607.Wtorek-XIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "13 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 3, 1-8; 4, 11-12",
+      "opis": "Proroctwo przeciw królestwu Izraela",
+      "tekst": "«Słuchajcie tego słowa, które mówi Pan do was, synowie Izraela, do całego pokolenia, które Ja wyprowadziłem z ziemi egipskiej: Jedynie was znałem ze wszystkich narodów na ziemi, dlatego was nawiedzę karą za wszystkie wasze winy.\nCzyż wędruje dwu razem, jeśli się wzajem nie znają? Czyż ryczy lew w lesie, nie mając zdobyczy? Czyż lwiątko wydaje głos ze swego legowiska, jeśli niczego nie schwytało? Czyż spada ptak na ziemię, jeśli nie było zastawionego sidła? Czyż się unosi pułapka nad ziemią, zanim coś schwytała? Czyż dmie się w trąbę w mieście, a lud nie zadrży? Czyż zdarza się w mieście nieszczęście, by Pan tego nie sprawił? Bo Pan Bóg nie uczyni niczego, nie objawiwszy swej tajemnicy sługom swym, prorokom. Gdy lew zaryczy, któż się nie ulęknie? Gdy Pan Bóg przemówi, któż nie będzie prorokować?\nSpustoszyłem was, jak podczas Bożego spustoszenia Sodomy i Gomory; staliście się jak głownia wyciągnięta z ognia; ale do Mnie nie powróciliście - mówi Pan. Dlatego tak uczynię tobie, Izraelu, a ponieważ tak ci uczynię, przygotuj się, by stawić się przed Bogiem twym, Izraelu!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 5, 5-6a. 6b-7. 8 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Prowadź mnie, Panie, w swej sprawiedliwości.\nTy nie jesteś Bogiem, *\nktóremu miła nieprawość,\nzły nie może przebywać u Ciebie, *\nnie ostoją się przed Tobą nieprawi.\nRefren.\nNienawidzisz wszystkich, *\nktórzy zło czynią.\nZgubę zsyłasz na każdego, kto kłamie. *\nPan brzydzi się człowiekiem podstępnym i krwawym.\nRefren.\nJa zaś dzięki obfitości Twojej łaski *\nwejdę do Twojego domu,\nupadnę przed świętym przybytkiem Twoim, *\nprzejęty Twą bojaźnią.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ps 130 (129), 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Pokładam nadzieję w Panu,\nufam Jego słowu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 23-27",
+      "opis": "Uciszenie burzy na jeziorze",
+      "tekst": "Gdy Jezus wszedł do łodzi, poszli za Nim Jego uczniowie. A oto zerwała się wielka burza na jeziorze, tak że fale zalewały łódź; On zaś spał. Wtedy przystąpili do Niego i obudzili Go, mówiąc: «Panie, ratuj, giniemy!»\nA On im rzekł: «Czemu bojaźliwi jesteście, ludzie małej wiary?» Potem, powstawszy, zgromił wichry i jezioro, i nastała głęboka cisza.\nA ludzie pytali zdumieni: «Kimże On jest, że nawet wichry i jezioro są Mu posłuszne?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, którego zabrakło uczniom w łodzi, a do którego wzywa prorok w obliczu kary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga, który panuje nad żywiołami i jest naszą jedyną nadzieją w trudnościach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wobec lęku uczniów na jeziorze, pieśń ta jest wyznaniem wiary w Bożą Opatrzność, która czuwa nad nami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Wobec zapowiedzi kary za grzechy z pierwszego czytania, ta pieśń pokutna jest prośbą o miłosierdzie i ocalenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec groźby sądu, o której mówi prorok Amos, prosimy o Boże miłosierdzie i oczyszczenie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "W obliczu Bożej sprawiedliwości, przyjmujemy postawę pokory i błagania o łaskę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Wyraża postawę bojaźni i wiary wobec Jezusa, który ucisza burzę i objawia swoją boską moc.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w moc Chrystusa, której doświadczyli uczniowie na jeziorze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Postawa pokory i wiary jest odpowiedzią na objawienie się mocy Jezusa, Pana natury.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który jest sprawiedliwy, ale i pełen łaski, jak wyznaje psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń wzywa do głoszenia chwały Pana, który panuje nad wiatrem i morzem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Wielbimy Boga, którego wielkość objawia się w potędze natury, posłusznej Jego słowu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń głosi panowanie Chrystusa nad żywiołami i całym stworzeniem, co objawiło się w uciszeniu burzy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Po doświadczeniu mocy Jezusa, wychodzimy w świat, by głosić Jego królowanie nad wszelkim lękiem i zwątpieniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi, który jest naszą siłą w życiowych burzach.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Jest to pieśń o zaufaniu, które jest odpowiedzią na pytanie Jezusa: 'Czemu bojaźliwi jesteście, ludzie małej wiary?'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wobec groźby sądu, o której mówi prorok Amos, ta pieśń pokutna prosi o Boże prowadzenie i sprawiedliwość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, które jest lekarstwem na lęk i małą wiarę uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "W życiowych burzach pragniemy być blisko Jezusa, który jest naszym ratunkiem i pokojem.",
+      "moment": "ogolne"
+    }
+  ]
+}

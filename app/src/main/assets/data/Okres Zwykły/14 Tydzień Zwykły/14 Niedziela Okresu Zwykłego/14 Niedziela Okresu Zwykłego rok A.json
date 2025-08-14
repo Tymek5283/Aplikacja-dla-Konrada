@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/426657.Niedziela-rok-A",
+  "tytul_dnia": "14 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Za 9, 9-10",
+      "opis": "Król pokoju",
+      "tekst": "Tak mówi Pan:\n«Raduj się wielce, Córo Syjonu, wołaj radośnie, Córo Jeruzalem! Oto Król twój idzie do ciebie, sprawiedliwy i zwycięski. Pokorny - jedzie na osiołku, na oślątku, źrebięciu oślicy. On usunie rydwany z Efraima, a konie z Jeruzalem; łuk wojenny zostanie złamany. Pokój ludom obwieści. Jego władztwo sięgać będzie od morza do morza, od brzegów Rzeki aż po krańce ziemi».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 1b-2. 8-9. 10-11. 13-14 (R.: 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Będę Cię wielbił, Boże mój i Królu.\nBędę Cię wielbił, Boże mój i Królu, *\ni sławił Twoje imię przez wszystkie wieki.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nRefren.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nNiech Cię wielbią, Panie, wszystkie Twoje dzieła *\ni niech Cię błogosławią Twoi wyznawcy.\nNiech mówią o chwale Twojego królestwa *\ni niech głoszą Twoją potęgę.\nRefren.\nKrólestwo Twoje królestwem wszystkich wieków, *\nprzez wszystkie pokolenia Twoje panowanie.\nPan podtrzymuje wszystkich, którzy upadają, *\ni podnosi wszystkich zgnębionych.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Rz 8, 9. 11-13",
+      "opis": "Jeżeli będziecie uśmiercać popędy ciała, będziecie żyli",
+      "tekst": "Bracia:\nWy nie żyjecie według ciała, lecz według Ducha, jeśli tylko Duch Boży w was mieszka.\nJeżeli zaś ktoś nie ma Ducha Chrystusowego, ten do Niego nie należy. A jeżeli mieszka w was Duch Tego, który Jezusa wskrzesił z martwych, to Ten, co wskrzesił Chrystusa Jezusa z martwych, przywróci do życia wasze śmiertelne ciała mocą mieszkającego w was swego Ducha.\nJesteśmy więc, bracia, dłużnikami, ale nie ciała, byśmy żyć mieli według ciała. Bo jeżeli będziecie żyli według ciała, czeka was śmierć. Jeżeli zaś przy pomocy Ducha zadawać będziecie śmierć popędom ciała - będziecie żyli.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 11, 25-30",
+      "opis": "Jezus cichy i pokornego serca",
+      "tekst": "W owym czasie Jezus przemówił tymi słowami:\n«Wysławiam Cię, Ojcze, Panie nieba i ziemi, że zakryłeś te  rzeczy przed mądrymi i roztropnymi, a objawiłeś je prostaczkom. Tak, Ojcze, gdyż takie było Twoje upodobanie.\nWszystko przekazał Mi Ojciec mój. Nikt też nie zna Syna, tylko Ojciec, ani Ojca nikt nie zna, tylko Syn i ten, komu Syn zechce objawić.\nPrzyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście, a Ja was pokrzepię. Weźcie na siebie moje jarzmo i uczcie się ode Mnie, bo jestem cichy i pokornego serca, a znajdziecie ukojenie dla dusz waszych. Albowiem słodkie jest moje jarzmo, a moje brzemię lekkie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń ta doskonale wpisuje się w tematykę królewską, obecną w pierwszym czytaniu i psalmie, które mówią o przyjściu pokornego Króla.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń o Chrystusie Królu, który niesie krzyż, nawiązuje do pierwszego czytania o pokornym Królu wjeżdżającym do Jerozolimy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Tematyka królewska pieśni i wezwanie 'Chryste, króluj!' doskonale korespondują z pierwszym czytaniem i psalmem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń o charakterze ofiarnym jest wyrazem dziękczynienia za łaski, co koresponduje z dziękczynieniem Jezusa Ojcu w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń o charakterze eucharystycznym, której zwrotka na przygotowanie darów jest modlitwą o przyjęcie ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Jest to klasyczna pieśń na ofiarowanie, w której prosimy Boga o przyjęcie darów chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Tekst pieśni eucharystycznej jest bezpośrednim nawiązaniem do słów Jezusa z Ewangelii, zapraszającego do siebie utrudzonych i obciążonych.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Ta pieśń eucharystyczna podkreśla miłość Jezusa, który daje siebie jako pokarm dający pokrzepienie i życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, co jest odpowiedzią na Jego zaproszenie z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to hymn uwielbienia, który dobrze oddaje nastrój dziękczynienia i wysławiania Boga obecny w psalmie i Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń dziękczynna jest odpowiedzią na zaproszenie Jezusa z Ewangelii, by przyjąć Jego jarzmo i znaleźć ukojenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana, co jest echem psalmu responsoryjnego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń na rozesłanie podkreśla jedność wiernych w Chrystusie, który jest cichy i pokornego serca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Po znalezieniu ukojenia w Chrystusie, jesteśmy posłani, by głosić Ewangelię o Jego królestwie pokoju.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'znojny trud' jest odpowiednia po usłyszeniu Ewangelii o pokrzepieniu utrudzonych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża ufność w Bożą opiekę, co jest odpowiedzią na zaproszenie Jezusa, by w Nim znaleźć ukojenie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "287",
+      "piesn": "Jezu dobry i cichy",
+      "opis": "Pieśń bezpośrednio odnosi się do słów Ewangelii, w której Jezus mówi o sobie: 'jestem cichy i pokornego serca'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Jezus, cichy i pokorny Król, jest Dobrym Pasterzem, który prowadzi do pokoju i daje odpoczynek.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest bezpośrednim powtórzeniem i rozwinięciem ewangelicznego zaproszenia Jezusa do utrudzonych i obciążonych.",
+      "moment": "ogolne"
+    }
+  ]
+}

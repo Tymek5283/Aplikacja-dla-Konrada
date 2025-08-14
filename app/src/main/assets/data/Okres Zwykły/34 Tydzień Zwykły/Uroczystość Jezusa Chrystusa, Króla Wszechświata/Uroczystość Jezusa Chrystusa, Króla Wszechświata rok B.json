@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414001.34-Niedziela-zwykla-Rok-B-Chrystusa-Krola",
+  "tytul_dnia": "Uroczystość Jezusa Chrystusa, Króla Wszechświata rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dn 7, 13-14",
+      "opis": "Królestwo Syna Człowieczego",
+      "tekst": "Patrzyłem w nocnych widzeniach: a oto na obłokach nieba przybywa jakby Syn Człowieczy. Podchodzi do Przedwiecznego i wprowadzają Go przed Niego. Powierzono Mu panowanie, chwałę i władzę królewską, a służyły Mu wszystkie narody, ludy i języki. Panowanie Jego jest wiecznym panowaniem, które nie przeminie, a Jego królestwo nie ulegnie zagładzie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 93 (92), 1. 2 i 5 (R.: por. 1a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg króluje, pełen majestatu.\nPan króluje, oblókł się w majestat, *\nPan wdział potęgę i nią się przepasał.\nTak świat utwierdził, *\nże się nie zachwieje.\nRefren.\nTwój tron niewzruszony na wieki, *\nistniejesz od wieków, Boże.\nŚwiadectwa Twoje bardzo godne są wiary; †\nTwojemu domowi świętość przystoi *\npo wszystkie dni, o Panie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ap 1, 5-8",
+      "opis": "Chrystus jest władcą królów ziemi",
+      "tekst": "Jezus Chrystus jest Świadkiem Wiernym, Pierworodnym wśród umarłych i Władcą królów ziemi. Temu, który nas miłuje i który przez swą krew uwolnił nas od naszych grzechów, i uczynił nas królestwem - kapłanami dla Boga i Ojca swojego, Jemu chwała i moc na wieki wieków! Amen.\nOto nadchodzi z obłokami i ujrzy Go wszelkie oko i wszyscy, którzy Go przebili. I będą Go opłakiwać wszystkie pokolenia ziemi. Tak: Amen.\nJa jestem Alfa i Omega, mówi Pan Bóg, Który jest, Który był i Który przychodzi, Wszechmogący.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mk 11, 9c. 10a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławiony, który przybywa w imię Pańskie.\nBłogosławione Jego królestwo, które nadchodzi."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 18, 33b-37",
+      "opis": "Królestwo Chrystusa nie jest z tego świata",
+      "tekst": "Piłat powiedział do Jezusa: «Czy Ty jesteś Królem żydowskim?»\nJezus odpowiedział: «Czy to mówisz od siebie, czy też inni powiedzieli ci o Mnie?»\nPiłat odparł: «Czy ja jestem Żydem? Naród Twój i arcykapłani wydali mi Ciebie. Co uczyniłeś?»\nOdpowiedział Jezus: «Królestwo moje nie jest z tego świata. Gdyby królestwo moje było z tego świata, słudzy moi biliby się, abym nie został wydany Żydom. Teraz zaś królestwo moje nie jest stąd».\nPiłat zatem powiedział do Niego: «A więc jesteś królem?»\nOdpowiedział Jezus: «Tak, jestem królem. Ja się na to narodziłem i na to przyszedłem na świat, aby dać świadectwo prawdzie. Każdy, kto jest z prawdy, słucha mojego głosu».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń jest aklamacją na cześć Chrystusa Króla, co doskonale wprowadza w charakter uroczystości, której czytania mówią o Jego wiecznym panowaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Hymn ten jest bezpośrednim zwrotem do Chrystusa Króla, prosząc Go o panowanie nad nami.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "314",
+      "piesn": "Królu wszechwładny",
+      "opis": "Majestatyczna pieśń, która oddaje cześć Chrystusowi jako Królowi i Panu, idealna na rozpoczęcie uroczystej liturgii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "W tej pieśni prosimy Chrystusa Króla, by władał naszymi sercami, ofiarując Mu nasze życie jako odpowiedź na Jego świadectwo prawdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Klasyczna pieśń ofiarna, w której oddajemy cześć wiecznemu Panu, naszemu Królowi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa, składaną wraz z darami chleba i wina.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "313",
+      "piesn": "Jezu, Królu najwdzięczniejszy",
+      "opis": "Pieśń jest aktem miłości i oddania Chrystusowi Królowi, którego panowanie, choć 'nie z tego świata', dotyka serc wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem naszej wiary w Chrystusa Króla, który przyszedł dać świadectwo prawdzie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus Król staje się dla nas pokarmem, abyśmy mieli siłę należeć do Jego królestwa, które nie jest z tego świata.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn ten jest wyrazem uwielbienia i dziękczynienia za królowanie Chrystusa, który jest 'Władcą królów ziemi', jak mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Potężny hymn chwały na cześć Króla wszechmocy, którego panowanie jest wieczne.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który króluje pełen majestatu, jak głosi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Pieśń ta jest aktem zawierzenia Chrystusowi Królowi, prosząc Go o prowadzenie do Jego królestwa, które nie przeminie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by dawać świadectwo prawdzie, tak jak Chrystus, nasz Król, dawał świadectwo przed Piłatem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi Królowi i gotowości do obrony Jego królestwa prawdy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń łączy królowanie Chrystusa z Jego miłością, która uwolniła nas od grzechów, o czym przypomina drugie czytanie z Apokalipsy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń o charakterze programowym, w której wierni deklarują swoje poddanie się królowaniu Chrystusa, o którym On sam świadczy przed Piłatem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "310",
+      "piesn": "Chrystus Pan, wczoraj i dziś",
+      "opis": "Hymn podkreślający wieczne panowanie Chrystusa, co jest główną myślą dzisiejszej uroczystości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Drugie czytanie mówi, że Chrystus uczynił nas królestwem i kapłanami, a ta pieśń jest hymnem na cześć tego powołania.",
+      "moment": "ogolne"
+    }
+  ]
+}

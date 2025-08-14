@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415674.Sroda-29-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "29 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Rz 6, 12-18",
+      "opis": "Chrześcijanin jest sługą sprawiedliwości stroniącym od niewoli grzechu",
+      "tekst": "Bracia:\nNiech grzech nie króluje w waszym śmiertelnym ciele, poddając was swoim pożądliwościom. Nie oddawajcie też członków waszych jako broni nieprawości na służbę grzechowi, ale oddajcie się na służbę Bogu jako ci, którzy ze śmierci przeszli do życia, i członki wasze oddajcie jako broń sprawiedliwości na służbę Bogu. Albowiem grzech nie powinien nad wami panować, skoro nie jesteście poddani Prawu, lecz łasce.\nJaki stąd wniosek? Czy mamy dalej grzeszyć, dlatego że nie jesteśmy już poddani Prawu, lecz łasce? Żadną miarą! Czyż nie wiecie, że jeśli wydajecie samych siebie jako niewolników na posłuszeństwo, jesteście niewolnikami tego, komu jesteście posłuszni: bądź niewolnikami grzechu, co wiedzie do śmierci, bądź posłuszeństwa, co wiedzie do sprawiedliwości?\nDzięki jednak niech będą Bogu za to, że gdy byliście niewolnikami grzechu, daliście z serca posłuch nakazom tego nauczania, któremu was poddano, a uwolnieni od grzechu oddaliście się w niewolę sprawiedliwości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 124 (123), 1b-3. 4-6. 7-8 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Naszą pomocą jest Zbawiciel świata.\nGdyby Pan nie był po naszej stronie, przyznaj, Izraelu, †\ngdyby Pan nie był po naszej stronie, *\ngdy ludzie przeciw nam powstali,\nwtedy żywcem by nas pochłonęli, *\nkiedy gniew ich przeciw nam zapłonął.\nRefren.\nWówczas zatopiłaby nas woda, †\npotok by popłynął nad nami, *\nwówczas potoczyłyby się nad nami wezbrane wody.\nBłogosławiony Pan, który nas nie wydał *\nna pastwę ich zębom.\nRefren.\nDusza nasza jak ptak się wyrwała z sideł ptaszników, *\nsidło się podarło, i zostaliśmy uwolnieni.\nNasza pomoc w imieniu Pana, *\nktóry stworzył niebo i ziemię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 24, 42a. 44",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i bądźcie gotowi,\nbo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 39-48",
+      "opis": "Przypowieść o słudze oczekującym Pana",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«To rozumiejcie, że gdyby gospodarz wiedział, o której godzinie przyjść ma złodziej, nie pozwoliłby włamać się do swego domu. Wy też bądźcie gotowi, gdyż o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie».\nWtedy Piotr zapytał: «Panie, czy do nas mówisz tę przypowieść, czy też do wszystkich?»\nPan odpowiedział: «Któż jest owym rządcą wiernym i roztropnym, którego pan ustanowi nad swoją służbą, żeby rozdawał jej żywność we właściwej porze? Szczęśliwy ten sługa, którego pan, powróciwszy, zastanie przy tej czynności. Prawdziwie powiadam wam: Postawi go nad całym swoim mieniem. Lecz jeśli sługa ów powie sobie w sercu: Mój pan się ociąga z powrotem, i zacznie bić sługi i służące, a przy tym jeść, pić i upijać się, to nadejdzie pan tego sługi w dniu, kiedy się nie spodziewa, i o godzinie, której nie zna; surowo go ukarze i wyznaczy mu miejsce z niewiernymi.\nÓw sługa, który poznał wolę swego pana, a nic nie przygotował i nie uczynił zgodnie z jego wolą, otrzyma wielką chłostę. Ten zaś, który nie poznał jego woli, a uczynił coś godnego kary, otrzyma małą chłostę. Komu wiele dano, od tego wiele wymagać się będzie; a komu wiele powierzono, tym więcej od niego żądać będą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do oddania pokłonu Bogu, co jest postawą wiernego sługi z Ewangelii, oczekującego na powrót pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć jest to pieśń adwentowa, jej refren 'Gotujmy drogę Panu' doskonale pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna, która wyraża gotowość i czuwanie na przyjście Pana od samego początku dnia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pierwsze czytanie wzywa do oddania się na służbę Bogu. Ta pieśń jest aktem ofiarowania Mu całego siebie w tej służbie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Wobec wezwania do czuwania i wierności, ta pieśń jest aktem ofiarowania i prośbą o błogosławieństwo na trud służby.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu naszą gotowość do służby, prosząc, by nas umocnił w oczekiwaniu na Jego przyjście.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary i zaufania Panu, co jest postawą wiernego sługi z przypowieści, czuwającego na przyjście Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i gotowość na przyjęcie Pana w Komunii, co jest zapowiedzią Jego ostatecznego przyjścia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii jest pokarmem dla tych, którzy wiernie na Niego oczekują.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za wyzwolenie z grzechu, o którym pisze św. Paweł, i za dar służby Bogu w oczekiwaniu na Jego przyjście.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i wyzwolenie, o których mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń uwielbienia za dar Eucharystii, która umacnia nas w czuwaniu i wiernej służbie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna, wzywająca do czuwania, jest doskonałym posłaniem na zakończenie Mszy, w której słyszymy 'Wy też bądźcie gotowi'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a wierność Jemu jest najlepszym przygotowaniem na Jego przyjście.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wierna służba, o której mówi Ewangelia, polega również na głoszeniu Dobrej Nowiny, do czego wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą pomoc, o której mówi psalmista: 'Naszą pomocą jest Zbawiciel świata'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ewangelia wzywa do wierności. Ta pieśń jest prośbą o umocnienie wiary, która jest podstawą tej wierności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Litania ta jest wołaniem o miłosierdzie, które jest potrzebne każdemu słudze, aby mógł wiernie wypełniać wolę Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Wierna służba polega na wydawaniu dobrych owoców, do czego wzywa ta pieśń.",
+      "moment": "ogolne"
+    }
+  ]
+}

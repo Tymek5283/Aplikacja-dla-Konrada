@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411041.Sobota-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 9, 1-3. 11-14",
+      "opis": "Liturgia Starego Przymierza obrazem Odkupienia",
+      "tekst": "Bracia:\n\nPierwsze przymierze zawierało przepisy służby Bożej i posiadało ziemski przybytek. Był to namiot, w którego pierwszej części, zwanej Miejscem Świętym, znajdował się świecznik, stół i na nim chleby pokładne. Za drugą zaś zasłoną był przybytek, który nosił nazwę «Święte Świętych». Ale Chrystus, zjawiwszy się jako arcykapłan dóbr przyszłych, przez wyższy i doskonalszy, i nie ręką - to jest nie na tym świecie - uczyniony przybytek, ani nie przez krew kozłów i cielców, lecz przez własną krew wszedł raz na zawsze do Miejsca Świętego i osiągnął wieczne odkupienie. Jeśli bowiem krew kozłów i cielców oraz popiół z krowy, którymi skrapia się zanieczyszczonych, sprawiają oczyszczenie ciała, to o ile bardziej krew Chrystusa, który przez Ducha wiecznego złożył Bogu samego siebie jako nieskalaną ofiarę, oczyści wasze sumienia z martwych uczynków, abyście służyć mogli Bogu żywemu. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 47 (46), 2-3. 6-7. 8-9 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Pan wśród radości wstępuje do nieba.\nWszystkie narody, klaskajcie w dłonie, *\n\nradosnym głosem wykrzykujcie Bogu,\n\nbo Pan Najwyższy i straszliwy, *\n\njest wielkim Królem nad całą ziemią.\nRefren.\nBóg wstępuje wśród radosnych okrzyków, *\n\nPan wstępuje przy dźwięku trąby.\n\nŚpiewajcie psalmy Bogu, śpiewajcie, *\n\nśpiewajcie Królowi naszemu, śpiewajcie.\nRefren.\nGdyż Bóg jest Królem całej ziemi, *\n\nhymn zaśpiewajcie!\n\nBóg króluje nad narodami, *\n\nBóg zasiada na swym świętym tronie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\n\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 20-21",
+      "opis": "Rodzina niepokoi się o Jezusa",
+      "tekst": "Jezus przyszedł do domu, a tłum znów się zbierał, tak że nawet posilić się nie mogli. Gdy to posłyszeli Jego bliscy, wybrali się, żeby Go powstrzymać. Mówiono bowiem: «Odszedł od zmysłów». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest radosnym wezwaniem do uwielbienia Pana, który króluje nad narodami, co jest głównym tematem psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Króla wszechmocy, co jest odpowiedzią na psalm responsoryjny.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to hymn pochwalny na cześć Pana, którego wielkość i królowanie podkreśla dzisiejszy psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do Chrystusa Arcykapłana, który przez swoją Krew uczynił nas ludem kapłańskim, zdolnym składać ofiarę Bogu żywemu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń o ofierze Chrystusa, która oczyszcza nasze sumienia, o czym mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Jest to pieśń o kapłaństwie Chrystusa, który złożył siebie jako nieskalaną ofiarę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja eucharystyczna, która sławi ofiarę Chrystusa, doskonalszą od ofiar Starego Przymierza, o których mówi pierwsze czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń adoruje Eucharystię, w której przyjmujemy Krew Chrystusa, która oczyszcza nasze sumienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Jest to akt adoracji Przenajświętszego Ciała i Krwi, przez które osiągnęliśmy wieczne odkupienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń uwielbia Chrystusa Króla, który zasiada na swym świętym tronie, jak opiewa to psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Jest to aklamacja na cześć Chrystusa Króla, którego panowanie jest wieczne.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "316",
+      "piesn": "Na Twojej, Chryste",
+      "opis": "Hymn do Chrystusa Króla, któremu śpiewają wszystkie narody, jak wzywa psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec niezrozumienia Jezusa przez bliskich, ta pieśń jest wyznaniem wiary w Niego jako jedyną drogę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to pieśń-deklaracja wierności Chrystusowi, nawet gdy świat Go nie rozumie i odrzuca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "W sobotę zwracamy się do Maryi, która najlepiej rozumiała swojego Syna i była Mu wierna aż po krzyż.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Nawiązuje do kapłaństwa Chrystusa i kapłaństwa służebnego, przez które uobecnia się Jego jedyna ofiara.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Chrystus, Arcykapłan Nowego Przymierza, jest naszą nadzieją na wieczne odkupienie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Jezusa, którego bliscy uznali za szalonego, ale który jest naszym Panem i Zbawicielem.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do przyjęcia Jezusa, którego odrzucili Jego bliscy, ale który jest źródłem pociechy i zbawienia.",
+      "moment": "ogólne"
+    }
+  ]
+}

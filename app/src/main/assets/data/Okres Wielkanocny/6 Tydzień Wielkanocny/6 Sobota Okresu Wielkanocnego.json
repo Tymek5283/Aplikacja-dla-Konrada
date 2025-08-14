@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413365.Sobota-VI-tygodnia-wielkanocnego",
+  "tytul_dnia": "6 Sobota Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 18, 23-28",
+      "opis": "Działalność Apollosa",
+      "tekst": "Paweł zabawił w Antiochii pewien czas i wyruszył, aby obejść kolejno krainę galacką i Frygię, umacniając wszystkich uczniów.\nPewien Żyd, imieniem Apollos, rodem z Aleksandrii, człowiek uczony i znający świetnie Pisma, przybył do Efezu. Znał on już drogę Pańską, przemawiał z wielkim zapałem i nauczał dokładnie tego, co dotyczyło Jezusa, znając tylko chrzest Janowy. Zaczął on odważnie przemawiać w synagodze.\nGdy go Pryscylla i Akwila usłyszeli, zabrali go z sobą i wyłożyli mu dokładnie drogę Bożą. A kiedy chciał wyruszyć do Achai, bracia napisali list do uczniów z poleceniem, aby go przyjęli. Gdy przybył, pomagał bardzo za łaską Bożą tym, co uwierzyli. Dzielnie uchylał twierdzenia Żydów, wykazując publicznie na podstawie Pism, że Jezus jest Mesjaszem.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 47 (46), 2-3. 8-9. 10 (R.: por. 8a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pan Bóg jest królem całej naszej ziemi.\nWszystkie narody, klaskajcie w dłonie, *\nradosnym głosem wykrzykujcie Bogu,\nbo Pan Najwyższy i straszliwy, *\njest wielkim Królem nad całą ziemią.\nRefren.\nGdyż Bóg jest Królem całej ziemi, *\nhymn zaśpiewajcie!\nBóg króluje nad narodami, *\nBóg zasiada na swym świętym tronie.\nRefren.\nPołączyli się władcy narodów *\nz ludem Boga Abrahama.\nBo możni świata należą do Boga, *\nOn zaś jest najwyższy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 16, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wyszedłem od Ojca i na świat przyszedłem,\nznowu opuszczam świat i idę do Ojca."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 16, 23b-28",
+      "opis": "Opuszczam świat i idę do Ojca",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Zaprawdę, zaprawdę, powiadam wam: O cokolwiek prosilibyście Ojca, da wam w imię moje. Do tej pory o nic nie prosiliście w imię moje: proście, a otrzymacie, aby radość wasza była pełna.\nMówiłem wam o tych sprawach w przypowieściach. Nadchodzi godzina, kiedy już nie będę wam mówił w przypowieściach, ale całkiem otwarcie oznajmię wam o Ojcu. W owym dniu będziecie prosić w imię moje, i nie mówię wam, że Ja będę musiał prosić Ojca za wami. Albowiem Ojciec sam was miłuje, bo wy Mnie umiłowaliście i uwierzyliście, że wyszedłem od Boga.\nWyszedłem od Ojca i przyszedłem na świat; znowu opuszczam świat i idę do Ojca».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Jest to radosna pieśń na wejście, która wprowadza w atmosferę wielkanocną i przygotowuje do słuchania o obietnicy pełnej radości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Pana, Króla całej ziemi, o którym śpiewa psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta doskonale koresponduje z psalmem, który głosi, że Bóg jest Królem całej ziemi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ta jest prostą modlitwą ofiarną, która dobrze pasuje do słów Ewangelii o proszeniu Ojca w imię Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, w którego imię prosimy Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nawiązuje do misyjnej działalności Apollosa i Pawła, którzy umacniali uczniów i głosili, że Jezus jest Mesjaszem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Podkreśla radość płynącą z Uczty Pańskiej, która jest zapowiedzią pełnej radości obiecanej w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń eucharystyczna, która jest źródłem radości i siły w oczekiwaniu na powrót Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, dzięki któremu nasza radość może być pełna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Wyraża radość ze Zmartwychwstania, która jest podstawą obietnicy Jezusa, że radość uczniów będzie pełna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który wstąpił do Ojca, abyśmy mogli prosić w Jego imię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący zwycięstwo Zmartwychwstałego Pana, który jest źródłem naszej radości i wiary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Nawiązuje do psalmu, który głosi królowanie Boga nad całą ziemią, i posyła wiernych do życia pod Jego panowaniem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, którego Ojciec miłuje i wysłuchuje.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii, którą z zapałem realizowali Paweł i Apollos.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Jest to narracyjna pieśń wielkanocna, która przypomina fundamenty wiary głoszonej przez Apollosa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna, która jest odpowiedzią na dar modlitwy w imię Jezusa, o którym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa, który wyszedł od Ojca i do Niego powraca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Jest to dynamiczny hymn uwielbienia, który pasuje do radosnego charakteru Okresu Wielkanocnego i psalmu.",
+      "moment": "ogolne"
+    }
+  ]
+}

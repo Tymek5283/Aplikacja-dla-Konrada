@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414042.Sroda-34-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "34 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 15, 1-4",
+      "opis": "Pieśń Mojżesza i Baranka",
+      "tekst": "Ja, Jan, ujrzałem na niebie znak inny - wielki i godzien podziwu: siedmiu aniołów trzymających siedem plag, tych ostatecznych, bo w nich się dopełnił gniew Boga. I ujrzałem jakby morze szklane, pomieszane z ogniem, oraz tych, co zwyciężają Bestię i obraz jej, i liczbę jej imienia, stojących nad morzem szklanym, trzymających harfy Boże. A taką śpiewają pieśń Mojżesza, sługi Bożego, i pieśń Baranka:\n«Dzieła Twoje są wielkie i godne podziwu, Panie, Boże wszechwładny! Sprawiedliwe i wierne są Twoje drogi, o Królu narodów! Któż by się nie bał, o Panie, i nie uczcił Twojego imienia? Bo Ty sam jesteś Święty, bo przyjdą wszystkie narody i padną na twarz przed Tobą, bo ujawniły się słuszne Twoje wyroki».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 7-8. 9 (R.: por. Ap 15, 3b)",
+      "opis": "",
+      "tekst": "Refren: Dzieła Twe wielkie i godne podziwu.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nNiech szumi morze i wszystko, co w nim żyje, *\nkrąg ziemi i jego mieszkańcy.\nRzeki niech klaszczą w dłonie, *\ngóry niech razem wołają z radości.\nRefren.\nW obliczu Pana, który nadchodzi, *\naby osądzić ziemię.\nOn będzie sądził świat sprawiedliwie *\ni ludy według słuszności.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Ap 2, 10c",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Bądź wierny aż do śmierci,\na dam ci wieniec życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 12-19",
+      "opis": "Jezus zapowiada prześladowanie swoich wyznawców",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Podniosą na was ręce i będą was prześladować. Wydadzą was do synagog i do więzień oraz z powodu mojego imienia wlec was będą przed królów i namiestników. Będzie to dla was sposobność do składania świadectwa.\nPostanówcie sobie w sercu nie obmyślać naprzód swej obrony. Ja bowiem dam wam wymowę i mądrość, której żaden z waszych prześladowców nie będzie mógł się oprzeć ani sprzeciwić.\nA wydawać was będą nawet rodzice i bracia, krewni i przyjaciele i niektórych z was o śmierć przyprawią. I z powodu mojego imienia będziecie w nienawiści u wszystkich. Ale włos z głowy wam nie spadnie. Przez swoją wytrwałość ocalicie wasze życie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę doskonale pasuje do Ewangelii, w której Jezus zapewnia uczniów o swojej pomocy w czasie prześladowań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która chroni wiernych, tak jak obiecuje Jezus w Ewangelii: 'włos z głowy wam nie spadnie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest źródłem siły w trudnościach, aby zwyciężyć jak ci, o których mówi Apokalipsa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec zapowiedzi prześladowań, ta pieśń jest prośbą o dar wierności i wytrwałości, o której mówi Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W obliczu wezwania do wytrwałości, ta pieśń jest aktem ofiarowania Bogu całego życia, by ocalić je na wieczność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze trudy i cierpienia, prosząc o siłę do wytrwania w wierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest źródłem siły w trudnościach, aby zwyciężyć jak ci, o których mówi Apokalipsa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem wiary, która pozwala z odwagą stawiać czoła prześladowaniom, o których mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do wytrwałości i jest pokarmem na drogę do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest hymnem chwały, który odzwierciedla treść 'pieśni Mojżesza i Baranka' z pierwszego czytania, wysławiającej wielkie dzieła Boże.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który, jak mówi psalm, nadchodzi, aby sądzić ziemię sprawiedliwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest wezwaniem do radosnego wysławiania cudów Pana, o których przypomina dzisiejszy psalm i pieśń Baranka.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń o męczennikach jest posłaniem do wytrwałości w wierze na wzór tych, którzy zwyciężyli Bestię i śpiewają pieśń Baranka.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by składać świadectwo o Chrystusie, nawet w obliczu prześladowań, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i gotowości do obrony wiary, do czego wzywa nas Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o ufności w Bożą opatrzność, która chroni wiernych, tak jak obiecuje Jezus w Ewangelii: 'włos z głowy wam nie spadnie'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W kontekście eschatologicznym czytań, ta pieśń przypomina, że naszą ostateczną nadzieją jest Chrystus, który zwyciężył zło.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta, choć ogólna, doskonale pasuje do wspomnienia tych, którzy zwyciężyli Bestię i oddali życie za wiarę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia mówi o prześladowaniach za imię Jezusa, co bezpośrednio nawiązuje do jednego z błogosławieństw.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426024.Czwartek-XI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "11 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Syr 48, 1-14",
+      "opis": "Pochwała Eliasza i Elizeusza",
+      "tekst": "Powstał Eliasz, prorok jak ogień, a słowo jego płonęło jak pochodnia. On głód na nich sprowadził, a swoją gorliwością zmniejszył ich liczbę. Słowem Pańskim zamknął niebo, z niego również trzy razy sprowadził ogień.\nJakże wsławiony jesteś, Eliaszu, przez swoje cuda i któż się może pochwalić, że do ciebie jest podobny?\nTy, który ze śmierci wskrzesiłeś zmarłego i słowem Najwyższego wywiodłeś go z Otchłani. Ty, który strąciłeś królów ku zagładzie, a z łoża - okrytych chwałą.\nTy, który na Synaju usłyszałeś naganę i na Horebie wyroki pomsty. Ty, który namaściłeś królów, jako mścicieli, i proroków, następców po sobie.\nTy, który zostałeś wzięty w wirze ognia, na wozie zaprzężonym w ogniste rumaki. O tobie napisano w karceniach dotyczących przyszłości, że masz uśmierzyć gniew, zanim zapłonie, by zwrócić serce ojca do syna i pokolenia Jakuba odnowić.\nSzczęśliwi, którzy cię widzieli, i ci, którzy w miłości posnęli, albowiem i my na pewno żyć będziemy.\nGdy wir zakrył Eliasza, Elizeusz został napełniony jego duchem. Za dni swoich nie lękał się żadnego władcy i nikt nie osiągnął nad nim przewagi.\nNic nie było zbyt wielkie dla niego, i nawet w grobowym spoczynku ciało jego prorokowało. Za życia czynił cuda, nawet po śmierci jego czyny były przedziwne.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97 (96), 1-2. 3-4. 5-6. 7 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Niech sprawiedliwi weselą się w Panu.\nPan króluje, wesel się, ziemio, *\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego, *\nprawo i sprawiedliwość podstawą Jego tronu.\nRefren.\nPrzed Jego obliczem idzie ogień *\ni dokoła pożera Jego nieprzyjaciół.\nJego błyskawice wszechświat rozświetlają, *\na ziemia drży na ten widok.\nRefren.\nGóry jak wosk topnieją przed obliczem Pana, *\nprzed obliczem Władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa *\ni wszystkie ludy widzą Jego chwałę.\nRefren.\nNiech zawstydzą się wszyscy, †\nktórzy czczą posągi *\ni chlubią się bożkami.\nNiech wszystkie bóstwa *\nhołd Mu oddają.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Rz 8, 15bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otrzymaliście Ducha przybrania za synów,\nw którym wołamy: «Abba, Ojcze»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 6, 7-15",
+      "opis": "Modlitwa Pańska",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Modląc się, nie bądźcie gadatliwi jak poganie. Oni myślą, że przez wzgląd na swe wielomówstwo będą wysłuchani. Nie bądźcie podobni do nich! Albowiem wie Ojciec wasz, czego wam potrzeba, zanim jeszcze Go poprosicie.\nWy zatem tak się módlcie:\nOjcze nasz, który jesteś w niebie, niech się święci Twoje imię! Niech przyjdzie Twoje królestwo; niech Twoja wola się spełnia na ziemi, tak jak w niebie. Naszego chleba powszedniego daj nam dzisiaj; i przebacz nam nasze winy, tak jak i my przebaczamy tym, którzy przeciw nam zawinili; i nie dopuść, abyśmy ulegli pokusie, ale nas zachowaj od złego.\nJeśli bowiem przebaczycie ludziom ich przewinienia, i wam przebaczy Ojciec wasz niebieski. Lecz jeśli nie przebaczycie ludziom, Ojciec wasz nie przebaczy wam także waszych przewinień».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest odpowiedzią na słowa psalmu 'Pan króluje, wesel się, ziemio!' oraz na prośbę 'niech przyjdzie Twoje królestwo' z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm opiewa królowanie Pana, a ta pieśń jest radosnym wezwaniem całego stworzenia do oddania Mu chwały.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn sławiący Boga jako Króla, którego sprawiedliwość rozgłaszają niebiosa, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Ofiarowujemy nasze modlitwy Bogu jako Ojcu, zwracając się do Niego słowami, których nauczył nas Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Składamy Bogu Ojcu ofiarę, prosząc, by Jego wola spełniała się na ziemi, tak jak w niebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża pragnienie pełnienia woli Bożej i prośbę o przebaczenie, co jest centralnym punktem Modlitwy Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "W Modlitwie Pańskiej prosimy o chleb powszedni, a Bóg Ojciec daje nam najcenniejszy pokarm - Ciało swojego Syna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Przyjmując Eucharystię, otrzymujemy 'chleb powszedni' i siłę do przebaczania naszym winowajcom.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Chleb Żywy, jest odpowiedzią Ojca na naszą prośbę o pokarm na drodze do Jego Królestwa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest osobistym uwielbieniem majestatu Boga, opisanego w psalmie i ukazanego w pochwale proroka Eliasza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń chwały dla Pana, który króluje, i dla Ojca, którego imię uświęcamy w modlitwie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "227",
+      "piesn": "Chwała Ojcu i Synowi",
+      "opis": "Doksologia jest doskonałym aktem uwielbienia Boga Ojca, do którego zwracamy się w Modlitwie Pańskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń stanowi zobowiązanie do życia dla Boga i Jego Królestwa, o które prosimy w Modlitwie Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Królestwo Boże i uczyć wszystkich modlitwy, której nauczył nas Pan.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą misję, by wola Ojca wypełniała się przez nasze czyny w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wezwanie do przebaczenia w Modlitwie Pańskiej jest fundamentem nowego przykazania miłości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi moc Boga, objawioną przez cuda Eliasza i Jego królowanie nad całym światem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "623",
+      "piesn": "Rodziną Bożą jesteśmy",
+      "opis": "Modlitwa 'Ojcze nasz' uświadamia nam, że jesteśmy jedną rodziną dzieci Bożych, wezwanych do wzajemnego przebaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Ta starożytna pieśń eucharystyczna jest pięknym rozwinięciem modlitwy, której nauczył nas Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

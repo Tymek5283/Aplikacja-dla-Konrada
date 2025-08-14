@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414175.33-Niedziela-zwykla-Rok-C",
+  "tytul_dnia": "33 Niedziela Okresu Zwykłego rok C",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ml 3, 19-20a",
+      "opis": "Sprawiedliwy sąd Boży",
+      "tekst": "«Oto nadchodzi dzień palący jak piec, a wszyscy pyszni i wszyscy czyniący nieprawość będą słomą, więc spali ich ten nadchodzący dzień, mówi Pan Zastępów, tak że nie pozostawi po nich ani korzenia, ani gałązki. A dla was, czczących moje imię, wzejdzie słońce sprawiedliwości i uzdrowienie w jego skrzydłach».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 5-6. 7-8. 9 (R.: por. 9)",
+      "opis": "",
+      "tekst": "Refren: Pan będzie sądził ludy sprawiedliwie.\nŚpiewajcie Panu przy wtórze cytry, *\nprzy wtórze cytry i przy dźwięku harfy.\nPrzy trąbach i przy głosie rogu, *\nna oczach Pana, Króla, się radujcie.\nRefren.\nNiech szumi morze i wszystko, co w nim żyje, *\nkrąg ziemi i jego mieszkańcy.\nRzeki niech klaszczą w dłonie, *\ngóry niech razem wołają z radości.\nRefren.\nW obliczu Pana, który nadchodzi, *\naby osądzić ziemię.\nOn będzie sądził świat sprawiedliwie *\ni ludy według słuszności.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "2 Tes 3, 7-12",
+      "opis": "Kto nie chce pracować, niech też nie je",
+      "tekst": "Bracia:\nSami wiecie, jak należy nas naśladować, bo nie wzbudzaliśmy wśród was niepokoju ani u nikogo nie jedliśmy za darmo chleba, ale pracowaliśmy w trudzie i zmęczeniu, we dnie i w nocy, aby dla nikogo z was nie być ciężarem. Nie żebyśmy nie mieli do tego prawa, lecz po to, aby dać wam samych siebie za przykład do naśladowania. Albowiem gdy byliśmy u was, nakazywaliśmy wam tak: Kto nie chce pracować, niech też nie je!\nSłyszymy bowiem, że niektórzy wśród was postępują wbrew porządkowi: wcale nie pracują, lecz zajmują się rzeczami niepotrzebnymi. Tym przeto nakazujemy i napominamy ich w Panu Jezusie Chrystusie, aby pracując ze spokojem, własny chleb jedli.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 21, 28bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nabierzcie ducha i podnieście głowy,\nponieważ zbliża się wasze odkupienie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 21, 5-19",
+      "opis": "Jezus zapowiada prześladowania swoich wyznawców",
+      "tekst": "Gdy niektórzy mówili o świątyni, że jest przyozdobiona pięknymi kamieniami i darami, Jezus powiedział: «Przyjdzie czas, kiedy z tego, na co patrzycie, nie zostanie kamień na kamieniu, który by nie był zwalony».\nZapytali Go: «Nauczycielu, kiedy to nastąpi? I jaki będzie znak, gdy to się dziać zacznie?»\nJezus odpowiedział: «Strzeżcie się, żeby was nie zwiedziono. Wielu bowiem przyjdzie pod moim imieniem i będą mówić: „To ja jestem” oraz: „Nadszedł czas”. Nie podążajcie za nimi! I nie trwóżcie się, gdy posłyszycie o wojnach i przewrotach. To najpierw „musi się stać”, ale nie zaraz nastąpi koniec».\nWtedy mówił do nich: «Powstanie naród przeciw narodowi” i królestwo przeciw królestwu. Wystąpią silne trzęsienia ziemi, a miejscami głód i zaraza; ukażą się straszne zjawiska i wielkie znaki na niebie. Lecz przed tym wszystkim podniosą na was ręce i będą was prześladować. Wydadzą was do synagog i do więzień oraz z powodu mojego imienia wlec was będą przed królów i namiestników. Będzie to dla was sposobność do składania świadectwa. Postanówcie sobie w sercu nie obmyślać naprzód swej obrony. Ja bowiem dam wam wymowę i mądrość, której żaden z waszych prześladowców nie będzie mógł się oprzeć ani sprzeciwić. A wydawać was będą nawet rodzice i bracia, krewni i przyjaciele i niektórych z was o śmierć przyprawią. I z powodu mojego imienia będziecie w nienawiści u wszystkich. Ale włos z głowy wam nie spadnie. Przez swoją wytrwałość ocalicie wasze życie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę doskonale pasuje do Ewangelii, w której Jezus zapewnia uczniów o swojej pomocy w czasie prześladowań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń wyraża ufność w Bożą opatrzność, która chroni wiernych, tak jak obiecuje Jezus w Ewangelii: 'włos z głowy wam nie spadnie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ewangelia wzywa do wytrwałości, a ta pieśń jest prośbą o umocnienie wiary, która pozwoli przetrwać czas próby i ocalić życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Wobec zapowiedzi prześladowań, ale i obietnicy Słońca Sprawiedliwości, ta pieśń jest prośbą o błogosławieństwo na trud codziennej pracy i świadectwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W obliczu wezwania do wytrwałości, ta pieśń jest aktem ofiarowania Bogu całego życia, by ocalić je na wieczność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze trudy i cierpienia, prosząc o siłę do wytrwania w wierze.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W obliczu zapowiedzi wojen i kataklizmów, ta pieśń jest wyznaniem wiary, że naszą jedyną i trwałą nadzieją jest Chrystus.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem wiary, która pozwala z odwagą stawiać czoła prześladowaniom, o których mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siłę do wytrwałości i jest pokarmem na drogę do życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który, jak mówi psalm, nadchodzi, aby sprawiedliwie sądzić ziemię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za Bożą obietnicę zbawienia i sprawiedliwości, która wzejdzie jak słońce dla czczących Jego imię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, który przyjdzie sądzić świat w sprawiedliwości.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Ewangelia wzywa do wytrwałości, a ta pieśń jest prośbą o umocnienie wiary, która pozwoli przetrwać czas próby i ocalić życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by składać świadectwo o Chrystusie, nawet w obliczu prześladowań, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi i gotowości do obrony wiary, do czego wzywa nas Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń o ufności w Bożą opatrzność, która chroni wiernych, tak jak obiecuje Jezus w Ewangelii: 'włos z głowy wam nie spadnie'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie bliskości z Bogiem, która jest źródłem siły i wytrwałości w trudnościach, zapowiedzianych w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "653",
+      "piesn": "W gniewu dzień",
+      "opis": "Sekwencja 'Dies irae', choć za zmarłych, wstrząsająco opisuje dzień sądu, o którym mówią czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "3",
+      "piesn": "Oto Pan Bóg przyjdzie",
+      "opis": "Antyfona ta zapowiada ostateczne przyjście Pana w chwale, o którym mówi Ewangelia i pierwsze czytanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

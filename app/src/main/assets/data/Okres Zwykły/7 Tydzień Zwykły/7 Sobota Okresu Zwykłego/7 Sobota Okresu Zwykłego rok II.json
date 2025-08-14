@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416136.Sobota-VII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "7 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 5, 13-20",
+      "opis": "Namaszczenie chorych",
+      "tekst": "Najmilsi:\nSpotkało kogoś z was nieszczęście? Niech się modli! Jest ktoś radośnie usposobiony? Niech śpiewa hymny! Choruje ktoś wśród was? Niech sprowadzi kapłanów Kościoła, by się modlili nad nim i namaścili go olejem w imię Pana. A modlitwa pełna wiary będzie dla chorego ratunkiem i Pan go podźwignie, a jeśliby popełnił grzechy, będą mu odpuszczone.\nWyznawajcie zatem sobie nawzajem grzechy, módlcie się jeden za drugiego, byście odzyskali zdrowie. Wielką moc posiada wytrwała modlitwa sprawiedliwego. Eliasz był człowiekiem podobnym do nas i modlił się usilnie, by deszcz nie padał, i nie padał deszcz na ziemię przez trzy lata i sześć miesięcy. I znów błagał, i niebiosa spuściły deszcz, a ziemia wydała plon.\nBracia moi, jeśliby ktokolwiek z was zszedł z drogi pawdy, a drugi go nawrócił, niech wie, że kto nawrócił grzesznika z jego błędnej drogi, wybawi duszę jego od śmierci i przesłoni liczne grzechy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 141 (140), 1b-2. 3 i 8 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Moja modlitwa jest jak dym kadzidła.\nDo Ciebie wołam, Panie, pośpiesz mi z pomocą, *\nusłysz mój głos, gdy wołam do Ciebie.\nNiech moja modlitwa wznosi się przed Tobą jak kadzidło, *\na podniesione me ręce, jak ofiara wieczorna.\nRefren.\nPostaw, Panie, straż przy moich ustach *\ni wartę przy bramie warg moich.\nDo Ciebie bowiem, Panie, zwracam moje oczy, *\ndo Ciebie się uciekam, nie gub mojej duszy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 11, 25",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wysławiam Cię, Ojcze, Panie nieba i ziemi,\nże tajemnice królestwa objawiłeś prostaczkom."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 13-16",
+      "opis": "Jezus błogosławi dzieci",
+      "tekst": "Przynosili Jezusowi dzieci, żeby ich dotknął; lecz uczniowie szorstko zabraniali im tego.\nA Jezus, widząc to, oburzył się i rzekł do nich: «Pozwólcie dzieciom przychodzić do Mnie, nie przeszkadzajcie im; do takich bowiem należy królestwo Boże. Zaprawdę, powiadam wam: Kto nie przyjmie królestwa Bożego jak dziecko, ten nie wejdzie do niego».\nI biorąc je w objęcia, kładł na nie ręce i błogosławił je.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "289",
+      "piesn": "Kiedyś, o Jezu",
+      "opis": "Pieśń ta bezpośrednio nawiązuje do sceny błogosławienia dzieci przez Jezusa, opisanej w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "329",
+      "piesn": "Cześć Maryi",
+      "opis": "Zwrotka 'Dziatki lube, jeśli chcecie...' bezpośrednio zachęca dzieci do naśladowania Jezusa i czci Maryi, pasując do Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem z sercem dziecka, aby przyjąć Jego błogosławieństwo.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę dziecięcego oddania się Bogu, do której zachęca Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Wyraża pragnienie przygotowania serca na przyjęcie Jezusa z dziecięcą prostotą i czystością.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń ofiarna, która oddaje ducha dziecięcej modlitwy i prostoty.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Oddaje prostotę i radość dziecka, które z czystym sercem przyjmuje Jezusa w Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Prosta, dziecięca modlitwa, która jest idealnym przygotowaniem do przyjęcia Komunii Świętej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "249",
+      "piesn": "Już gościsz, Jezu",
+      "opis": "Pieśń dziękczynna po Komunii, wyrażająca radość z obecności Jezusa w sercu, na wzór dzieci z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar modlitwy i sakramentów, o których mocy mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą pomoc i wysłuchanie modlitwy, o czym zapewnia św. Jakub.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, w tym za dar uzdrowienia i odpuszczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "347",
+      "piesn": "Maryjo, coś jest w niebie",
+      "opis": "Pieśń ta jest modlitwą o zachowanie postawy dziecka Bożego przez całe życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, które Jezus z taką miłością rozdawał dzieciom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a przyjęcie królestwa jak dziecko jest warunkiem pójścia za Nim.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Prosta, dziecięca modlitwa do Boga Ojca, która pasuje do tematyki Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla ubogich w duchu, nawiązuje do postawy dziecka, która otwiera drogę do królestwa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina, że Bóg stał się człowiekiem, abyśmy my mogli stać się dziećmi Bożymi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę, która jest naturalną postawą dziecka wobec swojego ojca.",
+      "moment": "ogolne"
+    }
+  ]
+}

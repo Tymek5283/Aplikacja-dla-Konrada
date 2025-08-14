@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413323.Poniedzialek-V-tygodnia-wielkanocnego",
+  "tytul_dnia": "5 Poniedziałek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 14, 5-18",
+      "opis": "Działalność Pawła i Barnaby w Likaonii",
+      "tekst": "Gdy Paweł i Barnaba dowiedzieli się w Ikonium, że poganie i Żydzi wraz ze swymi władzami zamierzają ich znieważyć i ukamienować, uciekli do miast Likaonii: do Listry i Derbe oraz w ich okolice i tam głosili Ewangelię.\nW Listrze mieszkał pewien człowiek o bezwładnych nogach, kaleka od urodzenia, który nigdy nie chodził. Słuchał on przemówienia Pawła; ten spojrzał na niego uważnie i widząc, że ma wiarę potrzebną do uzdrowienia, zawołał głośno: «Stań prosto na nogach!» A on zerwał się i zaczął chodzić.\nNa widok tego, co uczynił Paweł, tłumy zaczęły wołać po likaońsku: «Bogowie przybrali postać ludzi i zstąpili do nas!» Barnabę nazywali Zeusem, a Pawła Hermesem, gdyż głównie on przemawiał. A kapłan Zeusa, którego świątynia była przed miastem, przywiódł przed bramę woły oraz przyniósł wieńce i chciał razem z tłumem złożyć ofiarę.\nNa wieść o tym Apostołowie Barnaba i Paweł rozdarli szaty i rzucili się w tłum, krzycząc: «Ludzie, co wy robicie! My także jesteśmy ludźmi, podobnie jak wy podlegamy cierpieniom. Nauczamy was, abyście odwrócili się od tych marności do Boga żywego, który stworzył niebo i ziemię, i morze, i wszystko, co w nich się znajduje. Pozwolił On w dawnych czasach, aby każdy naród chodził własnymi drogami, ale nie przestawał dawać o sobie świadectwa, czyniąc dobrze. Zsyłał wam deszcz z nieba i urodzajne lata, karmił was i radością napełniał wasze serca».\nTymi słowami ledwie powstrzymali tłumy od złożenia im ofiary.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 115 (113B), 1-2. 3-4. 15-16 (R.: por. 1)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Nie nam daj chwałę, lecz Twemu imieniu.\nNie nam, Panie, nie nam, lecz Twemu imieniu daj chwałę *\nza łaskę i wierność Twoją.\nDlaczego mają pytać poganie: *\n«Gdzie się ich Bóg znajduje?»\nRefren.\nNasz Bóg jest w niebie, *\nczyni wszystko, co zechce.\nIch bożki są ze srebra i złota, *\ndzieła rąk ludzkich.\nRefren.\nBłogosławieni jesteście przez Pana, *\nktóry stworzył niebo i ziemię.\nNiebo jest niebem Pana, *\nziemię zaś dał synom ludzkim.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 14, 26",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Duch Święty was wszystkiego nauczy;\nprzypomni wam wszystko, co wam powiedziałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 14, 21-26",
+      "opis": "Duch Święty nauczy was wszystkiego",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Kto ma przykazania moje i je zachowuje, ten Mnie miłuje. Kto zaś Mnie miłuje, ten będzie umiłowany przez Ojca mego, a również Ja będę go miłował i objawię mu siebie».\nRzekł do Niego Juda, ale nie Iskariota: «Panie, cóż się stało, że nam się masz objawić, a nie światu?»\nW odpowiedzi rzekł do niego Jezus: «Jeśli Mnie kto miłuje, będzie zachowywał moją naukę, a Ojciec mój umiłuje go i przyjdziemy do niego, i mieszkanie u niego uczynimy. Kto nie miłuje Mnie, ten nie zachowuje słów moich. A nauka, którą słyszycie, nie jest moja, ale Tego, który Mnie posłał, Ojca.\nTo wam powiedziałem, przebywając wśród was. A Paraklet, Duch Święty, którego Ojciec pośle w moim imieniu, On was wszystkiego nauczy i przypomni wam wszystko, co Ja wam powiedziałem».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Pieśń ta jest modlitwą o Ducha Świętego, którego Jezus obiecuje posłać w Ewangelii, aby nas wszystkiego nauczył.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która wzywa do głoszenia chwały Boga żywego, w przeciwieństwie do 'marności', od których odwracają się apostołowie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, którą apostołowie napełniali serca nawróconych, jak mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, który napełnia serca wiernych i uzdalnia do zachowywania nauki Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, które są niezbędne do zachowywania przykazań i dawania świadectwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, prosząc o napełnienie Duchem Świętym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prosta modlitwa o dary Ducha Świętego, który uzdalnia do miłości i zachowywania przykazań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, do której zachowywania wzywa Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus i Ojciec czynią w nas swoje mieszkanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń uwielbienia dla Boga Stwórcy, którego Paweł i Barnaba głoszą poganom w Listrze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, którego apostołowie głoszą z mocą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i wierność, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Duch Święty posyła Kościół, aby głosił Ewangelię wszystkim narodom, tak jak czynili to apostołowie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii, która jest możliwa dzięki mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń posyła wiernych, by świadczyli o Zmartwychwstałym, zachowując Jego przykazania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Wiara w Zmartwychwstałego Pana jest podstawą życia chrześcijańskiego i zachowywania Jego przykazań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Zachowywanie przykazania miłości jest znakiem miłości do Jezusa i warunkiem zamieszkania w nas Trójcy Świętej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa i obietnicy Ducha Świętego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prosta modlitwa o Ducha Świętego, który uczy nas i przypomina słowa Jezusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

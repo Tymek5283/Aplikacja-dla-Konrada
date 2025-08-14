@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 116 B,10-11.12-13.16-17",
-      "opis": "Refren:",
-      "tekst": "Cenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nO Panie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy.\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana."
+      "opis": "",
+      "tekst": "Refren:\nCenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nO Panie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy.\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,6 +36,18 @@
       "moment": "wejscie"
     },
     {
+      "numer": "575",
+      "piesn": "Witaj, święty męczenniku",
+      "opis": "Pieśń ta, witając męczennika, który wiernie stał przy Chrystusie, doskonale oddaje cześć św. Maksymilianowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "553",
+      "piesn": "Bądź uwielbion",
+      "opis": "Hymn ten sławi Boga w Jego świętych, a zwłaszcza w męczennikach, do których grona należy patron dnia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "502",
       "piesn": "Ojcze Kolbe, któryś chwałą",
       "opis": "Ta pieśń jest modlitwą za Ojczyznę przez wstawiennictwo św. Maksymiliana, męczennika miłości, którego życie było ofiarą.",
@@ -44,13 +56,49 @@
     {
       "numer": "621",
       "piesn": "Przykazanie nowe daję wam",
-      "opis": "Pieśń ta bezpośrednio nawiązuje do Ewangelii o przykazaniu miłości, której najdoskonalszym przykładem jest ofiara z życia za przyjaciół.",
+      "opis": "Święty Maksymilian oddał życie za brata, realizując w sposób doskonały przykazanie miłości, o którym mówi ta pieśń.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "574",
+      "piesn": "Wielbimy Ciebie, wszechmogący Boże",
+      "opis": "Pieśń ta jest dziękczynieniem za dar męczenników, których ofiara, podobnie jak dary chleba i wina, buduje Kościół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta podkreśla, że Chrystus do końca nas umiłował, a św. Maksymilian, karmiony tym Chlebem, naśladował Go w ofiarnej miłości.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia tworzy z nas jedno ciało, a ofiara św. Maksymiliana jest najwyższym wyrazem miłości budującej tę jedność.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Modlitwa o zjednoczenie z Chrystusem w Jego męce, co w pełni zrealizowało się w życiu i śmierci św. Maksymiliana.",
       "moment": "komunia"
     },
     {
       "numer": "574",
       "piesn": "Wielbimy Ciebie, wszechmogący Boże",
       "opis": "Hymn na cześć męczenników jest wyrazem wdzięczności Bogu za dar świętości i świadectwa św. Maksymiliana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Klasyczny hymn wdzięczności jest odpowiednim dziękczynieniem za dar życia i heroicznej miłości patrona dnia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za bezmiar łask, które uzdolniły św. Maksymiliana do złożenia najwyższej ofiary.",
       "moment": "uwielbienie"
     },
     {
@@ -62,13 +110,37 @@
     {
       "numer": "321",
       "piesn": "Błękitne rozwińmy sztandary",
-      "opis": "Jako Rycerz Niepokalanej, św. Maksymilian był Jej oddany bezgranicznie, dlatego pieśń ta, pełna ducha walki o dobro, dobrze oddaje jego zapał.",
+      "opis": "Jako założyciel Rycerstwa Niepokalanej, św. Maksymilian wzywa nas do duchowej walki pod sztandarem Maryi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń o wierności Chrystusowi, nawet za cenę życia, doskonale oddaje postawę św. Maksymiliana w obozie koncentracyjnym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "394",
+      "piesn": "Weź w swą opiekę",
+      "opis": "Modlitwa do Maryi, której św. Maksymilian zawierzył całe swoje życie i dzieło, jest bardzo stosowna w jego wspomnienie.",
       "moment": "ogolne"
     },
     {
       "numer": "596",
       "piesn": "Chrystus, Chrystus, to nadzieja",
       "opis": "Pieśń podkreśla, że miłość i ofiara Chrystusa są źródłem nadziei i pokoju, co było fundamentem życia i śmierci św. Maksymiliana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Błogosławieństwo dla miłosiernych i wprowadzających pokój w pełni zrealizowało się w życiu i śmierci św. Maksymiliana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Wezwanie do miłości Pana, której najdoskonalszym świadectwem jest oddanie życia za braci, na wzór Chrystusa.",
       "moment": "ogolne"
     }
   ]

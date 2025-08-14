@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/410445.Czwartek-I-tydzien-zwykly-rok-I",
+  "tytul_dnia": "1 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 3, 7-14",
+      "opis": "Zachować wierność Bogu",
+      "tekst": "Bracia:\n\nPostępujcie, jak mówi Duch Święty: «Dziś, jeśli głos Jego usłyszycie, nie zatwardzajcie serc waszych jak podczas buntu, w dzień kuszenia na pustyni, gdzie kusili Mnie ojcowie wasi, wystawiając na próbę, chociaż widzieli dzieła moje przez lat czterdzieści. Rozgniewałem się przeto na to pokolenie i powiedziałem: Zawsze błądzą w sercu. Oni zaś nie poznali dróg moich, toteż przysiągłem w swym gniewie: Nie wejdą do mego odpoczynku». Baczcie, bracia, aby nie było w kimś z was przewrotnego serca niewiary, której skutkiem jest odstąpienie od Boga żywego, lecz zachęcajcie się wzajemnie każdego dnia, póki trwa to, co zwie się «dziś», aby ktoś z was nie uległ zatwardziałości przez oszustwo grzechu. Jesteśmy bowiem współuczestnikami Chrystusa, jeśli pierwotną nadzieję do końca zachowamy silną. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 95 (94), 6-7c. 7d-9. 10-11 (R.: por. 7d-8a)",
+      "opis": "",
+      "tekst": "Refren: Słysząc głos Pana, serc nie zatwardzajcie.\nPrzyjdźcie, uwielbiajmy Go, padając na twarze, *\n\nklęknijmy przed Panem, który nas stworzył.\n\nAlbowiem On jest naszym Bogiem, *\n\na my ludem Jego pastwiska i owcami w Jego ręku.\nRefren.\nObyście dzisiaj usłyszeli głos Jego: †\n\n«Niech nie twardnieją wasze serca jak w Meriba, *\n\njak na pustyni w dniu Massa,\n\ngdzie Mnie kusili wasi ojcowie, *\n\ndoświadczali Mnie, choć widzieli moje dzieła.\nRefren.\nPrzez lat czterdzieści to pokolenie wstręt we Mnie budziło †\n\ni powiedziałem: Są ludem o sercu zbłąkanym *\n\ni moich dróg nie znają.\n\nPrzeto przysiągłem w gniewie, *\n\nże nie wejdą do mojej krainy spoczynku».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\n\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 1, 40-45",
+      "opis": "Uzdrowienie trędowatego",
+      "tekst": "Pewnego dnia przyszedł do Jezusa trędowaty i upadłszy na kolana, prosił Go: «Jeśli zechcesz, możesz mnie oczyścić ». A Jezus, zdjęty litością, wyciągnął rękę, dotknął go i rzekł do niego: «Chcę, bądź oczyszczony». Zaraz trąd go opuścił, i został oczyszczony. Jezus surowo mu przykazał i zaraz go odprawił, mówiąc mu: «Bacz, abyś nikomu nic nie mówił, ale idź, pokaż się kapłanowi i złóż za swe oczyszczenie ofiarę, którą przepisał Mojżesz, na świadectwo dla nich». Lecz on po wyjściu zaczął wiele opowiadać i rozgłaszać to, co zaszło, tak że Jezus nie mógł już jawnie wejść do miasta, lecz przebywał w miejscach pustynnych. A ludzie zewsząd schodzili się do Niego. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do uwielbienia Pana, co koresponduje z wezwaniem psalmisty: 'Przyjdźcie, uwielbiajmy Go, padając na twarze'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Wyraża postawę otwarcia serca na głos Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń błagalna, wyrażająca pragnienie usłyszenia głosu Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wyraża ofiarowanie Bogu życia i trudów, jako odpowiedź na Jego głos i wezwanie do wierności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowujemy Bogu nasze życie, prosząc o serce posłuszne Jego woli.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosta pieśń ofiarna, w której prosimy o przyjęcie darów jako znaku naszej wierności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, której doświadczył trędowaty z dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża postawę trędowatego, który z wiarą zbliża się do Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "277",
+      "piesn": "U drzwi Twoich stoję, Panie",
+      "opis": "Pieśń wyraża pokorę i wiarę w uzdrawiającą moc słowa Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą pomoc i ratunek, która może być śpiewem uzdrowionego trędowatego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar uzdrowienia i miłosierdzia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowe dziękczynienie za cuda Bożej łaski.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o stałą obecność Pana, abyśmy nie zatwardzali serc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie drogą wierności Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na drogę świadczenia o uzdrowieniu, którego doświadczył trędowaty.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Wzywa do szukania pociechy i uzdrowienia u Jezusa, co jest głównym motywem spotkania z trędowatym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Podkreśla wierność Boga wobec tych, którzy Go szukają, co stanowi kontrast do niewierności Izraelitów na pustyni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest odpowiedzią na usłyszany głos Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna, wyrażająca skruchę i prośbę o oczyszczenie, jakiego doznał trędowaty.",
+      "moment": "ogolne"
+    }
+  ]
+}

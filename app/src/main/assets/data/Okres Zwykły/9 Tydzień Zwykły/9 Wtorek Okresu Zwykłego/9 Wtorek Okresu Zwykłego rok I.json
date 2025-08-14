@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416278.Wtorek-IX-tydzien-zwykly-rok-I",
+  "tytul_dnia": "9 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tb 2, 9-14",
+      "opis": "Tobiasz przykładem cierpliwości",
+      "tekst": "Ja, Tobiasz, w noc Pięćdziesiątnicy, potem jak pogrzebałem umarłych, wykąpałem się i poszedłem na podwórze, i położyłem się pod murem dziedzińca. Z powodu upału miałem twarz odkrytą. Nie zauważyłem, że ptaki siedziały nade mną na murze. Wtedy spadły ich ciepłe odchody na moje oczy i spowodowały bielmo. Poszedłem do lekarzy, aby się wyleczyć. Ale im więcej smarowano mi je maścią, tym bardziej oczy moje wygasały z powodu bielma, aż w końcu całkiem oślepłem. Przez cztery lata byłem niewidomy.\nWszyscy moi bracia smucili się z mojego powodu. Achikar utrzymywał mnie przez dwa lata, zanim wyjechał do Elimaidy. W tym właśnie czasie żona moja, Anna, wykonując kobiece roboty, przędła. Odsyłała to wszystko pracodawcom, a oni dawali jej za to zapłatę. Siódmego dnia miesiąca Dystros odcięła przędzę i odesłała ją pracodawcom. Oni dali jej pełną zapłatę i dodali do tego koziołka. Kiedy koziołek szedł do mnie, zaczął beczeć. Zawołałem wtedy żonę i powiedziałem: «Skąd ten koziołek? Czy nie pochodzi on z kradzieży? Oddaj go właścicielom! Nie wolno nam bowiem jeść niczego, co pochodzi z kradzieży».\nA ona mi rzekła: «Jest to podarunek dodany mi do zarobku».\nNie wierzyłem jej i powiedziałem, żeby oddała go właścicielom, i wstydziłem się z tego powodu za nią. A ona odpowiedziała: «Gdzie są teraz twoje ofiary, gdzie są twoje dobre uczynki? Teraz jest już wszystko o tobie wiadome».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 112 (111), 1b-2. 7-8. 9 (R.: por. 7b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Zaufał Panu człowiek sprawiedliwy.\nBłogosławiony człowiek, który służy Panu *\ni wielką radość znajduje w Jego przykazaniach.\nPotomstwo jego będzie potężne na ziemi, *\ndostąpi błogosławieństwa pokolenie prawych.\nRefren.\nNie przelęknie się złej nowiny, *\njego mocne serce zaufało Panu.\nJego wierne serce lękać się nie będzie *\ni spojrzy z wysoka na swych przeciwników.\nRefren.\nRozdaje i obdarza ubogich, *\njego sprawiedliwość będzie trwała zawsze,\nwywyższona z chwałą *\nbędzie jego potęga.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 12, 13-17",
+      "opis": "Podatek należny cezarowi",
+      "tekst": "Uczeni w Piśmie i starsi posłali do Jezusa kilku faryzeuszów i zwolenników Heroda, którzy mieli podchwycić Go w mowie. Ci przyszli i rzekli do Niego: «Nauczycielu, wiemy, że jesteś prawdomówny i na nikim ci nie zależy. Bo nie oglądasz się na osobę ludzką, lecz drogi Bożej w prawdzie nauczasz. Czy wolno płacić podatek cezarowi, czy nie? Mamy płacić czy nie płacić?»\nLecz On poznał ich obłudę i rzekł do nich: «Czemu wystawiacie Mnie na próbę? Przynieście mi denara; chcę zobaczyć». Przynieśli, a On ich zapytał: «Czyj jest ten obraz i napis?»\nOdpowiedzieli Mu: «Cezara».\nWówczas Jezus rzekł do nich: «Oddajcie więc cezarowi to, co należy do cezara, a Bogu to, co należy do Boga».\nI byli pełni podziwu dla Niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest echem psalmu, który opisuje błogosławieństwo człowieka sprawiedliwego, jakim był Tobiasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża szczęście płynące z wierności Bogu, której przykładem jest Tobiasz, mimo jego cierpienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, które było siłą Tobiasza w jego trudnych doświadczeniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania Bogu tego, co Boże, o czym naucza Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "W tej pieśni ofiarujemy Bogu nasz trud, prosząc o mądrość w wypełnianiu obowiązków wobec Boga i państwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna, w której prosimy o łaskę wierności Bogu w sprawach doczesnych i wiecznych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Jest to prosty akt miłości, który jest najwyższą formą oddania Bogu tego, co Mu się należy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest darem, w którym oddajemy Bogu chwałę i dziękczynienie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę pokory i wiary, która jest konieczna, by oddać Bogu to, co Boże.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą sprawiedliwość i opiekę, której doświadczał Tobiasz mimo cierpienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Jest to dziękczynienie za Bożą wierność, która jest źródłem nadziei w doświadczeniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na Bożą dobroć i opiekę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta jest manifestem oddania Bogu należnego Mu miejsca w życiu osobistym i społecznym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to deklaracja wierności Bogu i Jego prawu, które obowiązuje w każdej dziedzinie życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jest to prośba o błogosławieństwo na drogę życia zgodnego z wolą Bożą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Podkreśla wartość zaufania Panu, które było siłą Tobiasza w jego trudnych doświadczeniach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Stawia pytanie o to, co powinniśmy oddać Bogu, na które Ewangelia daje jasną odpowiedź.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Zachęca do wydawania owoców sprawiedliwości, tak jak czynił to Tobiasz, mimo przeciwności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem, że podążanie za Jezusem jest drogą do właściwego uporządkowania spraw ziemskich i wiecznych.",
+      "moment": "ogolne"
+    }
+  ]
+}

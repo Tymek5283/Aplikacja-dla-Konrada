@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430565.Piatek-XVIII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "18 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Na 2, 1. 3; 3, 1-3. 6-7",
+      "opis": "Biada miastu krwawemu!",
+      "tekst": "Oto na górach kroki dobrego zwiastuna, co ogłasza pokój.\nŚwięć, Judo, swe uroczystości, wypełniaj swe śluby, bo nie przejdzie już więcej po tobie nikczemnik, całkowicie został zgładzony.\nBo przywraca Pan świetność Jakuba, jak i świetność Izraela, ponieważ łupieżcy ich splądrowali i wyniszczyli ich latorośle.\nBiada miastu krwawemu! Całe kłamliwe i grabieży pełne, a nie ustaje rabunek. Trzask biczów i turkot kół, i konie galopujące, i szybko jadące rydwany. Jeźdźcy szturmujący, i połysk mieczy, i lśnienie oszczepów. I mnóstwo poległych, i moc trupów, i martwych ciał bez liku, tak że o zwłoki ich się potykają.\nI rzucę na ciebie obrzydliwości, i zelżę ciebie, i uczynię z ciebie widowisko. I każdy, kto cię ujrzy, oddali się od ciebie, i zawoła: «Spustoszona Niniwa!»\nKtóż ulituje się nad nią? Gdzie mam szukać pocieszycieli dla ciebie?\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Pwt 32, 35cd-36ab. 39abcd. 41",
+      "opis": "",
+      "tekst": "Refren: Ja, Pan, zabijam i Ja sam ożywiam.\nNadchodzi bowiem dzień klęski, *\nlos ich gotowy, już blisko.\nBo Pan swój naród obroni, *\nlitość okaże swym sługom.\nRefren.\nPatrzcie teraz, że Ja jestem, Ja jeden, *\ni nie ma obok Mnie żadnego boga.\nJa zabijam i Ja sam ożywiam, *\nJa ranię i Ja sam uzdrawiam.\nRefren.\nGdy miecz błyszczący wyostrzę *\ni wyrok wykona ma ręka,\nna swoich wrogach się pomszczę, *\nodpłacę tym, którzy Mnie nienawidzą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 10",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 16, 24-28",
+      "opis": "Konieczność wyrzeczenia",
+      "tekst": "Jezus rzekł do swoich uczniów: «Jeśli ktoś chce pójść za Mną, niech się zaprze samego siebie, niech weźmie krzyż swój i niech Mnie naśladuje. Bo kto chce zachować swoje życie, straci je; a kto straci swe życie z mego powodu, znajdzie je. Cóż bowiem za korzyść odniesie człowiek, choćby cały świat zyskał, a na swej duszy szkodę poniósł? Albo co da człowiek w zamian za swoją duszę?\nAlbowiem Syn Człowieczy przyjdzie w chwale Ojca swego razem z aniołami swoimi i wtedy odda każdemu według jego postępowania. Zaprawdę, powiadam wam: Niektórzy z tych, co tu stoją, nie zaznają śmierci, aż ujrzą Syna Człowieczego przychodzącego w królestwie swoim».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Pieśń bezpośrednio nawiązuje do centralnego tematu Ewangelii, czyli wezwania do wzięcia swojego krzyża i naśladowania Jezusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "W obliczu trudnego wezwania do zaparcia się siebie, pieśń jest wołaniem o siłę i prowadzenie od Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Pieśń wyraża pragnienie naśladowania Chrystusa, nawet za cenę utraty ziemskiego życia, by zyskać życie wieczne.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "W obliczu surowych obrazów sądu z czytań, ta pieśń jest aktem zaufania w Bożą dobroć i opatrzność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarowanie swojego życia w zjednoczeniu z ofiarą Chrystusa jest odpowiedzią na Jego wezwanie do wzięcia krzyża.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania i zaparcia się siebie, do którego wzywa Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża pokorę i świadomość własnej niegodności, co jest konieczne do zaparcia się samego siebie i pójścia za Chrystusem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem w Jego męce, co jest istotą naśladowania Go z krzyżem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "246",
+      "piesn": "Jezu, w Hostii utajony",
+      "opis": "Przyjmując Komunię, jednoczymy się z Tym, dla którego warto stracić wszystko, by zyskać życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn ten jest aktem uwielbienia dla Boga, który jest sprawiedliwym sędzią, jak głosi psalm, ale także miłosiernym Zbawicielem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za dar zbawienia, który jest cenniejszy niż wszystkie skarby świata i dla którego warto podjąć krzyż.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Radosne uwielbienie Pana, który przez krzyż prowadzi nas do życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń ta stanowi odpowiedź na retoryczne pytanie Jezusa z Ewangelii o wartość duszy w porównaniu z całym światem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Jesteśmy posłani, by iść za Chrystusem drogą krzyża, którą On sam pierwszy przeszedł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Jest to deklaracja wierności krzyżowi Chrystusa, który jest znakiem zbawienia i drogą do życia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Jest to pieśń pasyjna, która pomaga w rozważaniu tajemnicy cierpienia i krzyża w życiu chrześcijanina.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście zapowiedzi sądu i konieczności niesienia krzyża, pieśń ta przypomina o Bożej opiece i obronie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie Bogu, które jest niezbędne, aby podjąć wezwanie do zaparcia się siebie i naśladowania Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Wezwanie do nawrócenia jest pierwszym krokiem na drodze naśladowania Chrystusa, o której mówi Ewangelia.",
+      "moment": "ogolne"
+    }
+  ]
+}

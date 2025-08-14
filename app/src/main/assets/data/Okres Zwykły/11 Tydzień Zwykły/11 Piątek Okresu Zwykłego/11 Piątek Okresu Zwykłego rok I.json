@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426029.Piatek-XI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "11 Piątek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 11, 18. 21b-30",
+      "opis": "Paweł chlubi się ze swoich słabości",
+      "tekst": "Bracia:\nPonieważ wielu chlubi się według ciała - i ja będę się chlubił. Jeżeli inni zdobywają się na odwagę - mówię jak szalony - to i ja się odważam.\nHebrajczykami są? Ja także. Izraelitami są? Ja również. Potomstwem Abrahama? I ja. Są sługami Chrystusa? Zdobędę się na szaleństwo: Ja jeszcze bardziej! Bardziej przez trudy, bardziej przez więzienia; daleko bardziej przez chłosty, przez częste niebezpieczeństwa śmierci. Przez Żydów pięciokroć byłem bity po czterdzieści razów bez jednego. Trzy razy byłem sieczony rózgami, raz kamienowany, trzykrotnie byłem rozbitkiem na morzu, przez dzień i noc przebywałem na głębinie morskiej. Często w podróżach, w niebezpieczeństwach na rzekach, w niebezpieczeństwach od zbójców, w niebezpieczeństwach od własnego narodu, w niebezpieczeństwach od pogan, w niebezpieczeństwach w mieście, w niebezpieczeństwach na pustkowiu, w niebezpieczeństwach na morzu, w niebezpieczeństwach od fałszywych braci; w pracy i umęczeniu, często na czuwaniu, w głodzie i pragnieniu, w licznych postach, w zimnie i nagości, nie mówiąc już o mojej codziennej udręce płynącej z zatroskania o wszystkie Kościoły.\nKtóż odczuwa słabość, bym i ja nie czuł się słaby? Któż doznaje zgorszenia, żebym i ja nie płonął? Jeżeli już trzeba się chlubić, będę się chlubił z moich słabości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 4-5. 6-7 (R.: por. 18b)",
+      "opis": "",
+      "tekst": "Refren: Bóg sprawiedliwych wyzwala z niedoli.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nWysławiajcie razem ze mną Pana, *\nwspólnie wywyższmy Jego imię.\nSzukałem pomocy u Pana, a On mnie wysłuchał *\ni wyzwolił od wszelkiej trwogi.\nRefren.\nSpójrzcie na Niego, a rozpromienicie się radością, *\noblicza wasze nie zapłoną wstydem.\nOto zawołał biedak i Pan go usłyszał, *\ni uwolnił od wszelkiego ucisku.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 3",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ubodzy w duchu,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 6, 19-23",
+      "opis": "Gromadźcie sobie skarby w niebie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Nie gromadźcie sobie skarbów na ziemi, gdzie mól i rdza niszczą i gdzie złodzieje włamują się i kradną. Gromadźcie sobie skarby w niebie, gdzie ani mól, ani rdza nie niszczą i gdzie złodzieje nie włamują się i nie kradną. Bo gdzie jest twój skarb, tam będzie i serce twoje.\nŚwiatłem ciała jest oko. Jeśli więc twoje oko jest zdrowe, całe twoje ciało będzie rozświetlone. Lecz jeśli twoje oko jest chore, całe twoje ciało będzie w ciemności. Jeśli więc światło, które jest w tobie, jest ciemnością, jakże wielka to ciemność!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec cierpień i prześladowań, o których pisze św. Paweł, ta pieśń jest wyrazem głębokiej ufności w Bożą opiekę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "W obliczu trudów i prześladowań, o których mówi św. Paweł, ta pieśń wyraża pragnienie bliskości z Bogiem jako źródłem siły.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "616",
+      "piesn": "Pan nie opuszcza nigdy",
+      "opis": "Pieśń jest zapewnieniem o Bożej pomocy, która podtrzymywała św. Pawła w jego cierpieniach dla Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na wezwanie do gromadzenia skarbów w niebie, ta pieśń jest aktem ofiarowania Bogu serca jako największego skarbu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Ewangelia wzywa do radykalnej walki z grzechem; ta pieśń jest prośbą o czyste serce, które możemy ofiarować Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serce, prosząc, by było ono naszym jedynym skarbem, zgodnie z nauką Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża postawę człowieka, który uznaje swoją słabość i odnajduje swój jedyny skarb w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "W Komunii Świętej przyjmujemy nasz największy Skarb, w którym pokładamy całą naszą wiarę i nadzieję.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest skarbem, który otrzymujemy od Boga, umacniającym nas w drodze do nieba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest ofiarą pochwalną, do której złożenia wzywa psalmista w podzięce za ocalenie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za Jego nieustanną opiekę i wyzwolenie z ucisku, o którym świadczy psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która jest odpowiedzią na doświadczenie Bożej dobroci i wyzwolenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Zakończenie liturgii jest posłaniem, by w codziennym życiu nasze serca były tam, gdzie jest nasz skarb - blisko Boga.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Prosimy, aby Chrystus był Królem naszych serc, które są naszym jedynym skarbem w niebie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy w naszym życiu potrafili gromadzić skarby w niebie, a nie na ziemi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Nawiązuje do słów św. Pawła o noszeniu w ciele konania Jezusa, aby objawiło się w nas Jego życie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "Pieśń jest wyznaniem, że jedynym naszym skarbem i Królem, któremu chcemy służyć, jest Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Aklamacja wzywa nas, byśmy byli źródłem światła w świecie, a ta pieśń wskazuje na Chrystusa jako źródło tego światła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wierność przymierzu małżeńskiemu, o której mówi Ewangelia, jest jednym z przejawów nowego przykazania miłości.",
+      "moment": "ogolne"
+    }
+  ]
+}

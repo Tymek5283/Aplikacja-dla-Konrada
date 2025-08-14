@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "25",
+      "piesn": "Po upadku człowieka grzesznego",
+      "opis": "Pieśń opowiada historię Zwiastowania, łącząc ją z obietnicą zbawienia daną po grzechu pierwszych rodziców.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "17",
+      "piesn": "Grzechem Adama ludzie uwikłani",
+      "opis": "Pieśń ta mówi o Dziewicy wybranej, przez którą Słowo stało się Ciałem, co stanowi podsumowanie tajemnicy dnia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "29",
       "piesn": "Zdrowaś bądź Maryja",
       "opis": "Pieśń o charakterze maryjnym i ofiarnym, w której wraz z Maryją oddajemy się Bogu, mówiąc 'Oto ja służebnica Pańska'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "369",
+      "piesn": "O Maryjo, przyjm w ofierze",
+      "opis": "Wraz z darami chleba i wina składamy nasze serca, naśladując fiat Maryi ze Zwiastowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń jest aktem zawierzenia Maryi, której postawę wiary i posłuszeństwa podziwiamy w Ewangelii.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
-      "numer": "25",
-      "piesn": "Po upadku człowieka grzesznego",
+      "numer": "322",
+      "piesn": "Błogosławiona jesteś, Maryjo",
+      "opis": "Pieśń jest echem słów anioła 'błogosławiona jesteś między niewiastami', co stanowi doskonałą medytację po przyjęciu Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "24",
+      "piesn": "Oto Panna pocznie",
+      "opis": "Pieśń jest echem proroctwa, które w Ewangelii znajduje swoje wypełnienie w Zwiastowaniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
       "opis": "Pieśń jest dziękczynieniem za Zwiastowanie, które jest wypełnieniem obietnic danych Dawidowi, o czym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "330",
+      "piesn": "Dnia każdego",
+      "opis": "Hymn na cześć Maryi, której rola w tajemnicy Wcielenia jest kluczowa, stanowi piękne dziękczynienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym hymnem na cześć Pana, który przychodzi, by królować na wieki, jak zapowiada anioł.",
       "moment": "uwielbienie"
     },
     {
       "numer": "18",
       "piesn": "Gwiazdo morza głębokiego",
       "opis": "Pieśń maryjna, która prosi Maryję, Matkę, o wstawiennictwo, jest odpowiednia na zakończenie Mszy, posyłając nas w świat z Jej opieką.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "15",
+      "piesn": "Czekam na Ciebie",
+      "opis": "Pieśń wyraża osobistą tęsknotę i oczekiwanie na narodziny Jezusa, co jest istotą ostatniej niedzieli Adwentu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "8",
+      "piesn": "Przyjdź, Panie Jezu",
+      "opis": "Pieśń jest ostatnim wołaniem o przyjście Pana, którego narodzenie jest już tak bliskie.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "22",
       "piesn": "Niebiosa, rosę spuśćcie",
       "opis": "Ta klasyczna pieśń adwentowa wyraża tęsknotę za Zbawicielem, którego przyjście zwiastuje anioł Gabriel.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "27",
+      "piesn": "Spuśćcie nam na ziemskie niwy",
+      "opis": "Klasyczna pieśń adwentowa, która w kontekście dzisiejszych czytań ukazuje spełnienie się odwiecznych próśb o Zbawiciela.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "W ostatnią niedzielę Adwentu ta pieśń jest wyrazem ostatecznego przygotowania na bliskie już przyjście Pana.",
       "moment": "ogolne"
     }
   ]

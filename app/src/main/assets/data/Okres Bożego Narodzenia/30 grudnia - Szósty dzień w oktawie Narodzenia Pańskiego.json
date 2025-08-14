@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/410527.30-grudnia-szosty-dzien-w-Oktawie-Narodzenia-Panskiego",
+  "tytul_dnia": "30 grudnia - Szósty dzień w oktawie Narodzenia Pańskiego",
+  "czy_datowany": true,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 J 2, 12-17",
+      "opis": "Kto wypełnia wolę Bożą, trwa na wieki",
+      "tekst": "Piszę do was, dzieci, że dostępujecie odpuszczenia grzechów ze względu na Jego imię. Piszę do was, ojcowie, że poznaliście Tego, który jest od początku. Piszę do was, młodzi, że zwyciężyliście złego.\nNapisałem do was, dzieci, że znacie Ojca, napisałem do was, ojcowie, że poznaliście Tego, który jest od początku, napisałem do was, młodzi, że jesteście mocni i że nauka Boża trwa w was, a zwyciężyliście złego.\nNie miłujcie świata ani tego, co jest na świecie. Jeśli ktoś miłuje świat, nie ma w nim miłości Ojca. Wszystko bowiem, co jest na świecie, a więc: pożądliwość ciała, pożądliwość oczu i pycha tego życia, pochodzi nie od Ojca, lecz od świata. Świat zaś przemija, a z nim jego pożądliwość; kto zaś wypełnia wolę Bożą, ten trwa na wieki.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 7-8a, 8b-9, 10",
+      "opis": "",
+      "tekst": "Refren: Niebo i ziemia niechaj się radują.\nOddajcie Panu, rodziny narodów, *\nOddajcie Panu chwałę i uznajcie Jego potęgę.\nOddajcie Panu chwałę należną Jego imieniu, *\nprzynieście dary i wejdźcie na Jego dziedzińce.\nRefren.\nUwielbiajcie Pana w świętym przybytku, *\nzadrżyj, ziemio cała, przed Jego obliczem.\nGłoście wśród ludów, że Pan jest królem, †\non świat tak utwierdził, że się nie zachwieje, *\nbędzie sprawiedliwie sądził ludy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Łk 2, 32",
+      "opis": "Alleluja, alleluja, alleluja.",
+      "tekst": "Światło na oświecenie pogan i chwałę ludu Twego, Izraela."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 2, 36-40",
+      "opis": "Anna mówiła o Jezusie wszystkim, którzy oczekiwali Mesjasza",
+      "tekst": "Gdy Rodzice przynieśli dzieciątko Jezus do świątyni, była tam również prorokini Anna, córka Fanuela z pokolenia Asera, bardzo podeszła w latach. Od swego panieństwa siedem lat żyła z mężem i pozostała wdową. Liczyła już sobie osiemdziesiąt cztery lata. Nie rozstawała się ze świątynią, służąc Bogu w postach i modlitwach dniem i nocą. Przyszedłszy w tej właśnie chwili, sławiła Boga i mówiła o Nim wszystkim, którzy oczekiwali wyzwolenia Jeruzalem.\nA gdy wypełnili wszystko według Prawa Pańskiego, wrócili do Galilei, do swego miasta - Nazaretu. Dziecię zaś rosło i nabierało mocy, napełniając się mądrością, a łaska Boża spoczywała na Nim.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosny charakter pieśni dobrze koresponduje z Psalmem responsoryjnym 'Niebo i ziemia niechaj się radują' i postawą prorokini Anny, która sławiła Boga.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń ta jest radosnym wezwaniem do chwalenia Pana, którego w świątyni rozpoznała i wielbiła prorokini Anna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "10",
+      "piesn": "W tym świętym oczekiwaniu",
+      "opis": "Pieśń mówi o Zbawicielu, który przynosi światło, a którego z radością powitała Anna w świątyni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Życie prorokini Anny było ofiarą modlitwy, a ta pieśń ofiarowuje Bogu 'wdzięczne serce' jako najlepszy dar.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W odpowiedzi na dar Zbawiciela, ofiarowujemy Mu nasze życie, prosząc, by nas strzegł od miłości do świata, o której mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń ta jest modlitwą o błogosławieństwo dla naszych darów, które składamy w imię Pana Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Pieśń ta jest aktem adoracji Jezusa, Syna Maryi, którego w świątyni rozpoznała i wielbiła prorokini Anna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa do serca, na wzór Anny, która z radością spotkała Go w świątyni.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym spotkaniem z Jezusem, którego Anna rozpoznała jako wyzwolenie Jeruzalem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Ta radosna pieśń jest echem uwielbienia prorokini Anny, wzywając cały świat do uznania w Dziecięciu swego Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Pieśń jest wezwaniem do uwielbienia Pana, którego chwałę rozgłaszają niebiosa i którego sławiła prorokini Anna.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest radosnym wezwaniem do głoszenia chwały Pana, tak jak czyniła to Anna w świątyni.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Zakończenie liturgii modlitwą o umocnienie wiary jest odpowiedzią na słowa św. Jana, że nasza wiara zwycięża świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię o Jezusie, tak jak Anna 'mówiła o Nim wszystkim, którzy oczekiwali wyzwolenia'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń mówi o miłości Chrystusa, która przemienia świat i posyła nas, byśmy byli jej świadkami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "607",
+      "piesn": "Kiedy ranne wstają zorze",
+      "opis": "Pieśń poranna, wyrażająca oddanie życia Bogu, dobrze wpisuje się w postawę Anny, która 'nie rozstawała się ze świątynią, służąc Bogu'.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Ta prosta, podobna do kolędy pieśń, dobrze oddaje tajemnicę Wcielenia, którą rozważa Kościół w oktawie Narodzenia Pańskiego.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża pragnienie i poszukiwanie Boga, które charakteryzowało Annę, służącą Mu dniem i nocą.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Utwór jest dziękczynieniem za dar poznania Zbawiciela, czego doświadczyła Anna w świątyni.",
+      "moment": "ogólne"
+    }
+  ]
+}

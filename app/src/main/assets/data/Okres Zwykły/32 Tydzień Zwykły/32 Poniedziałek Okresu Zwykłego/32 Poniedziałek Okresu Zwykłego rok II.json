@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414675.Poniedzialek-32-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "32 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Tt 1, 1-9",
+      "opis": "O przełożonych Kościoła na Krecie",
+      "tekst": "Paweł, sługa Boga i apostoł Jezusa Chrystusa, posłany, aby szerzyć wśród wybranych Bożych wiarę i poznanie prawdy wiodącej do życia w pobożności, w nadziei życia wiecznego, jakie przyobiecał przed wiekami prawdomówny Bóg, a we właściwym czasie objawił swe słowo przez nauczanie powierzone mi z rozkazu Boga, Zbawiciela naszego - do Tytusa, dziecka mego prawdziwego we wspólnej nam wierze. Łaska i pokój od Boga Ojca i Chrystusa Jezusa, Zbawiciela naszego.\nZostawiłem cię na Krecie w tym celu, byś zaległe sprawy należycie załatwił i ustanowił w każdym mieście prezbiterów. Jak ci zarządziłem, może nim zostać, jeśli ktoś jest bez zarzutu, mąż jednej żony, mający dzieci wierzące, nieobwiniane o rozpustę lub niekarność. Biskup bowiem winien być, jako włodarz Boży, człowiekiem bez zarzutu, niezarozumiałym, nieskłonnym do gniewu, nieskorym do pijaństwa i awantur, niechciwym brudnego zysku, lecz gościnnym, miłującym dobro, rozsądnym, sprawiedliwym, pobożnym, powściągliwym, przestrzegającym niezawodnej wykładni nauki, aby przekazując zdrową naukę, mógł udzielać upomnień i przekonywać opornych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 24 (23), 1b-2. 3-4b. 5-6 (R.: por. 6)",
+      "opis": "",
+      "tekst": "Refren: Oto lud wierny, szukający Boga.\nDo Pana należy ziemia i wszystko, co ją napełnia, *\nświat cały i jego mieszkańcy.\nAlbowiem On go na morzach osadził *\ni utwierdził ponad rzekami.\nRefren.\nKto wstąpi na górę Pana, *\nkto stanie w Jego świętym miejscu?\nCzłowiek rąk nieskalanych i czystego serca, *\nktórego dusza nie lgnęła do marności.\nRefren.\nOn otrzyma błogosławieństwo od Pana *\ni zapłatę od Boga, swego Zbawcy.\nOto pokolenie tych, którzy Go szukają, *\nktórzy szukają oblicza Boga Jakuba.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Flp 2, 15d. 16a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jawicie się jako źródło światła w świecie,\ntrzymając się mocno Słowa Życia."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 17, 1-6",
+      "opis": "Obowiązek przebaczania",
+      "tekst": "Jezus powiedział do swoich uczniów: «Niepodobna, żeby nie przyszły zgorszenia; lecz biada temu, przez którego przychodzą. Byłoby lepiej dla niego, gdyby kamień młyński zawieszono mu u szyi i wrzucono go w morze, niż żeby miał być powodem grzechu dla jednego z tych małych. Uważajcie na siebie!\nJeśli brat twój zawini, upomnij go; i jeśli będzie żałował, przebacz mu. I jeśliby siedem razy na dzień zawinił przeciw tobie i siedem razy zwrócił się do ciebie, mówiąc: „Żałuję tego”, przebacz mu».\nApostołowie prosili Pana: «Dodaj nam wiary». Pan rzekł: «Gdybyście mieli wiarę jak ziarnko gorczycy, powiedzielibyście tej morwie: „Wyrwij się z korzeniem i przesadź się w morze”, a byłaby wam posłuszna».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest bezpośrednią odpowiedzią na prośbę Apostołów z Ewangelii: 'Dodaj nam wiary'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Psalm mówi o pokoleniu szukającym Boga, a ta pieśń jest osobistym wyrazem tego poszukiwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń jest aktem zawierzenia i prośbą o prowadzenie, co jest postawą godną sługi Bożego opisanego w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Ewangelia wzywa do przebaczenia bratu, a ta pieśń jest modlitwą o przebaczenie naszych win, byśmy i my potrafili przebaczać.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń eucharystyczna, która podkreśla, że Bóg stał się pokarmem dla nas, co jest największym dowodem Jego miłości i podstawą naszej wiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej ofierze prosimy o przemianę naszych serc, abyśmy potrafili żyć wiarą i przebaczeniem, do których wzywa Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Wiara, o którą proszą Apostołowie, jest fundamentem życia chrześcijańskiego, a ta pieśń jest osobistym wyznaniem tej wiary.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa do serca, aby umocnił wiarę, która jest zdolna przenosić góry i przebaczać siedemdziesiąt siedem razy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus w Eucharystii zaspokaja najgłębsze pragnienia serca, w tym pragnienie wzrostu w wierze, o które prosili apostołowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary i miłości, które pozwalają nam przezwyciężać zgorszenia i trwać w jedności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn dziękczynny za dar Kościoła i jego pasterzy, których cechy opisuje św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą łaskę, która uzdalnia nas do życia w wierze i przebaczeniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o błogosławieństwo, abyśmy idąc w świat, byli ludem czystego serca, jak opisuje psalmista i św. Paweł w liście do Tytusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Posłaniem po dzisiejszej liturgii jest życie w miłości, która wyraża się w gotowości do przebaczenia, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Misją Kościoła, w tym prezbiterów z pierwszego czytania, jest głoszenie Ewangelii i nauczanie, do czego wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Wezwanie do przebaczenia z Ewangelii jest częścią przykazania miłości, które jest tematem tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pierwsze czytanie mówi o ustanowieniu prezbiterów, a ta pieśń podkreśla kapłański wymiar całego Ludu Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wezwanie do przebaczania innym nierozerwalnie łączy się z naszą potrzebą Bożego przebaczenia, o które prosimy w tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem do Boga o pomoc i wskazanie drogi, co jest wyrazem wiary, o którą proszą apostołowie.",
+      "moment": "ogolne"
+    }
+  ]
+}

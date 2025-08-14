@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426076.Piatek-XII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "12 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Krl 25, 1-12",
+      "opis": "Zburzenie Jerozolimy i drugie przesiedlenie do Babilonu",
+      "tekst": "W dziewiątym roku panowania Sedecjasza, dziesiątego miesiąca i dziesiątego dnia miesiąca wyruszył król babiloński, Nabuchodonozor, z całym swym wojskiem przeciw Jerozolimie, oblegał ją, budując dokoła niej wały oblężnicze. Miasto było oblężone aż do jedenastego roku panowania króla Sedecjasza. W czwartym zaś miesiącu, dziewiątego dnia miesiąca, kiedy głód srożył się w mieście i nie było już chleba dla ludności kraju, uczyniono wyłom w murze miasta.\nWszyscy wojownicy uciekli z miasta nocą przez bramę między podwójnym murem powyżej ogrodów królewskich. Chaldejczycy zaś znajdowali się dokoła miasta. Wyszli więc drogą prowadzącą ku Arabie. Lecz wojsko chaldejskie ścigało króla i dopędziło go na stepie Jerycha, całe zaś jego wojsko opuściło go i poszło w rozsypkę. Schwytali więc króla i zaprowadzili go do króla babilońskiego, do Ribla, i wydali na niego wyrok. Synów Sedecjasza zabito na jego oczach, a król babiloński kazał wyłupić oczy Sedecjaszowi i zakuć go w podwójne kajdany z brązu. Potem uprowadził go do Babilonu.\nW piątym zaś miesiącu, siódmego dnia miesiąca - był to dziewiętnasty rok panowania króla babilońskiego, Nabuchodonozora - wkroczył do Jerozolimy Nebuzaradan, dowódca straży przybocznej, sługa króla babilońskiego. Spalił świątynię Pańską, pałac królewski i wszystkie domy Jerozolimy - wszystkie wielkie domy spalił. Całe zaś wojsko chaldejskie, które było z dowódcą straży przybocznej, zburzyło mur dokoła Jerozolimy. Resztę zaś ludności, która pozostała w mieście, i zbiegów, którzy przeszli do króla babilońskiego, oraz pozostały tłum Nebuzaradan, dowódca straży przybocznej, uprowadził na wygnanie. Lecz spośród ubogiej ludności kraju dowódca straży przybocznej pozostawił niektórych do uprawy winnic i roli.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 137 (136), 1-2. 3. 4-5. 6 (R.: por. 6b)",
+      "opis": "",
+      "tekst": "Refren: Kościele święty, nie zapomnę ciebie.\nNad rzekami Babilonu siedzieliśmy, *\npłacząc na wspomnienie Syjonu.\nNa topolach tamtej krainy *\nzawiesiliśmy nasze harfy.\nRefren.\nBo ci, którzy nas uprowadzili, *\nżądali od nas pieśni.\nNasi gnębiciele żądali pieśni radosnej: *\n«Zaśpiewajcie nam którąś z pieśni syjońskich!»\nRefren.\nJakże możemy śpiewać pieśń Pańską *\nw obcej krainie?\nJeruzalem, jeśli zapomnę o tobie, *\nniech uschnie moja prawica.\nRefren.\nNiech mi język przyschnie do gardła, *\njeśli nie będę o tobie pamiętał,\njeśli nie wyniosę Jeruzalem *\nponad wszelką swoją radość.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 8, 17",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus wziął na siebie nasze słabości\ni dźwigał nasze choroby."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 8, 1-4",
+      "opis": "Uzdrowienie trędowatego",
+      "tekst": "Gdy Jezus zszedł z góry, postępowały za Nim wielkie tłumy. A oto podszedł trędowaty i upadł przed Nim, mówiąc: «Panie, jeśli chcesz, możesz mnie oczyścić». Jezus wyciągnął rękę, dotknął go i rzekł: «Chcę, bądź oczyszczony! » I natychmiast został oczyszczony z trądu.\nJezus powiedział do niego: «Uważaj, nie mów o tym nikomu, ale idź, pokaż się kapłanowi i złóż ofiarę, którą przepisał Mojżesz, na świadectwo dla nich».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Pieśń wyraża tęsknotę za niebieską ojczyzną, która jest echem lamentu psalmisty nad zburzoną Jerozolimą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec zniszczenia i wygnania, ta pieśń wyraża nadzieję i wołanie do Boga z głębokości, podobnie jak psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Jest to modlitwa duszy tęskniącej za Syjonem, która szuka u Boga ratunku w ucisku.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec obrazu zniszczenia, będącego karą za grzechy, ta pieśń jest aktem pokuty i prośbą o miłosierdzie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "111",
+      "piesn": "Przepuść, Panie",
+      "opis": "Litanijna prośba o przebaczenie jest adekwatną odpowiedzią na opis kary za grzechy narodu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "W obliczu sądu Bożego, ofiarujemy Bogu skruszone serce, prosząc o miłosierdzie, a nie o sprawiedliwą karę.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę trędowatego, który z wiarą i pokorą prosi Jezusa o oczyszczenie, a my prosimy o to w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "W Komunii prosimy Jezusa, by przyszedł i oczyścił nasze serca, tak jak oczyścił trędowatego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i pokorę w oczekiwaniu na przyjście Pana, który ma moc uzdrawiania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Jest to pieśń dziękczynna za dar uzdrowienia i oczyszczenia, którego doświadczył trędowaty w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynna pieśń za uzdrowienie i Bożą pomoc jest doskonałą odpowiedzią na cud opisany w dzisiejszej Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Mimo lamentu psalmisty, my, znając moc Chrystusa, możemy z radością wielbić Boga za Jego zbawcze dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "W obliczu zniszczenia i wygnania, jedyną nadzieją jest zaufanie Bogu, który w Jezusie objawia swoją uzdrawiającą moc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Uzdrowiony trędowaty został posłany do kapłana na świadectwo; my również jesteśmy posłani, by świadczyć o mocy Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o Boże błogosławieństwo, abyśmy mogli być świadkami Jego uzdrawiającej miłości w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "101",
+      "piesn": "Boże, Ojcze Wszechmogący",
+      "opis": "Trąd jest symbolem grzechu, dlatego ta litanijna prośba o miłosierdzie jest adekwatna do prośby o oczyszczenie duchowe.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Nawet w doświadczeniu wygnania i cierpienia, pieśń ta przypomina o niezawodnej opiece i wierności Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Pieśń jest wołaniem o litość i odpuszczenie grzechów, które doprowadziły do upadku narodu wybranego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "209",
+      "piesn": "W każdym strapieniu i o każdej porze",
+      "opis": "Pieśń o Bożym miłosierdziu, które jest źródłem nadziei i uzdrowienia dla wszystkich cierpiących.",
+      "moment": "ogolne"
+    }
+  ]
+}

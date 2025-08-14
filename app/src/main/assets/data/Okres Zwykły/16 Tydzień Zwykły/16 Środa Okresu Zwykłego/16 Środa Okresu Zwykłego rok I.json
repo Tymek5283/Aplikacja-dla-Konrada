@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430389.Sroda-XVI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "16 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 16, 1-5. 9-15",
+      "opis": "Bóg zsyła mannę",
+      "tekst": "Synowie Izraela wyruszyli z Elim. Przybyło zaś całe zgromadzenie Izraelitów na pustynię Sin, położoną między Elim a Synajem, piętnastego dnia drugiego miesiąca od ich wyjścia z ziemi egipskiej.\nI zaczęło szemrać na pustyni całe zgromadzenie Izraelitów przeciw Mojżeszowi i przeciw Aaronowi. Izraelici mówili im: «Obyśmy pomarli z ręki Pana w ziemi egipskiej, gdzie zasiadaliśmy przed garnkami mięsa i jadaliśmy chleb do syta! Wyprowadziliście nas na tę pustynię, aby głodem zamorzyć całą tę rzeszę».\nPan powiedział wówczas do Mojżesza: «Oto ześlę wam chleb z nieba, jak deszcz. I będzie wychodził lud, i każdego dnia będzie zbierał według potrzeby dziennej. Chcę ich także doświadczyć, czy pójdą za moimi rozkazami czy też nie. Lecz szóstego dnia zrobią zapas tego, co przyniosą, a będzie to podwójna ilość tego, co będą zbierać codziennie».\nMojżesz rzekł do Aarona: «Powiedz całemu zgromadzeniu Izraelitów: Przybliżcie się do Pana, gdyż słyszał wasze szemrania». Gdy Aaron przemawiał do całego zgromadzenia Izraelitów, spojrzeli ku pustyni i ukazała się im w obłoku chwała Pana.\nI przemówił Pan do Mojżesza tymi słowami: «Słyszałem szemranie Izraelitów. Powiedz im tak: O zmierzchu będziecie jeść mięso, a rano nasycicie się chlebem. Poznacie wtedy, że Ja, Pan, jestem waszym Bogiem».\nRzeczywiście wieczorem przyleciały przepiórki i pokryły obóz, a nazajutrz rano warstwa rosy leżała dokoła obozu. Gdy się warstwa rosy uniosła ku górze, wówczas na pustyni leżało coś drobnego, ziarnistego, niby szron na ziemi.\nNa widok tego Izraelici pytali się wzajemnie: «Co to jest?» - gdyż nie wiedzieli, co to było.\nWtedy powiedział do nich Mojżesz: «To jest chleb, który daje wam Pan na pokarm».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 78 (77), 18-19. 23-24. 25-26. 27-28 (R.: por. 24b)",
+      "opis": "",
+      "tekst": "Refren: Pokarmem z nieba Pan swój lud obdarzył.\nNa próbę wystawiali w sercach swoich Boga, *\nżądając strawy dla swego łakomstwa.\nMówili przeciw Bogu: *\n«Czyż Bóg potrafi stół zastawić na pustyni?»\nRefren.\nOn z góry wydał rozkaz chmurom *\ni bramę nieba otworzył.\nJak deszcz spuścił mannę do jedzenia, *\npodarował im chleb niebieski.\nRefren.\nSpożywał człowiek chleb aniołów, *\nBóg zesłał im pokarm do syta.\nWzbudził na niebie wiatr od wschodu, *\nmocą swą przywiódł wiatr południowy.\nRefren.\nI zesłał na nich mięso, jak chmurę pyłu, *\nptaki skrzydlate, jak morski piasek.\nSprawił, że pospadały na ich obóz, *\ndokoła ich namiotów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 13, 1-9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 1-9",
+      "opis": "Przypowieść o siewcy",
+      "tekst": "Owego dnia Jezus wyszedł z domu i usiadł nad jeziorem. Wnet zebrały się koło Niego tłumy tak wielkie, że wszedł do łodzi i usiadł, a cały lud stał na brzegu. I mówił im wiele w przypowieściach tymi słowami:\n«Oto siewca wyszedł siać. A gdy siał, jedne ziarna padły na drogę, nadleciały ptaki i wydziobały je. Inne padły na grunt skalisty, gdzie niewiele miały ziemi; i wnet powschodziły, bo gleba nie była głęboka. Lecz gdy słońce wzeszło, przypaliły się i uschły, bo nie miały korzenia. Inne znowu padły między ciernie, a ciernie wybujały i zagłuszyły je. Inne wreszcie padły na ziemię żyzną i plon wydały, jedno stokrotny, drugie sześćdziesięciokrotny, a inne trzydziestokrotny. Kto ma uszy, niechaj słucha!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta jest wyrazem zaufania w Bożą opatrzność, która karmi swój lud, co stanowi główny temat pierwszego czytania o mannie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wobec szemrania Izraelitów, pieśń ta przypomina o szczęściu płynącym z zaufania Bożej Opatrzności.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest zaproszeniem do oddania czci Bogu, który objawia swoją chwałę i troszczy się o swój lud.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowujemy Bogu chleb i wino, owoce ziemi, prosząc, by stały się one duchowym pokarmem, tak jak manna na pustyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc, by On karmił nas jak Izraelitów na pustyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest dziękczynną ofiarą za dary Boże, w tym za chleb z nieba, o którym mówią czytania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Manna na pustyni była zapowiedzią Eucharystii – prawdziwego Chleba z nieba, który jest pokarmem dla naszej duszy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta bezpośrednio łączy temat chleba powszedniego z Chlebem Eucharystycznym, który jest darem miłości Boga.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "281",
+      "piesn": "Witaj, Pokarmie",
+      "opis": "Pieśń jest adoracją Eucharystii jako 'Manny z niebiosów', co jest bezpośrednim nawiązaniem do pierwszego czytania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "233",
+      "piesn": "Bądźże pozdrowiona",
+      "opis": "Adoracja Chrystusa w Najświętszym Sakramencie jest odpowiedzią na Jego dar z samego siebie, zapowiedziany przez 'chleb aniołów'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Psalm opowiada o cudownym pokarmie na pustyni, a ta pieśń jest radosnym uwielbieniem za wszystkie Boże dary.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar Eucharystii, która jest wypełnieniem obietnicy chleba z nieba.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Pieśń ta łączy w sobie temat manny i Eucharystii, podkreślając, że Chrystus zaprasza nas na Ucztę, która daje życie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nakramieni Chlebem Życia, jesteśmy posłani, by być siewcami Słowa Bożego w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo, abyśmy, nakarmieni Chlebem z nieba, mogli wydawać dobre owoce w naszym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Wobec szemrania i braku zaufania Izraelitów, pieśń ta przypomina o konieczności ufności w Bożą opiekę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń jest wyrazem pragnienia Boga, które On sam zaspokaja, dając nam swoje Słowo i Chleb z nieba.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Bóg zaspokaja głód swojego ludu na pustyni, a w Eucharystii zaspokaja najgłębsze pragnienia naszych serc.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, którego zabrakło szemrzącym Izraelitom na pustyni.",
+      "moment": "ogolne"
+    }
+  ]
+}

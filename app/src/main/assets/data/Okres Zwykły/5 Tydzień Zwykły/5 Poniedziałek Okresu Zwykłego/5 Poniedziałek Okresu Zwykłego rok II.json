@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415573.Poniedzialek-V-tydzien-zwykly-rok-II",
+  "tytul_dnia": "5 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Krl 8, 1-7. 9-13",
+      "opis": "Przeniesienie Arki Przymierza do świątyni Salomona",
+      "tekst": "Salomon zwołał starszyznę Izraela, wszystkich naczelników pokoleń, przywódców rodów Izraelitów, aby zgromadzili się przy królu Salomonie w Jerozolimie na przeniesienie Arki Przymierza Pańskiego z Miasta Dawidowego, czyli z Syjonu. Zebrali się więc u króla Salomona wszyscy Izraelici w miesiącu Etanim, na Święto Namiotów przypadające w siódmym miesiącu. Kiedy przyszła cała starszyzna Izraela, kapłani wzięli arkę i przenieśli Arkę Pańską, Namiot Spotkania i wszystkie święte sprzęty, jakie były w namiocie. Przenieśli je kapłani oraz lewici.\nA król Salomon i cała społeczność Izraela, zgromadzona przy nim, przed arką składali wraz z nim na ofiarę owce i woły, których nie rachowano i nie obliczano z powodu wielkiej ich liczby. Następnie kapłani wprowadzili Arkę Przymierza Pańskiego na jej miejsce do sanktuarium świątyni, do Miejsca Najświętszego, pod skrzydła cherubów, gdyż cheruby miały tak rozpostarte skrzydła nad miejscem arki, że okrywały arkę i jej drążki z wierzchu. W arce nie było nic, oprócz dwóch kamiennych tablic, które Mojżesz tam złożył pod Horebem, tablic Przymierza, gdy Pan zawarł przymierze z Izraelitami w czasie ich wyjścia z ziemi egipskiej.\nA kiedy kapłani wyszli z Miejsca Świętego, obłok wypełnił dom Pański. Kapłani nie mogli pozostać i pełnić swej służby z powodu tego obłoku, bo chwała Pańska napełniła dom Pański.\nWtedy przemówił Salomon: «Pan powiedział, że będzie mieszkać w czarnej chmurze. Już zbudowałem Ci dom na mieszkanie, miejsce przebywania Twego na wieki».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 132 (131), 6-7. 9-10 (R.: por. 8a)",
+      "opis": "",
+      "tekst": "Refren: Wyrusz, o Panie, na miejsce spocznienia.\nSłyszeliśmy o arce w Efrata, *\nznaleźliśmy ją na polach Jaaru.\nWejdźmy do Jego mieszkania, *\npadnijmy przed podnóżkiem stóp Jego.\nRefren.\nNiech Twoi kapłani w sprawiedliwość się odzieją, *\na Twoi wyznawcy niech śpiewają z radości.\nPrzez wzgląd na Dawida, Twego sługę, *\nnie odtrącaj oblicza swojego pomazańca.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 53-56",
+      "opis": "Jezus uzdrawia chorych",
+      "tekst": "Gdy Jezus i uczniowie Jego się przeprawili, przypłynęli do ziemi Genezaret i przybili do brzegu. Skoro wysiedli z łodzi, zaraz Go rozpoznano. Ludzie biegali po całej owej okolicy i zaczęli znosić na noszach chorych tam, gdzie jak słyszeli, przebywa. I gdziekolwiek wchodził do wsi, do miast czy osad, kładli chorych na otwartych miejscach i prosili Go, żeby ci choć frędzli u Jego płaszcza mogli dotknąć. A wszyscy, którzy się Go dotknęli, odzyskiwali zdrowie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do wejścia do domu Pana, co jest głównym tematem pierwszego czytania i psalmu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Nawiązuje bezpośrednio do psalmu responsoryjnego oraz modlitwy Salomona, wyrażając radość z przebywania w domu Bożym.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "238",
+      "piesn": "Idzie, idzie Bóg prawdziwy",
+      "opis": "Pieśń ta oddaje atmosferę uroczystego wprowadzenia Arki Przymierza do świątyni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wyraża ofiarowanie darów Bogu, którego chwała napełniła świątynię jerozolimską.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Prosimy Boga o przyjęcie naszej ofiary, tak jak przyjął ofiary Salomona przy poświęceniu świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Jest to prosta modlitwa o przyjęcie ofiary, która jest znakiem naszej czci dla Boga mieszkającego w świątyni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, której doświadczali ludzie w ziemi Genezaret.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Wyraża pragnienie przyjęcia Jezusa, który jest prawdziwą Świątynią i źródłem uzdrowienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w Chrystusa, który przychodzi z mocą uzdrawiania, jak w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "605",
+      "piesn": "Jak miłe przybytki",
+      "opis": "Pieśń uwielbienia dla Boga, który mieszka pośród swego ludu, zarówno w świątyni, jak i w osobie Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga, którego chwała napełniła świątynię i objawiła się w cudach Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, który jest obecny w swoim domu i pośród swojego ludu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Jest to zaproszenie do Jezusa, który jest źródłem uzdrowienia i pociechy, jak w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po spotkaniu z Bogiem w Jego domu, prosimy o błogosławieństwo na naszą codzienną pracę i świadectwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest modlitwą o jedność ludu Bożego, który gromadzi się w świątyni Pana.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "590",
+      "piesn": "Boże mocny, Boże cudów",
+      "opis": "Pieśń sławi Boga za Jego cuda, a za takie cuda uznawano uzdrowienia, których dokonywał Jezus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje postawę ludzi, którzy z wiarą znosili chorych do Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa o Kościół, który jest nową świątynią, miejscem obecności Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń ta jest wyrazem zaufania do wszechmocnego Pana, który wysłuchuje modlitw i uzdrawia.",
+      "moment": "ogolne"
+    }
+  ]
+}

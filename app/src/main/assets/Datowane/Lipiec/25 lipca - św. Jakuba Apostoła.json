@@ -12,8 +12,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 116B,10-11.12-13.15-16.17-18",
-      "opis": "Refren:",
-      "tekst": "Cenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nCenna jest w oczach Pana\nśmierć jego wyznawców.\nPanie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy,\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana\nprzed Jego ludem."
+      "opis": "",
+      "tekst": "Refren:\nCenna przed Panem śmierć Jego wyznawców.\nUfność miałem nawet wtedy, gdy mówiłem:\n„Jestem w wielkim ucisku”.\nI zalękniony wołałem:\n„Każdy człowiek jest kłamcą”.\nCzym się Bogu odpłacę\nza wszystko, co mi wyświadczył?\nPodniosę kielich zbawienia\ni wezwę imienia Pana.\nCenna jest w oczach Pana\nśmierć jego wyznawców.\nPanie, jestem Twoim sługą,\nTwym sługą, synem Twojej służebnicy,\nTy rozerwałeś moje kajdany.\nTobie złożę ofiarę pochwalną\ni wezwę imienia Pana.\nWypełnię me śluby dla Pana\nprzed Jego ludem."
     },
     {
       "typ": "AKLAMACJA",
@@ -36,9 +36,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Pieśń dziękczynna za dar świętego patrona, który swoim życiem i męczeństwem dał świadectwo wiary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla, że Kościół jest ludem Bożym, zgromadzonym dzięki nauczaniu i świadectwu Apostołów.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "489",
       "piesn": "Ciebie, Jakubie, sławimy",
       "opis": "Pieśń bezpośrednio dedykowana św. Jakubowi, która opowiada o jego powołaniu i misji, doskonale pasuje na moment przygotowania darów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, składamy Bogu nasze życie, na wzór św. Jakuba, który swoje życie oddał na okup za wielu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i naśladowaniu Chrystusa, co jest istotą życia każdego apostoła, w tym także św. Jakuba.",
       "moment": "ofiarowanie"
     },
     {
@@ -48,15 +72,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus, który wzywa do służby, sam staje się pokarmem dla swoich sług.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia buduje wspólnotę, w której nie ma wywyższania się, lecz wzajemna służba, o czym nauczał Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
       "numer": "613",
       "piesn": "Panie mój, cóż Ci oddać",
       "opis": "Wyraża dziękczynienie za Boże łaski i powołanie, co jest echem wdzięczności za dar życia i misji apostoła Jakuba.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności za Boże dary, w tym za dar apostołów, którzy przekazali nam wiarę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Osobista pieśń uwielbienia, która jest odpowiedzią na Bożą wierność, objawioną w życiu i męczeństwie św. Jakuba.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń przypomina o misyjnym posłaniu apostołów, które św. Jakub wypełnił, głosząc Ewangelię i oddając życie za Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wezwanie do głoszenia imienia Pana jest misją, którą apostołowie, w tym św. Jakub, podjęli po Zesłaniu Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo w służbie Bogu i ludziom, na wzór św. Jakuba, który stał się sługą wszystkich.",
       "moment": "rozeslanie"
     },
     {
@@ -69,6 +129,18 @@
       "numer": "639",
       "piesn": "Nie rzucim, Chryste",
       "opis": "Pieśń o wierności Chrystusowi, która odzwierciedla postawę św. Jakuba gotowego 'pić kielich' męki Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń głosi, że Chrystus jest nadzieją, która zwycięża śmierć, co jest fundamentem męstwa apostołów-męczenników.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń o przykazaniu miłości, która jest fundamentem postawy służby, do jakiej Jezus wzywa swoich uczniów w Ewangelii.",
       "moment": "ogolne"
     }
   ]

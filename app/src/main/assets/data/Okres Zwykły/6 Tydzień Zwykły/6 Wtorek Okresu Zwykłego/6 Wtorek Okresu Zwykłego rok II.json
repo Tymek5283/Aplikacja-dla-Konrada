@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416122.Wtorek-VI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "6 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 1, 12-18",
+      "opis": "Bóg nikogo nie kusi do złego",
+      "tekst": "Błogosławiony mąż, który oprze się pokusie: gdy zostanie poddany próbie, otrzyma wieniec życia, obiecany przez Pana tym, którzy Go miłują.\nKto doznaje pokusy, niech nie mówi: «Bóg mnie kusi». Bóg bowiem ani nie podlega pokusie do zła, ani też nikogo nie kusi. To własna pożądliwość wystawia każdego na pokusę i nęci. Następnie pożądliwość, gdy pocznie, rodzi grzech, a skoro grzech dojrzeje, przynosi śmierć. Nie dajcie się zwodzić, bracia moi umiłowani!\nKażde dobro, jakie otrzymujemy, i wszelki dar doskonały zstępują z góry, od Ojca świateł, u którego nie ma przemiany ani cienia zmienności. Ze swej woli zrodził nas przez słowo prawdy, byśmy byli jakby pierwocinami Jego stworzeń.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 94 (93), 12-13a. 14-15. 18-19 (R.: por. 12)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony, kogo Ty pouczasz.\nBłogosławiony mąż, którego Ty wychowujesz, Panie, *\ni pouczasz swoim prawem,\naby mu dać wytchnienie *\nw dniach nieszczęśliwych.\nRefren.\nPan nie odpycha swojego ludu *\ni nie porzuca swojego dziedzictwa.\nSąd się zwróci ku sprawiedliwości, *\npójdą za nią wszyscy ludzie prawego serca.\nRefren.\nA kiedy myślę: «Moja noga się chwieje», *\nwtedy mnie wspiera Twoja łaska, Panie.\nGdy w moim sercu mnożą się niepokoje, *\nTwoja pociecha orzeźwia mą duszę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 8, 14-21",
+      "opis": "Strzeżcie się kwasu faryzeuszów",
+      "tekst": "Uczniowie Jezusa zapomnieli zabrać chleby i tylko jeden chleb mieli z sobą w łodzi. Wtedy im przykazał: Uważajcie, strzeżcie się kwasu faryzeuszów i kwasu Heroda!»\nA oni zaczęli rozprawiać między sobą o tym, że nie mają chlebów. Jezus zauważył to i rzekł do nich: «Czemu rozprawiacie o tym, że nie macie chlebów? Jeszcze nie pojmujecie i nie rozumiecie, tak otępiałe są wasze umysły? Mając oczy, nie widzicie; mając uszy, nie słyszycie? Nie pamiętacie, ile zebraliście koszów pełnych ułomków, kiedy połamałem pięć chlebów dla pięciu tysięcy?» Odpowiedzieli Mu: «Dwanaście». «A kiedy połamałem siedem chlebów dla czterech tysięcy, ile zebraliście koszów pełnych ułomków?» Odpowiedzieli: «Siedem».\nI rzekł im: «Jeszcze nie rozumiecie?»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o zaufaniu Bogu, które jest siłą w przezwyciężaniu pokus, o których mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla błogosławieństwo płynące z oparcia się pokusie i zaufania Bogu, co jest tematem czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża wołanie duszy w utrapieniu i prośbę o Bożą pomoc, co jest odpowiedzią na doświadczenia opisane w czytaniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę oddania się Bogu, który jest źródłem wszelkiego dobra i chroni od zła.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc o mądrość i siłę do przezwyciężania pokus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem oddania się Bogu, który jest źródłem wszelkiego dobra i pociechy w doświadczeniach.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Nawiązuje do rozmnożenia chleba, o którym Jezus przypomina w Ewangelii, jako znaku Bożej opatrzności.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta ukazuje Jezusa jako prawdziwy Chleb z nieba, który chroni nas przed kwasem faryzeuszów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Identyfikuje Jezusa jako Chleb, który daje nam życie i prawdziwe zrozumienie, w przeciwieństwie do uczniów z Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń dziękczynna za dary Boże, o których mówi św. Jakub, że zstępują od Ojca świateł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Wyraża wdzięczność za Bożą łaskę i pociechę, o której mówi psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar wiary i Bożą opiekę w doświadczeniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Jest to modlitwa o zrozumienie i wiarę, której brakowało uczniom w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jesteśmy posłani, by iść drogą Chrystusa, strzegąc się kwasu obłudy i fałszu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po usłyszeniu ostrzeżenia Jezusa, prosimy o błogosławieństwo, byśmy mogli żyć w prawdzie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla błogosławieństwo płynące z oparcia się pokusie i zaufania Bogu, co jest tematem czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wyraża pragnienie bliskości z Bogiem, która chroni przed pokusami i niezrozumieniem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń o zaufaniu Bogu, które jest niezbędne do przezwyciężenia prób i pokus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do błogosławieństwa dla człowieka, który opiera się pokusie i trwa w wierności Bogu.",
+      "moment": "ogolne"
+    }
+  ]
+}

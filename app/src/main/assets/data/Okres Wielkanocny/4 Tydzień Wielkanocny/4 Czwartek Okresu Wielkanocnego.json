@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413314.Czwartek-IV-tygodnia-wielkanocnego",
+  "tytul_dnia": "4 Czwartek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 13, 13-25",
+      "opis": "Z potomstwa Dawida wywiódł Bóg Zbawiciela Jezusa",
+      "tekst": "Odpłynąwszy z Pafos, Paweł i jego towarzysze przybyli do Perge w Pamfilii, a Jan wrócił do Jerozolimy, odłączając się od nich.\nOni zaś przeszli przez Perge, dotarli do Antiochii Pizydyjskiej, weszli w dzień szabatu do synagogi i usiedli. Po odczytaniu Prawa i Proroków przełożeni synagogi posłali do nich ze słowami: «Przemówcie, bracia, jeżeli macie jakieś słowo zachęty dla ludu».\nWstał więc Paweł i skinąwszy ręką, przemówił:\n«Słuchajcie, Izraelici, i wy, którzy boicie się Boga! Bóg tego ludu izraelskiego wybrał ojców naszych i wywyższył lud na obczyźnie w ziemi egipskiej, i wyprowadził go z niej mocnym ramieniem. Niemal czterdzieści lat znosił cierpliwie ich obyczaje na pustyni. I wytępiwszy siedem szczepów w ziemi Kanaan, oddał im ziemię ich w dziedzictwo, po około czterystu pięćdziesięciu latach. A potem dał im sędziów aż do proroka Samuela.\nPóźniej poprosili o króla, i dał im Bóg na lat czterdzieści Saula, syna Kisza, z pokolenia Beniamina. Gdy zaś jego odrzucił, powołał Dawida na ich króla, o którym też dał świadectwo w słowach: „Znalazłem Dawida, syna Jessego, człowieka po mojej myśli, który we wszystkim wypełni moją wolę”.\nZ jego to potomstwa, stosownie do obietnicy, wywiódł Bóg Izraelowi Zbawiciela Jezusa. Przed Jego przyjściem Jan głosił chrzest nawrócenia całemu ludowi izraelskiemu. A pod koniec swojej działalności Jan mówił: „Ja nie jestem tym, za kogo mnie uważacie. Po mnie przyjdzie Ten, któremu nie jestem godny rozwiązać sandałów na nogach”».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 2-3. 21-22. 25 i 27 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Na wieki będę sławił łaski Pana.\nO łaskach Pana będę śpiewał na wieki, †\nTwą wierność będę głosił moimi ustami *\nprzez wszystkie pokolenia.\nAlbowiem powiedziałeś: †\n«Na wieki ugruntowana jest łaska», *\nutrwaliłeś swą wierność w niebiosach.\nRefren.\n«Znalazłem Dawida, mojego sługę, *\nnamaściłem go moim świętym olejem,\nby ręka moja zawsze przy nim była *\ni umacniało go moje ramię».\nRefren.\n«Z nim moja wierność i łaska, *\nw moim imieniu jego moc wywyższona.\nOn będzie wołał do Mnie: †\n„Ty jesteś moim Ojcem, *\nmoim Bogiem, Opoką mojego zbawienia”».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ap 1, 5",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezu Chryste, Ty jesteś Świadkiem Wiernym, Pierworodnym wśród umarłych;\numiłowałeś nas i przez krew swoją uwolniłeś nas od grzechów."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 13, 16-20",
+      "opis": "Kto przyjmuje tego, którego Ja poślę, Mnie przyjmuje",
+      "tekst": "Kiedy Jezus umył uczniom nogi, powiedział im: «Zaprawdę, zaprawdę, powiadam wam: Sługa nie jest większy od swego pana ani wysłannik od tego, który go posłał. Wiedząc to, będziecie błogosławieni, gdy według tego czynić będziecie.\nNie mówię o was wszystkich. Ja wiem, których wybrałem; lecz trzeba, aby się wypełniło Pismo: „Kto ze Mną spożywa chleb, ten podniósł na Mnie swoją piętę”. Już teraz, zanim się to stanie, mówię wam, abyście gdy się stanie, uwierzyli, że Ja jestem.\nZaprawdę, zaprawdę, powiadam wam: Kto przyjmuje tego, którego Ja poślę, Mnie przyjmuje. A kto Mnie przyjmuje, przyjmuje Tego, który Mnie posłał».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w Zmartwychwstałego, o którym z mocą naucza św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń ta wyraża radość ze Zmartwychwstania, które jest centralnym punktem nauczania Pawła w Antiochii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który posyła swoich uczniów, aby Go przyjmowali i świadczyli o Nim.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Nawiązuje do misji apostolskiej, o której Jezus mówi w Ewangelii: 'wysłannik' i 'ten, który go posłał'.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Pieśń ta podkreśla godność ludu Bożego, który jest posłany przez Chrystusa, aby głosić Ewangelię.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Utwór ten mówi o kapłaństwie i posłudze sakramentalnej, przez którą Chrystus kontynuuje swoją misję w Kościele.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność z Chrystusem i między sobą, do której prowadzi przyjmowanie posłańców Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, którego przyjmujemy w Komunii, a przez Niego przyjmujemy Ojca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym przyjęciem Tego, którego posłał Ojciec, o czym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Jest to hymn uwielbienia dla Chrystusa Zbawiciela, potomka Dawida, o którym mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Zbawiciela, Jezusa, o którym świadczy Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Pieśń ta jest radosnym dziękczynieniem za Zmartwychwstanie, które jest fundamentem nauczania apostolskiego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wyraża istotę Dobrej Nowiny, którą Paweł głosi w synagodze w Antiochii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które wierni zabierają ze sobą, by świadczyć o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o nowym życiu i świetle, które przynosi Ewangelia, głoszona przez apostołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa jest fundamentem wiary, o której mówi Jezus: 'abyście... uwierzyli, że Ja jestem'.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "180",
+      "piesn": "Dziś Chrystus, Król",
+      "opis": "Głosi królewską chwałę Chrystusa, potomka króla Dawida, o którym przypomina mowa Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, co jest centralnym punktem nauczania Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Utwór jest proklamacją wiary w Zmartwychwstanie, które jest fundamentem misji Kościoła.",
+      "moment": "ogolne"
+    }
+  ]
+}

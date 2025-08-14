@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/431276.20-Niedziela-zwykla-rok-B",
+  "tytul_dnia": "20 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Prz 9, 1-6",
+      "opis": "Chleb i wino na uczcie Mądrości",
+      "tekst": "Mądrość zbudowała sobie dom, wyciosała siedem kolumn, nabiła swych zwierząt, namieszała wina i zastawiła stół. Służące odesłała i woła na wyżynnych miejscach miasta: «Prostaczek niech tutaj przyjdzie!»\nDo tego, komu brak rozumu, mówiła: «Chodźcie, nasyćcie się moim chlebem, pijcie wino, które zmieszałam. Odrzućcie naiwność, a żyć będziecie, chodźcie prosto drogą rozsądku».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 2-3. 10-11. 12-13. 14-15 (R.: por. 9a)",
+      "opis": "",
+      "tekst": "Refren: Wszyscy zobaczcie, jak nasz Pan jest dobry.\nBędę błogosławił Pana po wieczne czasy, *\nJego chwała będzie zawsze na moich ustach.\nDusza moja chlubi się Panem, *\nniech słyszą to pokorni i niech się weselą.\nRefren.\nBójcie się Pana wszyscy Jego święci, *\ngdyż bogobojni nie zaznają biedy.\nBogacze zubożeli i zaznali głodu, *\nszukającym Pana niczego nie zabraknie.\nRefren.\nZbliżcie się, synowie, posłuchajcie, co mówię, *\nbędę was uczył bojaźni Pańskiej.\nKim jest ten człowiek, który życia pożąda *\ni długich dni pragnie, by się nimi cieszyć?\nRefren.\nPowściągnij swój język od złego, *\na wargi swoje od kłamstwa.\nOd zła się odwróć, czyń, co dobre, *\nszukaj pokoju i dąż do niego.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 5, 15-20",
+      "opis": "Napełniajcie się Duchem",
+      "tekst": "Baczcie pilnie, jak postępujecie: nie jak niemądrzy, ale jak mądrzy. Wyzyskujcie chwilę sposobną, bo dni są złe. Nie bądźcie przeto nierozsądni, lecz usiłujcie zrozumieć, co jest wolą Pana.\nI nie upijajcie się winem, bo to jest przyczyną rozwiązłości, ale napełniajcie się Duchem, przemawiając do siebie wzajemnie psalmami i hymnami, i pieśniami pełnymi ducha, śpiewając i wysławiając Pana w waszych sercach. Dziękujcie zawsze za wszystko Bogu Ojcu w imię Pana naszego, Jezusa Chrystusa.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 56",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Kto spożywa moje Ciało i Krew moją pije,\ntrwa we Mnie, a Ja w nim jestem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 51-58",
+      "opis": "Chleb żywy, który zstąpił z nieba",
+      "tekst": "Jezus powiedział do Żydów:\n«Ja jestem chlebem żywym, który zstąpił z nieba. Jeśli ktoś spożywa ten chleb, będzie żył na wieki. Chlebem, który Ja dam, jest moje Ciało, wydane za życie świata».\nSprzeczali się więc między sobą Żydzi, mówiąc: «Jak On może nam dać swoje ciało do jedzenia?»\nRzekł do nich Jezus: «Zaprawdę, zaprawdę, powiadam wam: Jeżeli nie będziecie jedli Ciała Syna Człowieczego ani pili Krwi Jego, nie będziecie mieli życia w sobie. Kto spożywa moje Ciało i pije moją Krew, ma życie wieczne, a Ja go wskrzeszę w dniu ostatecznym. Ciało moje jest prawdziwym pokarmem, a Krew moja jest prawdziwym napojem. Kto spożywa moje Ciało i Krew moją pije, trwa we Mnie, a Ja w nim.\nJak Mnie posłał żyjący Ojciec, a Ja żyję przez Ojca, tak i ten, kto Mnie spożywa, będzie żył przeze Mnie. To jest chleb, który z nieba zstąpił - nie jest on taki jak ten, który jedli wasi przodkowie, a poumierali. Kto spożywa ten chleb, będzie żył na wieki».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do słów Jezusa z Ewangelii, co czyni ją idealną na rozpoczęcie Eucharystii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa jako Chleb dający życie wieczne, co jest głównym tematem Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus, Chleb Żywy, zaspokaja najgłębsze pragnienia ludzkiego serca, zapraszając nas na ucztę Mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Uczta Mądrości z pierwszego czytania znajduje swoje wypełnienie w Uczcie Eucharystycznej, na którą jesteśmy zaproszeni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń ta nawiązuje do darów chleba i wina, które Mądrość przygotowała na swojej uczcie, a które stają się Ciałem i Krwią Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "W tej pieśni ofiarujemy Bogu chleb i wino, które staną się prawdziwym pokarmem i napojem, o których mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Pieśń jest adoracją Świętej Uczty, która jest głównym tematem Ewangelii i całego cyklu czytań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "260",
+      "piesn": "Oto Święte Ciało Pana",
+      "opis": "Jest to bezpośrednie wskazanie na Ciało i Krew Pańską, które są prawdziwym pokarmem i napojem dającym życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Pieśń wyraża wdzięczność za dar Eucharystii, w której Chrystus karmi nas swoim Ciałem, jak zapowiedział w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Refren tej pieśni jest dosłownym cytatem z psalmu responsoryjnego, zapraszając do doświadczenia dobroci Pana w Eucharystii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń jest dziękczynieniem za wielki cud Eucharystii, w której Chrystus pozostaje z nami jako Chleb Żywy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "236",
+      "piesn": "Chwała i dziękczynienie",
+      "opis": "Prosta aklamacja uwielbienia jest doskonałym dziękczynieniem po przyjęciu Ciała i Krwi Pańskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "270",
+      "piesn": "Przed tak wielkim Sakramentem",
+      "opis": "Klasyczny hymn eucharystyczny jest doskonałym podsumowaniem liturgii, która skupiała się na tajemnicy Ciała i Krwi Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "248",
+      "piesn": "Jezusowi cześć i chwała",
+      "opis": "Pieśń na zakończenie Mszy, która jest wyrazem chwały dla Jezusa za cud miłości, jakim jest Eucharystia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "284",
+      "piesn": "Zróbcie Mu miejsce",
+      "opis": "Pieśń ta, choć często używana procesyjnie, wyraża radość z obecności Pana, który karmi nas swoim Ciałem i posyła w świat.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "281",
+      "piesn": "Witaj, Pokarmie",
+      "opis": "Pieśń jest adoracją 'Manny z niebios', o której mówi Jezus w Ewangelii, i 'rozkosznego owocu', o którym wspomina Mądrość.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja na Boże Ciało doskonale pasuje do niedzieli, w której centrum znajduje się mowa eucharystyczna.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jednoczącą moc Eucharystii, w której stajemy się jednym Ciałem, karmieni jednym Chlebem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń ta w piękny sposób łączy motyw chleba, Eucharystii i miłości, która jest istotą dzisiejszej liturgii.",
+      "moment": "ogolne"
+    }
+  ]
+}

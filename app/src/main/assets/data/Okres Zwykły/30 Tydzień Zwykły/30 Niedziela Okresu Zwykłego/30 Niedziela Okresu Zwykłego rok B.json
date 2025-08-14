@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415424.30-Niedziela-zwykla-Rok-B",
+  "tytul_dnia": "30 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 31, 7-9",
+      "opis": "Pan wybawił swój lud",
+      "tekst": "Tak mówi Pan: «Wykrzykujcie radośnie na cześć Jakuba, weselcie się pierwszym wśród narodów! Głoście, wychwalajcie i mówcie: Zbaw, Panie, lud swój, Resztę Izraela!\nOto sprowadzę ich z ziemi północnej i zgromadzę ich z krańców ziemi. Są wśród nich niewidomi i dotknięci kalectwem, kobieta brzemienna wraz z położnicą: powracają wielką gromadą.\nOto wyszli z płaczem, lecz wśród pociech ich przyprowadzę. Przywiodę ich do strumienia wody równą drogą - nie potkną się na niej. Jestem bowiem ojcem dla Izraela, a Efraim jest moim synem pierworodnym».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 126 (125), 1b-2b. 2c-3. 4-5. 6 (R.: por. 3a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg uczynił wielkie rzeczy dla nas.\nGdy Pan odmienił los Syjonu, *\nwydawało się nam, że śnimy.\nUsta nasze były pełne śmiechu, *\na język śpiewał z radości.\nRefren.\nMówiono wtedy między narodami: *\n«Wielkie rzeczy im Pan uczynił».\nPan uczynił nam wielkie rzeczy *\ni radość nas ogarnęła.\nRefren.\nOdmień znowu nasz los, o Panie, *\njak odmieniasz strumienie na Południu.\nCi, którzy we łzach sieją, *\nżąć będą w radości.\nRefren.\nIdą i płaczą, *\nniosąc ziarno na zasiew,\nlecz powrócą z radością, *\nniosąc swoje snopy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Hbr 5, 1-6",
+      "opis": "Chrystus kapłanem na wieki",
+      "tekst": "Każdy arcykapłan spomiędzy ludzi brany, dla ludzi jest ustanawiany w sprawach odnoszących się do Boga, aby składał dary i ofiary za grzechy. Może on współczuć tym, którzy nie wiedzą i błądzą, ponieważ sam podlega słabości. I ze względu na nią powinien tak za lud, jak i za samego siebie składać ofiary za grzechy. A nikt sam sobie nie bierze tej godności, lecz tylko ten, kto jest powołany przez Boga jak Aaron.\nPodobnie i Chrystus nie sam siebie okrył sławą przez to, iż stał się arcykapłanem, ale uczynił to Ten, który powiedział do Niego: «Ty jesteś moim Synem, Ja Cię dziś zrodziłem», jak i w innym miejscu: «Ty jesteś kapłanem na wieki na wzór Melchizedeka».\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 10, 46b-52",
+      "opis": "Uzdrowienie niewidomego z Jerycha",
+      "tekst": "Gdy Jezus wraz z uczniami i sporym tłumem wychodził z Jerycha, niewidomy żebrak, Bartymeusz, syn Tymeusza, siedział przy drodze. A słysząc, że to jest Jezus z Nazaretu, zaczął wołać: «Jezusie, Synu Dawida, ulituj się nade mną!»\nWielu nastawało na niego, żeby umilkł. Lecz on jeszcze głośniej wołał: «Synu Dawida, ulituj się nade mną!» Jezus przystanął i rzekł: «Zawołajcie go».\nI przywołali niewidomego, mówiąc mu: «Bądź dobrej myśli, wstań, woła cię». On zrzucił z siebie płaszcz, zerwał się na nogi i przyszedł do Jezusa.\nA Jezus przemówił do niego: «Co chcesz, abym ci uczynił?» Powiedział Mu niewidomy: «Rabbuni, żebym przejrzał». Jezus mu rzekł: «Idź, twoja wiara cię uzdrowiła». Natychmiast przejrzał i szedł za Nim drogą.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest wołaniem o Bożą pomoc i miłosierdzie, podobnym do krzyku niewidomego Bartymeusza z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Niewidomy pod Jerychem z wiarą przychodzi do Jezusa po uzdrowienie. Ta pieśń jest zaproszeniem, byśmy i my szukali u Niego pociechy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który, jak słyszymy w pierwszym czytaniu, sprowadza swój lud z wygnania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "W odpowiedzi na miłosierdzie Boga, który sprowadza swój lud z wygnania, ta pieśń jest aktem ofiarowania i zawierzenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu naszą wiarę, która, jak u Bartymeusza, ma moc uzdrawiającą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy, jak uzdrowiony niewidomy, potrafili iść za Jezusem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Pieśń jest zaproszeniem do doświadczenia dobroci Pana, który w Komunii Świętej uzdrawia nasze duchowe ślepoty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i wiarę w przychodzącego Jezusa, podobną do tej, jaką okazał Bartymeusz.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa jest echem wołania Bartymeusza: 'Jezusie, Synu Dawida, ulituj się nade mną!'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Po uzdrowieniu Bartymeusz 'szedł za Nim drogą', chwaląc Boga. Ta pieśń jest naszym dziękczynieniem za wielkie rzeczy, które Pan nam uczynił.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym i radosnym dziękczynieniem za dar uzdrowienia i zbawienia, o którym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za Boże miłosierdzie, które objawiło się w uzdrowieniu niewidomego i w powrocie z niewoli.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Uzdrowiony Bartymeusz poszedł za Jezusem Jego drogą. Ta pieśń jest wyznaniem, że Chrystus jest naszą drogą do zbawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii, aby inni, jak Bartymeusz, mogli przejrzeć i pójść za Jezusem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Pieśń jest prośbą o stałą obecność Pana w naszej drodze wiary, tak jak towarzyszył On uzdrowionemu Bartymeuszowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Drugie czytanie mówi o Chrystusie jako jedynym Arcykapłanie. Ta pieśń przypomina o powszechnym kapłaństwie całego Ludu Bożego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która, jak mówi Jezus do Bartymeusza, ma moc uzdrawiającą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem zbawienia, które Bóg przynosi swojemu ludowi, jak zapowiada prorok Jeremiasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który zwycięża śmierć i daje nam nadzieję, co jest treścią aklamacji przed Ewangelią.",
+      "moment": "ogolne"
+    }
+  ]
+}

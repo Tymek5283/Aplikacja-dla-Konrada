@@ -1,0 +1,153 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414688.32-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "32 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 6, 12-16",
+      "opis": "Mądrość znajdą ci, którzy jej szukają",
+      "tekst": "Mądrość jest wspaniała i nie więdnie, ci łatwo ją dostrzegą, którzy ją miłują, ci ją znajdą, którzy jej szukają, uprzedza bowiem tych, co jej pragną, wpierw dając się im poznać.\nKto dla niej wstanie o świcie, ten się nie natrudzi, znajdzie ją bowiem siedzącą u drzwi swoich. O niej rozmyślać - to szczyt roztropności, a kto z jej powodu nie śpi, wnet się trosk pozbędzie, sama bowiem obchodzi i szuka tych, co są jej godni, objawia się im łaskawie na ścieżkach i wychodzi naprzeciw wszystkim ich zamysłom.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 63 (62), 2. 3-4. 5-6. 7-8 (R.: por. 2ab)",
+      "opis": "",
+      "tekst": "Refren: Ciebie, mój Boże, pragnie moja dusza.\nBoże, mój Boże, szukam Ciebie *\ni pragnie Ciebie moja dusza.\nCiało moje tęskni za Tobą, *\njak zeschła ziemia łaknąca wody.\nRefren.\nOto wpatruję się w Ciebie w świątyni, *\nby ujrzeć Twą potęgę i chwałę.\nTwoja łaska jest cenniejsza od życia, *\nwięc sławić Cię będą moje wargi.\nRefren.\nBędę Cię wielbił przez całe me życie *\ni wzniosę ręce w imię Twoje.\nMoja dusza syci się obficie, *\na usta Cię wielbią radosnymi wargami.\nRefren.\nGdy myślę o Tobie na moim posłaniu *\ni o Tobie rozważam w czasie moich czuwań.\nBo stałeś się dla mnie pomocą *\ni w cieniu Twych skrzydeł wołam radośnie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE DŁUŻSZE",
+      "sigla": "1 Tes 4, 13-18",
+      "opis": "KRÓTSZE1 Tes 4, 13-14",
+      "tekst": "Powszechne zmartwychwstanie\nNie chcemy, bracia, byście trwali w niewiedzy co do tych, którzy umierają, abyście się nie smucili jak wszyscy ci, którzy nie mają nadziei. Jeśli bowiem wierzymy, że Jezus istotnie umarł i zmartwychwstał, to również tych, którzy umarli w Jezusie, Bóg wyprowadzi wraz z Nim.\nKoniec krótszej perykopy.\nTo bowiem głosimy wam jako słowo Pańskie, że my, żywi, pozostawieni na przyjście Pana, nie wyprzedzimy tych, którzy pomarli. Sam bowiem Pan zstąpi z nieba na hasło i na głos archanioła, i na dźwięk trąby Bożej, a zmarli w Chrystusie powstaną pierwsi. Potem my, żywi, tak pozostawieni, wraz z nimi będziemy porwani w powietrze, na obłoki naprzeciw Pana, i w ten sposób na zawsze będziemy z Panem. Przeto wzajemnie się pocieszajcie tymi słowami.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 24, 42a. 44",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Czuwajcie i bądźcie gotowi,\nbo o godzinie, której się nie domyślacie, Syn Człowieczy przyjdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 25, 1-13",
+      "opis": "Przypowieść o dziesięciu pannach",
+      "tekst": "Jezus opowiedział swoim uczniom tę przypowieść:\n«Podobne będzie królestwo niebieskie do dziesięciu panien, które wzięły swoje lampy i wyszły na spotkanie pana młodego. Pięć z nich było nierozsądnych, a pięć roztropnych. Nierozsądne wzięły lampy, ale nie wzięły z sobą oliwy. Roztropne zaś razem z lampami zabrały również oliwę w swoich naczyniach. Gdy się pan młody opóźniał, senność ogarnęła wszystkie i posnęły.\nLecz o północy rozległo się wołanie: „Oto pan młody idzie, wyjdźcie mu na spotkanie!” Wtedy powstały wszystkie owe panny i opatrzyły swe lampy. A nierozsądne rzekły do roztropnych: „Użyczcie nam swej oliwy, bo nasze lampy gasną”. Odpowiedziały roztropne: „Mogłoby i nam, i wam nie wystarczyć. Idźcie raczej do sprzedających i kupcie sobie”.\nGdy one szły kupić, nadszedł pan młody. Te, które były gotowe, weszły z nim na ucztę weselną, i drzwi zamknięto. Nadchodzą w końcu i pozostałe panny, prosząc: „Panie, panie, otwórz nam!” Lecz on odpowiedział: „Zaprawdę, powiadam wam, nie znam was”. Czuwajcie więc, bo nie znacie dnia ani godziny».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń jest parafrazą psalmu responsoryjnego, wyrażając tęsknotę za Bogiem, która jest początkiem poszukiwania Mądrości z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "7",
+      "piesn": "Przybądź, Panie",
+      "opis": "Choć pieśń jest adwentowa, jej refren 'Gotujmy drogę Panu' idealnie pasuje do ewangelicznego wezwania do czuwania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "603",
+      "piesn": "Gdy mnie ranna zorza budzi",
+      "opis": "Pieśń o porannym oddaniu się Bogu i czuwaniu w ciągu dnia, co jest realizacją wezwania z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "W kontekście czuwania na przyjście Pana, ta pieśń jest aktem ofiarowania swojego życia, by być gotowym na spotkanie z Nim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie, prosząc o łaskę wytrwania w czujności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, prosząc o Jego łaskę, byśmy byli gotowi jak panny roztropne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń mówi o gotowości na przyjście Jezusa, co jest głównym tematem przypowieści o pannach roztropnych, które były gotowe na spotkanie z oblubieńcem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Przyjęcie Komunii jest umocnieniem naszej wiary i nadziei, które pozwalają nam czuwać w oczekiwaniu na Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest pokarmem, który daje nam siłę do czuwania i podtrzymuje światło naszych lamp.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Dziękczynienie za nadzieję zmartwychwstania, o której zapewnia św. Paweł w drugim czytaniu, jest pocieszeniem w oczekiwaniu na przyjście Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary i nadziei, które pozwalają nam z radością oczekiwać na spotkanie z Panem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny za obietnicę wiecznego przebywania z Panem, o której mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "631",
+      "piesn": "Wszystkie nasze dzienne sprawy",
+      "opis": "Pieśń wieczorna, wzywająca do czuwania i powierzania się Bogu, jest doskonałym posłaniem na zakończenie Mszy, w której słyszymy 'Czuwajcie!'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń, która jest odpowiedzią na wezwanie Jezusa do czuwania i modlitwy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara jest niezbędna, by wytrwać w czuwaniu i być gotowym na przyjście Pana, o czym mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "778",
+      "piesn": "Zostań tu",
+      "opis": "Krótka, medytacyjna pieśń, która jest odpowiedzią na wezwanie Jezusa do czuwania i modlitwy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "603",
+      "piesn": "Gdy mnie ranna zorza budzi",
+      "opis": "Pieśń o porannym oddaniu się Bogu i czuwaniu w ciągu dnia, co jest realizacją wezwania z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o Ducha Świętego, który jest źródłem Mądrości, byśmy jak panny roztropne byli zawsze gotowi na przyjście Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "W kontekście niepewności co do dnia i godziny przyjścia Pana, ta pieśń przypomina, że naszą jedyną nadzieją jest Chrystus.",
+      "moment": "ogolne"
+    }
+  ]
+}

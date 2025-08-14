@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Wezwanie do prostowania dróg w odpowiedzi na ewangeliczne 'Czuwajcie!'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "5",
+      "piesn": "Otwórzcie się szeroko",
+      "opis": "Wezwanie do otwarcia serc na Pana, który ma przyjść w chwale, jak zapowiada Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "112",
       "piesn": "Serce me do Ciebie wznoszę",
       "opis": "Tytuł i refren pieśni są echem psalmu responsoryjnego 'Do Ciebie, Panie, wznoszę moją duszę', wyrażając postawę adwentowego zawierzenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "11",
+      "piesn": "Z powagą przygotujcie",
+      "opis": "Wezwanie do przygotowania serc jest istotą adwentowego czuwania i modlitwy, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy nasze życie, prosząc o siłę do czuwania i wzrostu w świętości, o czym mówi drugie czytanie.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "26",
+      "piesn": "Pragniemy Ciebie",
+      "opis": "Wyraża tęsknotę za Panem, którego przyjścia mamy czuwać, a który przychodzi do nas w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Osobista prośba o przyjście Jezusa, który umacnia nas w oczekiwaniu na Jego ostateczne przyjście.",
+      "moment": "komunia"
+    },
+    {
       "numer": "2",
       "piesn": "Niech się radują",
       "opis": "Ewangelia wzywa, by na znaki przyjścia Pana 'podnieść głowy', a ta pieśń jest wyrazem radości z nadchodzącego królestwa.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Uwielbienie Boga za Jego wierność i obietnicę sprawiedliwego potomka Dawida, o której mówi pierwsze czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały na cześć Pana, którego przyjścia w chwale oczekujemy.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "7",
       "piesn": "Przybądź, Panie",
       "opis": "Pieśń wzywa do czuwania i nawrócenia, co jest konkretną odpowiedzią na eschatologiczne wezwanie Jezusa w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "14",
+      "piesn": "Córko syjońska",
+      "opis": "Radosna pieśń o przyjściu Króla posyła nas w świat z nadzieją i wezwaniem do czuwania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "16",
+      "piesn": "Głos wdzięczny z nieba wychodzi",
+      "opis": "Pieśń o Zbawicielu, który rozświeca ciemności, jest posłaniem do życia w gotowości na Jego przyjście.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "10",
       "piesn": "W tym świętym oczekiwaniu",
       "opis": "Pieśń ta podkreśla konieczność przygotowania na przyjście Pana w dniu ostatecznym, o czym przypomina Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Przypomina o postawie, która jest owocem czuwania i prowadzi do królestwa, którego przyjścia oczekujemy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "9",
+      "piesn": "Stwórco gwiaździstych przestworzy",
+      "opis": "Klasyczny hymn adwentowy jest modlitwą o obronę przed złem w czasie czuwania, do którego wzywa Ewangelia.",
       "moment": "ogolne"
     }
   ]

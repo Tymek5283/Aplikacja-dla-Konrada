@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416869.Sroda-27-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "27 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ga 2, 1-2. 7-14",
+      "opis": "Paweł wyrzuca Piotrowi chwiejność",
+      "tekst": "Bracia:\nPo czternastu latach udałem się ponownie do Jerozolimy wraz z Barnabą, zabierając z sobą także Tytusa. Udałem się zaś w tę stronę na skutek otrzymanego objawienia. I przedstawiłem im Ewangelię, którą głoszę wśród pogan, osobno zaś tym, którzy cieszą się poważaniem, by stwierdzili, czy nie biegnę lub nie biegłem na próżno. Wręcz przeciwnie, stwierdziwszy, że mnie zostało powierzone głoszenie Ewangelii wśród nieobrzezanych, podobnie jak Piotrowi wśród obrzezanych - Ten bowiem, który współdziałał z Piotrem w apostołowaniu obrzezanych, współdziałał i ze mną wśród pogan - i uznawszy daną mi łaskę, Jakub, Kefas i Jan, uważani za filary, podali mnie i Barnabie prawicę na znak wspólnoty, byśmy szli do pogan, oni zaś do obrzezanych, ale żebyśmy pamiętali o ubogich, co też gorliwie starałem się czynić.\nGdy następnie Kefas przybył do Antiochii, otwarcie mu się sprzeciwiłem, bo na to zasłużył. Zanim jeszcze nadeszli niektórzy z otoczenia Jakuba, brał udział w posiłkach z tymi, którzy pochodzili z pogaństwa. Kiedy jednak oni się zjawili, począł się odsuwać i trzymać z dala, bojąc się tych, którzy pochodzili z obrzezania. To jego nieszczere postępowanie podjęli też inni pochodzenia żydowskiego, tak że wciągnięto w to udawanie nawet Barnabę. Gdy więc spostrzegłem, że nie idą słuszną drogą, zgodną z prawdą Ewangelii, powiedziałem Kefasowi wobec wszystkich: «Jeżeli ty, choć jesteś Żydem, żyjesz według obyczajów przyjętych wśród pogan, a nie wśród Żydów, to jak możesz zmuszać pogan do przyjmowania zwyczajów żydowskich?»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 117 (116), 1b-2 (R.: por. Mk 16, 15)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Całemu światu głoście Ewangelię.\nChwalcie Pana, wszystkie narody, *\nwysławiajcie Go, wszystkie ludy,\nbo potężna nad nami Jego łaska, *\na wierność Pana trwa na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Rz 8, 15bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otrzymaliście Ducha przybrania za synów,\nw którym wołamy: «Abba, Ojcze»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 1-4",
+      "opis": "Jezus uczy modlitwy",
+      "tekst": "Jezus, przebywając w jakimś miejscu, modlił się, a kiedy skończył, rzekł jeden z uczniów do Niego: «Panie, naucz nas modlić się, tak jak i Jan nauczył swoich uczniów».\nA On rzekł do nich: «Kiedy będziecie się modlić, mówcie: Ojcze, niech się święci Twoje imię; niech przyjdzie Twoje królestwo! Naszego chleba powszedniego dawaj nam na każdy dzień i przebacz nam nasze grzechy, bo i my przebaczamy każdemu, kto przeciw nam zawini; i nie dopuść, byśmy ulegli pokusie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń wzywa do wspólnej modlitwy i oddania czci Bogu, co wprowadza w tematykę Ewangelii, gdzie Jezus uczy modlitwy.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Prosta modlitwa do Ojca w niebie, która bezpośrednio nawiązuje do słów modlitwy z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża osobistą relację z Bogiem, do której zaprasza nas modlitwa 'Ojcze nasz'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna jest wyrazem oddania się Bogu, co jest istotą modlitwy Pańskiej nauczanej w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Treść pieśni nawiązuje do prośby o chleb powszedni z Modlitwy Pańskiej i wyraża postawę ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest odpowiedzią na zaproszenie do synowskiej relacji w Modlitwie Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Prośba o 'chleb powszedni' z Modlitwy Pańskiej znajduje swoje najpełniejsze wypełnienie w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń wyraża pragnienie przygotowania serca na przyjęcie Chrystusa, co jest owocem modlitwy i prośby o przebaczenie grzechów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa, co jest echem modlitwy, której On sam nas nauczył.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar modlitwy 'Ojcze nasz', która uczy nas, jak zwracać się do Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar Bożych łask, o które prosimy w Modlitwie Pańskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn uwielbienia, który jest rozwinięciem wezwania 'święć się imię Twoje' z Modlitwy Pańskiej.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna jest echem psalmu responsoryjnego, który wzywa do głoszenia Ewangelii wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi, który uczy nas modlitwy i prowadzi do Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie i ochronę przed pokusą jest echem ostatnich słów Modlitwy Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność Kościoła jest ważna w kontekście pierwszego czytania, które ukazuje napięcia we wczesnej wspólnocie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "617",
+      "piesn": "Pod Twą obronę",
+      "opis": "Pieśń wyraża ufne powierzenie się opiece Ojca Niebieskiego, co jest zgodne z duchem Modlitwy Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń jest wyrazem ufności w Bożą pomoc i opiekę, o którą prosimy w Modlitwie Pańskiej.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna, która jest rozwinięciem modlitwy 'Ojcze nasz', nauczanej w Ewangelii.",
+      "moment": "ogolne"
+    }
+  ]
+}

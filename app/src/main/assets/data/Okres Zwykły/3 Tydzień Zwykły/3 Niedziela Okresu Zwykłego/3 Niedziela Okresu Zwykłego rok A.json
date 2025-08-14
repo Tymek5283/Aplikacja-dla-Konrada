@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411055.Niedziela-rok-A",
+  "tytul_dnia": "3 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 8, 23b - 9, 3",
+      "opis": "Naród kroczący w ciemnościach ujrzał światłość wielką",
+      "tekst": "W dawniejszych czasach upokorzył Pan krainę Zabulona i krainę Neftalego, za to w przyszłości chwałą okryje drogę do morza, wiodącą przez Jordan, krainę pogańską. Naród kroczący w ciemnościach ujrzał światłość wielką; nad mieszkańcami kraju mroków światło zabłysło. Pomnożyłeś radość, zwiększyłeś wesele. Rozradowali się przed Tobą, jak się radują w żniwa, jak się weselą przy podziale łupu. Bo złamałeś jego ciężkie jarzmo i drążek na jego ramieniu, pręt jego ciemięzcy, jak w dniu porażki Madianitów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 27 (26), 1bcde. 4. 13-14 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Pan moim światłem i zbawieniem moim.\nPan moim światłem i zbawieniem moim, *\nkogo miałbym się lękać?\nPan obrońcą mego życia, *\nprzed kim miałbym czuć trwogę?\nRefren.\nO jedno tylko Pana proszę i o to zabiegam, †\nżebym mógł zawsze przebywać w Jego domu *\npo wszystkie dni mego życia,\nabym kosztował słodyczy Pana, *\nstale się radował Jego świątynią.\nRefren.\nWierzę, że będę oglądał dobra Pana *\nw krainie żyjących.\nOczekuj Pana, bądź mężny, *\nnabierz odwagi i oczekuj Pana.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 1, 10-13. 17",
+      "opis": "Jedność chrześcijan",
+      "tekst": "Upominam was, bracia, w imię Pana naszego, Jezusa Chrystusa, abyście żyli w zgodzie i by nie było wśród was rozłamów; abyście byli jednego ducha i jednej myśli. Doniesiono mi bowiem o was, bracia moi, przez ludzi Chloe, że zdarzają się między wami spory. Myślę o tym, co każdy z was mówi: «Ja jestem od Pawła, a ja od Apollosa; ja jestem Kefasa, a ja Chrystusa». Czyż Chrystus jest podzielony? Czyż Paweł został za was ukrzyżowany? Czyż w imię Pawła zostaliście ochrzczeni?\nNie posłał mnie Chrystus, abym chrzcił, lecz abym głosił Ewangelię, i to nie w mądrości słowa, by nie zniweczyć Chrystusowego krzyża.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Mt 4, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jezus głosił Ewangelię o królestwie\ni leczył wszelkie choroby wśród ludu."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 4, 12-23 lub Mt 4, 12-17",
+      "opis": "Na Jezusie spełnia się zapowiedź Izajasza",
+      "tekst": "Gdy Jezus posłyszał, że Jan został uwięziony, usunął się do Galilei. Opuścił jednak Nazaret, przyszedł i osiadł w Kafarnaum nad jeziorem, na pograniczu ziem Zabulona i Neftalego. Tak miało się spełnić słowo proroka Izajasza: «Ziemia Zabulona i ziemia Neftalego, na drodze ku morzu, Zajordanie, Galilea pogan! Lud, który siedział w ciemności, ujrzał światło wielkie, i mieszkańcom cienistej krainy śmierci wzeszło światło».\nOdtąd począł Jezus nauczać i mówić: «Nawracajcie się, albowiem bliskie jest królestwo niebieskie».\nPrzechodząc obok Jeziora Galilejskiego, Jezus ujrzał dwóch braci: Szymona, zwanego Piotrem, i brata jego, Andrzeja, jak zarzucali sieć w jezioro; byli bowiem rybakami. I rzekł do nich: «Pójdźcie za Mną, a uczynię was rybakami ludzi». Oni natychmiast, zostawiwszy sieci, poszli za Nim.\nA idąc stamtąd dalej, ujrzał innych dwóch braci: Jakuba, syna Zebedeusza, i brata jego, Jana, jak z ojcem swym Zebedeuszem naprawiali w łodzi swe sieci. Ich też powołał. A oni natychmiast zostawili łódź i ojca i poszli za Nim.\nI obchodził Jezus całą Galileę, nauczając w tamtejszych synagogach, głosząc Ewangelię o królestwie i lecząc wszelkie choroby i wszelkie słabości wśród ludu.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Refren pieśni jest dosłownym cytatem z wezwania Jezusa w Ewangelii: 'Nawracajcie się, albowiem bliskie jest królestwo niebieskie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem przyjścia Pana, który jest 'światłością wielką' dla kroczących w ciemności.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "4",
+      "piesn": "Oto Pan przybywa",
+      "opis": "Pieśń zapowiada przyjście Pana, który w Ewangelii rozpoczyna swoją publiczną działalność, wzywając do nawrócenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o jedności, do której wzywa św. Paweł w drugim czytaniu, napominając Koryntian.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do jedności Ciała Chrystusa, o którą apeluje św. Paweł w Liście do Koryntian.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest odpowiedzią na powołanie pierwszych uczniów, którzy natychmiast zostawili wszystko i poszli za Jezusem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Powołanie uczniów jest zaproszeniem do wspólnoty z Jezusem, której pełnią jest Eucharystia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest zaproszeniem Jezusa, który w Komunii Świętej daje nam siłę do pójścia za Nim, jak pierwsi uczniowie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z Chrystusem, porzucając podziały, przed którymi ostrzega św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar światła i zbawienia, o którym mówią pierwsze czytanie i psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar powołania i za światło Ewangelii, które rozproszyło ciemności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar wiary i powołania, które jest odpowiedzią na wezwanie Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie pierwszych uczniów jest początkiem misji Kościoła, by nieść światło Ewangelii wszystkim narodom.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, za którym uczniowie poszli, porzucając wszystko, by stać się 'rybakami ludzi'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu, która jest odpowiedzią na wezwanie Jezusa: 'Pójdźcie za Mną'.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest wezwaniem do nawrócenia, które jest pierwszym słowem publicznej działalności Jezusa w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Pana, który jest naszym światłem i zbawieniem, jak głosi psalm responsoryjny.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina o Chrystusie, który przyszedł jako światłość i powołał nas do jednej wspólnoty.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest modlitwą o jedność, która jest głównym tematem drugiego czytania.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415524.Niedziela-rok-A",
+  "tytul_dnia": "4 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "So 2, 3; 3, 12-13",
+      "opis": "Szukajcie pokory",
+      "tekst": "Szukajcie Pana, wszyscy pokorni ziemi, którzy wypełniacie Jego nakazy; szukajcie sprawiedliwości, szukajcie pokory, może się ukryjecie w dzień gniewu Pańskiego.\nZostawię pośród ciebie lud pokorny i biedny, a szukać będą schronienia w imieniu Pana. Reszta Izraela nie będzie czynić nieprawości ani wypowiadać kłamstw. I nie znajdzie się w ich ustach zwodniczy język, gdy paść się będą i wylegiwać, a nie będzie nikogo, kto by ich przestraszył.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 6c-7. 8-9a. 9b-10 (R.: por. Mt 5, 3)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Ubodzy duchem mają wstęp do nieba.\nBóg wiary dochowuje na wieki, *\nuciśnionym wymierza sprawiedliwość,\nchlebem karmi głodnych, *\nwypuszcza na wolność uwięzionych.\nRefren.\nPan przywraca wzrok ociemniałym, *\nPan dźwiga poniżonych.\nPan kocha sprawiedliwych, *\nPan strzeże przybyszów.\nRefren.\nOchrania sierotę i wdowę, *\nlecz występnych kieruje na bezdroża.\nPan króluje na wieki, *\nBóg twój, Syjonie, przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 Kor 1, 26-31",
+      "opis": "Bóg wybrał wzgardzonych",
+      "tekst": "Przypatrzcie się, bracia, powołaniu waszemu! Według oceny ludzkiej niewielu tam mędrców, niewielu możnych, niewielu szlachetnie urodzonych. Bóg wybrał właśnie to, co głupie w oczach świata, aby zawstydzić mędrców, wybrał, co niemocne, aby mocnych poniżyć; i to, co nieszlachetnie urodzone według świata oraz wzgardzone, i to, co w ogóle nie jest, wyróżnił Bóg, by to, co jest, unicestwić, tak by się żadne stworzenie nie chełpiło wobec Boga. Przez Niego bowiem jesteście w Chrystusie Jezusie, który stał się dla nas mądrością od Boga i sprawiedliwością, i uświęceniem, i odkupieniem, aby jak to jest napisane, «w Panu się chlubił ten, kto się chlubi».\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 12a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Cieszcie się i radujcie,\nalbowiem wielka jest wasza nagroda w niebie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 1-12a",
+      "opis": "Błogosławieni ubodzy w duchu",
+      "tekst": "Jezus, widząc tłumy, wyszedł na górę. A gdy usiadł, przystąpili do Niego Jego uczniowie. Wtedy otworzył usta i nauczał ich tymi słowami:\n«Błogosławieni ubodzy w duchu, albowiem do nich należy królestwo niebieskie.\nBłogosławieni, którzy się smucą, albowiem oni będą pocieszeni.\nBłogosławieni cisi, albowiem oni na własność posiądą ziemię.\nBłogosławieni, którzy łakną i pragną sprawiedliwości, albowiem oni będą nasyceni.\nBłogosławieni miłosierni, albowiem oni miłosierdzia dostąpią.\nBłogosławieni czystego serca, albowiem oni Boga oglądać będą.\nBłogosławieni, którzy wprowadzają pokój, albowiem oni będą nazwani synami Bożymi.\nBłogosławieni, którzy cierpią prześladowanie dla sprawiedliwości, albowiem do nich należy królestwo niebieskie.\nBłogosławieni jesteście, gdy wam urągają i prześladują was i gdy z mego powodu mówią kłamliwie wszystko złe o was. Cieszcie się i radujcie, albowiem wielka jest wasza nagroda w niebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń ta jest muzycznym opracowaniem Ośmiu Błogosławieństw, które stanowią treść dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Nawiązuje do psalmu, który opisuje szczęście człowieka prawego, w przeciwieństwie do drogi występnych.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do oddania czci Panu, którego szukają ludzie pokorni i biedni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu życia w duchu ubóstwa i pokory, do których wzywa Ewangelia i pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę ubogiego w duchu, który całą swoją nadzieję pokłada w Bogu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "235",
+      "piesn": "Chwalmy niewysłowiony",
+      "opis": "W tej pieśni ofiarujemy nasze serca Bogu, który wybrał to, co słabe i wzgardzone.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Nawiązuje do wspólnoty błogosławionych, którzy gromadzą się wokół jednego stołu, by przyjąć Ciało Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii jest pokarmem dla ubogich i cichych, obiecując im Królestwo Niebieskie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń ta identyfikuje Chrystusa jako Chleb, który daje nam siłę do życia błogosławieństwami.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za dar powołania do świętości, który Bóg ofiaruje ubogim i pokornym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to radosne wezwanie do chwalenia Boga, który jest Królem i opiekuje się ubogimi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Prosta pieśń uwielbienia, która wyraża radość płynącą z bycia dzieckiem Bożym i dziedzicem Królestwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Błogosławieństwa są programem życia dla uczniów, którzy są posłani, by głosić Ewangelię całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani, aby żyć błogosławieństwami w codziennym życiu, prosząc o Bożą pomoc.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń ta jest misyjnym wezwaniem do odnowienia świata miłością Chrystusa, co jest drogą błogosławionych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Przypomina, że Chrystus, stając się ubogim, wskazał nam drogę do prawdziwego szczęścia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest drogą, prawdą i życiem dla tych, którzy Go naśladują w ubóstwie i pokorze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Mówi o zaufaniu Bogu, które jest cechą ludzi pokornych i biednych, szukających schronienia w imieniu Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "769",
+      "piesn": "Pan jest mocą",
+      "opis": "Pieśń ta dodaje odwagi powołanym do życia błogosławieństwami, przypominając, że Bóg jest ich siłą.",
+      "moment": "ogolne"
+    }
+  ]
+}

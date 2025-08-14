@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418119.Czwartek-24-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "24 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Tm 4, 12-16",
+      "opis": "Bądź wzorem dla wiernych",
+      "tekst": "Najdroższy:\nNiechaj nikt nie lekceważy twego młodego wieku, lecz wzorem bądź dla wiernych w mowie, w obejściu, w miłości, w wierze, w czystości. Do czasu, aż przyjdę, przykładaj się do czytania, zachęcania, nauczania.\nNie zaniedbuj w sobie charyzmatu, który został ci dany za sprawą proroctwa i przez nałożenie rąk kolegium prezbiterów. W tych rzeczach się ćwicz, cały im się oddaj, aby twoje postępy widoczne były dla wszystkich. Uważaj na siebie i na nauczanie; w tych sprawach bądź wytrwały! To bowiem czyniąc, i siebie samego zbawisz, i tych, którzy cię słuchają.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 7-8. 9. 10 (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Wielkie są dzieła, które Pan uczynił.\nDzieła rąk Jego są sprawiedliwe i pełne prawdy, *\nwszystkie Jego przykazania są trwałe,\nustalone na wieki wieków, *\nnadane ze słusznością i mocą.\nRefren.\nZesłał odkupienie swojemu ludowi, *\nna wieki ustanowił swoje przymierze,\nimię Jego jest święte *\ni wzbudza trwogę.\nRefren.\nBojaźń Pana jest początkiem mądrości; †\nwspaniała zapłata dla tych, *\nco według niej postępują,\na Jego sprawiedliwość *\nbędzie trwać na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 36-50",
+      "opis": "Odpuszczone są jej liczne grzechy, ponieważ bardzo umiłowała",
+      "tekst": "Jeden z faryzeuszów zaprosił Jezusa do siebie na posiłek. Wszedł więc do domu faryzeusza i zajął miejsce za stołem. A oto kobieta, która prowadziła w mieście życie grzeszne, dowiedziawszy się, że gości w domu faryzeusza, przyniosła flakonik alabastrowy olejku i stanąwszy z tyłu u Jego stóp, płacząc, zaczęła łzami oblewać Jego stopy i włosami swej głowy je wycierała. Potem całowała Jego stopy i namaszczała je olejkiem.\nWidząc to, faryzeusz, który Go zaprosił, mówił sam do siebie: «Gdyby On był prorokiem, wiedziałby, co to za jedna i jaka to jest ta kobieta, która się Go dotyka, że jest grzesznicą».\nNa to Jezus rzekł do niego: «Szymonie, mam ci coś do powiedzenia».\nOn rzekł: «Powiedz, Nauczycielu».\n«Pewien wierzyciel miał dwóch dłużników. Jeden winien mu był pięćset denarów, a drugi pięćdziesiąt. Gdy nie mieli z czego oddać, darował obydwom. Który z nich więc będzie go bardziej miłował?» Szymon odpowiedział: «Przypuszczam, że ten, któremu więcej darował».\nOn zaś mu rzekł: «Słusznie osądziłeś».\nPotem zwróciwszy się w stronę kobiety, rzekł do Szymona: «Widzisz tę kobietę? Wszedłem do twego domu, a nie podałeś Mi wody do nóg; ona zaś łzami oblała mi stopy i otarła je swymi włosami. Nie powitałeś mnie pocałunkiem; a ona, odkąd wszedłem, nie przestała całować stóp moich. Głowy nie namaściłeś Mi oliwą; ona zaś olejkiem namaściła moje stopy. Dlatego powiadam ci: . A ten, komu mało się odpuszcza, mało miłuje».\nDo niej zaś rzekł: «Odpuszczone są twoje grzechy».\nNa to współbiesiadnicy zaczęli mówić sami do siebie: «Któż On jest, że nawet grzechy odpuszcza?» On zaś rzekł do kobiety: «Twoja wiara cię ocaliła, idź w pokoju».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do spotkania z Jezusem, które przynosi pociechę i odpuszczenie grzechów, jak w przypadku kobiety z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa nawrócenia i powrotu do Ojca jest bliska postawie kobiety z Ewangelii, która przychodzi do Jezusa ze skruchą.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, które jest warunkiem doświadczenia Bożego miłosierdzia, ukazanego w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę żalu i miłości, którą ukazała grzeszna kobieta, i która jest wzorem dla wiernych, jak poucza św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, wyrażająca skruchę z powodu obrazy dobrego Boga, pasuje do postawy grzesznej kobiety.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Modlitwa o odpuszczenie grzechów jest echem doświadczenia kobiety, która dostąpiła miłosierdzia Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń wzywa do miłości Pana, która jest owocem doświadczenia przebaczenia, co jest centralnym punktem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń ta, pełna miłości i wdzięczności, oddaje uczucia kobiety, której odpuszczono liczne grzechy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Prośba o przebaczenie i obmycie z win jest echem doświadczenia kobiety z Ewangelii, która dostąpiła miłosierdzia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn na cześć Bożego miłosierdzia, które objawiło się w odpuszczeniu grzechów kobiety.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar przebaczenia i miłości jest odpowiedzią na Ewangelię.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest wyrazem wdzięczności za 'bezmiar niezliczonych łask', w tym za dar odpuszczenia grzechów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest cnotą, w której, według pierwszego czytania, Tymoteusz ma być wzorem dla wiernych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud bycia wzorem dla wiernych, do czego zachęca św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary i zobowiązaniem do pójścia za Chrystusem, na wzór kobiety, która Mu zaufała.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest echem postawy grzesznej kobiety, która przez skruchę i miłość znalazła zbawienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie, wyrażona w refrenie, jest kluczem do zrozumienia dzisiejszej Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "114",
+      "piesn": "Wydawajcie owoce",
+      "opis": "Pieśń wzywa do wydawania owoców nawrócenia, których przykładem jest postawa kobiety z Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Akt ufności w Jezusa, który ma moc odpuszczania grzechów, jest odpowiedzią na dzisiejszą Ewangelię.",
+      "moment": "ogolne"
+    }
+  ]
+}

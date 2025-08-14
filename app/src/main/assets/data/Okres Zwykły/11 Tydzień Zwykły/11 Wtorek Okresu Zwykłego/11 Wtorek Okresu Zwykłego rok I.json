@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/417223.Wtorek-XI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "11 Wtorek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 8, 1-9",
+      "opis": "Chrystus dla was stał się ubogim",
+      "tekst": "Donosimy wam, bracia, o łasce Bożej, jakiej dostąpiły Kościoły Macedonii, jak to w dotkliwej próbie ucisku uradowały się bardzo i jak skrajne ich ubóstwo zajaśniało bogactwem prostoty. Według możliwości, a nawet - zaświadczam to - ponad swe możliwości okazali oni gotowość, nalegając na nas bardzo i prosząc o łaskę współdziałania w posłudze na rzecz świętych.\nI nie tylko tak było, jak się spodziewaliśmy, lecz ofiarowali siebie samych naprzód Panu, a potem nam przez wolę Bożą. Poprosiliśmy więc Tytusa, aby, jak to już rozpoczął, tak też i dokonał tego dzieła miłosierdzia pośród was.\nA podobnie jak obfitujecie we wszystko, w wiarę, w mowę, w wiedzę, we wszelką gorliwość, w miłość naszą do was, tak też obyście i w tę łaskę obfitowali. Nie mówię tego, aby wam wydawać rozkazy, lecz aby wskazując na gorliwość innych, wypróbować waszą miłość. Znacie przecież łaskę Pana naszego, Jezusa Chrystusa, który będąc bogatym, dla was stał się ubogim, aby was ubóstwem swoim ubogacić.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 146 (145), 1b-2. 5-6b. 6c-7. 8-9a (R.: por. 2a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Przez całe życie będę chwalił Pana.\nChwal, duszo moja, Pana. *\nBędę chwalił Pana do końca mego życia,\nbędę śpiewał mojemu Bogu, *\ndopóki istnieję.\nRefren.\nSzczęśliwy ten, kogo wspiera Bóg Jakuba, *\nkto pokłada nadzieję w Panu Bogu.\nOn stworzył niebo i ziemię, i morze *\nze wszystkim, co w nich istnieje.\nRefren.\nBóg wiary dochowuje na wieki, *\nuciśnionym wymierza sprawiedliwość,\nchlebem karmi głodnych, *\nwypuszcza na wolność uwięzionych.\nRefren.\nPan przywraca wzrok ociemniałym, *\nPan dźwiga poniżonych.\nPan kocha sprawiedliwych, *\nPan strzeże przybyszów.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 13, 34",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Daję wam przykazanie nowe, abyście się wzajemnie miłowali,\ntak jak Ja was umiłowałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 5, 43-48",
+      "opis": "Miłujcie waszych nieprzyjaciół",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Słyszeliście, że powiedziano: „Będziesz miłował swego bliźniego”, a nieprzyjaciela swego będziesz nienawidził.\nA Ja wam powiadam: i módlcie się za tych, którzy was prześladują, abyście się stali synami Ojca waszego, który jest w niebie; ponieważ On sprawia, że słońce Jego wschodzi nad złymi i nad dobrymi, i On zsyła deszcz na sprawiedliwych i niesprawiedliwych.\nJeśli bowiem miłujecie tych, którzy was miłują, cóż za nagrodę mieć będziecie? Czyż i celnicy tego nie czynią? I jeśli pozdrawiacie tylko swych braci, cóż szczególnego czynicie? Czyż i poganie tego nie czynią?\nBądźcie więc wy doskonali, jak doskonały jest Ojciec wasz niebieski».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pieśń jest bezpośrednim nawiązaniem do aklamacji i Ewangelii, wprowadzając w główny temat dnia - miłość bliźniego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Idealnie oddaje ducha dnia, wzywając do miłości wzajemnej, która jest drogą do doskonałości na wzór Ojca.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "528",
+      "piesn": "Pan mnie woła",
+      "opis": "Pieśń wzywa do czynnej miłości i miłosierdzia wobec potrzebujących, co jest praktycznym wymiarem nauk z dzisiejszych czytań.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę hojności i ofiarowania siebie, o której w pierwszym czytaniu mówi św. Paweł, stawiając za wzór Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarujemy Bogu nasze serca, naśladując hojność Kościołów Macedonii i ubóstwo Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest aktem ofiarowania Bogu miłości, która jest odpowiedzią na Jego uprzedzającą łaskę i miłość nieprzyjaciół.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który stał się ubogim, aby nas ubogacić, a w Eucharystii daje nam siebie jako pokarm.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Eucharystia jednoczy nas w miłości, dając siłę do przezwyciężania nienawiści i miłowania nieprzyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Przyjmując Ciało Chrystusa, uczymy się od Niego miłości doskonałej, która obejmuje także nieprzyjaciół.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prosta pieśń dziękczynna za dar miłości i obecności Boga, która jest odpowiedzią na Jego łaskę opisaną w czytaniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Psalm wzywa do chwalenia Pana, który karmi głodnych i dźwiga poniżonych, a ta pieśń jest radosnym uwielbieniem Jego dzieł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "776",
+      "piesn": "Wielbić Pana chcę",
+      "opis": "Dziękujemy Bogu za Jego miłość, która przynagla nas do miłowania innych, nawet naszych nieprzyjaciół.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Na rozesłanie, pieśń ta prosi o Boże błogosławieństwo, by wierni mogli świadczyć o miłości w codziennym życiu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić Ewangelię miłości i przebaczenia, której przykład daje sam Bóg.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Prosimy Boga, aby zjednoczył nas w miłości, która jest zdolna przezwyciężyć wszelką wrogość i podziały.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, która jest źródłem siły do przebaczenia i miłowania nieprzyjaciół.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Jest to modlitwa o miłosierdzie i przebaczenie, które sami mamy okazywać innym, zgodnie z Ewangelią.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Ewangelia o miłości nieprzyjaciół jest praktycznym zastosowaniem błogosławieństwa dla miłosiernych i wprowadzających pokój.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń wyraża wiarę, że idąc za Chrystusem, uczymy się Jego drogi miłości doskonałej.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418113.Czwartek-24-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "24 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 15, 1-11",
+      "opis": "Paweł świadkiem wiary w Chrystusa Zmartwychwstałego",
+      "tekst": "Przypominam, bracia, Ewangelię, którą wam głosiłem, którą przyjęliście i w której też trwacie. Przez nią również będziecie zbawieni, jeżeli ją zachowacie tak, jak wam głosiłem. Bo inaczej na próżno byście uwierzyli.\nPrzekazałem wam na początku to, co przejąłem: że Chrystus umarł - zgodnie z Pismem - za nasze grzechy, że został pogrzebany, że zmartwychwstał trzeciego dnia, zgodnie z Pismem; i że ukazał się Kefasowi, a potem Dwunastu, później zjawił się więcej niż pięciuset braciom równocześnie; większość z nich żyje dotąd, niektórzy zaś pomarli. Potem ukazał się Jakubowi, później wszystkim apostołom. W końcu, już po wszystkich, ukazał się także i mnie jako poronionemu płodowi.\nJestem bowiem najmniejszy ze wszystkich apostołów i niegodzien zwać się apostołem, bo prześladowałem Kościół Boży. Lecz za łaską Boga jestem tym, czym jestem, a dana mi łaska Jego nie okazała się daremna; przeciwnie, pracowałem więcej od nich wszystkich, nie ja, co prawda, lecz łaska Boża ze mną.\nTak więc czy to ja, czy inni, tak nauczamy i tak uwierzyliście.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 118 (117), 1b-2. 16-17. 28-29 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Dziękujcie Panu, bo nasz Pan jest dobry.\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nNiech dom Izraela głosi: *\n«Jego łaska na wieki».\nRefren.\nPrawica Pana wzniesiona wysoko, *\nprawica Pańska moc okazała.\nNie umrę, ale żyć będę *\ni głosić dzieła Pana.\nRefren.\nJesteś moim Bogiem, podziękować chcę Tobie, *\nBoże mój, wielbić pragnę Ciebie.\nWysławiajcie Pana, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjdźcie do Mnie wszyscy, którzy utrudzeni i obciążeni jesteście,\na Ja was pokrzepię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 36-50",
+      "opis": "Odpuszczone są jej liczne grzechy, ponieważ bardzo umiłowała",
+      "tekst": "Jeden z faryzeuszów zaprosił Jezusa do siebie na posiłek. Wszedł więc do domu faryzeusza i zajął miejsce za stołem. A oto kobieta, która prowadziła w mieście życie grzeszne, dowiedziawszy się, że gości w domu faryzeusza, przyniosła flakonik alabastrowy olejku i stanąwszy z tyłu u Jego stóp, płacząc, zaczęła łzami oblewać Jego stopy i włosami swej głowy je wycierała. Potem całowała Jego stopy i namaszczała je olejkiem.\nWidząc to, faryzeusz, który Go zaprosił, mówił sam do siebie: «Gdyby On był prorokiem, wiedziałby, co to za jedna i jaka to jest ta kobieta, która się Go dotyka, że jest grzesznicą».\nNa to Jezus rzekł do niego: «Szymonie, mam ci coś do powiedzenia».\nOn rzekł: «Powiedz, Nauczycielu».\n«Pewien wierzyciel miał dwóch dłużników. Jeden winien mu był pięćset denarów, a drugi pięćdziesiąt. Gdy nie mieli z czego oddać, darował obydwom. Który z nich więc będzie go bardziej miłował?» Szymon odpowiedział: «Przypuszczam, że ten, któremu więcej darował».\nOn zaś mu rzekł: «Słusznie osądziłeś».\nPotem zwróciwszy się w stronę kobiety, rzekł do Szymona: «Widzisz tę kobietę? Wszedłem do twego domu, a nie podałeś Mi wody do nóg; ona zaś łzami oblała mi stopy i otarła je swymi włosami. Nie powitałeś mnie pocałunkiem; a ona, odkąd wszedłem, nie przestała całować stóp moich. Głowy nie namaściłeś Mi oliwą; ona zaś olejkiem namaściła moje stopy. Dlatego powiadam ci: . A ten, komu mało się odpuszcza, mało miłuje».\nDo niej zaś rzekł: «Odpuszczone są twoje grzechy».\nNa to współbiesiadnicy zaczęli mówić sami do siebie: «Któż On jest, że nawet grzechy odpuszcza?» On zaś rzekł do kobiety: «Twoja wiara cię ocaliła, idź w pokoju».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń jest prostym i radosnym wyznaniem wiary w zmartwychwstanie Chrystusa, co jest centralnym tematem pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń ta wprost wyraża myśl św. Pawła, że nasza nadzieja jest zakorzeniona w zmartwychwstaniu Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wysławia Chrystusa jako Zwycięzcę śmierci, co jest fundamentem wiary, o którym naucza św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Wyraża postawę żalu i miłości, którą ukazała grzeszna kobieta, i która jest wzorem dla wiernych, jak poucza św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Postawa nawrócenia i powrotu do Ojca jest bliska postawie kobiety z Ewangelii, która przychodzi do Jezusa ze skruchą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń pokutna, wyrażająca skruchę z powodu obrazy dobrego Boga, pasuje do postawy grzesznej kobiety.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "290",
+      "piesn": "Kochajmy Pana",
+      "opis": "Pieśń wzywa do miłości Pana, która jest owocem doświadczenia przebaczenia, co jest centralnym punktem Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "295",
+      "piesn": "Nieskończona, najśliczniejsza",
+      "opis": "Pieśń ta, pełna miłości i wdzięczności, oddaje uczucia kobiety, której odpuszczono liczne grzechy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "Prośba o przebaczenie i obmycie z win jest echem doświadczenia kobiety z Ewangelii, która dostąpiła miłosierdzia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest prostym aktem dziękczynienia za Bożą łaskę i miłosierdzie, o których mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn na cześć Bożego miłosierdzia, które objawiło się w odpuszczeniu grzechów i w zmartwychwstaniu Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za łaskę wiary i miłości jest odpowiedzią na dar zbawienia, o którym mówi św. Paweł.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest cnotą, w której, według pierwszego czytania, Tymoteusz ma być wzorem dla wiernych.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który przez swoją śmierć i zmartwychwstanie stał się naszą drogą do zbawienia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud świadczenia o Ewangelii, której fundamentem jest zmartwychwstanie Chrystusa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna wyraża postawę, która otwiera na Boże miłosierdzie, ukazane w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie jest odpowiedzią na Ewangelię o odpuszczeniu grzechów i świadectwo św. Pawła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "179",
+      "piesn": "Chrystus zmartwychwstał jest",
+      "opis": "Pieśń wielkanocna jest wyznaniem wiary w Zmartwychwstanie, o którym z taką mocą świadczy św. Paweł.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, którego łaska trwa na wieki, jak głosi psalm.",
+      "moment": "ogolne"
+    }
+  ]
+}

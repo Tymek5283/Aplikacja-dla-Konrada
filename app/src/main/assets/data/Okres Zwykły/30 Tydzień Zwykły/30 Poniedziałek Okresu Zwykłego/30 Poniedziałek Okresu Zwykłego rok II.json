@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415415.Poniedzialek-30-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "30 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 4, 32 - 5, 8",
+      "opis": "Postępujcie jak dzieci światłości",
+      "tekst": "Bracia:\nBądźcie dla siebie nawzajem dobrzy i miłosierni. Przebaczajcie sobie, tak jak i Bóg wam przebaczył w Chrystusie. Bądźcie więc naśladowcami Boga, jako dzieci umiłowane, i postępujcie drogą miłości, bo i Chrystus was umiłował i samego siebie wydał za nas w ofierze i dani na woń miłą Bogu.\nO nierządzie zaś i wszelkiej nieczystości albo chciwości niechaj nawet mowy nie będzie wśród was, jak przystoi świętym, ani o tym, co haniebne, ani niedorzecznego gadania lub nieprzyzwoitych żartów, bo to wszystko jest niestosowne. Raczej winno być wdzięczne usposobienie. O tym bowiem bądźcie przekonani, że żaden rozpustnik ani nieczysty, ani chciwiec - to jest bałwochwalca - nie ma dziedzictwa w królestwie Chrystusa i Boga. Niechaj was nikt nie zwodzi próżnymi słowami, bo przez te grzechy nadchodzi gniew Boży na synów buntu. Nie miejcie więc z nimi nic wspólnego!\nNiegdyś bowiem byliście ciemnością, lecz teraz jesteście światłością w Panu: postępujcie jak dzieci światłości.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ef 5, 1)",
+      "opis": "",
+      "tekst": "Refren: Jak dobre dzieci, naśladujmy Boga.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzeszycy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 17, 17ba",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Słowo Twoje, Panie, jest prawdą,\nuświęć nas w prawdzie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 13, 10-17",
+      "opis": "Uzdrowienie w szabat",
+      "tekst": "Jezus nauczał w szabat w jednej z synagog. A była tam kobieta, która od osiemnastu lat miała ducha niemocy: była pochylona i w żaden sposób nie mogła się wyprostować.\nGdy Jezus ją zobaczył, przywołał ją i rzekł do niej: «Niewiasto, jesteś wolna od swej niemocy». Położył na nią ręce, a natychmiast wyprostowała się i chwaliła Boga.\nLecz przełożony synagogi, oburzony tym, że Jezus uzdrowił w szabat, rzekł do ludu: «Jest sześć dni, w które należy pracować. W te więc przychodźcie i leczcie się, a nie w dzień szabatu!»\nPan mu odpowiedział: «Obłudnicy, czyż każdy z was nie odwiązuje w szabat wołu lub osła od żłobu i nie prowadzi, by go napoić? A owej córki Abrahama, którą Szatan osiemnaście lat trzymał na uwięzi, czy nie należało uwolnić od tych więzów w dzień szabatu?» Na te słowa wstyd ogarnął wszystkich Jego przeciwników, a lud cały cieszył się ze wszystkich wspaniałych czynów, dokonywanych przez Niego.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do Jezusa, który w Ewangelii uwalnia kobietę od niemocy, dając jej zdrowie duszy i ciała.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "271",
+      "piesn": "Przyjdźcie do mnie wszyscy",
+      "opis": "Pieśń jest echem słów Jezusa, który zaprasza do siebie wszystkich utrudzonych, jak pochylona kobieta z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to zaproszenie do zgromadzenia się przed Panem, który jest źródłem uzdrowienia i miłosierdzia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Pierwsze czytanie wzywa do wzajemnej miłości i przebaczenia. Ta pieśń jest aktem ofiarowania naszej woli, by żyć tym przykazaniem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Pieśń ta jest hymnem o miłości, która jest fundamentem życia chrześcijańskiego, opisanego w pierwszym czytaniu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Pieśń jest prośbą o Boże błogosławieństwo, abyśmy potrafili żyć jak 'dzieci światłości', przebaczając sobie nawzajem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "201",
+      "piesn": "Ku Tobie, Panie",
+      "opis": "W Komunii przyjmujemy Tego, który uwalnia nas z więzów grzechu, jak uwolnił pochyloną kobietę z jej niemocy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla miłość Chrystusa, który w Eucharystii daje nam siebie, ucząc nas miłosierdzia i przebaczenia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna, która wyraża postawę pokory i wiary, niezbędną do przyjęcia uzdrawiającej mocy Chrystusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Uzdrowiona kobieta 'chwaliła Boga'. Ta pieśń jest naszym dziękczynieniem za Boże miłosierdzie i uzdrowienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar bycia dziećmi Bożymi i dziećmi światłości, o czym mówi św. Paweł w pierwszym czytaniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest dziękczynieniem za dar uzdrowienia i wyzwolenia, o którym mówi Ewangelia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do życia w światłości, o której mówi św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Uzdrowienie w Ewangelii jest znakiem mocy Chrystusa, którą mamy głosić całemu światu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Pieśń jest prośbą o umocnienie wiary, która pozwala nam postępować jak dzieci światłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Tekst 'Gdzie miłość i dobroć, tam znajdziesz Boga' jest doskonałym podsumowaniem pierwszego czytania o miłości i przebaczeniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach, zwłaszcza dla miłosiernych, nawiązuje do wezwania św. Pawła, by być dla siebie dobrym i miłosiernym.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń jest radosnym ogłoszeniem królowania Pana, którego sprawiedliwość i łaskawość wysławia psalmista.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "593",
+      "piesn": "Bóg kiedyś stał się jednym z nas",
+      "opis": "Pieśń przypomina, że Chrystus, który nas umiłował i wydał za nas samego siebie, jest wzorem miłości, do której jesteśmy wezwani.",
+      "moment": "ogolne"
+    }
+  ]
+}

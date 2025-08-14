@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413298.IV-Niedziela-Wielkanocna-rok-B",
+  "tytul_dnia": "4 Niedziela Okresu Wielkanocnego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 4, 8-12",
+      "opis": "Kamień odrzucony przez budujących stał się kamieniem węgielnym",
+      "tekst": "Piotr napełniony Duchem Świętym powiedział: «Przełożeni ludu i starsi! Jeżeli przesłuchujecie nas dzisiaj w sprawie dobrodziejstwa, dzięki któremu chory człowiek odzyskał zdrowie, to niech będzie wiadomo wam wszystkim i całemu ludowi Izraela, że w imię Jezusa Chrystusa Nazarejczyka - którego wy ukrzyżowaliście, a którego Bóg wskrzesił z martwych - że dzięki Niemu ten człowiek stanął przed wami zdrowy.\nOn jest kamieniem odrzuconym przez was budujących, tym, który stał się głowicą węgła. I nie ma w żadnym innym zbawienia, gdyż nie dano ludziom pod niebem żadnego innego imienia, przez które moglibyśmy być zbawieni».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 118 (117), 1bc i 8-9. 21-23. 26 i 28 (R.: por. 22)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Kamień wzgardzony stał się fundamentem.\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nLepiej się uciekać do Pana, †\nniż pokładać ufność w człowieku. *\nLepiej się uciekać do Pana, niż pokładać ufność w książętach.\nRefren.\nDziękuję Tobie, że mnie wysłuchałeś *\ni stałeś się moim Zbawcą.\nKamień odrzucony przez budujących †\nstał się kamieniem węgielnym. *\nStało się to przez Pana i cudem jest w naszych oczach.\nRefren.\nBłogosławiony, który przybywa w imię Pańskie, *\nbłogosławimy wam z Pańskiego domu.\nJesteś moim Bogiem, podziękować chcę Tobie, *\nBoże mój, wielbić pragnę Ciebie.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 3, 1-2",
+      "opis": "Jesteśmy dziećmi Bożymi",
+      "tekst": "Najmilsi:\nPopatrzcie, jaką miłością obdarzył nas Ojciec: zostaliśmy nazwani dziećmi Bożymi, i rzeczywiście nimi jesteśmy. Świat zaś dlatego nas nie zna, że nie poznał Jego.\nUmiłowani, obecnie jesteśmy dziećmi Bożymi, ale jeszcze się nie ujawniło, czym będziemy. Wiemy, że gdy się objawi, będziemy do Niego podobni, bo ujrzymy Go takim, jakim jest.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 10, 14",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem dobrym pasterzem\ni znam owce moje, a moje Mnie znają."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 10, 11-18",
+      "opis": "Jezus jest dobrym pasterzem",
+      "tekst": "Jezus powiedział:\n«Ja jestem dobrym pasterzem. Dobry pasterz daje życie swoje za owce. Najemnik zaś i ten, kto nie jest pasterzem, którego owce nie są własnością, widząc nadchodzącego wilka, opuszcza owce i ucieka, a wilk je porywa i rozprasza; najemnik ucieka, dlatego że jest najemnikiem i nie zależy mu na owcach.\nJa jestem dobrym pasterzem i znam owce moje, a moje Mnie znają, podobnie jak Mnie zna Ojciec, a Ja znam Ojca. Życie moje oddaję za owce. Mam także inne owce, które nie są z tej zagrody. I te muszę przyprowadzić, i będą słuchać głosu mego, i nastanie jedna owczarnia, jeden pasterz.\nDlatego miłuje Mnie Ojciec, bo Ja życie moje oddaję, aby je znów odzyskać. Nikt Mi go nie zabiera, lecz Ja sam z siebie je oddaję. Mam moc je oddać i mam moc je znów odzyskać. Taki nakaz otrzymałem od mojego Ojca».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń ta jest parafrazą Psalmu 23, który tematycznie idealnie pasuje do Niedzieli Dobrego Pasterza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń głosi obecność Zmartwychwstałego Pana, który jest Dobrym Pasterzem prowadzącym swoją owczarnię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w żywego Pana, Dobrego Pasterza, który oddał za nas życie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do obrazu owczarni z Ewangelii, która przez chrzest staje się ludem Bożym, zgromadzonym wokół Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń ta podkreśla jedność owczarni, o której mówi Jezus, zgromadzonej przy jednym stole eucharystycznym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Utwór ten jest hymnem na cześć miłości, która jednoczy owczarnię Dobrego Pasterza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "615",
+      "piesn": "Pan mój, Wódz i Pasterz",
+      "opis": "Jest to kolejna wersja Psalmu 23, która podkreśla osobistą więź z Chrystusem Dobrym Pasterzem, który oddaje życie za owce.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, Dobrego Pasterza, który karmi nas swoim Ciałem w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Dobry Pasterz daje swoje życie za owce, a w Eucharystii daje nam siebie jako pokarm na życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Pieśń ta jest modlitwą o powołania kapłańskie i zakonne, co jest tradycyjnym tematem Niedzieli Dobrego Pasterza.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, który jest Dobrym Pasterzem i Kamieniem Węgielnym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Dobrego Pasterza, który zmartwychwstał.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Chrystus Dobry Pasterz posyła swoich uczniów, aby byli pasterzami Jego owiec i gromadzili jedną owczarnię.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary w Zmartwychwstałego, który jest naszym Pasterzem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o nowym życiu, które otrzymujemy dzięki Dobremu Pasterzowi, który prowadzi nas do nieba.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Wiara w Zmartwychwstałego Pana, który jest Kamieniem Węgielnym, jest fundamentem życia dzieci Bożych.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, która dobrze wpisuje się w modlitwę o dobrych pasterzy dla Kościoła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć, aby dać życie wieczne swoim owcom.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest Dobrym Pasterzem i prowadzi nas do Ojca.",
+      "moment": "ogolne"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411062.Poniedzialek-III-tydzien-zwykly-rok-I",
+  "tytul_dnia": "3 Poniedziałek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 9, 15. 24-28",
+      "opis": "Ofiara Chrystusa",
+      "tekst": "Bracia:\nChrystus jest pośrednikiem Nowego Przymierza, ażeby przez śmierć, poniesioną dla odkupienia przestępstw popełnionych za pierwszego przymierza, ci, którzy są wezwani do wiecznego dziedzictwa, dostąpili spełnienia obietnicy.\nChrystus bowiem wszedł nie do świątyni zbudowanej rękami ludzkimi, będącej odbiciem prawdziwej świątyni, ale do samego nieba, aby teraz wstawiać się za nami przed obliczem Boga, ani nie po to, aby się wielekroć sam miał ofiarować, jak arcykapłan, który co roku wchodzi do świątyni z krwią cudzą, gdyż w takim przypadku musiałby cierpieć wiele razy od stworzenia świata. A tymczasem raz jeden ukazał się teraz na końcu wieków, aby zgładzić grzech przez ofiarę z samego siebie.\nA jak postanowione ludziom raz umrzeć, potem zaś sąd, tak Chrystus raz jeden był ofiarowany dla zgładzenia grzechów wielu, drugi raz ukaże się nie w związku z grzechem, lecz dla zbawienia tych, którzy Go oczekują.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4. 5-6 (R.: por. 1bc)",
+      "opis": "",
+      "tekst": "Refren: Śpiewajcie Panu, bo uczynił cuda.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren.\nŚpiewajcie Panu przy wtórze cytry, *\nprzy wtórze cytry i przy dźwięku harfy.\nPrzy trąbach i przy głosie rogu, *\nna oczach Pana, Króla, się radujcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 22-30",
+      "opis": "Chrystus przeciw Szatanowi",
+      "tekst": "Uczeni w Piśmie, którzy przyszli z Jerozolimy, mówili o Jezusie: «Ma Belzebuba i mocą władcy złych duchów wyrzuca złe duchy».\nWtedy Jezus przywołał ich do siebie i mówił im w przypowieściach: «Jak może Szatan wyrzucać Szatana? Jeśli jakieś królestwo jest wewnętrznie skłócone, takie królestwo nie może się ostać. I jeśli dom wewnętrznie jest skłócony, to taki dom nie będzie mógł się ostać. Jeśli więc Szatan powstał przeciw sobie i jest z sobą skłócony, to nie może się ostać, lecz koniec z nim. Nikt nie może wejść do domu mocarza i sprzęt mu zagrabić, jeśli mocarza wpierw nie zwiąże, i dopiero wtedy dom jego ograbi. Zaprawdę, powiadam wam: Wszystkie grzechy i bluźnierstwa, których by się ludzie dopuścili, będą im odpuszczone. Kto by jednak zbluźnił przeciw Duchowi Świętemu, nigdy nie otrzyma odpuszczenia, lecz winien jest grzechu wiecznego». Mówili bowiem: «Ma ducha nieczystego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest radosnym wezwaniem do głoszenia zbawienia, które okazał Pan, jak śpiewa psalmista.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym hymnem chwały na cześć Pana, który uczynił cuda i objawił swoją sprawiedliwość.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Wzywa do głoszenia chwały Pana, którego zbawienie ujrzały wszystkie krańce ziemi, jak mówi psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Nawiązuje do jedynej ofiary Chrystusa Arcykapłana, która gładzi grzechy i uświęca lud Nowego Przymierza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Nawiązuje do kapłaństwa Chrystusa i Jego jedynej ofiary, która gładzi grzechy i daje wieczne dziedzictwo.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W ofierze składamy Bogu nasze życie, prosząc o oczyszczenie mocą jedynej ofiary Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Sekwencja eucharystyczna sławi ofiarę Chrystusa, która jest źródłem odpuszczenia grzechów i zwycięstwa nad złem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Pieśń jest modlitwą o uświęcenie przez Krew i Ciało Chrystusa, który jest Pośrednikiem Nowego Przymierza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "282",
+      "piesn": "Witam Cię, witam",
+      "opis": "Pieśń eucharystyczna, w której prosimy o litość i zmiłowanie mocą Ciała i Krwi Pańskiej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń uwielbia Chrystusa, który jako mocniejszy od szatana, zwycięża go i przynosi zbawienie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, który uczynił cuda i okazał swoje zbawienie, jak mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to hymn pochwalny na cześć Pana, którego zbawienie ujrzały wszystkie krańce ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o zwycięstwie Chrystusa nad grzechem i szatanem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do zbawienia, które wysłużył swoją jedyną ofiarą.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest owocem Jego zwycięstwa nad złem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o ofierze Chrystusa, która zgładziła grzechy i otworzyła nam niebo, o czym mówi pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który zwyciężył śmierć i jest naszą nadzieją na zbawienie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Ewangelia ostrzega przed grzechem przeciwko Duchowi Świętemu. Ta pieśń jest modlitwą o Jego dary i światło.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, którego bluźnierstwo jest grzechem nieodpuszczalnym, o czym przestrzega Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

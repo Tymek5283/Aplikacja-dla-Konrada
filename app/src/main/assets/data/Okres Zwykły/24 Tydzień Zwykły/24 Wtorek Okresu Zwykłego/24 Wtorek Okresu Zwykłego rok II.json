@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418115.Wtorek-24-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "24 Wtorek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "1 Kor 12, 12-14. 27-31a",
+      "opis": "Mistyczne Ciało Chrystusa",
+      "tekst": "Bracia:\nPodobnie jak jedno jest ciało, choć składa się z wielu członków, a wszystkie członki ciała, mimo iż są liczne, stanowią jedno ciało, tak też jest i z Chrystusem. Wszyscy bowiem w jednym Duchu zostaliśmy ochrzczeni, aby stanowić jedno Ciało: czy to Żydzi, czy Grecy, czy to niewolnicy, czy wolni. Wszyscy też zostaliśmy napojeni jednym Duchem. Ciało bowiem to nie jeden członek, lecz liczne członki.\nWy przeto jesteście Ciałem Chrystusa i poszczególnymi Jego członkami. I tak ustanowił Bóg w Kościele naprzód apostołów, po wtóre proroków, po trzecie nauczycieli, a następnie tych, co mają moc czynienia cudów, potem tych, którzy uzdrawiają, którzy wspierają pomocą, którzy rządzą, którzy przemawiają rozmaitymi językami. Czyż wszyscy są apostołami? Czy wszyscy prorokują? Czy wszyscy są nauczycielami? Czy wszyscy mają moc czynienia cudów? Czy wszyscy posiadają łaskę uzdrawiania? Czy wszyscy mówią językami? Czy wszyscy potrafią je tłumaczyć? Lecz wy starajcie się o większe dary.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 100 (99), 2-3. 4-5 (R.: por. 3c)",
+      "opis": "",
+      "tekst": "Refren: My ludem Pana i Jego owcami.\nSłużcie Panu z weselem, *\nstańcie przed obliczem Pana z okrzykami radości.\nWiedzcie, że Pan jest Bogiem, †\nOn sam nas stworzył, jesteśmy Jego własnością, *\nJego ludem, owcami Jego pastwiska.\nRefren.\nW Jego bramy wstępujcie z dziękczynieniem, †\nz hymnami w Jego przedsionki, *\nchwalcie i błogosławcie Jego imię.\nAlbowiem Pan jest dobry, †\nJego łaska trwa na wieki, *\na Jego wierność przez pokolenia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 7, 16",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wielki prorok powstał między nami\ni Bóg nawiedził lud swój."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 7, 11-17",
+      "opis": "Wskrzeszenie młodzieńca z Nain",
+      "tekst": "Jezus udał się do pewnego miasta, zwanego Nain; a podążali z Nim Jego uczniowie i tłum wielki. Gdy przybliżył się do bramy miejskiej, właśnie wynoszono umarłego - jedynego syna matki, a ta była wdową. Towarzyszył jej spory tłum z miasta.\nNa jej widok Pan zlitował się nad nią i rzekł do niej: «Nie płacz». Potem przystąpił, dotknął się mar - a ci, którzy je nieśli, przystanęli - i rzekł: «Młodzieńcze, tobie mówię, wstań!» A zmarły usiadł i zaczął mówić; i oddał go jego matce.\nWszystkich zaś ogarnął strach; wielbili Boga i mówili: «Wielki prorok powstał wśród nas, i Bóg nawiedził lud swój». I rozeszła się ta wieść o Nim po całej Judei i po całej okolicznej krainie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła jako jednego Ciała Chrystusa jest idealnym wprowadzeniem do liturgii opartej na pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność Kościoła jest szczególnie ważna w kontekście nauczania św. Pawła o Ciele Chrystusa złożonym z wielu członków.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Miłość i dobroć są spoiwem Mistycznego Ciała Chrystusa, o którym naucza pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "W ofierze uczestniczy cały Kościół, Ciało Chrystusa, złożone z wielu członków obdarzonych różnymi charyzmatami.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina składamy naszą różnorodność, prosząc, by Bóg uczynił z nas jedno Ciało.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń jest prośbą o jedność, która jest darem Ducha Świętego, tworzącego z nas jedno Ciało.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń ta wskazuje na Chrystusa jako Głowę Kościoła, który w Ewangelii objawia się jako Pan życia i śmierci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Eucharystia jest pokarmem, który buduje Ciało Chrystusa, o którym naucza św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Pieśń jest wołaniem o miłosierdzie, które Jezus okazuje wdowie z Nain, wskrzeszając jej syna.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Hymn ten jest wyrazem uwielbienia całego Kościoła, o którym mówi św. Paweł, za cud życia przywrócony przez Jezusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Radosna pieśń uwielbienia jest odpowiedzią na cud wskrzeszenia i na prawdę, że jesteśmy ludem Pana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest aktem uwielbienia Boga, który jest Stwórcą i Pasterzem swojego ludu, jak głosi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do głoszenia Ewangelii, której częścią jest wieść o cudach Jezusa, jak ten z Nain.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud bycia świadkami mocy Chrystusa w świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, który jest Panem życia i prowadzi nas do wiecznej ojczyzny.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Wobec cudu wskrzeszenia, pieśń ta wyraża chrześcijańską nadzieję na zmartwychwstanie i oglądanie Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Pieśń o zwycięstwie Chrystusa nad złem i śmiercią jest odpowiedzią na cud wskrzeszenia młodzieńca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "612",
+      "piesn": "O Panie, Tyś moim Pasterzem",
+      "opis": "Pieśń o Dobrym Pasterzu, który troszczy się o swoje owce, jest echem psalmu responsoryjnego.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Eucharystia jest pokarmem, który buduje i jednoczy Kościół, Ciało Chrystusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

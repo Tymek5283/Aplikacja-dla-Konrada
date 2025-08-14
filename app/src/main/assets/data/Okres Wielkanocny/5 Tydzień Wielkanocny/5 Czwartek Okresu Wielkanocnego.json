@@ -1,0 +1,146 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/413327.Czwartek-V-tygodnia-wielkanocnego",
+  "tytul_dnia": "5 Czwartek Okresu Wielkanocnego",
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 15, 7-21",
+      "opis": "Sobór Jerozolimski",
+      "tekst": "W Jerozolimie, po długiej wymianie zdań, przemówił Piotr do apostołów i starszych:\n«Wiecie, bracia, że Bóg już dawno wybrał mnie spośród was, aby z moich ust poganie usłyszeli słowa Ewangelii i uwierzyli. Bóg, który zna serca, zaświadczył na ich korzyść, dając im Ducha Świętego tak samo jak nam. Nie zrobił żadnej różnicy między nami a nimi, oczyszczając ich serca przez wiarę.\nDlaczego więc teraz Boga wystawiacie na próbę, nakładając na uczniów jarzmo, którego ani ojcowie nasi, ani my sami nie mieliśmy siły dźwigać. Wierzymy przecież, że będziemy zbawieni przez łaskę Pana Jezusa tak samo jak oni».\nUmilkli wszyscy, a potem słuchali opowiadania Barnaby i Pawła o tym, jak wielkich cudów i znaków dokonał Bóg przez nich wśród pogan.\nA gdy i oni umilkli, zabrał głos Jakub i rzekł: «Posłuchajcie mnie, bracia! Szymon opowiedział, jak Bóg raczył wybrać sobie Lud spośród pogan. Zgadzają się z tym słowa Proroków, bo napisano:\n„Potem powrócę i odbuduję przybytek Dawida, który znajduje się w upadku. Odbuduję jego ruiny i wzniosę go, aby pozostali ludzie szukali Pana i wszystkie narody, nad którymi wzywane jest imię moje - mówi Pan, który to sprawia. To są Jego odwieczne wyroki”.\nDlatego ja sądzę, że nie należy nakładać ciężarów na pogan nawracających się do Boga, lecz napisać im, aby się wstrzymali od pokarmów ofiarowanych bożkom, od nierządu, od tego, co uduszone, i od krwi. Z dawien dawna bowiem w każdym mieście są ludzie, którzy co szabat czytają Mojżesza i wykładają go w synagogach».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 96 (95), 1-2a. 2b-3. 10 (R.: por. 3)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Pośród narodów głoście chwałę Pana.\nŚpiewajcie Panu pieśń nową, *\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, *\nsławcie Jego imię.\nRefren.\nKażdego dnia głoście Jego zbawienie. *\nGłoście Jego chwałę wśród wszystkich narodów,\nrozgłaszajcie Jego cuda *\npośród wszystkich ludów.\nRefren.\nGłoście wśród ludów, *\nże Pan jest królem.\nOn świat tak utwierdził, że się nie zachwieje, *\nbędzie sprawiedliwie sądził ludy.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 10, 27",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Moje owce słuchają mego głosu,\nJa znam je, a one idą za Mną."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 15, 9-11",
+      "opis": "Trwajcie w miłości mojej",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jak Mnie umiłował Ojciec, tak i Ja was umiłowałem. ! Jeśli będziecie zachowywać moje przykazania, będziecie trwać w miłości mojej, tak jak Ja zachowałem przykazania Ojca mego i trwam w Jego miłości.\nTo wam powiedziałem, aby radość moja w was była i aby radość wasza była pełna».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wzywając do głoszenia zbawienia i chwały Pana wśród wszystkich narodów.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, wzywająca do głoszenia światu, że Pan zmartwychwstał, co jest podstawą misji do pogan.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem miłości Chrystusa, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Nawiązuje do Ewangelii o trwaniu w miłości Chrystusa, która jest fundamentem jedności Kościoła, o której dyskutowano na Soborze Jerozolimskim.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń podkreśla jedność Kościoła, w którym nie ma już podziału na Żydów i pogan, co było tematem obrad w Jerozolimie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Syna Bożego, jednoczącej wszystkich ludzi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Jest to muzyczne opracowanie przykazania miłości, które jest warunkiem trwania w miłości Chrystusa, jak naucza Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Chrystusa, do trwania w której wzywa Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus jednoczy nas ze sobą i uczy miłości wzajemnej.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń uwielbienia dla Chrystusa, którego zbawienie, jak zdecydował Sobór, jest dostępne dla wszystkich narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Hymn sławiący zwycięstwo Zmartwychwstałego Pana, którego chwałę, zgodnie z psalmem, należy głosić wśród narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń jest wyznaniem wiary w Zmartwychwstanie, które jest źródłem pełnej radości obiecanej w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Decyzje Soboru Jerozolimskiego otworzyły drogę do misji wśród pogan, do której wzywa ta pieśń.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji głoszenia Ewangelii wszystkim narodom, do czego otworzył drogę Sobór Jerozolimski.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń posyła wiernych, by z radością głosili światu, że Pan żyje i jest z nami.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wiara w Zmartwychwstałego jest fundamentem zbawienia przez łaskę, o której mówił Piotr na Soborze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój w Kościele jest odpowiedzią na decyzje Soboru Jerozolimskiego, mające na celu zachowanie jedności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten w prosty sposób przypomina, że miłość, do której wzywa Ewangelia, jest miejscem obecności Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "176",
+      "piesn": "Alleluja... O dniu radosny",
+      "opis": "Pieśń podkreśla radosny charakter dnia, w którym Ewangelia o miłości i zbawieniu dociera do wszystkich ludzi.",
+      "moment": "ogolne"
+    }
+  ]
+}

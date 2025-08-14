@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/411029.Czwartek-II-tydzien-zwykly-rok-I",
+  "tytul_dnia": "2 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Hbr 7, 25 - 8, 6",
+      "opis": "Chrystus jest arcykapłanem bez grzechu",
+      "tekst": "Bracia:\n\nJezus może całkowicie zbawiać na wieki tych, którzy przez Niego przystępują do Boga, bo wciąż żyje, aby się wstawiać za nimi. Takiego bowiem potrzeba nam było arcykapłana: świętego, niewinnego, nieskalanego, oddzielonego od grzeszników, wywyższonego ponad niebiosa, takiego, który nie jest zobowiązany, jak inni arcykapłani, do składania codziennej ofiary najpierw za swoje grzechy, a potem za grzechy ludu. To bowiem uczynił raz na zawsze, ofiarując samego siebie. Prawo bowiem ustanawiało arcykapłanami ludzi obciążonych słabością, słowo zaś przysięgi, złożonej po nadaniu Prawa, ustanawia arcykapłanem Syna doskonałego na wieki. Sedno zaś wywodów stanowi prawda: takiego mamy arcykapłana, który zasiadł po prawicy tronu Majestatu w niebiosach, jako sługa świątyni i prawdziwego przybytku zbudowanego przez Pana, a nie przez człowieka. Każdy bowiem arcykapłan ustanawiany jest do składania darów i ofiar, przeto trzeba, aby Ten także miał coś, co by ofiarował. Gdyby więc był na ziemi, to nawet nie byłby kapłanem, gdyż są tu inni, którzy składają ofiary według postanowień Prawa. Usługują oni obrazowi i cieniowi rzeczywistości niebieskich. Gdy bowiem Mojżesz miał zbudować przybytek, został w ten sposób pouczony przez Boga: «Bacz, abyś uczynił wszystko według wzoru, jaki ci został ukazany na górze». Teraz zaś Chrystus otrzymał w udziale o tyle wznioślejszą służbę, o ile też stał się pośrednikiem lepszego przymierza, które oparte zostało na lepszych obietnicach. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 40 (39), 7-8a. 8b-10. 17 (R.: por. 8a i 9a)",
+      "opis": "",
+      "tekst": "Refren: Przychodzę, Boże, pełnić Twoją wolę.\nNie chciałeś ofiary krwawej ani z płodów ziemi, *\n\nlecz otwarłeś mi uszy;\n\nnie żądałeś całopalenia i ofiary za grzechy. *\n\nWtedy powiedziałem: «Oto przychodzę.\nRefren.\nW zwoju księgi jest o mnie napisane: †\n\nRadością jest dla mnie pełnić Twoją wolę, mój Boże, *\n\na Twoje Prawo mieszka w moim sercu».\n\nGłosiłem Twą sprawiedliwość w wielkim zgromadzeniu †\n\ni nie powściągałem warg moich, *\n\no czym Ty wiesz, Panie.\nRefren.\nNiech się radują i weselą w Tobie *\n\nwszyscy, którzy Ciebie szukają,\n\na ci, którzy pragną Twojej pomocy, *\n\nniech zawsze mówią: «Pan jest wielki».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\n\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 7-12",
+      "opis": "Podziw tłumów dla Jezusa",
+      "tekst": "Jezus oddalił się ze swymi uczniami w stronę jeziora. A przyszło za Nim wielkie mnóstwo ludzi z Galilei. Także z Judei, z Jerozolimy, z Idumei i Zajordania oraz z okolic Tyru i Sydonu szło do Niego mnóstwo wielkie na wieść o tym, jak wiele działał. Toteż polecił swym uczniom, żeby łódka była dla Niego stale w pogotowiu ze względu na tłum, aby na Niego nie napierano. Wielu bowiem uzdrowił i wskutek tego wszyscy, którzy mieli jakieś choroby, cisnęli się do Niego, aby Go dotknąć. Nawet duchy nieczyste, na Jego widok, padały przed Nim i wołały: «Ty jesteś Syn Boży». Lecz On surowo im zabraniał, żeby Go nie ujawniały. Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń ta jest zaproszeniem do przyjścia do Jezusa, tak jak czyniły to tłumy z Ewangelii, szukając uzdrowienia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Jest to wezwanie do zgromadzenia się wokół Chrystusa, Arcykapłana i Uzdrowiciela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "305",
+      "piesn": "Z tej biednej ziemi",
+      "opis": "Wyraża wołanie o pomoc i uzdrowienie, z jakim przychodziły do Jezusa tłumy z różnych krain.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "223",
+      "piesn": "Kapłańskie Serce Jezusa",
+      "opis": "Nawiązuje do pierwszego czytania, które przedstawia Chrystusa jako doskonałego Arcykapłana składającego ofiarę z samego siebie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o kapłaństwie, które jest uczestnictwem w jedynym kapłaństwie Chrystusa, Arcykapłana Nowego Przymierza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiara Chrystusa, o której mówi pierwsze czytanie, jest źródłem naszego zbawienia i uzdrowienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w uzdrawiającą moc Chrystusa, której doświadczali ludzie cisnący się do Niego w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Wyraża postawę tłumów, które z wiarą i pokorą cisnęły się do Jezusa, aby Go dotknąć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Pieśń wyraża radość i wiarę w przychodzącego Jezusa, który jest źródłem uzdrowienia i życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na cuda Jezusa i Jego Boską tożsamość, rozpoznawaną nawet przez duchy nieczyste.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Majestatyczny hymn chwały dla Jezusa, Syna Bożego, którego moc objawiła się w licznych uzdrowieniach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za uzdrowienie i zbawienie, które przychodzi przez Chrystusa, naszego Arcykapłana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Przypomina, że przez Chrystusa Arcykapłana cały lud Boży ma udział w Jego kapłaństwie i jest wezwany do składania duchowych ofiar.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, by głosić światu Jezusa, który uzdrawia i zbawia, tak jak czynił to w Galilei.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Pieśń ukazuje Chrystusa, który nieustannie idzie przez świat, niosąc uzdrowienie i pociechę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "625",
+      "piesn": "Spojrzyj z nieba wysokiego",
+      "opis": "Błagalny charakter pieśni oddaje postawę chorych i cierpiących, którzy z wiarą szukali pomocy u Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o Boże błogosławieństwo jest odpowiedzią na objawienie się mocy i miłosierdzia Jezusa w Jego publicznej działalności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Pieśń o zaufaniu Jezusowi, który jest naszym jedynym Zbawicielem i Arcykapłanem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Litania próśb o miłosierdzie, które objawiło się w licznych uzdrowieniach dokonanych przez Jezusa.",
+      "moment": "ogolne"
+    }
+  ]
+}

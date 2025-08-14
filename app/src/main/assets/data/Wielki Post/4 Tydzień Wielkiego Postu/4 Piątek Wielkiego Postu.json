@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/412916.Piatek-IV-tygodnia-Wielkiego-Postu",
+  "tytul_dnia": "4 Piątek Wielkiego Postu",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Mdr 2, 1a. 12-22",
+      "opis": "Spisek przeciw sprawiedliwemu",
+      "tekst": "Mylnie rozumując, bezbożni mówili sobie:\n«Zróbmy zasadzkę na sprawiedliwego, bo nam niewygodny: sprzeciwia się naszemu działaniu, zarzuca nam przekraczanie Prawa, wypomina nam przekraczanie naszych zasad karności. Głosi, że zna Boga, zwie siebie dzieckiem Pańskim.\nJest potępieniem naszych zamysłów, sam widok jego jest dla nas przykry, bo życie jego niepodobne do innych i drogi jego odmienne. Uznał nas za coś fałszywego i stroni od dróg naszych jak od nieczystości. Kres sprawiedliwych ogłasza za szczęśliwy i chełpi się Bogiem jako ojcem.\nZobaczmy, czy prawdziwe są jego słowa, wybadajmy, co będzie przy jego zgonie. Bo jeśli sprawiedliwy jest synem Bożym, Bóg ujmie się za nim i wyrwie go z rąk przeciwników.\nDotknijmy go obelgą i katuszą, by poznać jego łagodność i doświadczyć jego cierpliwości. Zasądźmy go na śmierć haniebną, bo - jak mówił - będzie ocalony».\nTak pomyśleli - i pobłądzili, bo własna złość ich zaślepiła. Nie pojęli tajemnic Bożych, nie spodziewali się nagrody za prawość i nie docenili odpłaty dla dusz czystych.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 34 (33), 17-18. 19-20. 21 i 23 (R.: por. 19a)",
+      "opis": "",
+      "tekst": "Refren: Pan zawsze bliski dla skruszonych w sercu.\nPan zwraca swe oblicze przeciw zło czyniącym, *\nby pamięć o nich wymazać z ziemi.\nPan słyszy wołających o pomoc *\ni ratuje ich od wszelkiej udręki.\nRefren.\nPan jest blisko ludzi skruszonych w sercu, *\nocala upadłych na duchu.\nLiczne są nieszczęścia, które cierpi sprawiedliwy, *\nale Pan go ze wszystkich wybawia.\nRefren.\nOn czuwa nad każdą jego kością *\ni żadna z nich nie zostanie złamana.\nPan odkupi dusze sług swoich, *\nnie zazna kary, kto się do Niego ucieka.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 4, 4b",
+      "opis": "Aklamacja: Chwała Tobie, Królu wieków.",
+      "tekst": "Nie samym chlebem żyje człowiek,\nlecz każdym słowem, które pochodzi z ust Bożych."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 7, 1-2. 10. 25-30",
+      "opis": "Przeciwnicy zamierzają pojmać Jezusa, lecz godzina Jego jeszcze nie nadeszła",
+      "tekst": "Jezus obchodził Galileę. Nie chciał bowiem chodzić po Judei, bo Żydzi zamierzali Go zabić.\nA zbliżało się żydowskie Święto Namiotów. Kiedy zaś bracia Jego udali się na święto, wówczas poszedł i On, jednakże nie jawnie, lecz skrycie.\nNiektórzy z mieszkańców Jerozolimy mówili: «Czyż to nie jest Ten, którego usiłują zabić? A oto jawnie przemawia i nic mu nie mówią. Czyżby zwierzchnicy naprawdę się przekonali, że On jest Mesjaszem? Przecież my wiemy, skąd On pochodzi, natomiast gdy Mesjasz przyjdzie, nikt nie będzie wiedział, skąd jest».\nA Jezus, nauczając w świątyni, zawołał tymi słowami: «I Mnie znacie, i wiecie, skąd jestem. Ja jednak nie przyszedłem sam z siebie; lecz prawdomówny jest Ten, który Mnie posłał, którego wy nie znacie. Ja Go znam, bo od Niego jestem i On Mnie posłał».\nZamierzali więc Go pojmać, jednakże nikt nie podniósł na Niego ręki, ponieważ godzina Jego jeszcze nie nadeszła.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "105",
+      "piesn": "Najwyższego majestatu",
+      "opis": "Pieśń ta wyraża skruchę z powodu grzechu, który prowadzi do odrzucenia i prześladowania Sprawiedliwego, opisanego w obu czytaniach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Pieśń jest modlitwą człowieka prześladowanego, który szuka ucieczki w Bogu, podobnie jak Sprawiedliwy z Księgi Mądrości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Jest to błagalna pieśń, która wyraża skruchę i prośbę o Bożą obronę przed niesprawiedliwością.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Utwór mówi o ofierze Chrystusa, który jest Sprawiedliwym wydanym na śmierć, o czym proroczo mówi Księga Mądrości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Wyraża postawę skruchy i oddania Bogu, który jest sędzią sprawiedliwym i obrońcą uciśnionych.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń eucharystyczna podkreśla, że w ofierze Chrystusa odnajdujemy ratunek i nadzieję wbrew ludzkiej złości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "245",
+      "piesn": "Jezu, miłości Twej",
+      "opis": "Pieśń ta jest adoracją Serca Jezusa, odrzuconego przez ludzi, ale będącego źródłem zbawienia dla wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "237",
+      "piesn": "Duszo Chrystusowa",
+      "opis": "Jest to modlitwa o zjednoczenie z Chrystusem, który cierpiał niesprawiedliwie dla naszego zbawienia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "257",
+      "piesn": "O mój Jezu, w Hostii skryty",
+      "opis": "Pieśń adoruje Jezusa, który pomimo odrzucenia przez świat, pozostaje z nami w Eucharystii jako Zbawiciel.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wyraża zaufanie Bogu w prześladowaniach, o którym mówi psalmista i którego przykład daje Jezus w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń dziękczynna za Bożą opiekę i ratunek wbrew knowaniom złych ludzi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Jest to pieśń o ufności w Bożą Opatrzność, która chroni sprawiedliwego przed wszelkim złem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "116",
+      "piesn": "Z głębi mojego serca",
+      "opis": "Jest to modlitwa o Bożą pomoc w obliczu zła i niesprawiedliwości, które dotykają Sprawiedliwego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Jezusa, którego odrzucenie jest sądem nad światem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Wyraża decyzję o nawróceniu i porzuceniu dróg złości, aby szukać ratunku w Bogu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Klasyczna pieśń pokutna, która jest odpowiedzią na grzech odrzucenia Boga i Jego wysłanników.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "115",
+      "piesn": "Wysłuchaj, Panie",
+      "opis": "Błagalny charakter pieśni koresponduje z modlitwą psalmisty, który woła do Pana o ratunek w ucisku.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "100",
+      "piesn": "Boże litościwy, zmiłuj się nade mną!",
+      "opis": "Jest to modlitwa o czyste serce, które będzie zdolne przyjąć prawdę o Jezusie, a nie odrzucić Go jak faryzeusze.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "118",
+      "piesn": "Zmiłuj się Stwórco",
+      "opis": "Klasyczny hymn wielkopostny, który prosi o łaskę nawrócenia i odwrócenia się od złych uczynków.",
+      "moment": "ogolne"
+    }
+  ]
+}

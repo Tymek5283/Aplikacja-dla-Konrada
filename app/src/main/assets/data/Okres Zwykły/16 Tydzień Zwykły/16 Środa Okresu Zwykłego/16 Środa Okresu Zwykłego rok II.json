@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430383.Sroda-XVI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "16 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jr 1, 1. 4-10",
+      "opis": "Powołanie proroka Jeremiasza",
+      "tekst": "Słowa Jeremiasza, syna Chilkiasza, z rodu kapłańskiego, który był w Anatot, w ziemi Beniamina.\nPan skierował do mnie następujące słowo: «Zanim ukształtowałem cię w łonie matki, znałem cię, nim przyszedłeś na świat, poświęciłem cię, prorokiem dla narodów ustanowiłem cię».\nI rzekłem: «Ach, Panie Boże, przecież nie umiem mówić, bo jestem młodzieńcem!»\nPan zaś odpowiedział mi: «Nie mów: Jestem młodzieńcem, gdyż pójdziesz, do kogokolwiek cię poślę, i będziesz mówił, cokolwiek ci polecę. Nie lękaj się ich, bo jestem z tobą, by cię chronić» - mówi Pan.\nI wyciągnąwszy rękę, dotknął Pan moich ust i rzekł mi: «Oto kładę moje słowa w twoje usta. Spójrz, daję ci dzisiaj władzę nad narodami i nad królestwami, byś wyrywał i obalał, byś niszczył i burzył, byś budował i sadził».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 71 (70), 1-2. 3-4a. 5-6b. 15ab i 17 (R.: por. 15ab)",
+      "opis": "",
+      "tekst": "Refren: Będę wysławiał Twoją sprawiedliwość.\nW Tobie, Panie, ucieczka moja, *\nniech wstydu nie zaznam na wieki.\nWyzwól mnie i ratuj w Twej sprawiedliwości, *\nnakłoń ku mnie swe ucho i ześlij ocalenie.\nRefren.\nBądź dla mnie skałą schronienia *\ni zamkiem warownym, aby mnie ocalić,\nbo Ty jesteś moją opoką i twierdzą. *\nBoże mój, wyrwij mnie z rąk niegodziwca.\nRefren.\nBo Ty, mój Boże, jesteś moją nadzieją, *\nPanie, Tobie ufam od młodości.\nTy byłeś moją podporą od dnia narodzin, *\nod łona matki moim opiekunem.\nRefren.\nMoje usta będą głosiły Twoją sprawiedliwość *\ni przez cały dzień Twoją pomoc.\nBoże, Ty mnie uczyłeś od mojej młodości *\ni do tej chwili głoszę Twoje cuda.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 13, 1-9",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ziarnem jest słowo Boże, a siewcą jest Chrystus,\nkażdy, kto Go znajdzie, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 1-9",
+      "opis": "Przypowieść o siewcy",
+      "tekst": "Owego dnia Jezus wyszedł z domu i usiadł nad jeziorem. Wnet zebrały się koło Niego tłumy tak wielkie, że wszedł do łodzi i usiadł, a cały lud stał na brzegu. I mówił im wiele w przypowieściach tymi słowami:\n«Oto siewca wyszedł siać. A gdy siał, jedne ziarna padły na drogę, nadleciały ptaki i wydziobały je. Inne padły na grunt skalisty, gdzie niewiele miały ziemi; i wnet powschodziły, bo gleba nie była głęboka. Lecz gdy słońce wzeszło, przypaliły się i uschły, bo nie miały korzenia. Inne znowu padły między ciernie, a ciernie wybujały i zagłuszyły je. Inne wreszcie padły na ziemię żyzną i plon wydały, jedno stokrotny, drugie sześćdziesięciokrotny, a inne trzydziestokrotny. Kto ma uszy, niechaj słucha!»\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń wyraża zaufanie Bogu, które jest fundamentem powołania prorockiego Jeremiasza i każdego chrześcijanina.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Wyraża ufność w Bożą opatrzność, która czuwa nad powołanymi, tak jak czuwała nad młodym Jeremiaszem.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Jest to modlitwa o Boże prowadzenie, która jest odpowiedzią na powołanie i posłanie, jakiego doświadczył prorok.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Pieśń o byciu 'żyzną glebą' dla Słowa Bożego jest ofiarowaniem Bogu naszego serca, by wydało owoc.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość przyjęcia Słowa Bożego i oddania życia na służbę Jemu, na wzór proroka Jeremiasza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "598",
+      "piesn": "Cóż Ci, Jezu, damy",
+      "opis": "W odpowiedzi na dar powołania i Słowa, ofiarujemy Bogu nasze serca, aby stały się żyzną glebą.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o czyste serce, które będzie mogło przyjąć ziarno Słowa Bożego i wydać plon, jest istotą dzisiejszej liturgii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża pragnienie przyjęcia Słowa, które jest pokarmem dla duszy i zaspokaja najgłębsze tęsknoty.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Eucharystii jest najdoskonalszym przyjęciem Słowa, które stało się Ciałem, i prośbą o owocne życie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Jest to pieśń uwielbienia dla Boga, który nas powołuje i wspiera od młodości, jak śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za dar powołania i Słowa, które Bóg składa w naszych ustach i sercach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękujemy Bogu za dar Jego Słowa, które jest ziarnem Królestwa, i za powołanie do jego głoszenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Powołanie Jeremiasza jest wzorem dla misji Kościoła, który jest posłany, by siać Słowo Boże na całym świecie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Jesteśmy posłani jako siewcy Słowa, prosząc o Boże błogosławieństwo dla naszej pracy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "312",
+      "piesn": "Idziesz przez wieki",
+      "opis": "Chrystus, Siewca, idzie przez wieki, a my jesteśmy wezwani, by iść za Nim i kontynuować Jego dzieło.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec trudów powołania i przeszkód w przyjęciu Słowa, pieśń ta jest aktem zawierzenia i zaufania Bogu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża gotowość przyjęcia Słowa Bożego i oddania życia na służbę Jemu, na wzór proroka Jeremiasza.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o wiarę, która pozwoli Słowu Bożemu zakorzenić się w nas i wydać obfity plon.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "768",
+      "piesn": "Pan blisko jest",
+      "opis": "Krótki kanon przypominający o bliskości Pana, który jest z nami, by nas chronić, jak obiecał Jeremiaszowi.",
+      "moment": "ogolne"
+    }
+  ]
+}

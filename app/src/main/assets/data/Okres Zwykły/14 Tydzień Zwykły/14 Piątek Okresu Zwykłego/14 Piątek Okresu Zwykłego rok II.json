@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426644.Piatek-XIV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "14 Piątek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Oz 14, 2-10",
+      "opis": "Obietnica błogosławieństwa Bożego dla Izraela po jego nawróceniu",
+      "tekst": "Tak mówi Pan:\n«Wróć, Izraelu, do Pana, Boga twojego, upadłeś bowiem przez własną swą winę. Zabierzcie z sobą słowa i nawróćcie się do Pana! Mówcie do Niego: „Usuń cały grzech, a przyjmij to, co dobre, zamiast cielców dajemy Ci nasze wargi. Asyria nie może nas zbawić; nie chcemy już wsiadać na konie ani też mówić: nasz boże do dzieła rąk naszych. U Ciebie bowiem znajdzie litość sierota”.\nUleczę ich niewierność, szczodrze obdarzę ich miłością, bo gniew mój odwrócił się od nich. Stanę się jakby rosą dla Izraela, tak że rozkwitnie jak lilia i jak topola zapuści korzenie. Rozwiną się jego latorośle, będzie wspaniały jak drzewo oliwne, woń jego będzie jak woń Libanu. I wrócą znowu, by usiąść w mym cieniu, i zboża uprawiać będą, winnice sadzić, których sława będzie tak wielka, jak wina libańskiego. Co ma jeszcze Efraim wspólnego z bożkami? Ja go wysłuchuję i Ja na niego spoglądam, Ja jestem jak cyprys zielony i Mnie zawdzięcza swój owoc.\nKtóż jest tak mądry, aby to pojął, i tak rozumny, aby to rozważył? Bo drogi Pańskie są proste; kroczą nimi sprawiedliwi, lecz potykają się na nich grzesznicy».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 51 (50), 3-4. 8-9. 12-13. 14 i 17 (R.: por. 17b)",
+      "opis": "",
+      "tekst": "Refren: Usta me będą głosić Twoją chwałę.\nZmiłuj się nade mną, Boże, w łaskawości swojej, *\nw ogromie swej litości zgładź moją nieprawość.\nObmyj mnie zupełnie z mojej winy *\ni oczyść mnie z grzechu mojego.\nRefren.\nTy masz upodobanie w ukrytej prawdzie, *\nnaucz mnie tajemnic mądrości.\nPokrop mnie hizopem, a stanę się czysty, *\nobmyj mnie, a nad śnieg wybieleję.\nRefren.\nStwórz, Boże, we mnie serce czyste *\ni odnów we mnie moc ducha.\nNie odrzucaj mnie od swego oblicza *\ni nie odbieraj mi świętego ducha swego.\nRefren.\nPrzywróć mi radość Twojego zbawienia *\ni wzmocnij mnie duchem ofiarnym.\nPanie, otwórz wargi moje, *\na usta moje będą głosić Twoją chwałę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 16, 13a; 14, 26d",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Gdy przyjdzie Duch Prawdy, doprowadzi was do całej prawdy\ni przypomni wam wszystko, co wam powiedziałem."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 16-23",
+      "opis": "Apostołowie będą prześladowani",
+      "tekst": "Jezus powiedział do swoich apostołów:\n«Oto Ja was posyłam jak owce między wilki. Bądźcie więc roztropni jak węże, a nieskazitelni jak gołębie.\nMiejcie się na baczności przed ludźmi! Będą was wydawać sądom i w swych synagogach będą was biczować. Nawet przed namiestników i królów będą was prowadzić z mego powodu, na świadectwo im i poganom. Kiedy was wydadzą, nie martwcie się o to, jak ani co macie mówić. W owej bowiem godzinie będzie wam poddane, co macie mówić, gdyż nie wy będziecie mówili, lecz Duch Ojca waszego będzie mówił przez was.\nBrat wyda brata na śmierć i ojciec syna; dzieci powstaną przeciw rodzicom i o śmierć ich przyprawią. Będziecie w nienawiści u wszystkich z powodu mego imienia. Lecz kto wytrwa do końca, ten będzie zbawiony.\nGdy was prześladować będą w tym mieście, uciekajcie do innego. Zaprawdę, powiadam wam: Nie zdążycie obejść miast Izraela, nim przyjdzie Syn Człowieczy».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń wzywa do nawrócenia i powrotu do Pana, co jest głównym tematem proroctwa Ozeasza.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wezwanie do nawrócenia z pierwszego czytania znajduje swoją odpowiedź w tej pokutnej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża decyzję powrotu do Ojca, co jest istotą nawrócenia, do którego wzywa Ozeasz.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec zapowiedzi prześladowań, ta pieśń jest ofiarowaniem swojego życia Bogu i wyrazem wierności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które pragnie wrócić do Boga, odrzucając niewierność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Prośba o czyste serce i odnowienie ducha jest odpowiedzią na Boże wezwanie do nawrócenia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "W obliczu prześladowań prosimy Ducha Świętego o moc i mądrość, by świadczyć o Chrystusie, jak obiecuje Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który umacnia nas na drodze wierności, nawet pośród prześladowań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń wyraża wiarę i oddanie Chrystusowi, za którego imię apostołowie będą cierpieć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "589",
+      "piesn": "Boże, kocham Cię!",
+      "opis": "Pieśń uwielbienia za Boże miłosierdzie i obietnicę uzdrowienia niewierności, o której mówi prorok Ozeasz.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Dziękczynienie za dar Eucharystii, która jest źródłem siły do wytrwania w wierze.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalm jest prośbą o czyste serce, a ta pieśń jest uwielbieniem Boga, który nas oczyszcza i zbawia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń umacnia wiarę i dodaje odwagi tym, którzy są posłani jak owce między wilki, by świadczyć o swoim Królu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wobec zapowiedzi prześladowań, prośba o umocnienie wiary jest kluczowa dla misji uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności Chrystusowi, do której wzywa Ewangelia, obiecując zbawienie wytrwałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W kontekście zapowiedzi prześladowań, pieśń ta jest wyrazem ufności w Bożą opiekę i obronę.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "200",
+      "piesn": "Jezu, ufam Tobie",
+      "opis": "Jest to akt zawierzenia, szczególnie potrzebny w trudnych chwilach, o których Jezus uprzedza swoich uczniów.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, które jest niezbędne, aby wytrwać w prześladowaniach zapowiedzianych w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "768",
+      "piesn": "Pan blisko jest",
+      "opis": "Ta krótka pieśń z Taize przypomina o bliskości Pana, która jest źródłem siły w trudnościach.",
+      "moment": "ogolne"
+    }
+  ]
+}

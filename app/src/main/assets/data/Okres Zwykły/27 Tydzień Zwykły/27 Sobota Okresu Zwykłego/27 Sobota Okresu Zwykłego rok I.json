@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416872.Sobota-27-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "27 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jl 4, 12-21",
+      "opis": "Sąd ostateczny",
+      "tekst": "Tak mówi Pan:\n«Niech ockną się i przybędą narody te do Doliny Joszafat, bo tam zasiądę i będę sądził narody okoliczne. Zapuśćcie sierp, bo dojrzało żniwo; pójdźcie, deptajcie, bo pełna jest tłocznia, przelewają się kadzie, złość bowiem ich jest wielka».\nTłumy, tłumy w Dolinie Wyroku! Bliski jest dzień Pański w Dolinie Wyroku. Słońce i księżyc się zaćmią, a gwiazdy światłość swą utracą. A Pan zagrzmi z Syjonu i z Jeruzalem głos swój tak podniesie, że niebiosa i ziemia zadrżą. Pan jest ucieczką swego ludu i ostoją synów Izraela.\n«I poznacie, że Ja jestem Pan, Bóg wasz, co mieszkam na Syjonie, górze mojej świętej; a Jeruzalem będzie święte i przez nie już obcy nie będą przechodzić».\nI stanie się owego dnia, że góry moszczem ociekać będą, a pagórki mlekiem płynąć, i wszystkie strumienie judzkie napełnią się wodą, a z domu Pańskiego wytryśnie źródło, które nawodni potok Szittim. Egipt będzie wydany na spustoszenie, a Edom zamieni się w straszną pustynię z powodu nieprawości uczynionych względem synów judzkich, gdyż krew niewinną przelewali w ich ziemi. Lecz ziemia Judy na wieki będzie zamieszkana, a Jeruzalem z pokolenia na pokolenie. «Bo czyż pozwolę, by krew ich pozostała bez pomsty? Nie pozostawię bez pomsty».\nA Pan zamieszka na Syjonie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 97 (96), 1-2. 5-6. 11-12 (R.: por. 12a)",
+      "opis": "",
+      "tekst": "Refren: Niech sprawiedliwi weselą się w Panu.\nPan króluje, wesel się, ziemio, *\nradujcie się, liczne wyspy!\nObłok i ciemność wokół Niego, *\nprawo i sprawiedliwość podstawą Jego tronu.\nRefren.\nGóry jak wosk topnieją przed obliczem Pana, *\nprzed obliczem Władcy całej ziemi.\nJego sprawiedliwość rozgłaszają niebiosa *\ni wszystkie ludy widzą Jego chwałę.\nRefren.\nŚwiatło wschodzi dla sprawiedliwego *\ni radość dla ludzi prawego serca.\nWeselcie się w Panu, sprawiedliwi, *\ni sławcie Jego święte imię.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Łk 11, 28",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni ci, którzy słuchają słowa Bożego\ni zachowują je wiernie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 27-28",
+      "opis": "Błogosławieni ci, którzy słuchają słowa Bożego",
+      "tekst": "Gdy Jezus mówił, jakaś kobieta z tłumu głośno zawołała do Niego: «Błogosławione łono, które Cię nosiło, i piersi, które ssałeś».\nLecz On rzekł: «Tak, błogosławieni są raczej ci, którzy słuchają słowa Bożego i go przestrzegają».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń ta, oparta na Psalmie 96, dobrze współbrzmi z psalmem responsoryjnym (Ps 97) i tematem królowania Pana z pierwszego czytania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Pieśń jest wezwaniem do radosnego chwalenia Pana, który króluje i sprawiedliwie sądzi, jak opisuje to psalm.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Hymn chwały na cześć Króla wszechmocy, którego dzień sądu zapowiada prorok Joel.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "324",
+      "piesn": "Bogurodzica",
+      "opis": "Jako pieśń do Matki Bożej, nawiązuje do Ewangelii, w której kobieta błogosławi Matkę Jezusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "390",
+      "piesn": "Serdeczna Matko",
+      "opis": "Pieśń do Matki Bożej, która jest wzorem słuchania i zachowywania Słowa Bożego, co podkreśla Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "332",
+      "piesn": "Do Serca Twego, Pani świata",
+      "opis": "Zwrócenie się do Maryi, która jest błogosławiona, ponieważ uwierzyła i zachowała Słowo Boże.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Prośba o umocnienie wiary jest odpowiedzią na słowa Jezusa, że błogosławieni są ci, którzy słuchają i zachowują Słowo Boże.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Słuchanie Słowa Bożego i przyjmowanie Go w Komunii jest zaspokojeniem najgłębszych pragnień serca.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Chrystus, Słowo Wcielone, staje się naszym pokarmem, co jest najpełniejszym 'zachowaniem' Słowa Bożego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Hymn ten wzywa całe stworzenie do chwalenia Pana, co jest echem psalmu responsoryjnego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą sprawiedliwość i ratunek, o których mówi psalm i proroctwo Joela.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Psalm responsoryjny wzywa sprawiedliwych do weselenia się w Panu, a ta pieśń jest radosnym hymnem chwały.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "343",
+      "piesn": "Już od rana rozśpiewana",
+      "opis": "Jako pieśń maryjna pasuje do Ewangelii, w której Jezus wskazuje na głębsze, duchowe macierzyństwo oparte na słuchaniu Słowa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "323",
+      "piesn": "Boga Rodzico",
+      "opis": "Pieśń do Matki Bożej, która jest pierwszą słuchającą i zachowującą Słowo, jest dobrym zwieńczeniem liturgii tego dnia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "406",
+      "piesn": "Zdrowaś Maryjo, Boga Rodzico!",
+      "opis": "Pieśń jest modlitwą do Tej, która jest błogosławiona, ponieważ nosiła w łonie Słowo Wcielone.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń wzywa wszystkie narody do chwalenia Boga, co koresponduje z wizją sądu nad narodami z pierwszego czytania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Pieśń o błogosławieństwach jest rozwinięciem słów Jezusa o tym, kto jest prawdziwie błogosławiony.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "376",
+      "piesn": "Panno Święta",
+      "opis": "Maryja jest wzorem słuchania Słowa Bożego, co czyni Ją błogosławioną ponad wszystkie niewiasty.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana i Jego Słowa w naszym życiu jest odpowiedzią na Ewangelię.",
+      "moment": "ogolne"
+    }
+  ]
+}

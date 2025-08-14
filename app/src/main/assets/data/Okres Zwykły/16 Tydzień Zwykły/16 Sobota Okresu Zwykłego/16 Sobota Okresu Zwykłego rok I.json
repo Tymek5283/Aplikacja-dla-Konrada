@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/430386.Sobota-XVI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "16 Sobota Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Wj 24, 3-8",
+      "opis": "Zawarcie przymierza między Bogiem a Izraelitami",
+      "tekst": "Mojżesz wrócił z góry Synaj i obwieścił ludowi wszystkie słowa Pana i wszystkie Jego polecenia. Wtedy cały lud odpowiedział jednogłośnie: «Wszystkie słowa, jakie powiedział Pan, wypełnimy».\nSpisał więc Mojżesz wszystkie słowa Pana. Nazajutrz wcześnie rano zbudował ołtarz u stóp góry i postawił dwanaście stel, stosownie do liczby dwunastu szczepów Izraela. Potem polecił młodzieńcom izraelskim złożyć Panu ofiarę całopalną i ofiarę biesiadną z cielców.\nMojżesz zaś wziął połowę krwi i wlał ją do czar, a drugą połową krwi skropił ołtarz. Wtedy wziął Księgę Przymierza i czytał ją głośno ludowi. I oświadczyli: «Wszystko, co powiedział Pan, uczynimy i będziemy posłuszni».\nMojżesz wziął krew i pokropił nią lud, mówiąc: «Oto krew przymierza, które Pan zawarł z wami na podstawie wszystkich tych słów».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 1b-2. 5-6. 14-15 (R.: por. 14a)",
+      "opis": "",
+      "tekst": "Refren: Składajcie Bogu dziękczynną ofiarę.\nPrzemówił Pan, Bóg nad bogami, *\ni wezwał ziemię od wschodu do zachodu słońca.\nBóg zajaśniał z Syjonu, *\nkorony piękności.\nRefren.\n«Zgromadźcie Mi moich umiłowanych, *\nktórzy przez ofiarę zawarli ze Mną przymierze».\nNiebiosa zwiastują Bożą sprawiedliwość, *\nalbowiem sam Bóg jest sędzią.\nRefren.\n«Składaj Bogu dziękczynną ofiarę, *\nspełnij swoje śluby wobec Najwyższego.\nI wzywaj Mnie w dniu utrapienia, *\nwyzwolę ciebie, a ty Mnie uwielbisz».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Jk 1, 21bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Przyjmijcie w duchu łagodności zaszczepione w was słowo,\nktóre ma moc zbawić dusze wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 13, 24-30",
+      "opis": "Przypowieść o chwaście wśród zboża",
+      "tekst": "Jezus opowiedział tłumom tę przypowieść:\n«Królestwo niebieskie podobne jest do człowieka, który posiał dobre nasienie na swojej roli. Lecz gdy ludzie spali, przyszedł jego nieprzyjaciel, nasiał chwastu między pszenicę i odszedł.\nA gdy zboże wyrosło i wypuściło kłosy, wtedy pojawił się i chwast. Słudzy gospodarza przyszli i zapytali go: „Panie, czy nie posiałeś dobrego nasienia na swej roli? Skąd więc wziął się na niej chwast?” Odpowiedział im: „Nieprzyjazny człowiek to sprawił”.\nRzekli mu słudzy: „Chcesz więc, żebyśmy poszli i zebrali go?” A on im odrzekł: „Nie, byście zbierając chwast, nie wyrwali razem z nim i pszenicy. Pozwólcie obojgu róść aż do żniwa; a w czasie żniwa powiem żeńcom: Zbierzcie najpierw chwast i powiążcie go w snopki na spalenie; pszenicę zaś zwieźcie do mego spichlerza”».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest wezwaniem do zgromadzenia się przed Panem, podobnie jak lud Izraela zgromadził się u stóp Synaju, by zawrzeć przymierze.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Kościół, lud Nowego Przymierza, jest polem, na którym rośnie pszenica i chwast; prosimy o jego jedność i pokój.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za dar Przymierza i prośbą o wierność jego postanowieniom.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Psalm wzywa do składania Bogu ofiary dziękczynnej, a ta pieśń jest ofiarowaniem owoców naszej pracy w jedności z ofiarą Chrystusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Ofiara biesiadna z cielców, o której mowa w pierwszym czytaniu, jest zapowiedzią ofiary eucharystycznej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń jest ofiarą skruszonego serca, które pragnie wiernie wypełniać słowa Przymierza.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Krew przymierza z Księgi Wyjścia jest zapowiedzią Krwi Chrystusa, która w Eucharystii gromadzi nas w jeden Kościół, pole z pszenicą i chwastem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Eucharystia jest pokarmem, który umacnia w nas 'dobre nasienie', byśmy mogli wzrastać w królestwie Bożym.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "701",
+      "piesn": "Chrystus Pan karmi nas",
+      "opis": "Komunia Święta jest pokarmem, który daje nam siłę, by wzrastać jako pszenica w Bożym królestwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Pieśń dziękczynna jest doskonałym wypełnieniem wezwania psalmisty: 'Składajcie Bogu dziękczynną ofiarę'.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który zawiera z nami przymierze i wyzwala nas w dniu utrapienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Dziękujemy Bogu za dar przymierza i za Jego cierpliwość wobec zła w świecie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Wobec rzeczywistości zła symbolizowanego przez chwast, pieśń ta jest deklaracją wyboru przynależności do Boga i Jego Królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Po odnowieniu przymierza, wychodzimy w świat, by głosić panowanie Chrystusa, Pana żniwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prosimy o błogosławieństwo na naszą pracę, abyśmy byli dobrym nasieniem przynoszącym plon dla Królestwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Przypowieść o chwaście uczy o cierpliwości Boga wobec grzeszników, a ta pieśń jest pokorną prośbą o Jego miłosierdzie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Wobec tajemnicy zła w świecie, ta pieśń jest aktem zaufania w Bożą sprawiedliwość i miłosierdzie.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Pieśń wyraża zaufanie do Pana, który jest wierny swojemu przymierzu i ostatecznie oddzieli dobro od zła.",
+      "moment": "ogólne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "W świecie, gdzie rośnie pszenica i chwast, pieśń ta jest wyrazem ufności w Bożą opiekę nad sprawiedliwymi.",
+      "moment": "ogólne"
+    }
+  ]
+}

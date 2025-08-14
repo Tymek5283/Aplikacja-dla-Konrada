@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/415489.Poniedzialek-III-tydzien-zwykly-rok-II",
+  "tytul_dnia": "3 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Sm 5, 1-7. 10",
+      "opis": "Dawid króluje nad Izraelem",
+      "tekst": "Wszystkie pokolenia izraelskie zeszły się u Dawida w Hebronie i oświadczyły mu: «Oto my jesteśmy kości twoje i ciało. Już dawno, gdy Saul był królem nad nami, ty odbywałeś wyprawy na czele Izraela. I Pan rzekł do ciebie: Ty będziesz pasł mój lud - Izraela, i ty będziesz wodzem nad Izraelem».\nCała starszyzna Izraela przybyła do króla do Hebronu. I zawarł król Dawid przymierze z nimi wobec Pana w Hebronie. Namaścili więc Dawida na króla nad Izraelem.\nW chwili objęcia rządów Dawid miał lat trzydzieści, a rządził lat czterdzieści. Judą rządził w Hebronie lat siedem i sześć miesięcy, w Jerozolimie zaś całym Izraelem i Judą rządził lat trzydzieści trzy.\nRazem ze swoimi ludźmi król wyruszył do Jerozolimy przeciw Jebusytom zamieszkującym tę krainę. Rzekli oni do Dawida: «Nie wejdziesz tutaj, lecz odepchną cię ślepi i kulawi». Oznaczało to: Dawid tu nie wejdzie. Dawid jednak zdobył twierdzę Syjon, to jest Miasto Dawidowe.\nDawid stawał się coraz potężniejszy, bo Pan, Bóg Zastępów, był z nim.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 89 (88), 20. 21-22. 25-26 (R.: por. 25a)",
+      "opis": "",
+      "tekst": "Refren: Zachowam wiecznie łaskę dla Dawida.\nMówiąc kiedyś w widzeniu *\ndo świętych Twoich, rzekłeś:\n«Na głowę mocarza włożyłem koronę, *\nwyniosłem wybrańca z ludu.\nRefren.\nZnalazłem Dawida, mojego sługę, *\nnamaściłem go moim świętym olejem,\nby ręka moja zawsze przy nim była *\ni umacniało go moje ramię».\nRefren.\n«Z nim moja wierność i łaska, *\nw moim imieniu jego moc wywyższona.\nJego władzę rozciągnę nad morzem, *\na jego panowanie nad rzekami».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 3, 22-30",
+      "opis": "Chrystus przeciw Szatanowi",
+      "tekst": "Uczeni w Piśmie, którzy przyszli z Jerozolimy, mówili o Jezusie: «Ma Belzebuba i mocą władcy złych duchów wyrzuca złe duchy».\nWtedy Jezus przywołał ich do siebie i mówił im w przypowieściach: «Jak może Szatan wyrzucać Szatana? Jeśli jakieś królestwo jest wewnętrznie skłócone, takie królestwo nie może się ostać. I jeśli dom wewnętrznie jest skłócony, to taki dom nie będzie mógł się ostać. Jeśli więc Szatan powstał przeciw sobie i jest z sobą skłócony, to nie może się ostać, lecz koniec z nim. Nikt nie może wejść do domu mocarza i sprzęt mu zagrabić, jeśli mocarza wpierw nie zwiąże, i dopiero wtedy dom jego ograbi. Zaprawdę, powiadam wam: Wszystkie grzechy i bluźnierstwa, których by się ludzie dopuścili, będą im odpuszczone. Kto by jednak zbluźnił przeciw Duchowi Świętemu, nigdy nie otrzyma odpuszczenia, lecz winien jest grzechu wiecznego». Mówili bowiem: «Ma ducha nieczystego».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń ta głosi królowanie Chrystusa, którego zapowiedzią był król Dawid, namaszczony na władcę Izraela.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest wypełnieniem obietnicy danej Dawidowi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "318",
+      "piesn": "O Chryste Królu",
+      "opis": "Jest to modlitwa o to, by Chrystus, prawdziwy Pasterz, rządził światem, tak jak niegdyś Dawid pasł lud izraelski.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wyraża ofiarowanie Bogu życia w odpowiedzi na Jego łaskę i wierność przymierzu, o której mówi psalm.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia pod panowaniem Chrystusa Króla.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania siebie Chrystusowi, który jest mocniejszy od szatana i zwycięża go.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, który jest mocniejszy od szatana i którego pieśń nazywa 'Królem nad wszystkie króle'.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla, że Chrystus w Eucharystii daje nam siłę do walki z szatanem i do życia w Jego królestwie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa obecnego w Eucharystii, który jest naszym Królem i Zwycięzcą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, który wybiera i umacnia swoich pomazańców, jak Dawida.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Jest to hymn pochwalny na cześć Pana Zastępów, który był z Dawidem i czynił go coraz potężniejszym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą wierność i łaskę, o której mówi psalm responsoryjny.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii o zwycięstwie Chrystusa nad szatanem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do zwycięstwa nad złem i do życia w Jego królestwie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest zobowiązaniem do wierności Chrystusowi Królowi w walce z mocami zła.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Pieśń przypomina o zwycięstwie Chrystusa nad grzechem i szatanem, o którym mówi Ewangelia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który zwyciężył zło i jest naszą nadzieją.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Ewangelia ostrzega przed grzechem przeciwko Duchowi Świętemu. Ta pieśń jest modlitwą o Jego dary i światło.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Hymn do Ducha Świętego, którego bluźnierstwo jest grzechem nieodpuszczalnym, o czym przestrzega Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

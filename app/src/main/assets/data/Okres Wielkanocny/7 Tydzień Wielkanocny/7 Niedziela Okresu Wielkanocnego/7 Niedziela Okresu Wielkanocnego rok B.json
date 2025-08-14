@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/2988670.VII-Niedziela-Wielkanocna-rok-B",
+  "tytul_dnia": "7 Niedziela Okresu Wielkanocnego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 1, 15-17. 20a. 20c-26",
+      "opis": "Wybór Macieja na Apostoła",
+      "tekst": "W owym czasie Piotr, powstawszy w obecności braci, a zebrało się razem około stu dwudziestu osób, tak przemówił: «Bracia, musiało wypełnić się słowo Pisma, które Duch Święty zapowiedział przez usta Dawida o Judaszu. On to wskazał drogę tym, którzy pojmali Jezusa, bo on zaliczał się do nas i miał udział w naszym posługiwaniu. Napisano bowiem w Księdze Psalmów: „Urząd jego niech inny obejmie”. Trzeba więc, aby jeden z tych, którzy towarzyszyli nam przez cały czas, kiedy Pan Jezus przebywał z nami, począwszy od chrztu Janowego aż do dnia, w którym został wzięty od nas do nieba, stał się razem z nami świadkiem Jego zmartwychwstania».\nPostawiono dwóch: Józefa, zwanego Barsabą, z przydomkiem Justus, i Macieja. I taką odmówili modlitwę: «Ty, Panie, znasz serca wszystkich, wskaż z tych dwóch jednego, którego sobie wybrałeś, by zajął miejsce w tym posługiwaniu i w apostolstwie, któremu sprzeniewierzył się Judasz, aby pójść swoją drogą». I dali im losy, a los padł na Macieja. I został dołączony do jedenastu Apostołów.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 103 (102), 1b-2. 11-12. 19-20b",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg utwierdził swój tron na niebiosach.\nBłogosław, duszo moja, Pana, *\ni wszystko, co jest we mnie, święte imię Jego.\nBłogosław, duszo moja, Pana *\ni nie zapominaj o wszystkich Jego dobrodziejstwach.\nRefren.\nBo jak wysoko niebo wznosi się nad ziemią, *\ntak wielka jest łaska Pana dla Jego czcicieli.\nJak odległy jest wschód od zachodu, *\ntak daleko odsuwa od nas nasze winy.\nRefren.\nPan utwierdził swój tron na niebiosach, *\na Jego panowanie wszechświat obejmuje.\nBłogosławcie Pana, wszyscy Jego aniołowie, *\npotężni mocarze pełniący Jego rozkazy.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 J 4, 11-16",
+      "opis": "Bóg jest miłością",
+      "tekst": "Umiłowani, jeśli Bóg tak nas umiłował, to i my winniśmy się wzajemnie miłować. Nikt nigdy Boga nie oglądał. Jeżeli miłujemy się wzajemnie, Bóg trwa w nas i miłość ku Niemu jest w nas doskonała. Poznajemy, że my trwamy w Nim, a On w nas, bo udzielił nam ze swego Ducha.\nMy także widzieliśmy i świadczymy, że Ojciec zesłał Syna jako Zbawiciela świata. Jeśli ktoś wyznaje, że Jezus jest Synem Bożym, to Bóg trwa w nim, a on w Bogu. My poznaliśmy i uwierzyliśmy miłości, jaką Bóg ma ku nam. Bóg jest miłością: kto trwa w miłości, trwa w Bogu, a Bóg trwa w nim.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. J 14, 18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nie zostawię was sierotami,\npowrócę do was i rozraduje się serce wasze."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 17, 11b-19",
+      "opis": "Aby tak jak My stanowili jedno",
+      "tekst": "W czasie Ostatniej Wieczerzy Jezus, podniósłszy oczy ku niebu, modlił się tymi słowami:\n«Ojcze Święty, zachowaj ich w Twoim imieniu, które Mi dałeś, aby tak jak My stanowili jedno. Dopóki z nimi byłem, zachowywałem ich w Twoim imieniu, które Mi dałeś, i ustrzegłem ich, a nikt z nich nie zginął z wyjątkiem syna zatracenia, aby się wypełniło Pismo.\nAle teraz idę do Ciebie i tak mówię, będąc jeszcze na świecie, aby moją radość mieli w sobie w całej pełni. Ja im przekazałem Twoje słowo, a świat ich znienawidził za to, że nie są ze świata, jak i Ja nie jestem ze świata. Nie proszę, abyś ich zabrał ze świata, ale byś ich ustrzegł od złego. Oni nie są ze świata, jak i Ja nie jestem ze świata.\nUświęć ich w prawdzie. Słowo Twoje jest prawdą. Jak Ty Mnie posłałeś na świat, tak i Ja ich na świat posłałem. A za nich Ja poświęcam w ofierze samego siebie, aby i oni byli uświęceni w prawdzie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń ta jest modlitwą o jedność, która stanowi główny temat modlitwy arcykapłańskiej Jezusa z Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Jest to modlitwa za Kościół, o którego jedność i wiarę modli się Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosna pieśń wielkanocna, która głosi chwałę Zmartwychwstałego, o którym świadectwo daje nowo wybrany apostoł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Bezpośrednio nawiązuje do drugiego czytania, które podkreśla, że Bóg jest miłością i trwa w tych, którzy się wzajemnie miłują.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Wskazuje na Eucharystię jako źródło i znak jedności Kościoła, o którą modli się Jezus.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "192",
+      "piesn": "Weselmy się, chrześcijanie",
+      "opis": "Wielkanocna pieśń mszalna, która w zwrotce na przygotowanie darów przypomina o ofierze Chrystusa, jednoczącej wszystkich wierzących.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Pieśń eucharystyczna, która jest medytacją nad miłością Boga, o której mówi drugie czytanie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Wyraża pragnienie zjednoczenia z Chrystusem, który modli się, abyśmy stanowili jedno.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "704",
+      "piesn": "O Boże, dzięki Ci składamy",
+      "opis": "Pieśń dziękczynna za dar Eucharystii, w której Chrystus jednoczy nas ze sobą i z Ojcem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "760",
+      "piesn": "Bóg jest miłością",
+      "opis": "Prosta pieśń, która w pełni oddaje treść drugiego czytania z Listu św. Jana.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, którego tron, jak mówi psalm, jest utwierdzony na niebiosach.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i obietnicę życia wiecznego w jedności z Bogiem.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta odzwierciedla misyjny charakter posługi apostolskiej, której ciągłość zapewnia wybór Macieja w pierwszym czytaniu.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki Jego wstawiennictwu u Ojca.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Pieśń posyła wiernych, by byli świadkami Zmartwychwstania, tak jak nowo wybrany apostoł Maciej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Jest to modlitwa o Ducha Świętego, który jest źródłem jedności i miłości w Kościele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Radosna pieśń wielkanocna, która przypomina o Zmartwychwstaniu, którego świadkami mają być apostołowie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, która płynie z wiary w Chrystusa i Jego modlitwy za nas do Ojca.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon ten przypomina, że miłość, o której mówi drugie czytanie, jest miejscem obecności Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

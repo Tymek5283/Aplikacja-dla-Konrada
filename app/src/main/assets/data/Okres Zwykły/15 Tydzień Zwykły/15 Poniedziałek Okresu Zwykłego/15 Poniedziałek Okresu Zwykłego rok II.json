@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426785.Poniedzialek-XV-tydzien-zwykly-rok-II",
+  "tytul_dnia": "15 Poniedziałek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 1, 10-17",
+      "opis": "Prawdziwa pobożność",
+      "tekst": "Słuchajcie słowa Pańskiego, wodzowie sodomscy, daj posłuch prawu naszego Boga, ludu Gomory!\n«Co Mi po mnóstwie waszych ofiar? - mówi Pan. Syt jestem całopalenia kozłów i łoju tłustych cielców. Krew wołów i baranów, i kozłów Mi obrzydła. Gdy przychodzicie, by stanąć przede Mną, kto tego żądał od was, żebyście wydeptywali me dziedzińce?\nZaprzestańcie składania czczych ofiar! Obrzydłe Mi jest wznoszenie dymu; święta nowiu, szabaty, zwoływanie świętych zebrań. Nie mogę ścierpieć świąt i uroczystości. Nienawidzę całą duszą waszych świąt nowiu i obchodów; stały Mi się ciężarem, sprzykrzyło Mi się je znosić! Gdy wyciągniecie ręce, odwrócę od was me oczy. Choć nawet mnożylibyście modlitwy, Ja nie wysłucham. Ręce wasze pełne są krwi.\nObmyjcie się i oczyśćcie! Usuńcie zło uczynków waszych sprzed moich oczu! Przestańcie czynić zło! Zaprawiajcie się w dobru! Troszczcie się o sprawiedliwość, wspomagajcie uciśnionego, oddajcie słuszność sierocie, w obronie wdowy stawajcie!»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 50 (49), 8-9. 16b-17. 21 i 23 (R.: por. 23b)",
+      "opis": "",
+      "tekst": "Refren: Temu, kto prawy, ukażę zbawienie.\n«Nie oskarżam cię za twoje ofiary, *\nbo twe całopalenia zawsze są przede Mną.\nNie przyjmę cielca z twego domu *\nani kozłów ze stad twoich».\nRefren.\n«Czemu wymieniasz moje przykazania *\ni na ustach masz moje przymierze?\nTy, co nienawidzisz karności, *\na słowa moje odrzuciłeś za siebie?»\nRefren.\n«Ty tak postępujesz, a Ja mam milczeć? †\nCzy myślisz, że jestem podobny do ciebie? *\nSkarcę ciebie i postawię ci to przed oczy.\nKto składa dziękczynną ofiarę, ten cześć Mi oddaje, *\na tym, którzy postępują uczciwie, ukażę Boże zbawienie».\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mt 5, 10",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Błogosławieni, którzy cierpią prześladowanie dla sprawiedliwości,\nalbowiem do nich należy królestwo niebieskie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 10, 34 - 11, 1",
+      "opis": "Kto was przyjmuje, Mnie przyjmuje",
+      "tekst": "Jezus powiedział do swoich apostołów:\n«Nie sądźcie, że przyszedłem pokój przynieść na ziemię. Nie przyszedłem przynieść pokoju, ale miecz. Bo przyszedłem poróżnić syna z jego ojcem, córkę z matką, synową z teściową; „i będą nieprzyjaciółmi człowieka jego domownicy”.\nKto kocha ojca lub matkę bardziej niż Mnie, nie jest Mnie godzien. I kto kocha syna lub córkę bardziej niż Mnie, nie jest Mnie godzien. Kto nie bierze swego krzyża, a idzie za Mną, nie jest Mnie godzien. Kto chce znaleźć  swe życie, straci je, a kto straci swe życie z mego powodu znajdzie je.\nKto was przyjmuje, Mnie przyjmuje; a kto Mnie przyjmuje, przyjmuje Tego, który Mnie posłał.\nKto przyjmuje proroka jako proroka, nagrodę proroka otrzyma. Kto przyjmuje sprawiedliwego jako sprawiedliwego, nagrodę sprawiedliwego otrzyma.\nKto poda kubek świeżej wody do picia jednemu z tych najmniejszych, dlatego że jest uczniem, zaprawdę, powiadam wam, nie utraci swojej nagrody».\nGdy Jezus skończył dawać te wskazania dwunastu swoim uczniom, odszedł stamtąd, aby nauczać i głosić Ewangelię w ich miastach.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Pieśń pokutna jest odpowiedzią na wezwanie do nawrócenia i oczyszczenia, zawarte w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie proroka Izajasza do porzucenia zła i czynienia dobra jest głównym tematem tej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń wyraża decyzję o nawróceniu, do którego wzywa Bóg przez proroka, odrzucając czcze ofiary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "122",
+      "piesn": "Krzyżu Chrystusa",
+      "opis": "Ofiarą miłą Bogu jest nasze życie, a ta pieśń nawiązuje do konieczności wzięcia krzyża, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "109",
+      "piesn": "Pan Jezus grzechy nasze",
+      "opis": "Ofiarujemy nasze cierpienia, łącząc je z krzyżem Chrystusa, o którym mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń jest aktem oddania życia Bogu, co jest istotą prawdziwej pobożności, o której mówi Izajasz.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Pieśń eucharystyczna wyraża postawę pokory, która jest warunkiem prawdziwej pobożności, w przeciwieństwie do czczych ofiar potępionych przez Izajasza.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Przyjęcie Komunii jest aktem miłości do Jezusa, większej niż do rodziny i własnego życia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Eucharystia umacnia naszą wiarę, byśmy byli zdolni do radykalnych wyborów, jakich wymaga Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Prawdziwą ofiarą, jak mówi psalm, jest dziękczynienie, a ta pieśń jest wyrazem wdzięczności za dar zbawienia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Zgodnie z psalmem, składamy Bogu dziękczynną ofiarę, która jest Mu milsza niż całopalenia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia dla Boga, który patrzy na serce, a nie na zewnętrzne obrzędy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "638",
+      "piesn": "My chcemy Boga",
+      "opis": "Pieśń jest deklaracją wyboru Boga ponad wszystko, co jest istotą radykalnych wymagań postawionych w Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest zobowiązaniem do wierności Chrystusowi i Jego krzyżowi, nawet za cenę prześladowań.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Idziemy za Chrystusem, naszym Wodzem, biorąc swój krzyż, by z Nim odnieść zwycięstwo.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "117",
+      "piesn": "Zmiłuj się, Boże",
+      "opis": "Jest to prośba o oczyszczenie serca, które jest warunkiem prawdziwej pobożności, o jakiej naucza prorok Izajasz.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Ewangelia kończy się rozesłaniem uczniów, a ta pieśń przypomina o misji głoszenia Ewangelii mimo wszelkich trudności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość i sprawiedliwość, których domaga się Bóg w pierwszym czytaniu, są istotą nowego przykazania.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "110",
+      "piesn": "Pokładam w Panu ufność",
+      "opis": "Wobec ucisku i konieczności niesienia krzyża, pieśń ta jest wyrazem głębokiego zaufania do Pana.",
+      "moment": "ogolne"
+    }
+  ]
+}

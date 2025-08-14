@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/426793.Niedziela-rok-B",
+  "tytul_dnia": "15 Niedziela Okresu Zwykłego rok B",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Am 7, 12-15",
+      "opis": "Misja proroka",
+      "tekst": "Amazjasz, kapłan w Betel, rzekł do Amosa: «„Widzący”, idź sobie, uciekaj do ziemi Judy! I tam jedz chleb, i tam prorokuj! A w Betel więcej nie prorokuj, bo jest ono królewską świątynią i królewską budowlą».\nI odpowiedział Amos Amazjaszowi: «Nie jestem ja prorokiem ani nie jestem synem proroków, gdyż jestem pasterzem i tym, który nacina sykomory. Od trzody bowiem wziął mnie Pan i rzekł do mnie Pan: „Idź, prorokuj do narodu mego, izraelskiego!”»\nOto słowo Boże."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Ef 1, 3-14",
+      "opis": "KRÓTSZEEf 1, 3-10",
+      "tekst": "Bóg wybrał nas w Chrystusie\nNiech będzie błogosławiony Bóg i Ojciec Pana naszego, Jezusa Chrystusa; On napełnił nas wszelkim błogosławieństwem duchowym na wyżynach niebieskich - w Chrystusie.\nW Nim bowiem wybrał nas przed założeniem świata, abyśmy byli święci i nieskalani przed Jego obliczem.\nZ miłości przeznaczył nas dla siebie jako przybranych synów poprzez Jezusa Chrystusa, według postanowienia swej woli, ku chwale majestatu swej łaski, którą obdarzył nas w Umiłowanym.\nW Nim mamy odkupienie przez Jego krew - odpuszczenie występków, według bogactwa Jego łaski. Szczodrze ją na nas wylał w postaci wszelkiej mądrości i zrozumienia, przez to, że nam oznajmił tajemnicę swej woli według swego postanowienia, które przedtem w Nim powziął dla dokonania pełni czasów, aby wszystko na nowo zjednoczyć w Chrystusie jako Głowie: to, co w niebiosach, i to, co na ziemi.\nKoniec krótszej perykopy.\nW Nim dostąpiliśmy udziału my również, z góry przeznaczeni zamiarem Tego, który dokonuje wszystkiego zgodnie z zamysłem swej woli, byśmy istnieli ku chwale Jego majestatu - my, którzy już przedtem nadzieję złożyliśmy w Chrystusie. W Nim także i wy, usłyszawszy słowo prawdy, Dobrą Nowinę o waszym zbawieniu, w Nim również - uwierzywszy, zostaliście naznaczeni pieczęcią, Duchem Świętym, który był obiecany. On jest zadatkiem naszego dziedzictwa w oczekiwaniu na odkupienie, które nas uczyni własnością Boga, ku chwale Jego majestatu.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 85 (84), 9ab i 10. 11-12. 13-14 (R.: por. 8)",
+      "opis": "",
+      "tekst": "Refren: Okaż swą łaskę i daj nam zbawienie.\nBędę słuchał tego, co Pan Bóg mówi: *\noto ogłasza pokój ludowi i swoim wyznawcom.\nZaprawdę, bliskie jest Jego zbawienie †\ndla tych, którzy Mu cześć oddają, *\ni chwała zamieszka w naszej ziemi.\nRefren.\nŁaska i wierność spotkają się z sobą, *\nucałują się sprawiedliwość i pokój.\nWierność z ziemi wyrośnie, *\na sprawiedliwość spojrzy z nieba.\nRefren.\nPan sam szczęściem obdarzy, *\na nasza ziemia wyda swój owoc.\nSprawiedliwość będzie kroczyć przed Nim, *\na śladami Jego kroków zbawienie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Ef 1, 17-18",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Niech Ojciec Pana naszego, Jezusa Chrystusa, przeniknie nasze serca swoim światłem,\nabyśmy wiedzieli, czym jest nadzieja naszego powołania."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 6, 7-13",
+      "opis": "Rozesłanie Dwunastu",
+      "tekst": "Jezus przywołał do siebie Dwunastu i zaczął rozsyłać ich po dwóch. Dał im też władzę nad duchami nieczystymi i przykazał im, żeby nic z sobą nie brali na drogę prócz laski: ani chleba, ani torby, ani pieniędzy w trzosie. «Ale idźcie obuci w sandały i nie wdziewajcie dwóch sukien!»\nI mówił do nich: «Gdy do jakiegoś domu wejdziecie, zostańcie tam, aż stamtąd wyjdziecie. Jeśli w jakimś miejscu was nie przyjmą i nie będą was słuchać, wychodząc stamtąd, strząśnijcie proch z nóg waszych na świadectwo dla nich!»\nOni więc wyszli i wzywali do nawracania się. Wyrzucali też wiele złych duchów, a wielu chorych namaszczali olejem i uzdrawiali.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń ta jest bezpośrednim echem Ewangelii o rozesłaniu Dwunastu do głoszenia nawrócenia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Hymn na cześć apostołów, których misja jest opisana w dzisiejszej Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "224",
+      "piesn": "Ludu kapłański",
+      "opis": "Cały Kościół jest ludem misyjnym, posłanym na wzór apostołów, by głosić Ewangelię.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na pracę i trud misyjny, do którego zostaliśmy powołani.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z chlebem i winem składamy Bogu owoce naszej pracy apostolskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "226",
+      "piesn": "Złożyłeś, Panie, w dłoniach",
+      "opis": "Pieśń o posłudze kapłańskiej, która jest kontynuacją misji apostołów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest pokarmem dla robotników na żniwie Pańskim, umacniającym ich w misji.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Chrystus, którego przyjmujemy, zaspokaja głód serc tych, do których jesteśmy posłani.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Komunia Święta jest źródłem życia, które uczniowie mają nieść światu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń jest odpowiedzią na wezwanie psalmu, by okazać Panu miłosierdzie i głosić Jego chwałę.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie za dar wiary i wybrania w Chrystusie, o którym mówi drugie czytanie.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn dziękczynny za dar wybrania i odkupienia, o którym Paweł pisze w Liście do Efezjan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest deklaracją wierności misji, nawet w obliczu trudności, o których Jezus uprzedza uczniów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Na zakończenie Mszy wyznajemy, że Chrystus jest naszym Wodzem, który posyła nas na misję.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "309",
+      "piesn": "Bóg nad swym ludem",
+      "opis": "Jesteśmy posłani, by głosić królestwo Chrystusa i odnawiać świat Jego miłością.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, który jest Ciałem Chrystusa, o czym mówi drugie czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń o jedności, która jest owocem Ducha i znakiem przynależności do Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest echem powołania Amosa i rozesłania Dwunastu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "582",
+      "piesn": "O dobry Jezu",
+      "opis": "Pieśń o powołaniu i pójściu za Chrystusem, co jest istotą życia każdego apostoła.",
+      "moment": "ogolne"
+    }
+  ]
+}

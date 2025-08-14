@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/417231.Czwartek-XI-tydzien-zwykly-rok-I",
+  "tytul_dnia": "11 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "2 Kor 11, 1-11",
+      "opis": "Bezinteresowność św. Pawła",
+      "tekst": "Bracia:\nO, gdybyście mogli znieść trochę szaleństwa z mojej strony! Ależ tak, wy i mnie zniesiecie. Jestem bowiem o was zazdrosny Boską zazdrością. Poślubiłem was przecież jednemu mężowi, by was przedstawić Chrystusowi jako czystą dziewicę. Obawiam się jednak, ażeby nie były odwiedzione umysły wasze od prostoty i czystości wobec Chrystusa w taki sposób, jak w swojej chytrości wąż zwiódł Ewę.\nJeśli bowiem przychodzi ktoś i głosi wam innego Jezusa, jakiego wam nie głosiliśmy, lub bierzecie innego Ducha, którego nie otrzymaliście, albo inną ewangelię, nie tę, którą przyjęliście - znosicie to spokojnie. Otóż sądzę, że dokonałem nie mniej niż wielcy apostołowie. Choć bowiem niewprawny w słowie, to jednak nie jestem pozbawiony wiedzy. Zresztą ujawniliśmy się wobec was we wszystkim, pod każdym względem.\nCzyż popełniłem jakiś grzech przez to, że poniżałem siebie, by was wywyższyć? Że za darmo głosiłem wam Ewangelię Bożą? Ogołacałem inne Kościoły, biorąc, co potrzebne do życia, aby wam przyjść z pomocą. A kiedy byłem u was i znajdowałem się w potrzebie, nikomu nie okazałem się ciężarem. Czego mi nie dostawało, dopełnili bracia przybyli z Macedonii. W niczym nie obciążałem was i nadal nie będę obciążał.\nZapewniam was przez prawdę Chrystusa, która jest we mnie, że nikt nie pozbawi mnie tego tytułu do chluby w granicach Achai. Dlaczego? Czy dlatego, że was nie miłuję? Bóg to wie.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 111 (110), 1b-2. 3-4. 7-8 (R.: por. 7a)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Dzieła Twe, Panie, zawsze sprawiedliwe.\nZ całego serca będę chwalił Pana *\nw radzie sprawiedliwych i na zgromadzeniu.\nWielkie są dzieła Pana, *\nzgłębiać je mają wszyscy, którzy je miłują.\nRefren.\nJego dzieło jest wspaniałe i pełne majestatu, *\na Jego sprawiedliwość trwa na wieki.\nSprawił, że trwa pamięć Jego cudów, *\nPan jest miłosierny i łaskawy.\nRefren.\nDzieła rąk Jego są sprawiedliwe i pełne prawdy, *\nwszystkie Jego przykazania są trwałe,\nustalone na wieki wieków, *\nnadane ze słusznością i mocą.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Rz 8, 15bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otrzymaliście Ducha przybrania za synów,\nw którym wołamy: «Abba, Ojcze»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 6, 7-15",
+      "opis": "Modlitwa Pańska",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Modląc się, nie bądźcie gadatliwi jak poganie. Oni myślą, że przez wzgląd na swe wielomówstwo będą wysłuchani. Nie bądźcie podobni do nich! Albowiem wie Ojciec wasz, czego wam potrzeba, zanim jeszcze Go poprosicie.\nWy zatem tak się módlcie:\nOjcze nasz, który jesteś w niebie, niech się święci Twoje imię! Niech przyjdzie Twoje królestwo; niech Twoja wola się spełnia na ziemi, tak jak w niebie. Naszego chleba powszedniego daj nam dzisiaj; i przebacz nam nasze winy, tak jak i my przebaczamy tym, którzy przeciw nam zawinili; i nie dopuść, abyśmy ulegli pokusie, ale nas zachowaj od złego.\nJeśli bowiem przebaczycie ludziom ich przewinienia, i wam przebaczy Ojciec wasz niebieski. Lecz jeśli nie przebaczycie ludziom, Ojciec wasz nie przebaczy wam także waszych przewinień».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "765",
+      "piesn": "Jezu, Tyś jest światłością",
+      "opis": "Pieśń nawiązuje do pierwszego czytania, które mówi o blasku Ewangelii chwały Chrystusa, jaśniejącym w naszych sercach.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń o Chrystusie, którego głosimy jako Pana i który jest źródłem nowego prawa miłości.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Chrystus jest drogą do nowej sprawiedliwości, o której mówi Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "692",
+      "piesn": "Gdzie miłość wzajemna i dobroć",
+      "opis": "Ewangelia wzywa do pojednania z bratem przed złożeniem daru na ołtarzu, a ta pieśń jest modlitwą o ducha miłości i zgody.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność, która jest owocem pojednania, warunku złożenia ofiary.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Ofiara ma być wyrazem życia według przykazania miłości.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "699",
+      "piesn": "Panie, nie jestem godzien",
+      "opis": "Wyraża postawę pokory i prośbę o uzdrowienie relacji, zanim przyjmiemy Pana.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "256",
+      "piesn": "O Miłości nieskończona",
+      "opis": "Komunia jest zjednoczeniem z Miłością, która uczy nas miłować braci.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Jezus zaprasza na Ucztę, ale stawia warunek pojednania z bratem.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać mogę",
+      "opis": "Pieśń dziękczynna za Bożą łaskę i pokój, które, jak obiecuje psalm, zamieszkają na naszej ziemi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń uwielbienia za Bożą dobroć i zbawienie, o których mówi psalm.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Dziękczynienie za dar Eucharystii i wezwanie do życia w jedności.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Posyła wiernych, aby żyli nowym przykazaniem miłości, które jest fundamentem sprawiedliwości większej, niż faryzeuszów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia w pojednaniu i miłości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Pieśń-modlitwa o jedność, która jest owocem pojednania.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "96",
+      "piesn": "Bądź mi litościw",
+      "opis": "Wobec wysokich wymagań nowej sprawiedliwości, ta pieśń pokutna jest prośbą o serce zdolne do przebaczenia.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "217",
+      "piesn": "O Stworzycielu, Duchu",
+      "opis": "Pierwsze czytanie mówi o Duchu Pańskim, który daje wolność i upodabnia nas do Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu i pojednaniu, kluczowych tematach Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "773",
+      "piesn": "Ubi caritas et amor",
+      "opis": "Kanon podkreślający, że miłość i dobroć są miejscem obecności Boga.",
+      "moment": "ogolne"
+    }
+  ]
+}

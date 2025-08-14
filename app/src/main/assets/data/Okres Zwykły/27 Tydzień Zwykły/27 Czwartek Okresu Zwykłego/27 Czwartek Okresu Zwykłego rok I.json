@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416874.Czwartek-27-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "27 Czwartek Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ml 3, 13-20a",
+      "opis": "Bóg wymierzy sprawiedliwość",
+      "tekst": "«Bardzo przykre stały się wasze mowy przeciwko mnie - mówi Pan. Wy zaś pytacie: Cóż takiego mówiliśmy między sobą przeciw Tobie? Mówiliście: Daremny to trud służyć Bogu! Bo jaki pożytek mieliśmy z tego, że wykonywaliśmy Jego polecenia i chodziliśmy smutni w pokucie przed Panem Zastępów? Teraz zaś raczej zuchwalców nazywajmy szczęśliwymi, bo wzbogacili się bardzo ludzie bezbożni, którzy wystawiali na próbę Boga, a zostali ocaleni».\nWówczas mówili między sobą ludzie bojący się Boga, a Pan uważał i to posłyszał. Zapisano to w Księdze Wspomnień przed Nim na dobro bojących się Pana i czczących Jego imię. «Oni będą moją własnością, mówi Pan Zastępów, w dniu, w którym będę działał, a będę dla nich łaskawy, jak litościwy jest ojciec dla syna, który jest mu posłuszny.\nWtedy zobaczycie różnicę między sprawiedliwym a niegodziwcem, pomiędzy tym, który służy Bogu, a tym, który Mu nie służy. Bo oto nadchodzi dzień palący jak piec, a wszyscy pyszni i wszyscy czyniący nieprawość będą słomą, więc spali ich ten nadchodzący dzień, mówi Pan Zastępów, tak że nie pozostawi po nich ani korzenia, ani gałązki. A dla was, czczących moje imię, wzejdzie słońce sprawiedliwości i uzdrowienie w jego skrzydłach».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 1, 1-2. 3. 4 i 6 (R.: por. Ps 40 [39], 5a)",
+      "opis": "",
+      "tekst": "Refren: Szczęśliwy człowiek, który ufa Panu.\nSzczęśliwy człowiek,\nktóry nie idzie za radą występnych, †\nnie wchodzi na drogę grzeszników *\ni nie zasiada w gronie szyderców,\nlecz w Prawie Pańskim upodobał sobie *\ni rozmyśla nad nim dniem i nocą.\nRefren.\nOn jest jak drzewo zasadzone nad płynącą wodą, *\nktóre wydaje owoc w swoim czasie.\nLiście jego nie więdną, *\na wszystko, co czyni, jest udane.\nRefren.\nCo innego grzesznicy: *\nsą jak plewa, którą wiatr rozmiata.\nAlbowiem droga sprawiedliwych jest Panu znana, *\na droga występnych zaginie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 5-13",
+      "opis": "Wytrwałość w modlitwie",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Ktoś z was, mając przyjaciela, pójdzie do niego o północy i powie mu: „Przyjacielu, pożycz mi trzy chleby, bo mój przyjaciel przybył do mnie z drogi, a nie mam co mu podać”. Lecz tamten odpowie z wewnątrz: „Nie naprzykrzaj mi się! Drzwi są już zamknięte i moje dzieci są ze mną w łóżku. Nie mogę wstać i dać tobie”. Powiadam wam: Chociażby nie wstał i nie dał z tego powodu, że jest jego przyjacielem, to z powodu jego natręctwa wstanie i da mu, ile potrzebuje.\nI Ja wam powiadam: Proście, a będzie wam dane; szukajcie, a znajdziecie; kołaczcie, a zostanie wam otworzone. Każdy bowiem, kto prosi, otrzymuje; kto szuka, znajduje; a kołaczącemu zostanie otworzone. Jeżeli któregoś z was, ojców, syn poprosi o chleb, czy poda mu kamień? Albo o rybę, czy zamiast ryby poda mu węża? Lub też gdy prosi o jajko, czy poda mu skorpiona? Jeśli więc wy, choć źli jesteście, umiecie dawać dobre dary swoim dzieciom, to o ileż bardziej Ojciec z nieba udzieli Ducha Świętego tym, którzy Go proszą».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Pieśń wyraża postawę modlitwy i ufności, do której zachęca Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża tęsknotę za Bogiem i szukanie Go, o czym mówi Ewangelia: 'szukajcie, a znajdziecie'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Zaproszenie do Jezusa jest zachętą do modlitwy, o której skuteczności zapewnia Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "696",
+      "piesn": "Przyjmij, Ojcze, hostię białą",
+      "opis": "Modlitwa o przyjęcie darów jest konkretną realizacją postawy proszenia, o której mówi Ewangelia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "694",
+      "piesn": "Przyjmij, Boże, tę ofiarę",
+      "opis": "Pieśń ofiarna jest wyrazem naszej modlitwy i prośby, którą zanosimy do Boga Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Ofiarowanie chleba i wina jest naszym 'kołataniem' do drzwi nieba, z ufnością, że Bóg da nam więcej niż prosimy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Jezus w Ewangelii obiecuje Ducha Świętego proszącym, a ta pieśń jest bezpośrednim wezwaniem do Niego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prośba o Ducha Świętego jest centralnym punktem obietnicy Jezusa w dzisiejszej Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest modlitwą o Ducha Świętego, który jest największym darem Ojca dla tych, którzy Go proszą.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń jest wyrazem wdzięczności za otrzymane dary, co jest odpowiedzią na Bożą hojność opisaną w Ewangelii.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń jest aktem dziękczynienia za Bożą opiekę, co jest postawą sprawiedliwych z pierwszego czytania, którzy ufają w Bożą sprawiedliwość.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Dziękczynienie za wysłuchane modlitwy jest naturalną konsekwencją wytrwałej prośby, o której uczy Jezus.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Pieśń mówi o szczęściu człowieka, który ufa Bogu, co jest echem psalmu responsoryjnego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest wyrazem wiary, że Bóg zawsze wysłuchuje naszych próśb.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie jest formą wytrwałej modlitwy, do której zachęca Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Psalm responsoryjny mówi o szczęściu człowieka, który ufa Panu, a pieśń ta rozwija temat błogosławieństw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "594",
+      "piesn": "Być bliżej Ciebie chcę",
+      "opis": "Wytrwała modlitwa, o której mówi Jezus, jest drogą do zacieśnienia więzi z Bogiem.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń jest wyrazem ufności w Bożą pomoc i opiekę, o którą z natręctwem prosi przyjaciel z przypowieści.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Prosta modlitwa do Ojca, który, jak zapewnia Jezus, zawsze daje dobre dary swoim dzieciom.",
+      "moment": "ogolne"
+    }
+  ]
+}

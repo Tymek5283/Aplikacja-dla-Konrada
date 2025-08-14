@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 96,1-2.3.7-8a i 10",
-      "opis": "Refren:",
-      "tekst": "Głoście cześć Pana wśród wszystkich narodów.\nŚpiewajcie Panu pieśń nową\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię,\nkażdego dnia głoście Jego zbawienie.\nGłoście Jego chwałę\nwśród wszystkich narodów,\nrozgłaszajcie Jego cuda\npośród wszystkich ludów.\nOddajcie Panu, rodziny narodów,\noddajcie Panu chwałę i uznajcie Jego potęgę.\nOddajcie Panu chwałę należną Jego imieniu.\nGłoście wśród ludów, że Pan jest królem.\nutwierdził świat. tak, że się nie zachwieje,\nbędzie sprawiedliwie sądził ludy."
+      "opis": "",
+      "tekst": "Refren:\nGłoście cześć Pana wśród wszystkich narodów.\nŚpiewajcie Panu pieśń nową\nśpiewaj Panu, ziemio cała.\nŚpiewajcie Panu, sławcie Jego imię,\nkażdego dnia głoście Jego zbawienie.\nGłoście Jego chwałę\nwśród wszystkich narodów,\nrozgłaszajcie Jego cuda\npośród wszystkich ludów.\nOddajcie Panu, rodziny narodów,\noddajcie Panu chwałę i uznajcie Jego potęgę.\nOddajcie Panu chwałę należną Jego imieniu.\nGłoście wśród ludów, że Pan jest królem.\nutwierdził świat. tak, że się nie zachwieje,\nbędzie sprawiedliwie sądził ludy."
     },
     {
       "typ": "AKLAMACJA",
@@ -42,9 +42,33 @@
       "moment": "wejscie"
     },
     {
+      "numer": "583",
+      "piesn": "Zaśpiewajmy pieśń wdzięczności",
+      "opis": "Dziękczynienie Bogu za dar świętych pasterzy, którzy przekazali wiarę i budowali Kościół.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "573",
+      "piesn": "Chwała wam apostołowie",
+      "opis": "Jako następcy Apostołów, Tymoteusz i Tytus kontynuowali ich dzieło, dlatego ten hymn jest odpowiedni na rozpoczęcie liturgii.",
+      "moment": "wejscie"
+    },
+    {
       "numer": "226",
       "piesn": "Złożyłeś, Panie, w dłoniach",
       "opis": "Treść pieśni mówi o powołaniu kapłańskim i misyjnym, co odzwierciedla życie i posługę świętych biskupów.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Modlitwa o błogosławieństwo dla pracy i trudu, na wzór gorliwej posługi Tymoteusza i Tytusa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Wraz z darami chleba i wina, składamy Bogu trud budowania Kościoła, który podjęli święci patroni.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,15 +78,51 @@
       "moment": "komunia"
     },
     {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Pieśń o jedności Kościoła, o którą dbali święci biskupi, jest stosowną medytacją podczas przyjmowania Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Eucharystia jest ucztą, do której zaproszeni są wszyscy, a biskupi są szafarzami tych tajemnic.",
+      "moment": "komunia"
+    },
+    {
       "numer": "604",
       "piesn": "Głoś imię Pana",
       "opis": "Pieśń ta jest wezwaniem do głoszenia chwały Pana, co było głównym zadaniem Tymoteusza i Tytusa w ich posłudze biskupiej.",
       "moment": "uwielbienie"
     },
     {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn chwały, który jest echem psalmu responsoryjnego, wzywającego do głoszenia cudów Pana wśród narodów.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "630",
+      "piesn": "Wszystkie narody świata",
+      "opis": "Pieśń ta wzywa wszystkie narody do chwalenia Pana, co jest owocem pracy misyjnej Kościoła, prowadzonej przez pasterzy.",
+      "moment": "uwielbienie"
+    },
+    {
       "numer": "222",
       "piesn": "Idźcie na cały świat",
       "opis": "Pieśń ta przypomina o misyjnym nakazie Chrystusa, który realizowali święci patroni dnia, co stanowi dobre posłanie na koniec liturgii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "225",
+      "piesn": "Nadziejo Izraela",
+      "opis": "Modlitwa o robotników na żniwo Pańskie jest bezpośrednim nawiązaniem do słów Jezusa z dzisiejszej Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Modlitwa o jedność i pokój dla Kościoła, któremu służyli Tymoteusz i Tytus, jest odpowiednim zwieńczeniem liturgii.",
       "moment": "rozeslanie"
     },
     {
@@ -75,6 +135,18 @@
       "numer": "622",
       "piesn": "Radośnie Panu hymn śpiewajmy",
       "opis": "Radosny hymn uwielbienia, który dobrze oddaje ducha dziękczynienia za dar świętych pasterzy w Kościele.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "614",
+      "piesn": "Panie, umocnij wiarę naszą",
+      "opis": "Wiara, którą Tymoteusz odziedziczył po matce i babce, jest darem, o który prosimy w tej pieśni.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, którą święci biskupi głosili i której strzegli w powierzonych sobie wspólnotach.",
       "moment": "ogolne"
     }
   ]

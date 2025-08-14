@@ -1,0 +1,153 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413331.VI-Niedziela-Wielkanocna-rok-A",
+  "tytul_dnia": "6 Niedziela Okresu Wielkanocnego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 8, 5-8. 14-17",
+      "opis": "Apostołowie nakładali ręce, a wierni otrzymywali Ducha Świętego",
+      "tekst": "Filip przybył do miasta Samarii i głosił im Chrystusa. Tłumy słuchały z uwagą i skupieniem słów Filipa, ponieważ widziały znaki, które czynił. Z wielu bowiem opętanych wychodziły z donośnym krzykiem duchy nieczyste, wielu też sparaliżowanych i chromych zostało uzdrowionych. Wielka zaś radość zapanowała w tym mieście.\nKiedy apostołowie w Jerozolimie dowiedzieli się, że Samaria przyjęła słowo Boże, wysłali do niej Piotra i Jana, którzy przyszli i modlili się za nich, aby mogli otrzymać Ducha Świętego. Bo na żadnego z nich jeszcze nie zstąpił. Byli jedynie ochrzczeni w imię Pana Jezusa. Wtedy więc nakładali apostołowie na nich ręce, a oni otrzymywali Ducha Świętego.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 66 (65), 1b-3a. 4-5. 6-7a. 16 i 20 (R.: por. 1b)",
+      "opis": " (albo: Alleluja)",
+      "tekst": "Refren: Niech cała ziemia chwali swego Pana.\nZ radością sławcie Boga, wszystkie ziemie, *\nopiewajcie chwałę Jego imienia,\ncześć Mu wspaniałą oddajcie. *\nPowiedzcie Bogu: «Jak zadziwiające są Twe dzieła!\nRefren.\nNiechaj Cię wielbi cała ziemia i niechaj śpiewa Tobie, *\nniech Twoje imię opiewa».\nPrzyjdźcie i patrzcie na dzieła Boga, *\nzadziwiających rzeczy dokonał wśród ludzi!\nRefren.\nMorze na suchy ląd zamienił, *\npieszo przeszli przez rzekę.\nNim się przeto radujmy! *\nJego potęga włada na wieki.\nRefren.\nPrzyjdźcie i słuchajcie mnie wszyscy, †\nktórzy boicie się Boga, *\nopowiem, co uczynił mej duszy.\nBłogosławiony Bóg, który nie odepchnął mej prośby *\ni nie oddalił ode mnie swej łaski.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "1 P 3, 15-18",
+      "opis": "Znaczenie śmierci Chrystusa",
+      "tekst": "Najdrożsi:\nPana Chrystusa uznajcie w sercach waszych za Świętego i bądźcie zawsze gotowi do obrony wobec każdego, kto domaga się od was uzasadnienia tej nadziei, która w was jest.\nA z łagodnością i bojaźnią Bożą zachowujcie czyste sumienie, ażeby ci, którzy oczerniają wasze dobre postępowanie w Chrystusie, doznali zawstydzenia właśnie przez to, co wam oszczerczo zarzucają. Lepiej bowiem - jeżeli taka wola Boża - cierpieć, czyniąc dobrze, aniżeli źle czyniąc.\nChrystus bowiem również raz jeden umarł za grzechy, sprawiedliwy za niesprawiedliwych, aby was do Boga przyprowadzić; zabity wprawdzie na ciele, ale powołany do życia przez Ducha.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 23",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Jeśli Mnie kto miłuje, będzie zachowywał moją naukę,\na Ojciec mój umiłuje go i przyjdziemy do niego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 14, 15-21",
+      "opis": "Będę prosił Ojca, a da wam Ducha Prawdy",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Jeżeli Mnie miłujecie, będziecie zachowywać moje przykazania. Ja zaś będę prosił Ojca, a innego Parakleta da wam, aby z wami był na zawsze - Ducha Prawdy, którego świat przyjąć nie może, ponieważ Go nie widzi ani nie zna. Ale wy Go znacie, ponieważ u was przebywa i w was będzie.\nNie zostawię was sierotami. Przyjdę do was. Jeszcze chwila, a świat nie będzie już Mnie widział. Ale wy Mnie widzicie; ponieważ Ja żyję i wy żyć będziecie. W owym dniu poznacie, że Ja jestem w Ojcu moim, a wy we Mnie i Ja w was.\nKto ma przykazania moje i je zachowuje, ten Mnie miłuje. Kto zaś Mnie miłuje, ten będzie umiłowany przez Ojca mego, a również Ja będę go miłował i objawię mu siebie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Pieśń ta idealnie pasuje do tematu otrzymania Ducha Świętego w Samarii, opisanego w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Klasyczna, radosna pieśń wielkanocna, która wyraża radość zapanowującą w Samarii po przyjęciu słowa Bożego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń wyraża wielkanocną radość, która jest owocem przyjęcia Ducha Świętego i życia w miłości Chrystusa.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Jest to modlitwa o przyjście Ducha Świętego, obiecanego przez Jezusa w Ewangelii jako Paraklet i Duch Prawdy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Jest to modlitwa o dary Ducha Świętego, które są niezbędne do zachowywania przykazań i dawania świadectwa.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Pieśń ofiarna, w której oddajemy Bogu nasze życie, prosząc o napełnienie Duchem Świętym.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "219",
+      "piesn": "Przybądź, Duchu Święty, ześlij z nieba",
+      "opis": "Sekwencja na Zesłanie Ducha Świętego doskonale oddaje treść Ewangelii o obietnicy Ducha, który będzie przebywał w wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "Prosta modlitwa o dary Ducha Świętego, który uzdalnia do miłości i zachowywania przykazań.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń ta jest prośbą do Ducha Świętego, aby rozpalił w nas miłość, która jest warunkiem zachowania przykazań Jezusa.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń ta jest echem psalmu responsoryjnego, wzywającego całą ziemię do radosnego chwalenia Boga za Jego dzieła.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Hymn uwielbienia dla Zmartwychwstałego Pana, który posyła nam Ducha Prawdy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Pieśń uwielbienia, która jest odpowiedzią na Bożą łaskę i dar Ducha Świętego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Potężny hymn wielkanocny posyła wiernych, umocnionych obietnicą Ducha, by świadczyli o Zmartwychwstałym.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Duch Święty uzdalnia do misji głoszenia Ewangelii, co jest kontynuacją dzieła Filipa w Samarii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "609",
+      "piesn": "Niechaj z nami będzie Pan",
+      "opis": "Prośba o obecność Pana w misji świadczenia o Nim, która jest możliwa dzięki mocy Ducha Świętego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Wyraża nadzieję, o której uzasadnienie prosi św. Piotr w drugim czytaniu, a która płynie z wiary w Chrystusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Zachowywanie przykazania miłości jest znakiem miłości do Jezusa i warunkiem otrzymania Ducha Prawdy.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prosta modlitwa o Ducha Świętego, który uczy nas i przypomina słowa Jezusa.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Jest to prosta i bezpośrednia modlitwa do Ducha Świętego, o którego przyjście i dary prosimy.",
+      "moment": "ogolne"
+    }
+  ]
+}

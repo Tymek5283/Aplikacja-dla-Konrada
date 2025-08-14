@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/416402.Czwartek-28-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "28 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 1, 1-10",
+      "opis": "Bóg wybrał nas w Chrystusie przed założeniem świata",
+      "tekst": "Paweł, z woli Bożej apostoł Chrystusa Jezusa - do świętych, którzy są w Efezie, i do wiernych w Chrystusie Jezusie: Łaska wam i pokój od Boga, Ojca naszego, i od Pana Jezusa Chrystusa!\nNiech będzie błogosławiony Bóg i Ojciec Pana naszego, Jezusa Chrystusa; On napełnił nas wszelkim błogosławieństwem duchowym na wyżynach niebieskich - w Chrystusie. W Nim bowiem wybrał nas przed założeniem świata, abyśmy byli święci i nieskalani przed Jego obliczem. Z miłości przeznaczył nas dla siebie jako przybranych synów poprzez Jezusa Chrystusa, według postanowienia swej woli, ku chwale majestatu swej łaski, którą obdarzył nas w Umiłowanym.\nW Nim mamy odkupienie przez Jego krew - odpuszczenie występków, według bogactwa Jego łaski. Szczodrze ją na nas wylał w postaci wszelkiej mądrości i zrozumienia, przez to, że nam oznajmił tajemnicę swej woli według swego postanowienia, które przedtem w Nim powziął dla dokonania pełni czasów, aby wszystko na nowo zjednoczyć w Chrystusie jako Głowie: to, co w niebiosach, i to, co na ziemi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 98 (97), 1bcde. 2-3b. 3c-4. 5-6 (R.: por. 2a)",
+      "opis": "",
+      "tekst": "Refren: Pan Bóg okazał ludom swe zbawienie.\nŚpiewajcie Panu pieśń nową, *\nalbowiem uczynił cuda.\nZwycięstwo Mu zgotowała Jego prawica *\ni święte ramię Jego.\nRefren.\nPan okazał swoje zbawienie, *\nna oczach pogan objawił swą sprawiedliwość.\nWspomniał na dobroć i na wierność swoją *\ndla domu Izraela.\nRefren.\nUjrzały wszystkie krańce ziemi *\nzbawienie Boga naszego.\nWołaj z radości na cześć Pana, cała ziemio, *\ncieszcie się, weselcie i grajcie.\nRefren.\nŚpiewajcie Panu przy wtórze cytry, *\nprzy wtórze cytry i przy dźwięku harfy.\nPrzy trąbach i przy głosie rogu, *\nna oczach Pana, Króla, się radujcie.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 47-54",
+      "opis": "Jezus gromi faryzeuszów i uczonych w Prawie",
+      "tekst": "Jezus powiedział do faryzeuszów i do uczonych w Prawie:\n«Biada wam, ponieważ budujecie grobowce prorokom, a wasi ojcowie ich zamordowali. Zatem dajecie świadectwo i przytakujecie uczynkom waszych ojców, gdyż oni ich pomordowali, a wy im wznosicie grobowce.\nDlatego też powiedziała Mądrość Boża: Poślę do nich proroków i apostołów, a niektórych z nich zabiją i prześladować będą. Tak na to plemię spadnie kara za krew wszystkich proroków, która została przelana od stworzenia świata, od krwi Abla aż do krwi Zachariasza, który zginął między ołtarzem a przybytkiem. Tak, mówię wam, zażąda się zdania z niej sprawy od tego plemienia.\nBiada wam, uczonym w Prawie, bo wzięliście klucze poznania; sami nie weszliście, a przeszkodziliście tym, którzy wejść chcieli».\nGdy wyszedł stamtąd, uczeni w Piśmie i faryzeusze poczęli gwałtownie nastawać na Niego i wypytywać Go o wiele rzeczy. Czyhali przy tym, żeby Go pochwycić na jakimś słowie.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Pieśń jest radosnym wezwaniem do chwalenia Pana za Jego cuda, co jest głównym tematem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Radosna pieśń chwały, która jest odpowiedzią na psalm wzywający całą ziemię do weselenia się na cześć Pana.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "2",
+      "piesn": "Niech się radują",
+      "opis": "Pieśń wzywa do radości z królowania Pana, co jest echem psalmu responsoryjnego.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Wobec daru wybrania i przybranego synostwa, o którym mówi pierwsze czytanie, ta pieśń jest aktem dziękczynienia Bogu Ojcu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna jest wyrazem naszej wdzięczności za dar odkupienia i wybrania w Chrystusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie darów jest naszą odpowiedzią na Boże błogosławieństwo, którym napełnił nas w Chrystusie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Ewangelia ukazuje spór z tymi, którzy nie wierzą. Ta pieśń jest naszym osobistym wyznaniem wiary w Chrystusa, którego przyjmujemy w Komunii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "W Komunii jednoczymy się z Chrystusem, w którym, jak mówi św. Paweł, Bóg postanowił wszystko na nowo zjednoczyć.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary i pokory wobec Chrystusa, Głowy Kościoła, którego przyjmujemy w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "637",
+      "piesn": "Ciebie, Boże, chwalimy",
+      "opis": "Hymn ten jest wyrazem uwielbienia dla Boga za Jego odwieczny plan zbawienia w Chrystusie, opisany w Liście do Efezjan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Pieśń chwały dla Boga, który wywyższył Chrystusa ponad wszelkie imię, jak czytamy w Liście do Efezjan.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn uwielbienia, który jest odpowiedzią na psalm wzywający do oddania chwały Panu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Wobec oskarżeń Jezusa pod adresem faryzeuszy, ta pieśń jest wyznaniem, że naszą drogą i prawdą jest Chrystus, a nie obłudne nauczanie.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "311",
+      "piesn": "Chrystus Wodzem",
+      "opis": "Pieśń proklamuje królowanie Chrystusa, który jest Głową Kościoła i któremu wszystko zostało poddane.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud życia wiarą i dawania świadectwa Chrystusowi.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń o nawróceniu jest odpowiedzią na Bożą łaskę, która, jak mówi św. Paweł, wybrała nas i przeznaczyła do świętości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Pieśń podkreśla centralne miejsce Chrystusa w planie zbawienia, o którym z zachwytem pisze św. Paweł w pierwszym czytaniu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Wezwanie do nawrócenia jest odpowiedzią na Ewangelię, która piętnuje obłudę i wzywa do prawdziwej sprawiedliwości.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia i wiary w Ewangelię, która jest Dobrą Nowiną o zbawieniu w Chrystusie.",
+      "moment": "ogolne"
+    }
+  ]
+}

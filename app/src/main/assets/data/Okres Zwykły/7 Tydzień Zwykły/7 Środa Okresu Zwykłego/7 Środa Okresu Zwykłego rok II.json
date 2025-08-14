@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416139.Sroda-VII-tydzien-zwykly-rok-II",
+  "tytul_dnia": "7 Środa Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 4, 13-17",
+      "opis": "Zależność ludzi od Boga",
+      "tekst": "Najmilsi:\nZwracam się do was, którzy mówicie: «Dziś albo jutro udamy się do tego oto miasta i spędzimy tam rok, będziemy uprawiać handel i osiągniemy zyski», wy, którzy nie wiecie nawet, co jutro będzie. Bo czymże jest życie wasze? Parą jesteście, co się ukazuje na krótko, a potem znika.\nZamiast tego powinniście mówić: «Jeżeli Pan zechce, a będziemy żyli, zrobimy to lub owo». Teraz zaś chełpicie się w swej wyniosłości. Wszelka taka chełpliwość jest przewrotna. Kto zaś umie dobrze czynić, a nie czyni, ten grzeszy.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 49 (48), 2-3. 6-7. 8-10. 11 (R.: por. Mt 5, 3)",
+      "opis": "",
+      "tekst": "Refren: Ubodzy duchem mają wstęp do nieba.\nSłuchajcie tego, wszystkie narody, *\nnakłońcie uszu, wszyscy mieszkańcy ziemi,\nniscy pochodzeniem na równi z możnymi, *\nbogaci razem z ubogimi.\nRefren.\nDlaczego miałbym się trwożyć w dniach niedoli, *\ngdy otacza mnie złość podstępnych,\nktórzy ufają swoim dostatkom *\ni chełpią się ogromem swego bogactwa?\nRefren.\nNikt przecież nie może samego siebie wykupić *\nani nie uiści Bogu ceny za siebie należnej.\nNazbyt jest kosztowne wyzwolenie duszy †\ni nigdy mu na to nie starczy, *\naby żyć wiecznie i nie ulec zagładzie.\nRefren.\nAlbowiem ujrzy, że umierają mędrcy, *\njednakowo ginie głupi i prostak,\nzostawiając obcym *\nswoje bogactwa.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 14, 6",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem drogą i prawdą, i życiem.\nNikt nie przychodzi do Ojca inaczej jak tylko przeze Mnie."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 38-40",
+      "opis": "Kto nie jest przeciwko nam, ten jest z nami",
+      "tekst": "Apostoł Jan rzekł do Jezusa: «Nauczycielu, widzieliśmy kogoś, kto nie chodzi z nami, jak w Twoje imię wyrzucał złe duchy, i zaczęliśmy mu zabraniać, bo nie chodzi z nami».\nLecz Jezus odrzekł: «Przestańcie zabraniać mu, bo nikt, kto uczyni cud w imię moje, nie będzie mógł zaraz źle mówić o Mnie. Kto bowiem nie jest przeciwko nam, ten jest z nami».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń ta jest zaproszeniem do zjednoczenia się w chwaleniu Pana, co jest odpowiedzią na Ewangelię o jedności w czynieniu dobra.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "591",
+      "piesn": "Boże, obdarz Kościół Twój",
+      "opis": "Pieśń jest modlitwą o jedność i pokój w Kościele, co jest owocem przezwyciężenia kłótni i żądz, o których mówi św. Jakub.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "634",
+      "piesn": "Złącz, Panie, miłujących Cię",
+      "opis": "Jest to modlitwa o jedność wszystkich, którzy działają w imię Chrystusa, nawet jeśli 'nie chodzą z nami'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wyraża postawę zależności od Boga i oddania Mu swoich planów, o czym mówi pierwsze czytanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń wyraża żal za grzechy i mocne postanowienie poprawy, co jest odpowiedzią na wezwanie św. Jakuba do uniżenia się przed Panem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o Boże błogosławieństwo na trud życia w pokorze i zależności od woli Bożej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "242",
+      "piesn": "Jeden chleb",
+      "opis": "Podkreśla jedność Kościoła, która przekracza ludzkie podziały, o czym naucza Jezus w Ewangelii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "275",
+      "piesn": "To Ty, o Panie, Chlebie nasz",
+      "opis": "Pieśń podkreśla, że w Eucharystii jednoczymy się z Chrystusem, który jest źródłem jedności dla wszystkich wierzących.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Komunia Święta jest ucztą jedności, na którą zaproszeni są wszyscy, którzy w imię Chrystusa czynią dobro.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń jest dziękczynieniem za dar jedności i za łaskę, którą Bóg daje pokornym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za Bożą opiekę i podtrzymanie, o którym z ufnością śpiewa psalmista.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Pieśń dziękczynna za bezmiar łask, które otrzymujemy, gdy z pokorą przystępujemy do Boga.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Pieśń misyjna, która jest wezwaniem do głoszenia Ewangelii w duchu jedności i otwartości.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą, a Jego nauka o jedności jest dla nas przewodnikiem.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "1",
+      "piesn": "Błogosławieni",
+      "opis": "Nawiązuje do refrenu psalmu 'Ubodzy duchem mają wstęp do nieba' i wartości ubóstwa w duchu.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Podkreśla wartość zaufania Bożej Opatrzności, a nie własnej wyniosłości, przed którą ostrzega św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "113",
+      "piesn": "Wstanę i pójdę",
+      "opis": "Pieśń ta wyraża postawę nawrócenia i uniżenia przed Panem, do której wzywa pierwsze czytanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "108",
+      "piesn": "Padnijmy twarzą na ziemię",
+      "opis": "Pieśń wyraża postawę pokory i błagania o łaskę, o której św. Jakub pisze, że Bóg jej udziela pokornym.",
+      "moment": "ogolne"
+    }
+  ]
+}

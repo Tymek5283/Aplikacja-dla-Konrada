@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416875.Sroda-27-tydzien-zwykly-Rok-I",
+  "tytul_dnia": "27 Środa Okresu Zwykłego rok I",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jon 4, 1-11",
+      "opis": "Bóg poucza Jonasza o potrzebie miłosierdzia",
+      "tekst": "Gdy Bóg przebaczył Niniwitom, nie podobało się to Jonaszowi i oburzył się. Modlił się więc do Pana i mówił:\n«Proszę, Panie, czy nie to właśnie miałem na myśli, będąc jeszcze w moim kraju? Dlatego postanowiłem uciec do Tarszisz, bo wiem, że Ty jesteś Bogiem łagodnym i miłosiernym, nieskorym do gniewu i bogatym w łaskę, litującym się nad niedolą. Teraz, Panie, zabierz mi, proszę, moje życie, albowiem lepsza dla mnie śmierć niż życie».\nPan odrzekł: «Czy uważasz, że słusznie jesteś oburzony?»\nJonasz wyszedł z miasta, zatrzymał się po jego wschodniej stronie, tam zrobił sobie szałas i usiadł w cieniu, aby widzieć, co się będzie działo w mieście. A Pan Bóg sprawił, że krzew rycynusowy wyrósł nad Jonaszem, by cień był nad jego głową i żeby mu ująć jego goryczy. Jonasz bardzo się ucieszył tym krzewem. Ale z nastaniem brzasku dnia następnego Bóg zesłał robaczka, aby uszkodził krzew, tak iż usechł.\nA potem, gdy wzeszło słońce, zesłał Bóg gorący wschodni wiatr. Słońce tak prażyło Jonasza w głowę, że zasłabł. Życzył więc sobie śmierci i mówił: «Lepiej dla mnie umrzeć, aniżeli żyć».\nNa to rzekł Bóg do Jonasza: «Czy słusznie się oburzasz z powodu tego krzewu?» On odpowiedział: «Słusznie jestem śmiertelnie zagniewany». Rzekł Pan: «Tobie żal krzewu, którego nie uprawiałeś i nie wyhodowałeś, który w nocy wyrósł i w nocy zginął. A czyż Ja nie powinienem okazać litości Niniwie, wielkiemu miastu, gdzie znajduje się więcej niż sto dwadzieścia tysięcy ludzi, którzy nie odróżniają swej prawej ręki od lewej, a nadto mnóstwo zwierząt?»\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 86 (85), 3-4. 5-6. 9-10 (R.: por. 15a)",
+      "opis": "",
+      "tekst": "Refren: Panie, Ty jesteś Bogiem miłosiernym.\nPanie, zmiłuj się nade mną, *\nbo nieustannie wołam do Ciebie.\nUraduj duszę swego sługi, *\nku Tobie, Panie, wznoszę moją duszę.\nRefren.\nTy bowiem, Panie, jesteś dobry i łaskawy, *\npełen łaski dla wszystkich, którzy Cię wzywają.\nWysłuchaj, Panie, modlitwę moją *\ni zważ na głos mojej prośby.\nRefren.\nPrzyjdą wszystkie ludy przez Ciebie stworzone †\ni Tobie, Panie, oddadzą pokłon, *\nbędą sławiły Twe imię.\nBo Ty jesteś wielki i czynisz cuda, *\ntylko Ty jesteś Bogiem.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Rz 8, 15bc",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otrzymaliście Ducha przybrania za synów,\nw którym wołamy: «Abba, Ojcze»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 11, 1-4",
+      "opis": "Jezus uczy modlitwy",
+      "tekst": "Jezus, przebywając w jakimś miejscu, modlił się, a kiedy skończył, rzekł jeden z uczniów do Niego: «Panie, naucz nas modlić się, tak jak i Jan nauczył swoich uczniów».\nA On rzekł do nich: «Kiedy będziecie się modlić, mówcie: Ojcze, niech się święci Twoje imię; niech przyjdzie Twoje królestwo! Naszego chleba powszedniego dawaj nam na każdy dzień i przebacz nam nasze grzechy, bo i my przebaczamy każdemu, kto przeciw nam zawini; i nie dopuść, byśmy ulegli pokusie».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "611",
+      "piesn": "Ojcze z niebios",
+      "opis": "Pieśń jest bezpośrednim zwróceniem się do Boga jako Ojca, co stanowi centrum modlitwy, której Jezus uczy w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "619",
+      "piesn": "Pójdźmy do Pana",
+      "opis": "Pieśń jest wezwaniem do wspólnej modlitwy, której wzór daje nam sam Jezus w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża osobistą relację z Bogiem, do której zaprasza nas modlitwa 'Ojcze nasz'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "698",
+      "piesn": "Stwórca chleba, Stwórca wina",
+      "opis": "Treść pieśni nawiązuje do prośby o chleb powszedni z Modlitwy Pańskiej i wyraża postawę ofiarowania.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Pieśń ofiarna jest wyrazem naszej modlitwy i prośby, którą zanosimy do Boga Ojca.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest odpowiedzią na zaproszenie do synowskiej relacji w Modlitwie Pańskiej.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "700",
+      "piesn": "Przygotuję Ci serce",
+      "opis": "Pieśń wyraża pragnienie przygotowania serca na przyjęcie Chrystusa, co jest owocem modlitwy i prośby o przebaczenie grzechów.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "262",
+      "piesn": "Pan wieczernik przygotował",
+      "opis": "Prośba o 'chleb powszedni' z Modlitwy Pańskiej znajduje swoje najpełniejsze wypełnienie w Eucharystii.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "244",
+      "piesn": "Jezu, Jezu, do mnie przyjdź",
+      "opis": "Pieśń jest osobistą prośbą o przyjście Jezusa, co jest echem modlitwy, której On sam nas nauczył.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "203",
+      "piesn": "Miłosierdzie Twoje, Panie",
+      "opis": "Pieśń ta podkreśla miłosierdzie Boże, które jest głównym tematem pierwszego czytania o litości Boga nad Niniwą.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn ten wysławia Boże miłosierdzie, które objawiło się w przebaczeniu mieszkańcom Niniwy.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "592",
+      "piesn": "Boże, zmiłuj się nad nami",
+      "opis": "Prośba o zmiłowanie i błogosławieństwo jest echem psalmu responsoryjnego oraz postawy, jakiej uczy nas Modlitwa Pańska.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "617",
+      "piesn": "Pod Twą obronę",
+      "opis": "Pieśń wyraża ufne powierzenie się opiece Ojca Niebieskiego, co jest zgodne z duchem Modlitwy Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "628",
+      "piesn": "Ty, wszechmocny Panie",
+      "opis": "Pieśń jest wyrazem ufności w Bożą pomoc i opiekę, o którą prosimy w Modlitwie Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie i ochronę przed pokusą jest echem ostatnich słów Modlitwy Pańskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "207",
+      "piesn": "O, miłosierdzia, miłosierdzia Panie",
+      "opis": "Pieśń błagalna o miłosierdzie doskonale oddaje ducha pierwszego czytania, w którym Bóg lituje się nad Niniwą.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Pieśń dziękczynna, która jest rozwinięciem modlitwy 'Ojcze nasz', nauczanej w Ewangelii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Pieśń o ufności w Bożą opiekę jest wyrazem wiary w Boga, który jest miłosierny i wysłuchuje modlitw.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "626",
+      "piesn": "Szczęśliwy, kogo opatrzność Boska",
+      "opis": "Ufność w Bożą Opatrzność jest podstawą modlitwy, której uczy nas Jezus.",
+      "moment": "ogolne"
+    }
+  ]
+}

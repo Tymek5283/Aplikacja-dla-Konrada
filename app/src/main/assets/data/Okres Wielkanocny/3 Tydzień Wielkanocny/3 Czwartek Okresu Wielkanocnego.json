@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/413292.Czwartek-III-tygodnia-wielkanocnego",
+  "tytul_dnia": "3 Czwartek Okresu Wielkanocnego",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Dz 8, 26-40",
+      "opis": "Nawrócenie i chrzest Etiopczyka",
+      "tekst": "Anioł Pański powiedział do Filipa: «Wstań i pójdź około południa na drogę, która prowadzi z Jerozolimy do Gazy: jest ona pusta». A on poszedł. Właśnie wtedy przybył do Jerozolimy oddać pokłon Bogu Etiop, dworzanin królowej etiopskiej Kandaki, zarządzający całym jej skarbcem, i wracał, czytając w swoim wozie proroka Izajasza. «Podejdź i przyłącz się do tego wozu» - powiedział Duch do Filipa. Gdy Filip podbiegł, usłyszał, że tamten czyta proroka Izajasza: «Czy rozumiesz, co czytasz?» - zapytał. A tamten odpowiedział: «Jakżeż mogę rozumieć, jeśli mi nikt nie wyjaśni?» I zaprosił Filipa, aby wsiadł i spoczął przy nim. A czytał ten urywek Pisma: «Prowadzą Go jak owcę na rzeź, i jak baranek, który milczy, gdy go strzygą, tak On nie otwiera ust swoich. W Jego uniżeniu odmówiono Mu słuszności. Któż zdoła opisać ród Jego? Bo Jego życie zabiorą z ziemi». «Proszę cię, o kim to Prorok mówi, o sobie czy o kimś innym?» - zapytał Filipa dworzanin. A Filip otworzył usta i wyszedłszy od tego tekstu Pisma, opowiedział mu Dobrą Nowinę o Jezusie. W czasie podróży przybyli nad jakąś wodę: «Oto woda - powiedział dworzanin - cóż stoi na przeszkodzie, abym został ochrzczony?» I kazał zatrzymać wóz, i obaj, Filip i dworzanin, weszli do wody. I ochrzcił go. A kiedy wyszli z wody, Duch Pański porwał Filipa i dworzanin już więcej go nie widział. Jechał zaś z radością swoją drogą. A Filip znalazł się w Azocie i głosił Ewangelię, przechodząc przez wszystkie miasta, aż dotarł do Cezarei. Oto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 66 (65), 8-9. 16-17. 19-20 (R.: por. 1b)",
+      "opis": "",
+      "tekst": "Refren: Niech cała ziemia chwali swego Pana.\n\nalbo: Alleluja.\nBłogosławcie, ludy, naszemu Bogu *\n\ni rozgłaszajcie Jego chwałę,\n\nbo On życiem obdarzył naszą duszę *\n\ni nie dał się potknąć naszej nodze.\nRefren.\nPrzyjdźcie i słuchajcie mnie wszyscy, †\n\nktórzy boicie się Boga, *\n\nopowiem, co uczynił mej duszy.\n\nDo Niego wołałem moimi ustami, *\n\nchwaliłem Go moim językiem.\nRefren.\nBóg mnie wysłuchał, *\n\nprzyjął głos mojej modlitwy.\n\nBłogosławiony Bóg, który nie odepchnął mej prośby *\n\ni nie oddalił ode mnie swej łaski.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "J 6, 51ab",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Ja jestem chlebem żywym, który zstąpił z nieba.\n\nJeśli ktoś spożywa ten chleb, będzie żył na wieki."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "J 6, 44-51",
+      "opis": "Chleb żywy, który zstąpił z nieba",
+      "tekst": "Jezus powiedział do ludu:\n\n«Nikt nie może przyjść do Mnie, jeżeli go nie pociągnie Ojciec, który Mnie posłał; Ja zaś wskrzeszę go w dniu ostatecznym. Napisane jest u Proroków: „Oni wszyscy będą uczniami Boga”. Każdy, kto od Ojca usłyszał i przyjął naukę, przyjdzie do Mnie. Nie znaczy to, aby ktokolwiek widział Ojca; jedynie Ten, który jest od Boga, widział Ojca. Zaprawdę, zaprawdę, powiadam wam: Kto we Mnie wierzy, ma życie wieczne. Ja jestem chlebem życia. Ojcowie wasi jedli mannę na pustyni i pomarli. To jest chleb, który z nieba zstępuje: Kto go je, nie umrze. Ja jestem chlebem żywym, który zstąpił z nieba. Jeśli ktoś spożywa ten chleb, będzie żył na wieki. Chlebem, który Ja dam, jest moje Ciało, wydane za życie świata». Oto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "177",
+      "piesn": "Alleluja, żyje Pan",
+      "opis": "Radosna pieśń wielkanocna, która jest wyrazem wiary w Zmartwychwstałego, głoszonej przez Filipa i przyjmowanej przez Etiopczyka.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "193",
+      "piesn": "Wesoły nam dzień dziś nastał",
+      "opis": "Pieśń ta wyraża radość ze spotkania ze Zmartwychwstałym, której doświadczył dworzanin etiopski po chrzcie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "189",
+      "piesn": "Pan zmartwychwstał",
+      "opis": "Utwór głosi obecność Zmartwychwstałego Pana, który przez Ducha Świętego prowadzi Filipa do etiopskiego dworzanina.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "250",
+      "piesn": "Karmisz, Panie",
+      "opis": "Wyraża wdzięczność za dar Eucharystii, która jest pokarmem na życie wieczne, o czym naucza Jezus w Ewangelii.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "234",
+      "piesn": "Chwal, Syjonie, Zbawiciela",
+      "opis": "Pieśń eucharystyczna sławiąca Zbawiciela, który jest Chlebem Życia, dającym nieśmiertelność.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "258",
+      "piesn": "O Święta Uczto!",
+      "opis": "Utwór ten sławi Eucharystię jako pokarm, w którym Bóg staje się bliski człowiekowi i daje mu życie wieczne.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Pieśń ta jest dosłownym cytatem z Ewangelii, w której Jezus objawia siebie jako Chleb dający życie wieczne.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń jest aktem wiary w Jezusa, ukrytego w Eucharystii, który jest Chlebem Życia wiecznego.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "261",
+      "piesn": "Pan Jezus już się zbliża",
+      "opis": "Przyjęcie Komunii jest najgłębszym zjednoczeniem z Jezusem, Chlebem, który zstąpił z nieba.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Jest to zaproszenie do doświadczenia dobroci Pana w Eucharystii, która jest Chlebem Żywym.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń jest hymnem chwały na cześć Zmartwychwstałego, który karmi nas swoim Ciałem i prowadzi do życia wiecznego.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "173",
+      "piesn": "Alleluja! Biją dzwony",
+      "opis": "Radosny hymn wielkanocny, który jest dziękczynieniem za dar Eucharystii, Chleba Życia.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Działalność misyjna Filipa jest przykładem realizacji nakazu misyjnego, do którego wezwany jest cały Kościół.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Pieśń ta jest prostym i mocnym wyznaniem wiary, które ochrzczony Etiopczyk zabrał ze sobą w dalszą drogę.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "182",
+      "piesn": "Minęły cienie i mroki nocy",
+      "opis": "Utwór mówi o nowym życiu, które otrzymujemy w 'paschalnym źródle' chrztu, tak jak dworzanin etiopski.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "265",
+      "piesn": "Panie, pragnienia ludzkich serc",
+      "opis": "Wyraża tęsknotę za Chlebem Żywym, o którym mówi Ewangelia, a którego pragnął szukający prawdy dworzanin etiopski.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń o zwycięstwie Chrystusa, które jest Dobrą Nowiną głoszoną przez Filipa i źródłem radości nawróconego Etiopczyka.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Utwór podkreśla, że Chrystus, Pan Życia, pokonał śmierć i daje nam siebie jako pokarm na życie wieczne.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "183",
+      "piesn": "Nadzieja nasza w Zmartwychwstałym",
+      "opis": "Pieśń podkreśla, że nasza nadzieja jest w Zmartwychwstałym, który jest Chlebem z nieba i prowadzi nas do Ojca.",
+      "moment": "ogolne"
+    }
+  ]
+}

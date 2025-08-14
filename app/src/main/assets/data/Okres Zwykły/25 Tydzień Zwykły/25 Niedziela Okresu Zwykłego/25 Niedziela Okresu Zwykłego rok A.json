@@ -1,0 +1,141 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/418027.25-Niedziela-zwykla-Rok-A",
+  "tytul_dnia": "25 Niedziela Okresu Zwykłego rok A",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Iz 55, 6-9",
+      "opis": "Myśli moje nie są myślami waszymi",
+      "tekst": "Szukajcie Pana, gdy się pozwala znaleźć, wzywajcie Go, dopóki jest blisko! Niechaj bezbożny porzuci swą drogę i człowiek nieprawy swoje knowania. Niech się nawróci do Pana, a Ten się nad nim zmiłuje, do Boga naszego, gdyż hojny jest w przebaczaniu.\nBo myśli moje nie są myślami waszymi ani wasze drogi moimi drogami - mówi Pan. Bo jak niebiosa górują nad ziemią, tak drogi moje - nad waszymi drogami i myśli moje - nad myślami waszymi.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 145 (144), 2-3. 8-9. 17-18 (R.: 18a)",
+      "opis": "",
+      "tekst": "Refren: Pan blisko wszystkich, którzy Go wzywają.\nKażdego dnia będę błogosławił Ciebie *\ni na wieki wysławiał Twoje imię.\nWielki jest Pan i godzien wielkiej chwały, *\na wielkość Jego niezgłębiona.\nRefren.\nPan jest łagodny i miłosierny, *\nnieskory do gniewu i bardzo łaskawy.\nPan jest dobry dla wszystkich, *\na Jego miłosierdzie nad wszystkim, co stworzył.\nRefren.\nPan jest sprawiedliwy na wszystkich swych drogach *\ni łaskawy we wszystkich swoich dziełach.\nPan jest blisko wszystkich, którzy Go wzywają, *\nwszystkich wzywających Go szczerze.\nRefren."
+    },
+    {
+      "typ": "DRUGIE CZYTANIE",
+      "sigla": "Flp 1, 20c-24. 27a",
+      "opis": "Dla mnie żyć - to Chrystus",
+      "tekst": "Bracia:\nChrystus będzie uwielbiony w moim ciele: czy to przez życie, czy przez śmierć. Dla mnie bowiem żyć - to Chrystus, a umrzeć - to zysk. Jeśli zaś żyć w ciele - to dla mnie owocna praca, cóż mam wybrać? Nie umiem powiedzieć.\nZ dwóch stron doznaję nalegania: pragnę odejść, a być z Chrystusem, bo to o wiele lepsze; pozostawać zaś w ciele - to bardziej konieczne ze względu na was. Tylko sprawujcie się w sposób godny Ewangelii Chrystusowej.\nOto słowo Boże."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. Dz 16, 14b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwórz, Panie, nasze serca,\nabyśmy uważnie słuchali słów Syna Twojego."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mt 20, 1-16a",
+      "opis": "Przypowieść o robotnikach w winnicy",
+      "tekst": "Jezus opowiedział swoim uczniom następującą przypowieść:\n«Królestwo niebieskie podobne jest do gospodarza, który wyszedł wczesnym rankiem, aby nająć robotników do swej winnicy. Umówił się z robotnikami o denara za dzień i posłał ich do winnicy.\nGdy wyszedł około godziny trzeciej, zobaczył innych, stojących na rynku bezczynnie, i rzekł do nich: „Idźcie i wy do mojej winnicy, a co będzie słuszne, dam wam”. Oni poszli. Wyszedłszy ponownie około godziny szóstej i dziewiątej, tak samo uczynił.\nGdy wyszedł około godziny jedenastej, spotkał innych stojących i zapytał ich: „Czemu tu stoicie cały dzień bezczynnie?” Odpowiedzieli mu: „Bo nas nikt nie najął”. Rzekł im: „Idźcie i wy do winnicy”.\nA gdy nadszedł wieczór, rzekł właściciel winnicy do swego rządcy: „Zwołaj robotników i wypłać im należność, począwszy od ostatnich aż do pierwszych”. Przyszli najęci około jedenastej godziny i otrzymali po denarze. Gdy więc przyszli pierwsi, myśleli, że więcej dostaną; lecz i oni otrzymali po denarze.\nWziąwszy go, szemrali przeciw gospodarzowi, mówiąc: „Ci ostatni jedną godzinę pracowali, a zrównałeś ich z nami, którzy znosiliśmy ciężar dnia i spiekotę”. Na to odrzekł jednemu z nich: „Przyjacielu, nie czynię ci krzywdy; czyż nie o denara umówiłeś się ze mną? Weź, co twoje, i odejdź. Chcę też i temu ostatniemu dać tak samo jak tobie. Czy mi nie wolno uczynić ze swoim, co chcę? Czy na to złym okiem patrzysz, że ja jestem dobry?” Tak ostatni będą pierwszymi, a pierwsi ostatnimi».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "106",
+      "piesn": "Nawróć się, ludu",
+      "opis": "Pieśń jest bezpośrednim wezwaniem do nawrócenia, o którym mówi prorok Izajasz w pierwszym czytaniu.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "588",
+      "piesn": "Boże, jesteś moim Bogiem",
+      "opis": "Pieśń wyraża postawę szukania Pana, do której zachęca pierwsze czytanie: 'Szukajcie Pana, gdy się pozwala znaleźć'.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "618",
+      "piesn": "Pójdź do Jezusa",
+      "opis": "Pieśń jest zaproszeniem do winnicy Pańskiej, otwartej dla wszystkich, niezależnie od godziny powołania.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na 'pracę i znojny trud' w winnicy Pańskiej, ufając Jego hojności.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Pieśń wyraża postawę oddania się Bogu, dla którego warto żyć i pracować, jak mówi św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarujemy Bogu owoc naszej pracy, ufając, że Jego hojność przewyższa nasze zasługi.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Pieśń podkreśla dobroć Pana, która w Ewangelii objawia się jako hojność gospodarza winnicy.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "205",
+      "piesn": "Nasze plany i nadzieje",
+      "opis": "Ufność w Boże miłosierdzie jest odpowiedzią na logikę Królestwa Bożego, która przekracza ludzkie kalkulacje.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "273",
+      "piesn": "Skosztujcie i zobaczcie",
+      "opis": "Zaproszenie do skosztowania dobroci Pana, która jest dostępna dla wszystkich, wezwanych o każdej porze.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "199",
+      "piesn": "Bądź uwielbiony, miłosierny Boże",
+      "opis": "Hymn ten jest doskonałym uwielbieniem miłosierdzia i hojności Boga, o których mówi cała liturgia słowa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar łask jest odpowiedzią na Bożą dobroć, która nie liczy zasług.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Hymn wdzięczności jest odpowiedzią na Bożą dobroć, która przewyższa nasze myśli i drogi.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że idziemy za Chrystusem, postępując w sposób godny Ewangelii, jak zachęca św. Paweł.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "633",
+      "piesn": "Za rękę weź mnie, Panie",
+      "opis": "Prośba o prowadzenie przez Pana jest wyrazem zaufania Jego drogom, które są inne niż nasze.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Wezwanie do pracy w winnicy Pańskiej, czyli do głoszenia Ewangelii, jest aktualne dla każdego ochrzczonego.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "97",
+      "piesn": "Bliskie jest królestwo Boże",
+      "opis": "Pieśń wzywa do nawrócenia, o którym mówi prorok Izajasz, jako warunku wejścia do winnicy Pana.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "202",
+      "piesn": "Miłosierdzia, Jezu mój",
+      "opis": "Wołanie o miłosierdzie jest echem psalmu, który sławi Pana jako łagodnego i miłosiernego.",
+      "moment": "ogolne"
+    }
+  ]
+}

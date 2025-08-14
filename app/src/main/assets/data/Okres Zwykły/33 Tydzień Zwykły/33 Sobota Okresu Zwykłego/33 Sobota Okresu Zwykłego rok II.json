@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/414210.Sobota-33-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "33 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ap 11, 4-12",
+      "opis": "Dwaj świadkowie, uczestnicy męki i chwały ich Pana",
+      "tekst": "Mnie, Janowi, powiedziano: «Oto dwaj moi Świadkowie; oni są dwoma drzewami oliwnymi i dwoma świecznikami, co stoją przed Panem ziemi. A jeśli ktoś chce ich skrzywdzić, ogień wychodzi z ich ust i pożera ich wrogów. Jeśliby zechciał ktokolwiek ich skrzywdzić, w ten sposób musi zginąć. Mają oni władzę zamknąć niebo, by deszcz nie zraszał dni ich prorokowania, i mają władzę nad wodami, by w krew je przemienić, i wszelką plagą uderzyć w ziemię, ilekroć zechcą.\nA gdy dopełnią swojego świadectwa, Bestia, która wychodzi z Czeluści, wyda im wojnę, zwycięży ich i zabije. A zwłoki ich leżeć będą na placu wielkiego miasta, które duchowo zwie się: Sodoma i Egipt, gdzie także ukrzyżowano ich Pana. I wielu spośród ludów, szczepów, języków i narodów przez trzy i pół dnia ogląda ich zwłoki; a zwłok ich nie zezwalają złożyć do grobu. Z ich powodu mieszkańcy ziemi cieszą się i radują; i dary sobie nawzajem będą przesyłali, bo ci dwaj prorocy mieszkańcom ziemi zadali katusze.\nA po trzech i pół dnia duch życia z Boga w nich wstąpił, i stanęli na nogi. A wielki strach padł na tych, co ich oglądali. Posłyszeli oni donośny głos z nieba do nich mówiący: „Wstąpcie tutaj!” I w obłoku wstąpili do nieba, a ich wrogowie zobaczyli ich».\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 144 (143), 1b-2. 9-10 (R.: 1b)",
+      "opis": "",
+      "tekst": "Refren: Błogosławiony Pan, Opoka moja.\nBłogosławiony Pan, Opoka moja, †\nOn moje ręce zaprawia do walki, *\nmoje palce do bitwy.\nOn mocą i warownią moją, osłoną moją i moim wybawcą, *\nmoją tarczą i schronieniem, On, który mi poddaje ludy.\nRefren.\nBoże, będę Ci śpiewał pieśń nową, *\ngrać Ci będę na harfie o dziesięciu strunach.\nTy królom dajesz zwycięstwo, *\nTy wyzwoliłeś Dawida, swego sługę.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Por. 2 Tm 1, 10b",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Nasz Zbawiciel, Jezus Chrystus, śmierć zwyciężył,\na na życie rzucił światło przez Ewangelię."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 20, 27-40",
+      "opis": "Uduchowione życie zmartwychwstałych",
+      "tekst": "Podeszło do Jezusa kilku saduceuszów, którzy twierdzą, że nie ma zmartwychwstania, i zagadnęli Go w ten sposób:\n«Nauczycielu, Mojżesz tak nam przepisał: „Jeśli umrze czyjś brat, który miał żonę, a był bezdzietny, niech jego brat pojmie ją za żonę i niech wzbudzi potomstwo swemu bratu”. Otóż było siedmiu braci. Pierwszy pojął żonę i zmarł bezdzietnie. Pojął ją drugi, a potem trzeci, i tak wszyscy pomarli, nie zostawiwszy dzieci. W końcu umarła ta kobieta. Przy zmartwychwstaniu więc którego z nich będzie żoną? Wszyscy siedmiu bowiem mieli ją za żonę».\nJezus im odpowiedział: «Dzieci tego świata żenią się i za mąż wychodzą. Lecz ci, którzy uznani zostaną za godnych udziału w świecie przyszłym i w powstaniu z martwych, ani się żenić nie będą, ani za mąż wychodzić. Już bowiem umrzeć nie mogą, gdyż są równi aniołom i są dziećmi Bożymi, będąc uczestnikami zmartwychwstania. A że umarli zmartwychwstają, to i Mojżesz zaznaczył tam, gdzie jest mowa o krzewie, gdy Pana nazywa „Bogiem Abrahama, Bogiem Izaaka i Bogiem Jakuba”. Bóg nie jest Bogiem umarłych, lecz żywych; wszyscy bowiem dla Niego żyją».\nNa to rzekli niektórzy z uczonych w Piśmie: «Nauczycielu, dobrze powiedziałeś». I już o nic nie śmieli Go pytać.\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "647",
+      "piesn": "Mój Odkupiciel",
+      "opis": "Pieśń wyraża wiarę w zmartwychwstanie i nadzieję na oglądanie Boga, co jest głównym tematem pouczenia Jezusa w Ewangelii.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "198",
+      "piesn": "Zwycięzca śmierci",
+      "opis": "Pieśń wielkanocna, która sławi Chrystusa jako zwycięzcę śmierci, co jest podstawą naszej wiary w zmartwychwstanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "178",
+      "piesn": "Chrystus Pan zmartwychwstał",
+      "opis": "Centralna prawda o zmartwychwstaniu Chrystusa, o której naucza Ewangelia, jest tematem tej pieśni.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "652",
+      "piesn": "U Ciebie, Boże",
+      "opis": "Wobec tajemnicy śmierci i zmartwychwstania, ta pieśń jest aktem ofiarowania i ufnego powierzenia się miłosierdziu Bożemu.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "Wraz z darami chleba i wina składamy Bogu nasze życie w nadziei na zmartwychwstanie.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "276",
+      "piesn": "Twoja cześć, chwała",
+      "opis": "Pieśń ofiarna, w której oddajemy cześć Bogu, który jest Panem życia i śmierci.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Pieśń jest wyznaniem wiary w Chrystusa, który jest Bogiem żywych, a nie umarłych, jak naucza Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "241",
+      "piesn": "Jam jest chlebem żywym",
+      "opis": "Przyjęcie Chleba Życia jest zadatkiem zmartwychwstania i życia wiecznego, o którym mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "264",
+      "piesn": "Panie, dobry jak chleb",
+      "opis": "Chrystus w Eucharystii daje nam siebie jako pokarm na drogę do życia wiecznego i zmartwychwstania.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Pieśń jest dziękczynieniem za dar życia wiecznego i nadzieję zmartwychwstania.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Dziękczynienie za dar wiary w zmartwychwstanie, która jest fundamentem chrześcijaństwa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "702",
+      "piesn": "Dziękczynne pieśni śpiewajmy",
+      "opis": "Wspólnotowy śpiew dziękczynny za obietnicę zmartwychwstania i życia z Bogiem na wieki.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń jest wyznaniem, że Chrystus jest naszą drogą do życia wiecznego, o którym poucza Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "184",
+      "piesn": "Nie zna śmierci Pan żywota",
+      "opis": "Pieśń wielkanocna, która głosi zwycięstwo Chrystusa nad śmiercią i jest posłaniem nadziei dla nas.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "197",
+      "piesn": "Zmartwychpowstał Pan prawdziwie",
+      "opis": "Jesteśmy posłani, by głosić światu prawdę o zmartwychwstaniu, która jest fundamentem naszej wiary.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "645",
+      "piesn": "Jam gościem na tym świecie",
+      "opis": "Pieśń przypomina o perspektywie życia wiecznego, które jest nagrodą za wiarę w zmartwychwstanie.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "596",
+      "piesn": "Chrystus, Chrystus, to nadzieja",
+      "opis": "Wobec tajemnicy śmierci i zmartwychwstania, ta pieśń jest wyznaniem, że naszą jedyną nadzieją jest Chrystus.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "174",
+      "piesn": "Alleluja! Jezus żyje, już",
+      "opis": "Radosna pieśń wielkanocna, która doskonale oddaje temat zmartwychwstania, centralny dla dzisiejszych czytań.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "195",
+      "piesn": "Wysławiajmy Chrysta Pana",
+      "opis": "Pieśń wzywa do wysławiania Chrystusa, który zwyciężył śmierć, co jest podstawą naszej nadziei na zmartwychwstanie.",
+      "moment": "ogolne"
+    }
+  ]
+}

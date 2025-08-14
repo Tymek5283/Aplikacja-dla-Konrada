@@ -1,0 +1,147 @@
+{
+  "urlCzytania": "https://liturgia.wiara.pl/doc/416118.Sobota-VI-tydzien-zwykly-rok-II",
+  "tytul_dnia": "6 Sobota Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Jk 3, 1-10",
+      "opis": "Jeśli ktoś nie grzeszy mową, jest mężem doskonałym",
+      "tekst": "Niech zbyt wielu z was nie uchodzi za nauczycieli, moi bracia, bo wiecie, że tym bardziej surowy czeka nas sąd. Wszyscy bowiem często upadamy. Jeśli kto w mowie nie uchybia, ten jest mężem doskonałym, zdolnym utrzymać w ryzach także całe ciało. Jeżeli przeto wkładamy koniom wędzidła do pysków, by nam były posłuszne, to kierujemy całym ich ciałem. Oto nawet okrętom, choć tak są potężne i tak silnymi wichrami miotane, niepozorny ster nadaje taki kierunek, jaki odpowiada woli sternika.\nTak samo język, mimo że jest małym organem, ma powód do wielkich przechwałek. Oto mały ogień, a jak wielki las podpala. Tak i język jest ogniem, sferą nieprawości. Język jest wśród wszystkich naszych członków tym, co bezcześci całe ciało, i sam trawiony ogniem piekielnym rozpala krąg życia.\nWszystkie bowiem gatunki zwierząt i ptaków, gadów i stworzeń morskich można ujarzmić, i rzeczywiście ujarzmiła je natura ludzka. Języka natomiast nikt z ludzi nie potrafi okiełznać, to zło niestateczne, pełne zabójczego jadu. Za jego pomocą wielbimy Boga i Ojca i nim przeklinamy ludzi, stworzonych na podobieństwo Boże. Z tych samych ust wychodzi błogosławieństwo i przekleństwo. Tak być nie może, bracia moi!\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 12 (11), 2-3. 4-5. 7-8",
+      "opis": "",
+      "tekst": "Refren: Ty nas zachowasz, Panie nasz i Zbawco.\nRatuj nas, Panie, bo braknie pobożnych, *\nzanikła wierność wśród ludzi.\nWszyscy okłamują swych bliźnich, *\nz obłudą w sercu mówią podstępnymi wargami.\nRefren.\nNiech Pan wygubi wszystkie podstępne wargi *\ni języki skłonne do zuchwalstwa.\nTych, którzy mówią: †\n«Naszą siłą język, usta nasze nam służą, *\nktóż jest naszym panem?»\nRefren.\nSłowa Pana są szczere, †\nwypróbowane srebro bez domieszki ziemi, *\nsiedmiokroć oczyszczone.\nTy nas zachowasz, Panie, *\nna wieki nas ustrzeżesz od tego plemienia.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Mk 9, 7",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Otwarło się niebo i zabrzmiał głos Ojca:\n«To jest mój Syn umiłowany, Jego słuchajcie»."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Mk 9, 2-13",
+      "opis": "Przemienienie Pańskie",
+      "tekst": "Jezus wziął z sobą Piotra, Jakuba i Jana i zaprowadził ich samych osobno na górę wysoką. Tam się przemienił wobec nich. Jego odzienie stało się lśniąco białe, tak jak żaden na ziemi folusznik wybielić nie zdoła. I ukazał się im Eliasz z Mojżeszem, którzy rozmawiali z Jezusem.\nWtedy Piotr rzekł do Jezusa: «Rabbi, dobrze, że tu jesteśmy; postawimy trzy namioty: jeden dla Ciebie, jeden dla Mojżesza i jeden dla Eliasza». Nie wiedział bowiem, co powiedzieć, tak byli przestraszeni.\nI zjawił się obłok, osłaniający ich, a z obłoku odezwał się głos: «To jest mój Syn umiłowany, Jego słuchajcie!» I zaraz potem, gdy się rozejrzeli, nikogo już nie widzieli przy sobie, tylko samego Jezusa.\nA gdy schodzili z góry, przykazał im, aby nikomu nie rozpowiadali o tym, co widzieli, zanim Syn Człowieczy nie powstanie z martwych. Zachowali to polecenie, rozprawiając tylko między sobą, co znaczy „powstać z martwych”.\nI pytali Go: «Czemu uczeni w Piśmie twierdzą, że wpierw musi przyjść Eliasz?»\nA On im rzekł: «Istotnie, Eliasz przyjdzie najpierw i wszystko naprawi. Ale jak jest napisane o Synu Człowieczym? Ma On wiele cierpieć i być wzgardzony. Otóż mówię wam: Eliasz już przyszedł i postąpili z nim tak, jak chcieli, jak o nim jest napisane».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "306",
+      "piesn": "Najsłodszy Jezu",
+      "opis": "Pieśń ta jest wprost poświęcona tajemnicy Przemienienia Pańskiego, o której opowiada dzisiejsza Ewangelia.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Jest to hymn na cześć przemienionego Chrystusa, który objawia swoją Boską chwałę.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Nawiązuje wprost do głosu Ojca z obłoku, który objawia Jezusa jako umiłowanego Syna.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "104",
+      "piesn": "Do Ciebie, Panie",
+      "opis": "Wyraża pokorną prośbę o czystość serca i mowy, co jest odpowiedzią na pierwsze czytanie o grzechach języka.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "102",
+      "piesn": "Boże, w dobroci",
+      "opis": "Pieśń ta jest aktem żalu za grzechy, w tym grzechy mowy, i prośbą o łaskę poprawy.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "695",
+      "piesn": "Przyjmij, o Najświętszy Panie",
+      "opis": "W tej pieśni ofiarujemy Bogu nasze życie, prosząc o oczyszczenie naszych ust, by godnie Go wielbiły.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "308",
+      "piesn": "Ty, któryś Synem jest Boga",
+      "opis": "Bezpośrednio nawiązuje do głosu Ojca z Ewangelii, który objawia Bóstwo Chrystusa na górze Tabor.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "239",
+      "piesn": "Ja wiem, w Kogo ja wierzę",
+      "opis": "Jest to wyznanie wiary w Chrystusa, którego chwałę oglądali apostołowie na górze Tabor.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "283",
+      "piesn": "Zbliżam się w pokorze",
+      "opis": "Pieśń ta jest aktem wiary w ukrytego w Hostii Chrystusa, którego Bóstwo objawiło się w Przemienieniu.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "307",
+      "piesn": "O Jezu, Światło ze Światłości",
+      "opis": "Jest to hymn uwielbienia dla Chrystusa, którego chwała objawiła się uczniom w Przemienieniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "595",
+      "piesn": "Cały świat niech śpiewa",
+      "opis": "Jest to wezwanie do uwielbienia Boga za Jego majestat, objawiony w Przemienieniu.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "604",
+      "piesn": "Głoś imię Pana",
+      "opis": "Wzywa do głoszenia chwały Pana, którego mamy słuchać, zgodnie z poleceniem Ojca.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "629",
+      "piesn": "Tyś naszą drogą",
+      "opis": "Pieśń ta jest wyznaniem wiary w Chrystusa, którego mamy słuchać, zgodnie z poleceniem Ojca z Ewangelii.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "222",
+      "piesn": "Idźcie na cały świat",
+      "opis": "Jesteśmy posłani, aby głosić Ewangelię o Chrystusie, którego chwałę oglądaliśmy.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Po spotkaniu z przemienionym Panem, prosimy o błogosławieństwo na naszą drogę świadectwa.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "599",
+      "piesn": "Czego chcesz od nas, Panie",
+      "opis": "Stawia pytanie o to, jakiej czci Bóg od nas oczekuje, co rezonuje z pierwszym czytaniem o mowie, która ma wielbić, a nie przeklinać.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "627",
+      "piesn": "Ty, Boże, wszystko wiesz",
+      "opis": "Pieśń o Bożej wszechwiedzy, która jest zachętą do czuwania nad słowami, o czym poucza św. Jakub.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "112",
+      "piesn": "Serce me do Ciebie wznoszę",
+      "opis": "Wyraża pragnienie czystości serca i mowy, aby godnie wielbić Boga.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "600",
+      "piesn": "Do Ciebie wznoszę serce me",
+      "opis": "Jest to modlitwa o czyste serce, z którego wypływa czysta mowa, miła Bogu.",
+      "moment": "ogolne"
+    }
+  ]
+}

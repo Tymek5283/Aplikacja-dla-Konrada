@@ -18,8 +18,8 @@
     {
       "typ": "PSALM RESPONSORYJNY",
       "sigla": "Ps 138,1-5",
-      "opis": "Refren:",
-      "tekst": "Wobec aniołów psalm zaśpiewam Panu.\nBędę Cię sławił, Panie, z całego serca,\nbo usłyszałeś słowa ust moich;\nBędę śpiewał Ci psalm wobec aniołów,\npokłon Ci oddam w Twoim świętym przybytku.\nI będę sławił Twe imię za łaskę Twoją i wierność,\nbo ponad wszystko wywyższyłeś Twoje imię i obietnicę.\nWysłuchałeś mnie, kiedy Cię wzywałem,\npomnożyłeś moc mojej duszy.\nWszyscy królowie ziemi będą dziękować Tobie, Panie,\ngdy usłyszą słowa ust Twoich,\ni będą opiewać drogi Pana:\n„Zaprawdę, chwała Pana jest wielka”."
+      "opis": "",
+      "tekst": "Refren:\nWobec aniołów psalm zaśpiewam Panu.\nBędę Cię sławił, Panie, z całego serca,\nbo usłyszałeś słowa ust moich;\nBędę śpiewał Ci psalm wobec aniołów,\npokłon Ci oddam w Twoim świętym przybytku.\nI będę sławił Twe imię za łaskę Twoją i wierność,\nbo ponad wszystko wywyższyłeś Twoje imię i obietnicę.\nWysłuchałeś mnie, kiedy Cię wzywałem,\npomnożyłeś moc mojej duszy.\nWszyscy królowie ziemi będą dziękować Tobie, Panie,\ngdy usłyszą słowa ust Twoich,\ni będą opiewać drogi Pana:\n„Zaprawdę, chwała Pana jest wielka”."
     },
     {
       "typ": "AKLAMACJA",
@@ -44,7 +44,31 @@
     {
       "numer": "418",
       "piesn": "Książę niebieski - ku czci św. Michała",
+      "opis": "Pieśń do św. Michała, wodza zastępów niebieskich, wprowadza w atmosferę walki duchowej i Bożej potęgi.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "597",
+      "piesn": "Chwalcie Pana wszyscy",
+      "opis": "Hymn ten wzywa aniołów i wszystkie zastępy niebieskie do chwalenia Pana, co jest istotą dzisiejszego święta.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "418",
+      "piesn": "Książę niebieski - ku czci św. Michała",
       "opis": "Modlitwa do św. Michała Archanioła o obronę przed złem jest szczególnie odpowiednia w kontekście czytania z Apokalipsy o walce ze smokiem.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "417",
+      "piesn": "Wesołym sercem - ku czci św. Gabriela",
+      "opis": "Pieśń sławiąca Gabriela, posłańca Bożych tajemnic, jest dziękczynieniem za dar Bożego Objawienia.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "419",
+      "piesn": "Rafale święty - ku czci św. Rafała",
+      "opis": "Modlitwa do św. Rafała, Bożego uzdrowiciela, jest prośbą o opiekę i zdrowie duszy i ciała.",
       "moment": "ofiarowanie"
     },
     {
@@ -54,9 +78,33 @@
       "moment": "komunia"
     },
     {
+      "numer": "247",
+      "piesn": "Jezusa ukrytego",
+      "opis": "W tej pieśni łączymy się z anielskim chórem, który nieustannie adoruje Chrystusa w Najświętszym Sakramencie.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "278",
+      "piesn": "Upadnij na kolana",
+      "opis": "Pieśń wzywa do uwielbienia Boga, łącząc głosy ziemi z głosami aniołów śpiewających 'Święty, Święty, Święty'.",
+      "moment": "komunia"
+    },
+    {
       "numer": "597",
       "piesn": "Chwalcie Pana wszyscy",
       "opis": "Jest to hymn uwielbienia, który wzywa anielskie chóry do chwalenia Boga, co jest centralnym motywem tego święta.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "622",
+      "piesn": "Radośnie Panu hymn śpiewajmy",
+      "opis": "Radosna pieśń chwały, która wzywa aniołów Pańskich do wychwalania dzieł Bożych.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "636",
+      "piesn": "Ciebie, Boga, wysławiamy",
+      "opis": "Hymn 'Te Deum' jest najwspanialszym uwielbieniem Boga, w którym łączymy się z aniołami, cherubinami i serafinami.",
       "moment": "uwielbienie"
     },
     {
@@ -66,15 +114,39 @@
       "moment": "rozeslanie"
     },
     {
-      "numer": "636",
-      "piesn": "Ciebie, Boga, wysławiamy",
-      "opis": "Hymn 'Te Deum' wspomina o wszystkich aniołach, mocach i niebiosach oddających cześć Bogu, co doskonale pasuje do uroczystego charakteru święta.",
+      "numer": "421",
+      "piesn": "Aniele, duchu wspaniały",
+      "opis": "Pieśń do Anioła Stróża, która na zakończenie Mszy w święto Archaniołów przypomina o stałej opiece anielskiej.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "608",
+      "piesn": "Kto się w opiekę",
+      "opis": "Psalm o ufności w Bożą opiekę, która realizuje się także przez posługę aniołów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "585",
+      "piesn": "Będę Cię wielbił",
+      "opis": "Psalm ten, śpiewany 'wobec aniołów', jest doskonałym wyrazem czci dla Boga w święto Jego niebiańskich posłańców.",
       "moment": "ogolne"
     },
     {
       "numer": "604",
       "piesn": "Głoś imię Pana",
       "opis": "Pieśń wzywa do przyłączenia się do chórów niebieskich w uwielbianiu Boga, co jest pięknym odniesieniem do anielskiej liturgii.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "12",
+      "piesn": "Archanioł Boży Gabryjel",
+      "opis": "Pieśń ta opowiada o misji Archanioła Gabriela w Zwiastowaniu, co jest jednym z najważniejszych wydarzeń z udziałem anioła.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "420",
+      "piesn": "Aniele Boży",
+      "opis": "Prosta i znana modlitwa do Anioła Stróża, która w tym dniu nabiera szerszego kontekstu czci dla wszystkich aniołów.",
       "moment": "ogolne"
     }
   ]

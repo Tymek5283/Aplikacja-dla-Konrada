@@ -1,0 +1,147 @@
+{
+  "url": "https://liturgia.wiara.pl/doc/415667.Czwartek-29-tydzien-zwykly-Rok-II",
+  "tytul_dnia": "29 Czwartek Okresu Zwykłego rok II",
+  "czy_datowany": false,
+  "czytania": [
+    {
+      "typ": "PIERWSZE CZYTANIE",
+      "sigla": "Ef 3, 14-21",
+      "opis": "Abyście doszli do całej Pełni Bożej",
+      "tekst": "Bracia:\nZginam kolana moje przed Ojcem, od którego bierze nazwę wszelki ród na niebie i na ziemi, aby według bogactwa swej chwały sprawił w was przez Ducha swego, by potężnie wzmocnił się wewnętrzny człowiek. Niech Chrystus zamieszka przez wiarę w waszych sercach; abyście w miłości zakorzenieni i ugruntowani, wraz ze wszystkimi świętymi zdołali ogarnąć duchem, czym jest Szerokość, Długość, Wysokość i Głębokość, i poznać miłość Chrystusa, przewyższającą wszelką wiedzę, abyście zostali napełnieni całą Pełnią Boga.\nTemu zaś, który mocą działającą w nas może uczynić nieskończenie więcej niż to, o co my prosimy czy rozumiemy, Jemu chwała w Kościele i w Chrystusie Jezusie po wszystkie pokolenia wieku wieków! Amen.\nOto słowo Boże."
+    },
+    {
+      "typ": "PSALM RESPONSORYJNY",
+      "sigla": "Ps 33 (32), 1-2. 4-5. 11-12. 18-19 (R.: por. 5b)",
+      "opis": "",
+      "tekst": "Refren: Pełna jest ziemia łaskawości Pana.\nSprawiedliwi, radośnie wołajcie na cześć Pana, *\nprawym przystoi pieśń chwały.\nSławcie Pana na cytrze, *\ngrajcie Mu na harfie o dziesięciu strunach.\nRefren.\nBo słowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nZamiary Pana trwają na wieki, *\nzamysły Jego serca przez pokolenia.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nRefren.\nOczy Pana zwrócone na bogobojnych, *\nna tych, którzy oczekują Jego łaski,\naby ocalił ich życie od śmierci *\ni żywił ich w czasie głodu.\nRefren."
+    },
+    {
+      "typ": "AKLAMACJA",
+      "sigla": "Flp 3, 8b-9a",
+      "opis": "Aklamacja: Alleluja, alleluja, alleluja.",
+      "tekst": "Wyzułem się ze wszystkiego i uznaję to za śmieci,\nbylebym pozyskał Chrystusa i w Nim się znalazł."
+    },
+    {
+      "typ": "EWANGELIA",
+      "sigla": "Łk 12, 49-53",
+      "opis": "Ewangelia powodem rozłamu",
+      "tekst": "Jezus powiedział do swoich uczniów:\n«Przyszedłem ogień rzucić na ziemię i jakże pragnę, ażeby już zapłonął. Chrzest mam przyjąć, i jakiej doznaję udręki, aż się to stanie.\nCzy myślicie, że przyszedłem dać ziemi pokój? Nie, powiadam wam, lecz rozłam. Odtąd bowiem pięcioro będzie podzielonych w jednym domu: troje stanie przeciw dwojgu, a dwoje przeciw trojgu; ojciec przeciw synowi, a syn przeciw ojcu; matka przeciw córce, a córka przeciw matce; teściowa przeciw synowej, a synowa przeciw teściowej».\nOto słowo Pańskie."
+    }
+  ],
+  "piesniSugerowane": [
+    {
+      "numer": "215",
+      "piesn": "Duchu Najświętszy",
+      "opis": "Pierwsze czytanie jest modlitwą o umocnienie przez Ducha. Ta pieśń jest naszym wołaniem o Jego obecność i dary.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "220",
+      "piesn": "Przybądź, Stwórco, Duchu Boży",
+      "opis": "Wezwanie do Ducha Świętego, aby nas umocnił i pozwolił poznać miłość Chrystusa, o co modli się św. Paweł.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "772",
+      "piesn": "Ty jesteś źródłem życia",
+      "opis": "Pieśń jest wezwaniem do Ducha Świętego, który jest źródłem życia i miłości, o której mówi pierwsze czytanie.",
+      "moment": "wejscie"
+    },
+    {
+      "numer": "632",
+      "piesn": "Wszystko Tobie oddać pragnę",
+      "opis": "Wobec słów Jezusa o rozłamie, ta pieśń jest aktem ofiarowania i wyboru Chrystusa ponad wszystko.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "697",
+      "piesn": "Składamy Ci, Ojcze",
+      "opis": "Ofiarowanie Bogu owoców naszej pracy jest odpowiedzią na Jego miłość, którą chcemy poznać w całej pełni.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "693",
+      "piesn": "Niosę w darze Tobie",
+      "opis": "Ofiarowanie serca Bogu jest prośbą, by Chrystus w nim zamieszkał przez wiarę, jak modli się św. Paweł.",
+      "moment": "ofiarowanie"
+    },
+    {
+      "numer": "221",
+      "piesn": "Przyjdź, Duchu Święty, napełnij me serce",
+      "opis": "W Komunii prosimy Ducha Świętego, by napełnił nasze serca miłością, która jest ogniem, jaki Jezus przyszedł rzucić na ziemię.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "216",
+      "piesn": "Duchu Święty, przyjdź, prosimy",
+      "opis": "Prośba o Ducha Świętego, abyśmy umocnieni Jego łaską, mogli mężnie stawić czoła rozłamom, o których mówi Ewangelia.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "243",
+      "piesn": "Jezu drogi, Tyś miłością",
+      "opis": "Przyjęcie Jezusa w Komunii jest przyjęciem miłości, która przewyższa wszelką wiedzę, o czym pisze św. Paweł.",
+      "moment": "komunia"
+    },
+    {
+      "numer": "218",
+      "piesn": "Pamiątkę dnia świątecznego",
+      "opis": "Dziękczynienie za dar Ducha Świętego, który, jak mówi pierwsze czytanie, umacnia wewnętrznego człowieka i pozwala poznać miłość Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "601",
+      "piesn": "Dzięki, o Panie",
+      "opis": "Pieśń dziękczynna za dar wiary i miłości, o które modli się św. Paweł i które są źródłem naszej siły.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "613",
+      "piesn": "Panie mój, cóż Ci oddać",
+      "opis": "Dziękczynienie za bezmiar Bożych łask, które pozwalają nam ogarnąć 'Szerokość, Długość, Wysokość i Głębokość' miłości Chrystusa.",
+      "moment": "uwielbienie"
+    },
+    {
+      "numer": "639",
+      "piesn": "Nie rzucim, Chryste",
+      "opis": "Pieśń jest wyznaniem wierności Chrystusowi wbrew przeciwnościom i rozłamom, o których mówi Ewangelia.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "315",
+      "piesn": "Króluj nam, Chryste",
+      "opis": "Pieśń jest prośbą o królowanie Chrystusa w naszych sercach, co jest warunkiem jedności w obliczu rozłamów.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "586",
+      "piesn": "Błogosław Panie nas",
+      "opis": "Prośba o błogosławieństwo na trud bycia wiernym Chrystusowi, nawet jeśli przynosi to podziały.",
+      "moment": "rozeslanie"
+    },
+    {
+      "numer": "775",
+      "piesn": "W naszych ciemnościach",
+      "opis": "Jezus pragnie rzucić ogień na ziemię. Ta pieśń jest prośbą, by ten ogień Bożej miłości rozproszył nasze ciemności.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "602",
+      "piesn": "Dziękujemy Ci, Ojcze nasz",
+      "opis": "Dziękczynienie Ojcu, od którego, jak mówi pierwsze czytanie, bierze nazwę wszelki ród na niebie i na ziemi.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "214",
+      "piesn": "Duchu mądrości",
+      "opis": "Prośba o dary Ducha Świętego, które są nam potrzebne, by poznać miłość Chrystusa i wytrwać w trudnościach.",
+      "moment": "ogolne"
+    },
+    {
+      "numer": "621",
+      "piesn": "Przykazanie nowe daję wam",
+      "opis": "Miłość, o której mówi pieśń, jest fundamentem, w którym mamy być 'zakorzenieni i ugruntowani', jak pisze św. Paweł.",
+      "moment": "ogolne"
+    }
+  ]
+}
