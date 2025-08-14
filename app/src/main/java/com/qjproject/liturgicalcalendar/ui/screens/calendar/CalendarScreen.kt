@@ -338,7 +338,6 @@ private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
     }
 
     if (day.isToday) {
-        // ZMIANA: Użycie nowego złotego koloru dla obramówki
         cellModifier = cellModifier.border(2.dp, Gold, CircleShape)
     }
     if (day.hasEvents) {
@@ -368,14 +367,19 @@ fun EventSelectionDialog(
     }
 
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
                 Text(
                     text = "Wybierz wydarzenie",
                     style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
                 )
                 Spacer(Modifier.height(16.dp))
-
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
                 LazyColumn(modifier = Modifier.heightIn(max = 400.dp)) {
                     items(sortedEvents, key = { it.name }) { event ->
                         Text(

@@ -20,8 +20,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
 fun SongContentScreen(
@@ -151,15 +154,32 @@ private fun EditModeTopAppBar(title: String, onCancelClick: () -> Unit, onSaveCl
 
 @Composable
 private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("Odrzucić zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp)) },
-        text = { Text("Czy na pewno chcesz wyjść bez zapisywania zmian?") },
-        dismissButton = {
-            Button(onClick = onDismiss) { Text("Anuluj") }
-        },
-        confirmButton = {
-            TextButton(onClick = onDiscard) { Text("Odrzuć") }
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    "Odrzucić zmiany?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDiscard) {
+                        Text("Odrzuć")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(onClick = onDismiss) {
+                        Text("Anuluj")
+                    }
+                }
+            }
         }
-    )
+    }
 }

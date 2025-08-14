@@ -27,6 +27,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import org.burnoutcrew.reorderable.*
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -247,9 +249,18 @@ fun AddItemTile(onClick: () -> Unit) {
 @Composable
 private fun ConfirmExitEditModeDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Anulować zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Anulować zmiany?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
                 Text("Masz niezapisane zmiany. Czy na pewno chcesz wyjść i je odrzucić?")
                 Spacer(Modifier.height(24.dp))
@@ -270,9 +281,18 @@ private fun ConfirmExitEditModeDialog(onDismiss: () -> Unit, onDiscard: () -> Un
 @Composable
 private fun ConfirmDeleteDialog(item: FileSystemItem, onDismiss: () -> Unit, onConfirm: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Potwierdź usunięcie",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
                 Text("Czy na pewno chcesz usunąć '${item.name}'? Ta operacja jest nieodwracalna.")
                 Spacer(Modifier.height(24.dp))
@@ -311,9 +331,18 @@ private fun RenameItemDialog(
 @Composable
 private fun AddOptionsDialog(onDismiss: () -> Unit, onCreateFolder: () -> Unit, onCreateDay: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(Modifier.padding(24.dp)) {
-                Text("Co chcesz utworzyć?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Co chcesz utworzyć?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(24.dp))
                 Button(onClick = onCreateFolder, modifier = Modifier.fillMaxWidth()) {
                     Text("Nowy folder")
@@ -345,9 +374,18 @@ private fun CreateItemDialog(
     LaunchedEffect(Unit) { onValueChange(initialValue) }
 
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text(title, style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    title,
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
                 Column {
                     OutlinedTextField(

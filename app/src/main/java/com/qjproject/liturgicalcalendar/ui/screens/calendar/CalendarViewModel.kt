@@ -163,12 +163,15 @@ class CalendarViewModel(
 
     private fun findFilePathsForEvent(name: String): List<String> {
         val results = mutableListOf<String>()
-        // Przeszukaj oba główne katalogi
-        findPathsRecursiveHelper(File(fileSystemRepo.context.filesDir, "data"), name, results)
-        if (results.isNotEmpty()) return results.sorted()
+        val dataDir = File(fileSystemRepo.context.filesDir, "data")
+        val datowaneDir = File(fileSystemRepo.context.filesDir, "Datowane")
 
-        findPathsRecursiveHelper(File(fileSystemRepo.context.filesDir, "Datowane"), name, results)
-        return results.sorted()
+        // Przeszukaj oba katalogi i zbierz wszystkie wyniki
+        findPathsRecursiveHelper(dataDir, name, results)
+        findPathsRecursiveHelper(datowaneDir, name, results)
+
+        // Zwróć unikalne i posortowane ścieżki
+        return results.distinct().sorted()
     }
 
     private fun findPathsRecursiveHelper(directory: File, name: String, results: MutableList<String>) {
@@ -180,26 +183,21 @@ class CalendarViewModel(
             val itemNameWithoutExt = if (item.isDirectory) item.name else item.nameWithoutExtension
             if (itemNameWithoutExt.equals(name, ignoreCase = true)) {
                 if (item.isDirectory) {
-                    // Jeśli znaleziono pasujący folder, dodaj wszystkie pliki .json z jego wnętrza
                     item.walk()
                         .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
                         .forEach { file ->
                             results.add(file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
                         }
-                    return // Zakończ, gdy znaleziono pasujący folder
                 } else if (item.isFile && item.extension.equals("json", ignoreCase = true)) {
-                    // Jeśli znaleziono pasujący plik
                     results.add(item.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
-                    return // Zakończ, gdy znaleziono pasujący plik
                 }
             }
         }
 
-        // Jeśli nie znaleziono bezpośredniego dopasowania, kontynuuj rekurencyjnie
+        // Kontynuuj rekurencyjnie, aby znaleźć wszystkie dopasowania
         for (item in items) {
             if (item.isDirectory) {
                 findPathsRecursiveHelper(item, name, results)
-                if (results.isNotEmpty()) return // Jeśli coś znaleziono w podfolderze, zakończ
             }
         }
     }

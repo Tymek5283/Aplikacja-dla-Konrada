@@ -14,6 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
 fun SettingsScreen(
@@ -41,9 +43,18 @@ fun SettingsScreen(
     // Efekt do pokazywania dialogu restartu
     if (uiState.showRestartPrompt) {
         Dialog(onDismissRequest = { viewModel.dismissRestartPrompt() }) {
-            Card(shape = MaterialTheme.shapes.large) {
+            Card(
+                shape = MaterialTheme.shapes.large,
+                colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+            ) {
                 Column(Modifier.padding(24.dp)) {
-                    Text("Import zakończony", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                    Text(
+                        "Import zakończony",
+                        style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                        color = SaturatedNavy
+                    )
+                    Spacer(Modifier.height(16.dp))
+                    Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                     Spacer(Modifier.height(16.dp))
                     Text("Dane zostały pomyślnie zaimportowane. Aby zmiany były widoczne, aplikacja musi zostać uruchomiona ponownie.")
                     Spacer(Modifier.height(24.dp))

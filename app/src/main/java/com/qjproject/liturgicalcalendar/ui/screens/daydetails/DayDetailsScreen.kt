@@ -50,9 +50,7 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
-import com.qjproject.liturgicalcalendar.ui.theme.DividerColor
-import com.qjproject.liturgicalcalendar.ui.theme.SongItemBackground
-import com.qjproject.liturgicalcalendar.ui.theme.SubtleGrayBackground
+import com.qjproject.liturgicalcalendar.ui.theme.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -493,9 +491,18 @@ fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -
 @Composable
 private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Odrzucić zmiany?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Odrzucić zmiany?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
                 Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
                 Spacer(Modifier.height(24.dp))
@@ -514,9 +521,18 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
 @Composable
 private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onConfirm: () -> Unit) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Potwierdź usunięcie", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Potwierdź usunięcie",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
                 Text("Czy na pewno chcesz usunąć $description?")
                 Spacer(Modifier.height(24.dp))
@@ -542,9 +558,19 @@ private fun AddEditReadingDialog(existingReading: Reading? = null, onDismiss: ()
     val isTypValid by remember { derivedStateOf { typ.isNotBlank() } }
 
     Dialog(onDismissRequest = onDismiss) {
-        Card(Modifier.fillMaxWidth()) {
+        Card(
+            Modifier.fillMaxWidth(),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState())) {
-                Text(if (existingReading == null) "Dodaj nowe czytanie" else "Edytuj czytanie", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 16.dp))
+                Text(
+                    if (existingReading == null) "Dodaj nowe czytanie" else "Edytuj czytanie",
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 16.dp),
+                    color = SaturatedNavy
+                )
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
                 OutlinedTextField(typ, { typ = it }, label = { Text("Typ*") }, isError = !isTypValid, modifier = Modifier.fillMaxWidth())
                 Spacer(Modifier.height(8.dp))
                 OutlinedTextField(sigla, { sigla = it }, label = { Text("Sigla") }, modifier = Modifier.fillMaxWidth())
@@ -585,13 +611,19 @@ private fun AddEditSongDialog(
     }
 
     Dialog(onDismissRequest = onDismiss) {
-        Card(Modifier.fillMaxWidth()) {
+        Card(
+            Modifier.fillMaxWidth(),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(Modifier.padding(16.dp)) {
                 Text(
                     if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń",
                     style = MaterialTheme.typography.titleLarge,
-                    modifier = Modifier.padding(bottom = 16.dp)
+                    modifier = Modifier.padding(bottom = 16.dp),
+                    color = SaturatedNavy
                 )
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
 
                 Column {
                     OutlinedTextField(
@@ -702,13 +734,23 @@ private fun SongDetailsModal(
     onShowContent: (String) -> Unit
 ) {
     Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
-        Card(Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 48.dp)) {
+        Card(
+            Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 48.dp),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(Modifier.padding(24.dp)) {
                 Row(Modifier.fillMaxWidth(), Arrangement.SpaceBetween, Alignment.CenterVertically) {
-                    Text(song.piesn, style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+                    Text(
+                        song.piesn,
+                        style = MaterialTheme.typography.titleLarge,
+                        modifier = Modifier.weight(1f),
+                        color = SaturatedNavy
+                    )
                     IconButton(onClick = onDismiss, Modifier.size(24.dp)) { Icon(Icons.Default.Close, "Zamknij") }
                 }
-                Spacer(Modifier.height(16.dp)); Divider(); Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
                 Column(
                     Modifier
                         .verticalScroll(rememberScrollState())

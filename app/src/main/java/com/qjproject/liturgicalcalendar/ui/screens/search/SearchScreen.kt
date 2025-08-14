@@ -24,15 +24,20 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.models.SearchResult
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
 fun SearchScreen(
@@ -362,13 +367,22 @@ private fun AddSongDialog(
     }
 
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(
                 modifier = Modifier
                     .padding(24.dp)
                     .verticalScroll(rememberScrollState())
             ) {
-                Text("Dodaj nową pieśń", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Dodaj nową pieśń",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
 
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -431,11 +445,28 @@ private fun ConfirmDeleteDialog(
     onDismiss: () -> Unit
 ) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Usunąć pieśń?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Usunąć pieśń?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz usunąć pieśń '${song.tytul}'?")
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    buildAnnotatedString {
+                        append("Czy na pewno chcesz usunąć pieśń ")
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(song.tytul)
+                        }
+                        append("?")
+                    }
+                )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDismiss) { Text("Anuluj") }
@@ -460,11 +491,28 @@ private fun ConfirmDeleteOccurrencesDialog(
     onDismiss: () -> Unit
 ) {
     Dialog(onDismissRequest = onDismiss) {
-        Card(shape = MaterialTheme.shapes.large) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
             Column(modifier = Modifier.padding(24.dp)) {
-                Text("Usunąć powiązania?", style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp))
+                Text(
+                    "Usunąć powiązania?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
                 Spacer(Modifier.height(16.dp))
-                Text("Czy chcesz również usunąć pieśń '${song.tytul}' ze wszystkich list sugerowanych pieśni w dniach liturgicznych?")
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    buildAnnotatedString {
+                        append("Czy chcesz również usunąć pieśń ")
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(song.tytul)
+                        }
+                        append(" ze wszystkich list sugerowanych pieśni w dniach liturgicznych?")
+                    }
+                )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(
