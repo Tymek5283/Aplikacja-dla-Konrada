@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -27,6 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.qjproject.liturgicalcalendar.ui.theme.Gold
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import java.time.Month
 import java.time.YearMonth
 import java.time.format.TextStyle
@@ -94,7 +98,7 @@ fun CalendarScreen(
                         }
                     }
                 )
-                Spacer(modifier = Modifier.height(16.dp))
+                Spacer(modifier = Modifier.height(40.dp))
                 LiturgicalYearInfoView(
                     mainInfo = uiState.liturgicalYearInfo,
                     transitionInfo = uiState.liturgicalYearTransitionInfo
@@ -111,7 +115,7 @@ private fun mapColor(colorName: String?): Color? {
         "Czerwony" -> Color(0xFFb00024).copy(alpha = 0.8f)
         "Zielony" -> Color.Green.copy(alpha = 0.3f)
         "Fioletowy" -> Color(0xFF8711cf).copy(alpha = 0.7f)
-        "Różowy" -> Color(0xFFF48FB1).copy(alpha = 0.4f)
+        "Różowy" -> Color(0xFFEF78A1).copy(alpha = 0.8f)
         else -> null
     }
 }
@@ -169,21 +173,36 @@ private fun MissingDataScreen(
 
 @Composable
 private fun LiturgicalYearInfoView(mainInfo: String, transitionInfo: String?) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            text = mainInfo,
-            style = MaterialTheme.typography.titleMedium,
-            fontWeight = FontWeight.Bold,
-            fontSize = 20.sp
-        )
-        AnimatedVisibility(visible = transitionInfo != null) {
-            transitionInfo?.let {
-                Text(
-                    text = it,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
-                    modifier = Modifier.padding(top = 4.dp)
-                )
+    Card(
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy),
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp)
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = 16.dp, horizontal = 8.dp)
+        ) {
+            Text(
+                text = mainInfo,
+                style = MaterialTheme.typography.titleLarge,
+                color = SaturatedNavy,
+                fontSize = 24.sp,
+                textAlign = TextAlign.Center
+            )
+            AnimatedVisibility(visible = transitionInfo != null) {
+                transitionInfo?.let {
+                    Text(
+                        text = it,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f),
+                        modifier = Modifier.padding(top = 8.dp),
+                        textAlign = TextAlign.Center
+                    )
+                }
             }
         }
     }
@@ -319,7 +338,8 @@ private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
     }
 
     if (day.isToday) {
-        cellModifier = cellModifier.border(2.dp, MaterialTheme.colorScheme.primary, CircleShape)
+        // ZMIANA: Użycie nowego złotego koloru dla obramówki
+        cellModifier = cellModifier.border(2.dp, Gold, CircleShape)
     }
     if (day.hasEvents) {
         cellModifier = cellModifier.clickable(onClick = onClick)

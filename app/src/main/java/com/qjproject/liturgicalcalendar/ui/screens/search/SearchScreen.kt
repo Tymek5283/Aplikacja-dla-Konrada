@@ -77,19 +77,9 @@ fun SearchScreen(
         is DeleteDialogState.None -> {}
     }
 
-    Scaffold(
-        floatingActionButton = {
-            if (uiState.searchMode == SearchMode.Pieśni) {
-                FloatingActionButton(onClick = { viewModel.onAddSongClicked() }) {
-                    Icon(Icons.Default.Add, contentDescription = "Dodaj pieśń")
-                }
-            }
-        }
-    ) { padding ->
+    Box(modifier = Modifier.fillMaxSize()) {
         Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
+            modifier = Modifier.fillMaxSize()
         ) {
             SearchBar(
                 query = uiState.query,
@@ -136,11 +126,22 @@ fun SearchScreen(
                 else -> {
                     ResultsList(
                         results = uiState.results,
+                        searchMode = uiState.searchMode,
                         onNavigateToDay = onNavigateToDay,
                         onNavigateToSong = onNavigateToSong,
                         onSongLongClick = { song -> viewModel.onSongLongPress(song) }
                     )
                 }
+            }
+        }
+        if (uiState.searchMode == SearchMode.Pieśni) {
+            FloatingActionButton(
+                onClick = { viewModel.onAddSongClicked() },
+                modifier = Modifier
+                    .align(Alignment.BottomEnd)
+                    .padding(16.dp)
+            ) {
+                Icon(Icons.Default.Add, contentDescription = "Dodaj pieśń")
             }
         }
     }
@@ -153,7 +154,7 @@ fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
         onValueChange = onQueryChange,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 4.dp),
+            .padding(horizontal = 16.dp, vertical = 8.dp),
         placeholder = { Text("Wyszukaj...") },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
         trailingIcon = {
@@ -263,12 +264,18 @@ fun NoResults() {
 @Composable
 fun ResultsList(
     results: List<SearchResult>,
+    searchMode: SearchMode,
     onNavigateToDay: (String) -> Unit,
     onNavigateToSong: (String) -> Unit,
     onSongLongClick: (Song) -> Unit
 ) {
     LazyColumn(
-        contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp),
+        contentPadding = PaddingValues(
+            start = 8.dp,
+            end = 8.dp,
+            top = 8.dp,
+            bottom = if (searchMode == SearchMode.Pieśni) 80.dp else 8.dp
+        ),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         items(results, key = { result ->

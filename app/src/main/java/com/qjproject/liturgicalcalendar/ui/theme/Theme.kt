@@ -20,7 +20,7 @@ private val CustomDarkColorScheme = darkColorScheme(
     primary = LightBlue,
     secondary = NavyLight,
     background = NavyDark,
-    surface = NavyDark,
+    surface = DarkerNavy, // ZMIANA: Użycie nowego, bardziej niebieskiego koloru dla powierzchni (modali, kart)
     onPrimary = NavyDark,
     onSecondary = OffWhite,
     onBackground = OffWhite,
@@ -40,11 +40,7 @@ private val CustomLightColorScheme = lightColorScheme(
 
 @Composable
 fun LiturgicalCalendarTheme(
-    // --- POCZĄTEK ZMIANY ---
-    // Wymuszamy użycie ciemnego motywu, ignorując ustawienie systemowe.
-    // Zmieniamy domyślną wartość z `isSystemInDarkTheme()` na `true`.
     darkTheme: Boolean = true,
-    // --- KONIEC ZMIANY ---
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {

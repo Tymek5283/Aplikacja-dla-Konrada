@@ -184,7 +184,8 @@ class CalendarRepository(private val context: Context) {
             if (currentYearId != finalYearId) {
                 transitionDay = day + 1
                 val monthName = date.month.getDisplayName(TextStyle.FULL, Locale("pl"))
-                transitionInfo = "Rok do dnia ${transitionDay - 1} $monthName: $currentYearId"
+                // ZMIANA: Aktualizacja tekstu
+                transitionInfo = "Rok obowiązujący do ${transitionDay - 1} $monthName: $currentYearId"
                 break
             }
         }
@@ -269,10 +270,18 @@ class CalendarRepository(private val context: Context) {
         return json.encodeToString(MapSerializer(String.serializer(), LiturgicalEventDetails.serializer()), eventMap)
     }
 
-    private fun parseColor(summary: String): String = when {
-        "⚪" in summary -> "Biały"; "🔴" in summary -> "Czerwony"; "🟢" in summary -> "Zielony"
-        "🟣" in summary -> "Fioletowy"; "💗" in summary || "🩷" in summary -> "Różowy"
-        else -> "Nieznany"
+    private fun parseColor(summary: String): String {
+        val lowerSummary = summary.lowercase(Locale.getDefault())
+        return when {
+            "gaudete" in lowerSummary || "iii niedziela adwentu" in lowerSummary || "3 niedziela adwentu" in lowerSummary -> "Różowy"
+            "laetare" in lowerSummary || "iv niedziela wielkiego postu" in lowerSummary || "4 niedziela wielkiego postu" in lowerSummary -> "Różowy"
+            "⚪" in summary -> "Biały"
+            "🔴" in summary -> "Czerwony"
+            "🟢" in summary -> "Zielony"
+            "🟣" in summary -> "Fioletowy"
+            "💗" in summary || "🩷" in summary -> "Różowy"
+            else -> "Nieznany"
+        }
     }
 
     private fun parseType(summary: String): String {
