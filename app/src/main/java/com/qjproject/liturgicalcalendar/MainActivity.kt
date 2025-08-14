@@ -12,10 +12,13 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
@@ -27,6 +30,7 @@ import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
@@ -50,18 +54,20 @@ import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
+import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import kotlinx.coroutines.launch
 import java.net.URLDecoder
 import kotlin.system.exitProcess
-import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -180,9 +186,9 @@ fun MainAppHost() {
 fun MainTabsScreen(navController: NavController) {
     val context = LocalContext.current
     val activity = (LocalContext.current as? Activity)
-    val browseViewModel: BrowseViewModel = viewModel(factory = BrowseViewModelFactory(context))
-    val calendarViewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
-    val settingsViewModel: SettingsViewModel = viewModel(factory = SettingsViewModelFactory(context))
+    val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
+    val calendarViewModel = viewModel<CalendarViewModel>(factory = CalendarViewModelFactory(context))
+    val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
 
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
     val pagerState = rememberPagerState(initialPage = 1)
@@ -259,25 +265,49 @@ fun MainTabsScreen(navController: NavController) {
             )
         },
         bottomBar = {
-            NavigationBar {
-                bottomNavItems.forEachIndexed { index, screen ->
-                    val isSelected = pagerState.currentPage == index
-                    NavigationBarItem(
-                        selected = isSelected,
-                        onClick = {
-                            if (isSelected) {
-                                when (screen) {
-                                    is Screen.Browse -> browseViewModel.onResetToRoot()
-                                    is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
-                                    else -> {}
+            Column {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(1.5.dp)
+                        .background(
+                            brush = Brush.verticalGradient(
+                                colors = listOf(
+                                    Color.Black.copy(alpha = 0.2f),
+                                    Color.Transparent
+                                )
+                            )
+                        )
+                )
+                NavigationBar(
+                    containerColor = NavBarBackground
+                ) {
+                    bottomNavItems.forEachIndexed { index, screen ->
+                        val isSelected = pagerState.currentPage == index
+                        NavigationBarItem(
+                            selected = isSelected,
+                            onClick = {
+                                if (isSelected) {
+                                    when (screen) {
+                                        is Screen.Browse -> browseViewModel.onResetToRoot()
+                                        is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
+                                        else -> {}
+                                    }
+                                } else {
+                                    coroutineScope.launch { pagerState.animateScrollToPage(index) }
                                 }
-                            } else {
-                                coroutineScope.launch { pagerState.animateScrollToPage(index) }
-                            }
-                        },
-                        icon = { Icon(imageVector = screen.icon, contentDescription = screen.label) },
-                        label = { Text(screen.label) }
-                    )
+                            },
+                            icon = { Icon(imageVector = screen.icon, contentDescription = screen.label) },
+                            label = { Text(screen.label) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = SaturatedNavy,
+                                selectedTextColor = SaturatedNavy,
+                                indicatorColor = SaturatedNavy.copy(alpha = 0.15f),
+                                unselectedIconColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                                unselectedTextColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                            )
+                        )
+                    }
                 }
             }
         }
