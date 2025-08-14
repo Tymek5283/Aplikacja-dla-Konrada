@@ -658,7 +658,8 @@ private fun AddEditSongDialog(
                                             numer = song.numer
                                             viewModel.clearAllSearchResults()
                                         }
-                                        .padding(12.dp)
+                                        .padding(12.dp),
+                                    color = Color.LightGray
                                 )
                             }
                         }
@@ -697,7 +698,8 @@ private fun AddEditSongDialog(
                                             numer = song.numer
                                             viewModel.clearAllSearchResults()
                                         }
-                                        .padding(12.dp)
+                                        .padding(12.dp),
+                                    color = Color.LightGray
                                 )
                             }
                         }
