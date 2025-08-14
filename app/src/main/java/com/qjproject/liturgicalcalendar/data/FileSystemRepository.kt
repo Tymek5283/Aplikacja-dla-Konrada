@@ -30,6 +30,24 @@ private data class FoundImportFiles(
     val songFile: File
 )
 
+private val fileSystemItemNaturalComparator = compareBy<FileSystemItem> { !it.isDirectory }
+    .then(Comparator { a, b ->
+        val numA = a.name.takeWhile { it.isDigit() }.toIntOrNull()
+        val numB = b.name.takeWhile { it.isDigit() }.toIntOrNull()
+
+        if (numA != null && numB != null) {
+            val numCompare = numA.compareTo(numB)
+            if (numCompare != 0) numCompare else a.name.compareTo(b.name, ignoreCase = true)
+        } else if (numA != null) {
+            -1 // Elementy z numerami na początku
+        } else if (numB != null) {
+            1 // Elementy z numerami na początku
+        } else {
+            // Brak numerów, sortowanie alfabetyczne
+            a.name.compareTo(b.name, ignoreCase = true)
+        }
+    })
+
 
 class FileSystemRepository(val context: Context) {
 
@@ -96,14 +114,14 @@ class FileSystemRepository(val context: Context) {
                             remainingItems.remove(it)
                         }
                     }
-                    orderedItems.addAll(remainingItems.sortedWith(compareBy({ !it.isDirectory }, { it.name })))
+                    orderedItems.addAll(remainingItems.sortedWith(fileSystemItemNaturalComparator))
                     orderedItems
                 } catch (e: Exception) {
                     Log.e("FileSystemRepository", "Błąd odczytu pliku kolejności dla $path. Sortowanie alfabetyczne.", e)
-                    itemsOnDisk.sortedWith(compareBy({ !it.isDirectory }, { it.name }))
+                    itemsOnDisk.sortedWith(fileSystemItemNaturalComparator)
                 }
             } else {
-                itemsOnDisk.sortedWith(compareBy({ !it.isDirectory }, { it.name }))
+                itemsOnDisk.sortedWith(fileSystemItemNaturalComparator)
             }
         } catch (e: Exception) {
             Log.e("FileSystemRepository", "Błąd podczas pobierania elementów z $path", e)

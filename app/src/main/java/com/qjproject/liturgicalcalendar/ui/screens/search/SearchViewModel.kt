@@ -46,6 +46,22 @@ data class SearchUiState(
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None
 )
 
+private val dayResultNaturalComparator = Comparator<SearchResult.DayResult> { a, b ->
+    val numA = a.title.takeWhile { it.isDigit() }.toIntOrNull()
+    val numB = b.title.takeWhile { it.isDigit() }.toIntOrNull()
+
+    if (numA != null && numB != null) {
+        val numCompare = numA.compareTo(numB)
+        if (numCompare != 0) numCompare else a.title.compareTo(b.title, ignoreCase = true)
+    } else if (numA != null) {
+        -1
+    } else if (numB != null) {
+        1
+    } else {
+        a.title.compareTo(b.title, ignoreCase = true)
+    }
+}
+
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
 
     private val _uiState = MutableStateFlow(SearchUiState())
@@ -147,7 +163,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 // Log error or ignore corrupted file
             }
         }
-        return results
+        return results.sortedWith(dayResultNaturalComparator)
     }
 
     private fun searchSongs(query: String): List<SearchResult> {
