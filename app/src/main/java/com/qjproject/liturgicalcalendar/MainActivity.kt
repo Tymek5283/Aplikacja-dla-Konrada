@@ -13,26 +13,20 @@ import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.RowScope
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -57,6 +51,9 @@ import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFac
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.search.SongSortMode
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
@@ -181,7 +178,7 @@ fun MainAppHost() {
     }
 }
 
-@OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalPagerApi::class)
 @Composable
 fun MainTabsScreen(navController: NavController) {
     val context = LocalContext.current
@@ -189,26 +186,23 @@ fun MainTabsScreen(navController: NavController) {
     val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
     val calendarViewModel = viewModel<CalendarViewModel>(factory = CalendarViewModelFactory(context))
     val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
+    val searchViewModel: SearchViewModel = viewModel(factory = SearchViewModelFactory(context))
 
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
     val pagerState = rememberPagerState(initialPage = 1)
     val coroutineScope = rememberCoroutineScope()
 
     val browseUiState by browseViewModel.uiState.collectAsState()
+    val searchUiState by searchViewModel.uiState.collectAsState()
 
     val isSearchScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Search)
     val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
     val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
 
-    var showSearchOptions by remember { mutableStateOf(false) }
     var isCalendarMenuExpanded by remember { mutableStateOf(false) }
 
     BackHandler(enabled = true) {
         when {
-            // Priorytet: jeśli menu opcji wyszukiwania jest otwarte, zamknij je
-            isSearchScreenActive && showSearchOptions -> {
-                showSearchOptions = false
-            }
             // Logika dla ekranu przeglądania
             isBrowseScreenActive -> {
                 if (browseUiState.isEditMode) {
@@ -226,7 +220,7 @@ fun MainTabsScreen(navController: NavController) {
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> "Wyszukaj frazę"
+                Screen.Search -> "Wyszukaj pieśń"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -243,6 +237,18 @@ fun MainTabsScreen(navController: NavController) {
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
+                isSearchScreenActive = isSearchScreenActive,
+                searchActions = {
+                    SongOptions(
+                        searchInTitle = searchUiState.searchInTitle,
+                        searchInContent = searchUiState.searchInContent,
+                        sortMode = searchUiState.sortMode,
+                        onSearchInTitleChange = searchViewModel::onSearchInTitleChange,
+                        onSearchInContentChange = searchViewModel::onSearchInContentChange,
+                        onSortModeChange = searchViewModel::onSortModeChange,
+                        showSortOption = searchUiState.results.isNotEmpty()
+                    )
+                },
                 calendarActions = {
                     Box {
                         IconButton(onClick = { isCalendarMenuExpanded = true }) {
@@ -320,14 +326,10 @@ fun MainTabsScreen(navController: NavController) {
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen(
-                    onNavigateToDay = { dayPath ->
-                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
-                    },
+                    viewModel = searchViewModel,
                     onNavigateToSong = { songNumber ->
                         navController.navigate(Screen.SongDetails.createRoute(songNumber))
-                    },
-                    showMenu = showSearchOptions,
-                    onShowMenuChange = { showSearchOptions = it }
+                    }
                 )
                 is Screen.Browse -> BrowseScreen(
                     viewModel = browseViewModel,
@@ -357,6 +359,64 @@ fun MainTabsScreen(navController: NavController) {
     }
 }
 
+@Composable
+private fun SongOptions(
+    searchInTitle: Boolean,
+    searchInContent: Boolean,
+    sortMode: SongSortMode,
+    onSearchInTitleChange: (Boolean) -> Unit,
+    onSearchInContentChange: (Boolean) -> Unit,
+    onSortModeChange: (SongSortMode) -> Unit,
+    showSortOption: Boolean
+) {
+    var showMenu by remember { mutableStateOf(false) }
+
+    Box {
+        IconButton(onClick = { showMenu = true }) {
+            Icon(Icons.Default.MoreVert, contentDescription = "Więcej opcji")
+        }
+        DropdownMenu(
+            expanded = showMenu,
+            onDismissRequest = { showMenu = false }
+        ) {
+            Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+            DropdownMenuItem(
+                text = { Text("Tytuł") },
+                onClick = { onSearchInTitleChange(!searchInTitle) },
+                leadingIcon = { Checkbox(checked = searchInTitle, onCheckedChange = null) }
+            )
+            DropdownMenuItem(
+                text = { Text("Treść") },
+                onClick = { onSearchInContentChange(!searchInContent) },
+                leadingIcon = { Checkbox(checked = searchInContent, onCheckedChange = null) }
+            )
+            if (showSortOption) {
+                Divider(modifier = Modifier.padding(vertical = 4.dp))
+                Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+                Column(Modifier.selectableGroup()) {
+                    SongSortMode.values().forEach { mode ->
+                        DropdownMenuItem(
+                            text = { Text(mode.name) },
+                            onClick = { onSortModeChange(mode) },
+                            leadingIcon = {
+                                RadioButton(
+                                    selected = (sortMode == mode),
+                                    onClick = null
+                                )
+                            },
+                            modifier = Modifier.selectable(
+                                selected = (sortMode == mode),
+                                onClick = { onSortModeChange(mode) },
+                                role = Role.RadioButton
+                            )
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainTopAppBar(
@@ -370,6 +430,8 @@ fun MainTopAppBar(
     onCancelClick: () -> Unit = {},
     isSaveEnabled: Boolean = false,
     isCalendarScreenActive: Boolean = false,
+    isSearchScreenActive: Boolean = false,
+    searchActions: @Composable RowScope.() -> Unit = {},
     calendarActions: @Composable RowScope.() -> Unit = {}
 ) {
     Column {
@@ -405,6 +467,8 @@ fun MainTopAppBar(
                     }
                 } else if (isCalendarScreenActive) {
                     calendarActions()
+                } else if (isSearchScreenActive) {
+                    searchActions()
                 } else {
                     Spacer(Modifier.width(48.dp))
                 }

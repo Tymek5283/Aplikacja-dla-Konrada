@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
-import com.qjproject.liturgicalcalendar.data.models.SearchResult
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -18,11 +17,7 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import java.util.Locale
-import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.jsonObject
-import kotlinx.serialization.json.jsonPrimitive
 
-enum class SearchMode { Dni, Pieśni }
 enum class SongSortMode { Alfabetycznie, Numerycznie }
 
 sealed class DeleteDialogState {
@@ -33,8 +28,7 @@ sealed class DeleteDialogState {
 
 data class SearchUiState(
     val query: String = "",
-    val searchMode: SearchMode = SearchMode.Dni,
-    val results: List<SearchResult> = emptyList(),
+    val results: List<Song> = emptyList(),
     val searchPerformed: Boolean = false,
     val isLoading: Boolean = false,
     // Song-specific options
@@ -46,22 +40,6 @@ data class SearchUiState(
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None
 )
 
-private val dayResultNaturalComparator = Comparator<SearchResult.DayResult> { a, b ->
-    val numA = a.title.takeWhile { it.isDigit() }.toIntOrNull()
-    val numB = b.title.takeWhile { it.isDigit() }.toIntOrNull()
-
-    if (numA != null && numB != null) {
-        val numCompare = numA.compareTo(numB)
-        if (numCompare != 0) numCompare else a.title.compareTo(b.title, ignoreCase = true)
-    } else if (numA != null) {
-        -1
-    } else if (numB != null) {
-        1
-    } else {
-        a.title.compareTo(b.title, ignoreCase = true)
-    }
-}
-
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
 
     private val _uiState = MutableStateFlow(SearchUiState())
@@ -69,8 +47,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private val _queryFlow = MutableStateFlow("")
     private var searchJob: Job? = null
-
-    private val json = Json { ignoreUnknownKeys = true }
 
     // Cache for song list to avoid reading from disk on every validation
     private var allSongsCache: List<Song>? = null
@@ -81,32 +57,23 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .distinctUntilChanged()
             .onEach { triggerSearch() }
             .launchIn(viewModelScope)
+
+        loadAllSongs()
     }
 
     fun triggerSearch() {
         val query = _uiState.value.query
-        val mode = _uiState.value.searchMode
-
         searchJob?.cancel()
         if (query.isNotBlank()) {
             performSearch(query)
         } else {
-            if (mode == SearchMode.Pieśni) {
-                loadAllSongs()
-            } else {
-                _uiState.update { it.copy(results = emptyList(), searchPerformed = false, isLoading = false) }
-            }
+            loadAllSongs()
         }
     }
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }
         _queryFlow.value = newQuery
-    }
-
-    fun onSearchModeChange(newMode: SearchMode) {
-        _uiState.update { it.copy(searchMode = newMode, results = emptyList(), searchPerformed = false) }
-        triggerSearch()
     }
 
     fun onSearchInTitleChange(isChecked: Boolean) {
@@ -124,7 +91,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     fun onSortModeChange(newSortMode: SongSortMode) {
         if (_uiState.value.sortMode == newSortMode) return
         _uiState.update { it.copy(sortMode = newSortMode) }
-        val sortedResults = sortSongs(_uiState.value.results.filterIsInstance<SearchResult.SongResult>())
+        val sortedResults = sortSongs(_uiState.value.results)
         _uiState.update { it.copy(results = sortedResults) }
     }
 
@@ -138,35 +105,12 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private fun performSearch(query: String) {
         searchJob = viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
-            val results = when (_uiState.value.searchMode) {
-                SearchMode.Dni -> searchDays(query)
-                SearchMode.Pieśni -> searchSongs(query)
-            }
+            val results = searchSongs(query)
             _uiState.update { it.copy(results = results, searchPerformed = true, isLoading = false) }
         }
     }
 
-    private suspend fun searchDays(query: String): List<SearchResult> {
-        val normalizedQuery = normalize(query)
-        val dayPaths = repository.getAllDayFilePaths()
-        val results = mutableListOf<SearchResult.DayResult>()
-
-        dayPaths.forEach { path ->
-            try {
-                val dayData = repository.getDayData(path)
-                dayData?.let {
-                    if (normalize(it.tytulDnia).contains(normalizedQuery)) {
-                        results.add(SearchResult.DayResult(it.tytulDnia, path))
-                    }
-                }
-            } catch (e: Exception) {
-                // Log error or ignore corrupted file
-            }
-        }
-        return results.sortedWith(dayResultNaturalComparator)
-    }
-
-    private fun searchSongs(query: String): List<SearchResult> {
+    private fun searchSongs(query: String): List<Song> {
         val allSongs = repository.getSongList()
         val normalizedQuery = normalize(query)
         val state = _uiState.value
@@ -174,7 +118,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         // Exact number match has priority
         val byNumber = allSongs.filter { it.numer.equals(query.trim(), ignoreCase = true) }
         if (byNumber.isNotEmpty()) {
-            return sortSongs(byNumber.map { SearchResult.SongResult(it) })
+            return sortSongs(byNumber)
         }
 
         // Filter by other criteria
@@ -182,7 +126,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             val matchesTitle = state.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
             val matchesContent = state.searchInContent && normalize(song.tekst).contains(normalizedQuery)
             matchesTitle || matchesContent
-        }.map { SearchResult.SongResult(it) }
+        }
 
         return sortSongs(filteredSongs)
     }
@@ -191,22 +135,21 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         searchJob = viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val allSongs = repository.getSongList()
-            val results = allSongs.map { SearchResult.SongResult(it) }
-            val sortedResults = sortSongs(results)
+            val sortedResults = sortSongs(allSongs)
             _uiState.update { it.copy(results = sortedResults, searchPerformed = true, isLoading = false) }
         }
     }
 
-    private fun sortSongs(songs: List<SearchResult.SongResult>): List<SearchResult> {
+    private fun sortSongs(songs: List<Song>): List<Song> {
         return when (_uiState.value.sortMode) {
-            SongSortMode.Alfabetycznie -> songs.sortedBy { it.song.tytul }
+            SongSortMode.Alfabetycznie -> songs.sortedBy { it.tytul }
             SongSortMode.Numerycznie -> songs.sortedWith(songNumberComparator)
         }
     }
 
-    private val songNumberComparator = Comparator<SearchResult.SongResult> { a, b ->
-        val numA = a.song.numer
-        val numB = b.song.numer
+    private val songNumberComparator = Comparator<Song> { a, b ->
+        val numA = a.numer
+        val numB = b.numer
 
         val isNumAInt = numA.toIntOrNull() != null
         val isNumBInt = numB.toIntOrNull() != null
@@ -257,12 +200,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
 
-        // --- POCZĄTEK ZMIANY ---
         if (trimmedNumber.isBlank()) {
             _uiState.update { it.copy(addSongError = "Numer jest wymagany.") }
             return
         }
-        // --- KONIEC ZMIANY ---
 
         // Final validation before save
         validateSongInput(trimmedTitle, trimmedNumber)
