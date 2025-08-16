@@ -2289,6 +2289,35 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
+
+    fun updateSongOccurrencesInDayFiles(originalSong: Song, updatedSong: Song): Result<Unit> {
+        return try {
+            val allDayPaths = getAllDayFilePaths()
+            for (path in allDayPaths) {
+                val dayData = getDayData(path)
+                // Sprawdź, czy pieśń istnieje w sugestiach tego dnia, dopasowując po oryginalnym numerze i tytule
+                if (dayData?.piesniSugerowane?.any { it?.numer == originalSong.numerSiedl && it.piesn == originalSong.tytul } == true) {
+                    val updatedSuggestedSongs = dayData.piesniSugerowane.map { suggestedSong ->
+                        // Zaktualizuj tylko pasujące pieśni
+                        if (suggestedSong?.numer == originalSong.numerSiedl && suggestedSong.piesn == originalSong.tytul) {
+                            suggestedSong.copy(
+                                piesn = updatedSong.tytul,
+                                numer = updatedSong.numerSiedl
+                            )
+                        } else {
+                            suggestedSong
+                        }
+                    }
+                    val updatedDayData = dayData.copy(piesniSugerowane = updatedSuggestedSongs)
+                    saveDayData(path, updatedDayData).getOrThrow() // Rzuć wyjątek, jeśli zapis się nie powiedzie
+                }
+            }
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas aktualizacji wystąpień pieśni w plikach dni", e)
+            Result.failure(e)
+        }
+    }
     // --- KONIEC ZMIANY ---
 
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
@@ -5597,6 +5626,7 @@ import androidx.compose.animation.expandVertically
 import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.*
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures.scrollBy
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.PressInteraction
 import androidx.compose.foundation.layout.*
@@ -5624,6 +5654,8 @@ import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -5634,6 +5666,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
@@ -5659,6 +5693,19 @@ fun DayDetailsScreen(
     val context = LocalContext.current
     val viewModel: DayDetailsViewModel = viewModel(factory = DayDetailsViewModelFactory(context, dayId))
     val uiState by viewModel.uiState.collectAsState()
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.loadDayData()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
 
     BackHandler(enabled = uiState.isEditMode) { viewModel.onTryExitEditMode() }
     BackHandler(enabled = !uiState.isEditMode, onBack = onNavigateBack)
@@ -5863,89 +5910,151 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
         )
     }
 
-    LazyColumn(
+    Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(horizontal = 16.dp),
+            .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(8.dp),
-        contentPadding = PaddingValues(vertical = 16.dp)
     ) {
-        item {
+        Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
             HierarchicalCollapsibleSection(
                 title = "Czytania",
                 isExpanded = uiState.isReadingsSectionExpanded,
                 onToggle = { viewModel.toggleReadingsSection() }
             ) {
-                val reorderState = rememberReorderableLazyListState(
+                val readings = editableData?.czytania ?: emptyList()
+                val readingsReorderState = rememberReorderableLazyListState(
                     onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
                 )
+
+                val readingItemHeight = 70.dp
+                val readingsHeight = readingItemHeight * readings.size
                 LazyColumn(
-                    state = reorderState.listState,
+                    state = readingsReorderState.listState,
                     modifier = Modifier
-                        .reorderable(reorderState)
-                        .heightIn(max = 500.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                        .reorderable(readingsReorderState)
+                        .height(readingsHeight),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    userScrollEnabled = false
                 ) {
                     itemsIndexed(
-                        items = editableData?.czytania ?: emptyList(),
+                        items = readings,
                         key = { index, item -> "${item.hashCode()}-$index" }
                     ) { index, reading ->
-                        ReorderableItem(reorderState, key = "${reading.hashCode()}-$index") { isDragging ->
+                        ReorderableItem(readingsReorderState, key = "${reading.hashCode()}-$index") { isDragging ->
                             EditableReadingItem(
                                 reading = reading,
                                 isDragging = isDragging,
                                 onEditClick = { readingToEdit = reading to index },
                                 onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
-                                reorderModifier = Modifier.detectReorder(reorderState)
+                                reorderModifier = Modifier.detectReorder(readingsReorderState)
                             )
                         }
                     }
                 }
                 AddItemButton(text = "Dodaj czytanie", onClick = { showAddReadingDialog = true })
             }
-        }
 
-        item {
+            Spacer(modifier = Modifier.height(16.dp))
+
             HierarchicalCollapsibleSection(
                 title = "Sugerowane pieśni",
                 isExpanded = uiState.isSongsSectionExpanded,
                 onToggle = { viewModel.toggleSongsSection() }
             ) {
-                val songsByMoment = editableData?.piesniSugerowane.orEmpty().filterNotNull().groupBy { it.moment }
-                songMomentOrderMap.forEach { (momentKey, momentName) ->
-                    EditableSongCategoryHeader(categoryName = momentName)
-                    val songsInMoment = songsByMoment[momentKey].orEmpty()
-                    val isReorderEnabled = songsInMoment.size > 1
+                val reorderableSongList by viewModel.reorderableSongList.collectAsState()
+                val songReorderState = rememberReorderableLazyListState(
+                    onMove = { from, to -> viewModel.reorderSongs(from, to) },
+                    canDragOver = { draggedOver, _ ->
+                        reorderableSongList.getOrNull(draggedOver.index) is ReorderableListItem.SongItem
+                    }
+                )
 
-                    val songReorderState = rememberReorderableLazyListState(
-                        onMove = { from, to -> viewModel.reorderSongs(momentKey, from.index, to.index) }
-                    )
-                    LazyColumn(
-                        state = songReorderState.listState,
-                        modifier = Modifier
-                            .then(if (isReorderEnabled) Modifier.reorderable(songReorderState) else Modifier)
-                            .heightIn(max = 500.dp),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        itemsIndexed(
-                            items = songsInMoment,
-                            key = { index, song -> "${song.hashCode()}-$index" }
-                        ) { index, song ->
-                            ReorderableItem(songReorderState, key = "${song.hashCode()}-$index") { isDragging ->
-                                EditableSongItem(
-                                    song = song,
-                                    isDragging = isDragging,
-                                    onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
-                                    onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) },
-                                    reorderModifier = if (isReorderEnabled) Modifier.detectReorder(songReorderState) else Modifier,
-                                    isReorderEnabled = isReorderEnabled
-                                )
+                val coroutineScope = rememberCoroutineScope()
+                val scrollThresholdPx = with(LocalDensity.current) { 100.dp.toPx() }
+
+                LaunchedEffect(songReorderState.draggingItemKey) {
+                    if (songReorderState.draggingItemKey == null) {
+                        return@LaunchedEffect
+                    }
+                    coroutineScope.launch {
+                        while (songReorderState.draggingItemKey != null) {
+                            val listLayoutInfo = songReorderState.listState.layoutInfo
+                            val viewportHeight = listLayoutInfo.viewportSize.height
+                            val draggedItem = listLayoutInfo.visibleItemsInfo.firstOrNull { it.key == songReorderState.draggingItemKey }
+
+                            if (draggedItem != null) {
+                                val itemTop = draggedItem.offset.y
+                                val itemBottom = itemTop + draggedItem.size.height
+
+                                val scrollAmount = when {
+                                    itemBottom > viewportHeight - scrollThresholdPx -> (itemBottom - (viewportHeight - scrollThresholdPx)) / 5f
+                                    itemTop < scrollThresholdPx -> -(scrollThresholdPx - itemTop) / 5f
+                                    else -> 0f
+                                }
+
+                                if (scrollAmount != 0f) {
+                                    songReorderState.listState.scrollBy(scrollAmount)
+                                }
                             }
+                            delay(16)
                         }
                     }
-                    AddItemButton(text = "Dodaj pieśń do '$momentName'", onClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey)) })
-                    if (momentKey != songMomentOrderMap.keys.last()) {
-                        Divider(Modifier.padding(vertical = 8.dp))
+                }
+
+                val songItemHeight = 56.dp
+                val headerAndButtonHeight = 104.dp
+                val density = LocalDensity.current
+                val totalHeight = remember(reorderableSongList) {
+                    val songCount = reorderableSongList.count { it is ReorderableListItem.SongItem }
+                    val headerCount = reorderableSongList.count { it is ReorderableListItem.HeaderItem }
+                    with(density) {
+                        (songCount * songItemHeight.toPx() + headerCount * headerAndButtonHeight.toPx()).toDp()
+                    }
+                }
+
+                LazyColumn(
+                    state = songReorderState.listState,
+                    modifier = Modifier
+                        .reorderable(songReorderState)
+                        .heightIn(max = totalHeight),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    userScrollEnabled = false
+                ) {
+                    items(
+                        items = reorderableSongList,
+                        key = { item ->
+                            when (item) {
+                                is ReorderableListItem.HeaderItem -> "header_${item.momentKey}"
+                                is ReorderableListItem.SongItem -> "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
+                            }
+                        }
+                    ) { item ->
+                        when (item) {
+                            is ReorderableListItem.HeaderItem -> {
+                                Column(modifier = Modifier.animateItemPlacement()) {
+                                    EditableSongCategoryHeader(categoryName = item.momentName)
+                                    AddItemButton(
+                                        text = "Dodaj pieśń do '${item.momentName}'",
+                                        onClick = { viewModel.showDialog(DialogState.AddEditSong(item.momentKey)) })
+                                }
+                            }
+                            is ReorderableListItem.SongItem -> {
+                                ReorderableItem(
+                                    reorderableState = songReorderState,
+                                    key = "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
+                                ) { isDragging ->
+                                    EditableSongItem(
+                                        song = item.suggestedSong,
+                                        isDragging = isDragging,
+                                        onEditClick = { viewModel.showDialog(DialogState.AddEditSong(item.suggestedSong.moment, item.suggestedSong)) },
+                                        onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(item.suggestedSong, "pieśń: ${item.suggestedSong.piesn}")) },
+                                        reorderModifier = Modifier.detectReorder(songReorderState),
+                                        isReorderEnabled = true
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -6132,10 +6241,10 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
-                        Text("Odrzuć", color = MaterialTheme.colorScheme.error)
+                        Text("Tak", color = MaterialTheme.colorScheme.error)
                     }
                     Spacer(Modifier.width(8.dp))
-                    Button(onClick = onDismiss) { Text("Anuluj") }
+                    Button(onClick = onDismiss) { Text("Nie") }
                 }
             }
         }
@@ -6160,10 +6269,9 @@ private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onCo
                 Spacer(Modifier.height(16.dp))
 
                 val (prefix, itemName) = remember(description) {
-                    val parts: List<String> = description.split(":", limit = 2)
+                    val parts = description.split(":", limit = 2)
                     if (parts.size == 2) {
-                        // Poprawka: Wywołaj .trim() na elementach listy (parts[0] i parts[1]), a nie na samej liście.
-                        Pair(parts[0].trim() + ":", parts[1].trim())
+                        Pair(parts.trim() + ":", parts.trim())
                     } else {
                         Pair("", description.trim())
                     }
@@ -6491,6 +6599,7 @@ package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 import android.content.Context
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.snapshotFlow
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -6510,6 +6619,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import org.burnoutcrew.reorderable.ItemPosition
 
 sealed class DialogState {
     object None : DialogState()
@@ -6535,10 +6645,15 @@ val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
     "wejscie" to "Wejście",
     "ofiarowanie" to "Ofiarowanie",
     "komunia" to "Komunia",
-    "uwielbienie" to "Uwielbienie",
+    "uwielibienie" to "Uwielbienie",
     "rozeslanie" to "Rozesłanie",
     "ogolne" to "Ogólne"
 )
+
+sealed class ReorderableListItem {
+    data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
+    data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
+}
 
 class DayDetailsViewModel(
     private val dayId: String,
@@ -6563,6 +6678,22 @@ class DayDetailsViewModel(
             .filterNotNull()
             .groupBy { it.moment }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
+
+    val reorderableSongList: StateFlow<List<ReorderableListItem>> =
+        snapshotFlow { editableDayData.value }
+            .map { dayData: DayData? ->
+                val items = mutableListOf<ReorderableListItem>()
+                val songsByMoment =
+                    dayData?.piesniSugerowane?.filterNotNull()?.groupBy { it.moment } ?: emptyMap()
+                songMomentOrderMap.forEach { (momentKey, momentName) ->
+                    items.add(ReorderableListItem.HeaderItem(momentKey, momentName))
+                    songsByMoment[momentKey]?.forEach { song ->
+                        items.add(ReorderableListItem.SongItem(song))
+                    }
+                }
+                items
+            }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
 
     init {
         loadDayData()
@@ -6594,9 +6725,10 @@ class DayDetailsViewModel(
         }
     }
 
-    private fun loadDayData() {
+    fun loadDayData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
+            repository.invalidateSongCache()
             val data = repository.getDayData(dayId)
             if (data != null) {
                 _uiState.update { it.copy(isLoading = false, dayData = data) }
@@ -6720,23 +6852,33 @@ class DayDetailsViewModel(
         }
     }
 
-    fun reorderSongs(moment: String, from: Int, to: Int) {
+    fun reorderSongs(from: ItemPosition, to: ItemPosition) {
         updateEditableData { currentData ->
-            val allSongs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
-            val songsInMoment = allSongs.filter { it.moment == moment }.toMutableList()
+            val currentFlatList = reorderableSongList.value.toMutableList()
 
-            if (from in songsInMoment.indices && to in songsInMoment.indices) {
-                val movedItem = songsInMoment.removeAt(from)
-                songsInMoment.add(to, movedItem)
-
-                val otherSongs = allSongs.filter { it.moment != moment }
-                val newFullList = (otherSongs + songsInMoment).sortedWith(
-                    compareBy { songMomentOrderMap.keys.indexOf(it.moment) }
-                )
-                currentData.copy(piesniSugerowane = newFullList)
-            } else {
-                currentData
+            if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
+                return@updateEditableData currentData
             }
+
+            val movedItem = currentFlatList.removeAt(from.index)
+            currentFlatList.add(to.index, movedItem)
+
+            val newPiesniSugerowane = mutableListOf<SuggestedSong>()
+            var currentMoment: String? = null
+            for (item in currentFlatList) {
+                when (item) {
+                    is ReorderableListItem.HeaderItem -> {
+                        currentMoment = item.momentKey
+                    }
+                    is ReorderableListItem.SongItem -> {
+                        currentMoment?.let { moment ->
+                            newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
+                        }
+                    }
+                }
+            }
+
+            currentData.copy(piesniSugerowane = newPiesniSugerowane)
         }
     }
 
@@ -8011,15 +8153,15 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?", color = Color.White)
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
-                        Text("Odrzuć")
+                        Text("Tak", color = MaterialTheme.colorScheme.error)
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(onClick = onDismiss) {
-                        Text("Anuluj")
+                        Text("Nie")
                     }
                 }
             }
@@ -8160,18 +8302,17 @@ class SongContentViewModel(
     }
 
     fun onSaveChanges() {
-        val songToUpdate = _uiState.value.song ?: return
+        val originalSong = _uiState.value.song ?: return
         viewModelScope.launch {
             val allSongs = repository.getSongList().toMutableList()
-            val allCategories = repository.getCategoryList()
-            val songIndex = allSongs.indexOfFirst { it.tytul == songToUpdate.tytul && it.numerSiedl == songToUpdate.numerSiedl }
+            val songIndex = allSongs.indexOfFirst { it.tytul == originalSong.tytul && it.numerSiedl == originalSong.numerSiedl }
 
             if (songIndex != -1) {
-                // --- POCZĄTEK ZMIANY ---
+                val allCategories = repository.getCategoryList()
                 val selectedCategory = allCategories.find { it.nazwa.equals(editableCategory.value, ignoreCase = true) }
                 val newSkr = selectedCategory?.skrot ?: ""
 
-                val updatedSong = songToUpdate.copy(
+                val updatedSong = originalSong.copy(
                     tytul = editableTitle.value.trim(),
                     tekst = editableText.value.trim(),
                     numerSiedl = editableNumerSiedl.value.trim(),
@@ -8180,10 +8321,21 @@ class SongContentViewModel(
                     kategoria = editableCategory.value,
                     kategoriaSkr = newSkr
                 )
-                // --- KONIEC ZMIANY ---
                 allSongs[songIndex] = updatedSong
                 repository.saveSongList(allSongs).onSuccess {
-                    _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = allSongs[songIndex]) }
+                    // Po zapisaniu głównej listy pieśni, zaktualizuj jej wystąpienia we wszystkich plikach dni
+                    repository.updateSongOccurrencesInDayFiles(originalSong, updatedSong).onSuccess {
+                        // Wszystko poszło dobrze, zaktualizuj UI
+                        _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = updatedSong) }
+                    }.onFailure { error ->
+                        // Główna lista została zapisana, ale wystąpienia nie. Poinformuj użytkownika, ale nadal odzwierciedlaj główną zmianę.
+                        _uiState.update { it.copy(
+                            isEditMode = false,
+                            hasChanges = false,
+                            song = updatedSong,
+                            error = "Zapisano pieśń, ale błąd przy aktualizacji dni: ${error.localizedMessage}")
+                        }
+                    }
                 }.onFailure { error ->
                     _uiState.update { it.copy(error = "Błąd zapisu: ${error.localizedMessage}") }
                 }

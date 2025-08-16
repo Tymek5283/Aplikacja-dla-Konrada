@@ -3,6 +3,7 @@ package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 import android.content.Context
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.snapshotFlow
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -22,6 +23,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import org.burnoutcrew.reorderable.ItemPosition
 
 sealed class DialogState {
     object None : DialogState()
@@ -47,10 +49,15 @@ val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
     "wejscie" to "Wejście",
     "ofiarowanie" to "Ofiarowanie",
     "komunia" to "Komunia",
-    "uwielbienie" to "Uwielbienie",
+    "uwielibienie" to "Uwielbienie",
     "rozeslanie" to "Rozesłanie",
     "ogolne" to "Ogólne"
 )
+
+sealed class ReorderableListItem {
+    data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
+    data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
+}
 
 class DayDetailsViewModel(
     private val dayId: String,
@@ -75,6 +82,22 @@ class DayDetailsViewModel(
             .filterNotNull()
             .groupBy { it.moment }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
+
+    val reorderableSongList: StateFlow<List<ReorderableListItem>> =
+        snapshotFlow { editableDayData.value }
+            .map { dayData: DayData? ->
+                val items = mutableListOf<ReorderableListItem>()
+                val songsByMoment =
+                    dayData?.piesniSugerowane?.filterNotNull()?.groupBy { it.moment } ?: emptyMap()
+                songMomentOrderMap.forEach { (momentKey, momentName) ->
+                    items.add(ReorderableListItem.HeaderItem(momentKey, momentName))
+                    songsByMoment[momentKey]?.forEach { song ->
+                        items.add(ReorderableListItem.SongItem(song))
+                    }
+                }
+                items
+            }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+
 
     init {
         loadDayData()
@@ -109,7 +132,7 @@ class DayDetailsViewModel(
     fun loadDayData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
-            repository.invalidateSongCache() // Unieważnij pamięć podręczną pieśni, aby modal miał świeże dane
+            repository.invalidateSongCache()
             val data = repository.getDayData(dayId)
             if (data != null) {
                 _uiState.update { it.copy(isLoading = false, dayData = data) }
@@ -233,23 +256,33 @@ class DayDetailsViewModel(
         }
     }
 
-    fun reorderSongs(moment: String, from: Int, to: Int) {
+    fun reorderSongs(from: ItemPosition, to: ItemPosition) {
         updateEditableData { currentData ->
-            val allSongs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
-            val songsInMoment = allSongs.filter { it.moment == moment }.toMutableList()
+            val currentFlatList = reorderableSongList.value.toMutableList()
 
-            if (from in songsInMoment.indices && to in songsInMoment.indices) {
-                val movedItem = songsInMoment.removeAt(from)
-                songsInMoment.add(to, movedItem)
-
-                val otherSongs = allSongs.filter { it.moment != moment }
-                val newFullList = (otherSongs + songsInMoment).sortedWith(
-                    compareBy { songMomentOrderMap.keys.indexOf(it.moment) }
-                )
-                currentData.copy(piesniSugerowane = newFullList)
-            } else {
-                currentData
+            if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
+                return@updateEditableData currentData
             }
+
+            val movedItem = currentFlatList.removeAt(from.index)
+            currentFlatList.add(to.index, movedItem)
+
+            val newPiesniSugerowane = mutableListOf<SuggestedSong>()
+            var currentMoment: String? = null
+            for (item in currentFlatList) {
+                when (item) {
+                    is ReorderableListItem.HeaderItem -> {
+                        currentMoment = item.momentKey
+                    }
+                    is ReorderableListItem.SongItem -> {
+                        currentMoment?.let { moment ->
+                            newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
+                        }
+                    }
+                }
+            }
+
+            currentData.copy(piesniSugerowane = newPiesniSugerowane)
         }
     }
 

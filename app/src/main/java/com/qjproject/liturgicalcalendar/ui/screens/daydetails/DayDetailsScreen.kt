@@ -34,6 +34,7 @@ import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -74,9 +75,6 @@ fun DayDetailsScreen(
     val uiState by viewModel.uiState.collectAsState()
     val lifecycleOwner = LocalLifecycleOwner.current
 
-    // Ten efekt obserwuje cykl życia ekranu.
-    // Gdy ekran jest wznawiany (ON_RESUME), np. po powrocie z edycji,
-    // wywołuje funkcję loadDayData(), aby pobrać najświeższe dane.
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
@@ -292,89 +290,111 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
         )
     }
 
-    LazyColumn(
+    Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(horizontal = 16.dp),
+            .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(8.dp),
-        contentPadding = PaddingValues(vertical = 16.dp)
     ) {
-        item {
+        Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
             HierarchicalCollapsibleSection(
                 title = "Czytania",
                 isExpanded = uiState.isReadingsSectionExpanded,
                 onToggle = { viewModel.toggleReadingsSection() }
             ) {
-                val reorderState = rememberReorderableLazyListState(
+                val readings = editableData?.czytania ?: emptyList()
+                val readingsReorderState = rememberReorderableLazyListState(
                     onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
                 )
+
+                val readingItemHeight = 70.dp
+                val readingsTotalHeight = readingItemHeight * readings.size
+
                 LazyColumn(
-                    state = reorderState.listState,
+                    state = readingsReorderState.listState,
                     modifier = Modifier
-                        .reorderable(reorderState)
-                        .heightIn(max = 500.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                        .reorderable(readingsReorderState)
+                        .height(readingsTotalHeight),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    userScrollEnabled = false
                 ) {
                     itemsIndexed(
-                        items = editableData?.czytania ?: emptyList(),
+                        items = readings,
                         key = { index, item -> "${item.hashCode()}-$index" }
                     ) { index, reading ->
-                        ReorderableItem(reorderState, key = "${reading.hashCode()}-$index") { isDragging ->
+                        ReorderableItem(readingsReorderState, key = "${reading.hashCode()}-$index") { isDragging ->
                             EditableReadingItem(
                                 reading = reading,
                                 isDragging = isDragging,
                                 onEditClick = { readingToEdit = reading to index },
                                 onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
-                                reorderModifier = Modifier.detectReorder(reorderState)
+                                reorderModifier = Modifier.detectReorder(readingsReorderState)
                             )
                         }
                     }
                 }
                 AddItemButton(text = "Dodaj czytanie", onClick = { showAddReadingDialog = true })
             }
-        }
 
-        item {
+            Spacer(modifier = Modifier.height(16.dp))
+
             HierarchicalCollapsibleSection(
                 title = "Sugerowane pieśni",
                 isExpanded = uiState.isSongsSectionExpanded,
                 onToggle = { viewModel.toggleSongsSection() }
             ) {
-                val songsByMoment = editableData?.piesniSugerowane.orEmpty().filterNotNull().groupBy { it.moment }
-                songMomentOrderMap.forEach { (momentKey, momentName) ->
-                    EditableSongCategoryHeader(categoryName = momentName)
-                    val songsInMoment = songsByMoment[momentKey].orEmpty()
-                    val isReorderEnabled = songsInMoment.size > 1
+                val reorderableSongList by viewModel.reorderableSongList.collectAsState()
+                val songReorderState = rememberReorderableLazyListState(
+                    onMove = { from, to -> viewModel.reorderSongs(from, to) },
+                    canDragOver = { draggedOver, _ ->
+                        reorderableSongList.getOrNull(draggedOver.index) is ReorderableListItem.SongItem
+                    }
+                )
+                val coroutineScope = rememberCoroutineScope()
+                val lazyListState = songReorderState.listState
 
-                    val songReorderState = rememberReorderableLazyListState(
-                        onMove = { from, to -> viewModel.reorderSongs(momentKey, from.index, to.index) }
-                    )
-                    LazyColumn(
-                        state = songReorderState.listState,
-                        modifier = Modifier
-                            .then(if (isReorderEnabled) Modifier.reorderable(songReorderState) else Modifier)
-                            .heightIn(max = 500.dp),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        itemsIndexed(
-                            items = songsInMoment,
-                            key = { index, song -> "${song.hashCode()}-$index" }
-                        ) { index, song ->
-                            ReorderableItem(songReorderState, key = "${song.hashCode()}-$index") { isDragging ->
-                                EditableSongItem(
-                                    song = song,
-                                    isDragging = isDragging,
-                                    onEditClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey, song)) },
-                                    onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) },
-                                    reorderModifier = if (isReorderEnabled) Modifier.detectReorder(songReorderState) else Modifier,
-                                    isReorderEnabled = isReorderEnabled
-                                )
+                LazyColumn(
+                    state = lazyListState,
+                    modifier = Modifier
+                        .reorderable(songReorderState)
+                        .heightIn(max = 500.dp), // Ograniczamy maksymalną wysokość, aby umożliwić przewijanie wewnątrz
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    userScrollEnabled = true // Włączamy przewijanie dla tej listy
+                ) {
+                    items(
+                        items = reorderableSongList,
+                        key = { item ->
+                            when (item) {
+                                is ReorderableListItem.HeaderItem -> "header_${item.momentKey}"
+                                is ReorderableListItem.SongItem -> "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
                             }
                         }
-                    }
-                    AddItemButton(text = "Dodaj pieśń do '$momentName'", onClick = { viewModel.showDialog(DialogState.AddEditSong(momentKey)) })
-                    if (momentKey != songMomentOrderMap.keys.last()) {
-                        Divider(Modifier.padding(vertical = 8.dp))
+                    ) { item ->
+                        when (item) {
+                            is ReorderableListItem.HeaderItem -> {
+                                Column(modifier = Modifier.animateItemPlacement(tween(250))) {
+                                    EditableSongCategoryHeader(categoryName = item.momentName)
+                                    AddItemButton(
+                                        text = "Dodaj pieśń do '${item.momentName}'",
+                                        onClick = { viewModel.showDialog(DialogState.AddEditSong(item.momentKey)) })
+                                }
+                            }
+                            is ReorderableListItem.SongItem -> {
+                                ReorderableItem(
+                                    reorderableState = songReorderState,
+                                    key = "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
+                                ) { isDragging ->
+                                    EditableSongItem(
+                                        song = item.suggestedSong,
+                                        isDragging = isDragging,
+                                        onEditClick = { viewModel.showDialog(DialogState.AddEditSong(item.suggestedSong.moment, item.suggestedSong)) },
+                                        onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(item.suggestedSong, "pieśń: ${item.suggestedSong.piesn}")) },
+                                        reorderModifier = Modifier.detectReorder(songReorderState),
+                                        isReorderEnabled = true
+                                    )
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -561,10 +581,10 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
-                        Text("Odrzuć", color = MaterialTheme.colorScheme.error)
+                        Text("Tak", color = MaterialTheme.colorScheme.error)
                     }
                     Spacer(Modifier.width(8.dp))
-                    Button(onClick = onDismiss) { Text("Anuluj") }
+                    Button(onClick = onDismiss) { Text("Nie") }
                 }
             }
         }
@@ -589,9 +609,8 @@ private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onCo
                 Spacer(Modifier.height(16.dp))
 
                 val (prefix, itemName) = remember(description) {
-                    val parts: List<String> = description.split(":", limit = 2)
+                    val parts = description.split(":", limit = 2)
                     if (parts.size == 2) {
-                        // Poprawka: Wywołaj .trim() na elementach listy (parts[0] i parts[1]), a nie na samej liście.
                         Pair(parts[0].trim() + ":", parts[1].trim())
                     } else {
                         Pair("", description.trim())

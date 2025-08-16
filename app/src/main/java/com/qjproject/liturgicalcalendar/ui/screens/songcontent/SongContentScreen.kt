@@ -232,15 +232,15 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?", color = Color.White)
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
-                        Text("Odrzuć")
+                        Text("Tak", color = MaterialTheme.colorScheme.error)
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(onClick = onDismiss) {
-                        Text("Anuluj")
+                        Text("Nie")
                     }
                 }
             }
