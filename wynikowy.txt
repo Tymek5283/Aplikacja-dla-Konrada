@@ -548,7 +548,6 @@ treść:
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.LiturgicalCalendar.Starting" >
         <activity
             android:name="com.qjproject.liturgicalcalendar.MainActivity"
@@ -644,7 +643,6 @@ treść:
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.LiturgicalCalendar.Starting" >
         <activity
             android:name="com.qjproject.liturgicalcalendar.MainActivity"
@@ -740,7 +738,6 @@ treść:
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.LiturgicalCalendar.Starting" >
         <activity
             android:name="com.qjproject.liturgicalcalendar.MainActivity"
@@ -5920,8 +5917,11 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                     onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
                 )
 
+                // --- POCZĄTEK ZMIANY ---
                 val readingItemHeight = 70.dp
-                val readingsTotalHeight = readingItemHeight * readings.size
+                val itemSpacing = 8.dp // Musi być zgodne z Arrangement.spacedBy
+                val readingsTotalHeight = (readingItemHeight * readings.size) + (itemSpacing * (readings.size - 1).coerceAtLeast(0))
+                // --- KONIEC ZMIANY ---
 
                 LazyColumn(
                     state = readingsReorderState.listState,

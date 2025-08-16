@@ -37,6 +37,7 @@ import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
@@ -66,10 +67,11 @@ fun SearchScreen(
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(
+            categories = uiState.allCategories,
             error = uiState.addSongError,
             onDismiss = { viewModel.onDismissAddSongDialog() },
-            onConfirm = { title, siedl, sak, dn, text ->
-                viewModel.saveNewSong(title, siedl, sak, dn, text)
+            onConfirm = { title, siedl, sak, dn, text, category ->
+                viewModel.saveNewSong(title, siedl, sak, dn, text, category)
             },
             onValidate = { title, siedl, sak, dn ->
                 viewModel.validateSongInput(title, siedl, sak, dn)
@@ -234,11 +236,13 @@ fun SongResultItem(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun AddSongDialog(
+    categories: List<Category>,
     error: String?,
     onDismiss: () -> Unit,
-    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String) -> Unit,
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
     onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
 ) {
     var title by remember { mutableStateOf("") }
@@ -246,6 +250,8 @@ private fun AddSongDialog(
     var numerSak by remember { mutableStateOf("") }
     var numerDn by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
+    var category by remember { mutableStateOf("") }
+    var isCategoryExpanded by remember { mutableStateOf(false) }
     val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
 
 
@@ -305,6 +311,42 @@ private fun AddSongDialog(
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
                     )
+                    ExposedDropdownMenuBox(
+                        expanded = isCategoryExpanded,
+                        onExpandedChange = { isCategoryExpanded = !isCategoryExpanded }
+                    ) {
+                        OutlinedTextField(
+                            value = category,
+                            onValueChange = {},
+                            label = { Text("Kategoria") },
+                            readOnly = true,
+                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = isCategoryExpanded) },
+                            modifier = Modifier
+                                .menuAnchor()
+                                .fillMaxWidth()
+                        )
+                        ExposedDropdownMenu(
+                            expanded = isCategoryExpanded,
+                            onDismissRequest = { isCategoryExpanded = false }
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("Brak") },
+                                onClick = {
+                                    category = ""
+                                    isCategoryExpanded = false
+                                }
+                            )
+                            categories.forEach { categoryItem ->
+                                DropdownMenuItem(
+                                    text = { Text(categoryItem.nazwa) },
+                                    onClick = {
+                                        category = categoryItem.nazwa
+                                        isCategoryExpanded = false
+                                    }
+                                )
+                            }
+                        }
+                    }
                     OutlinedTextField(
                         value = text,
                         onValueChange = { text = it },
@@ -330,7 +372,7 @@ private fun AddSongDialog(
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(
-                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text) },
+                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text, category) },
                         enabled = title.isNotBlank() && isAnyNumberPresent && error == null
                     ) {
                         Text("Zapisz")

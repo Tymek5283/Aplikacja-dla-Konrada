@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
+import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
 import kotlinx.coroutines.Job
@@ -36,7 +37,8 @@ data class SearchUiState(
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
     val showAddSongDialog: Boolean = false,
     val addSongError: String? = null,
-    val deleteDialogState: DeleteDialogState = DeleteDialogState.None
+    val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
+    val allCategories: List<Category> = emptyList()
 )
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -146,7 +148,8 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     fun onAddSongClicked() {
         viewModelScope.launch {
             allSongsCache = repository.getSongList() // Load song list when dialog is about to be shown
-            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null) }
+            val allCategories = repository.getCategoryList()
+            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null, allCategories = allCategories) }
         }
     }
 
@@ -185,7 +188,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _uiState.update { it.copy(addSongError = null) }
     }
 
-    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String) {
+    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String, categoryName: String) {
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
         val trimmedSak = sak.trim()
@@ -209,14 +212,16 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
         viewModelScope.launch {
             val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
+            val selectedCategory = _uiState.value.allCategories.find { it.nazwa == categoryName }
+
             val newSong = Song(
                 tytul = trimmedTitle,
                 tekst = trimmedText.ifBlank { null },
                 numerSiedl = trimmedSiedl,
                 numerSAK = trimmedSak,
                 numerDN = trimmedDn,
-                kategoria = "",
-                kategoriaSkr = ""
+                kategoria = selectedCategory?.nazwa ?: "",
+                kategoriaSkr = selectedCategory?.skrot ?: ""
             )
             songs.add(newSong)
 
