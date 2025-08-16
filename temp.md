@@ -1,96 +1,102 @@
-Rozumiem, napotkałeś błąd kompilacji. Przeanalizowałem zrzut ekranu z błędem i faktycznie, problem leży w pliku `SongDetailsViewModel.kt`.
+Oczywiście, rozumiem. Chcesz wdrożyć pełny tryb immersyjny, w którym systemowy pasek nawigacji chowa się automatycznie i pojawia tylko wtedy, gdy jest potrzebny. Zmiany te, podobnie jak poprzednio, wymagają modyfikacji jednego pliku.
 
-Komunikaty o błędach, takie jak `Classifier ... does not have a companion object` czy `The expression cannot be a selector`, choć mogą wydawać się skomplikowane, prawie zawsze wskazują na błąd składniowy w kodzie. W tym przypadku, najbardziej prawdopodobną przyczyną jest literówka w sposobie odwoływania się do klasy `SongDetailsViewModel` wewnątrz jej fabryki (`SongDetailsViewModelFactory`).
+Oto zaktualizowana, pełna wersja pliku `Theme.kt`, która implementuje wymaganą funkcjonalność.
 
-Poprawny zapis w Kotlinie to `NazwaKlasy::class.java`. Błąd, który widzę, sugeruje, że w Twoim pliku mogło zostać to zapisane niepoprawnie, na przykład jako `NazwaKlasy.java` lub `NazwaKlasy:class.java`.
+--- START OF FILE wynikowy.txt ---
 
-Poniżej przedstawiam poprawioną, kompletną wersję pliku `SongDetailsViewModel.kt`. Proszę, zastąp całą zawartość swojego pliku poniższym kodem, a problem z kompilacją zostanie rozwiązany. Zmiana dotyczy wyłącznie poprawy składni, zachowując całą poprzednią logikę odświeżania danych.
-
---- START OF FILE C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songdetails\SongDetailsViewModel.kt ---
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Theme.kt
+treść:
 ```kotlin
-package com.qjproject.liturgicalcalendar.ui.screens.songdetails
+package com.qjproject.liturgicalcalendar.ui.theme
 
-import android.content.Context
-import androidx.lifecycle.SavedStateHandle
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
-import com.qjproject.liturgicalcalendar.data.FileSystemRepository
-import com.qjproject.liturgicalcalendar.data.Song
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
-import java.net.URLDecoder
+import android.app.Activity
+import android.os.Build
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.dynamicDarkColorScheme
+import androidx.compose.material3.dynamicLightColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 
-data class SongDetailsUiState(
-    val isLoading: Boolean = true,
-    val song: Song? = null,
-    val error: String? = null
+private val CustomDarkColorScheme = darkColorScheme(
+    primary = LightBlue,
+    secondary = NavyLight,
+    background = NavyDark,
+    surface = DarkerNavy, // ZMIANA: Użycie nowego, bardziej niebieskiego koloru dla powierzchni (modali, kart)
+    onPrimary = NavyDark,
+    onSecondary = OffWhite,
+    onBackground = OffWhite,
+    onSurface = OffWhite
 )
 
-class SongDetailsViewModel(
-    savedStateHandle: SavedStateHandle,
-    private val repository: FileSystemRepository
-) : ViewModel() {
+private val CustomLightColorScheme = lightColorScheme(
+    primary = LightBlue,
+    secondary = NavyLight,
+    background = OffWhite,
+    surface = Cream,
+    onPrimary = NavyDark,
+    onSecondary = OffWhite,
+    onBackground = NavyDark,
+    onSurface = NavyDark
+)
 
-    private val songTitle: String? = savedStateHandle.get<String>("songTitle")?.let { URLDecoder.decode(it, "UTF-8") }
-    private val siedlNum: String? = savedStateHandle.get<String>("siedlNum")?.let { URLDecoder.decode(it, "UTF-8") }
-    private val sakNum: String? = savedStateHandle.get<String>("sakNum")?.let { URLDecoder.decode(it, "UTF-8") }
-    private val dnNum: String? = savedStateHandle.get<String>("dnNum")?.let { URLDecoder.decode(it, "UTF-8") }
+@Composable
+fun LiturgicalCalendarTheme(
+    darkTheme: Boolean = true,
+    dynamicColor: Boolean = false,
+    content: @Composable () -> Unit
+) {
+    val colorScheme = when {
+        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
+            val context = LocalContext.current
+            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+        }
+        darkTheme -> CustomDarkColorScheme
+        else -> CustomLightColorScheme
+    }
+    val view = LocalView.current
+    if (!view.isInEditMode) {
+        SideEffect {
+            val window = (view.context as Activity).window
+            // Ustawienie przezroczystości dla obu pasków systemowych
+            window.statusBarColor = Color.Transparent.toArgb()
+            window.navigationBarColor = Color.Transparent.toArgb()
 
-    private val _uiState = MutableStateFlow(SongDetailsUiState())
-    val uiState = _uiState.asStateFlow()
+            // Umożliwia aplikacji rysowanie treści "od krawędzi do krawędzi" (edge-to-edge)
+            WindowCompat.setDecorFitsSystemWindows(window, false)
 
-    init {
-        // Wstępne ładowanie jest teraz obsługiwane przez obserwatora cyklu życia w ekranie,
-        // ale zostawiamy je tutaj dla pierwszej kompozycji.
-        if (_uiState.value.song == null) {
-            reloadData()
+            val insetsController = WindowCompat.getInsetsController(window, view)
+
+            // --- POCZĄTEK ZMIANY ---
+            // Ukryj paski systemowe (pasek statusu i nawigacji)
+            insetsController.hide(WindowInsetsCompat.Type.systemBars())
+
+            // Ustaw zachowanie, dzięki któremu paski pojawią się tymczasowo po przeciągnięciu palcem
+            // od krawędzi ekranu, a następnie automatycznie znikną.
+            insetsController.systemBarsBehavior =
+                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            // --- KONIEC ZMIANY ---
+
+            // Ustawienie wyglądu ikon na paskach systemowych (dla momentu, gdy są widoczne)
+            insetsController.isAppearanceLightStatusBars = !darkTheme
+            insetsController.isAppearanceLightNavigationBars = !darkTheme
         }
     }
 
-    fun reloadData() {
-        viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true, error = null) }
-
-            // Unieważnij pamięć podręczną przed pobraniem danych, aby mieć pewność, że są świeże
-            repository.invalidateSongCache()
-
-            if (songTitle.isNullOrBlank()) {
-                _uiState.update { it.copy(isLoading = false, error = "Nieprawidłowy tytuł pieśni.") }
-                return@launch
-            }
-            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum)
-            if (foundSong != null) {
-                _uiState.update { it.copy(isLoading = false, song = foundSong) }
-            } else {
-                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o tytule: $songTitle") }
-            }
-        }
-    }
-
-    fun getSongTextPreview(text: String?): String {
-        if (text.isNullOrBlank()) return "Brak tekstu"
-        return text.lines().take(6).joinToString(separator = "\n")
-    }
-}
-
-class SongDetailsViewModelFactory(
-    private val context: Context,
-    private val savedStateHandle: SavedStateHandle
-) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        // --- POCZĄTEK POPRAWKI ---
-        // Poprawiono błąd składniowy, który powodował błąd kompilacji.
-        // Prawidłowa składnia to `SongDetailsViewModel::class.java`.
-        if (modelClass.isAssignableFrom(SongDetailsViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return SongDetailsViewModel(savedStateHandle, FileSystemRepository(context.applicationContext)) as T
-        }
-        // --- KONIEC POPRAWKI ---
-        throw IllegalArgumentException("Unknown ViewModel class")
-    }
+    MaterialTheme(
+        colorScheme = colorScheme,
+        typography = Typography,
+        content = content
+    )
 }
 ```
---- END OF FILE C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songdetails\SongDetailsViewModel.kt ---

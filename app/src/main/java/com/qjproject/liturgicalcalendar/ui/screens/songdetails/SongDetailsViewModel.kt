@@ -71,14 +71,10 @@ class SongDetailsViewModelFactory(
     private val savedStateHandle: SavedStateHandle
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        // --- POCZĄTEK POPRAWKI ---
-        // Poprawiono błąd składniowy, który powodował błąd kompilacji.
-        // Prawidłowa składnia to `SongDetailsViewModel::class.java`.
         if (modelClass.isAssignableFrom(SongDetailsViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
             return SongDetailsViewModel(savedStateHandle, FileSystemRepository(context.applicationContext)) as T
         }
-        // --- KONIEC POPRAWKI ---
         throw IllegalArgumentException("Unknown ViewModel class")
     }
 }

@@ -21,5 +21,6 @@ val OffWhite = Color(0xFFEDE7E0)
 val LightBlue = Color(0xFFBCCBEB)
 
 val Gold = Color(0xFFFFD700)
+val VividRed = Color(0xFFA22B27)
 
 val NavBarBackground = Color(0xFF1F213A)

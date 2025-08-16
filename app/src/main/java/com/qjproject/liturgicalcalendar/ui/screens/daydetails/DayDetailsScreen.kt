@@ -34,7 +34,6 @@ import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -292,7 +291,9 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                 )
                 LazyColumn(
                     state = reorderState.listState,
-                    modifier = Modifier.reorderable(reorderState).heightIn(max = 500.dp),
+                    modifier = Modifier
+                        .reorderable(reorderState)
+                        .heightIn(max = 500.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     itemsIndexed(
@@ -374,7 +375,9 @@ private fun HierarchicalCollapsibleSection(
 ) {
     Column(
         modifier = modifier.then(
-            if (level > 0) Modifier.clip(MaterialTheme.shapes.medium).background(SubtleGrayBackground) else Modifier
+            if (level > 0) Modifier
+                .clip(MaterialTheme.shapes.medium)
+                .background(SubtleGrayBackground) else Modifier
         )
     ) {
         Row(
@@ -398,7 +401,10 @@ private fun HierarchicalCollapsibleSection(
         if (level == 0 && isExpanded) Divider(color = DividerColor)
         AnimatedVisibility(visible = isExpanded, enter = expandVertically(tween(300)), exit = shrinkVertically(tween(300))) {
             Column(
-                modifier = Modifier.fillMaxWidth().padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp).padding(top = 4.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp)
+                    .padding(top = 4.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) { content() }
         }
@@ -415,11 +421,21 @@ private fun ReadingItemView(
         modifier = Modifier.onGloballyPositioned(onGloballyPositioned), interactionSource = interactionSource
     ) {
         Column(
-            modifier = Modifier.padding(vertical = 8.dp).pointerInput(Unit) { detectTapGestures(onDoubleTap = { onContentDoubleTap() }) },
+            modifier = Modifier
+                .padding(vertical = 8.dp)
+                .pointerInput(Unit) { detectTapGestures(onDoubleTap = { onContentDoubleTap() }) },
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            if (!reading.sigla.isNullOrBlank()) Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Sigla: ") }; append(reading.sigla) })
-            if (!reading.opis.isNullOrBlank()) Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis: ") }; append(reading.opis) })
+            if (!reading.sigla.isNullOrBlank()) Text(buildAnnotatedString {
+                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Sigla: ") }; append(
+                reading.sigla
+            )
+            })
+            if (!reading.opis.isNullOrBlank()) Text(buildAnnotatedString {
+                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis: ") }; append(
+                reading.opis
+            )
+            })
             Text(reading.tekst, style = MaterialTheme.typography.bodyMedium)
         }
     }
@@ -459,7 +475,14 @@ private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
 
 @Composable
 fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier) {
-    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), elevation = CardDefaults.cardElevation(2.dp)) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .shadow(if (isDragging) 4.dp else 0.dp)
+            .clickable(onClick = onEditClick),
+        elevation = CardDefaults.cardElevation(2.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
         Row(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
             Spacer(Modifier.width(8.dp))
@@ -467,15 +490,20 @@ fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -
                 Text(reading.typ, fontWeight = FontWeight.Bold)
                 Text(reading.sigla ?: "", style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic)
             }
-            IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj") }
-            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń") }
+            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error) }
         }
     }
 }
 
 @Composable
 fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier, isReorderEnabled: Boolean) {
-    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .shadow(if (isDragging) 4.dp else 0.dp)
+            .clickable(onClick = onEditClick),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
         Row(Modifier.padding(start = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             if (isReorderEnabled) {
                 Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
@@ -484,8 +512,7 @@ fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -
                 Spacer(Modifier.width(32.dp)) // Placeholder to keep alignment
             }
             Text(song.piesn, modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-            IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj") }
-            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń") }
+            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error) }
         }
     }
 }
@@ -511,7 +538,7 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?", color = Color.White)
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
@@ -541,7 +568,31 @@ private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onCo
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz usunąć $description?")
+
+                val (prefix, itemName) = remember(description) {
+                    val parts: List<String> = description.split(":", limit = 2)
+                    if (parts.size == 2) {
+                        // Poprawka: Wywołaj .trim() na elementach listy (parts[0] i parts[1]), a nie na samej liście.
+                        Pair(parts[0].trim() + ":", parts[1].trim())
+                    } else {
+                        Pair("", description.trim())
+                    }
+                }
+
+                Text(
+                    buildAnnotatedString {
+                        append("Czy na pewno chcesz usunąć ")
+                        append(prefix)
+                        if (prefix.isNotEmpty()) {
+                            append(" ")
+                        }
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(itemName)
+                        }
+                        append("?")
+                    },
+                    color = MaterialTheme.colorScheme.onSurface
+                )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDismiss) { Text("Anuluj") }

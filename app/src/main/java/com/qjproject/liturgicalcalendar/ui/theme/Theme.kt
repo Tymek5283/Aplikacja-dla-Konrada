@@ -15,6 +15,8 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 
 private val CustomDarkColorScheme = darkColorScheme(
     primary = LightBlue,
@@ -56,9 +58,28 @@ fun LiturgicalCalendarTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
+            // Ustawienie przezroczystości dla obu pasków systemowych
             window.statusBarColor = Color.Transparent.toArgb()
+            window.navigationBarColor = Color.Transparent.toArgb()
+
+            // Umożliwia aplikacji rysowanie treści "od krawędzi do krawędzi" (edge-to-edge)
             WindowCompat.setDecorFitsSystemWindows(window, false)
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
+
+            val insetsController = WindowCompat.getInsetsController(window, view)
+
+            // --- POCZĄTEK ZMIANY ---
+            // Ukryj paski systemowe (pasek statusu i nawigacji)
+            insetsController.hide(WindowInsetsCompat.Type.systemBars())
+
+            // Ustaw zachowanie, dzięki któremu paski pojawią się tymczasowo po przeciągnięciu palcem
+            // od krawędzi ekranu, a następnie automatycznie znikną.
+            insetsController.systemBarsBehavior =
+                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            // --- KONIEC ZMIANY ---
+
+            // Ustawienie wyglądu ikon na paskach systemowych (dla momentu, gdy są widoczne)
+            insetsController.isAppearanceLightStatusBars = !darkTheme
+            insetsController.isAppearanceLightNavigationBars = !darkTheme
         }
     }
 

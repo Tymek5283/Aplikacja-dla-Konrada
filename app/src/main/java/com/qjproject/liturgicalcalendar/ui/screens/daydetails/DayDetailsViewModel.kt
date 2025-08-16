@@ -181,14 +181,12 @@ class DayDetailsViewModel(
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun getFullSong(suggestedSong: SuggestedSong, onResult: (Song?) -> Unit) {
         viewModelScope.launch {
             val song = repository.getSong(suggestedSong.piesn, suggestedSong.numer, null, null)
             onResult(song)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     private fun updateEditableData(transform: (DayData) -> DayData) {
         editableDayData.value?.let {

@@ -58,6 +58,8 @@ import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
@@ -164,7 +166,6 @@ fun MainAppHost() {
                 onNavigateBack = safePopBackStack
             )
         }
-        // --- POCZĄTEK ZMIANY ---
         composable(
             route = Screen.SongDetails.route,
             arguments = listOf(
@@ -210,6 +211,19 @@ fun MainAppHost() {
                 viewModel = viewModel,
                 onNavigateBack = safePopBackStack,
                 startInEditMode = startInEdit
+            )
+        }
+        // --- POCZĄTEK ZMIANY ---
+        composable(
+            route = Screen.CategoryManagement.route,
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) {
+            val context = LocalContext.current
+            val factory = CategoryManagementViewModelFactory(context)
+            CategoryManagementScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack
             )
         }
         // --- KONIEC ZMIANY ---
@@ -427,7 +441,12 @@ fun MainTabsScreen(navController: NavController) {
                         if (activity != null) {
                             restartApp(activity)
                         }
+                    },
+                    // --- POCZĄTEK ZMIANY ---
+                    onNavigateToCategoryManagement = {
+                        navController.navigate(Screen.CategoryManagement.route)
                     }
+                    // --- KONIEC ZMIANY ---
                 )
                 else -> {}
             }

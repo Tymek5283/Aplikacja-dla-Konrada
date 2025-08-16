@@ -61,9 +61,13 @@ class FileSystemRepository(val context: Context) {
     private var songListCache: List<Song>? = null
     private var categoryListCache: List<Category>? = null
 
-    // --- POCZĄTEK ZMIANY ---
     fun invalidateSongCache() {
         songListCache = null
+    }
+
+    // --- POCZĄTEK ZMIANY ---
+    fun invalidateCategoryCache() {
+        categoryListCache = null
     }
     // --- KONIEC ZMIANY ---
 
@@ -218,6 +222,41 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
+    // --- POCZĄTEK ZMIANY ---
+    fun updateCategoryInSongs(oldCategory: Category, newCategory: Category): Result<Unit> {
+        return try {
+            val allSongs = getSongList()
+            val updatedSongs = allSongs.map { song ->
+                if (song.kategoria.equals(oldCategory.nazwa, ignoreCase = true)) {
+                    song.copy(kategoria = newCategory.nazwa, kategoriaSkr = newCategory.skrot)
+                } else {
+                    song
+                }
+            }
+            saveSongList(updatedSongs)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas aktualizacji kategorii w pieśniach", e)
+            Result.failure(e)
+        }
+    }
+
+    fun removeCategoryFromSongs(categoryToRemove: Category): Result<Unit> {
+        return try {
+            val allSongs = getSongList()
+            val updatedSongs = allSongs.map { song ->
+                if (song.kategoria.equals(categoryToRemove.nazwa, ignoreCase = true)) {
+                    song.copy(kategoria = "", kategoriaSkr = "")
+                } else {
+                    song
+                }
+            }
+            saveSongList(updatedSongs)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas usuwania kategorii z pieśni", e)
+            Result.failure(e)
+        }
+    }
+    // --- KONIEC ZMIANY ---
 
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
         if (title.isBlank()) return null

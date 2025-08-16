@@ -1,6 +1,7 @@
 package com.qjproject.liturgicalcalendar.navigation
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.List
@@ -39,7 +40,6 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
             return UrlEncoder.decode(encodedPaths).split(FILE_PATH_SEPARATOR)
         }
     }
-    // --- POCZĄTEK ZMIANY ---
     object SongDetails : Screen("song_details/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}", "Szczegóły pieśni", Icons.Default.MenuBook) {
         fun createRoute(song: com.qjproject.liturgicalcalendar.data.Song): String {
             val title = UrlEncoder.encode(song.tytul)
@@ -59,4 +59,8 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
             return "song_content/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn&editOnStart=$editOnStart"
         }
     }
+
+    // --- POCZĄTEK ZMIANY ---
+    object CategoryManagement : Screen("category_management", "Zarządzaj kategoriami", Icons.Default.Category)
+    // --- KONIEC ZMIANY ---
 }

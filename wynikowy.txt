@@ -1395,6 +1395,8 @@ import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
@@ -1548,6 +1550,20 @@ fun MainAppHost() {
                 startInEditMode = startInEdit
             )
         }
+        // --- POCZĄTEK ZMIANY ---
+        composable(
+            route = Screen.CategoryManagement.route,
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) {
+            val context = LocalContext.current
+            val factory = CategoryManagementViewModelFactory(context)
+            CategoryManagementScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack
+            )
+        }
+        // --- KONIEC ZMIANY ---
     }
 }
 
@@ -1762,7 +1778,12 @@ fun MainTabsScreen(navController: NavController) {
                         if (activity != null) {
                             restartApp(activity)
                         }
+                    },
+                    // --- POCZĄTEK ZMIANY ---
+                    onNavigateToCategoryManagement = {
+                        navController.navigate(Screen.CategoryManagement.route)
                     }
+                    // --- KONIEC ZMIANY ---
                 )
                 else -> {}
             }
@@ -1836,7 +1857,6 @@ fun MainTopAppBar(
         Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
     }
 }
-
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\data\Category.kt
@@ -2072,8 +2092,16 @@ class FileSystemRepository(val context: Context) {
     private val internalStorageRoot = context.filesDir
 
     private var songListCache: List<Song>? = null
-    // --- POCZĄTEK ZMIANY ---
     private var categoryListCache: List<Category>? = null
+
+    fun invalidateSongCache() {
+        songListCache = null
+    }
+
+    // --- POCZĄTEK ZMIANY ---
+    fun invalidateCategoryCache() {
+        categoryListCache = null
+    }
     // --- KONIEC ZMIANY ---
 
     fun getAllDayFilePaths(): List<String> {
@@ -2196,7 +2224,6 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun getCategoryList(): List<Category> {
         categoryListCache?.let { return it }
         return try {
@@ -2228,9 +2255,42 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
+    // --- POCZĄTEK ZMIANY ---
+    fun updateCategoryInSongs(oldCategory: Category, newCategory: Category): Result<Unit> {
+        return try {
+            val allSongs = getSongList()
+            val updatedSongs = allSongs.map { song ->
+                if (song.kategoria.equals(oldCategory.nazwa, ignoreCase = true)) {
+                    song.copy(kategoria = newCategory.nazwa, kategoriaSkr = newCategory.skrot)
+                } else {
+                    song
+                }
+            }
+            saveSongList(updatedSongs)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas aktualizacji kategorii w pieśniach", e)
+            Result.failure(e)
+        }
+    }
+
+    fun removeCategoryFromSongs(categoryToRemove: Category): Result<Unit> {
+        return try {
+            val allSongs = getSongList()
+            val updatedSongs = allSongs.map { song ->
+                if (song.kategoria.equals(categoryToRemove.nazwa, ignoreCase = true)) {
+                    song.copy(kategoria = "", kategoriaSkr = "")
+                } else {
+                    song
+                }
+            }
+            saveSongList(updatedSongs)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas usuwania kategorii z pieśni", e)
+            Result.failure(e)
+        }
+    }
     // --- KONIEC ZMIANY ---
 
-    // --- POCZĄTEK ZMIANY ---
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
         if (title.isBlank()) return null
         val songList = getSongList()
@@ -2249,7 +2309,6 @@ class FileSystemRepository(val context: Context) {
             }
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
         return try {
@@ -2451,10 +2510,8 @@ class FileSystemRepository(val context: Context) {
             val songFile = File(internalStorageRoot, "piesni.json")
             if (songFile.exists()) zip.addFile(songFile)
 
-            // --- POCZĄTEK ZMIANY ---
             val categoryFile = File(internalStorageRoot, "kategorie.json")
             if (categoryFile.exists()) zip.addFile(categoryFile)
-            // --- KONIEC ZMIANY ---
 
 
             Result.success(zipFile)
@@ -2492,19 +2549,15 @@ class FileSystemRepository(val context: Context) {
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
             File(internalStorageRoot, "piesni.json").delete()
-            // --- POCZĄTEK ZMIANY ---
             File(internalStorageRoot, "kategorie.json").delete()
-            // --- KONIEC ZMIANY ---
 
             foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
             foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
             foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
 
-            // --- POCZĄTEK ZMIANY ---
             // Skopiuj plik kategorii, jeśli istnieje w zipie
             val categoryFileInZip = findFileRecursively(tempUnzipDir, "kategorie.json")
             categoryFileInZip?.copyTo(File(internalStorageRoot, "kategorie.json"), true)
-            // --- KONIEC ZMIANY ---
 
 
             return Result.success(Unit)
@@ -2517,7 +2570,6 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     private fun findFileRecursively(directory: File, fileName: String): File? {
         directory.listFiles()?.forEach { file ->
             if (file.isDirectory) {
@@ -2529,7 +2581,6 @@ class FileSystemRepository(val context: Context) {
         }
         return null
     }
-    // --- KONIEC ZMIANY ---
 
     private fun findRequiredFiles(startDir: File): FoundImportFiles? {
         val queue: Queue<File> = LinkedList()
@@ -2591,6 +2642,7 @@ treść:
 package com.qjproject.liturgicalcalendar.navigation
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.List
@@ -2629,7 +2681,6 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
             return UrlEncoder.decode(encodedPaths).split(FILE_PATH_SEPARATOR)
         }
     }
-    // --- POCZĄTEK ZMIANY ---
     object SongDetails : Screen("song_details/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}", "Szczegóły pieśni", Icons.Default.MenuBook) {
         fun createRoute(song: com.qjproject.liturgicalcalendar.data.Song): String {
             val title = UrlEncoder.encode(song.tytul)
@@ -2649,6 +2700,9 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
             return "song_content/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn&editOnStart=$editOnStart"
         }
     }
+
+    // --- POCZĄTEK ZMIANY ---
+    object CategoryManagement : Screen("category_management", "Zarządzaj kategoriami", Icons.Default.Category)
     // --- KONIEC ZMIANY ---
 }
 
@@ -4962,6 +5016,439 @@ internal val translationMap: Map<String, String> = mapOf(
 )
 
 -
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\category\CategoryManagementScreen.kt
+treść:
+package com.qjproject.liturgicalcalendar.ui.screens.category
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import com.qjproject.liturgicalcalendar.data.Category
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VividRed
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun CategoryManagementScreen(
+    viewModel: CategoryManagementViewModel,
+    onNavigateBack: () -> Unit
+) {
+    val uiState by viewModel.uiState.collectAsState()
+
+    when (val dialogState = uiState.dialogState) {
+        is DialogState.AddEdit -> {
+            AddEditCategoryDialog(
+                category = dialogState.category,
+                error = uiState.error,
+                onDismiss = { viewModel.dismissDialog() },
+                onConfirm = { name, skrot ->
+                    if (dialogState.category == null) {
+                        viewModel.addCategory(name, skrot)
+                    } else {
+                        viewModel.updateCategory(dialogState.category, name, skrot)
+                    }
+                },
+                onValidate = { name, skrot ->
+                    viewModel.validateCategory(name, skrot, dialogState.category)
+                }
+            )
+        }
+        is DialogState.Delete -> {
+            DeleteCategoryDialog(
+                category = dialogState.category,
+                onDismiss = { viewModel.dismissDialog() },
+                onConfirm = { removeFromSongs ->
+                    viewModel.deleteCategory(dialogState.category, removeFromSongs)
+                }
+            )
+        }
+        DialogState.None -> {}
+    }
+
+    Scaffold(
+        topBar = {
+            Column {
+                CenterAlignedTopAppBar(
+                    title = {
+                        AutoResizingText(
+                            text = "Zarządzaj kategoriami",
+                            style = MaterialTheme.typography.titleLarge,
+                            textAlign = TextAlign.Center
+                        )
+                    },
+                    navigationIcon = {
+                        IconButton(onClick = onNavigateBack) {
+                            Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
+                        }
+                    },
+                    colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                        containerColor = MaterialTheme.colorScheme.background,
+                        titleContentColor = MaterialTheme.colorScheme.primary,
+                        navigationIconContentColor = MaterialTheme.colorScheme.primary
+                    ),
+                    windowInsets = TopAppBarDefaults.windowInsets
+                )
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+            }
+        },
+        floatingActionButton = {
+            FloatingActionButton(onClick = { viewModel.showAddDialog() }) {
+                Icon(Icons.Default.Add, contentDescription = "Dodaj kategorię")
+            }
+        }
+    ) { innerPadding ->
+        if (uiState.isLoading) {
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator()
+            }
+        } else {
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+                    .padding(horizontal = 8.dp),
+                contentPadding = PaddingValues(vertical = 8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                items(uiState.categories, key = { it.nazwa }) { category ->
+                    CategoryItem(
+                        category = category,
+                        onEditClick = { viewModel.showEditDialog(category) },
+                        onDeleteClick = { viewModel.showDeleteDialog(category) }
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun CategoryItem(
+    category: Category,
+    onEditClick: () -> Unit,
+    onDeleteClick: () -> Unit
+) {
+    Card(
+        // --- POCZĄTEK ZMIANY ---
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onEditClick),
+        // --- KONIEC ZMIANY ---
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = category.nazwa,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = SaturatedNavy
+                )
+                Text(
+                    text = category.skrot,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = SaturatedNavy.copy(alpha = 0.8f)
+                )
+            }
+            // --- POCZĄTEK ZMIANY ---
+            // Usunięto ikonę edycji
+            IconButton(onClick = onDeleteClick) {
+                Icon(
+                    Icons.Default.Delete,
+                    contentDescription = "Usuń",
+                    tint = VividRed
+                )
+            }
+            // --- KONIEC ZMIANY ---
+        }
+    }
+}
+
+@Composable
+fun AddEditCategoryDialog(
+    category: Category?,
+    error: String?,
+    onDismiss: () -> Unit,
+    onConfirm: (String, String) -> Unit,
+    onValidate: (String, String) -> Unit
+) {
+    var name by remember { mutableStateOf(category?.nazwa ?: "") }
+    var abbreviation by remember { mutableStateOf(category?.skrot ?: "") }
+
+    LaunchedEffect(name, abbreviation) {
+        onValidate(name, abbreviation)
+    }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    text = if (category == null) "Dodaj kategorię" else "Edytuj kategorię",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+
+                OutlinedTextField(
+                    value = name,
+                    onValueChange = { name = it },
+                    label = { Text("Nazwa kategorii") },
+                    isError = error != null && error.contains("nazwa", ignoreCase = true),
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(
+                    value = abbreviation,
+                    onValueChange = { abbreviation = it },
+                    label = { Text("Skrót") },
+                    isError = error != null && error.contains("skrót", ignoreCase = true),
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                if (error != null) {
+                    Text(
+                        text = error,
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.padding(top = 8.dp)
+                    )
+                }
+
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(name, abbreviation) },
+                        enabled = name.isNotBlank() && abbreviation.isNotBlank() && error == null
+                    ) { Text("Zapisz") }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun DeleteCategoryDialog(
+    category: Category,
+    onDismiss: () -> Unit,
+    onConfirm: (Boolean) -> Unit
+) {
+    var removeFromSongs by remember { mutableStateOf(true) }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    text = "Potwierdź usunięcie",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    // --- POCZĄTEK ZMIANY ---
+                    buildAnnotatedString {
+                        append("Czy na pewno chcesz usunąć kategorię ")
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(category.nazwa)
+                        }
+                        append("?")
+                    },
+                    color = MaterialTheme.colorScheme.onSurface
+                    // --- KONIEC ZMIANY ---
+                )
+                Spacer(Modifier.height(16.dp))
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.clickable { removeFromSongs = !removeFromSongs }
+                ) {
+                    Checkbox(checked = removeFromSongs, onCheckedChange = { removeFromSongs = it })
+                    Spacer(Modifier.width(8.dp))
+                    // --- POCZĄTEK ZMIANY ---
+                    Text(
+                        "Usuń wystąpienia tej kategorii z pieśni",
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                    // --- KONIEC ZMIANY ---
+                }
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(removeFromSongs) },
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) { Text("Usuń") }
+                }
+            }
+        }
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\category\CategoryManagementViewModel.kt
+treść:
+package com.qjproject.liturgicalcalendar.ui.screens.category
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.qjproject.liturgicalcalendar.data.Category
+import com.qjproject.liturgicalcalendar.data.FileSystemRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+sealed class DialogState {
+    object None : DialogState()
+    data class AddEdit(val category: Category? = null) : DialogState()
+    data class Delete(val category: Category) : DialogState()
+}
+
+data class CategoryManagementUiState(
+    val categories: List<Category> = emptyList(),
+    val isLoading: Boolean = true,
+    val dialogState: DialogState = DialogState.None,
+    val error: String? = null
+)
+
+class CategoryManagementViewModel(private val repository: FileSystemRepository) : ViewModel() {
+
+    private val _uiState = MutableStateFlow(CategoryManagementUiState())
+    val uiState = _uiState.asStateFlow()
+
+    init {
+        loadCategories()
+    }
+
+    private fun loadCategories() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            repository.invalidateCategoryCache() // Zawsze pobieraj świeżą listę
+            val categories = repository.getCategoryList().sortedBy { it.nazwa }
+            _uiState.update { it.copy(isLoading = false, categories = categories) }
+        }
+    }
+
+    fun showAddDialog() = _uiState.update { it.copy(dialogState = DialogState.AddEdit(null), error = null) }
+    fun showEditDialog(category: Category) = _uiState.update { it.copy(dialogState = DialogState.AddEdit(category), error = null) }
+    fun showDeleteDialog(category: Category) = _uiState.update { it.copy(dialogState = DialogState.Delete(category)) }
+    fun dismissDialog() = _uiState.update { it.copy(dialogState = DialogState.None, error = null) }
+
+    fun validateCategory(name: String, abbreviation: String, originalCategory: Category?) {
+        val trimmedName = name.trim()
+        val trimmedAbbreviation = abbreviation.trim()
+        val categories = _uiState.value.categories
+
+        if (trimmedName.isNotBlank() && categories.any { it.nazwa.equals(trimmedName, ignoreCase = true) && it.nazwa != originalCategory?.nazwa }) {
+            _uiState.update { it.copy(error = "Kategoria o tej nazwie już istnieje.") }
+            return
+        }
+        if (trimmedAbbreviation.isNotBlank() && categories.any { it.skrot.equals(trimmedAbbreviation, ignoreCase = true) && it.skrot != originalCategory?.skrot }) {
+            _uiState.update { it.copy(error = "Kategoria o tym skrócie już istnieje.") }
+            return
+        }
+        _uiState.update { it.copy(error = null) }
+    }
+
+    fun addCategory(name: String, abbreviation: String) {
+        viewModelScope.launch {
+            val newCategory = Category(nazwa = name.trim(), skrot = abbreviation.trim())
+            val updatedList = (_uiState.value.categories + newCategory).sortedBy { it.nazwa }
+            repository.saveCategoryList(updatedList).onSuccess {
+                _uiState.update { it.copy(categories = updatedList) }
+                dismissDialog()
+            }
+        }
+    }
+
+    fun updateCategory(originalCategory: Category, newName: String, newAbbreviation: String) {
+        viewModelScope.launch {
+            val trimmedName = newName.trim()
+            val trimmedAbbreviation = newAbbreviation.trim()
+            val updatedCategory = Category(nazwa = trimmedName, skrot = trimmedAbbreviation)
+
+            // Krok 1: Zaktualizuj wszystkie pieśni używające starej kategorii
+            repository.updateCategoryInSongs(originalCategory, updatedCategory).onSuccess {
+                // Krok 2: Zaktualizuj listę kategorii
+                val updatedList = _uiState.value.categories.map {
+                    if (it == originalCategory) updatedCategory else it
+                }.sortedBy { it.nazwa }
+                repository.saveCategoryList(updatedList).onSuccess {
+                    _uiState.update { it.copy(categories = updatedList) }
+                    dismissDialog()
+                }
+            }
+        }
+    }
+
+    fun deleteCategory(category: Category, removeFromSongs: Boolean) {
+        viewModelScope.launch {
+            if (removeFromSongs) {
+                repository.removeCategoryFromSongs(category).onSuccess {
+                    deleteCategoryFromList(category)
+                }
+            } else {
+                deleteCategoryFromList(category)
+            }
+        }
+    }
+
+    private fun deleteCategoryFromList(category: Category) {
+        val updatedList = _uiState.value.categories.filter { it != category }.sortedBy { it.nazwa }
+        repository.saveCategoryList(updatedList).onSuccess {
+            _uiState.update { it.copy(categories = updatedList) }
+            dismissDialog()
+        }
+    }
+}
+
+class CategoryManagementViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(CategoryManagementViewModel::class.java)) {
+            @Suppress("UNCHECKED_CAST")
+            return CategoryManagementViewModel(FileSystemRepository(context.applicationContext)) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
+
+-
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\dateevents\DateEventsScreen.kt
 treść:
 package com.qjproject.liturgicalcalendar.ui.screens.dateevents
@@ -5126,7 +5613,6 @@ import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.layout.positionInRoot
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -5384,7 +5870,9 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                 )
                 LazyColumn(
                     state = reorderState.listState,
-                    modifier = Modifier.reorderable(reorderState).heightIn(max = 500.dp),
+                    modifier = Modifier
+                        .reorderable(reorderState)
+                        .heightIn(max = 500.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     itemsIndexed(
@@ -5466,7 +5954,9 @@ private fun HierarchicalCollapsibleSection(
 ) {
     Column(
         modifier = modifier.then(
-            if (level > 0) Modifier.clip(MaterialTheme.shapes.medium).background(SubtleGrayBackground) else Modifier
+            if (level > 0) Modifier
+                .clip(MaterialTheme.shapes.medium)
+                .background(SubtleGrayBackground) else Modifier
         )
     ) {
         Row(
@@ -5490,7 +5980,10 @@ private fun HierarchicalCollapsibleSection(
         if (level == 0 && isExpanded) Divider(color = DividerColor)
         AnimatedVisibility(visible = isExpanded, enter = expandVertically(tween(300)), exit = shrinkVertically(tween(300))) {
             Column(
-                modifier = Modifier.fillMaxWidth().padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp).padding(top = 4.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = if (level > 0) 12.dp else 0.dp, end = if (level > 0) 12.dp else 0.dp, bottom = if (level > 0) 8.dp else 0.dp)
+                    .padding(top = 4.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) { content() }
         }
@@ -5507,11 +6000,21 @@ private fun ReadingItemView(
         modifier = Modifier.onGloballyPositioned(onGloballyPositioned), interactionSource = interactionSource
     ) {
         Column(
-            modifier = Modifier.padding(vertical = 8.dp).pointerInput(Unit) { detectTapGestures(onDoubleTap = { onContentDoubleTap() }) },
+            modifier = Modifier
+                .padding(vertical = 8.dp)
+                .pointerInput(Unit) { detectTapGestures(onDoubleTap = { onContentDoubleTap() }) },
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            if (!reading.sigla.isNullOrBlank()) Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Sigla: ") }; append(reading.sigla) })
-            if (!reading.opis.isNullOrBlank()) Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis: ") }; append(reading.opis) })
+            if (!reading.sigla.isNullOrBlank()) Text(buildAnnotatedString {
+                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Sigla: ") }; append(
+                reading.sigla
+            )
+            })
+            if (!reading.opis.isNullOrBlank()) Text(buildAnnotatedString {
+                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis: ") }; append(
+                reading.opis
+            )
+            })
             Text(reading.tekst, style = MaterialTheme.typography.bodyMedium)
         }
     }
@@ -5551,7 +6054,14 @@ private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
 
 @Composable
 fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier) {
-    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), elevation = CardDefaults.cardElevation(2.dp)) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .shadow(if (isDragging) 4.dp else 0.dp)
+            .clickable(onClick = onEditClick),
+        elevation = CardDefaults.cardElevation(2.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
         Row(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
             Spacer(Modifier.width(8.dp))
@@ -5559,15 +6069,20 @@ fun EditableReadingItem(reading: Reading, isDragging: Boolean, onEditClick: () -
                 Text(reading.typ, fontWeight = FontWeight.Bold)
                 Text(reading.sigla ?: "", style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic)
             }
-            IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj") }
-            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń") }
+            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error) }
         }
     }
 }
 
 @Composable
 fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -> Unit, onDeleteClick: () -> Unit, reorderModifier: Modifier, isReorderEnabled: Boolean) {
-    Card(modifier = Modifier.fillMaxWidth().shadow(if (isDragging) 4.dp else 0.dp), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .shadow(if (isDragging) 4.dp else 0.dp)
+            .clickable(onClick = onEditClick),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
         Row(Modifier.padding(start = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             if (isReorderEnabled) {
                 Icon(Icons.Default.DragHandle, "Zmień kolejność", modifier = reorderModifier)
@@ -5576,8 +6091,7 @@ fun EditableSongItem(song: SuggestedSong, isDragging: Boolean, onEditClick: () -
                 Spacer(Modifier.width(32.dp)) // Placeholder to keep alignment
             }
             Text(song.piesn, modifier = Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-            IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj") }
-            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń") }
+            IconButton(onClick = onDeleteClick) { Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error) }
         }
     }
 }
@@ -5603,7 +6117,7 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?", color = Color.White)
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDiscard) {
@@ -5633,7 +6147,31 @@ private fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onCo
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                Text("Czy na pewno chcesz usunąć $description?")
+
+                val (prefix, itemName) = remember(description) {
+                    val parts: List<String> = description.split(":", limit = 2)
+                    if (parts.size == 2) {
+                        // Poprawka: Wywołaj .trim() na elementach listy (parts[0] i parts[1]), a nie na samej liście.
+                        Pair(parts[0].trim() + ":", parts[1].trim())
+                    } else {
+                        Pair("", description.trim())
+                    }
+                }
+
+                Text(
+                    buildAnnotatedString {
+                        append("Czy na pewno chcesz usunąć ")
+                        append(prefix)
+                        if (prefix.isNotEmpty()) {
+                            append(" ")
+                        }
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(itemName)
+                        }
+                        append("?")
+                    },
+                    color = MaterialTheme.colorScheme.onSurface
+                )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDismiss) { Text("Anuluj") }
@@ -6280,6 +6818,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -6290,6 +6829,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
@@ -6301,6 +6842,22 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    // --- POCZĄTEK ZMIANY ---
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    // Odświeża wyniki wyszukiwania po powrocie na ekran, aby odzwierciedlić zmiany
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.triggerSearch()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+    // --- KONIEC ZMIANY ---
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(
@@ -6737,10 +7294,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    private fun triggerSearch() {
+    // --- POCZĄTEK ZMIANY ---
+    fun triggerSearch() {
         searchJob?.cancel()
+        repository.invalidateSongCache() // Unieważnij pamięć podręczną, aby pobrać świeże dane
         performSearch(_uiState.value.query)
     }
+    // --- KONIEC ZMIANY ---
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }
@@ -6959,7 +7519,12 @@ package com.qjproject.liturgicalcalendar.ui.screens.settings
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Category
+import androidx.compose.material.icons.filled.Download
+import androidx.compose.material.icons.filled.Upload
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -6968,6 +7533,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
@@ -6977,7 +7543,8 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 @Composable
 fun SettingsScreen(
     viewModel: SettingsViewModel,
-    onRestartApp: () -> Unit
+    onRestartApp: () -> Unit,
+    onNavigateToCategoryManagement: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
@@ -6989,7 +7556,6 @@ fun SettingsScreen(
         }
     )
 
-    // Efekt do pokazywania Snackbarów
     LaunchedEffect(uiState.message) {
         uiState.message?.let {
             snackbarHostState.showSnackbar(it)
@@ -6997,36 +7563,11 @@ fun SettingsScreen(
         }
     }
 
-    // Efekt do pokazywania dialogu restartu
     if (uiState.showRestartPrompt) {
-        Dialog(onDismissRequest = { viewModel.dismissRestartPrompt() }) {
-            Card(
-                shape = MaterialTheme.shapes.large,
-                colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
-            ) {
-                Column(Modifier.padding(24.dp)) {
-                    Text(
-                        "Import zakończony",
-                        style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
-                        color = SaturatedNavy
-                    )
-                    Spacer(Modifier.height(16.dp))
-                    Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-                    Spacer(Modifier.height(16.dp))
-                    Text("Dane zostały pomyślnie zaimportowane. Aby zmiany były widoczne, aplikacja musi zostać uruchomiona ponownie.")
-                    Spacer(Modifier.height(24.dp))
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                        TextButton(onClick = { viewModel.dismissRestartPrompt() }) {
-                            Text("Później")
-                        }
-                        Spacer(Modifier.width(8.dp))
-                        Button(onClick = onRestartApp) {
-                            Text("Uruchom ponownie")
-                        }
-                    }
-                }
-            }
-        }
+        RestartPromptDialog(
+            onDismiss = { viewModel.dismissRestartPrompt() },
+            onConfirm = onRestartApp
+        )
     }
 
     Scaffold(
@@ -7045,38 +7586,103 @@ fun SettingsScreen(
                 .fillMaxSize()
                 .padding(padding)
                 .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterVertically),
-            horizontalAlignment = Alignment.CenterHorizontally
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            // Przycisk Eksportu
-            Button(
+            SettingsTile(
+                title = "Eksportuj dane",
+                subtitle = "Zapisz kopię zapasową swoich danych",
+                icon = Icons.Default.Upload,
+                isLoading = uiState.isExporting,
                 onClick = { viewModel.exportData() },
-                enabled = !uiState.isExporting && !uiState.isImporting,
-                modifier = Modifier.fillMaxWidth(0.6f)
-            ) {
-                if (uiState.isExporting) {
-                    CircularProgressIndicator(
-                        modifier = Modifier.size(24.dp),
-                        color = MaterialTheme.colorScheme.onPrimary
-                    )
-                } else {
-                    Text(text = "Eksportuj dane")
-                }
-            }
-
-            // Przycisk Importu
-            Button(
+                enabled = !uiState.isImporting && !uiState.isExporting
+            )
+            SettingsTile(
+                title = "Importuj dane",
+                subtitle = "Przywróć dane z kopii zapasowej",
+                icon = Icons.Default.Download,
+                isLoading = uiState.isImporting,
                 onClick = { importLauncher.launch("application/zip") },
-                enabled = !uiState.isImporting && !uiState.isExporting,
-                modifier = Modifier.fillMaxWidth(0.6f)
-            ) {
-                if (uiState.isImporting) {
-                    CircularProgressIndicator(
-                        modifier = Modifier.size(24.dp),
-                        color = MaterialTheme.colorScheme.onPrimary
-                    )
-                } else {
-                    Text(text = "Importuj dane")
+                enabled = !uiState.isImporting && !uiState.isExporting
+            )
+            Divider(modifier = Modifier.padding(vertical = 8.dp))
+            SettingsTile(
+                title = "Zarządzaj kategoriami",
+                subtitle = "Dodawaj, edytuj i usuwaj kategorie pieśni",
+                icon = Icons.Default.Category,
+                onClick = onNavigateToCategoryManagement,
+                enabled = !uiState.isImporting && !uiState.isExporting
+            )
+        }
+    }
+}
+
+@Composable
+fun SettingsTile(
+    title: String,
+    subtitle: String,
+    icon: ImageVector,
+    onClick: () -> Unit,
+    isLoading: Boolean = false,
+    enabled: Boolean = true
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick, enabled = enabled),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        // --- POCZĄTEK ZMIANY ---
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        // --- KONIEC ZMIANY ---
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = title,
+                modifier = Modifier.size(32.dp),
+                tint = MaterialTheme.colorScheme.primary
+            )
+            Spacer(Modifier.width(16.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(text = title, style = MaterialTheme.typography.titleMedium)
+                Text(text = subtitle, style = MaterialTheme.typography.bodySmall)
+            }
+            if (isLoading) {
+                Spacer(Modifier.width(16.dp))
+                CircularProgressIndicator(modifier = Modifier.size(24.dp))
+            }
+        }
+    }
+}
+
+@Composable
+fun RestartPromptDialog(onDismiss: () -> Unit, onConfirm: () -> Unit) {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(Modifier.padding(24.dp)) {
+                Text(
+                    "Import zakończony",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text("Dane zostały pomyślnie zaimportowane. Aby zmiany były widoczne, aplikacja musi zostać uruchomiona ponownie.")
+                Spacer(Modifier.height(24.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) {
+                        Text("Później")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(onClick = onConfirm) {
+                        Text("Uruchom ponownie")
+                    }
                 }
             }
         }
@@ -7280,6 +7886,7 @@ fun SongContentScreen(
                             modifier = Modifier.fillMaxWidth()
                         )
 
+                        // --- POCZĄTEK ZMIANY ---
                         var expanded by remember { mutableStateOf(false) }
                         ExposedDropdownMenuBox(
                             expanded = expanded,
@@ -7308,6 +7915,7 @@ fun SongContentScreen(
                                 }
                             }
                         }
+                        // --- KONIEC ZMIANY ---
 
                         OutlinedTextField(
                             value = viewModel.editableText.value,
@@ -7410,6 +8018,7 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
         }
     }
 }
+
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songcontent\SongContentViewModel.kt
@@ -7551,6 +8160,7 @@ class SongContentViewModel(
             val songIndex = allSongs.indexOfFirst { it.tytul == songToUpdate.tytul && it.numerSiedl == songToUpdate.numerSiedl }
 
             if (songIndex != -1) {
+                // --- POCZĄTEK ZMIANY ---
                 val selectedCategory = allCategories.find { it.nazwa.equals(editableCategory.value, ignoreCase = true) }
                 val newSkr = selectedCategory?.skrot ?: ""
 
@@ -7563,6 +8173,7 @@ class SongContentViewModel(
                     kategoria = editableCategory.value,
                     kategoriaSkr = newSkr
                 )
+                // --- KONIEC ZMIANY ---
                 allSongs[songIndex] = updatedSong
                 repository.saveSongList(allSongs).onSuccess {
                     _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = allSongs[songIndex]) }
@@ -7623,10 +8234,14 @@ fun SongDetailsScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
+    // --- POCZĄTEK ZMIANY ---
     val lifecycleOwner = LocalLifecycleOwner.current
 
     BackHandler(onBack = onNavigateBack)
 
+    // Ten efekt obserwuje cykl życia ekranu.
+    // Gdy ekran jest wznawiany (ON_RESUME), np. po powrocie z edycji,
+    // wywołuje funkcję reloadData(), aby pobrać najświeższe dane.
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
@@ -7638,6 +8253,7 @@ fun SongDetailsScreen(
             lifecycleOwner.lifecycle.removeObserver(observer)
         }
     }
+    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
@@ -7789,12 +8405,20 @@ class SongDetailsViewModel(
     val uiState = _uiState.asStateFlow()
 
     init {
-        reloadData()
+        // Wstępne ładowanie jest teraz obsługiwane przez obserwatora cyklu życia w ekranie,
+        // ale zostawiamy je tutaj dla pierwszej kompozycji.
+        if (_uiState.value.song == null) {
+            reloadData()
+        }
     }
 
     fun reloadData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
+
+            // Unieważnij pamięć podręczną przed pobraniem danych, aby mieć pewność, że są świeże
+            repository.invalidateSongCache()
+
             if (songTitle.isNullOrBlank()) {
                 _uiState.update { it.copy(isLoading = false, error = "Nieprawidłowy tytuł pieśni.") }
                 return@launch
@@ -7827,7 +8451,6 @@ class SongDetailsViewModelFactory(
     }
 }
 
-
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Color.kt
 treść:
@@ -7854,8 +8477,10 @@ val OffWhite = Color(0xFFEDE7E0)
 val LightBlue = Color(0xFFBCCBEB)
 
 val Gold = Color(0xFFFFD700)
+val VividRed = Color(0xFFA22B27)
 
 val NavBarBackground = Color(0xFF1F213A)
+
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Theme.kt
@@ -8006,7 +8631,7 @@ treść:
     <!-- Motyw dla wersji starszych niż Android 12 -->
     <style name="Theme.LiturgicalCalendar.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_background_color</item>
-        
+
         <!-- POPRAWKA: Jawnie wskazujemy na nasz plik PNG w folderze drawable -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
     </style>
@@ -8024,10 +8649,10 @@ treść:
     <!-- Motyw dla Android 12 (API 31) i nowszych -->
     <style name="Theme.LiturgicalCalendar.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_background_color</item>
-        
+
         <!-- POPRAWKA: Jawnie wskazujemy na nasz plik PNG w folderze drawable -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
-        
+
         <item name="postSplashScreenTheme">@style/Theme.LiturgicalCalendar</item>
     </style>
 
