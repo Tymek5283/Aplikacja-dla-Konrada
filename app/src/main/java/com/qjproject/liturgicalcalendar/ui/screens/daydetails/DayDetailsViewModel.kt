@@ -53,7 +53,7 @@ val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
     "wejscie" to "Wejście",
     "ofiarowanie" to "Ofiarowanie",
     "komunia" to "Komunia",
-    "uwielibienie" to "Uwielbienie",
+    "uwielbienie" to "Uwielbienie",
     "rozeslanie" to "Rozesłanie",
     "ogolne" to "Ogólne"
 )
