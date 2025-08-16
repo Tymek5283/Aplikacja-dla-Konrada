@@ -163,6 +163,14 @@ class CalendarRepository(private val context: Context) {
         { it.name }
     )
 
+    private fun formatYearId(rok_litera: String?, rok_cyfra: String?): String? {
+        if (rok_litera.isNullOrBlank() || rok_litera.equals("null", ignoreCase = true) ||
+            rok_cyfra.isNullOrBlank() || rok_cyfra.equals("null", ignoreCase = true)) {
+            return null
+        }
+        return "$rok_litera, $rok_cyfra"
+    }
+
     fun getLiturgicalYearInfoForMonth(yearMonth: YearMonth, yearData: LiturgicalYear): LiturgicalYearInfo {
         val lastDayOfMonth = yearMonth.atEndOfMonth()
         val eventsOnLastDay = yearData.eventsForDate(lastDayOfMonth)
@@ -172,23 +180,26 @@ class CalendarRepository(private val context: Context) {
             return LiturgicalYearInfo("Brak danych o roku liturgicznym", null)
         }
 
-        val finalYearId = "${dominantEventOnLastDay.rok_litera}, ${dominantEventOnLastDay.rok_cyfra}"
-        val mainInfo = "Aktualny rok: $finalYearId"
+        val finalYearId = formatYearId(dominantEventOnLastDay.rok_litera, dominantEventOnLastDay.rok_cyfra)
+        val mainInfo = finalYearId?.let { "Aktualny rok: $it" } ?: "Brak danych o roku liturgicznym"
         var transitionInfo: String? = null
 
-        var transitionDay = -1
-        for (day in lastDayOfMonth.dayOfMonth - 1 downTo 1) {
-            val date = yearMonth.atDay(day)
-            val events = yearData.eventsForDate(date)
-            val dominantEvent = getDominantEvent(events)
-            val currentYearId = "${dominantEvent?.rok_litera}, ${dominantEvent?.rok_cyfra}"
+        if (finalYearId != null) {
+            for (day in lastDayOfMonth.dayOfMonth - 1 downTo 1) {
+                val date = yearMonth.atDay(day)
+                val events = yearData.eventsForDate(date)
+                val dominantEvent = getDominantEvent(events)
+                val currentYearId = formatYearId(dominantEvent?.rok_litera, dominantEvent?.rok_cyfra)
 
-            if (currentYearId != finalYearId) {
-                transitionDay = day + 1
-                val monthName = date.month.getDisplayName(TextStyle.FULL, Locale("pl"))
-                // ZMIANA: Aktualizacja tekstu
-                transitionInfo = "Rok obowiązujący do ${transitionDay - 1} $monthName: $currentYearId"
-                break
+                if (currentYearId != finalYearId) {
+                    // Znaleziono punkt przejściowy. Utwórz informację tylko jeśli poprzedni rok jest prawidłowy.
+                    currentYearId?.let {
+                        val transitionDay = day + 1
+                        val monthName = date.month.getDisplayName(TextStyle.FULL, Locale("pl"))
+                        transitionInfo = "Rok obowiązujący do ${transitionDay - 1} $monthName: $it"
+                    }
+                    break // Przerwij pętlę bez względu na wszystko, ponieważ znaleziono pierwszy punkt różnicy.
+                }
             }
         }
 
