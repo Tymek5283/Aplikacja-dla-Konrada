@@ -23,6 +23,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -33,6 +34,8 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
@@ -44,6 +47,22 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    // --- POCZĄTEK ZMIANY ---
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    // Odświeża wyniki wyszukiwania po powrocie na ekran, aby odzwierciedlić zmiany
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.triggerSearch()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+    // --- KONIEC ZMIANY ---
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(

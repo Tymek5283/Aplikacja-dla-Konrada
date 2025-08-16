@@ -58,10 +58,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    private fun triggerSearch() {
+    // --- POCZĄTEK ZMIANY ---
+    fun triggerSearch() {
         searchJob?.cancel()
+        repository.invalidateSongCache() // Unieważnij pamięć podręczną, aby pobrać świeże dane
         performSearch(_uiState.value.query)
     }
+    // --- KONIEC ZMIANY ---
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }

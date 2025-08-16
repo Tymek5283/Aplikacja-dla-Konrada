@@ -59,8 +59,12 @@ class FileSystemRepository(val context: Context) {
     private val internalStorageRoot = context.filesDir
 
     private var songListCache: List<Song>? = null
-    // --- POCZĄTEK ZMIANY ---
     private var categoryListCache: List<Category>? = null
+
+    // --- POCZĄTEK ZMIANY ---
+    fun invalidateSongCache() {
+        songListCache = null
+    }
     // --- KONIEC ZMIANY ---
 
     fun getAllDayFilePaths(): List<String> {
@@ -183,7 +187,6 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun getCategoryList(): List<Category> {
         categoryListCache?.let { return it }
         return try {
@@ -215,7 +218,6 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
         if (title.isBlank()) return null
@@ -436,10 +438,8 @@ class FileSystemRepository(val context: Context) {
             val songFile = File(internalStorageRoot, "piesni.json")
             if (songFile.exists()) zip.addFile(songFile)
 
-            // --- POCZĄTEK ZMIANY ---
             val categoryFile = File(internalStorageRoot, "kategorie.json")
             if (categoryFile.exists()) zip.addFile(categoryFile)
-            // --- KONIEC ZMIANY ---
 
 
             Result.success(zipFile)
@@ -477,19 +477,15 @@ class FileSystemRepository(val context: Context) {
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
             File(internalStorageRoot, "piesni.json").delete()
-            // --- POCZĄTEK ZMIANY ---
             File(internalStorageRoot, "kategorie.json").delete()
-            // --- KONIEC ZMIANY ---
 
             foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
             foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
             foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
 
-            // --- POCZĄTEK ZMIANY ---
             // Skopiuj plik kategorii, jeśli istnieje w zipie
             val categoryFileInZip = findFileRecursively(tempUnzipDir, "kategorie.json")
             categoryFileInZip?.copyTo(File(internalStorageRoot, "kategorie.json"), true)
-            // --- KONIEC ZMIANY ---
 
 
             return Result.success(Unit)
@@ -502,7 +498,6 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     private fun findFileRecursively(directory: File, fileName: String): File? {
         directory.listFiles()?.forEach { file ->
             if (file.isDirectory) {
@@ -514,7 +509,6 @@ class FileSystemRepository(val context: Context) {
         }
         return null
     }
-    // --- KONIEC ZMIANY ---
 
     private fun findRequiredFiles(startDir: File): FoundImportFiles? {
         val queue: Queue<File> = LinkedList()

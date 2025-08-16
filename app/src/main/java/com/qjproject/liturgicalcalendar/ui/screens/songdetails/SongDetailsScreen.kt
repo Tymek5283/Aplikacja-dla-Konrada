@@ -29,10 +29,14 @@ fun SongDetailsScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
+    // --- POCZĄTEK ZMIANY ---
     val lifecycleOwner = LocalLifecycleOwner.current
 
     BackHandler(onBack = onNavigateBack)
 
+    // Ten efekt obserwuje cykl życia ekranu.
+    // Gdy ekran jest wznawiany (ON_RESUME), np. po powrocie z edycji,
+    // wywołuje funkcję reloadData(), aby pobrać najświeższe dane.
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
@@ -44,6 +48,7 @@ fun SongDetailsScreen(
             lifecycleOwner.lifecycle.removeObserver(observer)
         }
     }
+    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
