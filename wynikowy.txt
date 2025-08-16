@@ -7769,7 +7769,6 @@ treść:
 package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
 import androidx.activity.compose.BackHandler
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -7886,7 +7885,6 @@ fun SongContentScreen(
                             modifier = Modifier.fillMaxWidth()
                         )
 
-                        // --- POCZĄTEK ZMIANY ---
                         var expanded by remember { mutableStateOf(false) }
                         ExposedDropdownMenuBox(
                             expanded = expanded,
@@ -7898,7 +7896,9 @@ fun SongContentScreen(
                                 label = { Text("Kategoria") },
                                 readOnly = true,
                                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                                modifier = Modifier.menuAnchor().fillMaxWidth()
+                                modifier = Modifier
+                                    .menuAnchor()
+                                    .fillMaxWidth()
                             )
                             ExposedDropdownMenu(
                                 expanded = expanded,
@@ -7915,16 +7915,13 @@ fun SongContentScreen(
                                 }
                             }
                         }
-                        // --- KONIEC ZMIANY ---
 
                         OutlinedTextField(
                             value = viewModel.editableText.value,
                             onValueChange = { viewModel.onEditableFieldChange(text = it) },
                             label = { Text("Tekst pieśni") },
                             placeholder = { Text("Brak tekstu") },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(200.dp),
+                            modifier = Modifier.fillMaxWidth(),
                             textStyle = MaterialTheme.typography.bodyLarge.copy(
                                 lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
                             )
@@ -8018,7 +8015,6 @@ private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
         }
     }
 }
-
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songcontent\SongContentViewModel.kt
@@ -8224,6 +8220,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -8234,7 +8231,6 @@ fun SongDetailsScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
-    // --- POCZĄTEK ZMIANY ---
     val lifecycleOwner = LocalLifecycleOwner.current
 
     BackHandler(onBack = onNavigateBack)
@@ -8253,7 +8249,6 @@ fun SongDetailsScreen(
             lifecycleOwner.lifecycle.removeObserver(observer)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
@@ -8321,7 +8316,8 @@ fun SongDetailsScreen(
                                 .clickable {
                                     val startInEdit = song.tekst.isNullOrBlank()
                                     onNavigateToContent(song, startInEdit)
-                                }
+                                },
+                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
                         ) {
                             Column(Modifier.padding(16.dp)) {
                                 Text(
@@ -8555,13 +8551,10 @@ fun LiturgicalCalendarTheme(
             val insetsController = WindowCompat.getInsetsController(window, view)
 
             // --- POCZĄTEK ZMIANY ---
-            // Ukryj paski systemowe (pasek statusu i nawigacji)
-            insetsController.hide(WindowInsetsCompat.Type.systemBars())
-
-            // Ustaw zachowanie, dzięki któremu paski pojawią się tymczasowo po przeciągnięciu palcem
-            // od krawędzi ekranu, a następnie automatycznie znikną.
-            insetsController.systemBarsBehavior =
-                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            // Upewnij się, że pasek nawigacji jest widoczny.
+            insetsController.show(WindowInsetsCompat.Type.navigationBars())
+            // Usunięto ustawienie 'systemBarsBehavior', ponieważ pasek jest teraz zawsze widoczny,
+            // a nie tymczasowo pokazywany gestem.
             // --- KONIEC ZMIANY ---
 
             // Ustawienie wyglądu ikon na paskach systemowych (dla momentu, gdy są widoczne)

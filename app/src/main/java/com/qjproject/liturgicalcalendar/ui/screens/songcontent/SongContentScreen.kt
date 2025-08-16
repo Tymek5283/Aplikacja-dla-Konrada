@@ -1,7 +1,6 @@
 package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
 import androidx.activity.compose.BackHandler
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -118,7 +117,6 @@ fun SongContentScreen(
                             modifier = Modifier.fillMaxWidth()
                         )
 
-                        // --- POCZĄTEK ZMIANY ---
                         var expanded by remember { mutableStateOf(false) }
                         ExposedDropdownMenuBox(
                             expanded = expanded,
@@ -130,7 +128,9 @@ fun SongContentScreen(
                                 label = { Text("Kategoria") },
                                 readOnly = true,
                                 trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
-                                modifier = Modifier.menuAnchor().fillMaxWidth()
+                                modifier = Modifier
+                                    .menuAnchor()
+                                    .fillMaxWidth()
                             )
                             ExposedDropdownMenu(
                                 expanded = expanded,
@@ -147,16 +147,13 @@ fun SongContentScreen(
                                 }
                             }
                         }
-                        // --- KONIEC ZMIANY ---
 
                         OutlinedTextField(
                             value = viewModel.editableText.value,
                             onValueChange = { viewModel.onEditableFieldChange(text = it) },
                             label = { Text("Tekst pieśni") },
                             placeholder = { Text("Brak tekstu") },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(200.dp),
+                            modifier = Modifier.fillMaxWidth(),
                             textStyle = MaterialTheme.typography.bodyLarge.copy(
                                 lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
                             )

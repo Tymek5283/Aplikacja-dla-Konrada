@@ -1,102 +1,431 @@
-Oczywiście, rozumiem. Chcesz wdrożyć pełny tryb immersyjny, w którym systemowy pasek nawigacji chowa się automatycznie i pojawia tylko wtedy, gdy jest potrzebny. Zmiany te, podobnie jak poprzednio, wymagają modyfikacji jednego pliku.
+Rozumiem, poprzednio nie zinterpretowałem poprawnie Twoich intencji dotyczących okna edycji. Dziękuję za doprecyzowanie. Teraz wprowadziłem poprawki dokładnie według Twoich wytycznych.
 
-Oto zaktualizowana, pełna wersja pliku `Theme.kt`, która implementuje wymaganą funkcjonalność.
+W oknie edycji treści pieśni usunąłem stałą wysokość pola tekstowego i zapewniłem, że całe okno będzie przewijalne. Dzięki temu pole z tekstem pieśni dynamicznie dopasuje swoją wysokość do zawartości, a Ty będziesz mógł przewijać całą stronę, aby zobaczyć wszystkie pola, jeśli tekst będzie bardzo długi.
+
+Oto pliki z wprowadzonymi zmianami:
 
 --- START OF FILE wynikowy.txt ---
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Theme.kt
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songcontent\SongContentScreen.kt
 treść:
 ```kotlin
-package com.qjproject.liturgicalcalendar.ui.theme
+package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
-import android.app.Activity
-import android.os.Build
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
-import androidx.compose.material3.lightColorScheme
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.SideEffect
+import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalView
-import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.WindowInsetsControllerCompat
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
-private val CustomDarkColorScheme = darkColorScheme(
-    primary = LightBlue,
-    secondary = NavyLight,
-    background = NavyDark,
-    surface = DarkerNavy, // ZMIANA: Użycie nowego, bardziej niebieskiego koloru dla powierzchni (modali, kart)
-    onPrimary = NavyDark,
-    onSecondary = OffWhite,
-    onBackground = OffWhite,
-    onSurface = OffWhite
-)
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SongContentScreen(
+    viewModel: SongContentViewModel,
+    onNavigateBack: () -> Unit,
+    startInEditMode: Boolean = false
+) {
+    val uiState by viewModel.uiState.collectAsState()
 
-private val CustomLightColorScheme = lightColorScheme(
-    primary = LightBlue,
-    secondary = NavyLight,
-    background = OffWhite,
-    surface = Cream,
-    onPrimary = NavyDark,
-    onSecondary = OffWhite,
-    onBackground = NavyDark,
-    onSurface = NavyDark
-)
+    LaunchedEffect(startInEditMode) {
+        if (startInEditMode) {
+            viewModel.onEnterEditMode()
+        }
+    }
+
+    BackHandler(enabled = uiState.isEditMode) {
+        viewModel.onTryExitEditMode()
+    }
+    BackHandler(enabled = !uiState.isEditMode, onBack = onNavigateBack)
+
+    if (uiState.showConfirmExitDialog) {
+        ConfirmExitDialog(
+            onDismiss = { viewModel.dismissConfirmExitDialog() },
+            onDiscard = { viewModel.onDiscardChanges() }
+        )
+    }
+
+    Scaffold(
+        topBar = {
+            if (uiState.isEditMode) {
+                EditModeTopAppBar(
+                    title = uiState.song?.tytul ?: "Edycja",
+                    onCancelClick = { viewModel.onTryExitEditMode() },
+                    onSaveClick = { viewModel.onSaveChanges() },
+                    isSaveEnabled = uiState.hasChanges
+                )
+            } else {
+                ViewModeTopAppBar(
+                    title = uiState.song?.tytul ?: "Ładowanie...",
+                    onNavigateBack = onNavigateBack,
+                    onEditClick = { viewModel.onEnterEditMode() }
+                )
+            }
+        }
+    ) { innerPadding ->
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+                .imePadding()
+        ) {
+            when {
+                uiState.isLoading -> {
+                    CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
+                }
+                uiState.error != null -> {
+                    Text(
+                        text = "Błąd: ${uiState.error}",
+                        modifier = Modifier.align(Alignment.Center),
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
+                uiState.isEditMode -> {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
+                            .padding(horizontal = 16.dp, vertical = 8.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        OutlinedTextField(
+                            value = viewModel.editableTitle.value,
+                            onValueChange = { viewModel.onEditableFieldChange(title = it) },
+                            label = { Text("Tytuł") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerSiedl.value,
+                            onValueChange = { viewModel.onEditableFieldChange(siedl = it) },
+                            label = { Text("Numer Siedlecki") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerSak.value,
+                            onValueChange = { viewModel.onEditableFieldChange(sak = it) },
+                            label = { Text("Numer ŚAK") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerDn.value,
+                            onValueChange = { viewModel.onEditableFieldChange(dn = it) },
+                            label = { Text("Numer DN") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        var expanded by remember { mutableStateOf(false) }
+                        ExposedDropdownMenuBox(
+                            expanded = expanded,
+                            onExpandedChange = { expanded = !expanded }
+                        ) {
+                            OutlinedTextField(
+                                value = viewModel.editableCategory.value,
+                                onValueChange = { viewModel.onEditableFieldChange(category = it) },
+                                label = { Text("Kategoria") },
+                                readOnly = true,
+                                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                                modifier = Modifier
+                                    .menuAnchor()
+                                    .fillMaxWidth()
+                            )
+                            ExposedDropdownMenu(
+                                expanded = expanded,
+                                onDismissRequest = { expanded = false }
+                            ) {
+                                uiState.allCategories.forEach { category ->
+                                    DropdownMenuItem(
+                                        text = { Text(category.nazwa) },
+                                        onClick = {
+                                            viewModel.onEditableFieldChange(category = category.nazwa)
+                                            expanded = false
+                                        }
+                                    )
+                                }
+                            }
+                        }
+
+                        OutlinedTextField(
+                            value = viewModel.editableText.value,
+                            onValueChange = { viewModel.onEditableFieldChange(text = it) },
+                            label = { Text("Tekst pieśni") },
+                            placeholder = { Text("Brak tekstu") },
+                            modifier = Modifier.fillMaxWidth(),
+                            textStyle = MaterialTheme.typography.bodyLarge.copy(
+                                lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
+                            )
+                        )
+                    }
+                }
+                uiState.song != null -> {
+                    val song = uiState.song!!
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
+                            .padding(PaddingValues(horizontal = 16.dp, vertical = 24.dp))
+                    ) {
+                        val formattedText = song.tekst
+                            ?.replace("*", "\n")
+                            ?.replace(Regex("(?<!^)(\\d+\\.)"), "\n\n$1")
+                            ?.replace(Regex("\\b(ref(en)?\\b[\\s.:;]*)", RegexOption.IGNORE_CASE), "\n\n$1\n")
+                            ?.trim()
+                            ?.takeIf { it.isNotBlank() }
+                            ?: "Brak tekstu"
+
+                        Text(
+                            text = formattedText,
+                            style = MaterialTheme.typography.bodyLarge,
+                            lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ViewModeTopAppBar(title: String, onNavigateBack: () -> Unit, onEditClick: () -> Unit) {
+    Column {
+        CenterAlignedTopAppBar(
+            title = { AutoResizingText(text = title, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center) },
+            navigationIcon = { IconButton(onClick = onNavigateBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć") } },
+            actions = { IconButton(onClick = onEditClick) { Icon(Icons.Default.Edit, "Edytuj treść") } },
+            colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = MaterialTheme.colorScheme.background, titleContentColor = MaterialTheme.colorScheme.primary, navigationIconContentColor = MaterialTheme.colorScheme.primary)
+        )
+        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun EditModeTopAppBar(title: String, onCancelClick: () -> Unit, onSaveClick: () -> Unit, isSaveEnabled: Boolean) {
+    Column {
+        CenterAlignedTopAppBar(
+            title = { AutoResizingText(text = title, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center) },
+            navigationIcon = { IconButton(onClick = onCancelClick) { Icon(Icons.Default.Close, "Anuluj edycję") } },
+            actions = { IconButton(onClick = onSaveClick, enabled = isSaveEnabled) { Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray) } },
+            colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = MaterialTheme.colorScheme.background, titleContentColor = MaterialTheme.colorScheme.primary, navigationIconContentColor = MaterialTheme.colorScheme.primary)
+        )
+        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+    }
+}
 
 @Composable
-fun LiturgicalCalendarTheme(
-    darkTheme: Boolean = true,
-    dynamicColor: Boolean = false,
-    content: @Composable () -> Unit
-) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
-        darkTheme -> CustomDarkColorScheme
-        else -> CustomLightColorScheme
-    }
-    val view = LocalView.current
-    if (!view.isInEditMode) {
-        SideEffect {
-            val window = (view.context as Activity).window
-            // Ustawienie przezroczystości dla obu pasków systemowych
-            window.statusBarColor = Color.Transparent.toArgb()
-            window.navigationBarColor = Color.Transparent.toArgb()
-
-            // Umożliwia aplikacji rysowanie treści "od krawędzi do krawędzi" (edge-to-edge)
-            WindowCompat.setDecorFitsSystemWindows(window, false)
-
-            val insetsController = WindowCompat.getInsetsController(window, view)
-
-            // --- POCZĄTEK ZMIANY ---
-            // Ukryj paski systemowe (pasek statusu i nawigacji)
-            insetsController.hide(WindowInsetsCompat.Type.systemBars())
-
-            // Ustaw zachowanie, dzięki któremu paski pojawią się tymczasowo po przeciągnięciu palcem
-            // od krawędzi ekranu, a następnie automatycznie znikną.
-            insetsController.systemBarsBehavior =
-                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-            // --- KONIEC ZMIANY ---
-
-            // Ustawienie wyglądu ikon na paskach systemowych (dla momentu, gdy są widoczne)
-            insetsController.isAppearanceLightStatusBars = !darkTheme
-            insetsController.isAppearanceLightNavigationBars = !darkTheme
+private fun ConfirmExitDialog(onDismiss: () -> Unit, onDiscard: () -> Unit) {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    "Odrzucić zmiany?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text("Czy na pewno chcesz wyjść bez zapisywania zmian?")
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDiscard) {
+                        Text("Odrzuć")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(onClick = onDismiss) {
+                        Text("Anuluj")
+                    }
+                }
+            }
         }
     }
-
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
 }
 ```
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\songdetails\SongDetailsScreen.kt
+treść:
+```kotlin
+package com.qjproject.liturgicalcalendar.ui.screens.songdetails
+
+import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SongDetailsScreen(
+    viewModel: SongDetailsViewModel,
+    onNavigateBack: () -> Unit,
+    onNavigateToContent: (song: com.qjproject.liturgicalcalendar.data.Song, startInEditMode: Boolean) -> Unit
+) {
+    val uiState by viewModel.uiState.collectAsState()
+    val song = uiState.song
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    BackHandler(onBack = onNavigateBack)
+
+    // Ten efekt obserwuje cykl życia ekranu.
+    // Gdy ekran jest wznawiany (ON_RESUME), np. po powrocie z edycji,
+    // wywołuje funkcję reloadData(), aby pobrać najświeższe dane.
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.reloadData()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+
+    Scaffold(
+        topBar = {
+            Column {
+                CenterAlignedTopAppBar(
+                    title = {
+                        AutoResizingText(
+                            text = uiState.song?.tytul ?: "Ładowanie...",
+                            style = MaterialTheme.typography.titleLarge,
+                            textAlign = TextAlign.Center
+                        )
+                    },
+                    navigationIcon = {
+                        IconButton(onClick = onNavigateBack) {
+                            Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
+                        }
+                    },
+                    actions = { Spacer(Modifier.width(48.dp)) },
+                    colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                        containerColor = MaterialTheme.colorScheme.background,
+                        titleContentColor = MaterialTheme.colorScheme.primary,
+                        navigationIconContentColor = MaterialTheme.colorScheme.primary
+                    )
+                )
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+            }
+        }
+    ) { innerPadding ->
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        ) {
+            when {
+                uiState.isLoading -> {
+                    CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
+                }
+                uiState.error != null -> {
+                    Text(
+                        text = "Błąd: ${uiState.error}",
+                        modifier = Modifier
+                            .align(Alignment.Center)
+                            .padding(16.dp),
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
+                song != null -> {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(16.dp),
+                        horizontalAlignment = Alignment.Start
+                    ) {
+                        InfoRow(label = "Siedlecki:", value = song.numerSiedl)
+                        InfoRow(label = "ŚAK:", value = song.numerSAK)
+                        InfoRow(label = "DN:", value = song.numerDN)
+                        InfoRow(label = "Kategoria:", value = song.kategoria)
+
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Divider()
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable {
+                                    val startInEdit = song.tekst.isNullOrBlank()
+                                    onNavigateToContent(song, startInEdit)
+                                },
+                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+                        ) {
+                            Column(Modifier.padding(16.dp)) {
+                                Text(
+                                    text = viewModel.getSongTextPreview(song.tekst),
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.2
+                                )
+                                if ((song.tekst?.lines()?.size ?: 0) > 6) {
+                                    Spacer(modifier = Modifier.height(8.dp))
+                                    Text(
+                                        "...kliknij, aby zobaczyć więcej",
+                                        style = MaterialTheme.typography.labelSmall,
+                                        color = MaterialTheme.colorScheme.primary,
+                                        modifier = Modifier.align(Alignment.End)
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun InfoRow(label: String, value: String) {
+    val displayValue = value.ifBlank { "-" }
+    if (label == "Kategoria:" && displayValue == "-") {
+        return
+    }
+    Row(modifier = Modifier.padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodyLarge,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.width(120.dp)
+        )
+        Text(
+            text = displayValue,
+            style = MaterialTheme.typography.bodyLarge
+        )
+    }
+}
+```
+--- END OF FILE ---

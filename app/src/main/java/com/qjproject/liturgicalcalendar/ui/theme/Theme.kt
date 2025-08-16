@@ -68,13 +68,10 @@ fun LiturgicalCalendarTheme(
             val insetsController = WindowCompat.getInsetsController(window, view)
 
             // --- POCZĄTEK ZMIANY ---
-            // Pasek statusu jest widoczny, a pasek nawigacji jest ukryty.
-            insetsController.hide(WindowInsetsCompat.Type.navigationBars())
-
-            // Ustaw zachowanie, dzięki któremu pasek nawigacji pojawi się tymczasowo
-            // po przeciągnięciu palcem od dolnej krawędzi ekranu, a następnie automatycznie zniknie.
-            insetsController.systemBarsBehavior =
-                WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            // Upewnij się, że pasek nawigacji jest widoczny.
+            insetsController.show(WindowInsetsCompat.Type.navigationBars())
+            // Usunięto ustawienie 'systemBarsBehavior', ponieważ pasek jest teraz zawsze widoczny,
+            // a nie tymczasowo pokazywany gestem.
             // --- KONIEC ZMIANY ---
 
             // Ustawienie wyglądu ikon na paskach systemowych (dla momentu, gdy są widoczne)

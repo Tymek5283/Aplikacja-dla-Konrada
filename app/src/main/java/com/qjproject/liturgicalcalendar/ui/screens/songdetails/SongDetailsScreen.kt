@@ -19,6 +19,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -29,7 +30,6 @@ fun SongDetailsScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
-    // --- POCZĄTEK ZMIANY ---
     val lifecycleOwner = LocalLifecycleOwner.current
 
     BackHandler(onBack = onNavigateBack)
@@ -48,7 +48,6 @@ fun SongDetailsScreen(
             lifecycleOwner.lifecycle.removeObserver(observer)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     Scaffold(
         topBar = {
@@ -116,7 +115,8 @@ fun SongDetailsScreen(
                                 .clickable {
                                     val startInEdit = song.tekst.isNullOrBlank()
                                     onNavigateToContent(song, startInEdit)
-                                }
+                                },
+                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
                         ) {
                             Column(Modifier.padding(16.dp)) {
                                 Text(
