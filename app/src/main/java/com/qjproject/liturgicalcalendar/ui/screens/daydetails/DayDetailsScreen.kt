@@ -60,7 +60,7 @@ import org.burnoutcrew.reorderable.*
 fun DayDetailsScreen(
     dayId: String?,
     onNavigateBack: () -> Unit,
-    onNavigateToSongContent: (songNumber: String) -> Unit
+    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit
 ) {
     if (dayId.isNullOrBlank()) {
         Scaffold { padding -> Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) { Text("Błąd krytyczny: Brak identyfikatora dnia.") } }
@@ -135,11 +135,12 @@ fun DayDetailsScreen(
 private fun DayDetailsViewModeContent(
     modifier: Modifier = Modifier,
     viewModel: DayDetailsViewModel,
-    onNavigateToSongContent: (String) -> Unit
+    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var showSongModal by remember { mutableStateOf(false) }
     var selectedSong by remember { mutableStateOf<SuggestedSong?>(null) }
+    var fullSelectedSong by remember { mutableStateOf<Song?>(null) }
 
     val scrollState = rememberScrollState()
     val coroutineScope = rememberCoroutineScope()
@@ -148,9 +149,10 @@ private fun DayDetailsViewModeContent(
     var contentStartY by remember { mutableStateOf(0f) }
     var scrollAnchorCoordinates by remember { mutableStateOf<LayoutCoordinates?>(null) }
 
-    if (showSongModal && selectedSong != null) {
+    if (showSongModal && selectedSong != null && fullSelectedSong != null) {
         SongDetailsModal(
-            song = selectedSong!!,
+            suggestedSong = selectedSong!!,
+            fullSong = fullSelectedSong!!,
             onDismiss = { showSongModal = false },
             onShowContent = onNavigateToSongContent
         )
@@ -206,9 +208,14 @@ private fun DayDetailsViewModeContent(
                     songs = groupedSongs[momentKey].orEmpty(),
                     isExpanded = uiState.expandedSongMoments.contains(momentKey),
                     onToggle = { viewModel.toggleSongMoment(momentKey) },
-                    onSongClick = { song ->
-                        selectedSong = song
-                        showSongModal = true
+                    onSongClick = { suggested ->
+                        viewModel.getFullSong(suggested) { fullSong ->
+                            if (fullSong != null) {
+                                selectedSong = suggested
+                                fullSelectedSong = fullSong
+                                showSongModal = true
+                            }
+                        }
                     }
                 )
             }
@@ -647,15 +654,15 @@ private fun AddEditSongDialog(
                         ) {
                             items(
                                 items = titleSearchResults,
-                                key = { song -> "${song.tytul}-${song.numer}" }
+                                key = { song -> "${song.tytul}-${song.numerSiedl}" }
                             ) { song ->
                                 Text(
-                                    text = "${song.tytul} (${song.numer})",
+                                    text = viewModel.formatSongSuggestion(song),
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .clickable {
                                             piesn = song.tytul
-                                            numer = song.numer
+                                            numer = song.numerSiedl
                                             viewModel.clearAllSearchResults()
                                         }
                                         .padding(12.dp),
@@ -687,15 +694,15 @@ private fun AddEditSongDialog(
                         ) {
                             items(
                                 items = numberSearchResults,
-                                key = { song -> "${song.tytul}-${song.numer}" }
+                                key = { song -> "${song.tytul}-${song.numerSiedl}" }
                             ) { song ->
                                 Text(
-                                    text = "${song.tytul} (${song.numer})",
+                                    text = viewModel.formatSongSuggestion(song),
                                     modifier = Modifier
                                         .fillMaxWidth()
                                         .clickable {
                                             piesn = song.tytul
-                                            numer = song.numer
+                                            numer = song.numerSiedl
                                             viewModel.clearAllSearchResults()
                                         }
                                         .padding(12.dp),
@@ -731,9 +738,10 @@ private fun AddEditSongDialog(
 
 @Composable
 private fun SongDetailsModal(
-    song: SuggestedSong,
+    suggestedSong: SuggestedSong,
+    fullSong: Song,
     onDismiss: () -> Unit,
-    onShowContent: (String) -> Unit
+    onShowContent: (song: Song, startInEdit: Boolean) -> Unit
 ) {
     Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         Card(
@@ -743,7 +751,7 @@ private fun SongDetailsModal(
             Column(Modifier.padding(24.dp)) {
                 Row(Modifier.fillMaxWidth(), Arrangement.SpaceBetween, Alignment.CenterVertically) {
                     Text(
-                        song.piesn,
+                        suggestedSong.piesn,
                         style = MaterialTheme.typography.titleLarge,
                         modifier = Modifier.weight(1f),
                         color = SaturatedNavy
@@ -758,20 +766,25 @@ private fun SongDetailsModal(
                         .verticalScroll(rememberScrollState())
                         .weight(1f, fill = false)
                 ) {
-                    if (song.numer.isNotBlank()) {
-                        Text(buildAnnotatedString {
-                            append(AnnotatedString("Numer w Siedlecki: ", spanStyle = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
-                            append(AnnotatedString(song.numer, spanStyle = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold).toSpanStyle()))
-                        }); Spacer(Modifier.height(16.dp))
-                    }
-                    if (song.opis.isNotBlank()) {
-                        Text(buildAnnotatedString { withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis:\n") }; append(song.opis) }, style = MaterialTheme.typography.bodyMedium)
+                    SongNumberInfo("Siedlecki:", fullSong.numerSiedl)
+                    SongNumberInfo("ŚAK:", fullSong.numerSAK)
+                    SongNumberInfo("DN:", fullSong.numerDN)
+
+                    if (suggestedSong.opis.isNotBlank()) {
+                        Spacer(Modifier.height(16.dp))
+                        Text(
+                            buildAnnotatedString {
+                                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis:\n") }
+                                append(suggestedSong.opis)
+                            },
+                            style = MaterialTheme.typography.bodyMedium
+                        )
                     }
                 }
                 Spacer(Modifier.height(24.dp))
                 Button(
                     onClick = {
-                        onShowContent(song.numer)
+                        onShowContent(fullSong, false)
                         onDismiss()
                     },
                     modifier = Modifier.align(Alignment.CenterHorizontally)
@@ -782,6 +795,23 @@ private fun SongDetailsModal(
         }
     }
 }
+
+@Composable
+private fun SongNumberInfo(label: String, number: String) {
+    val displayValue = number.ifBlank { "-" }
+    Row {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+            modifier = Modifier.width(80.dp)
+        )
+        Text(
+            text = displayValue,
+            style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold)
+        )
+    }
+}
+
 
 // =================================================================================
 // Paski nawigacyjne (Top App Bars)

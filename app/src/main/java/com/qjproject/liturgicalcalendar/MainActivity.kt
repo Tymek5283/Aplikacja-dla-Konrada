@@ -13,15 +13,24 @@ import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -30,6 +39,7 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavType
@@ -58,7 +68,11 @@ import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
 import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
@@ -123,8 +137,8 @@ fun MainAppHost() {
             DayDetailsScreen(
                 dayId = decodedPath,
                 onNavigateBack = safePopBackStack,
-                onNavigateToSongContent = { songNumber ->
-                    navController.navigate(Screen.SongContent.createRoute(songNumber))
+                onNavigateToSongContent = { song, startInEdit ->
+                    navController.navigate(Screen.SongContent.createRoute(song, startInEdit))
                 }
             )
         }
@@ -150,35 +164,59 @@ fun MainAppHost() {
                 onNavigateBack = safePopBackStack
             )
         }
+        // --- POCZĄTEK ZMIANY ---
         composable(
             route = Screen.SongDetails.route,
-            arguments = listOf(navArgument("songNumber") { type = NavType.StringType }),
+            arguments = listOf(
+                navArgument("songTitle") { type = NavType.StringType },
+                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
+                navArgument("sakNum") { type = NavType.StringType; nullable = true },
+                navArgument("dnNum") { type = NavType.StringType; nullable = true }
+            ),
             enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
             popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
         ) { backStackEntry ->
-            val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
+            val context = LocalContext.current
+            val factory = SongDetailsViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
+            val viewModel: SongDetailsViewModel = viewModel(factory = factory)
+
             SongDetailsScreen(
-                songNumber = songNumber,
+                viewModel = viewModel,
                 onNavigateBack = safePopBackStack,
-                onNavigateToContent = { num -> navController.navigate(Screen.SongContent.createRoute(num)) }
+                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) }
             )
         }
         composable(
             route = Screen.SongContent.route,
-            arguments = listOf(navArgument("songNumber") { type = NavType.StringType }),
+            arguments = listOf(
+                navArgument("songTitle") { type = NavType.StringType },
+                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
+                navArgument("sakNum") { type = NavType.StringType; nullable = true },
+                navArgument("dnNum") { type = NavType.StringType; nullable = true },
+                navArgument("editOnStart") {
+                    type = NavType.BoolType
+                    defaultValue = false
+                }
+            ),
             enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
             popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
         ) { backStackEntry ->
-            val songNumber = backStackEntry.arguments?.getString("songNumber")?.let { URLDecoder.decode(it, "UTF-8") }
+            val startInEdit = backStackEntry.arguments?.getBoolean("editOnStart") ?: false
+            val context = LocalContext.current
+            val factory = SongContentViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
+            val viewModel: SongContentViewModel = viewModel(factory = factory)
+
             SongContentScreen(
-                songNumber = songNumber,
-                onNavigateBack = safePopBackStack
+                viewModel = viewModel,
+                onNavigateBack = safePopBackStack,
+                startInEditMode = startInEdit
             )
         }
+        // --- KONIEC ZMIANY ---
     }
 }
 
-@OptIn(ExperimentalPagerApi::class)
+@OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun MainTabsScreen(navController: NavController) {
     val context = LocalContext.current
@@ -186,7 +224,8 @@ fun MainTabsScreen(navController: NavController) {
     val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
     val calendarViewModel = viewModel<CalendarViewModel>(factory = CalendarViewModelFactory(context))
     val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
-    val searchViewModel: SearchViewModel = viewModel(factory = SearchViewModelFactory(context))
+    val searchViewModel = viewModel<SearchViewModel>(factory = SearchViewModelFactory(context))
+
 
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
     val pagerState = rememberPagerState(initialPage = 1)
@@ -239,15 +278,52 @@ fun MainTabsScreen(navController: NavController) {
                 isCalendarScreenActive = isCalendarScreenActive,
                 isSearchScreenActive = isSearchScreenActive,
                 searchActions = {
-                    SongOptions(
-                        searchInTitle = searchUiState.searchInTitle,
-                        searchInContent = searchUiState.searchInContent,
-                        sortMode = searchUiState.sortMode,
-                        onSearchInTitleChange = searchViewModel::onSearchInTitleChange,
-                        onSearchInContentChange = searchViewModel::onSearchInContentChange,
-                        onSortModeChange = searchViewModel::onSortModeChange,
-                        showSortOption = searchUiState.results.isNotEmpty()
-                    )
+                    var showSearchOptions by remember { mutableStateOf(false) }
+                    Box {
+                        IconButton(onClick = { showSearchOptions = true }) {
+                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje wyszukiwania")
+                        }
+                        DropdownMenu(
+                            expanded = showSearchOptions,
+                            onDismissRequest = { showSearchOptions = false }
+                        ) {
+                            Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+                            DropdownMenuItem(
+                                text = { Text("Tytuł") },
+                                onClick = { searchViewModel.onSearchInTitleChange(!searchUiState.searchInTitle) },
+                                leadingIcon = { Checkbox(checked = searchUiState.searchInTitle, onCheckedChange = null) }
+                            )
+                            DropdownMenuItem(
+                                text = { Text("Treść") },
+                                onClick = { searchViewModel.onSearchInContentChange(!searchUiState.searchInContent) },
+                                leadingIcon = { Checkbox(checked = searchUiState.searchInContent, onCheckedChange = null) }
+                            )
+                            if (searchUiState.results.isNotEmpty()) {
+                                Divider(modifier = Modifier.padding(vertical = 4.dp))
+                                Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+                                Column(Modifier.selectableGroup()) {
+                                    SongSortMode.values().forEach { mode ->
+                                        DropdownMenuItem(
+                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else mode.name) },
+                                            onClick = {
+                                                searchViewModel.onSortModeChange(mode)
+                                                showSearchOptions = false
+                                            },
+                                            leadingIcon = { RadioButton(selected = (searchUiState.sortMode == mode), onClick = null) },
+                                            modifier = Modifier.selectable(
+                                                selected = (searchUiState.sortMode == mode),
+                                                onClick = {
+                                                    searchViewModel.onSortModeChange(mode)
+                                                    showSearchOptions = false
+                                                },
+                                                role = Role.RadioButton
+                                            )
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
                 },
                 calendarActions = {
                     Box {
@@ -327,8 +403,8 @@ fun MainTabsScreen(navController: NavController) {
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen(
                     viewModel = searchViewModel,
-                    onNavigateToSong = { songNumber ->
-                        navController.navigate(Screen.SongDetails.createRoute(songNumber))
+                    onNavigateToSong = { song ->
+                        navController.navigate(Screen.SongDetails.createRoute(song))
                     }
                 )
                 is Screen.Browse -> BrowseScreen(
@@ -354,64 +430,6 @@ fun MainTabsScreen(navController: NavController) {
                     }
                 )
                 else -> {}
-            }
-        }
-    }
-}
-
-@Composable
-private fun SongOptions(
-    searchInTitle: Boolean,
-    searchInContent: Boolean,
-    sortMode: SongSortMode,
-    onSearchInTitleChange: (Boolean) -> Unit,
-    onSearchInContentChange: (Boolean) -> Unit,
-    onSortModeChange: (SongSortMode) -> Unit,
-    showSortOption: Boolean
-) {
-    var showMenu by remember { mutableStateOf(false) }
-
-    Box {
-        IconButton(onClick = { showMenu = true }) {
-            Icon(Icons.Default.MoreVert, contentDescription = "Więcej opcji")
-        }
-        DropdownMenu(
-            expanded = showMenu,
-            onDismissRequest = { showMenu = false }
-        ) {
-            Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
-            DropdownMenuItem(
-                text = { Text("Tytuł") },
-                onClick = { onSearchInTitleChange(!searchInTitle) },
-                leadingIcon = { Checkbox(checked = searchInTitle, onCheckedChange = null) }
-            )
-            DropdownMenuItem(
-                text = { Text("Treść") },
-                onClick = { onSearchInContentChange(!searchInContent) },
-                leadingIcon = { Checkbox(checked = searchInContent, onCheckedChange = null) }
-            )
-            if (showSortOption) {
-                Divider(modifier = Modifier.padding(vertical = 4.dp))
-                Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
-                Column(Modifier.selectableGroup()) {
-                    SongSortMode.values().forEach { mode ->
-                        DropdownMenuItem(
-                            text = { Text(mode.name) },
-                            onClick = { onSortModeChange(mode) },
-                            leadingIcon = {
-                                RadioButton(
-                                    selected = (sortMode == mode),
-                                    onClick = null
-                                )
-                            },
-                            modifier = Modifier.selectable(
-                                selected = (sortMode == mode),
-                                onClick = { onSortModeChange(mode) },
-                                role = Role.RadioButton
-                            )
-                        )
-                    }
-                }
             }
         }
     }
@@ -457,7 +475,9 @@ fun MainTopAppBar(
                 }
             },
             actions = {
-                if (isBrowseScreenInEditMode) {
+                if (isSearchScreenActive) {
+                    searchActions()
+                } else if (isBrowseScreenInEditMode) {
                     IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
                         Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
                     }
@@ -467,8 +487,6 @@ fun MainTopAppBar(
                     }
                 } else if (isCalendarScreenActive) {
                     calendarActions()
-                } else if (isSearchScreenActive) {
-                    searchActions()
                 } else {
                     Spacer(Modifier.width(48.dp))
                 }

@@ -1,5 +1,6 @@
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
@@ -7,16 +8,22 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.outlined.Article
 import androidx.compose.material.icons.outlined.MusicNote
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -26,6 +33,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
@@ -33,7 +41,7 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 @Composable
 fun SearchScreen(
     viewModel: SearchViewModel,
-    onNavigateToSong: (String) -> Unit
+    onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
 
@@ -41,11 +49,11 @@ fun SearchScreen(
         AddSongDialog(
             error = uiState.addSongError,
             onDismiss = { viewModel.onDismissAddSongDialog() },
-            onConfirm = { title, number, text ->
-                viewModel.saveNewSong(title, number, text)
+            onConfirm = { title, siedl, sak, dn, text ->
+                viewModel.saveNewSong(title, siedl, sak, dn, text)
             },
-            onValidate = { title, number ->
-                viewModel.validateSongInput(title, number)
+            onValidate = { title, siedl, sak, dn ->
+                viewModel.validateSongInput(title, siedl, sak, dn)
             }
         )
     }
@@ -77,6 +85,7 @@ fun SearchScreen(
                 query = uiState.query,
                 onQueryChange = viewModel::onQueryChange
             )
+
             Divider()
 
             when {
@@ -152,7 +161,7 @@ fun NoResults() {
 @Composable
 fun ResultsList(
     results: List<Song>,
-    onNavigateToSong: (String) -> Unit,
+    onNavigateToSong: (Song) -> Unit,
     onSongLongClick: (Song) -> Unit
 ) {
     LazyColumn(
@@ -160,14 +169,16 @@ fun ResultsList(
             start = 8.dp,
             end = 8.dp,
             top = 8.dp,
-            bottom = 80.dp // To avoid FAB
+            bottom = 80.dp
         ),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(results, key = { song -> "${song.numer}_${song.tytul.hashCode()}" }) { song ->
+        items(results, key = { song ->
+            "song_${song.numerSiedl}_${song.tytul.hashCode()}"
+        }) { song ->
             SongResultItem(
                 song = song,
-                onClick = { onNavigateToSong(song.numer) },
+                onClick = { onNavigateToSong(song) },
                 onLongClick = { onSongLongClick(song) }
             )
         }
@@ -199,7 +210,7 @@ fun SongResultItem(
             Spacer(Modifier.width(16.dp))
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))
-            Text(song.numer, fontWeight = FontWeight.Bold)
+            Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
         }
     }
 }
@@ -208,15 +219,19 @@ fun SongResultItem(
 private fun AddSongDialog(
     error: String?,
     onDismiss: () -> Unit,
-    onConfirm: (title: String, number: String, text: String) -> Unit,
-    onValidate: (title: String, number: String) -> Unit
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String) -> Unit,
+    onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
 ) {
     var title by remember { mutableStateOf("") }
-    var number by remember { mutableStateOf("") }
+    var numerSiedl by remember { mutableStateOf("") }
+    var numerSak by remember { mutableStateOf("") }
+    var numerDn by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
+    val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
 
-    LaunchedEffect(title, number) {
-        onValidate(title, number)
+
+    LaunchedEffect(title, numerSiedl, numerSak, numerDn) {
+        onValidate(title, numerSiedl, numerSak, numerDn)
     }
 
     Dialog(onDismissRequest = onDismiss) {
@@ -242,15 +257,31 @@ private fun AddSongDialog(
                     OutlinedTextField(
                         value = title,
                         onValueChange = { title = it },
-                        label = { Text("Tytuł*") },
+                        label = { Text("Tytuł") },
                         isError = error != null,
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
                     )
                     OutlinedTextField(
-                        value = number,
-                        onValueChange = { number = it },
-                        label = { Text("Numer*") },
+                        value = numerSiedl,
+                        onValueChange = { numerSiedl = it },
+                        label = { Text("Numer Siedlecki") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerSak,
+                        onValueChange = { numerSak = it },
+                        label = { Text("Numer ŚAK") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerDn,
+                        onValueChange = { numerDn = it },
+                        label = { Text("Numer DN") },
                         isError = error != null,
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
@@ -280,8 +311,8 @@ private fun AddSongDialog(
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(
-                        onClick = { onConfirm(title, number, text) },
-                        enabled = title.isNotBlank() && number.isNotBlank() && error == null
+                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text) },
+                        enabled = title.isNotBlank() && isAnyNumberPresent && error == null
                     ) {
                         Text("Zapisz")
                     }

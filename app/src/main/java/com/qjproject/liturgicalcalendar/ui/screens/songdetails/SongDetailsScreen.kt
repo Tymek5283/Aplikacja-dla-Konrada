@@ -12,36 +12,27 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SongDetailsScreen(
-    songNumber: String?,
+    viewModel: SongDetailsViewModel,
     onNavigateBack: () -> Unit,
-    onNavigateToContent: (String) -> Unit
+    onNavigateToContent: (song: com.qjproject.liturgicalcalendar.data.Song, startInEditMode: Boolean) -> Unit
 ) {
-    val context = LocalContext.current
-    val viewModel: SongDetailsViewModel = viewModel(
-        factory = SongDetailsViewModelFactory(context, songNumber)
-    )
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
     val lifecycleOwner = LocalLifecycleOwner.current
 
     BackHandler(onBack = onNavigateBack)
 
-    // Ten efekt obserwuje cykl życia ekranu.
-    // Za każdym razem, gdy ekran wraca na pierwszy plan (np. po powrocie z edycji),
-    // dane są ponownie ładowane, aby zapewnić ich aktualność.
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
@@ -93,7 +84,9 @@ fun SongDetailsScreen(
                 uiState.error != null -> {
                     Text(
                         text = "Błąd: ${uiState.error}",
-                        modifier = Modifier.align(Alignment.Center).padding(16.dp),
+                        modifier = Modifier
+                            .align(Alignment.Center)
+                            .padding(16.dp),
                         color = MaterialTheme.colorScheme.error
                     )
                 }
@@ -102,20 +95,23 @@ fun SongDetailsScreen(
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
+                        horizontalAlignment = Alignment.Start
                     ) {
-                        Text(
-                            text = "Numer: ${song.numer}",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold
-                        )
+                        InfoRow(label = "Siedlecki:", value = song.numerSiedl)
+                        InfoRow(label = "ŚAK:", value = song.numerSAK)
+                        InfoRow(label = "DN:", value = song.numerDN)
+                        InfoRow(label = "Kategoria:", value = song.kategoria)
+
                         Spacer(modifier = Modifier.height(16.dp))
                         Divider()
                         Spacer(modifier = Modifier.height(16.dp))
                         Card(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .clickable { onNavigateToContent(song.numer) }
+                                .clickable {
+                                    val startInEdit = song.tekst.isNullOrBlank()
+                                    onNavigateToContent(song, startInEdit)
+                                }
                         ) {
                             Column(Modifier.padding(16.dp)) {
                                 Text(
@@ -138,5 +134,25 @@ fun SongDetailsScreen(
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun InfoRow(label: String, value: String) {
+    val displayValue = value.ifBlank { "-" }
+    if (label == "Kategoria:" && displayValue == "-") {
+        return
+    }
+    Row(modifier = Modifier.padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodyLarge,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.width(120.dp)
+        )
+        Text(
+            text = displayValue,
+            style = MaterialTheme.typography.bodyLarge
+        )
     }
 }

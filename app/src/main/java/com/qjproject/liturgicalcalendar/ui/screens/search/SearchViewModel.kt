@@ -7,7 +7,6 @@ import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.debounce
@@ -18,7 +17,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import java.util.Locale
 
-enum class SongSortMode { Alfabetycznie, Numerycznie }
+enum class SongSortMode { Alfabetycznie, Kategoria }
 
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
@@ -57,18 +56,11 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .distinctUntilChanged()
             .onEach { triggerSearch() }
             .launchIn(viewModelScope)
-
-        loadAllSongs()
     }
 
-    fun triggerSearch() {
-        val query = _uiState.value.query
+    private fun triggerSearch() {
         searchJob?.cancel()
-        if (query.isNotBlank()) {
-            performSearch(query)
-        } else {
-            loadAllSongs()
-        }
+        performSearch(_uiState.value.query)
     }
 
     fun onQueryChange(newQuery: String) {
@@ -77,13 +69,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onSearchInTitleChange(isChecked: Boolean) {
-        if (_uiState.value.searchInTitle == isChecked) return
+        if (_uiState.value.searchInTitle == isChecked || (!isChecked && !_uiState.value.searchInContent)) return
         _uiState.update { it.copy(searchInTitle = isChecked) }
         triggerSearch()
     }
 
     fun onSearchInContentChange(isChecked: Boolean) {
-        if (_uiState.value.searchInContent == isChecked) return
+        if (_uiState.value.searchInContent == isChecked || (!isChecked && !_uiState.value.searchInTitle)) return
         _uiState.update { it.copy(searchInContent = isChecked) }
         triggerSearch()
     }
@@ -113,52 +105,38 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private fun searchSongs(query: String): List<Song> {
         val allSongs = repository.getSongList()
         val normalizedQuery = normalize(query)
+        val trimmedQuery = query.trim()
         val state = _uiState.value
 
-        // Exact number match has priority
-        val byNumber = allSongs.filter { it.numer.equals(query.trim(), ignoreCase = true) }
-        if (byNumber.isNotEmpty()) {
-            return sortSongs(byNumber)
+        if (trimmedQuery.isBlank()) {
+            return sortSongs(allSongs)
         }
+
+        val bySiedlecki = allSongs.filter { it.numerSiedl.equals(trimmedQuery, ignoreCase = true) }
+        if (bySiedlecki.isNotEmpty()) return sortSongs(bySiedlecki)
+
+        val bySak = allSongs.filter { it.numerSAK.equals(trimmedQuery, ignoreCase = true) }
+        if (bySak.isNotEmpty()) return sortSongs(bySak)
+
+        val byDn = allSongs.filter { it.numerDN.equals(trimmedQuery, ignoreCase = true) }
+        if (byDn.isNotEmpty()) return sortSongs(byDn)
 
         // Filter by other criteria
         val filteredSongs = allSongs.filter { song ->
             val matchesTitle = state.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-            val matchesContent = state.searchInContent && normalize(song.tekst).contains(normalizedQuery)
+            val matchesContent = state.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
             matchesTitle || matchesContent
         }
 
         return sortSongs(filteredSongs)
     }
 
-    private fun loadAllSongs() {
-        searchJob = viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
-            val allSongs = repository.getSongList()
-            val sortedResults = sortSongs(allSongs)
-            _uiState.update { it.copy(results = sortedResults, searchPerformed = true, isLoading = false) }
-        }
-    }
-
     private fun sortSongs(songs: List<Song>): List<Song> {
         return when (_uiState.value.sortMode) {
             SongSortMode.Alfabetycznie -> songs.sortedBy { it.tytul }
-            SongSortMode.Numerycznie -> songs.sortedWith(songNumberComparator)
-        }
-    }
-
-    private val songNumberComparator = Comparator<Song> { a, b ->
-        val numA = a.numer
-        val numB = b.numer
-
-        val isNumAInt = numA.toIntOrNull() != null
-        val isNumBInt = numB.toIntOrNull() != null
-
-        when {
-            isNumAInt && isNumBInt -> numA.toInt().compareTo(numB.toInt())
-            isNumAInt -> -1 // Numbers first
-            isNumBInt -> 1  // Then strings
-            else -> numA.compareTo(numB) // Both are strings
+            SongSortMode.Kategoria -> songs.sortedWith(
+                compareBy<Song> { it.kategoria }.thenBy { it.tytul }
+            )
         }
     }
 
@@ -174,25 +152,41 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         allSongsCache = null // Clear cache
     }
 
-    fun validateSongInput(title: String, number: String) {
+    fun validateSongInput(title: String, siedl: String, sak: String, dn: String) {
         val songs = allSongsCache ?: return
+        val trimmedTitle = title.trim()
+        val trimmedSiedl = siedl.trim()
+        val trimmedSak = sak.trim()
+        val trimmedDn = dn.trim()
 
-        if (title.isNotBlank() && songs.any { it.tytul.equals(title.trim(), ignoreCase = true) }) {
+        if (trimmedTitle.isNotBlank() && songs.any { it.tytul.equals(trimmedTitle, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym tytule już istnieje.") }
             return
         }
 
-        if (number.isNotBlank() && songs.any { it.numer.equals(number.trim(), ignoreCase = true) }) {
-            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze już istnieje.") }
+        if (trimmedSiedl.isNotBlank() && songs.any { it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (Siedlecki) już istnieje.") }
+            return
+        }
+
+        if (trimmedSak.isNotBlank() && songs.any { it.numerSAK.equals(trimmedSak, ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK) już istnieje.") }
+            return
+        }
+
+        if (trimmedDn.isNotBlank() && songs.any { it.numerDN.equals(trimmedDn, ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (DN) już istnieje.") }
             return
         }
 
         _uiState.update { it.copy(addSongError = null) }
     }
 
-    fun saveNewSong(title: String, number: String, text: String) {
+    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String) {
         val trimmedTitle = title.trim()
-        val trimmedNumber = number.trim()
+        val trimmedSiedl = siedl.trim()
+        val trimmedSak = sak.trim()
+        val trimmedDn = dn.trim()
         val trimmedText = text.trim()
 
         if (trimmedTitle.isBlank()) {
@@ -200,13 +194,12 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
 
-        if (trimmedNumber.isBlank()) {
-            _uiState.update { it.copy(addSongError = "Numer jest wymagany.") }
+        if (trimmedSiedl.isBlank() && trimmedSak.isBlank() && trimmedDn.isBlank()) {
+            _uiState.update { it.copy(addSongError = "Przynajmniej jeden numer jest wymagany.") }
             return
         }
 
-        // Final validation before save
-        validateSongInput(trimmedTitle, trimmedNumber)
+        validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn)
         if (_uiState.value.addSongError != null) {
             return
         }
@@ -215,18 +208,18 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
             val newSong = Song(
                 tytul = trimmedTitle,
-                numer = trimmedNumber,
                 tekst = trimmedText.ifBlank { null },
-                opis = null // New songs don't have descriptions from liturgical days
+                numerSiedl = trimmedSiedl,
+                numerSAK = trimmedSak,
+                numerDN = trimmedDn,
+                kategoria = "",
+                kategoriaSkr = ""
             )
             songs.add(newSong)
 
             repository.saveSongList(songs).fold(
                 onSuccess = {
-                    _uiState.update {
-                        it.copy(showAddSongDialog = false)
-                    }
-                    allSongsCache = null // Invalidate cache
+                    onDismissAddSongDialog()
                     triggerSearch() // Refresh the list
                 },
                 onFailure = { error ->
@@ -260,6 +253,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         if (currentState is DeleteDialogState.ConfirmOccurrences) {
             viewModelScope.launch {
                 repository.deleteSong(currentState.song, deleteOccurrences).onSuccess {
+                    allSongsCache = null // Invalidate cache after deletion
                     triggerSearch() // Refresh list on success
                 }
                 // Dismiss dialog regardless of success or failure

@@ -1,6 +1,7 @@
 package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -10,32 +11,32 @@ import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SongContentScreen(
-    songNumber: String?,
-    onNavigateBack: () -> Unit
+    viewModel: SongContentViewModel,
+    onNavigateBack: () -> Unit,
+    startInEditMode: Boolean = false
 ) {
-    val context = LocalContext.current
-    val viewModel: SongContentViewModel = viewModel(
-        factory = SongContentViewModelFactory(context, songNumber)
-    )
     val uiState by viewModel.uiState.collectAsState()
+
+    LaunchedEffect(startInEditMode) {
+        if (startInEditMode) {
+            viewModel.onEnterEditMode()
+        }
+    }
 
     BackHandler(enabled = uiState.isEditMode) {
         viewModel.onTryExitEditMode()
@@ -71,7 +72,7 @@ fun SongContentScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .imePadding() // Pozwala uniknąć zasłaniania pola tekstowego przez klawiaturę
+                .imePadding()
         ) {
             when {
                 uiState.isLoading -> {
@@ -85,17 +86,82 @@ fun SongContentScreen(
                     )
                 }
                 uiState.isEditMode -> {
-                    val editableText by viewModel.editableText
-                    OutlinedTextField(
-                        value = editableText,
-                        onValueChange = { viewModel.onTextChange(it) },
+                    Column(
                         modifier = Modifier
                             .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
                             .padding(horizontal = 16.dp, vertical = 8.dp),
-                        textStyle = MaterialTheme.typography.bodyLarge.copy(
-                            lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        OutlinedTextField(
+                            value = viewModel.editableTitle.value,
+                            onValueChange = { viewModel.onEditableFieldChange(title = it) },
+                            label = { Text("Tytuł") },
+                            modifier = Modifier.fillMaxWidth()
                         )
-                    )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerSiedl.value,
+                            onValueChange = { viewModel.onEditableFieldChange(siedl = it) },
+                            label = { Text("Numer Siedlecki") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerSak.value,
+                            onValueChange = { viewModel.onEditableFieldChange(sak = it) },
+                            label = { Text("Numer ŚAK") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        OutlinedTextField(
+                            value = viewModel.editableNumerDn.value,
+                            onValueChange = { viewModel.onEditableFieldChange(dn = it) },
+                            label = { Text("Numer DN") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        // --- POCZĄTEK ZMIANY ---
+                        var expanded by remember { mutableStateOf(false) }
+                        ExposedDropdownMenuBox(
+                            expanded = expanded,
+                            onExpandedChange = { expanded = !expanded }
+                        ) {
+                            OutlinedTextField(
+                                value = viewModel.editableCategory.value,
+                                onValueChange = { viewModel.onEditableFieldChange(category = it) },
+                                label = { Text("Kategoria") },
+                                readOnly = true,
+                                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                                modifier = Modifier.menuAnchor().fillMaxWidth()
+                            )
+                            ExposedDropdownMenu(
+                                expanded = expanded,
+                                onDismissRequest = { expanded = false }
+                            ) {
+                                uiState.allCategories.forEach { category ->
+                                    DropdownMenuItem(
+                                        text = { Text(category.nazwa) },
+                                        onClick = {
+                                            viewModel.onEditableFieldChange(category = category.nazwa)
+                                            expanded = false
+                                        }
+                                    )
+                                }
+                            }
+                        }
+                        // --- KONIEC ZMIANY ---
+
+                        OutlinedTextField(
+                            value = viewModel.editableText.value,
+                            onValueChange = { viewModel.onEditableFieldChange(text = it) },
+                            label = { Text("Tekst pieśni") },
+                            placeholder = { Text("Brak tekstu") },
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(200.dp),
+                            textStyle = MaterialTheme.typography.bodyLarge.copy(
+                                lineHeight = MaterialTheme.typography.bodyLarge.fontSize * 1.5
+                            )
+                        )
+                    }
                 }
                 uiState.song != null -> {
                     val song = uiState.song!!
@@ -110,7 +176,8 @@ fun SongContentScreen(
                             ?.replace(Regex("(?<!^)(\\d+\\.)"), "\n\n$1")
                             ?.replace(Regex("\\b(ref(en)?\\b[\\s.:;]*)", RegexOption.IGNORE_CASE), "\n\n$1\n")
                             ?.trim()
-                            ?: "Brak dostępnego tekstu dla tej pieśni."
+                            ?.takeIf { it.isNotBlank() }
+                            ?: "Brak tekstu"
 
                         Text(
                             text = formattedText,

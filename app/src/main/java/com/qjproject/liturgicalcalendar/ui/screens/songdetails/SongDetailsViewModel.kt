@@ -1,6 +1,7 @@
 package com.qjproject.liturgicalcalendar.ui.screens.songdetails
 
 import android.content.Context
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -10,6 +11,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import java.net.URLDecoder
 
 data class SongDetailsUiState(
     val isLoading: Boolean = true,
@@ -18,9 +20,14 @@ data class SongDetailsUiState(
 )
 
 class SongDetailsViewModel(
-    private val songNumber: String?,
+    savedStateHandle: SavedStateHandle,
     private val repository: FileSystemRepository
 ) : ViewModel() {
+
+    private val songTitle: String? = savedStateHandle.get<String>("songTitle")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val siedlNum: String? = savedStateHandle.get<String>("siedlNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val sakNum: String? = savedStateHandle.get<String>("sakNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val dnNum: String? = savedStateHandle.get<String>("dnNum")?.let { URLDecoder.decode(it, "UTF-8") }
 
     private val _uiState = MutableStateFlow(SongDetailsUiState())
     val uiState = _uiState.asStateFlow()
@@ -29,37 +36,38 @@ class SongDetailsViewModel(
         reloadData()
     }
 
-    // Funkcja do ponownego załadowania danych, wywoływana z UI, gdy ekran staje się aktywny.
     fun reloadData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
-            if (songNumber.isNullOrBlank()) {
-                _uiState.update { it.copy(isLoading = false, error = "Nieprawidłowy numer pieśni.") }
+            if (songTitle.isNullOrBlank()) {
+                _uiState.update { it.copy(isLoading = false, error = "Nieprawidłowy tytuł pieśni.") }
                 return@launch
             }
-            val foundSong = repository.getSongByNumber(songNumber)
+            // --- POCZĄTEK ZMIANY ---
+            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum)
+            // --- KONIEC ZMIANY ---
             if (foundSong != null) {
                 _uiState.update { it.copy(isLoading = false, song = foundSong) }
             } else {
-                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o numerze: $songNumber") }
+                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o tytule: $songTitle") }
             }
         }
     }
 
     fun getSongTextPreview(text: String?): String {
-        if (text.isNullOrBlank()) return "Brak tekstu dla tej pieśni."
+        if (text.isNullOrBlank()) return "Brak tekstu"
         return text.lines().take(6).joinToString(separator = "\n")
     }
 }
 
 class SongDetailsViewModelFactory(
     private val context: Context,
-    private val songNumber: String?
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(SongDetailsViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
-            return SongDetailsViewModel(songNumber, FileSystemRepository(context.applicationContext)) as T
+            return SongDetailsViewModel(savedStateHandle, FileSystemRepository(context.applicationContext)) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")
     }

@@ -2,15 +2,18 @@ package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
 import android.content.Context
 import androidx.compose.runtime.mutableStateOf
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
+import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import java.net.URLDecoder
 
 data class SongContentUiState(
     val isLoading: Boolean = true,
@@ -18,17 +21,33 @@ data class SongContentUiState(
     val error: String? = null,
     val isEditMode: Boolean = false,
     val hasChanges: Boolean = false,
-    val showConfirmExitDialog: Boolean = false
+    val showConfirmExitDialog: Boolean = false,
+    val allCategories: List<Category> = emptyList()
 )
 
 class SongContentViewModel(
-    private val songNumber: String?,
+    savedStateHandle: SavedStateHandle,
     private val repository: FileSystemRepository
 ) : ViewModel() {
+
+    private val songTitle: String? = savedStateHandle.get<String>("songTitle")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val siedlNum: String? = savedStateHandle.get<String>("siedlNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val sakNum: String? = savedStateHandle.get<String>("sakNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val dnNum: String? = savedStateHandle.get<String>("dnNum")?.let { URLDecoder.decode(it, "UTF-8") }
 
     private val _uiState = MutableStateFlow(SongContentUiState())
     val uiState = _uiState.asStateFlow()
 
+    var editableTitle = mutableStateOf("")
+        private set
+    var editableNumerSiedl = mutableStateOf("")
+        private set
+    var editableNumerSak = mutableStateOf("")
+        private set
+    var editableNumerDn = mutableStateOf("")
+        private set
+    var editableCategory = mutableStateOf("")
+        private set
     var editableText = mutableStateOf("")
         private set
 
@@ -39,23 +58,30 @@ class SongContentViewModel(
     private fun loadSong() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
-            if (songNumber.isNullOrBlank()) {
-                _uiState.update { it.copy(isLoading = false, error = "Brak numeru pieśni.") }
+            if (songTitle.isNullOrBlank()) {
+                _uiState.update { it.copy(isLoading = false, error = "Brak tytułu pieśni.") }
                 return@launch
             }
-            val foundSong = repository.getSongByNumber(songNumber)
+            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum)
+            val categories = repository.getCategoryList()
             if (foundSong != null) {
-                _uiState.update { it.copy(isLoading = false, song = foundSong) }
+                _uiState.update { it.copy(isLoading = false, song = foundSong, allCategories = categories) }
             } else {
-                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o numerze: $songNumber") }
+                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o tytule: $songTitle", allCategories = categories) }
             }
         }
     }
 
     fun onEnterEditMode() {
-        val currentText = _uiState.value.song?.tekst ?: ""
-        editableText.value = currentText
-        _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
+        _uiState.value.song?.let { song ->
+            editableTitle.value = song.tytul
+            editableNumerSiedl.value = song.numerSiedl
+            editableNumerSak.value = song.numerSAK
+            editableNumerDn.value = song.numerDN
+            editableCategory.value = song.kategoria
+            editableText.value = song.tekst ?: ""
+            _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
+        }
     }
 
     fun onTryExitEditMode() {
@@ -74,19 +100,56 @@ class SongContentViewModel(
         _uiState.update { it.copy(showConfirmExitDialog = false) }
     }
 
-    fun onTextChange(newText: String) {
-        editableText.value = newText
-        _uiState.update { it.copy(hasChanges = newText != it.song?.tekst) }
+
+    fun onEditableFieldChange(
+        title: String = editableTitle.value,
+        siedl: String = editableNumerSiedl.value,
+        sak: String = editableNumerSak.value,
+        dn: String = editableNumerDn.value,
+        category: String = editableCategory.value,
+        text: String = editableText.value
+    ) {
+        val originalSong = _uiState.value.song
+        editableTitle.value = title
+        editableNumerSiedl.value = siedl
+        editableNumerSak.value = sak
+        editableNumerDn.value = dn
+        editableCategory.value = category
+        editableText.value = text
+
+        val changed = originalSong?.tytul != title ||
+                originalSong.numerSiedl != siedl ||
+                originalSong.numerSAK != sak ||
+                originalSong.numerDN != dn ||
+                originalSong.kategoria != category ||
+                originalSong.tekst != text
+
+        _uiState.update { it.copy(hasChanges = changed) }
     }
 
     fun onSaveChanges() {
         val songToUpdate = _uiState.value.song ?: return
         viewModelScope.launch {
             val allSongs = repository.getSongList().toMutableList()
-            val songIndex = allSongs.indexOfFirst { it.numer == songToUpdate.numer }
+            val allCategories = repository.getCategoryList()
+            val songIndex = allSongs.indexOfFirst { it.tytul == songToUpdate.tytul && it.numerSiedl == songToUpdate.numerSiedl }
 
             if (songIndex != -1) {
-                allSongs[songIndex] = songToUpdate.copy(tekst = editableText.value)
+                // --- POCZĄTEK ZMIANY ---
+                val selectedCategory = allCategories.find { it.nazwa.equals(editableCategory.value, ignoreCase = true) }
+                val newSkr = selectedCategory?.skrot ?: ""
+
+                val updatedSong = songToUpdate.copy(
+                    tytul = editableTitle.value.trim(),
+                    tekst = editableText.value.trim(),
+                    numerSiedl = editableNumerSiedl.value.trim(),
+                    numerSAK = editableNumerSak.value.trim(),
+                    numerDN = editableNumerDn.value.trim(),
+                    kategoria = editableCategory.value,
+                    kategoriaSkr = newSkr
+                )
+                // --- KONIEC ZMIANY ---
+                allSongs[songIndex] = updatedSong
                 repository.saveSongList(allSongs).onSuccess {
                     _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = allSongs[songIndex]) }
                 }.onFailure { error ->
@@ -101,12 +164,12 @@ class SongContentViewModel(
 
 class SongContentViewModelFactory(
     private val context: Context,
-    private val songNumber: String?
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(SongContentViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
-            return SongContentViewModel(songNumber, FileSystemRepository(context.applicationContext)) as T
+            return SongContentViewModel(savedStateHandle, FileSystemRepository(context.applicationContext)) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")
     }

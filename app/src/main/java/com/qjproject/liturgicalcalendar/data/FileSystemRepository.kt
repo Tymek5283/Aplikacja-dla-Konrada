@@ -12,7 +12,6 @@ import java.io.File
 import java.io.FileNotFoundException
 import java.io.FileOutputStream
 import java.io.IOException
-import java.io.InputStream
 import java.text.SimpleDateFormat
 import java.time.Month
 import java.time.format.TextStyle
@@ -60,6 +59,9 @@ class FileSystemRepository(val context: Context) {
     private val internalStorageRoot = context.filesDir
 
     private var songListCache: List<Song>? = null
+    // --- POCZĄTEK ZMIANY ---
+    private var categoryListCache: List<Category>? = null
+    // --- KONIEC ZMIANY ---
 
     fun getAllDayFilePaths(): List<String> {
         val paths = mutableListOf<String>()
@@ -68,7 +70,7 @@ class FileSystemRepository(val context: Context) {
 
         fun findJsonFiles(directory: File) {
             directory.walkTopDown().forEach { file ->
-                if (file.isFile && file.extension == "json" && file.name != "piesni.json") {
+                if (file.isFile && file.extension == "json" && file.name != "piesni.json" && file.name != "kategorie.json") {
                     paths.add(file.absolutePath.removePrefix(internalStorageRoot.absolutePath + "/"))
                 }
             }
@@ -181,8 +183,57 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    fun getSongByNumber(number: String): Song? {
-        return getSongList().find { it.numer.equals(number, ignoreCase = true) }
+    // --- POCZĄTEK ZMIANY ---
+    fun getCategoryList(): List<Category> {
+        categoryListCache?.let { return it }
+        return try {
+            val file = File(internalStorageRoot, "kategorie.json")
+            if (!file.exists()) {
+                Log.e("FileSystemRepository", "Krytyczny błąd: Plik 'kategorie.json' nie istnieje w pamięci wewnętrznej.")
+                return emptyList()
+            }
+            val jsonString = file.bufferedReader().use { it.readText() }
+            val categories = json.decodeFromString<List<Category>>(jsonString)
+            categoryListCache = categories
+            categories
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas wczytywania kategorie.json z pamięci wewnętrznej", e)
+            emptyList()
+        }
+    }
+
+    fun saveCategoryList(categories: List<Category>): Result<Unit> {
+        return try {
+            val file = File(internalStorageRoot, "kategorie.json")
+            val jsonString = json.encodeToString(categories)
+            file.writeText(jsonString)
+            categoryListCache = categories // Zaktualizuj bufor
+            Log.d("FileSystemRepository", "Zapisano pomyślnie listę kategorii do: ${file.absolutePath}")
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas zapisywania listy kategorii", e)
+            Result.failure(e)
+        }
+    }
+    // --- KONIEC ZMIANY ---
+
+    fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
+        if (title.isBlank()) return null
+        val songList = getSongList()
+
+        val matchingSongs = songList.filter { it.tytul.equals(title, ignoreCase = true) }
+
+        return when {
+            matchingSongs.isEmpty() -> null
+            matchingSongs.size == 1 -> matchingSongs.first()
+            else -> {
+                matchingSongs.find { song ->
+                    (siedlNum?.isNotBlank() == true && song.numerSiedl.equals(siedlNum, ignoreCase = true)) ||
+                            (sakNum?.isNotBlank() == true && song.numerSAK.equals(sakNum, ignoreCase = true)) ||
+                            (dnNum?.isNotBlank() == true && song.numerDN.equals(dnNum, ignoreCase = true))
+                } ?: matchingSongs.first() // Fallback to first match if no number matches
+            }
+        }
     }
 
     fun saveDayData(path: String, dayData: DayData): Result<Unit> {
@@ -277,12 +328,11 @@ class FileSystemRepository(val context: Context) {
         }
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun deleteSong(songToDelete: Song, deleteOccurrences: Boolean): Result<Unit> {
         return try {
             // 1. Usunięcie pieśni z głównego pliku `piesni.json`
             val currentSongs = getSongList().toMutableList()
-            val removed = currentSongs.removeAll { it.numer == songToDelete.numer }
+            val removed = currentSongs.removeAll { it.numerSiedl == songToDelete.numerSiedl }
             if (!removed) {
                 return Result.failure(FileNotFoundException("Nie znaleziono pieśni w głównym spisie."))
             }
@@ -293,8 +343,8 @@ class FileSystemRepository(val context: Context) {
                 val allDayPaths = getAllDayFilePaths()
                 for (path in allDayPaths) {
                     val dayData = getDayData(path)
-                    if (dayData?.piesniSugerowane?.any { it?.numer == songToDelete.numer } == true) {
-                        val updatedSongs = dayData.piesniSugerowane.filter { it?.numer != songToDelete.numer }
+                    if (dayData?.piesniSugerowane?.any { it?.numer == songToDelete.numerSiedl } == true) {
+                        val updatedSongs = dayData.piesniSugerowane.filter { it?.numer != songToDelete.numerSiedl }
                         val updatedDayData = dayData.copy(piesniSugerowane = updatedSongs)
                         saveDayData(path, updatedDayData).getOrThrow()
                     }
@@ -306,7 +356,6 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun renameItem(itemPath: String, newName: String): Result<String> {
         return try {
@@ -387,6 +436,12 @@ class FileSystemRepository(val context: Context) {
             val songFile = File(internalStorageRoot, "piesni.json")
             if (songFile.exists()) zip.addFile(songFile)
 
+            // --- POCZĄTEK ZMIANY ---
+            val categoryFile = File(internalStorageRoot, "kategorie.json")
+            if (categoryFile.exists()) zip.addFile(categoryFile)
+            // --- KONIEC ZMIANY ---
+
+
             Result.success(zipFile)
         } catch (e: Exception) {
             e.printStackTrace()
@@ -422,10 +477,20 @@ class FileSystemRepository(val context: Context) {
             File(internalStorageRoot, "data").deleteRecursively()
             File(internalStorageRoot, "Datowane").deleteRecursively()
             File(internalStorageRoot, "piesni.json").delete()
+            // --- POCZĄTEK ZMIANY ---
+            File(internalStorageRoot, "kategorie.json").delete()
+            // --- KONIEC ZMIANY ---
 
             foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
             foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
             foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
+
+            // --- POCZĄTEK ZMIANY ---
+            // Skopiuj plik kategorii, jeśli istnieje w zipie
+            val categoryFileInZip = findFileRecursively(tempUnzipDir, "kategorie.json")
+            categoryFileInZip?.copyTo(File(internalStorageRoot, "kategorie.json"), true)
+            // --- KONIEC ZMIANY ---
+
 
             return Result.success(Unit)
         } catch (e: Exception) {
@@ -436,6 +501,20 @@ class FileSystemRepository(val context: Context) {
             if (tempZipFile.exists()) tempZipFile.delete()
         }
     }
+
+    // --- POCZĄTEK ZMIANY ---
+    private fun findFileRecursively(directory: File, fileName: String): File? {
+        directory.listFiles()?.forEach { file ->
+            if (file.isDirectory) {
+                val found = findFileRecursively(file, fileName)
+                if (found != null) return found
+            } else if (file.name == fileName) {
+                return file
+            }
+        }
+        return null
+    }
+    // --- KONIEC ZMIANY ---
 
     private fun findRequiredFiles(startDir: File): FoundImportFiles? {
         val queue: Queue<File> = LinkedList()

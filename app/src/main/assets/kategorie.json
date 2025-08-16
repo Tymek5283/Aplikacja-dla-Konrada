@@ -1,0 +1,122 @@
+[
+    {
+      "nazwa": "Adwent",
+      "skrot": "Adw"
+    },
+    {
+      "nazwa": "Środa popielcowa",
+      "skrot": "Śr. Pop."
+    },
+    {
+      "nazwa": "Wielki Post",
+      "skrot": "W. Post"
+    },
+    {
+      "nazwa": "Pieśni wielkanocne",
+      "skrot": "Wielk."
+    },
+    {
+      "nazwa": "Pieśni do Miłosierdzia Bożego",
+      "skrot": "M. B."
+    },
+    {
+      "nazwa": "Wniebowstąpienie Pańskie",
+      "skrot": "Wnieb. P."
+    },
+    {
+      "nazwa": "Pieśni do Ducha Świętego",
+      "skrot": "D. Św."
+    },
+    {
+      "nazwa": "Do Jezusa wiecznego Kapłana",
+      "skrot": "Jez. w. Kapł."
+    },
+    {
+      "nazwa": "Pieśni do Trójcy Świętej",
+      "skrot": "Tr. Św."
+    },
+    {
+      "nazwa": "Pieśni Eucharystyczne",
+      "skrot": "Euch."
+    },
+    {
+      "nazwa": "Pieśni do Serca Jezusa",
+      "skrot": "S. Jez."
+    },
+    {
+      "nazwa": "Przemienienie Pańskie",
+      "skrot": "Przem. P."
+    },
+    {
+      "nazwa": "Pieśni Jezusa Chrystusa, Króla Wszechświata",
+      "skrot": "J. Chr. Króla"
+    },
+    {
+      "nazwa": "Pieśni do Najświętszej Maryi Panny",
+      "skrot": "NMP"
+    },
+    {
+      "nazwa": "Pieśni do Świętego Józefa",
+      "skrot": "Św. Józ."
+    },
+    {
+      "nazwa": "Pieśni ku czci świętych Archaniołów",
+      "skrot": "Św. Arch."
+    },
+    {
+      "nazwa": "Pieśni ku czci świętych Aniołów Stróżów",
+      "skrot": "Św. An. Str."
+    },
+    {
+      "nazwa": "Pieśni o Świętych",
+      "skrot": "o Św."
+    },
+    {
+      "nazwa": "Pieśni przygodne",
+      "skrot": "Przygod."
+    },
+    {
+      "nazwa": "Hymny",
+      "skrot": "Hym."
+    },
+    {
+      "nazwa": "Pieśni za zmarłych",
+      "skrot": "Za zm."
+    },
+    {
+      "nazwa": "Pieśni Mszalne",
+      "skrot": "Mszal."
+    },
+    {
+      "nazwa": "Pieśni z Taize",
+      "skrot": "Taize"
+    },
+    {
+      "nazwa": "Boże Narodzenie",
+      "skrot": "B. N."
+    },
+    {
+      "nazwa": "Świętej Rodziny",
+      "skrot": "Św. Rodz."
+    },
+    {
+      "nazwa": "Koniec Roku",
+      "skrot": "K. Roku"
+    },
+    {
+      "nazwa": "Objawienie Pańskie",
+      "skrot": "Obj. P."
+    },
+    {
+      "nazwa": "Wielki Piątek",
+      "skrot": "W. Pt."
+    },
+    {
+      "nazwa": "Dni Krzyżowe",
+      "skrot": "Dn. Krzyż."
+    },
+    {
+      "nazwa": "Uwielbienie",
+      "skrot": "Uwielb."
+    }
+  ]

@@ -1,6 +1,7 @@
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 
 import android.content.Context
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -10,13 +11,17 @@ import com.qjproject.liturgicalcalendar.data.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import java.util.Locale
 
 sealed class DialogState {
     object None : DialogState()
@@ -28,17 +33,17 @@ data class DayDetailsUiState(
     val isLoading: Boolean = true,
     val dayData: DayData? = null,
     val error: String? = null,
-    val isReadingsSectionExpanded: Boolean = false,
+    val isEditMode: Boolean = false,
+    val hasChanges: Boolean = false,
+    val showConfirmExitDialog: Boolean = false,
+    val activeDialog: DialogState = DialogState.None,
+    val isReadingsSectionExpanded: Boolean = true,
     val isSongsSectionExpanded: Boolean = true,
     val expandedReadings: Set<Int> = emptySet(),
-    val expandedSongMoments: Set<String> = songMomentOrderMap.keys.toSet(),
-    val isEditMode: Boolean = false,
-    val showConfirmExitDialog: Boolean = false,
-    val hasChanges: Boolean = false,
-    val activeDialog: DialogState = DialogState.None
+    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
 )
 
-val songMomentOrderMap = mapOf(
+val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
     "wejscie" to "Wejście",
     "ofiarowanie" to "Ofiarowanie",
     "komunia" to "Komunia",
@@ -53,59 +58,69 @@ class DayDetailsViewModel(
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(DayDetailsUiState())
-    val uiState = _uiState.asStateFlow()
+    val uiState: StateFlow<DayDetailsUiState> = _uiState.asStateFlow()
 
-    private val _groupedSongs = MutableStateFlow<Map<String, List<SuggestedSong>>>(emptyMap())
-    val groupedSongs = _groupedSongs.asStateFlow()
+    private val _songTitleSearchQuery = MutableStateFlow("")
+    val songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
 
-    var editableDayData = mutableStateOf<DayData?>(null)
+    private val _songNumberSearchQuery = MutableStateFlow("")
+    val songNumberSearchResults = MutableStateFlow<List<Song>>(emptyList())
+
+    var editableDayData: MutableState<DayData?> = mutableStateOf(null)
         private set
 
-    private val allSongs: List<Song> by lazy { repository.getSongList() }
-
-    private var titleSearchJob: Job? = null
-    private var numberSearchJob: Job? = null
-
-    private val _songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
-    val songTitleSearchResults = _songTitleSearchResults.asStateFlow()
-
-    private val _songNumberSearchResults = MutableStateFlow<List<Song>>(emptyList())
-    val songNumberSearchResults = _songNumberSearchResults.asStateFlow()
+    val groupedSongs: StateFlow<Map<String, List<SuggestedSong>>> = _uiState.map { state ->
+        state.dayData?.piesniSugerowane
+            .orEmpty()
+            .filterNotNull()
+            .groupBy { it.moment }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
 
     init {
-        loadData()
+        loadDayData()
+        observeSearchQueries()
     }
 
-    private fun loadData() {
+    private fun observeSearchQueries() {
         viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true, error = null) }
-            val data = repository.getDayData(dayId)
-            if (data != null) {
-                _uiState.update { it.copy(isLoading = false, dayData = data) }
-                groupSongs(data.piesniSugerowane)
-            } else {
-                val errorMessage = "Nie udało się odnaleźć lub odczytać pliku: '$dayId.json'"
-                _uiState.update { it.copy(isLoading = false, error = errorMessage) }
+            _songTitleSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.length < 2) {
+                    songTitleSearchResults.value = emptyList()
+                } else {
+                    songTitleSearchResults.value = repository.getSongList().filter {
+                        it.tytul.contains(query, ignoreCase = true)
+                    }.take(10)
+                }
+            }
+        }
+        viewModelScope.launch {
+            _songNumberSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    songNumberSearchResults.value = emptyList()
+                } else {
+                    songNumberSearchResults.value = repository.getSongList().filter {
+                        it.numerSiedl.startsWith(query, ignoreCase = true)
+                    }.take(10)
+                }
             }
         }
     }
 
-    private fun groupSongs(songs: List<SuggestedSong?>?) {
-        val songsByMoment = songs.orEmpty().filterNotNull().groupBy { it.moment }
-        val fullGroupedMap = songMomentOrderMap.keys.associateWith { momentKey ->
-            songsByMoment[momentKey] ?: emptyList()
+    private fun loadDayData() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            val data = repository.getDayData(dayId)
+            if (data != null) {
+                _uiState.update { it.copy(isLoading = false, dayData = data) }
+            } else {
+                _uiState.update { it.copy(isLoading = false, error = "Nie udało się wczytać danych dla tego dnia.") }
+            }
         }
-        _groupedSongs.value = fullGroupedMap
     }
 
     fun onEnterEditMode() {
-        _uiState.value.dayData?.let {
-            editableDayData.value = it.copy(
-                czytania = it.czytania.map { c -> c.copy() },
-                piesniSugerowane = it.piesniSugerowane?.mapNotNull { s -> s?.copy() }
-            )
-            _uiState.update { state -> state.copy(isEditMode = true, hasChanges = false) }
-        }
+        editableDayData.value = _uiState.value.dayData?.copy()
+        _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
     }
 
     fun onTryExitEditMode() {
@@ -118,20 +133,17 @@ class DayDetailsViewModel(
 
     fun onExitEditMode(save: Boolean) {
         viewModelScope.launch {
-            _uiState.update { it.copy(showConfirmExitDialog = false) }
             if (save && _uiState.value.hasChanges) {
-                editableDayData.value?.let { dataToSave ->
+                val dataToSave = editableDayData.value
+                if (dataToSave != null) {
                     repository.saveDayData(dayId, dataToSave).onSuccess {
-                        _uiState.update { it.copy(isEditMode = false, hasChanges = false) }
-                        loadData()
-                    }.onFailure { error ->
-                        _uiState.update { it.copy(error = "Błąd zapisu: ${error.localizedMessage}") }
+                        _uiState.update { currentState -> currentState.copy(dayData = dataToSave) }
                     }
                 }
-            } else {
-                _uiState.update { it.copy(isEditMode = false, hasChanges = false) }
-                editableDayData.value = null
             }
+            _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false) }
+            editableDayData.value = null
+            loadDayData()
         }
     }
 
@@ -139,149 +151,155 @@ class DayDetailsViewModel(
         _uiState.update { it.copy(showConfirmExitDialog = false) }
     }
 
-    private fun markAsChanged() {
-        if (!_uiState.value.hasChanges) {
-            _uiState.update { it.copy(hasChanges = true) }
+    fun showDialog(dialogState: DialogState) { _uiState.update { it.copy(activeDialog = dialogState) } }
+    fun dismissDialog() { _uiState.update { it.copy(activeDialog = DialogState.None) } }
+
+    fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
+    fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
+
+    fun toggleReading(index: Int) {
+        _uiState.update {
+            val updatedSet = it.expandedReadings.toMutableSet()
+            if (updatedSet.contains(index)) updatedSet.remove(index) else updatedSet.add(index)
+            it.copy(expandedReadings = updatedSet)
         }
     }
 
-    fun showDialog(dialog: DialogState) { _uiState.update { it.copy(activeDialog = dialog) } }
-    fun dismissDialog() { _uiState.update { it.copy(activeDialog = DialogState.None) } }
+    fun collapseReading(index: Int) {
+        _uiState.update {
+            val updatedSet = it.expandedReadings.toMutableSet()
+            updatedSet.remove(index)
+            it.copy(expandedReadings = updatedSet)
+        }
+    }
+
+    fun toggleSongMoment(moment: String) {
+        _uiState.update {
+            val updatedSet = it.expandedSongMoments.toMutableSet()
+            if (updatedSet.contains(moment)) updatedSet.remove(moment) else updatedSet.add(moment)
+            it.copy(expandedSongMoments = updatedSet)
+        }
+    }
+
+    // --- POCZĄTEK ZMIANY ---
+    fun getFullSong(suggestedSong: SuggestedSong, onResult: (Song?) -> Unit) {
+        viewModelScope.launch {
+            val song = repository.getSong(suggestedSong.piesn, suggestedSong.numer, null, null)
+            onResult(song)
+        }
+    }
+    // --- KONIEC ZMIANY ---
+
+    private fun updateEditableData(transform: (DayData) -> DayData) {
+        editableDayData.value?.let {
+            editableDayData.value = transform(it)
+            _uiState.update { state -> state.copy(hasChanges = true) }
+        }
+    }
 
     fun addOrUpdateReading(reading: Reading, index: Int?) {
-        editableDayData.value?.let {
-            val newList = it.czytania.toMutableList()
-            if (index != null && index in newList.indices) {
-                newList[index] = reading
+        updateEditableData { currentData ->
+            val readings = currentData.czytania.toMutableList()
+            if (index != null && index in readings.indices) {
+                readings[index] = reading
             } else {
-                newList.add(reading)
+                readings.add(reading)
             }
-            editableDayData.value = it.copy(czytania = newList)
-            markAsChanged()
+            currentData.copy(czytania = readings)
         }
     }
 
     fun deleteItem(item: Any) {
         when (item) {
-            is Reading -> deleteReading(item)
-            is SuggestedSong -> deleteSong(item)
+            is Reading -> {
+                updateEditableData { currentData ->
+                    currentData.copy(czytania = currentData.czytania - item)
+                }
+            }
+            is SuggestedSong -> {
+                updateEditableData { currentData ->
+                    currentData.copy(piesniSugerowane = currentData.piesniSugerowane.orEmpty() - item)
+                }
+            }
         }
         dismissDialog()
     }
 
-    private fun deleteReading(readingToDelete: Reading) {
-        editableDayData.value?.let {
-            val newList = it.czytania.toMutableList().apply { remove(readingToDelete) }
-            editableDayData.value = it.copy(czytania = newList)
-            markAsChanged()
+    fun reorderReadings(from: Int, to: Int) {
+        updateEditableData { currentData ->
+            val reorderedList = currentData.czytania.toMutableList().apply {
+                add(to, removeAt(from))
+            }
+            currentData.copy(czytania = reorderedList)
         }
     }
 
-    fun reorderReadings(from: Int, to: Int) {
-        editableDayData.value?.let {
-            val currentList = it.czytania.toMutableList()
-            if (from in currentList.indices && to in currentList.indices) {
-                val item = currentList.removeAt(from)
-                currentList.add(to, item)
-                editableDayData.value = it.copy(czytania = currentList)
-                markAsChanged()
+    fun reorderSongs(moment: String, from: Int, to: Int) {
+        updateEditableData { currentData ->
+            val allSongs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
+            val songsInMoment = allSongs.filter { it.moment == moment }.toMutableList()
+
+            if (from in songsInMoment.indices && to in songsInMoment.indices) {
+                val movedItem = songsInMoment.removeAt(from)
+                songsInMoment.add(to, movedItem)
+
+                val otherSongs = allSongs.filter { it.moment != moment }
+                val newFullList = (otherSongs + songsInMoment).sortedWith(
+                    compareBy { songMomentOrderMap.keys.indexOf(it.moment) }
+                )
+                currentData.copy(piesniSugerowane = newFullList)
+            } else {
+                currentData
             }
         }
     }
 
     fun addOrUpdateSong(song: SuggestedSong, moment: String, originalSong: SuggestedSong?) {
-        editableDayData.value?.let { data ->
-            val currentSongs = data.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
+        updateEditableData { currentData ->
+            val songs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
             if (originalSong != null) {
-                val index = currentSongs.indexOf(originalSong)
-                if (index != -1) currentSongs[index] = song
+                val index = songs.indexOf(originalSong)
+                if (index != -1) {
+                    songs[index] = song
+                }
             } else {
-                currentSongs.add(song)
+                songs.add(song)
             }
-            editableDayData.value = data.copy(piesniSugerowane = currentSongs)
-            markAsChanged()
+            currentData.copy(piesniSugerowane = songs)
         }
-    }
-
-    private fun deleteSong(songToDelete: SuggestedSong) {
-        editableDayData.value?.let { data ->
-            val currentSongs = data.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
-            currentSongs.remove(songToDelete)
-            editableDayData.value = data.copy(piesniSugerowane = currentSongs)
-            markAsChanged()
-        }
-    }
-
-    fun reorderSongs(moment: String, fromIndexInMoment: Int, toIndexInMoment: Int) {
-        editableDayData.value?.let { data ->
-            val allSongs = data.piesniSugerowane.orEmpty().filterNotNull()
-            val songsInMoment = allSongs.filter { it.moment == moment }.toMutableList()
-            val otherSongs = allSongs.filter { it.moment != moment }
-
-            if (fromIndexInMoment in songsInMoment.indices && toIndexInMoment in songsInMoment.indices) {
-                val movedSong = songsInMoment.removeAt(fromIndexInMoment)
-                songsInMoment.add(toIndexInMoment, movedSong)
-                editableDayData.value = data.copy(piesniSugerowane = otherSongs + songsInMoment)
-                markAsChanged()
-            }
-        }
-    }
-
-    private fun cleanForSearch(input: String): String {
-        val regex = Regex("[^\\p{L}\\p{N}\\s]")
-        return input.lowercase(Locale.getDefault()).replace(regex, " ").trim().replace(Regex("\\s+"), " ")
+        dismissDialog()
     }
 
     fun searchSongsByTitle(query: String) {
-        titleSearchJob?.cancel()
-        _songNumberSearchResults.value = emptyList()
-
-        if (query.isBlank()) {
-            _songTitleSearchResults.value = emptyList()
-            return
-        }
-        titleSearchJob = viewModelScope.launch {
-            delay(500)
-            val cleanedQuery = cleanForSearch(query)
-            if (cleanedQuery.isNotEmpty()) {
-                _songTitleSearchResults.value = allSongs.filter { song ->
-                    cleanForSearch(song.tytul).contains(cleanedQuery)
-                }.sortedBy { it.tytul }
-            } else {
-                _songTitleSearchResults.value = emptyList()
-            }
-        }
+        _songTitleSearchQuery.value = query
+        if (query.length < 2) songTitleSearchResults.value = emptyList()
     }
 
     fun searchSongsByNumber(query: String) {
-        numberSearchJob?.cancel()
-        _songTitleSearchResults.value = emptyList()
+        _songNumberSearchQuery.value = query
+        if (query.isBlank()) songNumberSearchResults.value = emptyList()
+    }
 
-        if (query.isBlank()) {
-            _songNumberSearchResults.value = emptyList()
-            return
-        }
-        numberSearchJob = viewModelScope.launch {
-            delay(500)
-            val trimmedQuery = query.trim()
-            _songNumberSearchResults.value = allSongs.filter { song ->
-                song.numer == trimmedQuery
-            }
+    fun formatSongSuggestion(song: Song): String {
+        val numberInfo = buildList {
+            if (song.numerSiedl.isNotBlank()) add("Siedl: ${song.numerSiedl}")
+            if (song.numerSAK.isNotBlank()) add("ŚAK: ${song.numerSAK}")
+            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
+        }.joinToString(", ")
+
+        return if (numberInfo.isNotEmpty()) {
+            "${song.tytul} ($numberInfo)"
+        } else {
+            song.tytul
         }
     }
 
     fun clearAllSearchResults() {
-        titleSearchJob?.cancel()
-        numberSearchJob?.cancel()
-        _songTitleSearchResults.value = emptyList()
-        _songNumberSearchResults.value = emptyList()
+        songTitleSearchResults.value = emptyList()
+        songNumberSearchResults.value = emptyList()
+        _songTitleSearchQuery.value = ""
+        _songNumberSearchQuery.value = ""
     }
-
-    fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
-    fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
-    fun toggleReading(index: Int) { _uiState.update { val s = it.expandedReadings.toMutableSet(); if (index in s) s.remove(index) else s.add(index); it.copy(expandedReadings = s) } }
-    fun collapseReading(index: Int) { _uiState.update { val s = it.expandedReadings.toMutableSet(); s.remove(index); it.copy(expandedReadings = s) } }
-    fun toggleSongMoment(moment: String) { _uiState.update { val s = it.expandedSongMoments.toMutableSet(); if (moment in s) s.remove(moment) else s.add(moment); it.copy(expandedSongMoments = s) } }
 }
 
 class DayDetailsViewModelFactory(

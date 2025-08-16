@@ -3,7 +3,7 @@
     <!-- Motyw dla wersji starszych niż Android 12 -->
     <style name="Theme.LiturgicalCalendar.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/splash_background_color</item>
-        
+
         <!-- POPRAWKA: Jawnie wskazujemy na nasz plik PNG w folderze drawable -->
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
     </style>
