@@ -106,9 +106,10 @@ class DayDetailsViewModel(
         }
     }
 
-    private fun loadDayData() {
+    fun loadDayData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
+            repository.invalidateSongCache() // Unieważnij pamięć podręczną pieśni, aby modal miał świeże dane
             val data = repository.getDayData(dayId)
             if (data != null) {
                 _uiState.update { it.copy(isLoading = false, dayData = data) }

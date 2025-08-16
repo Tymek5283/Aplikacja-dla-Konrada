@@ -128,18 +128,17 @@ class SongContentViewModel(
     }
 
     fun onSaveChanges() {
-        val songToUpdate = _uiState.value.song ?: return
+        val originalSong = _uiState.value.song ?: return
         viewModelScope.launch {
             val allSongs = repository.getSongList().toMutableList()
-            val allCategories = repository.getCategoryList()
-            val songIndex = allSongs.indexOfFirst { it.tytul == songToUpdate.tytul && it.numerSiedl == songToUpdate.numerSiedl }
+            val songIndex = allSongs.indexOfFirst { it.tytul == originalSong.tytul && it.numerSiedl == originalSong.numerSiedl }
 
             if (songIndex != -1) {
-                // --- POCZĄTEK ZMIANY ---
+                val allCategories = repository.getCategoryList()
                 val selectedCategory = allCategories.find { it.nazwa.equals(editableCategory.value, ignoreCase = true) }
                 val newSkr = selectedCategory?.skrot ?: ""
 
-                val updatedSong = songToUpdate.copy(
+                val updatedSong = originalSong.copy(
                     tytul = editableTitle.value.trim(),
                     tekst = editableText.value.trim(),
                     numerSiedl = editableNumerSiedl.value.trim(),
@@ -148,10 +147,21 @@ class SongContentViewModel(
                     kategoria = editableCategory.value,
                     kategoriaSkr = newSkr
                 )
-                // --- KONIEC ZMIANY ---
                 allSongs[songIndex] = updatedSong
                 repository.saveSongList(allSongs).onSuccess {
-                    _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = allSongs[songIndex]) }
+                    // Po zapisaniu głównej listy pieśni, zaktualizuj jej wystąpienia we wszystkich plikach dni
+                    repository.updateSongOccurrencesInDayFiles(originalSong, updatedSong).onSuccess {
+                        // Wszystko poszło dobrze, zaktualizuj UI
+                        _uiState.update { it.copy(isEditMode = false, hasChanges = false, song = updatedSong) }
+                    }.onFailure { error ->
+                        // Główna lista została zapisana, ale wystąpienia nie. Poinformuj użytkownika, ale nadal odzwierciedlaj główną zmianę.
+                        _uiState.update { it.copy(
+                            isEditMode = false,
+                            hasChanges = false,
+                            song = updatedSong,
+                            error = "Zapisano pieśń, ale błąd przy aktualizacji dni: ${error.localizedMessage}")
+                        }
+                    }
                 }.onFailure { error ->
                     _uiState.update { it.copy(error = "Błąd zapisu: ${error.localizedMessage}") }
                 }

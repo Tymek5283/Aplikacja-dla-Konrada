@@ -256,6 +256,35 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
+
+    fun updateSongOccurrencesInDayFiles(originalSong: Song, updatedSong: Song): Result<Unit> {
+        return try {
+            val allDayPaths = getAllDayFilePaths()
+            for (path in allDayPaths) {
+                val dayData = getDayData(path)
+                // Sprawdź, czy pieśń istnieje w sugestiach tego dnia, dopasowując po oryginalnym numerze i tytule
+                if (dayData?.piesniSugerowane?.any { it?.numer == originalSong.numerSiedl && it.piesn == originalSong.tytul } == true) {
+                    val updatedSuggestedSongs = dayData.piesniSugerowane.map { suggestedSong ->
+                        // Zaktualizuj tylko pasujące pieśni
+                        if (suggestedSong?.numer == originalSong.numerSiedl && suggestedSong.piesn == originalSong.tytul) {
+                            suggestedSong.copy(
+                                piesn = updatedSong.tytul,
+                                numer = updatedSong.numerSiedl
+                            )
+                        } else {
+                            suggestedSong
+                        }
+                    }
+                    val updatedDayData = dayData.copy(piesniSugerowane = updatedSuggestedSongs)
+                    saveDayData(path, updatedDayData).getOrThrow() // Rzuć wyjątek, jeśli zapis się nie powiedzie
+                }
+            }
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("FileSystemRepository", "Błąd podczas aktualizacji wystąpień pieśni w plikach dni", e)
+            Result.failure(e)
+        }
+    }
     // --- KONIEC ZMIANY ---
 
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
