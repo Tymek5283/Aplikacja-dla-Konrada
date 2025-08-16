@@ -11,10 +11,8 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    // --- POCZĄTEK ZMIANY ---
     // Zwiększono wersję, aby wymusić ponowne skopiowanie danych, w tym nowego pliku kategorii
     private val currentDataVersion = 4
-    // --- KONIEC ZMIANY ---
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -34,16 +32,13 @@ class DataManager(private val context: Context) {
                     Log.d("DataManager", "Usuwanie starego katalogu: ${file.name}")
                     file.deleteRecursively()
                 }
-                // --- POCZĄTEK ZMIANY ---
                 // Usuń także stare pliki json, jeśli istnieją
                 if (file.isFile && (file.name == "piesni.json" || file.name == "kategorie.json")) {
                     Log.d("DataManager", "Usuwanie starego pliku: ${file.name}")
                     file.delete()
                 }
-                // --- KONIEC ZMIANY ---
             }
 
-            // --- POCZĄTEK ZMIANY ---
             // Zaktualizowano logikę, aby kopiować zarówno katalogi, jak i pojedyncze pliki z roota
             val assetsToCopy = context.assets.list("")?.filter { it == "data" || it == "Datowane" || it == "piesni.json" || it == "kategorie.json" } ?: emptyList()
             assetsToCopy.forEach { assetName ->
@@ -62,7 +57,6 @@ class DataManager(private val context: Context) {
                     copyAssetFile(assetName, internalRoot)
                 }
             }
-            // --- KONIEC ZMIANY ---
 
             prefs.edit().putInt(dataVersionKey, currentDataVersion).apply()
             Log.d("DataManager", "Kopiowanie danych zakończone sukcesem. Ustawiono wersję na $currentDataVersion.")

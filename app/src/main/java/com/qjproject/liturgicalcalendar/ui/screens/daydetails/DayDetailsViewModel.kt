@@ -28,7 +28,11 @@ import org.burnoutcrew.reorderable.ItemPosition
 sealed class DialogState {
     object None : DialogState()
     data class ConfirmDelete(val item: Any, val description: String) : DialogState()
-    data class AddEditSong(val moment: String, val existingSong: SuggestedSong? = null) : DialogState()
+    data class AddEditSong(
+        val moment: String,
+        val existingSong: SuggestedSong? = null,
+        val error: String? = null
+    ) : DialogState()
 }
 
 data class DayDetailsUiState(
@@ -70,8 +74,12 @@ class DayDetailsViewModel(
     private val _songTitleSearchQuery = MutableStateFlow("")
     val songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
 
-    private val _songNumberSearchQuery = MutableStateFlow("")
-    val songNumberSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    private val _siedlSearchQuery = MutableStateFlow("")
+    val siedlSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    private val _sakSearchQuery = MutableStateFlow("")
+    val sakSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    private val _dnSearchQuery = MutableStateFlow("")
+    val dnSearchResults = MutableStateFlow<List<Song>>(emptyList())
 
     var editableDayData: MutableState<DayData?> = mutableStateOf(null)
         private set
@@ -111,18 +119,41 @@ class DayDetailsViewModel(
                     songTitleSearchResults.value = emptyList()
                 } else {
                     songTitleSearchResults.value = repository.getSongList().filter {
-                        it.tytul.contains(query, ignoreCase = true)
+                        it.tytul.contains(query, ignoreCase = true) &&
+                                (it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank())
                     }.take(10)
                 }
             }
         }
         viewModelScope.launch {
-            _songNumberSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+            _siedlSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
                 if (query.isBlank()) {
-                    songNumberSearchResults.value = emptyList()
+                    siedlSearchResults.value = emptyList()
                 } else {
-                    songNumberSearchResults.value = repository.getSongList().filter {
+                    siedlSearchResults.value = repository.getSongList().filter {
                         it.numerSiedl.startsWith(query, ignoreCase = true)
+                    }.take(10)
+                }
+            }
+        }
+        viewModelScope.launch {
+            _sakSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    sakSearchResults.value = emptyList()
+                } else {
+                    sakSearchResults.value = repository.getSongList().filter {
+                        it.numerSAK.startsWith(query, ignoreCase = true)
+                    }.take(10)
+                }
+            }
+        }
+        viewModelScope.launch {
+            _dnSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    dnSearchResults.value = emptyList()
+                } else {
+                    dnSearchResults.value = repository.getSongList().filter {
+                        it.numerDN.startsWith(query, ignoreCase = true)
                     }.take(10)
                 }
             }
@@ -286,20 +317,64 @@ class DayDetailsViewModel(
         }
     }
 
-    fun addOrUpdateSong(song: SuggestedSong, moment: String, originalSong: SuggestedSong?) {
-        updateEditableData { currentData ->
-            val songs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
-            if (originalSong != null) {
-                val index = songs.indexOf(originalSong)
-                if (index != -1) {
-                    songs[index] = song
-                }
-            } else {
-                songs.add(song)
+    fun addOrUpdateSong(
+        title: String,
+        siedl: String,
+        sak: String,
+        dn: String,
+        opis: String,
+        moment: String,
+        originalSong: SuggestedSong?
+    ) {
+        viewModelScope.launch {
+            val trimmedTitle = title.trim()
+            val trimmedSiedl = siedl.trim()
+            val trimmedSak = sak.trim()
+            val trimmedDn = dn.trim()
+
+            val songMatches = repository.getSongList().filter { it.tytul.equals(trimmedTitle, ignoreCase = true) }
+
+            val perfectMatch = songMatches.find {
+                it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
+                        it.numerSAK.equals(trimmedSak, ignoreCase = true) &&
+                        it.numerDN.equals(trimmedDn, ignoreCase = true)
             }
-            currentData.copy(piesniSugerowane = songs)
+
+            if (perfectMatch == null) {
+                val error = when {
+                    songMatches.isEmpty() -> "Nie znaleziono pieśni o podanym tytule."
+                    else -> "Numery nie pasują do pieśni o tym tytule. Wybierz pieśń z sugestii, aby automatycznie uzupełnić pola."
+                }
+                _uiState.update {
+                    val currentDialog = it.activeDialog as? DialogState.AddEditSong
+                    it.copy(activeDialog = currentDialog?.copy(error = error) ?: DialogState.None)
+                }
+                return@launch
+            }
+
+            val newSuggestedSong = SuggestedSong(
+                numer = trimmedSiedl,
+                piesn = trimmedTitle,
+                opis = opis.trim(),
+                moment = moment
+            )
+
+            updateEditableData { currentData ->
+                val songs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
+                if (originalSong != null) {
+                    val index = songs.indexOf(originalSong)
+                    if (index != -1) {
+                        songs[index] = newSuggestedSong
+                    } else {
+                        songs.add(newSuggestedSong)
+                    }
+                } else {
+                    songs.add(newSuggestedSong)
+                }
+                currentData.copy(piesniSugerowane = songs)
+            }
+            dismissDialog()
         }
-        dismissDialog()
     }
 
     fun searchSongsByTitle(query: String) {
@@ -307,9 +382,19 @@ class DayDetailsViewModel(
         if (query.length < 2) songTitleSearchResults.value = emptyList()
     }
 
-    fun searchSongsByNumber(query: String) {
-        _songNumberSearchQuery.value = query
-        if (query.isBlank()) songNumberSearchResults.value = emptyList()
+    fun searchSongsBySiedl(query: String) {
+        _siedlSearchQuery.value = query
+        if (query.isBlank()) siedlSearchResults.value = emptyList()
+    }
+
+    fun searchSongsBySak(query: String) {
+        _sakSearchQuery.value = query
+        if (query.isBlank()) sakSearchResults.value = emptyList()
+    }
+
+    fun searchSongsByDn(query: String) {
+        _dnSearchQuery.value = query
+        if (query.isBlank()) dnSearchResults.value = emptyList()
     }
 
     fun formatSongSuggestion(song: Song): String {
@@ -328,9 +413,13 @@ class DayDetailsViewModel(
 
     fun clearAllSearchResults() {
         songTitleSearchResults.value = emptyList()
-        songNumberSearchResults.value = emptyList()
+        siedlSearchResults.value = emptyList()
+        sakSearchResults.value = emptyList()
+        dnSearchResults.value = emptyList()
         _songTitleSearchQuery.value = ""
-        _songNumberSearchQuery.value = ""
+        _siedlSearchQuery.value = ""
+        _sakSearchQuery.value = ""
+        _dnSearchQuery.value = ""
     }
 }
 

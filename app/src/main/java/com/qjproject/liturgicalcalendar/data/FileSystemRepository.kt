@@ -65,11 +65,9 @@ class FileSystemRepository(val context: Context) {
         songListCache = null
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun invalidateCategoryCache() {
         categoryListCache = null
     }
-    // --- KONIEC ZMIANY ---
 
     fun getAllDayFilePaths(): List<String> {
         val paths = mutableListOf<String>()
@@ -222,7 +220,7 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
-    // --- POCZĄTEK ZMIANY ---
+
     fun updateCategoryInSongs(oldCategory: Category, newCategory: Category): Result<Unit> {
         return try {
             val allSongs = getSongList()
@@ -285,7 +283,6 @@ class FileSystemRepository(val context: Context) {
             Result.failure(e)
         }
     }
-    // --- KONIEC ZMIANY ---
 
     fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
         if (title.isBlank()) return null

@@ -107,8 +107,11 @@ fun DayDetailsScreen(
             moment = dialog.moment,
             existingSong = dialog.existingSong,
             viewModel = viewModel,
+            error = dialog.error,
             onDismiss = { viewModel.dismissDialog() },
-            onConfirm = { song, moment, originalSong -> viewModel.addOrUpdateSong(song, moment, originalSong) }
+            onConfirm = { title, siedl, sak, dn, opis, moment, originalSong ->
+                viewModel.addOrUpdateSong(title, siedl, sak, dn, opis, moment, originalSong)
+            }
         )
         else -> {}
     }
@@ -307,8 +310,11 @@ private fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel: 
                     onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
                 )
 
+                // --- POCZĄTEK ZMIANY ---
                 val readingItemHeight = 70.dp
-                val readingsTotalHeight = readingItemHeight * readings.size
+                val itemSpacing = 8.dp // Musi być zgodne z Arrangement.spacedBy
+                val readingsTotalHeight = (readingItemHeight * readings.size) + (itemSpacing * (readings.size - 1).coerceAtLeast(0))
+                // --- KONIEC ZMIANY ---
 
                 LazyColumn(
                     state = readingsReorderState.listState,
@@ -689,17 +695,33 @@ private fun AddEditSongDialog(
     moment: String,
     existingSong: SuggestedSong? = null,
     viewModel: DayDetailsViewModel,
+    error: String?,
     onDismiss: () -> Unit,
-    onConfirm: (SuggestedSong, String, SuggestedSong?) -> Unit
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, opis: String, moment: String, originalSong: SuggestedSong?) -> Unit
 ) {
     var piesn by remember { mutableStateOf(existingSong?.piesn ?: "") }
-    var numer by remember { mutableStateOf(existingSong?.numer ?: "") }
     var opis by remember { mutableStateOf(existingSong?.opis ?: "") }
+    var numerSiedl by remember { mutableStateOf(existingSong?.numer ?: "") }
+    var numerSak by remember { mutableStateOf("") }
+    var numerDn by remember { mutableStateOf("") }
     val isPiesnValid by remember { derivedStateOf { piesn.isNotBlank() } }
 
     val titleSearchResults by viewModel.songTitleSearchResults.collectAsState()
-    val numberSearchResults by viewModel.songNumberSearchResults.collectAsState()
+    val siedlSearchResults by viewModel.siedlSearchResults.collectAsState()
+    val sakSearchResults by viewModel.sakSearchResults.collectAsState()
+    val dnSearchResults by viewModel.dnSearchResults.collectAsState()
     val focusRequester = remember { FocusRequester() }
+
+    LaunchedEffect(existingSong) {
+        if (existingSong != null) {
+            viewModel.getFullSong(existingSong) { fullSong ->
+                if (fullSong != null) {
+                    numerSak = fullSong.numerSAK
+                    numerDn = fullSong.numerDN
+                }
+            }
+        }
+    }
 
     LaunchedEffect(Unit) {
         viewModel.clearAllSearchResults()
@@ -711,7 +733,11 @@ private fun AddEditSongDialog(
             Modifier.fillMaxWidth(),
             colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
         ) {
-            Column(Modifier.padding(16.dp)) {
+            Column(
+                Modifier
+                    .padding(16.dp)
+                    .verticalScroll(rememberScrollState())
+            ) {
                 Text(
                     if (existingSong == null) "Dodaj nową pieśń" else "Edytuj pieśń",
                     style = MaterialTheme.typography.titleLarge,
@@ -721,89 +747,99 @@ private fun AddEditSongDialog(
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
 
-                Column {
-                    OutlinedTextField(
-                        value = piesn,
-                        onValueChange = {
-                            piesn = it
-                            viewModel.searchSongsByTitle(it)
-                        },
-                        label = { Text("Tytuł pieśni*") },
-                        isError = !isPiesnValid,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .focusRequester(focusRequester)
-                    )
-                    AnimatedVisibility(visible = titleSearchResults.isNotEmpty()) {
-                        LazyColumn(
-                            modifier = Modifier
-                                .heightIn(max = 240.dp)
-                                .fillMaxWidth()
-                                .border(1.dp, MaterialTheme.colorScheme.outline)
-                        ) {
-                            items(
-                                items = titleSearchResults,
-                                key = { song -> "${song.tytul}-${song.numerSiedl}" }
-                            ) { song ->
-                                Text(
-                                    text = viewModel.formatSongSuggestion(song),
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .clickable {
-                                            piesn = song.tytul
-                                            numer = song.numerSiedl
-                                            viewModel.clearAllSearchResults()
-                                        }
-                                        .padding(12.dp),
-                                    color = Color.LightGray
-                                )
-                            }
-                        }
-                    }
+                val onSuggestionClick: (Song) -> Unit = { song ->
+                    piesn = song.tytul
+                    numerSiedl = song.numerSiedl
+                    numerSak = song.numerSAK
+                    numerDn = song.numerDN
+                    viewModel.clearAllSearchResults()
                 }
 
-                Spacer(Modifier.height(8.dp))
-
-                Column {
-                    OutlinedTextField(
-                        value = numer,
-                        onValueChange = {
-                            numer = it
-                            viewModel.searchSongsByNumber(it)
-                        },
-                        label = { Text("Numer") },
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    AnimatedVisibility(visible = numberSearchResults.isNotEmpty()) {
-                        LazyColumn(
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Column {
+                        OutlinedTextField(
+                            value = piesn,
+                            onValueChange = {
+                                piesn = it
+                                viewModel.searchSongsByTitle(it)
+                            },
+                            label = { Text("Tytuł pieśni*") },
+                            isError = !isPiesnValid,
                             modifier = Modifier
-                                .heightIn(max = 240.dp)
                                 .fillMaxWidth()
-                                .border(1.dp, MaterialTheme.colorScheme.outline)
-                        ) {
-                            items(
-                                items = numberSearchResults,
-                                key = { song -> "${song.tytul}-${song.numerSiedl}" }
-                            ) { song ->
-                                Text(
-                                    text = viewModel.formatSongSuggestion(song),
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .clickable {
-                                            piesn = song.tytul
-                                            numer = song.numerSiedl
-                                            viewModel.clearAllSearchResults()
-                                        }
-                                        .padding(12.dp),
-                                    color = Color.LightGray
-                                )
-                            }
-                        }
+                                .focusRequester(focusRequester)
+                        )
+                        SearchSuggestionList(
+                            results = titleSearchResults,
+                            onSuggestionClick = onSuggestionClick,
+                            viewModel = viewModel
+                        )
+                    }
+
+                    Column {
+                        OutlinedTextField(
+                            value = numerSiedl,
+                            onValueChange = {
+                                numerSiedl = it
+                                viewModel.searchSongsBySiedl(it)
+                            },
+                            label = { Text("Numer Siedlecki") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        SearchSuggestionList(
+                            results = siedlSearchResults,
+                            onSuggestionClick = onSuggestionClick,
+                            viewModel = viewModel
+                        )
+                    }
+
+                    Column {
+                        OutlinedTextField(
+                            value = numerSak,
+                            onValueChange = {
+                                numerSak = it
+                                viewModel.searchSongsBySak(it)
+                            },
+                            label = { Text("Numer ŚAK") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        SearchSuggestionList(
+                            results = sakSearchResults,
+                            onSuggestionClick = onSuggestionClick,
+                            viewModel = viewModel
+                        )
+                    }
+
+                    Column {
+                        OutlinedTextField(
+                            value = numerDn,
+                            onValueChange = {
+                                numerDn = it
+                                viewModel.searchSongsByDn(it)
+                            },
+                            label = { Text("Numer DN") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        SearchSuggestionList(
+                            results = dnSearchResults,
+                            onSuggestionClick = onSuggestionClick,
+                            viewModel = viewModel
+                        )
                     }
                 }
 
                 Spacer(Modifier.height(8.dp))
                 OutlinedTextField(opis, { opis = it }, label = { Text("Opis") }, modifier = Modifier.fillMaxWidth())
+
+                if (error != null) {
+                    Text(
+                        text = error,
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.padding(top = 8.dp)
+                    )
+                }
+
                 Spacer(Modifier.height(16.dp))
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = {
@@ -813,12 +849,41 @@ private fun AddEditSongDialog(
                     Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = {
-                            onConfirm(SuggestedSong(numer, piesn, opis, moment), moment, existingSong)
-                            onDismiss()
+                            onConfirm(piesn, numerSiedl, numerSak, numerDn, opis, moment, existingSong)
                         },
                         enabled = isPiesnValid
                     ) { Text("Zapisz") }
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SearchSuggestionList(
+    results: List<Song>,
+    onSuggestionClick: (Song) -> Unit,
+    viewModel: DayDetailsViewModel
+) {
+    AnimatedVisibility(visible = results.isNotEmpty()) {
+        LazyColumn(
+            modifier = Modifier
+                .heightIn(max = 240.dp)
+                .fillMaxWidth()
+                .border(1.dp, MaterialTheme.colorScheme.outline)
+        ) {
+            items(
+                items = results,
+                key = { song -> "${song.tytul}-${song.numerSiedl}" }
+            ) { song ->
+                Text(
+                    text = viewModel.formatSongSuggestion(song),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable { onSuggestionClick(song) }
+                        .padding(12.dp),
+                    color = Color.LightGray
+                )
             }
         }
     }
