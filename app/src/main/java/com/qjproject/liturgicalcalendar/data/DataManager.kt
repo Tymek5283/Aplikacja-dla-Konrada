@@ -11,8 +11,8 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    // Zwiększono wersję, aby wymusić ponowne skopiowanie danych, w tym nowego pliku kategorii
-    private val currentDataVersion = 4
+    // ZMIANA: Zwiększono wersję, aby wymusić ponowne skopiowanie pliku piesni.json
+    private val currentDataVersion = 8
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)

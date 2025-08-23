@@ -110,6 +110,7 @@ fun SongContentScreen(
                             label = { Text("Numer ŚAK") },
                             modifier = Modifier.fillMaxWidth()
                         )
+                        // ZMIANA: Dodano pole do edycji numeru DN
                         OutlinedTextField(
                             value = viewModel.editableNumerDn.value,
                             onValueChange = { viewModel.onEditableFieldChange(dn = it) },

@@ -19,6 +19,7 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 
 enum class SongSortMode { Alfabetycznie, Kategoria }
+enum class SearchViewState { CATEGORY_SELECTION, SONG_LIST }
 
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
@@ -29,17 +30,19 @@ sealed class DeleteDialogState {
 data class SearchUiState(
     val query: String = "",
     val results: List<Song> = emptyList(),
-    val searchPerformed: Boolean = false,
     val isLoading: Boolean = false,
-    // Song-specific options
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
     val showAddSongDialog: Boolean = false,
     val addSongError: String? = null,
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
-    val allCategories: List<Category> = emptyList()
-)
+    val allCategories: List<Category> = emptyList(),
+    val selectedCategory: Category? = null,
+    val currentView: SearchViewState = SearchViewState.CATEGORY_SELECTION
+) {
+    val isBackButtonVisible: Boolean get() = currentView == SearchViewState.SONG_LIST
+}
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
 
@@ -48,22 +51,53 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private val _queryFlow = MutableStateFlow("")
     private var searchJob: Job? = null
-
-    // Cache for song list to avoid reading from disk on every validation
     private var allSongsCache: List<Song>? = null
 
     init {
+        loadCategories()
         _queryFlow
-            .debounce(500)
+            .debounce(300)
             .distinctUntilChanged()
-            .onEach { triggerSearch() }
+            .onEach { performSearch() }
             .launchIn(viewModelScope)
     }
 
-    fun triggerSearch() {
+    private fun loadCategories() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            val categories = repository.getCategoryList().sortedBy { it.nazwa }
+            _uiState.update { it.copy(allCategories = categories, isLoading = false) }
+        }
+    }
+
+    private fun performSearch() {
         searchJob?.cancel()
-        repository.invalidateSongCache() // Unieważnij pamięć podręczną, aby pobrać świeże dane
-        performSearch(_uiState.value.query)
+        searchJob = viewModelScope.launch {
+            if (_uiState.value.currentView != SearchViewState.SONG_LIST) return@launch
+
+            _uiState.update { it.copy(isLoading = true) }
+            val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+            val selectedCategory = _uiState.value.selectedCategory
+
+            val categoryFilteredSongs = if (selectedCategory != null) {
+                allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
+            } else {
+                allSongs
+            }
+
+            val query = _uiState.value.query.trim()
+            val finalResults = if (query.isBlank()) {
+                categoryFilteredSongs
+            } else {
+                val normalizedQuery = normalize(query)
+                categoryFilteredSongs.filter { song ->
+                    val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                    val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                    matchesTitle || matchesContent
+                }
+            }
+            _uiState.update { it.copy(results = sortSongs(finalResults), isLoading = false) }
+        }
     }
 
     fun onQueryChange(newQuery: String) {
@@ -71,67 +105,26 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _queryFlow.value = newQuery
     }
 
-    fun onSearchInTitleChange(isChecked: Boolean) {
-        if (_uiState.value.searchInTitle == isChecked || (!isChecked && !_uiState.value.searchInContent)) return
-        _uiState.update { it.copy(searchInTitle = isChecked) }
-        triggerSearch()
+    fun onCategorySelected(category: Category) {
+        repository.invalidateSongCache()
+        allSongsCache = null
+        _uiState.update { it.copy(selectedCategory = category, currentView = SearchViewState.SONG_LIST, query = "") }
+        performSearch()
     }
 
-    fun onSearchInContentChange(isChecked: Boolean) {
-        if (_uiState.value.searchInContent == isChecked || (!isChecked && !_uiState.value.searchInTitle)) return
-        _uiState.update { it.copy(searchInContent = isChecked) }
-        triggerSearch()
-    }
-
-    fun onSortModeChange(newSortMode: SongSortMode) {
-        if (_uiState.value.sortMode == newSortMode) return
-        _uiState.update { it.copy(sortMode = newSortMode) }
-        val sortedResults = sortSongs(_uiState.value.results)
-        _uiState.update { it.copy(results = sortedResults) }
-    }
-
-
-    private fun normalize(text: String?): String {
-        if (text == null) return ""
-        val withoutSpecialChars = text.replace(Regex("[^\\p{L}\\p{N}\\s]"), "")
-        return withoutSpecialChars.lowercase(Locale.getDefault())
-    }
-
-    private fun performSearch(query: String) {
-        searchJob = viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
-            val results = searchSongs(query)
-            _uiState.update { it.copy(results = results, searchPerformed = true, isLoading = false) }
+    fun onNavigateBack() {
+        _uiState.update {
+            it.copy(
+                currentView = SearchViewState.CATEGORY_SELECTION,
+                selectedCategory = null,
+                results = emptyList(),
+                query = ""
+            )
         }
     }
 
-    private fun searchSongs(query: String): List<Song> {
-        val allSongs = repository.getSongList()
-        val normalizedQuery = normalize(query)
-        val trimmedQuery = query.trim()
-        val state = _uiState.value
-
-        if (trimmedQuery.isBlank()) {
-            return sortSongs(allSongs)
-        }
-
-        val bySiedlecki = allSongs.filter { it.numerSiedl.equals(trimmedQuery, ignoreCase = true) }
-        if (bySiedlecki.isNotEmpty()) return sortSongs(bySiedlecki)
-
-        val bySak = allSongs.filter { it.numerSAK.equals(trimmedQuery, ignoreCase = true) }
-        if (bySak.isNotEmpty()) return sortSongs(bySak)
-
-        val byDn = allSongs.filter { it.numerDN.equals(trimmedQuery, ignoreCase = true) }
-        if (byDn.isNotEmpty()) return sortSongs(byDn)
-
-        // Filter by other criteria
-        val filteredSongs = allSongs.filter { song ->
-            val matchesTitle = state.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-            val matchesContent = state.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-            matchesTitle || matchesContent
-        }
-
-        return sortSongs(filteredSongs)
+    fun onResetToRoot() {
+        onNavigateBack()
     }
 
     private fun sortSongs(songs: List<Song>): List<Song> {
@@ -143,17 +136,41 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         }
     }
 
+    private fun normalize(text: String?): String {
+        if (text == null) return ""
+        val withoutSpecialChars = text.replace(Regex("[^\\p{L}\\p{N}\\s]"), "")
+        return withoutSpecialChars.lowercase(Locale.getDefault())
+    }
+
+    fun onSearchInTitleChange(isChecked: Boolean) {
+        if (_uiState.value.searchInTitle == isChecked || (!isChecked && !_uiState.value.searchInContent)) return
+        _uiState.update { it.copy(searchInTitle = isChecked) }
+        performSearch()
+    }
+
+    fun onSearchInContentChange(isChecked: Boolean) {
+        if (_uiState.value.searchInContent == isChecked || (!isChecked && !_uiState.value.searchInTitle)) return
+        _uiState.update { it.copy(searchInContent = isChecked) }
+        performSearch()
+    }
+
+    fun onSortModeChange(newSortMode: SongSortMode) {
+        if (_uiState.value.sortMode == newSortMode) return
+        _uiState.update { it.copy(sortMode = newSortMode) }
+        _uiState.update { it.copy(results = sortSongs(it.results)) }
+    }
+
     fun onAddSongClicked() {
         viewModelScope.launch {
-            allSongsCache = repository.getSongList() // Load song list when dialog is about to be shown
-            val allCategories = repository.getCategoryList()
-            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null, allCategories = allCategories) }
+            repository.invalidateSongCache()
+            allSongsCache = repository.getSongList()
+            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null) }
         }
     }
 
     fun onDismissAddSongDialog() {
         _uiState.update { it.copy(showAddSongDialog = false, addSongError = null) }
-        allSongsCache = null // Clear cache
+        allSongsCache = null
     }
 
     fun validateSongInput(title: String, siedl: String, sak: String, dn: String) {
@@ -167,22 +184,18 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Pieśń o tym tytule już istnieje.") }
             return
         }
-
         if (trimmedSiedl.isNotBlank() && songs.any { it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (Siedlecki) już istnieje.") }
             return
         }
-
         if (trimmedSak.isNotBlank() && songs.any { it.numerSAK.equals(trimmedSak, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK) już istnieje.") }
             return
         }
-
         if (trimmedDn.isNotBlank() && songs.any { it.numerDN.equals(trimmedDn, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (DN) już istnieje.") }
             return
         }
-
         _uiState.update { it.copy(addSongError = null) }
     }
 
@@ -197,16 +210,12 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
             return
         }
-
         if (trimmedSiedl.isBlank() && trimmedSak.isBlank() && trimmedDn.isBlank()) {
             _uiState.update { it.copy(addSongError = "Przynajmniej jeden numer jest wymagany.") }
             return
         }
-
         validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn)
-        if (_uiState.value.addSongError != null) {
-            return
-        }
+        if (_uiState.value.addSongError != null) return
 
         viewModelScope.launch {
             val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
@@ -226,14 +235,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             repository.saveSongList(songs).fold(
                 onSuccess = {
                     onDismissAddSongDialog()
-                    triggerSearch() // Refresh the list
+                    performSearch()
                 },
                 onFailure = { error ->
-                    _uiState.update {
-                        it.copy(
-                            addSongError = "Błąd zapisu: ${error.localizedMessage}"
-                        )
-                    }
+                    _uiState.update { it.copy(addSongError = "Błąd zapisu: ${error.localizedMessage}") }
                 }
             )
         }
@@ -259,10 +264,9 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         if (currentState is DeleteDialogState.ConfirmOccurrences) {
             viewModelScope.launch {
                 repository.deleteSong(currentState.song, deleteOccurrences).onSuccess {
-                    allSongsCache = null // Invalidate cache after deletion
-                    triggerSearch() // Refresh list on success
+                    allSongsCache = null
+                    performSearch()
                 }
-                // Dismiss dialog regardless of success or failure
                 onDismissDeleteDialog()
             }
         }

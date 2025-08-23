@@ -1,5 +1,3 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainTabsScreen.kt
-// Opis: Główny ekran aplikacji zawierający dolny pasek nawigacyjny i zarządzający przełączaniem między zakładkami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
 package com.qjproject.liturgicalcalendar.ui.main
 
 import android.app.Activity
@@ -74,9 +72,8 @@ internal fun MainTabsScreen(navController: NavController) {
     val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
     val searchViewModel = viewModel<SearchViewModel>(factory = SearchViewModelFactory(context))
 
-
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
-    val pagerState = rememberPagerState(initialPage = 1)
+    val pagerState = rememberPagerState(initialPage = 0) // Start on Search screen
     val coroutineScope = rememberCoroutineScope()
 
     val browseUiState by browseViewModel.uiState.collectAsState()
@@ -97,14 +94,19 @@ internal fun MainTabsScreen(navController: NavController) {
                     browseViewModel.onBackPress()
                 }
             }
-            else -> {}
+            isSearchScreenActive && searchUiState.isBackButtonVisible -> {
+                searchViewModel.onNavigateBack()
+            }
+            else -> {
+                // Allow default back behavior for other cases
+            }
         }
     }
 
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> "Wyszukaj pieśń"
+                Screen.Search -> if(searchUiState.isBackButtonVisible) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wybierz kategorię"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -112,8 +114,14 @@ internal fun MainTabsScreen(navController: NavController) {
             }
             MainTopAppBar(
                 title = title,
-                showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
-                onBackClick = { browseViewModel.onBackPress() },
+                showBackButton = (isBrowseScreenActive && browseUiState.isBackArrowVisible) || (isSearchScreenActive && searchUiState.isBackButtonVisible),
+                onBackClick = {
+                    if (isBrowseScreenActive) {
+                        browseViewModel.onBackPress()
+                    } else if (isSearchScreenActive) {
+                        searchViewModel.onNavigateBack()
+                    }
+                },
                 isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
                 showEditButton = isBrowseScreenActive,
                 onEditClick = { browseViewModel.onEnterEditMode() },
@@ -121,7 +129,7 @@ internal fun MainTabsScreen(navController: NavController) {
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
-                isSearchScreenActive = isSearchScreenActive,
+                isSearchScreenActive = isSearchScreenActive && searchUiState.currentView == com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewState.SONG_LIST,
                 searchActions = {
                     var showSearchOptions by remember { mutableStateOf(false) }
                     Box {
@@ -149,7 +157,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                 Column(Modifier.selectableGroup()) {
                                     SongSortMode.values().forEach { mode ->
                                         DropdownMenuItem(
-                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else mode.name) },
+                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else "Alfabetycznie") },
                                             onClick = {
                                                 searchViewModel.onSortModeChange(mode)
                                                 showSearchOptions = false
@@ -218,6 +226,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                     when (screen) {
                                         is Screen.Browse -> browseViewModel.onResetToRoot()
                                         is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
+                                        is Screen.Search -> searchViewModel.onResetToRoot()
                                         else -> {}
                                     }
                                 } else {
@@ -243,7 +252,7 @@ internal fun MainTabsScreen(navController: NavController) {
             count = bottomNavItems.size,
             state = pagerState,
             modifier = Modifier.padding(innerPadding),
-            userScrollEnabled = !browseUiState.isEditMode
+            userScrollEnabled = !browseUiState.isEditMode && !searchUiState.isBackButtonVisible
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen(

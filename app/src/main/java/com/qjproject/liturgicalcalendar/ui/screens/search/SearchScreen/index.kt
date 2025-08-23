@@ -1,6 +1,3 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/index.kt
-// Opis: Główny plik komponentu SearchScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów, zarządzając stanem i logiką nawigacji.
-
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.foundation.layout.Box
@@ -36,7 +33,7 @@ fun SearchScreen(
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
-                viewModel.triggerSearch()
+                // Refresh data on resume
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
@@ -79,33 +76,34 @@ fun SearchScreen(
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        Column(
-            modifier = Modifier.fillMaxSize()
-        ) {
-            SearchBar(
-                query = uiState.query,
-                onQueryChange = viewModel::onQueryChange
-            )
-
-            Divider()
-
+        Column(modifier = Modifier.fillMaxSize()) {
             when {
                 uiState.isLoading -> {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         CircularProgressIndicator()
                     }
                 }
-
-                uiState.searchPerformed && uiState.results.isEmpty() -> {
-                    NoResults()
-                }
-
-                else -> {
-                    ResultsList(
-                        results = uiState.results,
-                        onNavigateToSong = onNavigateToSong,
-                        onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                uiState.currentView == SearchViewState.CATEGORY_SELECTION -> {
+                    CategoryList(
+                        categories = uiState.allCategories,
+                        onCategoryClick = { viewModel.onCategorySelected(it) }
                     )
+                }
+                uiState.currentView == SearchViewState.SONG_LIST -> {
+                    SearchBar(
+                        query = uiState.query,
+                        onQueryChange = viewModel::onQueryChange
+                    )
+                    Divider()
+                    if (uiState.results.isEmpty() && uiState.query.isNotBlank()) {
+                        NoResults()
+                    } else {
+                        ResultsList(
+                            results = uiState.results,
+                            onNavigateToSong = onNavigateToSong,
+                            onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                        )
+                    }
                 }
             }
         }

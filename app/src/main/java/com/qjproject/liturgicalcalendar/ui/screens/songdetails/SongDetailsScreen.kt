@@ -103,6 +103,7 @@ fun SongDetailsScreen(
                     ) {
                         InfoRow(label = "Siedlecki:", value = song.numerSiedl)
                         InfoRow(label = "ŚAK:", value = song.numerSAK)
+                        // ZMIANA: Dodano wyświetlanie numeru DN
                         InfoRow(label = "DN:", value = song.numerDN)
                         InfoRow(label = "Kategoria:", value = song.kategoria)
 

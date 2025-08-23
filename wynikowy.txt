@@ -28,7 +28,7 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
         "tekst": "Antyfona: Oto Pan Bóg przyjdzie, * z rzeszą świętych nam przybędzie; * wielka światłość w dzień ów będzie, * alleluja, alleluja.lub tekst łaciński Ecce Dominus veniet - p. nr \n706. Antyfonę można przeplatać wersetami z Ap \n21.\n1. O Miasto Święte, Jeruzalem, zstępujące z nieba, mające chwałę Boga, * źródło twego światła podobne do kamienia drogocennego, * jakby do jaspisu o przejrzystości kryształu. Ant.\n2. Miastu nie trzeba słońca ni księżyca, by mu świeciły, * bo chwała Boga je oświetliła * a jego lampą Baranek. Ant.\n3. I w jego świetle będą chodziły narody * i wniosą do niego królowie ziemi swój przepych * i za dnia bramy jego nie będą zamknięte, bo już nie będzie tam nocy. Ant.\n4. I odtąd nocy już nie będzie, a nie potrzeba im światła lampy i światła słońca, * bo Pan Bóg będzie świecił nad nimi * i będą królować na wieki wieków. Ant.",
         "numerSiedl": "3",
         "numerSAK": "33",
-        "numerDN": "",
+        "numerDN": "357",
         "kategoria": "Adwent",
         "kategoriaSkr": "Adw"
     },
@@ -37,7 +37,7 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
         "tekst": "Refren: Oto Pan przybywa, * prostujcie drogi swego życia.\n1. Pośpiesz nam, Boże, z pomocą, * wyzwól nas z pęt grzechów naszych. * Pośpiesz, a dłużej nie zwlekaj, * wzbudź w nas potęgę swą na nowo. \nRef.\n2. O Boże, tchnij nowe życie * i okaż swe miłosierdzie. * Ciebie czekamy z tęsknotą, * obiecanego Zbawiciela. \nRef.\n3. Oto nadchodzi nasz Zbawca, * aby panować nad nami. * Mocą swej wielkiej ofiary, * On zgładzi grzechy całej ziemi. \nRef.\n4. Ukaż nam blask Twojej drogi, * którą do Ciebie idziemy. * Prawdy światłością nas oświeć, * byśmy zdążali do Królestwa. \nRef.",
         "numerSiedl": "4",
         "numerSAK": "",
-        "numerDN": "",
+        "numerDN": "359",
         "kategoria": "Adwent",
         "kategoriaSkr": "Adw"
     },
@@ -82,7 +82,7 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
         "tekst": "1. Stwórco gwiaździstych przestworzy * i wieczne światło wierzących, * Chryste, coś wszystkich odkupił, * wysłuchaj naszą modlitwę.\n2. Zdjęty litością nad światem, * któremu śmierć zagrażała, * Jego zbawieniem się stałeś * i uzdrowiłeś z niemocy.\n3. Świat już pogrążał się w mroku, * lecz Ty, jak słońce promienne, * z łona Dziewicy wyszedłeś, * zrodzony przez Nią w czystości.\n4. Byty niebiańskie i ziemskie, * posłuszne Twoim rozkazom, * hołd Ci składają w pokorze * i sławią Twoją potęgę.\n5. Ciebie, Najświętszy, prosimy: * nim przyjdziesz sądzić sumienia, * obroń nas w życiu doczesnym * od przewrotności szatana.\n6. Chryste, nasz Królu łagodny, * niech Tobie z Ojcem i Duchem * będzie podzięka i chwała * przez całą wieczność bez kresu. Amen.",
         "numerSiedl": "9",
         "numerSAK": "",
-        "numerDN": "",
+        "numerDN": "371",
         "kategoria": "Adwent",
         "kategoriaSkr": "Adw"
     },
@@ -1709,8 +1709,8 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    // Zwiększono wersję, aby wymusić ponowne skopiowanie danych, w tym nowego pliku kategorii
-    private val currentDataVersion = 4
+    // ZMIANA: Zwiększono wersję, aby wymusić ponowne skopiowanie pliku piesni.json
+    private val currentDataVersion = 6
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -2648,7 +2648,10 @@ internal object LiturgicalDaySupplement {
         val dayOfWeekName = date.dayOfWeek.getDisplayName(TextStyle.FULL, Locale("pl"))
             .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
 
-        val newEventName = "$dayOfWeekName ${weekNumber}. tygodnia $periodName"
+        // --- POCZĄTEK ZMIANY ---
+        // Poprawiono format nazwy dnia, aby był zgodny ze schematem: [numer] [dzień] [okres].
+        val newEventName = "$weekNumber $dayOfWeekName $periodName"
+        // --- KONIEC ZMIANY ---
         Log.d(TAG, "Generated event name: '$newEventName'")
 
         val color = when (season) {
@@ -2794,7 +2797,10 @@ internal fun calculateWeekInOrdinaryTime(currentDate: LocalDate, pentecostSunday
     val weekFields = WeekFields.of(Locale.GERMANY)
     val pentecostWeekOfYear = pentecostSunday.get(weekFields.weekOfWeekBasedYear())
     val currentWeekOfYear = currentDate.get(weekFields.weekOfWeekBasedYear())
-    return currentWeekOfYear - pentecostWeekOfYear + 10
+    // --- POCZĄTEK ZMIANY ---
+    // Poprawiono obliczenia tygodnia, aby usunąć błąd przesunięcia o 1.
+    return currentWeekOfYear - pentecostWeekOfYear + 9
+    // --- KONIEC ZMIANY ---
 }
 
 -
@@ -5075,11 +5081,15 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 enum class LiturgicalRank(val value: Int) {
+    // --- POCZĄTEK ZMIANY ---
+    // Zmieniono kolejność, aby generowany dzień powszedni (WEEKDAY)
+    // pojawiał się przed wspomnieniami na liście wydarzeń.
     SOLEMNITY(1),
     FEAST(2),
-    MEMORIAL_OBLIGATORY(3),
-    WEEKDAY(4), // Dzień powszedni ma wyższą rangę niż wspomnienie dowolne
+    WEEKDAY(3),
+    MEMORIAL_OBLIGATORY(4),
     MEMORIAL_OPTIONAL(5)
+    // --- KONIEC ZMIANY ---
 }
 
 @Serializable
@@ -5727,7 +5737,7 @@ class CalendarViewModelFactory(private val context: Context) : ViewModelProvider
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarViewModel\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/calendar/CalendarViewModel/CalendarViewModel.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/calendar/CalendarViewModel/index.kt
 // Opis: ViewModel dla ekranu kalendarza. Zarządza stanem UI, logiką pobierania i przetwarzania danych liturgicznych na dany miesiąc i rok oraz obsługuje nawigację do szczegółów dnia.
 package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
 
@@ -5869,37 +5879,41 @@ class CalendarViewModel(
         }
     }
 
+    // --- POCZĄTEK ZMIANY ---
+    // Zastąpiono poprzednią, błędną logikę wyszukiwania nową, w pełni rekursywną funkcją.
     private fun findFilePathsForEvent(name: String): List<String> {
+        val searchName = name.replace(":", "").trim()
         val results = mutableListOf<String>()
-        val dataDir = File(fileSystemRepo.context.filesDir, "data")
-        val datowaneDir = File(fileSystemRepo.context.filesDir, "Datowane")
+        val directoriesToSearch = listOf(
+            File(fileSystemRepo.context.filesDir, "data"),
+            File(fileSystemRepo.context.filesDir, "Datowane")
+        )
 
-        findPathsRecursiveHelper(dataDir, name, results)
-        findPathsRecursiveHelper(datowaneDir, name, results)
+        directoriesToSearch.forEach { startDir ->
+            if (startDir.exists() && startDir.isDirectory) {
+                startDir.walkTopDown().forEach { file ->
+                    val itemName = if (file.isDirectory) file.name else file.nameWithoutExtension
 
-        return results.distinct().sorted()
-    }
-
-    private fun findPathsRecursiveHelper(directory: File, name: String, results: MutableList<String>) {
-        if (!directory.exists() || !directory.isDirectory) return
-
-        val items = directory.listFiles() ?: return
-
-        for (item in items) {
-            val itemNameWithoutExt = if (item.isDirectory) item.name else item.nameWithoutExtension
-            if (itemNameWithoutExt.equals(name.replace(":", ""), ignoreCase = true)) {
-                if (item.isDirectory) {
-                    item.walk()
-                        .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
-                        .forEach { file ->
-                            results.add(file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
+                    if (itemName.equals(searchName, ignoreCase = true)) {
+                        if (file.isDirectory) {
+                            file.walkTopDown()
+                                .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
+                                .forEach { jsonFile ->
+                                    val relativePath = jsonFile.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
+                                    results.add(relativePath)
+                                }
+                        } else if (file.isFile && file.extension.equals("json", ignoreCase = true)) {
+                            val relativePath = file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
+                            results.add(relativePath)
                         }
-                } else if (item.isFile && item.extension.equals("json", ignoreCase = true)) {
-                    results.add(item.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/"))
+                    }
                 }
             }
         }
+        return results.distinct().sorted()
     }
+    // --- KONIEC ZMIANY ---
+
 
     fun changeMonth(amount: Long) {
         val newMonth = _uiState.value.selectedMonth.plusMonths(amount)
@@ -8313,7 +8327,8 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     private fun searchSongs(query: String): List<Song> {
-        val allSongs = repository.getSongList()
+        // ZMIANA: Filtr uwzględnia teraz pieśni, które mają jakikolwiek numer (w tym DN)
+        val allSongs = repository.getSongList().filter { it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank() }
         val normalizedQuery = normalize(query)
         val trimmedQuery = query.trim()
         val state = _uiState.value
@@ -8328,6 +8343,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         val bySak = allSongs.filter { it.numerSAK.equals(trimmedQuery, ignoreCase = true) }
         if (bySak.isNotEmpty()) return sortSongs(bySak)
 
+        // ZMIANA: Dodano wyszukiwanie po numerze DN
         val byDn = allSongs.filter { it.numerDN.equals(trimmedQuery, ignoreCase = true) }
         if (byDn.isNotEmpty()) return sortSongs(byDn)
 
@@ -9407,6 +9423,7 @@ fun SongContentScreen(
                             label = { Text("Numer ŚAK") },
                             modifier = Modifier.fillMaxWidth()
                         )
+                        // ZMIANA: Dodano pole do edycji numeru DN
                         OutlinedTextField(
                             value = viewModel.editableNumerDn.value,
                             onValueChange = { viewModel.onEditableFieldChange(dn = it) },
@@ -9843,6 +9860,7 @@ fun SongDetailsScreen(
                     ) {
                         InfoRow(label = "Siedlecki:", value = song.numerSiedl)
                         InfoRow(label = "ŚAK:", value = song.numerSAK)
+                        // ZMIANA: Dodano wyświetlanie numeru DN
                         InfoRow(label = "DN:", value = song.numerDN)
                         InfoRow(label = "Kategoria:", value = song.kategoria)
 
@@ -14464,7 +14482,9 @@ Aplikacja-dla-Konrada/
                                     class-fq-name-to-source.tab.keystream
                                     class-fq-name-to-source.tab.keystream.len
                                     class-fq-name-to-source.tab.len
+                                    class-fq-name-to-source.tab.values
                                     class-fq-name-to-source.tab.values.at
+                                    class-fq-name-to-source.tab.values.s
                                     class-fq-name-to-source.tab_i
                                     class-fq-name-to-source.tab_i.len
                                     constants.tab
@@ -14633,7 +14653,7 @@ Aplikacja-dla-Konrada/
                             app-debug-androidTest.apk
                             output-metadata.json
                     debug/
-                        Laudate.apk
+                        app-debug.apk
                         output-metadata.json
                 logs/
                     manifest-merger-debug-report.txt
