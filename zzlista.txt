@@ -1,4 +1,3 @@
-1. app/src/main/java/com/qjproject/liturgicalcalendar/data/FileSystemRepository.kt - 489
 2. app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen.kt - 482
 3. app/src/main/java/com/qjproject/liturgicalcalendar/MainActivity.kt - 429
 4. app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreen.kt - 342
