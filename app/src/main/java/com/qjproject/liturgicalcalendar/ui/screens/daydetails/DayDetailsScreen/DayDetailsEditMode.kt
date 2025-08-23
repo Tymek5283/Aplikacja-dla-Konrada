@@ -1,7 +1,6 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsEditMode.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsEditMode.kt
 // Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie i obsługę zawartości ekranu DayDetailsScreen w trybie edycji.
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
@@ -24,13 +23,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DialogState
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.ReorderableListItem
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
-import com.qjproject.liturgicalcalendar.ui.theme.VividRed
 import org.burnoutcrew.reorderable.ReorderableItem
 import org.burnoutcrew.reorderable.detectReorder
 import org.burnoutcrew.reorderable.rememberReorderableLazyListState
@@ -265,7 +265,7 @@ fun EditableReadingItem(
                 Icon(Icons.Default.Edit, "Edytuj")
             }
             IconButton(onClick = onDeleteClick) {
-                Icon(Icons.Default.Delete, "Usuń", tint = VividRed)
+                Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
             }
         }
     }
@@ -333,7 +333,7 @@ fun EditableSongItem(
                 Icon(Icons.Default.Edit, "Edytuj")
             }
             IconButton(onClick = onDeleteClick) {
-                Icon(Icons.Default.Delete, "Usuń", tint = VividRed)
+                Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
             }
         }
     }

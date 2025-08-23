@@ -1,4 +1,7 @@
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Color.kt
+// Opis: Plik ten centralizuje definicje wszystkich kolorów używanych w aplikacji, co ułatwia zarządzanie motywem i zapewnia spójność wizualną.
 package com.qjproject.liturgicalcalendar.ui.theme
+
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)

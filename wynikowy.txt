@@ -6066,452 +6066,10 @@ private fun EventListItem(
 }
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel.kt
-treść:
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
-
-import android.content.Context
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.snapshotFlow
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
-import com.qjproject.liturgicalcalendar.data.DayData
-import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
-import com.qjproject.liturgicalcalendar.data.Reading
-import com.qjproject.liturgicalcalendar.data.Song
-import com.qjproject.liturgicalcalendar.data.SuggestedSong
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.flow.debounce
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
-import org.burnoutcrew.reorderable.ItemPosition
-
-sealed class DialogState {
-    object None : DialogState()
-    data class ConfirmDelete(val item: Any, val description: String) : DialogState()
-    data class AddEditSong(
-        val moment: String,
-        val existingSong: SuggestedSong? = null,
-        val error: String? = null
-    ) : DialogState()
-}
-
-data class DayDetailsUiState(
-    val isLoading: Boolean = true,
-    val dayData: DayData? = null,
-    val error: String? = null,
-    val isEditMode: Boolean = false,
-    val hasChanges: Boolean = false,
-    val showConfirmExitDialog: Boolean = false,
-    val activeDialog: DialogState = DialogState.None,
-    val isReadingsSectionExpanded: Boolean = true,
-    val isSongsSectionExpanded: Boolean = true,
-    val expandedReadings: Set<Int> = emptySet(),
-    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
-)
-
-val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
-    "wejscie" to "Wejście",
-    "ofiarowanie" to "Ofiarowanie",
-    "komunia" to "Komunia",
-    "uwielbienie" to "Uwielbienie",
-    "rozeslanie" to "Rozesłanie",
-    "ogolne" to "Ogólne"
-)
-
-sealed class ReorderableListItem {
-    data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
-    data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
-}
-
-class DayDetailsViewModel(
-    private val dayId: String,
-    private val repository: FileSystemRepository
-) : ViewModel() {
-
-    private val _uiState = MutableStateFlow(DayDetailsUiState())
-    val uiState: StateFlow<DayDetailsUiState> = _uiState.asStateFlow()
-
-    private val _songTitleSearchQuery = MutableStateFlow("")
-    val songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
-
-    private val _siedlSearchQuery = MutableStateFlow("")
-    val siedlSearchResults = MutableStateFlow<List<Song>>(emptyList())
-    private val _sakSearchQuery = MutableStateFlow("")
-    val sakSearchResults = MutableStateFlow<List<Song>>(emptyList())
-    private val _dnSearchQuery = MutableStateFlow("")
-    val dnSearchResults = MutableStateFlow<List<Song>>(emptyList())
-
-    var editableDayData: MutableState<DayData?> = mutableStateOf(null)
-        private set
-
-    val groupedSongs: StateFlow<Map<String, List<SuggestedSong>>> = _uiState.map { state ->
-        state.dayData?.piesniSugerowane
-            .orEmpty()
-            .filterNotNull()
-            .groupBy { it.moment }
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
-
-    val reorderableSongList: StateFlow<List<ReorderableListItem>> =
-        snapshotFlow { editableDayData.value }
-            .map { dayData: DayData? ->
-                val items = mutableListOf<ReorderableListItem>()
-                val songsByMoment =
-                    dayData?.piesniSugerowane?.filterNotNull()?.groupBy { it.moment } ?: emptyMap()
-                songMomentOrderMap.forEach { (momentKey, momentName) ->
-                    items.add(ReorderableListItem.HeaderItem(momentKey, momentName))
-                    songsByMoment[momentKey]?.forEach { song ->
-                        items.add(ReorderableListItem.SongItem(song))
-                    }
-                }
-                items
-            }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
-
-
-    init {
-        loadDayData()
-        observeSearchQueries()
-    }
-
-    private fun observeSearchQueries() {
-        viewModelScope.launch {
-            _songTitleSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
-                if (query.length < 2) {
-                    songTitleSearchResults.value = emptyList()
-                } else {
-                    songTitleSearchResults.value = repository.getSongList().filter {
-                        it.tytul.contains(query, ignoreCase = true) &&
-                                (it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank())
-                    }.take(10)
-                }
-            }
-        }
-        viewModelScope.launch {
-            _siedlSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
-                if (query.isBlank()) {
-                    siedlSearchResults.value = emptyList()
-                } else {
-                    siedlSearchResults.value = repository.getSongList().filter {
-                        it.numerSiedl.startsWith(query, ignoreCase = true)
-                    }.take(10)
-                }
-            }
-        }
-        viewModelScope.launch {
-            _sakSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
-                if (query.isBlank()) {
-                    sakSearchResults.value = emptyList()
-                } else {
-                    sakSearchResults.value = repository.getSongList().filter {
-                        it.numerSAK.startsWith(query, ignoreCase = true)
-                    }.take(10)
-                }
-            }
-        }
-        viewModelScope.launch {
-            _dnSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
-                if (query.isBlank()) {
-                    dnSearchResults.value = emptyList()
-                } else {
-                    dnSearchResults.value = repository.getSongList().filter {
-                        it.numerDN.startsWith(query, ignoreCase = true)
-                    }.take(10)
-                }
-            }
-        }
-    }
-
-    fun loadDayData() {
-        viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
-            repository.invalidateSongCache()
-            val data = repository.getDayData(dayId)
-            if (data != null) {
-                _uiState.update { it.copy(isLoading = false, dayData = data) }
-            } else {
-                _uiState.update { it.copy(isLoading = false, error = "Nie udało się wczytać danych dla tego dnia.") }
-            }
-        }
-    }
-
-    fun onEnterEditMode() {
-        editableDayData.value = _uiState.value.dayData?.copy()
-        _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
-    }
-
-    fun onTryExitEditMode() {
-        if (_uiState.value.hasChanges) {
-            _uiState.update { it.copy(showConfirmExitDialog = true) }
-        } else {
-            onExitEditMode(save = false)
-        }
-    }
-
-    fun onExitEditMode(save: Boolean) {
-        viewModelScope.launch {
-            if (save && _uiState.value.hasChanges) {
-                val dataToSave = editableDayData.value
-                if (dataToSave != null) {
-                    repository.saveDayData(dayId, dataToSave).onSuccess {
-                        _uiState.update { currentState -> currentState.copy(dayData = dataToSave) }
-                    }
-                }
-            }
-            _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false) }
-            editableDayData.value = null
-            loadDayData()
-        }
-    }
-
-    fun dismissConfirmExitDialog() {
-        _uiState.update { it.copy(showConfirmExitDialog = false) }
-    }
-
-    fun showDialog(dialogState: DialogState) { _uiState.update { it.copy(activeDialog = dialogState) } }
-    fun dismissDialog() { _uiState.update { it.copy(activeDialog = DialogState.None) } }
-
-    fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
-    fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
-
-    fun toggleReading(index: Int) {
-        _uiState.update {
-            val updatedSet = it.expandedReadings.toMutableSet()
-            if (updatedSet.contains(index)) updatedSet.remove(index) else updatedSet.add(index)
-            it.copy(expandedReadings = updatedSet)
-        }
-    }
-
-    fun collapseReading(index: Int) {
-        _uiState.update {
-            val updatedSet = it.expandedReadings.toMutableSet()
-            updatedSet.remove(index)
-            it.copy(expandedReadings = updatedSet)
-        }
-    }
-
-    fun toggleSongMoment(moment: String) {
-        _uiState.update {
-            val updatedSet = it.expandedSongMoments.toMutableSet()
-            if (updatedSet.contains(moment)) updatedSet.remove(moment) else updatedSet.add(moment)
-            it.copy(expandedSongMoments = updatedSet)
-        }
-    }
-
-    fun getFullSong(suggestedSong: SuggestedSong, onResult: (Song?) -> Unit) {
-        viewModelScope.launch {
-            val song = repository.getSong(suggestedSong.piesn, suggestedSong.numer, null, null)
-            onResult(song)
-        }
-    }
-
-    private fun updateEditableData(transform: (DayData) -> DayData) {
-        editableDayData.value?.let {
-            editableDayData.value = transform(it)
-            _uiState.update { state -> state.copy(hasChanges = true) }
-        }
-    }
-
-    fun addOrUpdateReading(reading: Reading, index: Int?) {
-        updateEditableData { currentData ->
-            val readings = currentData.czytania.toMutableList()
-            if (index != null && index in readings.indices) {
-                readings[index] = reading
-            } else {
-                readings.add(reading)
-            }
-            currentData.copy(czytania = readings)
-        }
-    }
-
-    fun deleteItem(item: Any) {
-        when (item) {
-            is Reading -> {
-                updateEditableData { currentData ->
-                    currentData.copy(czytania = currentData.czytania - item)
-                }
-            }
-            is SuggestedSong -> {
-                updateEditableData { currentData ->
-                    currentData.copy(piesniSugerowane = currentData.piesniSugerowane.orEmpty() - item)
-                }
-            }
-        }
-        dismissDialog()
-    }
-
-    fun reorderReadings(from: Int, to: Int) {
-        updateEditableData { currentData ->
-            val reorderedList = currentData.czytania.toMutableList().apply {
-                add(to, removeAt(from))
-            }
-            currentData.copy(czytania = reorderedList)
-        }
-    }
-
-    fun reorderSongs(from: ItemPosition, to: ItemPosition) {
-        updateEditableData { currentData ->
-            val currentFlatList = reorderableSongList.value.toMutableList()
-
-            if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
-                return@updateEditableData currentData
-            }
-
-            val movedItem = currentFlatList.removeAt(from.index)
-            currentFlatList.add(to.index, movedItem)
-
-            val newPiesniSugerowane = mutableListOf<SuggestedSong>()
-            var currentMoment: String? = null
-            for (item in currentFlatList) {
-                when (item) {
-                    is ReorderableListItem.HeaderItem -> {
-                        currentMoment = item.momentKey
-                    }
-                    is ReorderableListItem.SongItem -> {
-                        currentMoment?.let { moment ->
-                            newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
-                        }
-                    }
-                }
-            }
-
-            currentData.copy(piesniSugerowane = newPiesniSugerowane)
-        }
-    }
-
-    fun addOrUpdateSong(
-        title: String,
-        siedl: String,
-        sak: String,
-        dn: String,
-        opis: String,
-        moment: String,
-        originalSong: SuggestedSong?
-    ) {
-        viewModelScope.launch {
-            val trimmedTitle = title.trim()
-            val trimmedSiedl = siedl.trim()
-            val trimmedSak = sak.trim()
-            val trimmedDn = dn.trim()
-
-            val songMatches = repository.getSongList().filter { it.tytul.equals(trimmedTitle, ignoreCase = true) }
-
-            val perfectMatch = songMatches.find {
-                it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
-                        it.numerSAK.equals(trimmedSak, ignoreCase = true) &&
-                        it.numerDN.equals(trimmedDn, ignoreCase = true)
-            }
-
-            if (perfectMatch == null) {
-                val error = when {
-                    songMatches.isEmpty() -> "Nie znaleziono pieśni o podanym tytule."
-                    else -> "Numery nie pasują do pieśni o tym tytule. Wybierz pieśń z sugestii, aby automatycznie uzupełnić pola."
-                }
-                _uiState.update {
-                    val currentDialog = it.activeDialog as? DialogState.AddEditSong
-                    it.copy(activeDialog = currentDialog?.copy(error = error) ?: DialogState.None)
-                }
-                return@launch
-            }
-
-            val newSuggestedSong = SuggestedSong(
-                numer = trimmedSiedl,
-                piesn = trimmedTitle,
-                opis = opis.trim(),
-                moment = moment
-            )
-
-            updateEditableData { currentData ->
-                val songs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
-                if (originalSong != null) {
-                    val index = songs.indexOf(originalSong)
-                    if (index != -1) {
-                        songs[index] = newSuggestedSong
-                    } else {
-                        songs.add(newSuggestedSong)
-                    }
-                } else {
-                    songs.add(newSuggestedSong)
-                }
-                currentData.copy(piesniSugerowane = songs)
-            }
-            dismissDialog()
-        }
-    }
-
-    fun searchSongsByTitle(query: String) {
-        _songTitleSearchQuery.value = query
-        if (query.length < 2) songTitleSearchResults.value = emptyList()
-    }
-
-    fun searchSongsBySiedl(query: String) {
-        _siedlSearchQuery.value = query
-        if (query.isBlank()) siedlSearchResults.value = emptyList()
-    }
-
-    fun searchSongsBySak(query: String) {
-        _sakSearchQuery.value = query
-        if (query.isBlank()) sakSearchResults.value = emptyList()
-    }
-
-    fun searchSongsByDn(query: String) {
-        _dnSearchQuery.value = query
-        if (query.isBlank()) dnSearchResults.value = emptyList()
-    }
-
-    fun formatSongSuggestion(song: Song): String {
-        val numberInfo = buildList {
-            if (song.numerSiedl.isNotBlank()) add("Siedl: ${song.numerSiedl}")
-            if (song.numerSAK.isNotBlank()) add("ŚAK: ${song.numerSAK}")
-            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
-        }.joinToString(", ")
-
-        return if (numberInfo.isNotEmpty()) {
-            "${song.tytul} ($numberInfo)"
-        } else {
-            song.tytul
-        }
-    }
-
-    fun clearAllSearchResults() {
-        songTitleSearchResults.value = emptyList()
-        siedlSearchResults.value = emptyList()
-        sakSearchResults.value = emptyList()
-        dnSearchResults.value = emptyList()
-        _songTitleSearchQuery.value = ""
-        _siedlSearchQuery.value = ""
-        _sakSearchQuery.value = ""
-        _dnSearchQuery.value = ""
-    }
-}
-
-class DayDetailsViewModelFactory(
-    private val context: Context,
-    private val dayId: String
-) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(DayDetailsViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return DayDetailsViewModel(dayId, FileSystemRepository(context.applicationContext)) as T
-        }
-        throw IllegalArgumentException("Unknown ViewModel class")
-    }
-}
-
--
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsDialogs.kt
 treść:
 // Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsDialogs.kt
 // Opis: Plik ten centralizuje wszystkie okna dialogowe używane na ekranie DayDetailsScreen, takie jak potwierdzenia, formularze dodawania/edycji czy modale informacyjne.
-
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 
 import androidx.compose.animation.AnimatedVisibility
@@ -6948,7 +6506,6 @@ nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada
 treść:
 // Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsEditMode.kt
 // Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie i obsługę zawartości ekranu DayDetailsScreen w trybie edycji.
-
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 
 import androidx.compose.animation.AnimatedVisibility
@@ -6977,6 +6534,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.ReorderableListItem
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VividRed
 import org.burnoutcrew.reorderable.ReorderableItem
@@ -7620,7 +7179,6 @@ nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada
 treść:
 // Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/index.kt
 // Opis: Główny plik komponentu DayDetailsScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów. Zarządza nawigacją i stanem głównym ekranu.
-
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails
 
 import androidx.activity.compose.BackHandler
@@ -7642,6 +7200,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
 
 @Composable
 fun DayDetailsScreen(
@@ -7697,7 +7256,7 @@ fun DayDetailsScreen(
                 viewModel.addOrUpdateSong(title, siedl, sak, dn, opis, moment, originalSong)
             }
         )
-        else -> {}
+        is DialogState.None -> {}
     }
 
     Scaffold(
@@ -7732,486 +7291,466 @@ fun DayDetailsScreen(
 }
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen.kt
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\constants.kt
 treść:
-package com.qjproject.liturgicalcalendar.ui.screens.search
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/constants.kt
+// Opis: Plik ten zawiera stałe wartości i konfiguracje używane w obrębie komponentu DayDetails. Centralizuje definicje, które są niezmienne i współdzielone w różnych częściach logiki i UI tego ekranu.
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.selection.selectable
-import androidx.compose.foundation.selection.selectableGroup
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Clear
-import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.outlined.Article
-import androidx.compose.material.icons.outlined.MusicNote
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalLifecycleOwner
-import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.compose.ui.window.Dialog
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleEventObserver
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.qjproject.liturgicalcalendar.data.Category
+val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
+    "wejscie" to "Wejście",
+    "ofiarowanie" to "Ofiarowanie",
+    "komunia" to "Komunia",
+    "uwielbienie" to "Uwielbienie",
+    "rozeslanie" to "Rozesłanie",
+    "ogolne" to "Ogólne"
+)
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\index.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/index.kt
+// Opis: Główny plik komponentu DayDetailsViewModel. Pełni rolę "indexu", inicjując logikę ViewModelu, zarządzając stanem, operacjami na danych i interakcjami użytkownika na ekranie szczegółów dnia.
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+
+import android.content.Context
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.snapshotFlow
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.qjproject.liturgicalcalendar.data.DayData
+import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
-import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
-import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
+import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.ReorderableListItem
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.songMomentOrderMap
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import org.burnoutcrew.reorderable.ItemPosition
 
-@Composable
-fun SearchScreen(
-    viewModel: SearchViewModel,
-    onNavigateToSong: (Song) -> Unit,
-) {
-    val uiState by viewModel.uiState.collectAsState()
-    // --- POCZĄTEK ZMIANY ---
-    val lifecycleOwner = LocalLifecycleOwner.current
+class DayDetailsViewModel(
+    private val dayId: String,
+    private val repository: FileSystemRepository
+) : ViewModel() {
 
-    // Odświeża wyniki wyszukiwania po powrocie na ekran, aby odzwierciedlić zmiany
-    DisposableEffect(lifecycleOwner) {
-        val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME) {
-                viewModel.triggerSearch()
-            }
-        }
-        lifecycleOwner.lifecycle.addObserver(observer)
-        onDispose {
-            lifecycleOwner.lifecycle.removeObserver(observer)
-        }
-    }
-    // --- KONIEC ZMIANY ---
+    private val _uiState = MutableStateFlow(DayDetailsUiState())
+    val uiState: StateFlow<DayDetailsUiState> = _uiState.asStateFlow()
 
-    if (uiState.showAddSongDialog) {
-        AddSongDialog(
-            categories = uiState.allCategories,
-            error = uiState.addSongError,
-            onDismiss = { viewModel.onDismissAddSongDialog() },
-            onConfirm = { title, siedl, sak, dn, text, category ->
-                viewModel.saveNewSong(title, siedl, sak, dn, text, category)
-            },
-            onValidate = { title, siedl, sak, dn ->
-                viewModel.validateSongInput(title, siedl, sak, dn)
-            }
-        )
-    }
+    private val _songTitleSearchQuery = MutableStateFlow("")
+    val songTitleSearchResults = MutableStateFlow<List<Song>>(emptyList())
 
-    when(val dialogState = uiState.deleteDialogState) {
-        is DeleteDialogState.ConfirmInitial -> {
-            ConfirmDeleteDialog(
-                song = dialogState.song,
-                onConfirm = { viewModel.onConfirmInitialDelete() },
-                onDismiss = { viewModel.onDismissDeleteDialog() }
-            )
-        }
-        is DeleteDialogState.ConfirmOccurrences -> {
-            ConfirmDeleteOccurrencesDialog(
-                song = dialogState.song,
-                onConfirmDeleteAll = { viewModel.onFinalDelete(true) },
-                onConfirmDeleteOne = { viewModel.onFinalDelete(false) },
-                onDismiss = { viewModel.onDismissDeleteDialog() }
-            )
-        }
-        is DeleteDialogState.None -> {}
-    }
+    private val _siedlSearchQuery = MutableStateFlow("")
+    val siedlSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    private val _sakSearchQuery = MutableStateFlow("")
+    val sakSearchResults = MutableStateFlow<List<Song>>(emptyList())
+    private val _dnSearchQuery = MutableStateFlow("")
+    val dnSearchResults = MutableStateFlow<List<Song>>(emptyList())
 
-    Box(modifier = Modifier.fillMaxSize()) {
-        Column(
-            modifier = Modifier.fillMaxSize()
-        ) {
-            SearchBar(
-                query = uiState.query,
-                onQueryChange = viewModel::onQueryChange
-            )
+    var editableDayData: MutableState<DayData?> = mutableStateOf(null)
+        private set
 
-            Divider()
+    val groupedSongs: StateFlow<Map<String, List<SuggestedSong>>> = _uiState.map { state ->
+        state.dayData?.piesniSugerowane
+            .orEmpty()
+            .filterNotNull()
+            .groupBy { it.moment }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
 
-            when {
-                uiState.isLoading -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator()
+    val reorderableSongList: StateFlow<List<ReorderableListItem>> =
+        snapshotFlow { editableDayData.value }
+            .map { dayData: DayData? ->
+                val items = mutableListOf<ReorderableListItem>()
+                val songsByMoment =
+                    dayData?.piesniSugerowane?.filterNotNull()?.groupBy { it.moment } ?: emptyMap()
+                songMomentOrderMap.forEach { (momentKey, momentName) ->
+                    items.add(ReorderableListItem.HeaderItem(momentKey, momentName))
+                    songsByMoment[momentKey]?.forEach { song ->
+                        items.add(ReorderableListItem.SongItem(song))
                     }
                 }
+                items
+            }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-                uiState.searchPerformed && uiState.results.isEmpty() -> {
-                    NoResults()
+
+    init {
+        loadDayData()
+        observeSearchQueries()
+    }
+
+    private fun observeSearchQueries() {
+        viewModelScope.launch {
+            _songTitleSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.length < 2) {
+                    songTitleSearchResults.value = emptyList()
+                } else {
+                    songTitleSearchResults.value = repository.getSongList().filter {
+                        it.tytul.contains(query, ignoreCase = true) &&
+                                (it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank())
+                    }.take(10)
                 }
-
-                else -> {
-                    ResultsList(
-                        results = uiState.results,
-                        onNavigateToSong = onNavigateToSong,
-                        onSongLongClick = { song -> viewModel.onSongLongPress(song) }
-                    )
+            }
+        }
+        viewModelScope.launch {
+            _siedlSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    siedlSearchResults.value = emptyList()
+                } else {
+                    siedlSearchResults.value = repository.getSongList().filter {
+                        it.numerSiedl.startsWith(query, ignoreCase = true)
+                    }.take(10)
                 }
             }
         }
-        FloatingActionButton(
-            onClick = { viewModel.onAddSongClicked() },
-            modifier = Modifier
-                .align(Alignment.BottomEnd)
-                .padding(16.dp)
-        ) {
-            Icon(Icons.Default.Add, contentDescription = "Dodaj pieśń")
-        }
-    }
-}
-
-@Composable
-fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
-    OutlinedTextField(
-        value = query,
-        onValueChange = onQueryChange,
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 8.dp),
-        placeholder = { Text("Wyszukaj...") },
-        leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
-        trailingIcon = {
-            if (query.isNotEmpty()) {
-                IconButton(onClick = { onQueryChange("") }) {
-                    Icon(Icons.Default.Clear, contentDescription = "Wyczyść")
+        viewModelScope.launch {
+            _sakSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    sakSearchResults.value = emptyList()
+                } else {
+                    sakSearchResults.value = repository.getSongList().filter {
+                        it.numerSAK.startsWith(query, ignoreCase = true)
+                    }.take(10)
                 }
             }
-        },
-        singleLine = true,
-        shape = MaterialTheme.shapes.extraLarge,
-        textStyle = MaterialTheme.typography.bodyLarge
-    )
-}
-
-@Composable
-fun NoResults() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        contentAlignment = Alignment.Center
-    ) {
-        Text(
-            text = "Dla tej frazy nie znaleziono żadnego dopasowania.",
-            textAlign = TextAlign.Center,
-            style = MaterialTheme.typography.bodyLarge
-        )
-    }
-}
-
-@Composable
-fun ResultsList(
-    results: List<Song>,
-    onNavigateToSong: (Song) -> Unit,
-    onSongLongClick: (Song) -> Unit
-) {
-    LazyColumn(
-        contentPadding = PaddingValues(
-            start = 8.dp,
-            end = 8.dp,
-            top = 8.dp,
-            bottom = 80.dp
-        ),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        items(results, key = { song ->
-            "song_${song.numerSiedl}_${song.tytul.hashCode()}"
-        }) { song ->
-            SongResultItem(
-                song = song,
-                onClick = { onNavigateToSong(song) },
-                onLongClick = { onSongLongClick(song) }
-            )
+        }
+        viewModelScope.launch {
+            _dnSearchQuery.debounce(300).distinctUntilChanged().collectLatest { query ->
+                if (query.isBlank()) {
+                    dnSearchResults.value = emptyList()
+                } else {
+                    dnSearchResults.value = repository.getSongList().filter {
+                        it.numerDN.startsWith(query, ignoreCase = true)
+                    }.take(10)
+                }
+            }
         }
     }
-}
 
-@OptIn(ExperimentalFoundationApi::class)
-@Composable
-fun SongResultItem(
-    song: Song,
-    onClick: () -> Unit,
-    onLongClick: () -> Unit
-) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .combinedClickable(
-                onClick = onClick,
-                onLongClick = onLongClick
-            ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
-    ) {
-        Row(
-            modifier = Modifier.padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
-            Spacer(Modifier.width(16.dp))
-            Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Spacer(Modifier.width(8.dp))
-            Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
+    fun loadDayData() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            repository.invalidateSongCache()
+            val data = repository.getDayData(dayId)
+            if (data != null) {
+                _uiState.update { it.copy(isLoading = false, dayData = data) }
+            } else {
+                _uiState.update { it.copy(isLoading = false, error = "Nie udało się wczytać danych dla tego dnia.") }
+            }
         }
     }
-}
 
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun AddSongDialog(
-    categories: List<Category>,
-    error: String?,
-    onDismiss: () -> Unit,
-    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
-    onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
-) {
-    var title by remember { mutableStateOf("") }
-    var numerSiedl by remember { mutableStateOf("") }
-    var numerSak by remember { mutableStateOf("") }
-    var numerDn by remember { mutableStateOf("") }
-    var text by remember { mutableStateOf("") }
-    var category by remember { mutableStateOf("") }
-    var isCategoryExpanded by remember { mutableStateOf(false) }
-    val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
-
-
-    LaunchedEffect(title, numerSiedl, numerSak, numerDn) {
-        onValidate(title, numerSiedl, numerSak, numerDn)
+    fun onEnterEditMode() {
+        editableDayData.value = _uiState.value.dayData?.copy()
+        _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
     }
 
-    Dialog(onDismissRequest = onDismiss) {
-        Card(
-            shape = MaterialTheme.shapes.large,
-            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
-        ) {
-            Column(
-                modifier = Modifier
-                    .padding(24.dp)
-                    .verticalScroll(rememberScrollState())
-            ) {
-                Text(
-                    "Dodaj nową pieśń",
-                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
-                    color = SaturatedNavy
-                )
-                Spacer(Modifier.height(16.dp))
-                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-                Spacer(Modifier.height(16.dp))
+    fun onTryExitEditMode() {
+        if (_uiState.value.hasChanges) {
+            _uiState.update { it.copy(showConfirmExitDialog = true) }
+        } else {
+            onExitEditMode(save = false)
+        }
+    }
 
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    OutlinedTextField(
-                        value = title,
-                        onValueChange = { title = it },
-                        label = { Text("Tytuł") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerSiedl,
-                        onValueChange = { numerSiedl = it },
-                        label = { Text("Numer Siedlecki") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerSak,
-                        onValueChange = { numerSak = it },
-                        label = { Text("Numer ŚAK") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerDn,
-                        onValueChange = { numerDn = it },
-                        label = { Text("Numer DN") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    ExposedDropdownMenuBox(
-                        expanded = isCategoryExpanded,
-                        onExpandedChange = { isCategoryExpanded = !isCategoryExpanded }
-                    ) {
-                        OutlinedTextField(
-                            value = category,
-                            onValueChange = {},
-                            label = { Text("Kategoria") },
-                            readOnly = true,
-                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = isCategoryExpanded) },
-                            modifier = Modifier
-                                .menuAnchor()
-                                .fillMaxWidth()
-                        )
-                        ExposedDropdownMenu(
-                            expanded = isCategoryExpanded,
-                            onDismissRequest = { isCategoryExpanded = false }
-                        ) {
-                            DropdownMenuItem(
-                                text = { Text("Brak") },
-                                onClick = {
-                                    category = ""
-                                    isCategoryExpanded = false
-                                }
-                            )
-                            categories.forEach { categoryItem ->
-                                DropdownMenuItem(
-                                    text = { Text(categoryItem.nazwa) },
-                                    onClick = {
-                                        category = categoryItem.nazwa
-                                        isCategoryExpanded = false
-                                    }
-                                )
-                            }
+    fun onExitEditMode(save: Boolean) {
+        viewModelScope.launch {
+            if (save && _uiState.value.hasChanges) {
+                val dataToSave = editableDayData.value
+                if (dataToSave != null) {
+                    repository.saveDayData(dayId, dataToSave).onSuccess {
+                        _uiState.update { currentState -> currentState.copy(dayData = dataToSave) }
+                    }
+                }
+            }
+            _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false) }
+            editableDayData.value = null
+            loadDayData()
+        }
+    }
+
+    fun dismissConfirmExitDialog() {
+        _uiState.update { it.copy(showConfirmExitDialog = false) }
+    }
+
+    fun showDialog(dialogState: DialogState) { _uiState.update { it.copy(activeDialog = dialogState) } }
+    fun dismissDialog() { _uiState.update { it.copy(activeDialog = DialogState.None) } }
+
+    fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
+    fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
+
+    fun toggleReading(index: Int) {
+        _uiState.update {
+            val updatedSet = it.expandedReadings.toMutableSet()
+            if (updatedSet.contains(index)) updatedSet.remove(index) else updatedSet.add(index)
+            it.copy(expandedReadings = updatedSet)
+        }
+    }
+
+    fun collapseReading(index: Int) {
+        _uiState.update {
+            val updatedSet = it.expandedReadings.toMutableSet()
+            updatedSet.remove(index)
+            it.copy(expandedReadings = updatedSet)
+        }
+    }
+
+    fun toggleSongMoment(moment: String) {
+        _uiState.update {
+            val updatedSet = it.expandedSongMoments.toMutableSet()
+            if (updatedSet.contains(moment)) updatedSet.remove(moment) else updatedSet.add(moment)
+            it.copy(expandedSongMoments = updatedSet)
+        }
+    }
+
+    fun getFullSong(suggestedSong: SuggestedSong, onResult: (Song?) -> Unit) {
+        viewModelScope.launch {
+            val song = repository.getSong(suggestedSong.piesn, suggestedSong.numer, null, null)
+            onResult(song)
+        }
+    }
+
+    private fun updateEditableData(transform: (DayData) -> DayData) {
+        editableDayData.value?.let {
+            editableDayData.value = transform(it)
+            _uiState.update { state -> state.copy(hasChanges = true) }
+        }
+    }
+
+    fun addOrUpdateReading(reading: Reading, index: Int?) {
+        updateEditableData { currentData ->
+            val readings = currentData.czytania.toMutableList()
+            if (index != null && index in readings.indices) {
+                readings[index] = reading
+            } else {
+                readings.add(reading)
+            }
+            currentData.copy(czytania = readings)
+        }
+    }
+
+    fun deleteItem(item: Any) {
+        when (item) {
+            is Reading -> {
+                updateEditableData { currentData ->
+                    currentData.copy(czytania = currentData.czytania - item)
+                }
+            }
+            is SuggestedSong -> {
+                updateEditableData { currentData ->
+                    currentData.copy(piesniSugerowane = currentData.piesniSugerowane.orEmpty() - item)
+                }
+            }
+        }
+        dismissDialog()
+    }
+
+    fun reorderReadings(from: Int, to: Int) {
+        updateEditableData { currentData ->
+            val reorderedList = currentData.czytania.toMutableList().apply {
+                add(to, removeAt(from))
+            }
+            currentData.copy(czytania = reorderedList)
+        }
+    }
+
+    fun reorderSongs(from: ItemPosition, to: ItemPosition) {
+        updateEditableData { currentData ->
+            val currentFlatList = reorderableSongList.value.toMutableList()
+
+            if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
+                return@updateEditableData currentData
+            }
+
+            val movedItem = currentFlatList.removeAt(from.index)
+            currentFlatList.add(to.index, movedItem)
+
+            val newPiesniSugerowane = mutableListOf<SuggestedSong>()
+            var currentMoment: String? = null
+            for (item in currentFlatList) {
+                when (item) {
+                    is ReorderableListItem.HeaderItem -> {
+                        currentMoment = item.momentKey
+                    }
+                    is ReorderableListItem.SongItem -> {
+                        currentMoment?.let { moment ->
+                            newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
                         }
                     }
-                    OutlinedTextField(
-                        value = text,
-                        onValueChange = { text = it },
-                        label = { Text("Tekst") },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(150.dp)
-                    )
-                    if (error != null) {
-                        Text(
-                            text = error,
-                            color = MaterialTheme.colorScheme.error,
-                            style = MaterialTheme.typography.bodySmall,
-                            modifier = Modifier.padding(top = 4.dp)
-                        )
-                    }
-                }
-
-                Spacer(Modifier.height(24.dp))
-                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(onClick = onDismiss) {
-                        Text("Anuluj")
-                    }
-                    Spacer(Modifier.width(8.dp))
-                    Button(
-                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text, category) },
-                        enabled = title.isNotBlank() && isAnyNumberPresent && error == null
-                    ) {
-                        Text("Zapisz")
-                    }
                 }
             }
+
+            currentData.copy(piesniSugerowane = newPiesniSugerowane)
         }
+    }
+
+    fun addOrUpdateSong(
+        title: String,
+        siedl: String,
+        sak: String,
+        dn: String,
+        opis: String,
+        moment: String,
+        originalSong: SuggestedSong?
+    ) {
+        viewModelScope.launch {
+            val trimmedTitle = title.trim()
+            val trimmedSiedl = siedl.trim()
+            val trimmedSak = sak.trim()
+            val trimmedDn = dn.trim()
+
+            val songMatches = repository.getSongList().filter { it.tytul.equals(trimmedTitle, ignoreCase = true) }
+
+            val perfectMatch = songMatches.find {
+                it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
+                        it.numerSAK.equals(trimmedSak, ignoreCase = true) &&
+                        it.numerDN.equals(trimmedDn, ignoreCase = true)
+            }
+
+            if (perfectMatch == null) {
+                val error = when {
+                    songMatches.isEmpty() -> "Nie znaleziono pieśni o podanym tytule."
+                    else -> "Numery nie pasują do pieśni o tym tytule. Wybierz pieśń z sugestii, aby automatycznie uzupełnić pola."
+                }
+                _uiState.update {
+                    val currentDialog = it.activeDialog as? DialogState.AddEditSong
+                    it.copy(activeDialog = currentDialog?.copy(error = error) ?: DialogState.None)
+                }
+                return@launch
+            }
+
+            val newSuggestedSong = SuggestedSong(
+                numer = trimmedSiedl,
+                piesn = trimmedTitle,
+                opis = opis.trim(),
+                moment = moment
+            )
+
+            updateEditableData { currentData ->
+                val songs = currentData.piesniSugerowane.orEmpty().filterNotNull().toMutableList()
+                if (originalSong != null) {
+                    val index = songs.indexOf(originalSong)
+                    if (index != -1) {
+                        songs[index] = newSuggestedSong
+                    } else {
+                        songs.add(newSuggestedSong)
+                    }
+                } else {
+                    songs.add(newSuggestedSong)
+                }
+                currentData.copy(piesniSugerowane = songs)
+            }
+            dismissDialog()
+        }
+    }
+
+    fun searchSongsByTitle(query: String) {
+        _songTitleSearchQuery.value = query
+        if (query.length < 2) songTitleSearchResults.value = emptyList()
+    }
+
+    fun searchSongsBySiedl(query: String) {
+        _siedlSearchQuery.value = query
+        if (query.isBlank()) siedlSearchResults.value = emptyList()
+    }
+
+    fun searchSongsBySak(query: String) {
+        _sakSearchQuery.value = query
+        if (query.isBlank()) sakSearchResults.value = emptyList()
+    }
+
+    fun searchSongsByDn(query: String) {
+        _dnSearchQuery.value = query
+        if (query.isBlank()) dnSearchResults.value = emptyList()
+    }
+
+    fun formatSongSuggestion(song: Song): String {
+        val numberInfo = buildList {
+            if (song.numerSiedl.isNotBlank()) add("Siedl: ${song.numerSiedl}")
+            if (song.numerSAK.isNotBlank()) add("ŚAK: ${song.numerSAK}")
+            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
+        }.joinToString(", ")
+
+        return if (numberInfo.isNotEmpty()) {
+            "${song.tytul} ($numberInfo)"
+        } else {
+            song.tytul
+        }
+    }
+
+    fun clearAllSearchResults() {
+        songTitleSearchResults.value = emptyList()
+        siedlSearchResults.value = emptyList()
+        sakSearchResults.value = emptyList()
+        dnSearchResults.value = emptyList()
+        _songTitleSearchQuery.value = ""
+        _siedlSearchQuery.value = ""
+        _sakSearchQuery.value = ""
+        _dnSearchQuery.value = ""
     }
 }
 
-@Composable
-private fun ConfirmDeleteDialog(
-    song: Song,
-    onConfirm: () -> Unit,
-    onDismiss: () -> Unit
-) {
-    Dialog(onDismissRequest = onDismiss) {
-        Card(
-            shape = MaterialTheme.shapes.large,
-            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
-        ) {
-            Column(modifier = Modifier.padding(24.dp)) {
-                Text(
-                    "Usunąć pieśń?",
-                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
-                    color = SaturatedNavy
-                )
-                Spacer(Modifier.height(16.dp))
-                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-                Spacer(Modifier.height(16.dp))
-                Text(
-                    buildAnnotatedString {
-                        append("Czy na pewno chcesz usunąć pieśń ")
-                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
-                            append(song.tytul)
-                        }
-                        append("?")
-                    }
-                )
-                Spacer(Modifier.height(24.dp))
-                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(onClick = onDismiss) { Text("Anuluj") }
-                    Spacer(Modifier.width(8.dp))
-                    Button(
-                        onClick = onConfirm,
-                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-                    ) {
-                        Text("Usuń")
-                    }
-                }
-            }
+class DayDetailsViewModelFactory(
+    private val context: Context,
+    private val dayId: String
+) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(DayDetailsViewModel::class.java)) {
+            @Suppress("UNCHECKED_CAST")
+            return DayDetailsViewModel(dayId, FileSystemRepository(context.applicationContext)) as T
         }
+        throw IllegalArgumentException("Unknown ViewModel class")
     }
 }
 
-@Composable
-private fun ConfirmDeleteOccurrencesDialog(
-    song: Song,
-    onConfirmDeleteAll: () -> Unit,
-    onConfirmDeleteOne: () -> Unit,
-    onDismiss: () -> Unit
-) {
-    Dialog(onDismissRequest = onDismiss) {
-        Card(
-            shape = MaterialTheme.shapes.large,
-            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
-        ) {
-            Column(modifier = Modifier.padding(24.dp)) {
-                Text(
-                    "Usunąć powiązania?",
-                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
-                    color = SaturatedNavy
-                )
-                Spacer(Modifier.height(16.dp))
-                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-                Spacer(Modifier.height(16.dp))
-                Text(
-                    buildAnnotatedString {
-                        append("Czy chcesz również usunąć pieśń ")
-                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
-                            append(song.tytul)
-                        }
-                        append(" ze wszystkich list sugerowanych pieśni w dniach liturgicznych?")
-                    }
-                )
-                Spacer(Modifier.height(24.dp))
-                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(
-                        onClick = onConfirmDeleteOne,
-                    ) {
-                        Text("Nie, dziękuję")
-                    }
-                    Spacer(Modifier.width(8.dp))
-                    Button(
-                        onClick = onConfirmDeleteAll,
-                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-                    ) {
-                        Text("Tak, usuń")
-                    }
-                }
-            }
-        }
-    }
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\models.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/models.kt
+// Opis: Ten plik zawiera modele danych oraz klasy stanu (State) wykorzystywane przez DayDetailsViewModel. Definiuje strukturę danych dla interfejsu użytkownika, w tym stany dialogów i listy elementów.
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel
+
+import com.qjproject.liturgicalcalendar.data.DayData
+import com.qjproject.liturgicalcalendar.data.SuggestedSong
+
+sealed class DialogState {
+    object None : DialogState()
+    data class ConfirmDelete(val item: Any, val description: String) : DialogState()
+    data class AddEditSong(
+        val moment: String,
+        val existingSong: SuggestedSong? = null,
+        val error: String? = null
+    ) : DialogState()
+}
+
+data class DayDetailsUiState(
+    val isLoading: Boolean = true,
+    val dayData: DayData? = null,
+    val error: String? = null,
+    val isEditMode: Boolean = false,
+    val hasChanges: Boolean = false,
+    val showConfirmExitDialog: Boolean = false,
+    val activeDialog: DialogState = DialogState.None,
+    val isReadingsSectionExpanded: Boolean = true,
+    val isSongsSectionExpanded: Boolean = true,
+    val expandedReadings: Set<Int> = emptySet(),
+    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
+)
+
+sealed class ReorderableListItem {
+    data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
+    data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
 }
 
 -
@@ -8495,6 +8034,561 @@ class SearchViewModelFactory(private val context: Context) : ViewModelProvider.F
             return SearchViewModel(FileSystemRepository(context.applicationContext)) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\index.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/index.kt
+// Opis: Główny plik komponentu SearchScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów, zarządzając stanem i logiką nawigacji.
+
+package com.qjproject.liturgicalcalendar.ui.screens.search
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Divider
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.Icon
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import com.qjproject.liturgicalcalendar.data.Song
+
+@Composable
+fun SearchScreen(
+    viewModel: SearchViewModel,
+    onNavigateToSong: (Song) -> Unit,
+) {
+    val uiState by viewModel.uiState.collectAsState()
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.triggerSearch()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+
+    if (uiState.showAddSongDialog) {
+        AddSongDialog(
+            categories = uiState.allCategories,
+            error = uiState.addSongError,
+            onDismiss = { viewModel.onDismissAddSongDialog() },
+            onConfirm = { title, siedl, sak, dn, text, category ->
+                viewModel.saveNewSong(title, siedl, sak, dn, text, category)
+            },
+            onValidate = { title, siedl, sak, dn ->
+                viewModel.validateSongInput(title, siedl, sak, dn)
+            }
+        )
+    }
+
+    when(val dialogState = uiState.deleteDialogState) {
+        is DeleteDialogState.ConfirmInitial -> {
+            ConfirmDeleteDialog(
+                song = dialogState.song,
+                onConfirm = { viewModel.onConfirmInitialDelete() },
+                onDismiss = { viewModel.onDismissDeleteDialog() }
+            )
+        }
+        is DeleteDialogState.ConfirmOccurrences -> {
+            ConfirmDeleteOccurrencesDialog(
+                song = dialogState.song,
+                onConfirmDeleteAll = { viewModel.onFinalDelete(true) },
+                onConfirmDeleteOne = { viewModel.onFinalDelete(false) },
+                onDismiss = { viewModel.onDismissDeleteDialog() }
+            )
+        }
+        is DeleteDialogState.None -> {}
+    }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            SearchBar(
+                query = uiState.query,
+                onQueryChange = viewModel::onQueryChange
+            )
+
+            Divider()
+
+            when {
+                uiState.isLoading -> {
+                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        CircularProgressIndicator()
+                    }
+                }
+
+                uiState.searchPerformed && uiState.results.isEmpty() -> {
+                    NoResults()
+                }
+
+                else -> {
+                    ResultsList(
+                        results = uiState.results,
+                        onNavigateToSong = onNavigateToSong,
+                        onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                    )
+                }
+            }
+        }
+        FloatingActionButton(
+            onClick = { viewModel.onAddSongClicked() },
+            modifier = Modifier
+                .align(Alignment.BottomEnd)
+                .padding(16.dp)
+        ) {
+            Icon(Icons.Default.Add, contentDescription = "Dodaj pieśń")
+        }
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\SearchScreenComponents.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreenComponents.kt
+// Opis: Ten plik zawiera komponenty interfejsu użytkownika specyficzne dla ekranu wyszukiwania, takie jak pasek wyszukiwania, lista wyników i elementy listy.
+
+package com.qjproject.liturgicalcalendar.ui.screens.search
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.outlined.MusicNote
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.qjproject.liturgicalcalendar.data.Song
+
+@Composable
+fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
+    OutlinedTextField(
+        value = query,
+        onValueChange = onQueryChange,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 8.dp),
+        placeholder = { Text("Wyszukaj...") },
+        leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
+        trailingIcon = {
+            if (query.isNotEmpty()) {
+                IconButton(onClick = { onQueryChange("") }) {
+                    Icon(Icons.Default.Clear, contentDescription = "Wyczyść")
+                }
+            }
+        },
+        singleLine = true,
+        shape = MaterialTheme.shapes.extraLarge,
+        textStyle = MaterialTheme.typography.bodyLarge
+    )
+}
+
+@Composable
+fun NoResults() {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Dla tej frazy nie znaleziono żadnego dopasowania.",
+            textAlign = TextAlign.Center,
+            style = MaterialTheme.typography.bodyLarge
+        )
+    }
+}
+
+@Composable
+fun ResultsList(
+    results: List<Song>,
+    onNavigateToSong: (Song) -> Unit,
+    onSongLongClick: (Song) -> Unit
+) {
+    LazyColumn(
+        contentPadding = PaddingValues(
+            start = 8.dp,
+            end = 8.dp,
+            top = 8.dp,
+            bottom = 80.dp
+        ),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        items(results, key = { song ->
+            "song_${song.numerSiedl}_${song.tytul.hashCode()}"
+        }) { song ->
+            SongResultItem(
+                song = song,
+                onClick = { onNavigateToSong(song) },
+                onLongClick = { onSongLongClick(song) }
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+fun SongResultItem(
+    song: Song,
+    onClick: () -> Unit,
+    onLongClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .combinedClickable(
+                onClick = onClick,
+                onLongClick = onLongClick
+            ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
+            Spacer(Modifier.width(16.dp))
+            Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.width(8.dp))
+            Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
+        }
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\SearchScreenDialogs.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreenDialogs.kt
+// Opis: Ten plik zawiera wszystkie okna dialogowe używane na ekranie wyszukiwania, w tym dialog dodawania nowej pieśni oraz dialogi potwierdzenia usunięcia.
+
+package com.qjproject.liturgicalcalendar.ui.screens.search
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Divider
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import com.qjproject.liturgicalcalendar.data.Category
+import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+internal fun AddSongDialog(
+    categories: List<Category>,
+    error: String?,
+    onDismiss: () -> Unit,
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
+    onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
+) {
+    var title by remember { mutableStateOf("") }
+    var numerSiedl by remember { mutableStateOf("") }
+    var numerSak by remember { mutableStateOf("") }
+    var numerDn by remember { mutableStateOf("") }
+    var text by remember { mutableStateOf("") }
+    var category by remember { mutableStateOf("") }
+    var isCategoryExpanded by remember { mutableStateOf(false) }
+    val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
+
+
+    LaunchedEffect(title, numerSiedl, numerSak, numerDn) {
+        onValidate(title, numerSiedl, numerSak, numerDn)
+    }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(
+                modifier = Modifier
+                    .padding(24.dp)
+                    .verticalScroll(rememberScrollState())
+            ) {
+                Text(
+                    "Dodaj nową pieśń",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OutlinedTextField(
+                        value = title,
+                        onValueChange = { title = it },
+                        label = { Text("Tytuł") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerSiedl,
+                        onValueChange = { numerSiedl = it },
+                        label = { Text("Numer Siedlecki") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerSak,
+                        onValueChange = { numerSak = it },
+                        label = { Text("Numer ŚAK") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerDn,
+                        onValueChange = { numerDn = it },
+                        label = { Text("Numer DN") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    ExposedDropdownMenuBox(
+                        expanded = isCategoryExpanded,
+                        onExpandedChange = { isCategoryExpanded = !isCategoryExpanded }
+                    ) {
+                        OutlinedTextField(
+                            value = category,
+                            onValueChange = {},
+                            label = { Text("Kategoria") },
+                            readOnly = true,
+                            trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = isCategoryExpanded) },
+                            modifier = Modifier
+                                .menuAnchor()
+                                .fillMaxWidth()
+                        )
+                        ExposedDropdownMenu(
+                            expanded = isCategoryExpanded,
+                            onDismissRequest = { isCategoryExpanded = false }
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("Brak") },
+                                onClick = {
+                                    category = ""
+                                    isCategoryExpanded = false
+                                }
+                            )
+                            categories.forEach { categoryItem ->
+                                DropdownMenuItem(
+                                    text = { Text(categoryItem.nazwa) },
+                                    onClick = {
+                                        category = categoryItem.nazwa
+                                        isCategoryExpanded = false
+                                    }
+                                )
+                            }
+                        }
+                    }
+                    OutlinedTextField(
+                        value = text,
+                        onValueChange = { text = it },
+                        label = { Text("Tekst") },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(150.dp)
+                    )
+                    if (error != null) {
+                        Text(
+                            text = error,
+                            color = MaterialTheme.colorScheme.error,
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    }
+                }
+
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) {
+                        Text("Anuluj")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text, category) },
+                        enabled = title.isNotBlank() && isAnyNumberPresent && error == null
+                    ) {
+                        Text("Zapisz")
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+internal fun ConfirmDeleteDialog(
+    song: Song,
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    "Usunąć pieśń?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    buildAnnotatedString {
+                        append("Czy na pewno chcesz usunąć pieśń ")
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(song.tytul)
+                        }
+                        append("?")
+                    }
+                )
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirm,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) {
+                        Text("Usuń")
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+internal fun ConfirmDeleteOccurrencesDialog(
+    song: Song,
+    onConfirmDeleteAll: () -> Unit,
+    onConfirmDeleteOne: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    "Usunąć powiązania?",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                Text(
+                    buildAnnotatedString {
+                        append("Czy chcesz również usunąć pieśń ")
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                            append(song.tytul)
+                        }
+                        append(" ze wszystkich list sugerowanych pieśni w dniach liturgicznych?")
+                    }
+                )
+                Spacer(Modifier.height(24.dp))
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(
+                        onClick = onConfirmDeleteOne,
+                    ) {
+                        Text("Nie, dziękuję")
+                    }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirmDeleteAll,
+                        colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                    ) {
+                        Text("Tak, usuń")
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -13572,50 +13666,54 @@ Aplikacja-dla-Konrada/
                                                         ReorderableListItem$SongItem.dex
                                                         ReorderableListItem.dex
                                                     search/
-                                                        ComposableSingletons$SearchScreenKt$lambda-1$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-10$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-11$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-12$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-13$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-14$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-15$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-16$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-17$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-2$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-3$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-4$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-5$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-6$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-7$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-8$1.dex
-                                                        ComposableSingletons$SearchScreenKt$lambda-9$1.dex
-                                                        ComposableSingletons$SearchScreenKt.dex
+                                                        ComposableSingletons$IndexKt$lambda-1$1.dex
+                                                        ComposableSingletons$IndexKt.dex
+                                                        ComposableSingletons$SearchScreenComponentsKt$lambda-1$1.dex
+                                                        ComposableSingletons$SearchScreenComponentsKt$lambda-2$1.dex
+                                                        ComposableSingletons$SearchScreenComponentsKt$lambda-3$1.dex
+                                                        ComposableSingletons$SearchScreenComponentsKt.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-1$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-10$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-11$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-12$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-13$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-2$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-3$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-4$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-5$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-6$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-7$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-8$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt$lambda-9$1.dex
+                                                        ComposableSingletons$SearchScreenDialogsKt.dex
                                                         DeleteDialogState$ConfirmInitial.dex
                                                         DeleteDialogState$ConfirmOccurrences.dex
                                                         DeleteDialogState$None.dex
                                                         DeleteDialogState.dex
-                                                        SearchScreenKt$AddSongDialog$1$1.dex
-                                                        SearchScreenKt$AddSongDialog$2$1$1$1$6$2.dex
-                                                        SearchScreenKt$AddSongDialog$2$1$1$1$6$4$2$1.dex
-                                                        SearchScreenKt$AddSongDialog$2$1$1$1$6$4.dex
-                                                        SearchScreenKt$AddSongDialog$2$1$1$1$6.dex
-                                                        SearchScreenKt$AddSongDialog$2$1.dex
-                                                        SearchScreenKt$AddSongDialog$2.dex
-                                                        SearchScreenKt$ConfirmDeleteDialog$1$1.dex
-                                                        SearchScreenKt$ConfirmDeleteDialog$1.dex
-                                                        SearchScreenKt$ConfirmDeleteOccurrencesDialog$1$1.dex
-                                                        SearchScreenKt$ConfirmDeleteOccurrencesDialog$1.dex
-                                                        SearchScreenKt$ResultsList$1$1$2$1$1.dex
-                                                        SearchScreenKt$ResultsList$1$1$2$2$1.dex
-                                                        SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$1.dex
-                                                        SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$2.dex
-                                                        SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$3.dex
-                                                        SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$4.dex
-                                                        SearchScreenKt$SearchBar$1.dex
-                                                        SearchScreenKt$SearchScreen$10$1$1$1.dex
-                                                        SearchScreenKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.dex
-                                                        SearchScreenKt$SongResultItem$1.dex
-                                                        SearchScreenKt.dex
+                                                        IndexKt$SearchScreen$10$1$1$1.dex
+                                                        IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.dex
+                                                        IndexKt.dex
+                                                        SearchScreenComponentsKt$ResultsList$1$1$2$1$1.dex
+                                                        SearchScreenComponentsKt$ResultsList$1$1$2$2$1.dex
+                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.dex
+                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$2.dex
+                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$3.dex
+                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$4.dex
+                                                        SearchScreenComponentsKt$SearchBar$1.dex
+                                                        SearchScreenComponentsKt$SongResultItem$1.dex
+                                                        SearchScreenComponentsKt.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$1$1.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$2.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$4$2$1.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$4.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2$1.dex
+                                                        SearchScreenDialogsKt$AddSongDialog$2.dex
+                                                        SearchScreenDialogsKt$ConfirmDeleteDialog$1$1.dex
+                                                        SearchScreenDialogsKt$ConfirmDeleteDialog$1.dex
+                                                        SearchScreenDialogsKt$ConfirmDeleteOccurrencesDialog$1$1.dex
+                                                        SearchScreenDialogsKt$ConfirmDeleteOccurrencesDialog$1.dex
+                                                        SearchScreenDialogsKt.dex
                                                         SearchUiState.dex
                                                         SearchViewModel$1.dex
                                                         SearchViewModel$onAddSongClicked$1.dex
@@ -14445,50 +14543,54 @@ Aplikacja-dla-Konrada/
                                                 ReorderableListItem$SongItem.class
                                                 ReorderableListItem.class
                                             search/
-                                                ComposableSingletons$SearchScreenKt$lambda-1$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-10$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-11$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-12$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-13$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-14$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-15$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-16$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-17$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-2$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-3$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-4$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-5$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-6$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-7$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-8$1.class
-                                                ComposableSingletons$SearchScreenKt$lambda-9$1.class
-                                                ComposableSingletons$SearchScreenKt.class
+                                                ComposableSingletons$IndexKt$lambda-1$1.class
+                                                ComposableSingletons$IndexKt.class
+                                                ComposableSingletons$SearchScreenComponentsKt$lambda-1$1.class
+                                                ComposableSingletons$SearchScreenComponentsKt$lambda-2$1.class
+                                                ComposableSingletons$SearchScreenComponentsKt$lambda-3$1.class
+                                                ComposableSingletons$SearchScreenComponentsKt.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-1$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-10$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-11$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-12$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-13$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-2$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-3$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-4$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-5$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-6$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-7$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-8$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt$lambda-9$1.class
+                                                ComposableSingletons$SearchScreenDialogsKt.class
                                                 DeleteDialogState$ConfirmInitial.class
                                                 DeleteDialogState$ConfirmOccurrences.class
                                                 DeleteDialogState$None.class
                                                 DeleteDialogState.class
-                                                SearchScreenKt$AddSongDialog$1$1.class
-                                                SearchScreenKt$AddSongDialog$2$1$1$1$6$2.class
-                                                SearchScreenKt$AddSongDialog$2$1$1$1$6$4$2$1.class
-                                                SearchScreenKt$AddSongDialog$2$1$1$1$6$4.class
-                                                SearchScreenKt$AddSongDialog$2$1$1$1$6.class
-                                                SearchScreenKt$AddSongDialog$2$1.class
-                                                SearchScreenKt$AddSongDialog$2.class
-                                                SearchScreenKt$ConfirmDeleteDialog$1$1.class
-                                                SearchScreenKt$ConfirmDeleteDialog$1.class
-                                                SearchScreenKt$ConfirmDeleteOccurrencesDialog$1$1.class
-                                                SearchScreenKt$ConfirmDeleteOccurrencesDialog$1.class
-                                                SearchScreenKt$ResultsList$1$1$2$1$1.class
-                                                SearchScreenKt$ResultsList$1$1$2$2$1.class
-                                                SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$1.class
-                                                SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$2.class
-                                                SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$3.class
-                                                SearchScreenKt$ResultsList$lambda$38$lambda$37$$inlined$items$default$4.class
-                                                SearchScreenKt$SearchBar$1.class
-                                                SearchScreenKt$SearchScreen$10$1$1$1.class
-                                                SearchScreenKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.class
-                                                SearchScreenKt$SongResultItem$1.class
-                                                SearchScreenKt.class
+                                                IndexKt$SearchScreen$10$1$1$1.class
+                                                IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.class
+                                                IndexKt.class
+                                                SearchScreenComponentsKt$ResultsList$1$1$2$1$1.class
+                                                SearchScreenComponentsKt$ResultsList$1$1$2$2$1.class
+                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.class
+                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$2.class
+                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$3.class
+                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$4.class
+                                                SearchScreenComponentsKt$SearchBar$1.class
+                                                SearchScreenComponentsKt$SongResultItem$1.class
+                                                SearchScreenComponentsKt.class
+                                                SearchScreenDialogsKt$AddSongDialog$1$1.class
+                                                SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$2.class
+                                                SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$4$2$1.class
+                                                SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6$4.class
+                                                SearchScreenDialogsKt$AddSongDialog$2$1$1$1$6.class
+                                                SearchScreenDialogsKt$AddSongDialog$2$1.class
+                                                SearchScreenDialogsKt$AddSongDialog$2.class
+                                                SearchScreenDialogsKt$ConfirmDeleteDialog$1$1.class
+                                                SearchScreenDialogsKt$ConfirmDeleteDialog$1.class
+                                                SearchScreenDialogsKt$ConfirmDeleteOccurrencesDialog$1$1.class
+                                                SearchScreenDialogsKt$ConfirmDeleteOccurrencesDialog$1.class
+                                                SearchScreenDialogsKt.class
                                                 SearchUiState.class
                                                 SearchViewModel$1.class
                                                 SearchViewModel$onAddSongClicked$1.class
@@ -15754,16 +15856,22 @@ Aplikacja-dla-Konrada/
                                         dateevents/
                                             DateEventsScreen.kt
                                         daydetails/
-                                            DayDetailsViewModel.kt
                                             DayDetailsScreen/
                                                 DayDetailsDialogs.kt
                                                 DayDetailsEditMode.kt
                                                 DayDetailsTopAppBar.kt
                                                 DayDetailsViewMode.kt
                                                 index.kt
+                                            DayDetailsViewModel/
+                                                constants.kt
+                                                index.kt
+                                                models.kt
                                         search/
-                                            SearchScreen.kt
                                             SearchViewModel.kt
+                                            SearchScreen/
+                                                index.kt
+                                                SearchScreenComponents.kt
+                                                SearchScreenDialogs.kt
                                         settings/
                                             SettingsScreen.kt
                                             SettingsViewModel.kt

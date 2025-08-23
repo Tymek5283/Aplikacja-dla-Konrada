@@ -1,7 +1,6 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsViewMode.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
 // Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie zawartości ekranu DayDetailsScreen w trybie tylko do odczytu (View Mode).
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
@@ -30,6 +29,8 @@ import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
@@ -87,7 +88,7 @@ internal fun DayDetailsViewModeContent(
                     isExpanded = uiState.expandedReadings.contains(index),
                     onToggle = { viewModel.toggleReading(index) },
                     onContentDoubleTap = {
-                        handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState, interactionSources)
+                        handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState)
                     },
                     onGloballyPositioned = { itemCoordinates ->
                         scrollAnchorCoordinates?.let { anchor ->
@@ -133,8 +134,7 @@ private fun handleReadingCollapse(
     readingOffsetsY: Map<Int, Int>,
     viewModel: DayDetailsViewModel,
     coroutineScope: CoroutineScope,
-    scrollState: ScrollState,
-    interactionSources: Map<Int, MutableInteractionSource>
+    scrollState: ScrollState
 ) {
     val currentOffset = readingOffsetsY[index] ?: 0
     val isExpanded = viewModel.uiState.value.expandedReadings.contains(index)

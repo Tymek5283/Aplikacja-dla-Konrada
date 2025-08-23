@@ -1,4 +1,6 @@
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/index.kt
+// Opis: Główny plik komponentu DayDetailsViewModel. Pełni rolę "indexu", inicjując logikę ViewModelu, zarządzając stanem, operacjami na danych i interakcjami użytkownika na ekranie szczegółów dnia.
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
 import android.content.Context
 import androidx.compose.runtime.MutableState
@@ -8,13 +10,13 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.DayData
-import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.debounce
@@ -24,44 +26,6 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.burnoutcrew.reorderable.ItemPosition
-
-sealed class DialogState {
-    object None : DialogState()
-    data class ConfirmDelete(val item: Any, val description: String) : DialogState()
-    data class AddEditSong(
-        val moment: String,
-        val existingSong: SuggestedSong? = null,
-        val error: String? = null
-    ) : DialogState()
-}
-
-data class DayDetailsUiState(
-    val isLoading: Boolean = true,
-    val dayData: DayData? = null,
-    val error: String? = null,
-    val isEditMode: Boolean = false,
-    val hasChanges: Boolean = false,
-    val showConfirmExitDialog: Boolean = false,
-    val activeDialog: DialogState = DialogState.None,
-    val isReadingsSectionExpanded: Boolean = true,
-    val isSongsSectionExpanded: Boolean = true,
-    val expandedReadings: Set<Int> = emptySet(),
-    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
-)
-
-val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
-    "wejscie" to "Wejście",
-    "ofiarowanie" to "Ofiarowanie",
-    "komunia" to "Komunia",
-    "uwielbienie" to "Uwielbienie",
-    "rozeslanie" to "Rozesłanie",
-    "ogolne" to "Ogólne"
-)
-
-sealed class ReorderableListItem {
-    data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
-    data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
-}
 
 class DayDetailsViewModel(
     private val dayId: String,

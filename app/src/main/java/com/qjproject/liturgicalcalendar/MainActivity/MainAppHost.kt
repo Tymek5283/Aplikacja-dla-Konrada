@@ -18,7 +18,7 @@ import com.qjproject.liturgicalcalendar.navigation.Screen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory

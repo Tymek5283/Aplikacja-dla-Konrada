@@ -1,7 +1,6 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/index.kt
 // Opis: Główny plik komponentu DayDetailsScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów. Zarządza nawigacją i stanem głównym ekranu.
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Box
@@ -22,6 +21,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DialogState
 
 @Composable
 fun DayDetailsScreen(
@@ -77,7 +79,7 @@ fun DayDetailsScreen(
                 viewModel.addOrUpdateSong(title, siedl, sak, dn, opis, moment, originalSong)
             }
         )
-        else -> {}
+        is DialogState.None -> {}
     }
 
     Scaffold(

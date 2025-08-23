@@ -1,7 +1,6 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsTopAppBar.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsTopAppBar.kt
 // Opis: Plik ten zawiera komponenty górnego paska nawigacyjnego (TopAppBar) dla ekranu DayDetailsScreen, oddzielając logikę paska dla trybu podglądu i edycji.
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.icons.Icons

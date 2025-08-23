@@ -1,7 +1,6 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsDialogs.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsDialogs.kt
 // Opis: Plik ten centralizuje wszystkie okna dialogowe używane na ekranie DayDetailsScreen, takie jak potwierdzenia, formularze dodawania/edycji czy modale informacyjne.
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.border
@@ -30,6 +29,7 @@ import androidx.compose.ui.window.DialogProperties
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
