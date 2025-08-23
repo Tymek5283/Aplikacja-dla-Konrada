@@ -2615,7 +2615,7 @@ import com.qjproject.liturgicalcalendar.navigation.Screen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory
@@ -4090,326 +4090,6 @@ class BrowseViewModelFactory(private val context: Context) : ViewModelProvider.F
 }
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository.kt
-treść:
-package com.qjproject.liturgicalcalendar.ui.screens.calendar
-
-import android.content.Context
-import android.net.ConnectivityManager
-import android.net.NetworkCapabilities
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.builtins.MapSerializer
-import kotlinx.serialization.builtins.serializer
-import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.decodeFromJsonElement
-import kotlinx.serialization.json.encodeToJsonElement
-import kotlinx.serialization.json.jsonObject
-import java.io.File
-import java.io.IOException
-import java.net.HttpURLConnection
-import java.net.SocketTimeoutException
-import java.net.URL
-import java.net.UnknownHostException
-import java.time.LocalDate
-import java.time.YearMonth
-import java.time.format.DateTimeFormatter
-import java.time.format.TextStyle
-import java.util.Locale
-
-sealed class NavigationAction {
-    data class NavigateToDay(val path: String) : NavigationAction()
-    data class ShowDateEvents(val title: String, val paths: List<String>) : NavigationAction()
-}
-
-@Serializable
-data class LiturgicalEventDetails(
-    val name: String,
-    val data: String,
-    val rok_litera: String,
-    val rok_cyfra: String,
-    val typ: String,
-    val kolor: String
-)
-
-data class LiturgicalYearInfo(
-    val mainInfo: String,
-    val transitionInfo: String?
-)
-
-data class CalendarDay(
-    val dayOfMonth: Int,
-    val month: YearMonth,
-    val isToday: Boolean,
-    val events: List<LiturgicalEventDetails>,
-    val dominantEventColorName: String?
-) {
-    val hasEvents: Boolean get() = events.isNotEmpty()
-}
-
-
-class LiturgicalYear(private val events: Map<String, LiturgicalEventDetails>) {
-    private val eventsByDate by lazy {
-        events.values.groupBy {
-            LocalDate.parse(it.data, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
-        }
-    }
-
-    fun eventsForDate(date: LocalDate): List<LiturgicalEventDetails> {
-        return eventsByDate[date] ?: emptyList()
-    }
-}
-
-
-class CalendarRepository(private val context: Context) {
-    private val json = Json { ignoreUnknownKeys = true }
-    private val calendarDir = File(context.filesDir, "kalendarz").apply { mkdirs() }
-    private val cache = mutableMapOf<Int, LiturgicalYear>()
-
-    private val eventTypeHierarchy = mapOf(
-        "Uroczystość" to 1,
-        "Święto" to 2,
-        "Wspomnienie obowiązkowe" to 3,
-        "" to 4,
-        "Wspomnienie dowolne" to 5
-    )
-
-    suspend fun getLiturgicalYear(year: Int): LiturgicalYear? = withContext(Dispatchers.IO) {
-        if (cache.containsKey(year)) return@withContext cache[year]
-
-        val file = File(calendarDir, "$year.json")
-        if (!file.exists()) return@withContext null
-
-        return@withContext try {
-            val jsonString = file.readText()
-            val jsonObject = Json.parseToJsonElement(jsonString).jsonObject
-            val events = jsonObject.mapValues {
-                Json.decodeFromJsonElement<LiturgicalEventDetails>(it.value).copy(name = it.key)
-            }
-            val liturgicalYear = LiturgicalYear(events)
-            cache[year] = liturgicalYear
-            liturgicalYear
-        } catch (e: Exception) {
-            null
-        }
-    }
-
-    fun getAvailableYears(): List<Int> {
-        return calendarDir.listFiles { _, name -> name.endsWith(".json") }
-            ?.mapNotNull { it.nameWithoutExtension.toIntOrNull() }
-            ?.sorted() ?: emptyList()
-    }
-
-    fun isYearAvailable(year: Int): Boolean = File(calendarDir, "$year.json").exists()
-
-    suspend fun downloadAndSaveYearIfNeeded(year: Int): Result<Unit> = withContext(Dispatchers.IO) {
-        if (isYearAvailable(year)) return@withContext Result.success(Unit)
-        if (!isNetworkAvailable()) return@withContext Result.failure(IOException("Brak połączenia z internetem."))
-
-        var connection: HttpURLConnection? = null
-        try {
-            val url = URL("https://gcatholic.org/calendar/ics/$year-pl-PL.ics?v=3")
-            connection = url.openConnection() as HttpURLConnection
-            connection.requestMethod = "GET"
-            connection.connectTimeout = 15000
-            connection.readTimeout = 15000
-
-            if (connection.responseCode == HttpURLConnection.HTTP_OK) {
-                val icsContent = connection.inputStream.bufferedReader().readText()
-                val parsedEvents = parseIcsToEvents(icsContent)
-                val jsonString = buildJsonString(parsedEvents)
-                File(calendarDir, "$year.json").writeText(jsonString)
-                cache.remove(year)
-                Result.success(Unit)
-            } else {
-                Result.failure(IOException("Serwer odpowiedział kodem ${connection.responseCode} dla roku $year."))
-            }
-        } catch (e: Exception) {
-            val errorMessage = when (e) {
-                is UnknownHostException -> "Brak połączenia z internetem."
-                is SocketTimeoutException -> "Przekroczono limit czasu odpowiedzi serwera."
-                else -> e.localizedMessage ?: e.javaClass.simpleName
-            }
-            Result.failure(IOException(errorMessage))
-        } finally {
-            connection?.disconnect()
-        }
-    }
-
-    private fun isNetworkAvailable(): Boolean {
-        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-        val network = connectivityManager.activeNetwork ?: return false
-        val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return false
-        return capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) ||
-                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) ||
-                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)
-    }
-
-    fun getDominantEvent(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
-        if (events.isEmpty()) return null
-        return events.minWithOrNull(eventComparator)
-    }
-
-    val eventComparator = compareBy<LiturgicalEventDetails>(
-        { eventTypeHierarchy[it.typ] ?: 99 },
-        { !it.name.any { char -> char.isDigit() } },
-        { it.name }
-    )
-
-    private fun formatYearId(rok_litera: String?, rok_cyfra: String?): String? {
-        if (rok_litera.isNullOrBlank() || rok_litera.equals("null", ignoreCase = true) ||
-            rok_cyfra.isNullOrBlank() || rok_cyfra.equals("null", ignoreCase = true)) {
-            return null
-        }
-        return "$rok_litera, $rok_cyfra"
-    }
-
-    fun getLiturgicalYearInfoForMonth(yearMonth: YearMonth, yearData: LiturgicalYear): LiturgicalYearInfo {
-        val lastDayOfMonth = yearMonth.atEndOfMonth()
-        val eventsOnLastDay = yearData.eventsForDate(lastDayOfMonth)
-        val dominantEventOnLastDay = getDominantEvent(eventsOnLastDay)
-
-        if (dominantEventOnLastDay == null) {
-            return LiturgicalYearInfo("Brak danych o roku liturgicznym", null)
-        }
-
-        val finalYearId = formatYearId(dominantEventOnLastDay.rok_litera, dominantEventOnLastDay.rok_cyfra)
-        val mainInfo = finalYearId?.let { "Aktualny rok: $it" } ?: "Brak danych o roku liturgicznym"
-        var transitionInfo: String? = null
-
-        if (finalYearId != null) {
-            for (day in lastDayOfMonth.dayOfMonth - 1 downTo 1) {
-                val date = yearMonth.atDay(day)
-                val events = yearData.eventsForDate(date)
-                val dominantEvent = getDominantEvent(events)
-                val currentYearId = formatYearId(dominantEvent?.rok_litera, dominantEvent?.rok_cyfra)
-
-                if (currentYearId != finalYearId) {
-                    // Znaleziono punkt przejściowy. Utwórz informację tylko jeśli poprzedni rok jest prawidłowy.
-                    currentYearId?.let {
-                        val transitionDay = day + 1
-                        val monthName = date.month.getDisplayName(TextStyle.FULL, Locale("pl"))
-                        transitionInfo = "Rok obowiązujący do ${transitionDay - 1} $monthName: $it"
-                    }
-                    break // Przerwij pętlę bez względu na wszystko, ponieważ znaleziono pierwszy punkt różnicy.
-                }
-            }
-        }
-
-        return LiturgicalYearInfo(mainInfo, transitionInfo)
-    }
-
-    fun deleteAllCalendarFiles() {
-        if (calendarDir.exists()) {
-            calendarDir.listFiles()?.forEach { it.delete() }
-        }
-        cache.clear()
-    }
-
-    data class LiturgicalCycles(val sundayCycle: String, val weekdayCycle: String)
-
-    private fun calculateLiturgicalCycles(eventDate: LocalDate): LiturgicalCycles {
-        val calendarYear = eventDate.year
-        val weekdayCycle = if (calendarYear % 2 != 0) "1" else "2"
-        val dec3rd = LocalDate.of(calendarYear, 12, 3)
-        val dayIndex = dec3rd.dayOfWeek.value % 7
-        val firstSundayOfAdvent = dec3rd.minusDays(dayIndex.toLong())
-        val referenceYear = if (eventDate.isBefore(firstSundayOfAdvent)) calendarYear - 1 else calendarYear
-        val sundayCycle = when (referenceYear % 3) {
-            0 -> "A"; 1 -> "B"; 2 -> "C"; else -> "Error"
-        }
-        return LiturgicalCycles(sundayCycle, weekdayCycle)
-    }
-
-    private fun parseIcsToEvents(icsContent: String): List<LiturgicalEventDetails> {
-        val events = mutableListOf<LiturgicalEventDetails>()
-        val lines = icsContent.lines()
-        val dateParser = DateTimeFormatter.ofPattern("yyyyMMdd")
-        var i = 0
-        while (i < lines.size) {
-            if (lines[i] == "BEGIN:VEVENT") {
-                var currentSummary = ""
-                var currentDtstart = ""
-                while (i < lines.size && lines[i] != "END:VEVENT") {
-                    val line = lines[i]
-                    when {
-                        line.startsWith("DTSTART;VALUE=DATE:") -> currentDtstart = line.substringAfter(":")
-                        line.startsWith("SUMMARY:") -> {
-                            val summaryBuilder = StringBuilder(line.substringAfter(":"))
-                            while (i + 1 < lines.size && lines[i + 1].startsWith(" ")) {
-                                i++
-                                summaryBuilder.append(lines[i].trimStart())
-                            }
-                            currentSummary = summaryBuilder.toString()
-                        }
-                    }
-                    i++
-                }
-
-                if (currentDtstart.isNotEmpty() && currentSummary.isNotEmpty()) {
-                    val eventDate = LocalDate.parse(currentDtstart, dateParser)
-                    val cycles = calculateLiturgicalCycles(eventDate)
-                    val cleanedName = parseName(currentSummary)
-                    val finalName = translationMap[cleanedName] ?: cleanedName
-
-                    if (finalName.isNotBlank()) {
-                        events.add(
-                            LiturgicalEventDetails(
-                                name = finalName,
-                                data = eventDate.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")),
-                                rok_litera = cycles.sundayCycle,
-                                rok_cyfra = cycles.weekdayCycle,
-                                typ = parseType(currentSummary),
-                                kolor = parseColor(currentSummary)
-                            )
-                        )
-                    }
-                }
-            }
-            i++
-        }
-        return events
-    }
-
-    private fun buildJsonString(events: List<LiturgicalEventDetails>): String {
-        val eventMap = events.associateBy { it.name }
-        return json.encodeToString(MapSerializer(String.serializer(), LiturgicalEventDetails.serializer()), eventMap)
-    }
-
-    private fun parseColor(summary: String): String {
-        val lowerSummary = summary.lowercase(Locale.getDefault())
-        return when {
-            "gaudete" in lowerSummary || "iii niedziela adwentu" in lowerSummary || "3 niedziela adwentu" in lowerSummary -> "Różowy"
-            "laetare" in lowerSummary || "iv niedziela wielkiego postu" in lowerSummary || "4 niedziela wielkiego postu" in lowerSummary -> "Różowy"
-            "⚪" in summary -> "Biały"
-            "🔴" in summary -> "Czerwony"
-            "🟢" in summary -> "Zielony"
-            "🟣" in summary -> "Fioletowy"
-            "💗" in summary || "🩷" in summary -> "Różowy"
-            else -> "Nieznany"
-        }
-    }
-
-    private fun parseType(summary: String): String {
-        val code = "\\[(.*?)\\]".toRegex().find(summary)?.groupValues?.getOrNull(1) ?: return ""
-        return when (code) {
-            "U" -> "Uroczystość"; "Ś" -> "Święto"; "W" -> "Wspomnienie obowiązkowe"
-            "w", "w*" -> "Wspomnienie dowolne"; else -> ""
-        }
-    }
-
-    private fun parseName(summary: String): String {
-        return summary.replace(Regex("\\[.*?\\]\\s*"), "")
-            .replace(Regex("[⚪🔴🟢🟣💗🩷?]"), "")
-            .replace("\\", "")
-            .replace("/", "")
-            .trim()
-            .replace(Regex("\\s+"), " ")
-    }
-}
-
--
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarScreen.kt
 treść:
 package com.qjproject.liturgicalcalendar.ui.screens.calendar
@@ -5073,8 +4753,11 @@ class CalendarViewModelFactory(private val context: Context) : ViewModelProvider
 }
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\TranslationMap.kt
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\constants.kt
 treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\constants.kt
+// Opis: Ten plik centralizuje stałe wartości, takie jak mapa tłumaczeń nazw świąt, które są używane w logice parsowania danych kalendarza.
+
 package com.qjproject.liturgicalcalendar.ui.screens.calendar
 
 internal val translationMap: Map<String, String> = mapOf(
@@ -5505,6 +5188,359 @@ internal val translationMap: Map<String, String> = mapOf(
     "Niedziela Zesłania Ducha Świętego" to "Uroczystość Zesłania Ducha Świętego",
     "Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana" to "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana"
 )
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\IcsParser.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\IcsParser.kt
+// Opis: Zawiera logikę odpowiedzialną za parsowanie danych w formacie ICS. Przekształca surowy tekst z pliku .ics na listę obiektów `LiturgicalEventDetails`.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository
+
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.logic.calculateLiturgicalCycles
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.util.Locale
+
+internal class IcsParser {
+
+    fun parseIcsToEvents(icsContent: String): List<LiturgicalEventDetails> {
+        val events = mutableListOf<LiturgicalEventDetails>()
+        val lines = icsContent.lines()
+        val dateParser = DateTimeFormatter.ofPattern("yyyyMMdd")
+        var i = 0
+        while (i < lines.size) {
+            if (lines[i] == "BEGIN:VEVENT") {
+                var currentSummary = ""
+                var currentDtstart = ""
+                while (i < lines.size && lines[i] != "END:VEVENT") {
+                    val line = lines[i]
+                    when {
+                        line.startsWith("DTSTART;VALUE=DATE:") -> currentDtstart = line.substringAfter(":")
+                        line.startsWith("SUMMARY:") -> {
+                            val summaryBuilder = StringBuilder(line.substringAfter(":"))
+                            while (i + 1 < lines.size && lines[i + 1].startsWith(" ")) {
+                                i++
+                                summaryBuilder.append(lines[i].trimStart())
+                            }
+                            currentSummary = summaryBuilder.toString()
+                        }
+                    }
+                    i++
+                }
+
+                if (currentDtstart.isNotEmpty() && currentSummary.isNotEmpty()) {
+                    val eventDate = LocalDate.parse(currentDtstart, dateParser)
+                    val cycles = calculateLiturgicalCycles(eventDate)
+                    val cleanedName = parseName(currentSummary)
+                    val finalName = translationMap[cleanedName] ?: cleanedName
+
+                    if (finalName.isNotBlank()) {
+                        events.add(
+                            LiturgicalEventDetails(
+                                name = finalName,
+                                data = eventDate.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")),
+                                rok_litera = cycles.sundayCycle,
+                                rok_cyfra = cycles.weekdayCycle,
+                                typ = parseType(currentSummary),
+                                kolor = parseColor(currentSummary)
+                            )
+                        )
+                    }
+                }
+            }
+            i++
+        }
+        return events
+    }
+
+    private fun parseColor(summary: String): String {
+        val lowerSummary = summary.lowercase(Locale.getDefault())
+        return when {
+            "gaudete" in lowerSummary || "iii niedziela adwentu" in lowerSummary || "3 niedziela adwentu" in lowerSummary -> "Różowy"
+            "laetare" in lowerSummary || "iv niedziela wielkiego postu" in lowerSummary || "4 niedziela wielkiego postu" in lowerSummary -> "Różowy"
+            "⚪" in summary -> "Biały"
+            "🔴" in summary -> "Czerwony"
+            "🟢" in summary -> "Zielony"
+            "🟣" in summary -> "Fioletowy"
+            "💗" in summary || "🩷" in summary -> "Różowy"
+            else -> "Nieznany"
+        }
+    }
+
+    private fun parseType(summary: String): String {
+        val code = "\\[(.*?)\\]".toRegex().find(summary)?.groupValues?.getOrNull(1) ?: return ""
+        return when (code) {
+            "U" -> "Uroczystość"; "Ś" -> "Święto"; "W" -> "Wspomnienie obowiązkowe"
+            "w", "w*" -> "Wspomnienie dowolne"; else -> ""
+        }
+    }
+
+    private fun parseName(summary: String): String {
+        return summary.replace(Regex("\\[.*?\\]\\s*"), "")
+            .replace(Regex("[⚪🔴🟢🟣💗🩷?]"), "")
+            .replace("\\", "")
+            .replace("/", "")
+            .trim()
+            .replace(Regex("\\s+"), " ")
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\index.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\index.kt
+// Opis: Główny plik repozytorium, który integruje i zarządza wszystkimi operacjami, delegując zadania do wyspecjalizowanych managerów. Stanowi centralny, publiczny punkt dostępu do danych kalendarza.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository
+
+import android.content.Context
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.logic.LiturgicalLogic
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYear
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYearInfo
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.time.YearMonth
+
+class CalendarRepository(private val context: Context) {
+    private val fileManager = CalendarFileManager(context)
+    private val networkManager = NetworkManager(context)
+    private val icsParser = IcsParser()
+    private val liturgicalLogic = LiturgicalLogic()
+
+    val eventComparator = liturgicalLogic.eventComparator
+
+    suspend fun getLiturgicalYear(year: Int): LiturgicalYear? = fileManager.getLiturgicalYear(year)
+    fun getAvailableYears(): List<Int> = fileManager.getAvailableYears()
+    fun isYearAvailable(year: Int): Boolean = fileManager.isYearAvailable(year)
+
+    suspend fun downloadAndSaveYearIfNeeded(year: Int): Result<Unit> = withContext(Dispatchers.IO) {
+        if (fileManager.isYearAvailable(year)) return@withContext Result.success(Unit)
+
+        return@withContext networkManager.downloadIcsData(year).fold(
+            onSuccess = { icsContent ->
+                val parsedEvents = icsParser.parseIcsToEvents(icsContent)
+                fileManager.saveYearData(year, parsedEvents)
+            },
+            onFailure = { Result.failure(it) }
+        )
+    }
+
+    fun getDominantEvent(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
+        return liturgicalLogic.getDominantEvent(events)
+    }
+
+    fun getLiturgicalYearInfoForMonth(yearMonth: YearMonth, yearData: LiturgicalYear): LiturgicalYearInfo {
+        return liturgicalLogic.getLiturgicalYearInfoForMonth(yearMonth, yearData)
+    }
+
+    fun deleteAllCalendarFiles() {
+        fileManager.deleteAllCalendarFiles()
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\LiturgicalLogic.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\LiturgicalLogic.kt
+// Opis: Zawiera czystą logikę biznesową związaną z kalendarzem liturgicznym, taką jak określanie hierarchii świąt, wyznaczanie cykli liturgicznych i formatowanie informacji o roku.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.logic
+
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYear
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYearInfo
+import java.time.LocalDate
+import java.time.YearMonth
+import java.time.format.TextStyle
+import java.util.Locale
+
+internal class LiturgicalLogic {
+    private val eventTypeHierarchy = mapOf(
+        "Uroczystość" to 1,
+        "Święto" to 2,
+        "Wspomnienie obowiązkowe" to 3,
+        "" to 4,
+        "Wspomnienie dowolne" to 5
+    )
+
+    val eventComparator: Comparator<LiturgicalEventDetails> = compareBy<LiturgicalEventDetails>(
+        { eventTypeHierarchy[it.typ] ?: 99 },
+        { !it.name.any { char -> char.isDigit() } },
+        { it.name }
+    )
+
+    fun getDominantEvent(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
+        if (events.isEmpty()) return null
+        return events.minWithOrNull(eventComparator)
+    }
+
+    fun getLiturgicalYearInfoForMonth(yearMonth: YearMonth, yearData: LiturgicalYear): LiturgicalYearInfo {
+        val lastDayOfMonth = yearMonth.atEndOfMonth()
+        val eventsOnLastDay = yearData.eventsForDate(lastDayOfMonth)
+        val dominantEventOnLastDay = getDominantEvent(eventsOnLastDay)
+
+        if (dominantEventOnLastDay == null) {
+            return LiturgicalYearInfo("Brak danych o roku liturgicznym", null)
+        }
+
+        val finalYearId = formatYearId(dominantEventOnLastDay.rok_litera, dominantEventOnLastDay.rok_cyfra)
+        val mainInfo = finalYearId?.let { "Aktualny rok: $it" } ?: "Brak danych o roku liturgicznym"
+        var transitionInfo: String? = null
+
+        if (finalYearId != null) {
+            for (day in lastDayOfMonth.dayOfMonth - 1 downTo 1) {
+                val date = yearMonth.atDay(day)
+                val events = yearData.eventsForDate(date)
+                val dominantEvent = getDominantEvent(events)
+                val currentYearId = formatYearId(dominantEvent?.rok_litera, dominantEvent?.rok_cyfra)
+
+                if (currentYearId != finalYearId) {
+                    currentYearId?.let {
+                        val monthName = date.month.getDisplayName(TextStyle.FULL, Locale("pl"))
+                        transitionInfo = "Rok obowiązujący do ${day} $monthName: $it"
+                    }
+                    break
+                }
+            }
+        }
+        return LiturgicalYearInfo(mainInfo, transitionInfo)
+    }
+
+    private fun formatYearId(rok_litera: String?, rok_cyfra: String?): String? {
+        if (rok_litera.isNullOrBlank() || rok_litera.equals("null", ignoreCase = true) ||
+            rok_cyfra.isNullOrBlank() || rok_cyfra.equals("null", ignoreCase = true)
+        ) {
+            return null
+        }
+        return "$rok_litera, $rok_cyfra"
+    }
+}
+
+internal data class LiturgicalCycles(val sundayCycle: String, val weekdayCycle: String)
+
+internal fun calculateLiturgicalCycles(eventDate: LocalDate): LiturgicalCycles {
+    val calendarYear = eventDate.year
+    val weekdayCycle = if (calendarYear % 2 != 0) "1" else "2"
+    val dec3rd = LocalDate.of(calendarYear, 12, 3)
+    val dayIndex = dec3rd.dayOfWeek.value % 7
+    val firstSundayOfAdvent = dec3rd.minusDays(dayIndex.toLong())
+    val referenceYear = if (eventDate.isBefore(firstSundayOfAdvent)) calendarYear - 1 else calendarYear
+    val sundayCycle = when (referenceYear % 3) {
+        0 -> "A"; 1 -> "B"; 2 -> "C"; else -> "Error"
+    }
+    return LiturgicalCycles(sundayCycle, weekdayCycle)
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\models.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\models.kt
+// Opis: Zawiera definicje wszystkich modeli danych oraz klas zapieczętowanych, które strukturyzują informacje o wydarzeniach liturgicznych, dniach w kalendarzu i akcjach nawigacyjnych.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model
+
+import kotlinx.serialization.Serializable
+import java.time.LocalDate
+import java.time.YearMonth
+import java.time.format.DateTimeFormatter
+
+sealed class NavigationAction {
+    data class NavigateToDay(val path: String) : NavigationAction()
+    data class ShowDateEvents(val title: String, val paths: List<String>) : NavigationAction()
+}
+
+@Serializable
+data class LiturgicalEventDetails(
+    val name: String,
+    val data: String,
+    val rok_litera: String,
+    val rok_cyfra: String,
+    val typ: String,
+    val kolor: String
+)
+
+data class LiturgicalYearInfo(
+    val mainInfo: String,
+    val transitionInfo: String?
+)
+
+data class CalendarDay(
+    val dayOfMonth: Int,
+    val month: YearMonth,
+    val isToday: Boolean,
+    val events: List<LiturgicalEventDetails>,
+    val dominantEventColorName: String?
+) {
+    val hasEvents: Boolean get() = events.isNotEmpty()
+}
+
+class LiturgicalYear(private val events: Map<String, LiturgicalEventDetails>) {
+    private val eventsByDate by lazy {
+        events.values.groupBy {
+            LocalDate.parse(it.data, DateTimeFormatter.ofPattern("dd-MM-yyyy"))
+        }
+    }
+
+    fun eventsForDate(date: LocalDate): List<LiturgicalEventDetails> {
+        return eventsByDate[date] ?: emptyList()
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\NetworkManager.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\NetworkManager.kt
+// Opis: Odpowiada za wszystkie operacje sieciowe, w tym pobieranie danych kalendarza w formacie ICS z zewnętrznego serwera oraz sprawdzanie dostępności połączenia internetowego.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository
+
+import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import java.io.IOException
+import java.net.HttpURLConnection
+import java.net.SocketTimeoutException
+import java.net.URL
+import java.net.UnknownHostException
+
+internal class NetworkManager(private val context: Context) {
+
+    fun downloadIcsData(year: Int): Result<String> {
+        if (!isNetworkAvailable()) return Result.failure(IOException("Brak połączenia z internetem."))
+
+        var connection: HttpURLConnection? = null
+        try {
+            val url = URL("https://gcatholic.org/calendar/ics/$year-pl-PL.ics?v=3")
+            connection = url.openConnection() as HttpURLConnection
+            connection.requestMethod = "GET"
+            connection.connectTimeout = 15000
+            connection.readTimeout = 15000
+
+            return if (connection.responseCode == HttpURLConnection.HTTP_OK) {
+                val icsContent = connection.inputStream.bufferedReader().readText()
+                Result.success(icsContent)
+            } else {
+                Result.failure(IOException("Serwer odpowiedział kodem ${connection.responseCode} dla roku $year."))
+            }
+        } catch (e: Exception) {
+            val errorMessage = when (e) {
+                is UnknownHostException -> "Brak połączenia z internetem."
+                is SocketTimeoutException -> "Przekroczono limit czasu odpowiedzi serwera."
+                else -> e.localizedMessage ?: e.javaClass.simpleName
+            }
+            return Result.failure(IOException(errorMessage))
+        } finally {
+            connection?.disconnect()
+        }
+    }
+
+    private fun isNetworkAvailable(): Boolean {
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val network = connectivityManager.activeNetwork ?: return false
+        val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return false
+        return capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) ||
+                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) ||
+                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)
+    }
+}
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\category\CategoryManagementScreen.kt
@@ -6068,9 +6104,9 @@ private fun EventListItem(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsDialogs.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsDialogs.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsDialogs.kt
 // Opis: Plik ten centralizuje wszystkie okna dialogowe używane na ekranie DayDetailsScreen, takie jak potwierdzenia, formularze dodawania/edycji czy modale informacyjne.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.border
@@ -6099,6 +6135,7 @@ import androidx.compose.ui.window.DialogProperties
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
@@ -6504,9 +6541,9 @@ private fun SongNumberInfo(label: String, number: String) {
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsEditMode.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsEditMode.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsEditMode.kt
 // Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie i obsługę zawartości ekranu DayDetailsScreen w trybie edycji.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
@@ -6529,15 +6566,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.ReorderableListItem
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DialogState
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.ReorderableListItem
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
-import com.qjproject.liturgicalcalendar.ui.theme.VividRed
 import org.burnoutcrew.reorderable.ReorderableItem
 import org.burnoutcrew.reorderable.detectReorder
 import org.burnoutcrew.reorderable.rememberReorderableLazyListState
@@ -6772,7 +6808,7 @@ fun EditableReadingItem(
                 Icon(Icons.Default.Edit, "Edytuj")
             }
             IconButton(onClick = onDeleteClick) {
-                Icon(Icons.Default.Delete, "Usuń", tint = VividRed)
+                Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
             }
         }
     }
@@ -6840,7 +6876,7 @@ fun EditableSongItem(
                 Icon(Icons.Default.Edit, "Edytuj")
             }
             IconButton(onClick = onDeleteClick) {
-                Icon(Icons.Default.Delete, "Usuń", tint = VividRed)
+                Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
             }
         }
     }
@@ -6849,10 +6885,9 @@ fun EditableSongItem(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsTopAppBar.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsTopAppBar.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsTopAppBar.kt
 // Opis: Plik ten zawiera komponenty górnego paska nawigacyjnego (TopAppBar) dla ekranu DayDetailsScreen, oddzielając logikę paska dla trybu podglądu i edycji.
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.icons.Icons
@@ -6905,10 +6940,9 @@ internal fun EditModeTopAppBar(title: String, onCancelClick: () -> Unit, onSaveC
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsViewMode.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsViewMode.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
 // Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie zawartości ekranu DayDetailsScreen w trybie tylko do odczytu (View Mode).
-
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
@@ -6937,6 +6971,8 @@ import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
@@ -6994,7 +7030,7 @@ internal fun DayDetailsViewModeContent(
                     isExpanded = uiState.expandedReadings.contains(index),
                     onToggle = { viewModel.toggleReading(index) },
                     onContentDoubleTap = {
-                        handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState, interactionSources)
+                        handleReadingCollapse(index, readingOffsetsY, viewModel, coroutineScope, scrollState)
                     },
                     onGloballyPositioned = { itemCoordinates ->
                         scrollAnchorCoordinates?.let { anchor ->
@@ -7040,8 +7076,7 @@ private fun handleReadingCollapse(
     readingOffsetsY: Map<Int, Int>,
     viewModel: DayDetailsViewModel,
     coroutineScope: CoroutineScope,
-    scrollState: ScrollState,
-    interactionSources: Map<Int, MutableInteractionSource>
+    scrollState: ScrollState
 ) {
     val currentOffset = readingOffsetsY[index] ?: 0
     val isExpanded = viewModel.uiState.value.expandedReadings.contains(index)
@@ -7177,9 +7212,9 @@ private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/index.kt
 // Opis: Główny plik komponentu DayDetailsScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów. Zarządza nawigacją i stanem głównym ekranu.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Box
@@ -7200,7 +7235,9 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.data.Song
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DialogState
 
 @Composable
 fun DayDetailsScreen(
@@ -7293,9 +7330,9 @@ fun DayDetailsScreen(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\constants.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/constants.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/constants.kt
 // Opis: Plik ten zawiera stałe wartości i konfiguracje używane w obrębie komponentu DayDetails. Centralizuje definicje, które są niezmienne i współdzielone w różnych częściach logiki i UI tego ekranu.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
 val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
     "wejscie" to "Wejście",
@@ -7309,9 +7346,9 @@ val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/index.kt
 // Opis: Główny plik komponentu DayDetailsViewModel. Pełni rolę "indexu", inicjując logikę ViewModelu, zarządzając stanem, operacjami na danych i interakcjami użytkownika na ekranie szczegółów dnia.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
 import android.content.Context
 import androidx.compose.runtime.MutableState
@@ -7325,9 +7362,6 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.DialogState
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.ReorderableListItem
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel.songMomentOrderMap
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -7717,9 +7751,9 @@ class DayDetailsViewModelFactory(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\models.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel/models.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/models.kt
 // Opis: Ten plik zawiera modele danych oraz klasy stanu (State) wykorzystywane przez DayDetailsViewModel. Definiuje strukturę danych dla interfejsu użytkownika, w tym stany dialogów i listy elementów.
-package com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsViewModel
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
 import com.qjproject.liturgicalcalendar.data.DayData
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
@@ -9540,7 +9574,10 @@ class SongDetailsViewModelFactory(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Color.kt
 treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Color.kt
+// Opis: Plik ten centralizuje definicje wszystkich kolorów używanych w aplikacji, co ułatwia zarządzanie motywem i zapewnia spójność wizualną.
 package com.qjproject.liturgicalcalendar.ui.theme
+
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -9566,7 +9603,6 @@ val Gold = Color(0xFFFFD700)
 val VividRed = Color(0xFFA22B27)
 
 val NavBarBackground = Color(0xFF1F213A)
-
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\theme\Theme.kt
@@ -12245,6 +12281,7 @@ Aplikacja-dla-Konrada/
                             11/
                                 classes.dex
                             12/
+                                classes.dex
                             13/
                                 classes.dex
                             14/
@@ -12256,6 +12293,7 @@ Aplikacja-dla-Konrada/
                             4/
                                 classes.dex
                             5/
+                                classes.dex
                             6/
                                 classes.dex
                             7/
@@ -12691,6 +12729,8 @@ Aplikacja-dla-Konrada/
                                                     category/
                                                     dateevents/
                                                     daydetails/
+                                                        daydetailsscreen/
+                                                        daydetailsviewmodel/
                                                     search/
                                                     settings/
                                                     songcontent/
@@ -13544,127 +13584,129 @@ Aplikacja-dla-Konrada/
                                                         DateEventsScreenKt.dex
                                                         EventItem.dex
                                                     daydetails/
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-1$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-10$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-11$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-12$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-13$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-14$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-15$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-16$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-17$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-6$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-7$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-8$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt$lambda-9$1.dex
-                                                        ComposableSingletons$DayDetailsDialogsKt.dex
-                                                        ComposableSingletons$DayDetailsEditModeKt$lambda-1$1.dex
-                                                        ComposableSingletons$DayDetailsEditModeKt$lambda-2$1.dex
-                                                        ComposableSingletons$DayDetailsEditModeKt$lambda-3$1.dex
-                                                        ComposableSingletons$DayDetailsEditModeKt$lambda-4$1.dex
-                                                        ComposableSingletons$DayDetailsEditModeKt.dex
-                                                        ComposableSingletons$DayDetailsTopAppBarKt$lambda-1$1.dex
-                                                        ComposableSingletons$DayDetailsTopAppBarKt$lambda-2$1.dex
-                                                        ComposableSingletons$DayDetailsTopAppBarKt$lambda-3$1.dex
-                                                        ComposableSingletons$DayDetailsTopAppBarKt.dex
-                                                        ComposableSingletons$IndexKt$lambda-1$1.dex
-                                                        ComposableSingletons$IndexKt.dex
-                                                        DayDetailsDialogsKt$AddEditReadingDialog$1$1.dex
-                                                        DayDetailsDialogsKt$AddEditReadingDialog$1.dex
-                                                        DayDetailsDialogsKt$AddEditSongDialog$1$1.dex
-                                                        DayDetailsDialogsKt$AddEditSongDialog$2$1.dex
-                                                        DayDetailsDialogsKt$AddEditSongDialog$3$1.dex
-                                                        DayDetailsDialogsKt$AddEditSongDialog$3.dex
-                                                        DayDetailsDialogsKt$ConfirmDeleteDialog$1$1.dex
-                                                        DayDetailsDialogsKt$ConfirmDeleteDialog$1.dex
-                                                        DayDetailsDialogsKt$ConfirmExitDialog$1$1.dex
-                                                        DayDetailsDialogsKt$ConfirmExitDialog$1.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$3.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$4.dex
-                                                        DayDetailsDialogsKt$SearchSuggestionList$1.dex
-                                                        DayDetailsDialogsKt$SongDetailsModal$1$1.dex
-                                                        DayDetailsDialogsKt$SongDetailsModal$1.dex
-                                                        DayDetailsDialogsKt.dex
-                                                        DayDetailsEditModeKt$AddItemButton$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$1$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$2$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$2.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$3.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$1$1$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$1$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$2$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$1.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$2.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$3.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$4.dex
-                                                        DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4.dex
-                                                        DayDetailsEditModeKt$EditableReadingItem$1.dex
-                                                        DayDetailsEditModeKt$EditableSongItem$1.dex
-                                                        DayDetailsEditModeKt$HierarchicalCollapsibleSection$1$2.dex
-                                                        DayDetailsEditModeKt.dex
-                                                        DayDetailsTopAppBarKt$EditModeTopAppBar$1$1.dex
-                                                        DayDetailsTopAppBarKt$EditModeTopAppBar$1$2.dex
-                                                        DayDetailsTopAppBarKt$EditModeTopAppBar$1$3$1.dex
-                                                        DayDetailsTopAppBarKt$EditModeTopAppBar$1$3.dex
-                                                        DayDetailsTopAppBarKt$ViewModeTopAppBar$1$1.dex
-                                                        DayDetailsTopAppBarKt$ViewModeTopAppBar$1$2.dex
-                                                        DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.dex
-                                                        DayDetailsTopAppBarKt.dex
-                                                        DayDetailsUiState.dex
-                                                        DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.dex
-                                                        DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.dex
-                                                        DayDetailsViewModeKt$handleReadingCollapse$1.dex
-                                                        DayDetailsViewModeKt$ReadingItemView$1$1.dex
-                                                        DayDetailsViewModeKt$ReadingItemView$1$2$1$1.dex
-                                                        DayDetailsViewModeKt$ReadingItemView$1$2.dex
-                                                        DayDetailsViewModeKt$SongGroupView$1$2.dex
-                                                        DayDetailsViewModeKt$SongItemView$1.dex
-                                                        DayDetailsViewModeKt.dex
-                                                        DayDetailsViewModel$addOrUpdateSong$1.dex
-                                                        DayDetailsViewModel$getFullSong$1.dex
-                                                        DayDetailsViewModel$loadDayData$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$1$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$2$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$2.dex
-                                                        DayDetailsViewModel$observeSearchQueries$3$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$3.dex
-                                                        DayDetailsViewModel$observeSearchQueries$4$1.dex
-                                                        DayDetailsViewModel$observeSearchQueries$4.dex
-                                                        DayDetailsViewModel$onExitEditMode$1.dex
-                                                        DayDetailsViewModel$special$$inlined$map$1$2$1.dex
-                                                        DayDetailsViewModel$special$$inlined$map$1$2.dex
-                                                        DayDetailsViewModel$special$$inlined$map$1.dex
-                                                        DayDetailsViewModel$special$$inlined$map$2$2$1.dex
-                                                        DayDetailsViewModel$special$$inlined$map$2$2.dex
-                                                        DayDetailsViewModel$special$$inlined$map$2.dex
-                                                        DayDetailsViewModel.dex
-                                                        DayDetailsViewModelFactory.dex
-                                                        DayDetailsViewModelKt.dex
-                                                        DialogState$AddEditSong.dex
-                                                        DialogState$ConfirmDelete.dex
-                                                        DialogState$None.dex
-                                                        DialogState.dex
-                                                        IndexKt$DayDetailsScreen$10.dex
-                                                        IndexKt$DayDetailsScreen$11.dex
-                                                        IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.dex
-                                                        IndexKt.dex
-                                                        ReorderableListItem$HeaderItem.dex
-                                                        ReorderableListItem$SongItem.dex
-                                                        ReorderableListItem.dex
+                                                        daydetailsscreen/
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-1$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-10$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-11$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-12$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-13$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-14$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-15$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-16$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-17$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-6$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-7$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-8$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-9$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt.dex
+                                                            ComposableSingletons$DayDetailsEditModeKt$lambda-1$1.dex
+                                                            ComposableSingletons$DayDetailsEditModeKt$lambda-2$1.dex
+                                                            ComposableSingletons$DayDetailsEditModeKt$lambda-3$1.dex
+                                                            ComposableSingletons$DayDetailsEditModeKt$lambda-4$1.dex
+                                                            ComposableSingletons$DayDetailsEditModeKt.dex
+                                                            ComposableSingletons$DayDetailsTopAppBarKt$lambda-1$1.dex
+                                                            ComposableSingletons$DayDetailsTopAppBarKt$lambda-2$1.dex
+                                                            ComposableSingletons$DayDetailsTopAppBarKt$lambda-3$1.dex
+                                                            ComposableSingletons$DayDetailsTopAppBarKt.dex
+                                                            ComposableSingletons$IndexKt$lambda-1$1.dex
+                                                            ComposableSingletons$IndexKt.dex
+                                                            DayDetailsDialogsKt$AddEditReadingDialog$1$1.dex
+                                                            DayDetailsDialogsKt$AddEditReadingDialog$1.dex
+                                                            DayDetailsDialogsKt$AddEditSongDialog$1$1.dex
+                                                            DayDetailsDialogsKt$AddEditSongDialog$2$1.dex
+                                                            DayDetailsDialogsKt$AddEditSongDialog$3$1.dex
+                                                            DayDetailsDialogsKt$AddEditSongDialog$3.dex
+                                                            DayDetailsDialogsKt$ConfirmDeleteDialog$1$1.dex
+                                                            DayDetailsDialogsKt$ConfirmDeleteDialog$1.dex
+                                                            DayDetailsDialogsKt$ConfirmExitDialog$1$1.dex
+                                                            DayDetailsDialogsKt$ConfirmExitDialog$1.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$3.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$4.dex
+                                                            DayDetailsDialogsKt$SearchSuggestionList$1.dex
+                                                            DayDetailsDialogsKt$SongDetailsModal$1$1.dex
+                                                            DayDetailsDialogsKt$SongDetailsModal$1.dex
+                                                            DayDetailsDialogsKt.dex
+                                                            DayDetailsEditModeKt$AddItemButton$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$1$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$2$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$2.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$3.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$1$1$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$1$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$2$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$1.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$2.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$3.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$4.dex
+                                                            DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4.dex
+                                                            DayDetailsEditModeKt$EditableReadingItem$1.dex
+                                                            DayDetailsEditModeKt$EditableSongItem$1.dex
+                                                            DayDetailsEditModeKt$HierarchicalCollapsibleSection$1$2.dex
+                                                            DayDetailsEditModeKt.dex
+                                                            DayDetailsTopAppBarKt$EditModeTopAppBar$1$1.dex
+                                                            DayDetailsTopAppBarKt$EditModeTopAppBar$1$2.dex
+                                                            DayDetailsTopAppBarKt$EditModeTopAppBar$1$3$1.dex
+                                                            DayDetailsTopAppBarKt$EditModeTopAppBar$1$3.dex
+                                                            DayDetailsTopAppBarKt$ViewModeTopAppBar$1$1.dex
+                                                            DayDetailsTopAppBarKt$ViewModeTopAppBar$1$2.dex
+                                                            DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.dex
+                                                            DayDetailsTopAppBarKt.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.dex
+                                                            DayDetailsViewModeKt$handleReadingCollapse$1.dex
+                                                            DayDetailsViewModeKt$ReadingItemView$1$1.dex
+                                                            DayDetailsViewModeKt$ReadingItemView$1$2$1$1.dex
+                                                            DayDetailsViewModeKt$ReadingItemView$1$2.dex
+                                                            DayDetailsViewModeKt$SongGroupView$1$2.dex
+                                                            DayDetailsViewModeKt$SongItemView$1.dex
+                                                            DayDetailsViewModeKt.dex
+                                                            IndexKt$DayDetailsScreen$10.dex
+                                                            IndexKt$DayDetailsScreen$11.dex
+                                                            IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.dex
+                                                            IndexKt.dex
+                                                        daydetailsviewmodel/
+                                                            ConstantsKt.dex
+                                                            DayDetailsUiState.dex
+                                                            DayDetailsViewModel$addOrUpdateSong$1.dex
+                                                            DayDetailsViewModel$getFullSong$1.dex
+                                                            DayDetailsViewModel$loadDayData$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$1$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$2$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$2.dex
+                                                            DayDetailsViewModel$observeSearchQueries$3$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$3.dex
+                                                            DayDetailsViewModel$observeSearchQueries$4$1.dex
+                                                            DayDetailsViewModel$observeSearchQueries$4.dex
+                                                            DayDetailsViewModel$onExitEditMode$1.dex
+                                                            DayDetailsViewModel$special$$inlined$map$1$2$1.dex
+                                                            DayDetailsViewModel$special$$inlined$map$1$2.dex
+                                                            DayDetailsViewModel$special$$inlined$map$1.dex
+                                                            DayDetailsViewModel$special$$inlined$map$2$2$1.dex
+                                                            DayDetailsViewModel$special$$inlined$map$2$2.dex
+                                                            DayDetailsViewModel$special$$inlined$map$2.dex
+                                                            DayDetailsViewModel.dex
+                                                            DayDetailsViewModelFactory.dex
+                                                            DialogState$AddEditSong.dex
+                                                            DialogState$ConfirmDelete.dex
+                                                            DialogState$None.dex
+                                                            DialogState.dex
+                                                            ReorderableListItem$HeaderItem.dex
+                                                            ReorderableListItem$SongItem.dex
+                                                            ReorderableListItem.dex
                                                     search/
                                                         ComposableSingletons$IndexKt$lambda-1$1.dex
                                                         ComposableSingletons$IndexKt.dex
@@ -14421,127 +14463,129 @@ Aplikacja-dla-Konrada/
                                                 DateEventsScreenKt.class
                                                 EventItem.class
                                             daydetails/
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-1$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-10$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-11$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-12$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-13$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-14$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-15$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-16$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-17$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-6$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-7$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-8$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt$lambda-9$1.class
-                                                ComposableSingletons$DayDetailsDialogsKt.class
-                                                ComposableSingletons$DayDetailsEditModeKt$lambda-1$1.class
-                                                ComposableSingletons$DayDetailsEditModeKt$lambda-2$1.class
-                                                ComposableSingletons$DayDetailsEditModeKt$lambda-3$1.class
-                                                ComposableSingletons$DayDetailsEditModeKt$lambda-4$1.class
-                                                ComposableSingletons$DayDetailsEditModeKt.class
-                                                ComposableSingletons$DayDetailsTopAppBarKt$lambda-1$1.class
-                                                ComposableSingletons$DayDetailsTopAppBarKt$lambda-2$1.class
-                                                ComposableSingletons$DayDetailsTopAppBarKt$lambda-3$1.class
-                                                ComposableSingletons$DayDetailsTopAppBarKt.class
-                                                ComposableSingletons$IndexKt$lambda-1$1.class
-                                                ComposableSingletons$IndexKt.class
-                                                DayDetailsDialogsKt$AddEditReadingDialog$1$1.class
-                                                DayDetailsDialogsKt$AddEditReadingDialog$1.class
-                                                DayDetailsDialogsKt$AddEditSongDialog$1$1.class
-                                                DayDetailsDialogsKt$AddEditSongDialog$2$1.class
-                                                DayDetailsDialogsKt$AddEditSongDialog$3$1.class
-                                                DayDetailsDialogsKt$AddEditSongDialog$3.class
-                                                DayDetailsDialogsKt$ConfirmDeleteDialog$1$1.class
-                                                DayDetailsDialogsKt$ConfirmDeleteDialog$1.class
-                                                DayDetailsDialogsKt$ConfirmExitDialog$1$1.class
-                                                DayDetailsDialogsKt$ConfirmExitDialog$1.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$3.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$4.class
-                                                DayDetailsDialogsKt$SearchSuggestionList$1.class
-                                                DayDetailsDialogsKt$SongDetailsModal$1$1.class
-                                                DayDetailsDialogsKt$SongDetailsModal$1.class
-                                                DayDetailsDialogsKt.class
-                                                DayDetailsEditModeKt$AddItemButton$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$1$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$2$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$2.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$3.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$1$1$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$1$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$2$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$1.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$2.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$3.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$4.class
-                                                DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4.class
-                                                DayDetailsEditModeKt$EditableReadingItem$1.class
-                                                DayDetailsEditModeKt$EditableSongItem$1.class
-                                                DayDetailsEditModeKt$HierarchicalCollapsibleSection$1$2.class
-                                                DayDetailsEditModeKt.class
-                                                DayDetailsTopAppBarKt$EditModeTopAppBar$1$1.class
-                                                DayDetailsTopAppBarKt$EditModeTopAppBar$1$2.class
-                                                DayDetailsTopAppBarKt$EditModeTopAppBar$1$3$1.class
-                                                DayDetailsTopAppBarKt$EditModeTopAppBar$1$3.class
-                                                DayDetailsTopAppBarKt$ViewModeTopAppBar$1$1.class
-                                                DayDetailsTopAppBarKt$ViewModeTopAppBar$1$2.class
-                                                DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.class
-                                                DayDetailsTopAppBarKt.class
-                                                DayDetailsUiState.class
-                                                DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.class
-                                                DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.class
-                                                DayDetailsViewModeKt$handleReadingCollapse$1.class
-                                                DayDetailsViewModeKt$ReadingItemView$1$1.class
-                                                DayDetailsViewModeKt$ReadingItemView$1$2$1$1.class
-                                                DayDetailsViewModeKt$ReadingItemView$1$2.class
-                                                DayDetailsViewModeKt$SongGroupView$1$2.class
-                                                DayDetailsViewModeKt$SongItemView$1.class
-                                                DayDetailsViewModeKt.class
-                                                DayDetailsViewModel$addOrUpdateSong$1.class
-                                                DayDetailsViewModel$getFullSong$1.class
-                                                DayDetailsViewModel$loadDayData$1.class
-                                                DayDetailsViewModel$observeSearchQueries$1$1.class
-                                                DayDetailsViewModel$observeSearchQueries$1.class
-                                                DayDetailsViewModel$observeSearchQueries$2$1.class
-                                                DayDetailsViewModel$observeSearchQueries$2.class
-                                                DayDetailsViewModel$observeSearchQueries$3$1.class
-                                                DayDetailsViewModel$observeSearchQueries$3.class
-                                                DayDetailsViewModel$observeSearchQueries$4$1.class
-                                                DayDetailsViewModel$observeSearchQueries$4.class
-                                                DayDetailsViewModel$onExitEditMode$1.class
-                                                DayDetailsViewModel$special$$inlined$map$1$2$1.class
-                                                DayDetailsViewModel$special$$inlined$map$1$2.class
-                                                DayDetailsViewModel$special$$inlined$map$1.class
-                                                DayDetailsViewModel$special$$inlined$map$2$2$1.class
-                                                DayDetailsViewModel$special$$inlined$map$2$2.class
-                                                DayDetailsViewModel$special$$inlined$map$2.class
-                                                DayDetailsViewModel.class
-                                                DayDetailsViewModelFactory.class
-                                                DayDetailsViewModelKt.class
-                                                DialogState$AddEditSong.class
-                                                DialogState$ConfirmDelete.class
-                                                DialogState$None.class
-                                                DialogState.class
-                                                IndexKt$DayDetailsScreen$10.class
-                                                IndexKt$DayDetailsScreen$11.class
-                                                IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.class
-                                                IndexKt.class
-                                                ReorderableListItem$HeaderItem.class
-                                                ReorderableListItem$SongItem.class
-                                                ReorderableListItem.class
+                                                daydetailsscreen/
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-1$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-10$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-11$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-12$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-13$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-14$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-15$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-16$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-17$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-6$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-7$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-8$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-9$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt.class
+                                                    ComposableSingletons$DayDetailsEditModeKt$lambda-1$1.class
+                                                    ComposableSingletons$DayDetailsEditModeKt$lambda-2$1.class
+                                                    ComposableSingletons$DayDetailsEditModeKt$lambda-3$1.class
+                                                    ComposableSingletons$DayDetailsEditModeKt$lambda-4$1.class
+                                                    ComposableSingletons$DayDetailsEditModeKt.class
+                                                    ComposableSingletons$DayDetailsTopAppBarKt$lambda-1$1.class
+                                                    ComposableSingletons$DayDetailsTopAppBarKt$lambda-2$1.class
+                                                    ComposableSingletons$DayDetailsTopAppBarKt$lambda-3$1.class
+                                                    ComposableSingletons$DayDetailsTopAppBarKt.class
+                                                    ComposableSingletons$IndexKt$lambda-1$1.class
+                                                    ComposableSingletons$IndexKt.class
+                                                    DayDetailsDialogsKt$AddEditReadingDialog$1$1.class
+                                                    DayDetailsDialogsKt$AddEditReadingDialog$1.class
+                                                    DayDetailsDialogsKt$AddEditSongDialog$1$1.class
+                                                    DayDetailsDialogsKt$AddEditSongDialog$2$1.class
+                                                    DayDetailsDialogsKt$AddEditSongDialog$3$1.class
+                                                    DayDetailsDialogsKt$AddEditSongDialog$3.class
+                                                    DayDetailsDialogsKt$ConfirmDeleteDialog$1$1.class
+                                                    DayDetailsDialogsKt$ConfirmDeleteDialog$1.class
+                                                    DayDetailsDialogsKt$ConfirmExitDialog$1$1.class
+                                                    DayDetailsDialogsKt$ConfirmExitDialog$1.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$3.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$4.class
+                                                    DayDetailsDialogsKt$SearchSuggestionList$1.class
+                                                    DayDetailsDialogsKt$SongDetailsModal$1$1.class
+                                                    DayDetailsDialogsKt$SongDetailsModal$1.class
+                                                    DayDetailsDialogsKt.class
+                                                    DayDetailsEditModeKt$AddItemButton$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$1$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1$2$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$1$1$2$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$2.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2$invoke$lambda$5$lambda$4$$inlined$itemsIndexed$default$3.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$2.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$1$1$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$1$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2$2$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$1$1$2$2.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$1.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$2.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$3.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4$invoke$lambda$10$lambda$9$$inlined$items$default$4.class
+                                                    DayDetailsEditModeKt$DayDetailsEditModeContent$4$1$4.class
+                                                    DayDetailsEditModeKt$EditableReadingItem$1.class
+                                                    DayDetailsEditModeKt$EditableSongItem$1.class
+                                                    DayDetailsEditModeKt$HierarchicalCollapsibleSection$1$2.class
+                                                    DayDetailsEditModeKt.class
+                                                    DayDetailsTopAppBarKt$EditModeTopAppBar$1$1.class
+                                                    DayDetailsTopAppBarKt$EditModeTopAppBar$1$2.class
+                                                    DayDetailsTopAppBarKt$EditModeTopAppBar$1$3$1.class
+                                                    DayDetailsTopAppBarKt$EditModeTopAppBar$1$3.class
+                                                    DayDetailsTopAppBarKt$ViewModeTopAppBar$1$1.class
+                                                    DayDetailsTopAppBarKt$ViewModeTopAppBar$1$2.class
+                                                    DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.class
+                                                    DayDetailsTopAppBarKt.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.class
+                                                    DayDetailsViewModeKt$handleReadingCollapse$1.class
+                                                    DayDetailsViewModeKt$ReadingItemView$1$1.class
+                                                    DayDetailsViewModeKt$ReadingItemView$1$2$1$1.class
+                                                    DayDetailsViewModeKt$ReadingItemView$1$2.class
+                                                    DayDetailsViewModeKt$SongGroupView$1$2.class
+                                                    DayDetailsViewModeKt$SongItemView$1.class
+                                                    DayDetailsViewModeKt.class
+                                                    IndexKt$DayDetailsScreen$10.class
+                                                    IndexKt$DayDetailsScreen$11.class
+                                                    IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.class
+                                                    IndexKt.class
+                                                daydetailsviewmodel/
+                                                    ConstantsKt.class
+                                                    DayDetailsUiState.class
+                                                    DayDetailsViewModel$addOrUpdateSong$1.class
+                                                    DayDetailsViewModel$getFullSong$1.class
+                                                    DayDetailsViewModel$loadDayData$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$1$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$2$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$2.class
+                                                    DayDetailsViewModel$observeSearchQueries$3$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$3.class
+                                                    DayDetailsViewModel$observeSearchQueries$4$1.class
+                                                    DayDetailsViewModel$observeSearchQueries$4.class
+                                                    DayDetailsViewModel$onExitEditMode$1.class
+                                                    DayDetailsViewModel$special$$inlined$map$1$2$1.class
+                                                    DayDetailsViewModel$special$$inlined$map$1$2.class
+                                                    DayDetailsViewModel$special$$inlined$map$1.class
+                                                    DayDetailsViewModel$special$$inlined$map$2$2$1.class
+                                                    DayDetailsViewModel$special$$inlined$map$2$2.class
+                                                    DayDetailsViewModel$special$$inlined$map$2.class
+                                                    DayDetailsViewModel.class
+                                                    DayDetailsViewModelFactory.class
+                                                    DialogState$AddEditSong.class
+                                                    DialogState$ConfirmDelete.class
+                                                    DialogState$None.class
+                                                    DialogState.class
+                                                    ReorderableListItem$HeaderItem.class
+                                                    ReorderableListItem$SongItem.class
+                                                    ReorderableListItem.class
                                             search/
                                                 ComposableSingletons$IndexKt$lambda-1$1.class
                                                 ComposableSingletons$IndexKt.class
@@ -15846,10 +15890,15 @@ Aplikacja-dla-Konrada/
                                             BrowseScreen.kt
                                             BrowseViewModel.kt
                                         calendar/
-                                            CalendarRepository.kt
                                             CalendarScreen.kt
                                             CalendarViewModel.kt
-                                            TranslationMap.kt
+                                            CalendarRepository/
+                                                constants.kt
+                                                IcsParser.kt
+                                                index.kt
+                                                LiturgicalLogic.kt
+                                                models.kt
+                                                NetworkManager.kt
                                         category/
                                             CategoryManagementScreen.kt
                                             CategoryManagementViewModel.kt

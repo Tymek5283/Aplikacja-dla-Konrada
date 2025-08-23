@@ -1,4 +1,6 @@
-package com.qjproject.liturgicalcalendar.ui.screens.calendar
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\constants.kt
+// Opis: Ten plik centralizuje stałe wartości, takie jak mapa tłumaczeń nazw świąt, które są używane w logice parsowania danych kalendarza.
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository
 
 internal val translationMap: Map<String, String> = mapOf(
     "Czwartek I tygodnia Adwentu" to "1 Czwartek Adwentu",

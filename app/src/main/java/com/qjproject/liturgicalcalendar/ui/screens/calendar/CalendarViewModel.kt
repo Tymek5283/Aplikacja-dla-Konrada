@@ -5,6 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.CalendarRepository
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.CalendarDay
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.NavigationAction
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
