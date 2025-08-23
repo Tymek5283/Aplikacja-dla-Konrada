@@ -1,67 +1,58 @@
-package com.qjproject.liturgicalcalendar
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTabsScreen.kt
+// Opis: Ten plik definiuje główny ekran aplikacji z dolnym paskiem nawigacyjnym. Zarządza przełączaniem między głównymi sekcjami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
+package com.qjproject.liturgicalcalendar.MainActivity
 
-import android.Manifest
 import android.app.Activity
-import android.content.Intent
-import android.os.Build
-import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
-import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.animation.AnimatedContentTransitionScope
-import androidx.compose.animation.ExperimentalAnimationApi
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.RowScope
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.Divider
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import androidx.navigation.NavType
-import androidx.navigation.navArgument
-import com.google.accompanist.navigation.animation.AnimatedNavHost
-import com.google.accompanist.navigation.animation.composable
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.rememberPagerState
 import com.qjproject.liturgicalcalendar.navigation.Screen
-import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
-import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
@@ -69,170 +60,13 @@ import com.qjproject.liturgicalcalendar.ui.screens.search.SongSortMode
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
 import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import kotlinx.coroutines.launch
-import java.net.URLDecoder
-import kotlin.system.exitProcess
-
-class MainActivity : ComponentActivity() {
-
-    private val requestPermissionLauncher =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
-            if (!isGranted) {
-                finish()
-            }
-        }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen()
-        super.onCreate(savedInstanceState)
-
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
-            requestPermissionLauncher.launch(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        }
-
-        setContent {
-            LiturgicalCalendarTheme {
-                MainAppHost()
-            }
-        }
-    }
-}
-
-fun restartApp(activity: Activity) {
-    val intent = Intent(activity, MainActivity::class.java)
-    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-    activity.startActivity(intent)
-    activity.finish()
-    exitProcess(0)
-}
-
-@OptIn(ExperimentalAnimationApi::class)
-@Composable
-fun MainAppHost() {
-    val navController = rememberAnimatedNavController()
-
-    val safePopBackStack: () -> Unit = {
-        navController.navigateUp()
-    }
-
-    AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
-        composable("main_tabs") {
-            MainTabsScreen(navController = navController)
-        }
-        composable(
-            route = Screen.DayDetails.route,
-            arguments = listOf(navArgument("dayId") { type = NavType.StringType }),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val encodedPath = backStackEntry.arguments?.getString("dayId")
-            val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
-            DayDetailsScreen(
-                dayId = decodedPath,
-                onNavigateBack = safePopBackStack,
-                onNavigateToSongContent = { song, startInEdit ->
-                    navController.navigate(Screen.SongContent.createRoute(song, startInEdit))
-                }
-            )
-        }
-        composable(
-            route = Screen.DateEvents.route,
-            arguments = listOf(
-                navArgument("dateTitle") { type = NavType.StringType },
-                navArgument("filePaths") { type = NavType.StringType }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val dateTitle = backStackEntry.arguments?.getString("dateTitle")?.let { URLDecoder.decode(it, "UTF-8") } ?: ""
-            val filePathsString = backStackEntry.arguments?.getString("filePaths") ?: ""
-            val filePaths = Screen.DateEvents.decodePaths(filePathsString)
-
-            DateEventsScreen(
-                dateTitle = dateTitle,
-                filePaths = filePaths,
-                onNavigateToDay = { dayPath ->
-                    navController.navigate(Screen.DayDetails.createRoute(dayPath))
-                },
-                onNavigateBack = safePopBackStack
-            )
-        }
-        composable(
-            route = Screen.SongDetails.route,
-            arguments = listOf(
-                navArgument("songTitle") { type = NavType.StringType },
-                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
-                navArgument("sakNum") { type = NavType.StringType; nullable = true },
-                navArgument("dnNum") { type = NavType.StringType; nullable = true }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val context = LocalContext.current
-            val factory = SongDetailsViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
-            val viewModel: SongDetailsViewModel = viewModel(factory = factory)
-
-            SongDetailsScreen(
-                viewModel = viewModel,
-                onNavigateBack = safePopBackStack,
-                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) }
-            )
-        }
-        composable(
-            route = Screen.SongContent.route,
-            arguments = listOf(
-                navArgument("songTitle") { type = NavType.StringType },
-                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
-                navArgument("sakNum") { type = NavType.StringType; nullable = true },
-                navArgument("dnNum") { type = NavType.StringType; nullable = true },
-                navArgument("editOnStart") {
-                    type = NavType.BoolType
-                    defaultValue = false
-                }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val startInEdit = backStackEntry.arguments?.getBoolean("editOnStart") ?: false
-            val context = LocalContext.current
-            val factory = SongContentViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
-            val viewModel: SongContentViewModel = viewModel(factory = factory)
-
-            SongContentScreen(
-                viewModel = viewModel,
-                onNavigateBack = safePopBackStack,
-                startInEditMode = startInEdit
-            )
-        }
-        // --- POCZĄTEK ZMIANY ---
-        composable(
-            route = Screen.CategoryManagement.route,
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) {
-            val context = LocalContext.current
-            val factory = CategoryManagementViewModelFactory(context)
-            CategoryManagementScreen(
-                viewModel = viewModel(factory = factory),
-                onNavigateBack = safePopBackStack
-            )
-        }
-        // --- KONIEC ZMIANY ---
-    }
-}
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
 @Composable
-fun MainTabsScreen(navController: NavController) {
+internal fun MainTabsScreen(navController: NavController) {
     val context = LocalContext.current
     val activity = (LocalContext.current as? Activity)
     val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
@@ -442,81 +276,12 @@ fun MainTabsScreen(navController: NavController) {
                             restartApp(activity)
                         }
                     },
-                    // --- POCZĄTEK ZMIANY ---
                     onNavigateToCategoryManagement = {
                         navController.navigate(Screen.CategoryManagement.route)
                     }
-                    // --- KONIEC ZMIANY ---
                 )
                 else -> {}
             }
         }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun MainTopAppBar(
-    title: String,
-    showBackButton: Boolean = false,
-    onBackClick: () -> Unit = {},
-    isBrowseScreenInEditMode: Boolean = false,
-    showEditButton: Boolean = false,
-    onEditClick: () -> Unit = {},
-    onSaveClick: () -> Unit = {},
-    onCancelClick: () -> Unit = {},
-    isSaveEnabled: Boolean = false,
-    isCalendarScreenActive: Boolean = false,
-    isSearchScreenActive: Boolean = false,
-    searchActions: @Composable RowScope.() -> Unit = {},
-    calendarActions: @Composable RowScope.() -> Unit = {}
-) {
-    Column {
-        CenterAlignedTopAppBar(
-            title = {
-                AutoResizingText(
-                    text = title,
-                    style = MaterialTheme.typography.titleLarge,
-                    textAlign = TextAlign.Center
-                )
-            },
-            navigationIcon = {
-                if (isBrowseScreenInEditMode) {
-                    IconButton(onClick = onCancelClick) {
-                        Icon(Icons.Default.Close, "Anuluj edycję")
-                    }
-                } else if (showBackButton) {
-                    IconButton(onClick = onBackClick) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
-                    }
-                } else {
-                    Spacer(Modifier.width(48.dp))
-                }
-            },
-            actions = {
-                if (isSearchScreenActive) {
-                    searchActions()
-                } else if (isBrowseScreenInEditMode) {
-                    IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
-                        Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
-                    }
-                } else if (showEditButton) {
-                    IconButton(onClick = onEditClick) {
-                        Icon(Icons.Default.Edit, "Edytuj")
-                    }
-                } else if (isCalendarScreenActive) {
-                    calendarActions()
-                } else {
-                    Spacer(Modifier.width(48.dp))
-                }
-            },
-            colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-                containerColor = MaterialTheme.colorScheme.background,
-                titleContentColor = MaterialTheme.colorScheme.primary,
-                navigationIconContentColor = MaterialTheme.colorScheme.primary
-            ),
-            windowInsets = TopAppBarDefaults.windowInsets
-        )
-        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
     }
 }
