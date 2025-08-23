@@ -21,6 +21,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
@@ -127,13 +128,18 @@ fun SongResultItem(
                 onLongClick = onLongClick
             ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
+            val iconColor = if (song.tekst.isNullOrBlank()) {
+                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+            } else {
+                MaterialTheme.colorScheme.primary
+            }
+            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = iconColor)
             Spacer(Modifier.width(16.dp))
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))

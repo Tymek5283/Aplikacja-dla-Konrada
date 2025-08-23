@@ -3772,6 +3772,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import org.burnoutcrew.reorderable.*
@@ -3885,7 +3886,7 @@ fun BrowseItemView(item: FileSystemItem, onClick: () -> Unit) {
             .padding(vertical = 4.dp)
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(16.dp),
@@ -4282,14 +4283,48 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
         else action()
     }
 
+    private fun shouldSortByDayOfWeek(path: List<String>): Boolean {
+        val pathString = path.joinToString("/").lowercase()
+        val relevantPeriods = listOf("adwent", "wielki post", "okres wielkanocny", "okres zwykły")
+        val isRelevantPeriod = relevantPeriods.any { it in pathString }
+        val isInWeekFolder = path.lastOrNull()?.contains("tydzień", ignoreCase = true) ?: false
+        return isRelevantPeriod && isInWeekFolder
+    }
+
+    private fun sortItemsByDayOfWeek(items: List<FileSystemItem>): List<FileSystemItem> {
+        val dayOrder = mapOf(
+            "niedziela" to 0,
+            "poniedziałek" to 1,
+            "wtorek" to 2,
+            "środa" to 3,
+            "czwartek" to 4,
+            "piątek" to 5,
+            "sobota" to 6
+        )
+
+        return items.sortedWith(compareBy { item ->
+            val words = item.name.split(" ")
+            val dayName = words.getOrNull(1)?.lowercase(Locale.getDefault())?.removeSuffix("i")
+            dayOrder[dayName] ?: 7 // Pozostałe elementy (np. foldery 'Niedziela...') na końcu
+        })
+    }
+
+
     private fun loadContentForCurrentPath() {
         viewModelScope.launch {
             val pathString = _uiState.value.currentPath.joinToString("/")
             val items = repository.getItems(pathString).filter { it.name != "piesni" }
+
+            val sortedItems = if (shouldSortByDayOfWeek(_uiState.value.currentPath)) {
+                sortItemsByDayOfWeek(items)
+            } else {
+                items
+            }
+
             _uiState.update {
                 val title = if (it.isRoot) "Czego szukasz?" else it.currentPath.last().replace("_", " ")
                 it.copy(
-                    items = items,
+                    items = sortedItems,
                     screenTitle = title,
                     isBackArrowVisible = !it.isRoot,
                     hasChanges = false
@@ -7410,7 +7445,9 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DisplayableSuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
@@ -7494,9 +7531,9 @@ internal fun DayDetailsViewModeContent(
                     isExpanded = uiState.expandedSongMoments.contains(momentKey),
                     onToggle = { viewModel.toggleSongMoment(momentKey) },
                     onSongClick = { suggested ->
-                        viewModel.getFullSong(suggested) { fullSong ->
+                        viewModel.getFullSong(suggested.suggestedSong) { fullSong ->
                             if (fullSong != null) {
-                                selectedSong = suggested
+                                selectedSong = suggested.suggestedSong
                                 fullSelectedSong = fullSong
                                 showSongModal = true
                             }
@@ -7591,10 +7628,10 @@ fun ReadingItemView(
 @Composable
 fun SongGroupView(
     momentName: String,
-    songs: List<SuggestedSong>,
+    songs: List<DisplayableSuggestedSong>,
     isExpanded: Boolean,
     onToggle: () -> Unit,
-    onSongClick: (SuggestedSong) -> Unit
+    onSongClick: (DisplayableSuggestedSong) -> Unit
 ) {
     if (songs.isNotEmpty()) {
         Column {
@@ -7617,7 +7654,7 @@ fun SongGroupView(
             AnimatedVisibility(visible = isExpanded) {
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     songs.forEach { song ->
-                        SongItemView(song = song, onClick = { onSongClick(song) })
+                        SongItemView(displayableSong = song, onClick = { onSongClick(song) })
                     }
                 }
             }
@@ -7626,23 +7663,26 @@ fun SongGroupView(
 }
 
 @Composable
-private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
+private fun SongItemView(displayableSong: DisplayableSuggestedSong, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
+            val iconColor = if (displayableSong.hasText) {
+                MaterialTheme.colorScheme.primary
+            } else {
+                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+            }
+            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = iconColor)
             Spacer(Modifier.width(16.dp))
-            Text(song.piesn, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Spacer(Modifier.width(8.dp))
-            Text(song.numer, fontWeight = FontWeight.Bold)
+            Text(displayableSong.suggestedSong.piesn, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     }
 }
@@ -7834,11 +7874,20 @@ class DayDetailsViewModel(
     var editableDayData: MutableState<DayData?> = mutableStateOf(null)
         private set
 
-    val groupedSongs: StateFlow<Map<String, List<SuggestedSong>>> = _uiState.map { state ->
+    val groupedSongs: StateFlow<Map<String, List<DisplayableSuggestedSong>>> = _uiState.map { state ->
+        val allSongsMap = repository.getSongList().associateBy { it.numerSiedl }
+
         state.dayData?.piesniSugerowane
             .orEmpty()
             .filterNotNull()
-            .groupBy { it.moment }
+            .map { suggestedSong ->
+                val fullSong = allSongsMap[suggestedSong.numer]
+                DisplayableSuggestedSong(
+                    suggestedSong = suggestedSong,
+                    hasText = !fullSong?.tekst.isNullOrBlank()
+                )
+            }
+            .groupBy { it.suggestedSong.moment }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
 
     val reorderableSongList: StateFlow<List<ReorderableListItem>> =
@@ -8224,6 +8273,11 @@ sealed class ReorderableListItem {
     data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
     data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
 }
+
+data class DisplayableSuggestedSong(
+    val suggestedSong: SuggestedSong,
+    val hasText: Boolean
+)
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchViewModel.kt
@@ -8675,6 +8729,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
@@ -8781,13 +8836,18 @@ fun SongResultItem(
                 onLongClick = onLongClick
             ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
+            val iconColor = if (song.tekst.isNullOrBlank()) {
+                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+            } else {
+                MaterialTheme.colorScheme.primary
+            }
+            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = iconColor)
             Spacer(Modifier.width(16.dp))
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))
@@ -10086,6 +10146,7 @@ val SongItemBackground = Color.Gray.copy(alpha = 0.1f)
 val NavyDark = Color(0xFF16182D)
 val DarkerNavy = Color(0xFF2C2E4A)
 val VeryDarkNavy = Color(0xFF1A1D36)
+val CardBackground = Color(0xFF3A3C5C)
 val SaturatedNavy = Color(0xFF81A0D3)
 val NavyLight = Color(0xFF4E5079)
 val Cream = Color(0xFFF1DAC2)
@@ -14162,6 +14223,7 @@ Aplikacja-dla-Konrada/
                                                         BrowseUiState.dex
                                                         BrowseViewModel$loadContentForCurrentPath$1.dex
                                                         BrowseViewModel$onSaveEditMode$1.dex
+                                                        BrowseViewModel$sortItemsByDayOfWeek$$inlined$compareBy$1.dex
                                                         BrowseViewModel.dex
                                                         BrowseViewModelFactory.dex
                                                         ComposableSingletons$BrowseScreenKt$lambda-1$1.dex
@@ -14429,6 +14491,7 @@ Aplikacja-dla-Konrada/
                                                             DialogState$ConfirmDelete.dex
                                                             DialogState$None.dex
                                                             DialogState.dex
+                                                            DisplayableSuggestedSong.dex
                                                             ReorderableListItem$HeaderItem.dex
                                                             ReorderableListItem$SongItem.dex
                                                             ReorderableListItem.dex
@@ -15079,6 +15142,7 @@ Aplikacja-dla-Konrada/
                                                 BrowseUiState.class
                                                 BrowseViewModel$loadContentForCurrentPath$1.class
                                                 BrowseViewModel$onSaveEditMode$1.class
+                                                BrowseViewModel$sortItemsByDayOfWeek$$inlined$compareBy$1.class
                                                 BrowseViewModel.class
                                                 BrowseViewModelFactory.class
                                                 ComposableSingletons$BrowseScreenKt$lambda-1$1.class
@@ -15346,6 +15410,7 @@ Aplikacja-dla-Konrada/
                                                     DialogState$ConfirmDelete.class
                                                     DialogState$None.class
                                                     DialogState.class
+                                                    DisplayableSuggestedSong.class
                                                     ReorderableListItem$HeaderItem.class
                                                     ReorderableListItem$SongItem.class
                                                     ReorderableListItem.class

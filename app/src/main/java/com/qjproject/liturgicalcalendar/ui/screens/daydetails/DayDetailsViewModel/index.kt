@@ -48,11 +48,20 @@ class DayDetailsViewModel(
     var editableDayData: MutableState<DayData?> = mutableStateOf(null)
         private set
 
-    val groupedSongs: StateFlow<Map<String, List<SuggestedSong>>> = _uiState.map { state ->
+    val groupedSongs: StateFlow<Map<String, List<DisplayableSuggestedSong>>> = _uiState.map { state ->
+        val allSongsMap = repository.getSongList().associateBy { it.numerSiedl }
+
         state.dayData?.piesniSugerowane
             .orEmpty()
             .filterNotNull()
-            .groupBy { it.moment }
+            .map { suggestedSong ->
+                val fullSong = allSongsMap[suggestedSong.numer]
+                DisplayableSuggestedSong(
+                    suggestedSong = suggestedSong,
+                    hasText = !fullSong?.tekst.isNullOrBlank()
+                )
+            }
+            .groupBy { it.suggestedSong.moment }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyMap())
 
     val reorderableSongList: StateFlow<List<ReorderableListItem>> =

@@ -33,3 +33,8 @@ sealed class ReorderableListItem {
     data class SongItem(val suggestedSong: SuggestedSong) : ReorderableListItem()
     data class HeaderItem(val momentKey: String, val momentName: String) : ReorderableListItem()
 }
+
+data class DisplayableSuggestedSong(
+    val suggestedSong: SuggestedSong,
+    val hasText: Boolean
+)

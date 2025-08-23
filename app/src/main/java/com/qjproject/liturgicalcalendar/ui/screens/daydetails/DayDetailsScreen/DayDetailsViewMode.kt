@@ -1,5 +1,3 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
-// Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie zawartości ekranu DayDetailsScreen w trybie tylko do odczytu (View Mode).
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
@@ -30,7 +28,9 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DisplayableSuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
@@ -114,9 +114,9 @@ internal fun DayDetailsViewModeContent(
                     isExpanded = uiState.expandedSongMoments.contains(momentKey),
                     onToggle = { viewModel.toggleSongMoment(momentKey) },
                     onSongClick = { suggested ->
-                        viewModel.getFullSong(suggested) { fullSong ->
+                        viewModel.getFullSong(suggested.suggestedSong) { fullSong ->
                             if (fullSong != null) {
-                                selectedSong = suggested
+                                selectedSong = suggested.suggestedSong
                                 fullSelectedSong = fullSong
                                 showSongModal = true
                             }
@@ -211,10 +211,10 @@ fun ReadingItemView(
 @Composable
 fun SongGroupView(
     momentName: String,
-    songs: List<SuggestedSong>,
+    songs: List<DisplayableSuggestedSong>,
     isExpanded: Boolean,
     onToggle: () -> Unit,
-    onSongClick: (SuggestedSong) -> Unit
+    onSongClick: (DisplayableSuggestedSong) -> Unit
 ) {
     if (songs.isNotEmpty()) {
         Column {
@@ -237,7 +237,7 @@ fun SongGroupView(
             AnimatedVisibility(visible = isExpanded) {
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     songs.forEach { song ->
-                        SongItemView(song = song, onClick = { onSongClick(song) })
+                        SongItemView(displayableSong = song, onClick = { onSongClick(song) })
                     }
                 }
             }
@@ -246,23 +246,26 @@ fun SongGroupView(
 }
 
 @Composable
-private fun SongItemView(song: SuggestedSong, onClick: () -> Unit) {
+private fun SongItemView(displayableSong: DisplayableSuggestedSong, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = MaterialTheme.colorScheme.primary)
+            val iconColor = if (displayableSong.hasText) {
+                MaterialTheme.colorScheme.primary
+            } else {
+                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+            }
+            Icon(Icons.Outlined.MusicNote, contentDescription = "Pieśń", tint = iconColor)
             Spacer(Modifier.width(16.dp))
-            Text(song.piesn, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Spacer(Modifier.width(8.dp))
-            Text(song.numer, fontWeight = FontWeight.Bold)
+            Text(displayableSong.suggestedSong.piesn, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     }
 }

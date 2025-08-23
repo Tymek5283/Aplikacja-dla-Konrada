@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
+import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import org.burnoutcrew.reorderable.*
@@ -140,7 +141,7 @@ fun BrowseItemView(item: FileSystemItem, onClick: () -> Unit) {
             .padding(vertical = 4.dp)
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = CardBackground)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(16.dp),
