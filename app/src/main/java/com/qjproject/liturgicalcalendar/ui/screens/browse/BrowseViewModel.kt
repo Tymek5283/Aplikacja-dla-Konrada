@@ -1,3 +1,5 @@
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\browse\BrowseViewModel.kt
+// Opis: ViewModel dla ekranu przeglądania plików. Odpowiada za logikę nawigacji po folderach, edycję, tworzenie i usuwanie elementów.
 package com.qjproject.liturgicalcalendar.ui.screens.browse
 
 import android.content.Context
@@ -5,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
-import com.qjproject.liturgicalcalendar.data.FileSystemRepository
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -51,11 +53,6 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private fun validateNewItemName(name: String, isFolder: Boolean, originalName: String? = null) {
         val trimmedName = name.trim()
-//        if (trimmedName.isBlank()) {
-//            _uiState.update { it.copy(operationError = "Nazwa nie może być pusta.") }
-//            return
-//        }
-
         val existingNames = _uiState.value.items.map { it.name.lowercase(Locale.getDefault()) }
         val finalName = trimmedName.lowercase(Locale.getDefault())
 
@@ -142,27 +139,24 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
             val originalItemsMap = originalItemsOnEdit.associateBy { it.path }
             val currentItemsMapByPath = currentItems.associateBy { it.path }
 
-            // 1. Handle Deletions
             val deletedItems = originalItemsOnEdit.filter { !currentItemsMapByPath.containsKey(it.path) }
             for (item in deletedItems) {
                 repository.deleteItem(item.path)
             }
 
-            // 2. Handle Additions and Renames
             val finalItems = currentItems.toMutableList()
             val itemsToUpdate = mutableMapOf<Int, FileSystemItem>()
 
             for ((index, item) in currentItems.withIndex()) {
                 val originalItem = originalItemsMap[item.path]
-                if (originalItem == null) { // New item
+                if (originalItem == null) {
                     val pathString = _uiState.value.currentPath.joinToString("/")
-                    val result = if (item.isDirectory) {
+                    if (item.isDirectory) {
                         repository.createFolder(pathString, item.name)
                     } else {
                         repository.createDayFile(pathString, item.name, null)
                     }
-                    // We don't need to do anything with the result here as the final order will be saved later
-                } else if (originalItem.name != item.name) { // Renamed item
+                } else if (originalItem.name != item.name) {
                     repository.renameItem(item.path, item.name).onSuccess { newPath ->
                         itemsToUpdate[index] = item.copy(path = newPath)
                     }
@@ -170,7 +164,6 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
             }
             itemsToUpdate.forEach { (index, updatedItem) -> finalItems[index] = updatedItem }
 
-            // 3. Save final order
             val finalOrderedNames = finalItems.map { it.name }
             repository.saveOrder(_uiState.value.currentPath.joinToString("/"), finalOrderedNames)
 
@@ -256,7 +249,6 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
         val currentItems = _uiState.value.items.toMutableList()
-        // Path is temporary, will be properly created on save
         val tempPath = _uiState.value.currentPath.joinToString("/") + "/$trimmedName"
         val newItem = FileSystemItem(name = trimmedName, isDirectory = true, path = tempPath)
         currentItems.add(newItem)
@@ -278,7 +270,6 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
         val currentItems = _uiState.value.items.toMutableList()
-        // Path is temporary, will be properly created on save
         val tempPath = _uiState.value.currentPath.joinToString("/") + "/$trimmedName.json"
         val newItem = FileSystemItem(name = trimmedName, isDirectory = false, path = tempPath)
         currentItems.add(newItem)

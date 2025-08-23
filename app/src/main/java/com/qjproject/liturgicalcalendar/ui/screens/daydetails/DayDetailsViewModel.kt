@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.DayData
-import com.qjproject.liturgicalcalendar.data.FileSystemRepository
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong

@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.Category
-import com.qjproject.liturgicalcalendar.data.FileSystemRepository
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -60,13 +60,11 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    // --- POCZĄTEK ZMIANY ---
     fun triggerSearch() {
         searchJob?.cancel()
         repository.invalidateSongCache() // Unieważnij pamięć podręczną, aby pobrać świeże dane
         performSearch(_uiState.value.query)
     }
-    // --- KONIEC ZMIANY ---
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }
