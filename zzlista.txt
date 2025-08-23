@@ -1,4 +1,3 @@
-3. app/src/main/java/com/qjproject/liturgicalcalendar/MainActivity.kt - 429
 4. app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreen.kt - 342
 5. app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/calendar/TranslationMap.kt - 340
 6. app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsViewModel.kt - 326

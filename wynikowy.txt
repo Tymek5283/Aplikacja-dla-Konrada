@@ -1673,532 +1673,6 @@ class LiturgicalCalendarApp : Application() {
 }
 
 -
-nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity.kt
-treść:
-package com.qjproject.liturgicalcalendar
-
-import android.Manifest
-import android.app.Activity
-import android.content.Intent
-import android.os.Build
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.BackHandler
-import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.animation.AnimatedContentTransitionScope
-import androidx.compose.animation.ExperimentalAnimationApi
-import androidx.compose.animation.core.tween
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.RowScope
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.selection.selectable
-import androidx.compose.foundation.selection.selectableGroup
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.lifecycle.SavedStateHandle
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavController
-import androidx.navigation.NavType
-import androidx.navigation.navArgument
-import com.google.accompanist.navigation.animation.AnimatedNavHost
-import com.google.accompanist.navigation.animation.composable
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
-import com.google.accompanist.pager.ExperimentalPagerApi
-import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.rememberPagerState
-import com.qjproject.liturgicalcalendar.navigation.Screen
-import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
-import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
-import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
-import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
-import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.search.SongSortMode
-import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
-import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
-import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
-import kotlinx.coroutines.launch
-import java.net.URLDecoder
-import kotlin.system.exitProcess
-
-class MainActivity : ComponentActivity() {
-
-    private val requestPermissionLauncher =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
-            if (!isGranted) {
-                finish()
-            }
-        }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        installSplashScreen()
-        super.onCreate(savedInstanceState)
-
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
-            requestPermissionLauncher.launch(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        }
-
-        setContent {
-            LiturgicalCalendarTheme {
-                MainAppHost()
-            }
-        }
-    }
-}
-
-fun restartApp(activity: Activity) {
-    val intent = Intent(activity, MainActivity::class.java)
-    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-    activity.startActivity(intent)
-    activity.finish()
-    exitProcess(0)
-}
-
-@OptIn(ExperimentalAnimationApi::class)
-@Composable
-fun MainAppHost() {
-    val navController = rememberAnimatedNavController()
-
-    val safePopBackStack: () -> Unit = {
-        navController.navigateUp()
-    }
-
-    AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
-        composable("main_tabs") {
-            MainTabsScreen(navController = navController)
-        }
-        composable(
-            route = Screen.DayDetails.route,
-            arguments = listOf(navArgument("dayId") { type = NavType.StringType }),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val encodedPath = backStackEntry.arguments?.getString("dayId")
-            val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
-            DayDetailsScreen(
-                dayId = decodedPath,
-                onNavigateBack = safePopBackStack,
-                onNavigateToSongContent = { song, startInEdit ->
-                    navController.navigate(Screen.SongContent.createRoute(song, startInEdit))
-                }
-            )
-        }
-        composable(
-            route = Screen.DateEvents.route,
-            arguments = listOf(
-                navArgument("dateTitle") { type = NavType.StringType },
-                navArgument("filePaths") { type = NavType.StringType }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val dateTitle = backStackEntry.arguments?.getString("dateTitle")?.let { URLDecoder.decode(it, "UTF-8") } ?: ""
-            val filePathsString = backStackEntry.arguments?.getString("filePaths") ?: ""
-            val filePaths = Screen.DateEvents.decodePaths(filePathsString)
-
-            DateEventsScreen(
-                dateTitle = dateTitle,
-                filePaths = filePaths,
-                onNavigateToDay = { dayPath ->
-                    navController.navigate(Screen.DayDetails.createRoute(dayPath))
-                },
-                onNavigateBack = safePopBackStack
-            )
-        }
-        composable(
-            route = Screen.SongDetails.route,
-            arguments = listOf(
-                navArgument("songTitle") { type = NavType.StringType },
-                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
-                navArgument("sakNum") { type = NavType.StringType; nullable = true },
-                navArgument("dnNum") { type = NavType.StringType; nullable = true }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val context = LocalContext.current
-            val factory = SongDetailsViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
-            val viewModel: SongDetailsViewModel = viewModel(factory = factory)
-
-            SongDetailsScreen(
-                viewModel = viewModel,
-                onNavigateBack = safePopBackStack,
-                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) }
-            )
-        }
-        composable(
-            route = Screen.SongContent.route,
-            arguments = listOf(
-                navArgument("songTitle") { type = NavType.StringType },
-                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
-                navArgument("sakNum") { type = NavType.StringType; nullable = true },
-                navArgument("dnNum") { type = NavType.StringType; nullable = true },
-                navArgument("editOnStart") {
-                    type = NavType.BoolType
-                    defaultValue = false
-                }
-            ),
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) { backStackEntry ->
-            val startInEdit = backStackEntry.arguments?.getBoolean("editOnStart") ?: false
-            val context = LocalContext.current
-            val factory = SongContentViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
-            val viewModel: SongContentViewModel = viewModel(factory = factory)
-
-            SongContentScreen(
-                viewModel = viewModel,
-                onNavigateBack = safePopBackStack,
-                startInEditMode = startInEdit
-            )
-        }
-        // --- POCZĄTEK ZMIANY ---
-        composable(
-            route = Screen.CategoryManagement.route,
-            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
-            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
-        ) {
-            val context = LocalContext.current
-            val factory = CategoryManagementViewModelFactory(context)
-            CategoryManagementScreen(
-                viewModel = viewModel(factory = factory),
-                onNavigateBack = safePopBackStack
-            )
-        }
-        // --- KONIEC ZMIANY ---
-    }
-}
-
-@OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
-@Composable
-fun MainTabsScreen(navController: NavController) {
-    val context = LocalContext.current
-    val activity = (LocalContext.current as? Activity)
-    val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
-    val calendarViewModel = viewModel<CalendarViewModel>(factory = CalendarViewModelFactory(context))
-    val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
-    val searchViewModel = viewModel<SearchViewModel>(factory = SearchViewModelFactory(context))
-
-
-    val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
-    val pagerState = rememberPagerState(initialPage = 1)
-    val coroutineScope = rememberCoroutineScope()
-
-    val browseUiState by browseViewModel.uiState.collectAsState()
-    val searchUiState by searchViewModel.uiState.collectAsState()
-
-    val isSearchScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Search)
-    val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
-    val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
-
-    var isCalendarMenuExpanded by remember { mutableStateOf(false) }
-
-    BackHandler(enabled = true) {
-        when {
-            // Logika dla ekranu przeglądania
-            isBrowseScreenActive -> {
-                if (browseUiState.isEditMode) {
-                    browseViewModel.onTryExitEditMode {}
-                } else {
-                    browseViewModel.onBackPress()
-                }
-            }
-            // Dla pozostałych przypadków (inne ekrany bez otwartych menu), nie rób nic,
-            // aby zapobiec zamknięciu aplikacji
-            else -> {}
-        }
-    }
-
-    Scaffold(
-        topBar = {
-            val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> "Wyszukaj pieśń"
-                Screen.Browse -> browseUiState.screenTitle
-                Screen.Calendar -> "Szukaj po dacie"
-                Screen.Settings -> "Ustawienia"
-                else -> ""
-            }
-            MainTopAppBar(
-                title = title,
-                showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
-                onBackClick = { browseViewModel.onBackPress() },
-                isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
-                showEditButton = isBrowseScreenActive,
-                onEditClick = { browseViewModel.onEnterEditMode() },
-                onSaveClick = { browseViewModel.onSaveEditMode() },
-                onCancelClick = { browseViewModel.onTryExitEditMode {} },
-                isSaveEnabled = browseUiState.hasChanges,
-                isCalendarScreenActive = isCalendarScreenActive,
-                isSearchScreenActive = isSearchScreenActive,
-                searchActions = {
-                    var showSearchOptions by remember { mutableStateOf(false) }
-                    Box {
-                        IconButton(onClick = { showSearchOptions = true }) {
-                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje wyszukiwania")
-                        }
-                        DropdownMenu(
-                            expanded = showSearchOptions,
-                            onDismissRequest = { showSearchOptions = false }
-                        ) {
-                            Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
-                            DropdownMenuItem(
-                                text = { Text("Tytuł") },
-                                onClick = { searchViewModel.onSearchInTitleChange(!searchUiState.searchInTitle) },
-                                leadingIcon = { Checkbox(checked = searchUiState.searchInTitle, onCheckedChange = null) }
-                            )
-                            DropdownMenuItem(
-                                text = { Text("Treść") },
-                                onClick = { searchViewModel.onSearchInContentChange(!searchUiState.searchInContent) },
-                                leadingIcon = { Checkbox(checked = searchUiState.searchInContent, onCheckedChange = null) }
-                            )
-                            if (searchUiState.results.isNotEmpty()) {
-                                Divider(modifier = Modifier.padding(vertical = 4.dp))
-                                Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
-                                Column(Modifier.selectableGroup()) {
-                                    SongSortMode.values().forEach { mode ->
-                                        DropdownMenuItem(
-                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else mode.name) },
-                                            onClick = {
-                                                searchViewModel.onSortModeChange(mode)
-                                                showSearchOptions = false
-                                            },
-                                            leadingIcon = { RadioButton(selected = (searchUiState.sortMode == mode), onClick = null) },
-                                            modifier = Modifier.selectable(
-                                                selected = (searchUiState.sortMode == mode),
-                                                onClick = {
-                                                    searchViewModel.onSortModeChange(mode)
-                                                    showSearchOptions = false
-                                                },
-                                                role = Role.RadioButton
-                                            )
-                                        )
-                                    }
-                                }
-                            }
-                        }
-                    }
-                },
-                calendarActions = {
-                    Box {
-                        IconButton(onClick = { isCalendarMenuExpanded = true }) {
-                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje")
-                        }
-                        DropdownMenu(
-                            expanded = isCalendarMenuExpanded,
-                            onDismissRequest = { isCalendarMenuExpanded = false }
-                        ) {
-                            DropdownMenuItem(
-                                text = { Text("Pobierz aktualne dane") },
-                                onClick = {
-                                    calendarViewModel.forceRefreshData()
-                                    isCalendarMenuExpanded = false
-                                }
-                            )
-                        }
-                    }
-                }
-            )
-        },
-        bottomBar = {
-            Column {
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(1.5.dp)
-                        .background(
-                            brush = Brush.verticalGradient(
-                                colors = listOf(
-                                    Color.Black.copy(alpha = 0.2f),
-                                    Color.Transparent
-                                )
-                            )
-                        )
-                )
-                NavigationBar(
-                    containerColor = NavBarBackground
-                ) {
-                    bottomNavItems.forEachIndexed { index, screen ->
-                        val isSelected = pagerState.currentPage == index
-                        NavigationBarItem(
-                            selected = isSelected,
-                            onClick = {
-                                if (isSelected) {
-                                    when (screen) {
-                                        is Screen.Browse -> browseViewModel.onResetToRoot()
-                                        is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
-                                        else -> {}
-                                    }
-                                } else {
-                                    coroutineScope.launch { pagerState.animateScrollToPage(index) }
-                                }
-                            },
-                            icon = { Icon(imageVector = screen.icon, contentDescription = screen.label) },
-                            label = { Text(screen.label) },
-                            colors = NavigationBarItemDefaults.colors(
-                                selectedIconColor = SaturatedNavy,
-                                selectedTextColor = SaturatedNavy,
-                                indicatorColor = SaturatedNavy.copy(alpha = 0.15f),
-                                unselectedIconColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
-                                unselectedTextColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
-                            )
-                        )
-                    }
-                }
-            }
-        }
-    ) { innerPadding ->
-        HorizontalPager(
-            count = bottomNavItems.size,
-            state = pagerState,
-            modifier = Modifier.padding(innerPadding),
-            userScrollEnabled = !browseUiState.isEditMode
-        ) { pageIndex ->
-            when (bottomNavItems[pageIndex]) {
-                is Screen.Search -> SearchScreen(
-                    viewModel = searchViewModel,
-                    onNavigateToSong = { song ->
-                        navController.navigate(Screen.SongDetails.createRoute(song))
-                    }
-                )
-                is Screen.Browse -> BrowseScreen(
-                    viewModel = browseViewModel,
-                    onNavigateToDay = { dayPath ->
-                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
-                    }
-                )
-                is Screen.Calendar -> CalendarScreen(
-                    onNavigateToDay = { dayPath ->
-                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
-                    },
-                    onNavigateToDateEvents = { title, paths ->
-                        navController.navigate(Screen.DateEvents.createRoute(title, paths))
-                    }
-                )
-                is Screen.Settings -> SettingsScreen(
-                    viewModel = settingsViewModel,
-                    onRestartApp = {
-                        if (activity != null) {
-                            restartApp(activity)
-                        }
-                    },
-                    // --- POCZĄTEK ZMIANY ---
-                    onNavigateToCategoryManagement = {
-                        navController.navigate(Screen.CategoryManagement.route)
-                    }
-                    // --- KONIEC ZMIANY ---
-                )
-                else -> {}
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun MainTopAppBar(
-    title: String,
-    showBackButton: Boolean = false,
-    onBackClick: () -> Unit = {},
-    isBrowseScreenInEditMode: Boolean = false,
-    showEditButton: Boolean = false,
-    onEditClick: () -> Unit = {},
-    onSaveClick: () -> Unit = {},
-    onCancelClick: () -> Unit = {},
-    isSaveEnabled: Boolean = false,
-    isCalendarScreenActive: Boolean = false,
-    isSearchScreenActive: Boolean = false,
-    searchActions: @Composable RowScope.() -> Unit = {},
-    calendarActions: @Composable RowScope.() -> Unit = {}
-) {
-    Column {
-        CenterAlignedTopAppBar(
-            title = {
-                AutoResizingText(
-                    text = title,
-                    style = MaterialTheme.typography.titleLarge,
-                    textAlign = TextAlign.Center
-                )
-            },
-            navigationIcon = {
-                if (isBrowseScreenInEditMode) {
-                    IconButton(onClick = onCancelClick) {
-                        Icon(Icons.Default.Close, "Anuluj edycję")
-                    }
-                } else if (showBackButton) {
-                    IconButton(onClick = onBackClick) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
-                    }
-                } else {
-                    Spacer(Modifier.width(48.dp))
-                }
-            },
-            actions = {
-                if (isSearchScreenActive) {
-                    searchActions()
-                } else if (isBrowseScreenInEditMode) {
-                    IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
-                        Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
-                    }
-                } else if (showEditButton) {
-                    IconButton(onClick = onEditClick) {
-                        Icon(Icons.Default.Edit, "Edytuj")
-                    }
-                } else if (isCalendarScreenActive) {
-                    calendarActions()
-                } else {
-                    Spacer(Modifier.width(48.dp))
-                }
-            },
-            colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-                containerColor = MaterialTheme.colorScheme.background,
-                titleContentColor = MaterialTheme.colorScheme.primary,
-                navigationIconContentColor = MaterialTheme.colorScheme.primary
-            ),
-            windowInsets = TopAppBarDefaults.windowInsets
-        )
-        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
-    }
-}
-
--
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\data\Category.kt
 treść:
 package com.qjproject.liturgicalcalendar.data
@@ -3064,6 +2538,591 @@ sealed class SearchResult {
     data class SongResult(
         val song: Song
     ) : SearchResult()
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\index.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\index.kt
+// Opis: Główny plik komponentu MainActivity. Pełni rolę "indexu", inicjując aplikację i integrując pozostałe komponenty ekranu głównego.
+package com.qjproject.liturgicalcalendar.MainActivity
+
+import android.Manifest
+import android.app.Activity
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.qjproject.liturgicalcalendar.ui.theme.LiturgicalCalendarTheme
+import kotlin.system.exitProcess
+
+class MainActivity : ComponentActivity() {
+
+    private val requestPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
+            if (!isGranted) {
+                finish()
+            }
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
+        super.onCreate(savedInstanceState)
+
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
+            requestPermissionLauncher.launch(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+        }
+
+        setContent {
+            LiturgicalCalendarTheme {
+                MainAppHost()
+            }
+        }
+    }
+}
+
+fun restartApp(activity: Activity) {
+    val intent = Intent(activity, MainActivity::class.java)
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+    activity.startActivity(intent)
+    activity.finish()
+    exitProcess(0)
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainAppHost.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainAppHost.kt
+// Opis: Ten plik zawiera główny kontener nawigacyjny aplikacji (AnimatedNavHost), który zarządza wszystkimi ekranami i przejściami między nimi.
+package com.qjproject.liturgicalcalendar.MainActivity
+
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.tween
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavType
+import androidx.navigation.navArgument
+import com.google.accompanist.navigation.animation.AnimatedNavHost
+import com.google.accompanist.navigation.animation.composable
+import com.google.accompanist.navigation.animation.rememberAnimatedNavController
+import com.qjproject.liturgicalcalendar.navigation.Screen
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
+import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.DayDetailsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModelFactory
+import java.net.URLDecoder
+
+@OptIn(ExperimentalAnimationApi::class)
+@Composable
+internal fun MainAppHost() {
+    val navController = rememberAnimatedNavController()
+
+    val safePopBackStack: () -> Unit = {
+        navController.navigateUp()
+    }
+
+    AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
+        composable("main_tabs") {
+            MainTabsScreen(navController = navController)
+        }
+        composable(
+            route = Screen.DayDetails.route,
+            arguments = listOf(navArgument("dayId") { type = NavType.StringType }),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val encodedPath = backStackEntry.arguments?.getString("dayId")
+            val decodedPath = encodedPath?.let { URLDecoder.decode(it, "UTF-8") }
+            DayDetailsScreen(
+                dayId = decodedPath,
+                onNavigateBack = safePopBackStack,
+                onNavigateToSongContent = { song, startInEdit ->
+                    navController.navigate(Screen.SongContent.createRoute(song, startInEdit))
+                }
+            )
+        }
+        composable(
+            route = Screen.DateEvents.route,
+            arguments = listOf(
+                navArgument("dateTitle") { type = NavType.StringType },
+                navArgument("filePaths") { type = NavType.StringType }
+            ),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val dateTitle = backStackEntry.arguments?.getString("dateTitle")?.let { URLDecoder.decode(it, "UTF-8") } ?: ""
+            val filePathsString = backStackEntry.arguments?.getString("filePaths") ?: ""
+            val filePaths = Screen.DateEvents.decodePaths(filePathsString)
+
+            DateEventsScreen(
+                dateTitle = dateTitle,
+                filePaths = filePaths,
+                onNavigateToDay = { dayPath ->
+                    navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                },
+                onNavigateBack = safePopBackStack
+            )
+        }
+        composable(
+            route = Screen.SongDetails.route,
+            arguments = listOf(
+                navArgument("songTitle") { type = NavType.StringType },
+                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
+                navArgument("sakNum") { type = NavType.StringType; nullable = true },
+                navArgument("dnNum") { type = NavType.StringType; nullable = true }
+            ),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val context = LocalContext.current
+            val factory = SongDetailsViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
+            val viewModel: SongDetailsViewModel = viewModel(factory = factory)
+
+            SongDetailsScreen(
+                viewModel = viewModel,
+                onNavigateBack = safePopBackStack,
+                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) }
+            )
+        }
+        composable(
+            route = Screen.SongContent.route,
+            arguments = listOf(
+                navArgument("songTitle") { type = NavType.StringType },
+                navArgument("siedlNum") { type = NavType.StringType; nullable = true },
+                navArgument("sakNum") { type = NavType.StringType; nullable = true },
+                navArgument("dnNum") { type = NavType.StringType; nullable = true },
+                navArgument("editOnStart") {
+                    type = NavType.BoolType
+                    defaultValue = false
+                }
+            ),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val startInEdit = backStackEntry.arguments?.getBoolean("editOnStart") ?: false
+            val context = LocalContext.current
+            val factory = SongContentViewModelFactory(context, SavedStateHandle.createHandle(null, backStackEntry.arguments))
+            val viewModel: SongContentViewModel = viewModel(factory = factory)
+
+            SongContentScreen(
+                viewModel = viewModel,
+                onNavigateBack = safePopBackStack,
+                startInEditMode = startInEdit
+            )
+        }
+        composable(
+            route = Screen.CategoryManagement.route,
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) {
+            val context = LocalContext.current
+            val factory = CategoryManagementViewModelFactory(context)
+            CategoryManagementScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack
+            )
+        }
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTabsScreen.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTabsScreen.kt
+// Opis: Ten plik definiuje główny ekran aplikacji z dolnym paskiem nawigacyjnym. Zarządza przełączaniem między głównymi sekcjami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
+package com.qjproject.liturgicalcalendar.MainActivity
+
+import android.app.Activity
+import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.selection.selectableGroup
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.Divider
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
+import com.google.accompanist.pager.ExperimentalPagerApi
+import com.google.accompanist.pager.HorizontalPager
+import com.google.accompanist.pager.rememberPagerState
+import com.qjproject.liturgicalcalendar.navigation.Screen
+import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
+import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.search.SongSortMode
+import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsScreen
+import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import kotlinx.coroutines.launch
+
+@OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
+@Composable
+internal fun MainTabsScreen(navController: NavController) {
+    val context = LocalContext.current
+    val activity = (LocalContext.current as? Activity)
+    val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
+    val calendarViewModel = viewModel<CalendarViewModel>(factory = CalendarViewModelFactory(context))
+    val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
+    val searchViewModel = viewModel<SearchViewModel>(factory = SearchViewModelFactory(context))
+
+
+    val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
+    val pagerState = rememberPagerState(initialPage = 1)
+    val coroutineScope = rememberCoroutineScope()
+
+    val browseUiState by browseViewModel.uiState.collectAsState()
+    val searchUiState by searchViewModel.uiState.collectAsState()
+
+    val isSearchScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Search)
+    val isBrowseScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Browse)
+    val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
+
+    var isCalendarMenuExpanded by remember { mutableStateOf(false) }
+
+    BackHandler(enabled = true) {
+        when {
+            // Logika dla ekranu przeglądania
+            isBrowseScreenActive -> {
+                if (browseUiState.isEditMode) {
+                    browseViewModel.onTryExitEditMode {}
+                } else {
+                    browseViewModel.onBackPress()
+                }
+            }
+            // Dla pozostałych przypadków (inne ekrany bez otwartych menu), nie rób nic,
+            // aby zapobiec zamknięciu aplikacji
+            else -> {}
+        }
+    }
+
+    Scaffold(
+        topBar = {
+            val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
+                Screen.Search -> "Wyszukaj pieśń"
+                Screen.Browse -> browseUiState.screenTitle
+                Screen.Calendar -> "Szukaj po dacie"
+                Screen.Settings -> "Ustawienia"
+                else -> ""
+            }
+            MainTopAppBar(
+                title = title,
+                showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
+                onBackClick = { browseViewModel.onBackPress() },
+                isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
+                showEditButton = isBrowseScreenActive,
+                onEditClick = { browseViewModel.onEnterEditMode() },
+                onSaveClick = { browseViewModel.onSaveEditMode() },
+                onCancelClick = { browseViewModel.onTryExitEditMode {} },
+                isSaveEnabled = browseUiState.hasChanges,
+                isCalendarScreenActive = isCalendarScreenActive,
+                isSearchScreenActive = isSearchScreenActive,
+                searchActions = {
+                    var showSearchOptions by remember { mutableStateOf(false) }
+                    Box {
+                        IconButton(onClick = { showSearchOptions = true }) {
+                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje wyszukiwania")
+                        }
+                        DropdownMenu(
+                            expanded = showSearchOptions,
+                            onDismissRequest = { showSearchOptions = false }
+                        ) {
+                            Text("Szukaj w:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+                            DropdownMenuItem(
+                                text = { Text("Tytuł") },
+                                onClick = { searchViewModel.onSearchInTitleChange(!searchUiState.searchInTitle) },
+                                leadingIcon = { Checkbox(checked = searchUiState.searchInTitle, onCheckedChange = null) }
+                            )
+                            DropdownMenuItem(
+                                text = { Text("Treść") },
+                                onClick = { searchViewModel.onSearchInContentChange(!searchUiState.searchInContent) },
+                                leadingIcon = { Checkbox(checked = searchUiState.searchInContent, onCheckedChange = null) }
+                            )
+                            if (searchUiState.results.isNotEmpty()) {
+                                Divider(modifier = Modifier.padding(vertical = 4.dp))
+                                Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
+                                Column(Modifier.selectableGroup()) {
+                                    SongSortMode.values().forEach { mode ->
+                                        DropdownMenuItem(
+                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else mode.name) },
+                                            onClick = {
+                                                searchViewModel.onSortModeChange(mode)
+                                                showSearchOptions = false
+                                            },
+                                            leadingIcon = { RadioButton(selected = (searchUiState.sortMode == mode), onClick = null) },
+                                            modifier = Modifier.selectable(
+                                                selected = (searchUiState.sortMode == mode),
+                                                onClick = {
+                                                    searchViewModel.onSortModeChange(mode)
+                                                    showSearchOptions = false
+                                                },
+                                                role = Role.RadioButton
+                                            )
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                calendarActions = {
+                    Box {
+                        IconButton(onClick = { isCalendarMenuExpanded = true }) {
+                            Icon(Icons.Default.MoreVert, contentDescription = "Opcje")
+                        }
+                        DropdownMenu(
+                            expanded = isCalendarMenuExpanded,
+                            onDismissRequest = { isCalendarMenuExpanded = false }
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("Pobierz aktualne dane") },
+                                onClick = {
+                                    calendarViewModel.forceRefreshData()
+                                    isCalendarMenuExpanded = false
+                                }
+                            )
+                        }
+                    }
+                }
+            )
+        },
+        bottomBar = {
+            Column {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(1.5.dp)
+                        .background(
+                            brush = Brush.verticalGradient(
+                                colors = listOf(
+                                    Color.Black.copy(alpha = 0.2f),
+                                    Color.Transparent
+                                )
+                            )
+                        )
+                )
+                NavigationBar(
+                    containerColor = NavBarBackground
+                ) {
+                    bottomNavItems.forEachIndexed { index, screen ->
+                        val isSelected = pagerState.currentPage == index
+                        NavigationBarItem(
+                            selected = isSelected,
+                            onClick = {
+                                if (isSelected) {
+                                    when (screen) {
+                                        is Screen.Browse -> browseViewModel.onResetToRoot()
+                                        is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
+                                        else -> {}
+                                    }
+                                } else {
+                                    coroutineScope.launch { pagerState.animateScrollToPage(index) }
+                                }
+                            },
+                            icon = { Icon(imageVector = screen.icon, contentDescription = screen.label) },
+                            label = { Text(screen.label) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = SaturatedNavy,
+                                selectedTextColor = SaturatedNavy,
+                                indicatorColor = SaturatedNavy.copy(alpha = 0.15f),
+                                unselectedIconColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                                unselectedTextColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                            )
+                        )
+                    }
+                }
+            }
+        }
+    ) { innerPadding ->
+        HorizontalPager(
+            count = bottomNavItems.size,
+            state = pagerState,
+            modifier = Modifier.padding(innerPadding),
+            userScrollEnabled = !browseUiState.isEditMode
+        ) { pageIndex ->
+            when (bottomNavItems[pageIndex]) {
+                is Screen.Search -> SearchScreen(
+                    viewModel = searchViewModel,
+                    onNavigateToSong = { song ->
+                        navController.navigate(Screen.SongDetails.createRoute(song))
+                    }
+                )
+                is Screen.Browse -> BrowseScreen(
+                    viewModel = browseViewModel,
+                    onNavigateToDay = { dayPath ->
+                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                    }
+                )
+                is Screen.Calendar -> CalendarScreen(
+                    onNavigateToDay = { dayPath ->
+                        navController.navigate(Screen.DayDetails.createRoute(dayPath))
+                    },
+                    onNavigateToDateEvents = { title, paths ->
+                        navController.navigate(Screen.DateEvents.createRoute(title, paths))
+                    }
+                )
+                is Screen.Settings -> SettingsScreen(
+                    viewModel = settingsViewModel,
+                    onRestartApp = {
+                        if (activity != null) {
+                            restartApp(activity)
+                        }
+                    },
+                    onNavigateToCategoryManagement = {
+                        navController.navigate(Screen.CategoryManagement.route)
+                    }
+                )
+                else -> {}
+            }
+        }
+    }
+}
+
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTopAppBar.kt
+treść:
+// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTopAppBar.kt
+// Opis: Ten plik zawiera komponent górnego paska nawigacyjnego (TopAppBar), który dynamicznie dostosowuje swój wygląd i akcje w zależności od aktywnego ekranu w MainTabsScreen.
+package com.qjproject.liturgicalcalendar.MainActivity
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.Divider
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+internal fun MainTopAppBar(
+    title: String,
+    showBackButton: Boolean = false,
+    onBackClick: () -> Unit = {},
+    isBrowseScreenInEditMode: Boolean = false,
+    showEditButton: Boolean = false,
+    onEditClick: () -> Unit = {},
+    onSaveClick: () -> Unit = {},
+    onCancelClick: () -> Unit = {},
+    isSaveEnabled: Boolean = false,
+    isCalendarScreenActive: Boolean = false,
+    isSearchScreenActive: Boolean = false,
+    searchActions: @Composable RowScope.() -> Unit = {},
+    calendarActions: @Composable RowScope.() -> Unit = {}
+) {
+    Column {
+        CenterAlignedTopAppBar(
+            title = {
+                AutoResizingText(
+                    text = title,
+                    style = MaterialTheme.typography.titleLarge,
+                    textAlign = TextAlign.Center
+                )
+            },
+            navigationIcon = {
+                if (isBrowseScreenInEditMode) {
+                    IconButton(onClick = onCancelClick) {
+                        Icon(Icons.Default.Close, "Anuluj edycję")
+                    }
+                } else if (showBackButton) {
+                    IconButton(onClick = onBackClick) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
+                    }
+                } else {
+                    Spacer(Modifier.width(48.dp))
+                }
+            },
+            actions = {
+                if (isSearchScreenActive) {
+                    searchActions()
+                } else if (isBrowseScreenInEditMode) {
+                    IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
+                        Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
+                    }
+                } else if (showEditButton) {
+                    IconButton(onClick = onEditClick) {
+                        Icon(Icons.Default.Edit, "Edytuj")
+                    }
+                } else if (isCalendarScreenActive) {
+                    calendarActions()
+                } else {
+                    Spacer(Modifier.width(48.dp))
+                }
+            },
+            colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
+                containerColor = MaterialTheme.colorScheme.background,
+                titleContentColor = MaterialTheme.colorScheme.primary,
+                navigationIconContentColor = MaterialTheme.colorScheme.primary
+            ),
+            windowInsets = TopAppBarDefaults.windowInsets
+        )
+        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+    }
 }
 
 -
@@ -12106,6 +12165,7 @@ Aplikacja-dla-Konrada/
                             6/
                                 classes.dex
                             7/
+                                classes.dex
                             8/
                                 classes.dex
                             9/
@@ -12527,6 +12587,7 @@ Aplikacja-dla-Konrada/
                                                 models/
                                                 repository/
                                                     FileSystemRepository/
+                                            MainActivity/
                                             navigation/
                                             ui/
                                                 components/
@@ -13112,48 +13173,7 @@ Aplikacja-dla-Konrada/
                                 com/
                                     qjproject/
                                         liturgicalcalendar/
-                                            ComposableSingletons$MainActivityKt$lambda-1$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-10$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-11$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-12$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-2$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-3$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-4$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-5$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-6$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-7$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-8$1.dex
-                                            ComposableSingletons$MainActivityKt$lambda-9$1.dex
-                                            ComposableSingletons$MainActivityKt.dex
                                             LiturgicalCalendarApp.dex
-                                            MainActivity.dex
-                                            MainActivityKt$MainAppHost$1$1$1.dex
-                                            MainActivityKt$MainAppHost$1$1$10.dex
-                                            MainActivityKt$MainAppHost$1$1$17.dex
-                                            MainActivityKt$MainAppHost$1$1$25.dex
-                                            MainActivityKt$MainAppHost$1$1$28.dex
-                                            MainActivityKt$MainAppHost$1$1$5.dex
-                                            MainActivityKt$MainTabsScreen$2$5$1$3$2.dex
-                                            MainActivityKt$MainTabsScreen$2$5$1$3$4.dex
-                                            MainActivityKt$MainTabsScreen$2$5$1$3$5$1$2.dex
-                                            MainActivityKt$MainTabsScreen$2$5$1$3$5$1$4.dex
-                                            MainActivityKt$MainTabsScreen$2$5$1$3.dex
-                                            MainActivityKt$MainTabsScreen$2$5.dex
-                                            MainActivityKt$MainTabsScreen$2$6$1$3.dex
-                                            MainActivityKt$MainTabsScreen$2$6.dex
-                                            MainActivityKt$MainTabsScreen$2.dex
-                                            MainActivityKt$MainTabsScreen$3$1$1$1$1$1$1.dex
-                                            MainActivityKt$MainTabsScreen$3$1$1$1$2.dex
-                                            MainActivityKt$MainTabsScreen$3$1$1$1$3.dex
-                                            MainActivityKt$MainTabsScreen$3$1$1.dex
-                                            MainActivityKt$MainTabsScreen$3.dex
-                                            MainActivityKt$MainTabsScreen$4$1.dex
-                                            MainActivityKt$MainTabsScreen$4.dex
-                                            MainActivityKt$MainTopAppBar$5$1.dex
-                                            MainActivityKt$MainTopAppBar$5$2.dex
-                                            MainActivityKt$MainTopAppBar$5$3$1.dex
-                                            MainActivityKt$MainTopAppBar$5$3.dex
-                                            MainActivityKt.dex
                                             data/
                                                 Category$$serializer.dex
                                                 Category$Companion.dex
@@ -13190,6 +13210,53 @@ Aplikacja-dla-Konrada/
                                                         SongFileManager.dex
                                                         UtilsKt$special$$inlined$compareBy$1.dex
                                                         UtilsKt.dex
+                                            MainActivity/
+                                                ComposableSingletons$IndexKt$lambda-1$1.dex
+                                                ComposableSingletons$IndexKt$lambda-2$1.dex
+                                                ComposableSingletons$IndexKt.dex
+                                                ComposableSingletons$MainTabsScreenKt$lambda-1$1.dex
+                                                ComposableSingletons$MainTabsScreenKt$lambda-2$1.dex
+                                                ComposableSingletons$MainTabsScreenKt$lambda-3$1.dex
+                                                ComposableSingletons$MainTabsScreenKt$lambda-4$1.dex
+                                                ComposableSingletons$MainTabsScreenKt$lambda-5$1.dex
+                                                ComposableSingletons$MainTabsScreenKt.dex
+                                                ComposableSingletons$MainTopAppBarKt$lambda-1$1.dex
+                                                ComposableSingletons$MainTopAppBarKt$lambda-2$1.dex
+                                                ComposableSingletons$MainTopAppBarKt$lambda-3$1.dex
+                                                ComposableSingletons$MainTopAppBarKt$lambda-4$1.dex
+                                                ComposableSingletons$MainTopAppBarKt$lambda-5$1.dex
+                                                ComposableSingletons$MainTopAppBarKt.dex
+                                                IndexKt.dex
+                                                MainActivity.dex
+                                                MainAppHostKt$MainAppHost$1$1$1.dex
+                                                MainAppHostKt$MainAppHost$1$1$10.dex
+                                                MainAppHostKt$MainAppHost$1$1$17.dex
+                                                MainAppHostKt$MainAppHost$1$1$25.dex
+                                                MainAppHostKt$MainAppHost$1$1$28.dex
+                                                MainAppHostKt$MainAppHost$1$1$5.dex
+                                                MainAppHostKt.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5$1$3$2.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5$1$3$4.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5$1$3$5$1$2.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5$1$3$5$1$4.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5$1$3.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$5.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$6$1$3.dex
+                                                MainTabsScreenKt$MainTabsScreen$2$6.dex
+                                                MainTabsScreenKt$MainTabsScreen$2.dex
+                                                MainTabsScreenKt$MainTabsScreen$3$1$1$1$1$1$1.dex
+                                                MainTabsScreenKt$MainTabsScreen$3$1$1$1$2.dex
+                                                MainTabsScreenKt$MainTabsScreen$3$1$1$1$3.dex
+                                                MainTabsScreenKt$MainTabsScreen$3$1$1.dex
+                                                MainTabsScreenKt$MainTabsScreen$3.dex
+                                                MainTabsScreenKt$MainTabsScreen$4$1.dex
+                                                MainTabsScreenKt$MainTabsScreen$4.dex
+                                                MainTabsScreenKt.dex
+                                                MainTopAppBarKt$MainTopAppBar$5$1.dex
+                                                MainTopAppBarKt$MainTopAppBar$5$2.dex
+                                                MainTopAppBarKt$MainTopAppBar$5$3$1.dex
+                                                MainTopAppBarKt$MainTopAppBar$5$3.dex
+                                                MainTopAppBarKt.dex
                                             navigation/
                                                 Screen$Browse.dex
                                                 Screen$Calendar.dex
@@ -13979,48 +14046,7 @@ Aplikacja-dla-Konrada/
                         com/
                             qjproject/
                                 liturgicalcalendar/
-                                    ComposableSingletons$MainActivityKt$lambda-1$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-10$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-11$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-12$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-2$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-3$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-4$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-5$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-6$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-7$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-8$1.class
-                                    ComposableSingletons$MainActivityKt$lambda-9$1.class
-                                    ComposableSingletons$MainActivityKt.class
                                     LiturgicalCalendarApp.class
-                                    MainActivity.class
-                                    MainActivityKt$MainAppHost$1$1$1.class
-                                    MainActivityKt$MainAppHost$1$1$10.class
-                                    MainActivityKt$MainAppHost$1$1$17.class
-                                    MainActivityKt$MainAppHost$1$1$25.class
-                                    MainActivityKt$MainAppHost$1$1$28.class
-                                    MainActivityKt$MainAppHost$1$1$5.class
-                                    MainActivityKt$MainTabsScreen$2$5$1$3$2.class
-                                    MainActivityKt$MainTabsScreen$2$5$1$3$4.class
-                                    MainActivityKt$MainTabsScreen$2$5$1$3$5$1$2.class
-                                    MainActivityKt$MainTabsScreen$2$5$1$3$5$1$4.class
-                                    MainActivityKt$MainTabsScreen$2$5$1$3.class
-                                    MainActivityKt$MainTabsScreen$2$5.class
-                                    MainActivityKt$MainTabsScreen$2$6$1$3.class
-                                    MainActivityKt$MainTabsScreen$2$6.class
-                                    MainActivityKt$MainTabsScreen$2.class
-                                    MainActivityKt$MainTabsScreen$3$1$1$1$1$1$1.class
-                                    MainActivityKt$MainTabsScreen$3$1$1$1$2.class
-                                    MainActivityKt$MainTabsScreen$3$1$1$1$3.class
-                                    MainActivityKt$MainTabsScreen$3$1$1.class
-                                    MainActivityKt$MainTabsScreen$3.class
-                                    MainActivityKt$MainTabsScreen$4$1.class
-                                    MainActivityKt$MainTabsScreen$4.class
-                                    MainActivityKt$MainTopAppBar$5$1.class
-                                    MainActivityKt$MainTopAppBar$5$2.class
-                                    MainActivityKt$MainTopAppBar$5$3$1.class
-                                    MainActivityKt$MainTopAppBar$5$3.class
-                                    MainActivityKt.class
                                     data/
                                         Category$$serializer.class
                                         Category$Companion.class
@@ -14057,6 +14083,53 @@ Aplikacja-dla-Konrada/
                                                 SongFileManager.class
                                                 UtilsKt$special$$inlined$compareBy$1.class
                                                 UtilsKt.class
+                                    MainActivity/
+                                        ComposableSingletons$IndexKt$lambda-1$1.class
+                                        ComposableSingletons$IndexKt$lambda-2$1.class
+                                        ComposableSingletons$IndexKt.class
+                                        ComposableSingletons$MainTabsScreenKt$lambda-1$1.class
+                                        ComposableSingletons$MainTabsScreenKt$lambda-2$1.class
+                                        ComposableSingletons$MainTabsScreenKt$lambda-3$1.class
+                                        ComposableSingletons$MainTabsScreenKt$lambda-4$1.class
+                                        ComposableSingletons$MainTabsScreenKt$lambda-5$1.class
+                                        ComposableSingletons$MainTabsScreenKt.class
+                                        ComposableSingletons$MainTopAppBarKt$lambda-1$1.class
+                                        ComposableSingletons$MainTopAppBarKt$lambda-2$1.class
+                                        ComposableSingletons$MainTopAppBarKt$lambda-3$1.class
+                                        ComposableSingletons$MainTopAppBarKt$lambda-4$1.class
+                                        ComposableSingletons$MainTopAppBarKt$lambda-5$1.class
+                                        ComposableSingletons$MainTopAppBarKt.class
+                                        IndexKt.class
+                                        MainActivity.class
+                                        MainAppHostKt$MainAppHost$1$1$1.class
+                                        MainAppHostKt$MainAppHost$1$1$10.class
+                                        MainAppHostKt$MainAppHost$1$1$17.class
+                                        MainAppHostKt$MainAppHost$1$1$25.class
+                                        MainAppHostKt$MainAppHost$1$1$28.class
+                                        MainAppHostKt$MainAppHost$1$1$5.class
+                                        MainAppHostKt.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5$1$3$2.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5$1$3$4.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5$1$3$5$1$2.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5$1$3$5$1$4.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5$1$3.class
+                                        MainTabsScreenKt$MainTabsScreen$2$5.class
+                                        MainTabsScreenKt$MainTabsScreen$2$6$1$3.class
+                                        MainTabsScreenKt$MainTabsScreen$2$6.class
+                                        MainTabsScreenKt$MainTabsScreen$2.class
+                                        MainTabsScreenKt$MainTabsScreen$3$1$1$1$1$1$1.class
+                                        MainTabsScreenKt$MainTabsScreen$3$1$1$1$2.class
+                                        MainTabsScreenKt$MainTabsScreen$3$1$1$1$3.class
+                                        MainTabsScreenKt$MainTabsScreen$3$1$1.class
+                                        MainTabsScreenKt$MainTabsScreen$3.class
+                                        MainTabsScreenKt$MainTabsScreen$4$1.class
+                                        MainTabsScreenKt$MainTabsScreen$4.class
+                                        MainTabsScreenKt.class
+                                        MainTopAppBarKt$MainTopAppBar$5$1.class
+                                        MainTopAppBarKt$MainTopAppBar$5$2.class
+                                        MainTopAppBarKt$MainTopAppBar$5$3$1.class
+                                        MainTopAppBarKt$MainTopAppBar$5$3.class
+                                        MainTopAppBarKt.class
                                     navigation/
                                         Screen$Browse.class
                                         Screen$Calendar.class
@@ -15638,7 +15711,6 @@ Aplikacja-dla-Konrada/
                         qjproject/
                             liturgicalcalendar/
                                 LiturgicalCalendarApp.kt
-                                MainActivity.kt
                                 data/
                                     Category.kt
                                     DataManager.kt
@@ -15656,6 +15728,11 @@ Aplikacja-dla-Konrada/
                                         utils.kt
                                     models/
                                         SearchResult.kt
+                                MainActivity/
+                                    index.kt
+                                    MainAppHost.kt
+                                    MainTabsScreen.kt
+                                    MainTopAppBar.kt
                                 navigation/
                                     Screen.kt
                                 ui/
