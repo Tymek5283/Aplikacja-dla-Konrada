@@ -1,6 +1,6 @@
-// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTopAppBar.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainTopAppBar.kt
 // Opis: Ten plik zawiera komponent górnego paska nawigacyjnego (TopAppBar), który dynamicznie dostosowuje swój wygląd i akcje w zależności od aktywnego ekranu w MainTabsScreen.
-package com.qjproject.liturgicalcalendar.MainActivity
+package com.qjproject.liturgicalcalendar.ui.main
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.RowScope
@@ -20,7 +20,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
@@ -69,7 +68,11 @@ internal fun MainTopAppBar(
                     searchActions()
                 } else if (isBrowseScreenInEditMode) {
                     IconButton(onClick = onSaveClick, enabled = isSaveEnabled) {
-                        Icon(Icons.Default.Check, "Zapisz zmiany", tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else Color.Gray)
+                        Icon(
+                            Icons.Default.Check,
+                            "Zapisz zmiany",
+                            tint = if (isSaveEnabled) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+                        )
                     }
                 } else if (showEditButton) {
                     IconButton(onClick = onEditClick) {

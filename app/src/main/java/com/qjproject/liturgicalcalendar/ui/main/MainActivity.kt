@@ -1,6 +1,6 @@
-// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\index.kt
-// Opis: Główny plik komponentu MainActivity. Pełni rolę "indexu", inicjując aplikację i integrując pozostałe komponenty ekranu głównego.
-package com.qjproject.liturgicalcalendar.MainActivity
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainActivity.kt
+// Opis: Główna aktywność aplikacji. Została przeniesiona do pakietu ui.main i przemianowana z index.kt, aby naprawić błąd uruchamiania i poprawić strukturę projektu.
+package com.qjproject.liturgicalcalendar.ui.main
 
 import android.Manifest
 import android.app.Activity

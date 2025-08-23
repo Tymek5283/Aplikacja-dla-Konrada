@@ -1,6 +1,6 @@
-// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainAppHost.kt
-// Opis: Ten plik zawiera główny kontener nawigacyjny aplikacji (AnimatedNavHost), który zarządza wszystkimi ekranami i przejściami między nimi.
-package com.qjproject.liturgicalcalendar.MainActivity
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainAppHost.kt
+// Opis: Ten plik zawiera główny kontener nawigacyjny aplikacji (AnimatedNavHost), który zarządza wszystkimi ekranami i przejściami między nimi. Został przeniesiony do pakietu ui.main.
+package com.qjproject.liturgicalcalendar.ui.main
 
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.ExperimentalAnimationApi

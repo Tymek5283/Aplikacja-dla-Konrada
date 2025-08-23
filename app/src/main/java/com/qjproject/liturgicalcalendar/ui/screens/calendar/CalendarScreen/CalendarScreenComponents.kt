@@ -1,4 +1,7 @@
-package com.qjproject.liturgicalcalendar.ui.screens.calendar
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/calendar/CalendarScreen/CalendarScreenComponents.kt
+// Opis: Zawiera wszystkie mniejsze, pomocnicze komponenty Composable dla ekranu kalendarza, takie jak komórki dni, nagłówki, dialogi.
+
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -21,16 +24,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.CalendarDay
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.NavigationAction
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.theme.Gold
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
@@ -38,79 +38,6 @@ import java.time.Month
 import java.time.YearMonth
 import java.time.format.TextStyle
 import java.util.Locale
-
-@Composable
-fun CalendarScreen(
-    onNavigateToDay: (String) -> Unit,
-    onNavigateToDateEvents: (String, List<String>) -> Unit
-) {
-    val context = LocalContext.current
-    val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModelFactory(context))
-    val uiState by viewModel.uiState.collectAsState()
-    var showEventSelectionDialog by remember { mutableStateOf<List<LiturgicalEventDetails>?>(null) }
-
-    if (showEventSelectionDialog != null) {
-        EventSelectionDialog(
-            events = showEventSelectionDialog!!,
-            viewModel = viewModel,
-            onDismiss = { showEventSelectionDialog = null },
-            onEventSelected = { event ->
-                viewModel.handleEventSelection(event) { navigationAction ->
-                    showEventSelectionDialog = null
-                    when (navigationAction) {
-                        is NavigationAction.NavigateToDay -> onNavigateToDay(navigationAction.path)
-                        is NavigationAction.ShowDateEvents -> {
-                            onNavigateToDateEvents(navigationAction.title, navigationAction.paths)
-                        }
-                    }
-                }
-            }
-        )
-    }
-
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        when {
-            uiState.isLoading && uiState.isDataMissing -> CircularProgressIndicator()
-            uiState.isDataMissing -> MissingDataScreen(
-                onDownloadClick = { viewModel.forceRefreshData() },
-                error = uiState.downloadError,
-                isLoading = uiState.isLoading
-            )
-            else -> Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(top = 16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                MonthYearSelector(
-                    yearMonth = uiState.selectedMonth,
-                    yearList = uiState.availableYears,
-                    onYearSelected = { viewModel.setYear(it) },
-                    onMonthSelected = { viewModel.setMonth(it) },
-                    onPreviousMonth = { viewModel.changeMonth(-1) },
-                    onNextMonth = { viewModel.changeMonth(1) }
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                DaysOfWeekHeader()
-                Divider()
-                CalendarGrid(
-                    days = uiState.daysInMonth,
-                    onDayClick = { day ->
-                        if (day.events.isNotEmpty()) {
-                            showEventSelectionDialog = day.events
-                        }
-                    }
-                )
-                Spacer(modifier = Modifier.height(40.dp))
-                LiturgicalYearInfoView(
-                    mainInfo = uiState.liturgicalYearInfo,
-                    transitionInfo = uiState.liturgicalYearTransitionInfo
-                )
-            }
-        }
-    }
-}
-
 
 private fun mapColor(colorName: String?): Color? {
     return when (colorName) {
@@ -124,7 +51,7 @@ private fun mapColor(colorName: String?): Color? {
 }
 
 @Composable
-private fun MissingDataScreen(
+internal fun MissingDataScreen(
     onDownloadClick: () -> Unit,
     error: String?,
     isLoading: Boolean
@@ -175,7 +102,7 @@ private fun MissingDataScreen(
 }
 
 @Composable
-private fun LiturgicalYearInfoView(mainInfo: String, transitionInfo: String?) {
+internal fun LiturgicalYearInfoView(mainInfo: String) {
     Card(
         shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(containerColor = VeryDarkNavy),
@@ -196,23 +123,12 @@ private fun LiturgicalYearInfoView(mainInfo: String, transitionInfo: String?) {
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center
             )
-            AnimatedVisibility(visible = transitionInfo != null) {
-                transitionInfo?.let {
-                    Text(
-                        text = it,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f),
-                        modifier = Modifier.padding(top = 8.dp),
-                        textAlign = TextAlign.Center
-                    )
-                }
-            }
         }
     }
 }
 
 @Composable
-private fun MonthYearSelector(
+internal fun MonthYearSelector(
     yearMonth: YearMonth,
     yearList: List<Int>,
     onYearSelected: (Int) -> Unit,
@@ -297,7 +213,7 @@ private fun MonthYearSelector(
 }
 
 @Composable
-private fun DaysOfWeekHeader() {
+internal fun DaysOfWeekHeader() {
     val daysOfWeek = listOf("Pn", "Wt", "Śr", "Cz", "Pt", "So", "Nd")
     Row(
         modifier = Modifier
@@ -312,7 +228,7 @@ private fun DaysOfWeekHeader() {
 }
 
 @Composable
-private fun CalendarGrid(days: List<CalendarDay?>, onDayClick: (CalendarDay) -> Unit) {
+internal fun CalendarGrid(days: List<CalendarDay?>, onDayClick: (CalendarDay) -> Unit) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(7),
         modifier = Modifier.padding(horizontal = 16.dp),
@@ -329,7 +245,7 @@ private fun CalendarGrid(days: List<CalendarDay?>, onDayClick: (CalendarDay) -> 
 }
 
 @Composable
-private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
+internal fun DayCell(day: CalendarDay, onClick: () -> Unit) {
     val textColor = MaterialTheme.colorScheme.onSurface
     var cellModifier = Modifier
         .aspectRatio(1f)
@@ -359,7 +275,7 @@ private fun DayCell(day: CalendarDay, onClick: () -> Unit) {
 }
 
 @Composable
-fun EventSelectionDialog(
+internal fun EventSelectionDialog(
     events: List<LiturgicalEventDetails>,
     viewModel: CalendarViewModel,
     onDismiss: () -> Unit,

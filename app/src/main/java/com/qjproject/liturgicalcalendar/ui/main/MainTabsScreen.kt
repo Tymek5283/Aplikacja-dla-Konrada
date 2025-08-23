@@ -1,6 +1,6 @@
-// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\MainActivity\MainTabsScreen.kt
-// Opis: Ten plik definiuje główny ekran aplikacji z dolnym paskiem nawigacyjnym. Zarządza przełączaniem między głównymi sekcjami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
-package com.qjproject.liturgicalcalendar.MainActivity
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainTabsScreen.kt
+// Opis: Główny ekran aplikacji zawierający dolny pasek nawigacyjny i zarządzający przełączaniem między zakładkami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
+package com.qjproject.liturgicalcalendar.ui.main
 
 import android.app.Activity
 import androidx.activity.compose.BackHandler
@@ -50,9 +50,9 @@ import com.qjproject.liturgicalcalendar.navigation.Screen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseScreen
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen.CalendarScreen
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModel
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
@@ -90,7 +90,6 @@ internal fun MainTabsScreen(navController: NavController) {
 
     BackHandler(enabled = true) {
         when {
-            // Logika dla ekranu przeglądania
             isBrowseScreenActive -> {
                 if (browseUiState.isEditMode) {
                     browseViewModel.onTryExitEditMode {}
@@ -98,8 +97,6 @@ internal fun MainTabsScreen(navController: NavController) {
                     browseViewModel.onBackPress()
                 }
             }
-            // Dla pozostałych przypadków (inne ekrany bez otwartych menu), nie rób nic,
-            // aby zapobiec zamknięciu aplikacji
             else -> {}
         }
     }

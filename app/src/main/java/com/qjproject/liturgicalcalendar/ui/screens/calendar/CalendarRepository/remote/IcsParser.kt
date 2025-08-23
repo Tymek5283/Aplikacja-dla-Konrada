@@ -1,16 +1,16 @@
-// Ścieżka: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\calendar\CalendarRepository\IcsParser.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/calendar/CalendarRepository/remote/IcsParser.kt
 // Opis: Zawiera logikę odpowiedzialną za parsowanie danych w formacie ICS. Przekształca surowy tekst z pliku .ics na listę obiektów `LiturgicalEventDetails`.
-package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository
 
-import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.logic.calculateLiturgicalCycles
+package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.remote
+
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
 internal class IcsParser {
-
-    fun parseIcsToEvents(icsContent: String): List<LiturgicalEventDetails> {
+    // Mapa tłumaczeń została przeniesiona do pliku constants.kt w folderze `model`
+    fun parseIcsToEvents(icsContent: String, translationMap: Map<String, String>): List<LiturgicalEventDetails> {
         val events = mutableListOf<LiturgicalEventDetails>()
         val lines = icsContent.lines()
         val dateParser = DateTimeFormatter.ofPattern("yyyyMMdd")
@@ -37,11 +37,11 @@ internal class IcsParser {
 
                 if (currentDtstart.isNotEmpty() && currentSummary.isNotEmpty()) {
                     val eventDate = LocalDate.parse(currentDtstart, dateParser)
-                    val cycles = calculateLiturgicalCycles(eventDate)
                     val cleanedName = parseName(currentSummary)
                     val finalName = translationMap[cleanedName] ?: cleanedName
 
                     if (finalName.isNotBlank()) {
+                        val cycles = calculateLiturgicalCycles(eventDate)
                         events.add(
                             LiturgicalEventDetails(
                                 name = finalName,
@@ -89,5 +89,20 @@ internal class IcsParser {
             .replace("/", "")
             .trim()
             .replace(Regex("\\s+"), " ")
+    }
+
+    private data class LiturgicalCycles(val sundayCycle: String, val weekdayCycle: String)
+
+    private fun calculateLiturgicalCycles(eventDate: LocalDate): LiturgicalCycles {
+        val calendarYear = eventDate.year
+        val weekdayCycle = if (calendarYear % 2 != 0) "1" else "2"
+        val dec3rd = LocalDate.of(calendarYear, 12, 3)
+        val dayIndex = dec3rd.dayOfWeek.value % 7
+        val firstSundayOfAdvent = dec3rd.minusDays(dayIndex.toLong())
+        val referenceYear = if (eventDate.isBefore(firstSundayOfAdvent)) calendarYear - 1 else calendarYear
+        val sundayCycle = when (referenceYear % 3) {
+            0 -> "A"; 1 -> "B"; 2 -> "C"; else -> "Error"
+        }
+        return LiturgicalCycles(sundayCycle, weekdayCycle)
     }
 }
