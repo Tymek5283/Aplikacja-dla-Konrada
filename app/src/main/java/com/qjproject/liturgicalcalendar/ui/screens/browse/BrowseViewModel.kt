@@ -104,14 +104,48 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
         else action()
     }
 
+    private fun shouldSortByDayOfWeek(path: List<String>): Boolean {
+        val pathString = path.joinToString("/").lowercase()
+        val relevantPeriods = listOf("adwent", "wielki post", "okres wielkanocny", "okres zwykły")
+        val isRelevantPeriod = relevantPeriods.any { it in pathString }
+        val isInWeekFolder = path.lastOrNull()?.contains("tydzień", ignoreCase = true) ?: false
+        return isRelevantPeriod && isInWeekFolder
+    }
+
+    private fun sortItemsByDayOfWeek(items: List<FileSystemItem>): List<FileSystemItem> {
+        val dayOrder = mapOf(
+            "niedziela" to 0,
+            "poniedziałek" to 1,
+            "wtorek" to 2,
+            "środa" to 3,
+            "czwartek" to 4,
+            "piątek" to 5,
+            "sobota" to 6
+        )
+
+        return items.sortedWith(compareBy { item ->
+            val words = item.name.split(" ")
+            val dayName = words.getOrNull(1)?.lowercase(Locale.getDefault())?.removeSuffix("i")
+            dayOrder[dayName] ?: 7 // Pozostałe elementy (np. foldery 'Niedziela...') na końcu
+        })
+    }
+
+
     private fun loadContentForCurrentPath() {
         viewModelScope.launch {
             val pathString = _uiState.value.currentPath.joinToString("/")
             val items = repository.getItems(pathString).filter { it.name != "piesni" }
+
+            val sortedItems = if (shouldSortByDayOfWeek(_uiState.value.currentPath)) {
+                sortItemsByDayOfWeek(items)
+            } else {
+                items
+            }
+
             _uiState.update {
                 val title = if (it.isRoot) "Czego szukasz?" else it.currentPath.last().replace("_", " ")
                 it.copy(
-                    items = items,
+                    items = sortedItems,
                     screenTitle = title,
                     isBackArrowVisible = !it.isRoot,
                     hasChanges = false

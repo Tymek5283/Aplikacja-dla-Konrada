@@ -1710,7 +1710,7 @@ class DataManager(private val context: Context) {
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
     // ZMIANA: Zwiększono wersję, aby wymusić ponowne skopiowanie pliku piesni.json
-    private val currentDataVersion = 8
+    private val currentDataVersion = 9
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -3454,7 +3454,7 @@ internal fun MainTabsScreen(navController: NavController) {
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> if(searchUiState.isBackButtonVisible) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wybierz kategorię"
+                Screen.Search -> if(searchUiState.selectedCategory != null) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wyszukaj"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -3477,7 +3477,7 @@ internal fun MainTabsScreen(navController: NavController) {
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
-                isSearchScreenActive = isSearchScreenActive && searchUiState.currentView == com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewState.SONG_LIST,
+                isSearchScreenActive = isSearchScreenActive,
                 searchActions = {
                     var showSearchOptions by remember { mutableStateOf(false) }
                     Box {
@@ -3499,7 +3499,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                 onClick = { searchViewModel.onSearchInContentChange(!searchUiState.searchInContent) },
                                 leadingIcon = { Checkbox(checked = searchUiState.searchInContent, onCheckedChange = null) }
                             )
-                            if (searchUiState.results.isNotEmpty()) {
+                            if (searchUiState.songResults.isNotEmpty()) {
                                 Divider(modifier = Modifier.padding(vertical = 4.dp))
                                 Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
                                 Column(Modifier.selectableGroup()) {
@@ -8232,7 +8232,6 @@ package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
@@ -8249,7 +8248,6 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 
 enum class SongSortMode { Alfabetycznie, Kategoria }
-enum class SearchViewState { CATEGORY_SELECTION, SONG_LIST }
 
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
@@ -8259,8 +8257,9 @@ sealed class DeleteDialogState {
 
 data class SearchUiState(
     val query: String = "",
-    val results: List<Song> = emptyList(),
-    val isLoading: Boolean = false,
+    val songResults: List<Song> = emptyList(),
+    val categoryResults: List<Category> = emptyList(),
+    val isLoading: Boolean = true,
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
@@ -8268,10 +8267,9 @@ data class SearchUiState(
     val addSongError: String? = null,
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
     val allCategories: List<Category> = emptyList(),
-    val selectedCategory: Category? = null,
-    val currentView: SearchViewState = SearchViewState.CATEGORY_SELECTION
+    val selectedCategory: Category? = null
 ) {
-    val isBackButtonVisible: Boolean get() = currentView == SearchViewState.SONG_LIST
+    val isBackButtonVisible: Boolean get() = selectedCategory != null
 }
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -8283,8 +8281,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private var searchJob: Job? = null
     private var allSongsCache: List<Song>? = null
 
+    private val noCategoryFilter = Category("Brak kategorii", "")
+
     init {
-        loadCategories()
+        loadInitialData()
         _queryFlow
             .debounce(300)
             .distinctUntilChanged()
@@ -8292,43 +8292,69 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    private fun loadCategories() {
+    private fun loadInitialData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val categories = repository.getCategoryList().sortedBy { it.nazwa }
-            _uiState.update { it.copy(allCategories = categories, isLoading = false) }
+            allSongsCache = repository.getSongList()
+            _uiState.update { it.copy(allCategories = categories, isLoading = false, categoryResults = categories) }
         }
     }
 
     private fun performSearch() {
         searchJob?.cancel()
         searchJob = viewModelScope.launch {
-            if (_uiState.value.currentView != SearchViewState.SONG_LIST) return@launch
-
             _uiState.update { it.copy(isLoading = true) }
             val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+            val allCategories = _uiState.value.allCategories
+            val query = _uiState.value.query.trim()
             val selectedCategory = _uiState.value.selectedCategory
 
-            val categoryFilteredSongs = if (selectedCategory != null) {
-                allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
-            } else {
-                allSongs
-            }
+            val newSongResults: List<Song>
+            val newCategoryResults: List<Category>
 
-            val query = _uiState.value.query.trim()
-            val finalResults = if (query.isBlank()) {
-                categoryFilteredSongs
+            if (selectedCategory != null) {
+                // Search within a category or the "no category" filter
+                newCategoryResults = emptyList()
+                val songsToFilter = when (selectedCategory) {
+                    noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
+                    else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
+                }
+
+                newSongResults = if (query.isBlank()) {
+                    songsToFilter
+                } else {
+                    val normalizedQuery = normalize(query)
+                    songsToFilter.filter { song ->
+                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                        matchesTitle || matchesContent
+                    }
+                }
             } else {
-                val normalizedQuery = normalize(query)
-                categoryFilteredSongs.filter { song ->
-                    val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-                    val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-                    matchesTitle || matchesContent
+                // Global search
+                if (query.isBlank()) {
+                    newCategoryResults = allCategories
+                    newSongResults = emptyList()
+                } else {
+                    val normalizedQuery = normalize(query)
+                    newCategoryResults = allCategories.filter { normalize(it.nazwa).contains(normalizedQuery) }
+                    newSongResults = allSongs.filter { song ->
+                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                        matchesTitle || matchesContent
+                    }
                 }
             }
-            _uiState.update { it.copy(results = sortSongs(finalResults), isLoading = false) }
+
+            _uiState.update { it.copy(
+                songResults = sortSongs(newSongResults),
+                categoryResults = newCategoryResults.sortedBy { it.nazwa },
+                isLoading = false
+            )}
         }
     }
+
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }
@@ -8336,21 +8362,18 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onCategorySelected(category: Category) {
-        repository.invalidateSongCache()
-        allSongsCache = null
-        _uiState.update { it.copy(selectedCategory = category, currentView = SearchViewState.SONG_LIST, query = "") }
+        _uiState.update { it.copy(selectedCategory = category, query = "") }
+        performSearch()
+    }
+
+    fun onNoCategorySelected() {
+        _uiState.update { it.copy(selectedCategory = noCategoryFilter, query = "") }
         performSearch()
     }
 
     fun onNavigateBack() {
-        _uiState.update {
-            it.copy(
-                currentView = SearchViewState.CATEGORY_SELECTION,
-                selectedCategory = null,
-                results = emptyList(),
-                query = ""
-            )
-        }
+        _uiState.update { it.copy(selectedCategory = null, query = "") }
+        performSearch()
     }
 
     fun onResetToRoot() {
@@ -8387,7 +8410,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     fun onSortModeChange(newSortMode: SongSortMode) {
         if (_uiState.value.sortMode == newSortMode) return
         _uiState.update { it.copy(sortMode = newSortMode) }
-        _uiState.update { it.copy(results = sortSongs(it.results)) }
+        _uiState.update { it.copy(songResults = sortSongs(it.songResults)) }
     }
 
     fun onAddSongClicked() {
@@ -8465,6 +8488,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             repository.saveSongList(songs).fold(
                 onSuccess = {
                     onDismissAddSongDialog()
+                    allSongsCache = null // Invalidate cache
                     performSearch()
                 },
                 onFailure = { error ->
@@ -8503,6 +8527,16 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 }
 
+-
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchViewModelFactory.kt
+treść:
+package com.qjproject.liturgicalcalendar.ui.screens.search
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
+
 class SearchViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(SearchViewModel::class.java)) {
@@ -8529,15 +8563,11 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.data.Song
 
 @Composable
@@ -8546,24 +8576,12 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val lifecycleOwner = LocalLifecycleOwner.current
-
-    DisposableEffect(lifecycleOwner) {
-        val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME) {
-                // Refresh data on resume
-            }
-        }
-        lifecycleOwner.lifecycle.addObserver(observer)
-        onDispose {
-            lifecycleOwner.lifecycle.removeObserver(observer)
-        }
-    }
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(
             categories = uiState.allCategories,
             error = uiState.addSongError,
+            initialCategoryName = uiState.selectedCategory?.nazwa,
             onDismiss = { viewModel.onDismissAddSongDialog() },
             onConfirm = { title, siedl, sak, dn, text, category ->
                 viewModel.saveNewSong(title, siedl, sak, dn, text, category)
@@ -8595,34 +8613,29 @@ fun SearchScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.fillMaxSize()) {
-            when {
-                uiState.isLoading -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator()
-                    }
+            SearchBar(
+                query = uiState.query,
+                onQueryChange = viewModel::onQueryChange,
+                placeholder = if (uiState.selectedCategory != null) "Wyszukaj wewnątrz kategorii..." else "Szukaj pieśni lub kategorii..."
+            )
+            Divider()
+
+            if (uiState.isLoading) {
+                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                    CircularProgressIndicator()
                 }
-                uiState.currentView == SearchViewState.CATEGORY_SELECTION -> {
-                    CategoryList(
-                        categories = uiState.allCategories,
-                        onCategoryClick = { viewModel.onCategorySelected(it) }
-                    )
-                }
-                uiState.currentView == SearchViewState.SONG_LIST -> {
-                    SearchBar(
-                        query = uiState.query,
-                        onQueryChange = viewModel::onQueryChange
-                    )
-                    Divider()
-                    if (uiState.results.isEmpty() && uiState.query.isNotBlank()) {
-                        NoResults()
-                    } else {
-                        ResultsList(
-                            results = uiState.results,
-                            onNavigateToSong = onNavigateToSong,
-                            onSongLongClick = { song -> viewModel.onSongLongPress(song) }
-                        )
-                    }
-                }
+            } else if (uiState.songResults.isEmpty() && uiState.categoryResults.isEmpty() && uiState.query.isNotBlank()) {
+                NoResults()
+            } else {
+                SearchResultsContent(
+                    categories = uiState.categoryResults,
+                    songs = uiState.songResults,
+                    isGlobalSearch = uiState.selectedCategory == null,
+                    onCategoryClick = { viewModel.onCategorySelected(it) },
+                    onNoCategoryClick = { viewModel.onNoCategorySelected() },
+                    onSongClick = onNavigateToSong,
+                    onSongLongClick = { viewModel.onSongLongPress(it) }
+                )
             }
         }
         FloatingActionButton(
@@ -8665,14 +8678,14 @@ import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
-fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
+fun SearchBar(query: String, onQueryChange: (String) -> Unit, placeholder: String) {
     OutlinedTextField(
         value = query,
         onValueChange = onQueryChange,
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp),
-        placeholder = { Text("Wyszukaj wewnątrz kategorii...") },
+        placeholder = { Text(placeholder) },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
         trailingIcon = {
             if (query.isNotEmpty()) {
@@ -8696,7 +8709,7 @@ fun NoResults() {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Dla tej frazy nie znaleziono żadnego dopasowania.",
+            text = "Brak wyników.",
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.bodyLarge
         )
@@ -8704,9 +8717,13 @@ fun NoResults() {
 }
 
 @Composable
-fun ResultsList(
-    results: List<Song>,
-    onNavigateToSong: (Song) -> Unit,
+fun SearchResultsContent(
+    categories: List<Category>,
+    songs: List<Song>,
+    isGlobalSearch: Boolean,
+    onCategoryClick: (Category) -> Unit,
+    onNoCategoryClick: () -> Unit,
+    onSongClick: (Song) -> Unit,
     onSongLongClick: (Song) -> Unit
 ) {
     LazyColumn(
@@ -8718,14 +8735,33 @@ fun ResultsList(
         ),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(results, key = { song ->
-            "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
-        }) { song ->
-            SongResultItem(
-                song = song,
-                onClick = { onNavigateToSong(song) },
-                onLongClick = { onSongLongClick(song) }
+        items(categories, key = { "category_${it.nazwa}" }) { category ->
+            CategoryItem(
+                category = category,
+                onClick = { onCategoryClick(category) }
             )
+        }
+
+        if (isGlobalSearch && categories.isNotEmpty()) {
+            item { Divider(modifier = Modifier.padding(vertical = 4.dp)) }
+            item {
+                CategoryItem(
+                    category = Category("Brak kategorii", ""),
+                    onClick = onNoCategoryClick
+                )
+            }
+        }
+
+        if (songs.isNotEmpty()) {
+            items(songs, key = { song ->
+                "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
+            }) { song ->
+                SongResultItem(
+                    song = song,
+                    onClick = { onSongClick(song) },
+                    onLongClick = { onSongLongClick(song) }
+                )
+            }
         }
     }
 }
@@ -8756,29 +8792,6 @@ fun SongResultItem(
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))
             Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
-        }
-    }
-}
-
-@Composable
-fun CategoryList(
-    categories: List<Category>,
-    onCategoryClick: (Category) -> Unit
-) {
-    LazyColumn(
-        contentPadding = PaddingValues(
-            start = 8.dp,
-            end = 8.dp,
-            top = 8.dp,
-            bottom = 80.dp
-        ),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        items(categories, key = { it.nazwa }) { category ->
-            CategoryItem(
-                category = category,
-                onClick = { onCategoryClick(category) }
-            )
         }
     }
 }
@@ -8816,9 +8829,6 @@ fun CategoryItem(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\SearchScreenDialogs.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreenDialogs.kt
-// Opis: Ten plik zawiera wszystkie okna dialogowe używane na ekranie wyszukiwania, w tym dialog dodawania nowej pieśni oraz dialogi potwierdzenia usunięcia.
-
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.foundation.layout.Arrangement
@@ -8869,6 +8879,7 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 internal fun AddSongDialog(
     categories: List<Category>,
     error: String?,
+    initialCategoryName: String?,
     onDismiss: () -> Unit,
     onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
     onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
@@ -8878,7 +8889,7 @@ internal fun AddSongDialog(
     var numerSak by remember { mutableStateOf("") }
     var numerDn by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
-    var category by remember { mutableStateOf("") }
+    var category by remember { mutableStateOf(initialCategoryName ?: "") }
     var isCategoryExpanded by remember { mutableStateOf(false) }
     val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
 
@@ -10339,6 +10350,21 @@ Aplikacja-dla-Konrada/
                 sha1-checksums.bin
             executionHistory/
                 executionHistory.bin
+                executionHistory.lock
+            expanded/
+            fileChanges/
+                last-build.bin
+            fileHashes/
+                fileHashes.bin
+                fileHashes.lock
+                resourceHashesCache.bin
+            vcsMetadata/
+        8.13/
+            gc.properties
+            checksums/
+                checksums.lock
+                sha1-checksums.bin
+            executionHistory/
                 executionHistory.lock
             expanded/
             fileChanges/
@@ -12868,8 +12894,188 @@ Aplikacja-dla-Konrada/
                             merged.dir/
                                 values/
                                     values.xml
+                                values-af/
+                                    values-af.xml
+                                values-am/
+                                    values-am.xml
+                                values-ar/
+                                    values-ar.xml
+                                values-as/
+                                    values-as.xml
+                                values-az/
+                                    values-az.xml
+                                values-b+sr+Latn/
+                                    values-b+sr+Latn.xml
+                                values-be/
+                                    values-be.xml
+                                values-bg/
+                                    values-bg.xml
+                                values-bn/
+                                    values-bn.xml
+                                values-bs/
+                                    values-bs.xml
+                                values-ca/
+                                    values-ca.xml
+                                values-cs/
+                                    values-cs.xml
+                                values-da/
+                                    values-da.xml
+                                values-de/
+                                    values-de.xml
+                                values-el/
+                                    values-el.xml
+                                values-en-rAU/
+                                    values-en-rAU.xml
+                                values-en-rCA/
+                                    values-en-rCA.xml
+                                values-en-rGB/
+                                    values-en-rGB.xml
+                                values-en-rIN/
+                                    values-en-rIN.xml
+                                values-en-rXC/
+                                    values-en-rXC.xml
+                                values-es/
+                                    values-es.xml
+                                values-es-rUS/
+                                    values-es-rUS.xml
+                                values-et/
+                                    values-et.xml
+                                values-eu/
+                                    values-eu.xml
+                                values-fa/
+                                    values-fa.xml
+                                values-fi/
+                                    values-fi.xml
+                                values-fr/
+                                    values-fr.xml
+                                values-fr-rCA/
+                                    values-fr-rCA.xml
+                                values-gl/
+                                    values-gl.xml
+                                values-gu/
+                                    values-gu.xml
+                                values-hi/
+                                    values-hi.xml
+                                values-hr/
+                                    values-hr.xml
+                                values-hu/
+                                    values-hu.xml
+                                values-hy/
+                                    values-hy.xml
+                                values-in/
+                                    values-in.xml
+                                values-is/
+                                    values-is.xml
+                                values-it/
+                                    values-it.xml
+                                values-iw/
+                                    values-iw.xml
+                                values-ja/
+                                    values-ja.xml
+                                values-ka/
+                                    values-ka.xml
+                                values-kk/
+                                    values-kk.xml
+                                values-km/
+                                    values-km.xml
+                                values-kn/
+                                    values-kn.xml
+                                values-ko/
+                                    values-ko.xml
+                                values-ky/
+                                    values-ky.xml
+                                values-lo/
+                                    values-lo.xml
+                                values-lt/
+                                    values-lt.xml
+                                values-lv/
+                                    values-lv.xml
+                                values-mk/
+                                    values-mk.xml
+                                values-ml/
+                                    values-ml.xml
+                                values-mn/
+                                    values-mn.xml
+                                values-mr/
+                                    values-mr.xml
+                                values-ms/
+                                    values-ms.xml
+                                values-my/
+                                    values-my.xml
+                                values-nb/
+                                    values-nb.xml
+                                values-ne/
+                                    values-ne.xml
+                                values-night-v8/
+                                    values-night-v8.xml
+                                values-nl/
+                                    values-nl.xml
+                                values-or/
+                                    values-or.xml
+                                values-pa/
+                                    values-pa.xml
+                                values-pl/
+                                    values-pl.xml
+                                values-pt/
+                                    values-pt.xml
+                                values-pt-rBR/
+                                    values-pt-rBR.xml
+                                values-pt-rPT/
+                                    values-pt-rPT.xml
+                                values-ro/
+                                    values-ro.xml
+                                values-ru/
+                                    values-ru.xml
+                                values-si/
+                                    values-si.xml
+                                values-sk/
+                                    values-sk.xml
+                                values-sl/
+                                    values-sl.xml
+                                values-sq/
+                                    values-sq.xml
+                                values-sr/
+                                    values-sr.xml
+                                values-sv/
+                                    values-sv.xml
+                                values-sw/
+                                    values-sw.xml
+                                values-ta/
+                                    values-ta.xml
+                                values-te/
+                                    values-te.xml
+                                values-th/
+                                    values-th.xml
+                                values-tl/
+                                    values-tl.xml
+                                values-tr/
+                                    values-tr.xml
+                                values-uk/
+                                    values-uk.xml
+                                values-ur/
+                                    values-ur.xml
+                                values-uz/
+                                    values-uz.xml
+                                values-v21/
+                                    values-v21.xml
+                                values-v27/
+                                    values-v27.xml
+                                values-v29/
+                                    values-v29.xml
                                 values-v31/
                                     values-v31.xml
+                                values-vi/
+                                    values-vi.xml
+                                values-watch-v20/
+                                    values-watch-v20.xml
+                                values-zh-rCN/
+                                    values-zh-rCN.xml
+                                values-zh-rHK/
+                                    values-zh-rHK.xml
+                                values-zh-rTW/
+                                    values-zh-rTW.xml
+                                values-zu/
+                                    values-zu.xml
                             stripped.dir/
                         packageDebugResources/
                             compile-file-map.properties
@@ -13821,8 +14027,6 @@ Aplikacja-dla-Konrada/
                                                     SearchResult$SongResult.dex
                                                     SearchResult.dex
                                                 repository/
-                                                    calendar/
-                                                        model/
                                                     FileSystemRepository/
                                                         CacheManager.dex
                                                         CategoryFileManager.dex
@@ -13850,7 +14054,6 @@ Aplikacja-dla-Konrada/
                                                     LiturgicalDayContext.dex
                                                     LiturgicalSeason.dex
                                                     LiturgicalYearCalculator.dex
-                                            MainActivity/
                                             navigation/
                                                 Screen$Browse.dex
                                                 Screen$Calendar.dex
@@ -13985,7 +14188,6 @@ Aplikacja-dla-Konrada/
                                                             CalendarRepository.dex
                                                             local/
                                                                 CalendarFileManager.dex
-                                                            logic/
                                                             model/
                                                                 CalendarDay.dex
                                                                 ConstantsKt.dex
@@ -14029,7 +14231,6 @@ Aplikacja-dla-Konrada/
                                                             ComposableSingletons$CalendarScreenComponentsKt$lambda-3$1.dex
                                                             ComposableSingletons$CalendarScreenComponentsKt.dex
                                                             IndexKt.dex
-                                                            utils/
                                                         CalendarViewModel/
                                                             CalendarViewModel$changeMonth$1.dex
                                                             CalendarViewModel$checkAndLoadInitialData$1$4.dex
@@ -14256,22 +14457,23 @@ Aplikacja-dla-Konrada/
                                                         DeleteDialogState$ConfirmOccurrences.dex
                                                         DeleteDialogState$None.dex
                                                         DeleteDialogState.dex
-                                                        IndexKt$SearchScreen$10$1$3$1.dex
-                                                        IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.dex
+                                                        IndexKt$SearchScreen$9$1$1$1.dex
                                                         IndexKt.dex
                                                         SearchScreenComponentsKt$CategoryItem$1.dex
-                                                        SearchScreenComponentsKt$CategoryList$1$1$2$1$1.dex
-                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$1.dex
-                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$2.dex
-                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$3.dex
-                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$4.dex
-                                                        SearchScreenComponentsKt$ResultsList$1$1$2$1$1.dex
-                                                        SearchScreenComponentsKt$ResultsList$1$1$2$2$1.dex
-                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.dex
-                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$2.dex
-                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$3.dex
-                                                        SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$4.dex
                                                         SearchScreenComponentsKt$SearchBar$1.dex
+                                                        SearchScreenComponentsKt$SearchBar$2.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$1$1$2$1$1.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$1$1$3.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$1$1$5$1$1.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$1$1$5$2$1.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$1.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$2.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$3.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$4.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$5.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$6.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$7.dex
+                                                        SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$8.dex
                                                         SearchScreenComponentsKt$SongResultItem$1.dex
                                                         SearchScreenComponentsKt.dex
                                                         SearchScreenDialogsKt$AddSongDialog$1$1.dex
@@ -14288,10 +14490,11 @@ Aplikacja-dla-Konrada/
                                                         SearchScreenDialogsKt.dex
                                                         SearchUiState.dex
                                                         SearchViewModel$1.dex
-                                                        SearchViewModel$loadCategories$1$invokeSuspend$$inlined$sortedBy$1.dex
-                                                        SearchViewModel$loadCategories$1.dex
+                                                        SearchViewModel$loadInitialData$1$invokeSuspend$$inlined$sortedBy$1.dex
+                                                        SearchViewModel$loadInitialData$1.dex
                                                         SearchViewModel$onAddSongClicked$1.dex
                                                         SearchViewModel$onFinalDelete$1.dex
+                                                        SearchViewModel$performSearch$1$invokeSuspend$lambda$8$$inlined$sortedBy$1.dex
                                                         SearchViewModel$performSearch$1.dex
                                                         SearchViewModel$saveNewSong$3.dex
                                                         SearchViewModel$sortSongs$$inlined$compareBy$1.dex
@@ -14300,7 +14503,6 @@ Aplikacja-dla-Konrada/
                                                         SearchViewModel$WhenMappings.dex
                                                         SearchViewModel.dex
                                                         SearchViewModelFactory.dex
-                                                        SearchViewState.dex
                                                         SongSortMode.dex
                                                     settings/
                                                         ComposableSingletons$SettingsScreenKt$lambda-1$1.dex
@@ -14540,9 +14742,7 @@ Aplikacja-dla-Konrada/
                                     class-fq-name-to-source.tab.keystream
                                     class-fq-name-to-source.tab.keystream.len
                                     class-fq-name-to-source.tab.len
-                                    class-fq-name-to-source.tab.values
                                     class-fq-name-to-source.tab.values.at
-                                    class-fq-name-to-source.tab.values.s
                                     class-fq-name-to-source.tab_i
                                     class-fq-name-to-source.tab_i.len
                                     constants.tab
@@ -15174,22 +15374,23 @@ Aplikacja-dla-Konrada/
                                                 DeleteDialogState$ConfirmOccurrences.class
                                                 DeleteDialogState$None.class
                                                 DeleteDialogState.class
-                                                IndexKt$SearchScreen$10$1$3$1.class
-                                                IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.class
+                                                IndexKt$SearchScreen$9$1$1$1.class
                                                 IndexKt.class
                                                 SearchScreenComponentsKt$CategoryItem$1.class
-                                                SearchScreenComponentsKt$CategoryList$1$1$2$1$1.class
-                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$1.class
-                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$2.class
-                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$3.class
-                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$4.class
-                                                SearchScreenComponentsKt$ResultsList$1$1$2$1$1.class
-                                                SearchScreenComponentsKt$ResultsList$1$1$2$2$1.class
-                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.class
-                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$2.class
-                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$3.class
-                                                SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$4.class
                                                 SearchScreenComponentsKt$SearchBar$1.class
+                                                SearchScreenComponentsKt$SearchBar$2.class
+                                                SearchScreenComponentsKt$SearchResultsContent$1$1$2$1$1.class
+                                                SearchScreenComponentsKt$SearchResultsContent$1$1$3.class
+                                                SearchScreenComponentsKt$SearchResultsContent$1$1$5$1$1.class
+                                                SearchScreenComponentsKt$SearchResultsContent$1$1$5$2$1.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$1.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$2.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$3.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$4.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$5.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$6.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$7.class
+                                                SearchScreenComponentsKt$SearchResultsContent$lambda$11$lambda$10$$inlined$items$default$8.class
                                                 SearchScreenComponentsKt$SongResultItem$1.class
                                                 SearchScreenComponentsKt.class
                                                 SearchScreenDialogsKt$AddSongDialog$1$1.class
@@ -15206,10 +15407,11 @@ Aplikacja-dla-Konrada/
                                                 SearchScreenDialogsKt.class
                                                 SearchUiState.class
                                                 SearchViewModel$1.class
-                                                SearchViewModel$loadCategories$1$invokeSuspend$$inlined$sortedBy$1.class
-                                                SearchViewModel$loadCategories$1.class
+                                                SearchViewModel$loadInitialData$1$invokeSuspend$$inlined$sortedBy$1.class
+                                                SearchViewModel$loadInitialData$1.class
                                                 SearchViewModel$onAddSongClicked$1.class
                                                 SearchViewModel$onFinalDelete$1.class
+                                                SearchViewModel$performSearch$1$invokeSuspend$lambda$8$$inlined$sortedBy$1.class
                                                 SearchViewModel$performSearch$1.class
                                                 SearchViewModel$saveNewSong$3.class
                                                 SearchViewModel$sortSongs$$inlined$compareBy$1.class
@@ -15218,7 +15420,6 @@ Aplikacja-dla-Konrada/
                                                 SearchViewModel$WhenMappings.class
                                                 SearchViewModel.class
                                                 SearchViewModelFactory.class
-                                                SearchViewState.class
                                                 SongSortMode.class
                                             settings/
                                                 ComposableSingletons$SettingsScreenKt$lambda-1$1.class
@@ -16507,6 +16708,7 @@ Aplikacja-dla-Konrada/
                                                 models.kt
                                         search/
                                             SearchViewModel.kt
+                                            SearchViewModelFactory.kt
                                             SearchScreen/
                                                 index.kt
                                                 SearchScreenComponents.kt
@@ -16585,6 +16787,504 @@ Aplikacja-dla-Konrada/
                         qjproject/
                             liturgicalcalendar/
                                 ExampleUnitTest.kt
+    build/
+        generated/
+            res/
+                pngs/
+                    debug/
+                resValues/
+                    debug/
+        intermediates/
+            aar_metadata_check/
+                debug/
+                    checkDebugAarMetadata/
+            annotation_processor_list/
+                debug/
+                    javaPreCompileDebug/
+                        annotationProcessors.json
+            app_metadata/
+                debug/
+                    writeDebugAppMetadata/
+                        app-metadata.properties
+            assets/
+                debug/
+                    mergeDebugAssets/
+            compatible_screen_manifest/
+                debug/
+                    createDebugCompatibleScreenManifests/
+                        output-metadata.json
+            compressed_assets/
+                debug/
+                    compressDebugAssets/
+                        out/
+            data_binding_layout_info_type_merge/
+                debug/
+                    mergeDebugResources/
+                        out/
+            data_binding_layout_info_type_package/
+                debug/
+                    packageDebugResources/
+                        out/
+            dex/
+                debug/
+                    mergeExtDexDebug/
+                        classes.dex
+                        classes2.dex
+                    mergeLibDexDebug/
+                        0/
+                        1/
+                        10/
+                        11/
+                        12/
+                        13/
+                        14/
+                        15/
+                        2/
+                        3/
+                        4/
+                        5/
+                        6/
+                        7/
+                        8/
+                        9/
+            duplicate_classes_check/
+                debug/
+                    checkDebugDuplicateClasses/
+            external_file_lib_dex_archives/
+                debug/
+                    desugarDebugFileDependencies/
+            incremental/
+                debug/
+                    mergeDebugResources/
+                        compile-file-map.properties
+                        merger.xml
+                        merged.dir/
+                            values/
+                                values.xml
+                            values-af/
+                                values-af.xml
+                            values-am/
+                                values-am.xml
+                            values-ar/
+                                values-ar.xml
+                            values-as/
+                                values-as.xml
+                            values-az/
+                                values-az.xml
+                            values-b+sr+Latn/
+                                values-b+sr+Latn.xml
+                            values-be/
+                                values-be.xml
+                            values-bg/
+                                values-bg.xml
+                            values-bn/
+                                values-bn.xml
+                            values-bs/
+                                values-bs.xml
+                            values-ca/
+                                values-ca.xml
+                            values-cs/
+                                values-cs.xml
+                            values-da/
+                                values-da.xml
+                            values-de/
+                                values-de.xml
+                            values-el/
+                                values-el.xml
+                            values-en-rAU/
+                                values-en-rAU.xml
+                            values-en-rCA/
+                                values-en-rCA.xml
+                            values-en-rGB/
+                                values-en-rGB.xml
+                            values-en-rIN/
+                                values-en-rIN.xml
+                            values-en-rXC/
+                                values-en-rXC.xml
+                            values-es/
+                                values-es.xml
+                            values-es-rUS/
+                                values-es-rUS.xml
+                            values-et/
+                                values-et.xml
+                            values-eu/
+                                values-eu.xml
+                            values-fa/
+                                values-fa.xml
+                            values-fi/
+                                values-fi.xml
+                            values-fr/
+                                values-fr.xml
+                            values-fr-rCA/
+                                values-fr-rCA.xml
+                            values-gl/
+                                values-gl.xml
+                            values-gu/
+                                values-gu.xml
+                            values-hi/
+                                values-hi.xml
+                            values-hr/
+                                values-hr.xml
+                            values-hu/
+                                values-hu.xml
+                            values-hy/
+                                values-hy.xml
+                            values-in/
+                                values-in.xml
+                            values-is/
+                                values-is.xml
+                            values-it/
+                                values-it.xml
+                            values-iw/
+                                values-iw.xml
+                            values-ja/
+                                values-ja.xml
+                            values-ka/
+                                values-ka.xml
+                            values-kk/
+                                values-kk.xml
+                            values-km/
+                                values-km.xml
+                            values-kn/
+                                values-kn.xml
+                            values-ko/
+                                values-ko.xml
+                            values-ky/
+                                values-ky.xml
+                            values-lo/
+                                values-lo.xml
+                            values-lt/
+                                values-lt.xml
+                            values-lv/
+                                values-lv.xml
+                            values-mk/
+                                values-mk.xml
+                            values-ml/
+                                values-ml.xml
+                            values-mn/
+                                values-mn.xml
+                            values-mr/
+                                values-mr.xml
+                            values-ms/
+                                values-ms.xml
+                            values-my/
+                                values-my.xml
+                            values-nb/
+                                values-nb.xml
+                            values-ne/
+                                values-ne.xml
+                            values-night-v8/
+                                values-night-v8.xml
+                            values-nl/
+                                values-nl.xml
+                            values-or/
+                                values-or.xml
+                            values-pa/
+                                values-pa.xml
+                            values-pl/
+                                values-pl.xml
+                            values-pt/
+                                values-pt.xml
+                            values-pt-rBR/
+                                values-pt-rBR.xml
+                            values-pt-rPT/
+                                values-pt-rPT.xml
+                            values-ro/
+                                values-ro.xml
+                            values-ru/
+                                values-ru.xml
+                            values-si/
+                                values-si.xml
+                            values-sk/
+                                values-sk.xml
+                            values-sl/
+                                values-sl.xml
+                            values-sq/
+                                values-sq.xml
+                            values-sr/
+                                values-sr.xml
+                            values-sv/
+                                values-sv.xml
+                            values-sw/
+                                values-sw.xml
+                            values-ta/
+                                values-ta.xml
+                            values-te/
+                                values-te.xml
+                            values-th/
+                                values-th.xml
+                            values-tl/
+                                values-tl.xml
+                            values-tr/
+                                values-tr.xml
+                            values-uk/
+                                values-uk.xml
+                            values-ur/
+                                values-ur.xml
+                            values-uz/
+                                values-uz.xml
+                            values-v21/
+                                values-v21.xml
+                            values-v27/
+                                values-v27.xml
+                            values-v29/
+                                values-v29.xml
+                            values-v31/
+                                values-v31.xml
+                            values-vi/
+                                values-vi.xml
+                            values-watch-v20/
+                                values-watch-v20.xml
+                            values-zh-rCN/
+                                values-zh-rCN.xml
+                            values-zh-rHK/
+                                values-zh-rHK.xml
+                            values-zh-rTW/
+                                values-zh-rTW.xml
+                            values-zu/
+                                values-zu.xml
+                        stripped.dir/
+                    packageDebugResources/
+                        compile-file-map.properties
+                        merger.xml
+                        merged.dir/
+                        stripped.dir/
+                mergeDebugAssets/
+                    merger.xml
+                mergeDebugJniLibFolders/
+                    merger.xml
+                mergeDebugShaders/
+                    merger.xml
+            local_only_symbol_list/
+                debug/
+                    parseDebugLocalResources/
+                        R-def.txt
+            merged_jni_libs/
+                debug/
+                    mergeDebugJniLibFolders/
+                        out/
+            merged_res/
+                debug/
+                    mergeDebugResources/
+                        values-af_values-af.arsc.flat
+                        values-am_values-am.arsc.flat
+                        values-ar_values-ar.arsc.flat
+                        values-as_values-as.arsc.flat
+                        values-az_values-az.arsc.flat
+                        values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+                        values-be_values-be.arsc.flat
+                        values-bg_values-bg.arsc.flat
+                        values-bn_values-bn.arsc.flat
+                        values-bs_values-bs.arsc.flat
+                        values-ca_values-ca.arsc.flat
+                        values-cs_values-cs.arsc.flat
+                        values-da_values-da.arsc.flat
+                        values-de_values-de.arsc.flat
+                        values-el_values-el.arsc.flat
+                        values-en-rAU_values-en-rAU.arsc.flat
+                        values-en-rCA_values-en-rCA.arsc.flat
+                        values-en-rGB_values-en-rGB.arsc.flat
+                        values-en-rIN_values-en-rIN.arsc.flat
+                        values-en-rXC_values-en-rXC.arsc.flat
+                        values-es-rUS_values-es-rUS.arsc.flat
+                        values-es_values-es.arsc.flat
+                        values-et_values-et.arsc.flat
+                        values-eu_values-eu.arsc.flat
+                        values-fa_values-fa.arsc.flat
+                        values-fi_values-fi.arsc.flat
+                        values-fr-rCA_values-fr-rCA.arsc.flat
+                        values-fr_values-fr.arsc.flat
+                        values-gl_values-gl.arsc.flat
+                        values-gu_values-gu.arsc.flat
+                        values-hi_values-hi.arsc.flat
+                        values-hr_values-hr.arsc.flat
+                        values-hu_values-hu.arsc.flat
+                        values-hy_values-hy.arsc.flat
+                        values-in_values-in.arsc.flat
+                        values-is_values-is.arsc.flat
+                        values-it_values-it.arsc.flat
+                        values-iw_values-iw.arsc.flat
+                        values-ja_values-ja.arsc.flat
+                        values-ka_values-ka.arsc.flat
+                        values-kk_values-kk.arsc.flat
+                        values-km_values-km.arsc.flat
+                        values-kn_values-kn.arsc.flat
+                        values-ko_values-ko.arsc.flat
+                        values-ky_values-ky.arsc.flat
+                        values-lo_values-lo.arsc.flat
+                        values-lt_values-lt.arsc.flat
+                        values-lv_values-lv.arsc.flat
+                        values-mk_values-mk.arsc.flat
+                        values-ml_values-ml.arsc.flat
+                        values-mn_values-mn.arsc.flat
+                        values-mr_values-mr.arsc.flat
+                        values-ms_values-ms.arsc.flat
+                        values-my_values-my.arsc.flat
+                        values-nb_values-nb.arsc.flat
+                        values-ne_values-ne.arsc.flat
+                        values-night-v8_values-night-v8.arsc.flat
+                        values-nl_values-nl.arsc.flat
+                        values-or_values-or.arsc.flat
+                        values-pa_values-pa.arsc.flat
+                        values-pl_values-pl.arsc.flat
+                        values-pt-rBR_values-pt-rBR.arsc.flat
+                        values-pt-rPT_values-pt-rPT.arsc.flat
+                        values-pt_values-pt.arsc.flat
+                        values-ro_values-ro.arsc.flat
+                        values-ru_values-ru.arsc.flat
+                        values-si_values-si.arsc.flat
+                        values-sk_values-sk.arsc.flat
+                        values-sl_values-sl.arsc.flat
+                        values-sq_values-sq.arsc.flat
+                        values-sr_values-sr.arsc.flat
+                        values-sv_values-sv.arsc.flat
+                        values-sw_values-sw.arsc.flat
+                        values-ta_values-ta.arsc.flat
+                        values-te_values-te.arsc.flat
+                        values-th_values-th.arsc.flat
+                        values-tl_values-tl.arsc.flat
+                        values-tr_values-tr.arsc.flat
+                        values-uk_values-uk.arsc.flat
+                        values-ur_values-ur.arsc.flat
+                        values-uz_values-uz.arsc.flat
+                        values-v21_values-v21.arsc.flat
+                        values-v27_values-v27.arsc.flat
+                        values-v29_values-v29.arsc.flat
+                        values-v31_values-v31.arsc.flat
+                        values-vi_values-vi.arsc.flat
+                        values-watch-v20_values-watch-v20.arsc.flat
+                        values-zh-rCN_values-zh-rCN.arsc.flat
+                        values-zh-rHK_values-zh-rHK.arsc.flat
+                        values-zh-rTW_values-zh-rTW.arsc.flat
+                        values-zu_values-zu.arsc.flat
+                        values_values.arsc.flat
+            merged_res_blame_folder/
+                debug/
+                    mergeDebugResources/
+                        out/
+                            multi-v2/
+                                mergeDebugResources.json
+                                values-af.json
+                                values-am.json
+                                values-ar.json
+                                values-as.json
+                                values-az.json
+                                values-b+sr+Latn.json
+                                values-be.json
+                                values-bg.json
+                                values-bn.json
+                                values-bs.json
+                                values-ca.json
+                                values-cs.json
+                                values-da.json
+                                values-de.json
+                                values-el.json
+                                values-en-rAU.json
+                                values-en-rCA.json
+                                values-en-rGB.json
+                                values-en-rIN.json
+                                values-en-rXC.json
+                                values-es-rUS.json
+                                values-es.json
+                                values-et.json
+                                values-eu.json
+                                values-fa.json
+                                values-fi.json
+                                values-fr-rCA.json
+                                values-fr.json
+                                values-gl.json
+                                values-gu.json
+                                values-hi.json
+                                values-hr.json
+                                values-hu.json
+                                values-hy.json
+                                values-in.json
+                                values-is.json
+                                values-it.json
+                                values-iw.json
+                                values-ja.json
+                                values-ka.json
+                                values-kk.json
+                                values-km.json
+                                values-kn.json
+                                values-ko.json
+                                values-ky.json
+                                values-lo.json
+                                values-lt.json
+                                values-lv.json
+                                values-mk.json
+                                values-ml.json
+                                values-mn.json
+                                values-mr.json
+                                values-ms.json
+                                values-my.json
+                                values-nb.json
+                                values-ne.json
+                                values-night-v8.json
+                                values-nl.json
+                                values-or.json
+                                values-pa.json
+                                values-pl.json
+                                values-pt-rBR.json
+                                values-pt-rPT.json
+                                values-pt.json
+                                values-ro.json
+                                values-ru.json
+                                values-si.json
+                                values-sk.json
+                                values-sl.json
+                                values-sq.json
+                                values-sr.json
+                                values-sv.json
+                                values-sw.json
+                                values-ta.json
+                                values-te.json
+                                values-th.json
+                                values-tl.json
+                                values-tr.json
+                                values-uk.json
+                                values-ur.json
+                                values-uz.json
+                                values-v21.json
+                                values-v27.json
+                                values-v29.json
+                                values-v31.json
+                                values-vi.json
+                                values-watch-v20.json
+                                values-zh-rCN.json
+                                values-zh-rHK.json
+                                values-zh-rTW.json
+                                values-zu.json
+                                values.json
+            merged_shaders/
+                debug/
+                    mergeDebugShaders/
+                        out/
+            navigation_json/
+                debug/
+                    extractDeepLinksDebug/
+                        navigation.json
+            nested_resources_validation_report/
+                debug/
+                    generateDebugResources/
+                        nestedResourcesValidationReport.txt
+            packaged_res/
+                debug/
+                    packageDebugResources/
+            signing_config_versions/
+                debug/
+                    writeDebugSigningConfigVersions/
+                        signing-config-versions.json
+            source_set_path_map/
+                debug/
+                    mapDebugSourceSetPaths/
+                        file-map.txt
+            validate_signing_config/
+                debug/
+                    validateSigningDebug/
+        reports/
+            problems/
+                problems-report.html
     gradle/
         libs.versions.toml
         wrapper/
