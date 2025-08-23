@@ -11,15 +11,11 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.data.Song
 
 @Composable
@@ -28,24 +24,12 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val lifecycleOwner = LocalLifecycleOwner.current
-
-    DisposableEffect(lifecycleOwner) {
-        val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME) {
-                // Refresh data on resume
-            }
-        }
-        lifecycleOwner.lifecycle.addObserver(observer)
-        onDispose {
-            lifecycleOwner.lifecycle.removeObserver(observer)
-        }
-    }
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(
             categories = uiState.allCategories,
             error = uiState.addSongError,
+            initialCategoryName = uiState.selectedCategory?.nazwa,
             onDismiss = { viewModel.onDismissAddSongDialog() },
             onConfirm = { title, siedl, sak, dn, text, category ->
                 viewModel.saveNewSong(title, siedl, sak, dn, text, category)
@@ -77,34 +61,29 @@ fun SearchScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.fillMaxSize()) {
-            when {
-                uiState.isLoading -> {
-                    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator()
-                    }
+            SearchBar(
+                query = uiState.query,
+                onQueryChange = viewModel::onQueryChange,
+                placeholder = if (uiState.selectedCategory != null) "Wyszukaj wewnątrz kategorii..." else "Szukaj pieśni lub kategorii..."
+            )
+            Divider()
+
+            if (uiState.isLoading) {
+                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                    CircularProgressIndicator()
                 }
-                uiState.currentView == SearchViewState.CATEGORY_SELECTION -> {
-                    CategoryList(
-                        categories = uiState.allCategories,
-                        onCategoryClick = { viewModel.onCategorySelected(it) }
-                    )
-                }
-                uiState.currentView == SearchViewState.SONG_LIST -> {
-                    SearchBar(
-                        query = uiState.query,
-                        onQueryChange = viewModel::onQueryChange
-                    )
-                    Divider()
-                    if (uiState.results.isEmpty() && uiState.query.isNotBlank()) {
-                        NoResults()
-                    } else {
-                        ResultsList(
-                            results = uiState.results,
-                            onNavigateToSong = onNavigateToSong,
-                            onSongLongClick = { song -> viewModel.onSongLongPress(song) }
-                        )
-                    }
-                }
+            } else if (uiState.songResults.isEmpty() && uiState.categoryResults.isEmpty() && uiState.query.isNotBlank()) {
+                NoResults()
+            } else {
+                SearchResultsContent(
+                    categories = uiState.categoryResults,
+                    songs = uiState.songResults,
+                    isGlobalSearch = uiState.selectedCategory == null,
+                    onCategoryClick = { viewModel.onCategorySelected(it) },
+                    onNoCategoryClick = { viewModel.onNoCategorySelected() },
+                    onSongClick = onNavigateToSong,
+                    onSongLongClick = { viewModel.onSongLongPress(it) }
+                )
             }
         }
         FloatingActionButton(

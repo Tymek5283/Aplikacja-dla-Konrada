@@ -225,11 +225,11 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
       "skrot": "W. Post"
     },
     {
-      "nazwa": "Pieśni wielkanocne",
+      "nazwa": "Wielkanocne",
       "skrot": "Wielk."
     },
     {
-      "nazwa": "Pieśni do Miłosierdzia Bożego",
+      "nazwa": "do Miłosierdzia Bożego",
       "skrot": "M. B."
     },
     {
@@ -237,23 +237,23 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
       "skrot": "Wnieb. P."
     },
     {
-      "nazwa": "Pieśni do Ducha Świętego",
+      "nazwa": "do Ducha Świętego",
       "skrot": "D. Św."
     },
     {
-      "nazwa": "Do Jezusa wiecznego Kapłana",
+      "nazwa": "do Jezusa wiecznego Kapłana",
       "skrot": "Jez. w. Kapł."
     },
     {
-      "nazwa": "Pieśni do Trójcy Świętej",
+      "nazwa": "do Trójcy Świętej",
       "skrot": "Tr. Św."
     },
     {
-      "nazwa": "Pieśni Eucharystyczne",
+      "nazwa": "Eucharystyczne",
       "skrot": "Euch."
     },
     {
-      "nazwa": "Pieśni do Serca Jezusa",
+      "nazwa": "do Serca Jezusa",
       "skrot": "S. Jez."
     },
     {
@@ -261,31 +261,31 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
       "skrot": "Przem. P."
     },
     {
-      "nazwa": "Pieśni Jezusa Chrystusa, Króla Wszechświata",
+      "nazwa": "Jezusa Chrystusa, Króla Wszechświata",
       "skrot": "J. Chr. Króla"
     },
     {
-      "nazwa": "Pieśni do Najświętszej Maryi Panny",
+      "nazwa": "do Najświętszej Maryi Panny",
       "skrot": "NMP"
     },
     {
-      "nazwa": "Pieśni do Świętego Józefa",
+      "nazwa": "do Świętego Józefa",
       "skrot": "Św. Józ."
     },
     {
-      "nazwa": "Pieśni ku czci świętych Archaniołów",
+      "nazwa": "ku czci świętych Archaniołów",
       "skrot": "Św. Arch."
     },
     {
-      "nazwa": "Pieśni ku czci świętych Aniołów Stróżów",
+      "nazwa": "ku czci świętych Aniołów Stróżów",
       "skrot": "Św. An. Str."
     },
     {
-      "nazwa": "Pieśni o Świętych",
+      "nazwa": "o Świętych",
       "skrot": "o Św."
     },
     {
-      "nazwa": "Pieśni przygodne",
+      "nazwa": "Przygodne",
       "skrot": "Przygod."
     },
     {
@@ -293,15 +293,15 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
       "skrot": "Hym."
     },
     {
-      "nazwa": "Pieśni za zmarłych",
+      "nazwa": "za zmarłych",
       "skrot": "Za zm."
     },
     {
-      "nazwa": "Pieśni Mszalne",
+      "nazwa": "Mszalne",
       "skrot": "Mszal."
     },
     {
-      "nazwa": "Pieśni z Taize",
+      "nazwa": "z Taize",
       "skrot": "Taize"
     },
     {
@@ -1710,7 +1710,7 @@ class DataManager(private val context: Context) {
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
     // ZMIANA: Zwiększono wersję, aby wymusić ponowne skopiowanie pliku piesni.json
-    private val currentDataVersion = 6
+    private val currentDataVersion = 8
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -3346,8 +3346,6 @@ internal fun MainAppHost() {
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\main\MainTabsScreen.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/main/MainTabsScreen.kt
-// Opis: Główny ekran aplikacji zawierający dolny pasek nawigacyjny i zarządzający przełączaniem między zakładkami: Wyszukaj, Przeglądaj, Kalendarz i Ustawienia.
 package com.qjproject.liturgicalcalendar.ui.main
 
 import android.app.Activity
@@ -3422,9 +3420,8 @@ internal fun MainTabsScreen(navController: NavController) {
     val settingsViewModel = viewModel<SettingsViewModel>(factory = SettingsViewModelFactory(context))
     val searchViewModel = viewModel<SearchViewModel>(factory = SearchViewModelFactory(context))
 
-
     val bottomNavItems = listOf(Screen.Search, Screen.Browse, Screen.Calendar, Screen.Settings)
-    val pagerState = rememberPagerState(initialPage = 1)
+    val pagerState = rememberPagerState(initialPage = 0) // Start on Search screen
     val coroutineScope = rememberCoroutineScope()
 
     val browseUiState by browseViewModel.uiState.collectAsState()
@@ -3445,14 +3442,19 @@ internal fun MainTabsScreen(navController: NavController) {
                     browseViewModel.onBackPress()
                 }
             }
-            else -> {}
+            isSearchScreenActive && searchUiState.isBackButtonVisible -> {
+                searchViewModel.onNavigateBack()
+            }
+            else -> {
+                // Allow default back behavior for other cases
+            }
         }
     }
 
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> "Wyszukaj pieśń"
+                Screen.Search -> if(searchUiState.isBackButtonVisible) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wybierz kategorię"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -3460,8 +3462,14 @@ internal fun MainTabsScreen(navController: NavController) {
             }
             MainTopAppBar(
                 title = title,
-                showBackButton = isBrowseScreenActive && browseUiState.isBackArrowVisible,
-                onBackClick = { browseViewModel.onBackPress() },
+                showBackButton = (isBrowseScreenActive && browseUiState.isBackArrowVisible) || (isSearchScreenActive && searchUiState.isBackButtonVisible),
+                onBackClick = {
+                    if (isBrowseScreenActive) {
+                        browseViewModel.onBackPress()
+                    } else if (isSearchScreenActive) {
+                        searchViewModel.onNavigateBack()
+                    }
+                },
                 isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,
                 showEditButton = isBrowseScreenActive,
                 onEditClick = { browseViewModel.onEnterEditMode() },
@@ -3469,7 +3477,7 @@ internal fun MainTabsScreen(navController: NavController) {
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
-                isSearchScreenActive = isSearchScreenActive,
+                isSearchScreenActive = isSearchScreenActive && searchUiState.currentView == com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewState.SONG_LIST,
                 searchActions = {
                     var showSearchOptions by remember { mutableStateOf(false) }
                     Box {
@@ -3497,7 +3505,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                 Column(Modifier.selectableGroup()) {
                                     SongSortMode.values().forEach { mode ->
                                         DropdownMenuItem(
-                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else mode.name) },
+                                            text = { Text(if (mode == SongSortMode.Kategoria) "Kategoria" else "Alfabetycznie") },
                                             onClick = {
                                                 searchViewModel.onSortModeChange(mode)
                                                 showSearchOptions = false
@@ -3566,6 +3574,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                     when (screen) {
                                         is Screen.Browse -> browseViewModel.onResetToRoot()
                                         is Screen.Calendar -> calendarViewModel.resetToCurrentMonth()
+                                        is Screen.Search -> searchViewModel.onResetToRoot()
                                         else -> {}
                                     }
                                 } else {
@@ -3591,7 +3600,7 @@ internal fun MainTabsScreen(navController: NavController) {
             count = bottomNavItems.size,
             state = pagerState,
             modifier = Modifier.padding(innerPadding),
-            userScrollEnabled = !browseUiState.isEditMode
+            userScrollEnabled = !browseUiState.isEditMode && !searchUiState.isBackButtonVisible
         ) { pageIndex ->
             when (bottomNavItems[pageIndex]) {
                 is Screen.Search -> SearchScreen(
@@ -8240,6 +8249,7 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 
 enum class SongSortMode { Alfabetycznie, Kategoria }
+enum class SearchViewState { CATEGORY_SELECTION, SONG_LIST }
 
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
@@ -8250,17 +8260,19 @@ sealed class DeleteDialogState {
 data class SearchUiState(
     val query: String = "",
     val results: List<Song> = emptyList(),
-    val searchPerformed: Boolean = false,
     val isLoading: Boolean = false,
-    // Song-specific options
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
     val showAddSongDialog: Boolean = false,
     val addSongError: String? = null,
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
-    val allCategories: List<Category> = emptyList()
-)
+    val allCategories: List<Category> = emptyList(),
+    val selectedCategory: Category? = null,
+    val currentView: SearchViewState = SearchViewState.CATEGORY_SELECTION
+) {
+    val isBackButtonVisible: Boolean get() = currentView == SearchViewState.SONG_LIST
+}
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
 
@@ -8269,22 +8281,53 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private val _queryFlow = MutableStateFlow("")
     private var searchJob: Job? = null
-
-    // Cache for song list to avoid reading from disk on every validation
     private var allSongsCache: List<Song>? = null
 
     init {
+        loadCategories()
         _queryFlow
-            .debounce(500)
+            .debounce(300)
             .distinctUntilChanged()
-            .onEach { triggerSearch() }
+            .onEach { performSearch() }
             .launchIn(viewModelScope)
     }
 
-    fun triggerSearch() {
+    private fun loadCategories() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true) }
+            val categories = repository.getCategoryList().sortedBy { it.nazwa }
+            _uiState.update { it.copy(allCategories = categories, isLoading = false) }
+        }
+    }
+
+    private fun performSearch() {
         searchJob?.cancel()
-        repository.invalidateSongCache() // Unieważnij pamięć podręczną, aby pobrać świeże dane
-        performSearch(_uiState.value.query)
+        searchJob = viewModelScope.launch {
+            if (_uiState.value.currentView != SearchViewState.SONG_LIST) return@launch
+
+            _uiState.update { it.copy(isLoading = true) }
+            val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+            val selectedCategory = _uiState.value.selectedCategory
+
+            val categoryFilteredSongs = if (selectedCategory != null) {
+                allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
+            } else {
+                allSongs
+            }
+
+            val query = _uiState.value.query.trim()
+            val finalResults = if (query.isBlank()) {
+                categoryFilteredSongs
+            } else {
+                val normalizedQuery = normalize(query)
+                categoryFilteredSongs.filter { song ->
+                    val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                    val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                    matchesTitle || matchesContent
+                }
+            }
+            _uiState.update { it.copy(results = sortSongs(finalResults), isLoading = false) }
+        }
     }
 
     fun onQueryChange(newQuery: String) {
@@ -8292,69 +8335,26 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _queryFlow.value = newQuery
     }
 
-    fun onSearchInTitleChange(isChecked: Boolean) {
-        if (_uiState.value.searchInTitle == isChecked || (!isChecked && !_uiState.value.searchInContent)) return
-        _uiState.update { it.copy(searchInTitle = isChecked) }
-        triggerSearch()
+    fun onCategorySelected(category: Category) {
+        repository.invalidateSongCache()
+        allSongsCache = null
+        _uiState.update { it.copy(selectedCategory = category, currentView = SearchViewState.SONG_LIST, query = "") }
+        performSearch()
     }
 
-    fun onSearchInContentChange(isChecked: Boolean) {
-        if (_uiState.value.searchInContent == isChecked || (!isChecked && !_uiState.value.searchInTitle)) return
-        _uiState.update { it.copy(searchInContent = isChecked) }
-        triggerSearch()
-    }
-
-    fun onSortModeChange(newSortMode: SongSortMode) {
-        if (_uiState.value.sortMode == newSortMode) return
-        _uiState.update { it.copy(sortMode = newSortMode) }
-        val sortedResults = sortSongs(_uiState.value.results)
-        _uiState.update { it.copy(results = sortedResults) }
-    }
-
-
-    private fun normalize(text: String?): String {
-        if (text == null) return ""
-        val withoutSpecialChars = text.replace(Regex("[^\\p{L}\\p{N}\\s]"), "")
-        return withoutSpecialChars.lowercase(Locale.getDefault())
-    }
-
-    private fun performSearch(query: String) {
-        searchJob = viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
-            val results = searchSongs(query)
-            _uiState.update { it.copy(results = results, searchPerformed = true, isLoading = false) }
+    fun onNavigateBack() {
+        _uiState.update {
+            it.copy(
+                currentView = SearchViewState.CATEGORY_SELECTION,
+                selectedCategory = null,
+                results = emptyList(),
+                query = ""
+            )
         }
     }
 
-    private fun searchSongs(query: String): List<Song> {
-        // ZMIANA: Filtr uwzględnia teraz pieśni, które mają jakikolwiek numer (w tym DN)
-        val allSongs = repository.getSongList().filter { it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank() }
-        val normalizedQuery = normalize(query)
-        val trimmedQuery = query.trim()
-        val state = _uiState.value
-
-        if (trimmedQuery.isBlank()) {
-            return sortSongs(allSongs)
-        }
-
-        val bySiedlecki = allSongs.filter { it.numerSiedl.equals(trimmedQuery, ignoreCase = true) }
-        if (bySiedlecki.isNotEmpty()) return sortSongs(bySiedlecki)
-
-        val bySak = allSongs.filter { it.numerSAK.equals(trimmedQuery, ignoreCase = true) }
-        if (bySak.isNotEmpty()) return sortSongs(bySak)
-
-        // ZMIANA: Dodano wyszukiwanie po numerze DN
-        val byDn = allSongs.filter { it.numerDN.equals(trimmedQuery, ignoreCase = true) }
-        if (byDn.isNotEmpty()) return sortSongs(byDn)
-
-        // Filter by other criteria
-        val filteredSongs = allSongs.filter { song ->
-            val matchesTitle = state.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-            val matchesContent = state.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-            matchesTitle || matchesContent
-        }
-
-        return sortSongs(filteredSongs)
+    fun onResetToRoot() {
+        onNavigateBack()
     }
 
     private fun sortSongs(songs: List<Song>): List<Song> {
@@ -8366,17 +8366,41 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         }
     }
 
+    private fun normalize(text: String?): String {
+        if (text == null) return ""
+        val withoutSpecialChars = text.replace(Regex("[^\\p{L}\\p{N}\\s]"), "")
+        return withoutSpecialChars.lowercase(Locale.getDefault())
+    }
+
+    fun onSearchInTitleChange(isChecked: Boolean) {
+        if (_uiState.value.searchInTitle == isChecked || (!isChecked && !_uiState.value.searchInContent)) return
+        _uiState.update { it.copy(searchInTitle = isChecked) }
+        performSearch()
+    }
+
+    fun onSearchInContentChange(isChecked: Boolean) {
+        if (_uiState.value.searchInContent == isChecked || (!isChecked && !_uiState.value.searchInTitle)) return
+        _uiState.update { it.copy(searchInContent = isChecked) }
+        performSearch()
+    }
+
+    fun onSortModeChange(newSortMode: SongSortMode) {
+        if (_uiState.value.sortMode == newSortMode) return
+        _uiState.update { it.copy(sortMode = newSortMode) }
+        _uiState.update { it.copy(results = sortSongs(it.results)) }
+    }
+
     fun onAddSongClicked() {
         viewModelScope.launch {
-            allSongsCache = repository.getSongList() // Load song list when dialog is about to be shown
-            val allCategories = repository.getCategoryList()
-            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null, allCategories = allCategories) }
+            repository.invalidateSongCache()
+            allSongsCache = repository.getSongList()
+            _uiState.update { it.copy(showAddSongDialog = true, addSongError = null) }
         }
     }
 
     fun onDismissAddSongDialog() {
         _uiState.update { it.copy(showAddSongDialog = false, addSongError = null) }
-        allSongsCache = null // Clear cache
+        allSongsCache = null
     }
 
     fun validateSongInput(title: String, siedl: String, sak: String, dn: String) {
@@ -8390,22 +8414,18 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Pieśń o tym tytule już istnieje.") }
             return
         }
-
         if (trimmedSiedl.isNotBlank() && songs.any { it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (Siedlecki) już istnieje.") }
             return
         }
-
         if (trimmedSak.isNotBlank() && songs.any { it.numerSAK.equals(trimmedSak, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK) już istnieje.") }
             return
         }
-
         if (trimmedDn.isNotBlank() && songs.any { it.numerDN.equals(trimmedDn, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (DN) już istnieje.") }
             return
         }
-
         _uiState.update { it.copy(addSongError = null) }
     }
 
@@ -8420,16 +8440,12 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
             return
         }
-
         if (trimmedSiedl.isBlank() && trimmedSak.isBlank() && trimmedDn.isBlank()) {
             _uiState.update { it.copy(addSongError = "Przynajmniej jeden numer jest wymagany.") }
             return
         }
-
         validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn)
-        if (_uiState.value.addSongError != null) {
-            return
-        }
+        if (_uiState.value.addSongError != null) return
 
         viewModelScope.launch {
             val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
@@ -8449,14 +8465,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             repository.saveSongList(songs).fold(
                 onSuccess = {
                     onDismissAddSongDialog()
-                    triggerSearch() // Refresh the list
+                    performSearch()
                 },
                 onFailure = { error ->
-                    _uiState.update {
-                        it.copy(
-                            addSongError = "Błąd zapisu: ${error.localizedMessage}"
-                        )
-                    }
+                    _uiState.update { it.copy(addSongError = "Błąd zapisu: ${error.localizedMessage}") }
                 }
             )
         }
@@ -8482,10 +8494,9 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         if (currentState is DeleteDialogState.ConfirmOccurrences) {
             viewModelScope.launch {
                 repository.deleteSong(currentState.song, deleteOccurrences).onSuccess {
-                    allSongsCache = null // Invalidate cache after deletion
-                    triggerSearch() // Refresh list on success
+                    allSongsCache = null
+                    performSearch()
                 }
-                // Dismiss dialog regardless of success or failure
                 onDismissDeleteDialog()
             }
         }
@@ -8505,9 +8516,6 @@ class SearchViewModelFactory(private val context: Context) : ViewModelProvider.F
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/index.kt
-// Opis: Główny plik komponentu SearchScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów, zarządzając stanem i logiką nawigacji.
-
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.foundation.layout.Box
@@ -8543,7 +8551,7 @@ fun SearchScreen(
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
-                viewModel.triggerSearch()
+                // Refresh data on resume
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
@@ -8586,33 +8594,34 @@ fun SearchScreen(
     }
 
     Box(modifier = Modifier.fillMaxSize()) {
-        Column(
-            modifier = Modifier.fillMaxSize()
-        ) {
-            SearchBar(
-                query = uiState.query,
-                onQueryChange = viewModel::onQueryChange
-            )
-
-            Divider()
-
+        Column(modifier = Modifier.fillMaxSize()) {
             when {
                 uiState.isLoading -> {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         CircularProgressIndicator()
                     }
                 }
-
-                uiState.searchPerformed && uiState.results.isEmpty() -> {
-                    NoResults()
-                }
-
-                else -> {
-                    ResultsList(
-                        results = uiState.results,
-                        onNavigateToSong = onNavigateToSong,
-                        onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                uiState.currentView == SearchViewState.CATEGORY_SELECTION -> {
+                    CategoryList(
+                        categories = uiState.allCategories,
+                        onCategoryClick = { viewModel.onCategorySelected(it) }
                     )
+                }
+                uiState.currentView == SearchViewState.SONG_LIST -> {
+                    SearchBar(
+                        query = uiState.query,
+                        onQueryChange = viewModel::onQueryChange
+                    )
+                    Divider()
+                    if (uiState.results.isEmpty() && uiState.query.isNotBlank()) {
+                        NoResults()
+                    } else {
+                        ResultsList(
+                            results = uiState.results,
+                            onNavigateToSong = onNavigateToSong,
+                            onSongLongClick = { song -> viewModel.onSongLongPress(song) }
+                        )
+                    }
                 }
             }
         }
@@ -8630,35 +8639,20 @@ fun SearchScreen(
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\SearchScreenComponents.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreenComponents.kt
-// Opis: Ten plik zawiera komponenty interfejsu użytkownika specyficzne dla ekranu wyszukiwania, takie jak pasek wyszukiwania, lista wyników i elementy listy.
-
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.outlined.MusicNote
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -8666,7 +8660,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
 fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
@@ -8676,7 +8672,7 @@ fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp),
-        placeholder = { Text("Wyszukaj...") },
+        placeholder = { Text("Wyszukaj wewnątrz kategorii...") },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
         trailingIcon = {
             if (query.isNotEmpty()) {
@@ -8723,7 +8719,7 @@ fun ResultsList(
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         items(results, key = { song ->
-            "song_${song.numerSiedl}_${song.tytul.hashCode()}"
+            "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
         }) { song ->
             SongResultItem(
                 song = song,
@@ -8760,6 +8756,59 @@ fun SongResultItem(
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))
             Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
+        }
+    }
+}
+
+@Composable
+fun CategoryList(
+    categories: List<Category>,
+    onCategoryClick: (Category) -> Unit
+) {
+    LazyColumn(
+        contentPadding = PaddingValues(
+            start = 8.dp,
+            end = 8.dp,
+            top = 8.dp,
+            bottom = 80.dp
+        ),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        items(categories, key = { it.nazwa }) { category ->
+            CategoryItem(
+                category = category,
+                onClick = { onCategoryClick(category) }
+            )
+        }
+    }
+}
+
+@Composable
+fun CategoryItem(
+    category: Category,
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = Icons.Default.Category,
+                contentDescription = "Kategoria",
+                modifier = Modifier.size(32.dp),
+                tint = MaterialTheme.colorScheme.primary
+            )
+            Spacer(Modifier.width(16.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(text = category.nazwa, style = MaterialTheme.typography.titleMedium)
+            }
         }
     }
 }
@@ -14207,9 +14256,15 @@ Aplikacja-dla-Konrada/
                                                         DeleteDialogState$ConfirmOccurrences.dex
                                                         DeleteDialogState$None.dex
                                                         DeleteDialogState.dex
-                                                        IndexKt$SearchScreen$10$1$1$1.dex
+                                                        IndexKt$SearchScreen$10$1$3$1.dex
                                                         IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.dex
                                                         IndexKt.dex
+                                                        SearchScreenComponentsKt$CategoryItem$1.dex
+                                                        SearchScreenComponentsKt$CategoryList$1$1$2$1$1.dex
+                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$1.dex
+                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$2.dex
+                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$3.dex
+                                                        SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$4.dex
                                                         SearchScreenComponentsKt$ResultsList$1$1$2$1$1.dex
                                                         SearchScreenComponentsKt$ResultsList$1$1$2$2$1.dex
                                                         SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.dex
@@ -14233,6 +14288,8 @@ Aplikacja-dla-Konrada/
                                                         SearchScreenDialogsKt.dex
                                                         SearchUiState.dex
                                                         SearchViewModel$1.dex
+                                                        SearchViewModel$loadCategories$1$invokeSuspend$$inlined$sortedBy$1.dex
+                                                        SearchViewModel$loadCategories$1.dex
                                                         SearchViewModel$onAddSongClicked$1.dex
                                                         SearchViewModel$onFinalDelete$1.dex
                                                         SearchViewModel$performSearch$1.dex
@@ -14243,6 +14300,7 @@ Aplikacja-dla-Konrada/
                                                         SearchViewModel$WhenMappings.dex
                                                         SearchViewModel.dex
                                                         SearchViewModelFactory.dex
+                                                        SearchViewState.dex
                                                         SongSortMode.dex
                                                     settings/
                                                         ComposableSingletons$SettingsScreenKt$lambda-1$1.dex
@@ -15116,9 +15174,15 @@ Aplikacja-dla-Konrada/
                                                 DeleteDialogState$ConfirmOccurrences.class
                                                 DeleteDialogState$None.class
                                                 DeleteDialogState.class
-                                                IndexKt$SearchScreen$10$1$1$1.class
+                                                IndexKt$SearchScreen$10$1$3$1.class
                                                 IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.class
                                                 IndexKt.class
+                                                SearchScreenComponentsKt$CategoryItem$1.class
+                                                SearchScreenComponentsKt$CategoryList$1$1$2$1$1.class
+                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$1.class
+                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$2.class
+                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$3.class
+                                                SearchScreenComponentsKt$CategoryList$lambda$15$lambda$14$$inlined$items$default$4.class
                                                 SearchScreenComponentsKt$ResultsList$1$1$2$1$1.class
                                                 SearchScreenComponentsKt$ResultsList$1$1$2$2$1.class
                                                 SearchScreenComponentsKt$ResultsList$lambda$8$lambda$7$$inlined$items$default$1.class
@@ -15142,6 +15206,8 @@ Aplikacja-dla-Konrada/
                                                 SearchScreenDialogsKt.class
                                                 SearchUiState.class
                                                 SearchViewModel$1.class
+                                                SearchViewModel$loadCategories$1$invokeSuspend$$inlined$sortedBy$1.class
+                                                SearchViewModel$loadCategories$1.class
                                                 SearchViewModel$onAddSongClicked$1.class
                                                 SearchViewModel$onFinalDelete$1.class
                                                 SearchViewModel$performSearch$1.class
@@ -15152,6 +15218,7 @@ Aplikacja-dla-Konrada/
                                                 SearchViewModel$WhenMappings.class
                                                 SearchViewModel.class
                                                 SearchViewModelFactory.class
+                                                SearchViewState.class
                                                 SongSortMode.class
                                             settings/
                                                 ComposableSingletons$SettingsScreenKt$lambda-1$1.class

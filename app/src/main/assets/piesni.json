@@ -8806,7 +8806,7 @@
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "0",
+        "numerDN": "",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -9090,11 +9090,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Chciałbym ja dziś wyśpiewać",
+        "tytul": "Chciałbym ja dziś wyśpiewać",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "001",
+        "numerDN": "1",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -9216,11 +9216,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "*Chwała, moc i dziękczynienie",
+        "tytul": "Chwała, moc i dziękczynienie",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "002",
+        "numerDN": "2",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -9234,11 +9234,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "*Chwała Tobie, Jezu Chryste",
+        "tytul": "Chwała Tobie, Jezu Chryste",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "003",
+        "numerDN": "3",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10071,11 +10071,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Jezu, zostań w nas",
+        "tytul": "Jezu, zostań w nas",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "004",
+        "numerDN": "4",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10170,11 +10170,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Już się nie bój dłużej",
+        "tytul": "Już się nie bój dłużej",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "005",
+        "numerDN": "5",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10224,11 +10224,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Każdy górnik Ciebie zna",
+        "tytul": "Każdy górnik Ciebie zna",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "006",
+        "numerDN": "6",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10260,11 +10260,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Kościół to nie tylko dom",
+        "tytul": "Kościół to nie tylko dom",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "007",
+        "numerDN": "7",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10350,11 +10350,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Kto los swój złożył w ręce Boga",
+        "tytul": "Kto los swój złożył w ręce Boga",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "008",
+        "numerDN": "8",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10512,11 +10512,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Lud Twój, Panie, lud pielgrzymi",
+        "tytul": "Lud Twój, Panie, lud pielgrzymi",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "009",
+        "numerDN": "9",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10611,11 +10611,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Maryjo, Matko, Królowo Pokoju",
+        "tytul": "Maryjo, Matko, Królowo Pokoju",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "010",
+        "numerDN": "10",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -10728,11 +10728,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Mili chrześcijanie, wszyscy się śpieszcie",
+        "tytul": "Mili chrześcijanie, wszyscy się śpieszcie",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "011",
+        "numerDN": "11",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -11043,11 +11043,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Nasza Pani Piekarska",
+        "tytul": "Nasza Pani Piekarska",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "012",
+        "numerDN": "12",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -11520,11 +11520,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* O Boże, dzięki Ci składamy",
+        "tytul": "O Boże, dzięki Ci składamy",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "013",
+        "numerDN": "13",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -12240,11 +12240,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Otwórzcie drzwi Chrystusowi",
+        "tytul": "Otwórzcie drzwi Chrystusowi",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "014",
+        "numerDN": "14",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -12447,11 +12447,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Pij twój kielich z Bożej woli",
+        "tytul": "Pij twój kielich z Bożej woli",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "015",
+        "numerDN": "15",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -12654,11 +12654,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Pozdrawiam Cię, Anno Święta",
+        "tytul": "Pozdrawiam Cię, Anno Święta",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "016",
+        "numerDN": "16",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -12717,11 +12717,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Prosił mój Jezus Jana Chrzciciela",
+        "tytul": "Prosił mój Jezus Jana Chrzciciela",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "017",
+        "numerDN": "17",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -13410,11 +13410,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Szczęśliwy człowiek, który ufa Tobie",
+        "tytul": "Szczęśliwy człowiek, który ufa Tobie",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "018",
+        "numerDN": "18",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -13491,11 +13491,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Śpiewajmy Pokornej",
+        "tytul": "Śpiewajmy Pokornej",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "019",
+        "numerDN": "19",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -13743,11 +13743,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* To Ty, o Panie, Chlebie nasz",
+        "tytul": "To Ty, o Panie, Chlebie nasz",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "020",
+        "numerDN": "20",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -13851,11 +13851,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Tyś w wieczerniku Chlebem się stał",
+        "tytul": "Tyś w wieczerniku Chlebem się stał",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "021",
+        "numerDN": "21",
         "kategoria": "",
         "kategoriaSkr": ""
     },
@@ -14832,11 +14832,11 @@
         "kategoriaSkr": ""
     },
     {
-        "tytul": "* Złożyłeś, Panie, w dłoniach kapłana",
+        "tytul": "Złożyłeś, Panie, w dłoniach kapłana",
         "tekst": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "numerDN": "022",
+        "numerDN": "22",
         "kategoria": "",
         "kategoriaSkr": ""
     },

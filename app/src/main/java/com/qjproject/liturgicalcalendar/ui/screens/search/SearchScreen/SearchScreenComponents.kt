@@ -24,14 +24,14 @@ import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
-fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
+fun SearchBar(query: String, onQueryChange: (String) -> Unit, placeholder: String) {
     OutlinedTextField(
         value = query,
         onValueChange = onQueryChange,
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp),
-        placeholder = { Text("Wyszukaj wewnątrz kategorii...") },
+        placeholder = { Text(placeholder) },
         leadingIcon = { Icon(Icons.Default.Search, contentDescription = "Ikona wyszukiwania") },
         trailingIcon = {
             if (query.isNotEmpty()) {
@@ -55,7 +55,7 @@ fun NoResults() {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Dla tej frazy nie znaleziono żadnego dopasowania.",
+            text = "Brak wyników.",
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.bodyLarge
         )
@@ -63,9 +63,13 @@ fun NoResults() {
 }
 
 @Composable
-fun ResultsList(
-    results: List<Song>,
-    onNavigateToSong: (Song) -> Unit,
+fun SearchResultsContent(
+    categories: List<Category>,
+    songs: List<Song>,
+    isGlobalSearch: Boolean,
+    onCategoryClick: (Category) -> Unit,
+    onNoCategoryClick: () -> Unit,
+    onSongClick: (Song) -> Unit,
     onSongLongClick: (Song) -> Unit
 ) {
     LazyColumn(
@@ -77,14 +81,33 @@ fun ResultsList(
         ),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(results, key = { song ->
-            "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
-        }) { song ->
-            SongResultItem(
-                song = song,
-                onClick = { onNavigateToSong(song) },
-                onLongClick = { onSongLongClick(song) }
+        items(categories, key = { "category_${it.nazwa}" }) { category ->
+            CategoryItem(
+                category = category,
+                onClick = { onCategoryClick(category) }
             )
+        }
+
+        if (isGlobalSearch && categories.isNotEmpty()) {
+            item { Divider(modifier = Modifier.padding(vertical = 4.dp)) }
+            item {
+                CategoryItem(
+                    category = Category("Brak kategorii", ""),
+                    onClick = onNoCategoryClick
+                )
+            }
+        }
+
+        if (songs.isNotEmpty()) {
+            items(songs, key = { song ->
+                "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
+            }) { song ->
+                SongResultItem(
+                    song = song,
+                    onClick = { onSongClick(song) },
+                    onLongClick = { onSongLongClick(song) }
+                )
+            }
         }
     }
 }
@@ -115,29 +138,6 @@ fun SongResultItem(
             Text(song.tytul, modifier = Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis)
             Spacer(Modifier.width(8.dp))
             Text(song.kategoriaSkr, fontWeight = FontWeight.Bold)
-        }
-    }
-}
-
-@Composable
-fun CategoryList(
-    categories: List<Category>,
-    onCategoryClick: (Category) -> Unit
-) {
-    LazyColumn(
-        contentPadding = PaddingValues(
-            start = 8.dp,
-            end = 8.dp,
-            top = 8.dp,
-            bottom = 80.dp
-        ),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        items(categories, key = { it.nazwa }) { category ->
-            CategoryItem(
-                category = category,
-                onClick = { onCategoryClick(category) }
-            )
         }
     }
 }

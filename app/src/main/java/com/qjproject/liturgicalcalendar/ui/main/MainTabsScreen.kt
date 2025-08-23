@@ -106,7 +106,7 @@ internal fun MainTabsScreen(navController: NavController) {
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> if(searchUiState.isBackButtonVisible) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wybierz kategorię"
+                Screen.Search -> if(searchUiState.selectedCategory != null) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wyszukaj"
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -129,7 +129,7 @@ internal fun MainTabsScreen(navController: NavController) {
                 onCancelClick = { browseViewModel.onTryExitEditMode {} },
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
-                isSearchScreenActive = isSearchScreenActive && searchUiState.currentView == com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewState.SONG_LIST,
+                isSearchScreenActive = isSearchScreenActive,
                 searchActions = {
                     var showSearchOptions by remember { mutableStateOf(false) }
                     Box {
@@ -151,7 +151,7 @@ internal fun MainTabsScreen(navController: NavController) {
                                 onClick = { searchViewModel.onSearchInContentChange(!searchUiState.searchInContent) },
                                 leadingIcon = { Checkbox(checked = searchUiState.searchInContent, onCheckedChange = null) }
                             )
-                            if (searchUiState.results.isNotEmpty()) {
+                            if (searchUiState.songResults.isNotEmpty()) {
                                 Divider(modifier = Modifier.padding(vertical = 4.dp))
                                 Text("Sortuj:", modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp), style = MaterialTheme.typography.labelMedium)
                                 Column(Modifier.selectableGroup()) {

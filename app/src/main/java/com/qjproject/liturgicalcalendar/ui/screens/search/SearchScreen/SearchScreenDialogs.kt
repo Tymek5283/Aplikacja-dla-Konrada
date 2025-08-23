@@ -1,6 +1,3 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/search/SearchScreenDialogs.kt
-// Opis: Ten plik zawiera wszystkie okna dialogowe używane na ekranie wyszukiwania, w tym dialog dodawania nowej pieśni oraz dialogi potwierdzenia usunięcia.
-
 package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import androidx.compose.foundation.layout.Arrangement
@@ -51,6 +48,7 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 internal fun AddSongDialog(
     categories: List<Category>,
     error: String?,
+    initialCategoryName: String?,
     onDismiss: () -> Unit,
     onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
     onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
@@ -60,7 +58,7 @@ internal fun AddSongDialog(
     var numerSak by remember { mutableStateOf("") }
     var numerDn by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
-    var category by remember { mutableStateOf("") }
+    var category by remember { mutableStateOf(initialCategoryName ?: "") }
     var isCategoryExpanded by remember { mutableStateOf(false) }
     val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
 

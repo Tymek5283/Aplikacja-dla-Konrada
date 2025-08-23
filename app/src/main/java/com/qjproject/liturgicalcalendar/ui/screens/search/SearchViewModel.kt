@@ -2,7 +2,6 @@ package com.qjproject.liturgicalcalendar.ui.screens.search
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
@@ -19,7 +18,6 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 
 enum class SongSortMode { Alfabetycznie, Kategoria }
-enum class SearchViewState { CATEGORY_SELECTION, SONG_LIST }
 
 sealed class DeleteDialogState {
     object None : DeleteDialogState()
@@ -29,8 +27,9 @@ sealed class DeleteDialogState {
 
 data class SearchUiState(
     val query: String = "",
-    val results: List<Song> = emptyList(),
-    val isLoading: Boolean = false,
+    val songResults: List<Song> = emptyList(),
+    val categoryResults: List<Category> = emptyList(),
+    val isLoading: Boolean = true,
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
     val sortMode: SongSortMode = SongSortMode.Alfabetycznie,
@@ -38,10 +37,9 @@ data class SearchUiState(
     val addSongError: String? = null,
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
     val allCategories: List<Category> = emptyList(),
-    val selectedCategory: Category? = null,
-    val currentView: SearchViewState = SearchViewState.CATEGORY_SELECTION
+    val selectedCategory: Category? = null
 ) {
-    val isBackButtonVisible: Boolean get() = currentView == SearchViewState.SONG_LIST
+    val isBackButtonVisible: Boolean get() = selectedCategory != null
 }
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -53,8 +51,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private var searchJob: Job? = null
     private var allSongsCache: List<Song>? = null
 
+    private val noCategoryFilter = Category("Brak kategorii", "")
+
     init {
-        loadCategories()
+        loadInitialData()
         _queryFlow
             .debounce(300)
             .distinctUntilChanged()
@@ -62,43 +62,69 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
-    private fun loadCategories() {
+    private fun loadInitialData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val categories = repository.getCategoryList().sortedBy { it.nazwa }
-            _uiState.update { it.copy(allCategories = categories, isLoading = false) }
+            allSongsCache = repository.getSongList()
+            _uiState.update { it.copy(allCategories = categories, isLoading = false, categoryResults = categories) }
         }
     }
 
     private fun performSearch() {
         searchJob?.cancel()
         searchJob = viewModelScope.launch {
-            if (_uiState.value.currentView != SearchViewState.SONG_LIST) return@launch
-
             _uiState.update { it.copy(isLoading = true) }
             val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+            val allCategories = _uiState.value.allCategories
+            val query = _uiState.value.query.trim()
             val selectedCategory = _uiState.value.selectedCategory
 
-            val categoryFilteredSongs = if (selectedCategory != null) {
-                allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
-            } else {
-                allSongs
-            }
+            val newSongResults: List<Song>
+            val newCategoryResults: List<Category>
 
-            val query = _uiState.value.query.trim()
-            val finalResults = if (query.isBlank()) {
-                categoryFilteredSongs
+            if (selectedCategory != null) {
+                // Search within a category or the "no category" filter
+                newCategoryResults = emptyList()
+                val songsToFilter = when (selectedCategory) {
+                    noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
+                    else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
+                }
+
+                newSongResults = if (query.isBlank()) {
+                    songsToFilter
+                } else {
+                    val normalizedQuery = normalize(query)
+                    songsToFilter.filter { song ->
+                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                        matchesTitle || matchesContent
+                    }
+                }
             } else {
-                val normalizedQuery = normalize(query)
-                categoryFilteredSongs.filter { song ->
-                    val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-                    val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-                    matchesTitle || matchesContent
+                // Global search
+                if (query.isBlank()) {
+                    newCategoryResults = allCategories
+                    newSongResults = emptyList()
+                } else {
+                    val normalizedQuery = normalize(query)
+                    newCategoryResults = allCategories.filter { normalize(it.nazwa).contains(normalizedQuery) }
+                    newSongResults = allSongs.filter { song ->
+                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                        matchesTitle || matchesContent
+                    }
                 }
             }
-            _uiState.update { it.copy(results = sortSongs(finalResults), isLoading = false) }
+
+            _uiState.update { it.copy(
+                songResults = sortSongs(newSongResults),
+                categoryResults = newCategoryResults.sortedBy { it.nazwa },
+                isLoading = false
+            )}
         }
     }
+
 
     fun onQueryChange(newQuery: String) {
         _uiState.update { it.copy(query = newQuery) }
@@ -106,21 +132,18 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onCategorySelected(category: Category) {
-        repository.invalidateSongCache()
-        allSongsCache = null
-        _uiState.update { it.copy(selectedCategory = category, currentView = SearchViewState.SONG_LIST, query = "") }
+        _uiState.update { it.copy(selectedCategory = category, query = "") }
+        performSearch()
+    }
+
+    fun onNoCategorySelected() {
+        _uiState.update { it.copy(selectedCategory = noCategoryFilter, query = "") }
         performSearch()
     }
 
     fun onNavigateBack() {
-        _uiState.update {
-            it.copy(
-                currentView = SearchViewState.CATEGORY_SELECTION,
-                selectedCategory = null,
-                results = emptyList(),
-                query = ""
-            )
-        }
+        _uiState.update { it.copy(selectedCategory = null, query = "") }
+        performSearch()
     }
 
     fun onResetToRoot() {
@@ -157,7 +180,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     fun onSortModeChange(newSortMode: SongSortMode) {
         if (_uiState.value.sortMode == newSortMode) return
         _uiState.update { it.copy(sortMode = newSortMode) }
-        _uiState.update { it.copy(results = sortSongs(it.results)) }
+        _uiState.update { it.copy(songResults = sortSongs(it.songResults)) }
     }
 
     fun onAddSongClicked() {
@@ -235,6 +258,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             repository.saveSongList(songs).fold(
                 onSuccess = {
                     onDismissAddSongDialog()
+                    allSongsCache = null // Invalidate cache
                     performSearch()
                 },
                 onFailure = { error ->
@@ -270,15 +294,5 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 onDismissDeleteDialog()
             }
         }
-    }
-}
-
-class SearchViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(SearchViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return SearchViewModel(FileSystemRepository(context.applicationContext)) as T
-        }
-        throw IllegalArgumentException("Unknown ViewModel class")
     }
 }
