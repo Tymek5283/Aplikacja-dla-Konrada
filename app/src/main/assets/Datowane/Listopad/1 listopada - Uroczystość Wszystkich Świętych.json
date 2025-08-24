@@ -149,5 +149,10 @@
       "opis": "Wezwanie do radosnej służby Panu, która jest drogą do świętości i udziału w chwale niebieskiej.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Brak",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * poświęcony pamięci wszystkich Świętych, * którzy w życiu doczesnym naśladowali Chrystusa * i po śmierci otrzymali udział w Jego chwale. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * poświęcony pamięci wszystkich Świętych, * którzy w życiu doczesnym naśladowali Chrystusa * i po śmierci otrzymali udział w Jego chwale"
+  }
 }

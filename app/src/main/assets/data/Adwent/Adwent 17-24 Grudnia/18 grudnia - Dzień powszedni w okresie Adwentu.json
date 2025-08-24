@@ -143,5 +143,10 @@
       "opis": "W ostatnich dniach Adwentu ta pieśń jest wyrazem ostatecznego przygotowania na bliskie już przyjście Pana.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została poczęta bez grzechu pierworodnego * Maryja, wybrana na Matkę Zbawiciela",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została poczęta bez grzechu pierworodnego * Najświętsza Maryja Panna, wybrana na Matkę Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została poczęta bez grzechu pierworodnego * Najświętsza Maryja Panna, wybrana na Matkę Jezusa Chrystusa"
+  }
 }

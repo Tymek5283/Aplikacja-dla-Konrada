@@ -155,5 +155,10 @@
       "opis": "Pieśń adwentowa, która w kontekście Bożego Narodzenia staje się hymnem dziękczynnym za spełnienie obietnicy o Zbawicielu.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
+  }
 }

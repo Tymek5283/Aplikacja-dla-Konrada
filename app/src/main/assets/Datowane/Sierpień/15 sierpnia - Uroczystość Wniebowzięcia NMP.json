@@ -149,5 +149,10 @@
       "opis": "Pieśń, będąca parafrazą 'Salve Regina', jest modlitwą do Maryi, naszej nadziei, która poprzedziła nas w drodze do niebieskiej ojczyzny.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została wzięta do nieba Niepokalana Dziewica",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została wzięta do nieba Najświętsza Dziewica, Maryja, * Matka Twojego Syna, Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym została wzięta do nieba Najświętsza Dziewica Maryja, * Matka Twojego Syna Jezusa Chrystusa."
+  }
 }
