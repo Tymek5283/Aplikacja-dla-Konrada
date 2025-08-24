@@ -149,5 +149,10 @@
       "opis": "Pieśń jest aktem oddania się Bogu i prośbą o prowadzenie, co jest odpowiedzią na Boże powołanie, którego doświadczył Jan.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień * narodzenia świętego Jana Chrzciciela, * który przygotował drogę Twojemu Synowi",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień * narodzenia świętego Jana Chrzciciela, * który przygotował drogę Twojemu Synowi, Jezusowi Chrystusowi. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień * narodzenia świętego Jana Chrzciciela, * który przygotował drogę Twojemu Synowi, Jezusowi Chrystusowi"
+  }
 }

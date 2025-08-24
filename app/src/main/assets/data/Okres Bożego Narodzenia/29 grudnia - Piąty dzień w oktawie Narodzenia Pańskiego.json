@@ -143,5 +143,10 @@
       "opis": "Utwór jest dziękczynieniem za dar poznania Zbawiciela, czego doświadczył Symeon w świątyni.",
       "moment": "ogólne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
+  }
 }

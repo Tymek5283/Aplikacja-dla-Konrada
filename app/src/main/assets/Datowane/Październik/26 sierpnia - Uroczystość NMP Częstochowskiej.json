@@ -155,5 +155,10 @@
       "opis": "Inna wersja Apelu Jasnogórskiego, która jest modlitwą o uświęcenie rodzin i całego narodu.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym objawiłeś chwałę Twojego Syna",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym objawiłeś chwałę Twojego Syna, Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym objawiłeś chwałę Twojego Syna, Jezusa Chrystusa"
+  }
 }
