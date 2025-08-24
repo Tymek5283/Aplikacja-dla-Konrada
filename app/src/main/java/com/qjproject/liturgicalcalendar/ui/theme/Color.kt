@@ -9,7 +9,7 @@ val PurpleGrey80 = Color(0xFFCCC2DC)
 val Pink80 = Color(0xFFEFB8C8)
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Pink40 = Color(0xFF74527D)
 
 val DividerColor = Color.Gray.copy(alpha = 0.3f)
 val SubtleGrayBackground = Color.Gray.copy(alpha = 0.12f)

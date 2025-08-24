@@ -1,4 +1,4 @@
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/DayDetailsViewModel.kt
 // Opis: Główny plik komponentu DayDetailsViewModel. Pełni rolę "indexu", inicjując logikę ViewModelu, zarządzając stanem, operacjami na danych i interakcjami użytkownika na ekranie szczegółów dnia.
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
@@ -184,6 +184,16 @@ class DayDetailsViewModel(
 
     fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
     fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
+
+    fun toggleInsertsSection() { _uiState.update { it.copy(isInsertsSectionExpanded = !it.isInsertsSectionExpanded) } }
+
+    fun toggleInsert(key: String) {
+        _uiState.update {
+            val updatedSet = it.expandedInserts.toMutableSet()
+            if (updatedSet.contains(key)) updatedSet.remove(key) else updatedSet.add(key)
+            it.copy(expandedInserts = updatedSet)
+        }
+    }
 
     fun toggleReading(index: Int) {
         _uiState.update {
@@ -393,18 +403,5 @@ class DayDetailsViewModel(
         _siedlSearchQuery.value = ""
         _sakSearchQuery.value = ""
         _dnSearchQuery.value = ""
-    }
-}
-
-class DayDetailsViewModelFactory(
-    private val context: Context,
-    private val dayId: String
-) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(DayDetailsViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return DayDetailsViewModel(dayId, FileSystemRepository(context.applicationContext)) as T
-        }
-        throw IllegalArgumentException("Unknown ViewModel class")
     }
 }

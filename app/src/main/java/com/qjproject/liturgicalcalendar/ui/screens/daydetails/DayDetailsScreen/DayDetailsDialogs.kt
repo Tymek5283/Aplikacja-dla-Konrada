@@ -105,8 +105,7 @@ internal fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onC
                 )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(onClick = onDismiss) { Text("Anuluj") }
-                    Spacer(Modifier.width(8.dp))
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = onConfirm,
                         colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)

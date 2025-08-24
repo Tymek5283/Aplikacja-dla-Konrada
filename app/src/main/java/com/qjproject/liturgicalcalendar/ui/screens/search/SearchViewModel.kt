@@ -62,6 +62,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .launchIn(viewModelScope)
     }
 
+    fun reloadData() {
+        allSongsCache = null
+        repository.invalidateSongCache()
+        loadInitialData()
+        performSearch()
+    }
+
     private fun loadInitialData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }

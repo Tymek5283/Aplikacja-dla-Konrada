@@ -1,3 +1,4 @@
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
@@ -100,6 +101,26 @@ internal fun DayDetailsViewModeContent(
                 )
             }
         }
+        Spacer(modifier = Modifier.height(24.dp))
+        // --- POCZĄTEK ZMIANY ---
+        val wstawki = uiState.dayData?.wstawki
+        if (!wstawki.isNullOrEmpty()) {
+            HierarchicalCollapsibleSection(
+                title = "Wstawki mszalne",
+                isExpanded = uiState.isInsertsSectionExpanded,
+                onToggle = { viewModel.toggleInsertsSection() }
+            ) {
+                wstawki.entries.sortedBy { it.key }.forEach { (key, value) ->
+                    InsertItemView(
+                        title = "Wstawka $key",
+                        content = value,
+                        isExpanded = uiState.expandedInserts.contains(key),
+                        onToggle = { viewModel.toggleInsert(key) }
+                    )
+                }
+            }
+        }
+        // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.height(24.dp))
         HierarchicalCollapsibleSection(
             title = "Sugerowane pieśni",
@@ -207,6 +228,47 @@ fun ReadingItemView(
         }
     }
 }
+
+// --- POCZĄTEK ZMIANY ---
+@Composable
+private fun InsertItemView(title: String, content: String, isExpanded: Boolean, onToggle: () -> Unit) {
+    Column(modifier = Modifier.fillMaxWidth()) {
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClick = onToggle),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = title,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = SaturatedNavy,
+                    modifier = Modifier.weight(1f)
+                )
+                val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 180f else 0f, label = "insertArrow")
+                Icon(
+                    imageVector = Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
+                    modifier = Modifier.rotate(rotationAngle)
+                )
+            }
+        }
+        AnimatedVisibility(visible = isExpanded) {
+            Text(
+                text = content.replace("*", " "),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                style = MaterialTheme.typography.bodyLarge
+            )
+        }
+    }
+}
+// --- KONIEC ZMIANY ---
 
 @Composable
 fun SongGroupView(

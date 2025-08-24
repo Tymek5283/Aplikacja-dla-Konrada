@@ -18,6 +18,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.outlined.Article
+import androidx.compose.material.icons.outlined.Folder
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -281,8 +283,15 @@ internal fun EventSelectionDialog(
     onDismiss: () -> Unit,
     onEventSelected: (LiturgicalEventDetails) -> Unit
 ) {
-    val sortedEvents = remember(events) {
-        events.sortedWith(viewModel.calendarRepo.eventComparator)
+    val groupedEvents = remember(events) {
+        val baseNameRegex = Regex("(?i)\\s+rok\\s+[A-C]$|\\s+rok\\s+[I-II]$")
+        events
+            .groupBy { event -> baseNameRegex.replace(event.name, "") }
+            .mapValues { it.value.sortedWith(viewModel.calendarRepo.eventComparator) }
+            .toList()
+            .sortedWith { a, b ->
+                viewModel.calendarRepo.eventComparator.compare(a.second.first(), b.second.first())
+            }
     }
 
     Dialog(onDismissRequest = onDismiss) {
@@ -299,16 +308,34 @@ internal fun EventSelectionDialog(
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                LazyColumn(modifier = Modifier.heightIn(max = 400.dp)) {
-                    items(sortedEvents, key = { it.name }) { event ->
-                        Text(
-                            text = event.name,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clickable { onEventSelected(event) }
-                                .padding(vertical = 12.dp),
-                            style = MaterialTheme.typography.bodyLarge
-                        )
+                LazyColumn(
+                    modifier = Modifier.heightIn(max = 400.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    items(groupedEvents, key = { it.first }) { (baseName, eventList) ->
+                        val isGroup = eventList.size > 1
+                        val eventToShow = eventList.first()
+
+                        Card(
+                            modifier = Modifier.fillMaxWidth().clickable { onEventSelected(eventToShow) },
+                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+                        ) {
+                            Row(
+                                modifier = Modifier.padding(16.dp),
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Icon(
+                                    imageVector = if (isGroup) Icons.Outlined.Folder else Icons.Outlined.Article,
+                                    contentDescription = if (isGroup) "Grupa wydarzeń" else "Wydarzenie",
+                                    tint = MaterialTheme.colorScheme.primary
+                                )
+                                Spacer(modifier = Modifier.width(16.dp))
+                                Text(
+                                    text = baseName,
+                                    style = MaterialTheme.typography.bodyLarge
+                                )
+                            }
+                        }
                     }
                 }
 

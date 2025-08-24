@@ -23,10 +23,12 @@ data class DayDetailsUiState(
     val hasChanges: Boolean = false,
     val showConfirmExitDialog: Boolean = false,
     val activeDialog: DialogState = DialogState.None,
-    val isReadingsSectionExpanded: Boolean = true,
+    val isReadingsSectionExpanded: Boolean = false,
     val isSongsSectionExpanded: Boolean = true,
+    val isInsertsSectionExpanded: Boolean = true,
     val expandedReadings: Set<Int> = emptySet(),
-    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
+    val expandedSongMoments: Set<String> = songMomentOrderMap.keys,
+    val expandedInserts: Set<String> = emptySet()
 )
 
 sealed class ReorderableListItem {

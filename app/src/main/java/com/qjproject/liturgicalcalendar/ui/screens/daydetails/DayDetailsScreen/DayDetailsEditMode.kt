@@ -23,6 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
@@ -174,26 +175,36 @@ fun HierarchicalCollapsibleSection(
     title: String,
     isExpanded: Boolean,
     onToggle: () -> Unit,
+    enabled: Boolean = true,
     content: @Composable ColumnScope.() -> Unit
 ) {
+    val titleColor = if (enabled) SaturatedNavy else Color.Gray
+    val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 0f else -90f, label = "arrowRotation")
+
     Column {
-        val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 0f else -90f, label = "arrowRotation")
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable(onClick = onToggle)
+                .clickable(onClick = onToggle, enabled = enabled)
                 .padding(vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = title, style = MaterialTheme.typography.headlineMedium, color = SaturatedNavy)
+            Text(text = title, style = MaterialTheme.typography.headlineMedium, color = titleColor)
             Spacer(modifier = Modifier.weight(1f))
-            Icon(
-                imageVector = Icons.Default.KeyboardArrowDown,
-                contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
-                modifier = Modifier.rotate(rotationAngle),
-                tint = SaturatedNavy
-            )
+            if (enabled) {
+                Icon(
+                    imageVector = Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
+                    modifier = Modifier.rotate(rotationAngle),
+                    tint = titleColor
+                )
+            }
         }
+        // --- POCZĄTEK ZMIANY ---
+        // Usunięto warunek `if (enabled)`, który błędnie blokował wyświetlanie
+        // zawartości. Teraz widoczność zależy wyłącznie od stanu `isExpanded`,
+        // a `enabled` kontroluje tylko wygląd i interaktywność nagłówka.
+        // --- KONIEC ZMIANY ---
         AnimatedVisibility(visible = isExpanded) {
             Column(
                 modifier = Modifier.padding(start = 16.dp, top = 8.dp),

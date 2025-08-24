@@ -108,106 +108,7 @@ ZAWARTOŚĆ WYBRANYCH PLIKÓW JSON Z FOLDERU ASSETS
 
 --- Zawartość pliku: wstawki.json (pierwsze 99 linii) ---
 
-[
-    { 
-        "nazwa": "Niedziela",
-        "data": "",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy pierwszy dzień tygodnia, * w którym Jezus Chrystus zmartwychwstał * i zesłał na Apostołów Ducha Świętego",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy pierwszy dzień tygodnia, * w którym Jezus Chrystus zmartwychwstał * i zesłał na Apostołów Ducha Świętego. * Przez Chrystusa prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy pierwszy dzień tygodnia, * w którym Jezus Chrystus zmartwychwstał * i zesłał na Apostołów Ducha Świętego"
-    },
-    {
-        "nazwa": "Narodzenie Pańskie",
-        "data": "25-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "26-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "27-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "28-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "29-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "30-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "",
-        "data": "31-12",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "Świętej Bożej Rodzicielki Maryi",
-        "data": "01-01",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy * (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym * Najświętsza Maryja Dziewica wydała na świat Zbawiciela. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * (w której) w którym Najświętsza Maryja Dziewica wydała na świat Zbawiciela"
-    },
-    {
-        "nazwa": "Objawienie Pańskie",
-        "data": "06-01",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy święty dzień, * w którym Twój Syn Jednorodzony * równy Tobie w wiecznej chwale, * ukazał się nam jako prawdziwy człowiek",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy święty dzień, * w którym Twój Syn Jednorodzony * równy Tobie w wiecznej chwale, * ukazał się nam jako prawdziwy człowiek. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy święty dzień, * w którym Twój Syn Jednorodzony * równy Tobie w wiecznej chwale, * ukazał się nam jako prawdziwy człowiek"
-    },
-    {
-        "nazwa": "Ofiarowanie Pańskie",
-        "data": "02-02",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony, Światłość ze Światłości, * został przedstawiony w świątyni",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony, Światłość ze Światłości, * został przedstawiony w świątyni. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony, Światłość ze Światłości, * został przedstawiony w świątyni"
-    },
-    {
-        "nazwa": "Zwiastowanie Pańskie",
-        "data": "",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony przyjął ciało z Maryi Dziewicy * i stał się człowiekiem",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony przyjął ciało z Maryi Dziewicy * i stał się człowiekiem. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy dzień, * w którym Twój Syn Jednorodzony przyjął ciało z Maryi Dziewicy * i stał się człowiekiem"
-    },
-    {
-        "nazwa": "Wielki Czwartek: Wieczerzy Pańskiej",
-        "data": "",
-        "1": "Boże, przyjmij łaskawie tę Ofiarę * od nas, sług Twoich, * i całego ludu Twego. * Skladamy ją Tobie przede wszystkim za tych, * których odrodziłeś z wody i Ducha Świętego, * udzielając im odpuszczenia wszystkich grzechów. * Napełnij nasze życie swoim pokojem, * zachowaj nas od wiecznego potępienia * i dołącz do grona swoich wybranych",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy święty dzień, * w którym nasz Pan, Jezus Chrystus, został za nas wydany. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy święty dzień, * w którym nasz Pan, Jezus Chrystus, został za nas wydany"
-    },
-    {
-        "nazwa": "Wielka Sobota",
-        "data": "",
-        "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa",
-        "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
-        "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa"
-    },
-
+BŁĄD: Plik wstawki.json nie został znaleziony.
 
 --- Zawartość pliku: kategorie.json (cała zawartość) ---
 
@@ -394,8 +295,8 @@ android {
         applicationId = "com.qjproject.liturgicalcalendar"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -695,7 +596,12 @@ treść:
       "opis": "Prosta i radosna pieśń, która wzywa do chwalenia Syna Bożego w dzień Jego Zmartwychwstania.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa"
+  }
 }
 
 -
@@ -846,7 +752,8 @@ treść:
       "opis": "Psalm responsoryjny wzywa do radości i śpiewu na cześć Pana, a ta pieśń jest tego radosnym wykonaniem.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {}
 }
 
 -
@@ -857,8 +764,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -955,8 +862,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -1053,8 +960,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -1510,7 +1417,12 @@ treść:
       "opis": "Prosta i radosna pieśń, która wzywa do chwalenia Syna Bożego w dzień Jego Zmartwychwstania.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {
+    "1": "Zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa",
+    "2": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa. * Przez Niego prosimy Ciebie, wszechmogący Boże",
+    "3": "Dlatego stajemy przed Tobą * i zjednoczeni z całym Kościołem, * uroczyście obchodzimy (świętą noc) święty dzień, * Zmartwychwstania naszego Pana Jezusa Chrystusa"
+  }
 }
 
 -
@@ -1661,7 +1573,8 @@ treść:
       "opis": "Psalm responsoryjny wzywa do radości i śpiewu na cześć Pana, a ta pieśń jest tego radosnym wykonaniem.",
       "moment": "ogolne"
     }
-  ]
+  ],
+  "wstawki": {}
 }
 
 -
@@ -1803,10 +1716,17 @@ class DataManager(private val context: Context) {
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\data\DayData.kt
 treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/data/DayData.kt
 package com.qjproject.liturgicalcalendar.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+
+// --- POCZĄTEK ZMIANY ---
+// Usunięto klasę `Inserts`, która powodowała problemy z parsowaniem.
+// Zastąpiono ją bardziej elastyczną i niezawodną mapą, która poprawnie
+// obsługuje zarówno obecność, jak i brak danych o wstawkach w plikach JSON.
+// --- KONIEC ZMIANY ---
 
 @Serializable
 data class DayData(
@@ -1814,7 +1734,8 @@ data class DayData(
     @SerialName("tytul_dnia") val tytulDnia: String,
     @SerialName("czy_datowany") val czyDatowany: Boolean,
     val czytania: List<Reading>,
-    @SerialName("piesniSugerowane") val piesniSugerowane: List<SuggestedSong?>? = null
+    @SerialName("piesniSugerowane") val piesniSugerowane: List<SuggestedSong?>? = null,
+    val wstawki: Map<String, String>? = null
 )
 
 @Serializable
@@ -1831,6 +1752,13 @@ data class SuggestedSong(
     val piesn: String,
     val opis: String,
     val moment: String
+)
+
+@Serializable
+data class Insets(
+    val `1`: String,
+    val `2`: String,
+    val `3`: String,
 )
 
 -
@@ -5353,6 +5281,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.outlined.Article
+import androidx.compose.material.icons.outlined.Folder
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -5616,8 +5546,15 @@ internal fun EventSelectionDialog(
     onDismiss: () -> Unit,
     onEventSelected: (LiturgicalEventDetails) -> Unit
 ) {
-    val sortedEvents = remember(events) {
-        events.sortedWith(viewModel.calendarRepo.eventComparator)
+    val groupedEvents = remember(events) {
+        val baseNameRegex = Regex("(?i)\\s+rok\\s+[A-C]$|\\s+rok\\s+[I-II]$")
+        events
+            .groupBy { event -> baseNameRegex.replace(event.name, "") }
+            .mapValues { it.value.sortedWith(viewModel.calendarRepo.eventComparator) }
+            .toList()
+            .sortedWith { a, b ->
+                viewModel.calendarRepo.eventComparator.compare(a.second.first(), b.second.first())
+            }
     }
 
     Dialog(onDismissRequest = onDismiss) {
@@ -5634,16 +5571,34 @@ internal fun EventSelectionDialog(
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
-                LazyColumn(modifier = Modifier.heightIn(max = 400.dp)) {
-                    items(sortedEvents, key = { it.name }) { event ->
-                        Text(
-                            text = event.name,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .clickable { onEventSelected(event) }
-                                .padding(vertical = 12.dp),
-                            style = MaterialTheme.typography.bodyLarge
-                        )
+                LazyColumn(
+                    modifier = Modifier.heightIn(max = 400.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    items(groupedEvents, key = { it.first }) { (baseName, eventList) ->
+                        val isGroup = eventList.size > 1
+                        val eventToShow = eventList.first()
+
+                        Card(
+                            modifier = Modifier.fillMaxWidth().clickable { onEventSelected(eventToShow) },
+                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+                        ) {
+                            Row(
+                                modifier = Modifier.padding(16.dp),
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Icon(
+                                    imageVector = if (isGroup) Icons.Outlined.Folder else Icons.Outlined.Article,
+                                    contentDescription = if (isGroup) "Grupa wydarzeń" else "Wydarzenie",
+                                    tint = MaterialTheme.colorScheme.primary
+                                )
+                                Spacer(modifier = Modifier.width(16.dp))
+                                Text(
+                                    text = baseName,
+                                    style = MaterialTheme.typography.bodyLarge
+                                )
+                            }
+                        }
                     }
                 }
 
@@ -6684,8 +6639,7 @@ internal fun ConfirmDeleteDialog(description: String, onDismiss: () -> Unit, onC
                 )
                 Spacer(Modifier.height(24.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-                    TextButton(onClick = onDismiss) { Text("Anuluj") }
-                    Spacer(Modifier.width(8.dp))
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }; Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = onConfirm,
                         colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
@@ -7039,6 +6993,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Reading
@@ -7190,26 +7145,36 @@ fun HierarchicalCollapsibleSection(
     title: String,
     isExpanded: Boolean,
     onToggle: () -> Unit,
+    enabled: Boolean = true,
     content: @Composable ColumnScope.() -> Unit
 ) {
+    val titleColor = if (enabled) SaturatedNavy else Color.Gray
+    val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 0f else -90f, label = "arrowRotation")
+
     Column {
-        val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 0f else -90f, label = "arrowRotation")
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .clickable(onClick = onToggle)
+                .clickable(onClick = onToggle, enabled = enabled)
                 .padding(vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = title, style = MaterialTheme.typography.headlineMedium, color = SaturatedNavy)
+            Text(text = title, style = MaterialTheme.typography.headlineMedium, color = titleColor)
             Spacer(modifier = Modifier.weight(1f))
-            Icon(
-                imageVector = Icons.Default.KeyboardArrowDown,
-                contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
-                modifier = Modifier.rotate(rotationAngle),
-                tint = SaturatedNavy
-            )
+            if (enabled) {
+                Icon(
+                    imageVector = Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
+                    modifier = Modifier.rotate(rotationAngle),
+                    tint = titleColor
+                )
+            }
         }
+        // --- POCZĄTEK ZMIANY ---
+        // Usunięto warunek `if (enabled)`, który błędnie blokował wyświetlanie
+        // zawartości. Teraz widoczność zależy wyłącznie od stanu `isExpanded`,
+        // a `enabled` kontroluje tylko wygląd i interaktywność nagłówka.
+        // --- KONIEC ZMIANY ---
         AnimatedVisibility(visible = isExpanded) {
             Column(
                 modifier = Modifier.padding(start = 16.dp, top = 8.dp),
@@ -7413,8 +7378,7 @@ internal fun EditModeTopAppBar(title: String, onCancelClick: () -> Unit, onSaveC
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsViewMode.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
-// Opis: Ten plik zawiera wszystkie komponenty odpowiedzialne za wyświetlanie zawartości ekranu DayDetailsScreen w trybie tylko do odczytu (View Mode).
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsViewMode.kt
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
@@ -7517,6 +7481,11 @@ internal fun DayDetailsViewModeContent(
                 )
             }
         }
+        Spacer(modifier = Modifier.height(24.dp))
+        // --- POCZĄTEK ZMIANY ---
+        // Usunięto starą implementację `InsertsSectionView` na rzecz
+        // zachowania spójności wizualnej i funkcjonalnej.
+        // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.height(24.dp))
         HierarchicalCollapsibleSection(
             title = "Sugerowane pieśni",
@@ -7690,7 +7659,7 @@ private fun SongItemView(displayableSong: DisplayableSuggestedSong, onClick: () 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsScreen.kt
 // Opis: Główny plik komponentu DayDetailsScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów. Zarządza nawigacją i stanem głównym ekranu.
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
@@ -7753,6 +7722,15 @@ fun DayDetailsScreen(
             onDismiss = { viewModel.dismissConfirmExitDialog() },
             onDiscard = { viewModel.onExitEditMode(save = false) }
         )
+    }
+
+    if (uiState.showInsertsDialog) {
+        uiState.dayData?.wstawki?.let {
+            InsertsDialog(
+                inserts = it,
+                onDismiss = { viewModel.dismissInsertsDialog() }
+            )
+        }
     }
 
     when (val dialog = uiState.activeDialog) {
@@ -7822,9 +7800,33 @@ val songMomentOrderMap: LinkedHashMap<String, String> = linkedMapOf(
 )
 
 -
+nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\DayDetailsViewModelFactory.kt
+treść:
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/DayDetailsViewModelFactory.kt
+package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
+
+class DayDetailsViewModelFactory(
+    private val context: Context,
+    private val dayId: String
+) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(DayDetailsViewModel::class.java)) {
+            @Suppress("UNCHECKED_CAST")
+            return DayDetailsViewModel(dayId, FileSystemRepository(context.applicationContext)) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
+
+-
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/index.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsviewmodel/DayDetailsViewModel.kt
 // Opis: Główny plik komponentu DayDetailsViewModel. Pełni rolę "indexu", inicjując logikę ViewModelu, zarządzając stanem, operacjami na danych i interakcjami użytkownika na ekranie szczegółów dnia.
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel
 
@@ -8010,6 +8012,16 @@ class DayDetailsViewModel(
 
     fun toggleReadingsSection() { _uiState.update { it.copy(isReadingsSectionExpanded = !it.isReadingsSectionExpanded) } }
     fun toggleSongsSection() { _uiState.update { it.copy(isSongsSectionExpanded = !it.isSongsSectionExpanded) } }
+
+    fun toggleInsertsSection() { _uiState.update { it.copy(isInsertsSectionExpanded = !it.isInsertsSectionExpanded) } }
+
+    fun toggleInsert(key: String) {
+        _uiState.update {
+            val updatedSet = it.expandedInserts.toMutableSet()
+            if (updatedSet.contains(key)) updatedSet.remove(key) else updatedSet.add(key)
+            it.copy(expandedInserts = updatedSet)
+        }
+    }
 
     fun toggleReading(index: Int) {
         _uiState.update {
@@ -8222,19 +8234,6 @@ class DayDetailsViewModel(
     }
 }
 
-class DayDetailsViewModelFactory(
-    private val context: Context,
-    private val dayId: String
-) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(DayDetailsViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return DayDetailsViewModel(dayId, FileSystemRepository(context.applicationContext)) as T
-        }
-        throw IllegalArgumentException("Unknown ViewModel class")
-    }
-}
-
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsViewModel\models.kt
 treść:
@@ -8263,10 +8262,12 @@ data class DayDetailsUiState(
     val hasChanges: Boolean = false,
     val showConfirmExitDialog: Boolean = false,
     val activeDialog: DialogState = DialogState.None,
-    val isReadingsSectionExpanded: Boolean = true,
+    val isReadingsSectionExpanded: Boolean = false,
     val isSongsSectionExpanded: Boolean = true,
+    val isInsertsSectionExpanded: Boolean = false,
     val expandedReadings: Set<Int> = emptySet(),
-    val expandedSongMoments: Set<String> = songMomentOrderMap.keys
+    val expandedSongMoments: Set<String> = songMomentOrderMap.keys,
+    val expandedInserts: Set<String> = emptySet()
 )
 
 sealed class ReorderableListItem {
@@ -8344,6 +8345,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             .distinctUntilChanged()
             .onEach { performSearch() }
             .launchIn(viewModelScope)
+    }
+
+    fun reloadData() {
+        allSongsCache = null
+        repository.invalidateSongCache()
+        loadInitialData()
+        performSearch()
     }
 
     private fun loadInitialData() {
@@ -8617,11 +8625,15 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.data.Song
 
 @Composable
@@ -8630,6 +8642,19 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.reloadData()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
 
     if (uiState.showAddSongDialog) {
         AddSongDialog(
@@ -8885,6 +8910,7 @@ fun CategoryItem(
         }
     }
 }
+
 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\search\SearchScreen\SearchScreenDialogs.kt
@@ -10138,7 +10164,7 @@ val PurpleGrey80 = Color(0xFFCCC2DC)
 val Pink80 = Color(0xFFEFB8C8)
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Pink40 = Color(0xFF74527D)
 
 val DividerColor = Color.Gray.copy(alpha = 0.3f)
 val SubtleGrayBackground = Color.Gray.copy(alpha = 0.12f)
@@ -10146,7 +10172,7 @@ val SongItemBackground = Color.Gray.copy(alpha = 0.1f)
 val NavyDark = Color(0xFF16182D)
 val DarkerNavy = Color(0xFF2C2E4A)
 val VeryDarkNavy = Color(0xFF1A1D36)
-val CardBackground = Color(0xFF3A3C5C)
+val CardBackground = Color(0xFF313352)
 val SaturatedNavy = Color(0xFF81A0D3)
 val NavyLight = Color(0xFF4E5079)
 val Cream = Color(0xFFF1DAC2)
@@ -10185,7 +10211,7 @@ private val CustomDarkColorScheme = darkColorScheme(
     primary = LightBlue,
     secondary = NavyLight,
     background = NavyDark,
-    surface = DarkerNavy, // ZMIANA: Użycie nowego, bardziej niebieskiego koloru dla powierzchni (modali, kart)
+    surface = CardBackground,
     onPrimary = NavyDark,
     onSecondary = OffWhite,
     onBackground = OffWhite,
@@ -10510,7 +10536,6 @@ Aplikacja-dla-Konrada/
                         mergeDebugAssets/
                             kategorie.json
                             piesni.json
-                            wstawki.json
                             data/
                                 Adwent/
                                     1 Tydzień Adwentu/
@@ -11637,7 +11662,6 @@ Aplikacja-dla-Konrada/
                                 assets/
                                     kategorie.json.jar
                                     piesni.json.jar
-                                    wstawki.json.jar
                                     data/
                                         Adwent/
                                             1 Tydzień Adwentu/
@@ -14272,6 +14296,7 @@ Aplikacja-dla-Konrada/
                                                             CalendarScreenComponentsKt$CalendarGrid$lambda$27$lambda$26$$inlined$items$default$4.dex
                                                             CalendarScreenComponentsKt$CalendarGrid$lambda$27$lambda$26$$inlined$items$default$5.dex
                                                             CalendarScreenComponentsKt$EventSelectionDialog$1$1$1$1$1$2$1$1.dex
+                                                            CalendarScreenComponentsKt$EventSelectionDialog$1$1$1$1$1$2$2.dex
                                                             CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$1.dex
                                                             CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$2.dex
                                                             CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$3.dex
@@ -14384,6 +14409,7 @@ Aplikacja-dla-Konrada/
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.dex
+                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-20$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.dex
@@ -14413,6 +14439,9 @@ Aplikacja-dla-Konrada/
                                                             DayDetailsDialogsKt$ConfirmDeleteDialog$1.dex
                                                             DayDetailsDialogsKt$ConfirmExitDialog$1$1.dex
                                                             DayDetailsDialogsKt$ConfirmExitDialog$1.dex
+                                                            DayDetailsDialogsKt$InsertsDialog$1$1$invoke$lambda$5$lambda$3$$inlined$sortedBy$1.dex
+                                                            DayDetailsDialogsKt$InsertsDialog$1$1.dex
+                                                            DayDetailsDialogsKt$InsertsDialog$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.dex
@@ -14452,7 +14481,7 @@ Aplikacja-dla-Konrada/
                                                             DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.dex
                                                             DayDetailsTopAppBarKt.dex
                                                             DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.dex
-                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$6.dex
                                                             DayDetailsViewModeKt$handleReadingCollapse$1.dex
                                                             DayDetailsViewModeKt$ReadingItemView$1$1.dex
                                                             DayDetailsViewModeKt$ReadingItemView$1$2$1$1.dex
@@ -14460,8 +14489,8 @@ Aplikacja-dla-Konrada/
                                                             DayDetailsViewModeKt$SongGroupView$1$2.dex
                                                             DayDetailsViewModeKt$SongItemView$1.dex
                                                             DayDetailsViewModeKt.dex
-                                                            IndexKt$DayDetailsScreen$10.dex
                                                             IndexKt$DayDetailsScreen$11.dex
+                                                            IndexKt$DayDetailsScreen$12.dex
                                                             IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.dex
                                                             IndexKt.dex
                                                         daydetailsviewmodel/
@@ -14520,7 +14549,8 @@ Aplikacja-dla-Konrada/
                                                         DeleteDialogState$ConfirmOccurrences.dex
                                                         DeleteDialogState$None.dex
                                                         DeleteDialogState.dex
-                                                        IndexKt$SearchScreen$9$1$1$1.dex
+                                                        IndexKt$SearchScreen$10$1$1$1.dex
+                                                        IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.dex
                                                         IndexKt.dex
                                                         SearchScreenComponentsKt$CategoryItem$1.dex
                                                         SearchScreenComponentsKt$SearchBar$1.dex
@@ -14805,7 +14835,9 @@ Aplikacja-dla-Konrada/
                                     class-fq-name-to-source.tab.keystream
                                     class-fq-name-to-source.tab.keystream.len
                                     class-fq-name-to-source.tab.len
+                                    class-fq-name-to-source.tab.values
                                     class-fq-name-to-source.tab.values.at
+                                    class-fq-name-to-source.tab.values.s
                                     class-fq-name-to-source.tab_i
                                     class-fq-name-to-source.tab_i.len
                                     constants.tab
@@ -15191,6 +15223,7 @@ Aplikacja-dla-Konrada/
                                                     CalendarScreenComponentsKt$CalendarGrid$lambda$27$lambda$26$$inlined$items$default$4.class
                                                     CalendarScreenComponentsKt$CalendarGrid$lambda$27$lambda$26$$inlined$items$default$5.class
                                                     CalendarScreenComponentsKt$EventSelectionDialog$1$1$1$1$1$2$1$1.class
+                                                    CalendarScreenComponentsKt$EventSelectionDialog$1$1$1$1$1$2$2.class
                                                     CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$1.class
                                                     CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$2.class
                                                     CalendarScreenComponentsKt$EventSelectionDialog$1$1$invoke$lambda$6$lambda$4$lambda$3$$inlined$items$default$3.class
@@ -15303,6 +15336,7 @@ Aplikacja-dla-Konrada/
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.class
+                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-20$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.class
@@ -15332,6 +15366,9 @@ Aplikacja-dla-Konrada/
                                                     DayDetailsDialogsKt$ConfirmDeleteDialog$1.class
                                                     DayDetailsDialogsKt$ConfirmExitDialog$1$1.class
                                                     DayDetailsDialogsKt$ConfirmExitDialog$1.class
+                                                    DayDetailsDialogsKt$InsertsDialog$1$1$invoke$lambda$5$lambda$3$$inlined$sortedBy$1.class
+                                                    DayDetailsDialogsKt$InsertsDialog$1$1.class
+                                                    DayDetailsDialogsKt$InsertsDialog$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.class
@@ -15371,7 +15408,7 @@ Aplikacja-dla-Konrada/
                                                     DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.class
                                                     DayDetailsTopAppBarKt.class
                                                     DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.class
-                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$6.class
                                                     DayDetailsViewModeKt$handleReadingCollapse$1.class
                                                     DayDetailsViewModeKt$ReadingItemView$1$1.class
                                                     DayDetailsViewModeKt$ReadingItemView$1$2$1$1.class
@@ -15379,8 +15416,8 @@ Aplikacja-dla-Konrada/
                                                     DayDetailsViewModeKt$SongGroupView$1$2.class
                                                     DayDetailsViewModeKt$SongItemView$1.class
                                                     DayDetailsViewModeKt.class
-                                                    IndexKt$DayDetailsScreen$10.class
                                                     IndexKt$DayDetailsScreen$11.class
+                                                    IndexKt$DayDetailsScreen$12.class
                                                     IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.class
                                                     IndexKt.class
                                                 daydetailsviewmodel/
@@ -15439,7 +15476,8 @@ Aplikacja-dla-Konrada/
                                                 DeleteDialogState$ConfirmOccurrences.class
                                                 DeleteDialogState$None.class
                                                 DeleteDialogState.class
-                                                IndexKt$SearchScreen$9$1$1$1.class
+                                                IndexKt$SearchScreen$10$1$1$1.class
+                                                IndexKt$SearchScreen$lambda$4$lambda$3$$inlined$onDispose$1.class
                                                 IndexKt.class
                                                 SearchScreenComponentsKt$CategoryItem$1.class
                                                 SearchScreenComponentsKt$SearchBar$1.class
@@ -15586,7 +15624,6 @@ Aplikacja-dla-Konrada/
                 assets/
                     kategorie.json
                     piesni.json
-                    wstawki.json
                     data/
                         Adwent/
                             1 Tydzień Adwentu/
@@ -16769,6 +16806,7 @@ Aplikacja-dla-Konrada/
                                                 index.kt
                                             DayDetailsViewModel/
                                                 constants.kt
+                                                DayDetailsViewModelFactory.kt
                                                 index.kt
                                                 models.kt
                                         search/
