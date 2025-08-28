@@ -1,15 +1,17 @@
 package com.qjproject.liturgicalcalendar.ui.screens.songdetails
 
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.PictureAsPdf
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLifecycleOwner
@@ -19,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.components.PdfViewerDialog
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -31,6 +34,14 @@ fun SongDetailsScreen(
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
     val lifecycleOwner = LocalLifecycleOwner.current
+    var showDeleteConfirmation by remember { mutableStateOf(false) }
+
+    // Launcher do wyboru pliku PDF
+    val pdfPickerLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.GetContent()
+    ) { uri ->
+        uri?.let { viewModel.addPdfForSong(it) }
+    }
 
     BackHandler(onBack = onNavigateBack)
 
@@ -54,25 +65,34 @@ fun SongDetailsScreen(
             Column {
                 CenterAlignedTopAppBar(
                     title = {
-                        AutoResizingText(
-                            text = uiState.song?.tytul ?: "Ładowanie...",
-                            style = MaterialTheme.typography.titleLarge,
-                            textAlign = TextAlign.Center
-                        )
+                        // Używamy Box z fillMaxWidth aby tytuł był wycentrowany względem całego ekranu
+                        Box(
+                            modifier = Modifier.fillMaxWidth(),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            AutoResizingText(
+                                text = uiState.song?.tytul ?: "Ładowanie...",
+                                style = MaterialTheme.typography.titleLarge,
+                                textAlign = TextAlign.Center
+                            )
+                        }
                     },
                     navigationIcon = {
                         IconButton(onClick = onNavigateBack) {
                             Icon(Icons.AutoMirrored.Filled.ArrowBack, "Wróć")
                         }
                     },
-                    actions = { Spacer(Modifier.width(48.dp)) },
+                    actions = {
+                        // Pusty spacer aby zachować symetrię
+                        Spacer(modifier = Modifier.width(48.dp))
+                    },
                     colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                         containerColor = MaterialTheme.colorScheme.background,
                         titleContentColor = MaterialTheme.colorScheme.primary,
                         navigationIconContentColor = MaterialTheme.colorScheme.primary
                     )
                 )
-                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                HorizontalDivider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
             }
         }
     ) { innerPadding ->
@@ -107,8 +127,33 @@ fun SongDetailsScreen(
                         InfoRow(label = "DN:", value = song.numerDN)
                         InfoRow(label = "Kategoria:", value = song.kategoria)
 
+                        // Sekcja PDF po informacjach o pieśni
                         Spacer(modifier = Modifier.height(16.dp))
-                        Divider()
+                        
+                        // Przyciski PDF
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.End,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "Neumy:",
+                                style = MaterialTheme.typography.bodyLarge,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.weight(1f)
+                            )
+                            
+                            PdfActionButtons(
+                                hasPdf = uiState.hasPdf,
+                                pdfOperationInProgress = uiState.pdfOperationInProgress,
+                                onViewPdf = { viewModel.showPdfViewer() },
+                                onAddPdf = { pdfPickerLauncher.launch("application/pdf") },
+                                onDeletePdf = { showDeleteConfirmation = true }
+                            )
+                        }
+
+                        Spacer(modifier = Modifier.height(16.dp))
+                        HorizontalDivider()
                         Spacer(modifier = Modifier.height(16.dp))
                         Card(
                             modifier = Modifier
@@ -139,6 +184,66 @@ fun SongDetailsScreen(
                     }
                 }
             }
+            
+            // Komunikaty o operacjach PDF
+            uiState.pdfOperationMessage?.let { message ->
+                Card(
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .padding(16.dp)
+                        .fillMaxWidth(),
+                    colors = CardDefaults.cardColors(
+                        containerColor = if (message.contains("błąd", ignoreCase = true) || message.contains("Nie udało się")) {
+                            MaterialTheme.colorScheme.errorContainer
+                        } else {
+                            MaterialTheme.colorScheme.primaryContainer
+                        }
+                    )
+                ) {
+                    Text(
+                        text = message,
+                        modifier = Modifier.padding(16.dp),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = if (message.contains("błąd", ignoreCase = true) || message.contains("Nie udało się")) {
+                            MaterialTheme.colorScheme.onErrorContainer
+                        } else {
+                            MaterialTheme.colorScheme.onPrimaryContainer
+                        }
+                    )
+                }
+            }
+        }
+        
+        // Dialog potwierdzenia usunięcia PDF
+        if (showDeleteConfirmation) {
+            AlertDialog(
+                onDismissRequest = { showDeleteConfirmation = false },
+                title = { Text("Usuń neumy") },
+                text = { Text("Czy na pewno chcesz usunąć plik PDF z neumami dla tej pieśni?") },
+                confirmButton = {
+                    TextButton(
+                        onClick = {
+                            viewModel.deletePdfForSong()
+                            showDeleteConfirmation = false
+                        }
+                    ) {
+                        Text("Usuń")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { showDeleteConfirmation = false }) {
+                        Text("Anuluj")
+                    }
+                }
+            )
+        }
+        
+        // Dialog przeglądarki PDF
+        if (uiState.showPdfViewer && !uiState.pdfPath.isNullOrEmpty()) {
+            PdfViewerDialog(
+                pdfPath = uiState.pdfPath!!,
+                onDismiss = { viewModel.hidePdfViewer() }
+            )
         }
     }
 }
@@ -160,5 +265,62 @@ private fun InfoRow(label: String, value: String) {
             text = displayValue,
             style = MaterialTheme.typography.bodyLarge
         )
+    }
+}
+
+@Composable
+private fun PdfActionButtons(
+    hasPdf: Boolean,
+    pdfOperationInProgress: Boolean,
+    onViewPdf: () -> Unit,
+    onAddPdf: () -> Unit,
+    onDeletePdf: () -> Unit
+) {
+    // Używamy Box z szerokością 96dp (2 ikony po 48dp) dla symetrycznego układu
+    Box(
+        modifier = Modifier.width(96.dp),
+        contentAlignment = Alignment.CenterEnd
+    ) {
+        if (pdfOperationInProgress) {
+            CircularProgressIndicator(
+                modifier = Modifier.size(24.dp),
+                strokeWidth = 2.dp
+            )
+        } else {
+            if (hasPdf) {
+                // Dwie ikony wyrównane do prawej
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(0.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    // Ikona przeglądania PDF
+                    IconButton(onClick = onViewPdf) {
+                        Icon(
+                            Icons.Default.PictureAsPdf,
+                            contentDescription = "Pokaż neumy",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    
+                    // Ikona usuwania PDF
+                    IconButton(onClick = onDeletePdf) {
+                        Icon(
+                            Icons.Default.Delete,
+                            contentDescription = "Usuń neumy",
+                            tint = MaterialTheme.colorScheme.error
+                        )
+                    }
+                }
+            } else {
+                // Ikona dodawania PDF wyrównana do prawej
+                IconButton(onClick = onAddPdf) {
+                    Icon(
+                        Icons.Default.Add,
+                        contentDescription = "Dodaj neumy",
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                }
+            }
+        }
     }
 }
