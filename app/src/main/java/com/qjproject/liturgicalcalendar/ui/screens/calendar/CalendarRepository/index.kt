@@ -82,6 +82,35 @@ class CalendarRepository(context: Context) {
         )
     }
 
+    suspend fun downloadMissingYearsOnly(requiredYears: List<Int>): Result<List<Int>> = withContext(Dispatchers.IO) {
+        val missingYears = requiredYears.filter { !fileManager.isYearAvailable(it) }
+        
+        if (missingYears.isEmpty()) {
+            Log.d("CalendarRepository", "Wszystkie wymagane lata (${requiredYears.joinToString()}) są już dostępne lokalnie.")
+            return@withContext Result.success(emptyList())
+        }
+
+        Log.i("CalendarRepository", "Pobieranie brakujących lat: ${missingYears.joinToString()}")
+        val failedYears = mutableListOf<Int>()
+
+        for (year in missingYears) {
+            downloadAndSaveYearIfNeeded(year).onFailure { 
+                failedYears.add(year)
+                Log.e("CalendarRepository", "Nie udało się pobrać danych dla roku $year")
+            }
+        }
+
+        return@withContext if (failedYears.isEmpty()) {
+            Result.success(missingYears)
+        } else {
+            Result.failure(Exception("Nie udało się pobrać danych dla lat: ${failedYears.joinToString()}"))
+        }
+    }
+
+    fun areRequiredYearsAvailable(requiredYears: List<Int>): Boolean {
+        return requiredYears.all { fileManager.isYearAvailable(it) }
+    }
+
     fun getDominantEvent(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
         return LiturgicalRules.getDominantEvent(events)
     }

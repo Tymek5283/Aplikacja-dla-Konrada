@@ -25,7 +25,7 @@ data class DayDetailsUiState(
     val activeDialog: DialogState = DialogState.None,
     val isReadingsSectionExpanded: Boolean = false,
     val isSongsSectionExpanded: Boolean = true,
-    val isInsertsSectionExpanded: Boolean = true,
+    val isInsertsSectionExpanded: Boolean = false,
     val expandedReadings: Set<Int> = emptySet(),
     val expandedSongMoments: Set<String> = songMomentOrderMap.keys,
     val expandedInserts: Set<String> = emptySet()

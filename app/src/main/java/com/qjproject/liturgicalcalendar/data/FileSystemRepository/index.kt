@@ -23,7 +23,7 @@ class FileSystemRepository(val context: Context) {
     private val internalStorageRoot: File = context.filesDir
 
     private val cacheManager = CacheManager()
-    private val dayFileManager = DayFileManager(internalStorageRoot, json)
+    private val dayFileManager = DayFileManager(context, internalStorageRoot, json)
     private val songFileManager = SongFileManager(internalStorageRoot, json, cacheManager, dayFileManager)
     private val categoryFileManager = CategoryFileManager(internalStorageRoot, json, cacheManager, songFileManager)
     private val directoryManager = DirectoryManager(internalStorageRoot, json)

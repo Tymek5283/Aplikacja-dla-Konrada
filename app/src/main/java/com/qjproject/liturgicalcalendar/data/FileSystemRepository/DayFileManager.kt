@@ -2,6 +2,7 @@
 // Opis: Odpowiada za operacje związane z plikami dni liturgicznych, w tym ich odczyt, zapis, oraz pobieranie listy plików dla konkretnego miesiąca.
 package com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository
 
+import android.content.Context
 import android.util.Log
 import com.qjproject.liturgicalcalendar.data.DayData
 import kotlinx.serialization.json.Json
@@ -11,6 +12,7 @@ import java.time.format.TextStyle
 import java.util.Locale
 
 internal class DayFileManager(
+    private val context: Context,
     private val internalStorageRoot: File,
     private val json: Json
 ) {
@@ -34,13 +36,34 @@ internal class DayFileManager(
     }
 
     fun getDayData(path: String): DayData? {
+        // POPRAWKA: Obsługa pustych ścieżek dla dni bez danych
+        if (path.startsWith("empty/")) {
+            val eventName = path.removePrefix("empty/")
+            Log.i("DayFileManager", "Tworzenie pustych danych dla wydarzenia: $eventName")
+            return DayData(
+                urlCzytania = "",
+                tytulDnia = eventName,
+                czyDatowany = true,
+                czytania = emptyList(),
+                piesniSugerowane = emptyList(),
+                wstawki = emptyMap()
+            )
+        }
+        
         try {
-            val file = File(internalStorageRoot, path)
-            if (!file.exists()) {
-                Log.e("DayFileManager", "Plik nie istnieje: ${file.absolutePath}")
-                return null
+            // Najpierw spróbuj odczytać z assets
+            val jsonString = try {
+                context.assets.open(path).bufferedReader().use { it.readText() }
+            } catch (e: Exception) {
+                // Jeśli nie ma w assets, spróbuj z pamięci wewnętrznej
+                val file = File(internalStorageRoot, path)
+                if (!file.exists()) {
+                    Log.e("DayFileManager", "Plik nie istnieje ani w assets, ani w pamięci wewnętrznej: $path")
+                    return null
+                }
+                file.bufferedReader().use { it.readText() }
             }
-            val jsonString = file.bufferedReader().use { it.readText() }
+            
             if (jsonString.isBlank()) {
                 Log.w("DayFileManager", "Pusty plik JSON, pomijanie: $path")
                 return null

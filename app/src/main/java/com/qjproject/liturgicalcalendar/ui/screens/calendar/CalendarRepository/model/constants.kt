@@ -429,5 +429,23 @@ internal val translationMap: Map<String, String> = mapOf(
     "Najświętszego Serca Pana Jezusa" to "Uroczystość Najświętszego Serca Pana Jezusa",
     "Najświętszej Trójcy" to "Uroczystość Najświętszej Trójcy",
     "Niedziela Zesłania Ducha Świętego" to "Uroczystość Zesłania Ducha Świętego",
-    "Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana" to "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana"
+    "Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana" to "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana",
+    "Św. Teresy Benedykty od Krzyża, dziewicy i męczennicy" to "9 sierpnia - św. Teresy Benedykty od Krzyża (Edyty Stein)",
+    "Katedry św. Piotra Apostoła" to "22 lutego - Święto Katedry św. Piotra, Apostoła",
+    "Katedry św. Piotra, Apostoła" to "22 lutego - Święto Katedry św. Piotra, Apostoła",
+    "Piątek przed Objawieniem Pańskim" to "4 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Sobota przed Objawieniem Pańskim" to "5 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Środa po Objawieniu Pańskim" to "8 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Czwartek po Objawieniu Pańskim" to "9 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Piątek po Objawieniu Pańskim" to "10 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Sobota po Objawieniu Pańskim" to "11 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Świętych Joachima i Anny" to "26 lipca - św. Joachima i Anny",
+    "Nawrócenie św. Pawła, Apostoła" to "25 stycznia - Nawrócenie św. Pawła Apostoła",
+    "Narodzenie św. Jana Chrzciciela" to "24 czerwca - Narodzenie św. Jana Chrzciciela",
+    // Dodatkowe wpisy dla problematycznych dni
+    "Wtorek po Objawieniu Pańskim" to "7 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Święto Przemienienia Pańskiego" to "6 sierpnia - Święto Przemienienia Pańskiego",
+    "Przemienienie Pańskie" to "6 sierpnia - Święto Przemienienia Pańskiego",
+    "Święto św. Łukasza Ewangelisty" to "18 października - św. Łukasza Ewangelisty",
+    "Św. Łukasza, Ewangelisty" to "18 października - św. Łukasza Ewangelisty"
 )

@@ -9,7 +9,9 @@ import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.CalendarRepository
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.CalendarDay
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYear
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.translationMap
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.model.CalendarUiState
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.model.NavigationAction
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -36,18 +38,65 @@ class CalendarViewModel(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val currentYear = YearMonth.now().year
-            val isCurrentYearAvailable = calendarRepo.isYearAvailable(currentYear)
-            val isPreviousYearAvailable = calendarRepo.isYearAvailable(currentYear - 1)
-
-            if (!isCurrentYearAvailable || !isPreviousYearAvailable) {
-                _uiState.update { it.copy(isDataMissing = true, isLoading = true) }
-                forceRefreshData()
-            } else {
+            val requiredYears = listOf(currentYear - 1, currentYear, currentYear + 1)
+            
+            val areAllRequiredYearsAvailable = calendarRepo.areRequiredYearsAvailable(requiredYears)
+            
+            if (areAllRequiredYearsAvailable) {
+                // Wszystkie wymagane dane są dostępne lokalnie
                 val availableYears = calendarRepo.getAvailableYears()
                 _uiState.update { it.copy(isDataMissing = false, availableYears = availableYears, isLoading = false) }
                 loadDataForMonth(YearMonth.now())
-                viewModelScope.launch { calendarRepo.downloadAndSaveYearIfNeeded(currentYear + 1) }
+            } else {
+                // Pobierz tylko brakujące dane
+                _uiState.update { it.copy(isDataMissing = true, isLoading = true) }
+                smartRefreshData(requiredYears)
             }
+        }
+    }
+
+    private fun smartRefreshData(requiredYears: List<Int>) {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true, downloadError = null) }
+
+            calendarRepo.downloadMissingYearsOnly(requiredYears).fold(
+                onSuccess = { downloadedYears ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val currentYear = YearMonth.now().year
+                    val isCurrentYearAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearAvailable,
+                            availableYears = availableYears,
+                            downloadError = null
+                        )
+                    }
+
+                    if (isCurrentYearAvailable) {
+                        loadDataForMonth(YearMonth.now())
+                    }
+                },
+                onFailure = { error ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val currentYear = YearMonth.now().year
+                    val isCurrentYearAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearAvailable,
+                            availableYears = availableYears,
+                            downloadError = "Błąd: ${error.message}"
+                        )
+                    }
+
+                    if (isCurrentYearAvailable) {
+                        loadDataForMonth(YearMonth.now())
+                    }
+                }
+            )
         }
     }
 
@@ -124,11 +173,9 @@ class CalendarViewModel(
 
             when {
                 foundPaths.isEmpty() -> {
-                    val result = fileSystemRepo.createDayFile("Datowane/nieznane", event.name, null)
-                    result.onSuccess { newFileName ->
-                        val newPath = "Datowane/nieznane/$newFileName"
-                        onResult(NavigationAction.NavigateToDay(newPath))
-                    }
+                    // POPRAWKA: Zawsze otwórz okno szczegółów, nawet gdy nie ma pliku
+                    android.util.Log.w("CalendarViewModel", "Nie znaleziono pliku dla wydarzenia: '${event.name}'. Otwieranie pustego okna szczegółów.")
+                    onResult(NavigationAction.NavigateToDay("empty/${event.name}"))
                 }
                 foundPaths.size == 1 -> {
                     onResult(NavigationAction.NavigateToDay(foundPaths.first()))
@@ -141,37 +188,111 @@ class CalendarViewModel(
     }
 
     // --- POCZĄTEK ZMIANY ---
-    // Zastąpiono poprzednią, błędną logikę wyszukiwania nową, w pełni rekursywną funkcją.
+    // Poprawiona logika wyszukiwania plików w folderze assets z użyciem translationMap
     private fun findFilePathsForEvent(name: String): List<String> {
         val searchName = name.replace(":", "").trim()
         val results = mutableListOf<String>()
-        val directoriesToSearch = listOf(
-            File(fileSystemRepo.context.filesDir, "data"),
-            File(fileSystemRepo.context.filesDir, "Datowane")
-        )
-
-        directoriesToSearch.forEach { startDir ->
-            if (startDir.exists() && startDir.isDirectory) {
-                startDir.walkTopDown().forEach { file ->
-                    val itemName = if (file.isDirectory) file.name else file.nameWithoutExtension
-
-                    if (itemName.equals(searchName, ignoreCase = true)) {
-                        if (file.isDirectory) {
-                            file.walkTopDown()
-                                .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
-                                .forEach { jsonFile ->
-                                    val relativePath = jsonFile.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
-                                    results.add(relativePath)
-                                }
-                        } else if (file.isFile && file.extension.equals("json", ignoreCase = true)) {
-                            val relativePath = file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
-                            results.add(relativePath)
+        val assetManager = fileSystemRepo.context.assets
+        
+        // KLUCZOWA POPRAWKA: Użyj translationMap do znalezienia właściwej nazwy pliku
+        val translatedName: String = translationMap[searchName] ?: searchName
+        android.util.Log.d("CalendarViewModel", "Szukanie wydarzenia: '$searchName' -> przetłumaczone na: '$translatedName'")
+        
+        try {
+            // Szukaj zarówno oryginalnej nazwy jak i przetłumaczonej
+            val namesToSearch = listOf(searchName, translatedName).distinct()
+            
+            for (nameToSearch in namesToSearch) {
+                // Przeszukaj folder "data" w assets
+                searchInAssetsDirectory(assetManager, "data", nameToSearch, results)
+                
+                // Przeszukaj folder "Datowane" w assets
+                searchInAssetsDirectory(assetManager, "Datowane", nameToSearch, results)
+            }
+            
+        } catch (e: Exception) {
+            android.util.Log.e("CalendarViewModel", "Błąd podczas przeszukiwania assets: ${e.message}")
+        }
+        
+        android.util.Log.d("CalendarViewModel", "Znalezione pliki dla '$searchName': ${results.size} - $results")
+        return results.distinct().sorted()
+    }
+    
+    private fun searchInAssetsDirectory(assetManager: android.content.res.AssetManager, basePath: String, searchName: String, results: MutableList<String>) {
+        try {
+            val items = assetManager.list(basePath) ?: return
+            
+            for (item in items) {
+                val fullPath = "$basePath/$item"
+                
+                try {
+                    // Sprawdź czy to folder (próbując wylistować jego zawartość)
+                    val subItems = assetManager.list(fullPath)
+                    if (subItems != null && subItems.isNotEmpty()) {
+                        // To jest folder - rekursywnie przeszukaj
+                        searchInAssetsDirectory(assetManager, fullPath, searchName, results)
+                        
+                        // Sprawdź czy nazwa folderu pasuje do szukanej nazwy
+                        if (item.equals(searchName, ignoreCase = true)) {
+                            // Znajdź wszystkie pliki JSON w tym folderze
+                            findJsonFilesInDirectory(assetManager, fullPath, results)
                         }
+                    } else {
+                        // To jest plik
+                        val fileName = if (item.endsWith(".json")) {
+                            item.substringBeforeLast(".json")
+                        } else {
+                            item
+                        }
+                        
+                        if (fileName.contains(searchName, ignoreCase = true) && item.endsWith(".json")) {
+                            results.add(fullPath)
+                        }
+                    }
+                } catch (e: Exception) {
+                    // Jeśli nie można wylistować, to prawdopodobnie jest to plik
+                    val fileName = if (item.endsWith(".json")) {
+                        item.substringBeforeLast(".json")
+                    } else {
+                        item
+                    }
+                    
+                    if (fileName.contains(searchName, ignoreCase = true) && item.endsWith(".json")) {
+                        results.add(fullPath)
                     }
                 }
             }
+        } catch (e: Exception) {
+            android.util.Log.w("CalendarViewModel", "Nie można przeszukać folderu $basePath: ${e.message}")
         }
-        return results.distinct().sorted()
+    }
+    
+    private fun findJsonFilesInDirectory(assetManager: android.content.res.AssetManager, dirPath: String, results: MutableList<String>) {
+        try {
+            val items = assetManager.list(dirPath) ?: return
+            
+            for (item in items) {
+                val fullPath = "$dirPath/$item"
+                
+                try {
+                    val subItems = assetManager.list(fullPath)
+                    if (subItems != null && subItems.isNotEmpty()) {
+                        // To jest podfolder - rekursywnie przeszukaj
+                        findJsonFilesInDirectory(assetManager, fullPath, results)
+                    } else if (item.endsWith(".json")) {
+                        // To jest plik JSON
+                        results.add(fullPath)
+                    }
+                } catch (e: Exception) {
+                    // Prawdopodobnie plik
+                    if (item.endsWith(".json")) {
+                        results.add(fullPath)
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            android.util.Log.w("CalendarViewModel", "Błąd podczas przeszukiwania folderu $dirPath: ${e.message}")
+        }
     }
     // --- KONIEC ZMIANY ---
 

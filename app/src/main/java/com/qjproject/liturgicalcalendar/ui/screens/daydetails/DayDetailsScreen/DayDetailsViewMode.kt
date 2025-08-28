@@ -101,7 +101,7 @@ internal fun DayDetailsViewModeContent(
                 )
             }
         }
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(12.dp))
         val wstawki = uiState.dayData?.wstawki
         val hasWstawki = !wstawki.isNullOrEmpty()
         
@@ -114,7 +114,7 @@ internal fun DayDetailsViewModeContent(
             if (hasWstawki) {
                 wstawki!!.entries.sortedBy { it.key }.forEach { (key, value) ->
                     InsertItemView(
-                        title = "Wstawka $key",
+                        title = "$key. Modlitwa eucharystyczna",
                         content = value,
                         isExpanded = uiState.expandedInserts.contains(key),
                         onToggle = { viewModel.toggleInsert(key) }
@@ -122,7 +122,7 @@ internal fun DayDetailsViewModeContent(
                 }
             }
         }
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(12.dp))
         HierarchicalCollapsibleSection(
             title = "Sugerowane pieśni",
             isExpanded = uiState.isSongsSectionExpanded,
