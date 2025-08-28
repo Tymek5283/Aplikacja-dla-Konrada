@@ -295,8 +295,8 @@ android {
         applicationId = "com.qjproject.liturgicalcalendar"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 3
+        versionName = "1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -382,7 +382,7 @@ treść:
       "typ": "1 PSALM RESPONSORYJNY",
       "sigla": "Ps 104 (103) lub Ps 33 (32)",
       "opis": "",
-      "tekst": "Refren: Niech zstąpi Duch Twój i odnowi ziemię.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\nRefren.\nUmocniłeś fundamenty ziemi, *\nnie zachwieje się na wieki wieków.\nJak szatą okryłeś ją Wielką Głębią, *\nponad górami stanęły wody.\nRefren.\nTy zdroje kierujesz do strumieni, *\nktóre pośród gór się sączą.\nNad nimi mieszka ptactwo niebieskie *\ni śpiewa pośród gałęzi.\nRefren.\nZ Twoich komnat nawadniasz góry, *\nowocem dzieł Twoich syci się ziemia.\nKażesz rosnąć trawie dla bydła *\ni roślinom, by człowiekowi służyły.\nRefren.\nJak liczne są dzieła Twoje, Panie! *\nTy wszystko mądrze uczyniłeś,\nziemia jest pełna Twoich stworzeń. *\nBłogosław, duszo moja, Pana.\nRefren.\n\nALBO:\n\nRefren: Pełna jest ziemia łaskawości Pana.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nOn morskie wody gromadzi jak w bukłaku, *\notchłanie oceanu w zbiornikach.\nRefren.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
+      "tekst": "Refren: Niech zstąpi Duch Twój i odnowi ziemię.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\n\nRefren.\n\nUmocniłeś fundamenty ziemi, *\nnie zachwieje się na wieki wieków.\nJak szatą okryłeś ją Wielką Głębią, *\nponad górami stanęły wody.\n\nRefren.\n\nTy zdroje kierujesz do strumieni, *\nktóre pośród gór się sączą.\nNad nimi mieszka ptactwo niebieskie *\ni śpiewa pośród gałęzi.\n\nRefren.\n\nZ Twoich komnat nawadniasz góry, *\nowocem dzieł Twoich syci się ziemia.\nKażesz rosnąć trawie dla bydła *\ni roślinom, by człowiekowi służyły.\n\nRefren.\n\nJak liczne są dzieła Twoje, Panie! *\nTy wszystko mądrze uczyniłeś,\nziemia jest pełna Twoich stworzeń. *\nBłogosław, duszo moja, Pana.\n\nRefren.\n\n\nALBO:\n\nRefren: Pełna jest ziemia łaskawości Pana.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\n\nRefren.\n\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nOn morskie wody gromadzi jak w bukłaku, *\notchłanie oceanu w zbiornikach.\n\nRefren.\n\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\n\nRefren.\n\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
     },
     {
       "typ": "DRUGIE CZYTANIE dłuższe",
@@ -400,7 +400,7 @@ treść:
       "typ": "2 PSALM RESPONSORYJNY",
       "sigla": "Ps 16 (15), 5 i 8. 9-10. 11 (R.: por. 1b)",
       "opis": "",
-      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\n\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\n\nRefren.\n\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\n\nRefren.\n\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\n\nRefren."
+      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\n\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\n\n\nRefren.\n\n\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\n\n\nRefren.\n\n\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\n\nRefren."
     },
     {
       "typ": "TRZECIE CZYTANIE",
@@ -412,7 +412,7 @@ treść:
       "typ": "3 PSALM RESPONSORYJNY",
       "sigla": "Wj 15, 1b-2c. 3-4. 5-6. 17-18 (R.: por. 1bc)",
       "opis": "",
-      "tekst": "Refren: Śpiewajmy Panu, który moc okazał.\n\nZaśpiewam na cześć Pana, który okrył się sławą, *\ngdy konia i jeźdźca pogrążył w morskiej toni.\nPan jest moją mocą i źródłem męstwa, †\nJemu zawdzięczam moje ocalenie. *\nOn Bogiem moim, uwielbiać Go będę.\n\nRefren.\n\nPan wojownik potężny, *\n«Ten, który jest», brzmi Jego imię.\nRzucił w morze rydwany faraona i wojsko jego, *\nwybrani wodzowie legli w Morzu Czerwonym.\n\nRefren.\n\nPrzepaści ich ogarnęły, *\njak głaz runęli w głębinę.\nUwielbiona jest potęga prawicy Twej, Panie, *\nprawica Twa, o Panie, starła nieprzyjaciół.\n\nRefren.\n\nWprowadziłeś ich i osadziłeś *\nna górze Twojego dziedzictwa.\nW miejscu, które uczyniłeś swym mieszkaniem, †\nw świątyni zbudowanej Twoimi rękami, *\nPan jest Królem na zawsze i na wieki.\n\nRefren."
+      "tekst": "Refren: Śpiewajmy Panu, który moc okazał.\n\nZaśpiewam na cześć Pana, który okrył się sławą, *\ngdy konia i jeźdźca pogrążył w morskiej toni.\nPan jest moją mocą i źródłem męstwa, †\nJemu zawdzięczam moje ocalenie. *\nOn Bogiem moim, uwielbiać Go będę.\n\n\nRefren.\n\n\nPan wojownik potężny, *\n«Ten, który jest», brzmi Jego imię.\nRzucił w morze rydwany faraona i wojsko jego, *\nwybrani wodzowie legli w Morzu Czerwonym.\n\n\nRefren.\n\n\nPrzepaści ich ogarnęły, *\njak głaz runęli w głębinę.\nUwielbiona jest potęga prawicy Twej, Panie, *\nprawica Twa, o Panie, starła nieprzyjaciół.\n\n\nRefren.\n\n\nWprowadziłeś ich i osadziłeś *\nna górze Twojego dziedzictwa.\nW miejscu, które uczyniłeś swym mieszkaniem, †\nw świątyni zbudowanej Twoimi rękami, *\nPan jest Królem na zawsze i na wieki.\n\nRefren."
     },
     {
       "typ": "CZWARTE CZYTANIE",
@@ -424,7 +424,7 @@ treść:
       "typ": "4 PSALM RESPONSORYJNY",
       "sigla": "Ps 30 (29), 2 i 4. 5-6. 11-12a i 13b (R.: 2a)",
       "opis": "",
-      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\n\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie, mój Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\n\nRefren.\n\nŚpiewajcie psalm, wszyscy miłujący Pana, *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\n\nRefren.\n\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\n\nRefren."
+      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\n\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie, mój Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\n\n\nRefren.\n\n\nŚpiewajcie psalm, wszyscy miłujący Pana, *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\n\n\nRefren.\n\n\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\n\nRefren."
     },
     {
       "typ": "PIĄTE CZYTANIE",
@@ -436,7 +436,7 @@ treść:
       "typ": "5 PSALM RESPONSORYJNY",
       "sigla": "Iz 12, 2. 3 i 4bcd. 5-6 (R.: por. 3)",
       "opis": "",
-      "tekst": "Refren: Będziecie czerpać ze zdrojów zbawienia.\n\nOto Bóg jest moim zbawieniem! *\nJemu zaufam i bać się nie będę.\nPan jest moją pieśnią i mocą, *\ni On stał się moim zbawieniem.\n\nRefren.\n\nWy zaś z weselem czerpać będziecie wodę *\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia! †\nUkażcie narodom Jego dzieła, *\nprzypominajcie, że Jego imię jest chwalebne.\n\nRefren.\n\nŚpiewajcie Panu, bo czynów wspaniałych dokonał! *\nI cała ziemia niech o tym się dowie.\nWznoś okrzyki i wołaj radośnie, mieszkanko Syjonu, *\nbo wielki jest wśród ciebie Święty Izraela.\n\nRefren."
+      "tekst": "Refren: Będziecie czerpać ze zdrojów zbawienia.\n\nOto Bóg jest moim zbawieniem! *\nJemu zaufam i bać się nie będę.\nPan jest moją pieśnią i mocą, *\ni On stał się moim zbawieniem.\n\n\nRefren.\n\n\nWy zaś z weselem czerpać będziecie wodę *\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia! †\nUkażcie narodom Jego dzieła, *\nprzypominajcie, że Jego imię jest chwalebne.\n\n\nRefren.\n\n\nŚpiewajcie Panu, bo czynów wspaniałych dokonał! *\nI cała ziemia niech o tym się dowie.\nWznoś okrzyki i wołaj radośnie, mieszkanko Syjonu, *\nbo wielki jest wśród ciebie Święty Izraela.\n\nRefren."
     },
     {
       "typ": "SZÓSTE CZYTANIE",
@@ -448,7 +448,7 @@ treść:
       "typ": "6 PSALM RESPONSORYJNY",
       "sigla": "Ps 19 (18), 8-9. 10-11 (R.: por. J 6, 68c)",
       "opis": "",
-      "tekst": "Refren: Słowa Twe, Panie, dają życie wieczne.\n\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\n\nRefren.\n\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\n\nRefren."
+      "tekst": "Refren: Słowa Twe, Panie, dają życie wieczne.\n\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\n\n\nRefren.\n\n\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\n\nRefren."
     },
     {
       "typ": "SIÓDME CZYTANIE",
@@ -460,7 +460,7 @@ treść:
       "typ": "7 PSALM RESPONSORYJNY",
       "sigla": "Ps 42 (41), 2-3. 5; Ps 43 (42), 3. 4 (R.: por. Ps 42 [41], 3ab)",
       "opis": "",
-      "tekst": "Refren: Boga żywego pragnie moja dusza.\n\nJak łania pragnie wody ze strumieni, *\ntak dusza moja pragnie Ciebie, Boże.\nDusza moja Boga pragnie, Boga żywego, *\nkiedyż więc przyjdę i ujrzę oblicze Boże?\n\nRefren.\n\nRozpływa się we mnie moja dusza, *\ngdy wspominam, jak z tłumem kroczyłem\ndo Bożego domu,\nw świątecznym orszaku, *\nwśród głosów radości i chwały.\n\nRefren.\n\nZeślij światłość i wierność swoją, *\nniech one mnie wiodą,\nniech mnie zaprowadzą na Twą górę świętą *\ni do Twoich przybytków.\n\nRefren.\n\nI przystąpię do ołtarza Bożego, *\ndo Boga, który jest moim weselem i radością.\nI będę Cię chwalił przy dźwiękach lutni, *\nBoże, mój Boże!\n\nRefren."
+      "tekst": "Refren: Boga żywego pragnie moja dusza.\n\nJak łania pragnie wody ze strumieni, *\ntak dusza moja pragnie Ciebie, Boże.\nDusza moja Boga pragnie, Boga żywego, *\nkiedyż więc przyjdę i ujrzę oblicze Boże?\n\n\nRefren.\n\n\nRozpływa się we mnie moja dusza, *\ngdy wspominam, jak z tłumem kroczyłem\ndo Bożego domu,\nw świątecznym orszaku, *\nwśród głosów radości i chwały.\n\n\nRefren.\n\n\nZeślij światłość i wierność swoją, *\nniech one mnie wiodą,\nniech mnie zaprowadzą na Twą górę świętą *\ni do Twoich przybytków.\n\n\nRefren.\n\n\nI przystąpię do ołtarza Bożego, *\ndo Boga, który jest moim weselem i radością.\nI będę Cię chwalił przy dźwiękach lutni, *\nBoże, mój Boże!\n\nRefren."
     },
     {
       "typ": "ÓSME CZYTANIE (EPISTOŁA)",
@@ -472,7 +472,7 @@ treść:
       "typ": "8 PSALM RESPONSORYJNY",
       "sigla": "Ps 118 (117), 1b-2. 16-17. 22-23",
       "opis": "",
-      "tekst": "Refren: Alleluja, alleluja, alleluja.\n\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nNiech dom Izraela głosi: *\n«Jego łaska na wieki».\n\nRefren.\n\nPrawica Pana wzniesiona wysoko, *\nprawica Pańska moc okazała.\nNie umrę, ale żyć będę *\ni głosić dzieła Pana.\n\nRefren.\n\nKamień odrzucony przez budujących *\nstał się kamieniem węgielnym.\nStało się to przez Pana *\ni cudem jest w naszych oczach.\n\nRefren."
+      "tekst": "Refren: Alleluja, alleluja, alleluja.\n\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nNiech dom Izraela głosi: *\n«Jego łaska na wieki».\n\n\nRefren.\n\n\nPrawica Pana wzniesiona wysoko, *\nprawica Pańska moc okazała.\nNie umrę, ale żyć będę *\ni głosić dzieła Pana.\n\n\nRefren.\n\n\nKamień odrzucony przez budujących *\nstał się kamieniem węgielnym.\nStało się to przez Pana *\ni cudem jest w naszych oczach.\n\nRefren."
     },
     {
       "typ": "EWANGELIA W ROKU A",
@@ -764,8 +764,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -862,8 +862,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -960,8 +960,8 @@ treść:
 <!-- Opis: Zaktualizowano ścieżkę do MainActivity, aby wskazywała na nową lokalizację w pakiecie ui.main, co naprawia błąd ClassNotFoundException. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjproject.liturgicalcalendar"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -1203,7 +1203,7 @@ treść:
       "typ": "1 PSALM RESPONSORYJNY",
       "sigla": "Ps 104 (103) lub Ps 33 (32)",
       "opis": "",
-      "tekst": "Refren: Niech zstąpi Duch Twój i odnowi ziemię.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\nRefren.\nUmocniłeś fundamenty ziemi, *\nnie zachwieje się na wieki wieków.\nJak szatą okryłeś ją Wielką Głębią, *\nponad górami stanęły wody.\nRefren.\nTy zdroje kierujesz do strumieni, *\nktóre pośród gór się sączą.\nNad nimi mieszka ptactwo niebieskie *\ni śpiewa pośród gałęzi.\nRefren.\nZ Twoich komnat nawadniasz góry, *\nowocem dzieł Twoich syci się ziemia.\nKażesz rosnąć trawie dla bydła *\ni roślinom, by człowiekowi służyły.\nRefren.\nJak liczne są dzieła Twoje, Panie! *\nTy wszystko mądrze uczyniłeś,\nziemia jest pełna Twoich stworzeń. *\nBłogosław, duszo moja, Pana.\nRefren.\n\nALBO:\n\nRefren: Pełna jest ziemia łaskawości Pana.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\nRefren.\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nOn morskie wody gromadzi jak w bukłaku, *\notchłanie oceanu w zbiornikach.\nRefren.\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\nRefren.\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
+      "tekst": "Refren: Niech zstąpi Duch Twój i odnowi ziemię.\nBłogosław, duszo moja, Pana, *\nBoże mój, Panie, Ty jesteś bardzo wielki!\nOdziany w majestat i piękno, *\nświatłem okryty jak płaszczem.\n\nRefren.\n\nUmocniłeś fundamenty ziemi, *\nnie zachwieje się na wieki wieków.\nJak szatą okryłeś ją Wielką Głębią, *\nponad górami stanęły wody.\n\nRefren.\n\nTy zdroje kierujesz do strumieni, *\nktóre pośród gór się sączą.\nNad nimi mieszka ptactwo niebieskie *\ni śpiewa pośród gałęzi.\n\nRefren.\n\nZ Twoich komnat nawadniasz góry, *\nowocem dzieł Twoich syci się ziemia.\nKażesz rosnąć trawie dla bydła *\ni roślinom, by człowiekowi służyły.\n\nRefren.\n\nJak liczne są dzieła Twoje, Panie! *\nTy wszystko mądrze uczyniłeś,\nziemia jest pełna Twoich stworzeń. *\nBłogosław, duszo moja, Pana.\n\nRefren.\n\n\nALBO:\n\nRefren: Pełna jest ziemia łaskawości Pana.\nSłowo Pana jest prawe, *\na każde Jego dzieło godne zaufania.\nOn miłuje prawo i sprawiedliwość, *\nziemia jest pełna Jego łaski.\n\nRefren.\n\nPrzez słowo Pana powstały niebiosa, *\nwszystkie gwiazdy przez tchnienie ust Jego.\nOn morskie wody gromadzi jak w bukłaku, *\notchłanie oceanu w zbiornikach.\n\nRefren.\n\nBłogosławiony lud, którego Pan jest Bogiem, *\nnaród, który On wybrał na dziedzictwo dla siebie.\nPan spogląda z nieba, *\nwidzi wszystkich ludzi.\n\nRefren.\n\nDusza nasza oczekuje Pana, *\nOn jest naszą pomocą i tarczą.\nPanie, niech nas ogarnie Twoja łaska, *\nwedług nadziei pokładanej w Tobie.\nRefren."
     },
     {
       "typ": "DRUGIE CZYTANIE dłuższe",
@@ -1221,7 +1221,7 @@ treść:
       "typ": "2 PSALM RESPONSORYJNY",
       "sigla": "Ps 16 (15), 5 i 8. 9-10. 11 (R.: por. 1b)",
       "opis": "",
-      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\n\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\n\nRefren.\n\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\n\nRefren.\n\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\n\nRefren."
+      "tekst": "Refren: Strzeż mnie, o Boże, Tobie zaufałem.\n\nPan moim dziedzictwem i przeznaczeniem, *\nto On mój los zabezpiecza.\nZawsze stawiam sobie Pana przed oczy, *\nOn jest po mojej prawicy, nic mną nie zachwieje.\n\n\nRefren.\n\n\nDlatego cieszy się moje serce i dusza raduje, *\na ciało moje będzie spoczywać bezpiecznie,\nbo w kraju zmarłych duszy mej nie zostawisz *\ni nie dopuścisz, bym pozostał w grobie.\n\n\nRefren.\n\n\nTy ścieżkę życia mi ukażesz, *\npełnię radości przy Tobie\ni wieczne szczęście *\npo Twojej prawicy.\n\nRefren."
     },
     {
       "typ": "TRZECIE CZYTANIE",
@@ -1233,7 +1233,7 @@ treść:
       "typ": "3 PSALM RESPONSORYJNY",
       "sigla": "Wj 15, 1b-2c. 3-4. 5-6. 17-18 (R.: por. 1bc)",
       "opis": "",
-      "tekst": "Refren: Śpiewajmy Panu, który moc okazał.\n\nZaśpiewam na cześć Pana, który okrył się sławą, *\ngdy konia i jeźdźca pogrążył w morskiej toni.\nPan jest moją mocą i źródłem męstwa, †\nJemu zawdzięczam moje ocalenie. *\nOn Bogiem moim, uwielbiać Go będę.\n\nRefren.\n\nPan wojownik potężny, *\n«Ten, który jest», brzmi Jego imię.\nRzucił w morze rydwany faraona i wojsko jego, *\nwybrani wodzowie legli w Morzu Czerwonym.\n\nRefren.\n\nPrzepaści ich ogarnęły, *\njak głaz runęli w głębinę.\nUwielbiona jest potęga prawicy Twej, Panie, *\nprawica Twa, o Panie, starła nieprzyjaciół.\n\nRefren.\n\nWprowadziłeś ich i osadziłeś *\nna górze Twojego dziedzictwa.\nW miejscu, które uczyniłeś swym mieszkaniem, †\nw świątyni zbudowanej Twoimi rękami, *\nPan jest Królem na zawsze i na wieki.\n\nRefren."
+      "tekst": "Refren: Śpiewajmy Panu, który moc okazał.\n\nZaśpiewam na cześć Pana, który okrył się sławą, *\ngdy konia i jeźdźca pogrążył w morskiej toni.\nPan jest moją mocą i źródłem męstwa, †\nJemu zawdzięczam moje ocalenie. *\nOn Bogiem moim, uwielbiać Go będę.\n\n\nRefren.\n\n\nPan wojownik potężny, *\n«Ten, który jest», brzmi Jego imię.\nRzucił w morze rydwany faraona i wojsko jego, *\nwybrani wodzowie legli w Morzu Czerwonym.\n\n\nRefren.\n\n\nPrzepaści ich ogarnęły, *\njak głaz runęli w głębinę.\nUwielbiona jest potęga prawicy Twej, Panie, *\nprawica Twa, o Panie, starła nieprzyjaciół.\n\n\nRefren.\n\n\nWprowadziłeś ich i osadziłeś *\nna górze Twojego dziedzictwa.\nW miejscu, które uczyniłeś swym mieszkaniem, †\nw świątyni zbudowanej Twoimi rękami, *\nPan jest Królem na zawsze i na wieki.\n\nRefren."
     },
     {
       "typ": "CZWARTE CZYTANIE",
@@ -1245,7 +1245,7 @@ treść:
       "typ": "4 PSALM RESPONSORYJNY",
       "sigla": "Ps 30 (29), 2 i 4. 5-6. 11-12a i 13b (R.: 2a)",
       "opis": "",
-      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\n\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie, mój Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\n\nRefren.\n\nŚpiewajcie psalm, wszyscy miłujący Pana, *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\n\nRefren.\n\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\n\nRefren."
+      "tekst": "Refren: Sławię Cię, Panie, bo mnie wybawiłeś.\n\nSławię Cię, Panie, bo mnie wybawiłeś *\ni nie pozwoliłeś mym wrogom naśmiewać się ze mnie.\nPanie, mój Boże, †\nz krainy umarłych wywołałeś moją duszę *\ni ocaliłeś mi życie spośród schodzących do grobu.\n\n\nRefren.\n\n\nŚpiewajcie psalm, wszyscy miłujący Pana, *\ni pamiętajcie o Jego świętości.\nGniew Jego bowiem trwa tylko przez chwilę, †\na Jego łaska przez całe życie. *\nPłacz nadchodzi z wieczora, a rankiem wesele.\n\n\nRefren.\n\n\nWysłuchaj mnie, Panie, zmiłuj się nade mną, *\nPanie, bądź moją pomocą.\nZamieniłeś w taniec mój żałobny lament, *\nBoże mój i Panie, będę Cię sławił na wieki.\n\nRefren."
     },
     {
       "typ": "PIĄTE CZYTANIE",
@@ -1257,7 +1257,7 @@ treść:
       "typ": "5 PSALM RESPONSORYJNY",
       "sigla": "Iz 12, 2. 3 i 4bcd. 5-6 (R.: por. 3)",
       "opis": "",
-      "tekst": "Refren: Będziecie czerpać ze zdrojów zbawienia.\n\nOto Bóg jest moim zbawieniem! *\nJemu zaufam i bać się nie będę.\nPan jest moją pieśnią i mocą, *\ni On stał się moim zbawieniem.\n\nRefren.\n\nWy zaś z weselem czerpać będziecie wodę *\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia! †\nUkażcie narodom Jego dzieła, *\nprzypominajcie, że Jego imię jest chwalebne.\n\nRefren.\n\nŚpiewajcie Panu, bo czynów wspaniałych dokonał! *\nI cała ziemia niech o tym się dowie.\nWznoś okrzyki i wołaj radośnie, mieszkanko Syjonu, *\nbo wielki jest wśród ciebie Święty Izraela.\n\nRefren."
+      "tekst": "Refren: Będziecie czerpać ze zdrojów zbawienia.\n\nOto Bóg jest moim zbawieniem! *\nJemu zaufam i bać się nie będę.\nPan jest moją pieśnią i mocą, *\ni On stał się moim zbawieniem.\n\n\nRefren.\n\n\nWy zaś z weselem czerpać będziecie wodę *\nze zdrojów zbawienia.\nChwalcie Pana, wzywajcie Jego imienia! †\nUkażcie narodom Jego dzieła, *\nprzypominajcie, że Jego imię jest chwalebne.\n\n\nRefren.\n\n\nŚpiewajcie Panu, bo czynów wspaniałych dokonał! *\nI cała ziemia niech o tym się dowie.\nWznoś okrzyki i wołaj radośnie, mieszkanko Syjonu, *\nbo wielki jest wśród ciebie Święty Izraela.\n\nRefren."
     },
     {
       "typ": "SZÓSTE CZYTANIE",
@@ -1269,7 +1269,7 @@ treść:
       "typ": "6 PSALM RESPONSORYJNY",
       "sigla": "Ps 19 (18), 8-9. 10-11 (R.: por. J 6, 68c)",
       "opis": "",
-      "tekst": "Refren: Słowa Twe, Panie, dają życie wieczne.\n\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\n\nRefren.\n\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\n\nRefren."
+      "tekst": "Refren: Słowa Twe, Panie, dają życie wieczne.\n\nPrawo Pańskie jest doskonałe i pokrzepia duszę, *\nświadectwo Pana jest pewne, nierozważnego uczy mądrości.\nJego słuszne nakazy radują serce, *\njaśnieje przykazanie Pana i olśniewa oczy.\n\n\nRefren.\n\n\nBojaźń Pana jest szczera i trwa na wieki, *\nsądy Pana prawdziwe, wszystkie razem słuszne.\nCenniejsze nad złoto, nad złoto najczystsze, *\nsłodsze od miodu płynącego z plastra.\n\nRefren."
     },
     {
       "typ": "SIÓDME CZYTANIE",
@@ -1281,7 +1281,7 @@ treść:
       "typ": "7 PSALM RESPONSORYJNY",
       "sigla": "Ps 42 (41), 2-3. 5; Ps 43 (42), 3. 4 (R.: por. Ps 42 [41], 3ab)",
       "opis": "",
-      "tekst": "Refren: Boga żywego pragnie moja dusza.\n\nJak łania pragnie wody ze strumieni, *\ntak dusza moja pragnie Ciebie, Boże.\nDusza moja Boga pragnie, Boga żywego, *\nkiedyż więc przyjdę i ujrzę oblicze Boże?\n\nRefren.\n\nRozpływa się we mnie moja dusza, *\ngdy wspominam, jak z tłumem kroczyłem\ndo Bożego domu,\nw świątecznym orszaku, *\nwśród głosów radości i chwały.\n\nRefren.\n\nZeślij światłość i wierność swoją, *\nniech one mnie wiodą,\nniech mnie zaprowadzą na Twą górę świętą *\ni do Twoich przybytków.\n\nRefren.\n\nI przystąpię do ołtarza Bożego, *\ndo Boga, który jest moim weselem i radością.\nI będę Cię chwalił przy dźwiękach lutni, *\nBoże, mój Boże!\n\nRefren."
+      "tekst": "Refren: Boga żywego pragnie moja dusza.\n\nJak łania pragnie wody ze strumieni, *\ntak dusza moja pragnie Ciebie, Boże.\nDusza moja Boga pragnie, Boga żywego, *\nkiedyż więc przyjdę i ujrzę oblicze Boże?\n\n\nRefren.\n\n\nRozpływa się we mnie moja dusza, *\ngdy wspominam, jak z tłumem kroczyłem\ndo Bożego domu,\nw świątecznym orszaku, *\nwśród głosów radości i chwały.\n\n\nRefren.\n\n\nZeślij światłość i wierność swoją, *\nniech one mnie wiodą,\nniech mnie zaprowadzą na Twą górę świętą *\ni do Twoich przybytków.\n\n\nRefren.\n\n\nI przystąpię do ołtarza Bożego, *\ndo Boga, który jest moim weselem i radością.\nI będę Cię chwalił przy dźwiękach lutni, *\nBoże, mój Boże!\n\nRefren."
     },
     {
       "typ": "ÓSME CZYTANIE (EPISTOŁA)",
@@ -1293,7 +1293,7 @@ treść:
       "typ": "8 PSALM RESPONSORYJNY",
       "sigla": "Ps 118 (117), 1b-2. 16-17. 22-23",
       "opis": "",
-      "tekst": "Refren: Alleluja, alleluja, alleluja.\n\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nNiech dom Izraela głosi: *\n«Jego łaska na wieki».\n\nRefren.\n\nPrawica Pana wzniesiona wysoko, *\nprawica Pańska moc okazała.\nNie umrę, ale żyć będę *\ni głosić dzieła Pana.\n\nRefren.\n\nKamień odrzucony przez budujących *\nstał się kamieniem węgielnym.\nStało się to przez Pana *\ni cudem jest w naszych oczach.\n\nRefren."
+      "tekst": "Refren: Alleluja, alleluja, alleluja.\n\nDziękujcie Panu, bo jest dobry, *\nbo Jego łaska trwa na wieki.\nNiech dom Izraela głosi: *\n«Jego łaska na wieki».\n\n\nRefren.\n\n\nPrawica Pana wzniesiona wysoko, *\nprawica Pańska moc okazała.\nNie umrę, ale żyć będę *\ni głosić dzieła Pana.\n\n\nRefren.\n\n\nKamień odrzucony przez budujących *\nstał się kamieniem węgielnym.\nStało się to przez Pana *\ni cudem jest w naszych oczach.\n\nRefren."
     },
     {
       "typ": "EWANGELIA W ROKU A",
@@ -1622,8 +1622,7 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    // ZMIANA: Zwiększono wersję, aby wymusić ponowne skopiowanie pliku piesni.json
-    private val currentDataVersion = 9
+    private val currentDataVersion = 11
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -1903,6 +1902,7 @@ treść:
 // Opis: Odpowiada za operacje związane z plikami dni liturgicznych, w tym ich odczyt, zapis, oraz pobieranie listy plików dla konkretnego miesiąca.
 package com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository
 
+import android.content.Context
 import android.util.Log
 import com.qjproject.liturgicalcalendar.data.DayData
 import kotlinx.serialization.json.Json
@@ -1912,6 +1912,7 @@ import java.time.format.TextStyle
 import java.util.Locale
 
 internal class DayFileManager(
+    private val context: Context,
     private val internalStorageRoot: File,
     private val json: Json
 ) {
@@ -1935,13 +1936,34 @@ internal class DayFileManager(
     }
 
     fun getDayData(path: String): DayData? {
+        // POPRAWKA: Obsługa pustych ścieżek dla dni bez danych
+        if (path.startsWith("empty/")) {
+            val eventName = path.removePrefix("empty/")
+            Log.i("DayFileManager", "Tworzenie pustych danych dla wydarzenia: $eventName")
+            return DayData(
+                urlCzytania = "",
+                tytulDnia = eventName,
+                czyDatowany = true,
+                czytania = emptyList(),
+                piesniSugerowane = emptyList(),
+                wstawki = emptyMap()
+            )
+        }
+        
         try {
-            val file = File(internalStorageRoot, path)
-            if (!file.exists()) {
-                Log.e("DayFileManager", "Plik nie istnieje: ${file.absolutePath}")
-                return null
+            // Najpierw spróbuj odczytać z assets
+            val jsonString = try {
+                context.assets.open(path).bufferedReader().use { it.readText() }
+            } catch (e: Exception) {
+                // Jeśli nie ma w assets, spróbuj z pamięci wewnętrznej
+                val file = File(internalStorageRoot, path)
+                if (!file.exists()) {
+                    Log.e("DayFileManager", "Plik nie istnieje ani w assets, ani w pamięci wewnętrznej: $path")
+                    return null
+                }
+                file.bufferedReader().use { it.readText() }
             }
-            val jsonString = file.bufferedReader().use { it.readText() }
+            
             if (jsonString.isBlank()) {
                 Log.w("DayFileManager", "Pusty plik JSON, pomijanie: $path")
                 return null
@@ -2263,7 +2285,7 @@ class FileSystemRepository(val context: Context) {
     private val internalStorageRoot: File = context.filesDir
 
     private val cacheManager = CacheManager()
-    private val dayFileManager = DayFileManager(internalStorageRoot, json)
+    private val dayFileManager = DayFileManager(context, internalStorageRoot, json)
     private val songFileManager = SongFileManager(internalStorageRoot, json, cacheManager, dayFileManager)
     private val categoryFileManager = CategoryFileManager(internalStorageRoot, json, cacheManager, songFileManager)
     private val directoryManager = DirectoryManager(internalStorageRoot, json)
@@ -4507,13 +4529,70 @@ class CalendarRepository(context: Context) {
         return@withContext networkManager.downloadIcsData(year).fold(
             onSuccess = { icsContent ->
                 val parsedEvents = icsParser.parseIcsToEvents(icsContent, translationMap)
-                fileManager.saveYearData(year, parsedEvents)
+                val saveResult = fileManager.saveYearData(year, parsedEvents)
+                
+                // KRYTYCZNA POPRAWKA: Natychmiastowa augmentacja i zapis uzupełnionych danych
+                if (saveResult.isSuccess) {
+                    Log.i("CalendarRepository", "Uruchamianie automatycznej augmentacji dla pobranego roku $year.")
+                    try {
+                        // Wykonaj pełną augmentację dla pobranego roku
+                        val augmentedData = performImmediateAugmentation(year)
+                        if (augmentedData != null) {
+                            // Zapisz uzupełnione dane z powrotem do pliku
+                            fileManager.saveYearData(year, augmentedData)
+                            Log.i("CalendarRepository", "Automatyczna augmentacja i zapis dla roku $year zakończone pomyślnie.")
+                        }
+                    } catch (e: Exception) {
+                        Log.w("CalendarRepository", "Błąd podczas automatycznej augmentacji roku $year: ${e.message}")
+                        // Nie przerywamy procesu - podstawowe dane zostały pobrane i zapisane
+                    }
+                }
+                
+                saveResult
             },
             onFailure = {
                 Log.e("CalendarRepository", "Pobieranie danych dla roku $year nie powiodło się.", it)
                 Result.failure(it)
             }
         )
+    }
+
+    suspend fun downloadMissingYearsOnly(requiredYears: List<Int>): Result<List<Int>> = withContext(Dispatchers.IO) {
+        val missingYears = requiredYears.filter { !fileManager.isYearAvailable(it) }
+        
+        if (missingYears.isEmpty()) {
+            Log.d("CalendarRepository", "Wszystkie wymagane lata (${requiredYears.joinToString()}) są już dostępne lokalnie.")
+            return@withContext Result.success(emptyList())
+        }
+
+        Log.i("CalendarRepository", "Pobieranie brakujących lat: ${missingYears.joinToString()}")
+        val failedYears = mutableListOf<Int>()
+        val successfulYears = mutableListOf<Int>()
+
+        for (year in missingYears) {
+            downloadAndSaveYearIfNeeded(year).fold(
+                onSuccess = { 
+                    successfulYears.add(year)
+                    Log.d("CalendarRepository", "Pomyślnie pobrano i przetworzono dane dla roku $year")
+                },
+                onFailure = { 
+                    failedYears.add(year)
+                    Log.e("CalendarRepository", "Nie udało się pobrać danych dla roku $year")
+                }
+            )
+        }
+
+        return@withContext if (failedYears.isEmpty()) {
+            Log.i("CalendarRepository", "Wszystkie brakujące lata zostały pomyślnie pobrane i przetworzone: ${successfulYears.joinToString()}")
+            Result.success(successfulYears)
+        } else {
+            Log.w("CalendarRepository", "Częściowy sukces - pobrano: ${successfulYears.joinToString()}, błędy: ${failedYears.joinToString()}")
+            Result.failure(Exception("Nie udało się pobrać danych dla lat: ${failedYears.joinToString()}"))
+        }
+    }
+
+    fun areRequiredYearsAvailable(requiredYears: List<Int>): Boolean {
+        return requiredYears.all { fileManager.isYearAvailable(it) }
     }
 
     fun getDominantEvent(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
@@ -4533,6 +4612,51 @@ class CalendarRepository(context: Context) {
 
     fun deleteAllCalendarFiles() {
         fileManager.deleteAllCalendarFiles()
+    }
+
+    /**
+     * Wykonuje natychmiastową augmentację dla konkretnego roku i zwraca uzupełnione wydarzenia.
+     * Ta funkcja jest wywoływana bezpośrednio po pobraniu i zapisie danych, aby zapewnić
+     * że wszystkie pobrane lata mają uzupełnione dni powszednie.
+     */
+    private suspend fun performImmediateAugmentation(year: Int): List<LiturgicalEventDetails>? = withContext(Dispatchers.IO) {
+        try {
+            Log.d("CalendarRepository", "Rozpoczynanie natychmiastowej augmentacji dla roku $year")
+            
+            // Pobierz dane dla roku oraz sąsiadujących lat (potrzebne do augmentacji)
+            val prevYearEventsDeferred = async { fileManager.getLiturgicalEvents(year - 1) }
+            val currentYearEventsDeferred = async { fileManager.getLiturgicalEvents(year) }
+            val nextYearEventsDeferred = async { fileManager.getLiturgicalEvents(year + 1) }
+
+            val prevYearEvents = prevYearEventsDeferred.await()
+            val currentYearEvents = currentYearEventsDeferred.await()
+            val nextYearEvents = nextYearEventsDeferred.await()
+
+            if (currentYearEvents == null) {
+                Log.e("CalendarRepository", "Brak danych dla roku $year. Nie można wykonać augmentacji.")
+                return@withContext null
+            }
+
+            Log.d("CalendarRepository", "Załadowano wydarzenia dla augmentacji: ${prevYearEvents?.size ?: 0} (rok ${year-1}), ${currentYearEvents.size} (rok $year), ${nextYearEvents?.size ?: 0} (rok ${year+1})")
+
+            // Połącz wszystkie wydarzenia z trzech lat
+            val allEvents = (prevYearEvents.orEmpty() + currentYearEvents + nextYearEvents.orEmpty()).distinct()
+
+            // Wykonaj augmentację
+            val augmentedEvents = LiturgicalDaySupplement.augmentYearlyEvents(allEvents)
+
+            // Zwróć tylko wydarzenia dla docelowego roku
+            val finalEventsForYear = augmentedEvents.filter {
+                LocalDate.parse(it.data, LiturgicalEventDetails.DATE_FORMATTER).year == year
+            }
+
+            Log.i("CalendarRepository", "Natychmiastowa augmentacja dla roku $year zakończona. Uzupełniono ${finalEventsForYear.size - currentYearEvents.size} dni powszednich.")
+            return@withContext finalEventsForYear
+
+        } catch (e: Exception) {
+            Log.e("CalendarRepository", "Błąd podczas natychmiastowej augmentacji roku $year: ${e.message}", e)
+            return@withContext null
+        }
     }
 }
 
@@ -5033,7 +5157,25 @@ internal val translationMap: Map<String, String> = mapOf(
     "Najświętszego Serca Pana Jezusa" to "Uroczystość Najświętszego Serca Pana Jezusa",
     "Najświętszej Trójcy" to "Uroczystość Najświętszej Trójcy",
     "Niedziela Zesłania Ducha Świętego" to "Uroczystość Zesłania Ducha Świętego",
-    "Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana" to "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana"
+    "Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana" to "Święto Jezusa Chrystusa, Najwyższego i Wiecznego Kapłana",
+    "Św. Teresy Benedykty od Krzyża, dziewicy i męczennicy" to "9 sierpnia - św. Teresy Benedykty od Krzyża (Edyty Stein)",
+    "Katedry św. Piotra Apostoła" to "22 lutego - Święto Katedry św. Piotra, Apostoła",
+    "Katedry św. Piotra, Apostoła" to "22 lutego - Święto Katedry św. Piotra, Apostoła",
+    "Piątek przed Objawieniem Pańskim" to "4 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Sobota przed Objawieniem Pańskim" to "5 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Środa po Objawieniu Pańskim" to "8 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Czwartek po Objawieniu Pańskim" to "9 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Piątek po Objawieniu Pańskim" to "10 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Sobota po Objawieniu Pańskim" to "11 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Świętych Joachima i Anny" to "26 lipca - św. Joachima i Anny",
+    "Nawrócenie św. Pawła, Apostoła" to "25 stycznia - Nawrócenie św. Pawła Apostoła",
+    "Narodzenie św. Jana Chrzciciela" to "24 czerwca - Narodzenie św. Jana Chrzciciela",
+    // Dodatkowe wpisy dla problematycznych dni
+    "Wtorek po Objawieniu Pańskim" to "7 stycznia - Dzień powszedni w Okresie Narodzenia Pańskiego",
+    "Święto Przemienienia Pańskiego" to "6 sierpnia - Święto Przemienienia Pańskiego",
+    "Przemienienie Pańskie" to "6 sierpnia - Święto Przemienienia Pańskiego",
+    "Święto św. Łukasza Ewangelisty" to "18 października - św. Łukasza Ewangelisty",
+    "Św. Łukasza, Ewangelisty" to "18 października - św. Łukasza Ewangelisty"
 )
 
 -
@@ -5740,7 +5882,9 @@ import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.CalendarRepository
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.CalendarDay
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYear
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalEventDetails
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.translationMap
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.model.CalendarUiState
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.model.NavigationAction
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -5767,18 +5911,65 @@ class CalendarViewModel(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val currentYear = YearMonth.now().year
-            val isCurrentYearAvailable = calendarRepo.isYearAvailable(currentYear)
-            val isPreviousYearAvailable = calendarRepo.isYearAvailable(currentYear - 1)
-
-            if (!isCurrentYearAvailable || !isPreviousYearAvailable) {
-                _uiState.update { it.copy(isDataMissing = true, isLoading = true) }
-                forceRefreshData()
-            } else {
+            val requiredYears = listOf(currentYear - 1, currentYear, currentYear + 1)
+            
+            val areAllRequiredYearsAvailable = calendarRepo.areRequiredYearsAvailable(requiredYears)
+            
+            if (areAllRequiredYearsAvailable) {
+                // Wszystkie wymagane dane są dostępne lokalnie
                 val availableYears = calendarRepo.getAvailableYears()
                 _uiState.update { it.copy(isDataMissing = false, availableYears = availableYears, isLoading = false) }
                 loadDataForMonth(YearMonth.now())
-                viewModelScope.launch { calendarRepo.downloadAndSaveYearIfNeeded(currentYear + 1) }
+            } else {
+                // Pobierz tylko brakujące dane
+                _uiState.update { it.copy(isDataMissing = true, isLoading = true) }
+                smartRefreshData(requiredYears)
             }
+        }
+    }
+
+    private fun smartRefreshData(requiredYears: List<Int>) {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true, downloadError = null) }
+
+            calendarRepo.downloadMissingYearsOnly(requiredYears).fold(
+                onSuccess = { downloadedYears ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val currentYear = YearMonth.now().year
+                    val isCurrentYearAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearAvailable,
+                            availableYears = availableYears,
+                            downloadError = null
+                        )
+                    }
+
+                    if (isCurrentYearAvailable) {
+                        loadDataForMonth(YearMonth.now())
+                    }
+                },
+                onFailure = { error ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val currentYear = YearMonth.now().year
+                    val isCurrentYearAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearAvailable,
+                            availableYears = availableYears,
+                            downloadError = "Błąd: ${error.message}"
+                        )
+                    }
+
+                    if (isCurrentYearAvailable) {
+                        loadDataForMonth(YearMonth.now())
+                    }
+                }
+            )
         }
     }
 
@@ -5788,27 +5979,45 @@ class CalendarViewModel(
             calendarRepo.deleteAllCalendarFiles()
 
             val currentYear = YearMonth.now().year
-            var firstError: Throwable? = null
+            val requiredYears = listOf(currentYear - 1, currentYear, currentYear + 1)
+            
+            // POPRAWKA: Użyj downloadMissingYearsOnly dla spójnego przetwarzania wszystkich lat
+            calendarRepo.downloadMissingYearsOnly(requiredYears).fold(
+                onSuccess = { downloadedYears ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val isCurrentYearNowAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearNowAvailable,
+                            availableYears = availableYears,
+                            downloadError = null
+                        )
+                    }
 
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear - 1).onFailure { error -> if (firstError == null) firstError = error }
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear).onFailure { error -> if (firstError == null) firstError = error }
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear + 1).onFailure { error -> if (firstError == null) firstError = error }
+                    if (isCurrentYearNowAvailable) {
+                        loadDataForMonth(_uiState.value.selectedMonth)
+                    }
+                },
+                onFailure = { error ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val isCurrentYearNowAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearNowAvailable,
+                            availableYears = availableYears,
+                            downloadError = "Błąd: ${error.message}"
+                        )
+                    }
 
-            val availableYears = calendarRepo.getAvailableYears()
-            val isCurrentYearNowAvailable = availableYears.contains(currentYear)
-
-            _uiState.update {
-                it.copy(
-                    isLoading = false,
-                    isDataMissing = !isCurrentYearNowAvailable,
-                    availableYears = availableYears,
-                    downloadError = if (isCurrentYearNowAvailable) null else "Błąd: ${firstError?.message ?: "Nieznany błąd"}"
-                )
-            }
-
-            if (isCurrentYearNowAvailable) {
-                loadDataForMonth(_uiState.value.selectedMonth)
-            }
+                    if (isCurrentYearNowAvailable) {
+                        loadDataForMonth(_uiState.value.selectedMonth)
+                    }
+                }
+            )
         }
     }
 
@@ -5855,11 +6064,9 @@ class CalendarViewModel(
 
             when {
                 foundPaths.isEmpty() -> {
-                    val result = fileSystemRepo.createDayFile("Datowane/nieznane", event.name, null)
-                    result.onSuccess { newFileName ->
-                        val newPath = "Datowane/nieznane/$newFileName"
-                        onResult(NavigationAction.NavigateToDay(newPath))
-                    }
+                    // POPRAWKA: Zawsze otwórz okno szczegółów, nawet gdy nie ma pliku
+                    android.util.Log.w("CalendarViewModel", "Nie znaleziono pliku dla wydarzenia: '${event.name}'. Otwieranie pustego okna szczegółów.")
+                    onResult(NavigationAction.NavigateToDay("empty/${event.name}"))
                 }
                 foundPaths.size == 1 -> {
                     onResult(NavigationAction.NavigateToDay(foundPaths.first()))
@@ -5872,37 +6079,111 @@ class CalendarViewModel(
     }
 
     // --- POCZĄTEK ZMIANY ---
-    // Zastąpiono poprzednią, błędną logikę wyszukiwania nową, w pełni rekursywną funkcją.
+    // Poprawiona logika wyszukiwania plików w folderze assets z użyciem translationMap
     private fun findFilePathsForEvent(name: String): List<String> {
         val searchName = name.replace(":", "").trim()
         val results = mutableListOf<String>()
-        val directoriesToSearch = listOf(
-            File(fileSystemRepo.context.filesDir, "data"),
-            File(fileSystemRepo.context.filesDir, "Datowane")
-        )
-
-        directoriesToSearch.forEach { startDir ->
-            if (startDir.exists() && startDir.isDirectory) {
-                startDir.walkTopDown().forEach { file ->
-                    val itemName = if (file.isDirectory) file.name else file.nameWithoutExtension
-
-                    if (itemName.equals(searchName, ignoreCase = true)) {
-                        if (file.isDirectory) {
-                            file.walkTopDown()
-                                .filter { it.isFile && it.extension.equals("json", ignoreCase = true) }
-                                .forEach { jsonFile ->
-                                    val relativePath = jsonFile.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
-                                    results.add(relativePath)
-                                }
-                        } else if (file.isFile && file.extension.equals("json", ignoreCase = true)) {
-                            val relativePath = file.absolutePath.removePrefix(fileSystemRepo.context.filesDir.absolutePath + "/")
-                            results.add(relativePath)
+        val assetManager = fileSystemRepo.context.assets
+        
+        // KLUCZOWA POPRAWKA: Użyj translationMap do znalezienia właściwej nazwy pliku
+        val translatedName: String = translationMap[searchName] ?: searchName
+        android.util.Log.d("CalendarViewModel", "Szukanie wydarzenia: '$searchName' -> przetłumaczone na: '$translatedName'")
+        
+        try {
+            // Szukaj zarówno oryginalnej nazwy jak i przetłumaczonej
+            val namesToSearch = listOf(searchName, translatedName).distinct()
+            
+            for (nameToSearch in namesToSearch) {
+                // Przeszukaj folder "data" w assets
+                searchInAssetsDirectory(assetManager, "data", nameToSearch, results)
+                
+                // Przeszukaj folder "Datowane" w assets
+                searchInAssetsDirectory(assetManager, "Datowane", nameToSearch, results)
+            }
+            
+        } catch (e: Exception) {
+            android.util.Log.e("CalendarViewModel", "Błąd podczas przeszukiwania assets: ${e.message}")
+        }
+        
+        android.util.Log.d("CalendarViewModel", "Znalezione pliki dla '$searchName': ${results.size} - $results")
+        return results.distinct().sorted()
+    }
+    
+    private fun searchInAssetsDirectory(assetManager: android.content.res.AssetManager, basePath: String, searchName: String, results: MutableList<String>) {
+        try {
+            val items = assetManager.list(basePath) ?: return
+            
+            for (item in items) {
+                val fullPath = "$basePath/$item"
+                
+                try {
+                    // Sprawdź czy to folder (próbując wylistować jego zawartość)
+                    val subItems = assetManager.list(fullPath)
+                    if (subItems != null && subItems.isNotEmpty()) {
+                        // To jest folder - rekursywnie przeszukaj
+                        searchInAssetsDirectory(assetManager, fullPath, searchName, results)
+                        
+                        // Sprawdź czy nazwa folderu pasuje do szukanej nazwy
+                        if (item.equals(searchName, ignoreCase = true)) {
+                            // Znajdź wszystkie pliki JSON w tym folderze
+                            findJsonFilesInDirectory(assetManager, fullPath, results)
                         }
+                    } else {
+                        // To jest plik
+                        val fileName = if (item.endsWith(".json")) {
+                            item.substringBeforeLast(".json")
+                        } else {
+                            item
+                        }
+                        
+                        if (fileName.contains(searchName, ignoreCase = true) && item.endsWith(".json")) {
+                            results.add(fullPath)
+                        }
+                    }
+                } catch (e: Exception) {
+                    // Jeśli nie można wylistować, to prawdopodobnie jest to plik
+                    val fileName = if (item.endsWith(".json")) {
+                        item.substringBeforeLast(".json")
+                    } else {
+                        item
+                    }
+                    
+                    if (fileName.contains(searchName, ignoreCase = true) && item.endsWith(".json")) {
+                        results.add(fullPath)
                     }
                 }
             }
+        } catch (e: Exception) {
+            android.util.Log.w("CalendarViewModel", "Nie można przeszukać folderu $basePath: ${e.message}")
         }
-        return results.distinct().sorted()
+    }
+    
+    private fun findJsonFilesInDirectory(assetManager: android.content.res.AssetManager, dirPath: String, results: MutableList<String>) {
+        try {
+            val items = assetManager.list(dirPath) ?: return
+            
+            for (item in items) {
+                val fullPath = "$dirPath/$item"
+                
+                try {
+                    val subItems = assetManager.list(fullPath)
+                    if (subItems != null && subItems.isNotEmpty()) {
+                        // To jest podfolder - rekursywnie przeszukaj
+                        findJsonFilesInDirectory(assetManager, fullPath, results)
+                    } else if (item.endsWith(".json")) {
+                        // To jest plik JSON
+                        results.add(fullPath)
+                    }
+                } catch (e: Exception) {
+                    // Prawdopodobnie plik
+                    if (item.endsWith(".json")) {
+                        results.add(fullPath)
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            android.util.Log.w("CalendarViewModel", "Błąd podczas przeszukiwania folderu $dirPath: ${e.message}")
+        }
     }
     // --- KONIEC ZMIANY ---
 
@@ -7474,18 +7755,20 @@ internal fun DayDetailsViewModeContent(
                 )
             }
         }
-        Spacer(modifier = Modifier.height(24.dp))
-        // --- POCZĄTEK ZMIANY ---
+        Spacer(modifier = Modifier.height(12.dp))
         val wstawki = uiState.dayData?.wstawki
-        if (!wstawki.isNullOrEmpty()) {
-            HierarchicalCollapsibleSection(
-                title = "Wstawki mszalne",
-                isExpanded = uiState.isInsertsSectionExpanded,
-                onToggle = { viewModel.toggleInsertsSection() }
-            ) {
-                wstawki.entries.sortedBy { it.key }.forEach { (key, value) ->
+        val hasWstawki = !wstawki.isNullOrEmpty()
+        
+        HierarchicalCollapsibleSection(
+            title = "Wstawki",
+            isExpanded = if (hasWstawki) uiState.isInsertsSectionExpanded else false,
+            onToggle = { if (hasWstawki) viewModel.toggleInsertsSection() },
+            enabled = hasWstawki
+        ) {
+            if (hasWstawki) {
+                wstawki!!.entries.sortedBy { it.key }.forEach { (key, value) ->
                     InsertItemView(
-                        title = "Wstawka $key",
+                        title = "$key. Modlitwa eucharystyczna",
                         content = value,
                         isExpanded = uiState.expandedInserts.contains(key),
                         onToggle = { viewModel.toggleInsert(key) }
@@ -7493,8 +7776,7 @@ internal fun DayDetailsViewModeContent(
                 }
             }
         }
-        // --- KONIEC ZMIANY ---
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(12.dp))
         HierarchicalCollapsibleSection(
             title = "Sugerowane pieśni",
             isExpanded = uiState.isSongsSectionExpanded,
@@ -8304,7 +8586,7 @@ data class DayDetailsUiState(
     val activeDialog: DialogState = DialogState.None,
     val isReadingsSectionExpanded: Boolean = false,
     val isSongsSectionExpanded: Boolean = true,
-    val isInsertsSectionExpanded: Boolean = true,
+    val isInsertsSectionExpanded: Boolean = false,
     val expandedReadings: Set<Int> = emptySet(),
     val expandedSongMoments: Set<String> = songMomentOrderMap.keys,
     val expandedInserts: Set<String> = emptySet()
@@ -10451,6 +10733,7 @@ STRUKTURA FOLDERÓW I PLIKÓW PROJEKTU
 Aplikacja-dla-Konrada/
     .gitignore
     build.gradle.kts
+    datowane_files_analysis.txt
     gradle.properties
     gradlew
     gradlew.bat
@@ -14307,10 +14590,16 @@ Aplikacja-dla-Konrada/
                                                         CalendarRepository/
                                                             CalendarRepository$downloadAndSaveYearIfNeeded$1.dex
                                                             CalendarRepository$downloadAndSaveYearIfNeeded$2.dex
+                                                            CalendarRepository$downloadMissingYearsOnly$1.dex
+                                                            CalendarRepository$downloadMissingYearsOnly$2.dex
                                                             CalendarRepository$getAugmentedLiturgicalYear$2$currentYearEventsDeferred$1.dex
                                                             CalendarRepository$getAugmentedLiturgicalYear$2$nextYearEventsDeferred$1.dex
                                                             CalendarRepository$getAugmentedLiturgicalYear$2$prevYearEventsDeferred$1.dex
                                                             CalendarRepository$getAugmentedLiturgicalYear$2.dex
+                                                            CalendarRepository$performImmediateAugmentation$2$currentYearEventsDeferred$1.dex
+                                                            CalendarRepository$performImmediateAugmentation$2$nextYearEventsDeferred$1.dex
+                                                            CalendarRepository$performImmediateAugmentation$2$prevYearEventsDeferred$1.dex
+                                                            CalendarRepository$performImmediateAugmentation$2.dex
                                                             CalendarRepository.dex
                                                             local/
                                                                 CalendarFileManager.dex
@@ -14360,7 +14649,6 @@ Aplikacja-dla-Konrada/
                                                             IndexKt.dex
                                                         CalendarViewModel/
                                                             CalendarViewModel$changeMonth$1.dex
-                                                            CalendarViewModel$checkAndLoadInitialData$1$4.dex
                                                             CalendarViewModel$checkAndLoadInitialData$1.dex
                                                             CalendarViewModel$forceRefreshData$1.dex
                                                             CalendarViewModel$handleEventSelection$1.dex
@@ -14368,6 +14656,7 @@ Aplikacja-dla-Konrada/
                                                             CalendarViewModel$resetToCurrentMonth$1.dex
                                                             CalendarViewModel$setMonth$1.dex
                                                             CalendarViewModel$setYear$1.dex
+                                                            CalendarViewModel$smartRefreshData$1.dex
                                                             CalendarViewModel.dex
                                                             CalendarViewModelFactory.dex
                                                             model/
@@ -15043,9 +15332,6 @@ Aplikacja-dla-Konrada/
                         debug/
                             app-debug-androidTest.apk
                             output-metadata.json
-                    debug/
-                        app-debug.apk
-                        output-metadata.json
                 logs/
                     manifest-merger-debug-report.txt
             tmp/
@@ -15232,10 +15518,16 @@ Aplikacja-dla-Konrada/
                                                 CalendarRepository/
                                                     CalendarRepository$downloadAndSaveYearIfNeeded$1.class
                                                     CalendarRepository$downloadAndSaveYearIfNeeded$2.class
+                                                    CalendarRepository$downloadMissingYearsOnly$1.class
+                                                    CalendarRepository$downloadMissingYearsOnly$2.class
                                                     CalendarRepository$getAugmentedLiturgicalYear$2$currentYearEventsDeferred$1.class
                                                     CalendarRepository$getAugmentedLiturgicalYear$2$nextYearEventsDeferred$1.class
                                                     CalendarRepository$getAugmentedLiturgicalYear$2$prevYearEventsDeferred$1.class
                                                     CalendarRepository$getAugmentedLiturgicalYear$2.class
+                                                    CalendarRepository$performImmediateAugmentation$2$currentYearEventsDeferred$1.class
+                                                    CalendarRepository$performImmediateAugmentation$2$nextYearEventsDeferred$1.class
+                                                    CalendarRepository$performImmediateAugmentation$2$prevYearEventsDeferred$1.class
+                                                    CalendarRepository$performImmediateAugmentation$2.class
                                                     CalendarRepository.class
                                                     local/
                                                         CalendarFileManager.class
@@ -15285,7 +15577,6 @@ Aplikacja-dla-Konrada/
                                                     IndexKt.class
                                                 CalendarViewModel/
                                                     CalendarViewModel$changeMonth$1.class
-                                                    CalendarViewModel$checkAndLoadInitialData$1$4.class
                                                     CalendarViewModel$checkAndLoadInitialData$1.class
                                                     CalendarViewModel$forceRefreshData$1.class
                                                     CalendarViewModel$handleEventSelection$1.class
@@ -15293,6 +15584,7 @@ Aplikacja-dla-Konrada/
                                                     CalendarViewModel$resetToCurrentMonth$1.class
                                                     CalendarViewModel$setMonth$1.class
                                                     CalendarViewModel$setYear$1.class
+                                                    CalendarViewModel$smartRefreshData$1.class
                                                     CalendarViewModel.class
                                                     CalendarViewModelFactory.class
                                                     model/

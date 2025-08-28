@@ -78,7 +78,7 @@ fun CalendarScreen(
                 )
                 Spacer(modifier = Modifier.height(40.dp))
                 LiturgicalYearInfoView(
-                    mainInfo = uiState.liturgicalYearInfo
+                    displayInfo = uiState.liturgicalYearInfo
                 )
             }
         }

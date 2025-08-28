@@ -49,3 +49,8 @@ data class CalendarDay(
 ) {
     val hasEvents: Boolean get() = events.isNotEmpty()
 }
+
+data class LiturgicalYearDisplayInfo(
+    val mainText: String,
+    val subText: String?
+)

@@ -104,27 +104,43 @@ internal fun MissingDataScreen(
 }
 
 @Composable
-internal fun LiturgicalYearInfoView(mainInfo: String) {
-    Card(
-        shape = RoundedCornerShape(12.dp),
-        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy),
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 16.dp)
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
+internal fun LiturgicalYearInfoView(displayInfo: com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYearDisplayInfo) {
+    // Nie wyświetlaj komponentu jeśli komunikat jest pusty (dla wartości 0-0)
+    if (displayInfo.mainText.isNotBlank()) {
+        Card(
+            shape = RoundedCornerShape(12.dp),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy),
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 16.dp, horizontal = 8.dp)
+                .padding(horizontal = 16.dp)
         ) {
-            Text(
-                text = mainInfo,
-                style = MaterialTheme.typography.titleLarge,
-                color = SaturatedNavy,
-                fontSize = 24.sp,
-                textAlign = TextAlign.Center
-            )
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 16.dp, horizontal = 8.dp)
+            ) {
+                // Główny napis
+                Text(
+                    text = displayInfo.mainText,
+                    style = MaterialTheme.typography.titleLarge,
+                    color = SaturatedNavy,
+                    fontSize = 24.sp,
+                    textAlign = TextAlign.Center
+                )
+                
+                // Mały dopisek pod spodem (jeśli istnieje)
+                displayInfo.subText?.let { subText ->
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = subText,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = Color.White.copy(alpha = 0.7f),
+                        fontSize = 14.sp,
+                        textAlign = TextAlign.Center
+                    )
+                }
+            }
         }
     }
 }

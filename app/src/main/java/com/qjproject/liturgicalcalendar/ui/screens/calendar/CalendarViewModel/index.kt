@@ -106,27 +106,45 @@ class CalendarViewModel(
             calendarRepo.deleteAllCalendarFiles()
 
             val currentYear = YearMonth.now().year
-            var firstError: Throwable? = null
+            val requiredYears = listOf(currentYear - 1, currentYear, currentYear + 1)
+            
+            // POPRAWKA: Użyj downloadMissingYearsOnly dla spójnego przetwarzania wszystkich lat
+            calendarRepo.downloadMissingYearsOnly(requiredYears).fold(
+                onSuccess = { downloadedYears ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val isCurrentYearNowAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearNowAvailable,
+                            availableYears = availableYears,
+                            downloadError = null
+                        )
+                    }
 
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear - 1).onFailure { error -> if (firstError == null) firstError = error }
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear).onFailure { error -> if (firstError == null) firstError = error }
-            calendarRepo.downloadAndSaveYearIfNeeded(currentYear + 1).onFailure { error -> if (firstError == null) firstError = error }
+                    if (isCurrentYearNowAvailable) {
+                        loadDataForMonth(_uiState.value.selectedMonth)
+                    }
+                },
+                onFailure = { error ->
+                    val availableYears = calendarRepo.getAvailableYears()
+                    val isCurrentYearNowAvailable = availableYears.contains(currentYear)
+                    
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isDataMissing = !isCurrentYearNowAvailable,
+                            availableYears = availableYears,
+                            downloadError = "Błąd: ${error.message}"
+                        )
+                    }
 
-            val availableYears = calendarRepo.getAvailableYears()
-            val isCurrentYearNowAvailable = availableYears.contains(currentYear)
-
-            _uiState.update {
-                it.copy(
-                    isLoading = false,
-                    isDataMissing = !isCurrentYearNowAvailable,
-                    availableYears = availableYears,
-                    downloadError = if (isCurrentYearNowAvailable) null else "Błąd: ${firstError?.message ?: "Nieznany błąd"}"
-                )
-            }
-
-            if (isCurrentYearNowAvailable) {
-                loadDataForMonth(_uiState.value.selectedMonth)
-            }
+                    if (isCurrentYearNowAvailable) {
+                        loadDataForMonth(_uiState.value.selectedMonth)
+                    }
+                }
+            )
         }
     }
 

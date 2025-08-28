@@ -21,60 +21,71 @@ internal object LiturgicalDaySupplement {
             Log.w(TAG, "Input event list is empty. Aborting augmentation.")
             return emptyList()
         }
-        val yearString = events.firstOrNull()?.data?.substring(6, 10)
-        if (yearString == null) {
-            Log.e(TAG, "Could not determine year from first event. Aborting.")
-            return events
-        }
-        val year = yearString.toIntOrNull()
-        if (year == null) {
-            Log.e(TAG, "Could not parse year from first event. Aborting.")
-            return events
-        }
 
-        Log.d(TAG, "Starting augmentation for year $year.")
-        val calculator = LiturgicalYearCalculator(events)
-        val liturgicalYearMap = calculator.buildLiturgicalYearMap(year)
+        // KRYTYCZNA POPRAWKA: Wykryj wszystkie lata w przekazanych wydarzeniach
+        val allYears = events.mapNotNull { event ->
+            event.data.substring(6, 10).toIntOrNull()
+        }.distinct().sorted()
 
-        if (liturgicalYearMap.isEmpty()) {
-            Log.e(TAG, "LiturgicalYearMap is empty. Returning original events.")
+        if (allYears.isEmpty()) {
+            Log.e(TAG, "Could not determine any years from events. Aborting.")
             return events
         }
 
+        Log.i(TAG, "Starting multi-year augmentation for years: ${allYears.joinToString()}")
         val eventsByDate = events.groupBy { LocalDate.parse(it.data, DateTimeFormatter.ofPattern("dd-MM-yyyy")) }
         val augmentedEvents = events.toMutableList()
 
-        for ((date, context) in liturgicalYearMap) {
-            val dailyEvents = eventsByDate[date] ?: emptyList()
-            Log.d(TAG, ">>> Processing Date: $date")
-            if (dailyEvents.isNotEmpty()) {
-                Log.d(TAG, "Found ${dailyEvents.size} existing event(s): ${dailyEvents.joinToString { "'${it.name}' (typ: '${it.typ}')" }}")
-            } else {
-                Log.d(TAG, "No existing events for this date.")
+        // POPRAWKA: Przetwórz każdy rok osobno z właściwym kontekstem liturgicznym
+        for (year in allYears) {
+            Log.d(TAG, "=== Processing year $year ===")
+            val calculator = LiturgicalYearCalculator(events)
+            val liturgicalYearMap = calculator.buildLiturgicalYearMap(year)
+
+            if (liturgicalYearMap.isEmpty()) {
+                Log.w(TAG, "LiturgicalYearMap is empty for year $year. Skipping this year.")
+                continue
             }
 
-            val isDayEmpty = dailyEvents.isEmpty()
+            Log.d(TAG, "Created liturgical map for year $year with ${liturgicalYearMap.size} days")
 
-            val hasOnlyMemorials = dailyEvents.isNotEmpty() && dailyEvents.all {
-                it.typ == "Wspomnienie obowiązkowe" || it.typ == "Wspomnienie dowolne"
-            }
-            Log.d(TAG, "Check result: isDayEmpty = $isDayEmpty, hasOnlyMemorials = $hasOnlyMemorials")
+            // Przetwórz tylko dni z bieżącego roku
+            for ((date, context) in liturgicalYearMap) {
+                if (date.year != year) continue // Upewnij się, że przetwarzamy tylko dni z tego roku
 
-            if (isDayEmpty || hasOnlyMemorials) {
-                Log.i(TAG, "CONDITION MET for $date. Attempting to create and add weekday event.")
-                createWeekdayEvent(context, events)?.let { newEvent ->
-                    if (augmentedEvents.none { it.data == newEvent.data && it.name == newEvent.name }) {
-                        Log.i(TAG, "Successfully created and added new event: '${newEvent.name}'")
-                        augmentedEvents.add(newEvent)
-                    } else {
-                        Log.w(TAG, "Weekday event '${newEvent.name}' already exists. Skipping.")
-                    }
+                val dailyEvents = eventsByDate[date] ?: emptyList()
+                Log.d(TAG, ">>> Processing Date: $date (year $year)")
+                if (dailyEvents.isNotEmpty()) {
+                    Log.d(TAG, "Found ${dailyEvents.size} existing event(s): ${dailyEvents.joinToString { "'${it.name}' (typ: '${it.typ}')" }}")
+                } else {
+                    Log.d(TAG, "No existing events for this date.")
                 }
-            } else {
-                Log.d(TAG, "CONDITION NOT MET for $date. Skipping weekday creation.")
+
+                val isDayEmpty = dailyEvents.isEmpty()
+
+                val hasOnlyMemorials = dailyEvents.isNotEmpty() && dailyEvents.all {
+                    it.typ == "Wspomnienie obowiązkowe" || it.typ == "Wspomnienie dowolne"
+                }
+                Log.d(TAG, "Check result: isDayEmpty = $isDayEmpty, hasOnlyMemorials = $hasOnlyMemorials")
+
+                if (isDayEmpty || hasOnlyMemorials) {
+                    Log.i(TAG, "CONDITION MET for $date. Attempting to create and add weekday event.")
+                    createWeekdayEvent(context, events)?.let { newEvent ->
+                        if (augmentedEvents.none { it.data == newEvent.data && it.name == newEvent.name }) {
+                            Log.i(TAG, "Successfully created and added new event: '${newEvent.name}' for year $year")
+                            augmentedEvents.add(newEvent)
+                        } else {
+                            Log.w(TAG, "Weekday event '${newEvent.name}' already exists. Skipping.")
+                        }
+                    }
+                } else {
+                    Log.d(TAG, "CONDITION NOT MET for $date. Skipping weekday creation.")
+                }
             }
+            Log.d(TAG, "=== Finished processing year $year ===")
         }
-        Log.d(TAG, "Augmentation finished. Total events: ${augmentedEvents.size}")
+        
+        Log.i(TAG, "Multi-year augmentation finished. Total events: ${augmentedEvents.size}")
         return augmentedEvents.distinctBy { it.name + it.data }
     }
 

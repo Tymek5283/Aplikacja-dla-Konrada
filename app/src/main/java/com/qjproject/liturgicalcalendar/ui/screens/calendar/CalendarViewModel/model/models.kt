@@ -4,6 +4,7 @@
 package com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.model
 
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.CalendarDay
+import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.model.LiturgicalYearDisplayInfo
 import java.time.YearMonth
 
 sealed class NavigationAction {
@@ -15,7 +16,7 @@ data class CalendarUiState(
     val selectedMonth: YearMonth = YearMonth.now(),
     val daysInMonth: List<CalendarDay?> = emptyList(),
     val availableYears: List<Int> = listOf(YearMonth.now().year),
-    val liturgicalYearInfo: String = "Ładowanie...",
+    val liturgicalYearInfo: LiturgicalYearDisplayInfo = LiturgicalYearDisplayInfo("Ładowanie...", null),
     val isLoading: Boolean = true,
     val isDataMissing: Boolean = false,
     val downloadError: String? = null
