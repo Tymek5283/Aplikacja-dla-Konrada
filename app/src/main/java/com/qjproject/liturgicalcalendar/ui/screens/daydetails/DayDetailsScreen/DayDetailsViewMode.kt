@@ -102,15 +102,17 @@ internal fun DayDetailsViewModeContent(
             }
         }
         Spacer(modifier = Modifier.height(24.dp))
-        // --- POCZĄTEK ZMIANY ---
         val wstawki = uiState.dayData?.wstawki
-        if (!wstawki.isNullOrEmpty()) {
-            HierarchicalCollapsibleSection(
-                title = "Wstawki mszalne",
-                isExpanded = uiState.isInsertsSectionExpanded,
-                onToggle = { viewModel.toggleInsertsSection() }
-            ) {
-                wstawki.entries.sortedBy { it.key }.forEach { (key, value) ->
+        val hasWstawki = !wstawki.isNullOrEmpty()
+        
+        HierarchicalCollapsibleSection(
+            title = "Wstawki",
+            isExpanded = if (hasWstawki) uiState.isInsertsSectionExpanded else false,
+            onToggle = { if (hasWstawki) viewModel.toggleInsertsSection() },
+            enabled = hasWstawki
+        ) {
+            if (hasWstawki) {
+                wstawki!!.entries.sortedBy { it.key }.forEach { (key, value) ->
                     InsertItemView(
                         title = "Wstawka $key",
                         content = value,
@@ -120,7 +122,6 @@ internal fun DayDetailsViewModeContent(
                 }
             }
         }
-        // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.height(24.dp))
         HierarchicalCollapsibleSection(
             title = "Sugerowane pieśni",

@@ -1754,13 +1754,6 @@ data class SuggestedSong(
     val moment: String
 )
 
-@Serializable
-data class Insets(
-    val `1`: String,
-    val `2`: String,
-    val `3`: String,
-)
-
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\data\FileSystemItem.kt
 treść:
@@ -7378,7 +7371,7 @@ internal fun EditModeTopAppBar(title: String, onCancelClick: () -> Unit, onSaveC
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\DayDetailsViewMode.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/DayDetailsScreen/DayDetailsViewMode.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsViewMode.kt
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
 import androidx.compose.animation.AnimatedVisibility
@@ -7483,8 +7476,23 @@ internal fun DayDetailsViewModeContent(
         }
         Spacer(modifier = Modifier.height(24.dp))
         // --- POCZĄTEK ZMIANY ---
-        // Usunięto starą implementację `InsertsSectionView` na rzecz
-        // zachowania spójności wizualnej i funkcjonalnej.
+        val wstawki = uiState.dayData?.wstawki
+        if (!wstawki.isNullOrEmpty()) {
+            HierarchicalCollapsibleSection(
+                title = "Wstawki mszalne",
+                isExpanded = uiState.isInsertsSectionExpanded,
+                onToggle = { viewModel.toggleInsertsSection() }
+            ) {
+                wstawki.entries.sortedBy { it.key }.forEach { (key, value) ->
+                    InsertItemView(
+                        title = "Wstawka $key",
+                        content = value,
+                        isExpanded = uiState.expandedInserts.contains(key),
+                        onToggle = { viewModel.toggleInsert(key) }
+                    )
+                }
+            }
+        }
         // --- KONIEC ZMIANY ---
         Spacer(modifier = Modifier.height(24.dp))
         HierarchicalCollapsibleSection(
@@ -7594,6 +7602,47 @@ fun ReadingItemView(
     }
 }
 
+// --- POCZĄTEK ZMIANY ---
+@Composable
+private fun InsertItemView(title: String, content: String, isExpanded: Boolean, onToggle: () -> Unit) {
+    Column(modifier = Modifier.fillMaxWidth()) {
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClick = onToggle),
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = title,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = SaturatedNavy,
+                    modifier = Modifier.weight(1f)
+                )
+                val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 180f else 0f, label = "insertArrow")
+                Icon(
+                    imageVector = Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
+                    modifier = Modifier.rotate(rotationAngle)
+                )
+            }
+        }
+        AnimatedVisibility(visible = isExpanded) {
+            Text(
+                text = content.replace("*", " "),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                style = MaterialTheme.typography.bodyLarge
+            )
+        }
+    }
+}
+// --- KONIEC ZMIANY ---
+
 @Composable
 fun SongGroupView(
     momentName: String,
@@ -7659,7 +7708,7 @@ private fun SongItemView(displayableSong: DisplayableSuggestedSong, onClick: () 
 -
 nazwa pliku: C:\Users\blzej\Desktop\Aplikacja dla studenta\Aplikacja-dla-Konrada\app\src\main\java\com\qjproject\liturgicalcalendar\ui\screens\daydetails\DayDetailsScreen\index.kt
 treść:
-// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/DayDetailsScreen.kt
+// Ścieżka: app/src/main/java/com/qjproject/liturgicalcalendar/ui/screens/daydetails/daydetailsscreen/index.kt
 // Opis: Główny plik komponentu DayDetailsScreen. Pełni rolę "indexu", składając widok z mniejszych, wyspecjalizowanych komponentów. Zarządza nawigacją i stanem głównym ekranu.
 package com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen
 
@@ -7722,15 +7771,6 @@ fun DayDetailsScreen(
             onDismiss = { viewModel.dismissConfirmExitDialog() },
             onDiscard = { viewModel.onExitEditMode(save = false) }
         )
-    }
-
-    if (uiState.showInsertsDialog) {
-        uiState.dayData?.wstawki?.let {
-            InsertsDialog(
-                inserts = it,
-                onDismiss = { viewModel.dismissInsertsDialog() }
-            )
-        }
     }
 
     when (val dialog = uiState.activeDialog) {
@@ -8264,7 +8304,7 @@ data class DayDetailsUiState(
     val activeDialog: DialogState = DialogState.None,
     val isReadingsSectionExpanded: Boolean = false,
     val isSongsSectionExpanded: Boolean = true,
-    val isInsertsSectionExpanded: Boolean = false,
+    val isInsertsSectionExpanded: Boolean = true,
     val expandedReadings: Set<Int> = emptySet(),
     val expandedSongMoments: Set<String> = songMomentOrderMap.keys,
     val expandedInserts: Set<String> = emptySet()
@@ -14409,7 +14449,6 @@ Aplikacja-dla-Konrada/
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.dex
-                                                            ComposableSingletons$DayDetailsDialogsKt$lambda-20$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.dex
                                                             ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.dex
@@ -14439,9 +14478,6 @@ Aplikacja-dla-Konrada/
                                                             DayDetailsDialogsKt$ConfirmDeleteDialog$1.dex
                                                             DayDetailsDialogsKt$ConfirmExitDialog$1$1.dex
                                                             DayDetailsDialogsKt$ConfirmExitDialog$1.dex
-                                                            DayDetailsDialogsKt$InsertsDialog$1$1$invoke$lambda$5$lambda$3$$inlined$sortedBy$1.dex
-                                                            DayDetailsDialogsKt$InsertsDialog$1$1.dex
-                                                            DayDetailsDialogsKt$InsertsDialog$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.dex
                                                             DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.dex
@@ -14481,16 +14517,20 @@ Aplikacja-dla-Konrada/
                                                             DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.dex
                                                             DayDetailsTopAppBarKt.dex
                                                             DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.dex
-                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$6.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$5$invoke$$inlined$sortedBy$1.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.dex
+                                                            DayDetailsViewModeKt$DayDetailsViewModeContent$3$7.dex
                                                             DayDetailsViewModeKt$handleReadingCollapse$1.dex
+                                                            DayDetailsViewModeKt$InsertItemView$1$1.dex
+                                                            DayDetailsViewModeKt$InsertItemView$1$2.dex
                                                             DayDetailsViewModeKt$ReadingItemView$1$1.dex
                                                             DayDetailsViewModeKt$ReadingItemView$1$2$1$1.dex
                                                             DayDetailsViewModeKt$ReadingItemView$1$2.dex
                                                             DayDetailsViewModeKt$SongGroupView$1$2.dex
                                                             DayDetailsViewModeKt$SongItemView$1.dex
                                                             DayDetailsViewModeKt.dex
+                                                            IndexKt$DayDetailsScreen$10.dex
                                                             IndexKt$DayDetailsScreen$11.dex
-                                                            IndexKt$DayDetailsScreen$12.dex
                                                             IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.dex
                                                             IndexKt.dex
                                                         daydetailsviewmodel/
@@ -14835,9 +14875,7 @@ Aplikacja-dla-Konrada/
                                     class-fq-name-to-source.tab.keystream
                                     class-fq-name-to-source.tab.keystream.len
                                     class-fq-name-to-source.tab.len
-                                    class-fq-name-to-source.tab.values
                                     class-fq-name-to-source.tab.values.at
-                                    class-fq-name-to-source.tab.values.s
                                     class-fq-name-to-source.tab_i
                                     class-fq-name-to-source.tab_i.len
                                     constants.tab
@@ -15336,7 +15374,6 @@ Aplikacja-dla-Konrada/
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-18$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-19$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-2$1.class
-                                                    ComposableSingletons$DayDetailsDialogsKt$lambda-20$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-3$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-4$1.class
                                                     ComposableSingletons$DayDetailsDialogsKt$lambda-5$1.class
@@ -15366,9 +15403,6 @@ Aplikacja-dla-Konrada/
                                                     DayDetailsDialogsKt$ConfirmDeleteDialog$1.class
                                                     DayDetailsDialogsKt$ConfirmExitDialog$1$1.class
                                                     DayDetailsDialogsKt$ConfirmExitDialog$1.class
-                                                    DayDetailsDialogsKt$InsertsDialog$1$1$invoke$lambda$5$lambda$3$$inlined$sortedBy$1.class
-                                                    DayDetailsDialogsKt$InsertsDialog$1$1.class
-                                                    DayDetailsDialogsKt$InsertsDialog$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$1$1$2$1$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$1.class
                                                     DayDetailsDialogsKt$SearchSuggestionList$1$invoke$lambda$4$lambda$3$$inlined$items$default$2.class
@@ -15408,16 +15442,20 @@ Aplikacja-dla-Konrada/
                                                     DayDetailsTopAppBarKt$ViewModeTopAppBar$1$3.class
                                                     DayDetailsTopAppBarKt.class
                                                     DayDetailsViewModeKt$DayDetailsViewModeContent$3$3.class
-                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$6.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$5$invoke$$inlined$sortedBy$1.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$5.class
+                                                    DayDetailsViewModeKt$DayDetailsViewModeContent$3$7.class
                                                     DayDetailsViewModeKt$handleReadingCollapse$1.class
+                                                    DayDetailsViewModeKt$InsertItemView$1$1.class
+                                                    DayDetailsViewModeKt$InsertItemView$1$2.class
                                                     DayDetailsViewModeKt$ReadingItemView$1$1.class
                                                     DayDetailsViewModeKt$ReadingItemView$1$2$1$1.class
                                                     DayDetailsViewModeKt$ReadingItemView$1$2.class
                                                     DayDetailsViewModeKt$SongGroupView$1$2.class
                                                     DayDetailsViewModeKt$SongItemView$1.class
                                                     DayDetailsViewModeKt.class
+                                                    IndexKt$DayDetailsScreen$10.class
                                                     IndexKt$DayDetailsScreen$11.class
-                                                    IndexKt$DayDetailsScreen$12.class
                                                     IndexKt$DayDetailsScreen$lambda$5$lambda$4$$inlined$onDispose$1.class
                                                     IndexKt.class
                                                 daydetailsviewmodel/
