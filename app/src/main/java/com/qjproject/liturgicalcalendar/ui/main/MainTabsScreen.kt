@@ -27,6 +27,7 @@ import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -60,6 +61,8 @@ import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.settings.SettingsViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.data.FirstRunManager
+import com.qjproject.liturgicalcalendar.data.NeumyManager
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
@@ -84,6 +87,28 @@ internal fun MainTabsScreen(navController: NavController) {
     val isCalendarScreenActive = pagerState.currentPage == bottomNavItems.indexOf(Screen.Calendar)
 
     var isCalendarMenuExpanded by remember { mutableStateOf(false) }
+
+    // Logika pierwszego uruchomienia - kopiowanie plików PDF z assets
+    LaunchedEffect(Unit) {
+        val firstRunManager = FirstRunManager(context)
+        val neumyManager = NeumyManager(context)
+        
+        if (firstRunManager.isFirstRun() && !firstRunManager.areAssetsCopied()) {
+            try {
+                val result = neumyManager.copyAssetsToInternalStorage()
+                if (result.isSuccess) {
+                    val copiedCount = result.getOrNull() ?: 0
+                    android.util.Log.i("FirstRun", "Skopiowano $copiedCount plików PDF z assets do pamięci wewnętrznej")
+                    firstRunManager.markAssetsCopied()
+                } else {
+                    android.util.Log.e("FirstRun", "Błąd podczas kopiowania plików PDF: ${result.exceptionOrNull()?.message}")
+                }
+                firstRunManager.markFirstRunCompleted()
+            } catch (e: Exception) {
+                android.util.Log.e("FirstRun", "Nieoczekiwany błąd podczas pierwszego uruchomienia: ${e.message}")
+            }
+        }
+    }
 
     BackHandler(enabled = true) {
         when {

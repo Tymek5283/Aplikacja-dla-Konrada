@@ -24,6 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.layout
+import androidx.compose.ui.layout.MeasureScope
+import androidx.compose.ui.layout.Placeable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -44,7 +47,7 @@ fun PdfViewerDialog(
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    var bitmaps by remember { mutableStateOf<List<Bitmap>>(emptyList()) }
+    var pages by remember { mutableStateOf<List<PdfPageInfo>>(emptyList()) }
     var isLoading by remember { mutableStateOf(true) }
     var error by remember { mutableStateOf<String?>(null) }
     val listState = rememberLazyListState()
@@ -52,8 +55,8 @@ fun PdfViewerDialog(
     LaunchedEffect(pdfPath) {
         scope.launch {
             try {
-                val loadedBitmaps = loadPdfPages(context, pdfPath)
-                bitmaps = loadedBitmaps
+                val loadedPages = loadPdfPages(context, pdfPath)
+                pages = loadedPages
                 isLoading = false
             } catch (e: Exception) {
                 error = "Błąd podczas ładowania PDF: ${e.message}"
@@ -135,10 +138,12 @@ fun PdfViewerDialog(
                                 }
                             }
                         }
-                        bitmaps.isNotEmpty() -> {
+                        pages.isNotEmpty() -> {
                             ZoomablePdfContent(
-                                bitmaps = bitmaps,
-                                listState = listState
+                                pages = pages,
+                                listState = listState,
+                                pdfPath = pdfPath,
+                                context = context
                             )
                         }
                         else -> {
@@ -155,9 +160,16 @@ fun PdfViewerDialog(
     }
 }
 
-private suspend fun loadPdfPages(context: Context, pdfPath: String): List<Bitmap> {
+data class PdfPageInfo(
+    val bitmap: Bitmap,
+    val width: Int,
+    val height: Int,
+    val aspectRatio: Float
+)
+
+private suspend fun loadPdfPages(context: Context, pdfPath: String): List<PdfPageInfo> {
     return withContext(Dispatchers.IO) {
-        val bitmaps = mutableListOf<Bitmap>()
+        val pages = mutableListOf<PdfPageInfo>()
         
         val fileDescriptor = if (pdfPath.startsWith("assets://")) {
             // Obsługa plików z assets
@@ -183,15 +195,25 @@ private suspend fun loadPdfPages(context: Context, pdfPath: String): List<Bitmap
             for (i in 0 until pdfRenderer.pageCount) {
                 val page = pdfRenderer.openPage(i)
                 
-                // Oblicz rozmiar bitmapy zachowując proporcje
-                val width = 800 // Stała szerokość dla lepszej wydajności
-                val height = (page.height.toFloat() / page.width.toFloat() * width).toInt()
+                // Zachowaj oryginalne wymiary strony
+                val originalWidth = page.width
+                val originalHeight = page.height
+                val aspectRatio = originalWidth.toFloat() / originalHeight.toFloat()
                 
-                val bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
-                // Nie narzucamy tła - zachowujemy oryginalne tło PDF
+                // Początkowa rozdzielczość - będzie renderowana ponownie przy zoom
+                val baseWidth = 1200 // Wyższa jakość bazowa
+                val baseHeight = (baseWidth / aspectRatio).toInt()
+                
+                val bitmap = Bitmap.createBitmap(baseWidth, baseHeight, Bitmap.Config.ARGB_8888)
                 page.render(bitmap, null, null, PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY)
                 
-                bitmaps.add(bitmap)
+                pages.add(PdfPageInfo(
+                    bitmap = bitmap,
+                    width = originalWidth,
+                    height = originalHeight,
+                    aspectRatio = aspectRatio
+                ))
+                
                 page.close()
             }
         } finally {
@@ -199,26 +221,99 @@ private suspend fun loadPdfPages(context: Context, pdfPath: String): List<Bitmap
             fileDescriptor.close()
         }
 
-        bitmaps
+        pages
+    }
+}
+
+private suspend fun renderPageAtScale(
+    context: Context,
+    pdfPath: String,
+    pageIndex: Int,
+    scale: Float
+): Bitmap? {
+    return withContext(Dispatchers.IO) {
+        try {
+            val fileDescriptor = if (pdfPath.startsWith("assets://")) {
+                val assetPath = pdfPath.removePrefix("assets://")
+                val inputStream = context.assets.open(assetPath)
+                val tempFile = File.createTempFile("temp_pdf", ".pdf", context.cacheDir)
+                tempFile.outputStream().use { outputStream ->
+                    inputStream.copyTo(outputStream)
+                }
+                ParcelFileDescriptor.open(tempFile, ParcelFileDescriptor.MODE_READ_ONLY)
+            } else {
+                val file = File(pdfPath)
+                if (!file.exists()) return@withContext null
+                ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
+            }
+            
+            val pdfRenderer = PdfRenderer(fileDescriptor)
+            val page = pdfRenderer.openPage(pageIndex)
+            
+            // Renderuj w wysokiej rozdzielczości odpowiedniej dla poziomu zoom
+            val targetWidth = (page.width * scale * 2f).toInt().coerceAtMost(4000) // Max 4000px
+            val targetHeight = (page.height * scale * 2f).toInt().coerceAtMost(6000) // Max 6000px
+            
+            val bitmap = Bitmap.createBitmap(targetWidth, targetHeight, Bitmap.Config.ARGB_8888)
+            page.render(bitmap, null, null, PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY)
+            
+            page.close()
+            pdfRenderer.close()
+            fileDescriptor.close()
+            
+            bitmap
+        } catch (e: Exception) {
+            null
+        }
     }
 }
 
 @Composable
 private fun ZoomablePdfContent(
-    bitmaps: List<Bitmap>,
-    listState: androidx.compose.foundation.lazy.LazyListState
+    pages: List<PdfPageInfo>,
+    listState: androidx.compose.foundation.lazy.LazyListState,
+    pdfPath: String,
+    context: Context
 ) {
     var scale by remember { mutableFloatStateOf(1f) }
     var offset by remember { mutableStateOf(Offset.Zero) }
+    var containerSize by remember { mutableStateOf(androidx.compose.ui.geometry.Size.Zero) }
+    val scope = rememberCoroutineScope()
+    
+    // Cache dla renderowanych stron w wysokiej rozdzielczości
+    var highResPages by remember { mutableStateOf<Map<Int, Bitmap>>(emptyMap()) }
+    
+    // Re-render pages when scale changes significantly
+    LaunchedEffect(scale) {
+        if (scale > 1.5f) {
+            scope.launch {
+                val newHighResPages = mutableMapOf<Int, Bitmap>()
+                pages.forEachIndexed { index, _ ->
+                    val highResBitmap = renderPageAtScale(context, pdfPath, index, scale)
+                    if (highResBitmap != null) {
+                        newHighResPages[index] = highResBitmap
+                    }
+                }
+                highResPages = newHighResPages
+            }
+        } else {
+            // Wyczyść cache przy małym zoom
+            highResPages = emptyMap()
+        }
+    }
     
     val transformableState = rememberTransformableState { zoomChange, offsetChange, _ ->
         val newScale = (scale * zoomChange).coerceIn(1f, 5f)
         
-        // Oblicz nowy offset z ograniczeniami
-        val newOffset = if (newScale > 1f) {
-            // Pozwól na przesuwanie tylko gdy jest zoom
-            val maxOffsetX = (newScale - 1f) * 200f // Ograniczenie poziome
-            val maxOffsetY = (newScale - 1f) * 300f // Ograniczenie pionowe
+        // Oblicz nowy offset z rzeczywistymi ograniczeniami na podstawie rozmiarów zawartości
+        val newOffset = if (newScale > 1f && containerSize != androidx.compose.ui.geometry.Size.Zero) {
+            // Oblicz rzeczywiste wymiary powiększonej zawartości
+            val scaledContentWidth = containerSize.width * newScale
+            val scaledContentHeight = containerSize.height * newScale
+            
+            // Maksymalne przesunięcie = (powiększona zawartość - kontener) / 2
+            val maxOffsetX = kotlin.math.max(0f, (scaledContentWidth - containerSize.width) / 2f)
+            val maxOffsetY = kotlin.math.max(0f, (scaledContentHeight - containerSize.height) / 2f)
             
             Offset(
                 x = (offset.x + offsetChange.x).coerceIn(-maxOffsetX, maxOffsetX),
@@ -262,11 +357,29 @@ private fun ZoomablePdfContent(
                     translationY = offset.y,
                     transformOrigin = androidx.compose.ui.graphics.TransformOrigin.Center
                 )
+                .layout { measurable, constraints ->
+                    val placeable: Placeable = measurable.measure(constraints)
+                    // Zapisz rozmiar kontenera dla obliczeń offset
+                    containerSize = androidx.compose.ui.geometry.Size(
+                        placeable.width.toFloat(),
+                        placeable.height.toFloat()
+                    )
+                    layout(placeable.width, placeable.height) {
+                        placeable.placeRelative(0, 0)
+                    }
+                }
         ) {
-            itemsIndexed(bitmaps) { index, bitmap ->
-                SimpleImageCard(
-                    bitmap = bitmap,
-                    pageNumber = index + 1
+            itemsIndexed(pages) { index, pageInfo ->
+                val bitmapToUse = if (scale > 1.5f && highResPages.containsKey(index)) {
+                    highResPages[index]!!
+                } else {
+                    pageInfo.bitmap
+                }
+                
+                EnhancedImageCard(
+                    bitmap = bitmapToUse,
+                    pageNumber = index + 1,
+                    isHighRes = highResPages.containsKey(index)
                 )
             }
         }
@@ -293,9 +406,10 @@ private fun ZoomablePdfContent(
 }
 
 @Composable
-private fun SimpleImageCard(
+private fun EnhancedImageCard(
     bitmap: Bitmap,
-    pageNumber: Int
+    pageNumber: Int,
+    isHighRes: Boolean = false
 ) {
     Card(
         modifier = Modifier.fillMaxWidth(),
@@ -305,12 +419,33 @@ private fun SimpleImageCard(
         Column(
             modifier = Modifier.padding(8.dp)
         ) {
-            Text(
-                text = "Strona $pageNumber",
-                style = MaterialTheme.typography.labelMedium,
-                modifier = Modifier.padding(bottom = 8.dp),
-                color = Color.Black
-            )
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 8.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    text = "Strona $pageNumber",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = Color.Black
+                )
+                
+                if (isHighRes) {
+                    Text(
+                        text = "HD",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier
+                            .background(
+                                MaterialTheme.colorScheme.primaryContainer,
+                                androidx.compose.foundation.shape.RoundedCornerShape(4.dp)
+                            )
+                            .padding(horizontal = 6.dp, vertical = 2.dp)
+                    )
+                }
+            }
             
             Image(
                 bitmap = bitmap.asImageBitmap(),

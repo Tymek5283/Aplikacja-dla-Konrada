@@ -107,6 +107,47 @@ class NeumyManager(private val context: Context) {
     }
     
     /**
+     * Kopiuje wszystkie pliki PDF z folderu assets/neumy do pamięci wewnętrznej
+     * Ta funkcja jest wywoływana podczas pierwszego uruchomienia aplikacji
+     */
+    fun copyAssetsToInternalStorage(): Result<Int> {
+        return try {
+            var copiedCount = 0
+            
+            // Pobierz listę plików z assets/neumy
+            val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
+            val pdfFiles = assetFiles.filter { it.endsWith(".pdf", ignoreCase = true) }
+            
+            for (fileName in pdfFiles) {
+                try {
+                    // Otwórz plik z assets
+                    val inputStream = context.assets.open("$assetsNeumyPath/$fileName")
+                    
+                    // Utwórz plik docelowy w pamięci wewnętrznej
+                    val targetFile = File(neumyDir, fileName)
+                    
+                    // Kopiuj tylko jeśli plik nie istnieje już w pamięci wewnętrznej
+                    if (!targetFile.exists()) {
+                        FileOutputStream(targetFile).use { outputStream ->
+                            inputStream.copyTo(outputStream)
+                        }
+                        copiedCount++
+                    }
+                    
+                    inputStream.close()
+                } catch (e: Exception) {
+                    // Loguj błąd ale kontynuuj kopiowanie innych plików
+                    android.util.Log.e("NeumyManager", "Błąd podczas kopiowania pliku $fileName: ${e.message}")
+                }
+            }
+            
+            Result.success(copiedCount)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+    
+    /**
      * Zwraca listę wszystkich dostępnych plików PDF z neumami
      */
     fun getAllPdfFiles(): List<Pair<String, String>> {
