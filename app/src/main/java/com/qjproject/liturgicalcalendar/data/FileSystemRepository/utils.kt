@@ -11,12 +11,6 @@ internal const val ORDER_FILE_NAME = ".directory_order.json"
 @Serializable
 internal data class DirectoryOrder(val order: List<String>)
 
-internal data class FoundImportFiles(
-    val dataDir: File,
-    val datowaneDir: File,
-    val songFile: File
-)
-
 internal val fileSystemItemNaturalComparator = compareBy<FileSystemItem> { !it.isDirectory }
     .then(Comparator { a, b ->
         val numA = a.name.takeWhile { it.isDigit() }.toIntOrNull()

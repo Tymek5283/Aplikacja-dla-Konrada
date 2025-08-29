@@ -15,16 +15,28 @@ data class SettingsUiState(
     val isExporting: Boolean = false,
     val isImporting: Boolean = false,
     val message: String? = null,
-    val showRestartPrompt: Boolean = false
+    val showRestartPrompt: Boolean = false,
+    val showExportConfigDialog: Boolean = false,
+    val showImportConfigDialog: Boolean = false,
+    val importPreviewState: ImportPreviewState? = null,
+    val pendingImportUri: Uri? = null
 )
 
 class SettingsViewModel(private val repository: FileSystemRepository) : ViewModel() {
     private val _uiState = MutableStateFlow(SettingsUiState())
     val uiState = _uiState.asStateFlow()
 
-    fun exportData() {
-        _uiState.update { it.copy(isExporting = true, message = null) }
-        val result = repository.exportDataToZip()
+    fun showExportConfigDialog() {
+        _uiState.update { it.copy(showExportConfigDialog = true) }
+    }
+
+    fun hideExportConfigDialog() {
+        _uiState.update { it.copy(showExportConfigDialog = false) }
+    }
+
+    fun exportData(configuration: ExportConfiguration) {
+        _uiState.update { it.copy(isExporting = true, message = null, showExportConfigDialog = false) }
+        val result = repository.exportDataToZip(configuration)
         result.fold(
             onSuccess = { file ->
                 _uiState.update { it.copy(isExporting = false, message = "Eksport udany! Zapisano jako ${file.name} w folderze Pobrane.") }
@@ -35,10 +47,72 @@ class SettingsViewModel(private val repository: FileSystemRepository) : ViewMode
         )
     }
 
-    fun importData(uri: Uri) {
+    fun startImport(uri: Uri) {
         viewModelScope.launch {
-            _uiState.update { it.copy(isImporting = true, message = null) }
-            val result = repository.importDataFromZip(uri)
+            _uiState.update { it.copy(
+                showImportConfigDialog = true,
+                pendingImportUri = uri,
+                importPreviewState = ImportPreviewState(
+                    availableData = AvailableImportData(),
+                    configuration = ImportConfiguration(),
+                    isAnalyzing = true
+                )
+            ) }
+            
+            val analysisResult = repository.analyzeImportData(uri)
+            analysisResult.fold(
+                onSuccess = { availableData ->
+                    val defaultConfig = ImportConfiguration(
+                        includeDays = availableData.hasDays,
+                        includeSongs = availableData.hasSongs,
+                        includeCategories = availableData.hasCategories,
+                        includeNeumy = availableData.hasNeumy,
+                        includeYears = availableData.hasYears
+                    )
+                    _uiState.update { it.copy(
+                        importPreviewState = ImportPreviewState(
+                            availableData = availableData,
+                            configuration = defaultConfig,
+                            isAnalyzing = false
+                        )
+                    ) }
+                },
+                onFailure = { error ->
+                    _uiState.update { it.copy(
+                        importPreviewState = ImportPreviewState(
+                            availableData = AvailableImportData(),
+                            configuration = ImportConfiguration(),
+                            isAnalyzing = false,
+                            analysisError = "Błąd analizy: ${error.localizedMessage}"
+                        )
+                    ) }
+                }
+            )
+        }
+    }
+    
+    fun updateImportConfiguration(configuration: ImportConfiguration) {
+        _uiState.value.importPreviewState?.let { currentState ->
+            _uiState.update { it.copy(
+                importPreviewState = currentState.copy(configuration = configuration)
+            ) }
+        }
+    }
+    
+    fun confirmImport() {
+        val configuration = _uiState.value.importPreviewState?.configuration ?: return
+        val uri = _uiState.value.pendingImportUri ?: return
+        
+        viewModelScope.launch {
+            _uiState.update { it.copy(
+                isImporting = true,
+                message = null,
+                showImportConfigDialog = false,
+                importPreviewState = null,
+                pendingImportUri = null
+            ) }
+            
+            val result = repository.importDataFromZip(uri, configuration)
             result.fold(
                 onSuccess = {
                     _uiState.update { it.copy(isImporting = false, showRestartPrompt = true) }
@@ -49,6 +123,14 @@ class SettingsViewModel(private val repository: FileSystemRepository) : ViewMode
             )
         }
     }
+    
+    fun hideImportConfigDialog() {
+        _uiState.update { it.copy(
+            showImportConfigDialog = false,
+            importPreviewState = null,
+            pendingImportUri = null
+        ) }
+    }
 
     fun clearMessage() {
         _uiState.update { it.copy(message = null) }
@@ -56,6 +138,12 @@ class SettingsViewModel(private val repository: FileSystemRepository) : ViewMode
 
     fun dismissRestartPrompt() {
         _uiState.update { it.copy(showRestartPrompt = false) }
+    }
+    
+    // Zachowujemy starą metodę dla kompatybilności wstecznej
+    @Deprecated("Użyj startImport() zamiast tego")
+    fun importData(uri: Uri) {
+        startImport(uri)
     }
 }
 

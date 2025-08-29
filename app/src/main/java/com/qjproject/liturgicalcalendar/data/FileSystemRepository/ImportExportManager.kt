@@ -16,17 +16,34 @@ internal class ImportExportManager(
     private val context: Context,
     private val internalStorageRoot: File
 ) {
-    fun exportDataToZip(): Result<File> {
+    fun exportDataToZip(configuration: com.qjproject.liturgicalcalendar.ui.screens.settings.ExportConfiguration): Result<File> {
         return try {
             val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).apply { mkdirs() }
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
             val zipFile = File(downloadsDir, "Laudate_Export_$timestamp.zip")
             val zip = ZipFile(zipFile)
 
-            File(internalStorageRoot, "data").takeIf { it.exists() }?.let { zip.addFolder(it) }
-            File(internalStorageRoot, "Datowane").takeIf { it.exists() }?.let { zip.addFolder(it) }
-            File(internalStorageRoot, "piesni.json").takeIf { it.exists() }?.let { zip.addFile(it) }
-            File(internalStorageRoot, "kategorie.json").takeIf { it.exists() }?.let { zip.addFile(it) }
+            // Eksportuj dane zgodnie z konfiguracją użytkownika
+            if (configuration.includeDays) {
+                File(internalStorageRoot, "data").takeIf { it.exists() }?.let { zip.addFolder(it) }
+                File(internalStorageRoot, "Datowane").takeIf { it.exists() }?.let { zip.addFolder(it) }
+            }
+            
+            if (configuration.includeSongs) {
+                File(internalStorageRoot, "piesni.json").takeIf { it.exists() }?.let { zip.addFile(it) }
+            }
+            
+            if (configuration.includeCategories) {
+                File(internalStorageRoot, "kategorie.json").takeIf { it.exists() }?.let { zip.addFile(it) }
+            }
+            
+            if (configuration.includeNeumy) {
+                File(internalStorageRoot, "neumy").takeIf { it.exists() }?.let { zip.addFolder(it) }
+            }
+            
+            if (configuration.includeYears) {
+                File(internalStorageRoot, "calendar_data").takeIf { it.exists() }?.let { zip.addFolder(it) }
+            }
 
             Result.success(zipFile)
         } catch (e: Exception) {
@@ -35,7 +52,38 @@ internal class ImportExportManager(
         }
     }
 
-    fun importDataFromZip(uri: Uri): Result<Unit> {
+    fun analyzeImportData(uri: Uri): Result<com.qjproject.liturgicalcalendar.ui.screens.settings.AvailableImportData> {
+        val tempUnzipDir = File(context.cacheDir, "import_analyze_temp")
+        val tempZipFile = File(context.cacheDir, "analyze.zip")
+
+        try {
+            context.contentResolver.openInputStream(uri)?.use { input ->
+                FileOutputStream(tempZipFile).use { output -> input.copyTo(output) }
+            } ?: return Result.failure(IOException("Nie można otworzyć strumienia z URI."))
+
+            tempUnzipDir.deleteRecursively()
+            tempUnzipDir.mkdirs()
+            ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
+
+            val availableData = com.qjproject.liturgicalcalendar.ui.screens.settings.AvailableImportData(
+                hasDays = findDirectoryRecursively(tempUnzipDir, "data") != null && findDirectoryRecursively(tempUnzipDir, "Datowane") != null,
+                hasSongs = findFileRecursively(tempUnzipDir, "piesni.json") != null,
+                hasCategories = findFileRecursively(tempUnzipDir, "kategorie.json") != null,
+                hasNeumy = findDirectoryRecursively(tempUnzipDir, "neumy") != null,
+                hasYears = findDirectoryRecursively(tempUnzipDir, "calendar_data") != null
+            )
+
+            return Result.success(availableData)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return Result.failure(e)
+        } finally {
+            tempUnzipDir.deleteRecursively()
+            tempZipFile.delete()
+        }
+    }
+
+    fun importDataFromZip(uri: Uri, configuration: com.qjproject.liturgicalcalendar.ui.screens.settings.ImportConfiguration): Result<Unit> {
         val tempUnzipDir = File(context.cacheDir, "import_unzip_temp")
         val tempZipFile = File(context.cacheDir, "import.zip")
 
@@ -48,19 +96,46 @@ internal class ImportExportManager(
             tempUnzipDir.mkdirs()
             ZipFile(tempZipFile).extractAll(tempUnzipDir.absolutePath)
 
-            val foundFiles = findRequiredFiles(tempUnzipDir)
-                ?: return Result.failure(IllegalStateException("Plik ZIP nie zawiera wymaganych plików/folderów."))
-
-            File(internalStorageRoot, "data").deleteRecursively()
-            File(internalStorageRoot, "Datowane").deleteRecursively()
-            File(internalStorageRoot, "piesni.json").delete()
-            File(internalStorageRoot, "kategorie.json").delete()
-
-            foundFiles.dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
-            foundFiles.datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
-            foundFiles.songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
-
-            findFileRecursively(tempUnzipDir, "kategorie.json")?.copyTo(File(internalStorageRoot, "kategorie.json"), true)
+            // Selektywny import - tylko wybrane dane
+            if (configuration.includeDays) {
+                val dataDir = findDirectoryRecursively(tempUnzipDir, "data")
+                val datowaneDir = findDirectoryRecursively(tempUnzipDir, "Datowane")
+                
+                if (dataDir != null && datowaneDir != null) {
+                    File(internalStorageRoot, "data").deleteRecursively()
+                    File(internalStorageRoot, "Datowane").deleteRecursively()
+                    dataDir.copyRecursively(File(internalStorageRoot, "data"), true)
+                    datowaneDir.copyRecursively(File(internalStorageRoot, "Datowane"), true)
+                }
+            }
+            
+            if (configuration.includeSongs) {
+                findFileRecursively(tempUnzipDir, "piesni.json")?.let { songFile ->
+                    File(internalStorageRoot, "piesni.json").delete()
+                    songFile.copyTo(File(internalStorageRoot, "piesni.json"), true)
+                }
+            }
+            
+            if (configuration.includeCategories) {
+                findFileRecursively(tempUnzipDir, "kategorie.json")?.let { categoriesFile ->
+                    File(internalStorageRoot, "kategorie.json").delete()
+                    categoriesFile.copyTo(File(internalStorageRoot, "kategorie.json"), true)
+                }
+            }
+            
+            if (configuration.includeNeumy) {
+                findDirectoryRecursively(tempUnzipDir, "neumy")?.let { neumyDir ->
+                    File(internalStorageRoot, "neumy").deleteRecursively()
+                    neumyDir.copyRecursively(File(internalStorageRoot, "neumy"), true)
+                }
+            }
+            
+            if (configuration.includeYears) {
+                findDirectoryRecursively(tempUnzipDir, "calendar_data")?.let { calendarDir ->
+                    File(internalStorageRoot, "calendar_data").deleteRecursively()
+                    calendarDir.copyRecursively(File(internalStorageRoot, "calendar_data"), true)
+                }
+            }
 
             return Result.success(Unit)
         } catch (e: Exception) {
@@ -76,19 +151,7 @@ internal class ImportExportManager(
         return directory.walkTopDown().find { it.isFile && it.name == fileName }
     }
 
-    private fun findRequiredFiles(startDir: File): FoundImportFiles? {
-        val queue: Queue<File> = LinkedList(listOf(startDir))
-        while (queue.isNotEmpty()) {
-            val currentDir = queue.poll()
-            val dataDir = File(currentDir, "data")
-            val datowaneDir = File(currentDir, "Datowane")
-            val songFile = File(currentDir, "piesni.json")
-
-            if (dataDir.isDirectory && datowaneDir.isDirectory && songFile.isFile) {
-                return FoundImportFiles(dataDir, datowaneDir, songFile)
-            }
-            currentDir.listFiles { file -> file.isDirectory }?.let { queue.addAll(it) }
-        }
-        return null
+    private fun findDirectoryRecursively(directory: File, dirName: String): File? {
+        return directory.walkTopDown().find { it.isDirectory && it.name == dirName }
     }
 }

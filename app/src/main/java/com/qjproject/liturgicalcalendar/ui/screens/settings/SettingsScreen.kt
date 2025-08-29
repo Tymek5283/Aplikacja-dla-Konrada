@@ -35,7 +35,7 @@ fun SettingsScreen(
     val importLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.GetContent(),
         onResult = { uri ->
-            uri?.let { viewModel.importData(it) }
+            uri?.let { viewModel.startImport(it) }
         }
     )
 
@@ -51,6 +51,26 @@ fun SettingsScreen(
             onDismiss = { viewModel.dismissRestartPrompt() },
             onConfirm = onRestartApp
         )
+    }
+
+    if (uiState.showExportConfigDialog) {
+        ExportConfigurationDialog(
+            onDismiss = { viewModel.hideExportConfigDialog() },
+            onConfirm = { configuration -> viewModel.exportData(configuration) }
+        )
+    }
+
+    uiState.importPreviewState?.let { previewState ->
+        if (uiState.showImportConfigDialog) {
+            ImportConfigurationDialog(
+                previewState = previewState,
+                onConfigurationChange = { configuration -> viewModel.updateImportConfiguration(configuration) },
+                onConfirm = { 
+                    viewModel.confirmImport()
+                },
+                onDismiss = { viewModel.hideImportConfigDialog() }
+            )
+        }
     }
 
     Scaffold(
@@ -76,7 +96,7 @@ fun SettingsScreen(
                 subtitle = "Zapisz kopię zapasową swoich danych",
                 icon = Icons.Default.Upload,
                 isLoading = uiState.isExporting,
-                onClick = { viewModel.exportData() },
+                onClick = { viewModel.showExportConfigDialog() },
                 enabled = !uiState.isImporting && !uiState.isExporting
             )
             SettingsTile(

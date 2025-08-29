@@ -8,6 +8,7 @@ import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.DayData
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
 import com.qjproject.liturgicalcalendar.data.Song
+import com.qjproject.liturgicalcalendar.ui.screens.settings.ExportConfiguration
 import kotlinx.serialization.json.Json
 import java.io.File
 import java.time.Month
@@ -61,6 +62,12 @@ class FileSystemRepository(val context: Context) {
     fun renameItem(itemPath: String, newName: String): Result<String> = directoryManager.renameItem(itemPath, newName)
 
     // Import/Export Operations
-    fun exportDataToZip(): Result<File> = importExportManager.exportDataToZip()
-    fun importDataFromZip(uri: Uri): Result<Unit> = importExportManager.importDataFromZip(uri)
+    fun exportDataToZip(configuration: ExportConfiguration): Result<File> = importExportManager.exportDataToZip(configuration)
+    fun analyzeImportData(uri: Uri): Result<com.qjproject.liturgicalcalendar.ui.screens.settings.AvailableImportData> {
+        return importExportManager.analyzeImportData(uri)
+    }
+
+    fun importDataFromZip(uri: Uri, configuration: com.qjproject.liturgicalcalendar.ui.screens.settings.ImportConfiguration): Result<Unit> {
+        return importExportManager.importDataFromZip(uri, configuration)
+    }
 }
