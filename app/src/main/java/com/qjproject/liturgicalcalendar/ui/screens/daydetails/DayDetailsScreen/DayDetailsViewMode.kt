@@ -33,6 +33,7 @@ import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmode
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
 import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
@@ -315,7 +316,7 @@ private fun SongItemView(displayableSong: DisplayableSuggestedSong, onClick: () 
             .fillMaxWidth()
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = CardBackground)
+        colors = CardDefaults.cardColors(containerColor = TileBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),

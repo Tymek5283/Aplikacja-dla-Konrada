@@ -207,6 +207,10 @@ class CalendarViewModel(
 
     // --- POCZĄTEK ZMIANY ---
     // Poprawiona logika wyszukiwania plików w folderze assets z użyciem translationMap
+    fun findFilePathsForEventSync(name: String): List<String> {
+        return findFilePathsForEvent(name)
+    }
+    
     private fun findFilePathsForEvent(name: String): List<String> {
         val searchName = name.replace(":", "").trim()
         val results = mutableListOf<String>()

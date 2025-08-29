@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.outlined.Article
+import androidx.compose.material.icons.outlined.Folder
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -16,11 +17,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import java.io.File
 
 data class EventItem(
     val fullPath: String,
-    val displayName: String
+    val displayName: String,
+    val isDirectory: Boolean
 )
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -32,8 +35,9 @@ fun DateEventsScreen(
     onNavigateBack: () -> Unit
 ) {
     val eventItems = filePaths.map { path ->
-        val displayName = File(path).nameWithoutExtension
-        EventItem(fullPath = path, displayName = displayName)
+        val file = File(path)
+        val displayName = file.nameWithoutExtension
+        EventItem(fullPath = path, displayName = displayName, isDirectory = file.isDirectory)
     }
 
     BackHandler(onBack = onNavigateBack)
@@ -96,7 +100,7 @@ private fun EventListItem(
             .padding(vertical = 4.dp)
             .clickable(onClick = onClick),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        colors = CardDefaults.cardColors(containerColor = TileBackground)
     ) {
         Row(
             modifier = Modifier
@@ -105,8 +109,8 @@ private fun EventListItem(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Outlined.Article,
-                contentDescription = "Wydarzenie",
+                imageVector = if (item.isDirectory) Icons.Outlined.Folder else Icons.Outlined.Article,
+                contentDescription = if (item.isDirectory) "Folder z wersjami" else "Wydarzenie",
                 tint = MaterialTheme.colorScheme.primary
             )
             Spacer(modifier = Modifier.width(16.dp))

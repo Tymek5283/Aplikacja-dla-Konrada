@@ -28,3 +28,6 @@ val Gold = Color(0xFFFFD700)
 val VividRed = Color(0xFFA22B27)
 
 val NavBarBackground = Color(0xFF1F213A)
+
+// Nowy kolor dla kafelków - subtelnie jaśniejszy od VeryDarkNavy
+val TileBackground = Color(0xFF1F2240)

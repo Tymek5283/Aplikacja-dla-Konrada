@@ -35,6 +35,7 @@ import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarRepository.m
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.theme.Gold
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import java.time.Month
 import java.time.YearMonth
@@ -300,7 +301,7 @@ internal fun EventSelectionDialog(
     onEventSelected: (LiturgicalEventDetails) -> Unit
 ) {
     val groupedEvents = remember(events) {
-        val baseNameRegex = Regex("(?i)\\s+rok\\s+[A-C]$|\\s+rok\\s+[I-II]$")
+        val baseNameRegex = Regex("(?i)\\s+rok\\s+[A-C]$|\\s+rok\\s+[I-II]$|\\s+[A-C]$|\\s+[I-II]$")
         events
             .groupBy { event -> baseNameRegex.replace(event.name, "") }
             .mapValues { it.value.sortedWith(viewModel.calendarRepo.eventComparator) }
@@ -329,12 +330,16 @@ internal fun EventSelectionDialog(
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     items(groupedEvents, key = { it.first }) { (baseName, eventList) ->
-                        val isGroup = eventList.size > 1
                         val eventToShow = eventList.first()
+                        // Sprawdź rzeczywiste pliki w systemie dla tego wydarzenia
+                        val foundPaths = remember(eventToShow.name) {
+                            viewModel.findFilePathsForEventSync(eventToShow.name)
+                        }
+                        val isGroup = foundPaths.size > 1
 
                         Card(
                             modifier = Modifier.fillMaxWidth().clickable { onEventSelected(eventToShow) },
-                            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+                            colors = CardDefaults.cardColors(containerColor = TileBackground)
                         ) {
                             Row(
                                 modifier = Modifier.padding(16.dp),

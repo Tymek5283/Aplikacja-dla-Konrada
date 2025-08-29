@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
@@ -128,7 +129,7 @@ fun SongResultItem(
                 onLongClick = onLongClick
             ),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = CardBackground)
+        colors = CardDefaults.cardColors(containerColor = TileBackground)
     ) {
         Row(
             modifier = Modifier.padding(16.dp),
