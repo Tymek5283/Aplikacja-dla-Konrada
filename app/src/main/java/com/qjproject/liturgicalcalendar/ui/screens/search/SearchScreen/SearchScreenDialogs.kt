@@ -60,7 +60,6 @@ internal fun AddSongDialog(
     var text by remember { mutableStateOf("") }
     var category by remember { mutableStateOf(initialCategoryName ?: "") }
     var isCategoryExpanded by remember { mutableStateOf(false) }
-    val isAnyNumberPresent by remember { derivedStateOf { numerSiedl.isNotBlank() || numerSak.isNotBlank() || numerDn.isNotBlank() } }
 
 
     LaunchedEffect(title, numerSiedl, numerSak, numerDn) {
@@ -74,7 +73,7 @@ internal fun AddSongDialog(
         ) {
             Column(
                 modifier = Modifier
-                    .padding(24.dp)
+                    .padding(16.dp)
                     .verticalScroll(rememberScrollState())
             ) {
                 Text(
@@ -173,7 +172,7 @@ internal fun AddSongDialog(
                     }
                 }
 
-                Spacer(Modifier.height(24.dp))
+                Spacer(Modifier.height(16.dp))
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                     TextButton(onClick = onDismiss) {
                         Text("Anuluj")
@@ -181,7 +180,7 @@ internal fun AddSongDialog(
                     Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text, category) },
-                        enabled = title.isNotBlank() && isAnyNumberPresent && error == null
+                        enabled = title.isNotBlank() && error == null
                     ) {
                         Text("Zapisz")
                     }

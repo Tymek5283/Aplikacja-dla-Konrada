@@ -240,10 +240,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
             return
         }
-        if (trimmedSiedl.isBlank() && trimmedSak.isBlank() && trimmedDn.isBlank()) {
-            _uiState.update { it.copy(addSongError = "Przynajmniej jeden numer jest wymagany.") }
-            return
-        }
         validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn)
         if (_uiState.value.addSongError != null) return
 
