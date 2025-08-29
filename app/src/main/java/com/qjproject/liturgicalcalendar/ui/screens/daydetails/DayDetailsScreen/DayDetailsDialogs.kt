@@ -30,6 +30,7 @@ import com.qjproject.liturgicalcalendar.data.Reading
 import com.qjproject.liturgicalcalendar.data.Song
 import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeSubtleBlue
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
@@ -388,12 +389,46 @@ internal fun SongDetailsModal(
                     SongNumberInfo("Siedlecki:", fullSong.numerSiedl)
                     SongNumberInfo("ŚAK:", fullSong.numerSAK)
                     SongNumberInfo("DN:", fullSong.numerDN)
+                    
+                    // Wyświetlanie rzeczywistej kategorii pieśni zamiast momentu liturgicznego
+                    if (fullSong.kategoria.isNotBlank()) {
+                        Spacer(Modifier.height(8.dp))
+                        Row {
+                            Text(
+                                text = "Kategoria:",
+                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+                                modifier = Modifier.width(80.dp),
+                                color = SaturatedNavy
+                            )
+                            Text(
+                                text = fullSong.kategoria,
+                                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold)
+                            )
+                        }
+                    }
+
+                    // Wyświetlanie momentu liturgicznego jako osobne pole
+                    if (suggestedSong.moment.isNotBlank()) {
+                        Spacer(Modifier.height(8.dp))
+                        Row {
+                            Text(
+                                text = "Moment:",
+                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+                                modifier = Modifier.width(80.dp),
+                                color = SaturatedNavy
+                            )
+                            Text(
+                                text = suggestedSong.moment,
+                                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold)
+                            )
+                        }
+                    }
 
                     if (suggestedSong.opis.isNotBlank()) {
                         Spacer(Modifier.height(16.dp))
                         Text(
                             buildAnnotatedString {
-                                withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Opis:\n") }
+                                withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = SaturatedNavy)) { append("Opis:\n") }
                                 append(suggestedSong.opis)
                             },
                             style = MaterialTheme.typography.bodyMedium
@@ -422,7 +457,8 @@ private fun SongNumberInfo(label: String, number: String) {
         Text(
             text = label,
             style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
-            modifier = Modifier.width(80.dp)
+            modifier = Modifier.width(80.dp),
+            color = SaturatedNavy
         )
         Text(
             text = displayValue,

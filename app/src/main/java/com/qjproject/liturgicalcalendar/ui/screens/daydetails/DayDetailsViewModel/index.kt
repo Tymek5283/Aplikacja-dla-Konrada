@@ -165,13 +165,34 @@ class DayDetailsViewModel(
                 val dataToSave = editableDayData.value
                 if (dataToSave != null) {
                     repository.saveDayData(dayId, dataToSave).onSuccess {
-                        _uiState.update { currentState -> currentState.copy(dayData = dataToSave) }
+                        // Bezpośrednie zaktualizowanie stanu UI zapisanymi danymi
+                        // zamiast ponownego wczytywania z pliku
+                        _uiState.update { currentState -> 
+                            currentState.copy(
+                                dayData = dataToSave,
+                                isEditMode = false, 
+                                hasChanges = false, 
+                                showConfirmExitDialog = false
+                            ) 
+                        }
+                        editableDayData.value = null
+                        return@launch
+                    }.onFailure {
+                        // W przypadku błędu zapisu, pozostań w trybie edycji
+                        _uiState.update { currentState -> 
+                            currentState.copy(error = "Błąd podczas zapisywania zmian: ${it.message}")
+                        }
+                        return@launch
                     }
                 }
             }
+            // Jeśli nie zapisujemy lub nie ma zmian, po prostu wychodzimy z trybu edycji
             _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false) }
             editableDayData.value = null
-            loadDayData()
+            // Wczytaj dane ponownie tylko jeśli nie zapisywaliśmy
+            if (!save || !_uiState.value.hasChanges) {
+                loadDayData()
+            }
         }
     }
 
@@ -271,32 +292,36 @@ class DayDetailsViewModel(
     }
 
     fun reorderSongs(from: ItemPosition, to: ItemPosition) {
-        updateEditableData { currentData ->
-            val currentFlatList = reorderableSongList.value.toMutableList()
+        // Optymalizacja: Opóźnij aktualizację stanu aby zapobiec przerywaniu Drag&Drop
+        viewModelScope.launch {
+            kotlinx.coroutines.delay(50) // Krótkie opóźnienie dla płynności
+            updateEditableData { currentData ->
+                val currentFlatList = reorderableSongList.value.toMutableList()
 
-            if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
-                return@updateEditableData currentData
-            }
+                if (currentFlatList.getOrNull(from.index) !is ReorderableListItem.SongItem) {
+                    return@updateEditableData currentData
+                }
 
-            val movedItem = currentFlatList.removeAt(from.index)
-            currentFlatList.add(to.index, movedItem)
+                val movedItem = currentFlatList.removeAt(from.index)
+                currentFlatList.add(to.index, movedItem)
 
-            val newPiesniSugerowane = mutableListOf<SuggestedSong>()
-            var currentMoment: String? = null
-            for (item in currentFlatList) {
-                when (item) {
-                    is ReorderableListItem.HeaderItem -> {
-                        currentMoment = item.momentKey
-                    }
-                    is ReorderableListItem.SongItem -> {
-                        currentMoment?.let { moment ->
-                            newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
+                val newPiesniSugerowane = mutableListOf<SuggestedSong>()
+                var currentMoment: String? = null
+                for (item in currentFlatList) {
+                    when (item) {
+                        is ReorderableListItem.HeaderItem -> {
+                            currentMoment = item.momentKey
+                        }
+                        is ReorderableListItem.SongItem -> {
+                            currentMoment?.let { moment ->
+                                newPiesniSugerowane.add(item.suggestedSong.copy(moment = moment))
+                            }
                         }
                     }
                 }
-            }
 
-            currentData.copy(piesniSugerowane = newPiesniSugerowane)
+                currentData.copy(piesniSugerowane = newPiesniSugerowane)
+            }
         }
     }
 

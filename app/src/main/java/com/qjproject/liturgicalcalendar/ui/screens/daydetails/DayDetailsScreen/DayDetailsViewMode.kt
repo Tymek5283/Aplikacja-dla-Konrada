@@ -18,6 +18,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -32,7 +33,9 @@ import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmode
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DisplayableSuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
 import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeHeaderNavy
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.SectionHeaderBlue
 import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 import kotlinx.coroutines.CoroutineScope
@@ -248,14 +251,15 @@ private fun InsertItemView(title: String, content: String, isExpanded: Boolean, 
                 Text(
                     text = title,
                     style = MaterialTheme.typography.titleMedium,
-                    color = SaturatedNavy,
+                    color = SectionHeaderBlue,
                     modifier = Modifier.weight(1f)
                 )
                 val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 180f else 0f, label = "insertArrow")
                 Icon(
                     imageVector = Icons.Default.KeyboardArrowDown,
                     contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
-                    modifier = Modifier.rotate(rotationAngle)
+                    modifier = Modifier.rotate(rotationAngle),
+                    tint = Color.White
                 )
             }
         }
@@ -290,12 +294,13 @@ fun SongGroupView(
                     .padding(vertical = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(momentName, style = MaterialTheme.typography.titleMedium)
+                Text(momentName, style = MaterialTheme.typography.titleMedium, color = SectionHeaderBlue)
                 Spacer(modifier = Modifier.weight(1f))
                 Icon(
                     imageVector = Icons.Default.KeyboardArrowDown,
                     contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
-                    modifier = Modifier.rotate(rotationAngle)
+                    modifier = Modifier.rotate(rotationAngle),
+                    tint = Color.White
                 )
             }
             AnimatedVisibility(visible = isExpanded) {

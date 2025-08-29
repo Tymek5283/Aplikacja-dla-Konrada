@@ -17,6 +17,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.Article
 import androidx.compose.material.icons.outlined.MusicNote
+import androidx.compose.material.icons.outlined.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -31,7 +32,13 @@ import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DialogState
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.ReorderableListItem
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeDimmedButton
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeHeaderNavy
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeSubtleBlue
+import com.qjproject.liturgicalcalendar.ui.theme.EditModeTileBackground
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.SectionHeaderBlue
 import org.burnoutcrew.reorderable.ReorderableItem
 import org.burnoutcrew.reorderable.detectReorder
 import org.burnoutcrew.reorderable.rememberReorderableLazyListState
@@ -127,7 +134,9 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                         .reorderable(songReorderState)
                         .heightIn(max = 500.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
-                    userScrollEnabled = true
+                    userScrollEnabled = true,
+                    // Optymalizacja dla płynnego Drag & Drop - wyłączenie animacji podczas przeciągania
+                    contentPadding = PaddingValues(0.dp)
                 ) {
                     items(
                         items = reorderableSongList,
@@ -140,7 +149,8 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                     ) { item ->
                         when (item) {
                             is ReorderableListItem.HeaderItem -> {
-                                Column(modifier = Modifier.animateItemPlacement(tween(250))) {
+                                // Usunięto animateItemPlacement aby zapobiec przerywaniu Drag&Drop
+                                Column {
                                     EditableSongCategoryHeader(categoryName = item.momentName)
                                     AddItemButton(
                                         text = "Dodaj pieśń do '${item.momentName}'",
@@ -178,7 +188,7 @@ fun HierarchicalCollapsibleSection(
     enabled: Boolean = true,
     content: @Composable ColumnScope.() -> Unit
 ) {
-    val titleColor = if (enabled) SaturatedNavy else Color.Gray
+    val titleColor = if (enabled) SectionHeaderBlue else Color.Gray
     val rotationAngle by animateFloatAsState(targetValue = if (isExpanded) 0f else -90f, label = "arrowRotation")
 
     Column {
@@ -196,7 +206,7 @@ fun HierarchicalCollapsibleSection(
                     imageVector = Icons.Default.KeyboardArrowDown,
                     contentDescription = if (isExpanded) "Zwiń" else "Rozwiń",
                     modifier = Modifier.rotate(rotationAngle),
-                    tint = titleColor
+                    tint = Color.White
                 )
             }
         }
@@ -223,7 +233,11 @@ fun AddItemButton(text: String, onClick: () -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp),
-        shape = MaterialTheme.shapes.medium
+        shape = MaterialTheme.shapes.medium,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = TileBackground,
+            contentColor = Color.White
+        )
     ) {
         Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
         Spacer(Modifier.width(8.dp))
@@ -244,26 +258,20 @@ fun EditableReadingItem(
             .fillMaxWidth()
             .shadow(if (isDragging) 4.dp else 0.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+        colors = CardDefaults.cardColors(containerColor = EditModeTileBackground)
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 8.dp, vertical = 4.dp),
+                .padding(horizontal = 4.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Default.DragHandle,
+                imageVector = Icons.Outlined.MoreVert,
                 contentDescription = "Zmień kolejność",
-                modifier = reorderModifier.padding(8.dp)
+                modifier = reorderModifier.padding(4.dp)
             )
-            Icon(
-                imageVector = Icons.Outlined.Article,
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.padding(start = 4.dp)
-            )
-            Spacer(Modifier.width(12.dp))
+            Spacer(Modifier.width(8.dp))
             Text(
                 text = reading.typ,
                 style = MaterialTheme.typography.bodyLarge,
@@ -273,7 +281,7 @@ fun EditableReadingItem(
                 overflow = TextOverflow.Ellipsis
             )
             IconButton(onClick = onEditClick) {
-                Icon(Icons.Default.Edit, "Edytuj")
+                Icon(Icons.Default.Edit, "Edytuj", tint = EditModeSubtleBlue)
             }
             IconButton(onClick = onDeleteClick) {
                 Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
@@ -290,7 +298,7 @@ fun EditableSongCategoryHeader(categoryName: String) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp, horizontal = 4.dp),
-        color = MaterialTheme.colorScheme.onSurface
+        color = SectionHeaderBlue
     )
 }
 
@@ -308,30 +316,30 @@ fun EditableSongItem(
             .fillMaxWidth()
             .shadow(if (isDragging) 4.dp else 0.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+        colors = CardDefaults.cardColors(containerColor = EditModeTileBackground)
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 8.dp, vertical = 4.dp),
+                .padding(horizontal = 4.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             if (isReorderEnabled) {
                 Icon(
-                    imageVector = Icons.Default.DragHandle,
+                    imageVector = Icons.Outlined.MoreVert,
                     contentDescription = "Zmień kolejność",
-                    modifier = reorderModifier.padding(8.dp)
+                    modifier = reorderModifier.padding(4.dp)
                 )
             } else {
-                Spacer(Modifier.width(40.dp))
+                Spacer(Modifier.width(32.dp))
             }
             Icon(
                 imageVector = Icons.Outlined.MusicNote,
                 contentDescription = null,
                 tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.padding(start = 4.dp)
+                modifier = Modifier.padding(start = 2.dp)
             )
-            Spacer(Modifier.width(12.dp))
+            Spacer(Modifier.width(8.dp))
             Text(
                 text = song.piesn,
                 style = MaterialTheme.typography.bodyLarge,
@@ -340,9 +348,7 @@ fun EditableSongItem(
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
             )
-            IconButton(onClick = onEditClick) {
-                Icon(Icons.Default.Edit, "Edytuj")
-            }
+            // Ikona edycji usunięta w trybie edycji pieśni
             IconButton(onClick = onDeleteClick) {
                 Icon(Icons.Default.Delete, "Usuń", tint = MaterialTheme.colorScheme.error)
             }

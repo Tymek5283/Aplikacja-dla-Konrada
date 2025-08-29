@@ -19,7 +19,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 
 private val CustomDarkColorScheme = darkColorScheme(
-    primary = LightBlue,
+    primary = SaturatedNavy,
     secondary = NavyLight,
     background = NavyDark,
     surface = CardBackground,

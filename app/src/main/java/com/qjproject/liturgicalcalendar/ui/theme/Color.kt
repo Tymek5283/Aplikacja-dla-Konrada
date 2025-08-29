@@ -31,3 +31,8 @@ val NavBarBackground = Color(0xFF1F213A)
 
 // Nowy kolor dla kafelków - subtelnie jaśniejszy od VeryDarkNavy
 val TileBackground = Color(0xFF1F2240)
+val EditModeTileBackground = Color(0xFF1A2B4F) // Ciemniejszy granatowy dla trybu edycji (mniej turkusowy, bardziej niebieski)
+val EditModeHeaderNavy = Color(0xFF2D4A7A) // Ciemniejszy granatowy dla nagłówków w trybie edycji
+val EditModeSubtleBlue = Color(0xFF6B9BD1) // Subtelny błękitny dla ikon edycji
+val EditModeDimmedButton = Color(0xFF3A4A6C) // Stonowany kolor dla przycisków w trybie edycji
+val SectionHeaderBlue = Color(0xFF425EF6) // Błękitny kolor dla nagłówków sekcji i wstawek
