@@ -1,6 +1,8 @@
 package com.qjproject.liturgicalcalendar.ui.screens.settings
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -30,7 +32,9 @@ fun ExportConfigurationDialog(
                 .padding(16.dp)
         ) {
             Column(
-                modifier = Modifier.padding(24.dp),
+                modifier = Modifier
+                    .padding(24.dp)
+                    .heightIn(max = 600.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 Text(
@@ -50,41 +54,63 @@ fun ExportConfigurationDialog(
                     color = MaterialTheme.colorScheme.onSurface
                 )
 
-                // Przełączniki w kolejności określonej w wymaganiach
-                ExportOptionSwitch(
-                    title = "Pieśni",
-                    subtitle = "Wszystkie pieśni z tekstami i metadanymi",
-                    checked = configuration.includeSongs,
-                    onCheckedChange = { configuration = configuration.copy(includeSongs = it) }
-                )
+                // Przewijalna sekcja z opcjami eksportu
+                Column(
+                    modifier = Modifier
+                        .weight(1f, fill = false)
+                        .verticalScroll(rememberScrollState()),
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    // Przełączniki w kolejności określonej w wymaganiach
+                    ExportOptionSwitch(
+                        title = "Pieśni",
+                        subtitle = "Wszystkie pieśni z tekstami i metadanymi",
+                        checked = configuration.includeSongs,
+                        onCheckedChange = { configuration = configuration.copy(includeSongs = it) }
+                    )
 
-                ExportOptionSwitch(
-                    title = "Dni",
-                    subtitle = "Czytania i sugestie pieśni dla okresów liturgicznych",
-                    checked = configuration.includeDays,
-                    onCheckedChange = { configuration = configuration.copy(includeDays = it) }
-                )
+                    ExportOptionSwitch(
+                        title = "Dni",
+                        subtitle = "Czytania i sugestie pieśni dla okresów liturgicznych",
+                        checked = configuration.includeDays,
+                        onCheckedChange = { configuration = configuration.copy(includeDays = it) }
+                    )
 
-                ExportOptionSwitch(
-                    title = "Kategorie",
-                    subtitle = "Definicje kategorii i ich skróty",
-                    checked = configuration.includeCategories,
-                    onCheckedChange = { configuration = configuration.copy(includeCategories = it) }
-                )
+                    ExportOptionSwitch(
+                        title = "Kategorie",
+                        subtitle = "Definicje kategorii i ich skróty",
+                        checked = configuration.includeCategories,
+                        onCheckedChange = { configuration = configuration.copy(includeCategories = it) }
+                    )
 
-                ExportOptionSwitch(
-                    title = "Neumy",
-                    subtitle = "Pliki PDF z notacją muzyczną",
-                    checked = configuration.includeNeumy,
-                    onCheckedChange = { configuration = configuration.copy(includeNeumy = it) }
-                )
+                    ExportOptionSwitch(
+                        title = "Tagi",
+                        subtitle = "Wszystkie tagi przypisane do pieśni",
+                        checked = configuration.includeTags,
+                        onCheckedChange = { configuration = configuration.copy(includeTags = it) }
+                    )
 
-                ExportOptionSwitch(
-                    title = "Lata",
-                    subtitle = "Dane specyficzne dla poszczególnych lat",
-                    checked = configuration.includeYears,
-                    onCheckedChange = { configuration = configuration.copy(includeYears = it) }
-                )
+                    ExportOptionSwitch(
+                        title = "Neumy",
+                        subtitle = "Pliki PDF z notacją muzyczną",
+                        checked = configuration.includeNeumy,
+                        onCheckedChange = { configuration = configuration.copy(includeNeumy = it) }
+                    )
+
+                    ExportOptionSwitch(
+                        title = "Notatki",
+                        subtitle = "Wszystkie notatki użytkownika",
+                        checked = configuration.includeNotes,
+                        onCheckedChange = { configuration = configuration.copy(includeNotes = it) }
+                    )
+
+                    ExportOptionSwitch(
+                        title = "Lata",
+                        subtitle = "Dane specyficzne dla poszczególnych lat",
+                        checked = configuration.includeYears,
+                        onCheckedChange = { configuration = configuration.copy(includeYears = it) }
+                    )
+                }
 
                 Spacer(modifier = Modifier.height(8.dp))
 

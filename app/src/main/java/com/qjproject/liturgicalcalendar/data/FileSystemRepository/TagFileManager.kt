@@ -70,7 +70,7 @@ internal class TagFileManager(
         return saveTagList(currentTags + trimmedTag)
     }
 
-    fun updateTag(oldTag: String, newTag: String): Result<Unit> {
+    fun updateTag(oldTag: String, newTag: String, songFileManager: SongFileManager): Result<Unit> {
         val trimmedNewTag = newTag.trim()
         if (trimmedNewTag.isEmpty()) {
             return Result.failure(IllegalArgumentException("Tag nie może być pusty"))
@@ -85,14 +85,57 @@ internal class TagFileManager(
             return Result.failure(IllegalArgumentException("Tag o tej nazwie już istnieje"))
         }
         
+        // Najpierw aktualizuj tagi w pieśniach
+        val updateSongsResult = updateTagInAllSongs(oldTag, trimmedNewTag, songFileManager)
+        if (updateSongsResult.isFailure) {
+            return updateSongsResult
+        }
+        
+        // Następnie aktualizuj listę tagów
         val updatedTags = currentTags.map { 
             if (it.equals(oldTag, ignoreCase = true)) trimmedNewTag else it 
         }
         
-        return saveTagList(updatedTags)
+        val result = saveTagList(updatedTags)
+        
+        // Invaliduj cache po pomyślnej aktualizacji
+        if (result.isSuccess) {
+            cacheManager.invalidateSongCache() // Invaliduj cache pieśni bo tagi się zmieniły
+        }
+        
+        return result
     }
 
-    fun removeTag(tag: String): Result<Unit> {
+    private fun updateTagInAllSongs(oldTag: String, newTag: String, songFileManager: SongFileManager): Result<Unit> {
+        return try {
+            val songs = songFileManager.getSongList()
+            var hasChanges = false
+            
+            val updatedSongs = songs.map { song ->
+                if (song.tagi.any { it.equals(oldTag, ignoreCase = true) }) {
+                    hasChanges = true
+                    val updatedTags = song.tagi.map { tag ->
+                        if (tag.equals(oldTag, ignoreCase = true)) newTag else tag
+                    }
+                    song.copy(tagi = updatedTags)
+                } else {
+                    song
+                }
+            }
+            
+            if (hasChanges) {
+                songFileManager.saveSongList(updatedSongs).getOrThrow()
+                Log.d("TagManager", "Zaktualizowano tagi w ${updatedSongs.count { it.tagi.contains(newTag) }} pieśniach")
+            }
+            
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("TagManager", "Błąd podczas aktualizacji tagów w pieśniach", e)
+            Result.failure(e)
+        }
+    }
+
+    fun removeTag(tag: String, songFileManager: SongFileManager): Result<Unit> {
         val currentTags = getTagList()
         val updatedTags = currentTags.filter { !it.equals(tag, ignoreCase = true) }
         
@@ -100,6 +143,47 @@ internal class TagFileManager(
             return Result.failure(IllegalArgumentException("Tag nie istnieje"))
         }
         
-        return saveTagList(updatedTags)
+        // Najpierw usuń tag z wszystkich pieśni
+        val removeSongsResult = removeTagFromAllSongs(tag, songFileManager)
+        if (removeSongsResult.isFailure) {
+            return removeSongsResult
+        }
+        
+        // Następnie usuń tag z listy tagów
+        val result = saveTagList(updatedTags)
+        
+        // Invaliduj cache po pomyślnym usunięciu
+        if (result.isSuccess) {
+            cacheManager.invalidateSongCache() // Invaliduj cache pieśni bo tagi się zmieniły
+        }
+        
+        return result
+    }
+
+    private fun removeTagFromAllSongs(tagToRemove: String, songFileManager: SongFileManager): Result<Unit> {
+        return try {
+            val songs = songFileManager.getSongList()
+            var hasChanges = false
+            
+            val updatedSongs = songs.map { song ->
+                if (song.tagi.any { it.equals(tagToRemove, ignoreCase = true) }) {
+                    hasChanges = true
+                    val updatedTags = song.tagi.filter { !it.equals(tagToRemove, ignoreCase = true) }
+                    song.copy(tagi = updatedTags)
+                } else {
+                    song
+                }
+            }
+            
+            if (hasChanges) {
+                songFileManager.saveSongList(updatedSongs).getOrThrow()
+                Log.d("TagManager", "Usunięto tag '$tagToRemove' z ${songs.count { it.tagi.any { tag -> tag.equals(tagToRemove, ignoreCase = true) } }} pieśni")
+            }
+            
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Log.e("TagManager", "Błąd podczas usuwania tagu z pieśni", e)
+            Result.failure(e)
+        }
     }
 }

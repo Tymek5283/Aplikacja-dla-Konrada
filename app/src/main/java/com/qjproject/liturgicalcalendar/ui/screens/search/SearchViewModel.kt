@@ -67,7 +67,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     fun reloadData() {
         allSongsCache = null
-        repository.invalidateSongCache()
+        repository.invalidateAllCaches()
         loadInitialData()
         performSearch()
     }

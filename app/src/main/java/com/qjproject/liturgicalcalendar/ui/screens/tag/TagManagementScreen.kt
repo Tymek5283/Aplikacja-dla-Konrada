@@ -286,17 +286,12 @@ fun DeleteTagDialog(
                 Text(
                     text = buildAnnotatedString {
                         append("Czy na pewno chcesz usunąć tag ")
-                        withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
+                        withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
                             append("\"$tag\"")
                         }
                         append("?")
-                    }
-                )
-                
-                Text(
-                    text = "Ta operacja jest nieodwracalna.",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                    },
+                    color = MaterialTheme.colorScheme.onSurface
                 )
                 
                 Row(

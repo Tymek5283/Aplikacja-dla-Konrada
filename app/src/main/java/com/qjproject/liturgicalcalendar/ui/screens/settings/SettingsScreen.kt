@@ -97,7 +97,7 @@ fun SettingsScreen(
         ) {
             SettingsTile(
                 title = "Notatki",
-                subtitle = "Zarządzaj swoimi notatkami",
+                subtitle = "Twórz swoje notatki",
                 icon = Icons.Default.MenuBook,
                 onClick = onNavigateToNotes,
                 enabled = !uiState.isImporting && !uiState.isExporting

@@ -120,9 +120,7 @@ internal fun MainAppHost() {
                 onNavigateToTagManagement = { navController.navigate(Screen.TagManagement.route) },
                 onNavigateToTagSearch = { tag ->
                     // Nawigacja do głównego ekranu z preselektowanym tagiem
-                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}") {
-                        popUpTo("main_tabs") { inclusive = true }
-                    }
+                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}")
                 }
             )
         }
@@ -173,7 +171,11 @@ internal fun MainAppHost() {
             val factory = TagManagementViewModelFactory(context)
             TagManagementScreen(
                 viewModel = viewModel(factory = factory),
-                onNavigateBack = safePopBackStack
+                onNavigateBack = {
+                    // Po powrocie z zarządzania tagami, powiadom główny ekran o potrzebie odświeżenia
+                    navController.previousBackStackEntry?.savedStateHandle?.set("refresh_tags", true)
+                    safePopBackStack()
+                }
             )
         }
         composable(

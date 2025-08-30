@@ -120,6 +120,17 @@ internal fun MainTabsScreen(
         }
     }
 
+    // Obsługa odświeżania po powrocie z zarządzania tagami
+    LaunchedEffect(navController) {
+        navController.currentBackStackEntryFlow.collect { backStackEntry ->
+            val shouldRefreshTags = backStackEntry.savedStateHandle.get<Boolean>("refresh_tags")
+            if (shouldRefreshTags == true) {
+                searchViewModel.reloadData()
+                backStackEntry.savedStateHandle.remove<Boolean>("refresh_tags")
+            }
+        }
+    }
+
     BackHandler(enabled = true) {
         when {
             isBrowseScreenActive -> {

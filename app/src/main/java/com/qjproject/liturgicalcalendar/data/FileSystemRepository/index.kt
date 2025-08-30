@@ -35,6 +35,11 @@ class FileSystemRepository(val context: Context) {
     fun invalidateSongCache() = cacheManager.invalidateSongCache()
     fun invalidateCategoryCache() = cacheManager.invalidateCategoryCache()
     fun invalidateTagCache() = cacheManager.invalidateTagCache()
+    fun invalidateAllCaches() {
+        cacheManager.invalidateSongCache()
+        cacheManager.invalidateCategoryCache()
+        cacheManager.invalidateTagCache()
+    }
 
     // DayFile Operations
     fun getAllDayFilePaths(): List<String> = dayFileManager.getAllDayFilePaths()
@@ -59,8 +64,8 @@ class FileSystemRepository(val context: Context) {
     fun getTagList(): List<String> = tagFileManager.getTagList()
     fun saveTagList(tags: List<String>): Result<Unit> = tagFileManager.saveTagList(tags)
     fun addTag(tag: String): Result<Unit> = tagFileManager.addTag(tag)
-    fun updateTag(oldTag: String, newTag: String): Result<Unit> = tagFileManager.updateTag(oldTag, newTag)
-    fun removeTag(tag: String): Result<Unit> = tagFileManager.removeTag(tag)
+    fun updateTag(oldTag: String, newTag: String): Result<Unit> = tagFileManager.updateTag(oldTag, newTag, songFileManager)
+    fun removeTag(tag: String): Result<Unit> = tagFileManager.removeTag(tag, songFileManager)
 
     // Directory Operations
     fun getItems(path: String): List<FileSystemItem> = directoryManager.getItems(path)

@@ -8,7 +8,7 @@ import kotlinx.serialization.json.Json
 import java.io.File
 
 class NotesRepository(context: Context) {
-    private val internalStorageRoot = File(context.filesDir, "app_data")
+    private val internalStorageRoot = context.filesDir
     private val json = Json { 
         prettyPrint = true
         ignoreUnknownKeys = true

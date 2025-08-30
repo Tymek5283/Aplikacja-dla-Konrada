@@ -37,8 +37,16 @@ internal class ImportExportManager(
                 File(internalStorageRoot, "kategorie.json").takeIf { it.exists() }?.let { zip.addFile(it) }
             }
             
+            if (configuration.includeTags) {
+                File(internalStorageRoot, "tagi.json").takeIf { it.exists() }?.let { zip.addFile(it) }
+            }
+            
             if (configuration.includeNeumy) {
                 File(internalStorageRoot, "neumy").takeIf { it.exists() }?.let { zip.addFolder(it) }
+            }
+            
+            if (configuration.includeNotes) {
+                File(internalStorageRoot, "notatki").takeIf { it.exists() }?.let { zip.addFolder(it) }
             }
             
             if (configuration.includeYears) {
@@ -69,7 +77,9 @@ internal class ImportExportManager(
                 hasDays = findDirectoryRecursively(tempUnzipDir, "data") != null && findDirectoryRecursively(tempUnzipDir, "Datowane") != null,
                 hasSongs = findFileRecursively(tempUnzipDir, "piesni.json") != null,
                 hasCategories = findFileRecursively(tempUnzipDir, "kategorie.json") != null,
+                hasTags = findFileRecursively(tempUnzipDir, "tagi.json") != null,
                 hasNeumy = findDirectoryRecursively(tempUnzipDir, "neumy") != null,
+                hasNotes = findDirectoryRecursively(tempUnzipDir, "notatki") != null,
                 hasYears = findDirectoryRecursively(tempUnzipDir, "calendar_data") != null
             )
 
@@ -123,10 +133,36 @@ internal class ImportExportManager(
                 }
             }
             
+            if (configuration.includeTags) {
+                findFileRecursively(tempUnzipDir, "tagi.json")?.let { tagsFile ->
+                    File(internalStorageRoot, "tagi.json").delete()
+                    tagsFile.copyTo(File(internalStorageRoot, "tagi.json"), true)
+                }
+            }
+            
             if (configuration.includeNeumy) {
                 findDirectoryRecursively(tempUnzipDir, "neumy")?.let { neumyDir ->
                     File(internalStorageRoot, "neumy").deleteRecursively()
                     neumyDir.copyRecursively(File(internalStorageRoot, "neumy"), true)
+                }
+            }
+            
+            if (configuration.includeNotes) {
+                findDirectoryRecursively(tempUnzipDir, "notatki")?.let { notesDir ->
+                    val targetNotesDir = File(internalStorageRoot, "notatki")
+                    // Dla notatek: dopisywanie, nie nadpisywanie
+                    if (!targetNotesDir.exists()) {
+                        targetNotesDir.mkdirs()
+                    }
+                    // Kopiuj tylko pliki, które jeszcze nie istnieją
+                    notesDir.walkTopDown().filter { it.isFile }.forEach { sourceFile ->
+                        val relativePath = sourceFile.relativeTo(notesDir).path
+                        val targetFile = File(targetNotesDir, relativePath)
+                        if (!targetFile.exists()) {
+                            targetFile.parentFile?.mkdirs()
+                            sourceFile.copyTo(targetFile, false)
+                        }
+                    }
                 }
             }
             

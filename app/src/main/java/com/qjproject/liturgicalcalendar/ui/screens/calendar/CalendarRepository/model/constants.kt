@@ -403,6 +403,7 @@ internal val translationMap: Map<String, String> = mapOf(
     "Środa III tygodnia Wielkiego Postu" to "3 Środa Wielkiego Postu",
     "III Niedziela Wielkiego Postu" to "3 Niedziela Wielkiego Postu",
     "Środa IV tygodnia Wielkiego Postu" to "4 Środa Wielkiego Postu",
+    "Czwartek IV tygodnia Wielkiego Postu" to "4 Czwartek Wielkiego Postu",
     "Piątek IV tygodnia Wielkiego Postu" to "4 Piątek Wielkiego Postu",
     "Poniedziałek IV tygodnia Wielkiego Postu" to "4 Poniedziałek Okresu Zwykłego",
     "Sobota IV tygodnia Wielkiego Postu" to "4 Sobota Wielkiego Postu",

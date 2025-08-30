@@ -33,7 +33,9 @@ fun ImportConfigurationDialog(
                 .padding(16.dp)
         ) {
             Column(
-                modifier = Modifier.padding(24.dp),
+                modifier = Modifier
+                    .padding(24.dp)
+                    .heightIn(max = 600.dp),
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 Text(
@@ -79,56 +81,84 @@ fun ImportConfigurationDialog(
                         color = MaterialTheme.colorScheme.onSurface
                     )
 
-                    // Przełączniki w kolejności określonej w wymaganiach
-                    ImportOptionSwitch(
-                        title = "Pieśni",
-                        subtitle = "Wszystkie pieśni z tekstami i metadanymi",
-                        checked = previewState.configuration.includeSongs && previewState.availableData.hasSongs,
-                        enabled = previewState.availableData.hasSongs,
-                        onCheckedChange = { 
-                            onConfigurationChange(previewState.configuration.copy(includeSongs = it))
-                        }
-                    )
+                    // Przewijalna sekcja z opcjami importu
+                    Column(
+                        modifier = Modifier
+                            .weight(1f, fill = false)
+                            .verticalScroll(rememberScrollState()),
+                        verticalArrangement = Arrangement.spacedBy(16.dp)
+                    ) {
+                        // Przełączniki w kolejności określonej w wymaganiach
+                        ImportOptionSwitch(
+                            title = "Pieśni",
+                            subtitle = "Wszystkie pieśni z tekstami i metadanymi",
+                            checked = previewState.configuration.includeSongs && previewState.availableData.hasSongs,
+                            enabled = previewState.availableData.hasSongs,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeSongs = it))
+                            }
+                        )
 
-                    ImportOptionSwitch(
-                        title = "Dni",
-                        subtitle = "Czytania i sugestie pieśni dla okresów liturgicznych",
-                        checked = previewState.configuration.includeDays && previewState.availableData.hasDays,
-                        enabled = previewState.availableData.hasDays,
-                        onCheckedChange = { 
-                            onConfigurationChange(previewState.configuration.copy(includeDays = it))
-                        }
-                    )
+                        ImportOptionSwitch(
+                            title = "Dni",
+                            subtitle = "Czytania i sugestie pieśni dla okresów liturgicznych",
+                            checked = previewState.configuration.includeDays && previewState.availableData.hasDays,
+                            enabled = previewState.availableData.hasDays,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeDays = it))
+                            }
+                        )
 
-                    ImportOptionSwitch(
-                        title = "Kategorie",
-                        subtitle = "Definicje kategorii i ich skróty",
-                        checked = previewState.configuration.includeCategories && previewState.availableData.hasCategories,
-                        enabled = previewState.availableData.hasCategories,
-                        onCheckedChange = { 
-                            onConfigurationChange(previewState.configuration.copy(includeCategories = it))
-                        }
-                    )
+                        ImportOptionSwitch(
+                            title = "Kategorie",
+                            subtitle = "Definicje kategorii i ich skróty",
+                            checked = previewState.configuration.includeCategories && previewState.availableData.hasCategories,
+                            enabled = previewState.availableData.hasCategories,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeCategories = it))
+                            }
+                        )
 
-                    ImportOptionSwitch(
-                        title = "Neumy",
-                        subtitle = "Pliki PDF z notacją muzyczną",
-                        checked = previewState.configuration.includeNeumy && previewState.availableData.hasNeumy,
-                        enabled = previewState.availableData.hasNeumy,
-                        onCheckedChange = { 
-                            onConfigurationChange(previewState.configuration.copy(includeNeumy = it))
-                        }
-                    )
+                        ImportOptionSwitch(
+                            title = "Tagi",
+                            subtitle = "Wszystkie tagi przypisane do pieśni",
+                            checked = previewState.configuration.includeTags && previewState.availableData.hasTags,
+                            enabled = previewState.availableData.hasTags,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeTags = it))
+                            }
+                        )
 
-                    ImportOptionSwitch(
-                        title = "Lata",
-                        subtitle = "Dane specyficzne dla poszczególnych lat",
-                        checked = previewState.configuration.includeYears && previewState.availableData.hasYears,
-                        enabled = previewState.availableData.hasYears,
-                        onCheckedChange = { 
-                            onConfigurationChange(previewState.configuration.copy(includeYears = it))
-                        }
-                    )
+                        ImportOptionSwitch(
+                            title = "Neumy",
+                            subtitle = "Pliki PDF z notacją muzyczną",
+                            checked = previewState.configuration.includeNeumy && previewState.availableData.hasNeumy,
+                            enabled = previewState.availableData.hasNeumy,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeNeumy = it))
+                            }
+                        )
+
+                        ImportOptionSwitch(
+                            title = "Notatki",
+                            subtitle = "Wszystkie notatki użytkownika (dopisywane do istniejących)",
+                            checked = previewState.configuration.includeNotes && previewState.availableData.hasNotes,
+                            enabled = previewState.availableData.hasNotes,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeNotes = it))
+                            }
+                        )
+
+                        ImportOptionSwitch(
+                            title = "Lata",
+                            subtitle = "Dane specyficzne dla poszczególnych lat",
+                            checked = previewState.configuration.includeYears && previewState.availableData.hasYears,
+                            enabled = previewState.availableData.hasYears,
+                            onCheckedChange = { 
+                                onConfigurationChange(previewState.configuration.copy(includeYears = it))
+                            }
+                        )
+                    }
                 }
                 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -143,7 +173,7 @@ fun ImportConfigurationDialog(
                     Spacer(modifier = Modifier.width(8.dp))
                     Button(
                         onClick = onConfirm,
-                        enabled = !previewState.isAnalyzing && previewState.analysisError == null,
+                        enabled = !previewState.isAnalyzing && previewState.analysisError == null && hasAnyDataToImport(previewState.availableData),
                         colors = ButtonDefaults.buttonColors(
                             containerColor = SaturatedNavy
                         )
@@ -154,6 +184,16 @@ fun ImportConfigurationDialog(
             }
         }
     }
+}
+
+private fun hasAnyDataToImport(availableData: AvailableImportData): Boolean {
+    return availableData.hasDays || 
+           availableData.hasSongs || 
+           availableData.hasCategories || 
+           availableData.hasTags || 
+           availableData.hasNeumy || 
+           availableData.hasNotes || 
+           availableData.hasYears
 }
 
 @Composable
