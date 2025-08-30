@@ -19,6 +19,8 @@ import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementSc
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.tag.TagManagementScreen
 import com.qjproject.liturgicalcalendar.ui.screens.tag.TagManagementViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.notes.NotesScreen
+import com.qjproject.liturgicalcalendar.ui.screens.notes.NotesViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
@@ -170,6 +172,36 @@ internal fun MainAppHost() {
             val context = LocalContext.current
             val factory = TagManagementViewModelFactory(context)
             TagManagementScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack
+            )
+        }
+        composable(
+            route = Screen.Notes.route,
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) {
+            val context = LocalContext.current
+            val factory = NotesViewModelFactory(context)
+            NotesScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack,
+                onNavigateToNoteDetails = { noteId ->
+                    navController.navigate(Screen.NoteDetails.createRoute(noteId))
+                }
+            )
+        }
+        composable(
+            route = Screen.NoteDetails.route,
+            arguments = listOf(navArgument("noteId") { type = NavType.StringType }),
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) { backStackEntry ->
+            val encodedNoteId = backStackEntry.arguments?.getString("noteId")
+            val decodedNoteId = encodedNoteId?.let { java.net.URLDecoder.decode(it, "UTF-8") }
+            val context = LocalContext.current
+            val factory = com.qjproject.liturgicalcalendar.ui.screens.notes.NoteDetailsViewModelFactory(decodedNoteId ?: "", context)
+            com.qjproject.liturgicalcalendar.ui.screens.notes.NoteDetailsScreen(
                 viewModel = viewModel(factory = factory),
                 onNavigateBack = safePopBackStack
             )

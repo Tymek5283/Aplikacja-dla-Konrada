@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.qjproject.liturgicalcalendar"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.qjproject.liturgicalcalendar"
@@ -66,6 +66,7 @@ dependencies {
     implementation("com.google.accompanist:accompanist-navigation-animation:0.32.0")
 
     implementation("org.burnoutcrew.composereorderable:reorderable:0.9.6")
+    implementation("com.mohamedrejeb.richeditor:richeditor-compose:1.0.0-rc13")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

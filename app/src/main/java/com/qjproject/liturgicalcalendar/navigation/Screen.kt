@@ -7,6 +7,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.MenuBook
+import androidx.compose.material.icons.filled.Notes
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -64,5 +65,9 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
     // --- POCZĄTEK ZMIANY ---
     object CategoryManagement : Screen("category_management", "Zarządzaj kategoriami", Icons.Default.Category)
     object TagManagement : Screen("tag_management", "Zarządzaj tagami", Icons.Default.Label)
+    object Notes : Screen("notes", "Notatki", Icons.Default.Notes)
+    object NoteDetails : Screen("note_details/{noteId}", "Szczegóły notatki", Icons.Default.Notes) {
+        fun createRoute(noteId: String) = "note_details/${UrlEncoder.encode(noteId)}"
+    }
     // --- KONIEC ZMIANY ---
 }

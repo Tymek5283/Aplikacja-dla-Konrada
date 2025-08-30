@@ -8,6 +8,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.Label
+import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Upload
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -29,7 +30,8 @@ fun SettingsScreen(
     viewModel: SettingsViewModel,
     onRestartApp: () -> Unit,
     onNavigateToCategoryManagement: () -> Unit,
-    onNavigateToTagManagement: () -> Unit
+    onNavigateToTagManagement: () -> Unit,
+    onNavigateToNotes: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
@@ -91,11 +93,19 @@ fun SettingsScreen(
                 .fillMaxSize()
                 .padding(padding)
                 .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             SettingsTile(
+                title = "Notatki",
+                subtitle = "Zarządzaj swoimi notatkami",
+                icon = Icons.Default.MenuBook,
+                onClick = onNavigateToNotes,
+                enabled = !uiState.isImporting && !uiState.isExporting
+            )
+            Divider(modifier = Modifier.padding(vertical = 6.dp))
+            SettingsTile(
                 title = "Eksportuj dane",
-                subtitle = "Zapisz kopię zapasową swoich danych",
+                subtitle = "Zapisz kopię zapasową danych",
                 icon = Icons.Default.Upload,
                 isLoading = uiState.isExporting,
                 onClick = { viewModel.showExportConfigDialog() },
@@ -109,10 +119,10 @@ fun SettingsScreen(
                 onClick = { importLauncher.launch("application/zip") },
                 enabled = !uiState.isImporting && !uiState.isExporting
             )
-            Divider(modifier = Modifier.padding(vertical = 8.dp))
+            Divider(modifier = Modifier.padding(vertical = 6.dp))
             SettingsTile(
                 title = "Zarządzaj kategoriami",
-                subtitle = "Dodawaj, edytuj i usuwaj kategorie pieśni",
+                subtitle = "Dodawaj, edytuj i usuwaj kategorie",
                 icon = Icons.Default.Category,
                 onClick = onNavigateToCategoryManagement,
                 enabled = !uiState.isImporting && !uiState.isExporting

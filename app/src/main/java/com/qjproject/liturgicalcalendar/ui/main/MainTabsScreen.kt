@@ -328,6 +328,9 @@ internal fun MainTabsScreen(
                     },
                     onNavigateToTagManagement = {
                         navController.navigate(Screen.TagManagement.route)
+                    },
+                    onNavigateToNotes = {
+                        navController.navigate(Screen.Notes.route)
                     }
                 )
                 else -> {}
