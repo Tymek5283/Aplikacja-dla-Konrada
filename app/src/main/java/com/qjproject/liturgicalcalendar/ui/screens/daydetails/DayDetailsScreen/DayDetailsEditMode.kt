@@ -168,7 +168,8 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                                         onEditClick = { viewModel.showDialog(DialogState.AddEditSong(item.suggestedSong.moment, item.suggestedSong)) },
                                         onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(item.suggestedSong, "pieśń: ${item.suggestedSong.piesn}")) },
                                         reorderModifier = Modifier.detectReorder(songReorderState),
-                                        isReorderEnabled = true
+                                        isReorderEnabled = true,
+                                        viewModel = viewModel
                                     )
                                 }
                             }
@@ -309,8 +310,17 @@ fun EditableSongItem(
     onEditClick: () -> Unit,
     onDeleteClick: () -> Unit,
     reorderModifier: Modifier,
-    isReorderEnabled: Boolean
+    isReorderEnabled: Boolean,
+    viewModel: DayDetailsViewModel
 ) {
+    var hasText by remember { mutableStateOf(true) }
+    
+    LaunchedEffect(song.numer) {
+        viewModel.getFullSong(song) { fullSong ->
+            hasText = !fullSong?.tekst.isNullOrBlank()
+        }
+    }
+    
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -333,10 +343,15 @@ fun EditableSongItem(
             } else {
                 Spacer(Modifier.width(32.dp))
             }
+            val iconColor = if (hasText) {
+                MaterialTheme.colorScheme.primary
+            } else {
+                MaterialTheme.colorScheme.onSurface.copy(alpha = 0.38f)
+            }
             Icon(
                 imageVector = Icons.Outlined.MusicNote,
                 contentDescription = null,
-                tint = MaterialTheme.colorScheme.primary,
+                tint = iconColor,
                 modifier = Modifier.padding(start = 2.dp)
             )
             Spacer(Modifier.width(8.dp))

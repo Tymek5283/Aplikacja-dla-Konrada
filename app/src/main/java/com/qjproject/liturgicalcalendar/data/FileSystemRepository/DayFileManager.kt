@@ -51,17 +51,20 @@ internal class DayFileManager(
         }
         
         try {
-            // Najpierw spróbuj odczytać z assets
+            // POPRAWKA: Najpierw sprawdź pamięć wewnętrzną (zapisane zmiany), potem assets (oryginalne dane)
             val jsonString = try {
-                context.assets.open(path).bufferedReader().use { it.readText() }
-            } catch (e: Exception) {
-                // Jeśli nie ma w assets, spróbuj z pamięci wewnętrznej
                 val file = File(internalStorageRoot, path)
-                if (!file.exists()) {
-                    Log.e("DayFileManager", "Plik nie istnieje ani w assets, ani w pamięci wewnętrznej: $path")
-                    return null
+                if (file.exists()) {
+                    Log.d("DayFileManager", "Odczytywanie z pamięci wewnętrznej: $path")
+                    file.bufferedReader().use { it.readText() }
+                } else {
+                    // Jeśli nie ma w pamięci wewnętrznej, spróbuj z assets
+                    Log.d("DayFileManager", "Odczytywanie z assets: $path")
+                    context.assets.open(path).bufferedReader().use { it.readText() }
                 }
-                file.bufferedReader().use { it.readText() }
+            } catch (e: Exception) {
+                Log.e("DayFileManager", "Plik nie istnieje ani w pamięci wewnętrznej, ani w assets: $path")
+                return null
             }
             
             if (jsonString.isBlank()) {

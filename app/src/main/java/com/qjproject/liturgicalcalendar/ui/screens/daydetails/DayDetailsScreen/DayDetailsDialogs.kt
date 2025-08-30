@@ -407,22 +407,6 @@ internal fun SongDetailsModal(
                         }
                     }
 
-                    // Wyświetlanie momentu liturgicznego jako osobne pole
-                    if (suggestedSong.moment.isNotBlank()) {
-                        Spacer(Modifier.height(8.dp))
-                        Row {
-                            Text(
-                                text = "Moment:",
-                                style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
-                                modifier = Modifier.width(80.dp),
-                                color = SaturatedNavy
-                            )
-                            Text(
-                                text = suggestedSong.moment,
-                                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Bold)
-                            )
-                        }
-                    }
 
                     if (suggestedSong.opis.isNotBlank()) {
                         Spacer(Modifier.height(16.dp))
