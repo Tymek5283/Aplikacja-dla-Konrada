@@ -8,4 +8,9 @@ data class ExportConfiguration(
     val includeNeumy: Boolean = true,
     val includeNotes: Boolean = true,
     val includeYears: Boolean = true
-)
+) {
+    fun hasAnyOptionSelected(): Boolean {
+        return includeSongs || includeDays || includeCategories || 
+               includeTags || includeNeumy || includeNotes || includeYears
+    }
+}

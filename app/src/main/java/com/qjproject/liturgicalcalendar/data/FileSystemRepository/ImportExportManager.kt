@@ -18,7 +18,8 @@ internal class ImportExportManager(
 ) {
     fun exportDataToZip(configuration: com.qjproject.liturgicalcalendar.ui.screens.settings.ExportConfiguration): Result<File> {
         return try {
-            val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).apply { mkdirs() }
+
+            val downloadsDir = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "Laudate").apply { mkdirs() }
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
             val zipFile = File(downloadsDir, "Laudate_Export_$timestamp.zip")
             val zip = ZipFile(zipFile)

@@ -67,14 +67,19 @@ fun NotesScreen(
                     }
                 },
                 actions = {
-                    if (uiState.notes.isNotEmpty()) {
-                        IconButton(onClick = { viewModel.showAddDialog() }) {
-                            Icon(
-                                imageVector = Icons.Default.Add,
-                                contentDescription = "Dodaj notatkę",
-                                tint = SectionHeaderBlue
-                            )
-                        }
+                    IconButton(
+                        onClick = if (uiState.notes.isNotEmpty()) {
+                            { viewModel.showAddDialog() }
+                        } else {
+                            { /* Brak akcji gdy nie ma notatek */ }
+                        },
+                        enabled = uiState.notes.isNotEmpty()
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Add,
+                            contentDescription = if (uiState.notes.isNotEmpty()) "Dodaj notatkę" else null,
+                            tint = if (uiState.notes.isNotEmpty()) SectionHeaderBlue else Color.Transparent
+                        )
                     }
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(

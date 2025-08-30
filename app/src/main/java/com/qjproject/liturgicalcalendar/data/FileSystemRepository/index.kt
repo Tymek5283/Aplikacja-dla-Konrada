@@ -30,6 +30,7 @@ class FileSystemRepository(val context: Context) {
     private val tagFileManager = TagFileManager(context, internalStorageRoot, json, cacheManager)
     private val directoryManager = DirectoryManager(internalStorageRoot, json)
     private val importExportManager = ImportExportManager(context, internalStorageRoot)
+    private val autoBackupManager = AutoBackupManager(context, importExportManager)
 
     // Cache Management
     fun invalidateSongCache() = cacheManager.invalidateSongCache()
@@ -84,4 +85,7 @@ class FileSystemRepository(val context: Context) {
     fun importDataFromZip(uri: Uri, configuration: com.qjproject.liturgicalcalendar.ui.screens.settings.ImportConfiguration): Result<Unit> {
         return importExportManager.importDataFromZip(uri, configuration)
     }
+
+    // Auto Backup Operations
+    suspend fun performAutoBackupIfNeeded() = autoBackupManager.performAutoBackupIfNeeded()
 }

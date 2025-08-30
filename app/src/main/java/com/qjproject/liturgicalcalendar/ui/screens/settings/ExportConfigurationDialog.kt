@@ -124,6 +124,7 @@ fun ExportConfigurationDialog(
                     Spacer(modifier = Modifier.width(8.dp))
                     Button(
                         onClick = { onConfirm(configuration) },
+                        enabled = configuration.hasAnyOptionSelected(),
                         colors = ButtonDefaults.buttonColors(
                             containerColor = SaturatedNavy
                         )

@@ -63,6 +63,7 @@ import com.qjproject.liturgicalcalendar.ui.theme.NavBarBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.data.FirstRunManager
 import com.qjproject.liturgicalcalendar.data.NeumyManager
+import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
@@ -95,6 +96,7 @@ internal fun MainTabsScreen(
     LaunchedEffect(Unit) {
         val firstRunManager = FirstRunManager(context)
         val neumyManager = NeumyManager(context)
+        val fileSystemRepository = FileSystemRepository(context)
         
         if (firstRunManager.isFirstRun() && !firstRunManager.areAssetsCopied()) {
             try {
@@ -110,6 +112,13 @@ internal fun MainTabsScreen(
             } catch (e: Exception) {
                 android.util.Log.e("FirstRun", "Nieoczekiwany błąd podczas pierwszego uruchomienia: ${e.message}")
             }
+        }
+        
+        // Automatyczne tworzenie kopii zapasowej przy każdym uruchomieniu aplikacji
+        try {
+            fileSystemRepository.performAutoBackupIfNeeded()
+        } catch (e: Exception) {
+            android.util.Log.e("AutoBackup", "Błąd podczas automatycznej kopii zapasowej: ${e.message}")
         }
     }
 
