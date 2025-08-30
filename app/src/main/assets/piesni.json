@@ -15,7 +15,8 @@
         "numerSAK": "31",
         "numerDN": "354",
         "kategoria": "Adwent",
-        "kategoriaSkr": "Adw"
+        "kategoriaSkr": "Adw",
+        "tagi": ["Adwent", "Radość"]
     },
     {
         "tytul": "Oto Pan Bóg przyjdzie",

@@ -49,6 +49,7 @@ internal fun AddSongDialog(
     categories: List<Category>,
     error: String?,
     initialCategoryName: String?,
+    preselectedTag: String? = null,
     onDismiss: () -> Unit,
     onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
     onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
@@ -81,6 +82,23 @@ internal fun AddSongDialog(
                     style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
                     color = SaturatedNavy
                 )
+                
+                // Wyświetl informację o preselektowanym tagu
+                if (preselectedTag != null) {
+                    Spacer(Modifier.height(8.dp))
+                    Text(
+                        text = buildAnnotatedString {
+                            append("Tag ")
+                            withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                                append(preselectedTag)
+                            }
+                            append(" zostanie automatycznie przypisany do tej pieśni.")
+                        },
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
+                    )
+                }
+                
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))

@@ -3,14 +3,17 @@
 package com.qjproject.liturgicalcalendar.ui.main
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Label
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -38,17 +41,40 @@ internal fun MainTopAppBar(
     isSaveEnabled: Boolean = false,
     isCalendarScreenActive: Boolean = false,
     isSearchScreenActive: Boolean = false,
+    showCategoryIcon: Boolean = false,
+    showTagIcon: Boolean = false,
     searchActions: @Composable RowScope.() -> Unit = {},
     calendarActions: @Composable RowScope.() -> Unit = {}
 ) {
     Column {
         CenterAlignedTopAppBar(
             title = {
-                AutoResizingText(
-                    text = title,
-                    style = MaterialTheme.typography.titleLarge,
-                    textAlign = TextAlign.Center
-                )
+                Row(
+                    verticalAlignment = androidx.compose.ui.Alignment.CenterVertically
+                ) {
+                    if (showCategoryIcon) {
+                        Icon(
+                            imageVector = Icons.Default.Category,
+                            contentDescription = "Kategoria",
+                            tint = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.width(24.dp)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                    } else if (showTagIcon) {
+                        Icon(
+                            imageVector = Icons.Default.Label,
+                            contentDescription = "Tag",
+                            tint = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.width(24.dp)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                    }
+                    AutoResizingText(
+                        text = title,
+                        style = MaterialTheme.typography.titleLarge,
+                        textAlign = TextAlign.Center
+                    )
+                }
             },
             navigationIcon = {
                 if (isBrowseScreenInEditMode) {

@@ -67,7 +67,10 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)
 @Composable
-internal fun MainTabsScreen(navController: NavController) {
+internal fun MainTabsScreen(
+    navController: NavController,
+    selectedTag: String? = null
+) {
     val context = LocalContext.current
     val activity = (LocalContext.current as? Activity)
     val browseViewModel = viewModel<BrowseViewModel>(factory = BrowseViewModelFactory(context))
@@ -110,6 +113,13 @@ internal fun MainTabsScreen(navController: NavController) {
         }
     }
 
+    // Obsługa preselektowanego tagu
+    LaunchedEffect(selectedTag) {
+        selectedTag?.let { tag ->
+            searchViewModel.onTagSelected(tag)
+        }
+    }
+
     BackHandler(enabled = true) {
         when {
             isBrowseScreenActive -> {
@@ -131,7 +141,11 @@ internal fun MainTabsScreen(navController: NavController) {
     Scaffold(
         topBar = {
             val title = when (bottomNavItems.getOrNull(pagerState.currentPage)) {
-                Screen.Search -> if(searchUiState.selectedCategory != null) searchUiState.selectedCategory?.nazwa ?: "Pieśni" else "Wyszukaj"
+                Screen.Search -> when {
+                    searchUiState.selectedCategory != null -> searchUiState.selectedCategory?.nazwa ?: "Pieśni"
+                    searchUiState.selectedTag != null -> searchUiState.selectedTag ?: "Tag"
+                    else -> "Wyszukaj"
+                }
                 Screen.Browse -> browseUiState.screenTitle
                 Screen.Calendar -> "Szukaj po dacie"
                 Screen.Settings -> "Ustawienia"
@@ -155,6 +169,8 @@ internal fun MainTabsScreen(navController: NavController) {
                 isSaveEnabled = browseUiState.hasChanges,
                 isCalendarScreenActive = isCalendarScreenActive,
                 isSearchScreenActive = isSearchScreenActive,
+                showCategoryIcon = isSearchScreenActive && searchUiState.selectedCategory != null,
+                showTagIcon = isSearchScreenActive && searchUiState.selectedTag != null,
                 searchActions = {
                     var showSearchOptions by remember { mutableStateOf(false) }
                     Box {
@@ -309,6 +325,9 @@ internal fun MainTabsScreen(navController: NavController) {
                     },
                     onNavigateToCategoryManagement = {
                         navController.navigate(Screen.CategoryManagement.route)
+                    },
+                    onNavigateToTagManagement = {
+                        navController.navigate(Screen.TagManagement.route)
                     }
                 )
                 else -> {}

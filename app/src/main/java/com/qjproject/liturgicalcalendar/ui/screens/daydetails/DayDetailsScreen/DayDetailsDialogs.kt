@@ -32,6 +32,7 @@ import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.DayDetailsViewModel
 import com.qjproject.liturgicalcalendar.ui.theme.EditModeSubtleBlue
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @Composable
@@ -361,7 +362,8 @@ internal fun SongDetailsModal(
     suggestedSong: SuggestedSong,
     fullSong: Song,
     onDismiss: () -> Unit,
-    onShowContent: (song: Song, startInEdit: Boolean) -> Unit
+    onShowContent: (song: Song, startInEdit: Boolean) -> Unit,
+    onNavigateToSongDetails: (song: Song) -> Unit
 ) {
     Dialog(onDismissRequest = onDismiss, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         Card(
@@ -369,18 +371,42 @@ internal fun SongDetailsModal(
             colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
         ) {
             Column(Modifier.padding(24.dp)) {
-                Row(Modifier.fillMaxWidth(), Arrangement.SpaceBetween, Alignment.CenterVertically) {
-                    Text(
-                        suggestedSong.piesn,
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.weight(1f),
-                        color = SaturatedNavy
-                    )
-                    IconButton(onClick = onDismiss, Modifier.size(24.dp)) { Icon(Icons.Default.Close, "Zamknij") }
+                // Nagłówek z rozdzielonym tłem tytułu i przyciskiem X
+                Row(
+                    Modifier.fillMaxWidth(),
+                    Arrangement.SpaceBetween,
+                    Alignment.CenterVertically
+                ) {
+                    // Klikalny tytuł z kolorowym tłem
+                    Card(
+                        modifier = Modifier
+                            .weight(1f)
+                            .clickable { 
+                                onNavigateToSongDetails(fullSong)
+                                onDismiss()
+                            },
+                        colors = CardDefaults.cardColors(containerColor = TileBackground)
+                    ) {
+                        Text(
+                            suggestedSong.piesn,
+                            style = MaterialTheme.typography.titleLarge,
+                            modifier = Modifier.padding(16.dp),
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                    }
+                    
+                    Spacer(Modifier.width(8.dp))
+                    
+                    // Przycisk X na zewnątrz kolorowego tła
+                    IconButton(onClick = onDismiss) { 
+                        Icon(Icons.Default.Close, "Zamknij", tint = MaterialTheme.colorScheme.onSurface) 
+                    }
                 }
+                
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
+                
                 Column(
                     Modifier
                         .verticalScroll(rememberScrollState())
@@ -390,7 +416,7 @@ internal fun SongDetailsModal(
                     SongNumberInfo("ŚAK:", fullSong.numerSAK)
                     SongNumberInfo("DN:", fullSong.numerDN)
                     
-                    // Wyświetlanie rzeczywistej kategorii pieśni zamiast momentu liturgicznego
+                    // Wyświetlanie kategorii tylko jeśli istnieje
                     if (fullSong.kategoria.isNotBlank()) {
                         Spacer(Modifier.height(8.dp))
                         Row {
@@ -407,7 +433,7 @@ internal fun SongDetailsModal(
                         }
                     }
 
-
+                    // Wyświetlanie opisu tylko jeśli istnieje
                     if (suggestedSong.opis.isNotBlank()) {
                         Spacer(Modifier.height(16.dp))
                         Text(
@@ -419,15 +445,25 @@ internal fun SongDetailsModal(
                         )
                     }
                 }
-                Spacer(Modifier.height(24.dp))
-                Button(
-                    onClick = {
-                        onShowContent(fullSong, false)
-                        onDismiss()
-                    },
-                    modifier = Modifier.align(Alignment.CenterHorizontally)
-                ) {
-                    Text("Treść")
+                
+                // Wyświetlanie przycisku "Treść" tylko jeśli pieśń ma tekst lub opis
+                val hasContentToShow = !fullSong.tekst.isNullOrBlank() || suggestedSong.opis.isNotBlank()
+                if (hasContentToShow) {
+                    Spacer(Modifier.height(24.dp))
+                    Button(
+                        onClick = {
+                            // Jeśli pieśń nie ma tekstu, przejdź od razu do szczegółów pieśni
+                            if (fullSong.tekst.isNullOrBlank()) {
+                                onNavigateToSongDetails(fullSong)
+                            } else {
+                                onShowContent(fullSong, false)
+                            }
+                            onDismiss()
+                        },
+                        modifier = Modifier.align(Alignment.CenterHorizontally)
+                    ) {
+                        Text("Treść")
+                    }
                 }
             }
         }

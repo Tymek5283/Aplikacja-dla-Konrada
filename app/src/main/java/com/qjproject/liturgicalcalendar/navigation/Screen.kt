@@ -4,6 +4,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Search
@@ -62,5 +63,6 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
 
     // --- POCZĄTEK ZMIANY ---
     object CategoryManagement : Screen("category_management", "Zarządzaj kategoriami", Icons.Default.Category)
+    object TagManagement : Screen("tag_management", "Zarządzaj tagami", Icons.Default.Label)
     // --- KONIEC ZMIANY ---
 }

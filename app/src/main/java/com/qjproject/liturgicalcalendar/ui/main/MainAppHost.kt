@@ -17,6 +17,8 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.qjproject.liturgicalcalendar.navigation.Screen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementScreen
 import com.qjproject.liturgicalcalendar.ui.screens.category.CategoryManagementViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.tag.TagManagementScreen
+import com.qjproject.liturgicalcalendar.ui.screens.tag.TagManagementViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.dateevents.DateEventsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsscreen.DayDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songcontent.SongContentScreen
@@ -37,8 +39,21 @@ internal fun MainAppHost() {
     }
 
     AnimatedNavHost(navController = navController, startDestination = "main_tabs") {
-        composable("main_tabs") {
-            MainTabsScreen(navController = navController)
+        composable(
+            route = "main_tabs?selectedTag={selectedTag}",
+            arguments = listOf(navArgument("selectedTag") { 
+                type = NavType.StringType
+                nullable = true
+                defaultValue = null
+            })
+        ) { backStackEntry ->
+            val selectedTag = backStackEntry.arguments?.getString("selectedTag")?.let { 
+                java.net.URLDecoder.decode(it, "UTF-8") 
+            }
+            MainTabsScreen(
+                navController = navController,
+                selectedTag = selectedTag
+            )
         }
         composable(
             route = Screen.DayDetails.route,
@@ -53,6 +68,9 @@ internal fun MainAppHost() {
                 onNavigateBack = safePopBackStack,
                 onNavigateToSongContent = { song, startInEdit ->
                     navController.navigate(Screen.SongContent.createRoute(song, startInEdit))
+                },
+                onNavigateToSongDetails = { song ->
+                    navController.navigate(Screen.SongDetails.createRoute(song))
                 }
             )
         }
@@ -96,7 +114,14 @@ internal fun MainAppHost() {
             SongDetailsScreen(
                 viewModel = viewModel,
                 onNavigateBack = safePopBackStack,
-                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) }
+                onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) },
+                onNavigateToTagManagement = { navController.navigate(Screen.TagManagement.route) },
+                onNavigateToTagSearch = { tag ->
+                    // Nawigacja do głównego ekranu z preselektowanym tagiem
+                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}") {
+                        popUpTo("main_tabs") { inclusive = true }
+                    }
+                }
             )
         }
         composable(
@@ -133,6 +158,18 @@ internal fun MainAppHost() {
             val context = LocalContext.current
             val factory = CategoryManagementViewModelFactory(context)
             CategoryManagementScreen(
+                viewModel = viewModel(factory = factory),
+                onNavigateBack = safePopBackStack
+            )
+        }
+        composable(
+            route = Screen.TagManagement.route,
+            enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Left, animationSpec = tween(300)) },
+            popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Right, animationSpec = tween(300)) }
+        ) {
+            val context = LocalContext.current
+            val factory = TagManagementViewModelFactory(context)
+            TagManagementScreen(
                 viewModel = viewModel(factory = factory),
                 onNavigateBack = safePopBackStack
             )

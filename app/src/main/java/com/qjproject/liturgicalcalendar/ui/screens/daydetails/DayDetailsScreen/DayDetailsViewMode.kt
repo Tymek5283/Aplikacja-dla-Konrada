@@ -45,7 +45,8 @@ import kotlinx.coroutines.launch
 internal fun DayDetailsViewModeContent(
     modifier: Modifier = Modifier,
     viewModel: DayDetailsViewModel,
-    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit
+    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit,
+    onNavigateToSongDetails: (song: Song) -> Unit = { }
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var showSongModal by remember { mutableStateOf(false) }
@@ -64,7 +65,8 @@ internal fun DayDetailsViewModeContent(
             suggestedSong = selectedSong!!,
             fullSong = fullSelectedSong!!,
             onDismiss = { showSongModal = false },
-            onShowContent = onNavigateToSongContent
+            onShowContent = onNavigateToSongContent,
+            onNavigateToSongDetails = onNavigateToSongDetails
         )
     }
 

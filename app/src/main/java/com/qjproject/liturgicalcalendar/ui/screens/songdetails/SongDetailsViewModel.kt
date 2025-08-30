@@ -23,7 +23,9 @@ data class SongDetailsUiState(
     val pdfPath: String? = null,
     val showPdfViewer: Boolean = false,
     val pdfOperationInProgress: Boolean = false,
-    val pdfOperationMessage: String? = null
+    val pdfOperationMessage: String? = null,
+    val showAddTagDialog: Boolean = false,
+    val showRemoveTagConfirmation: String? = null
 )
 
 class SongDetailsViewModel(
@@ -197,6 +199,65 @@ class SongDetailsViewModel(
                 _uiState.update { it.copy(pdfOperationMessage = null) }
             }
         }
+    }
+    
+    fun showAddTagDialog() {
+        _uiState.update { it.copy(showAddTagDialog = true) }
+    }
+    
+    fun hideAddTagDialog() {
+        _uiState.update { it.copy(showAddTagDialog = false) }
+    }
+    
+    fun showRemoveTagConfirmation(tag: String) {
+        _uiState.update { it.copy(showRemoveTagConfirmation = tag) }
+    }
+    
+    fun hideRemoveTagConfirmation() {
+        _uiState.update { it.copy(showRemoveTagConfirmation = null) }
+    }
+    
+    fun removeTagFromSong(tag: String) {
+        val currentSong = _uiState.value.song ?: return
+        
+        viewModelScope.launch {
+            try {
+                val updatedTags = currentSong.tagi.filter { it != tag }
+                val updatedSong = currentSong.copy(tagi = updatedTags)
+                
+                // Zapisz zaktualizowaną pieśń
+                val allSongs = repository.getSongList()
+                val updatedSongs = allSongs.map { song ->
+                    if (song.tytul == currentSong.tytul && 
+                        song.numerSiedl == currentSong.numerSiedl) {
+                        updatedSong
+                    } else {
+                        song
+                    }
+                }
+                
+                repository.saveSongList(updatedSongs).getOrThrow()
+                
+                // Zaktualizuj stan UI
+                _uiState.update { 
+                    it.copy(
+                        song = updatedSong,
+                        showRemoveTagConfirmation = null
+                    ) 
+                }
+            } catch (e: Exception) {
+                _uiState.update { 
+                    it.copy(
+                        showRemoveTagConfirmation = null,
+                        pdfOperationMessage = "Błąd podczas usuwania tagu: ${e.message}"
+                    )
+                }
+            }
+        }
+    }
+    
+    fun updateSong(updatedSong: Song) {
+        _uiState.update { it.copy(song = updatedSong) }
     }
 }
 

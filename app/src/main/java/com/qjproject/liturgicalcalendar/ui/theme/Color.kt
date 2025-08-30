@@ -36,3 +36,4 @@ val EditModeHeaderNavy = Color(0xFF2D4A7A) // Ciemniejszy granatowy dla nagłów
 val EditModeSubtleBlue = Color(0xFF6B9BD1) // Subtelny błękitny dla ikon edycji
 val EditModeDimmedButton = Color(0xFF3A4A6C) // Stonowany kolor dla przycisków w trybie edycji
 val SectionHeaderBlue = Color(0xFF9BAAE1) // Błękitny kolor dla nagłówków sekcji i wstawek
+val TagChipBackground = Color(0xFF2A3B5C) // Ciemniejszy granatowy z fioletowym odcieniem dla pigułek tagów

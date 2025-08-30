@@ -9,8 +9,10 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.outlined.MusicNote
+import androidx.compose.material.icons.outlined.Tag
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -65,14 +67,49 @@ fun NoResults() {
 }
 
 @Composable
+fun NoSongsForTag(
+    tagName: String,
+    onAddSong: () -> Unit
+) {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            Text(
+                text = "Żadna pieśń nie korzysta z tego tagu",
+                textAlign = TextAlign.Center,
+                style = MaterialTheme.typography.bodyLarge
+            )
+            Button(
+                onClick = onAddSong,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.primary
+                )
+            ) {
+                Text("Dodaj pieśń")
+            }
+        }
+    }
+}
+
+@Composable
 fun SearchResultsContent(
     categories: List<Category>,
+    tags: List<String>,
     songs: List<Song>,
     isGlobalSearch: Boolean,
     onCategoryClick: (Category) -> Unit,
+    onTagClick: (String) -> Unit,
     onNoCategoryClick: () -> Unit,
     onSongClick: (Song) -> Unit,
-    onSongLongClick: (Song) -> Unit
+    onSongLongClick: (Song) -> Unit,
+    searchQuery: String = ""
 ) {
     LazyColumn(
         contentPadding = PaddingValues(
@@ -83,15 +120,23 @@ fun SearchResultsContent(
         ),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(categories, key = { "category_${it.nazwa}" }) { category ->
+        // Najpierw kategorie posortowane alfabetycznie, z "Brak kategorii" na końcu
+        val sortedCategories = categories.sortedBy { it.nazwa }
+        items(sortedCategories, key = { category ->
+            "category_${category.nazwa}"
+        }) { category ->
             CategoryItem(
                 category = category,
                 onClick = { onCategoryClick(category) }
             )
         }
 
-        if (isGlobalSearch && categories.isNotEmpty()) {
-            item { Divider(modifier = Modifier.padding(vertical = 4.dp)) }
+        // "Brak kategorii" na końcu kategorii (tylko w globalnym wyszukiwaniu i gdy nie ma wyszukiwanej frazy lub fraza to dokładnie "Brak kategorii")
+        val shouldShowNoCategory = isGlobalSearch && (
+            searchQuery.isBlank() || 
+            searchQuery.trim().equals("Brak kategorii", ignoreCase = true)
+        )
+        if (shouldShowNoCategory) {
             item {
                 CategoryItem(
                     category = Category("Brak kategorii", ""),
@@ -100,6 +145,23 @@ fun SearchResultsContent(
             }
         }
 
+        // Linia oddzielająca między kategoriami a tagami
+        if (isGlobalSearch && (categories.isNotEmpty() || tags.isNotEmpty())) {
+            item { HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp)) }
+        }
+
+        // Następnie tagi posortowane alfabetycznie
+        val sortedTags = tags.sorted()
+        items(sortedTags, key = { tag ->
+            "tag_$tag"
+        }) { tag ->
+            TagItem(
+                tag = tag,
+                onClick = { onTagClick(tag) }
+            )
+        }
+
+        // Na końcu pieśni
         if (songs.isNotEmpty()) {
             items(songs, key = { song ->
                 "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
@@ -174,6 +236,36 @@ fun CategoryItem(
             Spacer(Modifier.width(16.dp))
             Column(modifier = Modifier.weight(1f)) {
                 Text(text = category.nazwa, style = MaterialTheme.typography.titleMedium)
+            }
+        }
+    }
+}
+
+@Composable
+fun TagItem(
+    tag: String,
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = Icons.Default.Label,
+                contentDescription = "Tag",
+                modifier = Modifier.size(32.dp),
+                tint = MaterialTheme.colorScheme.primary
+            )
+            Spacer(Modifier.width(16.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(text = tag, style = MaterialTheme.typography.titleMedium)
             }
         }
     }

@@ -3,25 +3,40 @@ package com.qjproject.liturgicalcalendar.ui.screens.songdetails
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.PictureAsPdf
+import androidx.compose.material.icons.outlined.Tag
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.ui.components.AutoResizingText
 import com.qjproject.liturgicalcalendar.ui.components.PdfViewerDialog
+import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
+import com.qjproject.liturgicalcalendar.ui.theme.TagChipBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -29,7 +44,9 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 fun SongDetailsScreen(
     viewModel: SongDetailsViewModel,
     onNavigateBack: () -> Unit,
-    onNavigateToContent: (song: com.qjproject.liturgicalcalendar.data.Song, startInEditMode: Boolean) -> Unit
+    onNavigateToContent: (song: com.qjproject.liturgicalcalendar.data.Song, startInEditMode: Boolean) -> Unit,
+    onNavigateToTagManagement: () -> Unit = {},
+    onNavigateToTagSearch: (String) -> Unit = {}
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val song = uiState.song
@@ -126,6 +143,16 @@ fun SongDetailsScreen(
                         // ZMIANA: Dodano wyświetlanie numeru DN
                         InfoRow(label = "DN:", value = song.numerDN)
                         InfoRow(label = "Kategoria:", value = song.kategoria)
+
+                        // Sekcja tagów
+                        Spacer(modifier = Modifier.height(16.dp))
+                        TagsSection(
+                            tags = song.tagi.sorted(),
+                            onAddTag = { viewModel.showAddTagDialog() },
+                            onRemoveTag = { tag -> viewModel.showRemoveTagConfirmation(tag) },
+                            onNavigateToTagManagement = onNavigateToTagManagement,
+                            onTagClick = { tag -> onNavigateToTagSearch(tag) }
+                        )
 
                         // Sekcja PDF po informacjach o pieśni
                         Spacer(modifier = Modifier.height(16.dp))
@@ -245,6 +272,60 @@ fun SongDetailsScreen(
                 onDismiss = { viewModel.hidePdfViewer() }
             )
         }
+        
+        // Dialog dodawania tagów
+        if (uiState.showAddTagDialog && song != null) {
+            AssignTagsToSongDialog(
+                song = song,
+                onDismiss = { viewModel.hideAddTagDialog() },
+                onTagsUpdated = { updatedSong ->
+                    viewModel.updateSong(updatedSong)
+                }
+            )
+        }
+        
+        // Dialog potwierdzenia usunięcia tagu
+        uiState.showRemoveTagConfirmation?.let { tagToRemove ->
+            Dialog(onDismissRequest = { viewModel.hideRemoveTagConfirmation() }) {
+                Card(
+                    shape = MaterialTheme.shapes.large,
+                    colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+                ) {
+                    Column(modifier = Modifier.padding(24.dp)) {
+                        Text(
+                            "Usunąć tag?",
+                            style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                            color = SaturatedNavy
+                        )
+                        Spacer(Modifier.height(16.dp))
+                        Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                        Spacer(Modifier.height(16.dp))
+                        Text(
+                            buildAnnotatedString {
+                                append("Czy na pewno chcesz usunąć tag ")
+                                withStyle(style = SpanStyle(color = SaturatedNavy, fontWeight = FontWeight.Bold)) {
+                                    append(tagToRemove)
+                                }
+                                append("?")
+                            }
+                        )
+                        Spacer(Modifier.height(24.dp))
+                        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                            TextButton(onClick = { viewModel.hideRemoveTagConfirmation() }) { Text("Anuluj") }
+                            Spacer(Modifier.width(8.dp))
+                            Button(
+                                onClick = {
+                                    viewModel.removeTagFromSong(tagToRemove)
+                                },
+                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                            ) {
+                                Text("Usuń")
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -321,6 +402,98 @@ private fun PdfActionButtons(
                     )
                 }
             }
+        }
+    }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+private fun TagsSection(
+    tags: List<String>,
+    onAddTag: () -> Unit,
+    onRemoveTag: (String) -> Unit,
+    onNavigateToTagManagement: () -> Unit,
+    onTagClick: (String) -> Unit = {}
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Icon(
+            Icons.Default.Label,
+            contentDescription = "Tagi",
+            tint = MaterialTheme.colorScheme.primary,
+            modifier = Modifier
+                .size(24.dp)
+                .clickable { onNavigateToTagManagement() }
+        )
+        
+        Spacer(modifier = Modifier.width(8.dp))
+        
+        LazyRow(
+            modifier = Modifier.weight(1f),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            items(tags) { tag ->
+                TagChip(
+                    tag = tag,
+                    onLongClick = { onRemoveTag(tag) },
+                    onTagIconClick = onNavigateToTagManagement,
+                    onTagClick = { onTagClick(tag) }
+                )
+            }
+        }
+        
+        Spacer(modifier = Modifier.width(8.dp))
+        
+        IconButton(
+            onClick = onAddTag,
+            modifier = Modifier.size(32.dp)
+        ) {
+            Icon(
+                Icons.Default.Add,
+                contentDescription = "Dodaj tag",
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(20.dp)
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+private fun TagChip(
+    tag: String,
+    onLongClick: () -> Unit,
+    onTagIconClick: () -> Unit = {},
+    onTagClick: () -> Unit = {}
+) {
+    val chipShape = RoundedCornerShape(16.dp)
+    Card(
+        modifier = Modifier
+            .clip(chipShape)
+            .combinedClickable(
+                onClick = onTagClick,
+                onLongClick = onLongClick
+            ),
+        shape = chipShape,
+        colors = CardDefaults.cardColors(
+            containerColor = TagChipBackground
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            Text(
+                text = tag,
+                style = MaterialTheme.typography.bodySmall,
+                color = androidx.compose.ui.graphics.Color.White,
+                fontWeight = FontWeight.Medium
+            )
         }
     }
 }

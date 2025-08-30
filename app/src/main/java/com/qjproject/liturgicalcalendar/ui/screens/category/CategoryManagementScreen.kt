@@ -145,16 +145,14 @@ fun CategoryItem(
                 Text(
                     text = category.nazwa,
                     style = MaterialTheme.typography.titleMedium,
-                    color = SaturatedNavy
+                    color = MaterialTheme.colorScheme.onSurface
                 )
                 Text(
                     text = category.skrot,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = SaturatedNavy.copy(alpha = 0.8f)
+                    color = SaturatedNavy
                 )
             }
-            // --- POCZĄTEK ZMIANY ---
-            // Usunięto ikonę edycji
             IconButton(onClick = onDeleteClick) {
                 Icon(
                     Icons.Default.Delete,

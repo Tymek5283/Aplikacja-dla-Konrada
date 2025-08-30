@@ -10,5 +10,6 @@ data class Song(
     val numerSAK: String,
     val numerDN: String,
     val kategoria: String,
-    val kategoriaSkr: String
+    val kategoriaSkr: String,
+    val tagi: List<String> = emptyList()
 )

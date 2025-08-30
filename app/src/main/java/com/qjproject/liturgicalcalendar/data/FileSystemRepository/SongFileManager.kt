@@ -10,6 +10,7 @@ import java.io.File
 import java.io.FileNotFoundException
 
 internal class SongFileManager(
+    private val context: android.content.Context,
     private val internalStorageRoot: File,
     private val json: Json,
     private val cacheManager: CacheManager,
@@ -18,12 +19,23 @@ internal class SongFileManager(
     fun getSongList(): List<Song> {
         cacheManager.songListCache?.let { return it }
         return try {
-            val file = File(internalStorageRoot, "piesni.json")
-            if (!file.exists()) {
-                Log.e("SongFileManager", "Krytyczny błąd: Plik 'piesni.json' nie istnieje.")
-                return emptyList()
+            // Najpierw próbuj odczytać z pamięci wewnętrznej
+            val internalFile = File(internalStorageRoot, "piesni.json")
+            val jsonString = if (internalFile.exists()) {
+                internalFile.bufferedReader().use { it.readText() }
+            } else {
+                // Jeśli nie ma w pamięci wewnętrznej, skopiuj z assets
+                try {
+                    val assetsContent = context.assets.open("piesni.json").bufferedReader().use { it.readText() }
+                    // Zapisz do pamięci wewnętrznej dla przyszłych operacji
+                    internalFile.writeText(assetsContent)
+                    assetsContent
+                } catch (e: Exception) {
+                    Log.e("SongFileManager", "Nie można odczytać pliku piesni.json z assets", e)
+                    return emptyList()
+                }
             }
-            val jsonString = file.bufferedReader().use { it.readText() }
+            
             val songs = json.decodeFromString<List<Song>>(jsonString)
             cacheManager.setSongCache(songs)
             songs

@@ -25,14 +25,16 @@ class FileSystemRepository(val context: Context) {
 
     private val cacheManager = CacheManager()
     private val dayFileManager = DayFileManager(context, internalStorageRoot, json)
-    private val songFileManager = SongFileManager(internalStorageRoot, json, cacheManager, dayFileManager)
+    private val songFileManager = SongFileManager(context, internalStorageRoot, json, cacheManager, dayFileManager)
     private val categoryFileManager = CategoryFileManager(internalStorageRoot, json, cacheManager, songFileManager)
+    private val tagFileManager = TagFileManager(context, internalStorageRoot, json, cacheManager)
     private val directoryManager = DirectoryManager(internalStorageRoot, json)
     private val importExportManager = ImportExportManager(context, internalStorageRoot)
 
     // Cache Management
     fun invalidateSongCache() = cacheManager.invalidateSongCache()
     fun invalidateCategoryCache() = cacheManager.invalidateCategoryCache()
+    fun invalidateTagCache() = cacheManager.invalidateTagCache()
 
     // DayFile Operations
     fun getAllDayFilePaths(): List<String> = dayFileManager.getAllDayFilePaths()
@@ -52,6 +54,13 @@ class FileSystemRepository(val context: Context) {
     fun saveCategoryList(categories: List<Category>): Result<Unit> = categoryFileManager.saveCategoryList(categories)
     fun updateCategoryInSongs(oldCategory: Category, newCategory: Category): Result<Unit> = categoryFileManager.updateCategoryInSongs(oldCategory, newCategory)
     fun removeCategoryFromSongs(categoryToRemove: Category): Result<Unit> = categoryFileManager.removeCategoryFromSongs(categoryToRemove)
+
+    // TagFile Operations
+    fun getTagList(): List<String> = tagFileManager.getTagList()
+    fun saveTagList(tags: List<String>): Result<Unit> = tagFileManager.saveTagList(tags)
+    fun addTag(tag: String): Result<Unit> = tagFileManager.addTag(tag)
+    fun updateTag(oldTag: String, newTag: String): Result<Unit> = tagFileManager.updateTag(oldTag, newTag)
+    fun removeTag(tag: String): Result<Unit> = tagFileManager.removeTag(tag)
 
     // Directory Operations
     fun getItems(path: String): List<FileSystemItem> = directoryManager.getItems(path)

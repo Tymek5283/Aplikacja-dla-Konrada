@@ -29,6 +29,7 @@ data class SearchUiState(
     val query: String = "",
     val songResults: List<Song> = emptyList(),
     val categoryResults: List<Category> = emptyList(),
+    val tagResults: List<String> = emptyList(),
     val isLoading: Boolean = true,
     val searchInTitle: Boolean = true,
     val searchInContent: Boolean = false,
@@ -37,9 +38,11 @@ data class SearchUiState(
     val addSongError: String? = null,
     val deleteDialogState: DeleteDialogState = DeleteDialogState.None,
     val allCategories: List<Category> = emptyList(),
-    val selectedCategory: Category? = null
+    val allTags: List<String> = emptyList(),
+    val selectedCategory: Category? = null,
+    val selectedTag: String? = null
 ) {
-    val isBackButtonVisible: Boolean get() = selectedCategory != null
+    val isBackButtonVisible: Boolean get() = selectedCategory != null || selectedTag != null
 }
 
 class SearchViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -73,8 +76,17 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
             val categories = repository.getCategoryList().sortedBy { it.nazwa }
+            val tags = repository.getTagList().sorted()
             allSongsCache = repository.getSongList()
-            _uiState.update { it.copy(allCategories = categories, isLoading = false, categoryResults = categories) }
+            _uiState.update { 
+                it.copy(
+                    allCategories = categories, 
+                    allTags = tags,
+                    isLoading = false, 
+                    categoryResults = categories,
+                    tagResults = tags
+                ) 
+            }
         }
     }
 
@@ -84,49 +96,74 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(isLoading = true) }
             val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
             val allCategories = _uiState.value.allCategories
+            val allTags = _uiState.value.allTags
             val query = _uiState.value.query.trim()
             val selectedCategory = _uiState.value.selectedCategory
+            val selectedTag = _uiState.value.selectedTag
 
             val newSongResults: List<Song>
             val newCategoryResults: List<Category>
+            val newTagResults: List<String>
 
-            if (selectedCategory != null) {
-                // Search within a category or the "no category" filter
-                newCategoryResults = emptyList()
-                val songsToFilter = when (selectedCategory) {
-                    noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
-                    else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
-                }
+            when {
+                selectedCategory != null -> {
+                    // Search within a category or the "no category" filter
+                    newCategoryResults = emptyList()
+                    newTagResults = emptyList()
+                    val songsToFilter = when (selectedCategory) {
+                        noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
+                        else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
+                    }
 
-                newSongResults = if (query.isBlank()) {
-                    songsToFilter
-                } else {
-                    val normalizedQuery = normalize(query)
-                    songsToFilter.filter { song ->
-                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-                        matchesTitle || matchesContent
+                    newSongResults = if (query.isBlank()) {
+                        songsToFilter
+                    } else {
+                        val normalizedQuery = normalize(query)
+                        filterSongsWithNumberPriority(songsToFilter, query, normalizedQuery)
                     }
                 }
-            } else {
-                // Global search
-                if (query.isBlank()) {
-                    newCategoryResults = allCategories
-                    newSongResults = emptyList()
-                } else {
-                    val normalizedQuery = normalize(query)
-                    newCategoryResults = allCategories.filter { normalize(it.nazwa).contains(normalizedQuery) }
-                    newSongResults = allSongs.filter { song ->
-                        val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
-                        val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
-                        matchesTitle || matchesContent
+                selectedTag != null -> {
+                    // Search within a tag
+                    newCategoryResults = emptyList()
+                    newTagResults = emptyList()
+                    val songsToFilter = allSongs.filter { song ->
+                        song.tagi.any { it.equals(selectedTag, ignoreCase = true) }
+                    }
+
+                    newSongResults = if (query.isBlank()) {
+                        songsToFilter
+                    } else {
+                        val normalizedQuery = normalize(query)
+                        filterSongsWithNumberPriority(songsToFilter, query, normalizedQuery)
+                    }
+                }
+                else -> {
+                    // Global search
+                    if (query.isBlank()) {
+                        newCategoryResults = allCategories
+                        newTagResults = allTags
+                        newSongResults = emptyList()
+                    } else {
+                        val normalizedQuery = normalize(query)
+                        
+                        // Filtrowanie kategorii - wykluczamy "Brak kategorii" chyba że dokładnie pasuje
+                        newCategoryResults = allCategories.filter { 
+                            normalize(it.nazwa).contains(normalizedQuery)
+                        }
+                        
+                        // Filtrowanie tagów
+                        newTagResults = allTags.filter { normalize(it).contains(normalizedQuery) }
+                        
+                        // Filtrowanie pieśni z obsługą wyszukiwania numerycznego
+                        newSongResults = filterSongsWithNumberPriority(allSongs, query, normalizedQuery)
                     }
                 }
             }
 
             _uiState.update { it.copy(
-                songResults = sortSongs(newSongResults),
+                songResults = sortSongsWithNumericPriority(newSongResults, query),
                 categoryResults = newCategoryResults.sortedBy { it.nazwa },
+                tagResults = newTagResults.sorted(),
                 isLoading = false
             )}
         }
@@ -148,8 +185,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         performSearch()
     }
 
+    fun onTagSelected(tag: String) {
+        _uiState.update { it.copy(selectedTag = tag, query = "") }
+        performSearch()
+    }
+
     fun onNavigateBack() {
-        _uiState.update { it.copy(selectedCategory = null, query = "") }
+        _uiState.update { it.copy(selectedCategory = null, selectedTag = null, query = "") }
         performSearch()
     }
 
@@ -163,6 +205,25 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             SongSortMode.Kategoria -> songs.sortedWith(
                 compareBy<Song> { it.kategoria }.thenBy { it.tytul }
             )
+        }
+    }
+
+    /**
+     * Sortuje pieśni z zachowaniem priorytetu numerycznego dla zapytań składających się z cyfr
+     */
+    private fun sortSongsWithNumericPriority(songs: List<Song>, query: String): List<Song> {
+        val trimmedQuery = query.trim()
+        val isNumericQuery = trimmedQuery.isNotEmpty() && trimmedQuery.all { it.isDigit() }
+        
+        return if (isNumericQuery) {
+            // Dla zapytań numerycznych NIE stosujemy standardowego sortowania
+            // Funkcja filterSongsWithNumberPriority już zwróciła wyniki w odpowiedniej kolejności:
+            // 1. Dokładne dopasowania (posortowane alfabetycznie)
+            // 2. Częściowe dopasowania (posortowane alfabetycznie)
+            songs
+        } else {
+            // Dla zapytań nienumerycznych stosujemy standardowe sortowanie
+            sortSongs(songs)
         }
     }
 
@@ -229,7 +290,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _uiState.update { it.copy(addSongError = null) }
     }
 
-    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String, categoryName: String) {
+    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String, categoryName: String, preselectedTag: String? = null) {
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
         val trimmedSak = sak.trim()
@@ -254,7 +315,8 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 numerSAK = trimmedSak,
                 numerDN = trimmedDn,
                 kategoria = selectedCategory?.nazwa ?: "",
-                kategoriaSkr = selectedCategory?.skrot ?: ""
+                kategoriaSkr = selectedCategory?.skrot ?: "",
+                tagi = if (preselectedTag != null) listOf(preselectedTag) else emptyList()
             )
             songs.add(newSong)
 
@@ -295,6 +357,54 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                     performSearch()
                 }
                 onDismissDeleteDialog()
+            }
+        }
+    }
+
+    /**
+     * Filtruje pieśni z priorytetem dla dokładnych dopasowań numerycznych
+     * Implementuje specjalną logikę dla zapytań składających się wyłącznie z cyfr
+     */
+    private fun filterSongsWithNumberPriority(
+        songs: List<Song>, 
+        originalQuery: String, 
+        normalizedQuery: String
+    ): List<Song> {
+        val trimmedQuery = originalQuery.trim()
+        val isNumericQuery = trimmedQuery.isNotEmpty() && trimmedQuery.all { it.isDigit() }
+        
+        if (isNumericQuery) {
+            // Tryb wyszukiwania numerycznego - przeszukujemy TYLKO pola z przedrostkiem "numer"
+            // Ignorujemy tytuł i tekst pieśni
+            
+            // Grupa 1: Dokładne dopasowania numerów (najwyższy priorytet)
+            val exactMatches = songs.filter { song ->
+                song.numerSiedl == trimmedQuery || 
+                song.numerSAK == trimmedQuery || 
+                song.numerDN == trimmedQuery
+            }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
+            
+            // Grupa 2: Częściowe dopasowania numerów (niższy priorytet)
+            val partialMatches = songs.filter { song ->
+                // Sprawdzamy czy liczba jest częścią składową, ale nie jest identyczna
+                (song.numerSiedl.contains(trimmedQuery) && song.numerSiedl != trimmedQuery) ||
+                (song.numerSAK.contains(trimmedQuery) && song.numerSAK != trimmedQuery) ||
+                (song.numerDN.contains(trimmedQuery) && song.numerDN != trimmedQuery)
+            }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
+            
+            // Zwracamy tylko wyniki numeryczne - NIE uwzględniamy tytułu ani tekstu
+            return exactMatches + partialMatches
+            
+        } else {
+            // Standardowe wyszukiwanie dla zapytań nienumerycznych
+            return songs.filter { song ->
+                val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
+                val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
+                val matchesTag = song.tagi.any { normalize(it).contains(normalizedQuery) }
+                val matchesNumbers = song.numerSiedl.contains(originalQuery, ignoreCase = true) ||
+                                  song.numerSAK.contains(originalQuery, ignoreCase = true) ||
+                                  song.numerDN.contains(originalQuery, ignoreCase = true)
+                matchesTitle || matchesContent || matchesTag || matchesNumbers
             }
         }
     }

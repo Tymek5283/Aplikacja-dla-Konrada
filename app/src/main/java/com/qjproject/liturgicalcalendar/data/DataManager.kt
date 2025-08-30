@@ -11,7 +11,7 @@ class DataManager(private val context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences("app_prefs", Context.MODE_PRIVATE)
     private val dataVersionKey = "data_version"
-    private val currentDataVersion = 11
+    private val currentDataVersion = 12
 
     fun copyAssetsToInternalStorageIfNeeded() {
         val installedVersion = prefs.getInt(dataVersionKey, 0)
@@ -32,14 +32,14 @@ class DataManager(private val context: Context) {
                     file.deleteRecursively()
                 }
                 // Usuń także stare pliki json, jeśli istnieją
-                if (file.isFile && (file.name == "piesni.json" || file.name == "kategorie.json")) {
+                if (file.isFile && (file.name == "piesni.json" || file.name == "kategorie.json" || file.name == "tagi.json")) {
                     Log.d("DataManager", "Usuwanie starego pliku: ${file.name}")
                     file.delete()
                 }
             }
 
             // Zaktualizowano logikę, aby kopiować zarówno katalogi, jak i pojedyncze pliki z roota
-            val assetsToCopy = context.assets.list("")?.filter { it == "data" || it == "Datowane" || it == "piesni.json" || it == "kategorie.json" } ?: emptyList()
+            val assetsToCopy = context.assets.list("")?.filter { it == "data" || it == "Datowane" || it == "piesni.json" || it == "kategorie.json" || it == "tagi.json" } ?: emptyList()
             assetsToCopy.forEach { assetName ->
                 val isDirectory = try {
                     context.assets.list(assetName)?.isNotEmpty() == true

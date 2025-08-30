@@ -10,6 +10,8 @@ internal class CacheManager {
         private set
     var categoryListCache: List<Category>? = null
         private set
+    var tagListCache: List<String>? = null
+        private set
 
     fun setSongCache(songs: List<Song>) {
         songListCache = songs
@@ -19,11 +21,19 @@ internal class CacheManager {
         categoryListCache = categories
     }
 
+    fun setTagCache(tags: List<String>) {
+        tagListCache = tags
+    }
+
     fun invalidateSongCache() {
         songListCache = null
     }
 
     fun invalidateCategoryCache() {
         categoryListCache = null
+    }
+
+    fun invalidateTagCache() {
+        tagListCache = null
     }
 }

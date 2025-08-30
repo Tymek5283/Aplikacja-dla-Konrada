@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Download
+import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.Upload
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -27,7 +28,8 @@ import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
 fun SettingsScreen(
     viewModel: SettingsViewModel,
     onRestartApp: () -> Unit,
-    onNavigateToCategoryManagement: () -> Unit
+    onNavigateToCategoryManagement: () -> Unit,
+    onNavigateToTagManagement: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
@@ -113,6 +115,13 @@ fun SettingsScreen(
                 subtitle = "Dodawaj, edytuj i usuwaj kategorie pieśni",
                 icon = Icons.Default.Category,
                 onClick = onNavigateToCategoryManagement,
+                enabled = !uiState.isImporting && !uiState.isExporting
+            )
+            SettingsTile(
+                title = "Zarządzaj tagami",
+                subtitle = "Dodawaj, edytuj i usuwaj tagi pieśni",
+                icon = Icons.Default.Label,
+                onClick = onNavigateToTagManagement,
                 enabled = !uiState.isImporting && !uiState.isExporting
             )
         }

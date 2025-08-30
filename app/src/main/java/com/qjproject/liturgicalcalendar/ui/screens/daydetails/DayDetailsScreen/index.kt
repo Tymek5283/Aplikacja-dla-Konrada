@@ -29,7 +29,8 @@ import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmode
 fun DayDetailsScreen(
     dayId: String?,
     onNavigateBack: () -> Unit,
-    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit
+    onNavigateToSongContent: (song: Song, startInEdit: Boolean) -> Unit,
+    onNavigateToSongDetails: (song: Song) -> Unit = { }
 ) {
     if (dayId.isNullOrBlank()) {
         Scaffold { padding -> Box(Modifier.fillMaxSize().padding(padding), contentAlignment = Alignment.Center) { Text("Błąd krytyczny: Brak identyfikatora dnia.") } }
@@ -107,7 +108,8 @@ fun DayDetailsScreen(
             else -> DayDetailsViewModeContent(
                 modifier = Modifier.padding(innerPadding),
                 viewModel = viewModel,
-                onNavigateToSongContent = onNavigateToSongContent
+                onNavigateToSongContent = onNavigateToSongContent,
+                onNavigateToSongDetails = onNavigateToSongDetails
             )
         }
     }

@@ -47,9 +47,10 @@ fun SearchScreen(
             categories = uiState.allCategories,
             error = uiState.addSongError,
             initialCategoryName = uiState.selectedCategory?.nazwa,
+            preselectedTag = uiState.selectedTag,
             onDismiss = { viewModel.onDismissAddSongDialog() },
             onConfirm = { title, siedl, sak, dn, text, category ->
-                viewModel.saveNewSong(title, siedl, sak, dn, text, category)
+                viewModel.saveNewSong(title, siedl, sak, dn, text, category, uiState.selectedTag)
             },
             onValidate = { title, siedl, sak, dn ->
                 viewModel.validateSongInput(title, siedl, sak, dn)
@@ -81,7 +82,11 @@ fun SearchScreen(
             SearchBar(
                 query = uiState.query,
                 onQueryChange = viewModel::onQueryChange,
-                placeholder = if (uiState.selectedCategory != null) "Wyszukaj wewnątrz kategorii..." else "Szukaj pieśni lub kategorii..."
+                placeholder = when {
+                    uiState.selectedCategory != null -> "Wyszukaj wewnątrz kategorii..."
+                    uiState.selectedTag != null -> "Wyszukaj wewnątrz tagu..."
+                    else -> "Szukaj pieśni, kategorii lub tagów..."
+                }
             )
             Divider()
 
@@ -89,17 +94,25 @@ fun SearchScreen(
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     CircularProgressIndicator()
                 }
-            } else if (uiState.songResults.isEmpty() && uiState.categoryResults.isEmpty() && uiState.query.isNotBlank()) {
+            } else if (uiState.songResults.isEmpty() && uiState.categoryResults.isEmpty() && uiState.tagResults.isEmpty() && uiState.query.isNotBlank()) {
                 NoResults()
+            } else if (uiState.selectedTag != null && uiState.songResults.isEmpty()) {
+                NoSongsForTag(
+                    tagName = uiState.selectedTag!!,
+                    onAddSong = { viewModel.onAddSongClicked() }
+                )
             } else {
                 SearchResultsContent(
                     categories = uiState.categoryResults,
+                    tags = uiState.tagResults,
                     songs = uiState.songResults,
-                    isGlobalSearch = uiState.selectedCategory == null,
+                    isGlobalSearch = uiState.selectedCategory == null && uiState.selectedTag == null,
                     onCategoryClick = { viewModel.onCategorySelected(it) },
+                    onTagClick = { viewModel.onTagSelected(it) },
                     onNoCategoryClick = { viewModel.onNoCategorySelected() },
                     onSongClick = onNavigateToSong,
-                    onSongLongClick = { viewModel.onSongLongPress(it) }
+                    onSongLongClick = { viewModel.onSongLongPress(it) },
+                    searchQuery = uiState.query
                 )
             }
         }
