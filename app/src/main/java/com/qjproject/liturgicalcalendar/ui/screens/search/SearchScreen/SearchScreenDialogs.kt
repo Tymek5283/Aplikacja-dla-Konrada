@@ -51,20 +51,21 @@ internal fun AddSongDialog(
     initialCategoryName: String?,
     preselectedTag: String? = null,
     onDismiss: () -> Unit,
-    onConfirm: (title: String, siedl: String, sak: String, dn: String, text: String, category: String) -> Unit,
-    onValidate: (title: String, siedl: String, sak: String, dn: String) -> Unit
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, sak2020: String, text: String, category: String) -> Unit,
+    onValidate: (title: String, siedl: String, sak: String, dn: String, sak2020: String) -> Unit
 ) {
     var title by remember { mutableStateOf("") }
     var numerSiedl by remember { mutableStateOf("") }
     var numerSak by remember { mutableStateOf("") }
     var numerDn by remember { mutableStateOf("") }
+    var numerSak2020 by remember { mutableStateOf("") }
     var text by remember { mutableStateOf("") }
     var category by remember { mutableStateOf(initialCategoryName ?: "") }
     var isCategoryExpanded by remember { mutableStateOf(false) }
 
 
-    LaunchedEffect(title, numerSiedl, numerSak, numerDn) {
-        onValidate(title, numerSiedl, numerSak, numerDn)
+    LaunchedEffect(title, numerSiedl, numerSak, numerDn, numerSak2020) {
+        onValidate(title, numerSiedl, numerSak, numerDn, numerSak2020)
     }
 
     Dialog(onDismissRequest = onDismiss) {
@@ -113,6 +114,22 @@ internal fun AddSongDialog(
                         modifier = Modifier.fillMaxWidth()
                     )
                     OutlinedTextField(
+                        value = numerSak2020,
+                        onValueChange = { numerSak2020 = it },
+                        label = { Text("Numer ŚAK 2020") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
+                        value = numerDn,
+                        onValueChange = { numerDn = it },
+                        label = { Text("Numer DN") },
+                        isError = error != null,
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                    OutlinedTextField(
                         value = numerSiedl,
                         onValueChange = { numerSiedl = it },
                         label = { Text("Numer Siedlecki") },
@@ -124,14 +141,6 @@ internal fun AddSongDialog(
                         value = numerSak,
                         onValueChange = { numerSak = it },
                         label = { Text("Numer ŚAK") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerDn,
-                        onValueChange = { numerDn = it },
-                        label = { Text("Numer DN") },
                         isError = error != null,
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
@@ -197,7 +206,7 @@ internal fun AddSongDialog(
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(
-                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, text, category) },
+                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, numerSak2020, text, category) },
                         enabled = title.isNotBlank() && error == null
                     ) {
                         Text("Zapisz")

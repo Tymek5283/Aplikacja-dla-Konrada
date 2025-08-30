@@ -264,12 +264,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         allSongsCache = null
     }
 
-    fun validateSongInput(title: String, siedl: String, sak: String, dn: String) {
+    fun validateSongInput(title: String, siedl: String, sak: String, dn: String, sak2020: String) {
         val songs = allSongsCache ?: return
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
         val trimmedSak = sak.trim()
         val trimmedDn = dn.trim()
+        val trimmedSak2020 = sak2020.trim()
 
         if (trimmedTitle.isNotBlank() && songs.any { it.tytul.equals(trimmedTitle, ignoreCase = true) }) {
             _uiState.update { it.copy(addSongError = "Pieśń o tym tytule już istnieje.") }
@@ -287,21 +288,26 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (DN) już istnieje.") }
             return
         }
+        if (trimmedSak2020.isNotBlank() && songs.any { it.numerSAK2020.equals(trimmedSak2020, ignoreCase = true) }) {
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK 2020) już istnieje.") }
+            return
+        }
         _uiState.update { it.copy(addSongError = null) }
     }
 
-    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, text: String, categoryName: String, preselectedTag: String? = null) {
+    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, sak2020: String, text: String, categoryName: String, preselectedTag: String? = null) {
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
         val trimmedSak = sak.trim()
         val trimmedDn = dn.trim()
+        val trimmedSak2020 = sak2020.trim()
         val trimmedText = text.trim()
 
         if (trimmedTitle.isBlank()) {
             _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
             return
         }
-        validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn)
+        validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn, trimmedSak2020)
         if (_uiState.value.addSongError != null) return
 
         viewModelScope.launch {
@@ -314,6 +320,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 numerSiedl = trimmedSiedl,
                 numerSAK = trimmedSak,
                 numerDN = trimmedDn,
+                numerSAK2020 = trimmedSak2020,
                 kategoria = selectedCategory?.nazwa ?: "",
                 kategoriaSkr = selectedCategory?.skrot ?: "",
                 tagi = if (preselectedTag != null) listOf(preselectedTag) else emptyList()
@@ -379,17 +386,19 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             
             // Grupa 1: Dokładne dopasowania numerów (najwyższy priorytet)
             val exactMatches = songs.filter { song ->
+                song.numerSAK2020 == trimmedQuery ||
+                song.numerDN == trimmedQuery ||
                 song.numerSiedl == trimmedQuery || 
-                song.numerSAK == trimmedQuery || 
-                song.numerDN == trimmedQuery
+                song.numerSAK == trimmedQuery
             }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
             
             // Grupa 2: Częściowe dopasowania numerów (niższy priorytet)
             val partialMatches = songs.filter { song ->
                 // Sprawdzamy czy liczba jest częścią składową, ale nie jest identyczna
+                (song.numerSAK2020.contains(trimmedQuery) && song.numerSAK2020 != trimmedQuery) ||
+                (song.numerDN.contains(trimmedQuery) && song.numerDN != trimmedQuery) ||
                 (song.numerSiedl.contains(trimmedQuery) && song.numerSiedl != trimmedQuery) ||
-                (song.numerSAK.contains(trimmedQuery) && song.numerSAK != trimmedQuery) ||
-                (song.numerDN.contains(trimmedQuery) && song.numerDN != trimmedQuery)
+                (song.numerSAK.contains(trimmedQuery) && song.numerSAK != trimmedQuery)
             }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
             
             // Zwracamy tylko wyniki numeryczne - NIE uwzględniamy tytułu ani tekstu
@@ -401,9 +410,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
                 val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
                 val matchesTag = song.tagi.any { normalize(it).contains(normalizedQuery) }
-                val matchesNumbers = song.numerSiedl.contains(originalQuery, ignoreCase = true) ||
-                                  song.numerSAK.contains(originalQuery, ignoreCase = true) ||
-                                  song.numerDN.contains(originalQuery, ignoreCase = true)
+                val matchesNumbers = song.numerSAK2020.contains(originalQuery, ignoreCase = true) ||
+                                  song.numerDN.contains(originalQuery, ignoreCase = true) ||
+                                  song.numerSiedl.contains(originalQuery, ignoreCase = true) ||
+                                  song.numerSAK.contains(originalQuery, ignoreCase = true)
                 matchesTitle || matchesContent || matchesTag || matchesNumbers
             }
         }

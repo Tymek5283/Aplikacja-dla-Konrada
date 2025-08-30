@@ -38,6 +38,7 @@ class SongDetailsViewModel(
     private val siedlNum: String? = savedStateHandle.get<String>("siedlNum")?.let { URLDecoder.decode(it, "UTF-8") }
     private val sakNum: String? = savedStateHandle.get<String>("sakNum")?.let { URLDecoder.decode(it, "UTF-8") }
     private val dnNum: String? = savedStateHandle.get<String>("dnNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val sak2020Num: String? = savedStateHandle.get<String>("sak2020Num")?.let { URLDecoder.decode(it, "UTF-8") }
 
     private val _uiState = MutableStateFlow(SongDetailsUiState())
     val uiState = _uiState.asStateFlow()
@@ -63,7 +64,7 @@ class SongDetailsViewModel(
                 _uiState.update { it.copy(isLoading = false, error = "Nieprawidłowy tytuł pieśni.") }
                 return@launch
             }
-            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum)
+            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum, sak2020Num)
             if (foundSong != null) {
                 // Sprawdź czy istnieje PDF dla tej pieśni
                 val hasPdf = neumyManager.hasPdfForSong(foundSong.tytul)

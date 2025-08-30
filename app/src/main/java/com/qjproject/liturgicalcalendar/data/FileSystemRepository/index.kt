@@ -50,7 +50,7 @@ class FileSystemRepository(val context: Context) {
     // SongFile Operations
     fun getSongList(): List<Song> = songFileManager.getSongList()
     fun saveSongList(songs: List<Song>): Result<Unit> = songFileManager.saveSongList(songs)
-    fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? = songFileManager.getSong(title, siedlNum, sakNum, dnNum)
+    fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?, sak2020Num: String? = null): Song? = songFileManager.getSong(title, siedlNum, sakNum, dnNum, sak2020Num)
     fun updateSongOccurrencesInDayFiles(originalSong: Song, updatedSong: Song): Result<Unit> = songFileManager.updateSongOccurrencesInDayFiles(originalSong, updatedSong)
     fun deleteSong(songToDelete: Song, deleteOccurrences: Boolean): Result<Unit> = songFileManager.deleteSong(songToDelete, deleteOccurrences)
 

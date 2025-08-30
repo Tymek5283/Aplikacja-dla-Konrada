@@ -164,7 +164,7 @@ fun SearchResultsContent(
         // Na końcu pieśni
         if (songs.isNotEmpty()) {
             items(songs, key = { song ->
-                "song_${song.tytul}_${song.numerSiedl}_${song.numerSAK}_${song.numerDN}"
+                "song_${song.tytul}_${song.numerSAK2020}_${song.numerDN}_${song.numerSiedl}_${song.numerSAK}"
             }) { song ->
                 SongResultItem(
                     song = song,

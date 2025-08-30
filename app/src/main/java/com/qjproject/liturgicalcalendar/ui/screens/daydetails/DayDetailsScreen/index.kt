@@ -76,8 +76,8 @@ fun DayDetailsScreen(
             viewModel = viewModel,
             error = dialog.error,
             onDismiss = { viewModel.dismissDialog() },
-            onConfirm = { title, siedl, sak, dn, opis, moment, originalSong ->
-                viewModel.addOrUpdateSong(title, siedl, sak, dn, opis, moment, originalSong)
+            onConfirm = { title, sak2020, dn, siedl, sak, opis, moment, originalSong ->
+                viewModel.addOrUpdateSong(title, sak2020, dn, siedl, sak, opis, moment, originalSong)
             }
         )
         is DialogState.None -> {}

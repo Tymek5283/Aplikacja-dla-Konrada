@@ -42,23 +42,25 @@ sealed class Screen(val route: String, val label: String, val icon: ImageVector)
             return UrlEncoder.decode(encodedPaths).split(FILE_PATH_SEPARATOR)
         }
     }
-    object SongDetails : Screen("song_details/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}", "Szczegóły pieśni", Icons.Default.MenuBook) {
+    object SongDetails : Screen("song_details/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}&sak2020Num={sak2020Num}", "Szczegóły pieśni", Icons.Default.MenuBook) {
         fun createRoute(song: com.qjproject.liturgicalcalendar.data.Song): String {
             val title = UrlEncoder.encode(song.tytul)
             val siedl = UrlEncoder.encode(song.numerSiedl)
             val sak = UrlEncoder.encode(song.numerSAK)
             val dn = UrlEncoder.encode(song.numerDN)
-            return "song_details/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn"
+            val sak2020 = UrlEncoder.encode(song.numerSAK2020)
+            return "song_details/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn&sak2020Num=$sak2020"
         }
     }
 
-    object SongContent : Screen("song_content/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}&editOnStart={editOnStart}", "Treść pieśni", Icons.Default.MenuBook) {
+    object SongContent : Screen("song_content/{songTitle}?siedlNum={siedlNum}&sakNum={sakNum}&dnNum={dnNum}&sak2020Num={sak2020Num}&editOnStart={editOnStart}", "Treść pieśni", Icons.Default.MenuBook) {
         fun createRoute(song: com.qjproject.liturgicalcalendar.data.Song, editOnStart: Boolean = false): String {
             val title = UrlEncoder.encode(song.tytul)
             val siedl = UrlEncoder.encode(song.numerSiedl)
             val sak = UrlEncoder.encode(song.numerSAK)
             val dn = UrlEncoder.encode(song.numerDN)
-            return "song_content/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn&editOnStart=$editOnStart"
+            val sak2020 = UrlEncoder.encode(song.numerSAK2020)
+            return "song_content/$title?siedlNum=$siedl&sakNum=$sak&dnNum=$dn&sak2020Num=$sak2020&editOnStart=$editOnStart"
         }
     }
 

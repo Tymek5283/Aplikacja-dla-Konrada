@@ -138,10 +138,10 @@ fun SongDetailsScreen(
                             .padding(16.dp),
                         horizontalAlignment = Alignment.Start
                     ) {
-                        InfoRow(label = "Siedlecki:", value = song.numerSiedl)
-                        InfoRow(label = "ŚAK:", value = song.numerSAK)
-                        // ZMIANA: Dodano wyświetlanie numeru DN
-                        InfoRow(label = "DN:", value = song.numerDN)
+                        InfoRow(label = "ŚAK 2020:", value = song.numerSAK2020.ifBlank { "-" })
+                        InfoRow(label = "DN:", value = song.numerDN.ifBlank { "-" })
+                        InfoRow(label = "Siedlecki:", value = song.numerSiedl.ifBlank { "-" })
+                        InfoRow(label = "ŚAK:", value = song.numerSAK.ifBlank { "-" })
                         InfoRow(label = "Kategoria:", value = song.kategoria)
 
                         // Sekcja tagów

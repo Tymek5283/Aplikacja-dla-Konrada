@@ -34,6 +34,7 @@ class SongContentViewModel(
     private val siedlNum: String? = savedStateHandle.get<String>("siedlNum")?.let { URLDecoder.decode(it, "UTF-8") }
     private val sakNum: String? = savedStateHandle.get<String>("sakNum")?.let { URLDecoder.decode(it, "UTF-8") }
     private val dnNum: String? = savedStateHandle.get<String>("dnNum")?.let { URLDecoder.decode(it, "UTF-8") }
+    private val sak2020Num: String? = savedStateHandle.get<String>("sak2020Num")?.let { URLDecoder.decode(it, "UTF-8") }
 
     private val _uiState = MutableStateFlow(SongContentUiState())
     val uiState = _uiState.asStateFlow()
@@ -43,6 +44,8 @@ class SongContentViewModel(
     var editableNumerSiedl = mutableStateOf("")
         private set
     var editableNumerSak = mutableStateOf("")
+        private set
+    var editableNumerSak2020 = mutableStateOf("")
         private set
     var editableNumerDn = mutableStateOf("")
         private set
@@ -62,7 +65,7 @@ class SongContentViewModel(
                 _uiState.update { it.copy(isLoading = false, error = "Brak tytułu pieśni.") }
                 return@launch
             }
-            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum)
+            val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum, sak2020Num)
             val categories = repository.getCategoryList()
             if (foundSong != null) {
                 _uiState.update { it.copy(isLoading = false, song = foundSong, allCategories = categories) }
@@ -78,6 +81,7 @@ class SongContentViewModel(
             editableNumerSiedl.value = song.numerSiedl
             editableNumerSak.value = song.numerSAK
             editableNumerDn.value = song.numerDN
+            editableNumerSak2020.value = song.numerSAK2020
             editableCategory.value = song.kategoria
             editableText.value = song.tekst ?: ""
             _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
@@ -106,6 +110,7 @@ class SongContentViewModel(
         siedl: String = editableNumerSiedl.value,
         sak: String = editableNumerSak.value,
         dn: String = editableNumerDn.value,
+        sak2020: String = editableNumerSak2020.value,
         category: String = editableCategory.value,
         text: String = editableText.value
     ) {
@@ -114,6 +119,7 @@ class SongContentViewModel(
         editableNumerSiedl.value = siedl
         editableNumerSak.value = sak
         editableNumerDn.value = dn
+        editableNumerSak2020.value = sak2020
         editableCategory.value = category
         editableText.value = text
 
@@ -121,6 +127,7 @@ class SongContentViewModel(
                 originalSong.numerSiedl != siedl ||
                 originalSong.numerSAK != sak ||
                 originalSong.numerDN != dn ||
+                originalSong.numerSAK2020 != sak2020 ||
                 originalSong.kategoria != category ||
                 originalSong.tekst != text
 
@@ -144,6 +151,7 @@ class SongContentViewModel(
                     numerSiedl = editableNumerSiedl.value.trim(),
                     numerSAK = editableNumerSak.value.trim(),
                     numerDN = editableNumerDn.value.trim(),
+                    numerSAK2020 = editableNumerSak2020.value.trim(),
                     kategoria = editableCategory.value,
                     kategoriaSkr = newSkr
                 )

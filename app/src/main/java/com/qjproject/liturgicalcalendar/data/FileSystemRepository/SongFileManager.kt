@@ -59,7 +59,7 @@ internal class SongFileManager(
         }
     }
 
-    fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?): Song? {
+    fun getSong(title: String, siedlNum: String?, sakNum: String?, dnNum: String?, sak2020Num: String? = null): Song? {
         if (title.isBlank()) return null
         val matchingSongs = getSongList().filter { it.tytul.equals(title, ignoreCase = true) }
 
@@ -69,7 +69,8 @@ internal class SongFileManager(
             else -> matchingSongs.find { song ->
                 (siedlNum?.isNotBlank() == true && song.numerSiedl.equals(siedlNum, ignoreCase = true)) ||
                         (sakNum?.isNotBlank() == true && song.numerSAK.equals(sakNum, ignoreCase = true)) ||
-                        (dnNum?.isNotBlank() == true && song.numerDN.equals(dnNum, ignoreCase = true))
+                        (dnNum?.isNotBlank() == true && song.numerDN.equals(dnNum, ignoreCase = true)) ||
+                        (sak2020Num?.isNotBlank() == true && song.numerSAK2020.equals(sak2020Num, ignoreCase = true))
             } ?: matchingSongs.first()
         }
     }

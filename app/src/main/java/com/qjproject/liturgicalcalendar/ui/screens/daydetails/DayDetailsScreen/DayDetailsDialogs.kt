@@ -164,13 +164,14 @@ internal fun AddEditSongDialog(
     viewModel: DayDetailsViewModel,
     error: String?,
     onDismiss: () -> Unit,
-    onConfirm: (title: String, siedl: String, sak: String, dn: String, opis: String, moment: String, originalSong: SuggestedSong?) -> Unit
+    onConfirm: (title: String, sak2020: String, dn: String, siedl: String, sak: String, opis: String, moment: String, originalSong: SuggestedSong?) -> Unit
 ) {
     var piesn by remember { mutableStateOf(existingSong?.piesn ?: "") }
     var opis by remember { mutableStateOf(existingSong?.opis ?: "") }
+    var numerSak2020 by remember { mutableStateOf("") }
+    var numerDn by remember { mutableStateOf("") }
     var numerSiedl by remember { mutableStateOf(existingSong?.numer ?: "") }
     var numerSak by remember { mutableStateOf("") }
-    var numerDn by remember { mutableStateOf("") }
     val isPiesnValid by remember { derivedStateOf { piesn.isNotBlank() } }
 
     val titleSearchResults by viewModel.songTitleSearchResults.collectAsState()
@@ -183,8 +184,9 @@ internal fun AddEditSongDialog(
         if (existingSong != null) {
             viewModel.getFullSong(existingSong) { fullSong ->
                 if (fullSong != null) {
-                    numerSak = fullSong.numerSAK
+                    numerSak2020 = fullSong.numerSAK2020
                     numerDn = fullSong.numerDN
+                    numerSak = fullSong.numerSAK
                 }
             }
         }
@@ -216,9 +218,10 @@ internal fun AddEditSongDialog(
 
                 val onSuggestionClick: (Song) -> Unit = { song ->
                     piesn = song.tytul
+                    numerSak2020 = song.numerSAK2020
+                    numerDn = song.numerDN
                     numerSiedl = song.numerSiedl
                     numerSak = song.numerSAK
-                    numerDn = song.numerDN
                     viewModel.clearAllSearchResults()
                 }
 
@@ -316,7 +319,7 @@ internal fun AddEditSongDialog(
                     Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = {
-                            onConfirm(piesn, numerSiedl, numerSak, numerDn, opis, moment, existingSong)
+                            onConfirm(piesn, numerSak2020, numerDn, numerSiedl, numerSak, opis, moment, existingSong)
                         },
                         enabled = isPiesnValid
                     ) { Text("Zapisz") }
@@ -412,9 +415,10 @@ internal fun SongDetailsModal(
                         .verticalScroll(rememberScrollState())
                         .weight(1f, fill = false)
                 ) {
+                    SongNumberInfo("ŚAK 2020:", fullSong.numerSAK2020)
+                    SongNumberInfo("DN:", fullSong.numerDN)
                     SongNumberInfo("Siedlecki:", fullSong.numerSiedl)
                     SongNumberInfo("ŚAK:", fullSong.numerSAK)
-                    SongNumberInfo("DN:", fullSong.numerDN)
                     
                     // Wyświetlanie kategorii tylko jeśli istnieje
                     if (fullSong.kategoria.isNotBlank()) {

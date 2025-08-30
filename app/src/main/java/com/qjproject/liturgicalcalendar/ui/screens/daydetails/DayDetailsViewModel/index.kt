@@ -93,7 +93,7 @@ class DayDetailsViewModel(
                 } else {
                     songTitleSearchResults.value = repository.getSongList().filter {
                         it.tytul.contains(query, ignoreCase = true) &&
-                                (it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank() || it.numerDN.isNotBlank())
+                                (it.numerSAK2020.isNotBlank() || it.numerDN.isNotBlank() || it.numerSiedl.isNotBlank() || it.numerSAK.isNotBlank())
                     }.take(10)
                 }
             }
@@ -327,25 +327,28 @@ class DayDetailsViewModel(
 
     fun addOrUpdateSong(
         title: String,
+        sak2020: String,
+        dn: String,
         siedl: String,
         sak: String,
-        dn: String,
         opis: String,
         moment: String,
         originalSong: SuggestedSong?
     ) {
         viewModelScope.launch {
             val trimmedTitle = title.trim()
+            val trimmedSak2020 = sak2020.trim()
+            val trimmedDn = dn.trim()
             val trimmedSiedl = siedl.trim()
             val trimmedSak = sak.trim()
-            val trimmedDn = dn.trim()
 
             val songMatches = repository.getSongList().filter { it.tytul.equals(trimmedTitle, ignoreCase = true) }
 
             val perfectMatch = songMatches.find {
-                it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
-                        it.numerSAK.equals(trimmedSak, ignoreCase = true) &&
-                        it.numerDN.equals(trimmedDn, ignoreCase = true)
+                it.numerSAK2020.equals(trimmedSak2020, ignoreCase = true) &&
+                        it.numerDN.equals(trimmedDn, ignoreCase = true) &&
+                        it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
+                        it.numerSAK.equals(trimmedSak, ignoreCase = true)
             }
 
             if (perfectMatch == null) {
@@ -407,9 +410,10 @@ class DayDetailsViewModel(
 
     fun formatSongSuggestion(song: Song): String {
         val numberInfo = buildList {
+            if (song.numerSAK2020.isNotBlank()) add("ŚAK 2020: ${song.numerSAK2020}")
+            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
             if (song.numerSiedl.isNotBlank()) add("Siedl: ${song.numerSiedl}")
             if (song.numerSAK.isNotBlank()) add("ŚAK: ${song.numerSAK}")
-            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
         }.joinToString(", ")
 
         return if (numberInfo.isNotEmpty()) {
