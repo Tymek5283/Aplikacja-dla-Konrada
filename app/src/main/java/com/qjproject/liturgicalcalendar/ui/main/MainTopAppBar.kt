@@ -101,9 +101,8 @@ internal fun MainTopAppBar(
                         )
                     }
                 } else if (showEditButton) {
-                    IconButton(onClick = onEditClick) {
-                        Icon(Icons.Default.Edit, "Edytuj")
-                    }
+                    // Przycisk edycji wyłączony - niewidzialny i nieinteraktywny
+                    Spacer(Modifier.width(48.dp))
                 } else if (isCalendarScreenActive) {
                     calendarActions()
                 } else {

@@ -120,7 +120,10 @@ internal fun MainAppHost() {
                 onNavigateToTagManagement = { navController.navigate(Screen.TagManagement.route) },
                 onNavigateToTagSearch = { tag ->
                     // Nawigacja do głównego ekranu z preselektowanym tagiem
-                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}")
+                    // Używamy popUpTo aby wyczyścić stos nawigacji i zapewnić poprawne działanie przycisku wstecz
+                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}") {
+                        popUpTo("main_tabs") { inclusive = true }
+                    }
                 }
             )
         }

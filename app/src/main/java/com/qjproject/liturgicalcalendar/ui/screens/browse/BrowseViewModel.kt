@@ -7,13 +7,13 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.FileSystemItem
+import com.qjproject.liturgicalcalendar.data.SuggestedSong
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.burnoutcrew.reorderable.ItemPosition
 import java.util.Locale
 
 sealed class BrowseDialogState {
@@ -34,10 +34,11 @@ data class BrowseUiState(
     val showConfirmExitDialog: Boolean = false,
     val hasChanges: Boolean = false,
     val activeDialog: BrowseDialogState = BrowseDialogState.None,
-    val operationError: String? = null
+    val operationError: String? = null,
+    val newItemSuggestedSongs: Map<String, List<SuggestedSong>> = emptyMap()
 ) {
     val isRoot: Boolean get() = currentPath.size <= 1
-    val canReorder: Boolean get() = isEditMode && items.size > 1
+    val canReorder: Boolean get() = false
 }
 
 class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel() {
@@ -188,7 +189,8 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
                     if (item.isDirectory) {
                         repository.createFolder(pathString, item.name)
                     } else {
-                        repository.createDayFile(pathString, item.name, null)
+                        val suggestedSongs = _uiState.value.newItemSuggestedSongs[item.path] ?: emptyList()
+                        repository.createDayFile(pathString, item.name, null, suggestedSongs)
                     }
                 } else if (originalItem.name != item.name) {
                     repository.renameItem(item.path, item.name).onSuccess { newPath ->
@@ -215,21 +217,11 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private fun exitEditMode(onContinue: (() -> Unit)? = null) {
         originalItemsOnEdit = emptyList()
-        _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false) }
+        _uiState.update { it.copy(isEditMode = false, hasChanges = false, showConfirmExitDialog = false, newItemSuggestedSongs = emptyMap()) }
         loadContentForCurrentPath()
         onContinue?.invoke()
     }
 
-
-    fun reorderItems(from: ItemPosition, to: ItemPosition) {
-        _uiState.update { state ->
-            val updatedList = state.items.toMutableList().apply { add(to.index, removeAt(from.index)) }
-            state.copy(
-                items = updatedList,
-                hasChanges = updatedList != originalItemsOnEdit
-            )
-        }
-    }
 
     fun showDialog(dialogState: BrowseDialogState) = _uiState.update { it.copy(activeDialog = dialogState, operationError = null) }
     fun dismissDialog() = _uiState.update { it.copy(activeDialog = BrowseDialogState.None, operationError = null) }
@@ -297,7 +289,7 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
         }
     }
 
-    fun createDay(name: String, url: String?) {
+    fun createDay(name: String, url: String?, suggestedSongs: List<SuggestedSong> = emptyList()) {
         val trimmedName = name.trim()
         if (trimmedName.isBlank()) {
             _uiState.update { it.copy(operationError = "Nazwa dnia nie może być pusta.") }
@@ -308,12 +300,18 @@ class BrowseViewModel(private val repository: FileSystemRepository) : ViewModel(
         val newItem = FileSystemItem(name = trimmedName, isDirectory = false, path = tempPath)
         currentItems.add(newItem)
 
+        val updatedSuggestedSongsMap = _uiState.value.newItemSuggestedSongs.toMutableMap()
+        if (suggestedSongs.isNotEmpty()) {
+            updatedSuggestedSongsMap[tempPath] = suggestedSongs
+        }
+
         _uiState.update {
             it.copy(
                 items = currentItems,
                 hasChanges = currentItems != originalItemsOnEdit,
                 activeDialog = BrowseDialogState.None,
-                operationError = null
+                operationError = null,
+                newItemSuggestedSongs = updatedSuggestedSongsMap
             )
         }
     }

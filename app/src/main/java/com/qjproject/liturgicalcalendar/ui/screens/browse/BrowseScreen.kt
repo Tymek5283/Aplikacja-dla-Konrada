@@ -12,7 +12,6 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.DragHandle
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.outlined.Article
 import androidx.compose.material.icons.outlined.Folder
@@ -31,7 +30,8 @@ import com.qjproject.liturgicalcalendar.ui.theme.CardBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.VeryDarkNavy
-import org.burnoutcrew.reorderable.*
+import com.qjproject.liturgicalcalendar.data.SuggestedSong
+import com.qjproject.liturgicalcalendar.ui.screens.daydetails.daydetailsviewmodel.songMomentOrderMap
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -43,28 +43,23 @@ fun BrowseScreen(
 
     HandleDialogs(viewModel, uiState)
 
-    val reorderState = rememberReorderableLazyListState(onMove = { from, to -> viewModel.reorderItems(from, to) })
-
     LazyColumn(
-        state = if (uiState.canReorder) reorderState.listState else rememberLazyListState(),
+        state = rememberLazyListState(),
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 8.dp)
-            .then(if (uiState.canReorder) Modifier.reorderable(reorderState) else Modifier),
+            .padding(horizontal = 8.dp),
         contentPadding = PaddingValues(vertical = 8.dp)
     ) {
         itemsIndexed(uiState.items, key = { _, item -> item.path }) { index, item ->
             if (uiState.isEditMode) {
-                ReorderableItem(reorderState, key = item.path) { isDragging ->
-                    BrowseItemEditable(
-                        item = item,
-                        isDragging = isDragging,
-                        canReorder = uiState.canReorder,
-                        onRenameClick = { viewModel.showDialog(BrowseDialogState.RenameItem(item, index)) },
-                        onDeleteClick = { viewModel.showDialog(BrowseDialogState.ConfirmDelete(item, index)) },
-                        reorderModifier = Modifier.detectReorder(reorderState)
-                    )
-                }
+                BrowseItemEditable(
+                    item = item,
+                    isDragging = false,
+                    canReorder = false,
+                    onRenameClick = { viewModel.showDialog(BrowseDialogState.RenameItem(item, index)) },
+                    onDeleteClick = { viewModel.showDialog(BrowseDialogState.ConfirmDelete(item, index)) },
+                    reorderModifier = Modifier
+                )
             } else {
                 BrowseItemView(
                     item = item,
@@ -103,13 +98,11 @@ private fun HandleDialogs(viewModel: BrowseViewModel, uiState: BrowseUiState) {
             onValueChange = { newName -> viewModel.onNewItemNameChange(newName) },
             onConfirm = { name -> viewModel.createFolder(name) }
         )
-        is BrowseDialogState.CreateDay -> CreateItemDialog(
-            title = "Utwórz nowy dzień",
-            label = "Nazwa dnia",
+        is BrowseDialogState.CreateDay -> CreateDayDialog(
             error = uiState.operationError,
             onDismiss = { viewModel.dismissDialog() },
             onValueChange = { newName -> viewModel.onNewItemNameChange(newName) },
-            onConfirm = { name -> viewModel.createDay(name, null) }
+            onConfirm = { name, suggestedSongs -> viewModel.createDay(name, null, suggestedSongs) }
         )
         is BrowseDialogState.RenameItem -> RenameItemDialog(
             item = dialog.item,
@@ -180,21 +173,13 @@ fun BrowseItemEditable(
             .padding(vertical = 4.dp)
             .shadow(if (isDragging) 4.dp else 0.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+        colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            if (canReorder) {
-                Icon(
-                    imageVector = Icons.Default.DragHandle,
-                    contentDescription = "Zmień kolejność",
-                    modifier = reorderModifier.padding(8.dp)
-                )
-            } else {
-                Spacer(Modifier.width(40.dp)) // Placeholder
-            }
+            Spacer(Modifier.width(40.dp)) // Placeholder
 
             Icon(
                 imageVector = if (item.isDirectory) Icons.Outlined.Folder else Icons.Outlined.Article,
@@ -422,6 +407,124 @@ private fun CreateItemDialog(
                     Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = { onConfirm(name) },
+                        enabled = name.isNotBlank() && error == null
+                    ) { Text("Zatwierdź") }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun CreateDayDialog(
+    error: String?,
+    onDismiss: () -> Unit,
+    onValueChange: (String) -> Unit,
+    onConfirm: (String, List<SuggestedSong>) -> Unit
+) {
+    var name by remember { mutableStateOf("") }
+    var suggestedSongs by remember { mutableStateOf<List<SuggestedSong>>(emptyList()) }
+    
+    LaunchedEffect(Unit) { onValueChange("") }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            shape = MaterialTheme.shapes.large,
+            colors = CardDefaults.cardColors(containerColor = VeryDarkNavy)
+        ) {
+            Column(modifier = Modifier.padding(24.dp)) {
+                Text(
+                    "Utwórz nowy dzień",
+                    style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(16.dp))
+                Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
+                Spacer(Modifier.height(16.dp))
+                
+                Column {
+                    OutlinedTextField(
+                        value = name,
+                        onValueChange = {
+                            name = it
+                            onValueChange(it)
+                        },
+                        label = { Text("Nazwa dnia") },
+                        singleLine = true,
+                        isError = error != null,
+                        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
+                        keyboardActions = KeyboardActions(onDone = {
+                            if (name.isNotBlank() && error == null) onConfirm(name, suggestedSongs)
+                        })
+                    )
+                    if (error != null) {
+                        Text(
+                            error,
+                            color = MaterialTheme.colorScheme.error,
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 4.dp)
+                        )
+                    }
+                }
+                
+                Spacer(Modifier.height(24.dp))
+                
+                Text(
+                    "Sugerowane pieśni",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = SaturatedNavy
+                )
+                Spacer(Modifier.height(12.dp))
+                
+                songMomentOrderMap.forEach { (momentKey, momentName) ->
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = momentName,
+                            style = MaterialTheme.typography.bodyMedium,
+                            modifier = Modifier.weight(1f),
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                        Button(
+                            onClick = { 
+                                val newSong = SuggestedSong(
+                                    numer = "",
+                                    piesn = "",
+                                    opis = "",
+                                    moment = momentKey
+                                )
+                                suggestedSongs = suggestedSongs + newSong
+                            },
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = TileBackground,
+                                contentColor = MaterialTheme.colorScheme.onSurface
+                            ),
+                            modifier = Modifier.size(width = 120.dp, height = 32.dp)
+                        ) {
+                            Icon(
+                                Icons.Default.Add, 
+                                contentDescription = null, 
+                                modifier = Modifier.size(16.dp)
+                            )
+                            Spacer(Modifier.width(4.dp))
+                            Text("Dodaj", fontSize = 12.sp)
+                        }
+                    }
+                }
+                
+                Spacer(Modifier.height(24.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    TextButton(onClick = onDismiss) { Text("Anuluj") }
+                    Spacer(Modifier.width(8.dp))
+                    Button(
+                        onClick = { onConfirm(name, suggestedSongs) },
                         enabled = name.isNotBlank() && error == null
                     ) { Text("Zatwierdź") }
                 }

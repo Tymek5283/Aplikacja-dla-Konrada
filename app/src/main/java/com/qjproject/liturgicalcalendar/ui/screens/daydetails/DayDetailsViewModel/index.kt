@@ -25,7 +25,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.burnoutcrew.reorderable.ItemPosition
 
 class DayDetailsViewModel(
     private val dayId: String,
@@ -282,16 +281,18 @@ class DayDetailsViewModel(
         dismissDialog()
     }
 
-    fun reorderReadings(from: Int, to: Int) {
+    // Funkcja usunięta - brak obsługi Drag and Drop
+    /*fun reorderReadings(from: Int, to: Int) {
         updateEditableData { currentData ->
             val reorderedList = currentData.czytania.toMutableList().apply {
                 add(to, removeAt(from))
             }
             currentData.copy(czytania = reorderedList)
         }
-    }
+    }*/
 
-    fun reorderSongs(from: ItemPosition, to: ItemPosition) {
+    // Funkcja usunięta - brak obsługi Drag and Drop
+    /*fun reorderSongs(from: ItemPosition, to: ItemPosition) {
         // Optymalizacja: Opóźnij aktualizację stanu aby zapobiec przerywaniu Drag&Drop
         viewModelScope.launch {
             kotlinx.coroutines.delay(50) // Krótkie opóźnienie dla płynności
@@ -323,7 +324,7 @@ class DayDetailsViewModel(
                 currentData.copy(piesniSugerowane = newPiesniSugerowane)
             }
         }
-    }
+    }*/
 
     fun addOrUpdateSong(
         title: String,
@@ -432,5 +433,9 @@ class DayDetailsViewModel(
         _siedlSearchQuery.value = ""
         _sakSearchQuery.value = ""
         _dnSearchQuery.value = ""
+    }
+
+    fun getMomentName(momentKey: String): String {
+        return songMomentOrderMap[momentKey] ?: momentKey
     }
 }

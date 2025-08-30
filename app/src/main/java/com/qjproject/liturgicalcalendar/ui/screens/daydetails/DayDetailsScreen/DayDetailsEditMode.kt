@@ -39,10 +39,6 @@ import com.qjproject.liturgicalcalendar.ui.theme.EditModeTileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.TileBackground
 import com.qjproject.liturgicalcalendar.ui.theme.SaturatedNavy
 import com.qjproject.liturgicalcalendar.ui.theme.SectionHeaderBlue
-import org.burnoutcrew.reorderable.ReorderableItem
-import org.burnoutcrew.reorderable.detectReorder
-import org.burnoutcrew.reorderable.rememberReorderableLazyListState
-import org.burnoutcrew.reorderable.reorderable
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -79,19 +75,13 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                 onToggle = { viewModel.toggleReadingsSection() }
             ) {
                 val readings = editableData?.czytania ?: emptyList()
-                val readingsReorderState = rememberReorderableLazyListState(
-                    onMove = { from, to -> viewModel.reorderReadings(from.index, to.index) }
-                )
 
                 val readingItemHeight = 70.dp
                 val itemSpacing = 8.dp
                 val readingsTotalHeight = (readingItemHeight * readings.size) + (itemSpacing * (readings.size - 1).coerceAtLeast(0))
 
                 LazyColumn(
-                    state = readingsReorderState.listState,
-                    modifier = Modifier
-                        .reorderable(readingsReorderState)
-                        .height(readingsTotalHeight),
+                    modifier = Modifier.height(readingsTotalHeight),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                     userScrollEnabled = false
                 ) {
@@ -99,15 +89,13 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                         items = readings,
                         key = { index, item -> "${item.hashCode()}-$index" }
                     ) { index, reading ->
-                        ReorderableItem(readingsReorderState, key = "${reading.hashCode()}-$index") { isDragging ->
-                            EditableReadingItem(
-                                reading = reading,
-                                isDragging = isDragging,
-                                onEditClick = { readingToEdit = reading to index },
-                                onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
-                                reorderModifier = Modifier.detectReorder(readingsReorderState)
-                            )
-                        }
+                        EditableReadingItem(
+                            reading = reading,
+                            isDragging = false,
+                            onEditClick = { readingToEdit = reading to index },
+                            onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(reading, "czytanie: ${reading.typ}")) },
+                            reorderModifier = Modifier
+                        )
                     }
                 }
                 AddItemButton(text = "Dodaj czytanie", onClick = { showAddReadingDialog = true })
@@ -120,59 +108,38 @@ internal fun DayDetailsEditModeContent(modifier: Modifier = Modifier, viewModel:
                 isExpanded = uiState.isSongsSectionExpanded,
                 onToggle = { viewModel.toggleSongsSection() }
             ) {
-                val reorderableSongList by viewModel.reorderableSongList.collectAsState()
-                val songReorderState = rememberReorderableLazyListState(
-                    onMove = { from, to -> viewModel.reorderSongs(from, to) },
-                    canDragOver = { draggedOver, _ ->
-                        reorderableSongList.getOrNull(draggedOver.index) is ReorderableListItem.SongItem
-                    }
-                )
+                val songs = editableData?.piesniSugerowane ?: emptyList()
+                val groupedSongs = songs.filterNotNull().groupBy { it.moment }.toList()
 
                 LazyColumn(
-                    state = songReorderState.listState,
-                    modifier = Modifier
-                        .reorderable(songReorderState)
-                        .heightIn(max = 500.dp),
+                    modifier = Modifier.heightIn(max = 500.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
-                    userScrollEnabled = true,
-                    // Optymalizacja dla płynnego Drag & Drop - wyłączenie animacji podczas przeciągania
-                    contentPadding = PaddingValues(0.dp)
+                    userScrollEnabled = true
                 ) {
-                    items(
-                        items = reorderableSongList,
-                        key = { item ->
-                            when (item) {
-                                is ReorderableListItem.HeaderItem -> "header_${item.momentKey}"
-                                is ReorderableListItem.SongItem -> "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
-                            }
+                    groupedSongs.forEach { (moment, songList) ->
+                        item(key = "header_$moment") {
+                            val momentName = viewModel.getMomentName(moment)
+                            EditableSongCategoryHeader(categoryName = momentName)
                         }
-                    ) { item ->
-                        when (item) {
-                            is ReorderableListItem.HeaderItem -> {
-                                // Usunięto animateItemPlacement aby zapobiec przerywaniu Drag&Drop
-                                Column {
-                                    EditableSongCategoryHeader(categoryName = item.momentName)
-                                    AddItemButton(
-                                        text = "Dodaj pieśń do '${item.momentName}'",
-                                        onClick = { viewModel.showDialog(DialogState.AddEditSong(item.momentKey)) })
-                                }
-                            }
-                            is ReorderableListItem.SongItem -> {
-                                ReorderableItem(
-                                    reorderableState = songReorderState,
-                                    key = "song_${item.suggestedSong.piesn}_${item.suggestedSong.numer}_${item.suggestedSong.moment}"
-                                ) { isDragging ->
-                                    EditableSongItem(
-                                        song = item.suggestedSong,
-                                        isDragging = isDragging,
-                                        onEditClick = { viewModel.showDialog(DialogState.AddEditSong(item.suggestedSong.moment, item.suggestedSong)) },
-                                        onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(item.suggestedSong, "pieśń: ${item.suggestedSong.piesn}")) },
-                                        reorderModifier = Modifier.detectReorder(songReorderState),
-                                        isReorderEnabled = true,
-                                        viewModel = viewModel
-                                    )
-                                }
-                            }
+
+                        items(songList, key = { song -> "song_${song.piesn}_${song.numer}_${song.moment}" }) { song ->
+                            EditableSongItem(
+                                song = song,
+                                isDragging = false,
+                                onEditClick = { viewModel.showDialog(DialogState.AddEditSong(song.moment, song)) },
+                                onDeleteClick = { viewModel.showDialog(DialogState.ConfirmDelete(song, "pieśń: ${song.piesn}")) },
+                                reorderModifier = Modifier,
+                                isReorderEnabled = false,
+                                viewModel = viewModel
+                            )
+                        }
+
+                        item(key = "add_button_$moment") {
+                            val momentName = viewModel.getMomentName(moment)
+                            AddItemButton(
+                                text = "Dodaj pieśń do '$momentName'",
+                                onClick = { viewModel.showDialog(DialogState.AddEditSong(moment)) }
+                            )
                         }
                     }
                 }
@@ -267,11 +234,7 @@ fun EditableReadingItem(
                 .padding(horizontal = 4.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(
-                imageVector = Icons.Outlined.MoreVert,
-                contentDescription = "Zmień kolejność",
-                modifier = reorderModifier.padding(4.dp)
-            )
+            Spacer(Modifier.width(32.dp))
             Spacer(Modifier.width(8.dp))
             Text(
                 text = reading.typ,
@@ -334,15 +297,7 @@ fun EditableSongItem(
                 .padding(horizontal = 4.dp, vertical = 4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            if (isReorderEnabled) {
-                Icon(
-                    imageVector = Icons.Outlined.MoreVert,
-                    contentDescription = "Zmień kolejność",
-                    modifier = reorderModifier.padding(4.dp)
-                )
-            } else {
-                Spacer(Modifier.width(32.dp))
-            }
+            Spacer(Modifier.width(32.dp))
             val iconColor = if (hasText) {
                 MaterialTheme.colorScheme.primary
             } else {

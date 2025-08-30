@@ -76,7 +76,7 @@ internal class DirectoryManager(
         }
     }
 
-    fun createDayFile(path: String, fileName: String, url: String?): Result<String> {
+    fun createDayFile(path: String, fileName: String, url: String?, suggestedSongs: List<com.qjproject.liturgicalcalendar.data.SuggestedSong> = emptyList()): Result<String> {
         return try {
             val fullPath = File(internalStorageRoot, path).apply { mkdirs() }
             val newFile = File(fullPath, "$fileName.json")
@@ -87,7 +87,7 @@ internal class DirectoryManager(
                 tytulDnia = fileName,
                 czyDatowany = false,
                 czytania = emptyList(),
-                piesniSugerowane = emptyList()
+                piesniSugerowane = suggestedSongs
             )
             val jsonString = json.encodeToString(DayData.serializer(), dayData)
             newFile.writeText(jsonString)

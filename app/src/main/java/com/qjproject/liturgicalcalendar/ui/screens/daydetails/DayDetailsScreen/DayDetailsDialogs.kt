@@ -223,6 +223,11 @@ internal fun AddEditSongDialog(
                     numerSiedl = song.numerSiedl
                     numerSak = song.numerSAK
                     viewModel.clearAllSearchResults()
+                    
+                    // Walidacja danych po automatycznym uzupełnieniu
+                    if (piesn.isBlank()) {
+                        android.util.Log.w("AddEditSongDialog", "Tytuł pieśni jest pusty po automatycznym uzupełnieniu")
+                    }
                 }
 
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -241,6 +246,30 @@ internal fun AddEditSongDialog(
                         )
                         SearchSuggestionList(
                             results = titleSearchResults,
+                            onSuggestionClick = onSuggestionClick,
+                            viewModel = viewModel
+                        )
+                    }
+
+                    OutlinedTextField(
+                        value = numerSak2020,
+                        onValueChange = { numerSak2020 = it },
+                        label = { Text("Numer ŚAK 2020") },
+                        modifier = Modifier.fillMaxWidth()
+                    )
+
+                    Column {
+                        OutlinedTextField(
+                            value = numerDn,
+                            onValueChange = {
+                                numerDn = it
+                                viewModel.searchSongsByDn(it)
+                            },
+                            label = { Text("Numer DN") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        SearchSuggestionList(
+                            results = dnSearchResults,
                             onSuggestionClick = onSuggestionClick,
                             viewModel = viewModel
                         )
@@ -275,23 +304,6 @@ internal fun AddEditSongDialog(
                         )
                         SearchSuggestionList(
                             results = sakSearchResults,
-                            onSuggestionClick = onSuggestionClick,
-                            viewModel = viewModel
-                        )
-                    }
-
-                    Column {
-                        OutlinedTextField(
-                            value = numerDn,
-                            onValueChange = {
-                                numerDn = it
-                                viewModel.searchSongsByDn(it)
-                            },
-                            label = { Text("Numer DN") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        SearchSuggestionList(
-                            results = dnSearchResults,
                             onSuggestionClick = onSuggestionClick,
                             viewModel = viewModel
                         )

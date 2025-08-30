@@ -72,7 +72,7 @@ class FileSystemRepository(val context: Context) {
     fun getItems(path: String): List<FileSystemItem> = directoryManager.getItems(path)
     fun saveOrder(path: String, orderedNames: List<String>): Result<Unit> = directoryManager.saveOrder(path, orderedNames)
     fun createFolder(path: String, folderName: String): Result<Unit> = directoryManager.createFolder(path, folderName)
-    fun createDayFile(path: String, fileName: String, url: String?): Result<String> = directoryManager.createDayFile(path, fileName, url)
+    fun createDayFile(path: String, fileName: String, url: String?, suggestedSongs: List<com.qjproject.liturgicalcalendar.data.SuggestedSong> = emptyList()): Result<String> = directoryManager.createDayFile(path, fileName, url, suggestedSongs)
     fun deleteItem(itemPath: String): Result<Unit> = directoryManager.deleteItem(itemPath)
     fun renameItem(itemPath: String, newName: String): Result<String> = directoryManager.renameItem(itemPath, newName)
 
