@@ -17,7 +17,7 @@
     },
     {
       "nazwa": "do Miłosierdzia Bożego",
-      "skrot": "M. B."
+      "skrot": "Mił."
     },
     {
       "nazwa": "Wniebowstąpienie Pańskie",
@@ -112,11 +112,48 @@
       "skrot": "W. Pt."
     },
     {
+      "nazwa": "Wielki Czwartek",
+      "skrot": "W. Czw."
+    },
+    {
+      "nazwa": "Niedziela Palmowa",
+      "skrot": "Palm."
+    },
+    {
       "nazwa": "Dni Krzyżowe",
       "skrot": "Dn. Krzyż."
     },
     {
       "nazwa": "Uwielbienie",
       "skrot": "Uwielb."
+    },
+    {
+      "nazwa": "Czechowickie",
+      "skrot": "Czecho."
+    },
+    {
+      "nazwa": "Litanie",
+      "skrot": "Lit."
+    },
+    {
+      "nazwa": "Modlitwy",
+      "skrot": "Modl."
+    },
+    {
+      "nazwa": "Ofiarowanie Pańskie",
+      "skrot": "02.02"
+    },
+    {
+      "nazwa": "Okolicznościowe",
+      "skrot": "Okol."
+    },
+    {
+      "nazwa": "Liturgia Godzin",
+      "skrot": "LG"
+    },
+    {
+      "nazwa": "Pozaliturgiczne",
+      "skrot": "NieLit"
     }
+
   ]
