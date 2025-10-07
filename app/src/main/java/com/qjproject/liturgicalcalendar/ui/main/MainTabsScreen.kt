@@ -98,19 +98,26 @@ internal fun MainTabsScreen(
         val neumyManager = NeumyManager(context)
         val fileSystemRepository = FileSystemRepository(context)
         
-        if (firstRunManager.isFirstRun() && !firstRunManager.areAssetsCopied()) {
+        // Sprawdź czy trzeba skopiować lub zaktualizować pliki neumów
+        val needsCopy = (firstRunManager.isFirstRun() && !firstRunManager.areAssetsCopied()) || 
+                        firstRunManager.needsNeumyUpdate()
+        
+        if (needsCopy) {
             try {
+                android.util.Log.i("NeumyCopy", "Rozpoczynam kopiowanie/aktualizację plików neumów...")
                 val result = neumyManager.copyAssetsToInternalStorage()
                 if (result.isSuccess) {
                     val copiedCount = result.getOrNull() ?: 0
-                    android.util.Log.i("FirstRun", "Skopiowano $copiedCount plików PDF z assets do pamięci wewnętrznej")
+                    android.util.Log.i("NeumyCopy", "Skopiowano $copiedCount plików PDF z assets do pamięci wewnętrznej")
                     firstRunManager.markAssetsCopied()
                 } else {
-                    android.util.Log.e("FirstRun", "Błąd podczas kopiowania plików PDF: ${result.exceptionOrNull()?.message}")
+                    android.util.Log.e("NeumyCopy", "Błąd podczas kopiowania plików PDF: ${result.exceptionOrNull()?.message}")
                 }
-                firstRunManager.markFirstRunCompleted()
+                if (firstRunManager.isFirstRun()) {
+                    firstRunManager.markFirstRunCompleted()
+                }
             } catch (e: Exception) {
-                android.util.Log.e("FirstRun", "Nieoczekiwany błąd podczas pierwszego uruchomienia: ${e.message}")
+                android.util.Log.e("NeumyCopy", "Nieoczekiwany błąd podczas kopiowania neumów: ${e.message}")
             }
         }
         

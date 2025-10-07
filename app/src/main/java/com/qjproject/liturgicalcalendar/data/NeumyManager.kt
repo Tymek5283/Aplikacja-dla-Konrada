@@ -23,16 +23,17 @@ class NeumyManager(private val context: Context) {
     fun hasPdfForSong(songTitle: String): Boolean {
         val sanitizedTitle = sanitizeSongTitle(songTitle)
         
-        // Sprawdź w pamięci wewnętrznej
+        // Sprawdź w pamięci wewnętrznej (z sanityzowaną nazwą)
         val internalFile = File(neumyDir, "$sanitizedTitle.pdf")
         if (internalFile.exists()) {
             return true
         }
         
-        // Sprawdź w assets
+        // Sprawdź w assets (z oryginalną nazwą - ze spacjami)
         return try {
             val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
-            assetFiles.contains("$sanitizedTitle.pdf")
+            // W assets używamy oryginalnej nazwy (ze spacjami), nie sanityzowanej
+            assetFiles.contains("$songTitle.pdf")
         } catch (e: Exception) {
             false
         }
@@ -44,17 +45,18 @@ class NeumyManager(private val context: Context) {
     fun getPdfPathForSong(songTitle: String): String? {
         val sanitizedTitle = sanitizeSongTitle(songTitle)
         
-        // Sprawdź w pamięci wewnętrznej
+        // Sprawdź w pamięci wewnętrznej (z sanityzowaną nazwą)
         val internalFile = File(neumyDir, "$sanitizedTitle.pdf")
         if (internalFile.exists()) {
             return internalFile.absolutePath
         }
         
-        // Sprawdź w assets
+        // Sprawdź w assets (z oryginalną nazwą - ze spacjami)
         return try {
             val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
-            if (assetFiles.contains("$sanitizedTitle.pdf")) {
-                "assets://$assetsNeumyPath/$sanitizedTitle.pdf"
+            // W assets używamy oryginalnej nazwy (ze spacjami), nie sanityzowanej
+            if (assetFiles.contains("$songTitle.pdf")) {
+                "assets://$assetsNeumyPath/$songTitle.pdf"
             } else {
                 null
             }
@@ -107,37 +109,64 @@ class NeumyManager(private val context: Context) {
     }
     
     /**
+     * Czyści folder neumy z wszystkich plików PDF
+     * Używane przed ponownym kopiowaniem plików podczas aktualizacji
+     */
+    private fun clearNeumyDirectory() {
+        try {
+            neumyDir.listFiles()?.forEach { file ->
+                if (file.isFile && file.extension.lowercase() == "pdf") {
+                    val deleted = file.delete()
+                    if (deleted) {
+                        android.util.Log.d("NeumyManager", "Usunięto stary plik: ${file.name}")
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            android.util.Log.e("NeumyManager", "Błąd podczas czyszczenia katalogu neumów: ${e.message}")
+        }
+    }
+    
+    /**
      * Kopiuje wszystkie pliki PDF z folderu assets/neumy do pamięci wewnętrznej
      * Ta funkcja jest wywoływana podczas pierwszego uruchomienia aplikacji
+     * Pliki są zapisywane z sanityzowanymi nazwami (spacje zamienione na podkreślniki)
      */
     fun copyAssetsToInternalStorage(): Result<Int> {
         return try {
+            // Wyczyść stare pliki przed kopiowaniem nowych
+            clearNeumyDirectory()
+            
             var copiedCount = 0
             
             // Pobierz listę plików z assets/neumy
             val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
             val pdfFiles = assetFiles.filter { it.endsWith(".pdf", ignoreCase = true) }
             
-            for (fileName in pdfFiles) {
+            for (originalFileName in pdfFiles) {
                 try {
-                    // Otwórz plik z assets
-                    val inputStream = context.assets.open("$assetsNeumyPath/$fileName")
+                    // Otwórz plik z assets (oryginalna nazwa ze spacjami)
+                    val inputStream = context.assets.open("$assetsNeumyPath/$originalFileName")
                     
-                    // Utwórz plik docelowy w pamięci wewnętrznej
-                    val targetFile = File(neumyDir, fileName)
+                    // Pobierz tytuł pieśni (nazwa bez rozszerzenia)
+                    val songTitle = originalFileName.removeSuffix(".pdf")
+                    // Sanityzuj nazwę dla pliku docelowego
+                    val sanitizedFileName = "${sanitizeSongTitle(songTitle)}.pdf"
                     
-                    // Kopiuj tylko jeśli plik nie istnieje już w pamięci wewnętrznej
-                    if (!targetFile.exists()) {
-                        FileOutputStream(targetFile).use { outputStream ->
-                            inputStream.copyTo(outputStream)
-                        }
-                        copiedCount++
+                    // Utwórz plik docelowy w pamięci wewnętrznej z sanityzowaną nazwą
+                    val targetFile = File(neumyDir, sanitizedFileName)
+                    
+                    // Kopiuj plik
+                    FileOutputStream(targetFile).use { outputStream ->
+                        inputStream.copyTo(outputStream)
                     }
+                    copiedCount++
+                    android.util.Log.d("NeumyManager", "Skopiowano: $originalFileName -> $sanitizedFileName")
                     
                     inputStream.close()
                 } catch (e: Exception) {
                     // Loguj błąd ale kontynuuj kopiowanie innych plików
-                    android.util.Log.e("NeumyManager", "Błąd podczas kopiowania pliku $fileName: ${e.message}")
+                    android.util.Log.e("NeumyManager", "Błąd podczas kopiowania pliku $originalFileName: ${e.message}")
                 }
             }
             
@@ -149,30 +178,36 @@ class NeumyManager(private val context: Context) {
     
     /**
      * Zwraca listę wszystkich dostępnych plików PDF z neumami
+     * Priorytet: najpierw pamięć wewnętrzna, potem assets
      */
     fun getAllPdfFiles(): List<Pair<String, String>> {
         val allFiles = mutableListOf<Pair<String, String>>()
+        val processedTitles = mutableSetOf<String>()
         
-        // Dodaj pliki z assets
-        try {
-            val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
-            assetFiles.filter { it.endsWith(".pdf", ignoreCase = true) }.forEach { fileName ->
-                val songTitle = fileName.removeSuffix(".pdf").replace("_", " ")
-                allFiles.add(Pair(songTitle, "assets://$assetsNeumyPath/$fileName"))
-            }
-        } catch (e: Exception) {
-            // Ignoruj błędy dostępu do assets
-        }
-        
-        // Dodaj pliki z pamięci wewnętrznej (jeśli nie ma już takiego z assets)
+        // Najpierw dodaj pliki z pamięci wewnętrznej (sanityzowane nazwy)
         neumyDir.listFiles { file ->
             file.isFile && file.extension.lowercase() == "pdf"
         }?.forEach { file ->
+            // Nazwa pliku jest już sanityzowana (podkreślniki zamiast spacji)
             val songTitle = file.nameWithoutExtension.replace("_", " ")
-            // Sprawdź czy już nie ma takiego pliku z assets
-            if (!allFiles.any { it.first == songTitle }) {
-                allFiles.add(Pair(songTitle, file.absolutePath))
+            allFiles.add(Pair(songTitle, file.absolutePath))
+            processedTitles.add(songTitle)
+        }
+        
+        // Potem dodaj pliki z assets (oryginalne nazwy ze spacjami)
+        try {
+            val assetFiles = context.assets.list(assetsNeumyPath) ?: emptyArray()
+            assetFiles.filter { it.endsWith(".pdf", ignoreCase = true) }.forEach { fileName ->
+                // W assets nazwy mają oryginalne spacje
+                val songTitle = fileName.removeSuffix(".pdf")
+                // Dodaj tylko jeśli nie ma już takiego pliku z pamięci wewnętrznej
+                if (!processedTitles.contains(songTitle)) {
+                    allFiles.add(Pair(songTitle, "assets://$assetsNeumyPath/$fileName"))
+                    processedTitles.add(songTitle)
+                }
             }
+        } catch (e: Exception) {
+            // Ignoruj błędy dostępu do assets
         }
         
         return allFiles

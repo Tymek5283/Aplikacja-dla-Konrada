@@ -2079,7 +2079,7 @@
         "numerSAK": "198",
         "kategoria": "Hymny",
         "kategoriaSkr": "Hym.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Ciebie, Boże, wielbimy",
@@ -2090,7 +2090,7 @@
         "numerSAK": "199",
         "kategoria": "Hymny",
         "kategoriaSkr": "Hym.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Ciebie, Boże, chwalimy",
@@ -2101,7 +2101,7 @@
         "numerSAK": "-",
         "kategoria": "Hymny",
         "kategoriaSkr": "Hym.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Jeden w naturze",
@@ -2189,7 +2189,7 @@
         "numerSAK": "206",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Bądźże pozdrowiona, Hostio",
@@ -2200,7 +2200,7 @@
         "numerSAK": "207",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Komunia Święta"]
     },
     {
         "tytul": "Błogosławieni, którzy zostali",
@@ -2211,7 +2211,7 @@
         "numerSAK": "208",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Boże mój, spragniony",
@@ -2222,7 +2222,7 @@
         "numerSAK": "209",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Bóg kiedyś stał się jednym z nas",
@@ -2233,7 +2233,7 @@
         "numerSAK": "210",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "By wywyższyć swe stworzenia",
@@ -2244,7 +2244,7 @@
         "numerSAK": "211",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Chleb niebiański",
@@ -2253,9 +2253,9 @@
         "numerDN": "",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta","Dziękczynienie"]
     },
     {
         "tytul": "Chrystus Pan karmi nas",
@@ -2266,7 +2266,7 @@
         "numerSAK": "212",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Chwal, Syjonie, Zbawiciela",
@@ -2277,7 +2277,7 @@
         "numerSAK": "213",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Sekwencja"]
     },
     {
         "tytul": "Chwalmy niewysłowiony",
@@ -2288,7 +2288,7 @@
         "numerSAK": "214",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Chwała i dziękczynienie",
@@ -2299,7 +2299,7 @@
         "numerSAK": "215",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Ciebie całą duszą pragnę",
@@ -2310,7 +2310,7 @@
         "numerSAK": "216",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Cuda nad cuda",
@@ -2321,18 +2321,18 @@
         "numerSAK": "218",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Dałeś nam chleb",
-        "tekst": "",
+        "tekst": "Ref. Dałeś nam chleb z nieba, Chleb błogosławieństwa.\n\n1. Chwalcie Pana, wszystkie narody;\nOtrzymaliśmy Ciało i Krew Chrystusa.\n\n2. Ciało Chrystusa i Krew najdroższą,\nPokarm zbawienia i napój życia.\n\n3. Dzięki Ci wszyscy składamy,\nO, Chryste, nasz Zbawicielu.\n\n4. Dałeś nam udział w życiu Twoim,\nUmiałeś zdobyć serca nasze.",
         "numerSAK2020": "224",
         "numerDN": "264",
         "numerSiedl": "",
         "numerSAK": "219",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Duszo Chrystusowa",
@@ -2343,7 +2343,7 @@
         "numerSAK": "220",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Gdzie w uroczystej cichości",
@@ -2354,7 +2354,7 @@
         "numerSAK": "221",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Gdzież jest Jezus",
@@ -2365,7 +2365,7 @@
         "numerSAK": "222",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Idzie, idzie Bóg prawdziwy",
@@ -2376,7 +2376,7 @@
         "numerSAK": "223",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Idzie mój Pan",
@@ -2387,7 +2387,7 @@
         "numerSAK": "",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Dzieci"]
     },
     {
         "tytul": "Idzie wieczny Bóg",
@@ -2398,7 +2398,7 @@
         "numerSAK": "224",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Ja wiem, w Kogo ja wierzę",
@@ -2409,7 +2409,7 @@
         "numerSAK": "225",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Kto spożywa moje ciało",
@@ -2420,7 +2420,7 @@
         "numerSAK": "",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Jam jest Chleb Życia",
@@ -2431,7 +2431,7 @@
         "numerSAK": "226",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Pogrzeb","Komunia Święta"]
     },
     {
         "tytul": "Jam jest chlebem żywym",
@@ -2442,7 +2442,7 @@
         "numerSAK": "227",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Jeden chleb",
@@ -2453,7 +2453,7 @@
         "numerSAK": "228",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Wejście/Przygotowanie darów","Komunia Święta"]
     },
     {
         "tytul": "Jezu drogi, Tyś miłością",
@@ -2464,18 +2464,18 @@
         "numerSAK": "229",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Jezu, Jezu, do mnie przyjdź",
         "tekst": "1. Jezu, Jezu, do mnie przyjdź,\nach, do serca mego wnijdź!\nPrzyjacielu czystych dusz,\nniech się z Tobą złączę już.\n\n2. Ku Tobie się serce rwie;\nżyć bez Ciebie, Panie, źle!\nPragnę, wzdycham, Jezu mój;\nw Tobie słodycz, życia zdrój.\n\n3. Żadna rozkosz w świecie tym\nnie ma miejsca w sercu mym;\ntylko miłość, Jezu, Twa\nbłogi pokój sercu da.\n\n4. Więc też w smutku spędzam dni,\nBo za Tobą tęskno mi.\nWeź me serce, posiądź je,\nNiech na wieki będzie Twe.\n\n5. Choć niegodny sługa Twój,\nbyś majestat zniżył swój,\nuzdrów słowem duszę mą;\nniech się zbudzi z grzechu snu.\n6. Przyjdź, o Jezu, proszę Cię;\nniech Twym dzieckiem stanę się.\nChroń od złego duszę mą;\nniech na wieki będzie Twą.",
         "numerSAK2020": "236",
-        "numerDN": "272",
+        "numerDN": "271",
         "numerSiedl": "244",
         "numerSAK": "230",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Jezu, w Hostii utajony",
@@ -2486,7 +2486,7 @@
         "numerSAK": "231",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Adoracja"]
     },
     {
         "tytul": "Jezu, zostań w nas",
@@ -2497,7 +2497,7 @@
         "numerSAK": "232",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "Jezusa ukrytego",
@@ -2508,7 +2508,7 @@
         "numerSAK": "233",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Jezusowi cześć i chwała",
@@ -2519,7 +2519,7 @@
         "numerSAK": "234",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Już gościsz, Jezu",
@@ -2530,7 +2530,7 @@
         "numerSAK": "235",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Dziękczynienie"]
     },
     {
         "tytul": "Kiedy razem się schodzimy",
@@ -2541,7 +2541,7 @@
         "numerSAK": "236",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Kłaniam się Tobie",
@@ -2552,7 +2552,7 @@
         "numerSAK": "237",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Lud Twój, Panie",
@@ -2563,7 +2563,7 @@
         "numerSAK": "238",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Miłość Boża cię przyzywa",
@@ -2574,7 +2574,7 @@
         "numerSAK": "239",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Niebo, ziemia, świat i morze",
@@ -2585,7 +2585,7 @@
         "numerSAK": "240",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Niech będzie chwała",
@@ -2596,7 +2596,7 @@
         "numerSAK": "241",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "Niech żyje Jezus",
@@ -2607,7 +2607,7 @@
         "numerSAK": "242",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Dziękczynienie","Adoracja"]
     },
     {
         "tytul": "Niechaj będzie pochwalony",
@@ -2618,18 +2618,18 @@
         "numerSAK": "243",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "O, dobry Jezu mój",
-        "tekst": "1. O, dobry Jezu mój, tu pod posttacią chleba\nPrzychodzisz do nas z nieba.\nUżycz nam swoich łask.\n\nRefren:Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, dobry Jezu mój.\n\n2. O, słodki Jezu mój, wysłuchaj me pragnienie\nI spełnij me życzenie:\nDo serca mego wstąp.\n\nRefren:Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, słodki Jezu mój.\n\n3. O, miły Jezu mój, gdy wstąpisz w serce moje,\nMnie zostaw serce Twoje,\nBym wiecznie kochał Cię.\n\nRefren:Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, miły Jezu mój.",
+        "tekst": "1. O, dobry Jezu mój, tu pod postacią chleba\nPrzychodzisz do nas z nieba.\nUżycz nam swoich łask.\n\nRefren: Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, dobry Jezu mój.\n\n2. O, słodki Jezu mój, wysłuchaj me pragnienie\nI spełnij me życzenie:\nDo serca mego wstąp.\n\nRefren:Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, słodki Jezu mój.\n\n3. O, miły Jezu mój, gdy wstąpisz w serce moje,\nMnie zostaw serce Twoje,\nBym wiecznie kochał Cię.\n\nRefren:Chcę kochać Ciebie, Boże,\nJak tylko serce może,\nO, miły Jezu mój.",
         "numerSAK2020": "250",
         "numerDN": "278",
         "numerSiedl": "",
         "numerSAK": "244",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O, milcząca Hostio biała",
@@ -2640,7 +2640,7 @@
         "numerSAK": "245",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "O, mój Jezu w Hostii",
@@ -2651,7 +2651,7 @@
         "numerSAK": "246",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "O, Panie, Ty nam dajesz",
@@ -2662,7 +2662,7 @@
         "numerSAK": "247",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O, Przenajświętsza Hostia",
@@ -2673,18 +2673,18 @@
         "numerSAK": "249",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O Święta Uczto!",
         "tekst": "1. O Święta Uczto! Tu swoim Ciałem * karmi nas Chrystus, napawa Krwią.\n W sercu człowieka biednym i małym, * jasności Bóstwa ukryte są.\nSkąd nam to szczęście niewysłowione, * że Bóg pokarmem naszym się stał,\nże Jego Serce z naszym złączone, * że na tej ziemi niebo nam dał.\n\nRefren: Anielski Chlebie, witamy Ciebie,\nwieczny i żywy, Tyś Bóg prawdziwy,\nTobie dzięki, miłość, cześć!\n\n2. Chóry anielskie, przyjdźcie z Syjonu * z nami dziękczynny zanucić śpiew,\nna ziemi, u stóp Jezusa tronu * za Jego Ciało, za Boską Krew!\nTen, który w wiecznym niebios zachwycie * już bez zasłony daje się wam,\nw nas także Boskie zasila życie, * Chlebem na ziemi staje się nam. Ref.",
         "numerSAK2020": "255",
-        "numerDN": "",
+        "numerDN": "283",
         "numerSiedl": "258",
         "numerSAK": "250",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O zbawcza Hostio",
@@ -2695,7 +2695,7 @@
         "numerSAK": "251",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "O, salutaris Hostia",
@@ -2706,7 +2706,7 @@
         "numerSAK": "252",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Łacińskie"]
     },
     {
         "tytul": "Ojciec nam powierzył Słowo",
@@ -2728,7 +2728,7 @@
         "numerSAK": "254",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Pan Jezus już się zbliża",
@@ -2739,7 +2739,7 @@
         "numerSAK": "255",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Dzieci"]
     },
     {
         "tytul": "Pan uczynił wielkie rzeczy",
@@ -2750,7 +2750,7 @@
         "numerSAK": "610",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Dziękczynienie"]
     },
     {
         "tytul": "Pan wieczernik przygotował",
@@ -2761,7 +2761,7 @@
         "numerSAK": "256",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Pan zstąpił z nieba",
@@ -2772,7 +2772,7 @@
         "numerSAK": "257",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Adoracja"]
     },
     {
         "tytul": "Panie, dobry jak chleb",
@@ -2783,7 +2783,7 @@
         "numerSAK": "258",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Panie, pragnienia ludzkich serc",
@@ -2794,7 +2794,7 @@
         "numerSAK": "259",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Dziękczynienie"]
     },
     {
         "tytul": "Pobłogosław lud Twój",
@@ -2805,7 +2805,7 @@
         "numerSAK": "260",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Pochwalon bądź",
@@ -2816,7 +2816,7 @@
         "numerSAK": "261",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "Pokarmie aniołów",
@@ -2827,7 +2827,7 @@
         "numerSAK": "262",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Pokłon Tobie",
@@ -2838,17 +2838,18 @@
         "numerSAK": "263",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
-    {   "tytul": "Pomiędzy lud swój idzie sam",
-        "tekst": "Refren: Pomiędzy lud swój idzie sam: Święty, Zbawca, Pan.\n\n1. Zwykły chleb przemienia w Ciało swe, * bo głód naszych dusz nim nasycić chce. Ref.\n\n2. W swoją Krew przemienia wino Bóg, * by pragnienie serc nią ugasić mógł. Ref.",
+    {  
+        "tytul": "Pomiędzy lud swój idzie sam",
+        "tekst": "Refren: Pomiędzy lud swój idzie sam: Święty, Zbawca, Pan.\n\n1. Zwykły chleb przemienia w Ciało swe, * bo głód naszych dusz nim nasycić chce. Ref.\n\n2. W swoją Krew przemienia wino Bóg, * by pragnienie serc nią ugasić mógł. Ref.\n\n3. Królu nasz, niech chwała Tobie brzmi. * Z głębi naszych serc miłość niesiem Ci. Ref.",
         "numerSAK2020": "270",
         "numerDN": "296",
         "numerSiedl": "267",
         "numerSAK": "264",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Pozdrawiamy Cię",
@@ -2859,7 +2860,7 @@
         "numerSAK": "265",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Pójdź do Jezusa",
@@ -2870,7 +2871,7 @@
         "numerSAK": "266",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Pogrzeb"]
     },
     {
         "tytul": "Pójdźcie błogosławić Pana",
@@ -2903,7 +2904,7 @@
         "numerSAK": "269",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Tantum ergo Sacramentum",
@@ -2914,7 +2915,7 @@
         "numerSAK": "270",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Łacińskie"]
     },
     {
         "tytul": "Przygotuję Ci serce",
@@ -2936,7 +2937,7 @@
         "numerSAK": "272",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Przyszedłeś, Panie",
@@ -2980,7 +2981,7 @@
         "numerSAK": "277",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "Twoja cześć, chwała",
@@ -2991,7 +2992,7 @@
         "numerSAK": "278",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Tyś w wieczerniku",
@@ -3002,7 +3003,7 @@
         "numerSAK": "279",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "U drzwi Twoich stoję, Panie",
@@ -3013,7 +3014,7 @@
         "numerSAK": "280",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Uderzcie w dzwony",
@@ -3024,7 +3025,7 @@
         "numerSAK": "669",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Uklęknij na kolana, o, duszo",
@@ -3035,7 +3036,7 @@
         "numerSAK": "281",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Upadnij na kolana",
@@ -3046,7 +3047,7 @@
         "numerSAK": "282",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "W Sakramencie utajony",
@@ -3057,7 +3058,7 @@
         "numerSAK": "283",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Wieczną miłość dał",
@@ -3068,7 +3069,7 @@
         "numerSAK": "284",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Wielbię Ciebie",
@@ -3079,7 +3080,7 @@
         "numerSAK": "285",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja","Dziękczynienie"]
     },
     {
         "tytul": "Witaj, Boże utajony",
@@ -3090,7 +3091,7 @@
         "numerSAK": "286",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Witaj, Jezu, w tej świętości",
@@ -3101,7 +3102,7 @@
         "numerSAK": "287",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Witaj, Pokarmie",
@@ -3112,7 +3113,7 @@
         "numerSAK": "",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Witam Cię, witam",
@@ -3123,7 +3124,7 @@
         "numerSAK": "288",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Zawitaj, Ciało i Krew",
@@ -3134,7 +3135,7 @@
         "numerSAK": "289",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Zawitaj, Ciało z Maryi",
@@ -3145,7 +3146,7 @@
         "numerSAK": "290",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Zbliż się, o, zbliż się",
@@ -3156,7 +3157,7 @@
         "numerSAK": "291",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Zbliżam się w pokorze",
@@ -3167,7 +3168,7 @@
         "numerSAK": "292",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Zróbcie Mu miejsce",
@@ -3178,7 +3179,7 @@
         "numerSAK": "293",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Cały świat niech śpiewa",
@@ -3189,7 +3190,7 @@
         "numerSAK": "295",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Chlebem życia posileni",
@@ -3200,7 +3201,7 @@
         "numerSAK": "296",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Chwała, moc i dziękczynienie",
@@ -3211,7 +3212,7 @@
         "numerSAK": "",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Czego chcesz od nas, Panie",
@@ -3222,7 +3223,7 @@
         "numerSAK": "297",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dziękczynne pieśni śpiewajmy",
@@ -3233,7 +3234,7 @@
         "numerSAK": "298",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dzięki Ci, Panie",
@@ -3244,7 +3245,7 @@
         "numerSAK": "",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie","Komunia Święta"]
     },
     {
         "tytul": "Dzięki, o, Boże Ojcze",
@@ -3255,7 +3256,7 @@
         "numerSAK": "299",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dzięki, o Panie",
@@ -3266,7 +3267,7 @@
         "numerSAK": "300",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dziękujemy Ci, Ojcze nasz",
@@ -3277,7 +3278,7 @@
         "numerSAK": "301",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dziękuję Bogu dziś",
@@ -3288,7 +3289,7 @@
         "numerSAK": "807",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dziękujmy Mu za miłość",
@@ -3299,7 +3300,7 @@
         "numerSAK": "302",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Godzien jesteś, godzien",
@@ -3310,7 +3311,7 @@
         "numerSAK": "589",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Niech będzie Bóg uwielbiony",
@@ -3321,7 +3322,7 @@
         "numerSAK": "303",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Dziękczynienie","Adoracja"]
     },
     {
         "tytul": "Niech psalm uwielbienia",
@@ -3332,7 +3333,7 @@
         "numerSAK": "667",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "O Boże, dzięki Ci składamy",
@@ -3343,7 +3344,7 @@
         "numerSAK": "304",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Pan nie opuszcza nigdy",
@@ -3354,7 +3355,7 @@
         "numerSAK": "305",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Panie, Twa łaska",
@@ -3365,7 +3366,7 @@
         "numerSAK": "835",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Panie mój, cóż Ci oddać",
@@ -3376,7 +3377,7 @@
         "numerSAK": "306",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Panie nasz, Boże",
@@ -3387,7 +3388,7 @@
         "numerSAK": "307",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Radośnie Panu hymn śpiewajmy",
@@ -3398,7 +3399,7 @@
         "numerSAK": "308",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Skosztujcie i zobaczcie (Kusz)",
@@ -3409,7 +3410,7 @@
         "numerSAK": "309",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Dziękczynienie","Komunia Święta"]
     },
     {
         "tytul": "Święty, Święty",
@@ -3420,7 +3421,7 @@
         "numerSAK": "310",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Święty, Święty, trzykroć",
@@ -3431,7 +3432,7 @@
         "numerSAK": "660",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Tobie cześć, Tobie chwała",
@@ -3442,7 +3443,7 @@
         "numerSAK": "311",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "W moim sercu",
@@ -3453,7 +3454,7 @@
         "numerSAK": "661",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Wielbić Pana chcę",
@@ -3464,7 +3465,7 @@
         "numerSAK": "",
         "kategoria": "z Taize",
         "kategoriaSkr": "Taize",
-        "tagi": []
+        "tagi": ["Dzieci"]
     },
     {
         "tytul": "Wszystko, co żyje",
@@ -3475,7 +3476,7 @@
         "numerSAK": "312",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Bądź pozdrowione, Serce",
@@ -6588,7 +6589,7 @@
         "numerSAK": "636",
         "kategoria": "Okolicznościowe",
         "kategoriaSkr": "Okol.",
-        "tagi": ["Chrzest"]
+        "tagi": ["Chrzest","Wejście/Przygotowanie darów"]
     },
     {
         "tytul": "Błogosław Panie nas",
@@ -6599,7 +6600,7 @@
         "numerSAK": "571",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Wejście/Przygotowanie darów"]
     },
     {
         "tytul": "Bogu z Jego darów",
@@ -6654,7 +6655,7 @@
         "numerSAK": "576",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Bóg jest miłością",
@@ -6973,7 +6974,7 @@
         "numerSAK": "248",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O Przedwieczny nasz Panie",
@@ -7147,7 +7148,7 @@
         "numerSAK": "617",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Przystąpię do ołtarza",
@@ -7378,7 +7379,7 @@
         "numerSAK": "634",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Wejście/Przygotowanie darów"]
     },
     {
         "tytul": "Z Tobą, Jezu, chcemy żyć",
@@ -7400,7 +7401,7 @@
         "numerSAK": "637",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Wejście/Przygotowanie darów"]
     },
     {
         "tytul": "Zgromadzeni na modlitwie",
@@ -7411,7 +7412,7 @@
         "numerSAK": "",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Wejście/Przygotowanie darów"]
     },
     {
         "tytul": "Boże, Sędzio sprawiedliwy",
@@ -7909,10 +7910,10 @@
         "tagi": ["Psalm","Liturgia godzin"]
     },
     {
-        "tytul": "Błogosławcie Pana",
+        "tytul": "Błogosławcie Pana, wszystkie dzieła (psalm)",
         "tekst": "Pieśń (Dn 3, 57-88. 56)\nCałe stworzenie wielbi Boga\n\nChwalcie Boga naszego, wszyscy Jego słudzy (Ap 19, 5\n\n\nBłogosławcie Pana, wszystkie dzieła Pańskie, *\nchwalcie Go i wywyższajcie na wieki.\n  Błogosławcie Pana, aniołowie Pańscy, *\n  błogosławcie Pana, niebiosa.\nBłogosławcie Pana, wszelkie wody podniebne, *\nbłogosławcie Pana, wszystkie potęgi.\n  Błogosławcie Pana, słońce i księżycu, *\n  błogosławcie Pana, gwiazdy na niebie.\nBłogosławcie Pana, deszcze i rosy, *\nbłogosławcie Pana, wszystkie wichry niebieskie.\n  Błogosławcie Pana, ogniu i żarze, *\n  błogosławcie Pana, upale i chłodzie.\nBłogosławcie Pana, rosy i szrony, *\nbłogosławcie Pana, mrozy i zimna.\n  Błogosławcie Pana, lody i śniegi, *\n  błogosławcie Pana, dnie i noce.\nBłogosławcie Pana, światło i ciemności, *\nbłogosławcie Pana, błyskawice i chmury.\n  Niech ziemia błogosławi Pana, *\n  niech Go chwali i wywyższa na wieki.\nBłogosławcie Pana, góry i pagórki, *\nbłogosławcie Pana, wszelkie rośliny na ziemi.\n  Błogosławcie Pana, źródła wodne, *\n  błogosławcie Pana, morza i rzeki.\nBłogosławcie Pana, wieloryby i morskie stworzenia, *\nbłogosławcie Pana, wszelkie ptaki powietrzne.\n  Błogosławcie Pana, dzikie zwierzęta i trzody, *\n  błogosławcie Pana, synowie ludzcy.\nBłogosław Pana, Izraelu, *\nchwal Go i wywyższaj na wieki.\n  Błogosławcie Pana, kapłani Pańscy, *\n  błogosławcie Pana, słudzy Pańscy.\nBłogosławcie Pana, duchy i dusze sprawiedliwych, *\nbłogosławcie Pana, święci i pokornego serca.\n  Błogosławcie Pana, Chananiaszu, Azariaszu i Miszaelu, *\n  chwalcie Go i wywyższajcie na wieki.\nBłogosławmy Ojca i Syna, i Ducha Świętego, *\nchwalmy Go i wywyższajmy na wieki.\n  Błogosławiony jesteś, Panie, na sklepieniu nieba, *\n  pełen chwały i wywyższony na wieki.\n\nNa końcu tej pieśni nie mówi się 'Chwała Ojcu'.",
         "numerSAK2020": "854",
-        "numerDN": "",
+        "numerDN": "2.7",
         "numerSiedl": "",
         "numerSAK": "",
         "kategoria": "Liturgia Godzin",
@@ -9155,12 +9156,12 @@
         "tytul": "Najwyższemu Panu chwała",
         "tekst": "Ant. Najwyższemu Panu chwała, * Alleluja, alleluja.\n\n1. Bądź uwielbiony, Panie,\nZa Twoje do nas przybycie.\nZa Ciało, którym nas karmisz,\nZa Kościół, którym jesteśmy! - Alleluja! (Ant.)\n\n2. Dzięki składamy za wszechświatn\nNigdy nie ogarniony,\nZa ziemię, nasze mieszkanie,\nZa światło, wodę i życie. - Alleluja! Ant.\n\n3. Bądź uwielbiony nasz Boże,\nZa twórczą pracę człowieka,\nZa miłość, która nas łączy,\nZa piękno, dobro i prawdę. - Alleluja! (Ant.)\n4. Dzięki składamy, Panie,\nZa dzieło naszego zbawienia,\nZa to, że stałeś się Ciałem,\nZa Twoje życie, naukę i cuda. - Alleluja! Ant.\n\n5. Bądź uwielbiony, Panie,\nZa krzyż, na którym skonałeś,\nZa Zmartwychwstanie Twoje,\nZa Ducha, którego nam dałeś. - Alleluja! (Ant.)\n\n6. Bądź uwielbiony, Boże,\nZa każdy grzech przebaczony,\nZa ludzi, wśród których żyjemy,\nZa ludzi, których spotkamy. - Alleluja. Ant.\n\n7. Dzięki składamy za dobra\nOd Ciebie otrzymane,\nZa naszą dzisiejszą ofiarę,\nZa słowa nam przekazane. - Alleluja! (Ant.)\n\n8. Bądź uwielbiony, Boże,\nNasz Stworzycielu,\nBądź uwielbiony, Jezu, nasz Panie,\nBądź uwielbiony Duchu, nasza miłości. - Alleluja! Ant.\n\n\nUwaga: można dodawać teksty nawiązające do tajemnicy dnia liturgicznego (np. z hymnów brewiarzowych).",
         "numerSAK2020": "",
-        "numerDN": "",
+        "numerDN": "321",
         "numerSiedl": "",
         "numerSAK": "",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Litania o Historii Zbawienia dokonaje w Jezusie Chrystusie",
@@ -9549,7 +9550,7 @@
     },
     {
         "tytul": "Pójdźmy, pokłońmy się Panu",
-        "tekst": "",
+        "tekst": "Ref. Pójdźmy, pokłońmy się Panu!\n\n1. Pójdźmy z pieśnią radosną do Pana,\ngłośnym śpiewem oddajmy Mu cześć!\nOn Opoką zbawienia naszego,\nniech Mu hymny pochwalne brzmią!\n\n2. Bo to Bóg, Władca nasz Wszechpotężny,\nPan nad pany i królów Król.\nJego moc głębin ziemi dosięga,\nwładza Jego po szczyty gór.\n\n3. Służą Mu morza i oceany,\ndzieła Jego Wszechmocnych rąk.\nWszystkie lądy są w Jego władaniu,\nOn kształtował i rzeźbił je.\n\n4. Pójdźmy z czcią i głębokim pokłonem,\nna kolanach składajmy Mu hołd.\nTo nasz Stwórca i Bóg nasz łaskawy,\nPasterz nasz, ludu Swego Wódz.",
         "numerSAK2020": "",
         "numerDN": "233",
         "numerSiedl": "",
@@ -9626,7 +9627,7 @@
     },
     {
         "tytul": "Z radością śpiewajcie Panu",
-        "tekst": "",
+        "tekst": "Ref. Z radością śpiewajcie Panu wszystkie ziemie;\nSłużcie Panu z weselem!\n\n1. Wśród wesela, radości!\nSawajcie przed Jego obliczem.\n\n2. Wiedzcie, że Pan jest Bogiem,\nOn nas stworzył, my Jego własnością, my lud Jego, owce Jego pastwiska.\n\n3. Wstępujcie w bramy Jego z pieśniami, z hymnami w Jego przedsionki:\nChwalcie i błogosławcie Jego imię.\n\n4. Albowiem dobry jest Pan, miłosierdzie Jego trwa na wieki,\nA wierność Jego przez pokolenia.",
         "numerSAK2020": "",
         "numerDN": "256",
         "numerSiedl": "",
@@ -9637,36 +9638,14 @@
     },
     {
         "tytul": "Bogu Ojcu, przez Jezusa Chrystusa",
-        "tekst": "",
+        "tekst": "Ant. Bogu Ojcu przez Jezusa Chrystusa,\nW radości Ducha Świętego\nNiech będzie chwała na wieki wieków.\nAmen. Amen. Alleluja, alleluja!\n\n1. Niech będzie błogosławiony Bóg i Ojciec +\nPana naszego Jezusa Chrystusa,\nktóry napełnił nas wszelkim błogosławieństwem duchowym\nna wyżynach niebieskich w Chrystusie. Ant.\n\n2. W Nim bowiem wybrał nas przed założeniem świata,\nabyśmy byli święci i nieskalani\nprzed Jego obliczem. Ant.\n\n3. Z miłości przeznaczył nas dla siebie\njako przybranych synów przez Jezusa Chrystusa\nwedług postanowienia swej woli. Ant.\n\n4. Ku chwale majestatu swej łaski,\nktórą nas obdarzył\nw Umiłowanym swoim Synu. Ant.\n\n5. W Nim mamy odkupienie przez Krew Jego,\nodpuszczenie występków\nwedług bogactwa Jego łaski. Ant.\n\n6. Szczodrze ją na nas wylał\nw postaci wszelkiej mądrości\ni zrozumienia. Ant.\n\n7. Przez to, że nam oznajmił tajemnicę swej woli\nwedług swego postanowienia,\nktóre przedtem w Nim powziął. Ant.\n\n8. Dla dokonania pełni czasów,\naby wszystko na nowo zjednoczyć w Chrystusie jako Głowie:\nto, co w niebiosach i to, co na ziemi. Ant.\n\n9. Byśmy istnieli ku chwale Jego majestatu,\nmy, którzyśmy już przedtem złożyli nadzieję\nw Jezusie Chrystusie. Ant.\n\n10. W Nim także zostaliśmy opatrzeni pieczęcią,\nobiecanym Duchem Świętym,\nktóry jest zadatkiem naszego odkupienia. Ant.\n\n11. Chwała Ojcu i Synowi i Duchowi Świętemu,\njak była na początku, teraz i zawsze\ni na wieki wieków. Amen. Ant.",
         "numerSAK2020": "",
         "numerDN": "259",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
-    },
-    {
-        "tytul": "Duszo Chrystusowa, uświęcaj mnie",
-        "tekst": "",
-        "numerSAK2020": "",
-        "numerDN": "265",
-        "numerSiedl": "",
-        "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
-    },
-    {
-        "tytul": "Gdzież jest Jezus, ma pociecha",
-        "tekst": "",
-        "numerSAK2020": "",
-        "numerDN": "266",
-        "numerSiedl": "",
-        "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Jakże pójdziemy za Tobą, Chrystusie",
@@ -9677,117 +9656,106 @@
         "numerSAK": "115",
         "kategoria": "Eucharystyczne",
         "kategoriaSkr": "Euch.",
-        "tagi": []
+        "tagi": ["Komunia Święta","Pokuta"]
     },
     {
         "tytul": "Kocham Cię, Jezu, ach, tu na ziemi",
-        "tekst": "",
+        "tekst": "1. Kocham Cię, Jezu, ach, tu na ziemie,\nwśród wszystkich życia naszego dróg.\nSame złudzenia, a ponad nimi\nTyś jeden Prawda, Pan mój i Bóg.\n\n2.Kocham Cię, Jezu, ufam bez granic,\nBoś dla nas tyle wycierpiał ran.\nBoś tak nas, biednych, ukochał za nic,\nBoś jeden Dobro, Bóg mój i Pan.\n\n3. Kocham Cię, Jezu, niechaj uklękną\nWszystkie stworzenia u Twoich stóp.\nO, Tyś piękniejszy nad wszystkie piękno,\nTyś wszystko moje, Pan mój i Bóg.",
         "numerSAK2020": "",
         "numerDN": "276",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Adoracja"]
     },
     {
         "tytul": "Niech ziemia i niebo",
-        "tekst": "",
+        "tekst": "1. Niech Ziemia i Niebo sławią Ciebie, Panie,\nZa Twoją obecność ukrytą przed wzrokiem\nWierzymy, że w Chlebie jest Twe święte Ciało\nA Krew w kielichu.\n\n2. Przed swoim odejściem na mękę krzyżową\nZasiadłeś wśród uczniów przy stole paschalnym\nI dałeś nam przykład pokornej miłości\nDla wszystkich ludzi.\n\n3. Z dwunastu uczniami dzieliłeś się chlebem\nI winem, by spełnić obrzędy przymierza\nI pod postaciami przaśników i wina\nOddałeś Siebie.\n\n4. Kto Chleb ten spożywa i pije z kielicha\nNie umrze na wieki, lecz życie otrzyma\nI z Tobą jest jedno i z braćmi swoimi\nStanowi jedność.\n\n5. Na Twoją pamiątkę czynimy co każesz\nCzekając z ufnością na powrót Twój, Zbawco\nGdy znów do nas przyjdziesz by wiernych wprowadzić\nDo światła chwały.",
         "numerSAK2020": "",
         "numerDN": "277",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O Jezu słodki, dobry mój Panie",
-        "tekst": "",
+        "tekst": "1. O Jezu słodki, dobry mój Panie,\nO, ja już słowom Twym wierzę;\nZa Twoje, Boże, wszelkie kochanie,\nMasz serce wszystko w ofierze.\nChcesz się połączyć ze mną, mój Boże,\nChoć Tyś Bóg, a ja proch mały;\nChoć Tyś Bóg, a ja proch mały.\n\n2. O przyjdź, ja Ci me sercę otworzę,\nPrzyjdź Jezu, przyjdź Królu chwały!\nZa Twoją miłość kocham Cię wzajem\nI serce składam Ci czyste.\nA Ty mi, Jezu, już tu bądź rajem\nI przyjm mnie w niebo gwieździste;\nI przyjm mnie w niebo gwiaździste.",
         "numerSAK2020": "",
         "numerDN": "279",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O Panie, naucz nas",
-        "tekst": "",
+        "tekst": "Ref. O Panie, naucz nas * w miłości Twojej trwać.\n\n1. Jesteś, Panie, winnym krzewem,\nA my jego latorośle.\nMoc czerpiemy tylko z Ciebie,\nTy w nas żyjesz swą miłością. Ref.\n\n2. Cóż trwałego poza Toba,\nCzłowiek zdziała sam ze siebie?\nKtóż potrafi własne dobro\nOblecz w szaty nieśmiertelne? Ref.\n\n3. Ty przyjaźnią nas ogarniasz,\nTak wspaniałą i szeroką,\nŻe wyzwala pełną radość\nW sercu, które Ciebie kocha. Ref.",
         "numerSAK2020": "",
         "numerDN": "280",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
-    },
-    {
-        "tytul": "O święta Uczto, gdzie swoim Ciałem",
-        "tekst": "",
-        "numerSAK2020": "",
-        "numerDN": "283",
-        "numerSiedl": "",
-        "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
         "tagi": []
     },
     {
         "tytul": "O święta Uczto, Uczto wspólnoty",
-        "tekst": "",
+        "tekst": "1. O, święta uczto, uczto wspólnoty,\ntu Bóg z ludzkością spotyka się\ni rozproszone dzieci jednoczy,\nby życie własne przelewać w nie.\n\nRef.: O, śpieszmy razem, pełni radości,\nz jednego stołu spożywać chleb!\nW nim zespoleni węzłem jedności\nuczmy wzajemnie miłować się.\n\n2.O, święta uczto, uczto braterstwa,\nktóre Duch Święty przenika wciąż:\nw jedną nas duszę i jedno serce\nw Kościele swoim na zawsze złącz. Ref.\n\n3.O, święta uczto, początku chwały\njaka się w niebie objawi nam,\ngdy zgromadzeni w Jezusie całym\nspełnimy Ojca odwieczny plan. Ref.\n\n4.O, święta uczto, uczto wesela,\ntu brać i dawać Bóg uczy sam,\nbo z pełni szczęścia swego udziela\ni przeistacza nasz ludzki dar. Ref.",
         "numerSAK2020": "",
         "numerDN": "285",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "O święta Uczto, w której pożywamy",
-        "tekst": "",
+        "tekst": "1. O święta Uczto, w której pożywamy,\nCiało Chrystusa; w niej pamiątkę mamy,\nBolesnej męki i onych gorzkości,\nKtóre On dla nas wycierpiał z miłości.\n\n2. Ta święta Uczta łaski nam udziela,\nDo cnotliwego życia nas posila.\nKto jej pożywa w sumienia czystości,\nJest mu zadatkiem szczęśliwej wieczności.\n\n3. Chrystus, Pan hojny, tak nas umiłował,\nZ Ciała, Krwi swojej,\nUcztę nam zgotował.\nWszystkich nas sprasza i wzywa do siebie,\nBo szczerze pragnie osadzić nas w niebie.",
         "numerSAK2020": "",
         "numerDN": "286",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
         "tagi": []
     },
     {
         "tytul": "Oto Chleb Aniołów",
-        "tekst": "",
+        "tekst": "1. Oto Chleb Aniołów i niebieski pokarm,\nOjciec przygotował dla swych dzieci ziemskich.\n\nRef.: Dziękujmy Panu, bo jest dobry,\nbo nieskończenie nas umiłował.\n\n2. Bierzcie, jedzcie wszyscy Chrystusowe Ciało,\ngłoście tajemnicę Jego miłowania. Ref.\n\n3. Oto Chleb prawdziwy, Ciało mego Pana,\nw drodze do Ojczyzny człowiekowi dany. Ref.\n\n4. Panie Tyś Opoką, Tyś zbawieniem naszym,\npozostałeś z nami do skończenia świata. Ref.",
         "numerSAK2020": "",
         "numerDN": "287",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Oto jest Baranek Boży",
-        "tekst": "",
+        "tekst": "1. Oto jest Baranek Boży,\nKtóry gładzi grzechy świata.\nKto Cię, Jezu, wiernie kocha,\nTego wieczne szczęście czeka.\n\n2. Ciało i Krew Chrystosowa\nNiech nam daje życie nowe.\nPokornie Cię, Jezu, proszę,\nNiech Cię godnie w sercu noszę.\n\n3. Jam nie godzien, Panie, tego,\nAbyś wszedł do serca mego.\nRzeknij tylko Słowo Swoje,\nA tym zbawisz duszę moją.\n\n4. Wspieraj Kościół i Ojczyznę\nI ulecz nam grzechów bliznę.\nWszyscy grzeszni, lecz skruszeni,\nNiech odejdą pocieszeni.",
         "numerSAK2020": "",
         "numerDN": "288",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Panie i Boże, grzeszników chroń",
-        "tekst": "",
+        "tekst": "Ref. Panie i Boże, grzeszników chroń,\nZ których ja jestem pierwszy\nI łaską Twoją osłaniach ich,\nGdy przyjdziesz w Twoim królestwie.\n\n1. Wierzę, Panie, i to wyznaję, żeś Ty, Syn Boga żywego,\nZstąpił na ziemię, by duszę mą zbawić od wszelkiego złego.\n\n2. Za uczestnika w świątyni tej przyjmij mnie do świętej Twej uczty,\nBo prawdy Twojej wrogom nie wydam, ani ich w dom Twój nie puszczę.\n\n3. Nie jako Judasz całuję Cię, aby Cię oddać Twej męce,\nLecz jako rozbójnik na krzyżu ten, ku Tobie wznoszę me ręce.\n\n4. Panie i Boże, Ty wspomnij mnie, gdy przyjdziesz w Twoim królestwie.\nI życiem Twoim obdarzyć chciej, niech zmartwychwstanie grzesznik.",
         "numerSAK2020": "",
         "numerDN": "291",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Panie, pragnienia ludzkich serc",
@@ -9802,24 +9770,24 @@
     },
     {
         "tytul": "Przed Twojego dziś ołtarza tronem",
-        "tekst": "",
+        "tekst": "1. Przed Twojego dziś ołtarza tronem,\nPadamy na twarz z sercem skruszonym.\n\nRef. Święty, Święty, Święty, Boże niepojęty,\nBądź od nas pochwalony,\nW Sakramencie utajony.\n\n2. Przez Krew Twoją mamy odkupienie.\nPrzyjm, o Jezu, za to wdzięczne pienie. Ref.\n\n3. Tyś jest drogą, prawdą, Tyś światłością,\nTyś nadzieją, naszych dusz słodkością. Ref.\n\n4. Swych owieczek dobry Ty Pasterzu!\nDaj nam w Twoim świętym trwać przymierzu. Ref.",
         "numerSAK2020": "",
         "numerDN": "297",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Adoracja","Komunia Święta"]
     },
     {
         "tytul": "Przygotuję Ci serce, o Chryste",
-        "tekst": "",
+        "tekst": "1. Przygotuję Ci serce, o Chryste.\nPrzygotuję Ci serce niewinne.\nTakie jasne, radosne i czyste.\nPrzygotuję Ci serce, o Chryste.\n\n2. Przyozdobię Ci serce miłością.\nTaką wielką, co wszystko zwycięża.\nAbyś wstąpił do niego z radością.\nPrzyozdobię Ci serce miłością.\n\n3. Przygotuję Ci serce ofiarne.\nPrecz odrzucę, co kusi i wabi.\nPrzygotuję nadzieją i wiarą.\nPrzygotuję Ci serce ofiarą.\n\n4. Przyozdobię Ci serce dziecinne.\nTakie małe, tak biedne i słabe.\nA ty wlejesz w nie siły swe dziwne.\nPrzyozdobię Ci serce dziecinne.\n\n5. Przygotuję Ci serce, mój Boże.\nJa stworzenie nie godne i grzeszne.\nTobie troski, radości me złożę.\nKiedy wstąpisz w me serce, o Boże!",
         "numerSAK2020": "",
         "numerDN": "298",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
         "tagi": []
     },
     {
@@ -9835,102 +9803,102 @@
     },
     {
         "tytul": "Tobie ja żyję, z Ciebie Krynicy",
-        "tekst": "",
+        "tekst": "1. Tobie ja żyję, z Ciebie Krynicy,\nDusza człowieka początek ma.\nDaj jej być gronem z Twojej winnicy.\nDaj, niecha mieszka w niej wciąż łaska Twa.\n\n2. Tobie umiera, o straszne chwile,\nGdy dusza sędzią zobaczy Cię.\nDaj miłosierdzia jej poznać tyle,\nBy mogła z Tobą znów połączyć się.\n\n3. Jezu, Twój jestem, miłością wzbieram\nKu Tobie, Panie i Boże mój.\nTobie ja żyję, Tobie umieram,\nW życiu i śmierci jam na wieki Twój.",
         "numerSAK2020": "",
         "numerDN": "303",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Pogrzeb","Komunia Święta"]
     },
     {
         "tytul": "Usłysz, Jezu, prośby moje",
-        "tekst": "",
+        "tekst": "1. Usłysz, Jezu, prośby moje,\nObróć na mnie oczy Swe.\nNiech dziś święte Ciało Twoje\nWstąpi w słabe serce me.\n\nRef. Przyjdź, mój Jezu, przyjdź,\nPrzyjdź, mój Jezu, przyjdź.\nDo przybytku serca mego,\nPrzyjdź, mój Jezu, przyjdź.\n\n2. Przyjdź, o wieczne pożądanie,\nDo spragnionej duszy mej.\nPrzyjdź, o mój najmilszy Panie,\nI na zawsze mieszkaj w niej. Ref.",
         "numerSAK2020": "",
         "numerDN": "304",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Eucharystyczne",
+        "kategoriaSkr": "Euch.",
+        "tagi": ["Komunia Święta"]
     },
     {
         "tytul": "Błogosław, duszo moja, Pana",
-        "tekst": "",
+        "tekst": "Ref. Błogosław, duszo moja, Pana,\nI wszystko, co we mnie, święte imię Jego.\n\n1. Błogosław, duszo moja, Pana,\nI nie zapominaj o wszystkich Jego dobrodziejstwach.\n\n2. On odpuszcza wszystkie Twe winy,\nOn wszystkie niemoce twe leczy.\n\n3. On ocala od zguby Twe życie.\nOn wieńczy cię łaską i zmiłowaniem.\n\n4. On twe życie nasyca dobrami:\nOdnawia się młodość twoja jak orła.\n\n5. Pan sprawiedliwość wymierza,\nBierze w opiekę wszystkich uciśnionych.\n\n6. Miłosierny jest Pan i łaskawy,\nDo gniewu nieskory i bardzo łagodny.\n\n7. Nie postępuje z nami według naszych grzechów,\nAni według win naszych nam nie odpłaca.\n\n8. Bo jak niebo wznosi się nad ziemią,\nTak możne jest Jego miłosierdzie.\n\n9. Pan w niebie założył swoją stolicę,\nA Jego królowanie rządzi wszechświatem.\n\n10. Błogosławcie Pana, wszyscy Jego aniołowie, +\nPotężni mocą, pełniący Jego rozkazy,\nAbyście Jego słowu byli posłuszni.\n\n11. Błogosławcie Pana, wszystkie Jego zastępy,\nSłudzy Jego, którzy wolę Jego pełnicie.\n\n12. Błogosławcie Pana, wszystkie Jego dzieła, na każdym miejscu Jego panowania:\nBłogosław, duszo moja, Pana.",
         "numerSAK2020": "",
         "numerDN": "307",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Błogosławiony i jedyny Władco",
-        "tekst": "",
+        "tekst": "Błogosławiony i jedyny Władco, * Królu królujących i Panie panujących, * jedyny mający nieśmiertelność, * który zamieszkujesz światłość niedostępną, * którego żaden z ludzi nie widział, ani nie może zobaczyć: * Tobie cześć i moc wiekuista. Amen.",
         "numerSAK2020": "",
         "numerDN": "308",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dzięki, Tobie, Boże",
-        "tekst": "",
+        "tekst": "1. Dzięki, Tobie, Boże, w tej chwili składamy,\nZa wszystko, co z Twojej dobroci dziś mamy.\n\n2. Twojej się opiece nadal polecamy,\nTwoich błogosławieństw szczerze upraszamy.\n\n3. Niechaj łaska Twoja z nami tu przebywa\nI Matka Najświętsza niech nas w pieczy miewa.\n\n4. Byśmy drogą cnoty zawsze tu chodzili,\nA po zgonie Ciebie na wieki chwalili.",
         "numerSAK2020": "",
         "numerDN": "316",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Dziękujmy zawsze za wszystko Bogu Ojcu",
-        "tekst": "",
+        "tekst": "Ref. Dziękujemy zawsze za wszystko Bogu Ojcu,\nW imię Pana naszego Jezusa Chrystusa!\n\n1. Z radością dziękujemy Ojcu,\nktóry nas uzdolnił\ndo uczestnictwa w dziele świętych w światłości.\nOn uwolnił nas spod władzy ciemności\ni przeniósł do Królestwa swego umiłowanego Syna.\n\n2. On jest obrazem Boga Niewidzialnego,\nPierworodnym wobec każdego stworzenia,\nBo w Nim zostało wszystko stworzone\ni to co w niebiosach, i to co na ziemi.\n\n3. Wszystko przez Niego i dla Niego zostało stworzone\nOn jest przed wszystkim i wszystko w Nim ma istnienie.\nI On jest głową Ciała - Kościoła\nOn jest początkiem, Pierworodnym spośród umarłych.\n\n4. Zechciał Bóg, by w Nim zamieszkała cała pełnia\ni aby przez Niego znów pojednać wszystko ze Sobą:\nTo co na ziemi, i to co w niebiosach\nwprowadziwszy pokój przez Krew Jego Krzyża.",
         "numerSAK2020": "",
         "numerDN": "318",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Jak przedziwne imię Pana",
-        "tekst": "",
+        "tekst": "1. Jak przedziwne imię Pana,\nJak wspaniałe Jego dzieła!\nBogu śpiewa niebo całę,\nZiemia sławi Go od rana.\n\nRef. Wielbimy Boga za dobroć Jego,\nSławimy Boga, Ojca naszego.\n\n2. Pan prowadził przez pustynię,\nWspierał w drodze lud wybrany.\nMy jesteśmy też wezwani\nZ Bogiem działać w każdej chwili. Ref.\n\n3. By rozpoznać wolę Pana,\nBy współdziałać w Jego planach,\nSłowa, znakjij są nam dane;\nŚwiatłem, mocą nasza wiara. Ref.",
         "numerSAK2020": "",
         "numerDN": "319",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Nakarmiłeś lud Twój, o Panie",
-        "tekst": "",
+        "tekst": "Ref. Nakarmiłeś lud Twój, o Panie,\nI spragnionym dałeś napój przeobfity.\n\n1. Opowiemy przyszłemu potomstwu\nChwałę Pana i Jego potęgę.\n\n2. Rozdzielił morze, a ich przeprowadził\nI wody ustawiał jak groblę.\n\n3. I wydobył ze skały strumienie,\nI wylał wodę jak rzekę.\n\n4. I spuścił jak deszcz mannę do jedzenie:\nDał im pokarm niebieski.\n\n5. Chwała Ojcu i Synowi,\nI Duchowi Świętemu.\n\n6. Jak była na początku, teraz i zawsze\nI na wieki wieków. Amen.",
         "numerSAK2020": "",
         "numerDN": "322",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Niechaj będzie uwielbiony",
-        "tekst": "",
+        "tekst": "1. Niechaj będzie uwielbiony\nBóg nasz, Pan nad pany,\nbo nawiedził i wyzwolił\nlud Swój, lud wybrany.\n\n2. Bo nas podniósł i moc Jego\nznowu wśród nas widać,\nprzez tych świętych, których znalazł\nz potomstwa Dawida.\n\n3. Według Swojej obietnicy,\nktórą w czasach dawnych,\nogłaszali nam prorocy,\nsłowem Jego sławni.\n\n4. Przyrzekł przez nich, że wybawi nas od nieprzyjaciół, i że żadnej nienawiści nie da nas wytracić.\n\n5. Przyrzekł, że dla naszych ojców\nbędzie miłosierny,\nże Przymierza nie zapomni,\nże nam będzie wierny.\n\n6. Że dotrzyma Swej przysięgi\nwobec Abrahama,\nktóry stał się ojcem wiernych,\ngdy się nie załamał.\n\n7. Przyrzekł, że my dzieci wiary,\nwolni z ręki wrogów,\nniewzruszenie będziem mogli\nsłużyć tylko Bogu.\n\n8. W pobożności wiodąc życie\ni sprawiedliwości,\nprzez dzień każdy, coraz bliżej\nspotkania w wieczności.\n\n9. Tak Cię dzisiaj, dziecię Swoje,\nPan Bóg potrzebuje,\nbyś szedł przed Nim jako prorok,\nco drogę gotuje.\n\n10. I wśród ludu Jego głosił\nnaukę zbawienia,\naby wszyscy dostąpili\ngrzechów przebaczenia.\n\n11. Bo w Swym Sercu się lituje\nPan Bóg Wszechmogący,\ni dlatego wciąż przychodzi\njak Wschodzące Słońce.\n\n12. By rozproszyć grozę śmierci\ntym, co żyją w mroku\ni nawrócić ich na drogę,\nktóra daje pokój.\n\n13. Chwała, cześć i uwielbienie\nw Trójcy Jedynemu,\nBogu Ojcu i Synowi,\nDuchowi Świętemu:\n\n14. Temu, który był w wieczności,\nktóry jest na niebie,\nktóry przyjdzie w końcu czasów,\nby nas wziąć do Siebie.",
         "numerSAK2020": "",
         "numerDN": "323",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Boże, zmiłuj się nad nami",
@@ -9941,7 +9909,7 @@
         "numerSAK": "294",
         "kategoria": "Przygodne",
         "kategoriaSkr": "Przygod.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Niech cały świat z radością sławi Boga",
@@ -9950,9 +9918,9 @@
         "numerDN": "325",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Niech Cię, Boże, wielbią wszystkie ludy",
@@ -9961,9 +9929,9 @@
         "numerDN": "326",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Pan jest wielkim Bogiem",
@@ -9972,9 +9940,9 @@
         "numerDN": "328",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Pieśń wdzięczności śpiewaj Panu",
@@ -9983,9 +9951,9 @@
         "numerDN": "330",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Radośnie Panu hymn śpiewajmy",
@@ -9996,7 +9964,7 @@
         "numerSAK": "308",
         "kategoria": "Uwielbienie",
         "kategoriaSkr": "Uwielb.",
-        "tagi": []
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Wszystko co żyje, niech wielbi Pana",
@@ -10005,9 +9973,9 @@
         "numerDN": "333",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Święty Boże, Święty mocny",
@@ -12948,18 +12916,18 @@
     },
     {
         "tytul": "O dobry Jezu, Ty chcesz",
-        "tekst": "",
+        "tekst": " 1. O dobry Jezu, Ty chcesz, aby ludzie\nWłasnością Ojca na wieki się stali,\nA Duch Najświętszy różnymi drogami\nWiedzie ku Niemu.\n\n2. Zrodzonych z Boga przez krew Twoją świętą\nUmacniasz łaską i nowym natchnieniem,\nA dar miłości rozbudza w nich ziarno\nŻycia dla Ciebie.\n\n3. Ty sam ich wzywasz, a oni z radością\nRzucając wszystko, zdążają za Tobą,\nNa ścieżce krzyża szukając wytrwale\nOjca samego.\n\n4. Ich mężne serce przylgnęło do Ciebie\nI doskonale spełnili Twą wolę,\nA Ty im dałeś za wierność niezłomną\nWieczną nagrodę.\n\n5. Wielbimy Ciebie, o Chryste, nasz Panie,\nI Twego Ojca, i Ducha Świętego,\nBo za niewiele, co składa Ci człowiek,\nPłacisz stokrotnie. Amen.",
         "numerSAK2020": "",
         "numerDN": "972",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Liturgia Godzin",
+        "kategoriaSkr": "LG",
+        "tagi": ["Hymn brewiarzowy","Święci"]
     },
     {
         "tytul": "Królu mocy niezmierzonej",
-        "tekst": "",
+        "tekst": "1. Królu mocy niezmierzonej,\nChryste, Ty dla Ojca chwały\nI naszego wywyższenia\nPołamałeś śmierci strzały.\n\n2. W słabość zbrojny miast oręża\nTy na bój podążasz srogi\nŚmiercią swoją śmierć zwyciężasz,\nKtórą walczył wąż złowrogi.\n\n3. Z grobu wstając pełen mocy,\nStale życie w nas odnawiasz\nW tajemnicy Wielkanocy,\nGdy nas grzech o śmierć przyprawia.\n\n4. Daj nam życie swojej łaski,\nByś gotowych znalazł w niebie,\nKiedy strojnej lampy blaskiem\nTam będziemy witać Ciebie.\n\n5. Sędzio pełen łagodoności,\nPrzyjm do światła i pokoju\nTych, co wiary i miłości\nWęzeł z Trójcą Świętą spoił. Amen.",
         "numerSAK2020": "",
         "numerDN": "974",
         "numerSiedl": "",
@@ -16061,14 +16029,14 @@
     },
     {
         "tytul": "Błogosławcie Pana, wszystkie dzieła Pańskie",
-        "tekst": "",
+        "tekst": "Ref.: Błogosławcie Pana wszystkie dzieła Pańskie. Alleluja, Alleluja!\n\n1. Błogosławiony jesteś Panie, Boże ojców naszych, Alleluja!\nPełen chwały i wywyższony na wieki, Alleluja!\n\n2. Błogosławione jest Imię Twoje, pełne chwały i świętości, Alleluja!\nUwielbione i wywyższone na wieki, Alleluja!\n\n3. Błogosławiony jesteś w przybytku swojej świętej chwały, Alleluja!\nUwielbiony i przesławny na wieki, Alleluja!\n\n4. Błogosławiony jesteś na tronie swojego królestwa, Alleluja!\nUwielbiony i przesławny na wieki, Alleluja!\n\n5. Błogosławiony jesteś Ty, co spoglądasz w otchłanie, który zasiadasz na Cherubach, Alleluja!\nPełen chwały i wywyższony na wieki, Alleluja!\n\n6. Błogosławiony jesteś na sklepieniu nieba, Alleluja!\nPełen chwały i wywyższony na wieki, Alleluja!\n\n7. Błogosławcie Pana wszystkie dzieła Pańskie, Alleluja!\nChwalcie Go i wywyższajcie na wieki, Alleluja!\n\n8. Chwała Ojcu, i Synowi, i Duchowi Świętemu, Alleluja!\nJak była na początku, teraz i zawsze, i na wieki wieków. Amen! Alleluja!",
         "numerSAK2020": "",
-        "numerDN": "2.7",
+        "numerDN": "306",
         "numerSiedl": "",
         "numerSAK": "",
-        "kategoria": "",
-        "kategoriaSkr": "",
-        "tagi": []
+        "kategoria": "Uwielbienie",
+        "kategoriaSkr": "Uwielb.",
+        "tagi": ["Dziękczynienie"]
     },
     {
         "tytul": "Błogosławiona jesteś między niewiastami",
