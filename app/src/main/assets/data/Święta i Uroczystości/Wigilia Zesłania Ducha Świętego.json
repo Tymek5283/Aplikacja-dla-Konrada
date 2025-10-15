@@ -150,5 +150,37 @@
       "moment": "ogolne"
     }
   ],
-  "wstawki": {}
+  "wstawki": {},
+  "formularz": [
+    {
+      "tytul": "Antyfona na wejście",
+      "sigla": "por. Rz 5, 5; 8, 11",
+      "tekst": "Miłość Boża rozlana jest w naszych sercach * przez Ducha Świętego, który w nas mieszka. * Alleluja."
+    },
+    {
+      "tytul": "Kolekta",
+      "sigla": "",
+      "tekst": "Wszechmogący, wieczny Boże, Ty chciałeś, aby obchód świąt paschalnych objął okres Pięćdziesiątnicy, + spraw, niech Duch Święty zjednoczy rozdzielone narody, * aby każdy w swoim języku oddawał Ci chwałę. Przez naszego Pana Jezusa Chrystusa, Twojego Syna, + który z Tobą żyje i króluje w jedności Ducha Świętego, * Bóg, przez wszystkie wieki wieków."
+    },
+    {
+      "tytul": "Kolekta 2",
+      "sigla": "",
+      "tekst": "Wszechmogący Boże, spraw, niech zajaśnieje nad nami blask Twojej chwały, * a Chrystus, Światłość ze Światłości, niech umocni darem Ducha Świętego serca odrodzonych dzięki Twojej łasce. Przez naszego Pana Jezusa Chrystusa, Twojego Syna, + który z Tobą żyje i króluje w jedności Ducha Świętego, * Bóg, przez wszystkie wieki wieków."
+    },
+    {
+      "tytul": "Modlitwa nad darami",
+      "sigla": "",
+      "tekst": "Panie, nasz Boże, niech błogosławieństwo Ducha Świętego zstąpi na te dary + i wzbudzi w Twoim Kościele taką miłość, * aby wśród świata stawał się prawdziwym znakiem zbawienia. Przez Chrystusa, Pana naszego."
+    },
+    {
+      "tytul": "Antyfona na Komunię",
+      "sigla": "J 7, 37",
+      "tekst": "W ostatnim dniu święta, * Jezus stojąc zawołał donośnym głosem: * Jeśli ktoś jest spragniony, a wierzy we Mnie, * niech przyjdzie do Mnie i pije. * Alleluja."
+    },
+    {
+      "tytul": "Modlitwa po Komunii",
+      "sigla": "",
+      "tekst": "Boże, nasz Ojcze, niech przyjęty Sakrament nas uświęci + i da nam gorliwość płynącą od Ducha Świętego, * którym w cudowny sposób napełniłeś swoich Apostołów. Przez Chrystusa, Pana naszego."
+    }
+  ]
 }
