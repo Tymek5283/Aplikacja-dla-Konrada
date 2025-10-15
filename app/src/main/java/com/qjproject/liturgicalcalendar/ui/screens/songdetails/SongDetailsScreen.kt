@@ -138,10 +138,23 @@ fun SongDetailsScreen(
                             .padding(16.dp),
                         horizontalAlignment = Alignment.Start
                     ) {
-                        InfoRow(label = "ŚAK 2020:", value = song.numerSAK2020.ifBlank { "-" })
-                        InfoRow(label = "DN:", value = song.numerDN.ifBlank { "-" })
-                        InfoRow(label = "Siedlecki:", value = song.numerSiedl.ifBlank { "-" })
-                        InfoRow(label = "ŚAK:", value = song.numerSAK.ifBlank { "-" })
+                        // Dynamiczne wyświetlanie numerów: rdzeniowe w ustalonej kolejności, potem pozostałe
+                        val core = linkedMapOf(
+                            "Siedl" to song.numerSiedl,
+                            "SAK" to song.numerSAK,
+                            "DN" to song.numerDN,
+                            "SAK2020" to song.numerSAK2020
+                        )
+                        core.forEach { (suffix, value) ->
+                            InfoRow(label = "$suffix:", value = value)
+                        }
+                        val extras = song.numery
+                            .filterKeys { it !in core.keys }
+                            .toSortedMap()
+                        extras.forEach { (suffix, value) ->
+                            InfoRow(label = "$suffix:", value = value)
+                        }
+
                         InfoRow(label = "Kategoria:", value = song.kategoria)
 
                         // Sekcja tagów

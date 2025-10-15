@@ -48,9 +48,10 @@ fun SearchScreen(
             error = uiState.addSongError,
             initialCategoryName = uiState.selectedCategory?.nazwa,
             preselectedTag = uiState.selectedTag,
+            suffixes = viewModel.getAllNumberSuffixes(),
             onDismiss = { viewModel.onDismissAddSongDialog() },
-            onConfirm = { title, siedl, sak, dn, sak2020, text, category ->
-                viewModel.saveNewSong(title, siedl, sak, dn, sak2020, text, category, uiState.selectedTag)
+            onConfirm = { title, siedl, sak, dn, sak2020, extras, text, category ->
+                viewModel.saveNewSong(title, siedl, sak, dn, sak2020, extras, text, category, uiState.selectedTag)
             },
             onValidate = { title, siedl, sak, dn, sak2020 ->
                 viewModel.validateSongInput(title, siedl, sak, dn, sak2020)

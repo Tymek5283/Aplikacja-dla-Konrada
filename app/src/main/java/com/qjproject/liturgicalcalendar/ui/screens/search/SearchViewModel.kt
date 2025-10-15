@@ -251,6 +251,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _uiState.update { it.copy(songResults = sortSongs(it.songResults)) }
     }
 
+    fun getAllNumberSuffixes(): List<String> {
+        val core = listOf("Siedl", "SAK", "DN", "SAK2020")
+        val songs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+        val extras = songs.flatMap { it.numery.keys }.toSet().minus(core.toSet()).toList().sorted()
+        return core + extras
+    }
+
     fun onAddSongClicked() {
         viewModelScope.launch {
             repository.invalidateSongCache()
@@ -295,7 +302,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         _uiState.update { it.copy(addSongError = null) }
     }
 
-    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, sak2020: String, text: String, categoryName: String, preselectedTag: String? = null) {
+    fun saveNewSong(title: String, siedl: String, sak: String, dn: String, sak2020: String, extras: Map<String, String>, text: String, categoryName: String, preselectedTag: String? = null) {
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
         val trimmedSak = sak.trim()
@@ -314,6 +321,12 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             val songs = (allSongsCache ?: repository.getSongList()).toMutableList()
             val selectedCategory = _uiState.value.allCategories.find { it.nazwa == categoryName }
 
+            val coreSuffixes = setOf("Siedl", "SAK", "DN", "SAK2020")
+            val extraMap = extras
+                .filterKeys { it !in coreSuffixes }
+                .mapValues { it.value.trim() }
+                .filterValues { true }
+
             val newSong = Song(
                 tytul = trimmedTitle,
                 tekst = trimmedText.ifBlank { null },
@@ -323,7 +336,8 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 numerSAK2020 = trimmedSak2020,
                 kategoria = selectedCategory?.nazwa ?: "",
                 kategoriaSkr = selectedCategory?.skrot ?: "",
-                tagi = if (preselectedTag != null) listOf(preselectedTag) else emptyList()
+                tagi = if (preselectedTag != null) listOf(preselectedTag) else emptyList(),
+                numery = extraMap
             )
             songs.add(newSong)
 
@@ -368,52 +382,47 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         }
     }
 
-    /**
-     * Filtruje pieśni z priorytetem dla dokładnych dopasowań numerycznych
-     * Implementuje specjalną logikę dla zapytań składających się wyłącznie z cyfr
-     */
     private fun filterSongsWithNumberPriority(
-        songs: List<Song>, 
-        originalQuery: String, 
+        songs: List<Song>,
+        originalQuery: String,
         normalizedQuery: String
     ): List<Song> {
         val trimmedQuery = originalQuery.trim()
         val isNumericQuery = trimmedQuery.isNotEmpty() && trimmedQuery.all { it.isDigit() }
-        
+
         if (isNumericQuery) {
-            // Tryb wyszukiwania numerycznego - przeszukujemy TYLKO pola z przedrostkiem "numer"
-            // Ignorujemy tytuł i tekst pieśni
-            
-            // Grupa 1: Dokładne dopasowania numerów (najwyższy priorytet)
-            val exactMatches = songs.filter { song ->
-                song.numerSAK2020 == trimmedQuery ||
-                song.numerDN == trimmedQuery ||
-                song.numerSiedl == trimmedQuery || 
-                song.numerSAK == trimmedQuery
-            }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
-            
-            // Grupa 2: Częściowe dopasowania numerów (niższy priorytet)
-            val partialMatches = songs.filter { song ->
-                // Sprawdzamy czy liczba jest częścią składową, ale nie jest identyczna
-                (song.numerSAK2020.contains(trimmedQuery) && song.numerSAK2020 != trimmedQuery) ||
-                (song.numerDN.contains(trimmedQuery) && song.numerDN != trimmedQuery) ||
-                (song.numerSiedl.contains(trimmedQuery) && song.numerSiedl != trimmedQuery) ||
-                (song.numerSAK.contains(trimmedQuery) && song.numerSAK != trimmedQuery)
-            }.sortedBy { it.tytul } // Sortowanie alfabetyczne w grupie
-            
-            // Zwracamy tylko wyniki numeryczne - NIE uwzględniamy tytułu ani tekstu
+            fun allNumbersOf(song: Song): List<String> = buildList {
+                add(song.numerSAK2020)
+                add(song.numerDN)
+                add(song.numerSiedl)
+                add(song.numerSAK)
+                addAll(song.numery.values)
+            }
+
+            val exactMatches = songs
+                .filter { song -> allNumbersOf(song).any { it == trimmedQuery } }
+                .sortedBy { it.tytul }
+
+            val partialMatches = songs
+                .filter { song ->
+                    val numbers = allNumbersOf(song)
+                    numbers.any { it.contains(trimmedQuery) && it != trimmedQuery }
+                }
+                .sortedBy { it.tytul }
+
             return exactMatches + partialMatches
-            
         } else {
-            // Standardowe wyszukiwanie dla zapytań nienumerycznych
             return songs.filter { song ->
                 val matchesTitle = _uiState.value.searchInTitle && normalize(song.tytul).contains(normalizedQuery)
                 val matchesContent = _uiState.value.searchInContent && normalize(song.tekst ?: "").contains(normalizedQuery)
                 val matchesTag = song.tagi.any { normalize(it).contains(normalizedQuery) }
-                val matchesNumbers = song.numerSAK2020.contains(originalQuery, ignoreCase = true) ||
-                                  song.numerDN.contains(originalQuery, ignoreCase = true) ||
-                                  song.numerSiedl.contains(originalQuery, ignoreCase = true) ||
-                                  song.numerSAK.contains(originalQuery, ignoreCase = true)
+                val matchesNumbers = buildList {
+                    add(song.numerSAK2020)
+                    add(song.numerDN)
+                    add(song.numerSiedl)
+                    add(song.numerSAK)
+                    addAll(song.numery.values)
+                }.any { it.contains(originalQuery, ignoreCase = true) }
                 matchesTitle || matchesContent || matchesTag || matchesNumbers
             }
         }

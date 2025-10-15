@@ -98,25 +98,17 @@ fun SongContentScreen(
                             label = { Text("Tytuł") },
                             modifier = Modifier.fillMaxWidth()
                         )
-                        OutlinedTextField(
-                            value = viewModel.editableNumerSiedl.value,
-                            onValueChange = { viewModel.onEditableFieldChange(siedl = it) },
-                            label = { Text("Numer Siedlecki") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        OutlinedTextField(
-                            value = viewModel.editableNumerSak.value,
-                            onValueChange = { viewModel.onEditableFieldChange(sak = it) },
-                            label = { Text("Numer ŚAK") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        // ZMIANA: Dodano pole do edycji numeru DN
-                        OutlinedTextField(
-                            value = viewModel.editableNumerDn.value,
-                            onValueChange = { viewModel.onEditableFieldChange(dn = it) },
-                            label = { Text("Numer DN") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
+
+                        // Dynamiczne pola dla WSZYSTKICH sufiksów numerów
+                        uiState.allNumberSuffixes.forEach { suffix ->
+                            val value = viewModel.editableNumbers[suffix] ?: ""
+                            OutlinedTextField(
+                                value = value,
+                                onValueChange = { viewModel.onEditableNumberChange(suffix, it) },
+                                label = { Text("Numer $suffix") },
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                        }
 
                         var expanded by remember { mutableStateOf(false) }
                         ExposedDropdownMenuBox(
@@ -169,6 +161,24 @@ fun SongContentScreen(
                             .verticalScroll(rememberScrollState())
                             .padding(PaddingValues(horizontal = 16.dp, vertical = 24.dp))
                     ) {
+                        // Wyświetl WSZYSTKIE sufiksy numerów z myślnikiem dla pustych
+                        val coreMap = mapOf(
+                            "Siedl" to song.numerSiedl,
+                            "SAK" to song.numerSAK,
+                            "DN" to song.numerDN,
+                            "SAK2020" to song.numerSAK2020
+                        )
+                        uiState.allNumberSuffixes.forEach { suffix ->
+                            val value = coreMap[suffix] ?: song.numery[suffix] ?: ""
+                            val display = value.ifBlank { "-" }
+                            Text(
+                                text = "Numer $suffix: $display",
+                                style = MaterialTheme.typography.bodyMedium
+                            )
+                        }
+
+                        Spacer(Modifier.height(16.dp))
+
                         val formattedText = song.tekst
                             ?.replace("*", "\n")
                             ?.replace(Regex("(?<!^)(\\d+\\.)"), "\n\n$1")

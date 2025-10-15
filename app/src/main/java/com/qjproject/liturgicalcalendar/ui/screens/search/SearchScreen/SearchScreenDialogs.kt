@@ -28,6 +28,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -50,22 +51,27 @@ internal fun AddSongDialog(
     error: String?,
     initialCategoryName: String?,
     preselectedTag: String? = null,
+    suffixes: List<String> = listOf("Siedl", "SAK", "DN", "SAK2020"),
     onDismiss: () -> Unit,
-    onConfirm: (title: String, siedl: String, sak: String, dn: String, sak2020: String, text: String, category: String) -> Unit,
+    onConfirm: (title: String, siedl: String, sak: String, dn: String, sak2020: String, extras: Map<String, String>, text: String, category: String) -> Unit,
     onValidate: (title: String, siedl: String, sak: String, dn: String, sak2020: String) -> Unit
 ) {
     var title by remember { mutableStateOf("") }
-    var numerSiedl by remember { mutableStateOf("") }
-    var numerSak by remember { mutableStateOf("") }
-    var numerDn by remember { mutableStateOf("") }
-    var numerSak2020 by remember { mutableStateOf("") }
+    val numberValues = remember { mutableStateMapOf<String, String>() }
+    // Ensure all suffixes exist in state map
+    suffixes.forEach { suf -> if (!numberValues.containsKey(suf)) numberValues[suf] = "" }
+
     var text by remember { mutableStateOf("") }
     var category by remember { mutableStateOf(initialCategoryName ?: "") }
     var isCategoryExpanded by remember { mutableStateOf(false) }
 
+    val siedl by remember { derivedStateOf { numberValues["Siedl"] ?: "" } }
+    val sak by remember { derivedStateOf { numberValues["SAK"] ?: "" } }
+    val dn by remember { derivedStateOf { numberValues["DN"] ?: "" } }
+    val sak2020 by remember { derivedStateOf { numberValues["SAK2020"] ?: "" } }
 
-    LaunchedEffect(title, numerSiedl, numerSak, numerDn, numerSak2020) {
-        onValidate(title, numerSiedl, numerSak, numerDn, numerSak2020)
+    LaunchedEffect(title, siedl, sak, dn, sak2020) {
+        onValidate(title, siedl, sak, dn, sak2020)
     }
 
     Dialog(onDismissRequest = onDismiss) {
@@ -83,7 +89,7 @@ internal fun AddSongDialog(
                     style = MaterialTheme.typography.titleLarge.copy(fontSize = 20.sp),
                     color = SaturatedNavy
                 )
-                
+
                 // Wyświetl informację o preselektowanym tagu
                 if (preselectedTag != null) {
                     Spacer(Modifier.height(8.dp))
@@ -99,7 +105,7 @@ internal fun AddSongDialog(
                         color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
                     )
                 }
-                
+
                 Spacer(Modifier.height(16.dp))
                 Divider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.2f))
                 Spacer(Modifier.height(16.dp))
@@ -113,38 +119,19 @@ internal fun AddSongDialog(
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth()
                     )
-                    OutlinedTextField(
-                        value = numerSak2020,
-                        onValueChange = { numerSak2020 = it },
-                        label = { Text("Numer ŚAK 2020") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerDn,
-                        onValueChange = { numerDn = it },
-                        label = { Text("Numer DN") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerSiedl,
-                        onValueChange = { numerSiedl = it },
-                        label = { Text("Numer Siedlecki") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    OutlinedTextField(
-                        value = numerSak,
-                        onValueChange = { numerSak = it },
-                        label = { Text("Numer ŚAK") },
-                        isError = error != null,
-                        singleLine = true,
-                        modifier = Modifier.fillMaxWidth()
-                    )
+                    // Dynamic inputs for all number suffixes
+                    suffixes.forEach { suf ->
+                        val value by remember { derivedStateOf { numberValues[suf] ?: "" } }
+                        OutlinedTextField(
+                            value = value,
+                            onValueChange = { numberValues[suf] = it },
+                            label = { Text("Numer $suf") },
+                            isError = error != null,
+                            singleLine = true,
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                    }
+
                     ExposedDropdownMenuBox(
                         expanded = isCategoryExpanded,
                         onExpandedChange = { isCategoryExpanded = !isCategoryExpanded }
@@ -206,7 +193,13 @@ internal fun AddSongDialog(
                     }
                     Spacer(Modifier.width(8.dp))
                     Button(
-                        onClick = { onConfirm(title, numerSiedl, numerSak, numerDn, numerSak2020, text, category) },
+                        onClick = {
+                            val core = setOf("Siedl", "SAK", "DN", "SAK2020")
+                            val extras = numberValues
+                                .filterKeys { it !in core }
+                                .mapValues { it.value.trim() }
+                            onConfirm(title, siedl, sak, dn, sak2020, extras, text, category)
+                        },
                         enabled = title.isNotBlank() && error == null
                     ) {
                         Text("Zapisz")

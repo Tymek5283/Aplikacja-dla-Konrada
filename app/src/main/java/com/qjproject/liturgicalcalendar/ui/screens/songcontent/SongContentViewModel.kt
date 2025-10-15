@@ -2,6 +2,8 @@ package com.qjproject.liturgicalcalendar.ui.screens.songcontent
 
 import android.content.Context
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableStateMapOf
+
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -22,7 +24,8 @@ data class SongContentUiState(
     val isEditMode: Boolean = false,
     val hasChanges: Boolean = false,
     val showConfirmExitDialog: Boolean = false,
-    val allCategories: List<Category> = emptyList()
+    val allCategories: List<Category> = emptyList(),
+    val allNumberSuffixes: List<String> = emptyList()
 )
 
 class SongContentViewModel(
@@ -53,6 +56,7 @@ class SongContentViewModel(
         private set
     var editableText = mutableStateOf("")
         private set
+    val editableNumbers = mutableStateMapOf<String, String>()
 
     init {
         loadSong()
@@ -67,10 +71,14 @@ class SongContentViewModel(
             }
             val foundSong = repository.getSong(songTitle, siedlNum, sakNum, dnNum, sak2020Num)
             val categories = repository.getCategoryList()
+            val allSongs = repository.getSongList()
+            val core = listOf("Siedl", "SAK", "DN", "SAK2020")
+            val extras = allSongs.flatMap { it.numery.keys }.toSet().minus(core.toSet()).toList().sorted()
+            val suffixes = core + extras
             if (foundSong != null) {
-                _uiState.update { it.copy(isLoading = false, song = foundSong, allCategories = categories) }
+                _uiState.update { it.copy(isLoading = false, song = foundSong, allCategories = categories, allNumberSuffixes = suffixes) }
             } else {
-                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o tytule: $songTitle", allCategories = categories) }
+                _uiState.update { it.copy(isLoading = false, error = "Nie znaleziono pieśni o tytule: $songTitle", allCategories = categories, allNumberSuffixes = suffixes) }
             }
         }
     }
@@ -84,6 +92,19 @@ class SongContentViewModel(
             editableNumerSak2020.value = song.numerSAK2020
             editableCategory.value = song.kategoria
             editableText.value = song.tekst ?: ""
+            editableNumbers.clear()
+            val core = setOf("Siedl", "SAK", "DN", "SAK2020")
+            val suffixes = _uiState.value.allNumberSuffixes
+            suffixes.forEach { suf ->
+                val v = when (suf) {
+                    "Siedl" -> song.numerSiedl
+                    "SAK" -> song.numerSAK
+                    "DN" -> song.numerDN
+                    "SAK2020" -> song.numerSAK2020
+                    else -> song.numery[suf] ?: ""
+                }
+                editableNumbers[suf] = v
+            }
             _uiState.update { it.copy(isEditMode = true, hasChanges = false) }
         }
     }
@@ -104,7 +125,6 @@ class SongContentViewModel(
         _uiState.update { it.copy(showConfirmExitDialog = false) }
     }
 
-
     fun onEditableFieldChange(
         title: String = editableTitle.value,
         siedl: String = editableNumerSiedl.value,
@@ -123,7 +143,7 @@ class SongContentViewModel(
         editableCategory.value = category
         editableText.value = text
 
-        val changed = originalSong?.tytul != title ||
+        val changedCore = originalSong?.tytul != title ||
                 originalSong.numerSiedl != siedl ||
                 originalSong.numerSAK != sak ||
                 originalSong.numerDN != dn ||
@@ -131,7 +151,34 @@ class SongContentViewModel(
                 originalSong.kategoria != category ||
                 originalSong.tekst != text
 
-        _uiState.update { it.copy(hasChanges = changed) }
+        val coreSet = setOf("Siedl", "SAK", "DN", "SAK2020")
+        val editableExtras = editableNumbers
+            .filterKeys { it !in coreSet }
+            .mapValues { it.value.trim() }
+            .filterValues { it.isNotBlank() }
+        val originalExtras = originalSong?.numery?.filterValues { it.isNotBlank() } ?: emptyMap()
+        val changedExtras = editableExtras != originalExtras
+
+        _uiState.update { it.copy(hasChanges = changedCore || changedExtras) }
+    }
+
+    fun onEditableNumberChange(suffix: String, value: String) {
+        editableNumbers[suffix] = value
+        when (suffix) {
+            "Siedl" -> editableNumerSiedl.value = value
+            "SAK" -> editableNumerSak.value = value
+            "DN" -> editableNumerDn.value = value
+            "SAK2020" -> editableNumerSak2020.value = value
+        }
+        onEditableFieldChange(
+            title = editableTitle.value,
+            siedl = editableNumerSiedl.value,
+            sak = editableNumerSak.value,
+            dn = editableNumerDn.value,
+            sak2020 = editableNumerSak2020.value,
+            category = editableCategory.value,
+            text = editableText.value
+        )
     }
 
     fun onSaveChanges() {
@@ -145,15 +192,20 @@ class SongContentViewModel(
                 val selectedCategory = allCategories.find { it.nazwa.equals(editableCategory.value, ignoreCase = true) }
                 val newSkr = selectedCategory?.skrot ?: ""
 
+                val coreSet = setOf("Siedl", "SAK", "DN", "SAK2020")
                 val updatedSong = originalSong.copy(
                     tytul = editableTitle.value.trim(),
                     tekst = editableText.value.trim(),
-                    numerSiedl = editableNumerSiedl.value.trim(),
-                    numerSAK = editableNumerSak.value.trim(),
-                    numerDN = editableNumerDn.value.trim(),
-                    numerSAK2020 = editableNumerSak2020.value.trim(),
+                    numerSiedl = (editableNumbers["Siedl"] ?: editableNumerSiedl.value).trim(),
+                    numerSAK = (editableNumbers["SAK"] ?: editableNumerSak.value).trim(),
+                    numerDN = (editableNumbers["DN"] ?: editableNumerDn.value).trim(),
+                    numerSAK2020 = (editableNumbers["SAK2020"] ?: editableNumerSak2020.value).trim(),
                     kategoria = editableCategory.value,
-                    kategoriaSkr = newSkr
+                    kategoriaSkr = newSkr,
+                    numery = editableNumbers
+                        .filterKeys { it !in coreSet }
+                        .mapValues { it.value.trim() }
+                        .filterValues { it.isNotBlank() }
                 )
                 allSongs[songIndex] = updatedSong
                 repository.saveSongList(allSongs).onSuccess {

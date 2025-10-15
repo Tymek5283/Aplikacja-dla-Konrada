@@ -1,6 +1,7 @@
 package com.qjproject.liturgicalcalendar.data
 
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.Transient
 
 @Serializable
 data class Song(
@@ -12,5 +13,6 @@ data class Song(
     val numerSAK2020: String = "",
     val kategoria: String,
     val kategoriaSkr: String,
-    val tagi: List<String> = emptyList()
+    val tagi: List<String> = emptyList(),
+    @Transient val numery: Map<String, String> = emptyMap()
 )

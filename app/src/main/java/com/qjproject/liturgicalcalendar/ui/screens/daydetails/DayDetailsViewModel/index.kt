@@ -410,12 +410,19 @@ class DayDetailsViewModel(
     }
 
     fun formatSongSuggestion(song: Song): String {
-        val numberInfo = buildList {
-            if (song.numerSAK2020.isNotBlank()) add("ŚAK 2020: ${song.numerSAK2020}")
-            if (song.numerDN.isNotBlank()) add("DN: ${song.numerDN}")
-            if (song.numerSiedl.isNotBlank()) add("Siedl: ${song.numerSiedl}")
-            if (song.numerSAK.isNotBlank()) add("ŚAK: ${song.numerSAK}")
-        }.joinToString(", ")
+        val core = linkedMapOf(
+            "Siedl" to song.numerSiedl,
+            "SAK" to song.numerSAK,
+            "DN" to song.numerDN,
+            "SAK2020" to song.numerSAK2020
+        )
+        val parts = mutableListOf<String>()
+        core.forEach { (k, v) -> if (v.isNotBlank()) parts.add("$k: $v") }
+        song.numery
+            .filterKeys { it !in core.keys }
+            .toSortedMap()
+            .forEach { (k, v) -> if (v.isNotBlank()) parts.add("$k: $v") }
+        val numberInfo = parts.joinToString(", ")
 
         return if (numberInfo.isNotEmpty()) {
             "${song.tytul} ($numberInfo)"

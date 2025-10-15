@@ -427,11 +427,24 @@ internal fun SongDetailsModal(
                         .verticalScroll(rememberScrollState())
                         .weight(1f, fill = false)
                 ) {
-                    SongNumberInfo("ŚAK 2020:", fullSong.numerSAK2020)
-                    SongNumberInfo("DN:", fullSong.numerDN)
-                    SongNumberInfo("Siedlecki:", fullSong.numerSiedl)
-                    SongNumberInfo("ŚAK:", fullSong.numerSAK)
-                    
+                    // Dynamiczne wyświetlanie wszystkich numerów: najpierw pola rdzeniowe w ustalonej kolejności,
+                    // następnie pozostałe (dynamiczne) posortowane po sufiksie
+                    val coreOrder = linkedMapOf(
+                        "Siedl" to fullSong.numerSiedl,
+                        "SAK" to fullSong.numerSAK,
+                        "DN" to fullSong.numerDN,
+                        "SAK2020" to fullSong.numerSAK2020
+                    )
+                    coreOrder.forEach { (suffix, value) ->
+                        if (value.isNotBlank()) SongNumberInfo("$suffix:", value)
+                    }
+                    val extras = fullSong.numery
+                        .filterKeys { it !in coreOrder.keys }
+                        .toSortedMap()
+                    extras.forEach { (suffix, value) ->
+                        if (value.isNotBlank()) SongNumberInfo("$suffix:", value)
+                    }
+
                     // Wyświetlanie kategorii tylko jeśli istnieje
                     if (fullSong.kategoria.isNotBlank()) {
                         Spacer(Modifier.height(8.dp))
