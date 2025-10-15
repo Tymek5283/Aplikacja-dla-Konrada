@@ -161,24 +161,6 @@ fun SongContentScreen(
                             .verticalScroll(rememberScrollState())
                             .padding(PaddingValues(horizontal = 16.dp, vertical = 24.dp))
                     ) {
-                        // Wyświetl WSZYSTKIE sufiksy numerów z myślnikiem dla pustych
-                        val coreMap = mapOf(
-                            "Siedl" to song.numerSiedl,
-                            "SAK" to song.numerSAK,
-                            "DN" to song.numerDN,
-                            "SAK2020" to song.numerSAK2020
-                        )
-                        uiState.allNumberSuffixes.forEach { suffix ->
-                            val value = coreMap[suffix] ?: song.numery[suffix] ?: ""
-                            val display = value.ifBlank { "-" }
-                            Text(
-                                text = "Numer $suffix: $display",
-                                style = MaterialTheme.typography.bodyMedium
-                            )
-                        }
-
-                        Spacer(Modifier.height(16.dp))
-
                         val formattedText = song.tekst
                             ?.replace("*", "\n")
                             ?.replace(Regex("(?<!^)(\\d+\\.)"), "\n\n$1")

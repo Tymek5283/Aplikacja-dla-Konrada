@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.CircularProgressIndicator
@@ -12,8 +13,11 @@ import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLifecycleOwner
@@ -29,6 +33,8 @@ fun SearchScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val lifecycleOwner = LocalLifecycleOwner.current
+    val rootListState = rememberSaveable(saver = LazyListState.Saver) { LazyListState() }
+    val nestedListState = remember(uiState.selectedCategory, uiState.selectedTag) { LazyListState() }
 
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
@@ -39,6 +45,12 @@ fun SearchScreen(
         lifecycleOwner.lifecycle.addObserver(observer)
         onDispose {
             lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+
+    LaunchedEffect(uiState.resetToTopEventId) {
+        if (uiState.resetToTopEventId > 0) {
+            rootListState.scrollToItem(0)
         }
     }
 
@@ -53,8 +65,8 @@ fun SearchScreen(
             onConfirm = { title, siedl, sak, dn, sak2020, extras, text, category ->
                 viewModel.saveNewSong(title, siedl, sak, dn, sak2020, extras, text, category, uiState.selectedTag)
             },
-            onValidate = { title, siedl, sak, dn, sak2020 ->
-                viewModel.validateSongInput(title, siedl, sak, dn, sak2020)
+            onValidate = { title, siedl, sak, dn, sak2020, extras ->
+                viewModel.validateSongInput(title, siedl, sak, dn, sak2020, extras)
             }
         )
     }
@@ -113,7 +125,8 @@ fun SearchScreen(
                     onNoCategoryClick = { viewModel.onNoCategorySelected() },
                     onSongClick = onNavigateToSong,
                     onSongLongClick = { viewModel.onSongLongPress(it) },
-                    searchQuery = uiState.query
+                    searchQuery = uiState.query,
+                    state = if (uiState.selectedCategory == null && uiState.selectedTag == null) rootListState else nestedListState
                 )
             }
         }

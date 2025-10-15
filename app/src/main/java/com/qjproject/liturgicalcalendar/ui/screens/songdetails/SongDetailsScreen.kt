@@ -139,6 +139,7 @@ fun SongDetailsScreen(
                         horizontalAlignment = Alignment.Start
                     ) {
                         // Dynamiczne wyświetlanie numerów: rdzeniowe w ustalonej kolejności, potem pozostałe
+                        // Wyświetlamy tylko niepuste numery
                         val core = linkedMapOf(
                             "Siedl" to song.numerSiedl,
                             "SAK" to song.numerSAK,
@@ -146,13 +147,17 @@ fun SongDetailsScreen(
                             "SAK2020" to song.numerSAK2020
                         )
                         core.forEach { (suffix, value) ->
-                            InfoRow(label = "$suffix:", value = value)
+                            if (value.isNotBlank()) {
+                                InfoRow(label = "$suffix:", value = value)
+                            }
                         }
                         val extras = song.numery
                             .filterKeys { it !in core.keys }
                             .toSortedMap()
                         extras.forEach { (suffix, value) ->
-                            InfoRow(label = "$suffix:", value = value)
+                            if (value.isNotBlank()) {
+                                InfoRow(label = "$suffix:", value = value)
+                            }
                         }
 
                         InfoRow(label = "Kategoria:", value = song.kategoria)

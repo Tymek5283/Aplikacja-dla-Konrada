@@ -6,6 +6,7 @@ import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Category
 import androidx.compose.material.icons.filled.Clear
@@ -109,9 +110,11 @@ fun SearchResultsContent(
     onNoCategoryClick: () -> Unit,
     onSongClick: (Song) -> Unit,
     onSongLongClick: (Song) -> Unit,
-    searchQuery: String = ""
+    searchQuery: String = "",
+    state: LazyListState
 ) {
     LazyColumn(
+        state = state,
         contentPadding = PaddingValues(
             start = 8.dp,
             end = 8.dp,

@@ -54,7 +54,7 @@ internal fun AddSongDialog(
     suffixes: List<String> = listOf("Siedl", "SAK", "DN", "SAK2020"),
     onDismiss: () -> Unit,
     onConfirm: (title: String, siedl: String, sak: String, dn: String, sak2020: String, extras: Map<String, String>, text: String, category: String) -> Unit,
-    onValidate: (title: String, siedl: String, sak: String, dn: String, sak2020: String) -> Unit
+    onValidate: (title: String, siedl: String, sak: String, dn: String, sak2020: String, extras: Map<String, String>) -> Unit
 ) {
     var title by remember { mutableStateOf("") }
     val numberValues = remember { mutableStateMapOf<String, String>() }
@@ -70,8 +70,13 @@ internal fun AddSongDialog(
     val dn by remember { derivedStateOf { numberValues["DN"] ?: "" } }
     val sak2020 by remember { derivedStateOf { numberValues["SAK2020"] ?: "" } }
 
-    LaunchedEffect(title, siedl, sak, dn, sak2020) {
-        onValidate(title, siedl, sak, dn, sak2020)
+    // Walidacja przy każdej zmianie wartości
+    LaunchedEffect(title, numberValues.size, numberValues.values.hashCode()) {
+        val core = setOf("Siedl", "SAK", "DN", "SAK2020")
+        val extras = numberValues
+            .filterKeys { it !in core }
+            .mapValues { it.value.trim() }
+        onValidate(title, siedl, sak, dn, sak2020, extras)
     }
 
     Dialog(onDismissRequest = onDismiss) {

@@ -40,7 +40,8 @@ data class SearchUiState(
     val allCategories: List<Category> = emptyList(),
     val allTags: List<String> = emptyList(),
     val selectedCategory: Category? = null,
-    val selectedTag: String? = null
+    val selectedTag: String? = null,
+    val resetToTopEventId: Int = 0
 ) {
     val isBackButtonVisible: Boolean get() = selectedCategory != null || selectedTag != null
 }
@@ -196,7 +197,8 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onResetToRoot() {
-        onNavigateBack()
+        _uiState.update { it.copy(selectedCategory = null, selectedTag = null, query = "", resetToTopEventId = it.resetToTopEventId + 1) }
+        performSearch()
     }
 
     private fun sortSongs(songs: List<Song>): List<Song> {
@@ -210,6 +212,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     /**
      * Sortuje pieśni z zachowaniem priorytetu numerycznego dla zapytań składających się z cyfr
+     * lub priorytetyzacją według pozycji frazy dla zapytań tekstowych
      */
     private fun sortSongsWithNumericPriority(songs: List<Song>, query: String): List<Song> {
         val trimmedQuery = query.trim()
@@ -221,8 +224,39 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             // 1. Dokładne dopasowania (posortowane alfabetycznie)
             // 2. Częściowe dopasowania (posortowane alfabetycznie)
             songs
+        } else if (trimmedQuery.isNotEmpty()) {
+            // Dla zapytań nienumerycznych priorytetyzujemy według pozycji frazy
+            val normalizedQuery = normalize(trimmedQuery)
+            
+            songs.sortedWith(compareBy<Song> { song ->
+                // Znajdź najwcześniejszą pozycję frazy w tytule lub treści
+                var minIndex = Int.MAX_VALUE
+                
+                // Sprawdź tytuł jeśli wyszukiwanie w tytule jest włączone
+                if (_uiState.value.searchInTitle) {
+                    val normalizedTitle = normalize(song.tytul)
+                    val titleIndex = normalizedTitle.indexOf(normalizedQuery)
+                    if (titleIndex >= 0 && titleIndex < minIndex) {
+                        minIndex = titleIndex
+                    }
+                }
+                
+                // Sprawdź treść jeśli wyszukiwanie w treści jest włączone
+                if (_uiState.value.searchInContent && song.tekst != null) {
+                    val normalizedContent = normalize(song.tekst)
+                    val contentIndex = normalizedContent.indexOf(normalizedQuery)
+                    if (contentIndex >= 0 && contentIndex < minIndex) {
+                        minIndex = contentIndex
+                    }
+                }
+                
+                minIndex
+            }.thenBy { song ->
+                // Przy tym samym indeksie sortujemy alfabetycznie
+                song.tytul
+            })
         } else {
-            // Dla zapytań nienumerycznych stosujemy standardowe sortowanie
+            // Dla pustego zapytania stosujemy standardowe sortowanie
             sortSongs(songs)
         }
     }
@@ -271,7 +305,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         allSongsCache = null
     }
 
-    fun validateSongInput(title: String, siedl: String, sak: String, dn: String, sak2020: String) {
+    fun validateSongInput(title: String, siedl: String, sak: String, dn: String, sak2020: String, extras: Map<String, String> = emptyMap()) {
         val songs = allSongsCache ?: return
         val trimmedTitle = title.trim()
         val trimmedSiedl = siedl.trim()
@@ -284,11 +318,11 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
         if (trimmedSiedl.isNotBlank() && songs.any { it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) }) {
-            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (Siedlecki) już istnieje.") }
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (Siedl) już istnieje.") }
             return
         }
         if (trimmedSak.isNotBlank() && songs.any { it.numerSAK.equals(trimmedSak, ignoreCase = true) }) {
-            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK) już istnieje.") }
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (SAK) już istnieje.") }
             return
         }
         if (trimmedDn.isNotBlank() && songs.any { it.numerDN.equals(trimmedDn, ignoreCase = true) }) {
@@ -296,9 +330,25 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             return
         }
         if (trimmedSak2020.isNotBlank() && songs.any { it.numerSAK2020.equals(trimmedSak2020, ignoreCase = true) }) {
-            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (ŚAK 2020) już istnieje.") }
+            _uiState.update { it.copy(addSongError = "Pieśń o tym numerze (SAK2020) już istnieje.") }
             return
         }
+        
+        // Walidacja wszystkich dodatkowych numerów
+        extras.forEach { (suffix, value) ->
+            val trimmedValue = value.trim()
+            if (trimmedValue.isNotBlank()) {
+                val existingSong = songs.find { song ->
+                    val songNumber = song.numery[suffix] ?: ""
+                    songNumber.equals(trimmedValue, ignoreCase = true)
+                }
+                if (existingSong != null) {
+                    _uiState.update { it.copy(addSongError = "Pieśń o tym numerze ($suffix) już istnieje.") }
+                    return
+                }
+            }
+        }
+        
         _uiState.update { it.copy(addSongError = null) }
     }
 
@@ -314,7 +364,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             _uiState.update { it.copy(addSongError = "Tytuł jest wymagany.") }
             return
         }
-        validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn, trimmedSak2020)
+        validateSongInput(trimmedTitle, trimmedSiedl, trimmedSak, trimmedDn, trimmedSak2020, extras)
         if (_uiState.value.addSongError != null) return
 
         viewModelScope.launch {

@@ -345,11 +345,14 @@ class DayDetailsViewModel(
 
             val songMatches = repository.getSongList().filter { it.tytul.equals(trimmedTitle, ignoreCase = true) }
 
-            val perfectMatch = songMatches.find {
-                it.numerSAK2020.equals(trimmedSak2020, ignoreCase = true) &&
-                        it.numerDN.equals(trimmedDn, ignoreCase = true) &&
-                        it.numerSiedl.equals(trimmedSiedl, ignoreCase = true) &&
-                        it.numerSAK.equals(trimmedSak, ignoreCase = true)
+            // Sprawdzamy tylko niepuste numery - muszą pasować do pieśni o tym tytule
+            val perfectMatch = songMatches.find { song ->
+                val sak2020Matches = trimmedSak2020.isBlank() || song.numerSAK2020.equals(trimmedSak2020, ignoreCase = true)
+                val dnMatches = trimmedDn.isBlank() || song.numerDN.equals(trimmedDn, ignoreCase = true)
+                val siedlMatches = trimmedSiedl.isBlank() || song.numerSiedl.equals(trimmedSiedl, ignoreCase = true)
+                val sakMatches = trimmedSak.isBlank() || song.numerSAK.equals(trimmedSak, ignoreCase = true)
+                
+                sak2020Matches && dnMatches && siedlMatches && sakMatches
             }
 
             if (perfectMatch == null) {
@@ -364,8 +367,9 @@ class DayDetailsViewModel(
                 return@launch
             }
 
+            // Użyj numeru Siedl z dopasowanej pieśni, aby mieć pewność że jest poprawny
             val newSuggestedSong = SuggestedSong(
-                numer = trimmedSiedl,
+                numer = perfectMatch.numerSiedl,
                 piesn = trimmedTitle,
                 opis = opis.trim(),
                 moment = moment
@@ -444,5 +448,27 @@ class DayDetailsViewModel(
 
     fun getMomentName(momentKey: String): String {
         return songMomentOrderMap[momentKey] ?: momentKey
+    }
+
+    fun getAllNumberSuffixes(): List<String> {
+        val core = listOf("Siedl", "SAK", "DN", "SAK2020")
+        val songs = repository.getSongList()
+        val extras = songs.flatMap { it.numery.keys }.toSet().minus(core.toSet()).toList().sorted()
+        return core + extras
+    }
+
+    fun searchSongsByNumber(suffix: String, value: String): List<Song> {
+        if (value.isBlank()) return emptyList()
+        
+        return repository.getSongList().filter { song ->
+            val numberValue = when(suffix) {
+                "Siedl" -> song.numerSiedl
+                "SAK" -> song.numerSAK
+                "DN" -> song.numerDN
+                "SAK2020" -> song.numerSAK2020
+                else -> song.numery[suffix] ?: ""
+            }
+            numberValue.startsWith(value, ignoreCase = true)
+        }.take(10)
     }
 }

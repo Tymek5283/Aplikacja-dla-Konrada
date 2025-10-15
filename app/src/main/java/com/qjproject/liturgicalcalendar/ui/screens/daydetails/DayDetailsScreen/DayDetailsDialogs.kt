@@ -168,25 +168,38 @@ internal fun AddEditSongDialog(
 ) {
     var piesn by remember { mutableStateOf(existingSong?.piesn ?: "") }
     var opis by remember { mutableStateOf(existingSong?.opis ?: "") }
-    var numerSak2020 by remember { mutableStateOf("") }
-    var numerDn by remember { mutableStateOf("") }
-    var numerSiedl by remember { mutableStateOf(existingSong?.numer ?: "") }
-    var numerSak by remember { mutableStateOf("") }
+    
+    // Pobierz wszystkie sufiksy numerów dynamicznie
+    val allNumberSuffixes = remember { viewModel.getAllNumberSuffixes() }
+    
+    // Mapa przechowująca wartości wszystkich numerów
+    val editableNumbers = remember {
+        mutableStateMapOf<String, String>().apply {
+            allNumberSuffixes.forEach { suffix ->
+                put(suffix, if (suffix == "Siedl") existingSong?.numer ?: "" else "")
+            }
+        }
+    }
+    
     val isPiesnValid by remember { derivedStateOf { piesn.isNotBlank() } }
 
     val titleSearchResults by viewModel.songTitleSearchResults.collectAsState()
-    val siedlSearchResults by viewModel.siedlSearchResults.collectAsState()
-    val sakSearchResults by viewModel.sakSearchResults.collectAsState()
-    val dnSearchResults by viewModel.dnSearchResults.collectAsState()
+    // Mapowanie wyników wyszukiwania dla każdego numeru
+    val numberSearchResults = remember { mutableStateMapOf<String, List<Song>>() }
     val focusRequester = remember { FocusRequester() }
 
     LaunchedEffect(existingSong) {
         if (existingSong != null) {
             viewModel.getFullSong(existingSong) { fullSong ->
                 if (fullSong != null) {
-                    numerSak2020 = fullSong.numerSAK2020
-                    numerDn = fullSong.numerDN
-                    numerSak = fullSong.numerSAK
+                    // Uzupełnij wszystkie numery z pełnej pieśni
+                    editableNumbers["Siedl"] = fullSong.numerSiedl
+                    editableNumbers["SAK"] = fullSong.numerSAK
+                    editableNumbers["DN"] = fullSong.numerDN
+                    editableNumbers["SAK2020"] = fullSong.numerSAK2020
+                    fullSong.numery.forEach { (suffix, value) ->
+                        editableNumbers[suffix] = value
+                    }
                 }
             }
         }
@@ -218,11 +231,16 @@ internal fun AddEditSongDialog(
 
                 val onSuggestionClick: (Song) -> Unit = { song ->
                     piesn = song.tytul
-                    numerSak2020 = song.numerSAK2020
-                    numerDn = song.numerDN
-                    numerSiedl = song.numerSiedl
-                    numerSak = song.numerSAK
+                    // Uzupełnij wszystkie numery z wybranej pieśni
+                    editableNumbers["Siedl"] = song.numerSiedl
+                    editableNumbers["SAK"] = song.numerSAK
+                    editableNumbers["DN"] = song.numerDN
+                    editableNumbers["SAK2020"] = song.numerSAK2020
+                    song.numery.forEach { (suffix, value) ->
+                        editableNumbers[suffix] = value
+                    }
                     viewModel.clearAllSearchResults()
+                    numberSearchResults.clear()
                     
                     // Walidacja danych po automatycznym uzupełnieniu
                     if (piesn.isBlank()) {
@@ -230,7 +248,12 @@ internal fun AddEditSongDialog(
                     }
                 }
 
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Column(
+                    modifier = Modifier
+                        .heightIn(max = 400.dp)
+                        .verticalScroll(rememberScrollState()),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
                     Column {
                         OutlinedTextField(
                             value = piesn,
@@ -251,62 +274,30 @@ internal fun AddEditSongDialog(
                         )
                     }
 
-                    OutlinedTextField(
-                        value = numerSak2020,
-                        onValueChange = { numerSak2020 = it },
-                        label = { Text("Numer ŚAK 2020") },
-                        modifier = Modifier.fillMaxWidth()
-                    )
-
-                    Column {
-                        OutlinedTextField(
-                            value = numerDn,
-                            onValueChange = {
-                                numerDn = it
-                                viewModel.searchSongsByDn(it)
-                            },
-                            label = { Text("Numer DN") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        SearchSuggestionList(
-                            results = dnSearchResults,
-                            onSuggestionClick = onSuggestionClick,
-                            viewModel = viewModel
-                        )
-                    }
-
-                    Column {
-                        OutlinedTextField(
-                            value = numerSiedl,
-                            onValueChange = {
-                                numerSiedl = it
-                                viewModel.searchSongsBySiedl(it)
-                            },
-                            label = { Text("Numer Siedlecki") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        SearchSuggestionList(
-                            results = siedlSearchResults,
-                            onSuggestionClick = onSuggestionClick,
-                            viewModel = viewModel
-                        )
-                    }
-
-                    Column {
-                        OutlinedTextField(
-                            value = numerSak,
-                            onValueChange = {
-                                numerSak = it
-                                viewModel.searchSongsBySak(it)
-                            },
-                            label = { Text("Numer ŚAK") },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        SearchSuggestionList(
-                            results = sakSearchResults,
-                            onSuggestionClick = onSuggestionClick,
-                            viewModel = viewModel
-                        )
+                    // Dynamicznie generowane pola dla wszystkich numerów
+                    allNumberSuffixes.forEach { suffix ->
+                        Column {
+                            OutlinedTextField(
+                                value = editableNumbers[suffix] ?: "",
+                                onValueChange = { newValue ->
+                                    editableNumbers[suffix] = newValue
+                                    // Wyszukiwanie po numerze
+                                    if (newValue.isNotBlank()) {
+                                        val results = viewModel.searchSongsByNumber(suffix, newValue)
+                                        numberSearchResults[suffix] = results
+                                    } else {
+                                        numberSearchResults[suffix] = emptyList()
+                                    }
+                                },
+                                label = { Text("Numer $suffix") },
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                            SearchSuggestionList(
+                                results = numberSearchResults[suffix] ?: emptyList(),
+                                onSuggestionClick = onSuggestionClick,
+                                viewModel = viewModel
+                            )
+                        }
                     }
                 }
 
@@ -331,7 +322,17 @@ internal fun AddEditSongDialog(
                     Spacer(Modifier.width(8.dp))
                     Button(
                         onClick = {
-                            onConfirm(piesn, numerSak2020, numerDn, numerSiedl, numerSak, opis, moment, existingSong)
+                            // Przekaż wartości dla 4 podstawowych numerów
+                            onConfirm(
+                                piesn,
+                                editableNumbers["SAK2020"] ?: "",
+                                editableNumbers["DN"] ?: "",
+                                editableNumbers["Siedl"] ?: "",
+                                editableNumbers["SAK"] ?: "",
+                                opis,
+                                moment,
+                                existingSong
+                            )
                         },
                         enabled = isPiesnValid
                     ) { Text("Zapisz") }
