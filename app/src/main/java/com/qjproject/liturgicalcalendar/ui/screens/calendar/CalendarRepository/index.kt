@@ -144,6 +144,10 @@ class CalendarRepository(context: Context) {
         return LiturgicalRules.getDominantEvent(events)
     }
 
+    fun getDominantEventForColor(events: List<LiturgicalEventDetails>): LiturgicalEventDetails? {
+        return LiturgicalRules.getDominantEventForColor(events)
+    }
+
     fun getLiturgicalYearInfo(yearData: LiturgicalYear?, date: LocalDate): LiturgicalYearDisplayInfo {
         if (yearData == null) {
             return LiturgicalYearDisplayInfo("Rok liturgiczny: Brak danych", null)

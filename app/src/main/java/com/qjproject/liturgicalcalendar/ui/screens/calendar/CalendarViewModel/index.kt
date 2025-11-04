@@ -162,14 +162,14 @@ class CalendarViewModel(
         for (day in 1..daysInMonthCount) {
             val date = yearMonth.atDay(day)
             val eventsForDay = liturgicalYearData?.eventsForDate(date) ?: emptyList()
-            val dominantEvent = calendarRepo.getDominantEvent(eventsForDay)
+            val dominantEventForColor = calendarRepo.getDominantEventForColor(eventsForDay)
 
             calendarDays.add(
                 CalendarDay(
                     dayOfMonth = day,
                     isToday = date == today,
                     events = eventsForDay,
-                    dominantEventColorName = dominantEvent?.kolor
+                    dominantEventColorName = dominantEventForColor?.kolor
                 )
             )
         }
