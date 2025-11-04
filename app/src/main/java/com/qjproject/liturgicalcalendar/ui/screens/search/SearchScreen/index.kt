@@ -125,6 +125,9 @@ fun SearchScreen(
                     onNoCategoryClick = { viewModel.onNoCategorySelected() },
                     onSongClick = onNavigateToSong,
                     onSongLongClick = { viewModel.onSongLongPress(it) },
+                    hasMore = uiState.hasMore,
+                    isLoadingMore = uiState.isLoadingMore,
+                    onLoadMore = { viewModel.loadMoreResults() },
                     searchQuery = uiState.query,
                     state = if (uiState.selectedCategory == null && uiState.selectedTag == null) rootListState else nestedListState
                 )

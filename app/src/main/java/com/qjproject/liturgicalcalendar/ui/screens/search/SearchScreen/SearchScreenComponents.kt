@@ -110,6 +110,9 @@ fun SearchResultsContent(
     onNoCategoryClick: () -> Unit,
     onSongClick: (Song) -> Unit,
     onSongLongClick: (Song) -> Unit,
+    hasMore: Boolean,
+    isLoadingMore: Boolean,
+    onLoadMore: () -> Unit,
     searchQuery: String = "",
     state: LazyListState
 ) {
@@ -174,6 +177,36 @@ fun SearchResultsContent(
                     onClick = { onSongClick(song) },
                     onLongClick = { onSongLongClick(song) }
                 )
+            }
+        }
+
+        if (hasMore || isLoadingMore) {
+            item {
+                LoadMoreFooter(
+                    isLoadingMore = isLoadingMore,
+                    onLoadMore = onLoadMore
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun LoadMoreFooter(
+    isLoadingMore: Boolean,
+    onLoadMore: () -> Unit
+) {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        if (isLoadingMore) {
+            CircularProgressIndicator()
+        } else {
+            Button(onClick = onLoadMore) {
+                Text("Załaduj więcej")
             }
         }
     }

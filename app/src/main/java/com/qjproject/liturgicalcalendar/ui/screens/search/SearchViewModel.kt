@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.qjproject.liturgicalcalendar.data.Category
 import com.qjproject.liturgicalcalendar.data.repository.FileSystemRepository.FileSystemRepository
 import com.qjproject.liturgicalcalendar.data.Song
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -15,6 +16,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.util.Locale
 
 enum class SongSortMode { Alfabetycznie, Kategoria }
@@ -41,7 +43,9 @@ data class SearchUiState(
     val allTags: List<String> = emptyList(),
     val selectedCategory: Category? = null,
     val selectedTag: String? = null,
-    val resetToTopEventId: Int = 0
+    val resetToTopEventId: Int = 0,
+    val hasMore: Boolean = false,
+    val isLoadingMore: Boolean = false
 ) {
     val isBackButtonVisible: Boolean get() = selectedCategory != null || selectedTag != null
 }
@@ -54,6 +58,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private val _queryFlow = MutableStateFlow("")
     private var searchJob: Job? = null
     private var allSongsCache: List<Song>? = null
+    private var lastResults: List<Song> = emptyList()
+    private var visibleCount: Int = 0
+    private val pageSize: Int = 25
+    private val nonWordRegex = Regex("[^\\p{L}\\p{N}\\s]")
 
     private val noCategoryFilter = Category("Brak kategorii", "")
 
@@ -76,9 +84,10 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private fun loadInitialData() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
-            val categories = repository.getCategoryList().sortedBy { it.nazwa }
-            val tags = repository.getTagList().sorted()
-            allSongsCache = repository.getSongList()
+            val categories = withContext(Dispatchers.IO) { repository.getCategoryList().sortedBy { it.nazwa } }
+            val tags = withContext(Dispatchers.IO) { repository.getTagList().sorted() }
+            val songs = withContext(Dispatchers.IO) { repository.getSongList() }
+            allSongsCache = songs
             _uiState.update { 
                 it.copy(
                     allCategories = categories, 
@@ -94,79 +103,62 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private fun performSearch() {
         searchJob?.cancel()
         searchJob = viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true) }
-            val allSongs = allSongsCache ?: repository.getSongList().also { allSongsCache = it }
+            _uiState.update { it.copy(isLoading = true, isLoadingMore = false) }
+            val allSongs = allSongsCache ?: withContext(Dispatchers.IO) { repository.getSongList() }.also { allSongsCache = it }
             val allCategories = _uiState.value.allCategories
             val allTags = _uiState.value.allTags
             val query = _uiState.value.query.trim()
             val selectedCategory = _uiState.value.selectedCategory
             val selectedTag = _uiState.value.selectedTag
 
-            val newSongResults: List<Song>
-            val newCategoryResults: List<Category>
-            val newTagResults: List<String>
+            val computeResult = withContext(Dispatchers.Default) {
+                val newCategoryResults: List<Category>
+                val newTagResults: List<String>
+                val songsToFilter: List<Song>
 
-            when {
-                selectedCategory != null -> {
-                    // Search within a category or the "no category" filter
-                    newCategoryResults = emptyList()
-                    newTagResults = emptyList()
-                    val songsToFilter = when (selectedCategory) {
-                        noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
-                        else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
-                    }
-
-                    newSongResults = if (query.isBlank()) {
-                        songsToFilter
-                    } else {
-                        val normalizedQuery = normalize(query)
-                        filterSongsWithNumberPriority(songsToFilter, query, normalizedQuery)
-                    }
-                }
-                selectedTag != null -> {
-                    // Search within a tag
-                    newCategoryResults = emptyList()
-                    newTagResults = emptyList()
-                    val songsToFilter = allSongs.filter { song ->
-                        song.tagi.any { it.equals(selectedTag, ignoreCase = true) }
-                    }
-
-                    newSongResults = if (query.isBlank()) {
-                        songsToFilter
-                    } else {
-                        val normalizedQuery = normalize(query)
-                        filterSongsWithNumberPriority(songsToFilter, query, normalizedQuery)
-                    }
-                }
-                else -> {
-                    // Global search
-                    if (query.isBlank()) {
-                        newCategoryResults = allCategories
-                        newTagResults = allTags
-                        newSongResults = emptyList()
-                    } else {
-                        val normalizedQuery = normalize(query)
-                        
-                        // Filtrowanie kategorii - wykluczamy "Brak kategorii" chyba że dokładnie pasuje
-                        newCategoryResults = allCategories.filter { 
-                            normalize(it.nazwa).contains(normalizedQuery)
+                when {
+                    selectedCategory != null -> {
+                        newCategoryResults = emptyList()
+                        newTagResults = emptyList()
+                        songsToFilter = when (selectedCategory) {
+                            noCategoryFilter -> allSongs.filter { it.kategoria.isBlank() }
+                            else -> allSongs.filter { it.kategoria.equals(selectedCategory.nazwa, ignoreCase = true) }
                         }
-                        
-                        // Filtrowanie tagów
+                    }
+                    selectedTag != null -> {
+                        newCategoryResults = emptyList()
+                        newTagResults = emptyList()
+                        songsToFilter = allSongs.filter { song ->
+                            song.tagi.any { it.equals(selectedTag, ignoreCase = true) }
+                        }
+                    }
+                    else -> {
+                        if (query.isBlank()) {
+                            return@withContext Triple(emptyList<Song>(), allCategories, allTags)
+                        }
+                        val normalizedQuery = normalize(query)
+                        newCategoryResults = allCategories.filter { normalize(it.nazwa).contains(normalizedQuery) }
                         newTagResults = allTags.filter { normalize(it).contains(normalizedQuery) }
-                        
-                        // Filtrowanie pieśni z obsługą wyszukiwania numerycznego
-                        newSongResults = filterSongsWithNumberPriority(allSongs, query, normalizedQuery)
+                        songsToFilter = allSongs
                     }
                 }
+
+                val normalizedQuery = normalize(query)
+                val filtered = if (query.isBlank()) songsToFilter else filterSongsWithNumberPriority(songsToFilter, query, normalizedQuery)
+                val sorted = sortSongsWithNumericPriority(filtered, query)
+                Triple(sorted, newCategoryResults, newTagResults)
             }
 
+            lastResults = computeResult.first
+            visibleCount = if (lastResults.isEmpty()) 0 else minOf(pageSize, lastResults.size)
             _uiState.update { it.copy(
-                songResults = sortSongsWithNumericPriority(newSongResults, query),
-                categoryResults = newCategoryResults.sortedBy { it.nazwa },
-                tagResults = newTagResults.sorted(),
-                isLoading = false
-            )}
+                songResults = if (visibleCount == 0) emptyList() else lastResults.take(visibleCount),
+                categoryResults = computeResult.second.sortedBy { it.nazwa },
+                tagResults = computeResult.third.sorted(),
+                hasMore = visibleCount < lastResults.size,
+                isLoading = false,
+                isLoadingMore = false
+            ) }
         }
     }
 
@@ -225,36 +217,25 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             // 2. Częściowe dopasowania (posortowane alfabetycznie)
             songs
         } else if (trimmedQuery.isNotEmpty()) {
-            // Dla zapytań nienumerycznych priorytetyzujemy według pozycji frazy
             val normalizedQuery = normalize(trimmedQuery)
-            
-            songs.sortedWith(compareBy<Song> { song ->
-                // Znajdź najwcześniejszą pozycję frazy w tytule lub treści
-                var minIndex = Int.MAX_VALUE
-                
-                // Sprawdź tytuł jeśli wyszukiwanie w tytule jest włączone
-                if (_uiState.value.searchInTitle) {
-                    val normalizedTitle = normalize(song.tytul)
-                    val titleIndex = normalizedTitle.indexOf(normalizedQuery)
-                    if (titleIndex >= 0 && titleIndex < minIndex) {
-                        minIndex = titleIndex
+
+            songs
+                .map { song ->
+                    var minIndex = Int.MAX_VALUE
+                    if (_uiState.value.searchInTitle) {
+                        val normalizedTitle = normalize(song.tytul)
+                        val titleIndex = normalizedTitle.indexOf(normalizedQuery)
+                        if (titleIndex >= 0 && titleIndex < minIndex) minIndex = titleIndex
                     }
-                }
-                
-                // Sprawdź treść jeśli wyszukiwanie w treści jest włączone
-                if (_uiState.value.searchInContent && song.tekst != null) {
-                    val normalizedContent = normalize(song.tekst)
-                    val contentIndex = normalizedContent.indexOf(normalizedQuery)
-                    if (contentIndex >= 0 && contentIndex < minIndex) {
-                        minIndex = contentIndex
+                    if (_uiState.value.searchInContent && song.tekst != null) {
+                        val normalizedContent = normalize(song.tekst)
+                        val contentIndex = normalizedContent.indexOf(normalizedQuery)
+                        if (contentIndex >= 0 && contentIndex < minIndex) minIndex = contentIndex
                     }
+                    Pair(song, minIndex)
                 }
-                
-                minIndex
-            }.thenBy { song ->
-                // Przy tym samym indeksie sortujemy alfabetycznie
-                song.tytul
-            })
+                .sortedWith(compareBy<Pair<Song, Int>> { it.second }.thenBy { it.first.tytul })
+                .map { it.first }
         } else {
             // Dla pustego zapytania stosujemy standardowe sortowanie
             sortSongs(songs)
@@ -263,7 +244,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
 
     private fun normalize(text: String?): String {
         if (text == null) return ""
-        val withoutSpecialChars = text.replace(Regex("[^\\p{L}\\p{N}\\s]"), "")
+        val withoutSpecialChars = text.replace(nonWordRegex, "")
         return withoutSpecialChars.lowercase(Locale.getDefault())
     }
 
@@ -428,6 +409,27 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                     performSearch()
                 }
                 onDismissDeleteDialog()
+            }
+        }
+    }
+
+    fun loadMoreResults() {
+        val current = _uiState.value
+        if (!current.hasMore || current.isLoading || current.isLoadingMore) return
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoadingMore = true) }
+            val newVisible = minOf(visibleCount + pageSize, lastResults.size)
+            if (newVisible != visibleCount) {
+                visibleCount = newVisible
+                _uiState.update {
+                    it.copy(
+                        songResults = lastResults.take(visibleCount),
+                        hasMore = visibleCount < lastResults.size,
+                        isLoadingMore = false
+                    )
+                }
+            } else {
+                _uiState.update { it.copy(hasMore = false, isLoadingMore = false) }
             }
         }
     }

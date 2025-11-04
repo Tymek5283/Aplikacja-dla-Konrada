@@ -57,7 +57,7 @@ class DataManager(private val context: Context) {
                 }
             }
 
-            prefs.edit().putInt(dataVersionKey, currentDataVersion).apply()
+            prefs.edit().putInt(dataVersionKey, currentDataVersion).commit()
             Log.d("DataManager", "Kopiowanie danych zakończone sukcesem. Ustawiono wersję na $currentDataVersion.")
         } catch (e: IOException) {
             Log.e("DataManager", "Błąd podczas kopiowania danych z assets.", e)
