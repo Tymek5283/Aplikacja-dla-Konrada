@@ -30,6 +30,7 @@ import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsScreen
 import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.songdetails.SongDetailsViewModelFactory
 import java.net.URLDecoder
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchNavigationCoordinator
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
@@ -119,11 +120,11 @@ internal fun MainAppHost() {
                 onNavigateToContent = { song, startInEdit -> navController.navigate(Screen.SongContent.createRoute(song, startInEdit)) },
                 onNavigateToTagManagement = { navController.navigate(Screen.TagManagement.route) },
                 onNavigateToTagSearch = { tag ->
-                    // Nawigacja do głównego ekranu z preselektowanym tagiem
-                    // Używamy popUpTo aby wyczyścić stos nawigacji i zapewnić poprawne działanie przycisku wstecz
-                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}") {
-                        popUpTo("main_tabs") { inclusive = true }
-                    }
+                    // Ustaw znacznik, że pierwszy back powinien wrócić do ekranu pieśni,
+                    // a nie do stanu głównego wyszukiwarki
+                    SearchNavigationCoordinator.requestOpenTag(tag, deferBack = true)
+                    // Nawigacja do głównego ekranu z preselektowanym tagiem.
+                    navController.navigate("main_tabs?selectedTag=${java.net.URLEncoder.encode(tag, "UTF-8")}")
                 }
             )
         }

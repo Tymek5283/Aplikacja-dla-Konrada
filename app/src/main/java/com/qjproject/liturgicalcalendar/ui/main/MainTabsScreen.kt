@@ -52,6 +52,7 @@ import com.qjproject.liturgicalcalendar.ui.screens.browse.BrowseViewModelFactory
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarScreen.CalendarScreen
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.calendar.CalendarViewModel.CalendarViewModelFactory
+import com.qjproject.liturgicalcalendar.ui.screens.search.SearchNavigationCoordinator
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchScreen
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModel
 import com.qjproject.liturgicalcalendar.ui.screens.search.SearchViewModelFactory
@@ -157,7 +158,11 @@ internal fun MainTabsScreen(
                 }
             }
             isSearchScreenActive && searchUiState.isBackButtonVisible -> {
-                searchViewModel.onNavigateBack()
+                if (SearchNavigationCoordinator.consumeDeferBackFlag()) {
+                    navController.navigateUp()
+                } else {
+                    searchViewModel.onNavigateBack()
+                }
             }
             else -> {
                 // Allow default back behavior for other cases
@@ -185,7 +190,11 @@ internal fun MainTabsScreen(
                     if (isBrowseScreenActive) {
                         browseViewModel.onBackPress()
                     } else if (isSearchScreenActive) {
-                        searchViewModel.onNavigateBack()
+                        if (SearchNavigationCoordinator.consumeDeferBackFlag()) {
+                            navController.navigateUp()
+                        } else {
+                            searchViewModel.onNavigateBack()
+                        }
                     }
                 },
                 isBrowseScreenInEditMode = isBrowseScreenActive && browseUiState.isEditMode,

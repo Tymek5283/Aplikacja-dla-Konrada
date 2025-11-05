@@ -12,7 +12,6 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -20,10 +19,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleEventObserver
 import com.qjproject.liturgicalcalendar.data.Song
 
 @Composable
@@ -32,21 +28,8 @@ fun SearchScreen(
     onNavigateToSong: (Song) -> Unit,
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val lifecycleOwner = LocalLifecycleOwner.current
     val rootListState = rememberSaveable(saver = LazyListState.Saver) { LazyListState() }
-    val nestedListState = remember(uiState.selectedCategory, uiState.selectedTag) { LazyListState() }
-
-    DisposableEffect(lifecycleOwner) {
-        val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME) {
-                viewModel.reloadData()
-            }
-        }
-        lifecycleOwner.lifecycle.addObserver(observer)
-        onDispose {
-            lifecycleOwner.lifecycle.removeObserver(observer)
-        }
-    }
+    val nestedListState = rememberSaveable(uiState.selectedCategory?.nazwa, uiState.selectedTag, saver = LazyListState.Saver) { LazyListState() }
 
     LaunchedEffect(uiState.resetToTopEventId) {
         if (uiState.resetToTopEventId > 0) {
@@ -123,7 +106,10 @@ fun SearchScreen(
                     onCategoryClick = { viewModel.onCategorySelected(it) },
                     onTagClick = { viewModel.onTagSelected(it) },
                     onNoCategoryClick = { viewModel.onNoCategorySelected() },
-                    onSongClick = onNavigateToSong,
+                    onSongClick = { song ->
+                        viewModel.onSongOpened(song)
+                        onNavigateToSong(song)
+                    },
                     onSongLongClick = { viewModel.onSongLongPress(it) },
                     hasMore = uiState.hasMore,
                     isLoadingMore = uiState.isLoadingMore,

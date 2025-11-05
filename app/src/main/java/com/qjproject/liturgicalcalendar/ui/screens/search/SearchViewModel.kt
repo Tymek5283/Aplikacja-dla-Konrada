@@ -44,6 +44,7 @@ data class SearchUiState(
     val selectedCategory: Category? = null,
     val selectedTag: String? = null,
     val resetToTopEventId: Int = 0,
+    val rootQueryBeforeEnter: String? = null,
     val hasMore: Boolean = false,
     val isLoadingMore: Boolean = false
 ) {
@@ -62,6 +63,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     private var visibleCount: Int = 0
     private val pageSize: Int = 25
     private val nonWordRegex = Regex("[^\\p{L}\\p{N}\\s]")
+    private var lastSearchKey: String? = null
 
     private val noCategoryFilter = Category("Brak kategorii", "")
 
@@ -78,7 +80,6 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
         allSongsCache = null
         repository.invalidateAllCaches()
         loadInitialData()
-        performSearch()
     }
 
     private fun loadInitialData() {
@@ -88,28 +89,40 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             val tags = withContext(Dispatchers.IO) { repository.getTagList().sorted() }
             val songs = withContext(Dispatchers.IO) { repository.getSongList() }
             allSongsCache = songs
-            _uiState.update { 
+            _uiState.update {
                 it.copy(
-                    allCategories = categories, 
-                    allTags = tags,
-                    isLoading = false, 
-                    categoryResults = categories,
-                    tagResults = tags
-                ) 
+                    allCategories = categories,
+                    allTags = tags
+                )
             }
+            performSearch()
         }
     }
 
     private fun performSearch() {
         searchJob?.cancel()
         searchJob = viewModelScope.launch {
-            _uiState.update { it.copy(isLoading = true, isLoadingMore = false) }
+            val hadCache = allSongsCache != null
+            _uiState.update { it.copy(isLoading = if (!hadCache) true else it.isLoading, isLoadingMore = false) }
             val allSongs = allSongsCache ?: withContext(Dispatchers.IO) { repository.getSongList() }.also { allSongsCache = it }
             val allCategories = _uiState.value.allCategories
             val allTags = _uiState.value.allTags
             val query = _uiState.value.query.trim()
             val selectedCategory = _uiState.value.selectedCategory
             val selectedTag = _uiState.value.selectedTag
+            val searchKey = buildString {
+                append(selectedCategory?.nazwa ?: "")
+                append('|')
+                append(selectedTag ?: "")
+                append('|')
+                append(normalize(query))
+                append('|')
+                append(_uiState.value.searchInTitle)
+                append('|')
+                append(_uiState.value.searchInContent)
+                append('|')
+                append(_uiState.value.sortMode.name)
+            }
 
             val computeResult = withContext(Dispatchers.Default) {
                 val newCategoryResults: List<Category>
@@ -150,7 +163,9 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
             }
 
             lastResults = computeResult.first
-            visibleCount = if (lastResults.isEmpty()) 0 else minOf(pageSize, lastResults.size)
+            val shouldKeepVisible = (lastSearchKey != null && lastSearchKey == searchKey)
+            val newVisible = if (lastResults.isEmpty()) 0 else if (shouldKeepVisible) minOf(visibleCount, lastResults.size) else minOf(pageSize, lastResults.size)
+            visibleCount = newVisible
             _uiState.update { it.copy(
                 songResults = if (visibleCount == 0) emptyList() else lastResults.take(visibleCount),
                 categoryResults = computeResult.second.sortedBy { it.nazwa },
@@ -159,6 +174,7 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 isLoading = false,
                 isLoadingMore = false
             ) }
+            lastSearchKey = searchKey
         }
     }
 
@@ -169,7 +185,13 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onCategorySelected(category: Category) {
-        _uiState.update { it.copy(selectedCategory = category, query = "") }
+        _uiState.update { current ->
+            current.copy(
+                rootQueryBeforeEnter = if (current.selectedCategory == null && current.selectedTag == null && current.rootQueryBeforeEnter == null) current.query else current.rootQueryBeforeEnter,
+                selectedCategory = category,
+                query = ""
+            )
+        }
         performSearch()
     }
 
@@ -179,12 +201,19 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
     }
 
     fun onTagSelected(tag: String) {
-        _uiState.update { it.copy(selectedTag = tag, query = "") }
+        _uiState.update { current ->
+            current.copy(
+                rootQueryBeforeEnter = if (current.selectedCategory == null && current.selectedTag == null && current.rootQueryBeforeEnter == null) current.query else current.rootQueryBeforeEnter,
+                selectedTag = tag,
+                query = ""
+            )
+        }
         performSearch()
     }
 
     fun onNavigateBack() {
-        _uiState.update { it.copy(selectedCategory = null, selectedTag = null, query = "") }
+        val rootQuery = _uiState.value.rootQueryBeforeEnter
+        _uiState.update { it.copy(selectedCategory = null, selectedTag = null, query = rootQuery ?: it.query, rootQueryBeforeEnter = null) }
         performSearch()
     }
 
@@ -430,6 +459,23 @@ class SearchViewModel(private val repository: FileSystemRepository) : ViewModel(
                 }
             } else {
                 _uiState.update { it.copy(hasMore = false, isLoadingMore = false) }
+            }
+        }
+    }
+
+    fun onSongOpened(song: Song) {
+        val index = lastResults.indexOfFirst { it == song }
+        if (index >= 0) {
+            val requiredVisible = ((index / pageSize) + 1) * pageSize
+            val newVisible = minOf(maxOf(visibleCount, requiredVisible), lastResults.size)
+            if (newVisible != visibleCount) {
+                visibleCount = newVisible
+                _uiState.update {
+                    it.copy(
+                        songResults = lastResults.take(visibleCount),
+                        hasMore = visibleCount < lastResults.size
+                    )
+                }
             }
         }
     }
